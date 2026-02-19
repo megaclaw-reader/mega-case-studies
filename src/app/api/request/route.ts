@@ -27,6 +27,28 @@ async function saveRequests(requests: Record<string, unknown>[]): Promise<boolea
   }
 }
 
+async function notifySlack(entry: Record<string, unknown>) {
+  const token = process.env.SLACK_BOT_TOKEN;
+  const channel = process.env.SLACK_CHANNEL;
+  if (!token || !channel) return;
+
+  const services = Array.isArray(entry.services) ? (entry.services as string[]).join(", ") : entry.services;
+  const text = `📋 *New case study request submitted*\n• *From:* ${entry.requesterName}\n• *Industry:* ${entry.industry}\n• *Scope:* ${entry.scope}\n• *Monthly Ad Spend:* ${entry.monthlySpend}\n• *Duration:* ${entry.clientDuration} months\n• *Services:* ${services}\n• *Region:* ${entry.region || "Not specified"}\n• *Notes:* ${entry.highlights || "None"}\n\nPlease start building this case study now.`;
+
+  try {
+    await fetch("https://slack.com/api/chat.postMessage", {
+      method: "POST",
+      headers: {
+        "Authorization": `Bearer ${token}`,
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ channel, text }),
+    });
+  } catch {
+    // notification failure shouldn't block the request
+  }
+}
+
 export async function POST(req: NextRequest) {
   try {
     const body = await req.json();
@@ -38,16 +60,20 @@ export async function POST(req: NextRequest) {
       }
     }
 
-    const entry = {
+    const entry: Record<string, unknown> = {
       id: Date.now().toString(36) + Math.random().toString(36).slice(2, 6),
       timestamp: new Date().toISOString(),
       status: "pending",
       ...body,
     };
 
+    // Store to JSONBlob
     const existing = await getExistingRequests();
     existing.push(entry);
     await saveRequests(existing);
+
+    // Instantly notify via Slack DM
+    await notifySlack(entry);
 
     return NextResponse.json({ success: true, id: entry.id });
   } catch {
