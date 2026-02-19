@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-primary: #2965FF;
+  --color-accent: #4A7DFF;
+  --color-bg: #FDFDFD;
+  --color-text-muted: #6B7280;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #FDFDFD;
+  color: #1a1a1a;
+  font-family: 'Satoshi', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
