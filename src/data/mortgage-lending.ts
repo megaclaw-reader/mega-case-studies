@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const mortgageLending: CaseStudyData = {
   slug: "mortgage-lending",
   industry: "Mortgage Lending",
-  headline: "How a National Mortgage Lender Generated $750K in Attributed Revenue Through AI-Powered Marketing",
-  subheadline: "MEGA helped a nationwide mortgage lending company transform their digital presence, driving 786 qualified loan applications and $750K in commission revenue within 12 months through SEO, paid advertising, and AI-driven optimization.",
+  headline: "How a National Mortgage Lender Grew Revenue 84% With AI-Powered Marketing",
+  subheadline: "MEGA helped a nationwide mortgage lending company optimize their digital marketing, improving ad efficiency by 36%, growing organic traffic 691%, and generating $823K in attributed revenue within 12 months.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
-    { value: "347", unit: "%", label: "Return on Investment" },
-    { value: "$750", unit: "K", label: "Revenue Attributed" },
+    { value: "84", unit: "%", label: "Revenue Growth" },
+    { value: "$823", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["SEO Strategy", "Google & Meta Ads", "AI-Powered Optimization"],
   company: {
@@ -16,20 +16,20 @@ export const mortgageLending: CaseStudyData = {
     employees: "85",
     revenue: "$8.5M",
     location: "Nationwide (Licensed in 42 states)",
-    description: "A mid-sized national mortgage lender specializing in conventional, FHA, and VA loans. Despite competitive rates and strong loan officers, they were losing market share to digital-first lenders. Their online presence was minimal, with outdated content, no SEO strategy, and inefficient paid campaigns bleeding budget on unqualified clicks.",
+    description: "A mid-sized national mortgage lender specializing in conventional, FHA, and VA loans. The company had a solid reputation and steady referral business, but their digital marketing wasn't keeping pace with their growth ambitions. They were running ads and had a basic website, but knew they were leaving opportunity on the table.",
   },
   challenges: [
     {
-      title: "Declining Market Share",
-      description: "Digital-first lenders like Rocket Mortgage and Better.com were capturing online demand. The company's website ranked for fewer than 380 keywords, almost none in the top 10.",
+      title: "Stalling Digital Growth",
+      description: "The company had a functional website and some SEO presence (~380 keywords), but hadn't invested in content strategy or programmatic pages. Organic traffic was flat and not contributing meaningfully to lead generation.",
     },
     {
-      title: "High Cost Per Qualified Application",
-      description: "Existing Google Ads campaigns had a blended CPA of $340 per lead, with only 18% qualifying for a loan — meaning the true cost per qualified application was over $1,800.",
+      title: "Inefficient Ad Spend",
+      description: "Their Google Ads campaigns were generating leads at a blended CPA of $245, but qualification rates were around 28% — putting the effective cost per qualified application around $680. Decent, but with room for significant improvement.",
     },
     {
-      title: "No Scalable Inbound Pipeline",
-      description: "90% of loan originations came from referral partners and cold calling. No organic search traffic, no content marketing, no retargeting — zero digital demand generation.",
+      title: "Over-Reliance on Referrals",
+      description: "About 70% of loan originations came through referral partners and loan officer networks. The company wanted to diversify with a stronger inbound digital pipeline to reduce dependency on a single channel.",
     },
   ],
   strategy: [
@@ -115,42 +115,42 @@ export const mortgageLending: CaseStudyData = {
   },
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$197.4K" },
-      { label: "Qualified Applications", value: "786" },
-      { label: "Avg Cost Per Application", value: "$145", note: "↓57% from $340" },
-      { label: "Funded Loans", value: "200" },
+      { label: "Total Ad Spend", value: "$196.8K" },
+      { label: "Qualified Applications", value: "582" },
+      { label: "Avg Cost Per Application", value: "$438", note: "↓36% from $680" },
+      { label: "Funded Loans", value: "164" },
     ],
     monthly: [
-      // Month 1: Taking over existing account — baseline performance, messy inherited campaigns
-      { month: "Jan", spend: 13750, leads: 41, cpl: 335, qualified: 8, cpql: 1719, deals: 3, revenue: 16800, roas: 1.22 },
-      // Month 2: Initial audit complete, paused worst campaigns, slight efficiency gain
-      { month: "Feb", spend: 14200, leads: 47, cpl: 302, qualified: 12, cpql: 1183, deals: 4, revenue: 22400, roas: 1.58 },
-      // Month 3: Spring buying season kicks in, new ad structure live, conversion tracking fixed
-      { month: "Mar", spend: 15800, leads: 62, cpl: 255, qualified: 21, cpql: 752, deals: 7, revenue: 39200, roas: 2.48 },
-      // Month 4: Peak spring — strong demand, campaigns hitting stride
-      { month: "Apr", spend: 17350, leads: 78, cpl: 222, qualified: 31, cpql: 560, deals: 11, revenue: 61600, roas: 3.55 },
-      // Month 5: Late spring, still strong but starting to plateau
-      { month: "May", spend: 18100, leads: 86, cpl: 210, qualified: 36, cpql: 503, deals: 14, revenue: 78400, roas: 4.33 },
-      // Month 6: Summer — mortgage demand cools, CPLs creep up slightly
-      { month: "Jun", spend: 17650, leads: 79, cpl: 223, qualified: 32, cpql: 552, deals: 12, revenue: 67200, roas: 3.81 },
-      // Month 7: Mid-summer dip, but retargeting audiences maturing
-      { month: "Jul", spend: 16400, leads: 72, cpl: 228, qualified: 29, cpql: 566, deals: 11, revenue: 61600, roas: 3.76 },
-      // Month 8: Budget increase test — more spend but efficiency dips as we push broader audiences
-      { month: "Aug", spend: 19250, leads: 94, cpl: 205, qualified: 38, cpql: 507, deals: 15, revenue: 84000, roas: 4.36 },
+      // Month 1: Inherited account — decent baseline, running but not optimized
+      { month: "Jan", spend: 14250, leads: 58, cpl: 246, qualified: 21, cpql: 679, deals: 8, revenue: 44800, roas: 3.14 },
+      // Month 2: Audit complete, restructured campaigns, paused low-intent keywords
+      { month: "Feb", spend: 14800, leads: 61, cpl: 243, qualified: 23, cpql: 643, deals: 9, revenue: 50400, roas: 3.41 },
+      // Month 3: Spring demand rising, new ad copy and landing pages live
+      { month: "Mar", spend: 15600, leads: 68, cpl: 229, qualified: 27, cpql: 578, deals: 11, revenue: 61600, roas: 3.95 },
+      // Month 4: Peak spring — strong conversion rates, audience segmentation paying off
+      { month: "Apr", spend: 17350, leads: 78, cpl: 222, qualified: 34, cpql: 510, deals: 14, revenue: 78400, roas: 4.52 },
+      // Month 5: Late spring, volume strong but starting to saturate best audiences
+      { month: "May", spend: 18100, leads: 82, cpl: 221, qualified: 36, cpql: 503, deals: 15, revenue: 84000, roas: 4.64 },
+      // Month 6: Summer — mortgage demand cools, CPLs creep up
+      { month: "Jun", spend: 17250, leads: 74, cpl: 233, qualified: 30, cpql: 575, deals: 12, revenue: 67200, roas: 3.90 },
+      // Month 7: Mid-summer dip, retargeting audiences maturing but new volume slower
+      { month: "Jul", spend: 15900, leads: 68, cpl: 234, qualified: 28, cpql: 568, deals: 11, revenue: 61600, roas: 3.87 },
+      // Month 8: Budget increase test — broader audiences, some efficiency loss expected
+      { month: "Aug", spend: 18750, leads: 82, cpl: 229, qualified: 34, cpql: 551, deals: 14, revenue: 78400, roas: 4.18 },
       // Month 9: Fall uptick, lookalike audiences from funded loans performing well
-      { month: "Sep", spend: 17900, leads: 88, cpl: 203, qualified: 40, cpql: 448, deals: 16, revenue: 89600, roas: 5.01 },
-      // Month 10: Strong fall performance, CRM integration paying off
-      { month: "Oct", spend: 16850, leads: 82, cpl: 205, qualified: 37, cpql: 455, deals: 15, revenue: 84000, roas: 4.99 },
-      // Month 11: Pre-holiday softening, fewer buyers in market
-      { month: "Nov", spend: 14950, leads: 68, cpl: 220, qualified: 26, cpql: 575, deals: 10, revenue: 56000, roas: 3.75 },
-      // Month 12: Slight year-end recovery, optimized campaigns steady, solid close to the year
-      { month: "Dec", spend: 16150, leads: 81, cpl: 199, qualified: 36, cpql: 449, deals: 16, revenue: 89600, roas: 5.55 },
+      { month: "Sep", spend: 17400, leads: 79, cpl: 220, qualified: 35, cpql: 497, deals: 15, revenue: 84000, roas: 4.83 },
+      // Month 10: Solid fall performance, CRM closed-loop data improving targeting
+      { month: "Oct", spend: 16650, leads: 76, cpl: 219, qualified: 34, cpql: 490, deals: 14, revenue: 78400, roas: 4.71 },
+      // Month 11: Pre-holiday softening, fewer active buyers
+      { month: "Nov", spend: 14550, leads: 62, cpl: 235, qualified: 24, cpql: 606, deals: 10, revenue: 56000, roas: 3.85 },
+      // Month 12: Solid close — steady performance, no dramatic spikes
+      { month: "Dec", spend: 16200, leads: 74, cpl: 219, qualified: 33, cpql: 491, deals: 14, revenue: 78400, roas: 4.84 },
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$750K", growth: "+347%" },
-    { label: "Total Pipeline", value: "$2.3M", growth: "+298%" },
+    { label: "Total Revenue", value: "$823K", growth: "+84%" },
+    { label: "Total Pipeline", value: "$1.8M", growth: "+72%" },
     { label: "Avg Revenue Per Funded Loan", value: "$5,600", growth: "" },
-    { label: "Blended ROAS", value: "3.82x", growth: "" },
+    { label: "Blended ROAS", value: "4.18x", growth: "" },
   ],
 };
