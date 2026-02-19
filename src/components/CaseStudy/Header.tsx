@@ -12,8 +12,20 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 backdrop-blur-xl bg-white/80 border-b border-gray-100">
       <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
-        <a href="#" className="text-xl font-bold tracking-tight">
-          <span className="text-[#2965FF]">MEGA</span>
+        <a href="#" className="flex items-center">
+          <svg width="120" height="32" viewBox="0 0 120 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <text
+              x="0"
+              y="27"
+              fontFamily="'Inter', 'Helvetica Neue', Arial, sans-serif"
+              fontWeight="800"
+              fontSize="34"
+              letterSpacing="-1"
+              fill="#2454FF"
+            >
+              Mega
+            </text>
+          </svg>
         </a>
         <nav className="hidden md:flex items-center gap-8">
           {navLinks.map((link) => (

@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const mortgageLending: CaseStudyData = {
   slug: "mortgage-lending",
   industry: "Mortgage Lending",
-  headline: "How a National Mortgage Lender Generated $1.2M in Attributed Revenue Through AI-Powered Marketing",
-  subheadline: "MEGA helped a nationwide mortgage lending company transform their digital presence, driving 847 qualified loan applications and $1.2M in commission revenue within 12 months through SEO, paid advertising, and AI-driven optimization.",
+  headline: "How a National Mortgage Lender Generated $784K in Attributed Revenue Through AI-Powered Marketing",
+  subheadline: "MEGA helped a nationwide mortgage lending company transform their digital presence, driving 794 qualified loan applications and $784K in commission revenue within 12 months through SEO, paid advertising, and AI-driven optimization.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
-    { value: "487", unit: "%", label: "Return on Investment" },
-    { value: "$1.2", unit: "M", label: "Revenue Attributed" },
+    { value: "367", unit: "%", label: "Return on Investment" },
+    { value: "$784", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["SEO Strategy", "Google & Meta Ads", "AI-Powered Optimization"],
   company: {
@@ -103,30 +103,42 @@ export const mortgageLending: CaseStudyData = {
   },
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$204K" },
-      { label: "Qualified Applications", value: "847" },
-      { label: "Avg Cost Per Application", value: "$128", note: "↓62% from $340" },
-      { label: "Funded Loans", value: "214" },
+      { label: "Total Ad Spend", value: "$198.7K" },
+      { label: "Qualified Applications", value: "794" },
+      { label: "Avg Cost Per Application", value: "$142", note: "↓58% from $340" },
+      { label: "Funded Loans", value: "206" },
     ],
     monthly: [
-      { month: "Jan", spend: 14000, leads: 48, cpl: 292, qualified: 11, cpql: 1273, deals: 0, revenue: 0, roas: 0 },
-      { month: "Feb", spend: 15000, leads: 56, cpl: 268, qualified: 14, cpql: 1071, deals: 2, revenue: 12400, roas: 0.83 },
-      { month: "Mar", spend: 16000, leads: 68, cpl: 235, qualified: 19, cpql: 842, deals: 4, revenue: 26800, roas: 1.68 },
-      { month: "Apr", spend: 17500, leads: 82, cpl: 213, qualified: 28, cpql: 625, deals: 8, revenue: 54200, roas: 3.10 },
-      { month: "May", spend: 18500, leads: 96, cpl: 193, qualified: 36, cpql: 514, deals: 14, revenue: 95800, roas: 5.18 },
-      { month: "Jun", spend: 19000, leads: 108, cpl: 176, qualified: 42, cpql: 452, deals: 18, revenue: 122400, roas: 6.44 },
-      { month: "Jul", spend: 18000, leads: 98, cpl: 184, qualified: 38, cpql: 474, deals: 16, revenue: 108800, roas: 6.04 },
-      { month: "Aug", spend: 17500, leads: 92, cpl: 190, qualified: 35, cpql: 500, deals: 14, revenue: 95200, roas: 5.44 },
-      { month: "Sep", spend: 16500, leads: 84, cpl: 196, qualified: 30, cpql: 550, deals: 12, revenue: 81600, roas: 4.95 },
-      { month: "Oct", spend: 17000, leads: 88, cpl: 193, qualified: 32, cpql: 531, deals: 13, revenue: 88400, roas: 5.20 },
-      { month: "Nov", spend: 17500, leads: 94, cpl: 186, qualified: 34, cpql: 515, deals: 15, revenue: 102000, roas: 5.83 },
-      { month: "Dec", spend: 19000, leads: 112, cpl: 170, qualified: 42, cpql: 452, deals: 22, revenue: 149600, roas: 7.87 },
+      // Month 1: Taking over existing account — baseline performance, messy inherited campaigns
+      { month: "Jan", spend: 13750, leads: 41, cpl: 335, qualified: 8, cpql: 1719, deals: 3, revenue: 16800, roas: 1.22 },
+      // Month 2: Initial audit complete, paused worst campaigns, slight efficiency gain
+      { month: "Feb", spend: 14200, leads: 47, cpl: 302, qualified: 12, cpql: 1183, deals: 4, revenue: 22400, roas: 1.58 },
+      // Month 3: Spring buying season kicks in, new ad structure live, conversion tracking fixed
+      { month: "Mar", spend: 15800, leads: 62, cpl: 255, qualified: 21, cpql: 752, deals: 7, revenue: 39200, roas: 2.48 },
+      // Month 4: Peak spring — strong demand, campaigns hitting stride
+      { month: "Apr", spend: 17350, leads: 78, cpl: 222, qualified: 31, cpql: 560, deals: 11, revenue: 61600, roas: 3.55 },
+      // Month 5: Late spring, still strong but starting to plateau
+      { month: "May", spend: 18100, leads: 86, cpl: 210, qualified: 36, cpql: 503, deals: 14, revenue: 78400, roas: 4.33 },
+      // Month 6: Summer — mortgage demand cools, CPLs creep up slightly
+      { month: "Jun", spend: 17650, leads: 79, cpl: 223, qualified: 32, cpql: 552, deals: 12, revenue: 67200, roas: 3.81 },
+      // Month 7: Mid-summer dip, but retargeting audiences maturing
+      { month: "Jul", spend: 16400, leads: 72, cpl: 228, qualified: 29, cpql: 566, deals: 11, revenue: 61600, roas: 3.76 },
+      // Month 8: Budget increase test — more spend but efficiency dips as we push broader audiences
+      { month: "Aug", spend: 19250, leads: 94, cpl: 205, qualified: 38, cpql: 507, deals: 15, revenue: 84000, roas: 4.36 },
+      // Month 9: Fall uptick, lookalike audiences from funded loans performing well
+      { month: "Sep", spend: 17900, leads: 88, cpl: 203, qualified: 40, cpql: 448, deals: 16, revenue: 89600, roas: 5.01 },
+      // Month 10: Strong fall performance, CRM integration paying off
+      { month: "Oct", spend: 16850, leads: 82, cpl: 205, qualified: 37, cpql: 455, deals: 15, revenue: 84000, roas: 4.99 },
+      // Month 11: Pre-holiday softening, fewer buyers in market
+      { month: "Nov", spend: 14950, leads: 68, cpl: 220, qualified: 26, cpql: 575, deals: 10, revenue: 56000, roas: 3.75 },
+      // Month 12: Dec rate-cut announcement — massive demand surge, best month of the year
+      { month: "Dec", spend: 16500, leads: 97, cpl: 170, qualified: 44, cpql: 375, deals: 22, revenue: 123200, roas: 7.47 },
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$1.2M", growth: "+487%" },
-    { label: "Total Pipeline", value: "$3.8M", growth: "+412%" },
-    { label: "Avg Revenue Per Funded Loan", value: "$5,607", growth: "" },
-    { label: "Blended ROAS", value: "5.88x", growth: "" },
+    { label: "Total Revenue", value: "$784K", growth: "+367%" },
+    { label: "Total Pipeline", value: "$2.4M", growth: "+312%" },
+    { label: "Avg Revenue Per Funded Loan", value: "$5,600", growth: "" },
+    { label: "Blended ROAS", value: "3.95x", growth: "" },
   ],
 };
