@@ -5,11 +5,6 @@ import { useState } from "react";
 const SERVICES = [
   "SEO",
   "Paid Advertising",
-  "Web Design",
-  "Social Media",
-  "Content Marketing",
-  "Email Marketing",
-  "CRM Setup",
 ];
 
 export default function RequestPage() {
