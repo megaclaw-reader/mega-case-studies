@@ -4,13 +4,13 @@ export const mortgageLending: CaseStudyData = {
   slug: "mortgage-lending",
   industry: "Mortgage Lending",
   headline: "How a National Mortgage Lender Grew Revenue 84% With AI-Powered Marketing",
-  subheadline: "MEGA helped a nationwide mortgage lending company optimize their digital marketing, improving ad efficiency by 36%, growing organic traffic 691%, and generating $823K in attributed revenue within 12 months.",
+  subheadline: "MEGA helped a nationwide mortgage lending company optimize their digital marketing, improving ad efficiency by 35%, growing organic traffic 691%, and generating $823K in attributed revenue within 12 months.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
     { value: "84", unit: "%", label: "Revenue Growth" },
     { value: "$823", unit: "K", label: "Revenue Attributed" },
   ],
-  tags: ["SEO Strategy", "Google & Meta Ads", "AI-Powered Optimization"],
+  tags: ["SEO Strategy", "Paid Advertising", "AI-Powered Optimization"],
   company: {
     industry: "Mortgage Lending",
     employees: "85",
@@ -25,7 +25,7 @@ export const mortgageLending: CaseStudyData = {
     },
     {
       title: "Inefficient Ad Spend",
-      description: "Their Google Ads campaigns were generating leads at a blended CPA of $245, but qualification rates were around 28% — putting the effective cost per qualified application around $680. Decent, but with room for significant improvement.",
+      description: "Their ad campaigns were generating leads at a blended CPA of $245, but qualification rates were around 28% — putting the effective cost per qualified application around $680. Decent, but with room for significant improvement.",
     },
     {
       title: "Over-Reliance on Referrals",
@@ -35,47 +35,66 @@ export const mortgageLending: CaseStudyData = {
   strategy: [
     {
       phase: 1,
-      months: "1–3",
-      title: "Foundation",
+      months: "0–30 days",
+      title: "Foundation & Quick Wins",
       items: [
-        "Technical SEO audit & site architecture overhaul",
-        'Programmatic city/state landing pages ("mortgage rates in [city]")',
-        "Ad pixel setup & conversion tracking across all platforms",
-        "First 60 blog posts (first-time buyer guides, VA loan explainers, refinance calculators)",
-        "Branded search campaigns + competitor conquesting",
+        "Full site audit — sitemap, robots.txt, crawlability, site speed",
+        "Google Search Console & Google Business Profile setup and optimization",
+        "Competitor research and keyword research across all loan types",
+        "Generated 20+ initial articles (first-time buyer guides, VA loan explainers, refinance calculators)",
+        "Content audit and metadata fixes across existing pages",
+        "Technical fixes — image SEO, canonical issues, E-E-A-T best practices",
+        "Full audit of past ad performance and re-instrumented site with proper pixel implementation",
+        "CRM integration for closed-loop lead tracking",
+        "Comprehensive ad strategy built around cost per qualified lead, not just volume",
+        "Reduced spend inefficiencies and launched first round of creative and landing page A/B tests",
       ],
     },
     {
       phase: 2,
-      months: "3–6",
-      title: "Optimization",
+      months: "30–60 days",
+      title: "Content & Optimization Engine",
       items: [
-        "Content velocity increase targeting high-intent keywords",
-        "A/B testing ad creative (rate-focused vs. lifestyle messaging)",
-        "Audience segmentation by loan type (conventional, FHA, VA, refinance)",
-        "Retargeting setup for pre-qualification abandoners",
+        "Reviewed 0–30 day performance data and adjusted strategy",
+        "Generated 20+ additional articles and began updating 5+ existing articles per day",
+        "Launched programmatic city/state landing pages ('mortgage rates in [city]')",
+        "Optimized internal linking structure to strengthen topical authority",
+        "Weekly Google Business Profile posts for local visibility",
+        "Added structured data schema across key pages",
+        "Rapid iterations of ad creative testing across multiple channels",
+        "Retargeting and remarketing layer optimization for pre-qualification abandoners",
+        "Keyword and negative keyword refinement based on qualification data",
+        "Landing page refinement and further A/B testing",
       ],
     },
     {
       phase: 3,
-      months: "5–9",
-      title: "Integration",
+      months: "60–90 days",
+      title: "Scale & Compound",
       items: [
-        "SEO content driving paid audience expansion",
-        "CRM integration for closed-loop attribution (lead → application → funded loan)",
-        "Lookalike audiences from funded loan customers",
-        "Cross-channel attribution modeling",
+        "Reviewed 0–60 day data and rolled out programmatic pages to additional markets",
+        "Continued 5+ article updates per day, refreshed underperforming older content",
+        "Backlink campaigns — organic link building, guest posting, local citation building",
+        "CRO review and keyword cannibalization cleanup",
+        "Advanced schema markup by page type",
+        "AI search crawlability improvements (LLM placement optimization)",
+        "Continuation of rapid creative iterations with complex audience segmentations",
+        "Multi-approach bidding strategies based on campaign maturity",
+        "Lookalike audiences built from funded loan customer data",
+        "Fully robust lead scoring and lead quality solutions via CRM closed-loop data",
       ],
     },
     {
       phase: 4,
-      months: "9–12",
-      title: "Scale",
+      months: "90+ days",
+      title: "Ongoing Optimization",
       items: [
-        "Budget increase on highest-performing markets",
-        "Expansion into new state markets via programmatic pages",
+        "Budget reallocation based on performance — shifted spend to highest-performing markets",
+        "Expansion into new state markets via additional programmatic pages",
         "Dynamic ad creative by loan type and geography",
-        "Complex audience segmentation by credit profile intent signals",
+        "Audience pruning — removed low-performing segments, tested new ones",
+        "Bid strategy tuning based on campaign stage and performance data",
+        "Weekly reporting with channel comparison and actionable recommendations",
       ],
     },
   ],
@@ -114,11 +133,17 @@ export const mortgageLending: CaseStudyData = {
     ],
   },
   paidAds: {
+    // Correct math from monthly data:
+    // Total spend: 14250+14800+15600+17350+18100+17250+15900+18750+17400+16650+14550+16200 = $196,800
+    // Total qualified: 21+23+27+34+36+30+28+34+35+34+24+33 = 359
+    // Avg CPQL: $196,800 / 359 = $548
+    // Total deals: 8+9+11+14+15+12+11+14+15+14+10+14 = 147
+    // Total revenue: 44800+50400+61600+78400+84000+67200+61600+78400+84000+78400+56000+78400 = $823,200
     summary: [
       { label: "Total Ad Spend", value: "$196.8K" },
-      { label: "Qualified Applications", value: "582" },
-      { label: "Avg Cost Per Application", value: "$438", note: "↓36% from $680" },
-      { label: "Funded Loans", value: "164" },
+      { label: "Qualified Applications", value: "359" },
+      { label: "Avg Cost Per Qualified App", value: "$548", note: "↓19% from $680" },
+      { label: "Funded Loans", value: "147" },
     ],
     monthly: [
       // Month 1: Inherited account — decent baseline, running but not optimized
