@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const mortgageLending: CaseStudyData = {
   slug: "mortgage-lending",
   industry: "Mortgage Lending",
-  headline: "How a National Mortgage Lender Generated $784K in Attributed Revenue Through AI-Powered Marketing",
-  subheadline: "MEGA helped a nationwide mortgage lending company transform their digital presence, driving 794 qualified loan applications and $784K in commission revenue within 12 months through SEO, paid advertising, and AI-driven optimization.",
+  headline: "How a National Mortgage Lender Generated $750K in Attributed Revenue Through AI-Powered Marketing",
+  subheadline: "MEGA helped a nationwide mortgage lending company transform their digital presence, driving 786 qualified loan applications and $750K in commission revenue within 12 months through SEO, paid advertising, and AI-driven optimization.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
-    { value: "367", unit: "%", label: "Return on Investment" },
-    { value: "$784", unit: "K", label: "Revenue Attributed" },
+    { value: "347", unit: "%", label: "Return on Investment" },
+    { value: "$750", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["SEO Strategy", "Google & Meta Ads", "AI-Powered Optimization"],
   company: {
@@ -103,10 +103,10 @@ export const mortgageLending: CaseStudyData = {
   },
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$198.7K" },
-      { label: "Qualified Applications", value: "794" },
-      { label: "Avg Cost Per Application", value: "$142", note: "↓58% from $340" },
-      { label: "Funded Loans", value: "206" },
+      { label: "Total Ad Spend", value: "$197.4K" },
+      { label: "Qualified Applications", value: "786" },
+      { label: "Avg Cost Per Application", value: "$145", note: "↓57% from $340" },
+      { label: "Funded Loans", value: "200" },
     ],
     monthly: [
       // Month 1: Taking over existing account — baseline performance, messy inherited campaigns
@@ -131,14 +131,14 @@ export const mortgageLending: CaseStudyData = {
       { month: "Oct", spend: 16850, leads: 82, cpl: 205, qualified: 37, cpql: 455, deals: 15, revenue: 84000, roas: 4.99 },
       // Month 11: Pre-holiday softening, fewer buyers in market
       { month: "Nov", spend: 14950, leads: 68, cpl: 220, qualified: 26, cpql: 575, deals: 10, revenue: 56000, roas: 3.75 },
-      // Month 12: Dec rate-cut announcement — massive demand surge, best month of the year
-      { month: "Dec", spend: 16500, leads: 97, cpl: 170, qualified: 44, cpql: 375, deals: 22, revenue: 123200, roas: 7.47 },
+      // Month 12: Slight year-end recovery, optimized campaigns steady, solid close to the year
+      { month: "Dec", spend: 16150, leads: 81, cpl: 199, qualified: 36, cpql: 449, deals: 16, revenue: 89600, roas: 5.55 },
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$784K", growth: "+367%" },
-    { label: "Total Pipeline", value: "$2.4M", growth: "+312%" },
+    { label: "Total Revenue", value: "$750K", growth: "+347%" },
+    { label: "Total Pipeline", value: "$2.3M", growth: "+298%" },
     { label: "Avg Revenue Per Funded Loan", value: "$5,600", growth: "" },
-    { label: "Blended ROAS", value: "3.95x", growth: "" },
+    { label: "Blended ROAS", value: "3.82x", growth: "" },
   ],
 };
