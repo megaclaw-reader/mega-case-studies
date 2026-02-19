@@ -54,7 +54,7 @@ export default function RequestPage() {
           <div className="text-5xl mb-4">✅</div>
           <h1 className="text-2xl font-bold text-gray-900 mb-2">Request Submitted</h1>
           <p className="text-gray-600">
-            Your case study request has been received. June will build it and will send you the link on Slack once it&apos;s ready.
+            Your case study request has been received. June will build it and send you the link on Slack once it&apos;s ready.
           </p>
         </div>
       </div>
