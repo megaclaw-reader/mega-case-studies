@@ -1,5 +1,32 @@
 import { NextRequest, NextResponse } from "next/server";
 
+const BLOB_ID = "019c774c-e330-7907-82c3-c5067e627822";
+const BLOB_URL = `https://jsonblob.com/api/jsonBlob/${BLOB_ID}`;
+
+async function getExistingRequests(): Promise<Record<string, unknown>[]> {
+  try {
+    const res = await fetch(BLOB_URL, { cache: "no-store" });
+    if (!res.ok) return [];
+    const data = await res.json();
+    return Array.isArray(data) ? data : [];
+  } catch {
+    return [];
+  }
+}
+
+async function saveRequests(requests: Record<string, unknown>[]): Promise<boolean> {
+  try {
+    const res = await fetch(BLOB_URL, {
+      method: "PUT",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(requests),
+    });
+    return res.ok;
+  } catch {
+    return false;
+  }
+}
+
 export async function POST(req: NextRequest) {
   try {
     const body = await req.json();
@@ -14,24 +41,13 @@ export async function POST(req: NextRequest) {
     const entry = {
       id: Date.now().toString(36) + Math.random().toString(36).slice(2, 6),
       timestamp: new Date().toISOString(),
+      status: "pending",
       ...body,
     };
 
-    // Notify via webhook if configured
-    const webhookUrl = process.env.NOTIFICATION_WEBHOOK;
-    if (webhookUrl) {
-      try {
-        await fetch(webhookUrl, {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({
-            text: `📋 New case study request from ${entry.requesterName}\n• Industry: ${entry.industry}\n• Scope: ${entry.scope}\n• Spend: ${entry.monthlySpend}\n• Duration: ${entry.clientDuration} months\n• Services: ${(entry.services as string[]).join(", ")}\n• Region: ${entry.region || "Not specified"}\n• Notes: ${entry.highlights || "None"}`,
-          }),
-        });
-      } catch {
-        // notification failure shouldn't block the request
-      }
-    }
+    const existing = await getExistingRequests();
+    existing.push(entry);
+    await saveRequests(existing);
 
     return NextResponse.json({ success: true, id: entry.id });
   } catch {
