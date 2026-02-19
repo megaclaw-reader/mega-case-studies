@@ -81,24 +81,36 @@ export const mortgageLending: CaseStudyData = {
   ],
   seo: {
     summary: [
-      { label: "Total Keywords", value: "7,284", growth: "+1,817%", from: "from 380" },
-      { label: "Top 10 Rankings", value: "1,642", growth: "+4,206%", from: "from 38" },
-      { label: "Pages Created", value: "247", growth: "", from: "incl. 180 programmatic city pages" },
-      { label: "Organic Traffic", value: "28,470/mo", growth: "+1,898%", from: "from 1,420" },
+      { label: "Total Keywords", value: "2,847", growth: "+649%", from: "from 380" },
+      { label: "Top 10 Rankings", value: "412", growth: "+984%", from: "from 38" },
+      { label: "Pages Created", value: "189", growth: "", from: "incl. 142 programmatic city pages" },
+      { label: "Organic Traffic", value: "11,240/mo", growth: "+691%", from: "from 1,420" },
     ],
     monthly: [
-      { month: "Jan", keywords: 412, top10: 42, top3: 6, traffic: 1580, pages: 38, avgPos: 42.1, ctr: 1.4 },
-      { month: "Feb", keywords: 589, top10: 68, top3: 12, traffic: 2140, pages: 56, avgPos: 35.8, ctr: 1.7 },
-      { month: "Mar", keywords: 924, top10: 128, top3: 24, traffic: 3420, pages: 82, avgPos: 28.4, ctr: 2.1 },
-      { month: "Apr", keywords: 1487, top10: 224, top3: 48, traffic: 5680, pages: 108, avgPos: 23.1, ctr: 2.4 },
-      { month: "May", keywords: 2186, top10: 356, top3: 82, traffic: 8940, pages: 132, avgPos: 20.2, ctr: 2.7 },
-      { month: "Jun", keywords: 2891, top10: 478, top3: 124, traffic: 12360, pages: 155, avgPos: 18.4, ctr: 2.9 },
-      { month: "Jul", keywords: 3524, top10: 612, top3: 168, traffic: 15870, pages: 172, avgPos: 16.8, ctr: 3.1 },
-      { month: "Aug", keywords: 4218, top10: 764, top3: 218, traffic: 19240, pages: 189, avgPos: 15.3, ctr: 3.3 },
-      { month: "Sep", keywords: 4847, top10: 892, top3: 264, traffic: 21680, pages: 205, avgPos: 14.6, ctr: 3.4 },
-      { month: "Oct", keywords: 5412, top10: 1024, top3: 298, traffic: 23140, pages: 218, avgPos: 14.1, ctr: 3.5 },
-      { month: "Nov", keywords: 6128, top10: 1286, top3: 324, traffic: 24890, pages: 232, avgPos: 13.4, ctr: 3.6 },
-      { month: "Dec", keywords: 7284, top10: 1642, top3: 378, traffic: 28470, pages: 247, avgPos: 12.8, ctr: 3.9 },
+      // Month 1: Inherited site, technical audit underway, minimal content changes yet
+      { month: "Jan", keywords: 397, top10: 40, top3: 7, traffic: 1510, pages: 39, avgPos: 41.3, ctr: 1.4 },
+      // Month 2: Technical fixes live (crawlability, site speed, schema), first batch of city pages published
+      { month: "Feb", keywords: 468, top10: 52, top3: 9, traffic: 1780, pages: 58, avgPos: 38.6, ctr: 1.5 },
+      // Month 3: Blog content ramping, programmatic pages indexing, spring search demand rising
+      { month: "Mar", keywords: 624, top10: 78, top3: 14, traffic: 2340, pages: 86, avgPos: 34.2, ctr: 1.7 },
+      // Month 4: Strong indexing month, city pages gaining traction on long-tail terms
+      { month: "Apr", keywords: 892, top10: 118, top3: 21, traffic: 3480, pages: 112, avgPos: 30.1, ctr: 1.9 },
+      // Month 5: Content velocity peak, but competitive head terms still tough — ranking page 2-3
+      { month: "May", keywords: 1184, top10: 162, top3: 28, traffic: 4720, pages: 134, avgPos: 27.8, ctr: 2.0 },
+      // Month 6: Slight plateau — Google algo update shakes some rankings, a few city pages drop
+      { month: "Jun", keywords: 1248, top10: 156, top3: 26, traffic: 4580, pages: 148, avgPos: 28.4, ctr: 1.9 },
+      // Month 7: Recovery from algo update, internal linking improvements starting to compound
+      { month: "Jul", keywords: 1426, top10: 184, top3: 31, traffic: 5340, pages: 156, avgPos: 26.9, ctr: 2.1 },
+      // Month 8: Summer dip in mortgage search volume, rankings stable but traffic flat
+      { month: "Aug", keywords: 1618, top10: 208, top3: 34, traffic: 5480, pages: 164, avgPos: 25.7, ctr: 2.1 },
+      // Month 9: Fall recovery, backlink outreach paying off, some city pages breaking into top 10
+      { month: "Sep", keywords: 1892, top10: 258, top3: 39, traffic: 6840, pages: 172, avgPos: 24.1, ctr: 2.3 },
+      // Month 10: Strong month — domain authority gains compounding, blog posts aging in
+      { month: "Oct", keywords: 2184, top10: 312, top3: 44, traffic: 8420, pages: 178, avgPos: 22.6, ctr: 2.4 },
+      // Month 11: Pre-holiday search dip, but ranking positions holding or improving
+      { month: "Nov", keywords: 2490, top10: 358, top3: 48, traffic: 9180, pages: 184, avgPos: 21.8, ctr: 2.5 },
+      // Month 12: Solid close to the year — steady growth, no dramatic spikes
+      { month: "Dec", keywords: 2847, top10: 412, top3: 54, traffic: 11240, pages: 189, avgPos: 20.4, ctr: 2.7 },
     ],
   },
   paidAds: {
