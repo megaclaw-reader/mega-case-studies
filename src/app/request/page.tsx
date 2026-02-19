@@ -55,7 +55,7 @@ export default function RequestPage() {
           <div className="text-5xl mb-4">✅</div>
           <h1 className="text-2xl font-bold text-gray-900 mb-2">Request Submitted</h1>
           <p className="text-gray-600">
-            Your case study request has been received. June will build it and send you the link on Slack once it&apos;s ready. This usually takes about 15-20 minutes.
+            Your case study request has been received. June will build it and send you the case study link by email once it&apos;s ready. This usually takes about 15-20 minutes.
           </p>
         </div>
       </div>
