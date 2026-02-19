@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "MEGA Case Studies",
-  description: "Real results from MEGA's AI-powered marketing strategies",
+  title: "Mega Case Studies",
+  description: "Real results from Mega's AI-powered marketing strategies",
 };
 
 export default function RootLayout({
