@@ -139,20 +139,14 @@ export default function RequestPage() {
             <label className="block text-sm font-medium text-gray-700 mb-1.5">
               Monthly Ad Spend Range <span className="text-red-500">*</span>
             </label>
-            <select
+            <input
               required
+              type="text"
               value={form.monthlySpend}
               onChange={(e) => update("monthlySpend", e.target.value)}
-              className="w-full px-4 py-2.5 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#2454FF]/30 focus:border-[#2454FF] transition bg-white"
-            >
-              <option value="">Select range...</option>
-              <option value="$1K–$5K">$1K–$5K</option>
-              <option value="$5K–$15K">$5K–$15K</option>
-              <option value="$15K–$30K">$15K–$30K</option>
-              <option value="$30K–$50K">$30K–$50K</option>
-              <option value="$50K+">$50K+</option>
-              <option value="N/A (SEO only)">N/A (SEO only)</option>
-            </select>
+              placeholder="e.g. $10,000"
+              className="w-full px-4 py-2.5 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#2454FF]/30 focus:border-[#2454FF] transition"
+            />
           </div>
 
           {/* Client Duration */}
