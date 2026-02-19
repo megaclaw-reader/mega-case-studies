@@ -137,7 +137,7 @@ export default function RequestPage() {
           {/* Monthly Ad Spend */}
           <div>
             <label className="block text-sm font-medium text-gray-700 mb-1.5">
-              Monthly Ad Spend Range <span className="text-red-500">*</span>
+              Monthly Ad Spend <span className="text-red-500">*</span>
             </label>
             <input
               required
