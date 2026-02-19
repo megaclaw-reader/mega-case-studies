@@ -10,6 +10,7 @@ const SERVICES = [
 export default function RequestPage() {
   const [form, setForm] = useState({
     requesterName: "",
+    email: "",
     industry: "",
     scope: "local",
     monthlySpend: "",
@@ -93,6 +94,21 @@ export default function RequestPage() {
               value={form.requesterName}
               onChange={(e) => update("requesterName", e.target.value)}
               placeholder="e.g. Julien Comito"
+              className="w-full px-4 py-2.5 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#2454FF]/30 focus:border-[#2454FF] transition"
+            />
+          </div>
+
+          {/* Email */}
+          <div>
+            <label className="block text-sm font-medium text-gray-700 mb-1.5">
+              Your Work Email <span className="text-red-500">*</span>
+            </label>
+            <input
+              required
+              type="email"
+              value={form.email}
+              onChange={(e) => update("email", e.target.value)}
+              placeholder="e.g. julien@gomega.ai"
               className="w-full px-4 py-2.5 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#2454FF]/30 focus:border-[#2454FF] transition"
             />
           </div>
