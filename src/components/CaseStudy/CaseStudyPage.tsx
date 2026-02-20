@@ -7,6 +7,8 @@ import Challenge from "./Challenge";
 import Strategy from "./Strategy";
 import SeoPerformance from "./SeoPerformance";
 import PaidAdsPerformance from "./PaidAdsPerformance";
+import LocalSeoPerformance from "./LocalSeoPerformance";
+import OrganicConversions from "./OrganicConversions";
 import BusinessImpact from "./BusinessImpact";
 import Footer from "./Footer";
 
@@ -19,7 +21,9 @@ export default function CaseStudyPage({ data }: { data: CaseStudyData }) {
         <Challenge data={data} />
         <Strategy data={data} />
         <SeoPerformance data={data} />
-        <PaidAdsPerformance data={data} />
+        {data.localSeo && <LocalSeoPerformance data={data} />}
+        {data.organicConversions && <OrganicConversions data={data} />}
+        {data.paidAds && <PaidAdsPerformance data={data} />}
         <BusinessImpact data={data} />
       </main>
       <Footer />

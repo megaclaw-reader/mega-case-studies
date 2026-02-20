@@ -8,6 +8,7 @@ import {
 } from "recharts";
 
 export default function PaidAdsPerformance({ data }: { data: CaseStudyData }) {
+  if (!data.paidAds) return null;
   const { paidAds } = data;
 
   return (

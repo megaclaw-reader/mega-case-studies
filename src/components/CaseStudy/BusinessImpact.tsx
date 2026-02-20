@@ -7,10 +7,15 @@ import {
 } from "recharts";
 
 export default function BusinessImpact({ data }: { data: CaseStudyData }) {
-  const revenueData = data.paidAds.monthly.map((m) => ({
-    month: m.month,
-    revenue: m.revenue,
-  }));
+  // Use paid ads revenue if available, otherwise use organic traffic growth
+  const chartData = data.paidAds
+    ? data.paidAds.monthly.map((m) => ({ month: m.month, revenue: m.revenue }))
+    : data.organicConversions
+    ? data.organicConversions.monthly.map((m) => ({ month: m.month, leads: m.totalLeads }))
+    : data.seo.monthly.map((m) => ({ month: m.month, traffic: m.traffic }));
+
+  const chartKey = data.paidAds ? "revenue" : data.organicConversions ? "leads" : "traffic";
+  const chartTitle = data.paidAds ? "Revenue Growth" : data.organicConversions ? "Organic Lead Growth" : "Organic Traffic Growth";
 
   return (
     <AnimatedSection id="impact" className="py-20 px-6">
@@ -28,9 +33,9 @@ export default function BusinessImpact({ data }: { data: CaseStudyData }) {
         </div>
 
         <div className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
-          <h3 className="font-bold mb-4">Revenue Growth</h3>
+          <h3 className="font-bold mb-4">{chartTitle}</h3>
           <ResponsiveContainer width="100%" height={320}>
-            <AreaChart data={revenueData}>
+            <AreaChart data={chartData}>
               <defs>
                 <linearGradient id="revenueGrad" x1="0" y1="0" x2="0" y2="1">
                   <stop offset="5%" stopColor="#2965FF" stopOpacity={0.15} />
@@ -41,7 +46,7 @@ export default function BusinessImpact({ data }: { data: CaseStudyData }) {
               <XAxis dataKey="month" tick={{ fontSize: 12 }} />
               <YAxis tick={{ fontSize: 12 }} />
               <Tooltip />
-              <Area type="monotone" dataKey="revenue" stroke="#2965FF" strokeWidth={2.5} fill="url(#revenueGrad)" />
+              <Area type="monotone" dataKey={chartKey} stroke="#2965FF" strokeWidth={2.5} fill="url(#revenueGrad)" />
             </AreaChart>
           </ResponsiveContainer>
         </div>

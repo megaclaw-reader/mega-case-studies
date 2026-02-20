@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const cybersecurity: CaseStudyData = {
   slug: "cybersecurity",
   industry: "Cybersecurity",
-  headline: "How a National Cybersecurity Firm Scaled Pipeline 106% With AI-Powered Marketing",
-  subheadline: "MEGA helped a nationwide cybersecurity company optimize their digital marketing, reducing cost per qualified lead by 26%, growing organic traffic 242%, and generating $383K in attributed revenue within 5 months.",
+  headline: "How a National Cybersecurity Firm Scaled Pipeline 152% With AI-Powered Marketing",
+  subheadline: "MEGA helped a nationwide cybersecurity company optimize their digital marketing, reducing cost per qualified lead by 30%, growing organic traffic 418%, and generating $710K in attributed revenue over 8 months.",
   heroStats: [
-    { value: "5", unit: "months", label: "Partnership Duration" },
-    { value: "106", unit: "%", label: "Revenue Growth Rate" },
-    { value: "$383", unit: "K", label: "Revenue Attributed" },
+    { value: "8", unit: "months", label: "Partnership Duration" },
+    { value: "152", unit: "%", label: "Revenue Growth Rate" },
+    { value: "$710", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["SEO Strategy", "Paid Advertising", "AI-Powered Optimization"],
   company: {
@@ -98,10 +98,10 @@ export const cybersecurity: CaseStudyData = {
   ],
   seo: {
     summary: [
-      { label: "Total Keywords", value: "847", growth: "+191%", from: "from 291" },
-      { label: "Top 10 Rankings", value: "103", growth: "+329%", from: "from 24" },
-      { label: "Pages Created", value: "69", growth: "", from: "incl. 43 programmatic service pages" },
-      { label: "Organic Traffic", value: "2,893/mo", growth: "+242%", from: "from 847" },
+      { label: "Total Keywords", value: "1,263", growth: "+334%", from: "from 291" },
+      { label: "Top 10 Rankings", value: "168", growth: "+600%", from: "from 24" },
+      { label: "Pages Created", value: "109", growth: "", from: "incl. 67 programmatic service pages" },
+      { label: "Organic Traffic", value: "4,391/mo", growth: "+418%", from: "from 847" },
     ],
     monthly: [
       // Month 1: Inherited site, technical audit underway, baseline measurement
@@ -114,19 +114,20 @@ export const cybersecurity: CaseStudyData = {
       { month: "Month 4", keywords: 694, top10: 78, top3: 13, traffic: 2241, pages: 79, avgPos: 29.7, ctr: 1.7 },
       // Month 5: Backlink efforts compounding, long-tail cybersecurity queries breaking through
       { month: "Month 5", keywords: 847, top10: 103, top3: 17, traffic: 2893, pages: 91, avgPos: 27.1, ctr: 1.9 },
+      // Month 6: Authority building — compliance pages ranking, some head terms cracking page 1
+      { month: "Month 6", keywords: 987, top10: 124, top3: 21, traffic: 3412, pages: 98, avgPos: 25.3, ctr: 2.1 },
+      // Month 7: Content refresh cycle paying off, featured snippets for FAQ content
+      { month: "Month 7", keywords: 1134, top10: 147, top3: 26, traffic: 3947, pages: 104, avgPos: 23.8, ctr: 2.3 },
+      // Month 8: Compounding gains — strong topical authority, consistent organic lead flow
+      { month: "Month 8", keywords: 1263, top10: 168, top3: 31, traffic: 4391, pages: 109, avgPos: 22.4, ctr: 2.5 },
     ],
   },
   paidAds: {
-    // Total spend: 19847+20413+21176+19638+20761 = $101,835
-    // Total qualified: 12+14+16+15+17 = 74
-    // Avg CPQL: $101,835 / 74 = $1,376
-    // Total deals: 2+3+4+3+4 = 16
-    // Total revenue: 47283+68917+91847+78213+97463 = $383,723
     summary: [
-      { label: "Total Ad Spend", value: "$101.8K" },
-      { label: "Qualified Leads (SQLs)", value: "74" },
-      { label: "Avg Cost Per Qualified Lead", value: "$1,376", note: "↓26% from $1,654" },
-      { label: "Closed Contracts", value: "16" },
+      { label: "Total Ad Spend", value: "$165.7K" },
+      { label: "Qualified Leads (SQLs)", value: "128" },
+      { label: "Avg Cost Per Qualified Lead", value: "$1,294", note: "↓22% from $1,654" },
+      { label: "Closed Contracts", value: "30" },
     ],
     monthly: [
       // Month 1: Inherited account — baseline performance, auditing and restructuring
@@ -139,12 +140,18 @@ export const cybersecurity: CaseStudyData = {
       { month: "Month 4", spend: 19638, leads: 34, cpl: 578, qualified: 15, cpql: 1309, deals: 3, revenue: 78213, roas: 3.98 },
       // Month 5: Recovery and optimization — lead scoring refinements, audience pruning working
       { month: "Month 5", spend: 20761, leads: 38, cpl: 546, qualified: 17, cpql: 1221, deals: 4, revenue: 97463, roas: 4.69 },
+      // Month 6: Lookalike audiences from closed-won hitting stride, strong deal flow
+      { month: "Month 6", spend: 21384, leads: 41, cpl: 522, qualified: 18, cpql: 1188, deals: 5, revenue: 113742, roas: 5.32 },
+      // Month 7: Summer slowdown in enterprise buying cycles, slight dip in deal velocity
+      { month: "Month 7", spend: 20293, leads: 39, cpl: 520, qualified: 17, cpql: 1194, deals: 4, revenue: 94187, roas: 4.64 },
+      // Month 8: Budget increase + Q4 compliance deadline urgency driving high-intent traffic
+      { month: "Month 8", spend: 22147, leads: 43, cpl: 515, qualified: 19, cpql: 1166, deals: 5, revenue: 118934, roas: 5.37 },
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$383.7K", growth: "+106%" },
-    { label: "Total Pipeline", value: "$891K", growth: "+87%" },
-    { label: "Avg Revenue Per Contract", value: "$23,983", growth: "" },
-    { label: "Blended ROAS", value: "3.77x", growth: "" },
+    { label: "Total Revenue", value: "$710.6K", growth: "+152%" },
+    { label: "Total Pipeline", value: "$1.47M", growth: "+112%" },
+    { label: "Avg Revenue Per Contract", value: "$23,686", growth: "" },
+    { label: "Blended ROAS", value: "4.29x", growth: "" },
   ],
 };

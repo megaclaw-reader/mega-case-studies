@@ -32,7 +32,7 @@ export interface CaseStudyData {
       ctr: number;
     }[];
   };
-  paidAds: {
+  paidAds?: {
     summary: { label: string; value: string; note?: string }[];
     monthly: {
       month: string;
@@ -45,6 +45,27 @@ export interface CaseStudyData {
       revenue: number;
       roas: number;
     }[];
+  };
+  localSeo?: {
+    summary: { label: string; value: string; growth: string; from: string }[];
+    monthly: {
+      month: string;
+      gbpViews: number;
+      mapsImpressions: number;
+      gbpCalls: number;
+      directionRequests: number;
+    }[];
+  };
+  organicConversions?: {
+    summary: { label: string; value: string; growth?: string; note?: string }[];
+    monthly: {
+      month: string;
+      formFills: number;
+      calls: number;
+      totalLeads: number;
+      conversionRate: number;
+    }[];
+    sources: { source: string; percentage: number; leads: number }[];
   };
   impact: { label: string; value: string; growth: string }[];
 }
