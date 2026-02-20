@@ -8,6 +8,7 @@ import { landscaping } from "./landscaping";
 import { accounting } from "./accounting";
 import { accountingNy } from "./accounting-ny";
 import { landscapingRc } from "./landscaping-rc";
+import { ecommerceFishing } from "./ecommerce-fishing";
 
 export const caseStudies: Record<string, CaseStudyData> = {
   "mortgage-lending": mortgageLending,
@@ -19,6 +20,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "accounting": accounting,
   "accounting-ny": accountingNy,
   "landscaping-rc": landscapingRc,
+  "ecommerce-fishing": ecommerceFishing,
 };
 
 export type { CaseStudyData };
