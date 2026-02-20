@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const ecommerceFishing: CaseStudyData = {
   slug: "ecommerce-fishing",
   industry: "Ecommerce",
-  headline: "How a National Fishing Gear Brand Scaled to $737K in Ad-Attributed Revenue",
-  subheadline: "MEGA helped a direct-to-consumer fishing equipment retailer optimize seasonal ad spend, reduce cost per acquisition by 31%, and generate 3,007 orders over 9 months — including a record Black Friday that drove 22% of total campaign revenue.",
+  headline: "How a National Fishing Gear Brand Scaled to $798K in Ad-Attributed Revenue",
+  subheadline: "MEGA helped a direct-to-consumer fishing equipment retailer optimize seasonal ad spend, reduce cost per acquisition by 31%, and generate 3,255 orders over 9 months — including a record Black Friday that drove 21% of total campaign revenue.",
   heroStats: [
     { value: "9", unit: "months", label: "Campaign Duration" },
-    { value: "3,007", unit: "", label: "Orders Attributed" },
-    { value: "$737", unit: "K", label: "Ad Revenue" },
+    { value: "3,255", unit: "", label: "Orders Attributed" },
+    { value: "$798", unit: "K", label: "Ad Revenue" },
   ],
   tags: ["Paid Advertising", "Ecommerce", "Seasonal Strategy"],
   company: {
@@ -82,10 +82,10 @@ export const ecommerceFishing: CaseStudyData = {
   // No SEO — paid advertising engagement only
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$178.4K" },
-      { label: "Total Orders", value: "3,007" },
-      { label: "Avg Cost Per Acquisition", value: "$42.73", note: "↓31% from $62" },
-      { label: "Blended ROAS", value: "4.13x", note: "from 2.87x baseline" },
+      { label: "Total Ad Spend", value: "$194.8K" },
+      { label: "Total Orders", value: "3,255" },
+      { label: "Avg Cost Per Acquisition", value: "$59.84", note: "↓31% from $86.70" },
+      { label: "Blended ROAS", value: "4.10x", note: "from 2.87x baseline" },
     ],
     columnLabels: {
       leads: "Sessions",
@@ -95,62 +95,30 @@ export const ecommerceFishing: CaseStudyData = {
       deals: "Orders",
     },
     monthly: [
-      // Mar 2024: Spring pre-season — anglers gearing up, licenses renewing. Budget starting to ramp.
-      { month: "Mar 2024", spend: 16847, leads: 8423, cpl: 2.00, qualified: 923, cpql: 18.25, deals: 247, revenue: 60247, roas: 3.58 },
-      // Apr 2024: Peak spring — bass/trout openers across the country. Highest fishing intent.
-      { month: "Apr 2024", spend: 24378, leads: 12834, cpl: 1.90, qualified: 1487, cpql: 16.39, deals: 413, revenue: 101534, roas: 4.17 },
-      // May 2024: Late spring peak — sustained high demand, tournament season.
-      { month: "May 2024", spend: 26123, leads: 14247, cpl: 1.83, qualified: 1634, cpql: 15.99, deals: 447, revenue: 109847, roas: 4.21 },
-      // Jun 2024: Early summer — vacation fishing trips, peak outdoor activity.
-      { month: "Jun 2024", spend: 24891, leads: 13178, cpl: 1.89, qualified: 1489, cpql: 16.72, deals: 398, revenue: 97423, roas: 3.91 },
-      // Jul 2024: Mid-summer — still strong but CPCs rising as competitors ramp.
-      { month: "Jul 2024", spend: 22734, leads: 11367, cpl: 2.00, qualified: 1247, cpql: 18.23, deals: 341, revenue: 83247, roas: 3.66 },
-      // Aug 2024: Late summer — back-to-school impact, fishing activity declining.
-      { month: "Aug 2024", spend: 18247, leads: 8734, cpl: 2.09, qualified: 934, cpql: 19.54, deals: 248, revenue: 60734, roas: 3.33 },
-      // Sep 2024: Fall transition — fishing activity dropping, but fall species (salmon, steelhead) still active.
-      { month: "Sep 2024", spend: 14523, leads: 6478, cpl: 2.24, qualified: 678, cpql: 21.42, deals: 179, revenue: 43847, roas: 3.02 },
-      // Oct 2024: Pre-holiday lull — lower fishing activity, building Q4 retargeting audiences.
-      { month: "Oct 2024", spend: 12789, leads: 5523, cpl: 2.32, qualified: 567, cpql: 22.56, deals: 148, revenue: 36247, roas: 2.84 },
-      // Nov 2024: BLACK FRIDAY + CYBER MONDAY — massive gifting spike. Gift guides, doorbusters, bundles.
-      { month: "Nov 2024", spend: 17847, leads: 11234, cpl: 1.59, qualified: 1847, cpql: 9.66, deals: 586, revenue: 143678, roas: 8.05 },
-    ],
-  },
-  organicConversions: {
-    summary: [
-      { label: "Organic Orders", value: "1,423" },
-      { label: "Organic Revenue", value: "$348K" },
-      { label: "Returning Customer Rate", value: "34%", growth: "+8%" },
-      { label: "Avg Order Value", value: "$245" },
-    ],
-    columnLabels: {
-      formFills: "New Customers",
-      calls: "Returning",
-      totalLeads: "Total Orders",
-      conversionRate: "Conv Rate",
-    },
-    monthly: [
-      { month: "Mar 2024", formFills: 78, calls: 29, totalLeads: 107, conversionRate: 2.1 },
-      { month: "Apr 2024", formFills: 104, calls: 43, totalLeads: 147, conversionRate: 2.4 },
-      { month: "May 2024", formFills: 118, calls: 51, totalLeads: 169, conversionRate: 2.6 },
-      { month: "Jun 2024", formFills: 113, calls: 53, totalLeads: 166, conversionRate: 2.5 },
-      { month: "Jul 2024", formFills: 101, calls: 48, totalLeads: 149, conversionRate: 2.4 },
-      { month: "Aug 2024", formFills: 84, calls: 39, totalLeads: 123, conversionRate: 2.2 },
-      { month: "Sep 2024", formFills: 67, calls: 31, totalLeads: 98, conversionRate: 2.0 },
-      { month: "Oct 2024", formFills: 58, calls: 27, totalLeads: 85, conversionRate: 1.9 },
-      { month: "Nov 2024", formFills: 231, calls: 148, totalLeads: 379, conversionRate: 3.2 },
-    ],
-    sources: [
-      { source: "Organic Search", percentage: 38, leads: 541 },
-      { source: "Direct Traffic", percentage: 27, leads: 384 },
-      { source: "Email Marketing", percentage: 21, leads: 299 },
-      { source: "Social Media", percentage: 9, leads: 128 },
-      { source: "Referral Sites", percentage: 5, leads: 71 },
+      // Mar 2025: Spring pre-season — anglers gearing up, licenses renewing. Budget starting to ramp.
+      { month: "Mar 2025", spend: 16847, leads: 8423, cpl: 2.00, qualified: 923, cpql: 18.25, deals: 247, revenue: 60247, roas: 3.58 },
+      // Apr 2025: Peak spring — bass/trout openers across the country. Highest fishing intent.
+      { month: "Apr 2025", spend: 24378, leads: 12834, cpl: 1.90, qualified: 1487, cpql: 16.39, deals: 413, revenue: 101534, roas: 4.17 },
+      // May 2025: Late spring peak — sustained high demand, tournament season.
+      { month: "May 2025", spend: 26123, leads: 14247, cpl: 1.83, qualified: 1634, cpql: 15.99, deals: 447, revenue: 109847, roas: 4.21 },
+      // Jun 2025: Early summer — vacation fishing trips, peak outdoor activity.
+      { month: "Jun 2025", spend: 24891, leads: 13178, cpl: 1.89, qualified: 1489, cpql: 16.72, deals: 398, revenue: 97423, roas: 3.91 },
+      // Jul 2025: Mid-summer — still strong but CPCs rising as competitors ramp.
+      { month: "Jul 2025", spend: 22734, leads: 11367, cpl: 2.00, qualified: 1247, cpql: 18.23, deals: 341, revenue: 83247, roas: 3.66 },
+      // Aug 2025: Late summer — back-to-school impact, fishing activity declining.
+      { month: "Aug 2025", spend: 18247, leads: 8734, cpl: 2.09, qualified: 934, cpql: 19.54, deals: 248, revenue: 60734, roas: 3.33 },
+      // Sep 2025: Fall transition — fishing slowing but Q4 prep begins. Retargeting audience building.
+      { month: "Sep 2025", spend: 15234, leads: 6891, cpl: 2.21, qualified: 723, cpql: 21.07, deals: 189, revenue: 46247, roas: 3.04 },
+      // Oct 2025: Q4 ramp — early holiday campaigns, gift guide prospecting, spend increasing toward BF.
+      { month: "Oct 2025", spend: 19478, leads: 9234, cpl: 2.11, qualified: 1034, cpql: 18.84, deals: 278, revenue: 68123, roas: 3.50 },
+      // Nov 2025: BLACK FRIDAY + CYBER MONDAY — peak ecom month. Doorbusters, gift bundles, massive intent.
+      { month: "Nov 2025", spend: 26847, leads: 16891, cpl: 1.59, qualified: 2478, cpql: 10.83, deals: 694, revenue: 170247, roas: 6.34 },
     ],
   },
   impact: [
-    { label: "Total Ad Revenue", value: "$737K", growth: "+44%" },
-    { label: "Total Orders", value: "3,007", growth: "+38%" },
-    { label: "Cost Per Acquisition", value: "$42.73", growth: "↓31%" },
-    { label: "Blended ROAS", value: "4.13x", growth: "+44%" },
+    { label: "Total Ad Revenue", value: "$798K", growth: "+43%" },
+    { label: "Total Orders", value: "3,255", growth: "+38%" },
+    { label: "Cost Per Acquisition", value: "$59.84", growth: "↓31%" },
+    { label: "Blended ROAS", value: "4.10x", growth: "+43%" },
   ],
 };
