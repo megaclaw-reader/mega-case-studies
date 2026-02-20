@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 
 const definitions: Record<string, string> = {
   // Paid Ads
@@ -57,7 +57,17 @@ const definitions: Record<string, string> = {
 
 export function MetricHeader({ label, className = "" }: { label: string; className?: string }) {
   const [show, setShow] = useState(false);
+  const [alignRight, setAlignRight] = useState(false);
+  const ref = useRef<HTMLSpanElement>(null);
   const definition = definitions[label];
+
+  useEffect(() => {
+    if (show && ref.current) {
+      const rect = ref.current.getBoundingClientRect();
+      const spaceRight = window.innerWidth - rect.left;
+      setAlignRight(spaceRight < 280);
+    }
+  }, [show]);
 
   if (!definition) {
     return <span className={className}>{label}</span>;
@@ -65,13 +75,18 @@ export function MetricHeader({ label, className = "" }: { label: string; classNa
 
   return (
     <span
+      ref={ref}
       className={`relative cursor-help ${className}`}
       onMouseEnter={() => setShow(true)}
       onMouseLeave={() => setShow(false)}
     >
       <span className="border-b border-dotted border-gray-400">{label}</span>
       {show && (
-        <span className="absolute z-50 left-0 top-full mt-1 w-56 px-3 py-2 bg-gray-900 text-white text-xs font-normal normal-case tracking-normal rounded-lg shadow-lg leading-relaxed whitespace-normal">
+        <span
+          className={`absolute z-50 top-full mt-1 w-56 px-3 py-2 bg-gray-900 text-white text-xs font-normal normal-case tracking-normal rounded-lg shadow-lg leading-relaxed whitespace-normal ${
+            alignRight ? "right-0" : "left-0"
+          }`}
+        >
           {definition}
         </span>
       )}
