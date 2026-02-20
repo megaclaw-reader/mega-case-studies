@@ -89,7 +89,7 @@ export const ecommerceFishing: CaseStudyData = {
     ],
     columnLabels: {
       leads: "Sessions",
-      cpl: "CPC",
+      cpl: "Cost/Visit",
       qualified: "Add to Carts",
       cpql: "Cost/Cart",
       deals: "Orders",
@@ -103,7 +103,7 @@ export const ecommerceFishing: CaseStudyData = {
       { month: "May 2025", spend: 26123, leads: 14247, cpl: 1.83, qualified: 1634, cpql: 15.99, deals: 447, revenue: 109847, roas: 4.21 },
       // Jun 2025: Early summer — vacation fishing trips, peak outdoor activity.
       { month: "Jun 2025", spend: 24891, leads: 13178, cpl: 1.89, qualified: 1489, cpql: 16.72, deals: 398, revenue: 97423, roas: 3.91 },
-      // Jul 2025: Mid-summer — still strong but CPCs rising as competitors ramp.
+      // Jul 2025: Mid-summer — still strong but ad costs rising as competitors ramp.
       { month: "Jul 2025", spend: 22734, leads: 11367, cpl: 2.00, qualified: 1247, cpql: 18.23, deals: 341, revenue: 83247, roas: 3.66 },
       // Aug 2025: Late summer — back-to-school impact, fishing activity declining.
       { month: "Aug 2025", spend: 18247, leads: 8734, cpl: 2.09, qualified: 934, cpql: 19.54, deals: 248, revenue: 60734, roas: 3.33 },

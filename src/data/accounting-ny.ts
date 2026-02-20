@@ -29,7 +29,7 @@ export const accountingNy: CaseStudyData = {
     },
     {
       title: "High Cost Per Qualified Lead With Poor Audience Targeting",
-      description: "The firm's paid campaigns were reaching a broad audience without meaningful geographic or intent-based segmentation — a costly mistake in a market where accounting-related CPCs regularly exceed $12. Their cost per qualified lead averaged $975, and only about 36% of total leads met their qualification criteria for the firm's high-touch service model. With a $5,000 monthly budget, every wasted click had an outsized impact on pipeline efficiency.",
+      description: "The firm's paid campaigns were reaching a broad audience without meaningful geographic or intent-based segmentation — a costly mistake in a market where accounting-related ad costs regularly exceed $12 per click. Their cost per qualified lead averaged $975, and only about 36% of total leads met their qualification criteria for the firm's high-touch service model. With a $5,000 monthly budget, every wasted click had an outsized impact on pipeline efficiency.",
     },
   ],
   strategy: [

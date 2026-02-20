@@ -40,6 +40,7 @@ const definitions: Record<string, string> = {
   // Ecommerce Paid Ads
   "Sessions": "Total website visits driven by paid advertising campaigns",
   "CPC": "Cost Per Click — average cost for each ad click that drove a website visit",
+  "Cost/Visit": "Average advertising cost for each website visit driven by paid campaigns",
   "Add to Carts": "Visitors who added products to their shopping cart from paid campaigns",
   "Cost/Cart": "Cost per add-to-cart action — ad spend divided by the number of cart additions",
   "Orders": "Completed purchases attributed to paid advertising campaigns",
