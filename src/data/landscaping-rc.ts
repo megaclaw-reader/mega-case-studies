@@ -109,25 +109,25 @@ export const landscapingRc: CaseStudyData = {
     ],
     monthly: [
       // Month 1: Baseline — inherited site, audit underway, late winter in Charlotte
-      { month: "Month 1", keywords: 197, top10: 12, top3: 2, traffic: 412, pages: 14, avgPos: 46.7, ctr: 0.9 },
+      { month: "Jan 2025", keywords: 197, top10: 12, top3: 2, traffic: 412, pages: 14, avgPos: 46.7, ctr: 0.9 },
       // Month 2: Technical fixes live, first content batch, GBP optimized, spring starting
-      { month: "Month 2", keywords: 267, top10: 19, top3: 3, traffic: 498, pages: 32, avgPos: 42.3, ctr: 1.0 },
+      { month: "Feb 2025", keywords: 267, top10: 19, top3: 3, traffic: 498, pages: 32, avgPos: 42.3, ctr: 1.0 },
       // Month 3: Spring surge — seasonal demand + content indexing, neighborhood pages gaining traction
-      { month: "Month 3", keywords: 374, top10: 31, top3: 5, traffic: 643, pages: 50, avgPos: 38.1, ctr: 1.1 },
+      { month: "Mar 2025", keywords: 374, top10: 31, top3: 5, traffic: 643, pages: 50, avgPos: 38.1, ctr: 1.1 },
       // Month 4: Peak spring — highest seasonal demand in Charlotte, programmatic pages ranking
-      { month: "Month 4", keywords: 487, top10: 46, top3: 8, traffic: 847, pages: 62, avgPos: 34.8, ctr: 1.3 },
+      { month: "Apr 2025", keywords: 487, top10: 46, top3: 8, traffic: 847, pages: 62, avgPos: 34.8, ctr: 1.3 },
       // Month 5: Late spring — sustained demand, long-tail terms breaking through
-      { month: "Month 5", keywords: 594, top10: 58, top3: 11, traffic: 1034, pages: 71, avgPos: 31.6, ctr: 1.4 },
+      { month: "May 2025", keywords: 594, top10: 58, top3: 11, traffic: 1034, pages: 71, avgPos: 31.6, ctr: 1.4 },
       // Month 6: Summer — strong demand continues, outdoor living content performing
-      { month: "Month 6", keywords: 689, top10: 71, top3: 14, traffic: 1213, pages: 78, avgPos: 29.4, ctr: 1.5 },
+      { month: "Jun 2025", keywords: 689, top10: 71, top3: 14, traffic: 1213, pages: 78, avgPos: 29.4, ctr: 1.5 },
       // Month 7: Peak summer — authority building, commercial terms starting to rank
-      { month: "Month 7", keywords: 781, top10: 84, top3: 17, traffic: 1387, pages: 84, avgPos: 27.8, ctr: 1.6 },
+      { month: "Jul 2025", keywords: 781, top10: 84, top3: 17, traffic: 1387, pages: 84, avgPos: 27.8, ctr: 1.6 },
       // Month 8: Late summer — consistent performance, backlink campaigns compounding
-      { month: "Month 8", keywords: 873, top10: 97, top3: 19, traffic: 1543, pages: 89, avgPos: 26.3, ctr: 1.7 },
+      { month: "Aug 2025", keywords: 873, top10: 97, top3: 19, traffic: 1543, pages: 89, avgPos: 26.3, ctr: 1.7 },
       // Month 9: Early fall — slight seasonal dip but rankings holding, fall planting content performing
-      { month: "Month 9", keywords: 967, top10: 109, top3: 22, traffic: 1714, pages: 93, avgPos: 25.1, ctr: 1.8 },
+      { month: "Sep 2025", keywords: 967, top10: 109, top3: 22, traffic: 1714, pages: 93, avgPos: 25.1, ctr: 1.8 },
       // Month 10: Fall — compound gains, strong authority across both residential and commercial clusters
-      { month: "Month 10", keywords: 1143, top10: 134, top3: 26, traffic: 2007, pages: 98, avgPos: 23.4, ctr: 2.0 },
+      { month: "Oct 2025", keywords: 1143, top10: 134, top3: 26, traffic: 2007, pages: 98, avgPos: 23.4, ctr: 2.0 },
     ],
   },
   paidAds: {
@@ -139,25 +139,25 @@ export const landscapingRc: CaseStudyData = {
     ],
     monthly: [
       // Month 1: Inherited campaigns — winter, low intent, restructuring underway
-      { month: "Month 1", spend: 9847, leads: 23, cpl: 428, qualified: 8, cpql: 187, deals: 2, revenue: 31478, roas: 3.20 },
+      { month: "Jan 2025", spend: 9847, leads: 23, cpl: 428, qualified: 8, cpql: 187, deals: 2, revenue: 31478, roas: 3.20 },
       // Month 2: Restructured campaigns live — residential/commercial split, spring starting
-      { month: "Month 2", spend: 9923, leads: 29, cpl: 342, qualified: 12, cpql: 161, deals: 3, revenue: 47834, roas: 4.82 },
+      { month: "Feb 2025", spend: 9923, leads: 29, cpl: 342, qualified: 12, cpql: 161, deals: 3, revenue: 47834, roas: 4.82 },
       // Month 3: Spring surge — peak demand, new landing pages converting well
-      { month: "Month 3", spend: 10247, leads: 37, cpl: 277, qualified: 17, cpql: 134, deals: 5, revenue: 89247, roas: 4.71 },
+      { month: "Mar 2025", spend: 10247, leads: 37, cpl: 277, qualified: 17, cpql: 134, deals: 5, revenue: 89247, roas: 4.71 },
       // Month 4: Peak spring — highest lead volume, commercial campaigns gaining traction
-      { month: "Month 4", spend: 10384, leads: 41, cpl: 253, qualified: 21, cpql: 118, deals: 7, revenue: 118934, roas: 4.83 },
+      { month: "Apr 2025", spend: 10384, leads: 41, cpl: 253, qualified: 21, cpql: 118, deals: 7, revenue: 118934, roas: 4.83 },
       // Month 5: Late spring — sustained performance, audience refinement improving quality
-      { month: "Month 5", spend: 10167, leads: 38, cpl: 268, qualified: 19, cpql: 119, deals: 6, revenue: 97213, roas: 4.56 },
+      { month: "May 2025", spend: 10167, leads: 38, cpl: 268, qualified: 19, cpql: 119, deals: 6, revenue: 97213, roas: 4.56 },
       // Month 6: Summer — outdoor living projects driving residential, grounds maintenance driving commercial
-      { month: "Month 6", spend: 9934, leads: 34, cpl: 292, qualified: 17, cpql: 127, deals: 5, revenue: 84567, roas: 4.21 },
+      { month: "Jun 2025", spend: 9934, leads: 34, cpl: 292, qualified: 17, cpql: 127, deals: 5, revenue: 84567, roas: 4.21 },
       // Month 7: Mid-summer — steady performance, retargeting contributing meaningfully
-      { month: "Month 7", spend: 9784, leads: 31, cpl: 316, qualified: 15, cpql: 134, deals: 5, revenue: 78423, roas: 4.01 },
+      { month: "Jul 2025", spend: 9784, leads: 31, cpl: 316, qualified: 15, cpql: 134, deals: 5, revenue: 78423, roas: 4.01 },
       // Month 8: Late summer — slight seasonal softening, commercial pipeline still strong
-      { month: "Month 8", spend: 9623, leads: 28, cpl: 344, qualified: 14, cpql: 131, deals: 4, revenue: 67891, roas: 3.73 },
+      { month: "Aug 2025", spend: 9623, leads: 28, cpl: 344, qualified: 14, cpql: 131, deals: 4, revenue: 67891, roas: 3.73 },
       // Month 9: Early fall — fall planting season, year-end commercial budget decisions
-      { month: "Month 9", spend: 9547, leads: 32, cpl: 298, qualified: 16, cpql: 128, deals: 5, revenue: 83247, roas: 4.11 },
+      { month: "Sep 2025", spend: 9547, leads: 32, cpl: 298, qualified: 16, cpql: 128, deals: 5, revenue: 83247, roas: 4.11 },
       // Month 10: Fall — commercial contracts closing for next year, residential hardscaping finishing
-      { month: "Month 10", spend: 9247, leads: 29, cpl: 319, qualified: 14, cpql: 123, deals: 4, revenue: 71834, roas: 3.89 },
+      { month: "Oct 2025", spend: 9247, leads: 29, cpl: 319, qualified: 14, cpql: 123, deals: 4, revenue: 71834, roas: 3.89 },
     ],
   },
   localSeo: {
@@ -168,16 +168,16 @@ export const landscapingRc: CaseStudyData = {
       { label: "Direction Requests", value: "97/mo", growth: "+234%", from: "from 29" },
     ],
     monthly: [
-      { month: "Month 1", gbpViews: 1343, mapsImpressions: 981, gbpCalls: 19, directionRequests: 29 },
-      { month: "Month 2", gbpViews: 1567, mapsImpressions: 1147, gbpCalls: 23, directionRequests: 34 },
-      { month: "Month 3", gbpViews: 1934, mapsImpressions: 1423, gbpCalls: 29, directionRequests: 41 },
-      { month: "Month 4", gbpViews: 2387, mapsImpressions: 1789, gbpCalls: 37, directionRequests: 51 },
-      { month: "Month 5", gbpViews: 2847, mapsImpressions: 2134, gbpCalls: 43, directionRequests: 59 },
-      { month: "Month 6", gbpViews: 3289, mapsImpressions: 2478, gbpCalls: 49, directionRequests: 67 },
-      { month: "Month 7", gbpViews: 3687, mapsImpressions: 2789, gbpCalls: 54, directionRequests: 73 },
-      { month: "Month 8", gbpViews: 4023, mapsImpressions: 3047, gbpCalls: 59, directionRequests: 79 },
-      { month: "Month 9", gbpViews: 4534, mapsImpressions: 3423, gbpCalls: 64, directionRequests: 87 },
-      { month: "Month 10", gbpViews: 5147, mapsImpressions: 3891, gbpCalls: 71, directionRequests: 97 },
+      { month: "Jan 2025", gbpViews: 1343, mapsImpressions: 981, gbpCalls: 19, directionRequests: 29 },
+      { month: "Feb 2025", gbpViews: 1567, mapsImpressions: 1147, gbpCalls: 23, directionRequests: 34 },
+      { month: "Mar 2025", gbpViews: 1934, mapsImpressions: 1423, gbpCalls: 29, directionRequests: 41 },
+      { month: "Apr 2025", gbpViews: 2387, mapsImpressions: 1789, gbpCalls: 37, directionRequests: 51 },
+      { month: "May 2025", gbpViews: 2847, mapsImpressions: 2134, gbpCalls: 43, directionRequests: 59 },
+      { month: "Jun 2025", gbpViews: 3289, mapsImpressions: 2478, gbpCalls: 49, directionRequests: 67 },
+      { month: "Jul 2025", gbpViews: 3687, mapsImpressions: 2789, gbpCalls: 54, directionRequests: 73 },
+      { month: "Aug 2025", gbpViews: 4023, mapsImpressions: 3047, gbpCalls: 59, directionRequests: 79 },
+      { month: "Sep 2025", gbpViews: 4534, mapsImpressions: 3423, gbpCalls: 64, directionRequests: 87 },
+      { month: "Oct 2025", gbpViews: 5147, mapsImpressions: 3891, gbpCalls: 71, directionRequests: 97 },
     ],
   },
   organicConversions: {
@@ -188,16 +188,16 @@ export const landscapingRc: CaseStudyData = {
       { label: "Avg Conversion Rate", value: "3.87%", note: "from organic traffic" },
     ],
     monthly: [
-      { month: "Month 1", formFills: 4, calls: 7, totalLeads: 11, conversionRate: 2.67 },
-      { month: "Month 2", formFills: 5, calls: 9, totalLeads: 14, conversionRate: 2.81 },
-      { month: "Month 3", formFills: 7, calls: 12, totalLeads: 19, conversionRate: 2.95 },
-      { month: "Month 4", formFills: 10, calls: 16, totalLeads: 26, conversionRate: 3.07 },
-      { month: "Month 5", formFills: 13, calls: 20, totalLeads: 33, conversionRate: 3.19 },
-      { month: "Month 6", formFills: 15, calls: 24, totalLeads: 39, conversionRate: 3.22 },
-      { month: "Month 7", formFills: 17, calls: 27, totalLeads: 44, conversionRate: 3.17 },
-      { month: "Month 8", formFills: 19, calls: 30, totalLeads: 49, conversionRate: 3.18 },
-      { month: "Month 9", formFills: 22, calls: 34, totalLeads: 56, conversionRate: 3.27 },
-      { month: "Month 10", formFills: 22, calls: 34, totalLeads: 56, conversionRate: 2.79 },
+      { month: "Jan 2025", formFills: 4, calls: 7, totalLeads: 11, conversionRate: 2.67 },
+      { month: "Feb 2025", formFills: 5, calls: 9, totalLeads: 14, conversionRate: 2.81 },
+      { month: "Mar 2025", formFills: 7, calls: 12, totalLeads: 19, conversionRate: 2.95 },
+      { month: "Apr 2025", formFills: 10, calls: 16, totalLeads: 26, conversionRate: 3.07 },
+      { month: "May 2025", formFills: 13, calls: 20, totalLeads: 33, conversionRate: 3.19 },
+      { month: "Jun 2025", formFills: 15, calls: 24, totalLeads: 39, conversionRate: 3.22 },
+      { month: "Jul 2025", formFills: 17, calls: 27, totalLeads: 44, conversionRate: 3.17 },
+      { month: "Aug 2025", formFills: 19, calls: 30, totalLeads: 49, conversionRate: 3.18 },
+      { month: "Sep 2025", formFills: 22, calls: 34, totalLeads: 56, conversionRate: 3.27 },
+      { month: "Oct 2025", formFills: 22, calls: 34, totalLeads: 56, conversionRate: 2.79 },
     ],
     sources: [
       { source: "Organic Search", percentage: 54, leads: 187 },

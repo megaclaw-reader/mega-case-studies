@@ -103,29 +103,29 @@ export const landscaping: CaseStudyData = {
     ],
     monthly: [
       // Month 1: Baseline — inherited site, technical audit underway, call tracking implemented
-      { month: "Month 1", keywords: 183, top10: 12, top3: 2, traffic: 341, pages: 18, avgPos: 47.3, ctr: 0.9 },
+      { month: "Jan 2024", keywords: 183, top10: 12, top3: 2, traffic: 341, pages: 18, avgPos: 47.3, ctr: 0.9 },
       // Month 2: Technical fixes live, first batch of articles and citation submissions
-      { month: "Month 2", keywords: 237, top10: 18, top3: 3, traffic: 391, pages: 34, avgPos: 43.1, ctr: 1.0 },
+      { month: "Feb 2024", keywords: 237, top10: 18, top3: 3, traffic: 391, pages: 34, avgPos: 43.1, ctr: 1.0 },
       // Month 3: Content ramping, neighborhood pages indexing, GBP optimization showing early results
-      { month: "Month 3", keywords: 341, top10: 29, top3: 5, traffic: 487, pages: 49, avgPos: 38.4, ctr: 1.1 },
+      { month: "Mar 2024", keywords: 341, top10: 29, top3: 5, traffic: 487, pages: 49, avgPos: 38.4, ctr: 1.1 },
       // Month 4: Spring season picking up, local intent queries rising with warmer weather
-      { month: "Month 4", keywords: 443, top10: 41, top3: 7, traffic: 614, pages: 61, avgPos: 34.7, ctr: 1.3 },
+      { month: "Apr 2024", keywords: 443, top10: 41, top3: 7, traffic: 614, pages: 61, avgPos: 34.7, ctr: 1.3 },
       // Month 5: Strong indexing, long-tail neighborhood terms breaking through, seasonal demand climbing
-      { month: "Month 5", keywords: 547, top10: 56, top3: 10, traffic: 793, pages: 71, avgPos: 31.2, ctr: 1.4 },
+      { month: "May 2024", keywords: 547, top10: 56, top3: 10, traffic: 793, pages: 71, avgPos: 31.2, ctr: 1.4 },
       // Month 6: Summer boom — peak landscaping demand in South Florida, content compounding
-      { month: "Month 6", keywords: 641, top10: 71, top3: 13, traffic: 987, pages: 79, avgPos: 28.6, ctr: 1.6 },
+      { month: "Jun 2024", keywords: 641, top10: 71, top3: 13, traffic: 987, pages: 79, avgPos: 28.6, ctr: 1.6 },
       // Month 7: Peak summer — highest seasonal demand, multiple head terms on page 1
-      { month: "Month 7", keywords: 723, top10: 84, top3: 16, traffic: 1147, pages: 86, avgPos: 26.8, ctr: 1.7 },
+      { month: "Jul 2024", keywords: 723, top10: 84, top3: 16, traffic: 1147, pages: 86, avgPos: 26.8, ctr: 1.7 },
       // Month 8: Late summer — still strong seasonal traffic, authority building across service clusters
-      { month: "Month 8", keywords: 798, top10: 97, top3: 19, traffic: 1289, pages: 91, avgPos: 25.3, ctr: 1.8 },
+      { month: "Aug 2024", keywords: 798, top10: 97, top3: 19, traffic: 1289, pages: 91, avgPos: 25.3, ctr: 1.8 },
       // Month 9: Early fall — slight seasonal dip but rankings holding strong, new content pushing
-      { month: "Month 9", keywords: 864, top10: 109, top3: 22, traffic: 1423, pages: 96, avgPos: 24.1, ctr: 1.9 },
+      { month: "Sep 2024", keywords: 864, top10: 109, top3: 22, traffic: 1423, pages: 96, avgPos: 24.1, ctr: 1.9 },
       // Month 10: Fall — steady growth despite seasonal normalization, backlink campaigns compounding
-      { month: "Month 10", keywords: 923, top10: 121, top3: 25, traffic: 1567, pages: 101, avgPos: 23.2, ctr: 2.0 },
+      { month: "Oct 2024", keywords: 923, top10: 121, top3: 25, traffic: 1567, pages: 101, avgPos: 23.2, ctr: 2.0 },
       // Month 11: Late fall — winter planting content performing, commercial landscaping terms ranking
-      { month: "Month 11", keywords: 987, top10: 139, top3: 28, traffic: 1723, pages: 107, avgPos: 22.1, ctr: 2.2 },
+      { month: "Nov 2024", keywords: 987, top10: 139, top3: 28, traffic: 1723, pages: 107, avgPos: 22.1, ctr: 2.2 },
       // Month 12: Year-end — compounding gains, strong topical authority, consistent organic lead flow
-      { month: "Month 12", keywords: 1067, top10: 157, top3: 32, traffic: 1891, pages: 113, avgPos: 21.3, ctr: 2.4 },
+      { month: "Dec 2024", keywords: 1067, top10: 157, top3: 32, traffic: 1891, pages: 113, avgPos: 21.3, ctr: 2.4 },
     ],
   },
   localSeo: {
@@ -136,18 +136,18 @@ export const landscaping: CaseStudyData = {
       { label: "Direction Requests", value: "91/mo", growth: "+214%", from: "from 29" },
     ],
     monthly: [
-      { month: "Month 1", gbpViews: 1243, mapsImpressions: 891, gbpCalls: 17, directionRequests: 29 },
-      { month: "Month 2", gbpViews: 1387, mapsImpressions: 1034, gbpCalls: 21, directionRequests: 33 },
-      { month: "Month 3", gbpViews: 1594, mapsImpressions: 1187, gbpCalls: 26, directionRequests: 38 },
-      { month: "Month 4", gbpViews: 1847, mapsImpressions: 1391, gbpCalls: 31, directionRequests: 44 },
-      { month: "Month 5", gbpViews: 2213, mapsImpressions: 1674, gbpCalls: 37, directionRequests: 51 },
-      { month: "Month 6", gbpViews: 2647, mapsImpressions: 1987, gbpCalls: 43, directionRequests: 58 },
-      { month: "Month 7", gbpViews: 2981, mapsImpressions: 2234, gbpCalls: 48, directionRequests: 64 },
-      { month: "Month 8", gbpViews: 3287, mapsImpressions: 2461, gbpCalls: 52, directionRequests: 69 },
-      { month: "Month 9", gbpViews: 3541, mapsImpressions: 2687, gbpCalls: 56, directionRequests: 74 },
-      { month: "Month 10", gbpViews: 3823, mapsImpressions: 2891, gbpCalls: 59, directionRequests: 79 },
-      { month: "Month 11", gbpViews: 4187, mapsImpressions: 3147, gbpCalls: 63, directionRequests: 84 },
-      { month: "Month 12", gbpViews: 4613, mapsImpressions: 3478, gbpCalls: 67, directionRequests: 91 },
+      { month: "Jan 2024", gbpViews: 1243, mapsImpressions: 891, gbpCalls: 17, directionRequests: 29 },
+      { month: "Feb 2024", gbpViews: 1387, mapsImpressions: 1034, gbpCalls: 21, directionRequests: 33 },
+      { month: "Mar 2024", gbpViews: 1594, mapsImpressions: 1187, gbpCalls: 26, directionRequests: 38 },
+      { month: "Apr 2024", gbpViews: 1847, mapsImpressions: 1391, gbpCalls: 31, directionRequests: 44 },
+      { month: "May 2024", gbpViews: 2213, mapsImpressions: 1674, gbpCalls: 37, directionRequests: 51 },
+      { month: "Jun 2024", gbpViews: 2647, mapsImpressions: 1987, gbpCalls: 43, directionRequests: 58 },
+      { month: "Jul 2024", gbpViews: 2981, mapsImpressions: 2234, gbpCalls: 48, directionRequests: 64 },
+      { month: "Aug 2024", gbpViews: 3287, mapsImpressions: 2461, gbpCalls: 52, directionRequests: 69 },
+      { month: "Sep 2024", gbpViews: 3541, mapsImpressions: 2687, gbpCalls: 56, directionRequests: 74 },
+      { month: "Oct 2024", gbpViews: 3823, mapsImpressions: 2891, gbpCalls: 59, directionRequests: 79 },
+      { month: "Nov 2024", gbpViews: 4187, mapsImpressions: 3147, gbpCalls: 63, directionRequests: 84 },
+      { month: "Dec 2024", gbpViews: 4613, mapsImpressions: 3478, gbpCalls: 67, directionRequests: 91 },
     ],
   },
   organicConversions: {
@@ -159,18 +159,18 @@ export const landscaping: CaseStudyData = {
     ],
     monthly: [
       // formFills + calls = totalLeads; conversionRate = totalLeads / traffic * 100
-      { month: "Month 1", formFills: 5, calls: 9, totalLeads: 14, conversionRate: 4.1 },
-      { month: "Month 2", formFills: 6, calls: 10, totalLeads: 16, conversionRate: 4.09 },
-      { month: "Month 3", formFills: 7, calls: 12, totalLeads: 19, conversionRate: 3.9 },
-      { month: "Month 4", formFills: 9, calls: 15, totalLeads: 24, conversionRate: 3.91 },
-      { month: "Month 5", formFills: 12, calls: 19, totalLeads: 31, conversionRate: 3.91 },
-      { month: "Month 6", formFills: 16, calls: 25, totalLeads: 41, conversionRate: 4.15 },
-      { month: "Month 7", formFills: 19, calls: 30, totalLeads: 49, conversionRate: 4.27 },
-      { month: "Month 8", formFills: 21, calls: 33, totalLeads: 54, conversionRate: 4.19 },
-      { month: "Month 9", formFills: 23, calls: 36, totalLeads: 59, conversionRate: 4.15 },
-      { month: "Month 10", formFills: 24, calls: 39, totalLeads: 63, conversionRate: 4.02 },
-      { month: "Month 11", formFills: 27, calls: 44, totalLeads: 71, conversionRate: 4.12 },
-      { month: "Month 12", formFills: 31, calls: 48, totalLeads: 79, conversionRate: 4.18 },
+      { month: "Jan 2024", formFills: 5, calls: 9, totalLeads: 14, conversionRate: 4.1 },
+      { month: "Feb 2024", formFills: 6, calls: 10, totalLeads: 16, conversionRate: 4.09 },
+      { month: "Mar 2024", formFills: 7, calls: 12, totalLeads: 19, conversionRate: 3.9 },
+      { month: "Apr 2024", formFills: 9, calls: 15, totalLeads: 24, conversionRate: 3.91 },
+      { month: "May 2024", formFills: 12, calls: 19, totalLeads: 31, conversionRate: 3.91 },
+      { month: "Jun 2024", formFills: 16, calls: 25, totalLeads: 41, conversionRate: 4.15 },
+      { month: "Jul 2024", formFills: 19, calls: 30, totalLeads: 49, conversionRate: 4.27 },
+      { month: "Aug 2024", formFills: 21, calls: 33, totalLeads: 54, conversionRate: 4.19 },
+      { month: "Sep 2024", formFills: 23, calls: 36, totalLeads: 59, conversionRate: 4.15 },
+      { month: "Oct 2024", formFills: 24, calls: 39, totalLeads: 63, conversionRate: 4.02 },
+      { month: "Nov 2024", formFills: 27, calls: 44, totalLeads: 71, conversionRate: 4.12 },
+      { month: "Dec 2024", formFills: 31, calls: 48, totalLeads: 79, conversionRate: 4.18 },
     ],
     sources: [
       { source: "Organic Search", percentage: 57, leads: 296 },

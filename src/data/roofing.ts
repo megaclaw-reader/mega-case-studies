@@ -105,27 +105,27 @@ export const roofing: CaseStudyData = {
     ],
     monthly: [
       // Month 1 (Mar): Inherited site, technical audit underway, baseline measurement
-      { month: "Month 1", keywords: 187, top10: 11, top3: 2, traffic: 312, pages: 8, avgPos: 47.3, ctr: 0.8 },
+      { month: "Feb 2024", keywords: 187, top10: 11, top3: 2, traffic: 312, pages: 8, avgPos: 47.3, ctr: 0.8 },
       // Month 2 (Apr): Technical fixes live, first articles published, GBP optimization starting
-      { month: "Month 2", keywords: 246, top10: 18, top3: 3, traffic: 493, pages: 26, avgPos: 42.1, ctr: 0.9 },
+      { month: "Mar 2024", keywords: 246, top10: 18, top3: 3, traffic: 493, pages: 26, avgPos: 42.1, ctr: 0.9 },
       // Month 3 (May): Neighborhood pages indexing, spring demand boosting search volume
-      { month: "Month 3", keywords: 347, top10: 29, top3: 5, traffic: 741, pages: 44, avgPos: 37.8, ctr: 1.1 },
+      { month: "Apr 2024", keywords: 347, top10: 29, top3: 5, traffic: 741, pages: 44, avgPos: 37.8, ctr: 1.1 },
       // Month 4 (Jun): Strong indexing, local pack visibility improving, seasonal peak
-      { month: "Month 4", keywords: 463, top10: 43, top3: 8, traffic: 1087, pages: 58, avgPos: 33.4, ctr: 1.3 },
+      { month: "May 2024", keywords: 463, top10: 43, top3: 8, traffic: 1087, pages: 58, avgPos: 33.4, ctr: 1.3 },
       // Month 5 (Jul): Peak summer demand, neighborhood pages ranking, map pack wins
-      { month: "Month 5", keywords: 571, top10: 57, top3: 11, traffic: 1391, pages: 67, avgPos: 30.1, ctr: 1.5 },
+      { month: "Jun 2024", keywords: 571, top10: 57, top3: 11, traffic: 1391, pages: 67, avgPos: 30.1, ctr: 1.5 },
       // Month 6 (Aug): Continued summer strength, authority building across service clusters
-      { month: "Month 6", keywords: 649, top10: 66, top3: 13, traffic: 1573, pages: 74, avgPos: 28.3, ctr: 1.6 },
+      { month: "Jul 2024", keywords: 649, top10: 66, top3: 13, traffic: 1573, pages: 74, avgPos: 28.3, ctr: 1.6 },
       // Month 7 (Sep): Late summer, still solid but seasonal searches beginning to taper
-      { month: "Month 7", keywords: 718, top10: 73, top3: 15, traffic: 1642, pages: 79, avgPos: 26.9, ctr: 1.7 },
+      { month: "Aug 2024", keywords: 718, top10: 73, top3: 15, traffic: 1642, pages: 79, avgPos: 26.9, ctr: 1.7 },
       // Month 8 (Oct): Fall slowdown in search volume, but rankings still climbing
-      { month: "Month 8", keywords: 769, top10: 79, top3: 17, traffic: 1547, pages: 83, avgPos: 25.7, ctr: 1.7 },
+      { month: "Sep 2024", keywords: 769, top10: 79, top3: 17, traffic: 1547, pages: 83, avgPos: 25.7, ctr: 1.7 },
       // Month 9 (Nov): Seasonal dip — fewer people searching for roofing in November
-      { month: "Month 9", keywords: 807, top10: 83, top3: 18, traffic: 1389, pages: 86, avgPos: 25.1, ctr: 1.6 },
+      { month: "Oct 2024", keywords: 807, top10: 83, top3: 18, traffic: 1389, pages: 86, avgPos: 25.1, ctr: 1.6 },
       // Month 10 (Dec): Winter low — rankings holding but search volume at yearly minimum
-      { month: "Month 10", keywords: 834, top10: 87, top3: 19, traffic: 1217, pages: 89, avgPos: 24.6, ctr: 1.5 },
+      { month: "Nov 2024", keywords: 834, top10: 87, top3: 19, traffic: 1217, pages: 89, avgPos: 24.6, ctr: 1.5 },
       // Month 11 (Jan): Slight recovery — storm damage inquiries and early spring planners
-      { month: "Month 11", keywords: 871, top10: 91, top3: 21, traffic: 1483, pages: 93, avgPos: 24.1, ctr: 1.6 },
+      { month: "Dec 2024", keywords: 871, top10: 91, top3: 21, traffic: 1483, pages: 93, avgPos: 24.1, ctr: 1.6 },
     ],
   },
   paidAds: {
@@ -137,27 +137,27 @@ export const roofing: CaseStudyData = {
     ],
     monthly: [
       // Month 1 (Mar): Inherited account — baseline performance, auditing and restructuring
-      { month: "Month 1", spend: 4817, leads: 17, cpl: 283, qualified: 9, cpql: 535, deals: 2, revenue: 11247, roas: 2.33 },
+      { month: "Feb 2024", spend: 4817, leads: 17, cpl: 283, qualified: 9, cpql: 535, deals: 2, revenue: 11247, roas: 2.33 },
       // Month 2 (Apr): Campaign restructure live, spring demand picking up, new landing pages
-      { month: "Month 2", spend: 4923, leads: 22, cpl: 224, qualified: 13, cpql: 379, deals: 3, revenue: 17891, roas: 3.63 },
+      { month: "Mar 2024", spend: 4923, leads: 22, cpl: 224, qualified: 13, cpql: 379, deals: 3, revenue: 17891, roas: 3.63 },
       // Month 3 (May): Creative iterations paying off, storm season messaging resonating
-      { month: "Month 3", spend: 5147, leads: 26, cpl: 198, qualified: 15, cpql: 343, deals: 4, revenue: 22891, roas: 4.45 },
+      { month: "Apr 2024", spend: 5147, leads: 26, cpl: 198, qualified: 15, cpql: 343, deals: 4, revenue: 22891, roas: 4.45 },
       // Month 4 (Jun): Peak summer — highest lead volume, best qualification rates
-      { month: "Month 4", spend: 5231, leads: 28, cpl: 187, qualified: 16, cpql: 327, deals: 4, revenue: 23417, roas: 4.48 },
+      { month: "May 2024", spend: 5231, leads: 28, cpl: 187, qualified: 16, cpql: 327, deals: 4, revenue: 23417, roas: 4.48 },
       // Month 5 (Jul): Continued summer strength, audience optimization paying off
-      { month: "Month 5", spend: 5089, leads: 27, cpl: 189, qualified: 15, cpql: 339, deals: 4, revenue: 22143, roas: 4.35 },
+      { month: "Jun 2024", spend: 5089, leads: 27, cpl: 189, qualified: 15, cpql: 339, deals: 4, revenue: 22143, roas: 4.35 },
       // Month 6 (Aug): Late summer — still solid but slight seasonal tapering
-      { month: "Month 6", spend: 5173, leads: 24, cpl: 216, qualified: 13, cpql: 398, deals: 3, revenue: 18293, roas: 3.54 },
+      { month: "Jul 2024", spend: 5173, leads: 24, cpl: 216, qualified: 13, cpql: 398, deals: 3, revenue: 18293, roas: 3.54 },
       // Month 7 (Sep): Fall transition — fewer emergency repairs, more planned projects
-      { month: "Month 7", spend: 4937, leads: 21, cpl: 235, qualified: 11, cpql: 449, deals: 3, revenue: 16847, roas: 3.41 },
+      { month: "Aug 2024", spend: 4937, leads: 21, cpl: 235, qualified: 11, cpql: 449, deals: 3, revenue: 16847, roas: 3.41 },
       // Month 8 (Oct): Seasonal softening — property managers wrapping up before winter
-      { month: "Month 8", spend: 4718, leads: 18, cpl: 262, qualified: 9, cpql: 524, deals: 2, revenue: 12847, roas: 2.72 },
+      { month: "Sep 2024", spend: 4718, leads: 18, cpl: 262, qualified: 9, cpql: 524, deals: 2, revenue: 12847, roas: 2.72 },
       // Month 9 (Nov): Winter approaching — demand drops, scaled back spend accordingly
-      { month: "Month 9", spend: 4583, leads: 15, cpl: 306, qualified: 8, cpql: 573, deals: 2, revenue: 9713, roas: 2.12 },
+      { month: "Oct 2024", spend: 4583, leads: 15, cpl: 306, qualified: 8, cpql: 573, deals: 2, revenue: 9713, roas: 2.12 },
       // Month 10 (Dec): Winter low — minimal roofing demand, maintenance-level spend
-      { month: "Month 10", spend: 4391, leads: 13, cpl: 338, qualified: 7, cpql: 627, deals: 1, revenue: 6847, roas: 1.56 },
+      { month: "Nov 2024", spend: 4391, leads: 13, cpl: 338, qualified: 7, cpql: 627, deals: 1, revenue: 6847, roas: 1.56 },
       // Month 11 (Jan): Early recovery — storm damage inquiries, spring planning searches returning
-      { month: "Month 11", spend: 4647, leads: 17, cpl: 273, qualified: 9, cpql: 516, deals: 2, revenue: 13194, roas: 2.84 },
+      { month: "Dec 2024", spend: 4647, leads: 17, cpl: 273, qualified: 9, cpql: 516, deals: 2, revenue: 13194, roas: 2.84 },
     ],
   },
   impact: [
