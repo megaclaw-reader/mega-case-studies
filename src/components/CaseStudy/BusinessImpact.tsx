@@ -12,7 +12,7 @@ export default function BusinessImpact({ data }: { data: CaseStudyData }) {
     ? data.paidAds.monthly.map((m) => ({ month: m.month, revenue: m.revenue }))
     : data.organicConversions
     ? data.organicConversions.monthly.map((m) => ({ month: m.month, leads: m.totalLeads }))
-    : data.seo.monthly.map((m) => ({ month: m.month, traffic: m.traffic }));
+    : data.seo ? data.seo.monthly.map((m) => ({ month: m.month, traffic: m.traffic })) : [];
 
   const chartKey = data.paidAds ? "revenue" : data.organicConversions ? "leads" : "traffic";
   const chartTitle = data.paidAds ? "Revenue Growth" : data.organicConversions ? "Organic Lead Growth" : "Organic Traffic Growth";

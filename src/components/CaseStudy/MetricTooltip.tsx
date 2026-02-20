@@ -37,6 +37,20 @@ const definitions: Record<string, string> = {
   "Conv. Rate": "Conversion Rate — percentage of website visitors who became leads",
   "Conversion Rate": "Conversion Rate — percentage of website visitors who became leads",
 
+  // Ecommerce Paid Ads
+  "Sessions": "Total website visits driven by paid advertising campaigns",
+  "CPC": "Cost Per Click — average cost for each ad click that drove a website visit",
+  "Add to Carts": "Visitors who added products to their shopping cart from paid campaigns",
+  "Cost/Cart": "Cost per add-to-cart action — ad spend divided by the number of cart additions",
+  "Orders": "Completed purchases attributed to paid advertising campaigns",
+  "Avg Order Value": "Average dollar amount per completed order",
+
+  // Ecommerce Organic
+  "New Customers": "First-time buyers who hadn't purchased before",
+  "Returning": "Repeat customers placing additional orders",
+  "Total Orders": "Combined total of new and returning customer orders",
+  "Conv Rate": "Conversion Rate — percentage of website visitors who completed a purchase",
+
   // Business Impact / Summary Cards
   "Total Revenue": "Total revenue directly attributed to marketing efforts during the engagement",
   "Signed Contracts": "Number of leads that converted into signed deals or paying customers",

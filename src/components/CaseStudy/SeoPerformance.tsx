@@ -19,6 +19,7 @@ function StatCard({ label, value, growth, from }: { label: string; value: string
 }
 
 export default function SeoPerformance({ data }: { data: CaseStudyData }) {
+  if (!data.seo) return null;
   const { seo } = data;
 
   return (

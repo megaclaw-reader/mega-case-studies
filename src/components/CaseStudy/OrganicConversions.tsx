@@ -13,6 +13,7 @@ const COLORS = ["#2965FF", "#4A7DFF", "#93B4FF"];
 export default function OrganicConversions({ data }: { data: CaseStudyData }) {
   if (!data.organicConversions) return null;
   const { organicConversions } = data;
+  const ocl = organicConversions.columnLabels;
 
   return (
     <AnimatedSection id="conversions" className="py-20 px-6">
@@ -40,8 +41,8 @@ export default function OrganicConversions({ data }: { data: CaseStudyData }) {
                 <YAxis tick={{ fontSize: 12 }} />
                 <Tooltip />
                 <Legend />
-                <Bar dataKey="formFills" name="Form Fills" stackId="a" fill="#2965FF" radius={[0, 0, 0, 0]} />
-                <Bar dataKey="calls" name="Phone Calls" stackId="a" fill="#4A7DFF" radius={[4, 4, 0, 0]} />
+                <Bar dataKey="formFills" name={ocl?.formFills || "Form Fills"} stackId="a" fill="#2965FF" radius={[0, 0, 0, 0]} />
+                <Bar dataKey="calls" name={ocl?.calls || "Phone Calls"} stackId="a" fill="#4A7DFF" radius={[4, 4, 0, 0]} />
               </BarChart>
             </ResponsiveContainer>
           </div>
@@ -75,7 +76,7 @@ export default function OrganicConversions({ data }: { data: CaseStudyData }) {
             <table className="w-full text-sm">
               <thead>
                 <tr className="border-b border-gray-100">
-                  {["Month", "Form Fills", "Calls", "Total Leads", "Conversion Rate"].map((h) => (
+                  {["Month", ocl?.formFills || "Form Fills", ocl?.calls || "Calls", ocl?.totalLeads || "Total Leads", ocl?.conversionRate || "Conversion Rate"].map((h) => (
                     <th key={h} className="px-6 py-3 text-left text-xs font-semibold text-[#6B7280] uppercase tracking-wider">
                       <MetricHeader label={h} />
                     </th>

@@ -11,6 +11,7 @@ import {
 export default function PaidAdsPerformance({ data }: { data: CaseStudyData }) {
   if (!data.paidAds) return null;
   const { paidAds } = data;
+  const cl = paidAds.columnLabels;
 
   return (
     <AnimatedSection id="paid-ads" className="py-20 px-6 bg-gray-50/50">
@@ -64,7 +65,7 @@ export default function PaidAdsPerformance({ data }: { data: CaseStudyData }) {
             <table className="w-full text-sm">
               <thead>
                 <tr className="border-b border-gray-100">
-                  {["Month", "Spend", "Leads", "CPL", "Qualified", "CPQL", "Deals", "Revenue", "ROAS"].map((h) => (
+                  {["Month", "Spend", cl?.leads || "Leads", cl?.cpl || "CPL", cl?.qualified || "Qualified", cl?.cpql || "CPQL", cl?.deals || "Deals", "Revenue", "ROAS"].map((h) => (
                     <th key={h} className="px-5 py-3 text-left text-xs font-semibold text-[#6B7280] uppercase tracking-wider">
                       <MetricHeader label={h} />
                     </th>

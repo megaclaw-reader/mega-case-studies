@@ -20,7 +20,7 @@ export default function CaseStudyPage({ data }: { data: CaseStudyData }) {
         <Hero data={data} />
         <Challenge data={data} />
         <Strategy data={data} />
-        <SeoPerformance data={data} />
+        {data.seo && <SeoPerformance data={data} />}
         {data.localSeo && <LocalSeoPerformance data={data} />}
         {data.organicConversions && <OrganicConversions data={data} />}
         {data.paidAds && <PaidAdsPerformance data={data} />}

@@ -19,7 +19,7 @@ export interface CaseStudyData {
     title: string;
     items: string[];
   }[];
-  seo: {
+  seo?: {
     summary: { label: string; value: string; growth: string; from: string }[];
     monthly: {
       month: string;
@@ -34,6 +34,13 @@ export interface CaseStudyData {
   };
   paidAds?: {
     summary: { label: string; value: string; note?: string }[];
+    columnLabels?: {
+      leads?: string;
+      cpl?: string;
+      qualified?: string;
+      cpql?: string;
+      deals?: string;
+    };
     monthly: {
       month: string;
       spend: number;
@@ -58,6 +65,12 @@ export interface CaseStudyData {
   };
   organicConversions?: {
     summary: { label: string; value: string; growth?: string; note?: string }[];
+    columnLabels?: {
+      formFills?: string;
+      calls?: string;
+      totalLeads?: string;
+      conversionRate?: string;
+    };
     monthly: {
       month: string;
       formFills: number;
