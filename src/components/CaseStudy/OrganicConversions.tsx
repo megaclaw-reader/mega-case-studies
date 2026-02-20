@@ -90,6 +90,21 @@ export default function OrganicConversions({ data }: { data: CaseStudyData }) {
                   </tr>
                 ))}
               </tbody>
+              <tfoot>
+                {(() => {
+                  const m = organicConversions.monthly;
+                  const avgRate = (m.reduce((s, r) => s + r.conversionRate, 0) / m.length).toFixed(1);
+                  return (
+                    <tr className="border-t-2 border-gray-200 bg-gray-100 font-semibold">
+                      <td className="px-6 py-3">Total / Avg</td>
+                      <td className="px-6 py-3">{m.reduce((s, r) => s + r.formFills, 0).toLocaleString()}</td>
+                      <td className="px-6 py-3">{m.reduce((s, r) => s + r.calls, 0).toLocaleString()}</td>
+                      <td className="px-6 py-3">{m.reduce((s, r) => s + r.totalLeads, 0).toLocaleString()}</td>
+                      <td className="px-6 py-3">{avgRate}%</td>
+                    </tr>
+                  );
+                })()}
+              </tfoot>
             </table>
           </div>
         </div>

@@ -85,6 +85,28 @@ export default function SeoPerformance({ data }: { data: CaseStudyData }) {
                   </tr>
                 ))}
               </tbody>
+              <tfoot>
+                {(() => {
+                  const m = seo.monthly;
+                  const last = m[m.length - 1];
+                  const totalTraffic = m.reduce((s, r) => s + r.traffic, 0);
+                  const totalPages = m.reduce((s, r) => s + r.pages, 0);
+                  const avgPos = (m.reduce((s, r) => s + r.avgPos, 0) / m.length).toFixed(1);
+                  const avgCtr = (m.reduce((s, r) => s + r.ctr, 0) / m.length).toFixed(2);
+                  return (
+                    <tr className="border-t-2 border-gray-200 bg-gray-100 font-semibold">
+                      <td className="px-6 py-3">Total / Avg</td>
+                      <td className="px-6 py-3">{last.keywords.toLocaleString()}</td>
+                      <td className="px-6 py-3">{last.top10.toLocaleString()}</td>
+                      <td className="px-6 py-3">{last.top3}</td>
+                      <td className="px-6 py-3">{totalTraffic.toLocaleString()}</td>
+                      <td className="px-6 py-3">{totalPages.toLocaleString()}</td>
+                      <td className="px-6 py-3">{avgPos}</td>
+                      <td className="px-6 py-3">{avgCtr}%</td>
+                    </tr>
+                  );
+                })()}
+              </tfoot>
             </table>
           </div>
         </div>

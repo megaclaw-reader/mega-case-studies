@@ -85,6 +85,20 @@ export default function LocalSeoPerformance({ data }: { data: CaseStudyData }) {
                   </tr>
                 ))}
               </tbody>
+              <tfoot>
+                {(() => {
+                  const m = localSeo.monthly;
+                  return (
+                    <tr className="border-t-2 border-gray-200 bg-gray-100 font-semibold">
+                      <td className="px-6 py-3">Total</td>
+                      <td className="px-6 py-3">{m.reduce((s, r) => s + r.gbpViews, 0).toLocaleString()}</td>
+                      <td className="px-6 py-3">{m.reduce((s, r) => s + r.mapsImpressions, 0).toLocaleString()}</td>
+                      <td className="px-6 py-3">{m.reduce((s, r) => s + r.gbpCalls, 0).toLocaleString()}</td>
+                      <td className="px-6 py-3">{m.reduce((s, r) => s + r.directionRequests, 0).toLocaleString()}</td>
+                    </tr>
+                  );
+                })()}
+              </tfoot>
             </table>
           </div>
         </div>

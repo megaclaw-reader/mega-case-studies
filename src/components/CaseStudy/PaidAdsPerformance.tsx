@@ -83,6 +83,32 @@ export default function PaidAdsPerformance({ data }: { data: CaseStudyData }) {
                   </tr>
                 ))}
               </tbody>
+              <tfoot>
+                {(() => {
+                  const m = paidAds.monthly;
+                  const totalSpend = m.reduce((s, r) => s + r.spend, 0);
+                  const totalLeads = m.reduce((s, r) => s + r.leads, 0);
+                  const avgCpl = Math.round(totalSpend / totalLeads);
+                  const totalQualified = m.reduce((s, r) => s + r.qualified, 0);
+                  const avgCpql = Math.round(totalSpend / totalQualified);
+                  const totalDeals = m.reduce((s, r) => s + r.deals, 0);
+                  const totalRevenue = m.reduce((s, r) => s + r.revenue, 0);
+                  const avgRoas = (totalRevenue / totalSpend).toFixed(1);
+                  return (
+                    <tr className="border-t-2 border-gray-200 bg-gray-100 font-semibold">
+                      <td className="px-5 py-3">Total / Avg</td>
+                      <td className="px-5 py-3">${totalSpend.toLocaleString()}</td>
+                      <td className="px-5 py-3">{totalLeads.toLocaleString()}</td>
+                      <td className="px-5 py-3">${avgCpl}</td>
+                      <td className="px-5 py-3">{totalQualified.toLocaleString()}</td>
+                      <td className="px-5 py-3">${avgCpql.toLocaleString()}</td>
+                      <td className="px-5 py-3">{totalDeals}</td>
+                      <td className="px-5 py-3">${totalRevenue.toLocaleString()}</td>
+                      <td className="px-5 py-3">{avgRoas}x</td>
+                    </tr>
+                  );
+                })()}
+              </tfoot>
             </table>
           </div>
         </div>
