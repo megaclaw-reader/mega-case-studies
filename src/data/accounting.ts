@@ -110,15 +110,15 @@ export const accounting: CaseStudyData = {
     ],
     monthly: [
       // Month 1 (Jan): Inherited site, technical audit underway, tax season starting — baseline measurement
-      { month: "Aug 2024", keywords: 187, top10: 13, top3: 2, traffic: 412, pages: 18, avgPos: 47.3, ctr: 0.9 },
+      { month: "Aug 2025", keywords: 187, top10: 13, top3: 2, traffic: 412, pages: 18, avgPos: 47.3, ctr: 0.9 },
       // Month 2 (Feb): Technical fixes live, first articles published, GBP optimized, tax season traffic picking up
-      { month: "Sep 2024", keywords: 264, top10: 21, top3: 3, traffic: 647, pages: 37, avgPos: 42.1, ctr: 1.1 },
+      { month: "Sep 2025", keywords: 264, top10: 21, top3: 3, traffic: 647, pages: 37, avgPos: 42.1, ctr: 1.1 },
       // Month 3 (Mar): City-level pages indexing, tax-related content gaining traction, strong seasonal demand
-      { month: "Oct 2024", keywords: 389, top10: 34, top3: 5, traffic: 983, pages: 58, avgPos: 37.8, ctr: 1.2 },
+      { month: "Oct 2025", keywords: 389, top10: 34, top3: 5, traffic: 983, pages: 58, avgPos: 37.8, ctr: 1.2 },
       // Month 4 (Apr): Tax deadline peak — highest seasonal organic demand, programmatic pages ranking
-      { month: "Nov 2024", keywords: 517, top10: 49, top3: 8, traffic: 1347, pages: 74, avgPos: 34.2, ctr: 1.4 },
+      { month: "Nov 2025", keywords: 517, top10: 49, top3: 8, traffic: 1347, pages: 74, avgPos: 34.2, ctr: 1.4 },
       // Month 5 (May): Post-tax season drop in search volume, but keyword base still growing
-      { month: "Dec 2024", keywords: 631, top10: 62, top3: 11, traffic: 1623, pages: 87, avgPos: 31.7, ctr: 1.5 },
+      { month: "Dec 2025", keywords: 631, top10: 62, top3: 11, traffic: 1623, pages: 87, avgPos: 31.7, ctr: 1.5 },
       // Month 6 (Jun): Summer lull in accounting searches — traffic growth slows despite more rankings
       { month: "Jan 2025", keywords: 743, top10: 78, top3: 14, traffic: 1847, pages: 96, avgPos: 29.4, ctr: 1.6 },
       // Month 7 (Jul): Deepest summer lull — continued content investment for future compounding
@@ -144,15 +144,15 @@ export const accounting: CaseStudyData = {
     ],
     monthly: [
       // Month 1 (Jan): Inherited account — tax season starting, baseline performance before optimization
-      { month: "Aug 2024", spend: 6847, leads: 23, cpl: 298, qualified: 8, cpql: 856, deals: 2, revenue: 17293, roas: 2.53 },
+      { month: "Aug 2025", spend: 6847, leads: 23, cpl: 298, qualified: 8, cpql: 856, deals: 2, revenue: 17293, roas: 2.53 },
       // Month 2 (Feb): Campaign restructure live, tax season ramping, new landing pages for tax services
-      { month: "Sep 2024", spend: 7134, leads: 29, cpl: 246, qualified: 11, cpql: 649, deals: 3, revenue: 26847, roas: 3.76 },
+      { month: "Sep 2025", spend: 7134, leads: 29, cpl: 246, qualified: 11, cpql: 649, deals: 3, revenue: 26847, roas: 3.76 },
       // Month 3 (Mar): Tax season peak — highest intent traffic, compliance messaging resonating
-      { month: "Oct 2024", spend: 7389, leads: 33, cpl: 224, qualified: 14, cpql: 528, deals: 4, revenue: 33847, roas: 4.58 },
+      { month: "Oct 2025", spend: 7389, leads: 33, cpl: 224, qualified: 14, cpql: 528, deals: 4, revenue: 33847, roas: 4.58 },
       // Month 4 (Apr): Tax deadline urgency — peak lead volume and deal velocity
-      { month: "Nov 2024", spend: 7512, leads: 37, cpl: 203, qualified: 16, cpql: 470, deals: 5, revenue: 35293, roas: 4.70 },
+      { month: "Nov 2025", spend: 7512, leads: 37, cpl: 203, qualified: 16, cpql: 470, deals: 5, revenue: 35293, roas: 4.70 },
       // Month 5 (May): Post-tax season drop — sharp decline in search intent, budget pulled back
-      { month: "Dec 2024", spend: 6793, leads: 21, cpl: 324, qualified: 10, cpql: 679, deals: 2, revenue: 14293, roas: 2.10 },
+      { month: "Dec 2025", spend: 6793, leads: 21, cpl: 324, qualified: 10, cpql: 679, deals: 2, revenue: 14293, roas: 2.10 },
       // Month 6 (Jun): Summer lull — shifted messaging toward bookkeeping and payroll services
       { month: "Jan 2025", spend: 6614, leads: 18, cpl: 367, qualified: 9, cpql: 735, deals: 2, revenue: 11847, roas: 1.79 },
       // Month 7 (Jul): Deepest summer lull — maintained presence at reduced spend, focused on remarketing

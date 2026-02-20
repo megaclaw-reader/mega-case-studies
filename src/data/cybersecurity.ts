@@ -105,21 +105,21 @@ export const cybersecurity: CaseStudyData = {
     ],
     monthly: [
       // Month 1: Inherited site, technical audit underway, baseline measurement
-      { month: "Mar 2024", keywords: 291, top10: 24, top3: 4, traffic: 847, pages: 22, avgPos: 43.2, ctr: 1.1 },
+      { month: "Mar 2025", keywords: 291, top10: 24, top3: 4, traffic: 847, pages: 22, avgPos: 43.2, ctr: 1.1 },
       // Month 2: Technical fixes live, first batch of articles and service pages published
-      { month: "Apr 2024", keywords: 378, top10: 37, top3: 6, traffic: 1143, pages: 41, avgPos: 38.6, ctr: 1.3 },
+      { month: "Apr 2025", keywords: 378, top10: 37, top3: 6, traffic: 1143, pages: 41, avgPos: 38.6, ctr: 1.3 },
       // Month 3: Content ramping, programmatic pages indexing, compliance content gaining traction
-      { month: "May 2024", keywords: 523, top10: 56, top3: 9, traffic: 1687, pages: 64, avgPos: 33.4, ctr: 1.5 },
+      { month: "May 2025", keywords: 523, top10: 56, top3: 9, traffic: 1687, pages: 64, avgPos: 33.4, ctr: 1.5 },
       // Month 4: Strong indexing, but competitive head terms (MDR, pen testing) still tough — slight plateau
-      { month: "Jun 2024", keywords: 694, top10: 78, top3: 13, traffic: 2241, pages: 79, avgPos: 29.7, ctr: 1.7 },
+      { month: "Jun 2025", keywords: 694, top10: 78, top3: 13, traffic: 2241, pages: 79, avgPos: 29.7, ctr: 1.7 },
       // Month 5: Backlink efforts compounding, long-tail cybersecurity queries breaking through
-      { month: "Jul 2024", keywords: 847, top10: 103, top3: 17, traffic: 2893, pages: 91, avgPos: 27.1, ctr: 1.9 },
+      { month: "Jul 2025", keywords: 847, top10: 103, top3: 17, traffic: 2893, pages: 91, avgPos: 27.1, ctr: 1.9 },
       // Month 6: Authority building — compliance pages ranking, some head terms cracking page 1
-      { month: "Aug 2024", keywords: 987, top10: 124, top3: 21, traffic: 3412, pages: 98, avgPos: 25.3, ctr: 2.1 },
+      { month: "Aug 2025", keywords: 987, top10: 124, top3: 21, traffic: 3412, pages: 98, avgPos: 25.3, ctr: 2.1 },
       // Month 7: Content refresh cycle paying off, featured snippets for FAQ content
-      { month: "Sep 2024", keywords: 1134, top10: 147, top3: 26, traffic: 3947, pages: 104, avgPos: 23.8, ctr: 2.3 },
+      { month: "Sep 2025", keywords: 1134, top10: 147, top3: 26, traffic: 3947, pages: 104, avgPos: 23.8, ctr: 2.3 },
       // Month 8: Compounding gains — strong topical authority, consistent organic lead flow
-      { month: "Oct 2024", keywords: 1263, top10: 168, top3: 31, traffic: 4391, pages: 109, avgPos: 22.4, ctr: 2.5 },
+      { month: "Oct 2025", keywords: 1263, top10: 168, top3: 31, traffic: 4391, pages: 109, avgPos: 22.4, ctr: 2.5 },
     ],
   },
   paidAds: {
@@ -131,21 +131,21 @@ export const cybersecurity: CaseStudyData = {
     ],
     monthly: [
       // Month 1: Inherited account — baseline performance, auditing and restructuring
-      { month: "Mar 2024", spend: 19847, leads: 29, cpl: 684, qualified: 12, cpql: 1654, deals: 2, revenue: 47283, roas: 2.38 },
+      { month: "Mar 2025", spend: 19847, leads: 29, cpl: 684, qualified: 12, cpql: 1654, deals: 2, revenue: 47283, roas: 2.38 },
       // Month 2: Campaign restructure live, paused low-intent keywords, new landing pages
-      { month: "Apr 2024", spend: 20413, leads: 33, cpl: 619, qualified: 14, cpql: 1458, deals: 3, revenue: 68917, roas: 3.37 },
+      { month: "Apr 2025", spend: 20413, leads: 33, cpl: 619, qualified: 14, cpql: 1458, deals: 3, revenue: 68917, roas: 3.37 },
       // Month 3: Creative iterations paying off, compliance-focused messaging resonating
-      { month: "May 2024", spend: 21176, leads: 37, cpl: 572, qualified: 16, cpql: 1324, deals: 4, revenue: 91847, roas: 4.34 },
+      { month: "May 2025", spend: 21176, leads: 37, cpl: 572, qualified: 16, cpql: 1324, deals: 4, revenue: 91847, roas: 4.34 },
       // Month 4: Seasonal softening — Q4 budget freezes at some target accounts, slight dip
-      { month: "Jun 2024", spend: 19638, leads: 34, cpl: 578, qualified: 15, cpql: 1309, deals: 3, revenue: 78213, roas: 3.98 },
+      { month: "Jun 2025", spend: 19638, leads: 34, cpl: 578, qualified: 15, cpql: 1309, deals: 3, revenue: 78213, roas: 3.98 },
       // Month 5: Recovery and optimization — lead scoring refinements, audience pruning working
-      { month: "Jul 2024", spend: 20761, leads: 38, cpl: 546, qualified: 17, cpql: 1221, deals: 4, revenue: 97463, roas: 4.69 },
+      { month: "Jul 2025", spend: 20761, leads: 38, cpl: 546, qualified: 17, cpql: 1221, deals: 4, revenue: 97463, roas: 4.69 },
       // Month 6: Lookalike audiences from closed-won hitting stride, strong deal flow
-      { month: "Aug 2024", spend: 21384, leads: 41, cpl: 522, qualified: 18, cpql: 1188, deals: 5, revenue: 103847, roas: 4.86 },
+      { month: "Aug 2025", spend: 21384, leads: 41, cpl: 522, qualified: 18, cpql: 1188, deals: 5, revenue: 103847, roas: 4.86 },
       // Month 7: Summer slowdown in enterprise buying cycles, slight dip in deal velocity
-      { month: "Sep 2024", spend: 20293, leads: 39, cpl: 520, qualified: 17, cpql: 1194, deals: 4, revenue: 94187, roas: 4.64 },
+      { month: "Sep 2025", spend: 20293, leads: 39, cpl: 520, qualified: 17, cpql: 1194, deals: 4, revenue: 94187, roas: 4.64 },
       // Month 8: Budget increase + Q4 compliance deadline urgency driving high-intent traffic
-      { month: "Oct 2024", spend: 22147, leads: 43, cpl: 515, qualified: 19, cpql: 1166, deals: 5, revenue: 108917, roas: 4.92 },
+      { month: "Oct 2025", spend: 22147, leads: 43, cpl: 515, qualified: 19, cpql: 1166, deals: 5, revenue: 108917, roas: 4.92 },
     ],
   },
   impact: [

@@ -110,29 +110,29 @@ export const eventOrganization: CaseStudyData = {
     ],
     monthly: [
       // Month 1: Baseline — inherited site, audit underway, GBP optimization starting
-      { month: "Jan 2024", keywords: 173, top10: 11, top3: 2, traffic: 634, pages: 0, avgPos: 47.3, ctr: 0.9 },
+      { month: "Jan 2025", keywords: 173, top10: 11, top3: 2, traffic: 634, pages: 0, avgPos: 47.3, ctr: 0.9 },
       // Month 2: Technical fixes live, first content batch, GBP optimized — winter slowdown
-      { month: "Feb 2024", keywords: 213, top10: 16, top3: 3, traffic: 712, pages: 21, avgPos: 43.1, ctr: 1.0 },
+      { month: "Feb 2025", keywords: 213, top10: 16, top3: 3, traffic: 712, pages: 21, avgPos: 43.1, ctr: 1.0 },
       // Month 3: More content indexing, neighborhood pages launching — still winter low season
-      { month: "Mar 2024", keywords: 267, top10: 23, top3: 4, traffic: 843, pages: 38, avgPos: 39.8, ctr: 1.1 },
+      { month: "Mar 2025", keywords: 267, top10: 23, top3: 4, traffic: 843, pages: 38, avgPos: 39.8, ctr: 1.1 },
       // Month 4: Spring planning picks up, bilingual content gaining traction, citations building
-      { month: "Apr 2024", keywords: 331, top10: 32, top3: 6, traffic: 1067, pages: 51, avgPos: 36.2, ctr: 1.3 },
+      { month: "Apr 2025", keywords: 331, top10: 32, top3: 6, traffic: 1067, pages: 51, avgPos: 36.2, ctr: 1.3 },
       // Month 5: Wedding season searches surge, programmatic pages ranking, strong GBP visibility
-      { month: "May 2024", keywords: 398, top10: 41, top3: 9, traffic: 1389, pages: 59, avgPos: 33.1, ctr: 1.5 },
+      { month: "May 2025", keywords: 398, top10: 41, top3: 9, traffic: 1389, pages: 59, avgPos: 33.1, ctr: 1.5 },
       // Month 6: Peak season — corporate events + weddings driving record traffic
-      { month: "Jun 2024", keywords: 461, top10: 51, top3: 12, traffic: 1728, pages: 66, avgPos: 30.7, ctr: 1.7 },
+      { month: "Jun 2025", keywords: 461, top10: 51, top3: 12, traffic: 1728, pages: 66, avgPos: 30.7, ctr: 1.7 },
       // Month 7: Sustained summer demand, backlink campaigns compounding
-      { month: "Jul 2024", keywords: 517, top10: 58, top3: 14, traffic: 1893, pages: 72, avgPos: 28.9, ctr: 1.8 },
+      { month: "Jul 2025", keywords: 517, top10: 58, top3: 14, traffic: 1893, pages: 72, avgPos: 28.9, ctr: 1.8 },
       // Month 8: Late summer — still strong, slight plateau as wedding peak passes
-      { month: "Aug 2024", keywords: 563, top10: 64, top3: 16, traffic: 1971, pages: 78, avgPos: 27.4, ctr: 1.9 },
+      { month: "Aug 2025", keywords: 563, top10: 64, top3: 16, traffic: 1971, pages: 78, avgPos: 27.4, ctr: 1.9 },
       // Month 9: Fall corporate event season, conferences picking up
-      { month: "Sep 2024", keywords: 607, top10: 69, top3: 18, traffic: 2147, pages: 83, avgPos: 26.1, ctr: 2.0 },
+      { month: "Sep 2025", keywords: 607, top10: 69, top3: 18, traffic: 2147, pages: 83, avgPos: 26.1, ctr: 2.0 },
       // Month 10: Strong fall — fundraiser galas and corporate holiday planning searches
-      { month: "Oct 2024", keywords: 643, top10: 74, top3: 20, traffic: 2341, pages: 87, avgPos: 25.2, ctr: 2.1 },
+      { month: "Oct 2025", keywords: 643, top10: 74, top3: 20, traffic: 2341, pages: 87, avgPos: 25.2, ctr: 2.1 },
       // Month 11: Holiday party content paying off, Nov-Dec planning queries peak
-      { month: "Nov 2024", keywords: 683, top10: 79, top3: 22, traffic: 2489, pages: 91, avgPos: 24.3, ctr: 2.2 },
+      { month: "Nov 2025", keywords: 683, top10: 79, top3: 22, traffic: 2489, pages: 91, avgPos: 24.3, ctr: 2.2 },
       // Month 12: Compounding authority, bilingual coverage strong, year-end push
-      { month: "Dec 2024", keywords: 714, top10: 83, top3: 24, traffic: 2617, pages: 94, avgPos: 23.6, ctr: 2.3 },
+      { month: "Dec 2025", keywords: 714, top10: 83, top3: 24, traffic: 2617, pages: 94, avgPos: 23.6, ctr: 2.3 },
     ],
   },
   paidAds: {
@@ -144,29 +144,29 @@ export const eventOrganization: CaseStudyData = {
     ],
     monthly: [
       // Month 1: Inherited campaigns — baseline, winter slow season (Jan), auditing
-      { month: "Jan 2024", spend: 2847, leads: 11, cpl: 259, qualified: 4, cpql: 712, deals: 1, revenue: 4318, roas: 1.52 },
+      { month: "Jan 2025", spend: 2847, leads: 11, cpl: 259, qualified: 4, cpql: 712, deals: 1, revenue: 4318, roas: 1.52 },
       // Month 2: Restructured campaigns, still winter — low demand (Feb)
-      { month: "Feb 2024", spend: 2793, leads: 12, cpl: 233, qualified: 5, cpql: 559, deals: 2, revenue: 8741, roas: 3.13 },
+      { month: "Feb 2025", spend: 2793, leads: 12, cpl: 233, qualified: 5, cpql: 559, deals: 2, revenue: 8741, roas: 3.13 },
       // Month 3: Spring planning starting, creative tests landing (Mar)
-      { month: "Mar 2024", spend: 2918, leads: 14, cpl: 208, qualified: 6, cpql: 487, deals: 2, revenue: 9623, roas: 3.30 },
+      { month: "Mar 2025", spend: 2918, leads: 14, cpl: 208, qualified: 6, cpql: 487, deals: 2, revenue: 9623, roas: 3.30 },
       // Month 4: Wedding + corporate season ramping, seasonal urgency messaging (Apr)
-      { month: "Apr 2024", spend: 3061, leads: 17, cpl: 180, qualified: 7, cpql: 437, deals: 3, revenue: 14287, roas: 4.67 },
+      { month: "Apr 2025", spend: 3061, leads: 17, cpl: 180, qualified: 7, cpql: 437, deals: 3, revenue: 14287, roas: 4.67 },
       // Month 5: Peak season — high-intent wedding and event queries (May)
-      { month: "May 2024", spend: 3214, leads: 19, cpl: 169, qualified: 8, cpql: 402, deals: 4, revenue: 15847, roas: 4.93 },
+      { month: "May 2025", spend: 3214, leads: 19, cpl: 169, qualified: 8, cpql: 402, deals: 4, revenue: 15847, roas: 4.93 },
       // Month 6: Peak continues, corporate conferences driving volume (Jun)
-      { month: "Jun 2024", spend: 3187, leads: 21, cpl: 152, qualified: 9, cpql: 354, deals: 4, revenue: 14923, roas: 4.68 },
+      { month: "Jun 2025", spend: 3187, leads: 21, cpl: 152, qualified: 9, cpql: 354, deals: 4, revenue: 14923, roas: 4.68 },
       // Month 7: Summer strong but slight pullback in new wedding inquiries (Jul)
-      { month: "Jul 2024", spend: 3142, leads: 18, cpl: 175, qualified: 7, cpql: 449, deals: 3, revenue: 14192, roas: 4.52 },
+      { month: "Jul 2025", spend: 3142, leads: 18, cpl: 175, qualified: 7, cpql: 449, deals: 3, revenue: 14192, roas: 4.52 },
       // Month 8: Late summer, some seasonal softening (Aug)
-      { month: "Aug 2024", spend: 2963, leads: 16, cpl: 185, qualified: 6, cpql: 494, deals: 2, revenue: 10847, roas: 3.66 },
+      { month: "Aug 2025", spend: 2963, leads: 16, cpl: 185, qualified: 6, cpql: 494, deals: 2, revenue: 10847, roas: 3.66 },
       // Month 9: Fall corporate season picks up — conferences, retreats (Sep)
-      { month: "Sep 2024", spend: 3047, leads: 18, cpl: 169, qualified: 7, cpql: 435, deals: 3, revenue: 15213, roas: 4.99 },
+      { month: "Sep 2025", spend: 3047, leads: 18, cpl: 169, qualified: 7, cpql: 435, deals: 3, revenue: 15213, roas: 4.99 },
       // Month 10: Strong fall — fundraiser galas, corporate year-end planning (Oct)
-      { month: "Oct 2024", spend: 3118, leads: 19, cpl: 164, qualified: 8, cpql: 390, deals: 4, revenue: 14687, roas: 4.71 },
+      { month: "Oct 2025", spend: 3118, leads: 19, cpl: 164, qualified: 8, cpql: 390, deals: 4, revenue: 14687, roas: 4.71 },
       // Month 11: Holiday party push — Nov events + Dec planning (Nov)
-      { month: "Nov 2024", spend: 2981, leads: 20, cpl: 149, qualified: 8, cpql: 373, deals: 3, revenue: 13918, roas: 4.67 },
+      { month: "Nov 2025", spend: 2981, leads: 20, cpl: 149, qualified: 8, cpql: 373, deals: 3, revenue: 13918, roas: 4.67 },
       // Month 12: Winter slowdown begins but holiday events still closing (Dec)
-      { month: "Dec 2024", spend: 2847, leads: 16, cpl: 178, qualified: 6, cpql: 475, deals: 3, revenue: 12891, roas: 4.53 },
+      { month: "Dec 2025", spend: 2847, leads: 16, cpl: 178, qualified: 6, cpql: 475, deals: 3, revenue: 12891, roas: 4.53 },
     ],
   },
   impact: [
