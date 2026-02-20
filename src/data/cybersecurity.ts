@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const cybersecurity: CaseStudyData = {
   slug: "cybersecurity",
   industry: "Cybersecurity",
-  headline: "How a National Cybersecurity Firm Scaled Pipeline 152% With AI-Powered Marketing",
-  subheadline: "MEGA helped a nationwide cybersecurity company optimize their digital marketing, reducing cost per qualified lead by 30%, growing organic traffic 418%, and generating $710K in attributed revenue over 8 months.",
+  headline: "How a National Cybersecurity Firm Scaled Pipeline 145% With AI-Powered Marketing",
+  subheadline: "MEGA helped a nationwide cybersecurity company optimize their digital marketing, reducing cost per qualified lead by 30%, growing organic traffic 418%, and generating $691K in attributed revenue over 8 months.",
   heroStats: [
     { value: "8", unit: "months", label: "Partnership Duration" },
-    { value: "152", unit: "%", label: "Revenue Growth Rate" },
-    { value: "$710", unit: "K", label: "Revenue Attributed" },
+    { value: "145", unit: "%", label: "Revenue Growth Rate" },
+    { value: "$691", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["SEO Strategy", "Paid Advertising", "AI-Powered Optimization"],
   company: {
@@ -141,17 +141,17 @@ export const cybersecurity: CaseStudyData = {
       // Month 5: Recovery and optimization — lead scoring refinements, audience pruning working
       { month: "Month 5", spend: 20761, leads: 38, cpl: 546, qualified: 17, cpql: 1221, deals: 4, revenue: 97463, roas: 4.69 },
       // Month 6: Lookalike audiences from closed-won hitting stride, strong deal flow
-      { month: "Month 6", spend: 21384, leads: 41, cpl: 522, qualified: 18, cpql: 1188, deals: 5, revenue: 113742, roas: 5.32 },
+      { month: "Month 6", spend: 21384, leads: 41, cpl: 522, qualified: 18, cpql: 1188, deals: 5, revenue: 103847, roas: 4.86 },
       // Month 7: Summer slowdown in enterprise buying cycles, slight dip in deal velocity
       { month: "Month 7", spend: 20293, leads: 39, cpl: 520, qualified: 17, cpql: 1194, deals: 4, revenue: 94187, roas: 4.64 },
       // Month 8: Budget increase + Q4 compliance deadline urgency driving high-intent traffic
-      { month: "Month 8", spend: 22147, leads: 43, cpl: 515, qualified: 19, cpql: 1166, deals: 5, revenue: 118934, roas: 5.37 },
+      { month: "Month 8", spend: 22147, leads: 43, cpl: 515, qualified: 19, cpql: 1166, deals: 5, revenue: 108917, roas: 4.92 },
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$710.6K", growth: "+152%" },
-    { label: "Total Pipeline", value: "$1.47M", growth: "+112%" },
-    { label: "Avg Revenue Per Contract", value: "$23,686", growth: "" },
-    { label: "Blended ROAS", value: "4.29x", growth: "" },
+    { label: "Total Revenue", value: "$690.7K", growth: "+145%" },
+    { label: "Total Pipeline", value: "$1.43M", growth: "+106%" },
+    { label: "Avg Revenue Per Contract", value: "$23,022", growth: "" },
+    { label: "Blended ROAS", value: "4.17x", growth: "" },
   ],
 };

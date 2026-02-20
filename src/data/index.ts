@@ -6,6 +6,7 @@ import { eventOrganization } from "./event-organization";
 import { roofing } from "./roofing";
 import { landscaping } from "./landscaping";
 import { accounting } from "./accounting";
+import { accountingNy } from "./accounting-ny";
 
 export const caseStudies: Record<string, CaseStudyData> = {
   "mortgage-lending": mortgageLending,
@@ -15,6 +16,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "roofing": roofing,
   "landscaping": landscaping,
   "accounting": accounting,
+  "accounting-ny": accountingNy,
 };
 
 export type { CaseStudyData };

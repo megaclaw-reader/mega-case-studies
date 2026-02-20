@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: "export",
+  // No static export — API routes needed for form submissions
 };
 
 export default nextConfig;
