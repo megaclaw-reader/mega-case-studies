@@ -1,6 +1,7 @@
 "use client";
 
 import AnimatedSection from "./AnimatedSection";
+import { MetricHeader } from "./MetricTooltip";
 import { CaseStudyData } from "@/data/types";
 import {
   LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer,
@@ -67,7 +68,9 @@ export default function SeoPerformance({ data }: { data: CaseStudyData }) {
               <thead>
                 <tr className="border-b border-gray-100">
                   {["Month", "Keywords", "Top 10", "Top 3", "Traffic", "Pages", "Avg Pos", "CTR"].map((h) => (
-                    <th key={h} className="px-6 py-3 text-left text-xs font-semibold text-[#6B7280] uppercase tracking-wider">{h}</th>
+                    <th key={h} className="px-6 py-3 text-left text-xs font-semibold text-[#6B7280] uppercase tracking-wider">
+                      <MetricHeader label={h} />
+                    </th>
                   ))}
                 </tr>
               </thead>

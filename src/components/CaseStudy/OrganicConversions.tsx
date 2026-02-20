@@ -1,6 +1,7 @@
 "use client";
 
 import AnimatedSection from "./AnimatedSection";
+import { MetricHeader } from "./MetricTooltip";
 import { CaseStudyData } from "@/data/types";
 import {
   BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Legend,
@@ -74,8 +75,10 @@ export default function OrganicConversions({ data }: { data: CaseStudyData }) {
             <table className="w-full text-sm">
               <thead>
                 <tr className="border-b border-gray-100">
-                  {["Month", "Form Fills", "Phone Calls", "Total Leads", "Conversion Rate"].map((h) => (
-                    <th key={h} className="px-6 py-3 text-left text-xs font-semibold text-[#6B7280] uppercase tracking-wider">{h}</th>
+                  {["Month", "Form Fills", "Calls", "Total Leads", "Conversion Rate"].map((h) => (
+                    <th key={h} className="px-6 py-3 text-left text-xs font-semibold text-[#6B7280] uppercase tracking-wider">
+                      <MetricHeader label={h} />
+                    </th>
                   ))}
                 </tr>
               </thead>

@@ -1,6 +1,7 @@
 "use client";
 
 import AnimatedSection from "./AnimatedSection";
+import { MetricHeader } from "./MetricTooltip";
 import { CaseStudyData } from "@/data/types";
 import {
   ComposedChart, Bar, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer,
@@ -64,7 +65,9 @@ export default function PaidAdsPerformance({ data }: { data: CaseStudyData }) {
               <thead>
                 <tr className="border-b border-gray-100">
                   {["Month", "Spend", "Leads", "CPL", "Qualified", "CPQL", "Deals", "Revenue", "ROAS"].map((h) => (
-                    <th key={h} className="px-5 py-3 text-left text-xs font-semibold text-[#6B7280] uppercase tracking-wider">{h}</th>
+                    <th key={h} className="px-5 py-3 text-left text-xs font-semibold text-[#6B7280] uppercase tracking-wider">
+                      <MetricHeader label={h} />
+                    </th>
                   ))}
                 </tr>
               </thead>
