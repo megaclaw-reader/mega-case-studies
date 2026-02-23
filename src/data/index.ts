@@ -13,6 +13,7 @@ import { interiorDesign } from "./interior-design";
 import { lawFirmMontreal } from "./law-firm-montreal";
 import { lawFirmMtl } from "./law-firm-mtl";
 import { fashionApparel } from "./fashion-apparel";
+import { homeDamageRestoration } from "./home-damage-restoration";
 
 export const caseStudies: Record<string, CaseStudyData> = {
   "mortgage-lending": mortgageLending,
@@ -29,6 +30,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "law-firm-montreal": lawFirmMontreal,
   "law-firm-mtl": lawFirmMtl,
   "fashion-apparel": fashionApparel,
+  "home-damage-restoration": homeDamageRestoration,
 };
 
 export type { CaseStudyData };
