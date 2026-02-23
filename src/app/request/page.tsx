@@ -167,7 +167,10 @@ export default function RequestPage() {
                     name="scope"
                     value={opt}
                     checked={form.scope === opt}
-                    onChange={() => update("scope", opt)}
+                    onChange={() => {
+                      update("scope", opt);
+                      if (opt === "national") update("region", "");
+                    }}
                     className="accent-[#2454FF]"
                   />
                   <span className="text-sm text-gray-700 capitalize">{opt}</span>
@@ -231,19 +234,23 @@ export default function RequestPage() {
             </div>
           </div>
 
-          {/* Region */}
-          <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1.5">
-              Geographic Region
-            </label>
-            <input
-              type="text"
-              value={form.region}
-              onChange={(e) => update("region", e.target.value)}
-              placeholder="e.g. Greater Toronto Area, Nationwide US"
-              className="w-full px-4 py-2.5 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#2454FF]/30 focus:border-[#2454FF] transition"
-            />
-          </div>
+          {/* Location (only for local businesses) */}
+          {form.scope === "local" && (
+            <div>
+              <label className="block text-sm font-medium text-gray-700 mb-1.5">
+                Where should this business be based? <span className="text-red-500">*</span>
+              </label>
+              <input
+                required
+                type="text"
+                value={form.region}
+                onChange={(e) => update("region", e.target.value)}
+                placeholder="e.g. Phoenix, AZ or Greater Toronto Area"
+                className="w-full px-4 py-2.5 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#2454FF]/30 focus:border-[#2454FF] transition"
+              />
+              <p className="mt-1 text-xs text-gray-400">City, state, or region for the case study</p>
+            </div>
+          )}
 
           {/* Highlights */}
           <div>
