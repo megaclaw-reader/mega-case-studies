@@ -12,6 +12,7 @@ export default function RequestPage() {
     requesterName: "",
     email: "",
     industry: "",
+    businessType: "lead-gen",
     scope: "local",
     monthlySpend: "",
     clientDuration: "",
@@ -126,6 +127,31 @@ export default function RequestPage() {
               placeholder="e.g. Roofing, Dental, Mortgage Lending"
               className="w-full px-4 py-2.5 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#2454FF]/30 focus:border-[#2454FF] transition"
             />
+          </div>
+
+          {/* Business Type */}
+          <div>
+            <label className="block text-sm font-medium text-gray-700 mb-1.5">
+              Business Type <span className="text-red-500">*</span>
+            </label>
+            <div className="flex gap-4">
+              {[
+                { value: "lead-gen", label: "Lead Generation" },
+                { value: "ecommerce", label: "Ecommerce" },
+              ].map((opt) => (
+                <label key={opt.value} className="flex items-center gap-2 cursor-pointer">
+                  <input
+                    type="radio"
+                    name="businessType"
+                    value={opt.value}
+                    checked={form.businessType === opt.value}
+                    onChange={() => update("businessType", opt.value)}
+                    className="accent-[#2454FF]"
+                  />
+                  <span className="text-sm text-gray-700">{opt.label}</span>
+                </label>
+              ))}
+            </div>
           </div>
 
           {/* Local / National */}
