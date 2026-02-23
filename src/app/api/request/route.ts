@@ -1,5 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 
+export const dynamic = "force-dynamic";
+
 // In-memory store for pending requests (persists across warm invocations)
 // Also writes to a public endpoint for polling
 const REQUESTS_KEY = "case-study-requests";
