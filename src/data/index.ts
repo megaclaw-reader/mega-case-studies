@@ -16,6 +16,7 @@ import { fashionApparel } from "./fashion-apparel";
 import { homeDamageRestoration } from "./home-damage-restoration";
 import { realEstateServices } from "./real-estate-services";
 import { garageDoorRepairs } from "./garage-door-repairs";
+import { ecommerceAthleticApparel } from "./ecommerce-athletic-apparel";
 
 export const caseStudies: Record<string, CaseStudyData> = {
   "mortgage-lending": mortgageLending,
@@ -35,6 +36,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "home-damage-restoration": homeDamageRestoration,
   "real-estate-services": realEstateServices,
   "garage-door-repairs": garageDoorRepairs,
+  "ecommerce-athletic-apparel": ecommerceAthleticApparel,
 };
 
 export type { CaseStudyData };
