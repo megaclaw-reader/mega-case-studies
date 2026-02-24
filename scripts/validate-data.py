@@ -35,6 +35,15 @@ for fname in sorted(files):
         if qual > leads:
             errors.append(f"{fname} | {month}: qualified ({qual}) > leads ({leads})")
 
+    # Check budget floor: if a monthlyBudget is specified, no month's spend should be below it
+    budget_match = re.search(r'monthlyBudget:\s*(\d+)', content)
+    spend_vals = [int(x) for x in re.findall(r'spend:\s*(\d+)', content)]
+    if budget_match and spend_vals:
+        budget_floor = int(budget_match.group(1))
+        for i, s in enumerate(spend_vals):
+            if s < budget_floor:
+                errors.append(f"{fname}: Month {i+1} spend ({s}) < budget floor ({budget_floor})")
+
     # Check SEO: traffic should generally trend up (allow 1-2 dips)
     traffic_vals = [int(x) for x in re.findall(r'traffic:\s*(\d+)', content)]
     if len(traffic_vals) > 3:
