@@ -24,6 +24,7 @@ import { lawFirmSeo } from "./law-firm-seo";
 import { cleaningService } from "./cleaning-service";
 import { swimmingPoolContractors } from "./swimming-pool-contractors";
 import { movingCompany } from "./moving-company";
+import { generalContracting } from "./general-contracting";
 
 export const caseStudies: Record<string, CaseStudyData> = {
   "mortgage-lending": mortgageLending,
@@ -51,6 +52,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "cleaning-service": cleaningService,
   "swimming-pool-contractors": swimmingPoolContractors,
   "moving-company": movingCompany,
+  "general-contracting": generalContracting,
 };
 
 export type { CaseStudyData };
