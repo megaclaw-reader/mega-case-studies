@@ -19,6 +19,7 @@ import { garageDoorRepairs } from "./garage-door-repairs";
 import { ecommerceAthletic } from "./ecommerce-athletic";
 import { legalProfessionalServices } from "./legal-professional-services";
 import { commercialRealEstate } from "./commercial-real-estate";
+import { healthcareRegenerativeMedicine } from "./healthcare-regenerative-medicine";
 
 export const caseStudies: Record<string, CaseStudyData> = {
   "mortgage-lending": mortgageLending,
@@ -41,6 +42,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "ecommerce-athletic": ecommerceAthletic,
   "legal-professional-services": legalProfessionalServices,
   "commercial-real-estate": commercialRealEstate,
+  "healthcare-regenerative-medicine": healthcareRegenerativeMedicine,
 };
 
 export type { CaseStudyData };
