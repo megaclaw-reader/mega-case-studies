@@ -1,14 +1,21 @@
 "use client";
 
-const navLinks = [
-  { label: "Challenge", href: "#challenge" },
-  { label: "Strategy", href: "#strategy" },
-  { label: "SEO Results", href: "#seo" },
-  { label: "Paid Ads", href: "#paid-ads" },
-  { label: "Impact", href: "#impact" },
-];
+import { CaseStudyData } from "@/data/types";
 
-export default function Header() {
+function getNavLinks(data?: CaseStudyData) {
+  const links = [
+    { label: "Challenge", href: "#challenge" },
+    { label: "Strategy", href: "#strategy" },
+  ];
+  if (data?.seo) links.push({ label: "SEO Results", href: "#seo" });
+  if (data?.localSeo) links.push({ label: "Local SEO", href: "#local-seo" });
+  if (data?.organicConversions) links.push({ label: "Conversions", href: "#conversions" });
+  if (data?.paidAds) links.push({ label: "Paid Ads", href: "#paid-ads" });
+  links.push({ label: "Impact", href: "#impact" });
+  return links;
+}
+
+export default function Header({ data }: { data?: CaseStudyData }) {
   return (
     <header className="sticky top-0 z-50 backdrop-blur-xl bg-white/80 border-b border-gray-100">
       <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
@@ -18,7 +25,7 @@ export default function Header() {
           </svg>
         </a>
         <nav className="hidden md:flex items-center gap-8">
-          {navLinks.map((link) => (
+          {getNavLinks(data).map((link) => (
             <a
               key={link.href}
               href={link.href}

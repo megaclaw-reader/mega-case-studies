@@ -15,7 +15,7 @@ import Footer from "./Footer";
 export default function CaseStudyPage({ data }: { data: CaseStudyData }) {
   return (
     <>
-      <Header />
+      <Header data={data} />
       <main>
         <Hero data={data} />
         <Challenge data={data} />
