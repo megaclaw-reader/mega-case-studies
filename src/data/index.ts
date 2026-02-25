@@ -39,6 +39,7 @@ import { onlineTelemedicine } from "./online-telemedicine";
 import { dewateringWaterManagement } from "./dewatering-water-management";
 import { residentialCommercialFlooring } from "./residential-commercial-flooring";
 import { healthcareWoundCareEducation } from "./healthcare-wound-care-education";
+import { hvac } from "./hvac";
 
 export const caseStudies: Record<string, CaseStudyData> = {
   "mortgage-lending": mortgageLending,
@@ -81,6 +82,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "dewatering-water-management": dewateringWaterManagement,
   "residential-commercial-flooring": residentialCommercialFlooring,
   "healthcare-wound-care-education": healthcareWoundCareEducation,
+  "hvac": hvac,
 };
 
 export type { CaseStudyData };
