@@ -35,7 +35,6 @@ import { multiLocationConsumerBrand } from "./multi-location-consumer-brand";
 import { healthySnackBrand } from "./healthy-snack-brand";
 import { drywallRepair } from "./drywall-repair";
 import { personalInjuryLawyer } from "./personal-injury-lawyer";
-import { personalInjuryLawyer } from "./personal-injury-lawyer";
 
 export const caseStudies: Record<string, CaseStudyData> = {
   "mortgage-lending": mortgageLending,
