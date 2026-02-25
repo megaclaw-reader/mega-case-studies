@@ -36,6 +36,7 @@ import { healthySnackBrand } from "./healthy-snack-brand";
 import { drywallRepair } from "./drywall-repair";
 import { personalInjuryLawyer } from "./personal-injury-lawyer";
 import { onlineTelemedicine } from "./online-telemedicine";
+import { dewateringWaterManagement } from "./dewatering-water-management";
 
 export const caseStudies: Record<string, CaseStudyData> = {
   "mortgage-lending": mortgageLending,
@@ -75,6 +76,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "drywall-repair": drywallRepair,
   "personal-injury-lawyer": personalInjuryLawyer,
   "online-telemedicine": onlineTelemedicine,
+  "dewatering-water-management": dewateringWaterManagement,
 };
 
 export type { CaseStudyData };
