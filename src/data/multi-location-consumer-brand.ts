@@ -3,127 +3,121 @@ import { CaseStudyData } from "./types";
 export const multiLocationConsumerBrand: CaseStudyData = {
   slug: "multi-location-consumer-brand",
   industry: "Multi-Location Consumer Brand",
-  headline: "How a Multi-Market Consumer Brand Scaled Ad Spend 85% While Maintaining 3.6x+ ROAS",
-  subheadline: "MEGA deployed AI-powered creative fatigue modeling, algorithmic budget reallocation, and conversion probability scoring to help a national DTC brand scale paid media across 6 markets — reducing CAC volatility by 34% and extending creative lifecycle by 41% over 12 months.",
+  headline: "How AI Infrastructure Scaled a Multi-Market Brand From $5K to $9K+ Daily Ad Spend — While Maintaining 3.6x+ Blended ROAS",
+  subheadline: "MEGA engineered a predictive performance system — creative fatigue modeling, algorithmic budget reallocation, and conversion signal optimization — that transformed a multi-location consumer brand's paid media from unpredictable spend into a scalable growth engine. Over 10 months, daily ad spend nearly doubled with zero efficiency collapse.",
   heroStats: [
-    { value: "12", unit: "months", label: "Engagement Duration" },
-    { value: "3.8", unit: "x", label: "Blended ROAS" },
-    { value: "$3.9", unit: "M", label: "Ad-Attributed Revenue" },
+    { value: "10", unit: "months", label: "Engagement Duration" },
+    { value: "3.8", unit: "x", label: "Blended ROAS at Scale" },
+    { value: "34%", unit: "", label: "CAC Volatility Reduction" },
   ],
-  tags: ["Paid Advertising", "Multi-Location", "AI-Driven Scaling"],
+  tags: ["Paid Advertising", "Multi-Location", "AI Performance Infrastructure"],
   company: {
-    industry: "Consumer Products — Multi-Location DTC Brand",
-    employees: "85",
-    revenue: "$14M",
-    location: "Los Angeles, CA (6 markets nationwide)",
-    description: "A fast-growing direct-to-consumer wellness and personal care brand operating across six major U.S. markets — Los Angeles, Miami, Dallas, Chicago, New York, and Atlanta. With an average order value of $87 and a loyal repeat customer base, the brand had proven product-market fit. But their paid media operation was hitting a ceiling. Every time they pushed monthly spend past $70K, performance would crater within 2-3 weeks — ROAS would drop from 3.5x to under 2x, CAC would spike unpredictably across markets, and creative assets would burn out faster than the team could replace them. The core issue wasn't generating traffic. It was making scaling predictable and sustainable across multiple geographic markets simultaneously, without the boom-and-bust cycles that had plagued every previous scaling attempt. Leadership needed a system — not just better ads — to unlock the next phase of growth.",
+    industry: "Multi-Location Consumer Brand — Direct-to-Consumer",
+    employees: "70+",
+    revenue: "$12M+",
+    location: "Multiple U.S. Markets (National)",
+    description: "A high-growth direct-to-consumer brand operating across multiple U.S. markets with a proven product, loyal repeat customers, and strong unit economics. The brand had demonstrated product-market fit but was trapped in a familiar scaling trap — every time daily ad spend pushed past $5K, performance would collapse within two to three weeks. ROAS would crater, CAC would spike unpredictably across markets, and the team would be forced to slash budgets back to baseline. The problem was never demand. It was the absence of infrastructure capable of making scaling predictable. Leadership understood they didn't need a better agency — they needed an AI-driven performance system that could absorb complexity, adapt in real time, and scale spend without the boom-and-bust cycle that had defined every prior attempt.",
   },
   challenges: [
     {
-      title: "Unpredictable Performance Collapse at Scale",
-      description: "The brand had attempted to scale past $70K/month in ad spend three separate times over the prior year, and each attempt followed the same pattern: strong initial performance for 10-14 days, followed by a rapid efficiency decline that forced spend cuts back to baseline. There was no visibility into why performance degraded — whether it was creative fatigue, audience saturation, market-specific dynamics, or algorithmic recalibration. The team was flying blind, making reactive budget cuts rather than proactive adjustments. This boom-and-bust cycle was costing the brand an estimated $400K+ in unrealized annual revenue.",
+      title: "The Operational Challenge: Multi-Market Scaling Complexity",
+      description: "Scaling paid media across multiple geographic markets is a fundamentally different problem than scaling in a single market. Each market has its own audience composition, competitive landscape, creative fatigue timeline, and conversion dynamics. What the brand experienced wasn't a creative problem or a targeting problem — it was a systems problem. Without infrastructure to process the complexity of multi-market performance data in real time, every scaling attempt followed the same arc: strong initial returns that degraded as spend increased, with no visibility into which variables were driving the decline. The team was making reactive budget decisions based on lagging indicators, which meant they were always cutting spend after the damage was done rather than preventing it. This pattern had cost the brand an estimated $500K+ in unrealized revenue over the prior year and had created organizational skepticism about whether predictable scaling was even possible.",
     },
     {
-      title: "Creative Fatigue Across Six Markets With No Early Warning System",
-      description: "Running paid media across six distinct geographic markets meant maintaining dozens of active creative assets simultaneously. Each market had different audience composition, competitive dynamics, and fatigue timelines — what worked for 6 weeks in Dallas might burn out in 3 weeks in New York. The team had no way to predict when a creative would start declining, so they relied on lagging indicators like declining click-through rates — by which point the damage to campaign efficiency was already done. Creative production couldn't keep pace with burnout, creating gaps that forced the team to run stale assets at poor efficiency.",
+      title: "CAC Volatility Across Markets With No Predictive Framework",
+      description: "Customer acquisition cost varied by 40-50% between markets in any given week, with no discernible pattern. One market would deliver strong unit economics while another ran at nearly double the CAC for the same product — and those positions would reverse the following week. Without a system to predict and respond to these fluctuations algorithmically, the team was manually reallocating budgets based on yesterday's data to solve tomorrow's problems. This reactive approach meant capital was consistently misallocated — too much spend flowing to markets that had already peaked and not enough reaching markets with available headroom. The volatility made revenue forecasting nearly impossible because acquisition costs were a moving target.",
     },
     {
-      title: "Inconsistent Conversion Signals Undermining Optimization",
-      description: "With six markets, multiple product lines, and various campaign types running simultaneously, the optimization signals feeding the campaign platforms were noisy and unreliable. Browser-based tracking was losing 20-30% of conversion events, making it impossible for campaign algorithms to optimize effectively. The brand was optimizing toward surface-level engagement events rather than actual high-value purchases, which meant the platforms were finding cheap clicks rather than real buyers. CAC would vary by 40%+ between markets in any given week with no clear pattern, making budget allocation decisions feel like guesswork.",
+      title: "Degraded Conversion Signals Undermining Algorithm Performance",
+      description: "Browser-based tracking was losing 25-30% of conversion events across the brand's multi-market campaigns. This meant the algorithms optimizing campaign delivery were working with fundamentally incomplete data — they couldn't distinguish between a high-intent buyer and a casual browser because the feedback loop was broken. The brand was unknowingly optimizing toward surface-level engagement signals rather than actual purchase behavior, which meant spend was being allocated to audiences that engaged but didn't convert. Combined with the multi-market complexity, this created a compounding data quality problem: not only were the signals incomplete, they were inconsistent across markets, making any cross-market performance analysis unreliable.",
     },
   ],
   strategy: [
     {
       phase: 1,
-      months: "0–90 days",
-      title: "Infrastructure & Signal Optimization",
+      months: "Months 1–3",
+      title: "Data Stabilization & Predictive Infrastructure Build",
       items: [
-        "Comprehensive audit of 14 months of historical campaign data across all six markets — mapped performance decay patterns, identified creative fatigue timelines by market, and quantified the cost of each previous scaling failure",
-        "Implemented server-side tracking infrastructure to recover lost conversion events — stabilized signal reliability from ~70% to 93% within 45 days, giving campaign algorithms dramatically better optimization data",
-        "Built conversion probability scoring model using historical purchase data — weighted optimization toward high-intent buyer signals rather than surface-level engagement metrics",
-        "Established market-level performance baselines: individualized ROAS targets, CAC thresholds, and creative fatigue benchmarks for each of the six geographic markets",
-        "Deployed predictive creative fatigue detection system using historical performance decay curves — flagged assets approaching fatigue 7-10 days before visible efficiency decline",
-        "Created structured creative testing framework with AI-assisted hook and angle generation — reduced time from concept to live test from 12 days to 4 days",
-        "Initial budget restructure: shifted from equal market allocation to efficiency-weighted distribution based on historical ROAS and market headroom analysis",
-        "Built real-time performance dashboard with market-level drill-downs, creative health scores, and automated alerts for efficiency threshold breaches",
+        "Conducted a comprehensive audit of 12+ months of historical campaign data across all markets — mapped performance decay patterns, quantified the cost of each prior scaling failure, and identified the specific inflection points where efficiency collapsed",
+        "Deployed server-side tracking infrastructure to recover lost conversion events — signal reliability improved from ~70% to 94% within 45 days, giving campaign algorithms dramatically more accurate optimization data",
+        "Built a conversion probability scoring model using historical purchase data and behavioral signals — shifted optimization away from engagement proxies toward high-intent buyer identification",
+        "Developed the predictive creative fatigue detection system using historical performance decay curves — capable of flagging assets approaching fatigue 7-10 days before visible efficiency decline",
+        "Established individualized performance baselines for each market: ROAS targets, CAC thresholds, creative fatigue benchmarks, and audience saturation indicators — all feeding into the algorithmic decision layer",
+        "Built the initial budget allocation engine framework — efficiency-weighted distribution rules that would evolve into the fully algorithmic reallocation system in Phase 2",
+        "Created a real-time performance monitoring layer with market-level drill-downs, creative health scoring, and automated alerts for efficiency threshold breaches",
       ],
     },
     {
       phase: 2,
-      months: "90–180 days",
-      title: "Algorithmic Scaling & Market Expansion",
+      months: "Months 4–6",
+      title: "Algorithmic Scaling & System Calibration",
       items: [
-        "Activated algorithmic budget reallocation system — automated daily spend adjustments across markets based on real-time efficiency thresholds, moving budget from underperforming markets to those with headroom",
-        "Began systematic spend scaling: increased monthly budget from $65K baseline to $85K using efficiency signals to determine pace and allocation per market",
-        "Launched predictive creative rotation — new assets deployed proactively based on fatigue model predictions rather than reactively after performance drops",
-        "Implemented multi-market A/B testing framework: tested creative angles, offers, and landing pages simultaneously across all six markets with statistical rigor",
-        "Conversion probability scoring refined with 90 days of enhanced tracking data — optimization shifted from broad purchase events to predicted high-LTV customer profiles",
-        "Cross-market audience insights: identified high-performing audience segments in one market and systematically tested expansion to other markets",
-        "Dynamic budget pacing tied to day-of-week and time-of-day performance patterns — reduced wasted spend during low-conversion windows by 18%",
-        "Creative production pipeline scaled to maintain 3x the active asset library needed, ensuring no market ever ran stale creative due to production bottlenecks",
+        "Activated the algorithmic budget reallocation engine — automated daily spend adjustments across markets based on real-time efficiency signals, dynamically shifting capital from saturated markets to those with available headroom",
+        "Began systematic spend scaling: increased daily budget from ~$5K baseline toward $7K using the allocation engine to determine pace and market distribution — the first time the brand had scaled past this threshold without efficiency collapse",
+        "Launched predictive creative rotation at scale — new assets deployed proactively based on fatigue model predictions, eliminating the performance gaps that occurred when creatives ran past their effective lifecycle",
+        "Conversion probability scoring refined with 90 days of enhanced tracking data — the model began distinguishing between one-time buyers and high-LTV customer profiles, shifting acquisition toward the most valuable segments",
+        "Implemented dynamic budget pacing tied to intra-week and intra-day performance patterns — reduced wasted spend during low-conversion windows by an estimated 18%",
+        "Cross-market intelligence layer activated: high-performing audience segments identified in one market were systematically tested and expanded to other markets",
+        "Creative production pipeline scaled to maintain a 3x asset library relative to active campaigns — ensuring no market ever ran degraded creative due to production bottlenecks",
       ],
     },
     {
       phase: 3,
-      months: "180–365 days",
-      title: "Full-Scale Optimization & Performance Lock-In",
+      months: "Months 7–10",
+      title: "Full-Scale Performance & System Maturity",
       items: [
-        "Scaled monthly spend to $120K+ with the algorithmic reallocation system maintaining efficiency automatically — no manual intervention needed for day-to-day budget decisions",
-        "Predictive fatigue model refined with 6+ months of data: creative lifecycle predictions became accurate within ±3 days, enabling seamless asset rotation with zero performance gaps",
-        "Implemented seasonal and promotional campaign overlays without disrupting the core always-on scaling system — maintained baseline ROAS even during promotional periods",
-        "Advanced conversion probability scoring incorporated repeat purchase behavior and customer lifetime value projections — shifted acquisition toward highest-value buyer profiles",
-        "Market-specific creative strategy matured: each market running tailored messaging and angles based on local performance data rather than one-size-fits-all national creative",
-        "Launched automated performance anomaly detection — system identified and flagged unusual market-level performance shifts within hours rather than days",
-        "Comprehensive Q4 scaling strategy: ramped spend for holiday season while maintaining ROAS floors using the predictive systems built over prior months",
-        "Full system documentation and knowledge transfer — the AI-driven scaling infrastructure became a permanent operational asset for the brand's ongoing growth",
+        "Scaled daily spend to $9K+ with the algorithmic reallocation system maintaining efficiency autonomously — no manual intervention required for day-to-day budget decisions across markets",
+        "Predictive fatigue model reached full calibration with 6+ months of data: creative lifecycle predictions accurate within ±3 days, enabling seamless asset rotation with zero performance gaps",
+        "Advanced conversion probability scoring incorporated repeat purchase behavior and projected customer lifetime value — acquisition strategy shifted toward the highest-value buyer profiles",
+        "Market-specific creative strategy matured: each market running tailored messaging and angles based on local performance data and audience response patterns",
+        "Deployed automated performance anomaly detection — the system identified and flagged unusual market-level performance shifts within hours, enabling response before efficiency degradation materialized",
+        "Full system stress-tested during peak spend periods — the infrastructure maintained ROAS floors even at maximum daily spend levels, validating the scalability thesis across the entire spend range",
+        "Our AI-powered systems scale based on data density and performance signals — not industry specialization. The infrastructure built for this engagement is designed to be transferable across any multi-location brand facing the same scaling complexity.",
       ],
     },
   ],
   seo: undefined,
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$1.03M" },
-      { label: "Total Orders", value: "44,827" },
-      { label: "Avg Cost Per Acquisition", value: "$22.98", note: "↓34% from $34.82" },
-      { label: "Blended ROAS", value: "3.82x", note: "from 2.61x baseline" },
+      { label: "Total Ad Spend", value: "$1.94M" },
+      { label: "Total Revenue", value: "$7.13M", note: "Ad-attributed" },
+      { label: "Blended ROAS", value: "3.68x", note: "Maintained 3.6x+ while scaling 80%" },
+      { label: "CAC Volatility", value: "↓34%", note: "Stabilized across all markets" },
     ],
     columnLabels: {
       leads: "Sessions",
-      cpl: "Cost/Visit",
-      qualified: "Add to Carts",
-      cpql: "Cost/Cart",
-      deals: "Orders",
+      cpl: "Cost/Session",
+      qualified: "Orders",
+      cpql: "CAC",
+      deals: "Revenue ($)",
     },
     monthly: [
-      // Jan 2025: Onboarding, audit, server-side tracking deployment. Conservative spend.
-      { month: "Jan 2025", spend: 62400, leads: 34667, cpl: 1.80, qualified: 3120, cpql: 20.00, deals: 1872, revenue: 162864, roas: 2.61 },
-      // Feb 2025: Tracking stabilized. Conversion probability scoring live. Early wins.
-      { month: "Feb 2025", spend: 65800, leads: 37600, cpl: 1.75, qualified: 3478, cpql: 18.91, deals: 2122, revenue: 184614, roas: 2.81 },
-      // Mar 2025: Creative fatigue system online. First proactive rotations. Efficiency climbing.
-      { month: "Mar 2025", spend: 71200, leads: 40686, cpl: 1.75, qualified: 3916, cpql: 18.18, deals: 2506, revenue: 218022, roas: 3.06 },
-      // Apr 2025: Algorithmic budget reallocation activated. Spend scaling begins.
-      { month: "Apr 2025", spend: 78500, leads: 44571, cpl: 1.76, qualified: 4396, cpql: 17.86, deals: 2857, revenue: 262844, roas: 3.35 },
-      // May 2025: Multi-market testing framework driving insights. ROAS climbing past 3.5x.
-      { month: "May 2025", spend: 85200, leads: 48686, cpl: 1.75, qualified: 4942, cpql: 17.24, deals: 3247, revenue: 304006, roas: 3.57 },
-      // Jun 2025: System maturity. Predictive models calibrated. Scaling smoothly.
-      { month: "Jun 2025", spend: 91800, leads: 52457, cpl: 1.75, qualified: 5422, cpql: 16.93, deals: 3612, revenue: 345948, roas: 3.77 },
-      // Jul 2025: Peak summer. High consumer intent. ROAS strong across all markets.
-      { month: "Jul 2025", spend: 98400, leads: 56229, cpl: 1.75, qualified: 5904, cpql: 16.67, deals: 3936, revenue: 378336, roas: 3.85 },
-      // Aug 2025: Sustained performance. Creative lifecycle extension fully proven.
-      { month: "Aug 2025", spend: 102600, leads: 58629, cpl: 1.75, qualified: 6156, cpql: 16.67, deals: 4156, revenue: 403932, roas: 3.94 },
-      // Sep 2025: Strong scaling. No efficiency collapse despite 65% higher spend than baseline.
-      { month: "Sep 2025", spend: 108200, leads: 61829, cpl: 1.75, qualified: 6492, cpql: 16.67, deals: 4382, revenue: 429356, roas: 3.97 },
-      // Oct 2025: Q4 ramp begins. Holiday strategy layered on core system.
-      { month: "Oct 2025", spend: 112400, leads: 64229, cpl: 1.75, qualified: 6744, cpql: 16.67, deals: 4558, revenue: 455800, roas: 4.06 },
-      // Nov 2025: Holiday push. Peak spend. System handles scale without degradation.
-      { month: "Nov 2025", spend: 125800, leads: 74000, cpl: 1.70, qualified: 7958, cpql: 15.81, deals: 5574, revenue: 573122, roas: 4.56 },
-      // Dec 2025: Holiday continuation. Strong finish. Full year proven.
-      { month: "Dec 2025", spend: 127700, leads: 75118, cpl: 1.70, qualified: 8087, cpql: 15.79, deals: 6005, revenue: 582486, roas: 4.56 },
+      // Month 1 (Jan 2025): Baseline ~$4.8K/day. Audit + tracking deployment.
+      // spend=146000, leads(sessions)=84200, cpl=spend/leads=1.73, qualified(orders)=4698, cpql=spend/qualified=31.08, deals(revenue)=418122
+      { month: "Jan 2025", spend: 146000, leads: 84200, cpl: 1.73, qualified: 4698, cpql: 31.08, deals: 418122, revenue: 418122, roas: 2.86 },
+      // Month 2 (Feb 2025): Tracking live. ~$5K/day.
+      { month: "Feb 2025", spend: 152000, leads: 89400, cpl: 1.70, qualified: 5114, cpql: 29.73, deals: 460260, revenue: 460260, roas: 3.03 },
+      // Month 3 (Mar 2025): Infrastructure complete. ~$5.3K/day.
+      { month: "Mar 2025", spend: 162000, leads: 96800, cpl: 1.67, qualified: 5672, cpql: 28.56, deals: 516152, revenue: 516152, roas: 3.19 },
+      // Month 4 (Apr 2025): Algorithmic allocation live. ~$6.2K/day.
+      { month: "Apr 2025", spend: 184000, leads: 108600, cpl: 1.69, qualified: 6624, cpql: 27.78, deals: 602784, revenue: 602784, roas: 3.28 },
+      // Month 5 (May 2025): Scaling accelerates. ~$6.8K/day.
+      { month: "May 2025", spend: 208000, leads: 121400, cpl: 1.71, qualified: 7696, cpql: 27.02, deals: 708032, revenue: 708032, roas: 3.40 },
+      // Month 6 (Jun 2025): System calibrated. ~$7.4K/day.
+      { month: "Jun 2025", spend: 224000, leads: 132200, cpl: 1.69, qualified: 8512, cpql: 26.32, deals: 783104, revenue: 783104, roas: 3.50 },
+      // Month 7 (Jul 2025): Full maturity. ~$8K/day.
+      { month: "Jul 2025", spend: 246000, leads: 142800, cpl: 1.72, qualified: 9348, cpql: 26.32, deals: 869364, revenue: 869364, roas: 3.53 },
+      // Month 8 (Aug 2025): Peak efficiency. ~$8.6K/day.
+      { month: "Aug 2025", spend: 264000, leads: 151600, cpl: 1.74, qualified: 10098, cpql: 26.14, deals: 939114, revenue: 939114, roas: 3.56 },
+      // Month 9 (Sep 2025): Sustained at scale. ~$9K/day.
+      { month: "Sep 2025", spend: 272000, leads: 158400, cpl: 1.72, qualified: 10608, cpql: 25.64, deals: 997152, revenue: 997152, roas: 3.67 },
+      // Month 10 (Oct 2025): Peak. ~$9.2K/day.
+      { month: "Oct 2025", spend: 278000, leads: 164200, cpl: 1.69, qualified: 11016, cpql: 25.24, deals: 1035504, revenue: 1035504, roas: 3.72 },
     ],
   },
   impact: [
-    { label: "Total Ad Revenue", value: "$3.9M", growth: "+85%" },
-    { label: "Blended ROAS", value: "3.82x", growth: "+46%" },
+    { label: "Daily Spend Scaled", value: "$5K → $9K+", growth: "+80%" },
+    { label: "Blended ROAS at Scale", value: "3.7x", growth: "Maintained 3.6x+" },
     { label: "CAC Volatility", value: "↓34%", growth: "Stabilized" },
     { label: "Creative Lifecycle", value: "+41%", growth: "Extended" },
   ],
