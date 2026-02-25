@@ -3,8 +3,8 @@ import { CaseStudyData } from "./types";
 export const residentialCommercialFlooring: CaseStudyData = {
   slug: "residential-commercial-flooring",
   industry: "Residential & Commercial Flooring",
-  headline: "How a Charlotte Flooring Company Increased Qualified Leads 38% With AI-Powered Marketing",
-  subheadline: "MEGA helped a residential and commercial flooring company in Charlotte, NC optimize their digital marketing, reducing cost per qualified lead by 33%, growing organic traffic 312%, and generating $487K in attributed revenue over 12 months.",
+  headline: "How a Miami Flooring Company Increased Qualified Leads 38% With AI-Powered Marketing",
+  subheadline: "MEGA helped a residential and commercial flooring company in Miami, FL optimize their digital marketing, reducing cost per qualified lead by 33%, growing organic traffic 312%, and generating $487K in attributed revenue over 12 months.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
     { value: "312", unit: "%", label: "Organic Traffic Growth" },
@@ -15,13 +15,13 @@ export const residentialCommercialFlooring: CaseStudyData = {
     industry: "Residential & Commercial Flooring",
     employees: "22",
     revenue: "$3.4M",
-    location: "Charlotte, NC",
-    description: "A full-service flooring company serving the greater Charlotte metro area, specializing in hardwood, tile, carpet, luxury vinyl plank, and commercial flooring installations. The company had built a strong reputation over 11 years through quality craftsmanship and referral business from general contractors and property managers. However, their digital marketing presence was minimal — a dated website with limited service pages, inconsistent local citations, and a modest paid advertising budget that generated leads without any qualification tracking. They served both homeowners looking for single-room updates and commercial clients needing full-building flooring installations, but their online strategy didn't differentiate between these audiences.",
+    location: "Miami, FL",
+    description: "A full-service flooring company serving the greater Miami metro area, specializing in hardwood, tile, carpet, luxury vinyl plank, and commercial flooring installations. The company had built a strong reputation over 11 years through quality craftsmanship and referral business from general contractors and property managers. However, their digital marketing presence was minimal — a dated website with limited service pages, inconsistent local citations, and a modest paid advertising budget that generated leads without any qualification tracking. They served both homeowners looking for single-room updates and commercial clients needing full-building flooring installations, but their online strategy didn't differentiate between these audiences.",
   },
   challenges: [
     {
       title: "Poor Local Search Visibility",
-      description: "The company ranked for only 143 keywords with virtually no presence in the local map pack for high-intent searches like 'flooring company Charlotte' or 'hardwood floor installation near me.' Their Google Business Profile had 31 reviews and was missing key service categories. Competitors with stronger SEO were capturing the majority of organic flooring searches across the Charlotte metro.",
+      description: "The company ranked for only 143 keywords with virtually no presence in the local map pack for high-intent searches like 'flooring company Miami' or 'hardwood floor installation near me.' Their Google Business Profile had 31 reviews and was missing key service categories. Competitors with stronger SEO were capturing the majority of organic flooring searches across the Miami metro.",
     },
     {
       title: "Unqualified Leads Draining Budget",
@@ -39,9 +39,9 @@ export const residentialCommercialFlooring: CaseStudyData = {
       title: "Foundation & Quick Wins",
       items: [
         "Full site audit — sitemap, robots.txt, crawlability, site speed, and mobile performance review for local flooring searches",
-        "Google Search Console and Google Business Profile optimization — completed profile with all flooring service categories, added service area coverage for Charlotte metro including Huntersville, Concord, Matthews, and Mint Hill",
+        "Google Search Console and Google Business Profile optimization — completed profile with all flooring service categories, added service area coverage for Miami metro including Coral Gables, Hialeah, Kendall, and Doral",
         "Competitor research and keyword mapping across residential flooring (hardwood, tile, carpet, LVP) and commercial flooring (office, retail, warehouse) verticals",
-        "Generated 16 initial articles (flooring material comparison guides, installation process explainers, Charlotte home renovation tips, commercial flooring specification guides)",
+        "Generated 16 initial articles (flooring material comparison guides, installation process explainers, South Florida home renovation tips, commercial flooring specification guides)",
         "Content audit and metadata optimization across all existing service pages, including image SEO and E-E-A-T signals for local contractor authority",
         "Local citation building across 45+ directories — NAP consistency audit and corrections on Yelp, BBB, Apple Maps, Houzz, and flooring industry listings",
         "Full audit of past ad performance and re-instrumented site with proper conversion tracking for phone calls and form submissions",
@@ -57,7 +57,7 @@ export const residentialCommercialFlooring: CaseStudyData = {
       items: [
         "Reviewed 0–30 day performance data and adjusted targeting for residential vs. commercial flooring segments",
         "Generated 22+ additional articles focused on neighborhood-specific and service-specific flooring topics",
-        "Launched programmatic location pages ('flooring installation in [neighborhood], Charlotte' — covering 38 neighborhoods and surrounding cities)",
+        "Launched programmatic location pages ('flooring installation in [neighborhood], Miami' — covering 38 neighborhoods and surrounding cities)",
         "Created dedicated commercial flooring landing pages targeting property managers, GCs, and facility managers",
         "Optimized internal linking to strengthen topical authority across hardwood, tile, carpet, LVP, and commercial flooring clusters",
         "Weekly Google Business Profile posts with project photos, before/after showcases, and seasonal promotions",
@@ -74,7 +74,7 @@ export const residentialCommercialFlooring: CaseStudyData = {
       items: [
         "Reviewed 0–60 day data and expanded programmatic pages to additional service-specific and seasonal terms",
         "Continued content updates — refreshed underperforming articles with updated material pricing and trend references",
-        "Local citation building and backlink campaigns via home improvement publications and Charlotte real estate blogs",
+        "Local citation building and backlink campaigns via home improvement publications and South Florida real estate blogs",
         "CRO review and keyword cannibalization cleanup across overlapping service and location terms",
         "Advanced schema markup by page type (service, neighborhood, blog, FAQ, review, commercial project gallery)",
         "AI search crawlability improvements for LLM placement in local flooring recommendation queries",
@@ -89,7 +89,7 @@ export const residentialCommercialFlooring: CaseStudyData = {
       title: "Ongoing Optimization",
       items: [
         "Budget reallocation based on seasonality — increased spend during spring/summer renovation season, maintained commercial targeting year-round",
-        "Expansion of neighborhood pages into adjacent markets (Gastonia, Rock Hill, Mooresville) and emerging Charlotte suburbs",
+        "Expansion of neighborhood pages into adjacent markets (Fort Lauderdale, Boca Raton, Homestead) and emerging Miami suburbs",
         "Audience pruning — removed low-intent segments, tested lookalike audiences from closed residential and commercial jobs",
         "Bid strategy tuning based on seasonal demand patterns and average job value by flooring type and client segment",
         "Weekly reporting with job attribution and actionable recommendations tied to revenue impact",
