@@ -2,7 +2,12 @@
 """Validate all case study data files for math consistency.
 Run before every commit: python3 scripts/validate-data.py"""
 
-import re, sys, os
+import re, sys, os, argparse
+
+parser = argparse.ArgumentParser()
+parser.add_argument("--region", help="Required region — fails if not found in headline/location")
+parser.add_argument("--slug", help="Slug to check region against (used with --region)")
+args = parser.parse_args()
 
 datadir = os.path.join(os.path.dirname(__file__), "..", "src", "data")
 files = [f for f in os.listdir(datadir) if f.endswith(".ts") and f not in ("types.ts", "index.ts")]
@@ -50,6 +55,38 @@ for fname in sorted(files):
         dips = sum(1 for i in range(1, len(traffic_vals)) if traffic_vals[i] < traffic_vals[i-1])
         if dips > 3:
             errors.append(f"{fname}: SEO traffic has {dips} dips (max 3 expected for seasonal)")
+
+# Geography validation: if --region is provided, verify it appears in the target data file
+if args.region:
+    region = args.region.strip()
+    slug = args.slug
+    if not slug:
+        errors.append("--region requires --slug to know which file to check")
+    else:
+        target_file = os.path.join(datadir, slug.replace("-", "-") + ".ts")
+        # Try exact filename, or search for it
+        if not os.path.exists(target_file):
+            target_file = None
+            for f in files:
+                if slug in f:
+                    target_file = os.path.join(datadir, f)
+                    break
+        if not target_file:
+            errors.append(f"Cannot find data file for slug '{slug}' to validate region")
+        else:
+            content = open(target_file).read()
+            # Check headline + location field for the region
+            headline_match = re.search(r'headline:\s*"([^"]+)"', content)
+            location_match = re.search(r'location:\s*"([^"]+)"', content)
+            headline = headline_match.group(1) if headline_match else ""
+            location = location_match.group(1) if location_match else ""
+            region_lower = region.lower()
+            if region_lower not in headline.lower() and region_lower not in location.lower():
+                errors.append(
+                    f"GEOGRAPHY MISMATCH: Requested region '{region}' not found in "
+                    f"headline ('{headline}') or location ('{location}'). "
+                    f"The case study MUST be set in {region}."
+                )
 
 if errors:
     print("❌ VALIDATION FAILED:")
