@@ -75,17 +75,32 @@ if args.region:
             errors.append(f"Cannot find data file for slug '{slug}' to validate region")
         else:
             content = open(target_file).read()
-            # Check headline + location field for the region
+            # Check headline, location, AND description for the region
             headline_match = re.search(r'headline:\s*"([^"]+)"', content)
             location_match = re.search(r'location:\s*"([^"]+)"', content)
+            desc_match = re.search(r'description:\s*"([^"]+)"', content)
             headline = headline_match.group(1) if headline_match else ""
             location = location_match.group(1) if location_match else ""
+            desc = desc_match.group(1) if desc_match else ""
+            
+            # Parse region into parts for flexible matching
+            # e.g. "Phoenix, AZ" matches "Phoenix" OR "AZ"
             region_lower = region.lower()
-            if region_lower not in headline.lower() and region_lower not in location.lower():
+            region_parts = [p.strip().lower() for p in re.split(r'[,/]', region) if p.strip()]
+            
+            combined_text = f"{headline} {location} {desc}".lower()
+            region_found = any(part in combined_text for part in region_parts)
+            if not region_found and region_lower not in combined_text:
                 errors.append(
-                    f"GEOGRAPHY MISMATCH: Requested region '{region}' not found in "
-                    f"headline ('{headline}') or location ('{location}'). "
-                    f"The case study MUST be set in {region}."
+                    f"❌ GEOGRAPHY MISMATCH: Requested region '{region}' not found in "
+                    f"headline ('{headline}'), location ('{location}'), or description ('{desc[:80]}'). "
+                    f"The case study MUST be set in {region}. NON-NEGOTIABLE."
+                )
+            
+            # Location field must not be empty when region is specified
+            if not location.strip():
+                errors.append(
+                    f"❌ MISSING LOCATION: Region '{region}' requested but location field is empty."
                 )
 
 if errors:
