@@ -3,8 +3,8 @@ import { CaseStudyData } from "./types";
 export const hvac: CaseStudyData = {
   slug: "hvac",
   industry: "HVAC",
-  headline: "How a Tampa HVAC Company Generated 247 Qualified Leads and $203K in Revenue in 6 Months",
-  subheadline: "MEGA helped a local HVAC company in Tampa, FL reduce their cost per qualified lead by 35%, grow organic traffic 310%, and build a predictable lead pipeline through SEO and paid advertising.",
+  headline: "How a Jacksonville HVAC Company Generated 247 Qualified Leads and $203K in Revenue in 6 Months",
+  subheadline: "MEGA helped a local HVAC company in Jacksonville, FL reduce their cost per qualified lead by 35%, grow organic traffic 310%, and build a predictable lead pipeline through SEO and paid advertising.",
   heroStats: [
     { value: "6", unit: "months", label: "Partnership Duration" },
     { value: "310", unit: "%", label: "Organic Traffic Growth" },
@@ -15,13 +15,13 @@ export const hvac: CaseStudyData = {
     industry: "HVAC",
     employees: "18",
     revenue: "$2.8M",
-    location: "Tampa, FL",
-    description: "A family-owned HVAC company serving the Tampa Bay area for over 14 years. They built their reputation on emergency AC repair and full system installations, with strong word-of-mouth referrals from local homeowners. However, their digital presence was falling behind — a dated website with no neighborhood landing pages, a Google Business Profile with only 27 reviews, and paid campaigns running without any lead quality tracking. In Florida's brutal subtropical climate, AC isn't a luxury — it's survival. With year-round cooling demand, hurricane season creating emergency replacement needs, and increasing competition from national HVAC franchises moving into the Tampa market, they needed a modern digital strategy to capture high-intent local demand.",
+    location: "Jacksonville, FL",
+    description: "A family-owned HVAC company serving the greater Jacksonville metro area for over 14 years. They built their reputation on emergency AC repair and full system installations, with strong word-of-mouth referrals from local homeowners. However, their digital presence was falling behind — a dated website with no neighborhood landing pages, a Google Business Profile with only 27 reviews, and paid campaigns running without any lead quality tracking. In Florida's brutal subtropical climate, AC isn't a luxury — it's survival. With year-round cooling demand, hurricane season creating emergency replacement needs, and increasing competition from national HVAC franchises moving into the Jacksonville market, they needed a modern digital strategy to capture high-intent local demand.",
   },
   challenges: [
     {
       title: "Invisible in Local Search Results",
-      description: "The company had only 128 indexed keywords and almost no neighborhood or service-area content targeting specific Tampa Bay communities like South Tampa, Brandon, Riverview, or Wesley Chapel. They weren't appearing in the local map pack for critical searches like 'AC repair near me' or 'emergency HVAC Tampa' — losing the majority of high-intent phone calls to competitors with stronger local SEO foundations.",
+      description: "The company had only 128 indexed keywords and almost no neighborhood or service-area content targeting specific Jacksonville communities like Mandarin, Arlington, Orange Park, or Ponte Vedra. They weren't appearing in the local map pack for critical searches like 'AC repair near me' or 'emergency HVAC Jacksonville' — losing the majority of high-intent phone calls to competitors with stronger local SEO foundations.",
     },
     {
       title: "Paid Campaigns Burning Budget Without Tracking",
@@ -29,7 +29,7 @@ export const hvac: CaseStudyData = {
     },
     {
       title: "No Strategy for Florida's Unique Demand Patterns",
-      description: "Unlike northern markets with distinct heating and cooling seasons, Tampa's HVAC demand is AC-dominant year-round with a massive summer spike when units fail in 95°+ heat and extreme humidity. Hurricane season also creates emergency replacement surges. Without a content or advertising plan built around Florida's climate realities, the company was leaving money on the table during peak months and had no strategy for post-storm demand spikes.",
+      description: "Unlike northern markets with distinct heating and cooling seasons, Jacksonville's HVAC demand is AC-dominant year-round with a massive summer spike when units fail in 95°+ heat and extreme humidity. Hurricane season also creates emergency replacement surges. Without a content or advertising plan built around Florida's climate realities, the company was leaving money on the table during peak months and had no strategy for post-storm demand spikes.",
     },
   ],
   strategy: [
@@ -39,7 +39,7 @@ export const hvac: CaseStudyData = {
       title: "Foundation & Quick Wins",
       items: [
         "Full site audit — sitemap, robots.txt, crawlability, site speed, and mobile performance review for local service searches",
-        "Google Search Console and Google Business Profile optimization — completed profile, added all Tampa Bay service areas including Hillsborough, Pinellas, and Pasco counties, launched review generation campaign targeting recent customers",
+        "Google Search Console and Google Business Profile optimization — completed profile, added all Jacksonville service areas including Duval, St. Johns, Clay, and Nassau counties, launched review generation campaign targeting recent customers",
         "Competitor research and keyword mapping across AC repair, AC installation, duct cleaning, emergency service, and humidity control verticals",
         "Generated 14 initial articles (AC maintenance guides, Florida humidity tips, hurricane prep for HVAC systems, energy efficiency in subtropical climates, seasonal tune-up content)",
         "Content audit and metadata fixes across all existing service pages, including image SEO and E-E-A-T signals for licensed Florida contractor authority",
@@ -57,7 +57,7 @@ export const hvac: CaseStudyData = {
       items: [
         "Reviewed 0–30 day performance data and refined targeting for emergency repair vs. installation vs. maintenance segments",
         "Generated 24+ additional articles focused on neighborhood-specific HVAC topics and Florida seasonal content",
-        "Launched programmatic service-area landing pages ('AC repair in [neighborhood], Tampa' — covering 42 neighborhoods across Tampa Bay)",
+        "Launched programmatic service-area landing pages ('AC repair in [neighborhood], Jacksonville' — covering 42 neighborhoods across the Jacksonville metro)",
         "Optimized internal linking to strengthen topical authority across AC service clusters",
         "Weekly Google Business Profile posts with seasonal AC tips, job photos, and review highlights",
         "Added structured data schema for local business, service pages, FAQ content, and review markup",
@@ -73,7 +73,7 @@ export const hvac: CaseStudyData = {
       items: [
         "Reviewed 0–60 day data and expanded programmatic pages to additional service-specific and seasonal terms",
         "Continued content production — added AC system comparison guides, Florida energy efficiency content, hurricane damage HVAC FAQs, and indoor air quality content for humid climates",
-        "Local citation building and backlink campaigns via home improvement publications and Tampa Bay community blogs",
+        "Local citation building and backlink campaigns via home improvement publications and Jacksonville-area community blogs",
         "CRO review and keyword cannibalization cleanup across overlapping service and location terms",
         "Advanced schema markup by page type (service, neighborhood, blog, FAQ, review)",
         "AI search crawlability improvements for LLM placement in local HVAC recommendation queries",
@@ -114,17 +114,11 @@ export const hvac: CaseStudyData = {
       deals: "Booked Jobs",
     },
     monthly: [
-      // Apr: Foundation month, audit & restructure, spring in Florida — AC already running
       { month: "Apr 2025", spend: 4200, leads: 42, cpl: 100, qualified: 24, cpql: 175, deals: 9, revenue: 11400, roas: 2.71 },
-      // May: Campaigns optimized, Florida heat ramping up, AC demand climbing
       { month: "May 2025", spend: 4900, leads: 58, cpl: 84, qualified: 36, cpql: 136, deals: 14, revenue: 21200, roas: 4.33 },
-      // Jun: Summer peak begins — AC units failing in 95°+ heat and high humidity
       { month: "Jun 2025", spend: 6600, leads: 87, cpl: 76, qualified: 57, cpql: 116, deals: 22, revenue: 39800, roas: 6.03 },
-      // Jul: Peak summer — highest volume, emergency calls flooding in daily
       { month: "Jul 2025", spend: 7200, leads: 96, cpl: 75, qualified: 64, cpql: 113, deals: 25, revenue: 46200, roas: 6.42 },
-      // Aug: Late summer — still brutal Florida heat, demand stays strong
       { month: "Aug 2025", spend: 5800, leads: 74, cpl: 78, qualified: 44, cpql: 132, deals: 16, revenue: 51800, roas: 8.93 },
-      // Sep: Hurricane season tail + early fall — maintenance push, still warm
       { month: "Sep 2025", spend: 3700, leads: 43, cpl: 86, qualified: 22, cpql: 168, deals: 8, revenue: 32800, roas: 8.86 },
     ],
   },
