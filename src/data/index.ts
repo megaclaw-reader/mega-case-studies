@@ -41,6 +41,7 @@ import { residentialCommercialFlooring } from "./residential-commercial-flooring
 import { healthcareWoundCareEducation } from "./healthcare-wound-care-education";
 import { hvac } from "./hvac";
 import { printShop } from "./print-shop";
+import { jewelryStoreEcommerce } from "./jewelry-store-ecommerce";
 
 export const caseStudies: Record<string, CaseStudyData> = {
   "mortgage-lending": mortgageLending,
@@ -85,6 +86,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "healthcare-wound-care-education": healthcareWoundCareEducation,
   "hvac": hvac,
   "print-shop": printShop,
+  "jewelry-store-ecommerce": jewelryStoreEcommerce,
 };
 
 export type { CaseStudyData };
