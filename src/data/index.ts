@@ -47,6 +47,7 @@ import { healthcareDiagnostics } from "./healthcare-diagnostics";
 import { itServicesNy } from "./it-services-ny";
 import { realEstateNewsletter } from "./real-estate-newsletter";
 import { carPartsNj } from "./car-parts-nj";
+import { healthWellness } from "./health-wellness";
 
 export const caseStudies: Record<string, CaseStudyData> = {
   "mortgage-lending": mortgageLending,
@@ -97,6 +98,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "it-services-ny": itServicesNy,
   "real-estate-newsletter": realEstateNewsletter,
   "car-parts-nj": carPartsNj,
+  "health-wellness": healthWellness,
 };
 
 export type { CaseStudyData };
