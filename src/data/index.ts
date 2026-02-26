@@ -43,6 +43,7 @@ import { hvac } from "./hvac";
 import { printShop } from "./print-shop";
 import { jewelryStoreEcommerce } from "./jewelry-store-ecommerce";
 import { highEndFashionNyc } from "./high-end-fashion-nyc";
+import { healthcareDiagnostics } from "./healthcare-diagnostics";
 
 export const caseStudies: Record<string, CaseStudyData> = {
   "mortgage-lending": mortgageLending,
@@ -89,6 +90,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "print-shop": printShop,
   "jewelry-store-ecommerce": jewelryStoreEcommerce,
   "high-end-fashion-nyc": highEndFashionNyc,
+  "healthcare-diagnostics": healthcareDiagnostics,
 };
 
 export type { CaseStudyData };
