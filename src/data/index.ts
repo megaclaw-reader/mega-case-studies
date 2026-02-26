@@ -40,6 +40,7 @@ import { dewateringWaterManagement } from "./dewatering-water-management";
 import { residentialCommercialFlooring } from "./residential-commercial-flooring";
 import { healthcareWoundCareEducation } from "./healthcare-wound-care-education";
 import { hvac } from "./hvac";
+import { printShop } from "./print-shop";
 
 export const caseStudies: Record<string, CaseStudyData> = {
   "mortgage-lending": mortgageLending,
@@ -83,6 +84,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "residential-commercial-flooring": residentialCommercialFlooring,
   "healthcare-wound-care-education": healthcareWoundCareEducation,
   "hvac": hvac,
+  "print-shop": printShop,
 };
 
 export type { CaseStudyData };
