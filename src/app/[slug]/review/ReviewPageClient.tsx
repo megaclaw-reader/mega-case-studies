@@ -15,7 +15,7 @@ export default function ReviewPageClient({ data, slug }: { data: CaseStudyData; 
     if (!feedback.trim() || !reviewer.trim()) return;
     setStatus("sending");
     try {
-      const res = await fetch("/api/feedback", {
+      const res = await fetch("https://mega-case-studies.vercel.app/api/feedback", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ slug, feedback, reviewer }),
