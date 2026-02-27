@@ -51,6 +51,7 @@ import { healthWellness } from "./health-wellness";
 import { mortgageRealEstateColumbus } from "./mortgage-real-estate-columbus";
 import { educationChicago } from "./education-chicago";
 import { vrEntertainmentTechnology } from "./vr-entertainment-technology";
+import { gymPrivateTrainingAz } from "./gym-private-training-az";
 
 export const caseStudies: Record<string, CaseStudyData> = {
   "mortgage-lending": mortgageLending,
@@ -105,6 +106,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "mortgage-real-estate-columbus": mortgageRealEstateColumbus,
   "education-chicago": educationChicago,
   "vr-entertainment-technology": vrEntertainmentTechnology,
+  "gym-private-training-az": gymPrivateTrainingAz,
 };
 
 export type { CaseStudyData };
