@@ -48,6 +48,7 @@ import { itServicesNy } from "./it-services-ny";
 import { realEstateNewsletter } from "./real-estate-newsletter";
 import { carPartsNj } from "./car-parts-nj";
 import { healthWellness } from "./health-wellness";
+import { mortgageRealEstateColumbus } from "./mortgage-real-estate-columbus";
 
 export const caseStudies: Record<string, CaseStudyData> = {
   "mortgage-lending": mortgageLending,
@@ -99,6 +100,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "real-estate-newsletter": realEstateNewsletter,
   "car-parts-nj": carPartsNj,
   "health-wellness": healthWellness,
+  "mortgage-real-estate-columbus": mortgageRealEstateColumbus,
 };
 
 export type { CaseStudyData };
