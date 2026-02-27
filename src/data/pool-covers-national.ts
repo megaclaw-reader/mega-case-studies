@@ -147,9 +147,9 @@ export const poolCoversNational: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Pipeline Value", value: "$4.73M", growth: "+284%" },
-    { label: "Closed Pool Cover Revenue", value: "$2.14M", growth: "+197%" },
-    { label: "Avg Deal Value", value: "$11,444", growth: "" },
+    { label: "Total Qualified Leads", value: "643", growth: "+284%" },
+    { label: "Cost Per Qualified Lead", value: "$385", growth: "↓42%" },
+    { label: "Qualification Rate", value: "56.3%", growth: "+31%" },
     { label: "Installer Partnerships", value: "94", growth: "+247%" },
   ],
 };
