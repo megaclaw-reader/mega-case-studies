@@ -60,7 +60,7 @@ export default function PaidAdsPerformance({ data }: { data: CaseStudyData }) {
         </div>
 
         {(() => {
-          const hasRevenue = paidAds.monthly.some(r => r.revenue != null);
+          const hasRevenue = paidAds.monthly.some(r => r.revenue != null && r.revenue > 0);
           const headers = ["Month", "Spend", cl?.leads || "Leads", cl?.cpl || "CPL", cl?.qualified || "Qualified", cl?.cpql || "CPQL", cl?.deals || "Deals"];
           if (hasRevenue) { headers.push("Revenue", "ROAS"); }
           const m = paidAds.monthly;
