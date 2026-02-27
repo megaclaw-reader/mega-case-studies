@@ -4,10 +4,10 @@ export const mortgageRealEstateColumbus: CaseStudyData = {
   slug: "mortgage-real-estate-columbus",
   industry: "Mortgage & Real Estate",
   headline: "How a Columbus Ohio Mortgage & Real Estate Group Grew Qualified Leads 37% While Cutting Cost Per Lead by 34%",
-  subheadline: "MEGA helped a full-service mortgage and real estate group in Columbus, Ohio build a high-performance lead generation engine — combining SEO and paid advertising to drive 1,247 total leads, 438 qualified prospects, and $3.1M in attributed closed volume over 12 months. Ad spend scaled from $5K to $9.2K/month as confidence in the channel grew.",
+  subheadline: "MEGA helped a full-service mortgage and real estate group in Columbus, Ohio build a high-performance lead generation engine — combining SEO and paid advertising to drive 1,247 total leads, 438 qualified prospects, and 119 closed deals over 12 months. Ad spend scaled from $5K to $9.2K/month as confidence in the channel grew.",
   heroStats: [
     { value: "37", unit: "%", label: "Qualified Lead Growth" },
-    { value: "$3.1", unit: "M", label: "Attributed Closed Volume" },
+    { value: "$3.7", unit: "M", label: "Attributed Loan Volume" },
     { value: "34", unit: "%", label: "Cost Per Lead Reduction" },
   ],
   tags: ["Lead Generation", "SEO Strategy", "Paid Advertising", "Local SEO", "Mortgage & Real Estate"],
@@ -162,29 +162,29 @@ export const mortgageRealEstateColumbus: CaseStudyData = {
     },
     monthly: [
       // Month 1: Inherited campaigns, audit underway. ~$5K spend. CPL ~$148, qual rate ~30%
-      { month: "Jan 2025", spend: 4987, leads: 42, cpl: 119, qualified: 13, cpql: 384, deals: 4, revenue: 142300, roas: 28.53 },
+      { month: "Jan 2025", spend: 4987, leads: 42, cpl: 119, qualified: 13, cpql: 384, deals: 4 },
       // Month 2: Restructured campaigns, tightened targeting. Spend steady.
-      { month: "Feb 2025", spend: 5134, leads: 47, cpl: 109, qualified: 17, cpql: 302, deals: 5, revenue: 178400, roas: 34.74 },
+      { month: "Feb 2025", spend: 5134, leads: 47, cpl: 109, qualified: 17, cpql: 302, deals: 5 },
       // Month 3: New landing pages live, spring demand building. Qual rate improving.
-      { month: "Mar 2025", spend: 5247, leads: 54, cpl: 97, qualified: 21, cpql: 250, deals: 7, revenue: 243700, roas: 46.45 },
+      { month: "Mar 2025", spend: 5247, leads: 54, cpl: 97, qualified: 21, cpql: 250, deals: 7 },
       // Month 4: Spring peak, Columbus market heating up. First spend increase.
-      { month: "Apr 2025", spend: 5823, leads: 63, cpl: 92, qualified: 26, cpql: 224, deals: 9, revenue: 312400, roas: 53.66 },
+      { month: "Apr 2025", spend: 5823, leads: 63, cpl: 92, qualified: 26, cpql: 224, deals: 9 },
       // Month 5: Strong spring continued. Confidence growing.
-      { month: "May 2025", spend: 6247, leads: 71, cpl: 88, qualified: 30, cpql: 208, deals: 10, revenue: 347800, roas: 55.67 },
+      { month: "May 2025", spend: 6247, leads: 71, cpl: 88, qualified: 30, cpql: 208, deals: 10 },
       // Month 6: Early summer, slight seasonal softening but efficiency holds.
-      { month: "Jun 2025", spend: 6534, leads: 68, cpl: 96, qualified: 28, cpql: 233, deals: 9, revenue: 298600, roas: 45.70 },
+      { month: "Jun 2025", spend: 6534, leads: 68, cpl: 96, qualified: 28, cpql: 233, deals: 9 },
       // Month 7: Mid-summer dip. Spend maintained, volume down slightly.
-      { month: "Jul 2025", spend: 6891, leads: 64, cpl: 108, qualified: 27, cpql: 255, deals: 8, revenue: 267400, roas: 38.80 },
+      { month: "Jul 2025", spend: 6891, leads: 64, cpl: 108, qualified: 27, cpql: 255, deals: 8 },
       // Month 8: Recovery begins, new audience segments tested.
-      { month: "Aug 2025", spend: 7423, leads: 73, cpl: 102, qualified: 31, cpql: 239, deals: 10, revenue: 341200, roas: 45.97 },
+      { month: "Aug 2025", spend: 7423, leads: 73, cpl: 102, qualified: 31, cpql: 239, deals: 10 },
       // Month 9: Fall uptick, Columbus market active again. Spend scales.
-      { month: "Sep 2025", spend: 7891, leads: 82, cpl: 96, qualified: 35, cpql: 226, deals: 12, revenue: 412300, roas: 52.25 },
+      { month: "Sep 2025", spend: 7891, leads: 82, cpl: 96, qualified: 35, cpql: 226, deals: 12 },
       // Month 10: Strong fall, CRM data improving targeting precision.
-      { month: "Oct 2025", spend: 8347, leads: 89, cpl: 94, qualified: 38, cpql: 220, deals: 13, revenue: 447600, roas: 53.63 },
+      { month: "Oct 2025", spend: 8347, leads: 89, cpl: 94, qualified: 38, cpql: 220, deals: 13 },
       // Month 11: Pre-holiday softening, but efficiency maintained.
-      { month: "Nov 2025", spend: 8923, leads: 78, cpl: 114, qualified: 33, cpql: 270, deals: 10, revenue: 338900, roas: 37.98 },
+      { month: "Nov 2025", spend: 8923, leads: 78, cpl: 114, qualified: 33, cpql: 270, deals: 10 },
       // Month 12: Solid close. Spend at $9.2K — almost double where we started.
-      { month: "Dec 2025", spend: 9247, leads: 86, cpl: 108, qualified: 37, cpql: 250, deals: 12, revenue: 412800, roas: 44.64 },
+      { month: "Dec 2025", spend: 9247, leads: 86, cpl: 108, qualified: 37, cpql: 250, deals: 12 },
     ],
   },
   organicConversions: {
@@ -221,7 +221,7 @@ export const mortgageRealEstateColumbus: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Attributed Revenue", value: "$3.74M", growth: "from paid + organic leads" },
+    { label: "Attributed Loan Volume", value: "$3.74M", growth: "from paid + organic leads" },
     { label: "Total Leads (All Channels)", value: "1,247", growth: "+197% over 12 months" },
     { label: "Qualified Leads", value: "438", growth: "35.1% qualification rate" },
     { label: "Avg Cost Per Qualified Lead", value: "$189", growth: "↓34% from $290 baseline" },

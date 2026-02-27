@@ -49,8 +49,8 @@ export interface CaseStudyData {
       qualified: number;
       cpql: number;
       deals: number;
-      revenue: number;
-      roas: number;
+      revenue?: number;
+      roas?: number;
     }[];
   };
   localSeo?: {
