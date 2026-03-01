@@ -10,6 +10,10 @@ import PaidAdsPerformance from "./PaidAdsPerformance";
 import LocalSeoPerformance from "./LocalSeoPerformance";
 import OrganicConversions from "./OrganicConversions";
 import BusinessImpact from "./BusinessImpact";
+import BeforeAfterComparison from "./BeforeAfterComparison";
+import ROICalculator from "./ROICalculator";
+import CostComparison from "./CostComparison";
+import UrgencyBanner from "./UrgencyBanner";
 import Footer from "./Footer";
 
 export default function CaseStudyPage({ data }: { data: CaseStudyData }) {
@@ -18,6 +22,7 @@ export default function CaseStudyPage({ data }: { data: CaseStudyData }) {
       <Header data={data} />
       <main>
         <Hero data={data} />
+        <BeforeAfterComparison data={data} />
         <Challenge data={data} />
         <Strategy data={data} />
         {data.seo && <SeoPerformance data={data} />}
@@ -25,6 +30,9 @@ export default function CaseStudyPage({ data }: { data: CaseStudyData }) {
         {data.organicConversions && <OrganicConversions data={data} />}
         {data.paidAds && <PaidAdsPerformance data={data} />}
         <BusinessImpact data={data} />
+        <ROICalculator data={data} />
+        <CostComparison />
+        <UrgencyBanner data={data} />
       </main>
       <Footer />
     </>
