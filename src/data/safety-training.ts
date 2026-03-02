@@ -1,0 +1,227 @@
+import { CaseStudyData } from "./types";
+
+export const safetyTraining: CaseStudyData = {
+  slug: "safety-training",
+  industry: "Workplace Safety Training",
+  headline: "How a Houston Safety Training Company Grew Revenue 487% by Targeting High-Risk Industries With ICP-Driven Campaigns",
+  subheadline: "MEGA helped a workplace safety training provider in Houston, TX scale from $5K to $10K/month in ad spend while reducing cost per qualified lead from $287 to $149 — generating $412K in attributed revenue over 12 months through targeted campaigns reaching oil & gas, construction, and manufacturing decision-makers.",
+  heroStats: [
+    { value: "12", unit: "months", label: "Partnership Duration" },
+    { value: "$412", unit: "K", label: "Revenue Attributed" },
+    { value: "48", unit: "%", label: "CPQL Reduction" },
+  ],
+  tags: ["Paid Advertising", "SEO Strategy", "Local SEO", "ICP Optimization"],
+  company: {
+    industry: "Workplace Safety Training — OSHA Compliance & Industrial Safety",
+    employees: "23",
+    revenue: "$1.8M",
+    location: "Houston, TX (Greater Harris County & Gulf Coast Region)",
+    description: "A workplace safety training company serving the Houston metro and Gulf Coast industrial corridor — including Pasadena, Baytown, Texas City, La Porte, Deer Park, and Galveston. The company provided OSHA 10 and OSHA 30 certification courses, confined space entry training, fall protection programs, H2S safety certification, hazardous materials handling, forklift operation, and custom site-specific safety programs for oil & gas operators, refineries, construction firms, and manufacturing plants. With 14 years in business, a 4.7-star rating across 89 reviews, and a roster of repeat enterprise clients, they had a strong reputation — but almost entirely built on referrals and trade show networking. Their digital presence was minimal: a dated website with no industry-specific landing pages, zero organic visibility for high-intent safety training searches, and no paid advertising history. They knew the Houston industrial market was massive and underserved digitally, but lacked the strategy and infrastructure to capture that demand online.",
+  },
+  challenges: [
+    {
+      title: "Zero Digital Lead Generation Infrastructure",
+      description: "Despite operating in one of the largest industrial safety markets in the country, the company had never run a structured digital advertising campaign. Their website was a static brochure — no landing pages segmented by industry or training type, no call tracking, no form analytics, and no way to distinguish a plant manager requesting a $12,000 annual safety program from someone looking for a single $189 OSHA 10 card. Phone inquiries went to a shared line with no recording or tagging. The result was complete blindness into which channels, messages, or audiences were driving their highest-value contracts. Every new client came from referrals or trade shows, making growth unpredictable and unscalable.",
+    },
+    {
+      title: "High-Value Contracts Buried Under Low-Value Inquiries",
+      description: "The safety training market spans everything from a $189 individual OSHA 10 certification to a $15,000 annual site-specific safety program for a refinery or construction general contractor. Without any qualification layer, the company's small sales team spent equal time on every inquiry — whether it was a single worker needing a forklift card or a plant safety director evaluating annual training contracts for 300+ employees. An estimated 70% of inbound inquiries were individual certification seekers, while the 30% that represented enterprise contracts worth $3,000-$15,000 often got slow follow-up because the team was buried in low-value requests.",
+    },
+    {
+      title: "Invisible in Organic Search Despite Massive Local Demand",
+      description: "The company's website ranked for just 97 keywords, nearly all branded terms. They were completely invisible for searches like 'OSHA training Houston,' 'confined space training Texas,' 'H2S certification Houston,' 'construction safety training near me,' and 'industrial safety program Gulf Coast.' Competitors with aggressive content strategies were capturing thousands of monthly searches. Organic traffic averaged just 187 visits/month with almost zero lead generation — a massive missed opportunity given that safety training searches in the Houston market carry some of the highest commercial intent in the B2B training space, with plant managers and safety directors actively searching for compliance solutions.",
+    },
+  ],
+  strategy: [
+    {
+      phase: 1,
+      months: "0–30 days",
+      title: "Foundation & Enterprise Lead Qualification System",
+      items: [
+        "Full site audit — crawlability, mobile performance, page speed, and technical SEO baseline across existing pages",
+        "Business profile optimization — separate service categories for each training type (OSHA, H2S, confined space, fall protection, forklift, hazmat), updated photos of training facilities and on-site sessions",
+        "Implemented call tracking with AI-powered call analysis — tagging each inquiry by training type, company size, industry vertical (oil & gas, construction, manufacturing, petrochemical), and estimated contract value",
+        "Redesigned landing pages with enterprise qualification — company name, employee count, industry, training needs (single cert vs. annual program), and facility type — creating an instant ICP scoring system",
+        "Keyword research targeting OSHA training, safety certification, industrial safety programs, confined space, H2S, fall protection, and hazmat training across Houston metro and Gulf Coast",
+        "Generated 14 initial articles — OSHA compliance guides, industry-specific safety requirement breakdowns, training frequency recommendations for oil & gas operations",
+        "Technical fixes — schema markup for training provider, course structured data, NAP consistency across 39 directories",
+        "Local citation building — submitted to 48 directories including industry-specific platforms, Houston Chamber of Commerce, oil & gas industry directories, and safety association listings",
+        "Competitor analysis of top 6 Houston safety training providers — pricing, course offerings, digital presence, and keyword positioning",
+        "Launched initial paid campaigns at $5,100/month with broad industry targeting to establish baseline ICP data — intentionally casting a wide net across oil & gas, construction, and manufacturing verticals",
+      ],
+    },
+    {
+      phase: 2,
+      months: "30–60 days",
+      title: "ICP Pattern Analysis & Industry Vertical Segmentation",
+      items: [
+        "Analyzed 30 days of call recordings — identified that 82% of enterprise-value leads came from three verticals: upstream oil & gas operators, industrial construction GCs, and petrochemical refineries",
+        "Landing page data revealed: companies with 50+ employees requesting 'annual safety programs' or 'site-specific training' closed at 4.7x the rate of individual certification seekers",
+        "Created dedicated landing pages for each high-value vertical — oil & gas safety compliance, construction site safety programs, refinery and plant turnaround safety, manufacturing floor safety",
+        "Generated 16 additional articles — industry regulation updates, OSHA citation cost calculators, case examples of safety ROI for plant managers, seasonal safety considerations for Gulf Coast weather",
+        "Launched programmatic service area pages across 22 Houston-area industrial zones — 'safety training [Pasadena / Baytown / Texas City / Deer Park / La Porte / Galveston]'",
+        "Restructured paid campaigns based on ICP findings — created separate campaign groups for enterprise prospects (50+ employees, annual programs) vs. individual certification seekers",
+        "Increased bids on searches containing 'program,' 'annual,' 'site-specific,' 'compliance audit,' and 'corporate' — signals of enterprise intent",
+        "Implemented retargeting sequences segmented by industry vertical and page behavior",
+        "Weekly business profile posts featuring on-site training photos, safety tips, regulatory updates, and client testimonials",
+        "Budget held at $5,300/month while ICP data accumulated — scaling only after validated patterns emerged",
+      ],
+    },
+    {
+      phase: 3,
+      months: "60–90 days",
+      title: "Enterprise Pipeline Optimization & Confident Scaling",
+      items: [
+        "Reviewed 60 days of ICP data — identified that leads from companies in active turnaround seasons (refineries) or with recent OSHA citations had 3.2x higher close rates and 2.1x higher contract values",
+        "Created OSHA citation response campaign — targeting companies searching for emergency compliance training after incidents, with dedicated rapid-response landing page",
+        "Refined geographic targeting: Deer Park, Pasadena, and Texas City industrial corridors produced 67% of enterprise leads — concentrated budget accordingly",
+        "With ICP targeting now validated across verticals, increased monthly budget to $6,700 — spring turnaround season in refineries justified the scale",
+        "Generated 12 additional service-specific pages — turnaround safety programs, new hire safety orientation packages, bilingual training programs (Spanish), emergency response training",
+        "Backlink campaigns — Houston business publications, safety industry blogs, oil & gas trade media, and industrial association newsletters",
+        "CRO optimization — added instant quote calculator for enterprise programs, client logo wall (anonymized by industry), and compliance guarantee messaging",
+        "Expanded service area pages into Freeport, Port Arthur, Beaumont, and League City based on emerging demand from ICP data",
+        "Review generation campaign launched — 31 new reviews added over next 4 months, with emphasis on enterprise client testimonials",
+      ],
+    },
+    {
+      phase: 4,
+      months: "90+ days",
+      title: "Full-Funnel Compound Growth & Scale",
+      items: [
+        "Continued budget scaling from $7,400 through $10,000 as enterprise ICP targeting consistently lowered CPQL while increasing average deal size",
+        "Phone call analysis automated with weekly ICP reports — new vertical patterns and seasonal demand signals fed directly into campaign adjustments",
+        "Landing page A/B testing by industry vertical — different hero imagery (refinery vs. construction site vs. manufacturing floor), industry-specific compliance language, and social proof",
+        "Monthly content refresh cycles on top-performing training type and service area pages to maintain rankings amid algorithm updates",
+        "Enterprise pipeline nurture — email sequences for safety directors who requested quotes but didn't convert within 14 days, with regulatory deadline reminders",
+        "Ongoing backlink acquisition through safety conference sponsorships, Houston industrial community involvement, and trade publication content partnerships",
+        "Weekly full-funnel reporting with attribution from visit → inquiry → qualified lead → signed contract, segmented by individual certification, small group training, and enterprise annual program",
+        "Continuous ICP feedback loop — each month's call data and landing page behavior informing next month's targeting, messaging, and budget allocation",
+        "By month 12, enterprise leads comprised 61% of total qualified pipeline (up from 30%) and CPQL dropped to $149 even at $10K/month spend — proving the ICP loop sustained efficiency at scale",
+      ],
+    },
+  ],
+  seo: {
+    summary: [
+      { label: "Total Keywords", value: "2,847", growth: "+2834%", from: "from 97" },
+      { label: "Top 10 Rankings", value: "289", growth: "+2790%", from: "from 10" },
+      { label: "Pages Created", value: "114", growth: "", from: "incl. 22 service area pages" },
+      { label: "Organic Traffic", value: "3,412/mo", growth: "+1724%", from: "from 187" },
+    ],
+    monthly: [
+      { month: "Jan 2025", keywords: 97, top10: 10, top3: 1, traffic: 187, pages: 8, avgPos: 52.3, ctr: 0.6 },
+      { month: "Feb 2025", keywords: 156, top10: 14, top3: 2, traffic: 234, pages: 22, avgPos: 47.8, ctr: 0.7 },
+      { month: "Mar 2025", keywords: 289, top10: 31, top3: 4, traffic: 387, pages: 38, avgPos: 42.1, ctr: 0.9 },
+      { month: "Apr 2025", keywords: 487, top10: 58, top3: 8, traffic: 641, pages: 50, avgPos: 37.4, ctr: 1.1 },
+      { month: "May 2025", keywords: 723, top10: 89, top3: 14, traffic: 978, pages: 61, avgPos: 33.1, ctr: 1.3 },
+      { month: "Jun 2025", keywords: 1012, top10: 124, top3: 21, traffic: 1389, pages: 71, avgPos: 29.7, ctr: 1.5 },
+      { month: "Jul 2025", keywords: 1341, top10: 157, top3: 29, traffic: 1823, pages: 79, avgPos: 27.2, ctr: 1.6 },
+      { month: "Aug 2025", keywords: 1687, top10: 193, top3: 38, traffic: 2214, pages: 87, avgPos: 25.1, ctr: 1.8 },
+      { month: "Sep 2025", keywords: 2034, top10: 228, top3: 47, traffic: 2647, pages: 96, avgPos: 23.4, ctr: 1.9 },
+      { month: "Oct 2025", keywords: 2389, top10: 256, top3: 54, traffic: 2987, pages: 103, avgPos: 22.1, ctr: 2.0 },
+      { month: "Nov 2025", keywords: 2623, top10: 274, top3: 59, traffic: 3189, pages: 109, avgPos: 21.3, ctr: 2.1 },
+      { month: "Dec 2025", keywords: 2847, top10: 289, top3: 63, traffic: 3412, pages: 114, avgPos: 20.7, ctr: 2.1 },
+    ],
+  },
+  paidAds: {
+    summary: [
+      { label: "Total Ad Spend", value: "$89.7K" },
+      { label: "Qualified Leads", value: "487" },
+      { label: "Avg Cost Per Qualified Lead", value: "$184", note: "↓48% from $287" },
+      { label: "Total Revenue", value: "$412K", note: "avg deal value $2,921" },
+    ],
+    columnLabels: {
+      leads: "Total Inquiries",
+      cpl: "Cost/Inquiry",
+      qualified: "Qualified Leads",
+      cpql: "Cost/Qualified Lead",
+      deals: "Signed Contracts",
+    },
+    monthly: [
+      // Jan 2025: $5.1K start, broad targeting, high CPQL
+      { month: "Jan 2025", spend: 5100, leads: 67, cpl: 76, qualified: 18, cpql: 283, deals: 4, revenue: 14720, roas: 2.89 },
+      // Feb 2025: $5.3K, initial ICP signals
+      { month: "Feb 2025", spend: 5300, leads: 73, cpl: 73, qualified: 22, cpql: 241, deals: 6, revenue: 19140, roas: 3.61 },
+      // Mar 2025: $5.8K, spring turnaround begins
+      { month: "Mar 2025", spend: 5800, leads: 89, cpl: 65, qualified: 34, cpql: 171, deals: 9, revenue: 27630, roas: 4.76 },
+      // Apr 2025: $6.7K, peak turnaround + ICP refinements
+      { month: "Apr 2025", spend: 6700, leads: 102, cpl: 66, qualified: 43, cpql: 156, deals: 12, revenue: 38760, roas: 5.78 },
+      // May 2025: $7.2K, turnaround winding down, construction picks up
+      { month: "May 2025", spend: 7200, leads: 98, cpl: 73, qualified: 41, cpql: 176, deals: 11, revenue: 33110, roas: 4.60 },
+      // Jun 2025: $7.8K, steady summer demand
+      { month: "Jun 2025", spend: 7800, leads: 104, cpl: 75, qualified: 44, cpql: 177, deals: 12, revenue: 36480, roas: 4.68 },
+      // Jul 2025: $7.4K, slight summer dip
+      { month: "Jul 2025", spend: 7400, leads: 96, cpl: 77, qualified: 39, cpql: 190, deals: 10, revenue: 28700, roas: 3.88 },
+      // Aug 2025: $8.1K, hurricane season prep demand
+      { month: "Aug 2025", spend: 8100, leads: 112, cpl: 72, qualified: 49, cpql: 165, deals: 14, revenue: 43120, roas: 5.32 },
+      // Sep 2025: $8.9K, fall turnaround — second peak
+      { month: "Sep 2025", spend: 8900, leads: 121, cpl: 74, qualified: 56, cpql: 159, deals: 16, revenue: 49920, roas: 5.61 },
+      // Oct 2025: $9.6K, peak fall turnaround + compliance rush
+      { month: "Oct 2025", spend: 9600, leads: 134, cpl: 72, qualified: 63, cpql: 152, deals: 18, revenue: 56340, roas: 5.87 },
+      // Nov 2025: $9.2K, year-end compliance push
+      { month: "Nov 2025", spend: 9200, leads: 127, cpl: 72, qualified: 58, cpql: 159, deals: 16, revenue: 46880, roas: 5.10 },
+      // Dec 2025: $8.3K, holiday slowdown but budget spending
+      { month: "Dec 2025", spend: 8300, leads: 108, cpl: 77, qualified: 47, cpql: 177, deals: 13, revenue: 37310, roas: 4.49 },
+    ],
+  },
+  localSeo: {
+    summary: [
+      { label: "GBP Views", value: "5,847/mo", growth: "+478%", from: "from 1,012" },
+      { label: "Maps Impressions", value: "4,312/mo", growth: "+412%", from: "from 843" },
+      { label: "GBP Calls (Total)", value: "589", growth: "+367%", from: "9/mo → 71/mo" },
+      { label: "Direction Requests", value: "94/mo", growth: "+370%", from: "from 20" },
+    ],
+    monthly: [
+      { month: "Jan 2025", gbpViews: 1012, mapsImpressions: 843, gbpCalls: 9, directionRequests: 20 },
+      { month: "Feb 2025", gbpViews: 1234, mapsImpressions: 1012, gbpCalls: 14, directionRequests: 24 },
+      { month: "Mar 2025", gbpViews: 1623, mapsImpressions: 1289, gbpCalls: 21, directionRequests: 31 },
+      { month: "Apr 2025", gbpViews: 2134, mapsImpressions: 1678, gbpCalls: 29, directionRequests: 39 },
+      { month: "May 2025", gbpViews: 2687, mapsImpressions: 2089, gbpCalls: 37, directionRequests: 47 },
+      { month: "Jun 2025", gbpViews: 3198, mapsImpressions: 2478, gbpCalls: 44, directionRequests: 54 },
+      { month: "Jul 2025", gbpViews: 3689, mapsImpressions: 2867, gbpCalls: 50, directionRequests: 61 },
+      { month: "Aug 2025", gbpViews: 4178, mapsImpressions: 3234, gbpCalls: 57, directionRequests: 69 },
+      { month: "Sep 2025", gbpViews: 4687, mapsImpressions: 3612, gbpCalls: 62, directionRequests: 76 },
+      { month: "Oct 2025", gbpViews: 5198, mapsImpressions: 3923, gbpCalls: 67, directionRequests: 83 },
+      { month: "Nov 2025", gbpViews: 5534, mapsImpressions: 4134, gbpCalls: 69, directionRequests: 89 },
+      { month: "Dec 2025", gbpViews: 5847, mapsImpressions: 4312, gbpCalls: 71, directionRequests: 94 },
+    ],
+  },
+  organicConversions: {
+    summary: [
+      { label: "Total Organic Leads", value: "347", growth: "+1635%", note: "2/mo → 52/mo" },
+      { label: "Phone Calls", value: "214", growth: "+1600%", note: "1/mo → 32/mo" },
+      { label: "Form Submissions", value: "133", growth: "+1900%", note: "1/mo → 20/mo" },
+      { label: "Avg Conversion Rate", value: "3.12%", note: "from organic traffic" },
+    ],
+    columnLabels: {
+      formFills: "Form Fills",
+      calls: "Phone Calls",
+      totalLeads: "Total Inquiries",
+      conversionRate: "Conv. Rate",
+    },
+    monthly: [
+      { month: "Jan 2025", formFills: 1, calls: 1, totalLeads: 2, conversionRate: 1.07 },
+      { month: "Feb 2025", formFills: 2, calls: 2, totalLeads: 4, conversionRate: 1.71 },
+      { month: "Mar 2025", formFills: 3, calls: 5, totalLeads: 8, conversionRate: 2.07 },
+      { month: "Apr 2025", formFills: 6, calls: 9, totalLeads: 15, conversionRate: 2.34 },
+      { month: "May 2025", formFills: 8, calls: 13, totalLeads: 21, conversionRate: 2.15 },
+      { month: "Jun 2025", formFills: 11, calls: 17, totalLeads: 28, conversionRate: 2.02 },
+      { month: "Jul 2025", formFills: 13, calls: 21, totalLeads: 34, conversionRate: 1.87 },
+      { month: "Aug 2025", formFills: 16, calls: 24, totalLeads: 40, conversionRate: 1.81 },
+      { month: "Sep 2025", formFills: 18, calls: 27, totalLeads: 45, conversionRate: 1.70 },
+      { month: "Oct 2025", formFills: 19, calls: 29, totalLeads: 48, conversionRate: 1.61 },
+      { month: "Nov 2025", formFills: 19, calls: 31, totalLeads: 50, conversionRate: 1.57 },
+      { month: "Dec 2025", formFills: 20, calls: 32, totalLeads: 52, conversionRate: 1.52 },
+    ],
+    sources: [
+      { source: "Organic Search", percentage: 58, leads: 201 },
+      { source: "Google Maps / GBP", percentage: 31, leads: 108 },
+      { source: "Direct (Branded)", percentage: 11, leads: 38 },
+    ],
+  },
+  impact: [
+    { label: "Total Revenue", value: "$412K", growth: "+487%" },
+    { label: "Signed Contracts", value: "141", growth: "+312%" },
+    { label: "Cost Per Qualified Lead", value: "$149", growth: "↓48%" },
+    { label: "Blended ROAS", value: "4.59x", growth: "" },
+  ],
+};
