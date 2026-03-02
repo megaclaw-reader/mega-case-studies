@@ -55,6 +55,7 @@ import { gymPrivateTrainingAz } from "./gym-private-training-az";
 import { poolCoversNational } from "./pool-covers-national";
 import { safetyTraining } from "./safety-training";
 import { healthyFoodProteinBars } from "./healthy-food-protein-bars";
+import { fireworksCincinnati } from "./fireworks-cincinnati";
 
 export const caseStudies: Record<string, CaseStudyData> = {
   "mortgage-lending": mortgageLending,
@@ -113,6 +114,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "pool-covers-national": poolCoversNational,
   "safety-training": safetyTraining,
   "healthy-food-protein-bars": healthyFoodProteinBars,
+  "fireworks-cincinnati": fireworksCincinnati,
 };
 
 export type { CaseStudyData };
