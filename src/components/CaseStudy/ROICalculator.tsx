@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { CaseStudyData } from "@/data/types";
 
 export default function ROICalculator({ data }: { data: CaseStudyData }) {
-  const [budget, setBudget] = useState(2500);
+  const [budget, setBudget] = useState(5000);
 
   const benchmarks = useMemo(() => {
     if (!data.paidAds?.monthly?.length) return null;
@@ -43,9 +43,9 @@ export default function ROICalculator({ data }: { data: CaseStudyData }) {
             <span className="text-lg font-semibold text-[#374151]">$</span>
             <input
               type="range"
-              min={500}
-              max={15000}
-              step={250}
+              min={5000}
+              max={25000}
+              step={500}
               value={budget}
               onChange={e => setBudget(Number(e.target.value))}
               className="flex-1 accent-[#2965FF] h-2"

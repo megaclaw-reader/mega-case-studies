@@ -12,8 +12,6 @@ import OrganicConversions from "./OrganicConversions";
 import BusinessImpact from "./BusinessImpact";
 import BeforeAfterComparison from "./BeforeAfterComparison";
 import ROICalculator from "./ROICalculator";
-import CostComparison from "./CostComparison";
-import UrgencyBanner from "./UrgencyBanner";
 import Footer from "./Footer";
 
 export default function CaseStudyPage({ data }: { data: CaseStudyData }) {
@@ -31,8 +29,6 @@ export default function CaseStudyPage({ data }: { data: CaseStudyData }) {
         {data.paidAds && <PaidAdsPerformance data={data} />}
         <BusinessImpact data={data} />
         <ROICalculator data={data} />
-        <CostComparison />
-        <UrgencyBanner data={data} />
       </main>
       <Footer />
     </>
