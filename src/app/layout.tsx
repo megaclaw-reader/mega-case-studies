@@ -2,8 +2,18 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Mega Case Studies",
-  description: "Real results from Mega's AI-powered marketing strategies",
+  title: "MEGA AI Case Studies",
+  description: "Real results from MEGA's AI-powered marketing strategies",
+  icons: {
+    icon: [{ url: "/favicon.png", type: "image/png" }],
+    apple: "/apple-touch-icon.png",
+  },
+  openGraph: {
+    title: "MEGA AI Case Studies",
+    description: "Real results from MEGA's AI-powered marketing strategies",
+    images: [{ url: "/og-image.png", width: 256, height: 256 }],
+    type: "website",
+  },
 };
 
 export default function RootLayout({
