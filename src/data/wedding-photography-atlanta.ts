@@ -1,0 +1,143 @@
+import { CaseStudyData } from "./types";
+
+export const weddingPhotographyAtlanta: CaseStudyData = {
+  slug: "wedding-photography-atlanta",
+  industry: "Wedding Photography",
+  headline: "How an Atlanta Wedding Photography Studio Booked $213K in Revenue With AI-Powered Marketing",
+  subheadline: "MEGA helped a boutique wedding photography studio in Atlanta build organic search authority and optimize paid advertising, growing domain authority from 8 to 24, increasing organic traffic by 1,619%, and generating 61 booked weddings worth $213K in just 5 months.",
+  heroStats: [
+    { value: "5", unit: "months", label: "Partnership Duration" },
+    { value: "$213", unit: "K", label: "Revenue Booked" },
+    { value: "1,619", unit: "%", label: "Organic Traffic Growth" },
+  ],
+  tags: ["Local SEO", "Paid Advertising", "AI-Powered Optimization"],
+  company: {
+    industry: "Wedding Photography",
+    employees: "6",
+    revenue: "$480K",
+    location: "Atlanta, GA",
+    description: "A boutique wedding photography studio serving the greater Atlanta metro area, specializing in fine-art wedding photography, engagement sessions, elopement coverage, and day-of videography packages. Founded 5 years ago by a husband-and-wife team, the studio had built a loyal following through vendor referrals, bridal show appearances, and word-of-mouth from past couples. Their portfolio showcased stunning work at iconic Atlanta venues — The Estate at River Run, Summerour Studio, The Georgian Terrace, and Barnsley Resort — but their website lacked structured content for venue-specific searches. With only 23 five-star reviews on their business listing and minimal blog content, they were invisible in organic search for high-intent queries like 'Atlanta wedding photographer' and 'best wedding photographers in Atlanta.' As national booking platforms and larger studios with aggressive digital budgets dominated search results, they needed a comprehensive strategy to capture engaged couples actively searching during peak booking season.",
+  },
+  challenges: [
+    {
+      title: "Invisible in Local Search During Peak Booking Season",
+      description: "Atlanta's wedding photography market is fiercely competitive, with over 400 studios and freelance photographers competing for engaged couples' attention. The studio ranked on page one for zero high-intent wedding photography terms. Searches like 'Atlanta wedding photographer,' 'wedding photographer near me,' and 'best wedding photographers in Georgia' — which spike dramatically from January through May as couples book for spring and summer weddings — returned competitors with established domain authority, hundreds of reviews, and content-rich websites. The studio's domain authority sat at just 8, with no venue-specific landing pages and only 4 blog posts published in the previous year.",
+    },
+    {
+      title: "No Structured Lead Pipeline or Booking Attribution",
+      description: "Inquiries arrived through a basic contact form, Instagram DMs, email, and phone calls with no centralized tracking. The studio couldn't distinguish between a couple ready to book a $4,500 full-day package and someone casually browsing pricing. Roughly 60% of initial inquiries came via phone or text — none of which were tracked back to marketing channels. The studio estimated they were spending around $287 per inquiry on paid channels but had no visibility into which campaigns drove actual consultations versus tire-kickers who ghosted after the first email.",
+    },
+    {
+      title: "Flat Ad Budget Missing Seasonal Booking Waves",
+      description: "Wedding photography booking follows a pronounced seasonal curve in Atlanta — engagement season (November–February) drives a surge of couples searching for photographers, with peak booking activity from January through April for weddings happening May through October. The studio was spending a flat amount year-round rather than front-loading budget during the critical January–May booking window when 70% of couples make their photographer decision. This meant under-investing during the highest-intent months and wasting budget during late summer and fall when most couples had already booked.",
+    },
+  ],
+  strategy: [
+    {
+      phase: 1,
+      months: "0–30 days",
+      title: "Foundation & Quick Wins",
+      items: [
+        "Full technical site audit — crawlability, Core Web Vitals, mobile performance, image optimization (critical for photography sites where large portfolio images often tank page speed)",
+        "Business listing optimization — completed all service categories, added Atlanta-area service neighborhoods (Buckhead, Midtown, Decatur, Marietta, Roswell, Alpharetta), uploaded portfolio samples with proper alt-text and geo-tagging",
+        "Call and form tracking implementation with dynamic number insertion across all pages — tagging inquiries by source, session duration, and whether a consultation was booked",
+        "CRM integration for closed-loop attribution from first website visit through booked wedding date and final package value",
+        "Competitive keyword research across wedding photography, engagement photography, elopement photography, and venue-specific search terms across the Atlanta metro",
+        "Generated 12 initial articles — Atlanta venue spotlights, wedding photography pricing guides, engagement session planning tips, and seasonal wedding trend roundups for Georgia couples",
+        "Local citation building across 45+ directories — wedding vendor platforms, photography directories, Atlanta-area bridal resources, and general business listings with NAP consistency",
+        "Rebuilt paid campaign structure — separated campaigns by service type (full-day wedding, half-day, engagement-only, elopement) and intent level (ready-to-book vs. researching)",
+        "Built landing pages with portfolio samples, transparent pricing frameworks, and prominent 'Check Availability' calls-to-action optimized for mobile conversions",
+        "Paused broad-match terms bleeding budget, launched initial ad tests with urgency messaging around spring booking deadlines",
+      ],
+    },
+    {
+      phase: 2,
+      months: "30–60 days",
+      title: "Content & Optimization Engine",
+      items: [
+        "Reviewed 0–30 day performance data — identified full-day wedding packages and engagement sessions as highest-converting service lines; reallocated budget accordingly",
+        "Generated 18+ additional articles targeting venue-specific and neighborhood-specific wedding photography topics across the Atlanta metro",
+        "Launched programmatic venue landing pages — 'wedding photographer at Summerour Studio,' 'The Estate at River Run photography,' 'Georgian Terrace wedding photos' — covering 15 top Atlanta venues",
+        "Neighborhood-specific service pages for Buckhead, Midtown, Virginia-Highland, Decatur, Marietta, and Roswell wedding photography",
+        "Optimized internal linking architecture to build topical authority clusters around wedding styles (classic, modern, fine-art, documentary) and venue types",
+        "Weekly business listing posts featuring recent wedding highlights, behind-the-scenes content, and seasonal booking availability updates",
+        "Added structured data schema for local business, photography service pages, FAQ content, portfolio galleries, and review markup",
+        "Rapid creative testing — ad messaging pivots around limited spring availability, portfolio social proof, award recognition, and consultation booking incentives",
+        "Retargeting campaigns for couples who viewed pricing or portfolio pages but didn't submit an inquiry — display and social with seasonal urgency",
+        "Negative keyword refinement based on inquiry tracking — filtering out DIY photography searches, free photo editing queries, and out-of-area requests",
+      ],
+    },
+    {
+      phase: 3,
+      months: "60–90 days",
+      title: "Scale & Compound",
+      items: [
+        "Reviewed 0–60 day data and expanded content to long-tail seasonal and style-specific terms — 'spring garden wedding Atlanta,' 'rooftop wedding photographer Midtown,' 'intimate elopement North Georgia mountains'",
+        "Content refresh cycle — updated early articles with current pricing, new portfolio images, and enhanced E-E-A-T signals including photographer credentials and published work",
+        "Local backlink campaigns via Atlanta wedding publications, bridal blogs, venue partnership pages, and regional wedding vendor guides",
+        "Conversion rate optimization — consultation booking flow testing, portfolio gallery layout improvements, pricing page transparency enhancements",
+        "Advanced schema markup by page type — venue, service, blog, FAQ, portfolio gallery, and photographer profile pages",
+        "AI search optimization for LLM placement in local wedding photographer recommendation queries",
+        "Audience segmentation by wedding timeline (booking 12+ months out vs. 3-6 months), budget tier, and venue type preference",
+        "Bid strategy refinement based on day-of-week patterns (Sunday–Tuesday peak research hours) and seasonal demand acceleration",
+        "Lead scoring integration — weighting consultations booked, wedding date provided, venue confirmed, and budget range disclosed",
+      ],
+    },
+    {
+      phase: 4,
+      months: "90+ days",
+      title: "Ongoing Optimization",
+      items: [
+        "Dynamic budget scaling aligned to Atlanta's wedding booking calendar — aggressive investment January through May during peak search volume, maintained presence through summer wedding season for last-minute bookings",
+        "Expansion of venue-specific pages to emerging Atlanta wedding venues and North Georgia mountain destinations gaining popularity",
+        "Audience refinement — removed low-intent segments, tested lookalike audiences based on highest-value booked couples weighted toward premium packages",
+        "Bid adjustments based on time-of-day inquiry patterns and device usage (mobile-heavy during evening and weekend browsing hours)",
+        "Weekly reporting with full booking attribution — spend to inquiry to consultation to booked wedding to package value, broken down by service type and lead source",
+        "Content calendar aligned to engagement and booking seasons — holiday engagement guides, New Year planning content, spring wedding inspiration, summer highlight reels",
+      ],
+    },
+  ],
+  seo: {
+    summary: [
+      { label: "Total Keywords", value: "2,718", growth: "+2,327%", from: "from 112" },
+      { label: "Top 10 Rankings", value: "97", growth: "+1,286%", from: "from 7" },
+      { label: "Domain Authority", value: "24", growth: "+200%", from: "from 8" },
+      { label: "Organic Traffic", value: "3,214/mo", growth: "+1,619%", from: "from 187" },
+    ],
+    monthly: [
+      { month: "Jan 2025", keywords: 112, top10: 7, top3: 1, traffic: 187, pages: 6, avgPos: 52.1, ctr: 0.7 },
+      { month: "Feb 2025", keywords: 189, top10: 14, top3: 2, traffic: 341, pages: 18, avgPos: 45.3, ctr: 0.9 },
+      { month: "Mar 2025", keywords: 487, top10: 31, top3: 5, traffic: 728, pages: 32, avgPos: 38.7, ctr: 1.1 },
+      { month: "Apr 2025", keywords: 1243, top10: 58, top3: 9, traffic: 1467, pages: 44, avgPos: 31.2, ctr: 1.4 },
+      { month: "May 2025", keywords: 2718, top10: 97, top3: 16, traffic: 3214, pages: 53, avgPos: 26.8, ctr: 1.7 },
+    ],
+  },
+  paidAds: {
+    summary: [
+      { label: "Total Ad Spend", value: "$43.5K" },
+      { label: "Qualified Leads", value: "145" },
+      { label: "Avg Cost Per Qualified Lead", value: "$300", note: "↓36% from $470" },
+      { label: "Booked Weddings", value: "61" },
+    ],
+    columnLabels: {
+      leads: "Total Inquiries",
+      cpl: "Cost/Inquiry",
+      qualified: "Consultations Booked",
+      cpql: "Cost/Consultation",
+      deals: "Weddings Booked",
+    },
+    monthly: [
+      { month: "Jan 2025", spend: 6585, leads: 34, cpl: 194, qualified: 14, cpql: 470, deals: 5, revenue: 17850, roas: 2.71 },
+      { month: "Feb 2025", spend: 7240, leads: 41, cpl: 177, qualified: 19, cpql: 381, deals: 7, revenue: 24710, roas: 3.41 },
+      { month: "Mar 2025", spend: 8415, leads: 53, cpl: 159, qualified: 27, cpql: 312, deals: 11, revenue: 38830, roas: 4.61 },
+      { month: "Apr 2025", spend: 9870, leads: 68, cpl: 145, qualified: 37, cpql: 267, deals: 16, revenue: 56480, roas: 5.72 },
+      { month: "May 2025", spend: 11350, leads: 82, cpl: 138, qualified: 48, cpql: 236, deals: 22, revenue: 77660, roas: 6.84 },
+    ],
+  },
+  impact: [
+    { label: "Total Revenue", value: "$215.5K", growth: "+284%" },
+    { label: "Total Pipeline", value: "$367K", growth: "+219%" },
+    { label: "Avg Package Value", value: "$3,533", growth: "" },
+    { label: "Blended ROAS", value: "4.96x", growth: "" },
+  ],
+};
