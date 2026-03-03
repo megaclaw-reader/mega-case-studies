@@ -64,6 +64,7 @@ import { internetServiceProvider } from "./internet-service-provider";
 import { motorcycleBoatRepairAz } from "./motorcycle-boat-repair-az";
 import { taxPlanningCoaching } from "./tax-planning-coaching";
 import { motorcycleBoatRepair } from "./motorcycle-boat-repair";
+import { renovationOutlet } from "./renovation-outlet";
 
 export const caseStudies: Record<string, CaseStudyData> = {
   "mortgage-lending": mortgageLending,
@@ -131,6 +132,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "motorcycle-boat-repair": motorcycleBoatRepair,
   "financial-services": financialServices,
   "tax-planning-coaching": taxPlanningCoaching,
+  "renovation-outlet": renovationOutlet,
 };
 
 export type { CaseStudyData };
