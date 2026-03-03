@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const hvacNewMexico: CaseStudyData = {
   slug: "hvac-new-mexico",
   industry: "HVAC",
-  headline: "How a New Mexico HVAC Company Generated 794 Qualified Leads and $614K in Revenue Through Instrumented Marketing in 8 Months",
+  headline: "How a New Mexico HVAC Company Generated 794 Qualified Leads and $586K in Revenue Through Instrumented Marketing in 8 Months",
   subheadline: "MEGA helped a growing HVAC company in New Mexico reduce their cost per qualified lead by 47% using call tracking, AI-powered lead scoring, and an ICP feedback loop — while scaling multi-channel ad spend from $10.5K to $18.9K/month as results compounded.",
   heroStats: [
     { value: "8", unit: "months", label: "Partnership Duration" },
     { value: "47", unit: "%", label: "CPQL Reduction" },
-    { value: "$614", unit: "K", label: "Revenue Attributed" },
+    { value: "$586", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["Local SEO", "Paid Advertising", "Lead Generation", "Instrumentation"],
   company: {
@@ -105,7 +105,7 @@ export const hvacNewMexico: CaseStudyData = {
       { label: "Total Ad Spend", value: "$113.8K" },
       { label: "Qualified Leads", value: "794" },
       { label: "Cost Per Qualified Lead", value: "$108", note: "↓47% from $203" },
-      { label: "Closed Jobs", value: "194" },
+      { label: "Closed Jobs", value: "185" },
     ],
     columnLabels: {
       leads: "Total Leads",
@@ -120,9 +120,9 @@ export const hvacNewMexico: CaseStudyData = {
       { month: "May 2025", spend: 13400, leads: 208, cpl: 64, qualified: 78, cpql: 172, deals: 19, revenue: 60192, roas: 4.49 },
       { month: "Jun 2025", spend: 17800, leads: 278, cpl: 64, qualified: 116, cpql: 153, deals: 28, revenue: 88704, roas: 4.98 },
       { month: "Jul 2025", spend: 18900, leads: 306, cpl: 62, qualified: 138, cpql: 137, deals: 34, revenue: 107712, roas: 5.70 },
-      { month: "Aug 2025", spend: 16400, leads: 274, cpl: 60, qualified: 128, cpql: 128, deals: 31, revenue: 98208, roas: 5.99 },
-      { month: "Sep 2025", spend: 13650, leads: 228, cpl: 60, qualified: 114, cpql: 120, deals: 28, revenue: 88704, roas: 6.50 },
-      { month: "Oct 2025", spend: 11880, leads: 212, cpl: 56, qualified: 110, cpql: 108, deals: 27, revenue: 85536, roas: 7.20 },
+      { month: "Aug 2025", spend: 16400, leads: 274, cpl: 60, qualified: 128, cpql: 128, deals: 30, revenue: 95040, roas: 5.80 },
+      { month: "Sep 2025", spend: 13650, leads: 228, cpl: 60, qualified: 114, cpql: 120, deals: 25, revenue: 79200, roas: 5.80 },
+      { month: "Oct 2025", spend: 11880, leads: 212, cpl: 56, qualified: 110, cpql: 108, deals: 22, revenue: 69696, roas: 5.87 },
     ],
   },
   organicConversions: {
@@ -174,9 +174,9 @@ export const hvacNewMexico: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$614.6K", growth: "+284%" },
+    { label: "Total Revenue", value: "$586.1K", growth: "+251%" },
     { label: "Total Qualified Leads", value: "794", growth: "↓47% CPQL" },
     { label: "Avg Revenue Per Job", value: "$3,168", growth: "" },
-    { label: "Blended ROAS", value: "5.40x", growth: "" },
+    { label: "Blended ROAS", value: "5.15x", growth: "" },
   ],
 };
