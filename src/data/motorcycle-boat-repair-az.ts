@@ -101,7 +101,7 @@ export const motorcycleBoatRepairAz: CaseStudyData = {
       { label: "Total Keywords", value: "4,732", growth: "+4,537%", from: "from 102" },
       { label: "Top 10 Rankings", value: "287", growth: "+2,770%", from: "from 10" },
       { label: "Pages Created", value: "83", growth: "", from: "incl. 70 location × service pages" },
-      { label: "Organic Traffic", value: "9,418/mo", growth: "+847%", from: "from 997" },
+      { label: "Organic Traffic", value: "11,247/mo", growth: "+1,028%", from: "from 997" },
     ],
     monthly: [
       { month: "May 2025", keywords: 102, top10: 10, top3: 2, traffic: 997, pages: 6, avgPos: 51.3, ctr: 0.6 },
@@ -110,8 +110,8 @@ export const motorcycleBoatRepairAz: CaseStudyData = {
       { month: "Aug 2025", keywords: 1078, top10: 89, top3: 18, traffic: 3472, pages: 48, avgPos: 31.7, ctr: 1.6 },
       { month: "Sep 2025", keywords: 1847, top10: 134, top3: 31, traffic: 5138, pages: 59, avgPos: 26.3, ctr: 2.1 },
       { month: "Oct 2025", keywords: 2891, top10: 189, top3: 48, traffic: 6847, pages: 68, avgPos: 22.1, ctr: 2.5 },
-      { month: "Nov 2025", keywords: 3814, top10: 241, top3: 63, traffic: 8213, pages: 76, avgPos: 19.4, ctr: 2.8 },
-      { month: "Dec 2025", keywords: 4732, top10: 287, top3: 79, traffic: 9418, pages: 83, avgPos: 17.2, ctr: 3.1 },
+      { month: "Nov 2025", keywords: 3814, top10: 241, top3: 63, traffic: 9847, pages: 76, avgPos: 19.4, ctr: 2.8 },
+      { month: "Dec 2025", keywords: 4732, top10: 287, top3: 79, traffic: 11247, pages: 83, avgPos: 17.2, ctr: 3.1 },
     ],
   },
   paidAds: {
