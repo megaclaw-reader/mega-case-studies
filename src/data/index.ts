@@ -58,10 +58,11 @@ import { healthyFoodProteinBars } from "./healthy-food-protein-bars";
 import { hvacKitchenBathAz } from "./hvac-kitchen-bath-az";
 import { fireworksCincinnati } from "./fireworks-cincinnati";
 import { medSpaOrlando } from "./med-spa-orlando";
+import { financialServices } from "./financial-services";
 import { medSpa } from "./med-spa";
 import { internetServiceProvider } from "./internet-service-provider";
-import { internetServiceProvider } from "./internet-service-provider";
 import { motorcycleBoatRepairAz } from "./motorcycle-boat-repair-az";
+import { taxPlanningCoaching } from "./tax-planning-coaching";
 import { motorcycleBoatRepair } from "./motorcycle-boat-repair";
 
 export const caseStudies: Record<string, CaseStudyData> = {
@@ -128,6 +129,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "motorcycle-boat-repair-az": motorcycleBoatRepairAz,
   "internet-service-provider": internetServiceProvider,
   "motorcycle-boat-repair": motorcycleBoatRepair,
+  "financial-services": financialServices,
 };
 
 export type { CaseStudyData };
