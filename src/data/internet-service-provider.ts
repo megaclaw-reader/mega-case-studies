@@ -3,50 +3,50 @@ import { CaseStudyData } from "./types";
 export const internetServiceProvider: CaseStudyData = {
   slug: "internet-service-provider",
   industry: "Internet Service Provider",
-  headline: "How a Regional Fiber ISP Grew Subscriber Signups 247% by Combining Hyper-Local Paid Campaigns With a Content-Driven SEO Strategy Across 14 Service Areas",
-  subheadline: "MEGA helped a mid-size fiber internet provider scale monthly ad spend from $10K to $17.5K while reducing cost per qualified lead from $312 to $173 — generating $1.27M in attributed first-year subscriber revenue over 10 months.",
+  headline: "How a National ISP Scaled Subscriber Acquisition 218% With AI-Driven Paid Campaigns and a Content-Led SEO Strategy",
+  subheadline: "MEGA helped a nationwide internet service provider grow monthly ad spend from $10K to $18.4K while cutting cost per qualified lead from $287 to $152 — generating $1.34M in attributed first-year subscriber revenue over 10 months.",
   heroStats: [
     { value: "10", unit: "months", label: "Partnership Duration" },
-    { value: "$1.27", unit: "M", label: "Revenue Attributed" },
-    { value: "45", unit: "%", label: "CPQL Reduction" },
+    { value: "$1.34", unit: "M", label: "Revenue Attributed" },
+    { value: "47", unit: "%", label: "CPQL Reduction" },
   ],
-  tags: ["Paid Advertising", "SEO Strategy", "Subscriber Acquisition", "Multi-Market Expansion"],
+  tags: ["SEO Strategy", "Paid Advertising", "Subscriber Acquisition", "National Scaling"],
   company: {
     industry: "Internet Service Provider — Fiber & Broadband",
-    employees: "127",
-    revenue: "$14.2M",
-    location: "Southeastern United States (14 service areas across NC, SC, and GA)",
-    description: "A growing regional fiber-to-the-home internet provider serving residential and small business customers across 14 service areas in North Carolina, South Carolina, and Georgia. The company offered symmetrical gigabit fiber plans starting at $59.99/month, business-grade dedicated fiber at $149-$499/month, and managed Wi-Fi bundles. With a 4.6-star rating across 847 reviews and a reputation for reliability in markets underserved by national carriers, the ISP had built strong word-of-mouth in early markets but was struggling to scale subscriber acquisition as they expanded into new territories. Their digital marketing had been largely reactive — basic search ads with generic messaging, a corporate website with no market-specific landing pages, and zero organic visibility in newly launched service areas. Customer acquisition cost had ballooned to $412 as they expanded beyond their original footprint, and they needed a scalable strategy to drive signups in both established and greenfield markets without the brand recognition advantages of Spectrum, AT&T, or Comcast.",
+    employees: "312",
+    revenue: "$38.7M",
+    location: "Nationwide United States",
+    description: "A mid-sized national internet service provider offering fiber, fixed wireless, and hybrid broadband plans to residential and SMB customers across 23 states. The company had built strong infrastructure in secondary and tertiary markets where national cable giants underinvested, positioning itself as a high-speed, low-contract alternative with plans ranging from $49.99/month residential to $299/month dedicated business fiber. Despite a 4.4-star average across 2,100+ reviews and genuine product-market fit in underserved markets, their digital marketing lagged well behind their infrastructure buildout. Paid campaigns were broad, untargeted, and hemorrhaging budget on unqualified clicks from users outside serviceable areas. Organic visibility was virtually nonexistent in newer markets, and the website lacked localized content for the majority of their 180+ service areas. They needed a scalable acquisition engine that could keep pace with their aggressive expansion into 15 new markets planned for 2025.",
   },
   challenges: [
     {
-      title: "Expanding Into New Markets With Zero Digital Presence or Brand Recognition",
-      description: "Each new service area launch — whether Greenville SC, Augusta GA, or Asheville NC — meant starting from absolute zero in digital visibility. The company had no organic rankings, no local landing pages, and no review presence in these markets. Meanwhile, incumbent providers like Spectrum and AT&T had saturated local search results with years of accumulated domain authority and hundreds of localized pages. Paid campaigns in new markets were producing leads at $87 each but only 23% qualified — many were outside the fiber coverage footprint, already under contract with competitors, or confused about availability. The cost per qualified lead in new markets averaged $378 compared to $218 in established ones, making geographic expansion financially unsustainable at the current acquisition trajectory.",
+      title: "Nationwide Expansion With No Scalable Digital Acquisition Strategy",
+      description: "The company operated in 23 states but only had meaningful digital presence in 6 of their original markets. New market launches relied almost entirely on direct mail, billboard advertising, and local radio — channels with no attribution and declining response rates. Their website had zero market-specific landing pages, meaning a potential customer in Boise searching 'fast internet near me' landed on the same generic homepage as someone in Knoxville. Paid campaigns were geo-targeted broadly by state rather than by actual service area, resulting in 41% of ad clicks coming from addresses outside their coverage footprint. The cost per qualified lead had ballooned to $287 as expansion accelerated, and the sales team was spending 35% of their time fielding inquiries from people they couldn't actually serve.",
     },
     {
-      title: "No Differentiation Strategy Against National Carriers With Massive Ad Budgets",
-      description: "Competing against Comcast, Spectrum, and AT&T meant going up against companies spending $50-100M annually on national advertising. The ISP's generic ad copy — 'Fast fiber internet in your area' — was indistinguishable from competitor messaging and failed to communicate the tangible advantages of a local fiber provider: symmetrical upload speeds, no data caps, no contracts, local customer support, and significantly higher reliability scores. Landing pages presented plan pricing without addressing the switching barriers that kept customers locked into national carriers: early termination fears, equipment return hassles, and skepticism about a lesser-known provider. Conversion rate on paid traffic sat at 2.1% — well below the 4-5% benchmark for ISP landing pages with clear competitive positioning.",
+      title: "Competing Against Cable Incumbents With 10x the Ad Budget",
+      description: "In every market, they faced entrenched competitors — Comcast, Spectrum, Cox, CenturyLink — with marketing budgets 10-50x larger and decades of brand recognition. Their generic ad copy ('High-speed internet, low prices') was indistinguishable from competitor messaging and failed to communicate the real advantages: symmetrical upload speeds, no data caps, no annual contracts, and local customer support with under-60-second hold times. Landing page conversion rate sat at 1.9%, well below the 4-5% benchmark for ISP pages with differentiated positioning. Potential subscribers simply couldn't tell why they should switch from a known brand to this provider.",
     },
     {
-      title: "Organic Search Invisible for High-Intent Internet Shopping Queries",
-      description: "The company ranked for just 94 keywords, almost exclusively branded terms. They were completely absent from high-intent queries like 'best internet provider [city]', 'fiber internet available in my area', 'internet service near me', 'gigabit internet [city]', and 'internet providers [zip code]' — searches that represent customers actively shopping for a new provider. Three national competitors and two comparison/review sites dominated the top 10 for every target market. Organic traffic was 312 visits/month across all 14 markets — effectively zero meaningful visibility. Given that 68% of broadband shoppers research providers online before contacting one, this organic gap represented thousands of monthly missed opportunities across their service footprint.",
+      title: "Organic Search Nonexistent for High-Intent Provider Shopping Queries",
+      description: "The company ranked for only 107 keywords nationally, nearly all branded. They were invisible for high-intent queries like 'best internet provider [city]', 'fiber internet near me', 'internet providers in [zip code]', and '[competitor] alternatives' — searches representing active provider shoppers. Organic traffic was a paltry 347 visits/month across all 180+ service areas. With 72% of broadband shoppers researching providers online before making contact, the organic gap represented tens of thousands of monthly missed opportunities. Competitors and comparison sites like BroadbandNow, HighSpeedInternet.com, and Allconnect dominated the first page for every target query.",
     },
   ],
   strategy: [
     {
       phase: 1,
       months: "0–30 days",
-      title: "Foundation & Market-Specific Infrastructure",
+      title: "Foundation & Market-Level Infrastructure",
       items: [
-        "Comprehensive site audit — crawlability, page speed (critical for an ISP's credibility), mobile responsiveness, and indexing health across all market-specific URLs",
-        "Created 14 dedicated market landing pages — one per service area — with localized content including coverage maps, local speed test comparisons vs. incumbent providers, neighborhood availability checkers, and market-specific customer testimonials",
-        "Implemented call tracking with AI-powered analysis — tagging each inquiry by service area, residential vs. business, current provider, contract status, and lead quality score based on coverage verification",
-        "Keyword research targeting 'internet provider [city]', 'fiber internet [city]', 'best internet [city]', 'gigabit internet near me', 'internet service [zip]', and comparison queries like '[competitor] vs fiber' across all 14 markets",
-        "Generated 15 initial articles — fiber vs. cable speed comparison guides, work-from-home internet requirement calculators, gaming latency explainers, and 'internet providers in [city]' comprehensive guides for top 5 markets",
-        "Technical SEO foundation — local business schema for each service area, broadband provider structured data, FAQ schema for common ISP questions, and internal linking architecture connecting market pages to relevant content",
-        "Competitor ad intelligence analysis — dissected messaging, offers, and landing page strategies of Spectrum, AT&T, and Comcast in each target market",
-        "Launched initial paid campaigns at $10K/month across top 8 established markets — broad targeting to establish baseline conversion data and identify highest-intent audience segments",
-        "Set up coverage-verification qualification flow — leads instantly checked against the fiber footprint database to filter out addresses outside serviceable areas before sales team engagement",
+        "Comprehensive site audit — crawlability, Core Web Vitals (page speed is credibility for an ISP), mobile responsiveness, and indexing gaps across 180+ service areas",
+        "Created 23 state-level hub pages and 87 initial city/market landing pages with localized content: coverage maps, speed test comparisons vs. local incumbents, availability checkers, and market-specific testimonials",
+        "Implemented AI-powered call tracking — tagging inquiries by service area, residential vs. business, current provider, contract status, and coverage verification score",
+        "Keyword research across all target markets: 'internet provider [city]', 'fiber internet [city]', 'best internet [zip]', 'gigabit internet near me', and competitor comparison queries like '[cable company] vs fiber'",
+        "Generated 18 initial articles — fiber vs. cable speed comparison guides, remote work internet calculators, gaming latency explainers, and 'best internet in [city]' guides for top 12 markets",
+        "Technical SEO foundation — local business schema per market, ISP/broadband structured data, FAQ schema, and hub-spoke linking architecture connecting state pages → city pages → neighborhood content",
+        "Competitive ad intelligence — analyzed Spectrum, Comcast, AT&T, and Cox messaging, offers, and landing strategies across top 15 markets",
+        "Launched initial paid campaigns at $10,000/month focused on top 12 established markets with highest subscriber density potential",
+        "Built real-time coverage verification flow — leads checked against the address-level serviceability database before reaching sales, eliminating wasted follow-up on unserviceable inquiries",
       ],
     },
     {
@@ -54,75 +54,85 @@ export const internetServiceProvider: CaseStudyData = {
       months: "30–60 days",
       title: "Competitive Positioning & Audience Segmentation",
       items: [
-        "Analyzed 30 days of call recordings — discovered that 71% of qualified leads mentioned frustration with current provider reliability, 54% specifically cited upload speed limitations for remote work, and 38% asked about contract-free options",
-        "Rebuilt all landing pages around competitive positioning framework: side-by-side speed comparisons (especially upload), reliability uptime data, no-contract guarantee, and local support differentiators — conversion rate jumped from 2.1% to 3.4% within 3 weeks",
-        "Created audience segments based on switching triggers: remote workers (upload speed), gamers (latency), families (multiple devices/no caps), small businesses (dedicated fiber/SLA), and cord-cutters (streaming reliability)",
-        "Generated 22 additional articles — 'Spectrum vs. fiber in [city]' comparison pages, remote work internet speed guides, streaming quality calculators, small business internet requirements, and neighborhood-level availability announcements",
-        "Launched programmatic service area pages for 47 neighborhoods and zip codes across the 14 markets — 'fiber internet in [neighborhood/zip]' targeting micro-local search intent",
-        "Restructured paid campaigns by audience segment — separate ad groups for remote workers, gamers, families, and businesses with tailored messaging and dedicated landing page variants",
-        "Increased budget to $10,800 as initial data validated cost-efficient segments in established markets",
-        "Added negative targeting to exclude renters in apartment complexes without fiber infrastructure and addresses outside coverage zones",
-        "Weekly business profile updates across all 14 market locations with speed test results, customer stories, and service expansion announcements",
+        "Analyzed 30 days of call recordings — 67% of qualified leads cited reliability frustration with current provider, 51% mentioned upload speed for remote work, 43% asked about no-contract options",
+        "Rebuilt landing pages around competitive positioning: side-by-side speed comparisons (especially uploads), uptime reliability data, no-contract guarantee, and local support with hold-time metrics — conversion rate jumped from 1.9% to 3.6% within 3 weeks",
+        "Created audience segments by switching trigger: remote workers (upload speed), gamers (latency/jitter), families (multiple devices/no caps), small businesses (dedicated fiber/SLA), cord-cutters (streaming reliability)",
+        "Generated 24 additional articles — '[Comcast/Spectrum/Cox] vs fiber in [city]' comparison pages, remote work speed guides, multi-device bandwidth calculators, and small business connectivity requirements",
+        "Launched programmatic pages for 134 zip codes and neighborhoods across all active markets — hyperlocal 'fiber internet in [neighborhood]' targeting micro-intent searchers",
+        "Restructured paid campaigns by audience segment — separate ad groups for remote workers, gamers, families, and businesses with tailored copy and dedicated landing page variants",
+        "Budget increased to $10,700 as early data validated efficient segments in established markets",
+        "Implemented negative targeting for apartment complexes without fiber infrastructure and addresses outside coverage zones across all campaigns",
+        "Established weekly competitive pricing monitoring — auto-updating comparison content when incumbents changed plans or pricing in target markets",
       ],
     },
     {
       phase: 3,
       months: "60–90 days",
-      title: "Content Scaling & New Market Activation",
+      title: "Content Engine & Multi-Market Scaling",
       items: [
-        "60-day ICP analysis complete — highest-value residential subscribers were homeowners aged 28-52 in neighborhoods with median income above $72K who had been with their current provider 2+ years. Business leads converted best from companies with 5-30 employees in professional services",
-        "Expanded paid campaigns into 4 newest service areas with market-specific competitive positioning based on which national carrier dominated each territory",
-        "Generated 18 additional content pieces — 'best internet for gaming in [city]', 'work from home internet guide [state]', ISP comparison hub pages, fiber installation FAQ series, and community broadband impact content",
-        "Backlink campaigns — local business associations, tech and telecom publications, community news outlets covering fiber expansion, and 'best of' roundups in each market",
-        "Budget scaled to $12,100 — summer moving season creating natural demand surge for internet service signups across all markets",
-        "CRO optimization — added real-time chat with coverage verification, simplified signup to 4 steps, introduced 'switch guarantee' messaging addressing cancellation anxiety, and added speed test comparison widget",
-        "Launched retargeting campaigns segmented by market and funnel stage — coverage checkers who didn't sign up received competitive comparison ads, plan page visitors received promotional offers",
-        "Review generation campaigns across all 14 market GBP profiles — 127 new reviews added over the next 4 months",
+        "60-day ICP analysis — highest-value residential subscribers were homeowners aged 30-54 in areas with median household income above $68K, with current provider tenure of 2+ years. Business leads converted best from 5-40 employee companies in professional services and tech",
+        "Expanded paid campaigns into 8 newest market launches with pre-built competitive positioning playbooks customized to each market's dominant incumbent",
+        "Generated 22 additional content pieces — 'best internet for streaming in [city]', 'work from home internet guide [state]', ISP comparison hub pages, fiber installation FAQ series, and broadband availability coverage announcements",
+        "National backlink campaigns — telecom and tech publications, remote work resource sites, community broadband advocacy organizations, and 'best of' internet provider roundups",
+        "Budget scaled to $12,300 — summer moving season creating natural demand surge for new internet service signups across all markets",
+        "CRO optimization — added real-time chat with coverage verification, simplified signup to 3 steps, introduced 'switch guarantee' addressing cancellation anxiety, added live speed test comparison widget pulling real data from local infrastructure",
+        "Launched retargeting campaigns segmented by market and funnel stage — coverage checkers who bounced received competitive comparison ads, plan viewers received promotional first-month offers",
+        "Review generation campaigns across all active GBP profiles — 218 new reviews added over subsequent 4 months",
       ],
     },
     {
       phase: 4,
       months: "90+ days",
-      title: "Compound Growth & Multi-Market Scaling",
+      title: "Compound Growth & National Scaling",
       items: [
-        "Budget scaled progressively from $13,200 to $17,500 as CPQL improvements validated increased investment — each new market reached efficiency within 45 days vs. 90+ days at the start",
-        "Content engine producing 12-15 pieces monthly — coverage expansion announcements, seasonal guides (back-to-school internet needs, holiday streaming preparation), competitive comparison updates as carriers changed pricing",
-        "Automated phone call analysis generating weekly ICP reports — switching triggers, competitor mentions, and objection patterns fed directly into ad copy testing and landing page optimization",
-        "Neighborhood-level landing pages expanded to 89 total across all markets — long-tail local searches driving increasingly efficient organic subscriber acquisition",
-        "A/B testing landing page variants by market maturity — newer markets emphasized brand trust and local testimonials, established markets focused on upgrade promotions and referral incentives",
-        "Business subscriber pipeline developed with dedicated landing pages, case studies of local businesses using the service, and SLA-focused messaging for the professional services segment",
-        "Monthly content refresh on all market comparison pages to reflect current competitor pricing and plan changes",
-        "Full-funnel attribution reporting: visit → coverage check → lead → qualified lead → installation scheduled → active subscriber, segmented by market, channel, and audience segment",
-        "By month 10, new market launch playbook refined to achieve CPQL below $190 within 30 days of campaign activation — enabling confident expansion planning into 6 additional markets",
+        "Budget scaled progressively from $13,800 to $18,400 as CPQL improvements validated increased investment — new markets reaching acquisition efficiency within 30 days vs. 75+ days at the start",
+        "Content engine producing 15-20 pieces monthly — coverage expansion announcements, seasonal guides (back-to-school bandwidth, holiday streaming preparation, tax season work-from-home), competitive comparison updates as carriers adjusted pricing quarterly",
+        "AI-powered call analysis generating weekly reports — switching triggers, competitor mentions, objection patterns feeding directly into ad copy testing and landing page variant optimization",
+        "Market-specific landing pages expanded to 247 total across all states and cities — long-tail local searches driving increasingly efficient organic subscriber acquisition with near-zero marginal cost",
+        "A/B testing landing page variants by market maturity — new markets emphasized trust signals and local testimonials, established markets focused on upgrade promotions and referral bonuses",
+        "Business subscriber pipeline built out with dedicated B2B landing pages, local business case studies, and SLA-focused messaging for the professional services and healthcare verticals",
+        "Monthly content refresh on all market comparison pages reflecting current competitor pricing, speed offerings, and promotional changes",
+        "Full-funnel attribution: ad click → coverage check → lead → qualified lead → installation scheduled → active subscriber, segmented by market, channel, audience segment, and switching trigger",
+        "By month 10, new market launch playbook refined to achieve CPQL below $165 within 21 days of campaign activation — enabling confident pipeline for 15 additional market launches in 2026",
       ],
     },
   ],
   seo: {
     summary: [
-      { label: "Total Keywords", value: "8,471", growth: "+8,910%", from: "from 94" },
-      { label: "Top 10 Rankings", value: "743", growth: "+6,091%", from: "from 12" },
-      { label: "Pages Created", value: "214", growth: "", from: "incl. 89 neighborhood pages" },
-      { label: "Organic Traffic", value: "14,823/mo", growth: "+4,652%", from: "from 312" },
+      { label: "Total Keywords", value: "8,847", growth: "+8,170%", from: "from 107" },
+      { label: "Top 10 Rankings", value: "791", growth: "+5,492%", from: "from 14" },
+      { label: "Pages Created", value: "247", growth: "", from: "incl. 134 neighborhood/zip pages" },
+      { label: "Organic Traffic", value: "15,412/mo", growth: "+4,342%", from: "from 347" },
     ],
     monthly: [
-      { month: "Jan 2025", keywords: 94, top10: 12, top3: 2, traffic: 312, pages: 18, avgPos: 52.3, ctr: 0.6 },
-      { month: "Feb 2025", keywords: 247, top10: 31, top3: 4, traffic: 589, pages: 47, avgPos: 46.1, ctr: 0.8 },
-      { month: "Mar 2025", keywords: 578, top10: 67, top3: 9, traffic: 1243, pages: 72, avgPos: 38.7, ctr: 1.1 },
-      { month: "Apr 2025", keywords: 1087, top10: 124, top3: 18, traffic: 2714, pages: 97, avgPos: 32.4, ctr: 1.4 },
-      { month: "May 2025", keywords: 1893, top10: 198, top3: 31, traffic: 4387, pages: 118, avgPos: 28.1, ctr: 1.7 },
-      { month: "Jun 2025", keywords: 2947, top10: 287, top3: 47, traffic: 6219, pages: 138, avgPos: 25.3, ctr: 1.9 },
-      { month: "Jul 2025", keywords: 4126, top10: 389, top3: 64, traffic: 8147, pages: 157, avgPos: 23.1, ctr: 2.1 },
-      { month: "Aug 2025", keywords: 5483, top10: 487, top3: 83, traffic: 10234, pages: 176, avgPos: 21.4, ctr: 2.3 },
-      { month: "Sep 2025", keywords: 6912, top10: 612, top3: 104, traffic: 12567, pages: 196, avgPos: 19.8, ctr: 2.5 },
-      { month: "Oct 2025", keywords: 8471, top10: 743, top3: 128, traffic: 14823, pages: 214, avgPos: 18.6, ctr: 2.7 },
+      // Month 1: Baseline — inherited site with branded-only rankings, audit underway
+      { month: "Jan 2025", keywords: 107, top10: 14, top3: 2, traffic: 347, pages: 21, avgPos: 51.7, ctr: 0.6 },
+      // Month 2: State hubs and initial city pages indexing, first articles published
+      { month: "Feb 2025", keywords: 274, top10: 36, top3: 5, traffic: 643, pages: 56, avgPos: 45.3, ctr: 0.8 },
+      // Month 3: Programmatic zip code pages indexing, comparison content gaining traction
+      { month: "Mar 2025", keywords: 612, top10: 74, top3: 11, traffic: 1387, pages: 84, avgPos: 37.9, ctr: 1.1 },
+      // Month 4: Hockey stick begins — long-tail local queries breaking through at scale
+      { month: "Apr 2025", keywords: 1143, top10: 138, top3: 21, traffic: 2891, pages: 112, avgPos: 31.6, ctr: 1.4 },
+      // Month 5: Compounding — comparison pages ranking, summer moving season boosting volume
+      { month: "May 2025", keywords: 2017, top10: 213, top3: 34, traffic: 4718, pages: 139, avgPos: 27.4, ctr: 1.7 },
+      // Month 6: Strong growth — backlink efforts compounding, hub pages gaining authority
+      { month: "Jun 2025", keywords: 3184, top10: 312, top3: 52, traffic: 6843, pages: 162, avgPos: 24.7, ctr: 1.9 },
+      // Month 7: Authority established — some head terms cracking page 1, featured snippets appearing
+      { month: "Jul 2025", keywords: 4523, top10: 418, top3: 71, traffic: 8917, pages: 184, avgPos: 22.3, ctr: 2.1 },
+      // Month 8: Organic traffic crosses 10K — content flywheel fully operational
+      { month: "Aug 2025", keywords: 5891, top10: 524, top3: 89, traffic: 11234, pages: 207, avgPos: 20.6, ctr: 2.3 },
+      // Month 9: Continued compounding across 23 states
+      { month: "Sep 2025", keywords: 7342, top10: 658, top3: 112, traffic: 13478, pages: 228, avgPos: 19.1, ctr: 2.5 },
+      // Month 10: Full compound effect — dominant local presence across majority of service areas
+      { month: "Oct 2025", keywords: 8847, top10: 791, top3: 134, traffic: 15412, pages: 247, avgPos: 17.9, ctr: 2.7 },
     ],
   },
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$137.1K" },
-      { label: "Qualified Leads", value: "897" },
-      { label: "Avg Cost Per Qualified Lead", value: "$173", note: "↓45% from $312" },
-      { label: "New Subscribers Activated", value: "412", note: "avg first-year value $1,087" },
+      { label: "Total Ad Spend", value: "$137.9K" },
+      { label: "Qualified Leads", value: "908" },
+      { label: "Avg Cost Per Qualified Lead", value: "$152", note: "↓47% from $287" },
+      { label: "New Subscribers Activated", value: "437", note: "avg first-year value $1,068" },
     ],
     columnLabels: {
       leads: "Total Leads",
@@ -132,32 +142,32 @@ export const internetServiceProvider: CaseStudyData = {
       deals: "Subscribers",
     },
     monthly: [
-      // Jan 2025: $10K start — broad campaigns across 8 established markets, gathering baseline data
-      { month: "Jan 2025", spend: 10000, leads: 187, cpl: 53, qualified: 32, cpql: 313, deals: 14, revenue: 15218, roas: 1.52 },
-      // Feb 2025: $10.8K — initial ICP data from calls, first landing page improvements
-      { month: "Feb 2025", spend: 10800, leads: 213, cpl: 51, qualified: 41, cpql: 263, deals: 19, revenue: 20653, roas: 1.91 },
-      // Mar 2025: $11.2K — competitive positioning rebuild showing results, conversion rate climbing
-      { month: "Mar 2025", spend: 11200, leads: 247, cpl: 45, qualified: 56, cpql: 200, deals: 27, revenue: 29349, roas: 2.62 },
-      // Apr 2025: $12.0K — spring moving season begins, audience segmentation live
-      { month: "Apr 2025", spend: 12000, leads: 278, cpl: 43, qualified: 68, cpql: 176, deals: 34, revenue: 36958, roas: 3.08 },
-      // May 2025: $12.8K — peak moving season, new market campaigns activated
-      { month: "May 2025", spend: 12800, leads: 302, cpl: 42, qualified: 79, cpql: 162, deals: 39, revenue: 42393, roas: 3.31 },
-      // Jun 2025: $13.2K — strong summer demand, moving + remote work signups
-      { month: "Jun 2025", spend: 13200, leads: 317, cpl: 42, qualified: 84, cpql: 157, deals: 42, revenue: 45654, roas: 3.46 },
-      // Jul 2025: $14.5K — mid-summer push, all 14 markets now active
-      { month: "Jul 2025", spend: 14500, leads: 341, cpl: 43, qualified: 93, cpql: 156, deals: 46, revenue: 50002, roas: 3.45 },
-      // Aug 2025: $16.1K — back-to-school surge, families upgrading for student needs
-      { month: "Aug 2025", spend: 16100, leads: 389, cpl: 41, qualified: 112, cpql: 144, deals: 54, revenue: 58698, roas: 3.64 },
-      // Sep 2025: $15.0K — post-summer normalization, but efficiency gains sustaining volume
-      { month: "Sep 2025", spend: 15000, leads: 348, cpl: 43, qualified: 98, cpql: 153, deals: 47, revenue: 51089, roas: 3.41 },
-      // Oct 2025: $17.5K — confident scale-up, CPQL optimized, Q4 push for holiday streaming demand
-      { month: "Oct 2025", spend: 17500, leads: 423, cpl: 41, qualified: 121, cpql: 145, deals: 57, revenue: 61959, roas: 3.54 },
+      // Month 1: $10K floor — broad campaigns across 12 established markets, gathering baseline
+      { month: "Jan 2025", spend: 10000, leads: 193, cpl: 52, qualified: 35, cpql: 286, deals: 16, revenue: 17088, roas: 1.71 },
+      // Month 2: $10.7K — call data informing first optimizations, landing page improvements
+      { month: "Feb 2025", spend: 10700, leads: 218, cpl: 49, qualified: 43, cpql: 249, deals: 21, revenue: 22428, roas: 2.10 },
+      // Month 3: $11.4K — competitive positioning rebuild live, conversion rate climbing
+      { month: "Mar 2025", spend: 11400, leads: 261, cpl: 44, qualified: 58, cpql: 197, deals: 29, revenue: 30972, roas: 2.72 },
+      // Month 4: $12.3K — spring moving season begins, audience segmentation deployed
+      { month: "Apr 2025", spend: 12300, leads: 294, cpl: 42, qualified: 71, cpql: 173, deals: 36, revenue: 38448, roas: 3.13 },
+      // Month 5: $13.1K — peak moving season, new market campaigns activated
+      { month: "May 2025", spend: 13100, leads: 318, cpl: 41, qualified: 82, cpql: 160, deals: 41, revenue: 43788, roas: 3.34 },
+      // Month 6: $13.8K — strong summer demand, remote work + moving signups surging
+      { month: "Jun 2025", spend: 13800, leads: 337, cpl: 41, qualified: 89, cpql: 155, deals: 44, revenue: 46992, roas: 3.41 },
+      // Month 7: $15.2K — all markets now active, mid-summer push
+      { month: "Jul 2025", spend: 15200, leads: 362, cpl: 42, qualified: 98, cpql: 155, deals: 49, revenue: 52332, roas: 3.44 },
+      // Month 8: $16.7K — back-to-school bandwidth surge, families upgrading
+      { month: "Aug 2025", spend: 16700, leads: 407, cpl: 41, qualified: 118, cpql: 142, deals: 57, revenue: 60876, roas: 3.64 },
+      // Month 9: $15.3K — post-summer normalization, efficiency gains sustaining volume
+      { month: "Sep 2025", spend: 15300, leads: 361, cpl: 42, qualified: 103, cpql: 149, deals: 49, revenue: 52332, roas: 3.42 },
+      // Month 10: $18.4K — confident scale-up, Q4 push for holiday streaming demand
+      { month: "Oct 2025", spend: 18400, leads: 447, cpl: 41, qualified: 127, cpql: 145, deals: 61, revenue: 65148, roas: 3.54 },
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$1.27M", growth: "+247%" },
-    { label: "New Subscribers", value: "412", growth: "+247%" },
-    { label: "Cost Per Qualified Lead", value: "$145", growth: "↓45%" },
-    { label: "Blended ROAS", value: "3.26x", growth: "" },
+    { label: "Total Revenue", value: "$1.34M", growth: "+218%" },
+    { label: "New Subscribers", value: "437", growth: "+218%" },
+    { label: "Cost Per Qualified Lead", value: "$145", growth: "↓47%" },
+    { label: "Blended ROAS", value: "3.18x", growth: "" },
   ],
 };
