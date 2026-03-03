@@ -58,7 +58,9 @@ import { healthyFoodProteinBars } from "./healthy-food-protein-bars";
 import { hvacKitchenBathAz } from "./hvac-kitchen-bath-az";
 import { fireworksCincinnati } from "./fireworks-cincinnati";
 import { medSpaOrlando } from "./med-spa-orlando";
+import { internetServiceProvider } from "./internet-service-provider";
 import { motorcycleBoatRepairAz } from "./motorcycle-boat-repair-az";
+import { motorcycleBoatRepair } from "./motorcycle-boat-repair";
 
 export const caseStudies: Record<string, CaseStudyData> = {
   "mortgage-lending": mortgageLending,
@@ -121,6 +123,8 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "hvac-kitchen-bath-az": hvacKitchenBathAz,
   "med-spa-orlando": medSpaOrlando,
   "motorcycle-boat-repair-az": motorcycleBoatRepairAz,
+  "internet-service-provider": internetServiceProvider,
+  "motorcycle-boat-repair": motorcycleBoatRepair,
 };
 
 export type { CaseStudyData };
