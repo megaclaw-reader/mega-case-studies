@@ -130,6 +130,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "internet-service-provider": internetServiceProvider,
   "motorcycle-boat-repair": motorcycleBoatRepair,
   "financial-services": financialServices,
+  "tax-planning-coaching": taxPlanningCoaching,
 };
 
 export type { CaseStudyData };
