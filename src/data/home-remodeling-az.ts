@@ -1,0 +1,128 @@
+import { CaseStudyData } from "./types";
+
+export const homeRemodelingAz: CaseStudyData = {
+  slug: "home-remodeling-az",
+  industry: "Home Remodelling Contractor",
+  headline: "How an Arizona Home Remodeling Contractor Generated $423K in Revenue With AI-Powered Paid Ads",
+  subheadline: "MEGA helped a full-service home remodeling company in Arizona optimize their paid advertising campaigns, reducing cost per qualified lead by 43%, closing 73 projects, and generating $423K in attributed revenue over 8 months.",
+  heroStats: [
+    { value: "8", unit: "months", label: "Partnership Duration" },
+    { value: "$423", unit: "K", label: "Revenue Attributed" },
+    { value: "43", unit: "%", label: "CPQL Reduction" },
+  ],
+  tags: ["Paid Advertising", "AI-Powered Optimization", "Lead Generation"],
+  company: {
+    industry: "Home Remodelling Contractor",
+    employees: "23",
+    revenue: "$3.4M",
+    location: "Scottsdale, AZ",
+    description: "A full-service home remodeling contractor serving the greater Phoenix and Scottsdale metro areas across Arizona, specializing in kitchen renovations, bathroom remodels, flooring replacements, and whole-home updates for residential properties. Founded 11 years ago, the company built a reputation through word-of-mouth referrals, Angi leads, and a modest paid advertising presence. With Arizona's booming housing market driving demand for home upgrades, the company was well-positioned but struggled to capture high-intent homeowners searching online. Their previous agency ran broad campaigns with no lead scoring, no call tracking, and no visibility into which projects were actually closing. With large franchise remodelers and private-equity-backed home services companies flooding the Arizona market with aggressive ad budgets, they needed a smarter approach to compete for qualified homeowners ready to invest in their properties.",
+  },
+  challenges: [
+    {
+      title: "No Distinction Between Tire-Kickers and Ready-to-Sign Homeowners",
+      description: "The company was spending roughly $7,500 per month on paid advertising but had zero lead qualification infrastructure. Every form fill and phone call was treated identically — whether it was a homeowner requesting a $45,000 kitchen renovation or someone asking about a $200 cabinet hardware swap. Without call tracking, lead scoring, or CRM integration, the sales team wasted hours chasing low-value inquiries. Their estimated cost per qualified lead sat around $378, and close rates were declining because reps couldn't prioritize the leads most likely to convert into substantial remodeling projects.",
+    },
+    {
+      title: "Generic Campaigns Competing Against Franchise Budgets",
+      description: "The existing ad campaigns used broad match keywords like 'home remodeling' and 'kitchen renovation' without geographic modifiers, service-type segmentation, or intent-based audience targeting. This meant the company was bidding against national franchise remodelers spending 5-10x their budget across the entire Phoenix metro. Their ads appeared alongside Bath Fitters and Re-Bath for simple cosmetic updates when their sweet spot was $8,000-$35,000 custom remodeling projects. The lack of campaign structure meant they were paying premium rates for clicks that rarely converted into the mid-to-high-value projects that drive their margin.",
+    },
+    {
+      title: "Flat Budget Ignoring Arizona's Seasonal Remodeling Cycles",
+      description: "Home remodeling demand in Arizona follows distinct seasonal patterns. Fall and winter are peak seasons — temperatures drop to comfortable working conditions, snowbirds arrive and invest in their second homes, and homeowners prepare for holiday entertaining. Summer months see a natural dip as 110°F+ heat slows exterior and garage-adjacent work. But the company's ad spend was locked at a flat monthly rate year-round, missing the opportunity to capture outsized demand during peak periods and overspending during the slower summer months when conversion rates naturally declined.",
+    },
+  ],
+  strategy: [
+    {
+      phase: 1,
+      months: "0–30 days",
+      title: "Foundation & Quick Wins",
+      items: [
+        "Full paid advertising audit — campaign structure review, conversion tracking verification, landing page analysis, and ad creative assessment across all active campaigns",
+        "Call tracking implementation with dynamic number insertion on all landing pages and service pages — tagging calls by source, campaign, duration, and whether a consultation was booked",
+        "CRM integration for closed-loop attribution, tracking leads from first click through signed contract and project completion",
+        "Lead scoring framework built around project type, estimated budget range, timeline to start, and homeowner readiness signals from initial consultation calls",
+        "Competitor research across the Arizona remodeling market — analyzed top 12 competitors' ad strategies, landing pages, offer positioning, and seasonal bidding patterns",
+        "Restructured campaigns by service type: kitchen remodels, bathroom renovations, flooring, whole-home updates, and outdoor living spaces — each with dedicated landing pages and ad copy",
+        "Built high-intent keyword sets targeting Arizona-specific terms: 'kitchen remodel Scottsdale,' 'bathroom renovation Phoenix,' 'home remodeling contractor Mesa,' and 47 additional geo-modified variations",
+        "Aggressive negative keyword buildout to filter DIY searches, material-only queries, commercial renovation terms, and sub-$2,000 project inquiries",
+        "Launched initial landing page tests with project galleries, financing options, licensed/bonded/insured trust badges, and prominent consultation booking CTAs",
+      ],
+    },
+    {
+      phase: 2,
+      months: "30–60 days",
+      title: "Optimization & Testing",
+      items: [
+        "Reviewed 0–30 day performance data — identified kitchen and bathroom remodels as highest-converting, highest-margin service lines; reallocated 62% of budget toward these categories",
+        "A/B tested 8 landing page variations — tested project gallery layouts, before/after photo carousels, financing calculator placement, and consultation form length",
+        "Winning landing page variant increased conversion rate by 23% through simplified 3-field form, prominent 'Free In-Home Estimate' offer, and curated project portfolio showing Arizona homes",
+        "Expanded geographic targeting to cover Chandler, Gilbert, Tempe, Paradise Valley, Cave Creek, and Fountain Hills — each with location-specific ad copy referencing local neighborhoods",
+        "Retargeting campaigns launched for visitors who viewed kitchen or bathroom project pages but didn't request a consultation — display and video ads featuring completed Arizona projects",
+        "Rapid creative testing — messaging pivots around licensed Arizona contractor status, ROC# verification, lifetime workmanship warranty, and 'Design-Build Under One Roof' positioning",
+        "Call recording analysis revealed 31% of calls were for handyman-type tasks under $1,000 — added phone screening script and refined keyword targeting to reduce low-value inquiries",
+        "Weekly bid adjustments based on day-of-week and time-of-day patterns — homeowner inquiry volume peaked Tuesday through Thursday between 10am and 2pm Arizona time",
+      ],
+    },
+    {
+      phase: 3,
+      months: "60–90 days",
+      title: "Scale & Compound",
+      items: [
+        "Reviewed 60-day data and launched dedicated campaigns for high-value project types: whole-home renovations ($25K+ average) and outdoor living spaces (growing demand in Arizona's climate)",
+        "Advanced audience segmentation by household income, homeownership status, home age, and property value — targeting Arizona homeowners in established neighborhoods with homes 10+ years old",
+        "Lookalike audiences built from top 20% highest-value closed projects — weighted toward kitchen and bathroom remodels in Scottsdale and Paradise Valley",
+        "Video ad campaigns featuring time-lapse project transformations of Arizona homes — kitchen, bathroom, and outdoor living space renovations shot in local properties",
+        "Conversion rate optimization on consultation booking flow — added calendar scheduling integration, reduced no-show rate by 18% with automated SMS confirmation and reminders",
+        "Seasonal budget planning implemented — increased spend allocation for September through January peak season, maintained floor during summer months",
+        "Multi-approach bidding strategies based on campaign maturity, service type margins, and seasonal demand signals from Arizona housing market data",
+        "Lead nurture sequence for homeowners who requested estimates but hadn't signed — automated follow-up with project inspiration content and seasonal promotion offers",
+      ],
+    },
+    {
+      phase: 4,
+      months: "90+ days",
+      title: "Ongoing Optimization",
+      items: [
+        "Dynamic budget allocation responding to real-time demand — scaled spend during Arizona's peak fall/winter remodeling season, maintained floor during summer slow period",
+        "Expanded into adjacent service categories — ADU conversions, garage remodels, and aging-in-place modifications capitalizing on Arizona's growing retiree population",
+        "Audience pruning — removed low-intent segments, concentrated budget on homeowners with verified project timelines under 90 days",
+        "Bid strategy refinements based on project type profitability — shifted premium bids toward kitchen remodels ($12K average project value) and whole-home updates ($28K average)",
+        "Weekly reporting with full project attribution — spend to lead to qualified lead to signed contract to completed project, broken down by service type and Arizona submarket",
+        "Creative refresh cycle every 3 weeks to combat ad fatigue — rotating seasonal messaging, new project photography, and updated homeowner testimonials from completed Arizona renovations",
+      ],
+    },
+  ],
+  seo: undefined,
+  paidAds: {
+    summary: [
+      { label: "Total Ad Spend", value: "$74.2K" },
+      { label: "Qualified Leads", value: "274" },
+      { label: "Avg Cost Per Qualified Lead", value: "$271", note: "↓43% from $378" },
+      { label: "Closed Projects", value: "73" },
+    ],
+    columnLabels: {
+      leads: "Total Leads",
+      cpl: "Cost/Lead",
+      qualified: "Qualified Leads",
+      cpql: "Cost/Qualified",
+      deals: "Closed Projects",
+    },
+    monthly: [
+      { month: "May 2025", spend: 8000, leads: 42, cpl: 190, qualified: 21, cpql: 381, deals: 5, revenue: 29000, roas: 3.63 },
+      { month: "Jun 2025", spend: 8400, leads: 47, cpl: 179, qualified: 25, cpql: 336, deals: 7, revenue: 40600, roas: 4.83 },
+      { month: "Jul 2025", spend: 8200, leads: 49, cpl: 167, qualified: 27, cpql: 304, deals: 7, revenue: 40600, roas: 4.95 },
+      { month: "Aug 2025", spend: 9300, leads: 58, cpl: 160, qualified: 33, cpql: 282, deals: 9, revenue: 52200, roas: 5.61 },
+      { month: "Sep 2025", spend: 10800, leads: 71, cpl: 152, qualified: 41, cpql: 263, deals: 11, revenue: 63800, roas: 5.91 },
+      { month: "Oct 2025", spend: 11400, leads: 78, cpl: 146, qualified: 47, cpql: 243, deals: 13, revenue: 75400, roas: 6.61 },
+      { month: "Nov 2025", spend: 9600, leads: 68, cpl: 141, qualified: 41, cpql: 234, deals: 11, revenue: 63800, roas: 6.65 },
+      { month: "Dec 2025", spend: 8500, leads: 63, cpl: 135, qualified: 39, cpql: 218, deals: 10, revenue: 58000, roas: 6.82 },
+    ],
+  },
+  impact: [
+    { label: "Total Revenue", value: "$423.4K", growth: "+187%" },
+    { label: "Total Pipeline", value: "$692K", growth: "+143%" },
+    { label: "Avg Project Value", value: "$5,800", growth: "" },
+    { label: "Blended ROAS", value: "5.71x", growth: "" },
+  ],
+};
