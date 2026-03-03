@@ -132,7 +132,7 @@ export const healthWellness: CaseStudyData = {
       { month: "Sep 2025", spend: 15247, leads: 567, cpl: 27, qualified: 307, cpql: 50, deals: 154, revenue: 91238, roas: 5.98 },
       { month: "Oct 2025", spend: 13847, leads: 518, cpl: 27, qualified: 284, cpql: 49, deals: 142, revenue: 84134, roas: 6.08 },
       { month: "Nov 2025", spend: 16418, leads: 618, cpl: 27, qualified: 347, cpql: 47, deals: 174, revenue: 103098, roas: 6.28 },
-      { month: "Dec 2025", spend: 16718, leads: 532, cpl: 31, qualified: 231, cpql: 48, deals: 116, revenue: 68726, roas: 4.11 },
+      { month: "Dec 2025", spend: 16718, leads: 532, cpl: 31, qualified: 348, cpql: 48, deals: 116, revenue: 68726, roas: 4.11 },
     ],
   },
   impact: [
