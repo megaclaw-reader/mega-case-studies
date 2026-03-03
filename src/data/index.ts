@@ -71,6 +71,7 @@ import { outdoorBackyardFurniture } from "./outdoor-backyard-furniture";
 import { homeRemodelingAz } from "./home-remodeling-az";
 import { hvacNewMexico } from "./hvac-new-mexico";
 import { weddingPhotographyAtlanta } from "./wedding-photography-atlanta";
+import { exteriorBuildingMaterialsAz } from "./exterior-building-materials-az";
 
 export const caseStudies: Record<string, CaseStudyData> = {
   "mortgage-lending": mortgageLending,
@@ -145,6 +146,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "home-remodeling-az": homeRemodelingAz,
   "hvac-new-mexico": hvacNewMexico,
   "wedding-photography-atlanta": weddingPhotographyAtlanta,
+  "exterior-building-materials-az": exteriorBuildingMaterialsAz,
 };
 
 export type { CaseStudyData };
