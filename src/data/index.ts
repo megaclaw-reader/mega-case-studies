@@ -67,6 +67,7 @@ import { motorcycleBoatRepair } from "./motorcycle-boat-repair";
 import { renovationOutlet } from "./renovation-outlet";
 import { financialServicesCalifornia } from "./financial-services-california";
 import { b2bSaasNational } from "./b2b-saas-national";
+import { outdoorBackyardFurniture } from "./outdoor-backyard-furniture";
 
 export const caseStudies: Record<string, CaseStudyData> = {
   "mortgage-lending": mortgageLending,
@@ -137,6 +138,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "renovation-outlet": renovationOutlet,
   "financial-services-california": financialServicesCalifornia,
   "b2b-saas-national": b2bSaasNational,
+  "outdoor-backyard-furniture": outdoorBackyardFurniture,
 };
 
 export type { CaseStudyData };
