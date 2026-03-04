@@ -79,6 +79,7 @@ import { solarTexas } from "./solar-texas";
 import { ventureCapitalAz } from "./venture-capital-az";
 import { saasPlatformCt } from "./saas-platform-ct";
 import { businessLitigationCt } from "./business-litigation-ct";
+import { constructionMembraneMaterials } from "./construction-membrane-materials";
 
 export const caseStudies: Record<string, CaseStudyData> = {
   "mortgage-lending": mortgageLending,
@@ -161,6 +162,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "venture-capital-az": ventureCapitalAz,
   "saas-platform-ct": saasPlatformCt,
   "business-litigation-ct": businessLitigationCt,
+  "construction-membrane-materials": constructionMembraneMaterials,
 };
 
 export type { CaseStudyData };

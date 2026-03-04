@@ -1,0 +1,167 @@
+import { CaseStudyData } from "./types";
+
+export const constructionMembraneMaterials: CaseStudyData = {
+  slug: "construction-membrane-materials",
+  industry: "Construction & Industrial Membrane Materials",
+  headline: "How a National Membrane Materials Supplier Grew Qualified Leads 41% With AI-Powered Marketing",
+  subheadline: "MEGA helped a B2B manufacturer and distributor of waterproofing membranes, roofing membranes, geomembranes, and industrial liners scale their digital marketing nationally — reducing cost per qualified lead by 36%, growing organic traffic 1,847%, and generating $946K in attributed revenue over 12 months.",
+  heroStats: [
+    { value: "12", unit: "months", label: "Partnership Duration" },
+    { value: "1,847", unit: "%", label: "Organic Traffic Growth" },
+    { value: "$946", unit: "K", label: "Revenue Attributed" },
+  ],
+  tags: ["SEO", "Paid Advertising", "B2B Lead Generation"],
+  company: {
+    industry: "Construction & Industrial Membrane Materials",
+    employees: "73",
+    revenue: "$18.6M",
+    location: "National (U.S.)",
+    description: "A mid-market manufacturer and distributor of high-performance membrane materials serving commercial construction, civil engineering, and industrial sectors across the United States. Their product portfolio includes TPO and EPDM roofing membranes, below-grade waterproofing systems, HDPE geomembranes for containment and landfill applications, and custom industrial liners for water treatment and mining operations. The company had built a strong reputation through trade shows, distributor relationships, and a technical sales team — but their digital presence was almost nonexistent. With general contractors, engineers, and procurement managers increasingly sourcing materials online, the company was losing specification opportunities to competitors with stronger search visibility and digital quoting workflows.",
+  },
+  challenges: [
+    {
+      title: "Invisible in Digital Specification Channels",
+      description: "The company ranked for only 87 keywords nationally, with just 4 in the top 10 — none for high-intent commercial terms like 'TPO roofing membrane supplier,' 'HDPE geomembrane manufacturer,' or 'below-grade waterproofing systems.' Engineers and GCs searching for specification data, technical datasheets, and bulk pricing were finding competitors first. The website had no structured product pages by application, no technical resource library, and no schema markup for B2B product catalog content.",
+    },
+    {
+      title: "High Cost Per Qualified Lead With No Attribution",
+      description: "Previous paid advertising efforts were run sporadically with broad targeting and generic messaging. The company was spending roughly $10K per month but couldn't distinguish between a procurement manager requesting a quote for 200,000 sq ft of geomembrane and a homeowner asking about a basement patch kit. Cost per qualified lead was running around $893, with a qualification rate near 31% — meaning nearly 70% of ad spend attracted leads that would never become projects. There was no CRM integration, no lead scoring, and no closed-loop attribution from ad click to purchase order.",
+    },
+    {
+      title: "Seasonal and Project-Cycle Volatility",
+      description: "Construction membrane demand follows two overlapping cycles: seasonal construction activity (peaking April through October in most U.S. regions) and long project procurement timelines where specifications are locked 3-6 months before material delivery. Without year-round content marketing and always-on paid campaigns, the company experienced 4-5 month gaps between marketing activity and pipeline impact. Winter months saw ad budgets slashed to near zero, which meant spring pipeline was thin precisely when project activity surged.",
+    },
+  ],
+  strategy: [
+    {
+      phase: 1,
+      months: "0–30 days",
+      title: "Foundation & Quick Wins",
+      items: [
+        "Full technical site audit — crawlability, page speed, mobile rendering, and structured data gaps across all product and application pages",
+        "Competitor keyword and backlink analysis across roofing membranes, waterproofing, geomembranes, and industrial liner verticals nationally",
+        "Generated 19 initial articles covering membrane selection guides, installation best practices, ASTM compliance requirements, and application-specific technical comparisons",
+        "Built product taxonomy and URL architecture organized by application (roofing, waterproofing, containment, industrial) with cross-linking to specification sheets",
+        "Created 14 application-specific landing pages targeting commercial roofing contractors, civil engineers, environmental consultants, and procurement managers",
+        "Comprehensive paid campaign audit — paused underperforming broad-match terms, restructured by product line and buyer intent level",
+        "CRM integration for closed-loop attribution from ad engagement through RFQ submission to purchase order, accounting for 60-120 day B2B sales cycles",
+        "Conversion tracking instrumented for RFQ forms, technical datasheet downloads, sample requests, and phone calls to inside sales",
+        "Built segmented paid campaigns by product vertical and buyer persona — specification engineers vs. GC procurement vs. facility managers",
+      ],
+    },
+    {
+      phase: 2,
+      months: "30–60 days",
+      title: "Content & Optimization Engine",
+      items: [
+        "Reviewed 0–30 day performance data and adjusted targeting across roofing membrane, waterproofing, and geomembrane campaign segments",
+        "Generated 27 additional articles covering regional building code requirements, membrane material comparisons, case application profiles, and installation specification guides",
+        "Launched programmatic product pages targeting long-tail terms across 23 membrane types, thicknesses, and application configurations",
+        "Technical resource library buildout — specification sheets, CAD details, installation guides, and warranty documentation optimized for search",
+        "Structured data implementation for Product, TechArticle, FAQ, and Organization schema across all product and resource pages",
+        "Internal linking optimization to build topical authority clusters around each product vertical and application type",
+        "Retargeting campaigns for specification sheet downloaders and RFQ page visitors who didn't convert — segmented by product interest",
+        "Negative keyword refinement based on CRM data — filtering residential DIY queries, small-patch repairs, and non-commercial intent",
+        "A/B testing on landing page layouts — technical specification-forward vs. project portfolio-forward messaging for different buyer personas",
+      ],
+    },
+    {
+      phase: 3,
+      months: "60–90 days",
+      title: "Scale & Compound",
+      items: [
+        "Reviewed 0–60 day data and expanded programmatic pages to additional product configurations and emerging application terms",
+        "Content refresh cycle — updated articles with current material pricing trends, new ASTM standards, and seasonal project planning content",
+        "Industry backlink campaigns via construction trade publications, engineering association partnerships, and building science resources",
+        "CRO optimization across RFQ forms — reduced form fields, added project size qualifiers, and implemented progressive profiling for repeat visitors",
+        "Advanced schema markup for product catalog pages including material specifications, certifications, and application compatibility data",
+        "AI search optimization for LLM placement in commercial membrane material recommendation and specification queries",
+        "Audience segmentation refinement by project type (new construction vs. re-roofing vs. containment), estimated project size, and procurement timeline",
+        "Multi-approach bidding strategies calibrated to product line margins and average order values from CRM data",
+        "Lead scoring model integrating ad engagement patterns with CRM pipeline stage, RFQ value, and estimated material volume",
+      ],
+    },
+    {
+      phase: 4,
+      months: "90+ days",
+      title: "Ongoing Optimization",
+      items: [
+        "Budget reallocation aligned to construction seasonality — increased spend during peak specification and procurement months (March–September), maintained baseline through winter planning season",
+        "Expansion into adjacent product search verticals — vapor barriers, air barriers, drainage composites, and protection boards",
+        "Audience pruning — removed low-intent segments, tested lookalike audiences built from closed high-value purchase orders",
+        "Bid strategy tuning based on seasonal demand patterns and average order value by product line",
+        "Weekly reporting with full-funnel attribution from first click through RFQ to purchase order, tied to revenue impact",
+        "Content calendar aligned to construction procurement cycles — spring project specification guides, summer installation content, fall budget planning resources, winter product comparison and planning tools",
+      ],
+    },
+  ],
+  seo: {
+    summary: [
+      { label: "Total Keywords", value: "8,247", growth: "+9,382%", from: "from 87" },
+      { label: "Top 10 Rankings", value: "673", growth: "+16,725%", from: "from 4" },
+      { label: "Pages Created", value: "142", growth: "", from: "incl. 23 product pages + 14 application pages" },
+      { label: "Organic Traffic", value: "14,318/mo", growth: "+1,847%", from: "from 736" },
+    ],
+    monthly: [
+      { month: "Jan 2025", keywords: 87, top10: 4, top3: 0, traffic: 736, pages: 11, avgPos: 52.3, ctr: 0.6 },
+      { month: "Feb 2025", keywords: 214, top10: 11, top3: 1, traffic: 923, pages: 30, avgPos: 46.8, ctr: 0.7 },
+      { month: "Mar 2025", keywords: 487, top10: 29, top3: 4, traffic: 1437, pages: 51, avgPos: 39.4, ctr: 0.9 },
+      { month: "Apr 2025", keywords: 1043, top10: 78, top3: 11, traffic: 2891, pages: 68, avgPos: 31.7, ctr: 1.3 },
+      { month: "May 2025", keywords: 1847, top10: 142, top3: 23, traffic: 4617, pages: 79, avgPos: 26.3, ctr: 1.7 },
+      { month: "Jun 2025", keywords: 2793, top10: 218, top3: 41, traffic: 6843, pages: 89, avgPos: 22.8, ctr: 2.1 },
+      { month: "Jul 2025", keywords: 3841, top10: 301, top3: 58, traffic: 8731, pages: 98, avgPos: 20.4, ctr: 2.4 },
+      { month: "Aug 2025", keywords: 4917, top10: 387, top3: 79, traffic: 10247, pages: 107, avgPos: 18.7, ctr: 2.6 },
+      { month: "Sep 2025", keywords: 5823, top10: 461, top3: 97, traffic: 11893, pages: 116, avgPos: 17.3, ctr: 2.8 },
+      { month: "Oct 2025", keywords: 6714, top10: 537, top3: 118, traffic: 13147, pages: 124, avgPos: 16.1, ctr: 2.9 },
+      { month: "Nov 2025", keywords: 7493, top10: 608, top3: 137, traffic: 12461, pages: 133, avgPos: 15.4, ctr: 2.8 },
+      { month: "Dec 2025", keywords: 8247, top10: 673, top3: 156, traffic: 14318, pages: 142, avgPos: 14.8, ctr: 3.1 },
+    ],
+  },
+  paidAds: {
+    summary: [
+      { label: "Total Ad Spend", value: "$163.4K" },
+      { label: "Qualified Leads", value: "208" },
+      { label: "Avg Cost Per Qualified Lead", value: "$569", note: "↓36% from $893" },
+      { label: "Purchase Orders", value: "44" },
+    ],
+    columnLabels: {
+      leads: "Total Leads",
+      cpl: "Cost/Lead",
+      qualified: "Qualified RFQs",
+      cpql: "Cost/Qualified RFQ",
+      deals: "Purchase Orders",
+    },
+    monthly: [
+      // Jan 2025: Winter — slow construction season, but procurement planning underway. Floor = $10K.
+      { month: "Jan 2025", spend: 10147, leads: 23, cpl: 441, qualified: 7, cpql: 1450, deals: 1, revenue: 31847, roas: 3.14 },
+      // Feb 2025: Late winter — spring project specs being finalized, pipeline building
+      { month: "Feb 2025", spend: 10483, leads: 28, cpl: 374, qualified: 10, cpql: 1048, deals: 2, revenue: 48293, roas: 4.61 },
+      // Mar 2025: Early spring — specification season ramps, GCs locking in material suppliers
+      { month: "Mar 2025", spend: 12317, leads: 37, cpl: 333, qualified: 14, cpql: 880, deals: 3, revenue: 71847, roas: 5.83 },
+      // Apr 2025: Spring peak — heavy project starts, roofing and waterproofing demand surging
+      { month: "Apr 2025", spend: 15893, leads: 51, cpl: 312, qualified: 23, cpql: 691, deals: 5, revenue: 108247, roas: 6.81 },
+      // May 2025: Peak construction — highest lead volume, geomembrane + roofing projects
+      { month: "May 2025", spend: 17241, leads: 58, cpl: 297, qualified: 29, cpql: 595, deals: 6, revenue: 131473, roas: 7.63 },
+      // Jun 2025: Sustained peak — strong demand across all product lines
+      { month: "Jun 2025", spend: 16873, leads: 54, cpl: 312, qualified: 27, cpql: 625, deals: 6, revenue: 124891, roas: 7.40 },
+      // Jul 2025: Mid-summer — demand holding, some projects delayed by heat
+      { month: "Jul 2025", spend: 15647, leads: 48, cpl: 326, qualified: 24, cpql: 652, deals: 5, revenue: 103217, roas: 6.60 },
+      // Aug 2025: Late summer — roofing strong, containment projects wrapping
+      { month: "Aug 2025", spend: 14283, leads: 42, cpl: 340, qualified: 21, cpql: 680, deals: 4, revenue: 87641, roas: 6.14 },
+      // Sep 2025: Early fall — outdoor projects rushing to complete before weather turns
+      { month: "Sep 2025", spend: 13417, leads: 38, cpl: 353, qualified: 19, cpql: 706, deals: 4, revenue: 79847, roas: 5.95 },
+      // Oct 2025: Fall — demand tapering, winter project planning begins
+      { month: "Oct 2025", spend: 11893, leads: 31, cpl: 384, qualified: 14, cpql: 850, deals: 3, revenue: 58217, roas: 4.90 },
+      // Nov 2025: Late fall — significant slowdown in starts, budget planning season
+      { month: "Nov 2025", spend: 10847, leads: 24, cpl: 452, qualified: 9, cpql: 1205, deals: 2, revenue: 37893, roas: 3.49 },
+      // Dec 2025: Winter — lowest activity, but Q1 specs being discussed
+      { month: "Dec 2025", spend: 14293, leads: 29, cpl: 493, qualified: 11, cpql: 1299, deals: 3, revenue: 63147, roas: 4.42 },
+    ],
+  },
+  impact: [
+    { label: "Total Revenue", value: "$946.6K", growth: "+143%" },
+    { label: "Total Pipeline", value: "$1.72M", growth: "+127%" },
+    { label: "Avg Order Value", value: "$17,860", growth: "" },
+    { label: "Blended ROAS", value: "5.80x", growth: "" },
+  ],
+};
