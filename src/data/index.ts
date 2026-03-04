@@ -78,6 +78,7 @@ import { highTicketEcommerceSeo } from "./high-ticket-ecommerce-seo";
 import { solarTexas } from "./solar-texas";
 import { ventureCapitalAz } from "./venture-capital-az";
 import { saasPlatformCt } from "./saas-platform-ct";
+import { businessLitigationCt } from "./business-litigation-ct";
 
 export const caseStudies: Record<string, CaseStudyData> = {
   "mortgage-lending": mortgageLending,
@@ -159,6 +160,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "solar-texas": solarTexas,
   "venture-capital-az": ventureCapitalAz,
   "saas-platform-ct": saasPlatformCt,
+  "business-litigation-ct": businessLitigationCt,
 };
 
 export type { CaseStudyData };
