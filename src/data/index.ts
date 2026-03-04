@@ -76,6 +76,7 @@ import { peptidesSeo } from "./peptides-seo";
 import { ecommerceBeverageSeo } from "./ecommerce-beverage-seo";
 import { highTicketEcommerceSeo } from "./high-ticket-ecommerce-seo";
 import { solarTexas } from "./solar-texas";
+import { ventureCapitalAz } from "./venture-capital-az";
 
 export const caseStudies: Record<string, CaseStudyData> = {
   "mortgage-lending": mortgageLending,
@@ -155,6 +156,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "ecommerce-beverage-seo": ecommerceBeverageSeo,
   "high-ticket-ecommerce-seo": highTicketEcommerceSeo,
   "solar-texas": solarTexas,
+  "venture-capital-az": ventureCapitalAz,
 };
 
 export type { CaseStudyData };
