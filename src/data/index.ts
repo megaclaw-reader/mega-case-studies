@@ -74,6 +74,7 @@ import { weddingPhotographyAtlanta } from "./wedding-photography-atlanta";
 import { exteriorBuildingMaterialsAz } from "./exterior-building-materials-az";
 import { peptidesSeo } from "./peptides-seo";
 import { ecommerceBeverageSeo } from "./ecommerce-beverage-seo";
+import { highTicketEcommerceSeo } from "./high-ticket-ecommerce-seo";
 
 export const caseStudies: Record<string, CaseStudyData> = {
   "mortgage-lending": mortgageLending,
@@ -151,6 +152,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "exterior-building-materials-az": exteriorBuildingMaterialsAz,
   "peptides-seo": peptidesSeo,
   "ecommerce-beverage-seo": ecommerceBeverageSeo,
+  "high-ticket-ecommerce-seo": highTicketEcommerceSeo,
 };
 
 export type { CaseStudyData };
