@@ -1,7 +1,7 @@
 import { CaseStudyData } from "./types";
 
-export const solarTexas: CaseStudyData = {
-  slug: "solar-texas",
+export const solarPhoenix: CaseStudyData = {
+  slug: "solar-phoenix",
   industry: "Solar Installation",
   headline: "How a Phoenix Solar Installer Cut Cost Per Qualified Lead by 27% and Booked 215 Consultations in 7 Months",
   subheadline: "MEGA helped a residential and commercial solar installation company in Arizona optimize their paid advertising around cost per qualified lead, generating $356K in attributed revenue and reducing CPQL from $509 to $374 over 7 months.",

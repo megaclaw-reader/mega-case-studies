@@ -75,7 +75,7 @@ import { exteriorBuildingMaterialsAz } from "./exterior-building-materials-az";
 import { peptidesSeo } from "./peptides-seo";
 import { ecommerceBeverageSeo } from "./ecommerce-beverage-seo";
 import { highTicketEcommerceSeo } from "./high-ticket-ecommerce-seo";
-import { solarTexas } from "./solar-texas";
+import { solarPhoenix } from "./solar-phoenix";
 import { ventureCapitalAz } from "./venture-capital-az";
 import { saasPlatformCt } from "./saas-platform-ct";
 import { businessLitigationCt } from "./business-litigation-ct";
@@ -160,7 +160,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "peptides-seo": peptidesSeo,
   "ecommerce-beverage-seo": ecommerceBeverageSeo,
   "high-ticket-ecommerce-seo": highTicketEcommerceSeo,
-  "solar-texas": solarTexas,
+  "solar-phoenix": solarPhoenix,
   "venture-capital-az": ventureCapitalAz,
   "saas-platform-ct": saasPlatformCt,
   "business-litigation-ct": businessLitigationCt,
