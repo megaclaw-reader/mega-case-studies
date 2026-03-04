@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const commercialInsuranceNy: CaseStudyData = {
   slug: "commercial-insurance-ny",
   industry: "Commercial Insurance",
-  headline: "How a New York Commercial Insurance Agency Generated $105K in New Policy Revenue With AI-Powered Marketing",
-  subheadline: "MEGA helped a New York-based commercial insurance agency serving small and medium-sized businesses build a paid advertising program from scratch while establishing organic search foundations, reducing cost per qualified lead by 49%, and generating $105K in attributed premium revenue over 4 months.",
+  headline: "How a New York Commercial Insurance Agency Generated $159K in New Policy Revenue With AI-Powered Marketing",
+  subheadline: "MEGA helped a New York-based commercial insurance agency serving small and medium-sized businesses build a paid advertising program from scratch while establishing organic search foundations, reducing cost per qualified lead by 55%, and generating $159K in attributed premium revenue over 5 months.",
   heroStats: [
-    { value: "4", unit: "months", label: "Partnership Duration" },
-    { value: "$105", unit: "K", label: "Premium Revenue" },
-    { value: "49", unit: "%", label: "CPQL Reduction" },
+    { value: "5", unit: "months", label: "Partnership Duration" },
+    { value: "$159", unit: "K", label: "Premium Revenue" },
+    { value: "55", unit: "%", label: "CPQL Reduction" },
   ],
   tags: ["SEO", "Paid Advertising", "AI-Powered Optimization"],
   company: {
@@ -29,7 +29,7 @@ export const commercialInsuranceNy: CaseStudyData = {
     },
     {
       title: "No Lead Tracking or Policy Attribution",
-      description: "Incoming inquiries arrived through a shared office phone line and a generic contact form with no source tracking. The agency had no way to distinguish a referral from a website visitor from a cold outreach callback. Quote requests for $50K commercial property policies were handled with the same intake process as $3K general liability renewals. There was no system to score leads by potential policy value, track the pipeline from initial inquiry through bound policy, or measure which activities were generating the highest-value commercial accounts.",
+      description: "Incoming inquiries arrived through a shared office phone line and a generic contact form with no source tracking. The agency had no way to distinguish a referral from a website visitor from a cold outreach callback. Quote requests for $50K commercial property policies were handled with the same intake process as $3K general liability renewals. There was no system to score leads by potential policy value, business size, coverage complexity, and urgency indicators to prioritize high-value commercial accounts.",
     },
   ],
   strategy: [
@@ -78,7 +78,7 @@ export const commercialInsuranceNy: CaseStudyData = {
     },
     {
       phase: 4,
-      months: "90–120 days",
+      months: "90–150 days",
       title: "Optimization & Growth",
       items: [
         "Dynamic budget allocation following seasonal insurance patterns — increased spend during Q4 when businesses plan coverage for the new year and policy renewal season peaks",
@@ -86,29 +86,31 @@ export const commercialInsuranceNy: CaseStudyData = {
         "Audience refinement based on bound-policy data — prioritized industries and business sizes producing highest premium values and strongest retention rates",
         "Bid strategy tuning based on coverage profitability — higher bids for workers' comp and commercial property averaging $12K+ annual premiums, conservative bids for smaller general liability-only accounts",
         "Monthly reporting with full revenue attribution — ad spend to lead to qualified quote to bound policy to premium value, broken down by coverage type and New York sub-market",
+        "Capitalized on January new-year policy renewal surge — businesses starting fresh coverage cycles drove highest lead volume and policy binding rates of the engagement",
       ],
     },
   ],
   seo: {
     summary: [
-      { label: "Total Keywords", value: "614", growth: "+553%", from: "from 94" },
-      { label: "Top 10 Rankings", value: "49", growth: "+513%", from: "from 8" },
-      { label: "Pages Created", value: "52", growth: "", from: "incl. location × coverage pages" },
-      { label: "Organic Traffic", value: "1,547/mo", growth: "+532%", from: "from 245" },
+      { label: "Total Keywords", value: "891", growth: "+848%", from: "from 94" },
+      { label: "Top 10 Rankings", value: "67", growth: "+738%", from: "from 8" },
+      { label: "Pages Created", value: "58", growth: "", from: "incl. location × coverage pages" },
+      { label: "Organic Traffic", value: "2,183/mo", growth: "+791%", from: "from 245" },
     ],
     monthly: [
       { month: "Sep 2025", keywords: 94, top10: 8, top3: 1, traffic: 245, pages: 9, avgPos: 54.3, ctr: 0.5 },
       { month: "Oct 2025", keywords: 198, top10: 17, top3: 2, traffic: 487, pages: 28, avgPos: 47.1, ctr: 0.7 },
       { month: "Nov 2025", keywords: 347, top10: 31, top3: 4, traffic: 892, pages: 41, avgPos: 41.8, ctr: 0.9 },
       { month: "Dec 2025", keywords: 614, top10: 49, top3: 7, traffic: 1547, pages: 52, avgPos: 37.2, ctr: 1.1 },
+      { month: "Jan 2026", keywords: 891, top10: 67, top3: 11, traffic: 2183, pages: 58, avgPos: 33.5, ctr: 1.3 },
     ],
   },
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$33.9K" },
-      { label: "Qualified Leads", value: "46" },
-      { label: "Avg Cost Per Qualified Lead", value: "$736", note: "↓49% from $1,449" },
-      { label: "Policies Bound", value: "10" },
+      { label: "Total Ad Spend", value: "$43.4K" },
+      { label: "Qualified Leads", value: "65" },
+      { label: "Avg Cost Per Qualified Lead", value: "$668", note: "↓55% from $1,116" },
+      { label: "Policies Bound", value: "15" },
     ],
     columnLabels: {
       leads: "Total Inquiries",
@@ -122,12 +124,13 @@ export const commercialInsuranceNy: CaseStudyData = {
       { month: "Oct 2025", spend: 8240, leads: 29, cpl: 284, qualified: 10, cpql: 824, deals: 2, revenue: 21400, roas: 2.60 },
       { month: "Nov 2025", spend: 8675, leads: 33, cpl: 263, qualified: 13, cpql: 667, deals: 3, revenue: 31200, roas: 3.60 },
       { month: "Dec 2025", spend: 9130, leads: 38, cpl: 240, qualified: 16, cpql: 571, deals: 4, revenue: 42800, roas: 4.69 },
+      { month: "Jan 2026", spend: 9550, leads: 43, cpl: 222, qualified: 19, cpql: 503, deals: 5, revenue: 53500, roas: 5.60 },
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$105.2K", growth: "+328%" },
-    { label: "Total Pipeline", value: "$187.4K", growth: "+214%" },
-    { label: "Avg Policy Value", value: "$10,520", growth: "" },
-    { label: "Blended ROAS", value: "3.11x", growth: "" },
+    { label: "Total Revenue", value: "$158.7K", growth: "+328%" },
+    { label: "Total Pipeline", value: "$267.4K", growth: "+214%" },
+    { label: "Avg Policy Value", value: "$10,580", growth: "" },
+    { label: "Blended ROAS", value: "3.66x", growth: "" },
   ],
 };
