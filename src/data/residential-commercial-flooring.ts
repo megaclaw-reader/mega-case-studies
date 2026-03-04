@@ -121,10 +121,10 @@ export const residentialCommercialFlooring: CaseStudyData = {
   },
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$120.0K" },
-      { label: "Qualified Leads", value: "463" },
-      { label: "Avg Cost Per Qualified Lead", value: "$259", note: "↓33% from $387" },
-      { label: "Closed Jobs", value: "87" },
+      { label: "Total Ad Spend", value: "$120K" },
+      { label: "Qualified Leads", value: "368" },
+      { label: "Avg Cost Per Qualified Lead", value: "$326", note: "↓16% from $387" },
+      { label: "Closed Jobs", value: "82" },
     ],
     monthly: [
       // Month 1 (Jan): Winter — slower season, baseline, auditing and restructuring

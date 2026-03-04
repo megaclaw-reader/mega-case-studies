@@ -79,7 +79,7 @@ export const multiLocationConsumerBrand: CaseStudyData = {
   seo: undefined,
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$1.94M" },
+      { label: "Total Ad Spend", value: "$2.14M" },
       { label: "Total Revenue", value: "$7.13M", note: "Ad-attributed" },
       { label: "Blended ROAS", value: "3.68x", note: "Maintained 3.6x+ while scaling 80%" },
       { label: "CAC Volatility", value: "↓34%", note: "Stabilized across all markets" },
@@ -117,7 +117,7 @@ export const multiLocationConsumerBrand: CaseStudyData = {
   },
   impact: [
     { label: "Daily Spend Scaled", value: "$5K → $9K+", growth: "+80%" },
-    { label: "Blended ROAS at Scale", value: "3.7x", growth: "Maintained 3.6x+" },
+    { label: "Blended ROAS at Scale", value: "3.43x", growth: "Maintained 3.6x+" },
     { label: "CAC Volatility", value: "↓34%", growth: "Stabilized" },
     { label: "Creative Lifecycle", value: "+41%", growth: "Extended" },
   ],

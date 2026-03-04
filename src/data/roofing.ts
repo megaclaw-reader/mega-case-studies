@@ -130,16 +130,16 @@ export const roofing: CaseStudyData = {
   },
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$53.7K" },
+      { label: "Total Ad Spend", value: "$57.1K" },
       { label: "Qualified Leads", value: "125" },
-      { label: "Avg Cost Per Qualified Lead", value: "$429", note: "↓20% from $535" },
+      { label: "Avg Cost Per Qualified Lead", value: "$457", note: "↓15% from $535" },
       { label: "Closed Jobs", value: "30" },
     ],
     monthly: [
       // Month 1 (Mar): Inherited account — baseline performance, auditing and restructuring
-      { month: "Feb 2025", spend: 4817, leads: 17, cpl: 283, qualified: 9, cpql: 535, deals: 2, revenue: 11247, roas: 2.33 },
+      { month: "Feb 2025", spend: 5136, leads: 17, cpl: 302, qualified: 9, cpql: 571, deals: 2, revenue: 11247, roas: 2.19 },
       // Month 2 (Apr): Campaign restructure live, spring demand picking up, new landing pages
-      { month: "Mar 2025", spend: 4923, leads: 22, cpl: 224, qualified: 13, cpql: 379, deals: 3, revenue: 17891, roas: 3.63 },
+      { month: "Mar 2025", spend: 5314, leads: 22, cpl: 242, qualified: 13, cpql: 409, deals: 3, revenue: 17891, roas: 3.37 },
       // Month 3 (May): Creative iterations paying off, storm season messaging resonating
       { month: "Apr 2025", spend: 5147, leads: 26, cpl: 198, qualified: 15, cpql: 343, deals: 4, revenue: 22891, roas: 4.45 },
       // Month 4 (Jun): Peak summer — highest lead volume, best qualification rates
@@ -149,21 +149,21 @@ export const roofing: CaseStudyData = {
       // Month 6 (Aug): Late summer — still solid but slight seasonal tapering
       { month: "Jul 2025", spend: 5173, leads: 24, cpl: 216, qualified: 13, cpql: 398, deals: 3, revenue: 18293, roas: 3.54 },
       // Month 7 (Sep): Fall transition — fewer emergency repairs, more planned projects
-      { month: "Aug 2025", spend: 4937, leads: 21, cpl: 235, qualified: 11, cpql: 449, deals: 3, revenue: 16847, roas: 3.41 },
+      { month: "Aug 2025", spend: 5067, leads: 21, cpl: 241, qualified: 11, cpql: 461, deals: 3, revenue: 16847, roas: 3.32 },
       // Month 8 (Oct): Seasonal softening — property managers wrapping up before winter
-      { month: "Sep 2025", spend: 4718, leads: 18, cpl: 262, qualified: 9, cpql: 524, deals: 2, revenue: 12847, roas: 2.72 },
+      { month: "Sep 2025", spend: 5027, leads: 18, cpl: 279, qualified: 9, cpql: 559, deals: 2, revenue: 12847, roas: 2.56 },
       // Month 9 (Nov): Winter approaching — demand drops, scaled back spend accordingly
-      { month: "Oct 2025", spend: 4583, leads: 15, cpl: 306, qualified: 8, cpql: 573, deals: 2, revenue: 9713, roas: 2.12 },
+      { month: "Oct 2025", spend: 5237, leads: 15, cpl: 349, qualified: 8, cpql: 655, deals: 2, revenue: 9713, roas: 1.85 },
       // Month 10 (Dec): Winter low — minimal roofing demand, maintenance-level spend
-      { month: "Nov 2025", spend: 4391, leads: 13, cpl: 338, qualified: 7, cpql: 627, deals: 1, revenue: 6847, roas: 1.56 },
+      { month: "Nov 2025", spend: 5347, leads: 13, cpl: 411, qualified: 7, cpql: 764, deals: 1, revenue: 6847, roas: 1.28 },
       // Month 11 (Jan): Early recovery — storm damage inquiries, spring planning searches returning
-      { month: "Dec 2025", spend: 4647, leads: 17, cpl: 273, qualified: 9, cpql: 516, deals: 2, revenue: 13194, roas: 2.84 },
+      { month: "Dec 2025", spend: 5299, leads: 17, cpl: 312, qualified: 9, cpql: 589, deals: 2, revenue: 13194, roas: 2.49 },
     ],
   },
   impact: [
     { label: "Total Revenue", value: "$175.3K", growth: "+97%" },
     { label: "Total Pipeline", value: "$312K", growth: "+84%" },
     { label: "Avg Revenue Per Job", value: "$5,844", growth: "" },
-    { label: "Blended ROAS", value: "3.27x", growth: "" },
+    { label: "Blended ROAS", value: "3.07x", growth: "" },
   ],
 };

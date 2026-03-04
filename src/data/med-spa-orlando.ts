@@ -139,6 +139,6 @@ export const medSpaOrlando: CaseStudyData = {
     { label: "Total Qualified Leads", value: "836", growth: "+312%" },
     { label: "Cost Per Qualified Lead", value: "$51", growth: "↓60%" },
     { label: "Monthly Organic Traffic", value: "11,247", growth: "+2,643%" },
-    { label: "Blended ROAS", value: "5.4x", growth: "+166%" },
+    { label: "Blended ROAS", value: "5.41x", growth: "+166%" },
   ],
 };

@@ -140,7 +140,7 @@ export const highEndFashionNyc: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Ad Revenue", value: "$847K", growth: "+47%" },
+    { label: "Total Ad Revenue", value: "$846.3K", growth: "+47%" },
     { label: "Total Orders", value: "2,047", growth: "+38%" },
     { label: "Cost Per Acquisition", value: "$95.94", growth: "↓33%" },
     { label: "Blended ROAS", value: "4.31x", growth: "+47%" },

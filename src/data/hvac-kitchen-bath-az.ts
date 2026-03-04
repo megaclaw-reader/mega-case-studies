@@ -107,9 +107,9 @@ export const hvacKitchenBathAz: CaseStudyData = {
   },
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$63.7K" },
+      { label: "Total Ad Spend", value: "$64.3K" },
       { label: "Qualified Leads", value: "487" },
-      { label: "Avg Cost Per Qualified Lead", value: "$114", note: "↓41% from $194" },
+      { label: "Avg Cost Per Qualified Lead", value: "$132", note: "↓32% from $194" },
       { label: "Closed Deals", value: "178" },
     ],
     columnLabels: {
@@ -129,7 +129,7 @@ export const hvacKitchenBathAz: CaseStudyData = {
       { month: "Aug 2025", spend: 7400, leads: 78, cpl: 95, qualified: 58, cpql: 128, deals: 21, revenue: 49800, roas: 6.73 },
       { month: "Sep 2025", spend: 5700, leads: 56, cpl: 102, qualified: 42, cpql: 136, deals: 15, revenue: 36200, roas: 6.35 },
       { month: "Oct 2025", spend: 5200, leads: 61, cpl: 85, qualified: 51, cpql: 102, deals: 18, revenue: 47300, roas: 9.10 },
-      { month: "Nov 2025", spend: 4600, leads: 54, cpl: 85, qualified: 45, cpql: 102, deals: 15, revenue: 37800, roas: 8.22 },
+      { month: "Nov 2025", spend: 5205, leads: 54, cpl: 96, qualified: 45, cpql: 116, deals: 15, revenue: 37800, roas: 7.26 },
     ],
   },
   organicConversions: {
@@ -188,6 +188,6 @@ export const hvacKitchenBathAz: CaseStudyData = {
     { label: "Total Revenue", value: "$438.8K", growth: "+217%" },
     { label: "Total Qualified Leads", value: "487", growth: "+41% lower Cost/Lead" },
     { label: "Avg Revenue Per Deal", value: "$2,465", growth: "" },
-    { label: "Blended ROAS", value: "6.89x", growth: "" },
+    { label: "Blended ROAS", value: "6.82x", growth: "" },
   ],
 };

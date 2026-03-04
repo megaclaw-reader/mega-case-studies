@@ -117,9 +117,9 @@ export const wealthManagement: CaseStudyData = {
   },
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$72.9K" },
+      { label: "Total Ad Spend", value: "$73.8K" },
       { label: "Qualified Leads", value: "67" },
-      { label: "Avg Cost/Qualified Lead", value: "$1,088", note: "↓36% from $1,703" },
+      { label: "Avg Cost/Qualified Lead", value: "$1,102", note: "↓35% from $1,703" },
       { label: "New Clients Acquired", value: "23" },
     ],
     columnLabels: {
@@ -141,9 +141,9 @@ export const wealthManagement: CaseStudyData = {
       // Month 5: Summer slowdown beginning
       { month: "May", spend: 5247, leads: 11, cpl: 477, qualified: 4, cpql: 1312, deals: 1, revenue: 9100, roas: 1.73 },
       // Month 6: Summer — slower intent, reduced spend
-      { month: "Jun", spend: 4693, leads: 10, cpl: 469, qualified: 4, cpql: 1173, deals: 1, revenue: 7600, roas: 1.62 },
+      { month: "Jun", spend: 5047, leads: 10, cpl: 505, qualified: 4, cpql: 1262, deals: 1, revenue: 7600, roas: 1.51 },
       // Month 7: Mid-summer low point, maintaining presence
-      { month: "Jul", spend: 4518, leads: 10, cpl: 452, qualified: 4, cpql: 1130, deals: 2, revenue: 14900, roas: 3.30 },
+      { month: "Jul", spend: 5053, leads: 10, cpl: 505, qualified: 4, cpql: 1263, deals: 2, revenue: 14900, roas: 2.95 },
       // Month 8: Late summer, pre-fall pickup
       { month: "Aug", spend: 5134, leads: 12, cpl: 428, qualified: 5, cpql: 1027, deals: 2, revenue: 18300, roas: 3.56 },
       // Month 9: Fall uptick — year-end planning conversations starting

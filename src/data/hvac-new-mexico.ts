@@ -104,7 +104,7 @@ export const hvacNewMexico: CaseStudyData = {
     summary: [
       { label: "Total Ad Spend", value: "$113.8K" },
       { label: "Qualified Leads", value: "794" },
-      { label: "Cost Per Qualified Lead", value: "$108", note: "↓47% from $203" },
+      { label: "Cost Per Qualified Lead", value: "$143", note: "↓29% from $203" },
       { label: "Closed Jobs", value: "185" },
     ],
     columnLabels: {

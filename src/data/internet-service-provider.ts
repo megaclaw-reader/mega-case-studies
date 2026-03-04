@@ -129,9 +129,9 @@ export const internetServiceProvider: CaseStudyData = {
   },
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$137.9K" },
-      { label: "Qualified Leads", value: "908" },
-      { label: "Avg Cost Per Qualified Lead", value: "$152", note: "↓47% from $287" },
+      { label: "Total Ad Spend", value: "$136.9K" },
+      { label: "Qualified Leads", value: "824" },
+      { label: "Avg Cost Per Qualified Lead", value: "$166", note: "↓42% from $287" },
       { label: "New Subscribers Activated", value: "437", note: "avg first-year value $1,068" },
     ],
     columnLabels: {
@@ -165,9 +165,9 @@ export const internetServiceProvider: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$1.34M", growth: "+218%" },
+    { label: "Total Revenue", value: "$430.4K", growth: "+218%" },
     { label: "New Subscribers", value: "437", growth: "+218%" },
     { label: "Cost Per Qualified Lead", value: "$145", growth: "↓47%" },
-    { label: "Blended ROAS", value: "3.18x", growth: "" },
+    { label: "Blended ROAS", value: "3.14x", growth: "" },
   ],
 };

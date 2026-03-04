@@ -147,7 +147,7 @@ export const vrEntertainmentTechnology: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Ad Revenue", value: "$524K", growth: "from $0" },
+    { label: "Total Ad Revenue", value: "$524.3K", growth: "from $0" },
     { label: "Organic Traffic", value: "5,567/mo", growth: "+1,247%" },
     { label: "Total Orders", value: "1,910", growth: "from 0 paid" },
     { label: "Blended ROAS", value: "4.65x", growth: "from 0x" },

@@ -94,7 +94,7 @@ export const healthcareRegenerativeMedicine: CaseStudyData = {
   seo: undefined,
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$94.0K" },
+      { label: "Total Ad Spend", value: "$94K" },
       { label: "Total Leads", value: "576", note: "Phone calls + form submissions" },
       { label: "Qualified Leads", value: "323", note: "Booked consultations" },
       { label: "Avg Cost/Qualified Lead", value: "$291", note: "↓32% from $427 baseline" },

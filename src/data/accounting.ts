@@ -139,7 +139,7 @@ export const accounting: CaseStudyData = {
     summary: [
       { label: "Total Ad Spend", value: "$84.0K" },
       { label: "Qualified Leads", value: "133" },
-      { label: "Avg Cost Per Qualified Lead", value: "$631", note: "↓26% from $856" },
+      { label: "Avg Cost Per Qualified Lead", value: "$632", note: "↓26% from $856" },
       { label: "New Clients Acquired", value: "35" },
     ],
     monthly: [

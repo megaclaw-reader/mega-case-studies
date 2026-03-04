@@ -124,9 +124,9 @@ export const safetyTraining: CaseStudyData = {
   },
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$89.7K" },
-      { label: "Qualified Leads", value: "487" },
-      { label: "Avg Cost Per Qualified Lead", value: "$184", note: "↓48% from $287" },
+      { label: "Total Ad Spend", value: "$89.4K" },
+      { label: "Qualified Leads", value: "514" },
+      { label: "Avg Cost Per Qualified Lead", value: "$174", note: "↓39% from $287" },
       { label: "Total Revenue", value: "$412K", note: "avg deal value $2,921" },
     ],
     columnLabels: {
@@ -219,9 +219,9 @@ export const safetyTraining: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$412K", growth: "+487%" },
+    { label: "Total Revenue", value: "$432.1K", growth: "+487%" },
     { label: "Signed Contracts", value: "141", growth: "+312%" },
     { label: "Cost Per Qualified Lead", value: "$149", growth: "↓48%" },
-    { label: "Blended ROAS", value: "4.59x", growth: "" },
+    { label: "Blended ROAS", value: "4.83x", growth: "" },
   ],
 };

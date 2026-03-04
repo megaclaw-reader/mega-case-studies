@@ -108,8 +108,8 @@ export const itServicesNy: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$109.7K" },
-      { label: "Qualified Leads", value: "487" },
-      { label: "Avg Cost Per Qualified Lead", value: "$137", note: "↓36% from $214" },
+      { label: "Qualified Leads", value: "507" },
+      { label: "Avg Cost Per Qualified Lead", value: "$216", note: "↓36% from $214" },
       { label: "Closed Deals", value: "89" },
     ],
     columnLabels: {

@@ -108,7 +108,7 @@ export const jewelryStoreEcommerce: CaseStudyData = {
     summary: [
       { label: "Total Ad Spend", value: "$102.4K" },
       { label: "Qualified Leads (In-Store)", value: "287" },
-      { label: "Avg Cost Per Qualified Lead", value: "$127", note: "↓34% from $192" },
+      { label: "Avg Cost Per Qualified Lead", value: "$357", note: "↓34% from $192" },
       { label: "Online Orders Attributed", value: "412" },
     ],
     columnLabels: {

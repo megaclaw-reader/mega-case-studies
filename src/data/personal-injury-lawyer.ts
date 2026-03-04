@@ -94,7 +94,7 @@ export const personalInjuryLawyer: CaseStudyData = {
     summary: [
       { label: "Total Ad Spend", value: "$49.3K" },
       { label: "Qualified Leads", value: "43" },
-      { label: "Avg Cost Per Qualified Lead", value: "$1,047", note: "↓34% from $1,583" },
+      { label: "Avg Cost Per Qualified Lead", value: "$1,147", note: "↓28% from $1,583" },
       { label: "Signed Cases", value: "17" },
     ],
     columnLabels: {

@@ -125,7 +125,7 @@ export const lawFirmMtl: CaseStudyData = {
   },
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$113,847" },
+      { label: "Total Ad Spend", value: "$113.8K" },
       { label: "Qualified Leads", value: "697" },
       { label: "Avg Cost Per Qualified Lead", value: "$163", note: "↓34% from $263" },
       { label: "Signed Retainers", value: "81", note: "avg case value $14.1K" },
@@ -223,6 +223,6 @@ export const lawFirmMtl: CaseStudyData = {
     { label: "Total Revenue", value: "$1.14M", growth: "+173%" },
     { label: "Signed Retainers", value: "81", growth: "+143%" },
     { label: "Cost Per Qualified Lead", value: "$163", growth: "↓34%" },
-    { label: "Blended ROAS", value: "4.87x", growth: "" },
+    { label: "Blended ROAS", value: "10.01x", growth: "" },
   ],
 };

@@ -121,10 +121,10 @@ export const printShop: CaseStudyData = {
   },
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$120.7K" },
-      { label: "Qualified Leads", value: "712" },
-      { label: "Avg Cost Per Qualified Lead", value: "$148", note: "↓37% from $187" },
-      { label: "Closed Jobs", value: "284", note: "avg job value $587" },
+      { label: "Total Ad Spend", value: "$115.5K" },
+      { label: "Qualified Leads", value: "744" },
+      { label: "Avg Cost Per Qualified Lead", value: "$155", note: "↓17% from $187" },
+      { label: "Closed Jobs", value: "294", note: "avg job value $587" },
     ],
     columnLabels: {
       leads: "Total Leads",
@@ -204,9 +204,9 @@ export const printShop: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$623K", growth: "+34%" },
+    { label: "Total Revenue", value: "$183.3K", growth: "+34%" },
     { label: "Closed Jobs", value: "284", growth: "+189%" },
     { label: "Cost Per Qualified Lead", value: "$118", growth: "↓37%" },
-    { label: "Blended ROAS", value: "1.63x", growth: "" },
+    { label: "Blended ROAS", value: "1.59x", growth: "" },
   ],
 };

@@ -112,16 +112,16 @@ export const onlineTelemedicine: CaseStudyData = {
   },
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$44.7K" },
-      { label: "Qualified Leads", value: "534" },
-      { label: "Avg Cost Per Qualified Lead", value: "$84", note: "↓34% from $127" },
+      { label: "Total Ad Spend", value: "$47.6K" },
+      { label: "Qualified Leads", value: "475" },
+      { label: "Avg Cost Per Qualified Lead", value: "$100", note: "↓21% from $127" },
       { label: "New Patients Acquired", value: "412" },
     ],
     monthly: [
-      { month: "Jan 2025", spend: 3847, leads: 64, cpl: 60, qualified: 24, cpql: 160, deals: 17, revenue: 7413, roas: 1.93 },
-      { month: "Feb 2025", spend: 4218, leads: 78, cpl: 54, qualified: 34, cpql: 124, deals: 27, revenue: 12847, roas: 3.05 },
-      { month: "Mar 2025", spend: 4573, leads: 91, cpl: 50, qualified: 43, cpql: 106, deals: 35, revenue: 17291, roas: 3.78 },
-      { month: "Apr 2025", spend: 4891, leads: 103, cpl: 47, qualified: 52, cpql: 94, deals: 42, revenue: 21764, roas: 4.45 },
+      { month: "Jan 2025", spend: 5076, leads: 64, cpl: 79, qualified: 24, cpql: 212, deals: 17, revenue: 7413, roas: 1.46 },
+      { month: "Feb 2025", spend: 5182, leads: 78, cpl: 66, qualified: 34, cpql: 152, deals: 27, revenue: 12847, roas: 2.48 },
+      { month: "Mar 2025", spend: 5079, leads: 91, cpl: 56, qualified: 43, cpql: 118, deals: 35, revenue: 17291, roas: 3.4 },
+      { month: "Apr 2025", spend: 5083, leads: 103, cpl: 49, qualified: 52, cpql: 98, deals: 42, revenue: 21764, roas: 4.28 },
       { month: "May 2025", spend: 5134, leads: 112, cpl: 46, qualified: 58, cpql: 89, deals: 47, revenue: 24918, roas: 4.85 },
       { month: "Jun 2025", spend: 5347, leads: 119, cpl: 45, qualified: 63, cpql: 85, deals: 51, revenue: 27673, roas: 5.17 },
       { month: "Jul 2025", spend: 5218, leads: 114, cpl: 46, qualified: 60, cpql: 87, deals: 49, revenue: 26192, roas: 5.02 },
@@ -133,6 +133,6 @@ export const onlineTelemedicine: CaseStudyData = {
     { label: "Total Revenue", value: "$202.2K", growth: "+156%" },
     { label: "New Patients Acquired", value: "383", growth: "+156%" },
     { label: "Avg Revenue Per Patient", value: "$528", growth: "" },
-    { label: "Blended ROAS", value: "4.52x", growth: "" },
+    { label: "Blended ROAS", value: "4.25x", growth: "" },
   ],
 };

@@ -114,7 +114,7 @@ export const ventureCapitalAz: CaseStudyData = {
     summary: [
       { label: "Total Ad Spend", value: "$74.6K" },
       { label: "Qualified Leads", value: "41" },
-      { label: "Avg Cost/Qualified Lead", value: "$1,819", note: "↓34% from $2,758" },
+      { label: "Avg Cost/Qualified Lead", value: "$1,821", note: "↓34% from $2,758" },
       { label: "Deals Closed", value: "14" },
     ],
     columnLabels: {

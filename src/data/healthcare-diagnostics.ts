@@ -144,6 +144,6 @@ export const healthcareDiagnostics: CaseStudyData = {
     { label: "Total Qualified Leads", value: "2,084", growth: "+189%" },
     { label: "Cost Per Qualified Lead", value: "$55", growth: "↓61%" },
     { label: "Monthly Organic Traffic", value: "15,247", growth: "+8,052%" },
-    { label: "Blended ROAS", value: "5.19x", growth: "" },
+    { label: "Blended ROAS", value: "5.10x", growth: "" },
   ],
 };

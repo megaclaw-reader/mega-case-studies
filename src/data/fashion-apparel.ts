@@ -155,10 +155,10 @@ export const fashionApparel: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Ad Revenue", value: "$412K", growth: "+37%" },
+    { label: "Total Ad Revenue", value: "$421.9K", growth: "+37%" },
     { label: "Total Orders", value: "5,187", growth: "+34%" },
     { label: "Avg Cost Per Click", value: "$1.24", growth: "↓34%" },
-    { label: "Blended ROAS", value: "4.27x", growth: "+37%" },
+    { label: "Blended ROAS", value: "4.38x", growth: "+37%" },
     { label: "Organic Traffic", value: "4,712/mo", growth: "+1,078%" },
     { label: "Keyword Rankings (Top 10)", value: "203", growth: "+1,915%" },
   ],

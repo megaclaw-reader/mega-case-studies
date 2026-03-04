@@ -127,7 +127,7 @@ export const landscaping: CaseStudyData = {
   },
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$41.3K" },
+      { label: "Total Ad Spend", value: "$44.8K" },
       { label: "Total Leads (Calls + Forms)", value: "455" },
       { label: "Qualified Leads", value: "198" },
       { label: "Avg CPQL", value: "$209", note: "↓37% from $281 to $178 by Month 8" },
@@ -157,13 +157,13 @@ export const landscaping: CaseStudyData = {
       { month: "Jul 2025", spend: 5783, leads: 64, cpl: 90, qualified: 31, cpql: 187, deals: 6, revenue: 13847, roas: 2.39 },
       // Month 6 (Aug 2025): Late summer, ICP refined further
       // 4467/25=179; 4467/52≈86
-      { month: "Aug 2025", spend: 4467, leads: 52, cpl: 86, qualified: 25, cpql: 179, deals: 5, revenue: 11623, roas: 2.60 },
+      { month: "Aug 2025", spend: 5107, leads: 52, cpl: 98, qualified: 25, cpql: 204, deals: 5, revenue: 11623, roas: 2.28 },
       // Month 7 (Sep 2025): Fall slowdown, reduced spend
       // 4127/23=179; 4127/43≈96
-      { month: "Sep 2025", spend: 4127, leads: 43, cpl: 96, qualified: 23, cpql: 179, deals: 4, revenue: 9478, roas: 2.30 },
+      { month: "Sep 2025", spend: 5023, leads: 43, cpl: 117, qualified: 23, cpql: 218, deals: 4, revenue: 9478, roas: 1.89 },
       // Month 8 (Oct 2025): Late fall, lowest spend, best CPQL
       // 3378/19=178; 3378/37≈91
-      { month: "Oct 2025", spend: 3378, leads: 37, cpl: 91, qualified: 19, cpql: 178, deals: 4, revenue: 8934, roas: 2.64 },
+      { month: "Oct 2025", spend: 5294, leads: 37, cpl: 143, qualified: 19, cpql: 279, deals: 4, revenue: 8934, roas: 1.69 },
     ],
   },
   localSeo: {

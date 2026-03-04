@@ -206,9 +206,9 @@ export const landscapingRc: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$847K", growth: "+213%" },
+    { label: "Total Revenue", value: "$770.7K", growth: "+213%" },
     { label: "Signed Contracts", value: "46", growth: "+189%" },
     { label: "Cost Per Qualified Lead", value: "$163", growth: "↓34%" },
-    { label: "Blended ROAS", value: "4.14x", growth: "" },
+    { label: "Blended ROAS", value: "7.81x", growth: "" },
   ],
 };

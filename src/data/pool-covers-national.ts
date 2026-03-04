@@ -120,9 +120,9 @@ export const poolCoversNational: CaseStudyData = {
   },
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$247.8K" },
-      { label: "Qualified Installation Requests", value: "643" },
-      { label: "Avg Cost Per Qualified Lead", value: "$385", note: "↓42% from $667" },
+      { label: "Total Ad Spend", value: "$252.6K" },
+      { label: "Qualified Installation Requests", value: "561" },
+      { label: "Avg Cost Per Qualified Lead", value: "$450", note: "↓32% from $667" },
     ],
     columnLabels: {
       leads: "Total Inquiries",

@@ -118,10 +118,10 @@ export const renovationOutlet: CaseStudyData = {
   },
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$94.7K" },
-      { label: "Qualified Leads", value: "587" },
-      { label: "Avg Cost Per Qualified Lead", value: "$161", note: "↓41% from $274" },
-      { label: "Closed Deals", value: "143" },
+      { label: "Total Ad Spend", value: "$94.8K" },
+      { label: "Qualified Leads", value: "394" },
+      { label: "Avg Cost Per Qualified Lead", value: "$240", note: "↓12% from $274" },
+      { label: "Closed Deals", value: "115" },
     ],
     columnLabels: {
       leads: "Total Leads",
@@ -158,7 +158,7 @@ export const renovationOutlet: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$471K", growth: "+187%" },
+    { label: "Total Revenue", value: "$471.3K", growth: "+187%" },
     { label: "Qualified Leads", value: "587", growth: "+214%" },
     { label: "Cost/Qualified Lead", value: "$161", growth: "↓41%" },
     { label: "Blended ROAS", value: "4.97x", growth: "" },

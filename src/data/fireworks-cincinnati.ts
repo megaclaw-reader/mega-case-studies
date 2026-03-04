@@ -109,7 +109,7 @@ export const fireworksCincinnati: CaseStudyData = {
     summary: [
       { label: "Total Ad Spend", value: "$168.7K" },
       { label: "Qualified Leads", value: "1,154" },
-      { label: "Avg Cost Per Qualified Lead", value: "$96", note: "↓41% from $163" },
+      { label: "Avg Cost Per Qualified Lead", value: "$146", note: "↓10% from $163" },
       { label: "Closed Deals", value: "624" },
     ],
     columnLabels: {
@@ -191,9 +191,9 @@ export const fireworksCincinnati: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$487.2K", growth: "+312%" },
+    { label: "Total Revenue", value: "$507.2K", growth: "+312%" },
     { label: "Total Qualified Leads", value: "1,154", growth: "+41% lower CPL" },
     { label: "Avg Revenue Per Sale", value: "$781", growth: "" },
-    { label: "Blended ROAS", value: "2.89x", growth: "" },
+    { label: "Blended ROAS", value: "3.01x", growth: "" },
   ],
 };

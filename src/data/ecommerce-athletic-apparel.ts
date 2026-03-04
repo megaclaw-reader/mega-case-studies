@@ -82,8 +82,8 @@ export const ecommerceAthleticApparel: CaseStudyData = {
   seo: undefined,
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$208.3K" },
-      { label: "Total Orders", value: "9,147" },
+      { label: "Total Ad Spend", value: "$208.2K" },
+      { label: "Total Orders", value: "9,647" },
       { label: "Avg Cost Per Acquisition", value: "$22.77", note: "↓34% from $34.52" },
       { label: "Blended ROAS", value: "3.06x", note: "from 2.14x baseline" },
     ],
@@ -112,7 +112,7 @@ export const ecommerceAthleticApparel: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Ad Revenue", value: "$673K", growth: "+43%" },
+    { label: "Total Ad Revenue", value: "$672.9K", growth: "+43%" },
     { label: "Total Orders", value: "9,147", growth: "+38%" },
     { label: "Cost Per Acquisition", value: "$22.77", growth: "↓34%" },
     { label: "Blended ROAS", value: "3.23x", growth: "+43%" },

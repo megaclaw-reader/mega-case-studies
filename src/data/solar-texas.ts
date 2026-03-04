@@ -96,7 +96,7 @@ export const solarTexas: CaseStudyData = {
     summary: [
       { label: "Total Ad Spend", value: "$91.2K" },
       { label: "Consultations Booked", value: "241" },
-      { label: "Avg Cost Per Qualified Lead", value: "$378", note: "↓43% from $509" },
+      { label: "Avg Cost Per Qualified Lead", value: "$379", note: "↓26% from $509" },
       { label: "Installs Closed", value: "31" },
     ],
     columnLabels: {
@@ -118,7 +118,7 @@ export const solarTexas: CaseStudyData = {
   },
   impact: [
     { label: "Total Revenue", value: "$554.2K", growth: "+389%" },
-    { label: "Blended ROAS", value: "6.07x", growth: "" },
+    { label: "Blended ROAS", value: "6.08x", growth: "" },
     { label: "Avg Install Value", value: "$17,877", growth: "" },
     { label: "CPQL Reduction", value: "43%", growth: "$509 → $291" },
   ],

@@ -122,8 +122,8 @@ export const educationChicago: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$131.7K" },
-      { label: "Qualified Leads", value: "1,074" },
-      { label: "Avg Cost Per Qualified Lead", value: "$123", note: "↓34% from $187" },
+      { label: "Qualified Leads", value: "874" },
+      { label: "Avg Cost Per Qualified Lead", value: "$151", note: "↓19% from $187" },
       { label: "New Enrollments", value: "1,847" },
     ],
     columnLabels: {

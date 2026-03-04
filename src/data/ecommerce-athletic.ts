@@ -112,7 +112,7 @@ export const ecommerceAthletic: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Ad Revenue", value: "$674K", growth: "+187%" },
+    { label: "Total Ad Revenue", value: "$674.0K", growth: "+187%" },
     { label: "Total Orders", value: "7,043", growth: "+154%" },
     { label: "Cost Per Acquisition", value: "$29.57", growth: "↓47%" },
     { label: "Blended ROAS", value: "3.24x", growth: "+112%" },

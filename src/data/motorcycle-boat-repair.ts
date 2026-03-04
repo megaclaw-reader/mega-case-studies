@@ -117,8 +117,8 @@ export const motorcycleBoatRepair: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$47.3K" },
-      { label: "Qualified Leads", value: "438" },
-      { label: "Avg Cost Per Qualified Lead", value: "$84", note: "↓41% from $143" },
+      { label: "Qualified Leads", value: "403" },
+      { label: "Avg Cost Per Qualified Lead", value: "$117", note: "↓18% from $143" },
       { label: "Booked Appointments", value: "312" },
     ],
     columnLabels: {
@@ -140,9 +140,9 @@ export const motorcycleBoatRepair: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$214.3K", growth: "+163%" },
+    { label: "Total Revenue", value: "$197.7K", growth: "+163%" },
     { label: "Total Pipeline", value: "$301K", growth: "+148%" },
     { label: "Avg Repair Ticket", value: "$689", growth: "" },
-    { label: "Blended ROAS", value: "4.53x", growth: "" },
+    { label: "Blended ROAS", value: "4.18x", growth: "" },
   ],
 };

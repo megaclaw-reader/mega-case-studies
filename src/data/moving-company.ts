@@ -122,9 +122,9 @@ export const movingCompany: CaseStudyData = {
   },
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$192.4K" },
+      { label: "Total Ad Spend", value: "$195.4K" },
       { label: "Qualified Leads", value: "783" },
-      { label: "Avg Cost Per Qualified Lead", value: "$193", note: "↓34% from $247" },
+      { label: "Avg Cost Per Qualified Lead", value: "$250", note: "↓34% from $247" },
       { label: "Booked Moves", value: "289", note: "avg job value $2,147" },
     ],
     columnLabels: {
@@ -201,9 +201,9 @@ export const movingCompany: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$1.27M", growth: "+187%" },
+    { label: "Total Revenue", value: "$636.9K", growth: "+187%" },
     { label: "Booked Moves", value: "289", growth: "+164%" },
     { label: "Cost Per Qualified Lead", value: "$163", growth: "↓34%" },
-    { label: "Blended ROAS", value: "3.31x", growth: "" },
+    { label: "Blended ROAS", value: "3.26x", growth: "" },
   ],
 };

@@ -96,7 +96,7 @@ export const realEstateServices: CaseStudyData = {
       { label: "Total Ad Spend", value: "$119.7K" },
       { label: "Total Leads", value: "847" },
       { label: "Qualified Leads", value: "389" },
-      { label: "Avg Cost Per Qualified Lead", value: "$179", note: "↓37% from $284" },
+      { label: "Avg Cost Per Qualified Lead", value: "$308", note: "↓37% from $284" },
     ],
     columnLabels: {
       leads: "Total Leads",

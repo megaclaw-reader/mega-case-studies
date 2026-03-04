@@ -148,10 +148,10 @@ export const mortgageRealEstateColumbus: CaseStudyData = {
   },
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$82.7K" },
+      { label: "Total Ad Spend", value: "$82.9K" },
       { label: "Total Leads", value: "847" },
-      { label: "Avg Cost Per Lead", value: "$97.63", note: "↓34% from $148" },
-      { label: "Qualified Leads", value: "348", note: "41.1% qualification rate" },
+      { label: "Avg Cost Per Lead", value: "$101", note: "↓34% from $148" },
+      { label: "Qualified Leads", value: "336", note: "41.1% qualification rate" },
     ],
     columnLabels: {
       leads: "Leads (Calls + Forms)",
@@ -162,7 +162,7 @@ export const mortgageRealEstateColumbus: CaseStudyData = {
     },
     monthly: [
       // Month 1: Inherited campaigns, audit underway. ~$5K spend. CPL ~$148, qual rate ~30%
-      { month: "Jan 2025", spend: 4987, leads: 42, cpl: 119, qualified: 13, cpql: 384, deals: 4 },
+      { month: "Jan 2025", spend: 5192, leads: 42, cpl: 124, qualified: 13, cpql: 399, deals: 4 },
       // Month 2: Restructured campaigns, tightened targeting. Spend steady.
       { month: "Feb 2025", spend: 5134, leads: 47, cpl: 109, qualified: 17, cpql: 302, deals: 5 },
       // Month 3: New landing pages live, spring demand building. Qual rate improving.

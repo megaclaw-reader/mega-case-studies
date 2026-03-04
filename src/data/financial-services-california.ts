@@ -181,10 +181,10 @@ export const financialServicesCalifornia: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "New Client Revenue Generated", value: "$1.35M", growth: "" },
+    { label: "New Client Revenue Generated", value: "$1.12M", growth: "" },
     { label: "Total New Clients (Paid + Organic)", value: "47", growth: "+313%" },
     { label: "Blended Cost Per Client", value: "$6,198", growth: "↓38%" },
-    { label: "Overall ROAS", value: "4.64x", growth: "" },
+    { label: "Overall ROAS", value: "3.86x", growth: "" },
     { label: "Organic Traffic Growth", value: "14,871/mo", growth: "+2,118%" },
     { label: "Ranked Keywords", value: "8,213", growth: "+7,428%" },
   ],

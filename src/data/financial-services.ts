@@ -111,7 +111,7 @@ export const financialServices: CaseStudyData = {
     summary: [
       { label: "Total Ad Spend", value: "$289.7K" },
       { label: "Qualified Leads", value: "174" },
-      { label: "Avg Cost/Qualified Lead", value: "$1,664", note: "↓41% from $2,827" },
+      { label: "Avg Cost/Qualified Lead", value: "$1,665", note: "↓41% from $2,827" },
       { label: "New Clients Acquired", value: "34" },
     ],
     columnLabels: {
@@ -184,7 +184,7 @@ export const financialServices: CaseStudyData = {
     { label: "New Client Revenue Generated", value: "$1.27M", growth: "" },
     { label: "Total New Clients (Paid + Organic)", value: "42", growth: "+275%" },
     { label: "Blended Cost Per Client", value: "$6,898", growth: "↓41%" },
-    { label: "Overall ROAS", value: "4.39x", growth: "" },
+    { label: "Overall ROAS", value: "4.40x", growth: "" },
     { label: "Organic Traffic Growth", value: "11,236/mo", growth: "+1,647%" },
     { label: "Ranked Keywords", value: "4,847", growth: "+4,439%" },
   ],

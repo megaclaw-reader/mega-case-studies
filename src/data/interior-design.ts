@@ -121,9 +121,9 @@ export const interiorDesign: CaseStudyData = {
   },
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$83.7K" },
-      { label: "Qualified Consultations", value: "387" },
-      { label: "Avg Cost Per Qualified Lead", value: "$216", note: "↓34% from $347" },
+      { label: "Total Ad Spend", value: "$85.7K" },
+      { label: "Qualified Consultations", value: "317" },
+      { label: "Avg Cost Per Qualified Lead", value: "$270", note: "↓22% from $347" },
       { label: "Projects Acquired", value: "142" },
     ],
     columnLabels: {
@@ -206,9 +206,9 @@ export const interiorDesign: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Project Revenue", value: "$487.3K", growth: "+73%" },
+    { label: "Total Project Revenue", value: "$601.3K", growth: "+73%" },
     { label: "Projects Acquired", value: "142", growth: "+68%" },
     { label: "Avg Project Value", value: "$34.3K", growth: "" },
-    { label: "Blended ROAS", value: "5.82x", growth: "" },
+    { label: "Blended ROAS", value: "7.01x", growth: "" },
   ],
 };

@@ -137,14 +137,14 @@ export const accountingNy: CaseStudyData = {
   },
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$59.5K" },
+      { label: "Total Ad Spend", value: "$63.1K" },
       { label: "Qualified Leads", value: "83" },
-      { label: "Avg Cost Per Qualified Lead", value: "$717", note: "↓26% from $975" },
+      { label: "Avg Cost Per Qualified Lead", value: "$760", note: "↓22% from $975" },
       { label: "New Clients Acquired", value: "22" },
     ],
     monthly: [
       // Month 1 (Jan): Inherited account — tax season starting, baseline performance before optimization
-      { month: "Jul 2025", spend: 4873, leads: 14, cpl: 348, qualified: 5, cpql: 975, deals: 1, revenue: 8734, roas: 1.79 },
+      { month: "Jul 2025", spend: 5215, leads: 14, cpl: 372, qualified: 5, cpql: 1043, deals: 1, revenue: 8734, roas: 1.67 },
       // Month 2 (Feb): Campaign restructure live, tax season ramping, new landing pages for tax services
       { month: "Aug 2025", spend: 5147, leads: 19, cpl: 271, qualified: 7, cpql: 735, deals: 2, revenue: 18247, roas: 3.55 },
       // Month 3 (Mar): Tax season peak — highest intent traffic, NYC tax complexity messaging resonating
@@ -152,27 +152,27 @@ export const accountingNy: CaseStudyData = {
       // Month 4 (Apr): Tax deadline urgency — peak lead volume and deal velocity
       { month: "Oct 2025", spend: 5391, leads: 24, cpl: 225, qualified: 10, cpql: 539, deals: 3, revenue: 25847, roas: 4.79 },
       // Month 5 (May): Post-tax season drop — sharp decline in search intent, budget pulled back
-      { month: "Nov 2025", spend: 4762, leads: 13, cpl: 366, qualified: 5, cpql: 952, deals: 1, revenue: 7893, roas: 1.66 },
+      { month: "Nov 2025", spend: 5325, leads: 13, cpl: 410, qualified: 5, cpql: 1065, deals: 1, revenue: 7893, roas: 1.48 },
       // Month 6 (Jun): Summer lull — shifted messaging toward bookkeeping and payroll services
-      { month: "Dec 2025", spend: 4618, leads: 12, cpl: 385, qualified: 5, cpql: 924, deals: 1, revenue: 6247, roas: 1.35 },
+      { month: "Dec 2025", spend: 5293, leads: 12, cpl: 441, qualified: 5, cpql: 1059, deals: 1, revenue: 6247, roas: 1.18 },
       // Month 7 (Jul): Deepest summer lull — maintained presence at reduced spend, focused on remarketing
-      { month: "Jan 2025", spend: 4547, leads: 11, cpl: 413, qualified: 5, cpql: 909, deals: 1, revenue: 5834, roas: 1.28 },
+      { month: "Jan 2025", spend: 5322, leads: 11, cpl: 484, qualified: 5, cpql: 1064, deals: 1, revenue: 5834, roas: 1.1 },
       // Month 8 (Aug): Slight recovery — Q3 estimated tax planning driving some intent
-      { month: "Feb 2025", spend: 4689, leads: 14, cpl: 335, qualified: 6, cpql: 782, deals: 1, revenue: 8473, roas: 1.81 },
+      { month: "Feb 2025", spend: 5166, leads: 14, cpl: 369, qualified: 6, cpql: 861, deals: 1, revenue: 8473, roas: 1.64 },
       // Month 9 (Sep): Fall pickup — year-end planning campaigns launched, business advisory messaging
-      { month: "Mar 2025", spend: 4934, leads: 18, cpl: 274, qualified: 7, cpql: 705, deals: 2, revenue: 17834, roas: 3.61 },
+      { month: "Mar 2025", spend: 5330, leads: 18, cpl: 296, qualified: 7, cpql: 761, deals: 2, revenue: 17834, roas: 3.35 },
       // Month 10 (Oct): Year-end planning surge — strong deal flow from businesses needing tax strategy
       { month: "Apr 2025", spend: 5127, leads: 20, cpl: 256, qualified: 8, cpql: 641, deals: 2, revenue: 18947, roas: 3.70 },
       // Month 11 (Nov): Year-end rush — highest non-tax-season performance, lookalike audiences converting
       { month: "May 2025", spend: 5243, leads: 23, cpl: 228, qualified: 9, cpql: 583, deals: 3, revenue: 25134, roas: 4.79 },
       // Month 12 (Dec): Holiday slowdown — maintained efficiency but lower volume as businesses close out year
-      { month: "Jun 2025", spend: 4891, leads: 16, cpl: 306, qualified: 7, cpql: 699, deals: 2, revenue: 16847, roas: 3.44 },
+      { month: "Jun 2025", spend: 5263, leads: 16, cpl: 329, qualified: 7, cpql: 752, deals: 2, revenue: 16847, roas: 3.2 },
     ],
   },
   impact: [
     { label: "Total Revenue", value: "$185.9K", growth: "+77%" },
     { label: "Total Pipeline", value: "$743K", growth: "+112%" },
     { label: "Avg Revenue Per Client", value: "$8,451", growth: "" },
-    { label: "Blended ROAS", value: "3.12x", growth: "" },
+    { label: "Blended ROAS", value: "2.95x", growth: "" },
   ],
 };

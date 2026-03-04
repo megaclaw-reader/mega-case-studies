@@ -119,9 +119,9 @@ export const constructionMembraneMaterials: CaseStudyData = {
   },
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$163.4K" },
+      { label: "Total Ad Spend", value: "$163.3K" },
       { label: "Qualified Leads", value: "208" },
-      { label: "Avg Cost Per Qualified Lead", value: "$569", note: "↓36% from $893" },
+      { label: "Avg Cost Per Qualified Lead", value: "$785", note: "↓12% from $893" },
       { label: "Purchase Orders", value: "44" },
     ],
     columnLabels: {

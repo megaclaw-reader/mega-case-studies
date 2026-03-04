@@ -122,7 +122,7 @@ export const drywallRepair: CaseStudyData = {
     summary: [
       { label: "Total Ad Spend", value: "$118.9K" },
       { label: "Total Leads", value: "2,468" },
-      { label: "Avg Cost Per Lead", value: "$48.18" },
+      { label: "Avg Cost Per Lead", value: "$48" },
       { label: "Booked Jobs (from Ads)", value: "1,222" },
     ],
     columnLabels: {
@@ -204,7 +204,7 @@ export const drywallRepair: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$763K", growth: "+124% annualized run rate" },
+    { label: "Total Revenue", value: "$557.9K", growth: "+124% annualized run rate" },
     { label: "Peak Booked Jobs", value: "201/mo", growth: "+328% from 47" },
     { label: "Cost Per Lead", value: "$36.70", growth: "↓58% from $87" },
     { label: "Team Growth", value: "6 → 9 employees", growth: "3 techs hired to meet demand" },

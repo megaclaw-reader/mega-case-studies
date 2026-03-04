@@ -123,9 +123,9 @@ export const cleaningService: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$68.8K" },
-      { label: "Qualified Leads", value: "423" },
-      { label: "Avg Cost Per Qualified Lead", value: "$143", note: "↓38% from $195" },
-      { label: "Closed Clients", value: "131", note: "avg new client value $1,124" },
+      { label: "Qualified Leads", value: "493" },
+      { label: "Avg Cost Per Qualified Lead", value: "$140", note: "↓28% from $195" },
+      { label: "Closed Clients", value: "151", note: "avg new client value $1,124" },
     ],
     columnLabels: {
       leads: "Total Leads",
@@ -209,9 +209,9 @@ export const cleaningService: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$487K", growth: "+203%" },
+    { label: "Total Revenue", value: "$180.5K", growth: "+203%" },
     { label: "Closed Clients", value: "131", growth: "+178%" },
     { label: "Cost Per Qualified Lead", value: "$121", growth: "↓38%" },
-    { label: "Blended ROAS", value: "2.63x", growth: "" },
+    { label: "Blended ROAS", value: "2.62x", growth: "" },
   ],
 };

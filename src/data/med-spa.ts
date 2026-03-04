@@ -116,9 +116,9 @@ export const medSpa: CaseStudyData = {
   },
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$43.7K" },
+      { label: "Total Ad Spend", value: "$42.7K" },
       { label: "Qualified Leads", value: "319" },
-      { label: "Avg Cost Per Qualified Lead", value: "$137", note: "↓ steadily as budget scaled" },
+      { label: "Avg Cost Per Qualified Lead", value: "$134", note: "↓ steadily as budget scaled" },
       { label: "Total Revenue Attributed", value: "$487K" },
     ],
     columnLabels: {
@@ -129,12 +129,12 @@ export const medSpa: CaseStudyData = {
       deals: "Booked Appointments",
     },
     monthly: [
-      { month: "Jan 2025", spend: 6513, leads: 58, cpl: 112, qualified: 34, cpql: 192, deals: 14, revenue: 54187, roas: 3.28 },
-      { month: "Feb 2025", spend: 6487, leads: 64, cpl: 101, qualified: 39, cpql: 166, deals: 17, revenue: 67413, roas: 4.13 },
-      { month: "Mar 2025", spend: 6718, leads: 71, cpl: 95, qualified: 44, cpql: 153, deals: 19, revenue: 74891, roas: 4.43 },
-      { month: "Apr 2025", spend: 7214, leads: 82, cpl: 88, qualified: 53, cpql: 136, deals: 24, revenue: 89647, roas: 4.94 },
-      { month: "May 2025", spend: 7687, leads: 91, cpl: 84, qualified: 62, cpql: 124, deals: 28, revenue: 101218, roas: 5.24 },
-      { month: "Jun 2025", spend: 8043, leads: 103, cpl: 78, qualified: 87, cpql: 92, deals: 34, revenue: 99847, roas: 6.21 },
+      { month: "Jan 2025", spend: 6513, leads: 58, cpl: 112, qualified: 34, cpql: 192, deals: 14, revenue: 54187, roas: 8.32 },
+      { month: "Feb 2025", spend: 6487, leads: 64, cpl: 101, qualified: 39, cpql: 166, deals: 17, revenue: 67413, roas: 10.39 },
+      { month: "Mar 2025", spend: 6718, leads: 71, cpl: 95, qualified: 44, cpql: 153, deals: 19, revenue: 74891, roas: 11.15 },
+      { month: "Apr 2025", spend: 7214, leads: 82, cpl: 88, qualified: 53, cpql: 136, deals: 24, revenue: 89647, roas: 12.43 },
+      { month: "May 2025", spend: 7687, leads: 91, cpl: 84, qualified: 62, cpql: 124, deals: 28, revenue: 101218, roas: 13.17 },
+      { month: "Jun 2025", spend: 8043, leads: 103, cpl: 78, qualified: 87, cpql: 92, deals: 34, revenue: 99847, roas: 12.41 },
     ],
   },
   localSeo: {

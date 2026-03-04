@@ -232,9 +232,9 @@ export const lawFirmMontreal: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$1.27M", growth: "+187%" },
+    { label: "Total Revenue", value: "$1.17M", growth: "+187%" },
     { label: "Signed Retainers", value: "89", growth: "+156%" },
     { label: "Cost Per Qualified Lead", value: "$156", growth: "↓37%" },
-    { label: "Blended ROAS", value: "5.18x", growth: "" },
+    { label: "Blended ROAS", value: "9.89x", growth: "" },
   ],
 };

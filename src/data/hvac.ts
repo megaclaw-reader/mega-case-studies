@@ -103,9 +103,9 @@ export const hvac: CaseStudyData = {
   },
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$41.8K" },
+      { label: "Total Ad Spend", value: "$45.8K" },
       { label: "Qualified Leads", value: "341" },
-      { label: "Avg Cost Per Qualified Lead", value: "$110", note: "↓38% from $178" },
+      { label: "Avg Cost Per Qualified Lead", value: "$134", note: "↓25% from $178" },
       { label: "Closed Jobs", value: "131" },
     ],
     columnLabels: {
@@ -116,14 +116,14 @@ export const hvac: CaseStudyData = {
       deals: "Booked Jobs",
     },
     monthly: [
-      { month: "Apr 2025", spend: 4200, leads: 42, cpl: 100, qualified: 24, cpql: 175, deals: 9, revenue: 11400, roas: 2.71 },
-      { month: "May 2025", spend: 4900, leads: 58, cpl: 84, qualified: 36, cpql: 136, deals: 14, revenue: 21200, roas: 4.33 },
+      { month: "Apr 2025", spend: 5166, leads: 42, cpl: 123, qualified: 24, cpql: 215, deals: 9, revenue: 11400, roas: 2.21 },
+      { month: "May 2025", spend: 5109, leads: 58, cpl: 88, qualified: 36, cpql: 142, deals: 14, revenue: 21200, roas: 4.15 },
       { month: "Jun 2025", spend: 6600, leads: 87, cpl: 76, qualified: 57, cpql: 116, deals: 22, revenue: 39800, roas: 6.03 },
       { month: "Jul 2025", spend: 7200, leads: 96, cpl: 75, qualified: 64, cpql: 113, deals: 25, revenue: 46200, roas: 6.42 },
       { month: "Aug 2025", spend: 5800, leads: 74, cpl: 78, qualified: 44, cpql: 132, deals: 16, revenue: 51800, roas: 8.93 },
       { month: "Sep 2025", spend: 5400, leads: 67, cpl: 81, qualified: 41, cpql: 132, deals: 16, revenue: 42600, roas: 7.89 },
-      { month: "Oct 2025", spend: 4200, leads: 52, cpl: 81, qualified: 42, cpql: 100, deals: 17, revenue: 54200, roas: 12.90 },
-      { month: "Nov 2025", spend: 3500, leads: 46, cpl: 76, qualified: 33, cpql: 106, deals: 12, revenue: 45000, roas: 12.86 },
+      { month: "Oct 2025", spend: 5164, leads: 52, cpl: 99, qualified: 42, cpql: 123, deals: 17, revenue: 54200, roas: 10.5 },
+      { month: "Nov 2025", spend: 5323, leads: 46, cpl: 116, qualified: 33, cpql: 161, deals: 12, revenue: 45000, roas: 8.45 },
     ],
   },
   organicConversions: {
@@ -178,6 +178,6 @@ export const hvac: CaseStudyData = {
     { label: "Total Revenue", value: "$312.2K", growth: "+198%" },
     { label: "Total Qualified Leads", value: "341", growth: "+38% lower CPL" },
     { label: "Avg Revenue Per Job", value: "$2,383", growth: "" },
-    { label: "Blended ROAS", value: "7.47x", growth: "" },
+    { label: "Blended ROAS", value: "6.82x", growth: "" },
   ],
 };

@@ -116,7 +116,7 @@ export const ecommerceFishing: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Ad Revenue", value: "$798K", growth: "+43%" },
+    { label: "Total Ad Revenue", value: "$797.6K", growth: "+43%" },
     { label: "Total Orders", value: "3,255", growth: "+38%" },
     { label: "Cost Per Acquisition", value: "$59.84", growth: "↓31%" },
     { label: "Blended ROAS", value: "4.10x", growth: "+43%" },

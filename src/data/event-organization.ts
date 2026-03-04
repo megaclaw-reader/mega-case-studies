@@ -137,42 +137,42 @@ export const eventOrganization: CaseStudyData = {
   },
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$36.1K" },
+      { label: "Total Ad Spend", value: "$62.0K" },
       { label: "Qualified Leads", value: "81" },
-      { label: "Avg Cost Per Qualified Lead", value: "$446", note: "↓27% from $608" },
+      { label: "Avg Cost Per Qualified Lead", value: "$766", note: "↓27% from $608" },
       { label: "Closed Bookings", value: "34" },
     ],
     monthly: [
       // Month 1: Inherited campaigns — baseline, winter slow season (Jan), auditing
-      { month: "Jan 2025", spend: 2847, leads: 11, cpl: 259, qualified: 4, cpql: 712, deals: 1, revenue: 4318, roas: 1.52 },
+      { month: "Jan 2025", spend: 5080, leads: 11, cpl: 462, qualified: 4, cpql: 1270, deals: 1, revenue: 4318, roas: 0.85 },
       // Month 2: Restructured campaigns, still winter — low demand (Feb)
-      { month: "Feb 2025", spend: 2793, leads: 12, cpl: 233, qualified: 5, cpql: 559, deals: 2, revenue: 8741, roas: 3.13 },
+      { month: "Feb 2025", spend: 5244, leads: 12, cpl: 437, qualified: 5, cpql: 1049, deals: 2, revenue: 8741, roas: 1.67 },
       // Month 3: Spring planning starting, creative tests landing (Mar)
-      { month: "Mar 2025", spend: 2918, leads: 14, cpl: 208, qualified: 6, cpql: 487, deals: 2, revenue: 9623, roas: 3.30 },
+      { month: "Mar 2025", spend: 5271, leads: 14, cpl: 376, qualified: 6, cpql: 878, deals: 2, revenue: 9623, roas: 1.83 },
       // Month 4: Wedding + corporate season ramping, seasonal urgency messaging (Apr)
-      { month: "Apr 2025", spend: 3061, leads: 17, cpl: 180, qualified: 7, cpql: 437, deals: 3, revenue: 14287, roas: 4.67 },
+      { month: "Apr 2025", spend: 5060, leads: 17, cpl: 298, qualified: 7, cpql: 723, deals: 3, revenue: 14287, roas: 2.82 },
       // Month 5: Peak season — high-intent wedding and event queries (May)
-      { month: "May 2025", spend: 3214, leads: 19, cpl: 169, qualified: 8, cpql: 402, deals: 4, revenue: 15847, roas: 4.93 },
+      { month: "May 2025", spend: 5339, leads: 19, cpl: 281, qualified: 8, cpql: 667, deals: 4, revenue: 15847, roas: 2.97 },
       // Month 6: Peak continues, corporate conferences driving volume (Jun)
-      { month: "Jun 2025", spend: 3187, leads: 21, cpl: 152, qualified: 9, cpql: 354, deals: 4, revenue: 14923, roas: 4.68 },
+      { month: "Jun 2025", spend: 5122, leads: 21, cpl: 244, qualified: 9, cpql: 569, deals: 4, revenue: 14923, roas: 2.91 },
       // Month 7: Summer strong but slight pullback in new wedding inquiries (Jul)
-      { month: "Jul 2025", spend: 3142, leads: 18, cpl: 175, qualified: 7, cpql: 449, deals: 3, revenue: 14192, roas: 4.52 },
+      { month: "Jul 2025", spend: 5124, leads: 18, cpl: 285, qualified: 7, cpql: 732, deals: 3, revenue: 14192, roas: 2.77 },
       // Month 8: Late summer, some seasonal softening (Aug)
-      { month: "Aug 2025", spend: 2963, leads: 16, cpl: 185, qualified: 6, cpql: 494, deals: 2, revenue: 10847, roas: 3.66 },
+      { month: "Aug 2025", spend: 5169, leads: 16, cpl: 323, qualified: 6, cpql: 862, deals: 2, revenue: 10847, roas: 2.1 },
       // Month 9: Fall corporate season picks up — conferences, retreats (Sep)
-      { month: "Sep 2025", spend: 3047, leads: 18, cpl: 169, qualified: 7, cpql: 435, deals: 3, revenue: 15213, roas: 4.99 },
+      { month: "Sep 2025", spend: 5161, leads: 18, cpl: 287, qualified: 7, cpql: 737, deals: 3, revenue: 15213, roas: 2.95 },
       // Month 10: Strong fall — fundraiser galas, corporate year-end planning (Oct)
-      { month: "Oct 2025", spend: 3118, leads: 19, cpl: 164, qualified: 8, cpql: 390, deals: 4, revenue: 14687, roas: 4.71 },
+      { month: "Oct 2025", spend: 5290, leads: 19, cpl: 278, qualified: 8, cpql: 661, deals: 4, revenue: 14687, roas: 2.78 },
       // Month 11: Holiday party push — Nov events + Dec planning (Nov)
-      { month: "Nov 2025", spend: 2981, leads: 20, cpl: 149, qualified: 8, cpql: 373, deals: 3, revenue: 13918, roas: 4.67 },
+      { month: "Nov 2025", spend: 5057, leads: 20, cpl: 253, qualified: 8, cpql: 632, deals: 3, revenue: 13918, roas: 2.75 },
       // Month 12: Winter slowdown begins but holiday events still closing (Dec)
-      { month: "Dec 2025", spend: 2847, leads: 16, cpl: 178, qualified: 6, cpql: 475, deals: 3, revenue: 12891, roas: 4.53 },
+      { month: "Dec 2025", spend: 5114, leads: 16, cpl: 320, qualified: 6, cpql: 852, deals: 3, revenue: 12891, roas: 2.52 },
     ],
   },
   impact: [
     { label: "Total Revenue", value: "$149.5K", growth: "+89%" },
     { label: "Total Pipeline", value: "$261K", growth: "+74%" },
     { label: "Avg Revenue Per Booking", value: "$4,397", growth: "" },
-    { label: "Blended ROAS", value: "4.14x", growth: "" },
+    { label: "Blended ROAS", value: "2.41x", growth: "" },
   ],
 };

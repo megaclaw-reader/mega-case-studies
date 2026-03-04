@@ -120,10 +120,10 @@ export const generalContracting: CaseStudyData = {
   },
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$118.7K" },
-      { label: "Qualified Leads", value: "368" },
-      { label: "Avg Cost Per Qualified Lead", value: "$323", note: "↓34% from $487" },
-      { label: "Closed Projects", value: "74" },
+      { label: "Total Ad Spend", value: "$118.8K" },
+      { label: "Qualified Leads", value: "285" },
+      { label: "Avg Cost Per Qualified Lead", value: "$417", note: "↓14% from $487" },
+      { label: "Closed Projects", value: "64" },
     ],
     columnLabels: {
       leads: "Total Leads",
@@ -163,6 +163,6 @@ export const generalContracting: CaseStudyData = {
     { label: "Total Revenue", value: "$487.3K", growth: "+108%" },
     { label: "Total Pipeline", value: "$843K", growth: "+91%" },
     { label: "Avg Project Value", value: "$6,585", growth: "" },
-    { label: "Blended ROAS", value: "4.11x", growth: "" },
+    { label: "Blended ROAS", value: "4.10x", growth: "" },
   ],
 };

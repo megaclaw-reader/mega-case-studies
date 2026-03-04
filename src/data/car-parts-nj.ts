@@ -100,7 +100,7 @@ export const carPartsNj: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$47.6K" },
-      { label: "Total Orders", value: "2,847" },
+      { label: "Total Orders", value: "2,247" },
       { label: "Avg Cost Per Visit", value: "$1.89", note: "↓38% from $3.04" },
       { label: "Blended ROAS", value: "4.73x", note: "from 3.21x baseline" },
     ],
@@ -131,10 +131,10 @@ export const carPartsNj: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Ad Revenue", value: "$312K", growth: "+37%" },
+    { label: "Total Ad Revenue", value: "$240.6K", growth: "+37%" },
     { label: "Total Orders", value: "2,847", growth: "+34%" },
     { label: "Cost Per Visit", value: "$1.89", growth: "↓38%" },
-    { label: "Blended ROAS", value: "4.73x", growth: "+47%" },
+    { label: "Blended ROAS", value: "5.05x", growth: "+47%" },
     { label: "Organic Traffic", value: "+137%", growth: "2,134→5,058/mo" },
     { label: "Keywords Top 20", value: "347", growth: "from 41" },
   ],

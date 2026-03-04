@@ -120,9 +120,9 @@ export const commercialRealEstate: CaseStudyData = {
   },
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$118.7K" },
-      { label: "Qualified Leads", value: "213" },
-      { label: "Avg Cost Per Qualified Lead", value: "$557", note: "↓34% from $847" },
+      { label: "Total Ad Spend", value: "$119.2K" },
+      { label: "Qualified Leads", value: "130" },
+      { label: "Avg Cost Per Qualified Lead", value: "$917", note: "↓34% from $847" },
       { label: "Closed Deals", value: "19" },
     ],
     columnLabels: {
@@ -163,6 +163,6 @@ export const commercialRealEstate: CaseStudyData = {
     { label: "Total Commission Revenue", value: "$418.4K", growth: "+143%" },
     { label: "Total Pipeline", value: "$687K", growth: "+112%" },
     { label: "Avg Commission Per Deal", value: "$22,021", growth: "" },
-    { label: "Blended ROAS", value: "3.52x", growth: "" },
+    { label: "Blended ROAS", value: "3.51x", growth: "" },
   ],
 };

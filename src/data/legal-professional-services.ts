@@ -112,9 +112,9 @@ export const legalProfessionalServices: CaseStudyData = {
   },
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$59.3K" },
-      { label: "Qualified Leads", value: "82" },
-      { label: "Avg Cost Per Qualified Lead", value: "$723", note: "↓37% from $1,147" },
+      { label: "Total Ad Spend", value: "$63.1K" },
+      { label: "Qualified Leads", value: "72" },
+      { label: "Avg Cost Per Qualified Lead", value: "$876", note: "↓24% from $1,147" },
       { label: "Retained Clients", value: "31" },
     ],
     columnLabels: {
@@ -128,15 +128,15 @@ export const legalProfessionalServices: CaseStudyData = {
       { month: "Jan 2025", spend: 5400, leads: 8, cpl: 675, qualified: 4, cpql: 1350, deals: 1, revenue: 6200, roas: 1.15 },
       { month: "Feb 2025", spend: 5800, leads: 9, cpl: 644, qualified: 5, cpql: 1160, deals: 2, revenue: 11400, roas: 1.97 },
       { month: "Mar 2025", spend: 5600, leads: 10, cpl: 560, qualified: 5, cpql: 1120, deals: 2, revenue: 13700, roas: 2.45 },
-      { month: "Apr 2025", spend: 4800, leads: 9, cpl: 533, qualified: 5, cpql: 960, deals: 2, revenue: 10800, roas: 2.25 },
-      { month: "May 2025", spend: 4600, leads: 10, cpl: 460, qualified: 6, cpql: 767, deals: 2, revenue: 12300, roas: 2.67 },
-      { month: "Jun 2025", spend: 4400, leads: 10, cpl: 440, qualified: 6, cpql: 733, deals: 2, revenue: 14100, roas: 3.20 },
+      { month: "Apr 2025", spend: 5082, leads: 9, cpl: 565, qualified: 5, cpql: 1016, deals: 2, revenue: 10800, roas: 2.13 },
+      { month: "May 2025", spend: 5136, leads: 10, cpl: 514, qualified: 6, cpql: 856, deals: 2, revenue: 12300, roas: 2.39 },
+      { month: "Jun 2025", spend: 5190, leads: 10, cpl: 519, qualified: 6, cpql: 865, deals: 2, revenue: 14100, roas: 2.72 },
       { month: "Jul 2025", spend: 5200, leads: 12, cpl: 433, qualified: 7, cpql: 743, deals: 3, revenue: 18700, roas: 3.60 },
       { month: "Aug 2025", spend: 5100, leads: 12, cpl: 425, qualified: 7, cpql: 729, deals: 3, revenue: 16900, roas: 3.31 },
-      { month: "Sep 2025", spend: 4900, leads: 11, cpl: 445, qualified: 7, cpql: 700, deals: 3, revenue: 17200, roas: 3.51 },
-      { month: "Oct 2025", spend: 4700, leads: 11, cpl: 427, qualified: 7, cpql: 671, deals: 3, revenue: 15800, roas: 3.36 },
-      { month: "Nov 2025", spend: 4600, leads: 12, cpl: 383, qualified: 7, cpql: 657, deals: 3, revenue: 16400, roas: 3.57 },
-      { month: "Dec 2025", spend: 4200, leads: 10, cpl: 420, qualified: 6, cpql: 700, deals: 3, revenue: 15200, roas: 3.62 },
+      { month: "Sep 2025", spend: 5087, leads: 11, cpl: 462, qualified: 7, cpql: 727, deals: 3, revenue: 17200, roas: 3.38 },
+      { month: "Oct 2025", spend: 5307, leads: 11, cpl: 482, qualified: 7, cpql: 758, deals: 3, revenue: 15800, roas: 2.98 },
+      { month: "Nov 2025", spend: 5017, leads: 12, cpl: 418, qualified: 7, cpql: 717, deals: 3, revenue: 16400, roas: 3.27 },
+      { month: "Dec 2025", spend: 5184, leads: 10, cpl: 518, qualified: 6, cpql: 864, deals: 3, revenue: 15200, roas: 2.93 },
     ],
   },
   organicConversions: {
@@ -176,6 +176,6 @@ export const legalProfessionalServices: CaseStudyData = {
     { label: "Total Attributed Revenue", value: "$169K", growth: "+187%" },
     { label: "Qualified Leads (Paid)", value: "82", growth: "+37% efficiency" },
     { label: "Avg Case Fee", value: "$5,450", growth: "" },
-    { label: "Blended ROAS", value: "2.85x", growth: "" },
+    { label: "Blended ROAS", value: "2.67x", growth: "" },
   ],
 };

@@ -118,7 +118,7 @@ export const garageDoorRepairs: CaseStudyData = {
     summary: [
       { label: "Total Ad Spend", value: "$179.7K" },
       { label: "Qualified Leads", value: "770" },
-      { label: "Avg Cost Per Qualified Lead", value: "$189", note: "↓34% from $287" },
+      { label: "Avg Cost Per Qualified Lead", value: "$233", note: "↓19% from $287" },
       { label: "Closed Jobs", value: "409" },
     ],
     columnLabels: {

@@ -122,7 +122,7 @@ export const homeDamageRestoration: CaseStudyData = {
     summary: [
       { label: "Total Ad Spend", value: "$189.6K" },
       { label: "Qualified Leads", value: "452" },
-      { label: "Avg Cost Per Qualified Lead", value: "$349", note: "↓39% from $573" },
+      { label: "Avg Cost Per Qualified Lead", value: "$419", note: "↓27% from $573" },
       { label: "Closed Jobs", value: "147" },
     ],
     columnLabels: {
