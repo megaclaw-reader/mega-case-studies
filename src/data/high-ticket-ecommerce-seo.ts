@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const highTicketEcommerceSeo: CaseStudyData = {
   slug: "high-ticket-ecommerce-seo",
   industry: "Ecommerce",
-  headline: "How a Premium Home Furnishings Brand Generated $432K in Organic Revenue Through SEO in 10 Months",
-  subheadline: "MEGA helped a national direct-to-consumer luxury furniture and décor company grow from 94 ranking keywords to over 8,200 in 10 months — driving 13,100+ organic sessions per month, 496 orders at an $871 average order value, and $432K in organic-attributed revenue without a single dollar spent on ads.",
+  headline: "How a Premium Home Furnishings Brand Generated $441K in Organic Revenue Through SEO in 10 Months",
+  subheadline: "MEGA helped a national direct-to-consumer luxury furniture and décor company grow from 94 ranking keywords to over 8,200 in 10 months — driving 13,100+ organic sessions per month, 287 orders at a $1,536 average order value, and $441K in organic-attributed revenue without a single dollar spent on ads.",
   heroStats: [
     { value: "8,247", unit: "+", label: "Ranking Keywords" },
-    { value: "$432", unit: "K", label: "Organic Revenue" },
-    { value: "$871", unit: "", label: "Avg Order Value" },
+    { value: "$441", unit: "K", label: "Organic Revenue" },
+    { value: "$1,536", unit: "", label: "Avg Order Value" },
   ],
   tags: ["SEO Strategy", "Ecommerce", "High Ticket"],
   company: {
@@ -16,7 +16,7 @@ export const highTicketEcommerceSeo: CaseStudyData = {
     employees: "23",
     revenue: "$4.7M",
     location: "National (USA — DTC)",
-    description: "A direct-to-consumer premium home furnishings brand selling handcrafted solid wood dining tables, artisan lighting fixtures, designer accent chairs, and curated home décor through their own ecommerce store. The company had built a reputation for quality craftsmanship and modern-organic aesthetics — averaging $871 per order with a loyal repeat customer base driven primarily by Instagram, Pinterest, and trade show appearances. Despite carrying genuinely differentiated products in a $78B home furnishings market, the brand had virtually no organic search visibility. Their product pages were image-heavy lifestyle showcases with minimal indexable content, no buying guides, and zero schema markup. Competitors like Article, Interior Define, and Maiden Home dominated search results for high-intent furniture queries while this brand depended entirely on paid social and word-of-mouth for customer acquisition. With customer acquisition costs on paid channels climbing past $187 per order, the founders wanted to build a sustainable organic traffic channel that could deliver qualified buyers without ongoing ad spend.",
+    description: "A direct-to-consumer premium home furnishings brand selling handcrafted solid wood dining tables, artisan lighting fixtures, designer accent chairs, and curated home décor through their own ecommerce store. The company had built a reputation for quality craftsmanship and modern-organic aesthetics — averaging $1,536 per order with a loyal repeat customer base driven primarily by Instagram, Pinterest, and trade show appearances. Despite carrying genuinely differentiated products in a $78B home furnishings market, the brand had virtually no organic search visibility. Their product pages were image-heavy lifestyle showcases with minimal indexable content, no buying guides, and zero schema markup. Competitors like Article, Interior Define, and Maiden Home dominated search results for high-intent furniture queries while this brand depended entirely on paid social and word-of-mouth for customer acquisition. With customer acquisition costs on paid channels climbing past $187 per order, the founders wanted to build a sustainable organic traffic channel that could deliver qualified buyers without ongoing ad spend.",
   },
   challenges: [
     {
@@ -29,7 +29,7 @@ export const highTicketEcommerceSeo: CaseStudyData = {
     },
     {
       title: "No Content Strategy in a Category Where Research Drives High-Ticket Purchases",
-      description: "High-ticket furniture purchases involve weeks of research — consumers compare materials, construction methods, dimensions, and design styles before committing $800 to $2,000+. The brand had zero educational content. No blog, no material guides, no room planning resources, no style comparison articles. Competitors had published hundreds of articles on topics like 'walnut vs oak dining tables,' 'how to choose the right sofa size,' and 'mid-century modern vs contemporary furniture' — capturing consumers during the 4-6 week research phase where 83% of furniture purchases begin online. Without this content layer, the brand was invisible during the most critical window of the customer journey.",
+      description: "High-ticket furniture purchases involve weeks of research — consumers compare materials, construction methods, dimensions, and design styles before committing $1,000 to $2,500+. The brand had zero educational content. No blog, no material guides, no room planning resources, no style comparison articles. Competitors had published hundreds of articles on topics like 'walnut vs oak dining tables,' 'how to choose the right sofa size,' and 'mid-century modern vs contemporary furniture' — capturing consumers during the 4-6 week research phase where 83% of furniture purchases begin online. Without this content layer, the brand was invisible during the most critical window of the customer journey.",
     },
   ],
   strategy: [
@@ -113,10 +113,10 @@ export const highTicketEcommerceSeo: CaseStudyData = {
   // Ecommerce organic conversions — sessions, add-to-carts, orders, revenue, AOV
   organicConversions: {
     summary: [
-      { label: "Total Organic Orders", value: "496", growth: "+7,300%", note: "2/mo → 148/mo" },
-      { label: "Total Organic Revenue", value: "$432K", growth: "+7,581%", note: "$1.7K/mo → $130K/mo" },
-      { label: "Avg Order Value", value: "$871", note: "consistent with $871 baseline" },
-      { label: "Add-to-Cart Rate", value: "3.14%", note: "from organic traffic" },
+      { label: "Total Organic Orders", value: "287", growth: "+7,700%", note: "1/mo → 78/mo" },
+      { label: "Total Organic Revenue", value: "$441K", growth: "+10,690%", note: "$1.2K/mo → $134K/mo" },
+      { label: "Avg Order Value", value: "$1,536", note: "high-ticket premium furnishings" },
+      { label: "Add-to-Cart Rate", value: "2.48%", note: "from organic traffic" },
     ],
     columnLabels: {
       formFills: "Add to Carts",
@@ -126,35 +126,35 @@ export const highTicketEcommerceSeo: CaseStudyData = {
     },
     monthly: [
       // Jan 2025: Baseline — minimal organic orders
-      { month: "Jan 2025", formFills: 7, calls: 2, totalLeads: 1687, conversionRate: 843.50 },
+      { month: "Jan 2025", formFills: 7, calls: 1, totalLeads: 1243, conversionRate: 1243.00 },
       // Feb 2025: Slight uptick from technical improvements
-      { month: "Feb 2025", formFills: 9, calls: 2, totalLeads: 1784, conversionRate: 892.00 },
+      { month: "Feb 2025", formFills: 8, calls: 1, totalLeads: 1187, conversionRate: 1187.00 },
       // Mar 2025: Product pages gaining visibility
-      { month: "Mar 2025", formFills: 14, calls: 4, totalLeads: 3412, conversionRate: 853.00 },
+      { month: "Mar 2025", formFills: 12, calls: 3, totalLeads: 3837, conversionRate: 1279.00 },
       // Apr 2025: Hockey stick — buying guide traffic converting
-      { month: "Apr 2025", formFills: 31, calls: 11, totalLeads: 9537, conversionRate: 867.00 },
+      { month: "Apr 2025", formFills: 28, calls: 8, totalLeads: 9248, conversionRate: 1156.00 },
       // May 2025: Comparison content driving qualified buyers
-      { month: "May 2025", formFills: 64, calls: 23, totalLeads: 19894, conversionRate: 865.00 },
+      { month: "May 2025", formFills: 56, calls: 15, totalLeads: 19170, conversionRate: 1278.00 },
       // Jun 2025: Summer home refresh — higher purchase intent
-      { month: "Jun 2025", formFills: 112, calls: 41, totalLeads: 35547, conversionRate: 867.00 },
+      { month: "Jun 2025", formFills: 97, calls: 27, totalLeads: 36369, conversionRate: 1347.00 },
       // Jul 2025: Steady growth — room planning pages converting well
-      { month: "Jul 2025", formFills: 167, calls: 62, totalLeads: 54312, conversionRate: 876.00 },
+      { month: "Jul 2025", formFills: 142, calls: 39, totalLeads: 55068, conversionRate: 1412.00 },
       // Aug 2025: Late summer strength — fall move-in furniture purchases
-      { month: "Aug 2025", formFills: 234, calls: 87, totalLeads: 74823, conversionRate: 860.26 },
+      { month: "Aug 2025", formFills: 194, calls: 51, totalLeads: 75939, conversionRate: 1489.00 },
       // Sep 2025: Fall refresh peak — highest furniture shopping month
-      { month: "Sep 2025", formFills: 312, calls: 116, totalLeads: 101384, conversionRate: 873.83 },
+      { month: "Sep 2025", formFills: 256, calls: 64, totalLeads: 104576, conversionRate: 1634.00 },
       // Oct 2025: Compounding authority driving consistent high-ticket orders
-      { month: "Oct 2025", formFills: 398, calls: 148, totalLeads: 129647, conversionRate: 876.13 },
+      { month: "Oct 2025", formFills: 327, calls: 78, totalLeads: 134004, conversionRate: 1718.00 },
     ],
     sources: [
-      { source: "Organic Search (Non-Branded)", percentage: 64, leads: 317 },
-      { source: "Organic Search (Branded)", percentage: 22, leads: 109 },
-      { source: "Buying Guide & Content Pages", percentage: 14, leads: 70 },
+      { source: "Organic Search (Non-Branded)", percentage: 64, leads: 184 },
+      { source: "Organic Search (Branded)", percentage: 22, leads: 63 },
+      { source: "Buying Guide & Content Pages", percentage: 14, leads: 40 },
     ],
   },
   impact: [
-    { label: "Organic Revenue", value: "$432K", growth: "from ~$3.4K total" },
-    { label: "Organic Orders", value: "496", growth: "+7,300%" },
+    { label: "Organic Revenue", value: "$441K", growth: "from ~$2.4K total" },
+    { label: "Organic Orders", value: "287", growth: "+7,700%" },
     { label: "Ranking Keywords", value: "8,247", growth: "+8,674%" },
     { label: "Organic Traffic", value: "13,178/mo", growth: "+4,493%" },
   ],
