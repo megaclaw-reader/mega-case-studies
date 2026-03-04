@@ -82,6 +82,7 @@ import { businessLitigationCt } from "./business-litigation-ct";
 import { constructionMembraneMaterials } from "./construction-membrane-materials";
 import { roofingHouston } from "./roofing-houston";
 import { windowsNj } from "./windows-nj";
+import { commercialInsuranceNy } from "./commercial-insurance-ny";
 
 export const caseStudies: Record<string, CaseStudyData> = {
   "mortgage-lending": mortgageLending,
@@ -167,6 +168,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "construction-membrane-materials": constructionMembraneMaterials,
   "roofing-houston": roofingHouston,
   "windows-nj": windowsNj,
+  "commercial-insurance-ny": commercialInsuranceNy,
 };
 
 export type { CaseStudyData };
