@@ -85,6 +85,7 @@ import { windowsNj } from "./windows-nj";
 import { commercialInsuranceNy } from "./commercial-insurance-ny";
 import { commercialConstructionTx } from "./commercial-construction-tx";
 import { roofingNewMexico } from "./roofing-new-mexico";
+import { telehealthArizona } from "./telehealth-arizona";
 
 export const caseStudies: Record<string, CaseStudyData> = {
   "mortgage-lending": mortgageLending,
@@ -173,6 +174,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "commercial-insurance-ny": commercialInsuranceNy,
   "commercial-construction-tx": commercialConstructionTx,
   "roofing-new-mexico": roofingNewMexico,
+  "telehealth-arizona": telehealthArizona,
 };
 
 export type { CaseStudyData };
