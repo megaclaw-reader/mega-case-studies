@@ -86,6 +86,7 @@ import { commercialInsuranceNy } from "./commercial-insurance-ny";
 import { commercialConstructionTx } from "./commercial-construction-tx";
 import { roofingNewMexico } from "./roofing-new-mexico";
 import { telehealthArizona } from "./telehealth-arizona";
+import { b2bSaasPaid } from "./b2b-saas-paid";
 
 export const caseStudies: Record<string, CaseStudyData> = {
   "mortgage-lending": mortgageLending,
@@ -175,6 +176,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "commercial-construction-tx": commercialConstructionTx,
   "roofing-new-mexico": roofingNewMexico,
   "telehealth-arizona": telehealthArizona,
+  "b2b-saas-paid": b2bSaasPaid,
 };
 
 export type { CaseStudyData };
