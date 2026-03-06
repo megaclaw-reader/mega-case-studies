@@ -92,6 +92,7 @@ import { wealthManagementPhoenix } from "./wealth-management-phoenix";
 import { lawFirmNational } from "./law-firm-national";
 import { seniorCareNm } from "./senior-care-nm";
 import { wearableHealthTech } from "./wearable-health-tech";
+import { petProductsEcommerce } from "./pet-products-ecommerce";
 
 export const caseStudies: Record<string, CaseStudyData> = {
   "mortgage-lending": mortgageLending,
@@ -187,6 +188,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "law-firm-national": lawFirmNational,
   "senior-care-nm": seniorCareNm,
   "wearable-health-tech": wearableHealthTech,
+  "pet-products-ecommerce": petProductsEcommerce,
 };
 
 export type { CaseStudyData };
