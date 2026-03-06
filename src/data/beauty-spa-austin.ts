@@ -1,0 +1,141 @@
+import { CaseStudyData } from "./types";
+
+export const beautySpaAustin: CaseStudyData = {
+  slug: "beauty-spa-austin",
+  industry: "Beauty Spa",
+  headline: "How an Austin Beauty Spa Increased Lead Qualification Rate From 21% to 39% While Scaling Ad Spend — Driving $125K in Revenue Over 6 Months",
+  subheadline: "MEGA helped a facials, body treatments, and skincare spa in Austin, Texas build an SEO foundation and optimize paid campaigns around lead quality — improving the qualification rate from 21.5% to 38.9% and achieving a 2.80x blended ROAS on services averaging $80–$300 per appointment.",
+  heroStats: [
+    { value: "6", unit: "months", label: "Partnership Duration" },
+    { value: "$125", unit: "K", label: "Revenue Attributed" },
+    { value: "39", unit: "%", label: "Lead Qualification Rate" },
+  ],
+  tags: ["Paid Advertising", "SEO Strategy", "Lead Quality Optimization"],
+  company: {
+    industry: "Beauty Spa — Facials, Body Treatments, Waxing & Lash Extensions",
+    employees: "14",
+    revenue: "$1.1M",
+    location: "Austin, Texas (Central Austin & Surrounding Areas)",
+    description: "A boutique beauty spa in Austin, Texas offering a full menu of esthetic services including custom facials, chemical peels, microdermabrasion, body wraps, waxing, lash extensions, lash lifts, brow lamination, and medical-grade skincare consultations. Located near the South Lamar corridor, the spa served clients across Central Austin, South Austin, Westlake Hills, Bee Cave, Lakeway, and Cedar Park. With 67 five-star reviews and a loyal referral base, they had strong retention among existing clients but were struggling to acquire new clients profitably through digital channels. Their previous ad campaigns generated high volume but low-quality leads — mostly price shoppers looking for Groupon-style deals rather than clients willing to invest in recurring skincare regimens or premium treatments like HydraFacials and lash extension fills. The spa needed a strategy that prioritized lead quality over quantity, filtering out discount-seekers and attracting clients aligned with their $120–$285 average service ticket.",
+  },
+  challenges: [
+    {
+      title: "High Lead Volume But Abysmal Qualification Rate",
+      description: "The spa was generating leads through paid campaigns, but only 1 in 5 was actually qualified — meaning they had realistic expectations on pricing, wanted services the spa offered, and were located within the Austin metro service area. The remaining 80% were either looking for deals under $50, requesting services not offered (injectables, laser treatments, tattoo removal), or were outside the geographic footprint. The front desk was spending 3+ hours daily fielding unqualified inquiries, and the actual cost to acquire a bookable client was nearly $400 — unsustainable for a business where average ticket size was $165.",
+    },
+    {
+      title: "No Organic Visibility for High-Intent Austin Beauty Searches",
+      description: "The spa's website ranked for just 97 keywords, nearly all branded. They were invisible for searches like 'best facial Austin TX', 'lash extensions South Austin', 'HydraFacial near me Austin', and 'body treatment spa Westlake.' Competitors with aggressive SEO strategies — particularly franchised facial bars and chain esthetic studios — dominated the first page. Organic traffic was 187 visits/month, producing zero trackable leads. In a market where Austin residents actively search for spa services (especially around events like ACL, SXSW, and holiday seasons), this was a massive missed opportunity.",
+    },
+    {
+      title: "No System to Distinguish High-Value Clients From Deal Seekers",
+      description: "The spa's booking funnel treated every inquiry identically — a client asking about a $285 custom facial package received the same response flow as someone looking for a $39 introductory deal. There were no qualifying questions on the website, no segmentation in ad targeting between service tiers, and no tracking of which leads actually booked and at what price point. Phone calls were unrecorded and untagged, making it impossible to analyze what distinguished a high-LTV client (someone who books monthly facials at $165+) from a one-time deal seeker. Without this data, every ad dollar was a guess.",
+    },
+  ],
+  strategy: [
+    {
+      phase: 1,
+      months: "0–30 days",
+      title: "Lead Quality Infrastructure & SEO Foundation",
+      items: [
+        "Full website audit — page speed, mobile UX, crawlability, and local SEO baseline across Austin metro areas",
+        "Business profile optimization — restructured service categories (facials, body treatments, waxing, lash services, skincare), added professional treatment room photos and before/after galleries",
+        "Implemented call tracking with AI-powered analysis — tagging each inquiry by service requested, price sensitivity signals, location, and lead quality score (1-5 scale)",
+        "Redesigned booking inquiry forms with qualifying fields — preferred service category, typical skincare budget range, desired frequency (one-time vs. monthly), and zip code",
+        "Keyword research targeting facials, lash extensions, waxing, body treatments, HydraFacial, chemical peel, and skincare by Austin neighborhood and suburb",
+        "Published 14 initial content pieces — facial treatment guides, lash extension care tips, seasonal skincare for Austin climate, body treatment benefits for active lifestyles",
+        "Technical SEO fixes — local business schema, NAP consistency across 38 directories, image compression and alt-tag optimization",
+        "Launched initial paid campaigns at $6,745/month with broad Austin metro targeting — intentionally wide to gather lead quality data before narrowing",
+      ],
+    },
+    {
+      phase: 2,
+      months: "30–60 days",
+      title: "Lead Quality Analysis & Campaign Refinement",
+      items: [
+        "Analyzed 30 days of call recordings — identified that leads mentioning 'monthly facials', 'lash fills', or 'skincare routine' converted at 4.1x the rate of those asking about pricing first",
+        "Form data revealed: clients selecting 'monthly maintenance' as frequency preference booked at 3.7x the rate of 'one-time only' — restructured ad copy to lead with membership and recurring service language",
+        "Geographic analysis showed highest-quality leads concentrated in zip codes 78703, 78746, 78731 (Westlake/Tarrytown/Northwest Hills) and 78704 (South Austin) — shifted 60% of budget to these areas",
+        "Created service-tier specific landing pages — separate flows for premium facials ($165-285), lash services ($135-225), and introductory treatments ($89-120)",
+        "Published 16 additional content pieces — neighborhood-specific spa guides ('Best Facials in Westlake Hills'), treatment comparison content, and Austin lifestyle skincare articles",
+        "Launched programmatic location pages for 18 Austin neighborhoods and suburbs",
+        "Added negative targeting to exclude deal-related searches (coupon, Groupon, cheap, discount, deal) from premium service campaigns",
+        "Implemented retargeting segmented by service category page views — facial visitors saw facial-specific follow-up, lash visitors saw lash content",
+      ],
+    },
+    {
+      phase: 3,
+      months: "60–90 days",
+      title: "ICP Optimization & Quality-Focused Scaling",
+      items: [
+        "60-day ICP analysis confirmed: women 28-52 in dual-income households within 12 miles of the spa represented 81% of qualified leads — refined demographic targeting accordingly",
+        "Phone call AI analysis revealed 'wedding', 'event prep', and 'bridal party' mentions had highest same-day booking rates — created event-prep specific campaigns and landing pages",
+        "Commercial/corporate wellness inquiry pattern identified — added B2B landing page for corporate self-care events and team wellness packages",
+        "With qualification rate climbing to 30%, scaled budget to $6,890 while maintaining CPQL improvement trajectory",
+        "Published 8 additional service pages — dermaplaning, LED light therapy, prenatal massage modifications, seasonal peel protocols for Austin summers",
+        "Backlink campaigns — Austin lifestyle publications, local wellness directories, beauty blogger roundups, and Austin Chamber of Commerce",
+        "CRO optimization — added virtual consultation booking option, treatment quiz recommender, and before/after gallery with client consent",
+      ],
+    },
+    {
+      phase: 4,
+      months: "90+ days",
+      title: "Compounding Quality & Revenue Growth",
+      items: [
+        "Continued budget scaling from $7,435 to $8,475 as lead quality improvements meant each incremental dollar drove more qualified prospects",
+        "Qualification rate reached 38.9% by month 6 — nearly double the starting 21.5% — proving the quality-first approach worked at scale",
+        "Holiday and event season campaigns (ACL Festival October, holiday gift cards November-December) drove peak performance months",
+        "Lash extension fill rebooking sequences generated recurring revenue from initially ad-acquired clients, boosting attributed ROAS to 3.44x in peak month",
+        "Monthly content refresh cycles on top-ranking treatment and neighborhood pages to defend positions against competitor SEO pushes",
+        "Ongoing phone call analysis continued feeding ICP refinements — each month's data sharpened the next month's targeting",
+        "Weekly full-funnel reporting: ad impression → click → inquiry → qualified lead → booked appointment → rebooking, segmented by service category",
+        "By month 6, the spa was converting nearly 2 in 5 leads into qualified prospects — allowing them to scale spend confidently knowing budget wasn't wasted on price shoppers",
+      ],
+    },
+  ],
+  seo: {
+    summary: [
+      { label: "Total Keywords", value: "2,347", growth: "+2,319%", from: "from 97" },
+      { label: "Top 10 Rankings", value: "143", growth: "+2,283%", from: "from 6" },
+      { label: "Pages Created", value: "62", growth: "", from: "incl. 18 neighborhood pages" },
+      { label: "Organic Traffic", value: "2,934/mo", growth: "+1,469%", from: "from 187" },
+    ],
+    monthly: [
+      { month: "Jul 2025", keywords: 97, top10: 6, top3: 0, traffic: 187, pages: 8, avgPos: 52.3, ctr: 0.6 },
+      { month: "Aug 2025", keywords: 214, top10: 14, top3: 1, traffic: 342, pages: 22, avgPos: 46.8, ctr: 0.8 },
+      { month: "Sep 2025", keywords: 478, top10: 31, top3: 3, traffic: 614, pages: 36, avgPos: 41.2, ctr: 1.0 },
+      { month: "Oct 2025", keywords: 891, top10: 58, top3: 7, traffic: 1087, pages: 47, avgPos: 35.7, ctr: 1.3 },
+      { month: "Nov 2025", keywords: 1534, top10: 94, top3: 12, traffic: 1876, pages: 55, avgPos: 30.4, ctr: 1.5 },
+      { month: "Dec 2025", keywords: 2347, top10: 143, top3: 19, traffic: 2934, pages: 62, avgPos: 26.1, ctr: 1.8 },
+    ],
+  },
+  paidAds: {
+    summary: [
+      { label: "Total Ad Spend", value: "$44.9K" },
+      { label: "Qualified Leads", value: "199" },
+      { label: "Avg Cost Per Qualified Lead", value: "$225", note: "↓58% from $397" },
+      { label: "Booked Clients", value: "84", note: "avg attributed revenue $1,494" },
+    ],
+    columnLabels: {
+      leads: "Total Leads",
+      cpl: "CPL",
+      qualified: "Qualified Leads",
+      cpql: "CPQL",
+      deals: "Booked Clients",
+    },
+    monthly: [
+      { month: "Jul 2025", spend: 6745, leads: 79, cpl: 85.38, qualified: 17, cpql: 396.76, deals: 6, revenue: 13847, roas: 2.05 },
+      { month: "Aug 2025", spend: 7120, leads: 89, cpl: 80.00, qualified: 23, cpql: 309.57, deals: 9, revenue: 16234, roas: 2.28 },
+      { month: "Sep 2025", spend: 6890, leads: 93, cpl: 74.09, qualified: 28, cpql: 246.07, deals: 12, revenue: 17891, roas: 2.60 },
+      { month: "Oct 2025", spend: 7435, leads: 108, cpl: 68.84, qualified: 36, cpql: 206.53, deals: 16, revenue: 21567, roas: 2.90 },
+      { month: "Nov 2025", spend: 8210, leads: 124, cpl: 66.21, qualified: 44, cpql: 186.59, deals: 19, revenue: 26743, roas: 3.26 },
+      { month: "Dec 2025", spend: 8475, leads: 131, cpl: 64.66, qualified: 51, cpql: 166.18, deals: 22, revenue: 29187, roas: 3.44 },
+    ],
+  },
+  impact: [
+    { label: "Total Revenue", value: "$125.5K", growth: "+167%" },
+    { label: "Booked Clients", value: "84", growth: "+267%" },
+    { label: "Lead Qualification Rate", value: "38.9%", growth: "↑from 21.5%" },
+    { label: "Blended ROAS", value: "2.80x", growth: "" },
+  ],
+};

@@ -92,6 +92,7 @@ import { wealthManagementPhoenix } from "./wealth-management-phoenix";
 import { lawFirmNational } from "./law-firm-national";
 import { seniorCareNm } from "./senior-care-nm";
 import { wearableHealthTech } from "./wearable-health-tech";
+import { beautySpaAustin } from "./beauty-spa-austin";
 import { petProductsEcommerce } from "./pet-products-ecommerce";
 
 export const caseStudies: Record<string, CaseStudyData> = {
@@ -189,6 +190,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "senior-care-nm": seniorCareNm,
   "wearable-health-tech": wearableHealthTech,
   "pet-products-ecommerce": petProductsEcommerce,
+  "beauty-spa-austin": beautySpaAustin,
 };
 
 export type { CaseStudyData };
