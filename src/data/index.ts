@@ -95,6 +95,7 @@ import { wearableHealthTech } from "./wearable-health-tech";
 import { beautySpaAustin } from "./beauty-spa-austin";
 import { petProductsEcommerce } from "./pet-products-ecommerce";
 import { wearableHealthTechTx } from "./wearable-health-tech-tx";
+import { financialServicesSalesNm } from "./financial-services-sales-nm";
 
 export const caseStudies: Record<string, CaseStudyData> = {
   "mortgage-lending": mortgageLending,
@@ -193,6 +194,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "pet-products-ecommerce": petProductsEcommerce,
   "beauty-spa-austin": beautySpaAustin,
   "wearable-health-tech-tx": wearableHealthTechTx,
+  "financial-services-sales-nm": financialServicesSalesNm,
 };
 
 export type { CaseStudyData };

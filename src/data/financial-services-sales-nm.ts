@@ -1,0 +1,124 @@
+import { CaseStudyData } from "./types";
+
+export const financialServicesSalesNm: CaseStudyData = {
+  slug: "financial-services-sales-nm",
+  industry: "Financial Services Sales",
+  headline: "How a New Mexico Financial Services Firm Generated $1.12M in New Client Revenue Through Paid Advertising in 8 Months",
+  subheadline: "MEGA partnered with a full-service financial planning and insurance firm in New Mexico to build a high-quality lead generation engine through paid advertising — scaling monthly ad spend from $15,657 to $46,789, reducing cost per qualified lead by 56%, and closing 40 new high-value clients across wealth advisory, retirement planning, and commercial insurance services.",
+  heroStats: [
+    { value: "8", unit: "months", label: "Partnership Duration" },
+    { value: "56", unit: "%", label: "Qualified Lead Cost Reduction" },
+    { value: "$1.12", unit: "M", label: "New Client Revenue" },
+  ],
+  tags: ["Paid Advertising", "Lead Generation", "Financial Services"],
+  company: {
+    industry: "Financial Services Sales",
+    employees: "18",
+    revenue: "$4.2M",
+    location: "New Mexico",
+    description: "A full-service financial planning and insurance firm headquartered in New Mexico, serving high-net-worth individuals, small business owners, and retirees across the Albuquerque metro area, Santa Fe, and Las Cruces. With over a decade of operation and a team of certified financial planners, licensed insurance agents, and investment advisors, the firm offered comprehensive wealth advisory, retirement income strategies, estate planning, life and commercial insurance, and business succession planning. Despite strong client retention rates above 94%, the firm had relied almost exclusively on referrals, community networking events, and local radio sponsorships for new client acquisition — channels that had plateaued as competition from national digital-first advisory platforms and robo-advisors intensified across New Mexico's growing financial services market.",
+  },
+  challenges: [
+    {
+      title: "Declining New Client Pipeline Despite Market Growth",
+      description: "New Mexico's population of retirees and high-net-worth individuals relocating from higher-cost states had grown steadily, yet the firm's new client acquisition remained flat at 4-5 per quarter. Referral networks were producing diminishing returns and community events attracted tire-kickers rather than qualified prospects with investable assets above $250K — the firm's ideal client threshold.",
+    },
+    {
+      title: "Low-Quality Leads from Previous Marketing Efforts",
+      description: "A prior attempt at digital advertising with a generalist agency produced 340+ clicks over four months but only 6 form submissions — none of which met the firm's minimum asset requirements. The experience left leadership convinced that digital channels couldn't deliver the caliber of prospect required for high-value financial services engagements averaging $27,000 in first-year revenue per client.",
+    },
+    {
+      title: "Competitive Pressure from National Digital Advisors",
+      description: "National robo-advisory platforms and large wealth management firms were aggressively targeting New Mexico markets with sophisticated digital campaigns. Local search results for 'financial advisor Albuquerque', 'wealth management Santa Fe', and 'retirement planner New Mexico' were dominated by national brands with seven-figure marketing budgets, making organic visibility nearly impossible without a paid strategy.",
+    },
+  ],
+  strategy: [
+    {
+      phase: 1,
+      months: "0–30 days",
+      title: "Audit, Infrastructure & Campaign Launch",
+      items: [
+        "Full digital presence audit — discovered zero conversion tracking, no call attribution, and landing pages with 11-field forms generating a 1.3% conversion rate",
+        "Deep competitive analysis of 8 financial advisory firms advertising in New Mexico — mapped their targeting strategies, ad copy angles, and landing page conversion funnels",
+        "Built 5 dedicated high-conversion landing pages: wealth management, retirement income planning, commercial insurance, estate planning, and business succession advisory",
+        "Implemented multi-touch attribution with dynamic call tracking, whisper messages identifying the campaign source, form submission tracking, and a lead scoring model tied to the CRM",
+        "Launched tightly segmented paid campaigns targeting high-intent financial planning queries with compliance-reviewed ad copy and aggressive negative keyword lists filtering out job seekers, students, and DIY investors",
+        "Created audience segments based on household income indicators, property ownership signals, age demographics (45-70), and professional affiliation targeting across New Mexico metro areas",
+        "Streamlined landing page forms from 11 fields to 5 essential qualifiers including estimated investable assets — conversion rate jumped to 4.7% within the first two weeks",
+      ],
+    },
+    {
+      phase: 2,
+      months: "30–60 days",
+      title: "Lead Quality Optimization & Scaling",
+      items: [
+        "Analyzed 30-day lead quality data — 67% of leads were unqualified (below $100K investable assets). Restructured targeting to focus exclusively on high-income zip codes and affluent demographic signals",
+        "Paused 6 underperforming ad groups burning budget on broad-match queries and reallocated spend to the 4 highest-converting keyword themes: retirement planning, wealth transfer, business succession, and high-net-worth insurance",
+        "Built retargeting campaigns for website visitors who spent 60+ seconds on service pages but didn't convert — retargeting audience converted at 8.2% vs. 4.7% for cold traffic",
+        "A/B tested landing page positioning — 'complimentary portfolio review with a certified planner' outperformed 'free financial consultation' by 34% in qualified lead conversion rate",
+        "Implemented a lead qualification phone screen within 15 minutes of form submission — reduced no-show rate for initial consultations from 38% to 12%",
+        "Expanded geographic targeting from Albuquerque-only to include Santa Fe, Rio Rancho, and Las Cruces corridors based on emerging wealth migration patterns in New Mexico",
+      ],
+    },
+    {
+      phase: 3,
+      months: "60–90 days",
+      title: "Scale Budget & Refine Funnel",
+      items: [
+        "Reviewed 60-day full-funnel data — identified that retirement planning prospects converted to clients at 2.3x the rate of general wealth management leads, shifted 35% of budget toward retirement-focused campaigns",
+        "Launched seasonal tax planning campaigns targeting New Mexico business owners and high-income professionals ahead of Q3 estimated tax deadlines",
+        "Created lookalike audiences modeled on the firm's 23 highest-value closed clients — these audiences delivered qualified leads at 41% lower cost than interest-based targeting",
+        "Implemented advanced bid strategies with time-of-day and day-of-week modifiers based on when qualified prospects were most likely to convert (Tuesday-Thursday, 9am-2pm performed 67% above average)",
+        "Built dedicated campaigns for estate planning targeting New Mexico residents aged 55+ with property ownership signals",
+        "Added video testimonial assets to display campaigns — cost per qualified lead from video campaigns was 28% lower than static image campaigns",
+      ],
+    },
+    {
+      phase: 4,
+      months: "90+ days",
+      title: "Aggressive Scaling & Revenue Optimization",
+      items: [
+        "Scaled monthly ad spend from $31K to $46.8K as qualified lead volume and client conversion rates justified accelerated investment",
+        "Launched high-value prospect campaigns targeting individuals searching for estate attorneys, CPAs, and trust services in New Mexico — cross-intent audiences converted at 6.1%",
+        "Implemented offline conversion tracking feeding actual client signings back into the ad platform's algorithm — automated bidding ROAS improved by 23% within 30 days",
+        "Quarterly strategic review revealed commercial insurance leads had the shortest sales cycle (18 days vs. 34 days for wealth advisory) — increased commercial insurance budget allocation by 25%",
+        "Expanded retargeting window to 90 days based on the longer consideration cycle for high-net-worth financial decisions",
+        "Created seasonal Q4 year-end financial planning campaigns targeting business owners for tax-loss harvesting, retirement contribution maximization, and annual insurance reviews across New Mexico",
+      ],
+    },
+  ],
+  seo: undefined,
+  paidAds: {
+    summary: [
+      { label: "Total Ad Spend", value: "$238.7K" },
+      { label: "Qualified Leads", value: "173" },
+      { label: "Avg Cost/Qualified Lead", value: "$1,380", note: "↓56% from $2,610" },
+      { label: "New Clients Acquired", value: "40" },
+    ],
+    columnLabels: {
+      leads: "Total Leads",
+      cpl: "Cost/Lead",
+      qualified: "Qualified Leads",
+      cpql: "Cost/Qualified Lead",
+      deals: "New Clients",
+    },
+    monthly: [
+      { month: "Jan", spend: 15657, leads: 18, cpl: 870, qualified: 6, cpql: 2610, deals: 1, revenue: 27400, roas: 1.75 },
+      { month: "Feb", spend: 18234, leads: 24, cpl: 760, qualified: 9, cpql: 2026, deals: 2, revenue: 53800, roas: 2.95 },
+      { month: "Mar", spend: 21876, leads: 32, cpl: 684, qualified: 13, cpql: 1683, deals: 3, revenue: 82100, roas: 3.75 },
+      { month: "Apr", spend: 26543, leads: 42, cpl: 632, qualified: 18, cpql: 1475, deals: 4, revenue: 112600, roas: 4.24 },
+      { month: "May", spend: 31218, leads: 51, cpl: 612, qualified: 23, cpql: 1357, deals: 5, revenue: 138900, roas: 4.45 },
+      { month: "Jun", spend: 36891, leads: 62, cpl: 595, qualified: 29, cpql: 1272, deals: 7, revenue: 193200, roas: 5.24 },
+      { month: "Jul", spend: 41523, leads: 71, cpl: 585, qualified: 34, cpql: 1221, deals: 8, revenue: 224800, roas: 5.41 },
+      { month: "Aug", spend: 46789, leads: 83, cpl: 564, qualified: 41, cpql: 1141, deals: 10, revenue: 283400, roas: 6.06 },
+    ],
+  },
+  impact: [
+    { label: "Total Revenue Generated", value: "$1,116,200", growth: "" },
+    { label: "Total New Clients", value: "40", growth: "+233%" },
+    { label: "Blended ROAS", value: "4.67x", growth: "" },
+    { label: "Cost Per Qualified Lead", value: "$1,380", growth: "↓56%" },
+    { label: "Lead-to-Client Rate", value: "23.1%", growth: "+89%" },
+    { label: "Monthly Ad Spend Scaled", value: "3x Growth", growth: "+199%" },
+  ],
+};
