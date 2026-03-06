@@ -90,6 +90,7 @@ import { b2bSaasPaid } from "./b2b-saas-paid";
 import { luxuryMenswearCalifornia } from "./luxury-menswear-california";
 import { wealthManagementPhoenix } from "./wealth-management-phoenix";
 import { lawFirmNational } from "./law-firm-national";
+import { seniorCareNm } from "./senior-care-nm";
 
 export const caseStudies: Record<string, CaseStudyData> = {
   "mortgage-lending": mortgageLending,
@@ -183,6 +184,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "luxury-menswear-california": luxuryMenswearCalifornia,
   "wealth-management-phoenix": wealthManagementPhoenix,
   "law-firm-national": lawFirmNational,
+  "senior-care-nm": seniorCareNm,
 };
 
 export type { CaseStudyData };

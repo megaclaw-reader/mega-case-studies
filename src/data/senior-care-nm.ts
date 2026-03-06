@@ -1,0 +1,126 @@
+import { CaseStudyData } from "./types";
+
+export const seniorCareNm: CaseStudyData = {
+  slug: "senior-care-nm",
+  industry: "Senior Care",
+  headline: "How a New Mexico Home Care Agency Generated $309K in Revenue With AI-Powered Paid Advertising",
+  subheadline: "MEGA helped a senior home care and assisted living referral company in Albuquerque, New Mexico scale their paid advertising program, reducing cost per qualified lead by 42% and generating $309K in attributed revenue over 8 months with a 4.27x blended ROAS.",
+  heroStats: [
+    { value: "8", unit: "months", label: "Partnership Duration" },
+    { value: "$309", unit: "K", label: "Revenue Attributed" },
+    { value: "4.27", unit: "x", label: "Blended ROAS" },
+  ],
+  tags: ["Paid Advertising", "AI-Powered Optimization", "Lead Generation"],
+  company: {
+    industry: "Senior Care",
+    employees: "34",
+    revenue: "$3.1M",
+    location: "Albuquerque, NM",
+    description: "A full-service senior home care and assisted living placement agency serving families across New Mexico, providing in-home caregivers, companion care, personal care assistance, and assisted living referral services. Founded 6 years ago in Albuquerque, the company had grown primarily through physician referrals, hospital discharge planner relationships, and word-of-mouth from satisfied families. They offered services across the greater Albuquerque metro, Santa Fe, Rio Rancho, Las Cruces, and surrounding communities. With New Mexico's rapidly aging population and an influx of retirees drawn to the state's favorable climate and lower cost of living, demand for quality senior care was rising — but so was competition from national franchise networks and private-equity-backed home care brands entering the market. The company needed a scalable digital acquisition channel to supplement their referral pipeline and capture the growing number of adult children searching online for senior care options for aging parents.",
+  },
+  challenges: [
+    {
+      title: "Referral-Dependent Growth With No Digital Acquisition Channel",
+      description: "Over 85% of new clients came through physician referrals and hospital discharge planners — a valuable but unpredictable pipeline. When referral relationships shifted or hospital systems changed preferred vendor lists, monthly client intake would drop by 30-40% with no backup channel. The company had experimented with paid advertising twice before but abandoned it both times after spending roughly $4,500 per month with no tracking infrastructure to measure which inquiries became paying clients. Without a structured digital funnel, they were invisible to the fastest-growing segment of their market: adult children researching senior care options online, often from out of state, looking for trusted providers in New Mexico for aging parents.",
+    },
+    {
+      title: "No Lead Qualification or Attribution System",
+      description: "Phone calls accounted for over 70% of initial inquiries, but there was no system to distinguish between a family ready to place a parent in home care next week and someone gathering information for a future decision months away. Intake coordinators spent equal time on every call regardless of urgency or fit. There was no call tracking, no lead scoring, and no way to attribute a new client back to the specific campaign or keyword that generated the inquiry. The estimated cost per qualified lead was approximately $403, and the company had no visibility into their true cost of client acquisition.",
+    },
+    {
+      title: "Missing Seasonal Demand Patterns in New Mexico",
+      description: "Senior care demand in New Mexico follows distinct seasonal patterns that the company wasn't leveraging. Winter months — November through February — see significant spikes as snowbird families arrive and adult children visiting during holidays confront the reality of a parent's declining health. Summer brings a secondary wave as families make care decisions before the school year. But the company's sporadic ad spending ignored these patterns entirely, missing peak demand windows when families were most actively searching and most ready to commit to care services.",
+    },
+  ],
+  strategy: [
+    {
+      phase: 1,
+      months: "0–30 days",
+      title: "Foundation & Quick Wins",
+      items: [
+        "Full audit of previous ad campaigns — identified wasted spend on broad informational queries, missing conversion tracking, and no separation between home care and assisted living placement campaigns",
+        "Implemented call tracking with dynamic number insertion across all landing pages and service pages — tagging calls by source, duration, and whether an intake consultation was scheduled",
+        "CRM integration for closed-loop attribution from first inquiry through signed care agreement, tracking the full journey from search to paying client",
+        "Built dedicated landing pages for each core service: in-home personal care, companion care, respite care, assisted living placement, and memory care referrals — each with New Mexico-specific messaging and family testimonials",
+        "Competitor research across the Albuquerque, Santa Fe, Rio Rancho, and Las Cruces markets — mapped competitor positioning, identified underserved geographic pockets, and cataloged high-intent keyword opportunities",
+        "Launched initial campaigns segmented by service type and urgency level — emergency placement vs. planned transition, targeting families actively searching for senior care in New Mexico",
+        "Configured conversion tracking for phone calls exceeding 90 seconds, form submissions, and intake consultation bookings as primary conversion events",
+        "Built campaign structure around cost per qualified lead targets by service type, prioritizing in-home care and memory care referrals with highest lifetime client values",
+      ],
+    },
+    {
+      phase: 2,
+      months: "30–60 days",
+      title: "Content & Optimization Engine",
+      items: [
+        "Reviewed 0–30 day performance data — identified memory care referrals and personal care as highest-converting service lines; reallocated budget toward these verticals",
+        "Built location-targeted campaign layers for Albuquerque, Santa Fe, Rio Rancho, Las Cruces, and surrounding communities — each with geo-specific ad copy referencing local hospitals and care facilities",
+        "Launched out-of-state targeting campaigns for adult children in Texas, California, Arizona, and Colorado searching for senior care options in New Mexico for aging parents",
+        "Rapid creative testing — messaging pivots around 24/7 availability, bilingual caregivers, licensed and bonded staff, free care assessments, and same-week placement availability",
+        "Retargeting layer for visitors who viewed service pages but didn't call — display campaigns with educational content about choosing home care and signs a parent needs assistance",
+        "Keyword and negative keyword refinement based on call tracking data — filtering out job seeker queries, caregiver certification searches, and nursing home complaints unrelated to service inquiries",
+        "A/B tested landing page variations — direct phone number prominence vs. consultation request forms, family photo imagery vs. caregiver-focused visuals, urgency messaging vs. compassionate tone",
+        "Implemented lead scoring based on call duration, service type requested, timeline urgency, and geographic proximity to service areas",
+      ],
+    },
+    {
+      phase: 3,
+      months: "60–90 days",
+      title: "Scale & Compound",
+      items: [
+        "Reviewed 0–60 day data — expanded campaigns into additional long-tail terms like 'alzheimers care Albuquerque,' 'senior companion Santa Fe,' and 'home health aide New Mexico'",
+        "Launched seasonal campaign adjustments for fall and winter demand surge — increased budgets, added holiday-specific messaging around family visits and year-end care decisions",
+        "Complex audience segmentations by family decision-maker demographics, geographic micro-targeting by New Mexico region, and service urgency indicators",
+        "Multi-approach bidding strategies based on campaign maturity, day-parting for peak inquiry hours, and seasonal demand signals in the New Mexico market",
+        "Fully robust lead scoring integrating call tracking data, intake consultation outcomes, and CRM progression from inquiry to signed care agreement",
+        "Conversion rate optimization — simplified intake forms, added click-to-call prominence for mobile users, implemented after-hours callback scheduling for families researching outside business hours",
+        "Built lookalike audiences from highest-value closed clients weighted toward long-term home care engagements with monthly recurring revenue",
+      ],
+    },
+    {
+      phase: 4,
+      months: "90+ days",
+      title: "Ongoing Optimization",
+      items: [
+        "Dynamic budget allocation following New Mexico's senior care seasonal patterns — peak investment during winter months when snowbird families arrive and holiday visits trigger care decisions, sustained through summer family planning season, moderated during transitional periods",
+        "Expansion into adjacent New Mexico communities — Taos, Roswell, Farmington, and Silver City as the company's service area grew",
+        "Audience pruning — removed low-intent segments, tested interest-based audiences targeting family caregivers, estate planning researchers, and Medicare information seekers",
+        "Bid strategy tuning based on day-of-week and time-of-day conversion patterns — family decision-makers researching evenings and weekends converted at higher rates",
+        "Weekly reporting with full client attribution — spend to inquiry to qualified consultation to signed care agreement to monthly revenue, broken down by service type and New Mexico region",
+        "Creative refresh cycles aligned to seasonal messaging — winter emergency placement urgency, spring wellness and prevention themes, summer family planning content, fall preparation guides",
+      ],
+    },
+  ],
+  seo: undefined,
+  paidAds: {
+    summary: [
+      { label: "Total Ad Spend", value: "$72.5K" },
+      { label: "Qualified Leads", value: "256" },
+      { label: "Avg Cost Per Qualified Lead", value: "$283", note: "↓42% from $403" },
+      { label: "Signed Clients", value: "90" },
+    ],
+    columnLabels: {
+      leads: "Total Inquiries",
+      cpl: "Cost/Inquiry",
+      qualified: "Qualified Consultations",
+      cpql: "Cost/Consultation",
+      deals: "Signed Clients",
+    },
+    monthly: [
+      { month: "May 2025", spend: 7658, leads: 44, cpl: 174, qualified: 19, cpql: 403, deals: 7, revenue: 23947, roas: 3.13 },
+      { month: "Jun 2025", spend: 7892, leads: 49, cpl: 161, qualified: 22, cpql: 359, deals: 8, revenue: 27888, roas: 3.53 },
+      { month: "Jul 2025", spend: 8247, leads: 55, cpl: 150, qualified: 26, cpql: 317, deals: 9, revenue: 31806, roas: 3.86 },
+      { month: "Aug 2025", spend: 8534, leads: 59, cpl: 145, qualified: 29, cpql: 294, deals: 10, revenue: 35780, roas: 4.19 },
+      { month: "Sep 2025", spend: 9178, leads: 66, cpl: 139, qualified: 33, cpql: 278, deals: 12, revenue: 39564, roas: 4.31 },
+      { month: "Oct 2025", spend: 9643, leads: 72, cpl: 134, qualified: 37, cpql: 261, deals: 13, revenue: 44356, roas: 4.60 },
+      { month: "Nov 2025", spend: 10412, leads: 81, cpl: 129, qualified: 43, cpql: 242, deals: 15, revenue: 52005, roas: 4.99 },
+      { month: "Dec 2025", spend: 10893, leads: 87, cpl: 125, qualified: 47, cpql: 232, deals: 16, revenue: 54224, roas: 4.98 },
+    ],
+  },
+  impact: [
+    { label: "Total Revenue", value: "$309.6K", growth: "+287%" },
+    { label: "Blended ROAS", value: "4.27x", growth: "" },
+    { label: "Avg Client Value", value: "$3,440", growth: "" },
+    { label: "Total Pipeline", value: "$487K", growth: "+194%" },
+  ],
+};
