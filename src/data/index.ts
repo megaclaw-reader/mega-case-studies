@@ -91,6 +91,7 @@ import { luxuryMenswearCalifornia } from "./luxury-menswear-california";
 import { wealthManagementPhoenix } from "./wealth-management-phoenix";
 import { lawFirmNational } from "./law-firm-national";
 import { seniorCareNm } from "./senior-care-nm";
+import { wearableHealthTech } from "./wearable-health-tech";
 
 export const caseStudies: Record<string, CaseStudyData> = {
   "mortgage-lending": mortgageLending,
@@ -185,6 +186,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "wealth-management-phoenix": wealthManagementPhoenix,
   "law-firm-national": lawFirmNational,
   "senior-care-nm": seniorCareNm,
+  "wearable-health-tech": wearableHealthTech,
 };
 
 export type { CaseStudyData };
