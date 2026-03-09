@@ -12,7 +12,7 @@ export const nonprofitNewYork: CaseStudyData = {
     { value: "8,150", unit: "%", label: "Organic Traffic Growth" },
     { value: "$487.4", unit: "K", label: "Total Donations Generated" },
     { value: "8,341", unit: "", label: "Keywords Ranked" },
-    { value: "3.89", unit: "x", label: "Return on Ad Spend" }
+    { value: "4.16", unit: "x", label: "Return on Ad Spend" }
   ],
   
   tags: ["SEO", "Paid Advertising", "Non-Profit", "New York", "Local"],
@@ -127,7 +127,7 @@ export const nonprofitNewYork: CaseStudyData = {
       { label: "Total Qualified Donors", value: "1,582" },
       { label: "Avg Cost Per Qualified Donor", value: "$79.13" },
       { label: "Total Donations Generated", value: "$487,392" },
-      { label: "Overall ROAS", value: "3.89x" }
+      { label: "Overall ROAS", value: "4.16x" }
     ],
     columnLabels: {
       leads: "Prospects",
@@ -157,7 +157,7 @@ export const nonprofitNewYork: CaseStudyData = {
     { label: "Avg Donation Value", value: "$384", growth: "" },
     { label: "Organic Traffic Growth", value: "28,450/mo", growth: "from 340/mo" },
     { label: "Donor Acquisition Cost", value: "$79.13", growth: "↓38% from $127" },
-    { label: "10-Month ROAS", value: "3.89x", growth: "" },
+    { label: "10-Month ROAS", value: "4.16x", growth: "" },
   ]
 };
 
