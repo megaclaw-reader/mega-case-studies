@@ -98,6 +98,7 @@ import { wearableHealthTechTx } from "./wearable-health-tech-tx";
 import { financialServicesSalesNm } from "./financial-services-sales-nm";
 import { roofingAlabama } from "./roofing-alabama";
 import { commercialLandscapingAlabama } from "./commercial-landscaping-alabama";
+import { homeImprovementDallas } from "./home-improvement-dallas";
 
 export const caseStudies: Record<string, CaseStudyData> = {
   "mortgage-lending": mortgageLending,
@@ -199,6 +200,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "financial-services-sales-nm": financialServicesSalesNm,
   "roofing-alabama": roofingAlabama,
   "commercial-landscaping-alabama": commercialLandscapingAlabama,
+  "home-improvement-dallas": homeImprovementDallas,
 };
 
 export type { CaseStudyData };

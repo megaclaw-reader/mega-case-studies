@@ -106,7 +106,7 @@ export const commercialLandscapingAlabama: CaseStudyData = {
       { label: 'Total Leads Generated', value: '605', note: 'High-intent commercial prospects with seasonal variations' },
       { label: 'Qualified Leads', value: '208', note: '34.4% qualification rate' },
       { label: 'Average Cost Per Lead', value: '$114', note: 'Competitive for commercial landscaping' },
-      { label: 'Average Cost Per Qualified Lead', value: '$333', note: 'Strong qualification efficiency' },
+      { label: 'Average Cost Per Qualified Lead', value: '$332', note: 'Strong qualification efficiency' },
       { label: 'Total Revenue Generated', value: '$288,700', note: 'Deals closed from paid campaigns' }
     ],
     columnLabels: {

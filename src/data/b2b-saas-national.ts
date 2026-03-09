@@ -122,7 +122,7 @@ export const b2bSaasNational: CaseStudyData = {
     summary: [
       { label: "Total Ad Spend", value: "$152.7K" },
       { label: "Qualified Leads (SQLs)", value: "1,247" },
-      { label: "Avg Cost Per Qualified Lead", value: "$114", note: "↓47% from $216" },
+      { label: "Avg Cost Per Qualified Lead", value: "$122", note: "↓43% from $216" },
       { label: "New Subscriptions", value: "289" },
     ],
     columnLabels: {
@@ -151,6 +151,6 @@ export const b2bSaasNational: CaseStudyData = {
     { label: "Total New MRR", value: "$240K", growth: "+567%" },
     { label: "Total Subscriptions", value: "289", growth: "+412%" },
     { label: "Avg Subscription Value", value: "$127/mo", growth: "" },
-    { label: "Blended ROAS", value: "2.64x", growth: "" },
+    { label: "Blended ROAS", value: "2.67x", growth: "" },
   ],
 };
