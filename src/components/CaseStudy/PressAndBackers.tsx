@@ -50,7 +50,7 @@ const backerLogos = [
 function WSJLogo({ className }: { className?: string }) {
   return (
     <span className={`font-serif font-black tracking-tight leading-none ${className}`} style={{ fontFamily: "'Playfair Display', Georgia, serif" }}>
-      <span className="text-xl sm:text-2xl md:text-3xl">THE WALL STREET JOURNAL.</span>
+      <span className="text-xl sm:text-2xl md:text-3xl">WSJ.</span>
     </span>
   );
 }
@@ -73,10 +73,8 @@ function FortuneLogo({ className }: { className?: string }) {
 
 function AxiosLogo({ className }: { className?: string }) {
   return (
-    <span className={`leading-none ${className}`}>
-      <svg viewBox="0 0 106 26" className="h-5 sm:h-6 md:h-7 w-auto" fill="currentColor">
-        <path d="M15.07 1.4L8.46 25.2H0L9.85 1.4h5.22zm-2.89 0L22.32 25.2h-8.7L5.17 1.4h7.01zM29.09 25.2l-5.1-10.56L29.2 1.4h8.3L27.68 14.64 33.4 25.2h-4.31zm-4.69 0L18.89 14.4 29.38 1.4h-4.56l-9.33 13 5.51 10.8h4.4zM40.6 25.2V1.4h7.22v23.8H40.6zm25.14-11.9c0-7.2-5.25-12.3-12.05-12.3-6.82 0-12.07 5.1-12.07 12.3s5.25 12.3 12.07 12.3c6.8 0 12.05-5.1 12.05-12.3zm-7.22 0c0 3.3-2.08 5.7-4.83 5.7-2.77 0-4.85-2.4-4.85-5.7s2.08-5.7 4.85-5.7c2.75 0 4.83 2.4 4.83 5.7zM83.56 7.73c-1.76-4.3-5.86-6.73-10.7-6.73-5.25 0-9.22 2.8-9.22 7.2 0 4.06 3.29 6.13 8.42 7.2 2.56.53 3.84 1.2 3.84 2.4 0 1.13-1.18 1.93-3.06 1.93-2.75 0-4.73-1.4-5.59-3.87L60.9 18.2c1.66 4.67 5.86 7.3 11.04 7.3 5.59 0 9.53-2.93 9.53-7.53 0-4.2-3.38-6.2-8.42-7.27-2.52-.53-3.82-1.13-3.82-2.33 0-1.07 1.2-1.8 2.86-1.8 2.44 0 4.2 1.27 5.1 3.6l6.37-2.44z" />
-      </svg>
+    <span className={`font-bold leading-none ${className}`} style={{ fontFamily: "'Inter', 'Helvetica Neue', sans-serif" }}>
+      <span className="text-lg sm:text-xl md:text-2xl tracking-tight">axios</span>
     </span>
   );
 }
@@ -135,7 +133,7 @@ export default function PressAndBackers() {
             As Featured In
           </p>
           <div className="flex flex-wrap items-center justify-center gap-8 sm:gap-12 md:gap-16">
-            <a href="https://www.forbes.com/sites/charliefink/2026/03/09/ai-agents-take-aim-at-the-local-marketing-agency-as-mega-raises-115-million/" target="_blank" rel="noopener noreferrer" className="text-gray-800 hover:text-gray-600 transition-colors">
+            <a href="https://venturecap.cmail20.com/t/d-e-ghykdit-irtiljurdj-t/" target="_blank" rel="noopener noreferrer" className="text-gray-800 hover:text-gray-600 transition-colors">
               <WSJLogo />
             </a>
             <a href="https://www.forbes.com/sites/charliefink/2026/03/09/ai-agents-take-aim-at-the-local-marketing-agency-as-mega-raises-115-million/" target="_blank" rel="noopener noreferrer" className="text-gray-800 hover:text-gray-600 transition-colors">
