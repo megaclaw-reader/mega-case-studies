@@ -81,22 +81,28 @@ function A16zLogo() {
 }
 
 function AtreidesLogo() {
+  // Atreides Management: mountain peak icon (blue peak + gray rock base) with blue serif "ATREIDES" and gray "MANAGEMENT"
   return (
-    <span className="flex items-center gap-2.5">
-      {/* Geometric triangle mark */}
-      <svg viewBox="0 0 32 36" className="h-7 sm:h-8 w-auto" fill="currentColor" aria-label="">
-        <path d="M16 0L0 36h8l8-20 8 20h8L16 0z" />
+    <span className="flex items-center gap-3">
+      {/* Mountain peak icon — blue triangle peak with gray rock/snow base */}
+      <svg viewBox="0 0 60 50" className="h-9 sm:h-11 w-auto" aria-label="">
+        {/* Gray rock/mountain base */}
+        <path d="M5 50 L25 18 L35 32 L40 26 L58 50 Z" fill="#9ca3af" />
+        {/* Blue peak triangle */}
+        <path d="M18 50 L35 8 L52 50 L42 50 L35 30 L28 50 Z" fill="#2956a8" />
+        {/* Snow/cloud accent on left slope */}
+        <path d="M12 42 Q18 36 24 38 Q20 42 16 44 Z" fill="white" opacity="0.7" />
       </svg>
       <span className="flex flex-col leading-none">
         <span
-          className="text-[13px] sm:text-[15px] font-semibold tracking-[0.15em] uppercase"
-          style={{ fontFamily: "'Inter', 'Helvetica Neue', sans-serif" }}
+          className="text-[15px] sm:text-[18px] font-bold tracking-[0.12em] uppercase"
+          style={{ fontFamily: "'Playfair Display', 'Georgia', serif", color: "#2956a8" }}
         >
           Atreides
         </span>
         <span
-          className="text-[8px] sm:text-[9px] font-medium tracking-[0.25em] uppercase opacity-50 mt-0.5"
-          style={{ fontFamily: "'Inter', 'Helvetica Neue', sans-serif" }}
+          className="text-[8px] sm:text-[10px] font-medium tracking-[0.3em] uppercase mt-1"
+          style={{ fontFamily: "'Inter', 'Helvetica Neue', sans-serif", color: "#6b7280" }}
         >
           Management
         </span>
@@ -106,35 +112,35 @@ function AtreidesLogo() {
 }
 
 function GoodwaterLogo() {
-  // Goodwater Capital — clean, modern wordmark
+  // Goodwater — the "oo" in the name are stylized as infinity/wave symbols
+  // Clean serif font, distinctive double-loop on the two O's
   return (
-    <span className="flex items-center gap-2">
-      {/* Water drop icon */}
-      <svg viewBox="0 0 20 28" className="h-5 sm:h-6 w-auto" fill="currentColor" aria-label="">
-        <path d="M10 0C10 0 0 12 0 18a10 10 0 0 0 20 0C20 12 10 0 10 0z" />
-      </svg>
-      <span
-        className="text-[15px] sm:text-[17px] font-normal tracking-wide"
-        style={{ fontFamily: "'Inter', 'Helvetica Neue', sans-serif" }}
-      >
-        Goodwater
-      </span>
-    </span>
+    <svg viewBox="0 0 220 36" className="h-7 sm:h-9 w-auto" fill="currentColor" aria-label="Goodwater">
+      {/* "G" */}
+      <text fontFamily="'Playfair Display', Georgia, serif" fontSize="32" fontWeight="700" y="28" x="0">G</text>
+      {/* First "o" as infinity/wave loop */}
+      <path d="M32 18 C32 10, 42 10, 42 18 C42 26, 52 26, 52 18 C52 10, 42 10, 42 18" fill="none" stroke="currentColor" strokeWidth="2.5" />
+      {/* Second "o" as infinity/wave loop */}
+      <path d="M52 18 C52 10, 62 10, 62 18 C62 26, 72 26, 72 18 C72 10, 62 10, 62 18" fill="none" stroke="currentColor" strokeWidth="2.5" />
+      {/* "dwater" */}
+      <text fontFamily="'Playfair Display', Georgia, serif" fontSize="32" fontWeight="700" y="28" x="70">dwater</text>
+    </svg>
   );
 }
 
 function SignalFireLogo() {
+  // SignalFire logo: double curly bracket icon "{{" (signal waves) followed by "SignalFire" in bold sans
   return (
-    <span className="flex items-center gap-2">
-      {/* Signal bars / flame hybrid icon */}
-      <svg viewBox="0 0 28 28" className="h-5 sm:h-6 w-auto" fill="currentColor" aria-label="">
-        <rect x="0" y="18" width="5" height="10" rx="1" opacity="0.35" />
-        <rect x="7.5" y="12" width="5" height="16" rx="1" opacity="0.55" />
-        <rect x="15" y="6" width="5" height="22" rx="1" opacity="0.75" />
-        <rect x="22.5" y="0" width="5" height="28" rx="1" />
+    <span className="flex items-center gap-1">
+      {/* Double curly bracket / signal wave icon */}
+      <svg viewBox="0 0 32 32" className="h-6 sm:h-8 w-auto" fill="currentColor" aria-label="">
+        {/* Left bracket */}
+        <path d="M14 4 C8 4, 6 8, 6 12 C6 14, 4 15, 4 16 C4 17, 6 18, 6 20 C6 24, 8 28, 14 28" fill="none" stroke="currentColor" strokeWidth="2.8" strokeLinecap="round" />
+        {/* Right bracket (shifted left, nesting) */}
+        <path d="M22 4 C16 4, 14 8, 14 12 C14 14, 12 15, 12 16 C12 17, 14 18, 14 20 C14 24, 16 28, 22 28" fill="none" stroke="currentColor" strokeWidth="2.8" strokeLinecap="round" />
       </svg>
       <span
-        className="text-[15px] sm:text-[17px] font-semibold tracking-tight"
+        className="text-[16px] sm:text-[19px] font-bold tracking-tight"
         style={{ fontFamily: "'Inter', 'Helvetica Neue', sans-serif" }}
       >
         SignalFire
