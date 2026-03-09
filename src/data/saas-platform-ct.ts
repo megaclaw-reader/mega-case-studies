@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const saasPlatformCt: CaseStudyData = {
   slug: "saas-platform-ct",
   industry: "SaaS Platform",
-  headline: "How a Connecticut B2B SaaS Startup Generated $109K in Pipeline Revenue With Its First-Ever Paid Ad Campaign",
+  headline: "How a Connecticut B2B SaaS Startup Generated $109.2K in Pipeline Revenue With Its First-Ever Paid Ad Campaign",
   subheadline: "MEGA helped a Connecticut-based B2B SaaS platform go from zero paid advertising experience to a refined ICP-targeting engine, generating 14 closed deals and a 2.72x LTV-based ROAS in just 6 months — with qualified leads accelerating sharply after the first 60 days of campaign learning.",
   heroStats: [
     { value: "6", unit: "months", label: "Partnership Duration" },
-    { value: "$109", unit: "K", label: "First-Year Contract Revenue" },
-    { value: "2.72", unit: "x", label: "LTV-Based ROAS" },
+    { value: "109", unit: "K", label: "First-Year Contract Revenue" },
+    { value: "2.7", unit: "x", label: "LTV-Based ROAS" },
   ],
   tags: ["Paid Advertising", "ICP Targeting", "First-Time Advertiser"],
   company: {

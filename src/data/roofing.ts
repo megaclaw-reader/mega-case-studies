@@ -4,11 +4,11 @@ export const roofing: CaseStudyData = {
   slug: "roofing",
   industry: "Roofing",
   headline: "How a NYC Roofing Company Grew Organic Traffic 375% With AI-Powered Marketing",
-  subheadline: "MEGA helped a local roofing company in New York City optimize their digital marketing, reducing cost per qualified lead by 20%, growing organic traffic 375%, and generating $175K in attributed revenue over 11 months.",
+  subheadline: "MEGA helped a local roofing company in New York City optimize their digital marketing, reducing cost per qualified lead by 20%, growing organic traffic 375%, and generating $175.3K in attributed revenue over 11 months.",
   heroStats: [
     { value: "11", unit: "months", label: "Partnership Duration" },
     { value: "375", unit: "%", label: "Organic Traffic Growth" },
-    { value: "$175", unit: "K", label: "Revenue Attributed" },
+    { value: "175", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["Local SEO", "Paid Advertising", "AI-Powered Optimization"],
   company: {
@@ -163,7 +163,7 @@ export const roofing: CaseStudyData = {
   impact: [
     { label: "Total Revenue", value: "$175.3K", growth: "+97%" },
     { label: "Total Pipeline", value: "$312K", growth: "+84%" },
-    { label: "Avg Revenue Per Job", value: "$5,844", growth: "" },
+    { label: "Avg Revenue Per Job", value: "$175.3K", growth: "" },
     { label: "Blended ROAS", value: "3.07x", growth: "" },
   ],
 };

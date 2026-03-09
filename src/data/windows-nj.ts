@@ -4,11 +4,11 @@ export const windowsNj: CaseStudyData = {
   slug: "windows-nj",
   industry: "Window Replacement & Installation",
   headline: "How a New Jersey Window Company Built a Sustainable Lead Pipeline With SEO & Paid Ads",
-  subheadline: "MEGA helped a window replacement and installation company in New Jersey develop a reliable digital marketing engine — growing organic visibility, reducing cost per qualified lead by 22%, and generating $118K in attributed revenue over 6 months.",
+  subheadline: "MEGA helped a window replacement and installation company in New Jersey develop a reliable digital marketing engine — growing organic visibility, reducing cost per qualified lead by 22%, and generating $118.4K in attributed revenue over 6 months.",
   heroStats: [
     { value: "6", unit: "months", label: "Partnership Duration" },
     { value: "22", unit: "%", label: "CPQL Reduction" },
-    { value: "$118", unit: "K", label: "Revenue Attributed" },
+    { value: "118", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["Local SEO", "Paid Advertising", "AI-Powered Optimization"],
   company: {

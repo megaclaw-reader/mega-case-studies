@@ -8,7 +8,7 @@ export const medSpaOrlando: CaseStudyData = {
   heroStats: [
     { value: "6", unit: "months", label: "Partnership Duration" },
     { value: "836", unit: "", label: "Qualified Leads" },
-    { value: "5.4", unit: "x", label: "Blended ROAS" },
+    { value: "3.4", unit: "x", label: "Blended ROAS" },
   ],
   tags: ["Local SEO", "Paid Advertising", "Lead Generation"],
   company: {
@@ -113,10 +113,10 @@ export const medSpaOrlando: CaseStudyData = {
     monthly: [
       { month: "Jan 2025", spend: 6513, leads: 218, cpl: 30, qualified: 85, cpql: 77, deals: 47, revenue: 21667, roas: 3.33 },
       { month: "Feb 2025", spend: 6487, leads: 247, cpl: 26, qualified: 104, cpql: 62, deals: 58, revenue: 27318, roas: 4.21 },
-      { month: "Mar 2025", spend: 6718, leads: 283, cpl: 24, qualified: 127, cpql: 53, deals: 72, revenue: 34128, roas: 5.08 },
-      { month: "Apr 2025", spend: 7247, leads: 314, cpl: 23, qualified: 149, cpql: 49, deals: 86, revenue: 41194, roas: 5.68 },
-      { month: "May 2025", spend: 7813, leads: 347, cpl: 23, qualified: 174, cpql: 45, deals: 101, revenue: 49187, roas: 6.30 },
-      { month: "Jun 2025", spend: 8017, leads: 412, cpl: 19, qualified: 197, cpql: 41, deals: 118, revenue: 57938, roas: 7.23 },
+      { month: "Mar 2025", spend: 6718, leads: 283, cpl: 24, qualified: 127, cpql: 53, deals: 66, revenue: 31300, roas: 4.66 },
+      { month: "Apr 2025", spend: 7247, leads: 314, cpl: 23, qualified: 149, cpql: 49, deals: 37, revenue: 17500, roas: 2.41 },
+      { month: "May 2025", spend: 7813, leads: 347, cpl: 23, qualified: 174, cpql: 45, deals: 56, revenue: 27100, roas: 3.47 },
+      { month: "Jun 2025", spend: 8017, leads: 412, cpl: 19, qualified: 197, cpql: 41, deals: 44, revenue: 21600, roas: 2.69 },
     ],
   },
   localSeo: {
@@ -139,6 +139,6 @@ export const medSpaOrlando: CaseStudyData = {
     { label: "Total Qualified Leads", value: "836", growth: "+312%" },
     { label: "Cost Per Qualified Lead", value: "$51", growth: "↓60%" },
     { label: "Monthly Organic Traffic", value: "11,247", growth: "+2,643%" },
-    { label: "Blended ROAS", value: "5.41x", growth: "+166%" },
+    { label: "Blended ROAS", value: "3.42x", growth: "+166%" },
   ],
 };

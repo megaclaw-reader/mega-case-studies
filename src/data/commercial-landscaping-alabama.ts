@@ -117,9 +117,9 @@ export const commercialLandscapingAlabama: CaseStudyData = {
       deals: 'Deals Closed'
     },
     monthly: [
-      { month: 'Jul 2025', spend: 6575, leads: 98, cpl: 67.09, qualified: 36, cpql: 182.64, deals: 12, revenue: 56400, roas: 8.58 },
-      { month: 'Aug 2025', spend: 6825, leads: 102, cpl: 66.91, qualified: 39, cpql: 175.00, deals: 13, revenue: 59800, roas: 8.76 },
-      { month: 'Sep 2025', spend: 7475, leads: 89, cpl: 83.99, qualified: 32, cpql: 233.59, deals: 10, revenue: 45200, roas: 6.05 },
+      { month: 'Jul 2025', spend: 6575, leads: 98, cpl: 67.09, qualified: 36, cpql: 182.64, deals: 6, revenue: 27300, roas: 4.15 },
+      { month: 'Aug 2025', spend: 6825, leads: 102, cpl: 66.91, qualified: 39, cpql: 175.00, deals: 5, revenue: 21200, roas: 3.11 },
+      { month: 'Sep 2025', spend: 7475, leads: 89, cpl: 83.99, qualified: 32, cpql: 233.59, deals: 5, revenue: 21800, roas: 2.92 },
       { month: 'Oct 2025', spend: 8350, leads: 76, cpl: 109.87, qualified: 26, cpql: 321.15, deals: 8, revenue: 36800, roas: 4.41 },
       { month: 'Nov 2025', spend: 9150, leads: 63, cpl: 145.24, qualified: 21, cpql: 435.71, deals: 6, revenue: 27600, roas: 3.02 },
       { month: 'Dec 2025', spend: 9875, leads: 52, cpl: 189.90, qualified: 16, cpql: 617.19, deals: 4, revenue: 18400, roas: 1.86 },
@@ -160,7 +160,7 @@ export const commercialLandscapingAlabama: CaseStudyData = {
   },
   
   impact: [
-    { label: 'Total Revenue Generated', value: '$288.7K', growth: '187% increase in monthly revenue' },
+    { label: 'Total Revenue Generated', value: '$197.6K', growth: '187% increase in monthly revenue' },
     { label: 'Total Marketing Investment', value: '$69,152', growth: 'Progressive scaling approach' },
     { label: 'Blended Return on Ad Spend', value: '4.17x', growth: 'Strong ROI across channels' },
     { label: 'Total Qualified Leads', value: '294', growth: 'Combined paid + organic prospects' },

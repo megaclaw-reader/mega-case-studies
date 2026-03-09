@@ -4,10 +4,10 @@ export const printShop: CaseStudyData = {
   slug: "print-shop",
   industry: "Print Shop",
   headline: "How a Chicago Print Shop Grew Revenue 34% by Combining SEO With Paid Advertising to Capture Both B2B and B2C Demand",
-  subheadline: "MEGA helped a full-service print shop in Chicago's River North neighborhood scale from $8K to $12.5K/month in ad spend while reducing cost per qualified lead by 37% — generating $623K in attributed revenue over 12 months through hyper-local targeting and organic visibility.",
+  subheadline: "MEGA helped a full-service print shop in Chicago's River North neighborhood scale from $8K to $12.5K/month in ad spend while reducing cost per qualified lead by 37% — generating $183.3K in attributed revenue over 12 months through hyper-local targeting and organic visibility.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
-    { value: "$623", unit: "K", label: "Revenue Attributed" },
+    { value: "183", unit: "K", label: "Revenue Attributed" },
     { value: "37", unit: "%", label: "CPQL Reduction" },
   ],
   tags: ["Paid Advertising", "SEO Strategy", "Local SEO", "Lead Generation"],

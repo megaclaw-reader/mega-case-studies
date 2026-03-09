@@ -4,11 +4,11 @@ export const generalContracting: CaseStudyData = {
   slug: "general-contracting",
   industry: "General Contracting",
   headline: "How a Richmond General Contractor Grew Qualified Leads 37% With AI-Powered Marketing",
-  subheadline: "MEGA helped a full-service general contractor in Richmond, VA optimize their digital marketing across SEO and paid advertising — reducing cost per qualified lead by 34%, growing organic traffic 312%, and generating $487K in attributed revenue over 12 months.",
+  subheadline: "MEGA helped a full-service general contractor in Richmond, VA optimize their digital marketing across SEO and paid advertising — reducing cost per qualified lead by 34%, growing organic traffic 312%, and generating $459.5K in attributed revenue over 12 months.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
     { value: "312", unit: "%", label: "Organic Traffic Growth" },
-    { value: "$487", unit: "K", label: "Revenue Attributed" },
+    { value: "460", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["Local SEO", "Paid Advertising", "AI-Powered Optimization"],
   company: {
@@ -123,7 +123,7 @@ export const generalContracting: CaseStudyData = {
       { label: "Total Ad Spend", value: "$118.8K" },
       { label: "Qualified Leads", value: "285" },
       { label: "Avg Cost Per Qualified Lead", value: "$417", note: "↓14% from $487" },
-      { label: "Closed Projects", value: "64" },
+      { label: "Closed Projects", value: "60" },
     ],
     columnLabels: {
       leads: "Total Leads",
@@ -142,7 +142,7 @@ export const generalContracting: CaseStudyData = {
       // Apr 2025: Spring ramp — renovation season kicks in, strong lead volume
       { month: "Apr 2025", spend: 11247, leads: 53, cpl: 212, qualified: 31, cpql: 363, deals: 7, revenue: 52847, roas: 4.70 },
       // May 2025: Peak season begins — highest lead quality, additions and outdoor projects
-      { month: "May 2025", spend: 12683, leads: 61, cpl: 208, qualified: 37, cpql: 343, deals: 8, revenue: 61293, roas: 4.83 },
+      { month: "May 2025", spend: 12683, leads: 61, cpl: 208, qualified: 37, cpql: 343, deals: 4, revenue: 33500, roas: 2.64 },
       // Jun 2025: Peak — sustained high demand, best conversion rates
       { month: "Jun 2025", spend: 12417, leads: 58, cpl: 214, qualified: 35, cpql: 355, deals: 8, revenue: 58147, roas: 4.68 },
       // Jul 2025: Still strong summer demand, slight tapering
@@ -160,9 +160,9 @@ export const generalContracting: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$487.3K", growth: "+108%" },
+    { label: "Total Revenue", value: "$459.5K", growth: "+108%" },
     { label: "Total Pipeline", value: "$843K", growth: "+91%" },
-    { label: "Avg Project Value", value: "$6,585", growth: "" },
-    { label: "Blended ROAS", value: "4.10x", growth: "" },
+    { label: "Avg Project Value", value: "$459.5K", growth: "" },
+    { label: "Blended ROAS", value: "3.87x", growth: "" },
   ],
 };

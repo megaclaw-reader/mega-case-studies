@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const b2bSaasPaid: CaseStudyData = {
   slug: "b2b-saas-paid",
   industry: "B2B SaaS",
-  headline: "How a B2B SaaS Company Cut Cost Per SQL 38% and Generated $2.7M in Pipeline With Paid Advertising",
-  subheadline: "MEGA partnered with a national B2B SaaS company to rebuild their paid advertising program from the ground up — reducing cost per qualified lead from $2,134 to $1,318, closing 78 new accounts, and driving $2.18M in attributed revenue over 12 months on a $40K/mo ad budget.",
+  headline: "How a B2B SaaS Company Cut Cost Per SQL 38% and Generated $2.05M in Pipeline With Paid Advertising",
+  subheadline: "MEGA partnered with a national B2B SaaS company to rebuild their paid advertising program from the ground up — reducing cost per qualified lead from $2,134 to $1,318, closing 78 new accounts, and driving $2.05M in attributed revenue over 12 months on a $40K/mo ad budget.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
     { value: "38", unit: "%", label: "SQL Cost Reduction" },
-    { value: "$2.18", unit: "M", label: "Revenue Attributed" },
+    { value: "2.05", unit: "M", label: "Revenue Attributed" },
   ],
   tags: ["Paid Advertising", "AI-Powered Optimization", "Lead Generation"],
   company: {
@@ -96,7 +96,7 @@ export const b2bSaasPaid: CaseStudyData = {
       { label: "Total Ad Spend", value: "$547.8K" },
       { label: "Qualified Leads (SQLs)", value: "416" },
       { label: "Avg Cost Per Qualified Lead", value: "$1,317", note: "↓38% from $2,134" },
-      { label: "Closed Deals", value: "78" },
+      { label: "Closed Deals", value: "73" },
     ],
     columnLabels: {
       leads: "MQLs",
@@ -115,15 +115,15 @@ export const b2bSaasPaid: CaseStudyData = {
       { month: "Jul 2025", spend: 40847, leads: 54, cpl: 756, qualified: 29, cpql: 1408, deals: 5, revenue: 141217, roas: 3.46 },
       { month: "Aug 2025", spend: 44123, leads: 62, cpl: 712, qualified: 35, cpql: 1261, deals: 7, revenue: 195847, roas: 4.44 },
       { month: "Sep 2025", spend: 48917, leads: 71, cpl: 689, qualified: 41, cpql: 1193, deals: 8, revenue: 223413, roas: 4.57 },
-      { month: "Oct 2025", spend: 51347, leads: 76, cpl: 676, qualified: 44, cpql: 1167, deals: 9, revenue: 251683, roas: 4.90 },
+      { month: "Oct 2025", spend: 51347, leads: 76, cpl: 676, qualified: 44, cpql: 1167, deals: 4, revenue: 116600, roas: 2.27 },
       { month: "Nov 2025", spend: 53213, leads: 79, cpl: 674, qualified: 47, cpql: 1132, deals: 9, revenue: 252847, roas: 4.75 },
       { month: "Dec 2025", spend: 50147, leads: 73, cpl: 687, qualified: 44, cpql: 1140, deals: 6, revenue: 168483, roas: 3.36 },
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$2.18M", growth: "+247%" },
+    { label: "Total Revenue", value: "$2.05M", growth: "+247%" },
     { label: "Total Pipeline", value: "$4.6M", growth: "+203%" },
     { label: "Avg Contract Value", value: "$27,942", growth: "" },
-    { label: "Blended ROAS", value: "3.98x", growth: "" },
+    { label: "Blended ROAS", value: "3.74x", growth: "" },
   ],
 };

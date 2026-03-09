@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const jewelryStoreEcommerce: CaseStudyData = {
   slug: "jewelry-store-ecommerce",
   industry: "Jewelry Store & eCommerce",
-  headline: "How a Chicago Jewelry Store Generated $487K in Combined In-Store and Online Revenue in 10 Months",
+  headline: "How a Chicago Jewelry Store Generated $335.6K in Combined In-Store and Online Revenue in 10 Months",
   subheadline: "MEGA helped a Chicago-based fine jewelry retailer with an online store reduce their cost per qualified lead by 34%, grow organic traffic 1,598%, and drive revenue across both their physical showroom and ecommerce platform through SEO and paid advertising.",
   heroStats: [
     { value: "10", unit: "months", label: "Partnership Duration" },
     { value: "1,598", unit: "%", label: "Organic Traffic Growth" },
-    { value: "$487", unit: "K", label: "Combined Revenue" },
+    { value: "336", unit: "K", label: "Combined Revenue" },
   ],
   tags: ["Local SEO", "eCommerce SEO", "Paid Advertising", "Lead Generation"],
   company: {
@@ -127,8 +127,8 @@ export const jewelryStoreEcommerce: CaseStudyData = {
       { month: "Jul 2025", spend: 7800, leads: 48, cpl: 163, qualified: 21, cpql: 371, deals: 9, revenue: 24100, roas: 3.09 },
       { month: "Aug 2025", spend: 8200, leads: 54, cpl: 152, qualified: 24, cpql: 342, deals: 11, revenue: 29800, roas: 3.63 },
       { month: "Sep 2025", spend: 9800, leads: 68, cpl: 144, qualified: 31, cpql: 316, deals: 14, revenue: 42300, roas: 4.32 },
-      { month: "Oct 2025", spend: 12400, leads: 94, cpl: 132, qualified: 42, cpql: 295, deals: 19, revenue: 67800, roas: 5.47 },
-      { month: "Nov 2025", spend: 19000, leads: 138, cpl: 138, qualified: 37, cpql: 514, deals: 23, revenue: 177800, roas: 9.36 },
+      { month: "Oct 2025", spend: 12400, leads: 94, cpl: 132, qualified: 42, cpql: 295, deals: 8, revenue: 28800, roas: 2.32 },
+      { month: "Nov 2025", spend: 19000, leads: 138, cpl: 138, qualified: 37, cpql: 514, deals: 8, revenue: 65400, roas: 3.44 },
     ],
   },
   organicConversions: {
@@ -184,9 +184,9 @@ export const jewelryStoreEcommerce: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Combined Revenue (In-Store + Online)", value: "$487K", growth: "+210%" },
-    { label: "In-Store Revenue", value: "$341K", growth: "131 closed deals, avg $2,603" },
-    { label: "Online Store Revenue", value: "$146K", growth: "412 orders, avg $354 AOV" },
-    { label: "Blended ROAS", value: "4.76x", growth: "" },
+    { label: "Combined Revenue (In-Store + Online)", value: "$335.6K", growth: "+210%" },
+    { label: "In-Store Revenue", value: "$335.6K", growth: "131 closed deals, avg $2,603" },
+    { label: "Online Store Revenue", value: "$335.6K", growth: "412 orders, avg $354 AOV" },
+    { label: "Blended ROAS", value: "3.28x", growth: "" },
   ],
 };

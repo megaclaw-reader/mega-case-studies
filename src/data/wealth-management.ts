@@ -4,7 +4,7 @@ export const wealthManagement: CaseStudyData = {
   slug: "wealth-management",
   industry: "Wealth Management",
   headline: "How a Boutique Wealth Management Firm Generated 23 New High-Net-Worth Clients in 12 Months",
-  subheadline: "MEGA helped a Naples-based independent wealth management firm build a compliant digital marketing engine — reducing cost per qualified lead by 36%, growing organic visibility 412%, and adding $18.4M in new assets under management.",
+  subheadline: "MEGA helped a Naples-based independent wealth management firm build a compliant digital marketing engine — reducing cost per qualified lead by 36%, growing organic visibility 412%, and adding $214.9K in new assets under management.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
     { value: "36", unit: "%", label: "CPL Reduction" },
@@ -192,7 +192,7 @@ export const wealthManagement: CaseStudyData = {
   },
   impact: [
     { label: "New AUM Acquired", value: "$18.4M", growth: "" },
-    { label: "Projected Annual Revenue", value: "$184K/yr", growth: "recurring" },
+    { label: "Projected Annual Revenue", value: "$214.9K", growth: "recurring" },
     { label: "10-Year Client LTV", value: "$1.84M", growth: "projected" },
     { label: "Total New Clients (Paid + Organic)", value: "32", growth: "+167%" },
     { label: "Blended Cost Per Client", value: "$2,278", growth: "↓38%" },

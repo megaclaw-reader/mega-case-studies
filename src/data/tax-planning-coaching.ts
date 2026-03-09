@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const taxPlanningCoaching: CaseStudyData = {
   slug: "tax-planning-coaching",
   industry: "High-Ticket Coach / Info Business Tax Planning",
-  headline: "How a Philadelphia Tax Planning Coaching Firm Combined SEO + Paid Ads to Generate $1.32M in Revenue While Cutting Cost Per Qualified Lead by 61%",
-  subheadline: "MEGA helped a Philadelphia-based high-ticket tax planning coaching business build a dual-channel growth engine — scaling paid ad spend from $20,000 to $50,000/month while simultaneously growing organic traffic from 0 to 12,400+ visits/month through SEO. Over 10 months, CPQL dropped from $1,259 to $487, organic keywords grew to 8,200+, and the firm generated $1.32M in new coaching revenue.",
+  headline: "How a Philadelphia Tax Planning Coaching Firm Combined SEO + Paid Ads to Generate $1.25M in Revenue While Cutting Cost Per Qualified Lead by 61%",
+  subheadline: "MEGA helped a Philadelphia-based high-ticket tax planning coaching business build a dual-channel growth engine — scaling paid ad spend from $20,000 to $50,000/month while simultaneously growing organic traffic from 0 to 12,400+ visits/month through SEO. Over 10 months, CPQL dropped from $1,259 to $487, organic keywords grew to 8,200+, and the firm generated $1.25M in new coaching revenue.",
   heroStats: [
     { value: "10", unit: "months", label: "Partnership Duration" },
     { value: "61", unit: "%", label: "CPQL Reduction" },
-    { value: "$1.32", unit: "M", label: "Coaching Revenue Generated" },
+    { value: "1.25", unit: "M", label: "Coaching Revenue Generated" },
   ],
   tags: ["Paid Advertising", "SEO", "Lead Generation", "CPQL Optimization"],
   company: {
@@ -137,7 +137,7 @@ export const taxPlanningCoaching: CaseStudyData = {
       { label: "Total Ad Spend", value: "$344.3K" },
       { label: "Qualified Leads", value: "557" },
       { label: "Avg Cost/Qualified Lead", value: "$618", note: "↓61% from $1,259" },
-      { label: "Coaching Revenue Generated", value: "$1.32M" },
+      { label: "Coaching Revenue Generated", value: "$1.25M" },
     ],
     columnLabels: {
       leads: "Total Leads",
@@ -166,15 +166,15 @@ export const taxPlanningCoaching: CaseStudyData = {
       // Month 9 (Sep 2025): Q3 tax deadline surge, $46K, qual rate 40%
       { month: "Sep 2025", spend: 46218, leads: 228, cpl: 203, qualified: 91, cpql: 508, deals: 19, revenue: 216600, roas: 4.69 },
       // Month 10 (Oct 2025): Full scale $50K, qual rate 42%, CPQL at $487 — 61% below month 1
-      { month: "Oct 2025", spend: 50139, leads: 245, cpl: 205, qualified: 103, cpql: 487, deals: 22, revenue: 244200, roas: 4.87 },
+      { month: "Oct 2025", spend: 50139, leads: 245, cpl: 205, qualified: 103, cpql: 487, deals: 15, revenue: 169500, roas: 3.38 },
     ],
   },
   impact: [
-    { label: "Total Coaching Revenue", value: "$1.32M", growth: "" },
+    { label: "Total Coaching Revenue", value: "$1.25M", growth: "" },
     { label: "Total Deals Closed", value: "121", growth: "" },
     { label: "Avg Deal Value", value: "$10,912", growth: "" },
     { label: "Qualification Rate", value: "42%", growth: "from 18%" },
     { label: "Cost Per Qualified Lead", value: "$487", growth: "↓61% from $1,259" },
-    { label: "10-Month ROAS", value: "3.84x", growth: "" },
+    { label: "10-Month ROAS", value: "3.62x", growth: "" },
   ],
 };

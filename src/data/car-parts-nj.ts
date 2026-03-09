@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const carPartsNj: CaseStudyData = {
   slug: "car-parts-nj",
   industry: "Ecommerce",
-  headline: "How a New Jersey Car Parts Retailer Drove $312K in Revenue With Paid Ads and SEO",
-  subheadline: "MEGA helped a New Jersey-based auto parts ecommerce store optimize seasonal ad spend, grow organic traffic by 137%, and achieve a blended 4.73x ROAS over 8 months — turning a fragmented digital presence into a high-performing revenue engine.",
+  headline: "How a New Jersey Car Parts Retailer Drove $174.5K in Revenue With Paid Ads and SEO",
+  subheadline: "MEGA helped a New Jersey-based auto parts ecommerce store optimize seasonal ad spend, grow organic traffic by 137%, and achieve a blended 3.7x ROAS over 8 months — turning a fragmented digital presence into a high-performing revenue engine.",
   heroStats: [
     { value: "8", unit: "months", label: "Campaign Duration" },
     { value: "2,847", unit: "", label: "Orders Attributed" },
-    { value: "$312", unit: "K", label: "Total Revenue" },
+    { value: "174", unit: "K", label: "Total Revenue" },
   ],
   tags: ["Paid Advertising", "SEO", "Ecommerce"],
   company: {
@@ -84,7 +84,7 @@ export const carPartsNj: CaseStudyData = {
       { label: "Organic Sessions (Mo 8)", value: "5,058/mo", growth: "+137%", from: "from 2,134" },
       { label: "Keywords Top 20", value: "347", growth: "+746%", from: "from 41" },
       { label: "Top 3 Rankings", value: "43", growth: "+1,333%", from: "from 3" },
-      { label: "Organic Revenue (Est.)", value: "$47K", growth: "+194%", from: "from $16K" },
+      { label: "Organic Revenue (Est.)", value: "$174.5K", growth: "+194%", from: "from $16K" },
     ],
     monthly: [
       { month: "Mar 2025", keywords: 41, top10: 12, top3: 3, traffic: 2134, pages: 18, avgPos: 47.3, ctr: 1.2 },
@@ -100,9 +100,9 @@ export const carPartsNj: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$47.6K" },
-      { label: "Total Orders", value: "2,247" },
+      { label: "Total Orders", value: "1,631" },
       { label: "Avg Cost Per Visit", value: "$1.89", note: "↓38% from $3.04" },
-      { label: "Blended ROAS", value: "4.73x", note: "from 3.21x baseline" },
+      { label: "Blended ROAS", value: "3.66x", note: "from 3.21x baseline" },
     ],
     columnLabels: {
       leads: "Sessions",
@@ -115,26 +115,26 @@ export const carPartsNj: CaseStudyData = {
       // Mar 2025: Early spring — maintenance season ramping. Budget at floor.
       { month: "Mar 2025", spend: 5134, leads: 2347, cpl: 2.19, qualified: 278, cpql: 18.47, deals: 198, revenue: 21186, roas: 4.13 },
       // Apr 2025: Spring peak — inspection season, pothole repairs, warm weather prep.
-      { month: "Apr 2025", spend: 6247, leads: 3178, cpl: 1.97, qualified: 389, cpql: 16.06, deals: 287, revenue: 31283, roas: 5.01 },
+      { month: "Apr 2025", spend: 6247, leads: 3178, cpl: 1.97, qualified: 389, cpql: 16.06, deals: 156, revenue: 17000, roas: 2.72 },
       // May 2025: Late spring — sustained high demand, road trip prep begins.
-      { month: "May 2025", spend: 6891, leads: 3634, cpl: 1.90, qualified: 437, cpql: 15.77, deals: 334, revenue: 35074, roas: 5.09 },
+      { month: "May 2025", spend: 6891, leads: 3634, cpl: 1.90, qualified: 437, cpql: 15.77, deals: 255, revenue: 26800, roas: 3.89 },
       // Jun 2025: Summer peak — performance upgrades, AC parts, heavy driving season.
-      { month: "Jun 2025", spend: 7234, leads: 3891, cpl: 1.86, qualified: 467, cpql: 15.49, deals: 358, revenue: 39023, roas: 5.39 },
+      { month: "Jun 2025", spend: 7234, leads: 3891, cpl: 1.86, qualified: 467, cpql: 15.49, deals: 240, revenue: 26200, roas: 3.62 },
       // Jul 2025: Mid-summer — still strong but leveling. Road trip season fully active.
-      { month: "Jul 2025", spend: 6478, leads: 3423, cpl: 1.89, qualified: 412, cpql: 15.72, deals: 319, revenue: 33813, roas: 5.22 },
+      { month: "Jul 2025", spend: 6478, leads: 3423, cpl: 1.89, qualified: 412, cpql: 15.72, deals: 169, revenue: 17900, roas: 2.76 },
       // Aug 2025: Late summer — back-to-school impact, slight decline.
-      { month: "Aug 2025", spend: 5347, leads: 2734, cpl: 1.96, qualified: 318, cpql: 16.82, deals: 247, revenue: 26247, roas: 4.91 },
+      { month: "Aug 2025", spend: 5347, leads: 2734, cpl: 1.96, qualified: 318, cpql: 16.82, deals: 187, revenue: 19900, roas: 3.72 },
       // Sep 2025: Fall maintenance — winterization prep, battery and wiper demand rising.
       { month: "Sep 2025", spend: 5123, leads: 2567, cpl: 2.00, qualified: 298, cpql: 17.19, deals: 223, revenue: 23167, roas: 4.52 },
       // Oct 2025: Late fall — winter prep peak, holiday gifting begins.
-      { month: "Oct 2025", spend: 5178, leads: 2689, cpl: 1.93, qualified: 323, cpql: 16.03, deals: 281, revenue: 30847, roas: 5.96 },
+      { month: "Oct 2025", spend: 5178, leads: 2689, cpl: 1.93, qualified: 323, cpql: 16.03, deals: 203, revenue: 22300, roas: 4.31 },
     ],
   },
   impact: [
-    { label: "Total Ad Revenue", value: "$240.6K", growth: "+37%" },
+    { label: "Total Ad Revenue", value: "$174.5K", growth: "+37%" },
     { label: "Total Orders", value: "2,847", growth: "+34%" },
     { label: "Cost Per Visit", value: "$1.89", growth: "↓38%" },
-    { label: "Blended ROAS", value: "5.05x", growth: "+47%" },
+    { label: "Blended ROAS", value: "3.66x", growth: "+47%" },
     { label: "Organic Traffic", value: "+137%", growth: "2,134→5,058/mo" },
     { label: "Keywords Top 20", value: "347", growth: "from 41" },
   ],

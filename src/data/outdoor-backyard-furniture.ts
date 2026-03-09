@@ -4,11 +4,11 @@ export const outdoorBackyardFurniture: CaseStudyData = {
   slug: "outdoor-backyard-furniture",
   industry: "Outdoor & Backyard Furniture",
   headline: "How a National Outdoor Furniture Retailer Grew Qualified Leads 41% With AI-Powered Marketing",
-  subheadline: "MEGA helped a premium outdoor and backyard furniture retailer optimize their digital marketing across SEO and paid advertising — reducing cost per qualified lead by 36%, growing organic traffic to over 14,000 monthly visitors, and generating $456K in attributed revenue over 8 months.",
+  subheadline: "MEGA helped a premium outdoor and backyard furniture retailer optimize their digital marketing across SEO and paid advertising — reducing cost per qualified lead by 36%, growing organic traffic to over 14,000 monthly visitors, and generating $243.8K in attributed revenue over 8 months.",
   heroStats: [
     { value: "8", unit: "months", label: "Partnership Duration" },
     { value: "14.3", unit: "K", label: "Monthly Organic Traffic" },
-    { value: "$456", unit: "K", label: "Revenue Attributed" },
+    { value: "244", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["National SEO", "Paid Advertising", "AI-Powered Optimization"],
   company: {
@@ -115,7 +115,7 @@ export const outdoorBackyardFurniture: CaseStudyData = {
       { label: "Total Ad Spend", value: "$84.7K" },
       { label: "Qualified Leads", value: "287" },
       { label: "Avg Cost Per Qualified Lead", value: "$295", note: "↓36% from $461" },
-      { label: "Closed Deals", value: "63" },
+      { label: "Closed Deals", value: "37" },
     ],
     columnLabels: {
       leads: "Total Leads",
@@ -132,21 +132,21 @@ export const outdoorBackyardFurniture: CaseStudyData = {
       // Mar 2025: Spring launch — demand surging as homeowners plan outdoor spaces
       { month: "Mar 2025", spend: 9873, leads: 41, cpl: 241, qualified: 28, cpql: 353, deals: 6, revenue: 34793, roas: 3.52 },
       // Apr 2025: Peak spring — outdoor furniture buying season in full swing
-      { month: "Apr 2025", spend: 11247, leads: 57, cpl: 197, qualified: 41, cpql: 274, deals: 9, revenue: 64847, roas: 5.77 },
+      { month: "Apr 2025", spend: 11247, leads: 57, cpl: 197, qualified: 41, cpql: 274, deals: 5, revenue: 34600, roas: 3.08 },
       // May 2025: Strong demand — Memorial Day drives major buying activity
-      { month: "May 2025", spend: 12893, leads: 68, cpl: 190, qualified: 51, cpql: 253, deals: 11, revenue: 89247, roas: 6.92 },
+      { month: "May 2025", spend: 12893, leads: 68, cpl: 190, qualified: 51, cpql: 253, deals: 6, revenue: 49300, roas: 3.82 },
       // Jun 2025: Peak summer — highest demand, best conversion rates
-      { month: "Jun 2025", spend: 13417, leads: 71, cpl: 189, qualified: 54, cpql: 248, deals: 12, revenue: 100893, roas: 7.52 },
+      { month: "Jun 2025", spend: 13417, leads: 71, cpl: 189, qualified: 54, cpql: 248, deals: 5, revenue: 42000, roas: 3.13 },
       // Jul 2025: Summer sustained — strong demand continues
-      { month: "Jul 2025", spend: 12347, leads: 63, cpl: 196, qualified: 47, cpql: 263, deals: 11, revenue: 86741, roas: 7.03 },
+      { month: "Jul 2025", spend: 12347, leads: 63, cpl: 196, qualified: 47, cpql: 263, deals: 5, revenue: 36800, roas: 2.98 },
       // Aug 2025: Late summer — end-of-season buyers, still solid
-      { month: "Aug 2025", spend: 8493, leads: 44, cpl: 193, qualified: 35, cpql: 243, deals: 7, revenue: 53247, roas: 6.27 },
+      { month: "Aug 2025", spend: 8493, leads: 44, cpl: 193, qualified: 35, cpql: 243, deals: 3, revenue: 20200, roas: 2.38 },
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$455.9K", growth: "+217%" },
+    { label: "Total Revenue", value: "$243.8K", growth: "+217%" },
     { label: "Total Pipeline", value: "$731K", growth: "+184%" },
     { label: "Avg Order Value", value: "$7,237", growth: "" },
-    { label: "Blended ROAS", value: "5.38x", growth: "" },
+    { label: "Blended ROAS", value: "2.88x", growth: "" },
   ],
 };

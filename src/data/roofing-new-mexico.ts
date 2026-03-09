@@ -4,11 +4,11 @@ export const roofingNewMexico: CaseStudyData = {
   slug: "roofing-new-mexico",
   industry: "Roofing",
   headline: "How a New Mexico Roofing Company Cut Cost Per Lead 31% While Pushing Qualification Rates to 69%",
-  subheadline: "MEGA helped a residential and commercial roofing company in Albuquerque, New Mexico refine their paid advertising from high-volume, low-quality leads to a qualification-first system — dropping cost per lead to $130, achieving a 69% qualification rate, and generating $164K in attributed revenue over 4 months.",
+  subheadline: "MEGA helped a residential and commercial roofing company in Albuquerque, New Mexico refine their paid advertising from high-volume, low-quality leads to a qualification-first system — dropping cost per lead to $130, achieving a 69% qualification rate, and generating $130.3K in attributed revenue over 4 months.",
   heroStats: [
     { value: "4", unit: "months", label: "Partnership Duration" },
     { value: "69", unit: "%", label: "Qualification Rate" },
-    { value: "$164", unit: "K", label: "Revenue Attributed" },
+    { value: "130", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["Paid Advertising", "Lead Quality Optimization", "Local Service Marketing"],
   company: {
@@ -108,15 +108,15 @@ export const roofingNewMexico: CaseStudyData = {
     monthly: [
       { month: "Jun 2025", spend: 7567, leads: 39, cpl: 194, qualified: 15, cpql: 504, deals: 6, revenue: 27600, roas: 3.65 },
       { month: "Jul 2025", spend: 8214, leads: 51, cpl: 161, qualified: 26, cpql: 316, deals: 11, revenue: 38500, roas: 4.69 },
-      { month: "Aug 2025", spend: 8389, leads: 58, cpl: 145, qualified: 38, cpql: 221, deals: 17, revenue: 51000, roas: 6.08 },
-      { month: "Sep 2025", spend: 7648, leads: 59, cpl: 130, qualified: 42, cpql: 182, deals: 19, revenue: 47500, roas: 6.21 },
+      { month: "Aug 2025", spend: 8389, leads: 58, cpl: 145, qualified: 38, cpql: 221, deals: 13, revenue: 38600, roas: 4.6 },
+      { month: "Sep 2025", spend: 7648, leads: 59, cpl: 130, qualified: 42, cpql: 182, deals: 10, revenue: 25600, roas: 3.35 },
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$164.6K", growth: "" },
+    { label: "Total Revenue", value: "$130.3K", growth: "" },
     { label: "Signed Contracts", value: "53", growth: "" },
     { label: "Avg Contract Value", value: "$3,106", growth: "" },
-    { label: "Blended ROAS", value: "5.17x", growth: "" },
+    { label: "Blended ROAS", value: "4.10x", growth: "" },
     { label: "Qualification Rate", value: "36% → 69%", growth: "+33pts" },
     { label: "Cost/Lead", value: "$194 → $130", growth: "↓31%" },
   ],

@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const financialServicesCalifornia: CaseStudyData = {
   slug: "financial-services-california",
   industry: "Financial Services",
-  headline: "How a California Financial Services Firm Drove $1.35M in New Revenue Through SEO & Paid Ads in 8 Months",
+  headline: "How a California Financial Services Firm Drove $969.8K in New Revenue Through SEO & Paid Ads in 8 Months",
   subheadline: "MEGA partnered with a boutique wealth advisory and insurance firm in California to build a scalable digital acquisition engine — reducing cost per qualified lead by 38%, ranking for 8,200+ keywords, and closing 47 new high-value clients through an integrated SEO and paid advertising strategy.",
   heroStats: [
     { value: "8", unit: "months", label: "Partnership Duration" },
     { value: "38", unit: "%", label: "Qualified Lead Cost Reduction" },
-    { value: "$1.35", unit: "M", label: "New Client Revenue" },
+    { value: "970", unit: "K", label: "New Client Revenue" },
   ],
   tags: ["SEO Strategy", "Paid Advertising", "Lead Generation"],
   company: {
@@ -128,8 +128,8 @@ export const financialServicesCalifornia: CaseStudyData = {
       { month: "Apr", spend: 42183, leads: 62, cpl: 680, qualified: 28, cpql: 1507, deals: 6, revenue: 176400, roas: 4.18 },
       { month: "May", spend: 36524, leads: 56, cpl: 652, qualified: 25, cpql: 1461, deals: 5, revenue: 139000, roas: 3.80 },
       { month: "Jun", spend: 32891, leads: 51, cpl: 645, qualified: 23, cpql: 1430, deals: 4, revenue: 114000, roas: 3.47 },
-      { month: "Jul", spend: 33417, leads: 54, cpl: 619, qualified: 27, cpql: 1238, deals: 6, revenue: 173400, roas: 5.19 },
-      { month: "Aug", spend: 40418, leads: 67, cpl: 603, qualified: 33, cpql: 1225, deals: 8, revenue: 233600, roas: 5.78 },
+      { month: "Jul", spend: 33417, leads: 54, cpl: 619, qualified: 27, cpql: 1238, deals: 3, revenue: 97600, roas: 2.92 },
+      { month: "Aug", spend: 40418, leads: 67, cpl: 603, qualified: 33, cpql: 1225, deals: 5, revenue: 155600, roas: 3.85 },
     ],
   },
   localSeo: {
@@ -181,10 +181,10 @@ export const financialServicesCalifornia: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "New Client Revenue Generated", value: "$1.12M", growth: "" },
+    { label: "New Client Revenue Generated", value: "$969.8K", growth: "" },
     { label: "Total New Clients (Paid + Organic)", value: "47", growth: "+313%" },
     { label: "Blended Cost Per Client", value: "$6,198", growth: "↓38%" },
-    { label: "Overall ROAS", value: "3.86x", growth: "" },
+    { label: "Overall ROAS", value: "3.33x", growth: "" },
     { label: "Organic Traffic Growth", value: "14,871/mo", growth: "+2,118%" },
     { label: "Ranked Keywords", value: "8,213", growth: "+7,428%" },
   ],

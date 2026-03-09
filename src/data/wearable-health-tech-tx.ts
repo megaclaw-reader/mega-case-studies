@@ -6,9 +6,9 @@ export const wearableHealthTechTx: CaseStudyData = {
   headline: "How a Texas-Based Wearable Health Tech Startup Scaled Ad Spend From $20K to $60K — While Lifting ROAS From 1.3x to 4.6x",
   subheadline: "MEGA helped a subscription-based wearable health technology startup in Texas transform struggling paid campaigns and build organic search authority — scaling monthly ad spend from $20,000 to $60,000 while improving ROAS from a below-breakeven 1.3x to a profitable 4.6x across 7 months of hyper growth.",
   heroStats: [
-    { value: "4.6", unit: "x", label: "Peak ROAS (from 1.3x)" },
+    { value: "3.6", unit: "x", label: "Peak ROAS (from 1.3x)" },
     { value: "4,617", unit: "+", label: "Ranking Keywords" },
-    { value: "$1.05", unit: "M", label: "Total Revenue" },
+    { value: "931", unit: "K", label: "Total Revenue" },
   ],
   tags: ["SEO Strategy", "Paid Advertising", "Ecommerce", "Subscription Model"],
   company: {
@@ -131,7 +131,7 @@ export const wearableHealthTechTx: CaseStudyData = {
   organicConversions: {
     summary: [
       { label: "Total Organic Orders", value: "487", growth: "+4,770%", note: "1/mo → 198/mo" },
-      { label: "Total Organic Revenue", value: "$114.2K", growth: "+5,318%", note: "$287/mo → $58.5K/mo" },
+      { label: "Total Organic Revenue", value: "$931.3K", growth: "+5,318%", note: "$287/mo → $58.5K/mo" },
       { label: "Avg Order Value", value: "$294.87", note: "device + first month subscription" },
       { label: "Subscription Activation Rate", value: "91.4%", note: "of device purchasers" },
     ],

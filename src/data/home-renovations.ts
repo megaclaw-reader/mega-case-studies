@@ -4,11 +4,11 @@ export const homeRenovations: CaseStudyData = {
   slug: "home-renovations",
   industry: "Home Renovations",
   headline: "How a Raleigh Home Renovation Company Cut Cost Per Qualified Lead 38% With ICP-Driven Optimization",
-  subheadline: "MEGA helped a full-service home renovation company in Raleigh, NC leverage form fill and phone call data to build an ICP feedback loop — reducing CPQL from $485 to $301, scaling ad spend from $5K to $9.5K/month, and generating $649K in attributed revenue over 12 months.",
+  subheadline: "MEGA helped a full-service home renovation company in Raleigh, NC leverage form fill and phone call data to build an ICP feedback loop — reducing CPQL from $485 to $301, scaling ad spend from $5K to $9.5K/month, and generating $314.7K in attributed revenue over 12 months.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
     { value: "38", unit: "%", label: "CPQL Reduction" },
-    { value: "$649", unit: "K", label: "Revenue Attributed" },
+    { value: "315", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["Paid Advertising", "ICP Optimization", "Lead Quality"],
   company: {
@@ -94,7 +94,7 @@ export const homeRenovations: CaseStudyData = {
       { label: "Total Ad Spend", value: "$86.9K" },
       { label: "Qualified Leads", value: "289" },
       { label: "Avg CPQL", value: "$301", note: "↓38% from $485" },
-      { label: "Closed Jobs", value: "73" },
+      { label: "Closed Jobs", value: "34" },
     ],
     columnLabels: {
       leads: "Total Leads",
@@ -106,35 +106,35 @@ export const homeRenovations: CaseStudyData = {
     monthly: [
       // Month 1 (Jan 2025): Baseline — auditing, setting up tracking, inherited performance
       // spend 5000, leads 26, cpl 192, qual 10, cpql 500, deals 2
-      { month: "Jan 2025", spend: 5000, leads: 26, cpl: 192, qualified: 10, cpql: 500, deals: 2, revenue: 27000, roas: 5.40 },
+      { month: "Jan 2025", spend: 5000, leads: 26, cpl: 192, qualified: 10, cpql: 500, deals: 1, revenue: 15900, roas: 3.18 },
       // Month 2 (Feb): Tracking live, new landing pages, ICP data collection begins
-      { month: "Feb 2025", spend: 5300, leads: 29, cpl: 183, qualified: 15, cpql: 353, deals: 3, revenue: 38000, roas: 7.17 },
+      { month: "Feb 2025", spend: 5300, leads: 29, cpl: 183, qualified: 15, cpql: 353, deals: 2, revenue: 20000, roas: 3.77 },
       // Month 3 (Mar): Spring planning — homeowners booking summer projects, ICP patterns emerging
-      { month: "Mar 2025", spend: 5600, leads: 35, cpl: 160, qualified: 20, cpql: 280, deals: 5, revenue: 52000, roas: 9.29 },
+      { month: "Mar 2025", spend: 5600, leads: 35, cpl: 160, qualified: 20, cpql: 280, deals: 2, revenue: 25400, roas: 4.54 },
       // Month 4 (Apr): Spring peak — ICP feedback loop active, strong lead quality
-      { month: "Apr 2025", spend: 6100, leads: 42, cpl: 145, qualified: 28, cpql: 218, deals: 8, revenue: 72000, roas: 11.80 },
+      { month: "Apr 2025", spend: 6100, leads: 42, cpl: 145, qualified: 28, cpql: 218, deals: 3, revenue: 27700, roas: 4.54 },
       // Month 5 (May): Peak season — highest lead volume, ICP targeting fully refined
-      { month: "May 2025", spend: 6600, leads: 46, cpl: 143, qualified: 33, cpql: 200, deals: 9, revenue: 81000, roas: 12.27 },
+      { month: "May 2025", spend: 6600, leads: 46, cpl: 143, qualified: 33, cpql: 200, deals: 3, revenue: 31200, roas: 4.73 },
       // Month 6 (Jun): Summer strong — outdoor projects, additions
-      { month: "Jun 2025", spend: 7100, leads: 43, cpl: 165, qualified: 30, cpql: 237, deals: 8, revenue: 68000, roas: 9.58 },
+      { month: "Jun 2025", spend: 7100, leads: 43, cpl: 165, qualified: 30, cpql: 237, deals: 3, revenue: 29700, roas: 4.18 },
       // Month 7 (Jul): Mid-summer — sustained demand, ICP model mature
-      { month: "Jul 2025", spend: 7500, leads: 40, cpl: 188, qualified: 28, cpql: 268, deals: 7, revenue: 62000, roas: 8.27 },
+      { month: "Jul 2025", spend: 7500, leads: 40, cpl: 188, qualified: 28, cpql: 268, deals: 4, revenue: 31800, roas: 4.24 },
       // Month 8 (Aug): Late summer taper — budget continues scaling
-      { month: "Aug 2025", spend: 8000, leads: 36, cpl: 222, qualified: 25, cpql: 320, deals: 6, revenue: 51000, roas: 6.38 },
+      { month: "Aug 2025", spend: 8000, leads: 36, cpl: 222, qualified: 25, cpql: 320, deals: 2, revenue: 18800, roas: 2.35 },
       // Month 9 (Sep): Fall — interior project shift, moderate demand
-      { month: "Sep 2025", spend: 8300, leads: 33, cpl: 252, qualified: 23, cpql: 361, deals: 6, revenue: 45000, roas: 5.42 },
+      { month: "Sep 2025", spend: 8300, leads: 33, cpl: 252, qualified: 23, cpql: 361, deals: 3, revenue: 23200, roas: 2.8 },
       // Month 10 (Oct): Fall — holiday renovation push, ICP keeps quality steady
-      { month: "Oct 2025", spend: 8800, leads: 36, cpl: 244, qualified: 27, cpql: 326, deals: 7, revenue: 56000, roas: 6.36 },
+      { month: "Oct 2025", spend: 8800, leads: 36, cpl: 244, qualified: 27, cpql: 326, deals: 3, revenue: 26100, roas: 2.97 },
       // Month 11 (Nov): Winter slowdown — ICP compensates for lower volume
       { month: "Nov 2025", spend: 9100, leads: 31, cpl: 294, qualified: 23, cpql: 396, deals: 5, revenue: 42000, roas: 4.62 },
       // Month 12 (Dec): Winter — planning season starting, budget at peak
-      { month: "Dec 2025", spend: 9500, leads: 36, cpl: 264, qualified: 27, cpql: 352, deals: 7, revenue: 55000, roas: 5.79 },
+      { month: "Dec 2025", spend: 9500, leads: 36, cpl: 264, qualified: 27, cpql: 352, deals: 3, revenue: 22900, roas: 2.41 },
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$649K", growth: "+187%" },
+    { label: "Total Revenue", value: "$314.7K", growth: "+187%" },
     { label: "Qualified Leads", value: "289", growth: "+94%" },
     { label: "CPQL Reduction", value: "$301", growth: "↓38%" },
-    { label: "Blended ROAS", value: "7.47x", growth: "" },
+    { label: "Blended ROAS", value: "3.62x", growth: "" },
   ],
 };

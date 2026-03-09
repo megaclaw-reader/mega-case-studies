@@ -3,11 +3,11 @@ import { CaseStudyData } from "./types";
 export const beautySpaAustin: CaseStudyData = {
   slug: "beauty-spa-austin",
   industry: "Beauty Spa",
-  headline: "How an Austin Beauty Spa Increased Lead Qualification Rate From 21% to 39% While Scaling Ad Spend — Driving $125K in Revenue Over 6 Months",
+  headline: "How an Austin Beauty Spa Increased Lead Qualification Rate From 21% to 39% While Scaling Ad Spend — Driving $125.5K in Revenue Over 6 Months",
   subheadline: "MEGA helped a facials, body treatments, and skincare spa in Austin, Texas build an SEO foundation and optimize paid campaigns around lead quality — improving the qualification rate from 21.5% to 38.9% and achieving a 2.80x blended ROAS on services averaging $80–$300 per appointment.",
   heroStats: [
     { value: "6", unit: "months", label: "Partnership Duration" },
-    { value: "$125", unit: "K", label: "Revenue Attributed" },
+    { value: "125", unit: "K", label: "Revenue Attributed" },
     { value: "39", unit: "%", label: "Lead Qualification Rate" },
   ],
   tags: ["Paid Advertising", "SEO Strategy", "Lead Quality Optimization"],

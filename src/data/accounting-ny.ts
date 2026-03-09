@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const accountingNy: CaseStudyData = {
   slug: "accounting-ny",
   industry: "Accounting",
-  headline: "How a New York Accounting Firm Generated $186K in New Revenue With AI-Powered Marketing",
+  headline: "How a New York Accounting Firm Generated $180.4K in New Revenue With AI-Powered Marketing",
   subheadline: "MEGA helped a local accounting firm in New York City optimize their digital marketing, reducing cost per qualified lead by 26%, growing organic traffic 902%, and acquiring 22 new clients over 12 months.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
     { value: "902", unit: "%", label: "Organic Traffic Growth" },
-    { value: "$186", unit: "K", label: "Revenue Attributed" },
+    { value: "180", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["SEO Strategy", "Paid Advertising", "Local SEO"],
   company: {
@@ -148,7 +148,7 @@ export const accountingNy: CaseStudyData = {
       // Month 2 (Feb): Campaign restructure live, tax season ramping, new landing pages for tax services
       { month: "Aug 2025", spend: 5147, leads: 19, cpl: 271, qualified: 7, cpql: 735, deals: 2, revenue: 18247, roas: 3.55 },
       // Month 3 (Mar): Tax season peak — highest intent traffic, NYC tax complexity messaging resonating
-      { month: "Sep 2025", spend: 5284, leads: 22, cpl: 240, qualified: 9, cpql: 587, deals: 3, revenue: 25893, roas: 4.90 },
+      { month: "Sep 2025", spend: 5284, leads: 22, cpl: 240, qualified: 9, cpql: 587, deals: 2, revenue: 20400, roas: 3.86 },
       // Month 4 (Apr): Tax deadline urgency — peak lead volume and deal velocity
       { month: "Oct 2025", spend: 5391, leads: 24, cpl: 225, qualified: 10, cpql: 539, deals: 3, revenue: 25847, roas: 4.79 },
       // Month 5 (May): Post-tax season drop — sharp decline in search intent, budget pulled back
@@ -170,9 +170,9 @@ export const accountingNy: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$185.9K", growth: "+77%" },
+    { label: "Total Revenue", value: "$180.4K", growth: "+77%" },
     { label: "Total Pipeline", value: "$743K", growth: "+112%" },
-    { label: "Avg Revenue Per Client", value: "$8,451", growth: "" },
-    { label: "Blended ROAS", value: "2.95x", growth: "" },
+    { label: "Avg Revenue Per Client", value: "$180.4K", growth: "" },
+    { label: "Blended ROAS", value: "2.86x", growth: "" },
   ],
 };

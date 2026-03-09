@@ -6,7 +6,7 @@ export const roofingAlabama: CaseStudyData = {
   headline: "How Alabama Premier Roofing Generated 2,847 Qualified Leads and $4.2M Revenue in 8 Months",
   subheadline: "Dominating Alabama's competitive roofing market through strategic SEO and paid advertising during peak storm season",
   heroStats: [
-    { value: "$7.4M", unit: "", label: "Total Revenue Generated" },
+    { value: "892", unit: "K", label: "Total Revenue Generated" },
     { value: "30.4x", unit: "", label: "Blended ROAS" },
     { value: "2,847", unit: "", label: "Qualified Leads" }
   ],
@@ -95,8 +95,8 @@ export const roofingAlabama: CaseStudyData = {
       { label: "Total Ad Spend", value: "$244.8K" },
       { label: "Total Qualified Leads", value: "1,582" },
       { label: "Avg CPQL", value: "$154.73" },
-      { label: "Total Revenue", value: "$7,446,960" },
-      { label: "Blended ROAS", value: "30.4x" }
+      { label: "Total Revenue", value: "$892.5K" },
+      { label: "Blended ROAS", value: "3.65x" }
     ],
     columnLabels: {
       leads: "Total Leads",
@@ -113,9 +113,9 @@ export const roofingAlabama: CaseStudyData = {
         cpl: 167,
         qualified: 98,
         cpql: 242,
-        deals: 23,
-        revenue: 437850,
-        roas: 18.5
+        deals: 4,
+        revenue: 69100,
+        roas: 2.92
       },
       {
         month: "Feb 2025", 
@@ -124,9 +124,9 @@ export const roofingAlabama: CaseStudyData = {
         cpl: 148,
         qualified: 124,
         cpql: 201,
-        deals: 28,
-        revenue: 542760,
-        roas: 21.8
+        deals: 4,
+        revenue: 70200,
+        roas: 2.82
       },
       {
         month: "Mar 2025",
@@ -135,9 +135,9 @@ export const roofingAlabama: CaseStudyData = {
         cpl: 140,
         qualified: 152,
         cpql: 186,
-        deals: 36,
-        revenue: 697320,
-        roas: 24.6
+        deals: 6,
+        revenue: 118200,
+        roas: 4.17
       },
       {
         month: "Apr 2025",
@@ -146,9 +146,9 @@ export const roofingAlabama: CaseStudyData = {
         cpl: 127,
         qualified: 189,
         cpql: 165,
-        deals: 44,
-        revenue: 859760,
-        roas: 27.5
+        deals: 6,
+        revenue: 123800,
+        roas: 3.96
       },
       {
         month: "May 2025",
@@ -157,9 +157,9 @@ export const roofingAlabama: CaseStudyData = {
         cpl: 115,
         qualified: 227,
         cpql: 146,
-        deals: 53,
-        revenue: 1048740,
-        roas: 31.6
+        deals: 7,
+        revenue: 150600,
+        roas: 4.54
       },
       {
         month: "Jun 2025",
@@ -168,9 +168,9 @@ export const roofingAlabama: CaseStudyData = {
         cpl: 109,
         qualified: 263,
         cpql: 136,
-        deals: 62,
-        revenue: 1274820,
-        roas: 35.7
+        deals: 4,
+        revenue: 86700,
+        roas: 2.43
       },
       {
         month: "Jul 2025",
@@ -179,9 +179,9 @@ export const roofingAlabama: CaseStudyData = {
         cpl: 102,
         qualified: 278,
         cpql: 126,
-        deals: 67,
-        revenue: 1387450,
-        roas: 39.7
+        deals: 8,
+        revenue: 162700,
+        roas: 4.66
       },
       {
         month: "Aug 2025",
@@ -190,15 +190,15 @@ export const roofingAlabama: CaseStudyData = {
         cpl: 105,
         qualified: 251,
         cpql: 131,
-        deals: 58,
-        revenue: 1198260,
-        roas: 36.4
+        deals: 5,
+        revenue: 111200,
+        roas: 3.38
       }
     ]
   },
   
   impact: [
-    { label: "Total Revenue Generated", value: "$7.45M", growth: "" },
+    { label: "Total Revenue Generated", value: "$892.5K", growth: "" },
     { label: "Return on Ad Spend", value: "30.4x ROAS", growth: "" },
     { label: "Authority Score Growth", value: "17 → 25", growth: "+47%" },
     { label: "Keyword Rankings", value: "3,847 keywords", growth: "+2,927%" },

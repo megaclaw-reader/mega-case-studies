@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const renovationOutlet: CaseStudyData = {
   slug: "renovation-outlet",
   industry: "Home Renovation Supplies",
-  headline: "How a Florida Renovation Outlet Grew Qualified Leads 214% and Generated $471K in Revenue",
+  headline: "How a Florida Renovation Outlet Grew Qualified Leads 214% and Generated $350.1K in Revenue",
   subheadline: "MEGA helped a Florida-based home renovation supplies retailer dominate local search, optimize paid advertising across seasonal demand cycles, and build a lead-to-sale pipeline that delivered a 5.14x blended ROAS over 12 months — transforming sporadic foot traffic into a predictable revenue engine.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
     { value: "214", unit: "%", label: "Qualified Lead Growth" },
-    { value: "$471", unit: "K", label: "Revenue Attributed" },
+    { value: "350", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["Local SEO", "Paid Advertising"],
   company: {
@@ -121,7 +121,7 @@ export const renovationOutlet: CaseStudyData = {
       { label: "Total Ad Spend", value: "$94.8K" },
       { label: "Qualified Leads", value: "394" },
       { label: "Avg Cost Per Qualified Lead", value: "$240", note: "↓12% from $274" },
-      { label: "Closed Deals", value: "115" },
+      { label: "Closed Deals", value: "85" },
     ],
     columnLabels: {
       leads: "Total Leads",
@@ -136,32 +136,32 @@ export const renovationOutlet: CaseStudyData = {
       // Feb 2025: Early spring planning season, campaigns restructured
       { month: "Feb 2025", spend: 6347, leads: 38, cpl: 167, qualified: 21, cpql: 302, deals: 6, revenue: 23891, roas: 3.76 },
       // Mar 2025: Spring renovation season ramps — strong contractor activity
-      { month: "Mar 2025", spend: 7891, leads: 52, cpl: 152, qualified: 31, cpql: 255, deals: 9, revenue: 38473, roas: 4.87 },
+      { month: "Mar 2025", spend: 7891, leads: 52, cpl: 152, qualified: 31, cpql: 255, deals: 7, revenue: 31100, roas: 3.94 },
       // Apr 2025: Peak spring — highest renovation planning and material sourcing
-      { month: "Apr 2025", spend: 9247, leads: 67, cpl: 138, qualified: 42, cpql: 220, deals: 13, revenue: 53147, roas: 5.75 },
+      { month: "Apr 2025", spend: 9247, leads: 67, cpl: 138, qualified: 42, cpql: 220, deals: 6, revenue: 25500, roas: 2.76 },
       // May 2025: Sustained spring peak, contractor bulk orders strong
-      { month: "May 2025", spend: 9673, leads: 71, cpl: 136, qualified: 46, cpql: 210, deals: 14, revenue: 57293, roas: 5.92 },
+      { month: "May 2025", spend: 9673, leads: 71, cpl: 136, qualified: 46, cpql: 210, deals: 6, revenue: 24600, roas: 2.54 },
       // Jun 2025: Early hurricane season — some demand shift to repair materials
-      { month: "Jun 2025", spend: 8741, leads: 61, cpl: 143, qualified: 39, cpql: 224, deals: 11, revenue: 44147, roas: 5.05 },
+      { month: "Jun 2025", spend: 8741, leads: 61, cpl: 143, qualified: 39, cpql: 224, deals: 10, revenue: 40500, roas: 4.63 },
       // Jul 2025: Mid-summer — Florida heat slows some projects, steady baseline
       { month: "Jul 2025", spend: 7234, leads: 48, cpl: 151, qualified: 29, cpql: 249, deals: 8, revenue: 31947, roas: 4.42 },
       // Aug 2025: Late summer — back-to-school impact, pre-hurricane prep begins
       { month: "Aug 2025", spend: 6891, leads: 44, cpl: 157, qualified: 26, cpql: 265, deals: 7, revenue: 27473, roas: 3.99 },
       // Sep 2025: Hurricane season peak — surge in repair/rebuild material demand
-      { month: "Sep 2025", spend: 8417, leads: 59, cpl: 143, qualified: 37, cpql: 228, deals: 11, revenue: 46291, roas: 5.50 },
+      { month: "Sep 2025", spend: 8417, leads: 59, cpl: 143, qualified: 37, cpql: 228, deals: 7, revenue: 31000, roas: 3.68 },
       // Oct 2025: Post-storm recovery demand + fall renovation activity
-      { month: "Oct 2025", spend: 8947, leads: 64, cpl: 140, qualified: 41, cpql: 218, deals: 12, revenue: 51847, roas: 5.80 },
+      { month: "Oct 2025", spend: 8947, leads: 64, cpl: 140, qualified: 41, cpql: 218, deals: 7, revenue: 30700, roas: 3.43 },
       // Nov 2025: Snowbird season begins — vacation property upgrades ramp
-      { month: "Nov 2025", spend: 7891, leads: 54, cpl: 146, qualified: 34, cpql: 232, deals: 10, revenue: 41293, roas: 5.23 },
+      { month: "Nov 2025", spend: 7891, leads: 54, cpl: 146, qualified: 34, cpql: 232, deals: 8, revenue: 33500, roas: 4.25 },
       // Dec 2025: Holiday slowdown offset by snowbird demand and year-end contractor projects
-      { month: "Dec 2025", spend: 7347, leads: 49, cpl: 150, qualified: 30, cpql: 245, deals: 9, revenue: 37247, roas: 5.07 },
+      { month: "Dec 2025", spend: 7347, leads: 49, cpl: 150, qualified: 30, cpql: 245, deals: 8, revenue: 31600, roas: 4.3 },
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$471.3K", growth: "+187%" },
+    { label: "Total Revenue", value: "$350.1K", growth: "+187%" },
     { label: "Qualified Leads", value: "587", growth: "+214%" },
     { label: "Cost/Qualified Lead", value: "$161", growth: "↓41%" },
-    { label: "Blended ROAS", value: "4.97x", growth: "" },
+    { label: "Blended ROAS", value: "3.69x", growth: "" },
     { label: "Organic Traffic", value: "+3,601%", growth: "347→12,841/mo" },
     { label: "Keywords Top 20", value: "8,247", growth: "from 87" },
   ],

@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const wearableHealthTech: CaseStudyData = {
   slug: "wearable-health-tech",
   industry: "Ecommerce",
-  headline: "How a DTC Wearable Health Tech Brand Scaled From $10K to $28K Monthly Ad Spend — and Hit 5.4x ROAS",
+  headline: "How a DTC Wearable Health Tech Brand Scaled From $10K to $28K Monthly Ad Spend — and Hit 3.8x ROAS",
   subheadline: "MEGA helped a direct-to-consumer wearable health technology company optimize paid campaigns and organic search simultaneously — growing monthly revenue from $24K to over $152K while scaling ad spend strategically as ROAS improved from 2.4x to 5.4x across 10 months.",
   heroStats: [
-    { value: "5.4", unit: "x", label: "Peak ROAS" },
+    { value: "3.8", unit: "x", label: "Peak ROAS" },
     { value: "8,247", unit: "+", label: "Ranking Keywords" },
-    { value: "$939", unit: "K", label: "Total Revenue" },
+    { value: "676", unit: "K", label: "Total Revenue" },
   ],
   tags: ["SEO Strategy", "Paid Advertising", "Ecommerce", "DTC Strategy"],
   company: {
@@ -113,9 +113,9 @@ export const wearableHealthTech: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$178.2K" },
-      { label: "Total Orders", value: "3,114" },
+      { label: "Total Orders", value: "2,942" },
       { label: "Avg Cost Per Acquisition", value: "$57.24", note: "↓38% from $91.34" },
-      { label: "Blended ROAS", value: "4.02x", note: "from 2.39x baseline" },
+      { label: "Blended ROAS", value: "3.79x", note: "from 2.39x baseline" },
     ],
     columnLabels: {
       leads: "Sessions",
@@ -142,7 +142,7 @@ export const wearableHealthTech: CaseStudyData = {
       // Oct 2025: Pre-holiday — gift buyer audiences activated, budget ramps
       { month: "Oct 2025", spend: 22140, leads: 19425, cpl: 1.14, qualified: 1651, cpql: 13.41, deals: 421, revenue: 97451, roas: 4.40 },
       // Nov 2025: Holiday season — Black Friday / gifting peak, maximum budget
-      { month: "Nov 2025", spend: 27890, leads: 25091, cpl: 1.11, qualified: 2258, cpql: 12.35, deals: 589, revenue: 138417, roas: 4.96 },
+      { month: "Nov 2025", spend: 27890, leads: 25091, cpl: 1.11, qualified: 2258, cpql: 12.35, deals: 417, revenue: 97900, roas: 3.51 },
       // Dec 2025: Holiday tail + New Year resolution pre-sell — highest ROAS month
       { month: "Dec 2025", spend: 25980, leads: 22677, cpl: 1.15, qualified: 2041, cpql: 12.73, deals: 514, revenue: 121298, roas: 4.67 },
     ],
@@ -150,7 +150,7 @@ export const wearableHealthTech: CaseStudyData = {
   organicConversions: {
     summary: [
       { label: "Total Organic Orders", value: "1,023", growth: "+5,010%", note: "2/mo → 387/mo" },
-      { label: "Total Organic Revenue", value: "$222.2K", growth: "+5,247%", note: "$412/mo → $84.1K/mo" },
+      { label: "Total Organic Revenue", value: "$676.2K", growth: "+5,247%", note: "$412/mo → $84.1K/mo" },
       { label: "Avg Order Value", value: "$217.37", note: "consistent with $217 baseline" },
       { label: "Add-to-Cart Rate", value: "4.23%", note: "from organic traffic" },
     ],
@@ -189,8 +189,8 @@ export const wearableHealthTech: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Ad Revenue", value: "$716.8K", growth: "+287%" },
-    { label: "Blended ROAS", value: "4.02x", growth: "from 2.39x" },
+    { label: "Total Ad Revenue", value: "$676.2K", growth: "+287%" },
+    { label: "Blended ROAS", value: "3.79x", growth: "from 2.39x" },
     { label: "Ranking Keywords", value: "8,247", growth: "+8,676%" },
     { label: "Total Ad Spend", value: "$178.3K", growth: "Scaled 180%" },
   ],

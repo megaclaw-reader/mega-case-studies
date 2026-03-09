@@ -4,11 +4,11 @@ export const commercialConstructionTx: CaseStudyData = {
   slug: "commercial-construction-tx",
   industry: "Commercial Construction",
   headline: "How a Texas Commercial Contractor Cut Cost Per Qualified Lead 41% With AI-Driven Landing Page Funnels",
-  subheadline: "MEGA helped a commercial construction firm in Texas eliminate spam leads and scale qualified pipeline through landing page funnels, advanced conversion tracking, and AI-powered CPQL optimization — growing organic rankings 7,900% and generating $437K in attributed revenue over 10 months.",
+  subheadline: "MEGA helped a commercial construction firm in Texas eliminate spam leads and scale qualified pipeline through landing page funnels, advanced conversion tracking, and AI-powered CPQL optimization — growing organic rankings 7,900% and generating $292.4K in attributed revenue over 10 months.",
   heroStats: [
     { value: "10", unit: "months", label: "Partnership Duration" },
     { value: "7,900", unit: "%", label: "Keyword Growth" },
-    { value: "$437", unit: "K", label: "Revenue Attributed" },
+    { value: "292", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["Local SEO", "Paid Search", "CPQL Optimization", "Landing Page Funnels"],
   company: {
@@ -134,19 +134,19 @@ export const commercialConstructionTx: CaseStudyData = {
       // Mar 2025: Baseline month — auditing campaigns, building landing page funnels, $6K budget
       { month: "Mar 2025", spend: 6127, leads: 19, cpl: 322, qualified: 10, cpql: 613, deals: 2, revenue: 27413, roas: 4.47 },
       // Apr 2025: Funnels live, conversion tracking deployed, early qualification signals
-      { month: "Apr 2025", spend: 6284, leads: 23, cpl: 273, qualified: 13, cpql: 483, deals: 3, revenue: 34891, roas: 5.55 },
+      { month: "Apr 2025", spend: 6284, leads: 23, cpl: 273, qualified: 13, cpql: 483, deals: 1, revenue: 14000, roas: 2.23 },
       // May 2025: Algorithm learning from qualification data, CPQL trending down
-      { month: "May 2025", spend: 6713, leads: 27, cpl: 249, qualified: 16, cpql: 420, deals: 4, revenue: 41247, roas: 6.14 },
+      { month: "May 2025", spend: 6713, leads: 27, cpl: 249, qualified: 16, cpql: 420, deals: 3, revenue: 28900, roas: 4.31 },
       // Jun 2025: Peak Texas construction season, scaling budget as CPQL improves
-      { month: "Jun 2025", spend: 7891, leads: 34, cpl: 232, qualified: 22, cpql: 359, deals: 6, revenue: 52173, roas: 6.61 },
+      { month: "Jun 2025", spend: 7891, leads: 34, cpl: 232, qualified: 22, cpql: 359, deals: 4, revenue: 32000, roas: 4.06 },
       // Jul 2025: Strong summer demand, feedback loops maturing
-      { month: "Jul 2025", spend: 8473, leads: 38, cpl: 223, qualified: 26, cpql: 326, deals: 7, revenue: 58947, roas: 6.96 },
+      { month: "Jul 2025", spend: 8473, leads: 38, cpl: 223, qualified: 26, cpql: 326, deals: 3, revenue: 27500, roas: 3.25 },
       // Aug 2025: Budget scaled to $9K+, sustained performance
-      { month: "Aug 2025", spend: 9247, leads: 41, cpl: 225, qualified: 28, cpql: 330, deals: 7, revenue: 56213, roas: 6.08 },
+      { month: "Aug 2025", spend: 9247, leads: 41, cpl: 225, qualified: 28, cpql: 330, deals: 3, revenue: 24000, roas: 2.6 },
       // Sep 2025: Fall — commercial projects still active in Texas mild climate
-      { month: "Sep 2025", spend: 9618, leads: 39, cpl: 247, qualified: 27, cpql: 356, deals: 6, revenue: 49847, roas: 5.18 },
+      { month: "Sep 2025", spend: 9618, leads: 39, cpl: 247, qualified: 27, cpql: 356, deals: 5, revenue: 45100, roas: 4.69 },
       // Oct 2025: Budget at $10K, year-end commercial buildout rush
-      { month: "Oct 2025", spend: 10147, leads: 42, cpl: 242, qualified: 29, cpql: 350, deals: 7, revenue: 54391, roas: 5.36 },
+      { month: "Oct 2025", spend: 10147, leads: 42, cpl: 242, qualified: 29, cpql: 350, deals: 4, revenue: 31300, roas: 3.08 },
       // Nov 2025: Slight seasonal dip but Texas stays active
       { month: "Nov 2025", spend: 8734, leads: 33, cpl: 265, qualified: 23, cpql: 380, deals: 5, revenue: 33247, roas: 3.81 },
       // Dec 2025: Year-end budget pushes, planning for Q1 projects
@@ -154,9 +154,9 @@ export const commercialConstructionTx: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$437.3K", growth: "+247%" },
+    { label: "Total Revenue", value: "$292.4K", growth: "+247%" },
     { label: "Total Pipeline", value: "$1.14M", growth: "+189%" },
-    { label: "Avg Project Value", value: "$127K", growth: "" },
-    { label: "Blended ROAS", value: "5.35x", growth: "" },
+    { label: "Avg Project Value", value: "$292.4K", growth: "" },
+    { label: "Blended ROAS", value: "3.58x", growth: "" },
   ],
 };

@@ -4,10 +4,10 @@ export const cleaningService: CaseStudyData = {
   slug: "cleaning-service",
   industry: "Cleaning Service",
   headline: "How a Columbus Cleaning Company Cut CPQL 38% by Feeding ICP Data From Landing Pages & Phone Calls Back Into Campaign Targeting",
-  subheadline: "MEGA helped a residential and commercial cleaning service in Columbus, OH scale ad spend from $5K to $9K/month while reducing cost per qualified lead from $195 to $121 — generating $487K in attributed revenue over 10 months through a continuous ICP feedback loop.",
+  subheadline: "MEGA helped a residential and commercial cleaning service in Columbus, OH scale ad spend from $5K to $9K/month while reducing cost per qualified lead from $195 to $121 — generating $180.5K in attributed revenue over 10 months through a continuous ICP feedback loop.",
   heroStats: [
     { value: "10", unit: "months", label: "Partnership Duration" },
-    { value: "$487", unit: "K", label: "Revenue Attributed" },
+    { value: "180", unit: "K", label: "Revenue Attributed" },
     { value: "38", unit: "%", label: "CPQL Reduction" },
   ],
   tags: ["Paid Advertising", "SEO Strategy", "Local SEO", "ICP Optimization"],

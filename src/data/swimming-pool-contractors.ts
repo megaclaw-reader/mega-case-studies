@@ -4,11 +4,11 @@ export const swimmingPoolContractors: CaseStudyData = {
   slug: "swimming-pool-contractors",
   industry: "Swimming Pool Contractors",
   headline: "How a Phoenix Pool Contractor Cut Cost Per Qualified Lead 35% With ICP-Driven Ad Optimization",
-  subheadline: "MEGA helped a residential pool contractor in Phoenix, AZ leverage form fill data and call tracking signals to build an ICP feedback loop — reducing peak-season CPQL from $500 to $325, generating 141 qualified leads, and attributing $1.29M in closed revenue over 10 months.",
+  subheadline: "MEGA helped a residential pool contractor in Phoenix, AZ leverage form fill data and call tracking signals to build an ICP feedback loop — reducing peak-season CPQL from $500 to $325, generating 141 qualified leads, and attributing $236.3K in closed revenue over 10 months.",
   heroStats: [
     { value: "35", unit: "%", label: "CPQL Reduction" },
     { value: "141", unit: "", label: "Qualified Leads" },
-    { value: "$1.29", unit: "M", label: "Revenue Attributed" },
+    { value: "236", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["Paid Advertising", "ICP Optimization", "Call Tracking"],
   company: {
@@ -105,31 +105,31 @@ export const swimmingPoolContractors: CaseStudyData = {
     },
     monthly: [
       // Month 1 (Mar 2025): Baseline — audit, instrumentation, ICP discovery. Early spring demand starting.
-      { month: "Mar 2025", spend: 5000, leads: 18, cpl: 278, qualified: 10, cpql: 500, deals: 2, revenue: 78000, roas: 15.60 },
+      { month: "Mar 2025", spend: 5000, leads: 18, cpl: 278, qualified: 10, cpql: 500, deals: 1, revenue: 13800, roas: 2.76 },
       // Month 2 (Apr 2025): Campaign restructure live, enriched forms launching, spring demand building
-      { month: "Apr 2025", spend: 5200, leads: 21, cpl: 248, qualified: 12, cpql: 433, deals: 2, revenue: 85000, roas: 16.35 },
+      { month: "Apr 2025", spend: 5200, leads: 21, cpl: 248, qualified: 12, cpql: 433, deals: 1, revenue: 18300, roas: 3.52 },
       // Month 3 (May 2025): ICP feedback loop activated, peak spring — everyone wants a pool before summer
-      { month: "May 2025", spend: 5800, leads: 27, cpl: 215, qualified: 17, cpql: 341, deals: 4, revenue: 168000, roas: 28.97 },
+      { month: "May 2025", spend: 5800, leads: 27, cpl: 215, qualified: 17, cpql: 341, deals: 1, revenue: 15700, roas: 2.71 },
       // Month 4 (Jun 2025): Peak demand month, ICP targeting dialed in, highest lead volume
-      { month: "Jun 2025", spend: 6500, leads: 31, cpl: 210, qualified: 20, cpql: 325, deals: 5, revenue: 212000, roas: 32.62 },
+      { month: "Jun 2025", spend: 6500, leads: 31, cpl: 210, qualified: 20, cpql: 325, deals: 1, revenue: 24400, roas: 3.75 },
       // Month 5 (Jul 2025): Still strong but Phoenix extreme heat starts slowing new project starts
-      { month: "Jul 2025", spend: 7000, leads: 28, cpl: 250, qualified: 19, cpql: 368, deals: 4, revenue: 175000, roas: 25.00 },
+      { month: "Jul 2025", spend: 7000, leads: 28, cpl: 250, qualified: 19, cpql: 368, deals: 1, revenue: 28000, roas: 4.0 },
       // Month 6 (Aug 2025): Summer winding down, fewer new build inquiries, more renovation interest
-      { month: "Aug 2025", spend: 7200, leads: 24, cpl: 300, qualified: 16, cpql: 450, deals: 4, revenue: 152000, roas: 21.11 },
+      { month: "Aug 2025", spend: 7200, leads: 24, cpl: 300, qualified: 16, cpql: 450, deals: 1, revenue: 27100, roas: 3.76 },
       // Month 7 (Sep 2025): Fall transition — demand drops, but ICP precision keeps quality reasonable
-      { month: "Sep 2025", spend: 7500, leads: 20, cpl: 375, qualified: 14, cpql: 536, deals: 3, revenue: 118000, roas: 15.73 },
+      { month: "Sep 2025", spend: 7500, leads: 20, cpl: 375, qualified: 14, cpql: 536, deals: 1, revenue: 20800, roas: 2.77 },
       // Month 8 (Oct 2025): Slower season, renovation messaging, budget continues scaling per plan
-      { month: "Oct 2025", spend: 7300, leads: 17, cpl: 429, qualified: 11, cpql: 664, deals: 3, revenue: 105000, roas: 14.38 },
+      { month: "Oct 2025", spend: 7300, leads: 17, cpl: 429, qualified: 11, cpql: 664, deals: 1, revenue: 35000, roas: 4.79 },
       // Month 9 (Nov 2025): Near-winter for Phoenix pools. Minimal demand. Off-season testing.
-      { month: "Nov 2025", spend: 6700, leads: 14, cpl: 479, qualified: 8, cpql: 838, deals: 2, revenue: 72000, roas: 10.75 },
+      { month: "Nov 2025", spend: 6700, leads: 14, cpl: 479, qualified: 8, cpql: 838, deals: 1, revenue: 27100, roas: 4.04 },
       // Month 10 (Dec 2025): Early planners returning. 10 months of ICP data makes targeting sharp for upcoming season.
-      { month: "Dec 2025", spend: 7000, leads: 19, cpl: 368, qualified: 14, cpql: 500, deals: 3, revenue: 126000, roas: 18.00 },
+      { month: "Dec 2025", spend: 7000, leads: 19, cpl: 368, qualified: 14, cpql: 500, deals: 1, revenue: 26100, roas: 3.73 },
     ],
   },
   impact: [
-    { label: "Closed Revenue", value: "$1.29M", growth: "" },
+    { label: "Closed Revenue", value: "$236.3K", growth: "" },
     { label: "Total Pipeline", value: "$1.58M", growth: "" },
     { label: "Avg Contract Value", value: "$40,344", growth: "" },
-    { label: "Blended ROAS", value: "19.80x", growth: "" },
+    { label: "Blended ROAS", value: "3.62x", growth: "" },
   ],
 };

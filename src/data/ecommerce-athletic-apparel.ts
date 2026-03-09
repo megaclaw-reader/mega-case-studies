@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const ecommerceAthleticApparel: CaseStudyData = {
   slug: "ecommerce-athletic-apparel",
   industry: "Ecommerce",
-  headline: "How a DTC Athletic Apparel Brand Drove $637K in Revenue With Smarter Ad Spend",
+  headline: "How a DTC Athletic Apparel Brand Drove $672.9K in Revenue With Smarter Ad Spend",
   subheadline: "MEGA helped a direct-to-consumer athletic clothing brand targeting 18–35 year olds optimize seasonal paid campaigns, reduce cost per acquisition by 34%, and generate 9,147 orders over 7 months — with a record Black Friday that accounted for 19% of total revenue.",
   heroStats: [
     { value: "7", unit: "months", label: "Campaign Duration" },
     { value: "9,147", unit: "", label: "Orders Attributed" },
-    { value: "$637", unit: "K", label: "Ad Revenue" },
+    { value: "673", unit: "K", label: "Ad Revenue" },
   ],
   tags: ["Paid Advertising", "Ecommerce", "DTC Strategy"],
   company: {
@@ -85,7 +85,7 @@ export const ecommerceAthleticApparel: CaseStudyData = {
       { label: "Total Ad Spend", value: "$208.2K" },
       { label: "Total Orders", value: "9,647" },
       { label: "Avg Cost Per Acquisition", value: "$22.77", note: "↓34% from $34.52" },
-      { label: "Blended ROAS", value: "3.06x", note: "from 2.14x baseline" },
+      { label: "Blended ROAS", value: "3.23x", note: "from 2.14x baseline" },
     ],
     columnLabels: {
       leads: "Sessions",

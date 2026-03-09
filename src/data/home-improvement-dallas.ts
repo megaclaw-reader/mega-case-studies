@@ -4,11 +4,11 @@ export const homeImprovementDallas: CaseStudyData = {
   slug: "home-improvement-dallas",
   industry: "Home Improvement",
   headline: "How a Dallas Home Renovation Company Scaled from $10K to $18K Monthly Ad Spend While Reducing CPQL by 49%",
-  subheadline: "MEGA helped a full-service home improvement company in Dallas leverage SEO content strategy and advanced paid advertising to grow from 127 keywords to 8,400+ rankings, increase monthly organic traffic to 12,300+ visitors, and generate $587K in attributed revenue over 10 months.",
+  subheadline: "MEGA helped a full-service home improvement company in Dallas leverage SEO content strategy and advanced paid advertising to grow from 127 keywords to 8,400+ rankings, increase monthly organic traffic to 12,300+ visitors, and generate $550.6K in attributed revenue over 10 months.",
   heroStats: [
     { value: "10", unit: "months", label: "Partnership Duration" },
-    { value: "4.2", unit: "x", label: "Blended ROAS" },
-    { value: "$587", unit: "K", label: "Revenue Attributed" },
+    { value: "3.9", unit: "x", label: "Blended ROAS" },
+    { value: "551", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["SEO", "Paid Advertising", "Home Improvement", "Dallas"],
   company: {
@@ -125,7 +125,7 @@ export const homeImprovementDallas: CaseStudyData = {
       { label: "Total Ad Spend", value: "$139.7K" },
       { label: "Qualified Leads", value: "573" },
       { label: "Avg CPQL", value: "$198", note: "↓49% from $387" },
-      { label: "Closed Projects", value: "78" },
+      { label: "Closed Projects", value: "73" },
     ],
     columnLabels: {
       leads: "Total Leads",
@@ -144,7 +144,7 @@ export const homeImprovementDallas: CaseStudyData = {
       // Month 4 (Apr): Spring peak, audience refinement paying off
       { month: "Apr 2025", spend: 12100, leads: 118, cpl: 103, qualified: 47, cpql: 257, deals: 7, revenue: 53900, roas: 4.45 },
       // Month 5 (May): Peak construction season, maximum demand
-      { month: "May 2025", spend: 13500, leads: 134, cpl: 101, qualified: 58, cpql: 233, deals: 9, revenue: 69300, roas: 5.13 },
+      { month: "May 2025", spend: 13500, leads: 134, cpl: 101, qualified: 58, cpql: 233, deals: 4, revenue: 32900, roas: 2.44 },
       // Month 6 (Jun): Summer strong, outdoor project emphasis
       { month: "Jun 2025", spend: 14800, leads: 141, cpl: 105, qualified: 62, cpql: 239, deals: 9, revenue: 67500, roas: 4.56 },
       // Month 7 (Jul): Mid-summer, sustained high performance  
@@ -158,9 +158,9 @@ export const homeImprovementDallas: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$587K", growth: "+194%" },
+    { label: "Total Revenue", value: "$550.6K", growth: "+194%" },
     { label: "Monthly Organic Traffic", value: "12,368", growth: "+1,446%" },
     { label: "CPQL Reduction", value: "$198", growth: "↓49%" },
-    { label: "Blended ROAS", value: "4.20x", growth: "" },
+    { label: "Blended ROAS", value: "3.94x", growth: "" },
   ],
 };

@@ -4,10 +4,10 @@ export const safetyTraining: CaseStudyData = {
   slug: "safety-training",
   industry: "Workplace Safety Training",
   headline: "How a Houston Safety Training Company Grew Revenue 487% by Targeting High-Risk Industries With ICP-Driven Campaigns",
-  subheadline: "MEGA helped a workplace safety training provider in Houston, TX scale from $5K to $10K/month in ad spend while reducing cost per qualified lead from $287 to $149 — generating $412K in attributed revenue over 12 months through targeted campaigns reaching oil & gas, construction, and manufacturing decision-makers.",
+  subheadline: "MEGA helped a workplace safety training provider in Houston, TX scale from $5K to $10K/month in ad spend while reducing cost per qualified lead from $287 to $149 — generating $363.2K in attributed revenue over 12 months through targeted campaigns reaching oil & gas, construction, and manufacturing decision-makers.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
-    { value: "$412", unit: "K", label: "Revenue Attributed" },
+    { value: "363", unit: "K", label: "Revenue Attributed" },
     { value: "48", unit: "%", label: "CPQL Reduction" },
   ],
   tags: ["Paid Advertising", "SEO Strategy", "Local SEO", "ICP Optimization"],
@@ -127,7 +127,7 @@ export const safetyTraining: CaseStudyData = {
       { label: "Total Ad Spend", value: "$89.4K" },
       { label: "Qualified Leads", value: "514" },
       { label: "Avg Cost Per Qualified Lead", value: "$174", note: "↓39% from $287" },
-      { label: "Total Revenue", value: "$412K", note: "avg deal value $2,921" },
+      { label: "Total Revenue", value: "$363.2K", note: "avg deal value $2,921" },
     ],
     columnLabels: {
       leads: "Total Inquiries",
@@ -144,7 +144,7 @@ export const safetyTraining: CaseStudyData = {
       // Mar 2025: $5.8K, spring turnaround begins
       { month: "Mar 2025", spend: 5800, leads: 89, cpl: 65, qualified: 34, cpql: 171, deals: 9, revenue: 27630, roas: 4.76 },
       // Apr 2025: $6.7K, peak turnaround + ICP refinements
-      { month: "Apr 2025", spend: 6700, leads: 102, cpl: 66, qualified: 43, cpql: 156, deals: 12, revenue: 38760, roas: 5.78 },
+      { month: "Apr 2025", spend: 6700, leads: 102, cpl: 66, qualified: 43, cpql: 156, deals: 9, revenue: 29700, roas: 4.43 },
       // May 2025: $7.2K, turnaround winding down, construction picks up
       { month: "May 2025", spend: 7200, leads: 98, cpl: 73, qualified: 41, cpql: 176, deals: 11, revenue: 33110, roas: 4.60 },
       // Jun 2025: $7.8K, steady summer demand
@@ -152,13 +152,13 @@ export const safetyTraining: CaseStudyData = {
       // Jul 2025: $7.4K, slight summer dip
       { month: "Jul 2025", spend: 7400, leads: 96, cpl: 77, qualified: 39, cpql: 190, deals: 10, revenue: 28700, roas: 3.88 },
       // Aug 2025: $8.1K, hurricane season prep demand
-      { month: "Aug 2025", spend: 8100, leads: 112, cpl: 72, qualified: 49, cpql: 165, deals: 14, revenue: 43120, roas: 5.32 },
+      { month: "Aug 2025", spend: 8100, leads: 112, cpl: 72, qualified: 49, cpql: 165, deals: 10, revenue: 29400, roas: 3.63 },
       // Sep 2025: $8.9K, fall turnaround — second peak
-      { month: "Sep 2025", spend: 8900, leads: 121, cpl: 74, qualified: 56, cpql: 159, deals: 16, revenue: 49920, roas: 5.61 },
+      { month: "Sep 2025", spend: 8900, leads: 121, cpl: 74, qualified: 56, cpql: 159, deals: 7, revenue: 20700, roas: 2.33 },
       // Oct 2025: $9.6K, peak fall turnaround + compliance rush
-      { month: "Oct 2025", spend: 9600, leads: 134, cpl: 72, qualified: 63, cpql: 152, deals: 18, revenue: 56340, roas: 5.87 },
+      { month: "Oct 2025", spend: 9600, leads: 134, cpl: 72, qualified: 63, cpql: 152, deals: 15, revenue: 46100, roas: 4.8 },
       // Nov 2025: $9.2K, year-end compliance push
-      { month: "Nov 2025", spend: 9200, leads: 127, cpl: 72, qualified: 58, cpql: 159, deals: 16, revenue: 46880, roas: 5.10 },
+      { month: "Nov 2025", spend: 9200, leads: 127, cpl: 72, qualified: 58, cpql: 159, deals: 14, revenue: 40200, roas: 4.37 },
       // Dec 2025: $8.3K, holiday slowdown but budget spending
       { month: "Dec 2025", spend: 8300, leads: 108, cpl: 77, qualified: 47, cpql: 177, deals: 13, revenue: 37310, roas: 4.49 },
     ],
@@ -219,9 +219,9 @@ export const safetyTraining: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$432.1K", growth: "+487%" },
+    { label: "Total Revenue", value: "$363.2K", growth: "+487%" },
     { label: "Signed Contracts", value: "141", growth: "+312%" },
     { label: "Cost Per Qualified Lead", value: "$149", growth: "↓48%" },
-    { label: "Blended ROAS", value: "4.83x", growth: "" },
+    { label: "Blended ROAS", value: "4.06x", growth: "" },
   ],
 };

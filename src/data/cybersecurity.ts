@@ -4,11 +4,11 @@ export const cybersecurity: CaseStudyData = {
   slug: "cybersecurity",
   industry: "Cybersecurity",
   headline: "How a National Cybersecurity Firm Scaled Pipeline 145% With AI-Powered Marketing",
-  subheadline: "MEGA helped a nationwide cybersecurity company optimize their digital marketing, reducing cost per qualified lead by 30%, growing organic traffic 418%, and generating $691K in attributed revenue over 8 months.",
+  subheadline: "MEGA helped a nationwide cybersecurity company optimize their digital marketing, reducing cost per qualified lead by 30%, growing organic traffic 418%, and generating $655.5K in attributed revenue over 8 months.",
   heroStats: [
     { value: "8", unit: "months", label: "Partnership Duration" },
-    { value: "145", unit: "%", label: "Revenue Growth Rate" },
-    { value: "$691", unit: "K", label: "Revenue Attributed" },
+    { value: "656", unit: "K", label: "Revenue Growth Rate" },
+    { value: "656", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["SEO Strategy", "Paid Advertising", "AI-Powered Optimization"],
   company: {
@@ -127,7 +127,7 @@ export const cybersecurity: CaseStudyData = {
       { label: "Total Ad Spend", value: "$165.7K" },
       { label: "Qualified Leads (SQLs)", value: "128" },
       { label: "Avg Cost Per Qualified Lead", value: "$1,294", note: "↓22% from $1,654" },
-      { label: "Closed Contracts", value: "30" },
+      { label: "Closed Contracts", value: "28" },
     ],
     monthly: [
       // Month 1: Inherited account — baseline performance, auditing and restructuring
@@ -141,17 +141,17 @@ export const cybersecurity: CaseStudyData = {
       // Month 5: Recovery and optimization — lead scoring refinements, audience pruning working
       { month: "Jul 2025", spend: 20761, leads: 38, cpl: 546, qualified: 17, cpql: 1221, deals: 4, revenue: 97463, roas: 4.69 },
       // Month 6: Lookalike audiences from closed-won hitting stride, strong deal flow
-      { month: "Aug 2025", spend: 21384, leads: 41, cpl: 522, qualified: 18, cpql: 1188, deals: 5, revenue: 103847, roas: 4.86 },
+      { month: "Aug 2025", spend: 21384, leads: 41, cpl: 522, qualified: 18, cpql: 1188, deals: 4, revenue: 93200, roas: 4.36 },
       // Month 7: Summer slowdown in enterprise buying cycles, slight dip in deal velocity
       { month: "Sep 2025", spend: 20293, leads: 39, cpl: 520, qualified: 17, cpql: 1194, deals: 4, revenue: 94187, roas: 4.64 },
       // Month 8: Budget increase + Q4 compliance deadline urgency driving high-intent traffic
-      { month: "Oct 2025", spend: 22147, leads: 43, cpl: 515, qualified: 19, cpql: 1166, deals: 5, revenue: 108917, roas: 4.92 },
+      { month: "Oct 2025", spend: 22147, leads: 43, cpl: 515, qualified: 19, cpql: 1166, deals: 4, revenue: 84400, roas: 3.81 },
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$690.7K", growth: "+145%" },
+    { label: "Total Revenue", value: "$655.5K", growth: "+145%" },
     { label: "Total Pipeline", value: "$1.43M", growth: "+106%" },
-    { label: "Avg Revenue Per Contract", value: "$23,022", growth: "" },
-    { label: "Blended ROAS", value: "4.17x", growth: "" },
+    { label: "Avg Revenue Per Contract", value: "$655.5K", growth: "" },
+    { label: "Blended ROAS", value: "3.96x", growth: "" },
   ],
 };

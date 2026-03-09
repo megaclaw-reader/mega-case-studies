@@ -4,11 +4,11 @@ export const solarPhoenix: CaseStudyData = {
   slug: "solar-phoenix",
   industry: "Solar Installation",
   headline: "How a Phoenix Solar Installer Cut Cost Per Qualified Lead by 27% and Booked 215 Consultations in 7 Months",
-  subheadline: "MEGA helped a residential and commercial solar installation company in Arizona optimize their paid advertising around cost per qualified lead, generating $356K in attributed revenue and reducing CPQL from $509 to $374 over 7 months.",
+  subheadline: "MEGA helped a residential and commercial solar installation company in Arizona optimize their paid advertising around cost per qualified lead, generating $356.2K in attributed revenue and reducing CPQL from $509 to $374 over 7 months.",
   heroStats: [
     { value: "27", unit: "%", label: "CPQL Reduction" },
     { value: "215", unit: "", label: "Consultations Booked" },
-    { value: "$356", unit: "K", label: "Revenue Attributed" },
+    { value: "356", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["Paid Advertising", "AI-Powered Optimization", "Lead Quality Focus"],
   company: {

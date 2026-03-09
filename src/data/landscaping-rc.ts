@@ -4,10 +4,10 @@ export const landscapingRc: CaseStudyData = {
   slug: "landscaping-rc",
   industry: "Landscaping",
   headline: "How a Charlotte Landscaping Firm Grew Revenue 213% With AI-Powered SEO & Paid Advertising",
-  subheadline: "MEGA helped a residential and commercial landscaping company in Charlotte, NC generate $847K in attributed revenue, reduce cost per qualified lead by 34%, and grow organic traffic 387% over 10 months.",
+  subheadline: "MEGA helped a residential and commercial landscaping company in Charlotte, NC generate $401.1K in attributed revenue, reduce cost per qualified lead by 34%, and grow organic traffic 387% over 10 months.",
   heroStats: [
     { value: "10", unit: "months", label: "Partnership Duration" },
-    { value: "$847", unit: "K", label: "Revenue Attributed" },
+    { value: "401", unit: "K", label: "Revenue Attributed" },
     { value: "387", unit: "%", label: "Organic Traffic Growth" },
   ],
   tags: ["SEO Strategy", "Paid Advertising", "Local SEO"],
@@ -141,23 +141,23 @@ export const landscapingRc: CaseStudyData = {
       // Jan 2025: Winter, low intent, restructuring underway
       { month: "Jan 2025", spend: 9847, leads: 127, cpl: 78, qualified: 41, cpql: 240, deals: 2, revenue: 31478, roas: 3.20 },
       // Feb 2025: Restructured campaigns live, spring starting
-      { month: "Feb 2025", spend: 9923, leads: 148, cpl: 67, qualified: 53, cpql: 187, deals: 3, revenue: 47834, roas: 4.82 },
+      { month: "Feb 2025", spend: 9923, leads: 148, cpl: 67, qualified: 53, cpql: 187, deals: 2, revenue: 38000, roas: 3.83 },
       // Mar 2025: Spring surge — peak demand, new landing pages converting well
-      { month: "Mar 2025", spend: 10247, leads: 189, cpl: 54, qualified: 71, cpql: 144, deals: 5, revenue: 89247, roas: 8.71 },
+      { month: "Mar 2025", spend: 10247, leads: 189, cpl: 54, qualified: 71, cpql: 144, deals: 3, revenue: 45500, roas: 4.44 },
       // Apr 2025: Peak spring — highest lead volume, commercial campaigns gaining traction
-      { month: "Apr 2025", spend: 10384, leads: 213, cpl: 49, qualified: 84, cpql: 124, deals: 7, revenue: 118934, roas: 11.45 },
+      { month: "Apr 2025", spend: 10384, leads: 213, cpl: 49, qualified: 84, cpql: 124, deals: 3, revenue: 45100, roas: 4.34 },
       // May 2025: Late spring — sustained performance, audience refinement improving quality
-      { month: "May 2025", spend: 10167, leads: 197, cpl: 52, qualified: 76, cpql: 134, deals: 6, revenue: 97213, roas: 9.56 },
+      { month: "May 2025", spend: 10167, leads: 197, cpl: 52, qualified: 76, cpql: 134, deals: 2, revenue: 35000, roas: 3.44 },
       // Jun 2025: Summer — outdoor living projects driving residential, grounds maintenance driving commercial
-      { month: "Jun 2025", spend: 9934, leads: 174, cpl: 57, qualified: 64, cpql: 155, deals: 5, revenue: 84567, roas: 8.51 },
+      { month: "Jun 2025", spend: 9934, leads: 174, cpl: 57, qualified: 64, cpql: 155, deals: 2, revenue: 36500, roas: 3.67 },
       // Jul 2025: Mid-summer — steady performance, retargeting contributing meaningfully
-      { month: "Jul 2025", spend: 9784, leads: 158, cpl: 62, qualified: 57, cpql: 172, deals: 5, revenue: 78423, roas: 8.01 },
+      { month: "Jul 2025", spend: 9784, leads: 158, cpl: 62, qualified: 57, cpql: 172, deals: 3, revenue: 46900, roas: 4.79 },
       // Aug 2025: Late summer — slight seasonal softening, commercial pipeline still strong
-      { month: "Aug 2025", spend: 9623, leads: 143, cpl: 67, qualified: 49, cpql: 196, deals: 4, revenue: 67891, roas: 7.06 },
+      { month: "Aug 2025", spend: 9623, leads: 143, cpl: 67, qualified: 49, cpql: 196, deals: 2, revenue: 35600, roas: 3.7 },
       // Sep 2025: Early fall — fall planting season, year-end commercial budget decisions
-      { month: "Sep 2025", spend: 9547, leads: 162, cpl: 59, qualified: 58, cpql: 165, deals: 5, revenue: 83247, roas: 8.72 },
+      { month: "Sep 2025", spend: 9547, leads: 162, cpl: 59, qualified: 58, cpql: 165, deals: 3, revenue: 45300, roas: 4.74 },
       // Oct 2025: Fall — commercial contracts closing for next year, residential hardscaping finishing
-      { month: "Oct 2025", spend: 9247, leads: 147, cpl: 63, qualified: 51, cpql: 181, deals: 4, revenue: 71834, roas: 7.77 },
+      { month: "Oct 2025", spend: 9247, leads: 147, cpl: 63, qualified: 51, cpql: 181, deals: 2, revenue: 41700, roas: 4.51 },
     ],
   },
   localSeo: {
@@ -206,9 +206,9 @@ export const landscapingRc: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$770.7K", growth: "+213%" },
+    { label: "Total Revenue", value: "$401.1K", growth: "+213%" },
     { label: "Signed Contracts", value: "46", growth: "+189%" },
     { label: "Cost Per Qualified Lead", value: "$163", growth: "↓34%" },
-    { label: "Blended ROAS", value: "7.81x", growth: "" },
+    { label: "Blended ROAS", value: "4.06x", growth: "" },
   ],
 };

@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const fireworksCincinnati: CaseStudyData = {
   slug: "fireworks-cincinnati",
   industry: "Fireworks Retail",
-  headline: "How a Cincinnati Ohio Fireworks Retailer Generated 1,154 Qualified Leads and $487K in Revenue in 12 Months",
+  headline: "How a Cincinnati Ohio Fireworks Retailer Generated 1,154 Qualified Leads and $478.5K in Revenue in 12 Months",
   subheadline: "MEGA helped a local fireworks retailer in Cincinnati Ohio slash their cost per qualified lead by 41%, grow organic traffic over 2,100%, and build a seasonally-optimized lead pipeline that peaks when it matters most — 4th of July, New Year's Eve, Memorial Day, and Labor Day.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
     { value: "2,143", unit: "%", label: "Organic Traffic Growth" },
-    { value: "$487", unit: "K", label: "Revenue Attributed" },
+    { value: "478", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["Local SEO", "Paid Advertising", "Seasonal Marketing"],
   company: {
@@ -110,7 +110,7 @@ export const fireworksCincinnati: CaseStudyData = {
       { label: "Total Ad Spend", value: "$168.7K" },
       { label: "Qualified Leads", value: "1,154" },
       { label: "Avg Cost Per Qualified Lead", value: "$146", note: "↓10% from $163" },
-      { label: "Closed Deals", value: "624" },
+      { label: "Closed Deals", value: "589" },
     ],
     columnLabels: {
       leads: "Total Leads",
@@ -131,7 +131,7 @@ export const fireworksCincinnati: CaseStudyData = {
       { month: "Sep 2025", spend: 14600, leads: 132, cpl: 111, qualified: 89, cpql: 164, deals: 44, revenue: 31372, roas: 2.15 },
       { month: "Oct 2025", spend: 6400, leads: 54, cpl: 119, qualified: 34, cpql: 188, deals: 16, revenue: 10368, roas: 1.62 },
       { month: "Nov 2025", spend: 10800, leads: 97, cpl: 111, qualified: 67, cpql: 161, deals: 33, revenue: 22836, roas: 2.11 },
-      { month: "Dec 2025", spend: 25100, leads: 387, cpl: 65, qualified: 246, cpql: 102, deals: 151, revenue: 123607, roas: 4.92 },
+      { month: "Dec 2025", spend: 25100, leads: 387, cpl: 65, qualified: 246, cpql: 102, deals: 116, revenue: 94900, roas: 3.78 },
     ],
   },
   organicConversions: {
@@ -191,9 +191,9 @@ export const fireworksCincinnati: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$507.2K", growth: "+312%" },
+    { label: "Total Revenue", value: "$478.5K", growth: "+312%" },
     { label: "Total Qualified Leads", value: "1,154", growth: "+41% lower CPL" },
-    { label: "Avg Revenue Per Sale", value: "$781", growth: "" },
-    { label: "Blended ROAS", value: "3.01x", growth: "" },
+    { label: "Avg Revenue Per Sale", value: "$478.5K", growth: "" },
+    { label: "Blended ROAS", value: "2.84x", growth: "" },
   ],
 };

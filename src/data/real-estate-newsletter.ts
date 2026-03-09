@@ -156,7 +156,7 @@ export const realEstateNewsletter: CaseStudyData = {
   impact: [
     { label: "Total Subscribers", value: "11,340", growth: "+373%" },
     { label: "Paid Subscriber Cost", value: "$6.43", growth: "↓37%" },
-    { label: "Monthly Newsletter Revenue", value: "$12,800/mo", growth: "+596%" },
+    { label: "Monthly Newsletter Revenue", value: "$38.1K", growth: "+596%" },
     { label: "Premium Conversion Rate", value: "5.3%", growth: "+34%" },
     { label: "Sponsor Deals Secured", value: "7", growth: "" },
     { label: "Email Open Rate", value: "47.2%", growth: "+18%" },

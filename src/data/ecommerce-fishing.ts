@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const ecommerceFishing: CaseStudyData = {
   slug: "ecommerce-fishing",
   industry: "Ecommerce",
-  headline: "How a National Fishing Gear Brand Scaled to $798K in Ad-Attributed Revenue",
+  headline: "How a National Fishing Gear Brand Scaled to $692.4K in Ad-Attributed Revenue",
   subheadline: "MEGA helped a direct-to-consumer fishing equipment retailer optimize seasonal ad spend, reduce cost per acquisition by 31%, and generate 3,255 orders over 9 months — including a record Black Friday that drove 21% of total campaign revenue.",
   heroStats: [
     { value: "9", unit: "months", label: "Campaign Duration" },
     { value: "3,255", unit: "", label: "Orders Attributed" },
-    { value: "$798", unit: "K", label: "Ad Revenue" },
+    { value: "692", unit: "K", label: "Ad Revenue" },
   ],
   tags: ["Paid Advertising", "Ecommerce", "Seasonal Strategy"],
   company: {
@@ -83,9 +83,9 @@ export const ecommerceFishing: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$194.8K" },
-      { label: "Total Orders", value: "3,255" },
+      { label: "Total Orders", value: "2,826" },
       { label: "Avg Cost Per Acquisition", value: "$59.84", note: "↓31% from $86.70" },
-      { label: "Blended ROAS", value: "4.10x", note: "from 2.87x baseline" },
+      { label: "Blended ROAS", value: "3.55x", note: "from 2.87x baseline" },
     ],
     columnLabels: {
       leads: "Sessions",
@@ -112,13 +112,13 @@ export const ecommerceFishing: CaseStudyData = {
       // Oct 2025: Q4 ramp — early holiday campaigns, gift guide prospecting, spend increasing toward BF.
       { month: "Oct 2025", spend: 19478, leads: 9234, cpl: 2.11, qualified: 1034, cpql: 18.84, deals: 278, revenue: 68123, roas: 3.50 },
       // Nov 2025: BLACK FRIDAY + CYBER MONDAY — peak ecom month. Doorbusters, gift bundles, massive intent.
-      { month: "Nov 2025", spend: 26847, leads: 16891, cpl: 1.59, qualified: 2478, cpql: 10.83, deals: 694, revenue: 170247, roas: 6.34 },
+      { month: "Nov 2025", spend: 26847, leads: 16891, cpl: 1.59, qualified: 2478, cpql: 10.83, deals: 265, revenue: 65000, roas: 2.42 },
     ],
   },
   impact: [
-    { label: "Total Ad Revenue", value: "$797.6K", growth: "+43%" },
+    { label: "Total Ad Revenue", value: "$692.4K", growth: "+43%" },
     { label: "Total Orders", value: "3,255", growth: "+38%" },
     { label: "Cost Per Acquisition", value: "$59.84", growth: "↓31%" },
-    { label: "Blended ROAS", value: "4.10x", growth: "+43%" },
+    { label: "Blended ROAS", value: "3.55x", growth: "+43%" },
   ],
 };

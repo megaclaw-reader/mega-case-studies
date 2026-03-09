@@ -3,7 +3,7 @@ import { CaseStudyData } from "./types";
 export const personalInjuryLawyer: CaseStudyData = {
   slug: "personal-injury-lawyer",
   industry: "Personal Injury Law",
-  headline: "How a Jacksonville PI Firm Generated $387K in Case Fees From a $49K Ad Investment in 5 Months",
+  headline: "How a Jacksonville PI Firm Generated $205.5K in Case Fees From a $49K Ad Investment in 5 Months",
   subheadline: "MEGA helped a personal injury law firm in Jacksonville, FL build a high-intent digital pipeline — combining paid advertising with aggressive local SEO to deliver 43 qualified leads and 17 signed cases at a cost per qualified lead 34% lower than their previous efforts.",
   heroStats: [
     { value: "5", unit: "months", label: "Partnership Duration" },
@@ -106,10 +106,10 @@ export const personalInjuryLawyer: CaseStudyData = {
     },
     monthly: [
       { month: "Jan 2025", spend: 9800, leads: 16, cpl: 613, qualified: 6, cpql: 1633, deals: 2, revenue: 45200, roas: 4.61 },
-      { month: "Feb 2025", spend: 9400, leads: 18, cpl: 522, qualified: 7, cpql: 1343, deals: 3, revenue: 68700, roas: 7.31 },
-      { month: "Mar 2025", spend: 10300, leads: 21, cpl: 490, qualified: 9, cpql: 1144, deals: 3, revenue: 71400, roas: 6.93 },
-      { month: "Apr 2025", spend: 10600, leads: 23, cpl: 461, qualified: 10, cpql: 1060, deals: 4, revenue: 93800, roas: 8.85 },
-      { month: "May 2025", spend: 9200, leads: 22, cpl: 418, qualified: 11, cpql: 836, deals: 5, revenue: 107900, roas: 11.73 },
+      { month: "Feb 2025", spend: 9400, leads: 18, cpl: 522, qualified: 7, cpql: 1343, deals: 2, revenue: 37300, roas: 3.97 },
+      { month: "Mar 2025", spend: 10300, leads: 21, cpl: 490, qualified: 9, cpql: 1144, deals: 1, revenue: 30600, roas: 2.97 },
+      { month: "Apr 2025", spend: 10600, leads: 23, cpl: 461, qualified: 10, cpql: 1060, deals: 2, revenue: 49200, roas: 4.64 },
+      { month: "May 2025", spend: 9200, leads: 22, cpl: 418, qualified: 11, cpql: 836, deals: 2, revenue: 43200, roas: 4.7 },
     ],
   },
   organicConversions: {

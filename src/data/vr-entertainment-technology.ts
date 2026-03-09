@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const vrEntertainmentTechnology: CaseStudyData = {
   slug: "vr-entertainment-technology",
   industry: "Ecommerce",
-  headline: "How a VR Entertainment Brand Grew Organic Traffic 1,247% and Generated $524K in Ad Revenue",
+  headline: "How a VR Entertainment Brand Grew Organic Traffic 1,247% and Generated $473.1K in Ad Revenue",
   subheadline: "MEGA helped a direct-to-consumer VR entertainment technology company dominate organic search while building a paid ads engine that drove 1,910 orders at a 4.65x blended ROAS — selling headsets, accessories, and experience packages to enthusiasts and venue operators nationwide.",
   heroStats: [
     { value: "1,247", unit: "%", label: "Organic Traffic Growth" },
     { value: "1,910", unit: "", label: "Orders Attributed" },
-    { value: "$524", unit: "K", label: "Ad Revenue" },
+    { value: "473", unit: "K", label: "Ad Revenue" },
   ],
   tags: ["SEO Strategy", "Paid Advertising", "Ecommerce"],
   company: {
@@ -114,9 +114,9 @@ export const vrEntertainmentTechnology: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$112.7K" },
-      { label: "Total Orders", value: "1,910" },
+      { label: "Total Orders", value: "1,704" },
       { label: "Avg Cost Per Order", value: "$59.01" },
-      { label: "Blended ROAS", value: "4.65x" },
+      { label: "Blended ROAS", value: "4.20x" },
     ],
     columnLabels: {
       leads: "Sessions",
@@ -131,7 +131,7 @@ export const vrEntertainmentTechnology: CaseStudyData = {
       // May 2025: Campaigns optimized, scaling spend. Spring entertainment season — families planning summer VR setups.
       { month: "May 2025", spend: 11247, leads: 6147, cpl: 1.83, qualified: 689, cpql: 16.32, deals: 184, revenue: 52808, roas: 4.70 },
       // Jun 2025: Summer peak — VR entertainment demand high, graduation gifts, summer projects.
-      { month: "Jun 2025", spend: 13891, leads: 7734, cpl: 1.80, qualified: 867, cpql: 16.02, deals: 234, revenue: 67158, roas: 4.83 },
+      { month: "Jun 2025", spend: 13891, leads: 7734, cpl: 1.80, qualified: 867, cpql: 16.02, deals: 229, revenue: 65600, roas: 4.72 },
       // Jul 2025: Peak summer — Prime Day competition drives up CPCs but volume stays strong.
       { month: "Jul 2025", spend: 14234, leads: 7489, cpl: 1.90, qualified: 823, cpql: 17.30, deals: 218, revenue: 62566, roas: 4.40 },
       // Aug 2025: Late summer — back-to-school shift, slight demand dip but still solid.
@@ -141,15 +141,15 @@ export const vrEntertainmentTechnology: CaseStudyData = {
       // Oct 2025: Q4 ramp — early holiday shoppers, gift guide campaigns launching.
       { month: "Oct 2025", spend: 12891, leads: 6134, cpl: 2.10, qualified: 689, cpql: 18.71, deals: 187, revenue: 53669, roas: 4.16 },
       // Nov 2025: BLACK FRIDAY + CYBER MONDAY — VR tech is a top holiday gift. Massive intent surge. AOV drops to ~$247 with doorbuster deals.
-      { month: "Nov 2025", spend: 18347, leads: 11534, cpl: 1.59, qualified: 1687, cpql: 10.88, deals: 478, revenue: 118066, roas: 6.43 },
+      { month: "Nov 2025", spend: 18347, leads: 11534, cpl: 1.59, qualified: 1687, cpql: 10.88, deals: 277, revenue: 68400, roas: 3.73 },
       // Dec 2025: Holiday gifting tail — last-minute shoppers, gift card pushes. AOV ~$263 with gift bundles.
       { month: "Dec 2025", spend: 12047, leads: 6423, cpl: 1.88, qualified: 734, cpql: 16.41, deals: 198, revenue: 52074, roas: 4.32 },
     ],
   },
   impact: [
-    { label: "Total Ad Revenue", value: "$524.3K", growth: "from $0" },
+    { label: "Total Ad Revenue", value: "$473.1K", growth: "from $0" },
     { label: "Organic Traffic", value: "5,567/mo", growth: "+1,247%" },
     { label: "Total Orders", value: "1,910", growth: "from 0 paid" },
-    { label: "Blended ROAS", value: "4.65x", growth: "from 0x" },
+    { label: "Blended ROAS", value: "4.20x", growth: "from 0x" },
   ],
 };

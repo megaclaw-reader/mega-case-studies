@@ -4,10 +4,10 @@ export const legalProfessionalServices: CaseStudyData = {
   slug: "legal-professional-services",
   industry: "Legal / Professional Services",
   headline: "How a Tampa Personal Injury Firm Cut Cost Per Qualified Lead by 37% While Growing Case Volume",
-  subheadline: "MEGA helped a personal injury and family law firm in Tampa, FL transform their digital marketing from guesswork into a CPQL-optimized pipeline — generating 82 qualified leads and $169K in attributed revenue over 12 months on a $5K/month budget.",
+  subheadline: "MEGA helped a personal injury and family law firm in Tampa, FL transform their digital marketing from guesswork into a CPQL-optimized pipeline — generating 82 qualified leads and $168.7K in attributed revenue over 12 months on a $5K/month budget.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
-    { value: "$169", unit: "K", label: "Revenue Attributed" },
+    { value: "169", unit: "K", label: "Revenue Attributed" },
     { value: "37", unit: "%", label: "CPQL Reduction" },
   ],
   tags: ["SEO", "Paid Advertising", "CPQL Optimization"],
@@ -173,7 +173,7 @@ export const legalProfessionalServices: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Attributed Revenue", value: "$169K", growth: "+187%" },
+    { label: "Total Attributed Revenue", value: "$168.7K", growth: "+187%" },
     { label: "Qualified Leads (Paid)", value: "82", growth: "+37% efficiency" },
     { label: "Avg Case Fee", value: "$5,450", growth: "" },
     { label: "Blended ROAS", value: "2.67x", growth: "" },

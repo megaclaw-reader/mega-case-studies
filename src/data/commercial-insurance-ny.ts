@@ -3,11 +3,11 @@ import { CaseStudyData } from "./types";
 export const commercialInsuranceNy: CaseStudyData = {
   slug: "commercial-insurance-ny",
   industry: "Commercial Insurance",
-  headline: "How a New York Commercial Insurance Agency Generated $159K in New Policy Revenue With AI-Powered Marketing",
-  subheadline: "MEGA helped a New York-based commercial insurance agency serving small and medium-sized businesses build a paid advertising program from scratch while establishing organic search foundations, reducing cost per qualified lead by 55%, and generating $159K in attributed premium revenue over 5 months.",
+  headline: "How a New York Commercial Insurance Agency Generated $128.5K in New Policy Revenue With AI-Powered Marketing",
+  subheadline: "MEGA helped a New York-based commercial insurance agency serving small and medium-sized businesses build a paid advertising program from scratch while establishing organic search foundations, reducing cost per qualified lead by 55%, and generating $128.5K in attributed premium revenue over 5 months.",
   heroStats: [
     { value: "5", unit: "months", label: "Partnership Duration" },
-    { value: "$159", unit: "K", label: "Premium Revenue" },
+    { value: "128", unit: "K", label: "Premium Revenue" },
     { value: "55", unit: "%", label: "CPQL Reduction" },
   ],
   tags: ["SEO", "Paid Advertising", "AI-Powered Optimization"],
@@ -124,13 +124,13 @@ export const commercialInsuranceNy: CaseStudyData = {
       { month: "Oct 2025", spend: 8240, leads: 29, cpl: 284, qualified: 10, cpql: 824, deals: 2, revenue: 21400, roas: 2.60 },
       { month: "Nov 2025", spend: 8675, leads: 33, cpl: 263, qualified: 13, cpql: 667, deals: 3, revenue: 31200, roas: 3.60 },
       { month: "Dec 2025", spend: 9130, leads: 38, cpl: 240, qualified: 16, cpql: 571, deals: 4, revenue: 42800, roas: 4.69 },
-      { month: "Jan 2026", spend: 9550, leads: 43, cpl: 222, qualified: 19, cpql: 503, deals: 5, revenue: 53500, roas: 5.60 },
+      { month: "Jan 2026", spend: 9550, leads: 43, cpl: 222, qualified: 19, cpql: 503, deals: 2, revenue: 23300, roas: 2.44 },
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$158.7K", growth: "+328%" },
+    { label: "Total Revenue", value: "$128.5K", growth: "+328%" },
     { label: "Total Pipeline", value: "$267.4K", growth: "+214%" },
     { label: "Avg Policy Value", value: "$10,580", growth: "" },
-    { label: "Blended ROAS", value: "3.66x", growth: "" },
+    { label: "Blended ROAS", value: "2.96x", growth: "" },
   ],
 };

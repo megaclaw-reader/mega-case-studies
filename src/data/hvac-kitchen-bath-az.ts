@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const hvacKitchenBathAz: CaseStudyData = {
   slug: "hvac-kitchen-bath-az",
   industry: "HVAC + Kitchen/Bathroom Renovations",
-  headline: "How an Arizona HVAC & Renovation Company Generated 487 Qualified Leads and $438K in Revenue in 10 Months",
+  headline: "How an Arizona HVAC & Renovation Company Generated 487 Qualified Leads and $221.3K in Revenue in 10 Months",
   subheadline: "MEGA helped a dual-service HVAC and kitchen/bathroom renovation company in Arizona reduce their cost per qualified lead by 41%, grow organic traffic by 3,180%, and build a year-round lead pipeline through SEO and paid advertising.",
   heroStats: [
     { value: "10", unit: "months", label: "Partnership Duration" },
     { value: "3,180", unit: "%", label: "Organic Traffic Growth" },
-    { value: "$438", unit: "K", label: "Revenue Attributed" },
+    { value: "221", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["Local SEO", "Paid Advertising", "Lead Generation", "Dual-Service"],
   company: {
@@ -110,7 +110,7 @@ export const hvacKitchenBathAz: CaseStudyData = {
       { label: "Total Ad Spend", value: "$64.3K" },
       { label: "Qualified Leads", value: "487" },
       { label: "Avg Cost Per Qualified Lead", value: "$132", note: "↓32% from $194" },
-      { label: "Closed Deals", value: "178" },
+      { label: "Closed Deals", value: "91" },
     ],
     columnLabels: {
       leads: "Total Leads",
@@ -121,15 +121,15 @@ export const hvacKitchenBathAz: CaseStudyData = {
     },
     monthly: [
       { month: "Feb 2025", spend: 5100, leads: 38, cpl: 134, qualified: 26, cpql: 196, deals: 9, revenue: 22100, roas: 4.33 },
-      { month: "Mar 2025", spend: 5400, leads: 44, cpl: 123, qualified: 31, cpql: 174, deals: 12, revenue: 29400, roas: 5.44 },
-      { month: "Apr 2025", spend: 5800, leads: 52, cpl: 112, qualified: 38, cpql: 153, deals: 14, revenue: 34700, roas: 5.98 },
-      { month: "May 2025", spend: 7200, leads: 71, cpl: 101, qualified: 54, cpql: 133, deals: 20, revenue: 51800, roas: 7.19 },
-      { month: "Jun 2025", spend: 8400, leads: 89, cpl: 94, qualified: 68, cpql: 124, deals: 26, revenue: 62300, roas: 7.42 },
-      { month: "Jul 2025", spend: 8900, leads: 97, cpl: 92, qualified: 74, cpql: 120, deals: 28, revenue: 67400, roas: 7.57 },
-      { month: "Aug 2025", spend: 7400, leads: 78, cpl: 95, qualified: 58, cpql: 128, deals: 21, revenue: 49800, roas: 6.73 },
-      { month: "Sep 2025", spend: 5700, leads: 56, cpl: 102, qualified: 42, cpql: 136, deals: 15, revenue: 36200, roas: 6.35 },
-      { month: "Oct 2025", spend: 5200, leads: 61, cpl: 85, qualified: 51, cpql: 102, deals: 18, revenue: 47300, roas: 9.10 },
-      { month: "Nov 2025", spend: 5205, leads: 54, cpl: 96, qualified: 45, cpql: 116, deals: 15, revenue: 37800, roas: 7.26 },
+      { month: "Mar 2025", spend: 5400, leads: 44, cpl: 123, qualified: 31, cpql: 174, deals: 6, revenue: 15200, roas: 2.81 },
+      { month: "Apr 2025", spend: 5800, leads: 52, cpl: 112, qualified: 38, cpql: 153, deals: 6, revenue: 14300, roas: 2.47 },
+      { month: "May 2025", spend: 7200, leads: 71, cpl: 101, qualified: 54, cpql: 133, deals: 9, revenue: 22700, roas: 3.15 },
+      { month: "Jun 2025", spend: 8400, leads: 89, cpl: 94, qualified: 68, cpql: 124, deals: 14, revenue: 33600, roas: 4.0 },
+      { month: "Jul 2025", spend: 8900, leads: 97, cpl: 92, qualified: 74, cpql: 120, deals: 13, revenue: 30500, roas: 3.43 },
+      { month: "Aug 2025", spend: 7400, leads: 78, cpl: 95, qualified: 58, cpql: 128, deals: 10, revenue: 24100, roas: 3.26 },
+      { month: "Sep 2025", spend: 5700, leads: 56, cpl: 102, qualified: 42, cpql: 136, deals: 7, revenue: 15700, roas: 2.75 },
+      { month: "Oct 2025", spend: 5200, leads: 61, cpl: 85, qualified: 51, cpql: 102, deals: 7, revenue: 18800, roas: 3.62 },
+      { month: "Nov 2025", spend: 5205, leads: 54, cpl: 96, qualified: 45, cpql: 116, deals: 10, revenue: 24300, roas: 4.67 },
     ],
   },
   organicConversions: {
@@ -185,9 +185,9 @@ export const hvacKitchenBathAz: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$438.8K", growth: "+217%" },
+    { label: "Total Revenue", value: "$221.3K", growth: "+217%" },
     { label: "Total Qualified Leads", value: "487", growth: "+41% lower Cost/Lead" },
-    { label: "Avg Revenue Per Deal", value: "$2,465", growth: "" },
-    { label: "Blended ROAS", value: "6.82x", growth: "" },
+    { label: "Avg Revenue Per Deal", value: "$221.3K", growth: "" },
+    { label: "Blended ROAS", value: "3.44x", growth: "" },
   ],
 };

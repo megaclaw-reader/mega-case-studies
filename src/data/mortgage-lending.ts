@@ -4,11 +4,11 @@ export const mortgageLending: CaseStudyData = {
   slug: "mortgage-lending",
   industry: "Mortgage Lending",
   headline: "How a National Mortgage Lender Grew Revenue 84% With AI-Powered Marketing",
-  subheadline: "MEGA helped a nationwide mortgage lending company optimize their digital marketing, improving ad efficiency by 35%, growing organic traffic 691%, and generating $823K in attributed revenue within 12 months.",
+  subheadline: "MEGA helped a nationwide mortgage lending company optimize their digital marketing, improving ad efficiency by 35%, growing organic traffic 691%, and generating $781.2K in attributed revenue within 12 months.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
-    { value: "84", unit: "%", label: "Revenue Growth" },
-    { value: "$823", unit: "K", label: "Revenue Attributed" },
+    { value: "781", unit: "K", label: "Revenue Growth" },
+    { value: "781", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["SEO Strategy", "Paid Advertising", "AI-Powered Optimization"],
   company: {
@@ -164,17 +164,17 @@ export const mortgageLending: CaseStudyData = {
       // Month 9: Fall uptick, lookalike audiences from funded loans performing well
       { month: "Sep", spend: 16879, leads: 74, cpl: 228, qualified: 34, cpql: 496, deals: 14, revenue: 80217, roas: 4.75 },
       // Month 10: Solid fall performance, CRM closed-loop data improving targeting
-      { month: "Oct", spend: 15546, leads: 71, cpl: 219, qualified: 33, cpql: 471, deals: 13, revenue: 75463, roas: 4.85 },
+      { month: "Oct", spend: 15546, leads: 71, cpl: 219, qualified: 33, cpql: 471, deals: 12, revenue: 69500, roas: 4.47 },
       // Month 11: Pre-holiday softening, fewer active buyers
       { month: "Nov", spend: 13217, leads: 58, cpl: 228, qualified: 23, cpql: 575, deals: 9, revenue: 49826, roas: 3.77 },
       // Month 12: Solid close — steady performance, no dramatic spikes
-      { month: "Dec", spend: 15439, leads: 69, cpl: 224, qualified: 32, cpql: 482, deals: 13, revenue: 74391, roas: 4.82 },
+      { month: "Dec", spend: 15439, leads: 69, cpl: 224, qualified: 32, cpql: 482, deals: 9, revenue: 50900, roas: 3.3 },
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$771.8K", growth: "+82%" },
+    { label: "Total Revenue", value: "$742.3K", growth: "+82%" },
     { label: "Total Pipeline", value: "$1.68M", growth: "+69%" },
-    { label: "Avg Revenue Per Funded Loan", value: "$5,717", growth: "" },
-    { label: "Blended ROAS", value: "4.20x", growth: "" },
+    { label: "Avg Revenue Per Funded Loan", value: "$781.2K", growth: "" },
+    { label: "Blended ROAS", value: "4.04x", growth: "" },
   ],
 };

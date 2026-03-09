@@ -4,11 +4,11 @@ export const residentialCommercialFlooring: CaseStudyData = {
   slug: "residential-commercial-flooring",
   industry: "Residential & Commercial Flooring",
   headline: "How a Miami Flooring Company Increased Qualified Leads 38% With AI-Powered Marketing",
-  subheadline: "MEGA helped a residential and commercial flooring company in Miami, FL optimize their digital marketing, reducing cost per qualified lead by 33%, growing organic traffic 312%, and generating $487K in attributed revenue over 12 months.",
+  subheadline: "MEGA helped a residential and commercial flooring company in Miami, FL optimize their digital marketing, reducing cost per qualified lead by 33%, growing organic traffic 312%, and generating $431.2K in attributed revenue over 12 months.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
     { value: "312", unit: "%", label: "Organic Traffic Growth" },
-    { value: "$487", unit: "K", label: "Revenue Attributed" },
+    { value: "431", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["Local SEO", "Paid Advertising", "AI-Powered Optimization"],
   company: {
@@ -124,7 +124,7 @@ export const residentialCommercialFlooring: CaseStudyData = {
       { label: "Total Ad Spend", value: "$120K" },
       { label: "Qualified Leads", value: "368" },
       { label: "Avg Cost Per Qualified Lead", value: "$326", note: "↓16% from $387" },
-      { label: "Closed Jobs", value: "82" },
+      { label: "Closed Jobs", value: "73" },
     ],
     monthly: [
       // Month 1 (Jan): Winter — slower season, baseline, auditing and restructuring
@@ -136,9 +136,9 @@ export const residentialCommercialFlooring: CaseStudyData = {
       // Month 4 (Apr): Spring peak — heavy renovation demand, homeowners and commercial
       { month: "Apr 2025", spend: 11200, leads: 68, cpl: 165, qualified: 38, cpql: 295, deals: 8, revenue: 49600, roas: 4.43 },
       // Month 5 (May): Peak season continues — new construction + remodels
-      { month: "May 2025", spend: 12500, leads: 78, cpl: 160, qualified: 46, cpql: 272, deals: 10, revenue: 61200, roas: 4.90 },
+      { month: "May 2025", spend: 12500, leads: 78, cpl: 160, qualified: 46, cpql: 272, deals: 6, revenue: 33800, roas: 2.7 },
       // Month 6 (Jun): Summer peak — highest lead volume
-      { month: "Jun 2025", spend: 12200, leads: 76, cpl: 161, qualified: 44, cpql: 277, deals: 10, revenue: 58700, roas: 4.81 },
+      { month: "Jun 2025", spend: 12200, leads: 76, cpl: 161, qualified: 44, cpql: 277, deals: 5, revenue: 29900, roas: 2.45 },
       // Month 7 (Jul): Summer strong — still peak renovation season
       { month: "Jul 2025", spend: 11800, leads: 71, cpl: 166, qualified: 41, cpql: 288, deals: 9, revenue: 53400, roas: 4.53 },
       // Month 8 (Aug): Late summer — still solid, slight seasonal taper
@@ -154,9 +154,9 @@ export const residentialCommercialFlooring: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$487.4K", growth: "+89%" },
+    { label: "Total Revenue", value: "$431.2K", growth: "+89%" },
     { label: "Total Pipeline", value: "$847K", growth: "+76%" },
-    { label: "Avg Revenue Per Job", value: "$5,603", growth: "" },
-    { label: "Blended ROAS", value: "4.06x", growth: "" },
+    { label: "Avg Revenue Per Job", value: "$431.2K", growth: "" },
+    { label: "Blended ROAS", value: "3.59x", growth: "" },
   ],
 };

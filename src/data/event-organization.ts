@@ -4,11 +4,11 @@ export const eventOrganization: CaseStudyData = {
   slug: "event-organization",
   industry: "Event Organization",
   headline: "How a Montreal Event Company Grew Bookings 89% With AI-Powered Marketing",
-  subheadline: "MEGA helped a local event organization company in Montreal optimize their digital presence, reducing cost per qualified lead by 27%, growing organic traffic 312%, and generating $149K in attributed revenue over 12 months.",
+  subheadline: "MEGA helped a local event organization company in Montreal optimize their digital presence, reducing cost per qualified lead by 27%, growing organic traffic 312%, and generating $149.5K in attributed revenue over 12 months.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
     { value: "89", unit: "%", label: "Booking Growth Rate" },
-    { value: "$149", unit: "K", label: "Revenue Attributed" },
+    { value: "149", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["Local SEO", "Paid Advertising", "AI-Powered Optimization"],
   company: {
@@ -172,7 +172,7 @@ export const eventOrganization: CaseStudyData = {
   impact: [
     { label: "Total Revenue", value: "$149.5K", growth: "+89%" },
     { label: "Total Pipeline", value: "$261K", growth: "+74%" },
-    { label: "Avg Revenue Per Booking", value: "$4,397", growth: "" },
+    { label: "Avg Revenue Per Booking", value: "$149.5K", growth: "" },
     { label: "Blended ROAS", value: "2.41x", growth: "" },
   ],
 };

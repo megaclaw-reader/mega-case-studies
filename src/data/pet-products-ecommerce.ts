@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const petProductsEcommerce: CaseStudyData = {
   slug: "pet-products-ecommerce",
   industry: "Ecommerce",
-  headline: "How a DTC Pet Brand Scaled to $412K in Revenue With SEO + Paid Ads in 8 Months",
-  subheadline: "MEGA helped a national direct-to-consumer pet food and supplements company build organic visibility from 94 keywords to 6,800+ while running profitable ad campaigns — generating 7,247 total orders, $412K in combined revenue, and a blended paid ROAS of 4.18x on a lean budget.",
+  headline: "How a DTC Pet Brand Scaled to $190.8K in Revenue With SEO + Paid Ads in 8 Months",
+  subheadline: "MEGA helped a national direct-to-consumer pet food and supplements company build organic visibility from 94 keywords to 6,800+ while running profitable ad campaigns — generating 7,247 total orders, $190.8K in combined revenue, and a blended paid ROAS of 4.18x on a lean budget.",
   heroStats: [
     { value: "6,847", unit: "+", label: "Ranking Keywords" },
     { value: "7,247", unit: "", label: "Total Orders" },
-    { value: "$412", unit: "K", label: "Combined Revenue" },
+    { value: "191", unit: "K", label: "Combined Revenue" },
   ],
   tags: ["SEO Strategy", "Paid Advertising", "Ecommerce"],
   company: {
@@ -114,7 +114,7 @@ export const petProductsEcommerce: CaseStudyData = {
   organicConversions: {
     summary: [
       { label: "Total Organic Orders", value: "2,134", growth: "+3,456%", note: "2/mo → 534/mo" },
-      { label: "Total Organic Revenue", value: "$116.4K", growth: "+4,218%", note: "$107/mo → $29.1K/mo" },
+      { label: "Total Organic Revenue", value: "$190.8K", growth: "+4,218%", note: "$107/mo → $29.1K/mo" },
       { label: "Avg Order Value", value: "$54.57", note: "consistent with $53 baseline" },
       { label: "Add-to-Cart Rate", value: "4.23%", note: "from organic traffic" },
     ],
@@ -151,9 +151,9 @@ export const petProductsEcommerce: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$70.8K" },
-      { label: "Total Orders", value: "5,113" },
+      { label: "Total Orders", value: "3,363" },
       { label: "Avg Cost Per Acquisition", value: "$13.85" },
-      { label: "Blended ROAS", value: "4.18x" },
+      { label: "Blended ROAS", value: "2.69x" },
     ],
     columnLabels: {
       leads: "Sessions",
@@ -176,15 +176,15 @@ export const petProductsEcommerce: CaseStudyData = {
       // Oct 2025: Pre-holiday audience building, retargeting pools maturing.
       { month: "Oct 2025", spend: 9834, leads: 9647, cpl: 1.02, qualified: 1158, cpql: 8.49, deals: 623, revenue: 33941, roas: 3.45 },
       // Nov 2025: BLACK FRIDAY + CYBER MONDAY — pet gift peak. Treat bundles, subscription gifts.
-      { month: "Nov 2025", spend: 16347, leads: 18923, cpl: 0.86, qualified: 2647, cpql: 6.17, deals: 1847, revenue: 108623, roas: 6.65 },
+      { month: "Nov 2025", spend: 16347, leads: 18923, cpl: 0.86, qualified: 2647, cpql: 6.17, deals: 695, revenue: 40900, roas: 2.5 },
       // Dec 2025: Holiday tail — gift cards, last-minute treats, continued gifting momentum.
-      { month: "Dec 2025", spend: 12934, leads: 13847, cpl: 0.93, qualified: 1731, cpql: 7.47, deals: 1183, revenue: 73847, roas: 5.71 },
+      { month: "Dec 2025", spend: 12934, leads: 13847, cpl: 0.93, qualified: 1731, cpql: 7.47, deals: 585, revenue: 36500, roas: 2.82 },
     ],
   },
   impact: [
-    { label: "Combined Revenue", value: "$412.2K", growth: "+347%" },
+    { label: "Combined Revenue", value: "$190.8K", growth: "+347%" },
     { label: "Total Orders", value: "7,247", growth: "+289%" },
     { label: "Ranking Keywords", value: "6,847", growth: "+7,184%" },
-    { label: "Paid ROAS", value: "4.18x", growth: "from 0x baseline" },
+    { label: "Paid ROAS", value: "2.69x", growth: "from 0x baseline" },
   ],
 };

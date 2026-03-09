@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const highEndFashionNyc: CaseStudyData = {
   slug: "high-end-fashion-nyc",
   industry: "High-End Fashion eCommerce",
-  headline: "How a NYC High-End Fashion Brand Generated $847K in Online Revenue in 7 Months",
+  headline: "How a NYC High-End Fashion Brand Generated $710.3K in Online Revenue in 7 Months",
   subheadline: "MEGA helped a New York City–based luxury fashion brand for men and women reduce cost per acquisition by 33%, grow organic traffic 1,247%, and achieve a blended ROAS of 4.31x through paid advertising and SEO — including a record holiday season that drove 31% of total campaign revenue.",
   heroStats: [
     { value: "7", unit: "months", label: "Campaign Duration" },
     { value: "2,047", unit: "", label: "Orders Attributed" },
-    { value: "$847", unit: "K", label: "Ad Revenue" },
+    { value: "710", unit: "K", label: "Ad Revenue" },
   ],
   tags: ["Paid Advertising", "SEO", "Ecommerce", "Luxury Fashion"],
   company: {
@@ -104,9 +104,9 @@ export const highEndFashionNyc: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$196.4K" },
-      { label: "Total Orders", value: "2,047" },
+      { label: "Total Orders", value: "1,711" },
       { label: "Avg Cost Per Acquisition", value: "$95.94", note: "↓33% from $143" },
-      { label: "Blended ROAS", value: "4.31x", note: "from 2.94x baseline" },
+      { label: "Blended ROAS", value: "3.62x", note: "from 2.94x baseline" },
     ],
     columnLabels: {
       leads: "Sessions",
@@ -133,16 +133,16 @@ export const highEndFashionNyc: CaseStudyData = {
       { month: "Oct 2025", spend: 28947, leads: 14123, cpl: 2.05, qualified: 1267, cpql: 22.85, deals: 293, revenue: 121834, roas: 4.21 },
       // Nov 2025: BLACK FRIDAY + CYBER MONDAY — peak ecom month. Gifting frenzy.
       // 467 orders × ~$389 AOV (discounts) = $181,647. ROAS 5.38
-      { month: "Nov 2025", spend: 33734, leads: 19847, cpl: 1.70, qualified: 2134, cpql: 15.81, deals: 467, revenue: 181647, roas: 5.39 },
+      { month: "Nov 2025", spend: 33734, leads: 19847, cpl: 1.70, qualified: 2134, cpql: 15.81, deals: 225, revenue: 87700, roas: 2.6 },
       // Dec 2025: Holiday gifting + last-chance shipping. Strong through mid-month, tapering post-Christmas.
       // 428 orders × ~$446 AOV (premium gifting) = $190,847. ROAS 5.93
-      { month: "Dec 2025", spend: 31734, leads: 17478, cpl: 1.82, qualified: 1812, cpql: 17.51, deals: 428, revenue: 190847, roas: 6.02 },
+      { month: "Dec 2025", spend: 31734, leads: 17478, cpl: 1.82, qualified: 1812, cpql: 17.51, deals: 334, revenue: 148800, roas: 4.69 },
     ],
   },
   impact: [
-    { label: "Total Ad Revenue", value: "$846.3K", growth: "+47%" },
+    { label: "Total Ad Revenue", value: "$710.3K", growth: "+47%" },
     { label: "Total Orders", value: "2,047", growth: "+38%" },
     { label: "Cost Per Acquisition", value: "$95.94", growth: "↓33%" },
-    { label: "Blended ROAS", value: "4.31x", growth: "+47%" },
+    { label: "Blended ROAS", value: "3.62x", growth: "+47%" },
   ],
 };

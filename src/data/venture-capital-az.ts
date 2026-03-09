@@ -4,7 +4,7 @@ export const ventureCapitalAz: CaseStudyData = {
   slug: "venture-capital-az",
   industry: "Venture Capital",
   headline: "How an Arizona Venture Capital Firm Attracted 41 Qualified Deal Submissions in 8 Months",
-  subheadline: "MEGA helped a Scottsdale-based early-stage venture capital firm build a high-visibility digital presence — reducing cost per qualified lead by 34%, growing organic keyword rankings to 6,400+, and generating $2.7M in management fee pipeline from new LP commitments.",
+  subheadline: "MEGA helped a Scottsdale-based early-stage venture capital firm build a high-visibility digital presence — reducing cost per qualified lead by 34%, growing organic keyword rankings to 6,400+, and generating $305.1K in management fee pipeline from new LP commitments.",
   heroStats: [
     { value: "8", unit: "months", label: "Partnership Duration" },
     { value: "34", unit: "%", label: "CPQL Reduction" },
@@ -115,7 +115,7 @@ export const ventureCapitalAz: CaseStudyData = {
       { label: "Total Ad Spend", value: "$74.6K" },
       { label: "Qualified Leads", value: "41" },
       { label: "Avg Cost/Qualified Lead", value: "$1,821", note: "↓34% from $2,758" },
-      { label: "Deals Closed", value: "14" },
+      { label: "Deals Closed", value: "8" },
     ],
     columnLabels: {
       leads: "Total Inquiries",
@@ -126,21 +126,21 @@ export const ventureCapitalAz: CaseStudyData = {
     },
     monthly: [
       // Month 1 (May): Launch — conservative spend, establishing baselines
-      { month: "May", spend: 8147, leads: 9, cpl: 905, qualified: 3, cpql: 2716, deals: 1, revenue: 47000, roas: 5.77 },
+      { month: "May", spend: 8147, leads: 9, cpl: 905, qualified: 3, cpql: 2716, deals: 1, revenue: 26900, roas: 3.3 },
       // Month 2 (Jun): Early optimization — summer Demo Day season starts
       { month: "Jun", spend: 8463, leads: 11, cpl: 769, qualified: 4, cpql: 2116, deals: 1, revenue: 38000, roas: 4.49 },
       // Month 3 (Jul): Gaining traction, founder engagement peaks mid-summer
-      { month: "Jul", spend: 9217, leads: 14, cpl: 658, qualified: 5, cpql: 1843, deals: 2, revenue: 84000, roas: 9.11 },
+      { month: "Jul", spend: 9217, leads: 14, cpl: 658, qualified: 5, cpql: 1843, deals: 1, revenue: 43600, roas: 4.73 },
       // Month 4 (Aug): Strong momentum — LP fundraising season begins
-      { month: "Aug", spend: 9834, leads: 16, cpl: 615, qualified: 5, cpql: 1967, deals: 2, revenue: 72000, roas: 7.32 },
+      { month: "Aug", spend: 9834, leads: 16, cpl: 615, qualified: 5, cpql: 1967, deals: 1, revenue: 47100, roas: 4.79 },
       // Month 5 (Sep): Peak engagement — fall conference season, Demo Days
-      { month: "Sep", spend: 11247, leads: 19, cpl: 592, qualified: 6, cpql: 1875, deals: 2, revenue: 91000, roas: 8.09 },
+      { month: "Sep", spend: 11247, leads: 19, cpl: 592, qualified: 6, cpql: 1875, deals: 1, revenue: 44200, roas: 3.93 },
       // Month 6 (Oct): Continued strong — LP year-end allocation decisions
-      { month: "Oct", spend: 10183, leads: 17, cpl: 599, qualified: 6, cpql: 1697, deals: 2, revenue: 68000, roas: 6.68 },
+      { month: "Oct", spend: 10183, leads: 17, cpl: 599, qualified: 6, cpql: 1697, deals: 1, revenue: 41900, roas: 4.11 },
       // Month 7 (Nov): Slight pullback — holiday slowdown approaching
-      { month: "Nov", spend: 8934, leads: 15, cpl: 596, qualified: 6, cpql: 1489, deals: 2, revenue: 79000, roas: 8.84 },
+      { month: "Nov", spend: 8934, leads: 15, cpl: 596, qualified: 6, cpql: 1489, deals: 1, revenue: 30000, roas: 3.36 },
       // Month 8 (Dec): Year-end — LPs finalizing allocations, strong close
-      { month: "Dec", spend: 8617, leads: 14, cpl: 616, qualified: 6, cpql: 1436, deals: 2, revenue: 86000, roas: 9.98 },
+      { month: "Dec", spend: 8617, leads: 14, cpl: 616, qualified: 6, cpql: 1436, deals: 1, revenue: 33400, roas: 3.88 },
     ],
   },
   organicConversions: {

@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const commercialRealEstate: CaseStudyData = {
   slug: "commercial-real-estate",
   industry: "Commercial Real Estate",
-  headline: "How a Charlotte Commercial Real Estate Firm Generated $418K in Commissions With AI-Powered Marketing",
-  subheadline: "MEGA helped a commercial real estate brokerage in Charlotte, NC reduce cost per qualified lead by 34%, grow organic traffic 312%, and close 19 deals worth $418K in commissions over 12 months.",
+  headline: "How a Charlotte Commercial Real Estate Firm Generated $391.6K in Commissions With AI-Powered Marketing",
+  subheadline: "MEGA helped a commercial real estate brokerage in Charlotte, NC reduce cost per qualified lead by 34%, grow organic traffic 312%, and close 19 deals worth $391.6K in commissions over 12 months.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
     { value: "312", unit: "%", label: "Organic Traffic Growth" },
-    { value: "$418", unit: "K", label: "Commission Revenue" },
+    { value: "392", unit: "K", label: "Commission Revenue" },
   ],
   tags: ["Local SEO", "Paid Advertising", "AI-Powered Optimization"],
   company: {
@@ -123,7 +123,7 @@ export const commercialRealEstate: CaseStudyData = {
       { label: "Total Ad Spend", value: "$119.2K" },
       { label: "Qualified Leads", value: "130" },
       { label: "Avg Cost Per Qualified Lead", value: "$917", note: "↓34% from $847" },
-      { label: "Closed Deals", value: "19" },
+      { label: "Closed Deals", value: "18" },
     ],
     columnLabels: {
       leads: "Total Inquiries",
@@ -156,13 +156,13 @@ export const commercialRealEstate: CaseStudyData = {
       // Nov 2025: Q4 continues strong, urgency for year-end closings
       { month: "Nov 2025", spend: 10893, leads: 27, cpl: 403, qualified: 13, cpql: 838, deals: 2, revenue: 46173, roas: 4.24 },
       // Dec 2025: Holiday slowdown but still Q4 momentum, year-end deals closing
-      { month: "Dec 2025", spend: 9718, leads: 22, cpl: 442, qualified: 11, cpql: 883, deals: 2, revenue: 50647, roas: 5.21 },
+      { month: "Dec 2025", spend: 9718, leads: 22, cpl: 442, qualified: 11, cpql: 883, deals: 1, revenue: 23800, roas: 2.45 },
     ],
   },
   impact: [
-    { label: "Total Commission Revenue", value: "$418.4K", growth: "+143%" },
+    { label: "Total Commission Revenue", value: "$391.6K", growth: "+143%" },
     { label: "Total Pipeline", value: "$687K", growth: "+112%" },
-    { label: "Avg Commission Per Deal", value: "$22,021", growth: "" },
-    { label: "Blended ROAS", value: "3.51x", growth: "" },
+    { label: "Avg Commission Per Deal", value: "$391.6K", growth: "" },
+    { label: "Blended ROAS", value: "3.29x", growth: "" },
   ],
 };

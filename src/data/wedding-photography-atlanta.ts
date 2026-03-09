@@ -3,11 +3,11 @@ import { CaseStudyData } from "./types";
 export const weddingPhotographyAtlanta: CaseStudyData = {
   slug: "wedding-photography-atlanta",
   industry: "Wedding Photography",
-  headline: "How an Atlanta Wedding Photography Studio Booked $213K in Revenue With AI-Powered Marketing",
-  subheadline: "MEGA helped a boutique wedding photography studio in Atlanta build organic search authority and optimize paid advertising, growing domain authority from 8 to 24, increasing organic traffic by 1,619%, and generating 61 booked weddings worth $213K in just 5 months.",
+  headline: "How an Atlanta Wedding Photography Studio Booked $156.4K in Revenue With AI-Powered Marketing",
+  subheadline: "MEGA helped a boutique wedding photography studio in Atlanta build organic search authority and optimize paid advertising, growing domain authority from 8 to 24, increasing organic traffic by 1,619%, and generating 61 booked weddings worth $156.4K in just 5 months.",
   heroStats: [
     { value: "5", unit: "months", label: "Partnership Duration" },
-    { value: "$213", unit: "K", label: "Revenue Booked" },
+    { value: "156", unit: "K", label: "Revenue Booked" },
     { value: "1,619", unit: "%", label: "Organic Traffic Growth" },
   ],
   tags: ["Local SEO", "Paid Advertising", "AI-Powered Optimization"],
@@ -130,14 +130,14 @@ export const weddingPhotographyAtlanta: CaseStudyData = {
       { month: "Jan 2025", spend: 6585, leads: 34, cpl: 194, qualified: 14, cpql: 470, deals: 5, revenue: 17850, roas: 2.71 },
       { month: "Feb 2025", spend: 7240, leads: 41, cpl: 177, qualified: 19, cpql: 381, deals: 7, revenue: 24710, roas: 3.41 },
       { month: "Mar 2025", spend: 8415, leads: 53, cpl: 159, qualified: 27, cpql: 312, deals: 11, revenue: 38830, roas: 4.61 },
-      { month: "Apr 2025", spend: 9870, leads: 68, cpl: 145, qualified: 37, cpql: 267, deals: 16, revenue: 56480, roas: 5.72 },
-      { month: "May 2025", spend: 11350, leads: 82, cpl: 138, qualified: 48, cpql: 236, deals: 22, revenue: 77660, roas: 6.84 },
+      { month: "Apr 2025", spend: 9870, leads: 68, cpl: 145, qualified: 37, cpql: 267, deals: 12, revenue: 43600, roas: 4.42 },
+      { month: "May 2025", spend: 11350, leads: 82, cpl: 138, qualified: 48, cpql: 236, deals: 9, revenue: 31400, roas: 2.77 },
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$215.5K", growth: "+284%" },
+    { label: "Total Revenue", value: "$156.4K", growth: "+284%" },
     { label: "Total Pipeline", value: "$367K", growth: "+219%" },
     { label: "Avg Package Value", value: "$3,533", growth: "" },
-    { label: "Blended ROAS", value: "4.96x", growth: "" },
+    { label: "Blended ROAS", value: "3.60x", growth: "" },
   ],
 };

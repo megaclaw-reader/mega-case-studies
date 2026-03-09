@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const healthySnackBrand: CaseStudyData = {
   slug: "healthy-snack-brand",
   industry: "Ecommerce",
-  headline: "How a Healthy Snack Brand Went From Zero Ads to 3.6x ROAS in 5 Months",
-  subheadline: "MEGA took a direct-to-consumer healthy snack brand with no paid advertising history and built a profitable ad engine from scratch — scaling from first-ever campaigns to 3.6x ROAS, generating $107K in ad-attributed revenue and 2,392 orders across 5 months.",
+  headline: "How a Healthy Snack Brand Went From Zero Ads to 2.8x ROAS in 5 Months",
+  subheadline: "MEGA took a direct-to-consumer healthy snack brand with no paid advertising history and built a profitable ad engine from scratch — scaling from first-ever campaigns to 2.8x ROAS, generating $107.7K in ad-attributed revenue and 2,392 orders across 5 months.",
   heroStats: [
-    { value: "3.6", unit: "x", label: "ROAS by Month 5" },
+    { value: "2.8", unit: "x", label: "ROAS by Month 5" },
     { value: "2,392", unit: "", label: "Orders Generated" },
-    { value: "$107", unit: "K", label: "Ad Revenue" },
+    { value: "108", unit: "K", label: "Ad Revenue" },
   ],
   tags: ["Paid Advertising", "Ecommerce", "DTC"],
   company: {
@@ -85,7 +85,7 @@ export const healthySnackBrand: CaseStudyData = {
       { label: "Total Ad Spend", value: "$38.9K" },
       { label: "Total Orders", value: "2,392" },
       { label: "Avg Cost Per Acquisition", value: "$16.27", note: "↓57% from month 1" },
-      { label: "Peak ROAS", value: "3.6x", note: "from 1.2x in month 1" },
+      { label: "Peak ROAS", value: "2.77x", note: "from 1.2x in month 1" },
     ],
     columnLabels: {
       leads: "Sessions",
@@ -108,7 +108,7 @@ export const healthySnackBrand: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Peak ROAS", value: "3.6x", growth: "from 0x (no ads)" },
+    { label: "Peak ROAS", value: "2.77x", growth: "from 0x (no ads)" },
     { label: "Total Orders", value: "2,392", growth: "+495% month-over-month" },
     { label: "Total Ad Revenue", value: "$107.7K", growth: "from $0" },
     { label: "Cost Per Acquisition", value: "$16.27", growth: "↓57% from month 1" },

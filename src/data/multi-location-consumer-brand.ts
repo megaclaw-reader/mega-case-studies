@@ -7,7 +7,7 @@ export const multiLocationConsumerBrand: CaseStudyData = {
   subheadline: "MEGA engineered a predictive performance system — creative fatigue modeling, algorithmic budget reallocation, and conversion signal optimization — that transformed a multi-location consumer brand's paid media from unpredictable spend into a scalable growth engine. Over 10 months, daily ad spend nearly doubled with zero efficiency collapse.",
   heroStats: [
     { value: "10", unit: "months", label: "Engagement Duration" },
-    { value: "3.8", unit: "x", label: "Blended ROAS at Scale" },
+    { value: "3.4", unit: "x", label: "Blended ROAS at Scale" },
     { value: "34%", unit: "", label: "CAC Volatility Reduction" },
   ],
   tags: ["Paid Advertising", "Multi-Location", "AI Performance Infrastructure"],
@@ -80,8 +80,8 @@ export const multiLocationConsumerBrand: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$2.14M" },
-      { label: "Total Revenue", value: "$7.13M", note: "Ad-attributed" },
-      { label: "Blended ROAS", value: "3.68x", note: "Maintained 3.6x+ while scaling 80%" },
+      { label: "Total Revenue", value: "$7.33M", note: "Ad-attributed" },
+      { label: "Blended ROAS", value: "3.43x", note: "Maintained 3.6x+ while scaling 80%" },
       { label: "CAC Volatility", value: "↓34%", note: "Stabilized across all markets" },
     ],
     columnLabels: {

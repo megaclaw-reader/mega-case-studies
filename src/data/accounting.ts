@@ -8,7 +8,7 @@ export const accounting: CaseStudyData = {
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
     { value: "858", unit: "%", label: "Organic Traffic Growth" },
-    { value: "$275", unit: "K", label: "Revenue Attributed" },
+    { value: "275", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["SEO Strategy", "Paid Advertising", "Local SEO"],
   company: {
@@ -172,7 +172,7 @@ export const accounting: CaseStudyData = {
   impact: [
     { label: "Total Revenue", value: "$275.0K", growth: "+189%" },
     { label: "Total Pipeline", value: "$1.05M", growth: "+143%" },
-    { label: "Avg Revenue Per Client", value: "$7,858", growth: "" },
+    { label: "Avg Revenue Per Client", value: "$275K", growth: "" },
     { label: "Blended ROAS", value: "3.27x", growth: "" },
   ],
 };

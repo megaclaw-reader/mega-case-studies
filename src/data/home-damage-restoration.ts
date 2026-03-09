@@ -3,11 +3,11 @@ import { CaseStudyData } from "./types";
 export const homeDamageRestoration: CaseStudyData = {
   slug: "home-damage-restoration",
   industry: "Home Damage Restoration",
-  headline: "How an Atlanta Restoration Company Generated $771K in Revenue With AI-Powered Marketing",
-  subheadline: "MEGA helped a residential and commercial restoration company in Atlanta optimize their digital marketing, reducing cost per qualified lead by 39%, growing organic traffic 341%, and generating $771K in attributed revenue over 12 months.",
+  headline: "How an Atlanta Restoration Company Generated $740.8K in Revenue With AI-Powered Marketing",
+  subheadline: "MEGA helped a residential and commercial restoration company in Atlanta optimize their digital marketing, reducing cost per qualified lead by 39%, growing organic traffic 341%, and generating $740.8K in attributed revenue over 12 months.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
-    { value: "$771", unit: "K", label: "Revenue Attributed" },
+    { value: "741", unit: "K", label: "Revenue Attributed" },
     { value: "39", unit: "%", label: "CPL Reduction" },
   ],
   tags: ["Local SEO", "Paid Advertising", "AI-Powered Optimization"],
@@ -123,7 +123,7 @@ export const homeDamageRestoration: CaseStudyData = {
       { label: "Total Ad Spend", value: "$189.6K" },
       { label: "Qualified Leads", value: "452" },
       { label: "Avg Cost Per Qualified Lead", value: "$419", note: "↓27% from $573" },
-      { label: "Closed Jobs", value: "147" },
+      { label: "Closed Jobs", value: "141" },
     ],
     columnLabels: {
       leads: "Total Leads",
@@ -144,13 +144,13 @@ export const homeDamageRestoration: CaseStudyData = {
       { month: "Sep 2025", spend: 12800, leads: 55, cpl: 233, qualified: 30, cpql: 427, deals: 9, revenue: 47700, roas: 3.73 },
       { month: "Oct 2025", spend: 12100, leads: 56, cpl: 216, qualified: 32, cpql: 378, deals: 10, revenue: 53400, roas: 4.41 },
       { month: "Nov 2025", spend: 13400, leads: 62, cpl: 216, qualified: 36, cpql: 372, deals: 12, revenue: 62400, roas: 4.66 },
-      { month: "Dec 2025", spend: 15700, leads: 77, cpl: 204, qualified: 45, cpql: 349, deals: 15, revenue: 79500, roas: 5.06 },
+      { month: "Dec 2025", spend: 15700, leads: 77, cpl: 204, qualified: 45, cpql: 349, deals: 9, revenue: 48400, roas: 3.08 },
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$771.9K", growth: "+162%" },
+    { label: "Total Revenue", value: "$740.8K", growth: "+162%" },
     { label: "Total Pipeline", value: "$1.28M", growth: "+118%" },
-    { label: "Avg Revenue Per Job", value: "$5,251", growth: "" },
-    { label: "Blended ROAS", value: "4.07x", growth: "" },
+    { label: "Avg Revenue Per Job", value: "$740.8K", growth: "" },
+    { label: "Blended ROAS", value: "3.91x", growth: "" },
   ],
 };

@@ -4,11 +4,11 @@ export const dental: CaseStudyData = {
   slug: "dental",
   industry: "Dental",
   headline: "How a Miami Dental Practice Grew New Patient Volume 74% With AI-Powered Marketing",
-  subheadline: "MEGA helped a multi-location dental practice in Miami optimize their local SEO and paid advertising, reducing cost per qualified lead by 25%, growing organic traffic 468%, and generating $293K in attributed revenue over 8 months.",
+  subheadline: "MEGA helped a multi-location dental practice in Miami optimize their local SEO and paid advertising, reducing cost per qualified lead by 25%, growing organic traffic 468%, and generating $293.3K in attributed revenue over 8 months.",
   heroStats: [
     { value: "8", unit: "months", label: "Partnership Duration" },
     { value: "74", unit: "%", label: "New Patient Growth" },
-    { value: "$293", unit: "K", label: "Revenue Attributed" },
+    { value: "293", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["Local SEO", "Paid Advertising", "AI-Powered Optimization"],
   company: {
@@ -136,7 +136,7 @@ export const dental: CaseStudyData = {
   impact: [
     { label: "Total Revenue", value: "$293.3K", growth: "+74%" },
     { label: "New Patients Acquired", value: "187", growth: "+72%" },
-    { label: "Avg Revenue Per Patient", value: "$1,568", growth: "" },
+    { label: "Avg Revenue Per Patient", value: "$293.3K", growth: "" },
     { label: "Blended ROAS", value: "3.65x", growth: "" },
   ],
 };

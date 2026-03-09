@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const hvac: CaseStudyData = {
   slug: "hvac",
   industry: "HVAC",
-  headline: "How a Jacksonville, Florida HVAC Company Generated 341 Qualified Leads and $312K in Revenue in 8 Months",
+  headline: "How a Jacksonville, Florida HVAC Company Generated 341 Qualified Leads and $180.5K in Revenue in 8 Months",
   subheadline: "MEGA helped a local HVAC company in Jacksonville, Florida reduce their cost per qualified lead by 38%, grow organic traffic 440%, and build a predictable lead pipeline through SEO and paid advertising.",
   heroStats: [
     { value: "8", unit: "months", label: "Partnership Duration" },
     { value: "440", unit: "%", label: "Organic Traffic Growth" },
-    { value: "$312", unit: "K", label: "Revenue Attributed" },
+    { value: "180", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["Local SEO", "Paid Advertising", "Lead Generation"],
   company: {
@@ -106,7 +106,7 @@ export const hvac: CaseStudyData = {
       { label: "Total Ad Spend", value: "$45.8K" },
       { label: "Qualified Leads", value: "341" },
       { label: "Avg Cost Per Qualified Lead", value: "$134", note: "↓25% from $178" },
-      { label: "Closed Jobs", value: "131" },
+      { label: "Closed Jobs", value: "83" },
     ],
     columnLabels: {
       leads: "Total Leads",
@@ -118,12 +118,12 @@ export const hvac: CaseStudyData = {
     monthly: [
       { month: "Apr 2025", spend: 5166, leads: 42, cpl: 123, qualified: 24, cpql: 215, deals: 9, revenue: 11400, roas: 2.21 },
       { month: "May 2025", spend: 5109, leads: 58, cpl: 88, qualified: 36, cpql: 142, deals: 14, revenue: 21200, roas: 4.15 },
-      { month: "Jun 2025", spend: 6600, leads: 87, cpl: 76, qualified: 57, cpql: 116, deals: 22, revenue: 39800, roas: 6.03 },
-      { month: "Jul 2025", spend: 7200, leads: 96, cpl: 75, qualified: 64, cpql: 113, deals: 25, revenue: 46200, roas: 6.42 },
-      { month: "Aug 2025", spend: 5800, leads: 74, cpl: 78, qualified: 44, cpql: 132, deals: 16, revenue: 51800, roas: 8.93 },
-      { month: "Sep 2025", spend: 5400, leads: 67, cpl: 81, qualified: 41, cpql: 132, deals: 16, revenue: 42600, roas: 7.89 },
-      { month: "Oct 2025", spend: 5164, leads: 52, cpl: 99, qualified: 42, cpql: 123, deals: 17, revenue: 54200, roas: 10.5 },
-      { month: "Nov 2025", spend: 5323, leads: 46, cpl: 116, qualified: 33, cpql: 161, deals: 12, revenue: 45000, roas: 8.45 },
+      { month: "Jun 2025", spend: 6600, leads: 87, cpl: 76, qualified: 57, cpql: 116, deals: 12, revenue: 21100, roas: 3.2 },
+      { month: "Jul 2025", spend: 7200, leads: 96, cpl: 75, qualified: 64, cpql: 113, deals: 19, revenue: 34300, roas: 4.76 },
+      { month: "Aug 2025", spend: 5800, leads: 74, cpl: 78, qualified: 44, cpql: 132, deals: 8, revenue: 24400, roas: 4.21 },
+      { month: "Sep 2025", spend: 5400, leads: 67, cpl: 81, qualified: 41, cpql: 132, deals: 8, revenue: 21100, roas: 3.91 },
+      { month: "Oct 2025", spend: 5164, leads: 52, cpl: 99, qualified: 42, cpql: 123, deals: 7, revenue: 23000, roas: 4.45 },
+      { month: "Nov 2025", spend: 5323, leads: 46, cpl: 116, qualified: 33, cpql: 161, deals: 6, revenue: 24000, roas: 4.51 },
     ],
   },
   organicConversions: {
@@ -175,9 +175,9 @@ export const hvac: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$312.2K", growth: "+198%" },
+    { label: "Total Revenue", value: "$180.5K", growth: "+198%" },
     { label: "Total Qualified Leads", value: "341", growth: "+38% lower CPL" },
-    { label: "Avg Revenue Per Job", value: "$2,383", growth: "" },
-    { label: "Blended ROAS", value: "6.82x", growth: "" },
+    { label: "Avg Revenue Per Job", value: "$180.5K", growth: "" },
+    { label: "Blended ROAS", value: "3.94x", growth: "" },
   ],
 };
