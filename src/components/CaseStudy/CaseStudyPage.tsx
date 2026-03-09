@@ -12,6 +12,7 @@ import OrganicConversions from "./OrganicConversions";
 import BusinessImpact from "./BusinessImpact";
 import BeforeAfterComparison from "./BeforeAfterComparison";
 import ROICalculator from "./ROICalculator";
+import PressAndBackers from "./PressAndBackers";
 import Footer from "./Footer";
 
 export default function CaseStudyPage({ data }: { data: CaseStudyData }) {
@@ -30,6 +31,7 @@ export default function CaseStudyPage({ data }: { data: CaseStudyData }) {
         <BusinessImpact data={data} />
         <ROICalculator data={data} />
       </main>
+      <PressAndBackers />
       <Footer />
     </>
   );
