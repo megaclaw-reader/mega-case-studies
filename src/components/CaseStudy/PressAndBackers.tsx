@@ -84,14 +84,18 @@ function AtreidesLogo() {
   // Atreides Management: mountain peak icon (blue peak + gray rock base) with blue serif "ATREIDES" and gray "MANAGEMENT"
   return (
     <span className="flex items-center gap-3">
-      {/* Mountain peak icon — blue triangle peak with gray rock/snow base */}
-      <svg viewBox="0 0 60 50" className="h-9 sm:h-11 w-auto" aria-label="">
-        {/* Gray rock/mountain base */}
-        <path d="M5 50 L25 18 L35 32 L40 26 L58 50 Z" fill="#9ca3af" />
-        {/* Blue peak triangle */}
-        <path d="M18 50 L35 8 L52 50 L42 50 L35 30 L28 50 Z" fill="#2956a8" />
-        {/* Snow/cloud accent on left slope */}
-        <path d="M12 42 Q18 36 24 38 Q20 42 16 44 Z" fill="white" opacity="0.7" />
+      {/* Mountain peak icon — layered: gray base mountain, blue peak, snow accent */}
+      <svg viewBox="0 0 70 55" className="h-10 sm:h-12 w-auto" aria-label="">
+        {/* Large gray mountain base (background) */}
+        <path d="M0 55 L22 15 L32 28 L38 20 L65 55 Z" fill="#b0b8c4" />
+        {/* Blue peak (foreground, taller) */}
+        <path d="M15 55 L38 5 L60 55 Z" fill="#2956a8" />
+        {/* Snow ridge on blue peak */}
+        <path d="M38 5 L32 18 L28 16 L34 8 Z" fill="white" opacity="0.85" />
+        {/* Snow/cloud flowing from left slope */}
+        <path d="M8 45 Q14 38 22 40 Q18 44 12 46 Q10 47 8 45 Z" fill="white" opacity="0.8" />
+        {/* Small gray triangle at bottom (base detail) */}
+        <path d="M28 55 L35 48 L42 55 Z" fill="#d1d5db" opacity="0.4" />
       </svg>
       <span className="flex flex-col leading-none">
         <span
@@ -112,32 +116,53 @@ function AtreidesLogo() {
 }
 
 function GoodwaterLogo() {
-  // Goodwater — the "oo" in the name are stylized as infinity/wave symbols
-  // Clean serif font, distinctive double-loop on the two O's
+  // Goodwater — the two O's are stylized as connected infinity/wave loops
+  // Serif font with the "oo" replaced by a continuous double-loop motif
   return (
-    <svg viewBox="0 0 220 36" className="h-7 sm:h-9 w-auto" fill="currentColor" aria-label="Goodwater">
+    <svg viewBox="0 0 260 40" className="h-8 sm:h-10 w-auto" fill="currentColor" aria-label="Goodwater">
       {/* "G" */}
-      <text fontFamily="'Playfair Display', Georgia, serif" fontSize="32" fontWeight="700" y="28" x="0">G</text>
-      {/* First "o" as infinity/wave loop */}
-      <path d="M32 18 C32 10, 42 10, 42 18 C42 26, 52 26, 52 18 C52 10, 42 10, 42 18" fill="none" stroke="currentColor" strokeWidth="2.5" />
-      {/* Second "o" as infinity/wave loop */}
-      <path d="M52 18 C52 10, 62 10, 62 18 C62 26, 72 26, 72 18 C72 10, 62 10, 62 18" fill="none" stroke="currentColor" strokeWidth="2.5" />
+      <text fontFamily="'Playfair Display', Georgia, serif" fontSize="34" fontWeight="700" y="32" x="0">G</text>
+      {/* Double infinity loops for "oo" — connected, fluid, centered vertically */}
+      <g transform="translate(28, 20)">
+        {/* First ∞ loop (first "o") */}
+        <path
+          d="M0 0 C0 -9, 10 -9, 10 0 C10 9, 20 9, 20 0 C20 -9, 10 -9, 10 0"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2.8"
+          strokeLinejoin="round"
+        />
+        {/* Second ∞ loop (second "o") — seamlessly connected */}
+        <path
+          d="M20 0 C20 -9, 30 -9, 30 0 C30 9, 40 9, 40 0 C40 -9, 30 -9, 30 0"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2.8"
+          strokeLinejoin="round"
+        />
+      </g>
       {/* "dwater" */}
-      <text fontFamily="'Playfair Display', Georgia, serif" fontSize="32" fontWeight="700" y="28" x="70">dwater</text>
+      <text fontFamily="'Playfair Display', Georgia, serif" fontSize="34" fontWeight="700" y="32" x="72">dwater</text>
     </svg>
   );
 }
 
 function SignalFireLogo() {
-  // SignalFire logo: double curly bracket icon "{{" (signal waves) followed by "SignalFire" in bold sans
+  // SignalFire: two left curly braces "{{" as signal icon, bold sans wordmark
   return (
-    <span className="flex items-center gap-1">
-      {/* Double curly bracket / signal wave icon */}
-      <svg viewBox="0 0 32 32" className="h-6 sm:h-8 w-auto" fill="currentColor" aria-label="">
-        {/* Left bracket */}
-        <path d="M14 4 C8 4, 6 8, 6 12 C6 14, 4 15, 4 16 C4 17, 6 18, 6 20 C6 24, 8 28, 14 28" fill="none" stroke="currentColor" strokeWidth="2.8" strokeLinecap="round" />
-        {/* Right bracket (shifted left, nesting) */}
-        <path d="M22 4 C16 4, 14 8, 14 12 C14 14, 12 15, 12 16 C12 17, 14 18, 14 20 C14 24, 16 28, 22 28" fill="none" stroke="currentColor" strokeWidth="2.8" strokeLinecap="round" />
+    <span className="flex items-center gap-0.5">
+      {/* Double left curly brace icon {{ */}
+      <svg viewBox="0 0 30 36" className="h-7 sm:h-8 w-auto" fill="currentColor" aria-label="">
+        {/* Outer { */}
+        <path
+          d="M15 3 C10 3, 8 6, 8 10 L8 14 C8 16, 5 17, 4 18 C5 19, 8 20, 8 22 L8 26 C8 30, 10 33, 15 33"
+          fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"
+        />
+        {/* Inner { */}
+        <path
+          d="M24 3 C19 3, 17 6, 17 10 L17 14 C17 16, 14 17, 13 18 C14 19, 17 20, 17 22 L17 26 C17 30, 19 33, 24 33"
+          fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"
+        />
       </svg>
       <span
         className="text-[16px] sm:text-[19px] font-bold tracking-tight"
