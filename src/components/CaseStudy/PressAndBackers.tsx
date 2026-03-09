@@ -118,10 +118,6 @@ const pressLinks = [
     url: "https://www.forbes.com/sites/charliefink/2026/03/09/ai-agents-take-aim-at-the-local-marketing-agency-as-mega-raises-115-million/",
   },
   {
-    Logo: FortuneLogo,
-    url: "https://fortune.com/2026/03/09/robinhood-ventures-databricks-ramp-private-markets-openai-anthropic-spacex-vlad-tenev/",
-  },
-  {
     Logo: AxiosLogo,
     url: "https://www.axios.com/pro/enterprise-software-deals/2026/03/09/marketing-ai-mega-enterprise-software",
   },
