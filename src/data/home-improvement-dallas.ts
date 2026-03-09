@@ -3,18 +3,18 @@ import { CaseStudyData } from "./types";
 export const homeImprovementDallas: CaseStudyData = {
   slug: "home-improvement-dallas",
   industry: "Home Improvement",
-  headline: "How a Dallas Home Renovation Company Scaled from $10K to $18K Monthly Ad Spend While Achieving 6.2x ROAS",
-  subheadline: "MEGA helped a full-service home improvement company in Dallas leverage SEO content strategy and advanced paid advertising to grow from 127 keywords to 8,400+ rankings, increase monthly organic traffic to 12,300+ visitors, and generate $1.47M in attributed revenue over 10 months.",
+  headline: "How a Dallas Home Renovation Company Scaled from $10K to $18K Monthly Ad Spend While Reducing CPQL by 49%",
+  subheadline: "MEGA helped a full-service home improvement company in Dallas leverage SEO content strategy and advanced paid advertising to grow from 127 keywords to 8,400+ rankings, increase monthly organic traffic to 12,300+ visitors, and generate $587K in attributed revenue over 10 months.",
   heroStats: [
     { value: "10", unit: "months", label: "Partnership Duration" },
-    { value: "6.2", unit: "x", label: "Blended ROAS" },
-    { value: "$1.47", unit: "M", label: "Revenue Attributed" },
+    { value: "4.2", unit: "x", label: "Blended ROAS" },
+    { value: "$587", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["SEO", "Paid Advertising", "Home Improvement", "Dallas"],
   company: {
     industry: "Home Improvement",
     employees: "31",
-    revenue: "$4.2M",
+    revenue: "$3.8M",
     location: "Dallas, TX",
     description: "A premier home improvement company serving the Dallas-Fort Worth metroplex, specializing in kitchen remodels, bathroom renovations, whole-home makeovers, and outdoor living spaces. With 13 years of experience in the competitive Dallas market, the company had built a strong reputation through referrals and repeat business. However, they were struggling to scale beyond word-of-mouth marketing in a city where home values were rising rapidly and renovation demand was at an all-time high. Average project values ranged from $18K bathroom updates to $85K+ full kitchen renovations, with many clients investing in luxury finishes to match Dallas's premium housing market.",
   },
@@ -83,7 +83,7 @@ export const homeImprovementDallas: CaseStudyData = {
         "SEO domination established — ranking for 8,400+ keywords with top 3 positions for most high-intent Dallas home improvement terms",
         "Organic traffic exceeding 12,000 monthly visitors with strong conversion rates from content-educated prospects who arrive further along the buying journey",
         "Content hub authority recognized by Dallas Morning News and local home & garden publications resulting in high-authority backlinks and brand mentions",
-        "Paid advertising scaled to $18K+ monthly with blended ROAS consistently above 6x as cost per qualified lead stabilized at $198",
+        "Paid advertising scaled to $18K+ monthly with blended ROAS reaching 4.2x as cost per qualified lead stabilized at $198",
         "Integrated organic and paid strategy — organic content nurtures prospects who convert through remarketing campaigns, creating compound attribution value",
         "Market leadership positioning achieved — when Dallas homeowners research renovations online, company appears prominently in both organic and paid results",
         "Year-end analysis shows 73% of high-value projects ($50K+) originated from digital channels, up from 31% before engagement",
@@ -125,7 +125,7 @@ export const homeImprovementDallas: CaseStudyData = {
       { label: "Total Ad Spend", value: "$139.7K" },
       { label: "Qualified Leads", value: "573" },
       { label: "Avg CPQL", value: "$198", note: "↓49% from $387" },
-      { label: "Closed Projects", value: "167" },
+      { label: "Closed Projects", value: "78" },
     ],
     columnLabels: {
       leads: "Total Leads",
@@ -136,31 +136,31 @@ export const homeImprovementDallas: CaseStudyData = {
     },
     monthly: [
       // Month 1 (Jan 2025): Baseline performance, existing campaigns
-      { month: "Jan 2025", spend: 10000, leads: 87, cpl: 115, qualified: 26, cpql: 385, deals: 6, revenue: 54000, roas: 5.40 },
+      { month: "Jan 2025", spend: 10000, leads: 87, cpl: 115, qualified: 26, cpql: 385, deals: 4, revenue: 31200, roas: 3.12 },
       // Month 2 (Feb): Spring planning season begins, campaign restructure
-      { month: "Feb 2025", spend: 10500, leads: 94, cpl: 112, qualified: 32, cpql: 328, deals: 8, revenue: 72000, roas: 6.86 },
+      { month: "Feb 2025", spend: 10500, leads: 94, cpl: 112, qualified: 32, cpql: 328, deals: 5, revenue: 38500, roas: 3.67 },
       // Month 3 (Mar): Peak planning season, landing page optimization
-      { month: "Mar 2025", spend: 11200, leads: 103, cpl: 109, qualified: 39, cpql: 287, deals: 11, revenue: 89000, roas: 7.95 },
+      { month: "Mar 2025", spend: 11200, leads: 103, cpl: 109, qualified: 39, cpql: 287, deals: 6, revenue: 46800, roas: 4.18 },
       // Month 4 (Apr): Spring peak, audience refinement paying off
-      { month: "Apr 2025", spend: 12100, leads: 118, cpl: 103, qualified: 47, cpql: 257, deals: 14, revenue: 108000, roas: 8.93 },
+      { month: "Apr 2025", spend: 12100, leads: 118, cpl: 103, qualified: 47, cpql: 257, deals: 7, revenue: 53900, roas: 4.45 },
       // Month 5 (May): Peak construction season, maximum demand
-      { month: "May 2025", spend: 13500, leads: 134, cpl: 101, qualified: 58, cpql: 233, deals: 18, revenue: 142000, roas: 10.52 },
+      { month: "May 2025", spend: 13500, leads: 134, cpl: 101, qualified: 58, cpql: 233, deals: 9, revenue: 69300, roas: 5.13 },
       // Month 6 (Jun): Summer strong, outdoor project emphasis
-      { month: "Jun 2025", spend: 14800, leads: 141, cpl: 105, qualified: 62, cpql: 239, deals: 19, revenue: 138000, roas: 9.32 },
+      { month: "Jun 2025", spend: 14800, leads: 141, cpl: 105, qualified: 62, cpql: 239, deals: 9, revenue: 67500, roas: 4.56 },
       // Month 7 (Jul): Mid-summer, sustained high performance  
-      { month: "Jul 2025", spend: 15700, leads: 147, cpl: 107, qualified: 67, cpql: 234, deals: 21, revenue: 151000, roas: 9.62 },
+      { month: "Jul 2025", spend: 15700, leads: 147, cpl: 107, qualified: 67, cpql: 234, deals: 10, revenue: 74000, roas: 4.71 },
       // Month 8 (Aug): Late summer, project completions before school
-      { month: "Aug 2025", spend: 16200, leads: 149, cpl: 109, qualified: 71, cpql: 228, deals: 22, revenue: 159000, roas: 9.81 },
+      { month: "Aug 2025", spend: 16200, leads: 149, cpl: 109, qualified: 71, cpql: 228, deals: 10, revenue: 72000, roas: 4.44 },
       // Month 9 (Sep): Fall transition, interior focus shift
-      { month: "Sep 2025", spend: 17300, leads: 156, cpl: 111, qualified: 78, cpql: 222, deals: 24, revenue: 167000, roas: 9.65 },
+      { month: "Sep 2025", spend: 17300, leads: 156, cpl: 111, qualified: 78, cpql: 222, deals: 9, revenue: 66600, roas: 3.85 },
       // Month 10 (Oct): Holiday preparation projects, peak spend
-      { month: "Oct 2025", spend: 18400, leads: 163, cpl: 113, qualified: 93, cpql: 198, deals: 24, revenue: 174000, roas: 9.46 },
+      { month: "Oct 2025", spend: 18400, leads: 163, cpl: 113, qualified: 93, cpql: 198, deals: 9, revenue: 67200, roas: 3.65 },
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$1.25M", growth: "+194%" },
+    { label: "Total Revenue", value: "$587K", growth: "+194%" },
     { label: "Monthly Organic Traffic", value: "12,368", growth: "+1,446%" },
     { label: "CPQL Reduction", value: "$198", growth: "↓49%" },
-    { label: "Blended ROAS", value: "8.98x", growth: "" },
+    { label: "Blended ROAS", value: "4.20x", growth: "" },
   ],
 };
