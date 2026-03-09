@@ -114,9 +114,9 @@ export const financialServicesSalesNm: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue Generated", value: "$1,116,200", growth: "" },
+    { label: "Total Revenue Generated", value: "$1.12M", growth: "" },
     { label: "Total New Clients", value: "40", growth: "+233%" },
-    { label: "Blended ROAS", value: "4.67x", growth: "" },
+    { label: "Blended ROAS", value: "4.68x", growth: "" },
     { label: "Cost Per Qualified Lead", value: "$1,380", growth: "↓56%" },
     { label: "Lead-to-Client Rate", value: "23.1%", growth: "+89%" },
     { label: "Monthly Ad Spend Scaled", value: "3x Growth", growth: "+199%" },

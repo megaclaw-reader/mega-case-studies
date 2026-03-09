@@ -113,7 +113,7 @@ export const beautySpaAustin: CaseStudyData = {
     summary: [
       { label: "Total Ad Spend", value: "$44.9K" },
       { label: "Qualified Leads", value: "199" },
-      { label: "Avg Cost Per Qualified Lead", value: "$225", note: "↓58% from $397" },
+      { label: "Avg Cost Per Qualified Lead", value: "$226", note: "↓43% from $397" },
       { label: "Booked Clients", value: "84", note: "avg attributed revenue $1,494" },
     ],
     columnLabels: {

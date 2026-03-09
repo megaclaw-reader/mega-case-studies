@@ -95,7 +95,7 @@ export const b2bSaasPaid: CaseStudyData = {
     summary: [
       { label: "Total Ad Spend", value: "$547.8K" },
       { label: "Qualified Leads (SQLs)", value: "416" },
-      { label: "Avg Cost Per Qualified Lead", value: "$1,318", note: "↓38% from $2,134" },
+      { label: "Avg Cost Per Qualified Lead", value: "$1,317", note: "↓38% from $2,134" },
       { label: "Closed Deals", value: "78" },
     ],
     columnLabels: {

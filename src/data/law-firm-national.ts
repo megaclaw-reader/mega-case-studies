@@ -104,7 +104,7 @@ export const lawFirmNational: CaseStudyData = {
   },
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$1,342,700" },
+      { label: "Total Ad Spend", value: "$1.34M" },
       { label: "Qualified Leads", value: "1,747" },
       { label: "Avg Cost Per Qualified Lead", value: "$769", note: "↓44% from $1,372" },
       { label: "Signed Cases", value: "461" },
@@ -132,7 +132,7 @@ export const lawFirmNational: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue Attributed", value: "$8.5M", growth: "6.33x Blended ROAS" },
+    { label: "Total Revenue Attributed", value: "$8.50M", growth: "6.33x Blended ROAS" },
     { label: "Total Qualified Leads", value: "1,747", growth: "↓44% CPQL" },
     { label: "Signed Cases", value: "461", growth: "24.9% close rate" },
     { label: "Total Ad Spend", value: "$1.34M", growth: "" },

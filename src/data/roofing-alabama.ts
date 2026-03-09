@@ -92,7 +92,7 @@ export const roofingAlabama: CaseStudyData = {
   
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$244,815" },
+      { label: "Total Ad Spend", value: "$244.8K" },
       { label: "Total Qualified Leads", value: "1,582" },
       { label: "Avg CPQL", value: "$154.73" },
       { label: "Total Revenue", value: "$7,446,960" },
@@ -198,7 +198,7 @@ export const roofingAlabama: CaseStudyData = {
   },
   
   impact: [
-    { label: "Total Revenue Generated", value: "$7,446,960", growth: "" },
+    { label: "Total Revenue Generated", value: "$7.45M", growth: "" },
     { label: "Return on Ad Spend", value: "30.4x ROAS", growth: "" },
     { label: "Authority Score Growth", value: "17 → 25", growth: "+47%" },
     { label: "Keyword Rankings", value: "3,847 keywords", growth: "+2,927%" },

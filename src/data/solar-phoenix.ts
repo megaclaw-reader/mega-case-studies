@@ -118,7 +118,7 @@ export const solarPhoenix: CaseStudyData = {
   },
   impact: [
     { label: "Total Revenue", value: "$356.2K", growth: "+214%" },
-    { label: "Blended ROAS", value: "3.91x", growth: "" },
+    { label: "Blended ROAS", value: "3.90x", growth: "" },
     { label: "Avg Install Value", value: "$17,810", growth: "" },
     { label: "CPQL Reduction", value: "27%", growth: "$509 → $374" },
   ],

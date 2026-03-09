@@ -180,7 +180,7 @@ export const wealthManagementPhoenix: CaseStudyData = {
   },
   impact: [
     { label: "New AUM Acquired", value: "$27M", growth: "" },
-    { label: "Total Revenue Generated", value: "$1,108,400", growth: "" },
+    { label: "Total Revenue Generated", value: "$1.11M", growth: "" },
     { label: "Blended ROAS", value: "4.08x", growth: "" },
     { label: "Total New Clients (Paid + Organic)", value: "43", growth: "+187%" },
     { label: "Blended Cost Per Client", value: "$6,079", growth: "↓41%" },
