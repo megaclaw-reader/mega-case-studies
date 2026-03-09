@@ -8,9 +8,9 @@ export const commercialLandscapingAlabama: CaseStudyData = {
   
   heroStats: [
     { value: '187', unit: '%', label: 'Lead Volume Growth' },
-    { value: '5.2', unit: 'x', label: 'Average ROAS' },
-    { value: '719', unit: '', label: 'Total Leads Generated' },
-    { value: '28.5', unit: '%', label: 'Lead Qualification Rate' }
+    { value: '4.0', unit: 'x', label: 'Average ROAS' },
+    { value: '850', unit: '', label: 'Total Leads Generated' },
+    { value: '36.0', unit: '%', label: 'Lead Qualification Rate' }
   ],
   
   tags: ['Lead Generation', 'SEO', 'Commercial Services', 'Regional Growth'],
@@ -103,9 +103,9 @@ export const commercialLandscapingAlabama: CaseStudyData = {
   paidAds: {
     summary: [
       { label: 'Total Ad Spend', value: '$69.2K', note: 'Progressive scaling from $6,575 to $10,764/month across 8 months' },
-      { label: 'Total Leads Generated', value: '532', note: 'High-intent commercial prospects' },
-      { label: 'Qualified Leads', value: '218', note: '28.5% qualification rate' },
-      { label: 'Average Cost Per Lead', value: '$117', note: 'Competitive for commercial landscaping' },
+      { label: 'Total Leads Generated', value: '605', note: 'High-intent commercial prospects' },
+      { label: 'Qualified Leads', value: '218', note: '36.0% qualification rate' },
+      { label: 'Average Cost Per Lead', value: '$114', note: 'Competitive for commercial landscaping' },
       { label: 'Average Cost Per Qualified Lead', value: '$317', note: 'Strong qualification efficiency' },
       { label: 'Total Revenue Generated', value: '$288,700', note: 'Deals closed from paid campaigns' }
     ],
@@ -117,14 +117,14 @@ export const commercialLandscapingAlabama: CaseStudyData = {
       deals: 'Deals Closed'
     },
     monthly: [
-      { month: 'Jan 2025', spend: 6575, leads: 52, cpl: 126.44, qualified: 18, cpql: 365.28, deals: 5, revenue: 21750, roas: 3.31 },
-      { month: 'Feb 2025', spend: 6825, leads: 49, cpl: 139.29, qualified: 17, cpql: 401.47, deals: 4, revenue: 16400, roas: 2.40 },
-      { month: 'Mar 2025', spend: 7475, leads: 61, cpl: 122.54, qualified: 23, cpql: 325.00, deals: 7, revenue: 30100, roas: 4.03 },
-      { month: 'Apr 2025', spend: 8350, leads: 78, cpl: 107.05, qualified: 29, cpql: 287.93, deals: 9, revenue: 39600, roas: 4.74 },
-      { month: 'May 2025', spend: 9150, leads: 84, cpl: 108.93, qualified: 31, cpql: 295.16, deals: 9, revenue: 41850, roas: 4.57 },
-      { month: 'Jun 2025', spend: 9875, leads: 89, cpl: 110.96, qualified: 33, cpql: 299.24, deals: 10, revenue: 46500, roas: 4.71 },
-      { month: 'Jul 2025', spend: 10764, leads: 93, cpl: 115.74, qualified: 35, cpql: 307.54, deals: 11, revenue: 52800, roas: 4.90 },
-      { month: 'Aug 2025', spend: 10138, leads: 87, cpl: 116.51, qualified: 32, cpql: 316.81, deals: 9, revenue: 39700, roas: 3.92 }
+      { month: 'Jan 2025', spend: 6575, leads: 38, cpl: 173.03, qualified: 12, cpql: 547.92, deals: 3, revenue: 12150, roas: 1.85 },
+      { month: 'Feb 2025', spend: 6825, leads: 41, cpl: 166.46, qualified: 14, cpql: 487.50, deals: 3, revenue: 12900, roas: 1.89 },
+      { month: 'Mar 2025', spend: 7475, leads: 68, cpl: 109.93, qualified: 24, cpql: 311.46, deals: 8, revenue: 31200, roas: 4.17 },
+      { month: 'Apr 2025', spend: 8350, leads: 79, cpl: 105.70, qualified: 28, cpql: 298.21, deals: 9, revenue: 37800, roas: 4.53 },
+      { month: 'May 2025', spend: 9150, leads: 87, cpl: 105.17, qualified: 31, cpql: 295.16, deals: 10, revenue: 42500, roas: 4.64 },
+      { month: 'Jun 2025', spend: 9875, leads: 95, cpl: 103.95, qualified: 36, cpql: 274.31, deals: 12, revenue: 49200, roas: 4.98 },
+      { month: 'Jul 2025', spend: 10764, leads: 102, cpl: 105.53, qualified: 39, cpql: 276.00, deals: 13, revenue: 56100, roas: 5.21 },
+      { month: 'Aug 2025', spend: 10138, leads: 95, cpl: 106.72, qualified: 34, cpql: 298.18, deals: 11, revenue: 46850, roas: 4.62 }
     ]
   },
   
@@ -162,9 +162,9 @@ export const commercialLandscapingAlabama: CaseStudyData = {
   impact: [
     { label: 'Total Revenue Generated', value: '$288.7K', growth: '187% increase in monthly revenue' },
     { label: 'Total Marketing Investment', value: '$69,152', growth: 'Progressive scaling approach' },
-    { label: 'Blended Return on Ad Spend', value: '4.2x', growth: 'Strong ROI across channels' },
+    { label: 'Blended Return on Ad Spend', value: '4.17x', growth: 'Strong ROI across channels' },
     { label: 'Total Qualified Leads', value: '273', growth: 'Combined paid + organic prospects' },
-    { label: 'New Client Contracts', value: '64', growth: 'Sustainable business growth' },
-    { label: 'Average Contract Value', value: '$4,350', growth: 'Commercial maintenance agreements' }
+    { label: 'New Client Contracts', value: '69', growth: 'Sustainable business growth' },
+    { label: 'Average Contract Value', value: '$4,185', growth: 'Commercial maintenance agreements' }
   ]
 };
