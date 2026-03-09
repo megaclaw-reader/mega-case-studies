@@ -100,6 +100,7 @@ import { roofingAlabama } from "./roofing-alabama";
 import { commercialLandscapingAlabama } from "./commercial-landscaping-alabama";
 import { homeImprovementDallas } from "./home-improvement-dallas";
 import { businessCoachingTexas } from "./business-coaching-texas";
+import { nonprofitNewYork } from "./nonprofit-new-york";
 
 export const caseStudies: Record<string, CaseStudyData> = {
   "mortgage-lending": mortgageLending,
@@ -203,6 +204,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "commercial-landscaping-alabama": commercialLandscapingAlabama,
   "home-improvement-dallas": homeImprovementDallas,
   "business-coaching-texas": businessCoachingTexas,
+  "nonprofit-new-york": nonprofitNewYork,
 };
 
 export type { CaseStudyData };
