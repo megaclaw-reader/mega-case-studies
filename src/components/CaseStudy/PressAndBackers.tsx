@@ -118,6 +118,10 @@ const pressLinks = [
     url: "https://www.forbes.com/sites/charliefink/2026/03/09/ai-agents-take-aim-at-the-local-marketing-agency-as-mega-raises-115-million/",
   },
   {
+    Logo: FortuneLogo,
+    url: "",
+  },
+  {
     Logo: AxiosLogo,
     url: "https://www.axios.com/pro/enterprise-software-deals/2026/03/09/marketing-ai-mega-enterprise-software",
   },
@@ -152,17 +156,23 @@ export default function PressAndBackers() {
             As Featured In
           </p>
           <div className="flex flex-wrap items-center justify-center gap-10 sm:gap-14 md:gap-20">
-            {pressLinks.map(({ Logo, url }) => (
-              <a
-                key={url}
-                href={url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-800 hover:text-gray-600 transition-colors"
-              >
-                <Logo />
-              </a>
-            ))}
+            {pressLinks.map(({ Logo, url }, i) =>
+              url ? (
+                <a
+                  key={url}
+                  href={url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-800 hover:text-gray-600 transition-colors"
+                >
+                  <Logo />
+                </a>
+              ) : (
+                <span key={i} className="text-gray-800">
+                  <Logo />
+                </span>
+              )
+            )}
           </div>
         </div>
       </div>
