@@ -111,7 +111,7 @@ function SignalFireLogo() {
 const pressLinks = [
   {
     Logo: WSJLogo,
-    url: "https://venturecap.cmail20.com/t/d-e-ghykdit-irtiljurdj-t/",
+    url: "https://venturecapital.cmail20.com/t/d-e-ghykdit-irtiljurdj-t/",
   },
   {
     Logo: ForbesLogo,
