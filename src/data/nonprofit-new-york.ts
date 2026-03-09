@@ -123,9 +123,9 @@ export const nonprofitNewYork: CaseStudyData = {
   // Paid Ads Section
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$125,187" },
+      { label: "Total Ad Spend", value: "$125.2K" },
       { label: "Total Qualified Donors", value: "1,582" },
-      { label: "Avg Cost Per Qualified Donor", value: "$79.13" },
+      { label: "Avg Cost Per Qualified Donor", value: "$79" },
       { label: "Total Donations Generated", value: "$487,392" },
       { label: "Overall ROAS", value: "4.16x" }
     ],
