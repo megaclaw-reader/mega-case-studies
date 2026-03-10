@@ -113,6 +113,7 @@ import { residentialMovingNyc } from "./residential-moving-nyc";
 import { medSpaMultiLocationFlorida } from "./medspa-multilocation-florida";
 import { ecommerceFashionNational } from "./ecommerce-fashion-national";
 import { saasB2bSeoNational } from "./saas-b2b-seo-national";
+import { commercialTaxServicesUs } from "./commercial-tax-services-us";
 
 export const caseStudies: Record<string, CaseStudyData> = {
   "mortgage-lending": mortgageLending,
@@ -229,6 +230,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "medspa-multilocation-florida": medSpaMultiLocationFlorida,
   "ecommerce-fashion-national": ecommerceFashionNational,
   "saas-b2b-seo-national": saasB2bSeoNational,
+  "commercial-tax-services-us": commercialTaxServicesUs,
 };
 
 export type { CaseStudyData };
