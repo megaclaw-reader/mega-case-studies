@@ -111,6 +111,7 @@ import { mentalHealthCalifornia } from "./mental-health-california";
 import { onlineYogaPilatesNational } from "./online-yoga-pilates-national";
 import { residentialMovingNyc } from "./residential-moving-nyc";
 import { medSpaMultiLocationFlorida } from "./medspa-multilocation-florida";
+import { ecommerceFashionNational } from "./ecommerce-fashion-national";
 
 export const caseStudies: Record<string, CaseStudyData> = {
   "mortgage-lending": mortgageLending,
@@ -225,6 +226,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "online-yoga-pilates-national": onlineYogaPilatesNational,
   "residential-moving-nyc": residentialMovingNyc,
   "medspa-multilocation-florida": medSpaMultiLocationFlorida,
+  "ecommerce-fashion-national": ecommerceFashionNational,
 };
 
 export type { CaseStudyData };
