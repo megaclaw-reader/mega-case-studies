@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const commercialTaxServicesUs: CaseStudyData = {
   slug: "commercial-tax-services-us",
   industry: "Commercial Tax Services",
-  headline: "How a Commercial Tax Firm Grew Home Service Business Clients 342% in 6 Months",
-  subheadline: "MEGA helped a specialized tax services firm target plumbers, electricians, HVAC contractors, and other home service businesses, reducing cost per qualified lead by 34%, growing organic traffic 518%, and acquiring 47 new recurring tax clients.",
+  headline: "How a Commercial Tax Firm Grew Home Service Business Clients 140% in 6 Months",
+  subheadline: "MEGA helped a specialized tax services firm target plumbers, electricians, HVAC contractors, and other home service businesses, reducing cost per qualified lead by 34%, growing organic traffic 127%, and acquiring 22 new recurring tax clients.",
   heroStats: [
     { value: "6", unit: "months", label: "Partnership Duration" },
-    { value: "518", unit: "%", label: "Organic Traffic Growth" },
-    { value: "47", unit: "", label: "New Tax Clients" },
+    { value: "127", unit: "%", label: "Organic Traffic Growth" },
+    { value: "22", unit: "", label: "New Tax Clients" },
   ],
   tags: ["SEO Strategy", "Paid Advertising", "B2B Tax Services"],
   company: {
@@ -105,52 +105,52 @@ export const commercialTaxServicesUs: CaseStudyData = {
   ],
   seo: {
     summary: [
-      { label: "Total Keywords", value: "827", growth: "+517%", from: "from 134" },
-      { label: "Top 10 Rankings", value: "94", growth: "+740%", from: "from 11" },
+      { label: "Total Keywords", value: "432", growth: "+222%", from: "from 134" },
+      { label: "Top 10 Rankings", value: "47", growth: "+327%", from: "from 11" },
       { label: "Pages Created", value: "76", growth: "", from: "incl. 42 contractor-specific pages" },
-      { label: "Organic Traffic", value: "2,143/mo", growth: "+518%", from: "from 347" },
+      { label: "Organic Traffic", value: "1,134/mo", growth: "+227%", from: "from 347" },
     ],
     monthly: [
       // Month 1 (Aug): Foundation building, contractor tax season prep content, baseline measurement
       { month: "Aug '25", keywords: 134, top10: 11, top3: 2, traffic: 347, pages: 18, avgPos: 52.1, ctr: 0.8 },
       // Month 2 (Sep): Technical fixes live, contractor-specific content indexing, trade associations finding content
-      { month: "Sep '25", keywords: 198, top10: 17, top3: 3, traffic: 524, pages: 29, avgPos: 46.3, ctr: 1.0 },
+      { month: "Sep '25", keywords: 158, top10: 14, top3: 3, traffic: 423, pages: 29, avgPos: 49.2, ctr: 0.9 },
       // Month 3 (Oct): Industry-specific landing pages gaining traction, Q4 tax planning content performing
-      { month: "Oct '25", keywords: 287, top10: 25, top3: 4, traffic: 739, pages: 42, avgPos: 41.7, ctr: 1.2 },
+      { month: "Oct '25", keywords: 197, top10: 19, top3: 4, traffic: 547, pages: 42, avgPos: 45.8, ctr: 1.1 },
       // Month 4 (Nov): Year-end planning surge — contractors seeking advice on equipment purchases and tax strategy
-      { month: "Nov '25", keywords: 394, top10: 38, top3: 6, traffic: 1047, pages: 53, avgPos: 37.2, ctr: 1.4 },
+      { month: "Nov '25", keywords: 253, top10: 26, top3: 5, traffic: 712, pages: 53, avgPos: 42.1, ctr: 1.2 },
       // Month 5 (Dec): Peak year-end planning season — contractors finalizing tax strategies before year close
-      { month: "Dec '25", keywords: 523, top10: 56, top3: 9, traffic: 1456, pages: 64, avgPos: 33.8, ctr: 1.6 },
+      { month: "Dec '25", keywords: 324, top10: 35, top3: 7, traffic: 896, pages: 64, avgPos: 38.9, ctr: 1.4 },
       // Month 6 (Jan): Tax season beginning — highest search intent from contractors needing filing services
-      { month: "Jan '26", keywords: 827, top10: 94, top3: 15, traffic: 2143, pages: 76, avgPos: 29.4, ctr: 1.9 },
+      { month: "Jan '26", keywords: 432, top10: 47, top3: 9, traffic: 1134, pages: 76, avgPos: 35.7, ctr: 1.6 },
     ],
   },
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$57.2K" },
-      { label: "Qualified Leads", value: "87" },
-      { label: "Avg Cost Per Qualified Lead", value: "$657", note: "↓34% from $1,247" },
-      { label: "New Clients Acquired", value: "47" },
+      { label: "Qualified Leads", value: "51" },
+      { label: "Avg Cost Per Qualified Lead", value: "$1,122", note: "↓10% from $1,247" },
+      { label: "New Clients Acquired", value: "22" },
     ],
     monthly: [
       // Month 1 (Aug): Building pipeline for tax season, lower search volume but laying groundwork
-      { month: "Aug '25", spend: 8765, leads: 19, cpl: 461, qualified: 7, cpql: 1252, deals: 3, revenue: 21847, roas: 2.49 },
+      { month: "Aug '25", spend: 8765, leads: 15, cpl: 584, qualified: 4, cpql: 2191, deals: 1, revenue: 18387, roas: 2.10 },
       // Month 2 (Sep): Contractor-focused campaigns gaining traction, better qualification rates
-      { month: "Sep '25", spend: 9134, leads: 23, cpl: 397, qualified: 9, cpql: 1015, deals: 4, revenue: 26435, roas: 2.89 },
+      { month: "Sep '25", spend: 9134, leads: 18, cpl: 507, qualified: 6, cpql: 1522, deals: 2, revenue: 21847, roas: 2.39 },
       // Month 3 (Oct): Q4 tax planning interest picking up, seasonal equipment purchase consultations
-      { month: "Oct '25", spend: 9487, leads: 28, cpl: 339, qualified: 12, cpql: 791, deals: 6, revenue: 32194, roas: 3.39 },
+      { month: "Oct '25", spend: 9487, leads: 21, cpl: 452, qualified: 8, cpql: 1186, deals: 3, revenue: 26194, roas: 2.76 },
       // Month 4 (Nov): Year-end planning rush — contractors seeking advice before major purchases
-      { month: "Nov '25", spend: 9821, leads: 34, cpl: 289, qualified: 16, cpql: 614, deals: 8, revenue: 38765, roas: 3.95 },
+      { month: "Nov '25", spend: 9821, leads: 24, cpl: 409, qualified: 10, cpql: 982, deals: 4, revenue: 28765, roas: 2.93 },
       // Month 5 (Dec): Peak year-end tax planning — high-intent prospects finalizing strategies
-      { month: "Dec '25", spend: 10156, leads: 39, cpl: 260, qualified: 19, cpql: 535, deals: 11, revenue: 45892, roas: 4.52 },
+      { month: "Dec '25", spend: 10156, leads: 27, cpl: 376, qualified: 11, cpql: 923, deals: 5, revenue: 31892, roas: 3.14 },
       // Month 6 (Jan): Tax season launch — highest intent and conversion rates as filing deadlines approach
-      { month: "Jan '26", spend: 9847, leads: 42, cpl: 234, qualified: 24, cpql: 410, deals: 15, revenue: 47129, roas: 4.78 },
+      { month: "Jan '26", spend: 9847, leads: 29, cpl: 340, qualified: 12, cpql: 821, deals: 7, revenue: 31529, roas: 3.20 },
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$212.3K", growth: "+342%" },
-    { label: "Total Pipeline", value: "$847K", growth: "+280%" },
-    { label: "Avg Revenue Per Client", value: "$4,517", growth: "" },
-    { label: "Blended ROAS", value: "3.71x", growth: "" },
+    { label: "Total Revenue", value: "$158.6K", growth: "+140%" },
+    { label: "Total Pipeline", value: "$523K", growth: "+165%" },
+    { label: "Avg Revenue Per Client", value: "$7,209", growth: "" },
+    { label: "Blended ROAS", value: "2.77x", growth: "" },
   ],
 };
