@@ -30,7 +30,7 @@ export default function PaidAdsPerformance({ data }: { data: CaseStudyData }) {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
           <div className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
-            <h3 className="font-bold mb-4">Ad Spend vs Leads</h3>
+            <h3 className="font-bold mb-4">Ad Spend vs {cl?.leads || "Leads"}</h3>
             <ResponsiveContainer width="100%" height={280}>
               <ComposedChart data={paidAds.monthly}>
                 <CartesianGrid strokeDasharray="3 3" stroke="#f0f0f0" />
@@ -45,7 +45,7 @@ export default function PaidAdsPerformance({ data }: { data: CaseStudyData }) {
           </div>
 
           <div className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
-            <h3 className="font-bold mb-4">Cost Per Lead Reduction</h3>
+            <h3 className="font-bold mb-4">{cl?.cpl ? `${cl.cpl} Reduction` : "Cost Per Lead Reduction"}</h3>
             <ResponsiveContainer width="100%" height={280}>
               <LineChart data={paidAds.monthly}>
                 <CartesianGrid strokeDasharray="3 3" stroke="#f0f0f0" />

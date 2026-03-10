@@ -10,38 +10,21 @@ function avg(arr: number[]): number {
 export default function BeforeAfterComparison({ data }: { data: CaseStudyData }) {
   const metrics: { label: string; before: string; after: string; improved: boolean }[] = [];
 
-  if (data.paidAds?.monthly?.length && data.paidAds.monthly.length >= 4) {
+  if (data.paidAds?.monthly?.length && data.paidAds.monthly.length >= 2) {
     const m = data.paidAds.monthly;
-    // First 3 months avg vs last 3 months avg
-    const earlySlice = m.slice(0, 3);
-    const lateSlice = m.slice(-3);
+    const cl = data.paidAds.columnLabels;
+    const isEcom = !!(cl?.leads || cl?.qualified); // ecom uses custom column labels
 
-    const earlyLeads = avg(earlySlice.map(x => x.leads));
-    const lateLeads = avg(lateSlice.map(x => x.leads));
-    const earlyCpl = avg(earlySlice.map(x => x.cpl));
-    const lateCpl = avg(lateSlice.map(x => x.cpl));
-    const earlyQual = avg(earlySlice.map(x => x.qualified));
-    const lateQual = avg(lateSlice.map(x => x.qualified));
-
-    metrics.push(
-      { label: "Avg. Leads / Month", before: Math.round(earlyLeads).toLocaleString(), after: Math.round(lateLeads).toLocaleString(), improved: lateLeads > earlyLeads },
-      { label: "Avg. Cost Per Lead", before: `$${earlyCpl.toFixed(2)}`, after: `$${lateCpl.toFixed(2)}`, improved: lateCpl < earlyCpl },
-      { label: "Avg. Qualified Leads", before: Math.round(earlyQual).toLocaleString(), after: Math.round(lateQual).toLocaleString(), improved: lateQual > earlyQual },
-    );
-
-    const earlyRev = earlySlice.map(x => x.revenue).filter((r): r is number => r != null);
-    const lateRev = lateSlice.map(x => x.revenue).filter((r): r is number => r != null);
-    if (earlyRev.length && lateRev.length) {
-      const earlyAvgRev = avg(earlyRev);
-      const lateAvgRev = avg(lateRev);
-      metrics.push({ label: "Avg. Monthly Revenue", before: `$${Math.round(earlyAvgRev).toLocaleString()}`, after: `$${Math.round(lateAvgRev).toLocaleString()}`, improved: lateAvgRev > earlyAvgRev });
+    // Use first 3 vs last 3 if enough data, else first half vs second half
+    let earlySlice, lateSlice;
+    if (m.length >= 4) {
+      earlySlice = m.slice(0, 3);
+      lateSlice = m.slice(-3);
+    } else {
+      const mid = Math.floor(m.length / 2);
+      earlySlice = m.slice(0, mid || 1);
+      lateSlice = m.slice(mid);
     }
-  } else if (data.paidAds?.monthly?.length && data.paidAds.monthly.length >= 2) {
-    // Short engagement — first half vs second half
-    const m = data.paidAds.monthly;
-    const mid = Math.floor(m.length / 2);
-    const earlySlice = m.slice(0, mid || 1);
-    const lateSlice = m.slice(mid);
 
     const earlyLeads = avg(earlySlice.map(x => x.leads));
     const lateLeads = avg(lateSlice.map(x => x.leads));
@@ -51,10 +34,21 @@ export default function BeforeAfterComparison({ data }: { data: CaseStudyData })
     const lateQual = avg(lateSlice.map(x => x.qualified));
 
     metrics.push(
-      { label: "Avg. Leads / Month", before: Math.round(earlyLeads).toLocaleString(), after: Math.round(lateLeads).toLocaleString(), improved: lateLeads > earlyLeads },
-      { label: "Avg. Cost Per Lead", before: `$${earlyCpl.toFixed(2)}`, after: `$${lateCpl.toFixed(2)}`, improved: lateCpl < earlyCpl },
-      { label: "Avg. Qualified Leads", before: Math.round(earlyQual).toLocaleString(), after: Math.round(lateQual).toLocaleString(), improved: lateQual > earlyQual },
+      { label: `Avg. ${cl?.leads || "Leads"} / Month`, before: Math.round(earlyLeads).toLocaleString(), after: Math.round(lateLeads).toLocaleString(), improved: lateLeads > earlyLeads },
+      { label: `Avg. ${cl?.cpl || "Cost Per Lead"}`, before: `$${earlyCpl.toFixed(2)}`, after: `$${lateCpl.toFixed(2)}`, improved: lateCpl < earlyCpl },
+      { label: `Avg. ${cl?.qualified || "Qualified Leads"}`, before: Math.round(earlyQual).toLocaleString(), after: Math.round(lateQual).toLocaleString(), improved: lateQual > earlyQual },
     );
+
+    // For ecom, also show avg orders
+    if (isEcom) {
+      const earlyDeals = earlySlice.map(x => x.deals).filter((d): d is number => d != null);
+      const lateDeals = lateSlice.map(x => x.deals).filter((d): d is number => d != null);
+      if (earlyDeals.length && lateDeals.length) {
+        const earlyAvgDeals = avg(earlyDeals);
+        const lateAvgDeals = avg(lateDeals);
+        metrics.push({ label: `Avg. ${cl?.deals || "Orders"} / Month`, before: Math.round(earlyAvgDeals).toLocaleString(), after: Math.round(lateAvgDeals).toLocaleString(), improved: lateAvgDeals > earlyAvgDeals });
+      }
+    }
 
     const earlyRev = earlySlice.map(x => x.revenue).filter((r): r is number => r != null);
     const lateRev = lateSlice.map(x => x.revenue).filter((r): r is number => r != null);
