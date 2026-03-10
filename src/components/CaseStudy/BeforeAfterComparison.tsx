@@ -3,28 +3,84 @@
 import { motion } from "framer-motion";
 import { CaseStudyData } from "@/data/types";
 
+function avg(arr: number[]): number {
+  return arr.reduce((a, b) => a + b, 0) / arr.length;
+}
+
 export default function BeforeAfterComparison({ data }: { data: CaseStudyData }) {
   const metrics: { label: string; before: string; after: string; improved: boolean }[] = [];
 
-  if (data.paidAds?.monthly?.length && data.paidAds.monthly.length >= 2) {
-    const first = data.paidAds.monthly[0];
-    const last = data.paidAds.monthly[data.paidAds.monthly.length - 1];
+  if (data.paidAds?.monthly?.length && data.paidAds.monthly.length >= 4) {
+    const m = data.paidAds.monthly;
+    // First 3 months avg vs last 3 months avg
+    const earlySlice = m.slice(0, 3);
+    const lateSlice = m.slice(-3);
+
+    const earlyLeads = avg(earlySlice.map(x => x.leads));
+    const lateLeads = avg(lateSlice.map(x => x.leads));
+    const earlyCpl = avg(earlySlice.map(x => x.cpl));
+    const lateCpl = avg(lateSlice.map(x => x.cpl));
+    const earlyQual = avg(earlySlice.map(x => x.qualified));
+    const lateQual = avg(lateSlice.map(x => x.qualified));
+
     metrics.push(
-      { label: "Leads / Month", before: first.leads.toLocaleString(), after: last.leads.toLocaleString(), improved: last.leads > first.leads },
-      { label: "Cost Per Lead", before: `$${first.cpl.toFixed(2)}`, after: `$${last.cpl.toFixed(2)}`, improved: last.cpl < first.cpl },
-      { label: "Qualified Leads", before: first.qualified.toLocaleString(), after: last.qualified.toLocaleString(), improved: last.qualified > first.qualified },
+      { label: "Avg. Leads / Month", before: Math.round(earlyLeads).toLocaleString(), after: Math.round(lateLeads).toLocaleString(), improved: lateLeads > earlyLeads },
+      { label: "Avg. Cost Per Lead", before: `$${earlyCpl.toFixed(2)}`, after: `$${lateCpl.toFixed(2)}`, improved: lateCpl < earlyCpl },
+      { label: "Avg. Qualified Leads", before: Math.round(earlyQual).toLocaleString(), after: Math.round(lateQual).toLocaleString(), improved: lateQual > earlyQual },
     );
-    if (first.revenue && last.revenue) {
-      metrics.push({ label: "Monthly Revenue", before: `$${first.revenue.toLocaleString()}`, after: `$${last.revenue.toLocaleString()}`, improved: last.revenue > first.revenue });
+
+    const earlyRev = earlySlice.map(x => x.revenue).filter((r): r is number => r != null);
+    const lateRev = lateSlice.map(x => x.revenue).filter((r): r is number => r != null);
+    if (earlyRev.length && lateRev.length) {
+      const earlyAvgRev = avg(earlyRev);
+      const lateAvgRev = avg(lateRev);
+      metrics.push({ label: "Avg. Monthly Revenue", before: `$${Math.round(earlyAvgRev).toLocaleString()}`, after: `$${Math.round(lateAvgRev).toLocaleString()}`, improved: lateAvgRev > earlyAvgRev });
+    }
+  } else if (data.paidAds?.monthly?.length && data.paidAds.monthly.length >= 2) {
+    // Short engagement — first half vs second half
+    const m = data.paidAds.monthly;
+    const mid = Math.floor(m.length / 2);
+    const earlySlice = m.slice(0, mid || 1);
+    const lateSlice = m.slice(mid);
+
+    const earlyLeads = avg(earlySlice.map(x => x.leads));
+    const lateLeads = avg(lateSlice.map(x => x.leads));
+    const earlyCpl = avg(earlySlice.map(x => x.cpl));
+    const lateCpl = avg(lateSlice.map(x => x.cpl));
+    const earlyQual = avg(earlySlice.map(x => x.qualified));
+    const lateQual = avg(lateSlice.map(x => x.qualified));
+
+    metrics.push(
+      { label: "Avg. Leads / Month", before: Math.round(earlyLeads).toLocaleString(), after: Math.round(lateLeads).toLocaleString(), improved: lateLeads > earlyLeads },
+      { label: "Avg. Cost Per Lead", before: `$${earlyCpl.toFixed(2)}`, after: `$${lateCpl.toFixed(2)}`, improved: lateCpl < earlyCpl },
+      { label: "Avg. Qualified Leads", before: Math.round(earlyQual).toLocaleString(), after: Math.round(lateQual).toLocaleString(), improved: lateQual > earlyQual },
+    );
+
+    const earlyRev = earlySlice.map(x => x.revenue).filter((r): r is number => r != null);
+    const lateRev = lateSlice.map(x => x.revenue).filter((r): r is number => r != null);
+    if (earlyRev.length && lateRev.length) {
+      const earlyAvgRev = avg(earlyRev);
+      const lateAvgRev = avg(lateRev);
+      metrics.push({ label: "Avg. Monthly Revenue", before: `$${Math.round(earlyAvgRev).toLocaleString()}`, after: `$${Math.round(lateAvgRev).toLocaleString()}`, improved: lateAvgRev > earlyAvgRev });
     }
   }
 
-  if (data.seo?.monthly?.length && data.seo.monthly.length >= 2) {
-    const first = data.seo.monthly[0];
-    const last = data.seo.monthly[data.seo.monthly.length - 1];
+  if (data.seo?.monthly?.length && data.seo.monthly.length >= 4) {
+    const m = data.seo.monthly;
+    const earlySlice = m.slice(0, 3);
+    const lateSlice = m.slice(-3);
     metrics.push(
-      { label: "Organic Traffic", before: first.traffic.toLocaleString(), after: last.traffic.toLocaleString(), improved: last.traffic > first.traffic },
-      { label: "Keywords Ranking", before: first.keywords.toLocaleString(), after: last.keywords.toLocaleString(), improved: last.keywords > first.keywords },
+      { label: "Avg. Organic Traffic", before: Math.round(avg(earlySlice.map(x => x.traffic))).toLocaleString(), after: Math.round(avg(lateSlice.map(x => x.traffic))).toLocaleString(), improved: avg(lateSlice.map(x => x.traffic)) > avg(earlySlice.map(x => x.traffic)) },
+      { label: "Avg. Keywords Ranking", before: Math.round(avg(earlySlice.map(x => x.keywords))).toLocaleString(), after: Math.round(avg(lateSlice.map(x => x.keywords))).toLocaleString(), improved: avg(lateSlice.map(x => x.keywords)) > avg(earlySlice.map(x => x.keywords)) },
+    );
+  } else if (data.seo?.monthly?.length && data.seo.monthly.length >= 2) {
+    const m = data.seo.monthly;
+    const mid = Math.floor(m.length / 2);
+    const earlySlice = m.slice(0, mid || 1);
+    const lateSlice = m.slice(mid);
+    metrics.push(
+      { label: "Avg. Organic Traffic", before: Math.round(avg(earlySlice.map(x => x.traffic))).toLocaleString(), after: Math.round(avg(lateSlice.map(x => x.traffic))).toLocaleString(), improved: avg(lateSlice.map(x => x.traffic)) > avg(earlySlice.map(x => x.traffic)) },
+      { label: "Avg. Keywords Ranking", before: Math.round(avg(earlySlice.map(x => x.keywords))).toLocaleString(), after: Math.round(avg(lateSlice.map(x => x.keywords))).toLocaleString(), improved: avg(lateSlice.map(x => x.keywords)) > avg(earlySlice.map(x => x.keywords)) },
     );
   }
 
@@ -35,7 +91,7 @@ export default function BeforeAfterComparison({ data }: { data: CaseStudyData })
       <div className="max-w-6xl mx-auto">
         <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5 }}>
           <h2 className="text-2xl md:text-3xl font-bold text-center mb-3">The Transformation</h2>
-          <p className="text-[#6B7280] text-center mb-10 max-w-2xl mx-auto">Month 1 vs. final month — see the real impact of AI-powered marketing.</p>
+          <p className="text-[#6B7280] text-center mb-10 max-w-2xl mx-auto">Early performance vs. optimized results — average metrics that show the real impact.</p>
         </motion.div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
