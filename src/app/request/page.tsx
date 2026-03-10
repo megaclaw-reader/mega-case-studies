@@ -16,6 +16,8 @@ export default function RequestPage() {
     scope: "local",
     monthlySpend: "",
     clientDuration: "",
+    startMonth: "",
+    endMonth: "",
     services: [] as string[],
     region: "",
     highlights: "",
@@ -194,21 +196,57 @@ export default function RequestPage() {
             />
           </div>
 
-          {/* Client Duration */}
+          {/* Date Range */}
           <div>
             <label className="block text-sm font-medium text-gray-700 mb-1.5">
-              Client Duration (months) <span className="text-red-500">*</span>
+              Case Study Date Range <span className="text-red-500">*</span>
             </label>
-            <input
-              required
-              type="number"
-              min={1}
-              max={60}
-              value={form.clientDuration}
-              onChange={(e) => update("clientDuration", e.target.value)}
-              placeholder="e.g. 12"
-              className="w-full px-4 py-2.5 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#2454FF]/30 focus:border-[#2454FF] transition"
-            />
+            <div className="flex items-center gap-3">
+              <div className="flex-1">
+                <input
+                  required
+                  type="month"
+                  value={form.startMonth}
+                  onChange={(e) => {
+                    update("startMonth", e.target.value);
+                    // Auto-calculate duration if both set
+                    if (e.target.value && form.endMonth) {
+                      const [sy, sm] = e.target.value.split("-").map(Number);
+                      const [ey, em] = form.endMonth.split("-").map(Number);
+                      const months = (ey - sy) * 12 + (em - sm) + 1;
+                      if (months > 0) update("clientDuration", String(months));
+                    }
+                  }}
+                  className="w-full px-4 py-2.5 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#2454FF]/30 focus:border-[#2454FF] transition"
+                />
+                <p className="mt-1 text-xs text-gray-400">Start month</p>
+              </div>
+              <span className="text-gray-400 font-medium pt-[-20px]">→</span>
+              <div className="flex-1">
+                <input
+                  required
+                  type="month"
+                  value={form.endMonth}
+                  onChange={(e) => {
+                    update("endMonth", e.target.value);
+                    // Auto-calculate duration if both set
+                    if (form.startMonth && e.target.value) {
+                      const [sy, sm] = form.startMonth.split("-").map(Number);
+                      const [ey, em] = e.target.value.split("-").map(Number);
+                      const months = (ey - sy) * 12 + (em - sm) + 1;
+                      if (months > 0) update("clientDuration", String(months));
+                    }
+                  }}
+                  className="w-full px-4 py-2.5 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#2454FF]/30 focus:border-[#2454FF] transition"
+                />
+                <p className="mt-1 text-xs text-gray-400">End month</p>
+              </div>
+            </div>
+            {form.startMonth && form.endMonth && Number(form.clientDuration) > 0 && (
+              <p className="mt-2 text-sm text-[#2454FF] font-medium">
+                {form.clientDuration} month{Number(form.clientDuration) !== 1 ? "s" : ""} of data
+              </p>
+            )}
           </div>
 
           {/* Services */}

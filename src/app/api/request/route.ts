@@ -23,7 +23,7 @@ async function notifySlack(entry: Record<string, unknown>) {
     `• *Industry:* ${entry.industry}`,
     `• *Scope:* ${entry.scope}`,
     `• *Monthly Ad Spend:* ${entry.monthlySpend}`,
-    `• *Duration:* ${entry.clientDuration} months`,
+    `• *Date Range:* ${entry.startMonth || "N/A"} to ${entry.endMonth || "N/A"} (${entry.clientDuration} months)`,
     `• *Services:* ${services}`,
     `• *Region:* ${entry.region || "Not specified"}`,
     `• *Notes:* ${entry.highlights || "None"}`,
