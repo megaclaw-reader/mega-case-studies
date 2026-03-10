@@ -112,8 +112,8 @@ export default function BeforeAfterComparison({ data }: { data: CaseStudyData })
                 </div>
                 <div className="text-[#6B7280] text-2xl">→</div>
                 <div className="flex-1 text-center">
-                  <span className={`text-xs uppercase tracking-wider font-semibold ${m.improved ? 'text-[#10B981]' : 'text-[#EF4444]'}`}>After</span>
-                  <p className={`text-xl md:text-2xl font-bold mt-1 ${m.improved ? 'text-[#10B981]' : 'text-[#EF4444]'}`}>{m.after}</p>
+                  <span className={`text-xs uppercase tracking-wider font-semibold ${m.before === m.after ? 'text-[#6B7280]' : m.improved ? 'text-[#10B981]' : 'text-[#EF4444]'}`}>After</span>
+                  <p className={`text-xl md:text-2xl font-bold mt-1 ${m.before === m.after ? 'text-[#6B7280]' : m.improved ? 'text-[#10B981]' : 'text-[#EF4444]'}`}>{m.after}</p>
                 </div>
               </div>
             </motion.div>
