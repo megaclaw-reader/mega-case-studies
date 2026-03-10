@@ -277,7 +277,7 @@ export const residentialMovingNyc: CaseStudyData = {
   },
 
   impact: [
-    { label: "Total Revenue Generated", value: "$346K", growth: "+340%" },
+    { label: "Total Revenue Generated", value: "$346.2K", growth: "+340%" },
     { label: "ROAS Improvement", value: "2.69x", growth: "+30%" },
     { label: "Lead Quality Increase", value: "48.6%", growth: "+67%" },
     { label: "Cost Per Qualified Lead", value: "$145.08", growth: "-31%" },
