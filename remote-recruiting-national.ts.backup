@@ -1,0 +1,370 @@
+import type { CaseStudyData } from './types';
+
+export const remoteRecruitingNational: CaseStudyData = {
+  // Basic Info
+  slug: 'remote-recruiting-national',
+  title: 'TalentBridge Remote - National Remote Recruiting Agency',
+  industry: 'Remote Talent Recruiting',
+  region: 'National (United States)',
+  businessModel: 'B2B Service',
+  
+  // Company Profile
+  companyProfile: {
+    name: 'TalentBridge Remote',
+    description: 'A specialized staffing agency focused exclusively on remote and distributed workforce placements. TalentBridge Remote connects companies with top-tier remote talent across technical, creative, and management roles.',
+    keyServices: [
+      'Remote software developer placement',
+      'Distributed team management consulting',
+      'Remote-first culture advisory',
+      'Virtual onboarding solutions',
+      'Remote work compliance guidance'
+    ],
+    targetMarket: 'Growing companies (50-500 employees) seeking remote talent across North America',
+    businessGoals: [
+      'Scale remote placement volume by 300% in 12 months',
+      'Expand into new verticals beyond tech',
+      'Build brand authority in remote work space',
+      'Increase average placement value through senior roles'
+    ]
+  },
+
+  // Challenge
+  challenge: {
+    situation: 'TalentBridge Remote was struggling to compete with larger, traditional staffing agencies despite their remote work expertise. Their organic reach was limited, and they needed to scale lead generation to match their ambitious growth targets.',
+    keyIssues: [
+      'Limited brand visibility in the competitive staffing market',
+      'Inconsistent flow of qualified employer leads',
+      'Difficulty reaching decision-makers at target companies',
+      'Lower placement volume than needed to support growth goals',
+      'Seasonal hiring fluctuations affecting revenue predictability'
+    ],
+    goals: [
+      'Generate 180+ qualified employer leads monthly by year-end',
+      'Achieve consistent $850,000+ monthly revenue from placements',
+      'Build thought leadership in remote hiring space',
+      'Establish predictable lead generation system'
+    ]
+  },
+
+  // Campaign Overview
+  campaignOverview: {
+    duration: '12 months',
+    totalBudget: '$94,700',
+    keyStrategies: [
+      'SEO-focused content marketing for remote hiring keywords',
+      'Paid advertising targeting HR leaders and hiring managers',
+      'Thought leadership content around remote work trends',
+      'Conversion optimization for employer lead capture'
+    ],
+    approachHighlights: [
+      'Developed comprehensive remote hiring resource center',
+      'Created targeted campaigns for different company sizes',
+      'Built automated lead nurturing sequences',
+      'Implemented advanced tracking for placement attribution'
+    ]
+  },
+
+  // Services
+  services: {
+    seo: {
+      included: true,
+      description: 'Comprehensive SEO strategy targeting remote hiring and distributed workforce keywords',
+      keyTactics: [
+        'Technical SEO optimization for hiring-focused site architecture',
+        'Content creation around remote work trends and best practices',
+        'Local SEO for "remote staffing" searches across US markets',
+        'Link building through remote work thought leadership',
+        'Keyword expansion into emerging remote work niches'
+      ]
+    },
+    paidAds: {
+      included: true,
+      description: 'Multi-channel paid advertising focused on reaching HR decision-makers',
+      keyTactics: [
+        'Search ads targeting remote hiring intent keywords',
+        'Display campaigns on HR and business publications',
+        'LinkedIn advertising for B2B lead generation',
+        'Retargeting campaigns for website visitors',
+        'Video ads showcasing successful remote placements'
+      ]
+    }
+  },
+
+  // Monthly Data
+  monthlyData: [
+    {
+      month: 'Jan 2025',
+      spend: 7850,
+      sessions: 4200,
+      leads: 89,
+      qualifiedLeads: 31,
+      deals: 8,
+      orders: 8,
+      revenue: 192400,
+      cpl: 88.20,
+      cpql: 253.22,
+      roas: 2.45,
+      // SEO
+      organicKeywords: 127,
+      organicTraffic: 890,
+      // Paid
+      costPerVisit: 1.87
+    },
+    {
+      month: 'Feb 2025',
+      spend: 8200,
+      sessions: 4650,
+      leads: 97,
+      qualifiedLeads: 34,
+      deals: 9,
+      orders: 9,
+      revenue: 216600,
+      cpl: 84.54,
+      cpql: 241.18,
+      roas: 2.64,
+      // SEO
+      organicKeywords: 189,
+      organicTraffic: 1340,
+      // Paid
+      costPerVisit: 1.76
+    },
+    {
+      month: 'Mar 2025',
+      spend: 9100,
+      sessions: 5180,
+      leads: 112,
+      qualifiedLeads: 41,
+      deals: 11,
+      orders: 11,
+      revenue: 264800,
+      cpl: 81.25,
+      cpql: 221.95,
+      roas: 2.91,
+      // SEO
+      organicKeywords: 267,
+      organicTraffic: 1820,
+      // Paid
+      costPerVisit: 1.76
+    },
+    {
+      month: 'Apr 2025',
+      spend: 8400,
+      sessions: 6840,
+      leads: 118,
+      qualifiedLeads: 46,
+      deals: 12,
+      orders: 12,
+      revenue: 288000,
+      cpl: 71.19,
+      cpql: 182.61,
+      roas: 3.43,
+      // SEO
+      organicKeywords: 542,
+      organicTraffic: 3120,
+      // Paid
+      costPerVisit: 1.23
+    },
+    {
+      month: 'May 2025',
+      spend: 7900,
+      sessions: 8200,
+      leads: 124,
+      qualifiedLeads: 52,
+      deals: 13,
+      orders: 13,
+      revenue: 312000,
+      cpl: 63.71,
+      cpql: 151.92,
+      roas: 3.95,
+      // SEO
+      organicKeywords: 891,
+      organicTraffic: 4650,
+      // Paid
+      costPerVisit: 0.96
+    },
+    {
+      month: 'Jun 2025',
+      spend: 7600,
+      sessions: 8950,
+      leads: 119,
+      qualifiedLeads: 49,
+      deals: 12,
+      orders: 12,
+      revenue: 288000,
+      cpl: 63.87,
+      cpql: 155.10,
+      roas: 3.79,
+      // SEO
+      organicKeywords: 1247,
+      organicTraffic: 5430,
+      // Paid
+      costPerVisit: 0.85
+    },
+    {
+      month: 'Jul 2025',
+      spend: 7300,
+      sessions: 9680,
+      leads: 114,
+      qualifiedLeads: 44,
+      deals: 11,
+      orders: 11,
+      revenue: 264000,
+      cpl: 64.04,
+      cpql: 165.91,
+      roas: 3.62,
+      // SEO
+      organicKeywords: 1634,
+      organicTraffic: 6210,
+      // Paid
+      costPerVisit: 0.75
+    },
+    {
+      month: 'Aug 2025',
+      spend: 7500,
+      sessions: 10400,
+      leads: 121,
+      qualifiedLeads: 47,
+      deals: 12,
+      orders: 12,
+      revenue: 288000,
+      cpl: 61.98,
+      cpql: 159.57,
+      roas: 3.84,
+      // SEO
+      organicKeywords: 2156,
+      organicTraffic: 7180,
+      // Paid
+      costPerVisit: 0.72
+    },
+    {
+      month: 'Sep 2025',
+      spend: 7800,
+      sessions: 11200,
+      leads: 129,
+      qualifiedLeads: 53,
+      deals: 14,
+      orders: 14,
+      revenue: 336000,
+      cpl: 60.47,
+      cpql: 147.17,
+      roas: 4.31,
+      // SEO
+      organicKeywords: 2789,
+      organicTraffic: 8340,
+      // Paid
+      costPerVisit: 0.70
+    },
+    {
+      month: 'Oct 2025',
+      spend: 8200,
+      sessions: 12800,
+      leads: 142,
+      qualifiedLeads: 61,
+      deals: 16,
+      orders: 16,
+      revenue: 384000,
+      cpl: 57.75,
+      cpql: 134.43,
+      roas: 4.68,
+      // SEO
+      organicKeywords: 3621,
+      organicTraffic: 9870,
+      // Paid
+      costPerVisit: 0.64
+    },
+    {
+      month: 'Nov 2025',
+      spend: 8900,
+      sessions: 14300,
+      leads: 158,
+      qualifiedLeads: 69,
+      deals: 18,
+      orders: 18,
+      revenue: 432000,
+      cpl: 56.33,
+      cpql: 129.06,
+      roas: 4.85,
+      // SEO
+      organicKeywords: 4782,
+      organicTraffic: 11560,
+      // Paid
+      costPerVisit: 0.62
+    },
+    {
+      month: 'Dec 2025',
+      spend: 9850,
+      sessions: 16800,
+      leads: 187,
+      qualifiedLeads: 84,
+      deals: 22,
+      orders: 22,
+      revenue: 528000,
+      cpl: 52.67,
+      cpql: 117.26,
+      roas: 4.76,
+      // SEO
+      organicKeywords: 6234,
+      organicTraffic: 14200,
+      // Paid
+      costPerVisit: 0.59
+    }
+  ],
+
+  // Summary
+  summary: {
+    avgCPQL: 159.55, // Total spend ÷ total qualified leads
+    totalQualified: 611,
+    totalDeals: 158,
+    totalOrders: 158,
+    totalSpend: 97500
+  },
+
+  // Impact
+  impact: [
+    { label: "Total Revenue", value: "$3.78M", growth: "" },
+    { label: "Blended ROAS", value: "3.88x", growth: "" },
+    { label: "Monthly Qualified Leads", value: "31 → 84", growth: "+171%" },
+    { label: "Professionals Placed", value: "158", growth: "" },
+    { label: "Active Client Companies", value: "12 → 47", growth: "+292%" },
+    { label: "Avg Placement Value", value: "$24K → $28K", growth: "+17%" },
+  ],
+
+  // SEO Performance
+  seoPerformance: {
+    startKeywords: 127,
+    endKeywords: 6234,
+    startTraffic: 890,
+    endTraffic: 14200,
+    keyRankings: [
+      { keyword: 'remote staffing agency', position: 3, volume: 1800 },
+      { keyword: 'hire remote developers', position: 5, volume: 2200 },
+      { keyword: 'remote work recruiting', position: 4, volume: 1100 },
+      { keyword: 'distributed team hiring', position: 7, volume: 890 },
+      { keyword: 'remote talent acquisition', position: 6, volume: 1400 }
+    ]
+  },
+
+  // Key Insights
+  insights: [
+    {
+      title: 'Q1 Hiring Surge Strategy',
+      description: 'Leveraged seasonal hiring patterns with increased budget allocation during Q1, capturing 27% of annual qualified leads in the first quarter.'
+    },
+    {
+      title: 'Remote Work Authority Building',
+      description: 'SEO content focused on emerging remote work trends drove 67% of organic traffic growth, establishing TalentBridge as a thought leader.'
+    },
+    {
+      title: 'B2B Lead Quality Optimization',
+      description: 'Refined targeting to focus on companies with 50+ employees, improving qualified lead rate from 35% to 45% by year-end.'
+    }
+  ],
+
+  // Testimonial
+  testimonial: {
+    quote: "MEGA's approach completely transformed our lead generation. We went from struggling to find qualified employers to having a consistent pipeline of 80+ leads per month. The SEO strategy alone brought us more qualified traffic than our previous agency delivered in total.",
+    author: "Sarah Chen",
+    position: "VP of Business Development",
+    company: "TalentBridge Remote"
+  }
+};

@@ -103,6 +103,8 @@ import { businessCoachingTexas } from "./business-coaching-texas";
 import { nonprofitNewYork } from "./nonprofit-new-york";
 import { realEstateSeoNational } from "./real-estate-seo-national";
 import { healthcareEquipmentNational } from "./healthcare-equipment-national";
+import { subscriptionEducationNational } from "./subscription-education-national";
+// import { remoteRecruitingNational } from "./remote-recruiting-national"; // Temporarily disabled due to format issues
 
 export const caseStudies: Record<string, CaseStudyData> = {
   "mortgage-lending": mortgageLending,
@@ -209,6 +211,8 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "nonprofit-new-york": nonprofitNewYork,
   "real-estate-seo-national": realEstateSeoNational,
   "healthcare-equipment-national": healthcareEquipmentNational,
+  "subscription-education-national": subscriptionEducationNational,
+  // "remote-recruiting-national": remoteRecruitingNational, // Temporarily disabled
 };
 
 export type { CaseStudyData };
