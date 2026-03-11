@@ -117,6 +117,7 @@ import { commercialTaxServicesUs } from "./commercial-tax-services-us";
 import { b2bSaasSeoGrowth } from "./b2b-saas-seo-growth";
 import { rvDealershipPhoenix } from "./rv-dealership-phoenix";
 import { carDealershipNewYork } from "./car-dealership-new-york";
+import { selfImprovementSubscriptionNA } from "./self-improvement-subscription-na";
 
 export const caseStudies: Record<string, CaseStudyData> = {
   "mortgage-lending": mortgageLending,
@@ -237,6 +238,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "b2b-saas-seo-growth": b2bSaasSeoGrowth,
   "rv-dealership-phoenix": rvDealershipPhoenix,
   "car-dealership-new-york": carDealershipNewYork,
+  "self-improvement-subscription-na": selfImprovementSubscriptionNA,
 };
 
 export type { CaseStudyData };

@@ -44,6 +44,7 @@ export interface CaseStudyData {
     monthly: {
       month: string;
       spend: number;
+      sessions?: number;
       leads: number;
       cpl: number;
       qualified: number;
