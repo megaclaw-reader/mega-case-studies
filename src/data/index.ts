@@ -118,6 +118,7 @@ import { b2bSaasSeoGrowth } from "./b2b-saas-seo-growth";
 import { rvDealershipPhoenix } from "./rv-dealership-phoenix";
 import { carDealershipNewYork } from "./car-dealership-new-york";
 import { selfImprovementSubscriptionNA } from "./self-improvement-subscription-na";
+import { landscapingArizonaSeo } from "./landscaping-arizona-seo";
 
 export const caseStudies: Record<string, CaseStudyData> = {
   "mortgage-lending": mortgageLending,
@@ -239,6 +240,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "rv-dealership-phoenix": rvDealershipPhoenix,
   "car-dealership-new-york": carDealershipNewYork,
   "self-improvement-subscription-na": selfImprovementSubscriptionNA,
+  "landscaping-arizona-seo": landscapingArizonaSeo,
 };
 
 export type { CaseStudyData };
