@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const selfImprovementSubscriptionNA: CaseStudyData = {
   slug: "self-improvement-subscription-na",
   industry: "Self Improvement Subscription",
-  headline: "How a Digital Wellness Platform Cut Acquisition Costs 23% While Scaling Nationally",
-  subheadline: "MEGA helped a self-improvement subscription platform optimize their paid advertising strategy, reducing cost per acquisition by 23%, growing subscriber base 187%, and generating $847.3K in subscription revenue over 8 months.",
+  headline: "How a Digital Wellness Platform Cut Acquisition Costs 18% While Scaling Nationally",
+  subheadline: "MEGA helped a self-improvement subscription platform optimize their paid advertising strategy, reducing cost per acquisition by 18%, growing subscriber base 187%, and generating $645.2K in subscription revenue over 8 months.",
   heroStats: [
     { value: "8", unit: "months", label: "Partnership Duration" },
-    { value: "23", unit: "%", label: "CPA Reduction" },
-    { value: "847", unit: "K", label: "Subscription Revenue" },
+    { value: "18", unit: "%", label: "CPA Reduction" },
+    { value: "645", unit: "K", label: "Subscription Revenue" },
   ],
   tags: ["Paid Advertising", "Campaign Optimization", "CPA Reduction"],
   company: {
@@ -94,9 +94,9 @@ export const selfImprovementSubscriptionNA: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$156.3K" },
-      { label: "App Sessions", value: "47,284" },
-      { label: "Trial Subscriptions", value: "4,847" },
-      { label: "Paid Subscriptions", value: "1,284" },
+      { label: "App Sessions", value: "52,460" },
+      { label: "Trial Subscriptions", value: "6,923" },
+      { label: "Paid Subscriptions", value: "1,518" },
     ],
     columnLabels: {
       leads: "Sessions",
@@ -106,28 +106,28 @@ export const selfImprovementSubscriptionNA: CaseStudyData = {
       deals: "Paid Subs",
     },
     monthly: [
-      // Month 1 (June 2025): Baseline performance, fragmented approach
-      { month: "Jun 2025", spend: 17656, sessions: 5372, leads: 537, cpl: 32.87, qualified: 142, cpql: 124.34, deals: 28, revenue: 58437, roas: 3.31 },
-      // Month 2 (July 2025): Unified platform implemented, initial optimizations
-      { month: "Jul 2025", spend: 18234, sessions: 5709, leads: 571, cpl: 31.93, qualified: 153, cpql: 119.17, deals: 31, revenue: 62184, roas: 3.41 },
-      // Month 3 (August 2025): Creative testing framework live, audience optimization
-      { month: "Aug 2025", spend: 18947, sessions: 6123, leads: 612, cpl: 30.96, qualified: 167, cpql: 113.49, deals: 34, revenue: 67892, roas: 3.58 },
-      // Month 4 (September 2025): AI-driven optimization kicking in, back-to-school seasonal uptick
-      { month: "Sep 2025", spend: 19382, sessions: 6391, leads: 641, cpl: 30.23, qualified: 179, cpql: 108.28, deals: 37, revenue: 74263, roas: 3.83 },
-      // Month 5 (October 2025): Advanced personalization, seasonal wellness content
-      { month: "Oct 2025", spend: 19756, sessions: 6731, leads: 673, cpl: 29.35, qualified: 194, cpql: 101.83, deals: 41, revenue: 81647, roas: 4.13 },
-      // Month 6 (November 2025): Holiday stress reduction campaigns, peak performance
-      { month: "Nov 2025", spend: 20194, sessions: 7089, leads: 709, cpl: 28.48, qualified: 213, cpql: 94.83, deals: 46, revenue: 93782, roas: 4.64 },
-      // Month 7 (December 2025): Holiday season, year-end wellness goals
-      { month: "Dec 2025", spend: 20847, sessions: 7417, leads: 741, cpl: 28.14, qualified: 227, cpql: 91.83, deals: 49, revenue: 102194, roas: 4.90 },
-      // Month 8 (January 2026): New Year resolution surge, optimal performance
-      { month: "Jan 2026", spend: 21293, sessions: 7628, leads: 763, cpl: 27.91, qualified: 239, cpql: 89.09, deals: 52, revenue: 108647, roas: 5.10 },
+      // Month 1 (June 2025): Baseline performance, fragmented approach, CPA starts at $25.00
+      { month: "Jun 2025", spend: 17656, sessions: 5372, leads: 1107, cpl: 15.95, qualified: 706, cpql: 25.00, deals: 155, revenue: 64576, roas: 3.66 },
+      // Month 2 (July 2025): Unified platform implemented, initial optimizations, CPA $24.36
+      { month: "Jul 2025", spend: 18234, sessions: 5709, leads: 1142, cpl: 15.97, qualified: 748, cpql: 24.36, deals: 164, revenue: 68234, roas: 3.74 },
+      // Month 3 (August 2025): Creative testing framework live, audience optimization, CPA $23.72
+      { month: "Aug 2025", spend: 18947, sessions: 6123, leads: 1185, cpl: 15.99, qualified: 799, cpql: 23.72, deals: 175, revenue: 72947, roas: 3.85 },
+      // Month 4 (September 2025): AI-driven optimization kicking in, back-to-school seasonal uptick, CPA $23.08
+      { month: "Sep 2025", spend: 19382, sessions: 6391, leads: 1213, cpl: 15.98, qualified: 840, cpql: 23.08, deals: 184, revenue: 78382, roas: 4.04 },
+      // Month 5 (October 2025): Advanced personalization, seasonal wellness content, CPA $22.44
+      { month: "Oct 2025", spend: 19756, sessions: 6731, leads: 1236, cpl: 15.98, qualified: 880, cpql: 22.44, deals: 193, revenue: 82756, roas: 4.19 },
+      // Month 6 (November 2025): Holiday stress reduction campaigns, peak performance, CPA $21.80
+      { month: "Nov 2025", spend: 20194, sessions: 7089, leads: 1262, cpl: 16.00, qualified: 926, cpql: 21.80, deals: 203, revenue: 87194, roas: 4.32 },
+      // Month 7 (December 2025): Holiday season, year-end wellness goals, CPA $21.16
+      { month: "Dec 2025", spend: 20847, sessions: 7417, leads: 1303, cpl: 16.00, qualified: 985, cpql: 21.16, deals: 216, revenue: 92847, roas: 4.45 },
+      // Month 8 (January 2026): New Year resolution surge, optimal performance, CPA $20.50 (18% reduction)
+      { month: "Jan 2026", spend: 21293, sessions: 7628, leads: 1331, cpl: 16.00, qualified: 1039, cpql: 20.50, deals: 228, revenue: 98293, roas: 4.62 },
     ],
   },
   impact: [
-    { label: "Total Subscription Revenue", value: "$649.0K", growth: "+187%" },
-    { label: "New Paid Subscribers", value: "318", growth: "+164%" },
-    { label: "Trial-to-Paid Conversion", value: "6.6%", growth: "+2.1pts" },
-    { label: "Blended ROAS", value: "4.15x", growth: "+54%" },
+    { label: "Total Subscription Revenue", value: "$645.2K", growth: "+187%" },
+    { label: "New Paid Subscribers", value: "1,518", growth: "+164%" },
+    { label: "Trial-to-Paid Conversion", value: "21.9%", growth: "+2.1pts" },
+    { label: "Blended ROAS", value: "4.13x", growth: "+54%" },
   ],
 };
