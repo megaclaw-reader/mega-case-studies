@@ -105,6 +105,7 @@ export const selfImprovementSubscriptionNA: CaseStudyData = {
       cpql: "CPA (Trial)",
       deals: "Paid Subs",
     },
+    hiddenColumns: ["cpl"],
     monthly: [
       // Month 1 (June 2025): Baseline performance, fragmented approach, CPA starts at $25.00
       { month: "Jun 2025", spend: 17656, sessions: 5372, leads: 1107, cpl: 15.95, qualified: 706, cpql: 25.00, deals: 155, revenue: 64576, roas: 3.66 },

@@ -13,6 +13,7 @@ export default function BeforeAfterComparison({ data }: { data: CaseStudyData })
   if (data.paidAds?.monthly?.length && data.paidAds.monthly.length >= 2) {
     const m = data.paidAds.monthly;
     const cl = data.paidAds.columnLabels;
+    const hiddenCols = new Set(data.paidAds.hiddenColumns ?? []);
     const isEcom = !!(cl?.leads || cl?.qualified); // ecom uses custom column labels
 
     // Use first 3 vs last 3 if enough data, else first half vs second half
@@ -35,7 +36,13 @@ export default function BeforeAfterComparison({ data }: { data: CaseStudyData })
 
     metrics.push(
       { label: `Avg. ${cl?.leads || "Leads"} / Month`, before: Math.round(earlyLeads).toLocaleString(), after: Math.round(lateLeads).toLocaleString(), improved: lateLeads > earlyLeads },
-      { label: `Avg. ${cl?.cpl || "Cost Per Lead"}`, before: `$${earlyCpl.toFixed(2)}`, after: `$${lateCpl.toFixed(2)}`, improved: lateCpl < earlyCpl },
+    );
+    if (!hiddenCols.has("cpl")) {
+      metrics.push(
+        { label: `Avg. ${cl?.cpl || "Cost Per Lead"}`, before: `$${earlyCpl.toFixed(2)}`, after: `$${lateCpl.toFixed(2)}`, improved: lateCpl < earlyCpl },
+      );
+    }
+    metrics.push(
       { label: `Avg. ${cl?.qualified || "Qualified Leads"}`, before: Math.round(earlyQual).toLocaleString(), after: Math.round(lateQual).toLocaleString(), improved: lateQual > earlyQual },
     );
 

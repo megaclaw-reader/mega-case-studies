@@ -41,6 +41,7 @@ export interface CaseStudyData {
       cpql?: string;
       deals?: string;
     };
+    hiddenColumns?: string[];
     monthly: {
       month: string;
       spend: number;

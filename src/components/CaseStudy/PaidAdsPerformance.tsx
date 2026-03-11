@@ -12,6 +12,8 @@ export default function PaidAdsPerformance({ data }: { data: CaseStudyData }) {
   if (!data.paidAds) return null;
   const { paidAds } = data;
   const cl = paidAds.columnLabels;
+  const hidden = new Set(paidAds.hiddenColumns ?? []);
+  const showCpl = !hidden.has("cpl");
 
   return (
     <AnimatedSection id="paid-ads" className="py-20 px-6 bg-gray-50/50">
@@ -44,6 +46,7 @@ export default function PaidAdsPerformance({ data }: { data: CaseStudyData }) {
             </ResponsiveContainer>
           </div>
 
+          {showCpl && (
           <div className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
             <h3 className="font-bold mb-4">{cl?.cpl ? `${cl.cpl} Reduction` : "Cost Per Lead Reduction"}</h3>
             <ResponsiveContainer width="100%" height={280}>
@@ -57,12 +60,15 @@ export default function PaidAdsPerformance({ data }: { data: CaseStudyData }) {
               </LineChart>
             </ResponsiveContainer>
           </div>
+          )}
         </div>
 
         {(() => {
           const hasRevenue = paidAds.monthly.some(r => r.revenue != null && r.revenue > 0);
           const hasDeals = paidAds.monthly.some(r => r.deals != null && r.deals > 0);
-          const headers = ["Month", "Spend", cl?.leads || "Leads", cl?.cpl || "CPL", cl?.qualified || "Qualified", cl?.cpql || "CPQL"];
+          const headers = ["Month", "Spend", cl?.leads || "Leads"];
+          if (showCpl) headers.push(cl?.cpl || "CPL");
+          headers.push(cl?.qualified || "Qualified", cl?.cpql || "CPQL");
           if (hasDeals) { headers.push(cl?.deals || "Deals"); }
           if (hasRevenue) { headers.push("Revenue", "ROAS"); }
           const m = paidAds.monthly;
@@ -94,7 +100,7 @@ export default function PaidAdsPerformance({ data }: { data: CaseStudyData }) {
                     <td className="px-5 py-3 font-medium">{row.month}</td>
                     <td className="px-5 py-3">${row.spend.toLocaleString()}</td>
                     <td className="px-5 py-3">{row.leads}</td>
-                    <td className="px-5 py-3">${row.cpl}</td>
+                    {showCpl && <td className="px-5 py-3">${row.cpl}</td>}
                     <td className="px-5 py-3">{row.qualified}</td>
                     <td className="px-5 py-3">${row.cpql.toLocaleString()}</td>
                     {hasDeals && <td className="px-5 py-3">{row.deals}</td>}
@@ -108,7 +114,7 @@ export default function PaidAdsPerformance({ data }: { data: CaseStudyData }) {
                   <td className="px-5 py-3">Total / Avg</td>
                   <td className="px-5 py-3">${totalSpend.toLocaleString()}</td>
                   <td className="px-5 py-3">{totalLeads.toLocaleString()}</td>
-                  <td className="px-5 py-3">${avgCpl}</td>
+                  {showCpl && <td className="px-5 py-3">${avgCpl}</td>}
                   <td className="px-5 py-3">{totalQualified.toLocaleString()}</td>
                   <td className="px-5 py-3">${avgCpql.toLocaleString()}</td>
                   {hasDeals && <td className="px-5 py-3">{totalDeals}</td>}
