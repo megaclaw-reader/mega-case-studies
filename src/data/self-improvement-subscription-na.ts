@@ -3,8 +3,8 @@ import { CaseStudyData } from "./types";
 export const selfImprovementSubscriptionNA: CaseStudyData = {
   slug: "self-improvement-subscription-na",
   industry: "Self Improvement Subscription",
-  headline: "How a Digital Wellness Platform Cut Acquisition Costs 18% While Scaling Nationally",
-  subheadline: "MEGA helped a self-improvement subscription platform optimize their paid advertising strategy, reducing cost per acquisition by 18%, growing subscriber base 187%, and generating $645.2K in subscription revenue over 8 months.",
+  headline: "How a Digital Wellness Platform Cut Acquisition Costs 18% While Scaling Across the West Coast",
+  subheadline: "MEGA helped a West Coast self-improvement subscription platform optimize their paid advertising strategy, reducing cost per acquisition by 18%, growing subscriber base 187%, and generating $645.2K in subscription revenue over 8 months.",
   heroStats: [
     { value: "8", unit: "months", label: "Partnership Duration" },
     { value: "18", unit: "%", label: "CPA Reduction" },
@@ -15,8 +15,8 @@ export const selfImprovementSubscriptionNA: CaseStudyData = {
     industry: "Self Improvement & Wellness",
     employees: "34",
     revenue: "$2.8M",
-    location: "North America",
-    description: "A fast-growing digital wellness platform offering guided meditation, personal development courses, and habit-tracking tools through a subscription-based mobile app. The company had established a strong product-market fit with excellent user retention (8.2% monthly churn), but their paid acquisition strategy was inefficient and fragmented across different audience segments. With ambitious growth targets and increasing competition from larger wellness brands, they needed a unified approach to scale their subscriber acquisition while maintaining unit economics.",
+    location: "West Coast",
+    description: "A fast-growing digital wellness platform offering guided meditation, personal development courses, and habit-tracking tools through a subscription-based mobile app across West Coast markets in California, Oregon, Washington, Nevada, and Arizona. The company had established a strong product-market fit with excellent user retention (8.2% monthly churn), but their paid acquisition strategy was inefficient and fragmented across different audience segments. With ambitious growth targets and increasing competition from larger wellness brands, they needed a unified approach to scale their subscriber acquisition while maintaining unit economics.",
   },
   challenges: [
     {
