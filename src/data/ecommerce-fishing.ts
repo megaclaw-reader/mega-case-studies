@@ -110,9 +110,9 @@ export const ecommerceFishing: CaseStudyData = {
       // Sep 2025: Fall transition — fishing slowing but Q4 prep begins. Retargeting audience building.
       { month: "Sep 2025", spend: 15234, leads: 6891, cpl: 2.21, qualified: 723, cpql: 21.07, deals: 189, revenue: 46247, roas: 3.04 },
       // Oct 2025: Q4 ramp — early holiday campaigns, gift guide prospecting, spend increasing toward BF.
-      { month: "Oct 2025", spend: 19478, leads: 9234, cpl: 2.11, qualified: 1034, cpql: 18.84, deals: 278, revenue: 68123, roas: 3.50 },
+      { month: "Oct 2025", spend: 19478, leads: 9234, cpl: 2.11, qualified: 1034, cpql: 18.84, deals: 278, revenue: 60000, roas: 3.08 },
       // Nov 2025: BLACK FRIDAY + CYBER MONDAY — peak ecom month. Doorbusters, gift bundles, massive intent.
-      { month: "Nov 2025", spend: 26847, leads: 16891, cpl: 1.59, qualified: 2478, cpql: 10.83, deals: 265, revenue: 65000, roas: 2.42 },
+      { month: "Nov 2025", spend: 26847, leads: 16891, cpl: 1.59, qualified: 2478, cpql: 10.83, deals: 265, revenue: 73123, roas: 2.72 },
     ],
   },
   impact: [

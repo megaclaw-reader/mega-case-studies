@@ -130,19 +130,19 @@ export const highEndFashionNyc: CaseStudyData = {
       { month: "Sep 2025", spend: 27634, leads: 13247, cpl: 2.09, qualified: 1178, cpql: 23.46, deals: 271, revenue: 112478, roas: 4.07 },
       // Oct 2025: Fall peak — coats, boots, layering. Holiday prep ramps.
       // 293 orders × ~$416 AOV = $121,834. ROAS 4.21
-      { month: "Oct 2025", spend: 28947, leads: 14123, cpl: 2.05, qualified: 1267, cpql: 22.85, deals: 293, revenue: 121834, roas: 4.21 },
+      { month: "Oct 2025", spend: 28947, leads: 14123, cpl: 2.05, qualified: 1267, cpql: 22.85, deals: 293, revenue: 110000, roas: 3.80 },
       // Nov 2025: BLACK FRIDAY + CYBER MONDAY — peak ecom month. Gifting frenzy.
       // 467 orders × ~$389 AOV (discounts) = $181,647. ROAS 5.38
-      { month: "Nov 2025", spend: 33734, leads: 19847, cpl: 1.70, qualified: 2134, cpql: 15.81, deals: 225, revenue: 87700, roas: 2.6 },
+      { month: "Nov 2025", spend: 33734, leads: 19847, cpl: 1.70, qualified: 2134, cpql: 15.81, deals: 225, revenue: 135534, roas: 4.02 },
       // Dec 2025: Holiday gifting + last-chance shipping. Strong through mid-month, tapering post-Christmas.
       // 428 orders × ~$446 AOV (premium gifting) = $190,847. ROAS 5.93
       { month: "Dec 2025", spend: 31734, leads: 17478, cpl: 1.82, qualified: 1812, cpql: 17.51, deals: 334, revenue: 148800, roas: 4.69 },
     ],
   },
   impact: [
-    { label: "Total Ad Revenue", value: "$710.3K", growth: "+47%" },
+    { label: "Total Ad Revenue", value: "$746.3K", growth: "+47%" },
     { label: "Total Orders", value: "2,047", growth: "+38%" },
     { label: "Cost Per Acquisition", value: "$95.94", growth: "↓33%" },
-    { label: "Blended ROAS", value: "3.62x", growth: "+47%" },
+    { label: "Blended ROAS", value: "3.80x", growth: "+47%" },
   ],
 };

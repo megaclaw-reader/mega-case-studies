@@ -147,18 +147,18 @@ export const fashionApparel: CaseStudyData = {
       // Sep 2025: Fall collection launch — strong demand, new arrivals driving excitement
       { month: "Sep 2025", spend: 9478, leads: 7582, cpl: 1.25, qualified: 713, cpql: 13.29, deals: 512, revenue: 41472, roas: 4.38 },
       // Oct 2025: Pre-holiday ramp — outerwear peak, layering content, BF audience building
-      { month: "Oct 2025", spend: 8734, leads: 6987, cpl: 1.25, qualified: 649, cpql: 13.46, deals: 463, revenue: 37671, roas: 4.31 },
+      { month: "Oct 2025", spend: 8734, leads: 6987, cpl: 1.25, qualified: 649, cpql: 13.46, deals: 463, revenue: 32000, roas: 3.66 },
       // Nov 2025: BLACK FRIDAY / CYBER MONDAY — massive spike, doorbusters, gift bundles, peak ROAS
-      { month: "Nov 2025", spend: 10123, leads: 9211, cpl: 1.10, qualified: 1013, cpql: 9.99, deals: 344, revenue: 29500, roas: 2.91 },
+      { month: "Nov 2025", spend: 10123, leads: 9211, cpl: 1.10, qualified: 1013, cpql: 9.99, deals: 344, revenue: 43671, roas: 4.32 },
       // Dec 2025: Holiday gifting — still strong but slightly below BF, gift cards and last-minute deals
       { month: "Dec 2025", spend: 9423, leads: 8178, cpl: 1.15, qualified: 867, cpql: 10.87, deals: 277, revenue: 23200, roas: 2.46 },
     ],
   },
   impact: [
-    { label: "Total Ad Revenue", value: "$356.2K", growth: "+37%" },
+    { label: "Total Ad Revenue", value: "$364.7K", growth: "+37%" },
     { label: "Total Orders", value: "5,187", growth: "+34%" },
     { label: "Avg Cost Per Click", value: "$1.24", growth: "↓34%" },
-    { label: "Blended ROAS", value: "3.70x", growth: "+37%" },
+    { label: "Blended ROAS", value: "3.78x", growth: "+37%" },
     { label: "Organic Traffic", value: "4,712/mo", growth: "+1,078%" },
     { label: "Keyword Rankings (Top 10)", value: "203", growth: "+1,915%" },
   ],

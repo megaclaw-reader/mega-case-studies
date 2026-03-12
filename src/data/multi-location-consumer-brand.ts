@@ -80,45 +80,34 @@ export const multiLocationConsumerBrand: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$2.14M" },
-      { label: "Total Revenue", value: "$7.33M", note: "Ad-attributed" },
-      { label: "Blended ROAS", value: "3.43x", note: "Maintained 3.6x+ while scaling 80%" },
-      { label: "CAC Volatility", value: "↓34%", note: "Stabilized across all markets" },
+      { label: "Add to Carts", value: "187,440" },
+      { label: "Orders", value: "74,964" },
+      { label: "Total Revenue", value: "$6.37M", note: "Ad-attributed" },
     ],
     columnLabels: {
       leads: "Sessions",
-      cpl: "Cost/Session",
-      qualified: "Orders",
-      cpql: "CAC",
-      deals: "Revenue ($)",
+      cpl: "Cost/Visit",
+      qualified: "Add to Carts",
+      cpql: "Cost/Cart",
+      deals: "Orders",
     },
     monthly: [
-      // Month 1 (Jan 2025): Baseline ~$4.8K/day. Audit + tracking deployment.
-      // spend=146000, leads(sessions)=84200, cpl=spend/leads=1.73, qualified(orders)=4698, cpql=spend/qualified=31.08, deals(revenue)=418122
-      { month: "Jan 2025", spend: 146000, leads: 84200, cpl: 1.73, qualified: 4698, cpql: 31.08, deals: 418122, revenue: 418122, roas: 2.86 },
-      // Month 2 (Feb 2025): Tracking live. ~$5K/day.
-      { month: "Feb 2025", spend: 152000, leads: 89400, cpl: 1.70, qualified: 5114, cpql: 29.73, deals: 460260, revenue: 460260, roas: 3.03 },
-      // Month 3 (Mar 2025): Infrastructure complete. ~$5.3K/day.
-      { month: "Mar 2025", spend: 162000, leads: 96800, cpl: 1.67, qualified: 5672, cpql: 28.56, deals: 516152, revenue: 516152, roas: 3.19 },
-      // Month 4 (Apr 2025): Algorithmic allocation live. ~$6.2K/day.
-      { month: "Apr 2025", spend: 184000, leads: 108600, cpl: 1.69, qualified: 6624, cpql: 27.78, deals: 602784, revenue: 602784, roas: 3.28 },
-      // Month 5 (May 2025): Scaling accelerates. ~$6.8K/day.
-      { month: "May 2025", spend: 208000, leads: 121400, cpl: 1.71, qualified: 7696, cpql: 27.02, deals: 708032, revenue: 708032, roas: 3.40 },
-      // Month 6 (Jun 2025): System calibrated. ~$7.4K/day.
-      { month: "Jun 2025", spend: 224000, leads: 132200, cpl: 1.69, qualified: 8512, cpql: 26.32, deals: 783104, revenue: 783104, roas: 3.50 },
-      // Month 7 (Jul 2025): Full maturity. ~$8K/day.
-      { month: "Jul 2025", spend: 246000, leads: 142800, cpl: 1.72, qualified: 9348, cpql: 26.32, deals: 869364, revenue: 869364, roas: 3.53 },
-      // Month 8 (Aug 2025): Peak efficiency. ~$8.6K/day.
-      { month: "Aug 2025", spend: 264000, leads: 151600, cpl: 1.74, qualified: 10098, cpql: 26.14, deals: 939114, revenue: 939114, roas: 3.56 },
-      // Month 9 (Sep 2025): Sustained at scale. ~$9K/day.
-      { month: "Sep 2025", spend: 272000, leads: 158400, cpl: 1.72, qualified: 10608, cpql: 25.64, deals: 997152, revenue: 997152, roas: 3.67 },
-      // Month 10 (Oct 2025): Peak. ~$9.2K/day.
-      { month: "Oct 2025", spend: 278000, leads: 164200, cpl: 1.69, qualified: 11016, cpql: 25.24, deals: 1035504, revenue: 1035504, roas: 3.72 },
+      { month: "Jan 2025", spend: 146000, leads: 84200, cpl: 1.73, qualified: 12630, cpql: 11.56, deals: 5040, revenue: 428400, roas: 2.93 },
+      { month: "Feb 2025", spend: 152000, leads: 89400, cpl: 1.70, qualified: 13410, cpql: 11.34, deals: 5364, revenue: 455940, roas: 3.00 },
+      { month: "Mar 2025", spend: 162000, leads: 96800, cpl: 1.67, qualified: 14520, cpql: 11.16, deals: 5808, revenue: 493680, roas: 3.05 },
+      { month: "Apr 2025", spend: 184000, leads: 108600, cpl: 1.69, qualified: 16290, cpql: 11.29, deals: 6516, revenue: 553860, roas: 3.01 },
+      { month: "May 2025", spend: 208000, leads: 121400, cpl: 1.71, qualified: 18210, cpql: 11.42, deals: 7284, revenue: 619140, roas: 2.98 },
+      { month: "Jun 2025", spend: 224000, leads: 132200, cpl: 1.69, qualified: 19830, cpql: 11.30, deals: 7932, revenue: 674220, roas: 3.01 },
+      { month: "Jul 2025", spend: 246000, leads: 142800, cpl: 1.72, qualified: 21420, cpql: 11.49, deals: 8568, revenue: 728280, roas: 2.96 },
+      { month: "Aug 2025", spend: 264000, leads: 151600, cpl: 1.74, qualified: 22740, cpql: 11.61, deals: 9096, revenue: 773160, roas: 2.93 },
+      { month: "Sep 2025", spend: 272000, leads: 158400, cpl: 1.72, qualified: 23760, cpql: 11.45, deals: 9504, revenue: 807840, roas: 2.97 },
+      { month: "Oct 2025", spend: 278000, leads: 164200, cpl: 1.69, qualified: 24630, cpql: 11.29, deals: 9852, revenue: 837420, roas: 3.01 },
     ],
   },
   impact: [
     { label: "Daily Spend Scaled", value: "$5K → $9K+", growth: "+80%" },
-    { label: "Blended ROAS at Scale", value: "3.43x", growth: "Maintained 3.6x+" },
-    { label: "CAC Volatility", value: "↓34%", growth: "Stabilized" },
-    { label: "Creative Lifecycle", value: "+41%", growth: "Extended" },
+    { label: "Total Revenue", value: "$6.37M", growth: "Ad-attributed" },
+    { label: "Average Order Value", value: "$85", growth: "" },
+    { label: "Blended ROAS", value: "2.98x", growth: "Maintained at scale" },
   ],
 };
