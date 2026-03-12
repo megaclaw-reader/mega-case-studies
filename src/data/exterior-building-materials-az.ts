@@ -48,6 +48,7 @@ export const exteriorBuildingMaterialsAz: CaseStudyData = {
         "Deployed call tracking with organic source attribution, rebuilt contact forms with product-specific routing, implemented analytics with conversion tracking for quote requests and catalog downloads",
         "Implemented schema markup — local business, product schema with material specifications, FAQ schema, and breadcrumb navigation",
         "Published first 6 foundational articles — 'Complete Guide to Exterior Stucco in Arizona's Desert Climate,' 'Stone Veneer vs. Natural Stone for Arizona Homes,' 'Best Composite Siding for Phoenix Heat,' 'Understanding EIFS Performance in Monsoon Season,' 'How to Choose Exterior Materials That Survive Arizona Summers,' 'Arizona Building Code Requirements for Exterior Cladding'",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -64,6 +65,7 @@ export const exteriorBuildingMaterialsAz: CaseStudyData = {
         "Internal linking optimization — connected all product pages, location pages, and technical content into tight topical clusters with strategic anchor text",
         "Began monthly 'Arizona Construction Market Update' series — covering permit trends, material pricing, desert building innovations, and seasonal construction patterns",
         "Published project gallery content — 12 featured Arizona installations with before/after photography, material specifications, and contractor testimonials for each project type",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -81,6 +83,7 @@ export const exteriorBuildingMaterialsAz: CaseStudyData = {
         "Advanced technical optimization — implemented dynamic internal linking based on seasonal construction trends, refreshed all early content with updated pricing and availability data",
         "Business profile optimization maintained — 98 total reviews, consistent posting, seasonal promotions highlighted, all reviews responded to within 24 hours",
         "AI search optimization — structured all technical content for conversational search queries and AI-generated answer inclusion targeting contractor research patterns",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
   ],

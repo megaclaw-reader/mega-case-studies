@@ -47,6 +47,7 @@ export const lawFirmNational: CaseStudyData = {
         "Created 18 state-specific landing pages for highest-volume jurisdictions with localized content, case results, and attorney barred-in-state credentials",
         "Launched restructured paid campaigns organized by practice area with dedicated budgets, custom landing pages, and dayparting based on call center hours across time zones",
         "Published first 28 SEO content pieces — mass tort eligibility guides, lawsuit update pages for active litigations, and state-specific injury law resources",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -62,6 +63,7 @@ export const lawFirmNational: CaseStudyData = {
         "Negative keyword expansion based on 12,000+ call recordings — filtered out unqualified traffic patterns including existing representation, workers compensation inquiries, criminal defense, and immigration queries",
         "Local backlink campaign across state bar associations, legal publications, and industry directories in all 38 states",
         "Implemented automated lead scoring based on call duration, practice area, injury severity indicators, and geographic qualification — enabling real-time quality optimization of paid campaigns",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -77,6 +79,7 @@ export const lawFirmNational: CaseStudyData = {
         "E-E-A-T authority building — attorney bylined articles in legal publications, case result highlights with anonymized details, and legal expertise demonstration across all content",
         "Referral network amplification — organic visibility and thought leadership content began generating co-counsel referrals from attorneys in non-competing practice areas",
         "Quarter-over-quarter ROAS improvement from 3.8x to 5.9x as campaign maturity, audience data, and organic compounding drove increasingly efficient acquisition",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
   ],

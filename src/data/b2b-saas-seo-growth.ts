@@ -48,6 +48,7 @@ export const b2bSaasSeoGrowth: CaseStudyData = {
         "On-page optimization for 45 existing high-potential pages including product features, use cases, and industry-specific content",
         "Content refresh strategy for underperforming articles — updating with current software comparisons, pricing information, and enhanced optimization",
         "Technical crawl optimization ensuring all product pages, integrations, and resource content are properly indexed and ranking efficiently",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -65,6 +66,7 @@ export const b2bSaasSeoGrowth: CaseStudyData = {
         "Conversion rate optimization for organic landing pages focusing on enterprise demo requests and trial signup flows",
         "Long-tail keyword expansion targeting specific enterprise pain points, compliance requirements, and industry-specific project management needs",
         "Competitor content gap identification and strategic content creation to capture market share in underserved enterprise segments",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -80,6 +82,7 @@ export const b2bSaasSeoGrowth: CaseStudyData = {
         "Advanced conversion funnel optimization using heat map data, user session recordings, and A/B testing for organic traffic pathways",
         "Weekly performance analysis with detailed organic revenue attribution, enterprise lead quality scoring, and content ROI measurement",
         "Content refresh cycles for high-performing articles with updated enterprise case studies, ROI calculators, and competitive landscape analysis",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
   ],

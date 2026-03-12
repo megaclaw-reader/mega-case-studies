@@ -49,6 +49,7 @@ export const commercialTaxServicesUs: CaseStudyData = {
         "Landing page creation for each major home service vertical with industry-specific pain points and solutions",
         "CRM integration and lead scoring based on business type, revenue size, and service needs to prioritize contractor prospects",
         "Conversion tracking setup for consultations, tax planning requests, and service inquiries from different contractor segments",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -66,6 +67,7 @@ export const commercialTaxServicesUs: CaseStudyData = {
         "Refined negative keyword lists to exclude residential tax seekers and focus budget on commercial prospects",
         "Implemented chat widget with qualification questions to identify home service business owners",
         "Local citation expansion focused on contractor associations, trade publications, and B2B service directories",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -83,6 +85,7 @@ export const commercialTaxServicesUs: CaseStudyData = {
         "Seasonal campaign optimization for Q4 tax planning rush and year-end business purchase consultations",
         "Advanced bid strategies optimized for contractor business cycles and decision-making timelines",
         "Client testimonial collection and case study development showcasing tax savings for different contractor types",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
     {
@@ -134,9 +137,9 @@ export const commercialTaxServicesUs: CaseStudyData = {
     ],
     monthly: [
       // Month 1 (Aug): Building pipeline for tax season, lower search volume but laying groundwork
-      { month: "Aug '25", spend: 8765, leads: 15, cpl: 584, qualified: 4, cpql: 2191, deals: 1, revenue: 18387, roas: 2.10 },
+      { month: "Aug '25", spend: 8765, leads: 20, cpl: 438, qualified: 4, cpql: 2191, deals: 1, revenue: 18387, roas: 2.10 },
       // Month 2 (Sep): Contractor-focused campaigns gaining traction, better qualification rates
-      { month: "Sep '25", spend: 9134, leads: 18, cpl: 507, qualified: 6, cpql: 1522, deals: 2, revenue: 21847, roas: 2.39 },
+      { month: "Sep '25", spend: 9134, leads: 21, cpl: 435, qualified: 6, cpql: 1522, deals: 2, revenue: 21847, roas: 2.39 },
       // Month 3 (Oct): Q4 tax planning interest picking up, seasonal equipment purchase consultations
       { month: "Oct '25", spend: 9487, leads: 21, cpl: 452, qualified: 8, cpql: 1186, deals: 3, revenue: 26194, roas: 2.76 },
       // Month 4 (Nov): Year-end planning rush — contractors seeking advice before major purchases
@@ -144,13 +147,13 @@ export const commercialTaxServicesUs: CaseStudyData = {
       // Month 5 (Dec): Peak year-end tax planning — high-intent prospects finalizing strategies
       { month: "Dec '25", spend: 10156, leads: 27, cpl: 376, qualified: 11, cpql: 923, deals: 5, revenue: 31892, roas: 3.14 },
       // Month 6 (Jan): Tax season launch — highest intent and conversion rates as filing deadlines approach
-      { month: "Jan '26", spend: 9847, leads: 29, cpl: 340, qualified: 12, cpql: 821, deals: 7, revenue: 31529, roas: 3.20 },
+      { month: "Jan '26", spend: 9847, leads: 29, cpl: 340, qualified: 12, cpql: 821, deals: 4, revenue: 18017, roas: 1.83 },
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$158.6K", growth: "+140%" },
+    { label: "Total Revenue", value: "$145.1K", growth: "+140%" },
     { label: "Total Pipeline", value: "$523K", growth: "+165%" },
     { label: "Avg Revenue Per Client", value: "$7,209", growth: "" },
-    { label: "Blended ROAS", value: "2.77x", growth: "" },
+    { label: "Blended ROAS", value: "2.54x", growth: "" },
   ],
 };

@@ -46,6 +46,7 @@ export const ventureCapitalAz: CaseStudyData = {
         "Launched initial paid campaigns targeting founders and accredited investors with conservative daily budgets",
         "Technical SEO overhaul — schema markup for organization and investment firm, site speed optimization, mobile UX improvements",
         "Published first 6 thought leadership articles: Arizona tech ecosystem analysis, sector investment theses, founder resources",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -61,6 +62,7 @@ export const ventureCapitalAz: CaseStudyData = {
         "Built retargeting audiences from website visitors who viewed investment thesis pages but didn't convert",
         "Internal linking strategy to build topical authority around Arizona venture capital and startup ecosystem content",
         "Launched email newsletter capturing organic and paid traffic for long-term nurturing",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -76,6 +78,7 @@ export const ventureCapitalAz: CaseStudyData = {
         "Advanced audience segmentation separating founder-targeted and LP-targeted campaign groups",
         "Implemented lead scoring to prioritize high-quality deal submissions and serious LP inquiries",
         "AI search optimization — structured content for featured snippets on venture capital and startup funding queries",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
     {

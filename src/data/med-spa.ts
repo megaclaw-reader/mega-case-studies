@@ -49,6 +49,7 @@ export const medSpa: CaseStudyData = {
         "CRM integration for closed-loop lead-to-appointment-to-revenue attribution",
         "Launched initial paid campaigns at $6,500/mo budget focused on high-intent treatment queries — Botox, fillers, and laser treatments in Orlando",
         "Built dedicated landing pages for top 4 treatment categories with click-to-call and online booking CTAs",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -66,6 +67,7 @@ export const medSpa: CaseStudyData = {
         "Retargeting layer for visitors who viewed body contouring and laser pages but didn't book",
         "Negative keyword refinement to filter out DIY, at-home, and training/certification queries",
         "Landing page A/B testing with urgency elements and consultation offer variants",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -82,6 +84,7 @@ export const medSpa: CaseStudyData = {
         "AI search optimization for med spa recommendation queries in local LLM results",
         "Complex audience segmentations by treatment interest, neighborhood, age demographic, and engagement level",
         "Lead scoring integration — weighted by treatment value (body contouring leads scored higher than basic facial inquiries)",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
     {
@@ -117,8 +120,8 @@ export const medSpa: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$42.7K" },
-      { label: "Qualified Leads", value: "319" },
-      { label: "Avg Cost Per Qualified Lead", value: "$134", note: "↓ steadily as budget scaled" },
+      { label: "Qualified Leads", value: "288" },
+      { label: "Avg Cost Per Qualified Lead", value: "$148", note: "↓ steadily as budget scaled" },
       { label: "Total Revenue Attributed", value: "$189.7K" },
     ],
     columnLabels: {
@@ -134,7 +137,7 @@ export const medSpa: CaseStudyData = {
       { month: "Mar 2025", spend: 6718, leads: 71, cpl: 95, qualified: 44, cpql: 153, deals: 7, revenue: 27000, roas: 4.02 },
       { month: "Apr 2025", spend: 7214, leads: 82, cpl: 88, qualified: 53, cpql: 136, deals: 9, revenue: 32900, roas: 4.56 },
       { month: "May 2025", spend: 7687, leads: 91, cpl: 84, qualified: 62, cpql: 124, deals: 10, revenue: 36200, roas: 4.71 },
-      { month: "Jun 2025", spend: 8043, leads: 103, cpl: 78, qualified: 87, cpql: 92, deals: 12, revenue: 35900, roas: 4.46 },
+      { month: "Jun 2025", spend: 8043, leads: 103, cpl: 78, qualified: 56, cpql: 144, deals: 12, revenue: 35900, roas: 4.46 },
     ],
   },
   localSeo: {

@@ -48,6 +48,7 @@ export const itServicesNy: CaseStudyData = {
         "CRM integration for closed-loop lead-to-consultation attribution with pipeline stage tracking from initial inquiry through signed contract",
         "Rebuilt ad strategy around cost per qualified lead and average contract value — separated managed IT support from cybersecurity and cloud migration campaigns",
         "Paused low-intent keywords, launched landing page A/B tests for emergency IT support vs. managed services vs. cybersecurity assessment offers",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -64,6 +65,7 @@ export const itServicesNy: CaseStudyData = {
         "Rapid ad creative testing — messaging pivots around cybersecurity urgency vs. cost-savings of outsourced IT vs. compliance peace-of-mind vs. free network assessment offers",
         "Retargeting layer for consultation page visitors, pricing page visitors, and phone call non-converters",
         "Negative keyword refinement based on call recording data — filtering out residential tech support, enterprise-only searches, and non-service-area clicks",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -80,6 +82,7 @@ export const itServicesNy: CaseStudyData = {
         "Complex audience segmentations by service type (managed IT vs. cybersecurity vs. cloud), industry vertical, company size, and urgency signals",
         "Multi-approach bidding strategies optimized for Q1 budget season, Q4 contract renewal windows, and cybersecurity incident spikes",
         "Fully robust lead scoring integrating call duration, consultation booking rate, company size indicators, and CRM pipeline progression",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
   ],

@@ -48,6 +48,7 @@ export const peptidesSeo: CaseStudyData = {
         "Created author profile pages for the company's advisory board (PhD biochemist, naturopathic physician) to establish E-E-A-T signals for YMYL content",
         "XML sitemap generation, robots.txt optimization, and Search Console configuration with proper indexing directives",
         "Initial backlink outreach to health and wellness publications, peptide research forums, and biohacking community sites",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -63,6 +64,7 @@ export const peptidesSeo: CaseStudyData = {
         "Internal linking optimization — built hub-and-spoke model connecting pillar pages to cluster content to product pages, establishing clear topical authority signals",
         "Conversion rate optimization — redesigned product pages with research summary sections, trust badges, third-party lab testing certificates, and streamlined checkout flow",
         "Launched glossary of peptide terminology (187 terms) — capturing informational queries and building internal linking anchor text diversity",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -78,6 +80,7 @@ export const peptidesSeo: CaseStudyData = {
         "Content refresh program — updated top 30 performing pages with latest research citations, expanded answer sections, and improved featured snippet targeting",
         "User-generated content strategy — launched verified buyer review system with structured data, generating fresh content signals on product pages",
         "AI search optimization — restructured FAQ content and guide summaries for conversational query formats appearing in AI-generated search results",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
     {

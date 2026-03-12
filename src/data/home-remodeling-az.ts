@@ -47,6 +47,7 @@ export const homeRemodelingAz: CaseStudyData = {
         "Built high-intent keyword sets targeting Arizona-specific terms: 'kitchen remodel Scottsdale,' 'bathroom renovation Phoenix,' 'home remodeling contractor Mesa,' and 47 additional geo-modified variations",
         "Aggressive negative keyword buildout to filter DIY searches, material-only queries, commercial renovation terms, and sub-$2,000 project inquiries",
         "Launched initial landing page tests with project galleries, financing options, licensed/bonded/insured trust badges, and prominent consultation booking CTAs",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -62,6 +63,7 @@ export const homeRemodelingAz: CaseStudyData = {
         "Rapid creative testing — messaging pivots around licensed Arizona contractor status, ROC# verification, lifetime workmanship warranty, and 'Design-Build Under One Roof' positioning",
         "Call recording analysis revealed 31% of calls were for handyman-type tasks under $1,000 — added phone screening script and refined keyword targeting to reduce low-value inquiries",
         "Weekly bid adjustments based on day-of-week and time-of-day patterns — homeowner inquiry volume peaked Tuesday through Thursday between 10am and 2pm Arizona time",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -77,6 +79,7 @@ export const homeRemodelingAz: CaseStudyData = {
         "Seasonal budget planning implemented — increased spend allocation for September through January peak season, maintained floor during summer months",
         "Multi-approach bidding strategies based on campaign maturity, service type margins, and seasonal demand signals from Arizona housing market data",
         "Lead nurture sequence for homeowners who requested estimates but hadn't signed — automated follow-up with project inspiration content and seasonal promotion offers",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
     {

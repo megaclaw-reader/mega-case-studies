@@ -46,6 +46,7 @@ export const healthWellness: CaseStudyData = {
         "Full paid campaign restructuring — separated campaigns by buyer intent (ready-to-buy vs. research-phase vs. subscription-interest) with distinct conversion tracking",
         "Wellness assessment quiz launch — 8-question interactive tool matching visitors to personalized supplement stacks based on health goals, increasing engagement 2.9x",
         "Implemented full-funnel tracking: visit → quiz completion → product view → lead capture → purchase → subscription activation",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -60,6 +61,7 @@ export const healthWellness: CaseStudyData = {
         "A/B tested landing page messaging: clinical authority ('Third-party tested, clinically dosed') vs. lifestyle ('Feel the difference in 14 days or your money back')",
         "Retargeting campaigns for visitors who completed the wellness quiz but didn't purchase, and for cart abandoners with subscription incentives",
         "Negative keyword refinement — excluded prescription medication queries, medical diagnosis terms, and wholesale/bulk supplement manufacturing searches",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -72,6 +74,7 @@ export const healthWellness: CaseStudyData = {
         "Launched customer transformation stories featuring real results with before/after wellness metrics (with consent) — these pages achieved 2.6x higher conversion rates than standard content",
         "Advanced audience segmentation in paid campaigns: first-time supplement buyers vs. brand-switchers vs. stack-builders vs. subscription upgraders",
         "Conversion rate optimization pushed quiz-to-lead rate from 2.1% to 3.4% through progressive disclosure, social proof integration, and personalized product recommendations",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
     {

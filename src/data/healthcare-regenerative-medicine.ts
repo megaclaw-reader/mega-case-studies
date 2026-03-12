@@ -46,6 +46,7 @@ export const healthcareRegenerativeMedicine: CaseStudyData = {
         "Set up form tracking, consultation booking attribution, and bi-weekly performance reporting dashboards",
         "Developed a compliant creative library — ad copy templates, image guidelines, and video frameworks pre-vetted against platform policies",
         "Rebuilt campaign structure with compliance-tiered ad groups: low-risk services (wellness, consultations) launched first to establish account health",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -60,6 +61,7 @@ export const healthcareRegenerativeMedicine: CaseStudyData = {
         "Implemented negative keyword and audience exclusion strategies to improve lead quality and reduce wasted spend",
         "Monitored platform policy updates weekly and adjusted copy in real-time to maintain zero-disapproval status",
         "Began modest spend increases as account health scores improved and campaigns achieved consistent delivery",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -74,6 +76,7 @@ export const healthcareRegenerativeMedicine: CaseStudyData = {
         "Landing page conversion rate optimization — tested form length, click-to-call placement, consultation urgency messaging, and trust signals (physician credentials, patient count, years in practice)",
         "Lead scoring integration — weighted leads by service interest (regenerative therapy inquiries scored higher than general wellness) to optimize toward highest-value patient acquisition",
         "Bi-weekly performance reviews with the clinic team to align marketing messaging with available appointment capacity",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
     {

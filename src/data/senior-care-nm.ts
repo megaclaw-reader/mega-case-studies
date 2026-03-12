@@ -46,6 +46,7 @@ export const seniorCareNm: CaseStudyData = {
         "Launched initial campaigns segmented by service type and urgency level — emergency placement vs. planned transition, targeting families actively searching for senior care in New Mexico",
         "Configured conversion tracking for phone calls exceeding 90 seconds, form submissions, and intake consultation bookings as primary conversion events",
         "Built campaign structure around cost per qualified lead targets by service type, prioritizing in-home care and memory care referrals with highest lifetime client values",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -61,6 +62,7 @@ export const seniorCareNm: CaseStudyData = {
         "Keyword and negative keyword refinement based on call tracking data — filtering out job seeker queries, caregiver certification searches, and nursing home complaints unrelated to service inquiries",
         "A/B tested landing page variations — direct phone number prominence vs. consultation request forms, family photo imagery vs. caregiver-focused visuals, urgency messaging vs. compassionate tone",
         "Implemented lead scoring based on call duration, service type requested, timeline urgency, and geographic proximity to service areas",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -75,6 +77,7 @@ export const seniorCareNm: CaseStudyData = {
         "Fully robust lead scoring integrating call tracking data, intake consultation outcomes, and CRM progression from inquiry to signed care agreement",
         "Conversion rate optimization — simplified intake forms, added click-to-call prominence for mobile users, implemented after-hours callback scheduling for families researching outside business hours",
         "Built lookalike audiences from highest-value closed clients weighted toward long-term home care engagements with monthly recurring revenue",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
     {

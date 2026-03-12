@@ -48,6 +48,7 @@ export const homeDamageRestoration: CaseStudyData = {
         "Full audit of existing ad campaigns — re-instrumented site with proper conversion tracking, separated emergency vs. planned service campaigns",
         "Built campaign strategy around cost per qualified lead and average job value by service type, not raw call volume",
         "Paused low-intent keywords, launched first round of landing page tests with emergency-focused messaging and click-to-call prominence",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -64,6 +65,7 @@ export const homeDamageRestoration: CaseStudyData = {
         "Rapid creative testing — messaging pivots around 24/7 emergency response, insurance claim assistance, and fast response time guarantees",
         "Retargeting layer for visitors who viewed service pages but didn't call — display campaigns with urgency messaging",
         "Keyword and negative keyword refinement based on call tracking data — filtering out DIY searches, non-service-area calls, and low-value inquiry types",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -80,6 +82,7 @@ export const homeDamageRestoration: CaseStudyData = {
         "Complex audience segmentations by property type (residential vs. commercial), damage type intent, and geographic micro-targeting",
         "Multi-approach bidding strategies based on campaign maturity, day-parting for emergency searches, and seasonal demand signals",
         "Fully robust lead scoring integrating call tracking data, call duration, and CRM job stage progression",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
     {

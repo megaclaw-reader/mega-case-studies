@@ -46,6 +46,7 @@ export const healthcareWoundCareEducation: CaseStudyData = {
         "Created comprehensive instructor and faculty pages highlighting clinical credentials, published research, and years of wound care practice — critical E-E-A-T signals",
         "Deployed conversion tracking for course registrations, information request forms, and brochure downloads with source attribution",
         "Content strategy mapped for 6-month editorial calendar — pillar pages for each certification track, supporting blog content for long-tail educational queries, and state CE requirement guides",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -61,6 +62,7 @@ export const healthcareWoundCareEducation: CaseStudyData = {
         "Published 3 clinical resource articles with wound care statistics and evidence-based content that attracted natural backlinks from healthcare forums and educational sites",
         "Conversion rate optimization — simplified course registration flow, added CE credit calculator tool, implemented course comparison functionality",
         "Monthly content refresh cycle — updated top-performing pages based on search impression data and ranking trajectory from search console",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -76,6 +78,7 @@ export const healthcareWoundCareEducation: CaseStudyData = {
         "Launched downloadable clinical resources (wound assessment checklists, care protocol summaries) as link magnets and lead generation tools",
         "AI search optimization — structured content for conversational queries about wound care education paths, certification comparisons, and career advancement",
         "Competitive gap analysis — identified 43 additional keyword opportunities where competitors had thin or outdated content, prioritized content production",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
   ],

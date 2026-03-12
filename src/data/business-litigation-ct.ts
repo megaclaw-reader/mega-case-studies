@@ -48,6 +48,7 @@ export const businessLitigationCt: CaseStudyData = {
         "Built initial paid campaign structure targeting high-intent business litigation terms — separate campaigns for emergency/urgent matters vs. planned litigation, with Connecticut geo-targeting",
         "Created dedicated landing pages for paid traffic — designed for immediate consultation conversion with case value qualifier questions, confidential intake forms, and prominent phone numbers",
         "Conservative initial bid strategy with manual oversight — daily budget caps during learning phase, aggressive negative keyword lists to filter consumer and criminal law searches",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -64,6 +65,7 @@ export const businessLitigationCt: CaseStudyData = {
         "Refined paid campaign targeting based on initial conversion data — expanded high-performing keyword groups, paused underperforming terms, tested new ad copy variations emphasizing case results and Connecticut experience",
         "Launched retargeting campaigns for website visitors who viewed practice area pages but didn't convert — nurture messaging with educational content and consultation offers",
         "Implemented lead scoring system — weighting inquiries by stated case value, business type, urgency indicators, and practice area to prioritize high-value consultations",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -80,6 +82,7 @@ export const businessLitigationCt: CaseStudyData = {
         "Complex audience segmentation for paid campaigns — business size, industry vertical, dispute type, and geographic micro-targeting within Connecticut's business corridors",
         "Multi-approach bidding optimization based on campaign maturity — automated strategies for proven keywords, manual oversight for newer terms, day-parting aligned with business hours when consultation intent peaks",
         "Full-funnel lead tracking integration — marketing source through consultation through signed retainer through case resolution, enabling true revenue attribution",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
     {
@@ -117,8 +120,8 @@ export const businessLitigationCt: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$103.6K" },
-      { label: "Qualified Consultations", value: "234" },
-      { label: "Avg Cost Per Qualified Lead", value: "$443", note: "↓39% from $726" },
+      { label: "Qualified Consultations", value: "213" },
+      { label: "Avg Cost Per Qualified Lead", value: "$486", note: "↓33% from $726" },
       { label: "Signed Retainers", value: "57" },
     ],
     columnLabels: {
@@ -135,8 +138,8 @@ export const businessLitigationCt: CaseStudyData = {
       { month: "Aug 2025", spend: 11950, leads: 41, cpl: 291, qualified: 27, cpql: 443, deals: 3, revenue: 39400, roas: 3.3 },
       { month: "Sep 2025", spend: 12700, leads: 47, cpl: 270, qualified: 31, cpql: 410, deals: 3, revenue: 29000, roas: 2.28 },
       { month: "Oct 2025", spend: 13875, leads: 53, cpl: 262, qualified: 36, cpql: 385, deals: 4, revenue: 39000, roas: 2.81 },
-      { month: "Nov 2025", spend: 14900, leads: 59, cpl: 253, qualified: 42, cpql: 355, deals: 6, revenue: 54200, roas: 3.64 },
-      { month: "Dec 2025", spend: 15750, leads: 66, cpl: 239, qualified: 49, cpql: 321, deals: 5, revenue: 42500, roas: 2.7 },
+      { month: "Nov 2025", spend: 14900, leads: 59, cpl: 253, qualified: 30, cpql: 497, deals: 6, revenue: 54200, roas: 3.64 },
+      { month: "Dec 2025", spend: 15750, leads: 66, cpl: 239, qualified: 40, cpql: 394, deals: 5, revenue: 42500, roas: 2.7 },
     ],
   },
   impact: [

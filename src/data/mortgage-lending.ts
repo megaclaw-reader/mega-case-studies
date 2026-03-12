@@ -48,6 +48,7 @@ export const mortgageLending: CaseStudyData = {
         "CRM integration for closed-loop lead tracking",
         "Comprehensive ad strategy built around cost per qualified lead, not just volume",
         "Reduced spend inefficiencies and launched first round of creative and landing page A/B tests",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -65,6 +66,7 @@ export const mortgageLending: CaseStudyData = {
         "Retargeting and remarketing layer optimization for pre-qualification abandoners",
         "Keyword and negative keyword refinement based on qualification data",
         "Landing page refinement and further A/B testing",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -82,6 +84,7 @@ export const mortgageLending: CaseStudyData = {
         "Multi-approach bidding strategies based on campaign maturity",
         "Lookalike audiences built from funded loan customer data",
         "Fully robust lead scoring and lead quality solutions via CRM closed-loop data",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
     {

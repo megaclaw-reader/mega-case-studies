@@ -45,6 +45,7 @@ export const legalProfessionalServices: CaseStudyData = {
         "Competitor keyword research across personal injury, auto accident, slip-and-fall, divorce, and custody practice areas in the Tampa metro — mapped 340+ target keywords by intent and estimated case value",
         "Restructured existing ad campaigns — separated personal injury (high case value) from family law (lower value, different intent), paused broad-match waste keywords, and built dedicated landing pages for each practice area with prominent click-to-call buttons",
         "Built initial cost-per-qualified-lead baseline from first 30 days of tracked data to benchmark all future optimization against",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -59,6 +60,7 @@ export const legalProfessionalServices: CaseStudyData = {
         "Added structured data markup — LocalBusiness, Attorney, FAQ, and Review schema across all practice area and location pages",
         "Weekly Google Business Profile posts with case result highlights (anonymized), legal tips, and community involvement content",
         "Negative keyword refinement based on call recordings — filtered out 'pro bono,' 'legal aid,' 'public defender,' and other non-qualified search terms consuming budget",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -72,6 +74,7 @@ export const legalProfessionalServices: CaseStudyData = {
         "Conversion rate optimization — A/B tested landing page layouts, moved phone number above fold, added live chat for after-hours inquiries, simplified consultation request forms from 8 fields to 4",
         "Advanced call scoring model — integrated call duration, caller questions, and intake staff feedback to auto-classify leads as qualified/unqualified within the CRM",
         "AI search optimization for placement in conversational queries like 'best personal injury lawyer in Tampa' and 'how to find a divorce attorney near me'",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
     {

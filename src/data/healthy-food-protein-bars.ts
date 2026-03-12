@@ -48,6 +48,8 @@ export const healthyFoodProteinBars: CaseStudyData = {
         "Local citation buildout across 53 Arizona business directories, health food directories, and specialty food listing sites — consistent NAP data",
         "Created 'Where to Buy in Arizona' location page with interactive map showing all 47 retail locations across Phoenix, Scottsdale, Tempe, Mesa, Chandler, and Gilbert",
         "Set up comprehensive analytics — organic attribution tracking, conversion funnels for DTC purchases, and local search impression monitoring",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
+        'Launched initial creative testing suite with 30+ AI-generated ad variations across formats (static, carousel, video stills) to seed the algorithm with diverse creative signals',
       ],
     },
     {
@@ -63,6 +65,8 @@ export const healthyFoodProteinBars: CaseStudyData = {
         "Business profile review campaign — systematic outreach to loyal customers, generating 87 new reviews over 3 months (reaching 4.9-star average)",
         "Internal linking architecture — connected product pages to related recipes, comparison articles to product pages, and local content to the retail location finder",
         "Launched subscription landing page optimized for 'monthly protein bar subscription' and 'healthy snack box' keywords",
+        'Scaled AI-generated creative production to 50+ new variations per month, testing hooks, angles, offers, and visual styles at a pace impossible for traditional creative teams',
+        'AI agents identified winning creative patterns and automatically generated new variations, keeping the campaign fresh while competitors recycled the same handful of ads',
       ],
     },
     {
@@ -77,6 +81,8 @@ export const healthyFoodProteinBars: CaseStudyData = {
         "Advanced schema implementation — breadcrumb markup, how-to schema for recipes, video schema for production process content",
         "Conversion rate optimization — A/B tested product pages, optimized add-to-cart flow, implemented exit-intent offers, and improved mobile checkout experience",
         "Programmatic content for long-tail — 'protein bars with [specific ingredient],' 'protein bars without [allergen],' 'protein bars under [calorie count]'",
+        'With 100+ creatives in active rotation, the campaign avoided creative fatigue entirely, a common problem for businesses running fewer than 10 ads at a time',
+        'Real-time performance monitoring detected and responded to competitive shifts, seasonal trends, and algorithm changes within hours rather than the typical agency cycle of days or weeks',
       ],
     },
     {

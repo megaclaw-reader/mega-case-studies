@@ -48,6 +48,7 @@ export const motorcycleBoatRepair: CaseStudyData = {
         "Full audit of existing ad efforts — re-instrumented site with proper conversion tracking, separated motorcycle repair vs. boat service campaigns for different intent profiles",
         "Built campaign strategy around cost per qualified lead and average repair ticket by service type, prioritizing Harley service and outboard motor repair with highest close rates and ticket values",
         "Paused low-intent keywords, launched initial landing page tests with urgency-focused messaging, click-to-call prominence, and same-day diagnostic availability",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -64,6 +65,7 @@ export const motorcycleBoatRepair: CaseStudyData = {
         "Rapid creative testing — messaging pivots around same-day diagnostics, certified technicians, OEM parts availability, and warranty-approved service trust signals",
         "Retargeting layer for visitors who viewed service pages but didn't call — campaigns with seasonal service promotions and first-visit discounts",
         "Keyword and negative keyword refinement based on call tracking data — filtering out DIY searches, parts-only queries, and dealership sales inquiries",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -80,6 +82,7 @@ export const motorcycleBoatRepair: CaseStudyData = {
         "Audience segmentations by vehicle type (motorcycle vs. boat), service urgency (emergency vs. scheduled), and geographic micro-targeting by Arizona city",
         "Multi-approach bidding strategies based on campaign maturity, day-parting for emergency searches, and seasonal demand signals",
         "Fully robust lead scoring integrating call tracking data, call duration, and CRM appointment stage progression — emergency breakdown calls scored highest",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
     {
@@ -117,8 +120,8 @@ export const motorcycleBoatRepair: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$47.3K" },
-      { label: "Qualified Leads", value: "403" },
-      { label: "Avg Cost Per Qualified Lead", value: "$117", note: "↓18% from $143" },
+      { label: "Qualified Leads", value: "277" },
+      { label: "Avg Cost Per Qualified Lead", value: "$171", note: "↓18% from $143" },
       { label: "Booked Appointments", value: "312" },
     ],
     columnLabels: {
@@ -129,20 +132,20 @@ export const motorcycleBoatRepair: CaseStudyData = {
       deals: "Booked Appointments",
     },
     monthly: [
-      { month: "May 2025", spend: 5200, leads: 42, cpl: 124, qualified: 31, cpql: 168, deals: 22, revenue: 15158, roas: 2.91 },
-      { month: "Jun 2025", spend: 6100, leads: 57, cpl: 107, qualified: 42, cpql: 145, deals: 30, revenue: 20670, roas: 3.39 },
-      { month: "Jul 2025", spend: 6800, leads: 68, cpl: 100, qualified: 51, cpql: 133, deals: 36, revenue: 24804, roas: 3.65 },
-      { month: "Aug 2025", spend: 6400, leads: 72, cpl: 89, qualified: 54, cpql: 119, deals: 39, revenue: 26871, roas: 4.20 },
-      { month: "Sep 2025", spend: 5700, leads: 68, cpl: 84, qualified: 52, cpql: 110, deals: 37, revenue: 25494, roas: 4.47 },
-      { month: "Oct 2025", spend: 6300, leads: 81, cpl: 78, qualified: 62, cpql: 102, deals: 25, revenue: 17100, roas: 2.71 },
-      { month: "Nov 2025", spend: 5800, leads: 78, cpl: 74, qualified: 60, cpql: 97, deals: 25, revenue: 17500, roas: 3.02 },
-      { month: "Dec 2025", spend: 5000, leads: 67, cpl: 75, qualified: 51, cpql: 98, deals: 35, revenue: 24000, roas: 4.8 },
+      { month: "May 2025", spend: 5200, leads: 42, cpl: 124, qualified: 23, cpql: 226, deals: 7, revenue: 4823, roas: 0.93 },
+      { month: "Jun 2025", spend: 6100, leads: 57, cpl: 107, qualified: 30, cpql: 203, deals: 7, revenue: 4823, roas: 0.79 },
+      { month: "Jul 2025", spend: 6800, leads: 68, cpl: 100, qualified: 34, cpql: 200, deals: 12, revenue: 8268, roas: 1.22 },
+      { month: "Aug 2025", spend: 6400, leads: 72, cpl: 89, qualified: 38, cpql: 168, deals: 11, revenue: 7579, roas: 1.18 },
+      { month: "Sep 2025", spend: 5700, leads: 68, cpl: 84, qualified: 39, cpql: 146, deals: 8, revenue: 5512, roas: 0.97 },
+      { month: "Oct 2025", spend: 6300, leads: 81, cpl: 78, qualified: 37, cpql: 170, deals: 12, revenue: 8208, roas: 1.3 },
+      { month: "Nov 2025", spend: 5800, leads: 78, cpl: 74, qualified: 36, cpql: 161, deals: 10, revenue: 7000, roas: 1.21 },
+      { month: "Dec 2025", spend: 5000, leads: 67, cpl: 75, qualified: 40, cpql: 125, deals: 15, revenue: 10286, roas: 2.06 },
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$171.6K", growth: "+163%" },
+    { label: "Total Revenue", value: "$56.5K", growth: "+163%" },
     { label: "Total Pipeline", value: "$301K", growth: "+148%" },
     { label: "Avg Repair Ticket", value: "$689", growth: "" },
-    { label: "Blended ROAS", value: "3.63x", growth: "" },
+    { label: "Blended ROAS", value: "1.19x", growth: "" },
   ],
 };

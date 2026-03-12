@@ -48,6 +48,7 @@ export const dewateringWaterManagement: CaseStudyData = {
         "Deployed call tracking with source attribution, built dedicated RFQ form capturing project type, location, timeline, and estimated scope",
         "Local citation audit — corrected NAP data across 28 construction and business directories, claimed profiles on industry-specific platforms",
         "Content calendar development — planned 12 months of technical content including dewatering method guides, regulatory compliance articles, project case studies, and equipment comparison resources",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -63,6 +64,7 @@ export const dewateringWaterManagement: CaseStudyData = {
         "Internal linking optimization — built topical clusters connecting service pages, technical guides, and location pages into coherent authority silos",
         "Conversion rate optimization — A/B tested RFQ form layouts, added click-to-call functionality, implemented project type selector for faster lead qualification",
         "Content refresh cycle — updated highest-impression pages based on search console data, expanded thin content, added FAQs to service pages",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -77,6 +79,7 @@ export const dewateringWaterManagement: CaseStudyData = {
         "Advanced schema implementation — added how-to markup for dewatering process content, expanded FAQ schema, implemented breadcrumb navigation markup",
         "AI search optimization — restructured top-performing content for conversational queries and long-form answers appearing in AI-generated search results",
         "Lead quality analysis — identified that wellpoint and deep well service pages generated highest-value project inquiries, doubled content investment in those verticals",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
     {

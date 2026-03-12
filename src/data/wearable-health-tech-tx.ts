@@ -47,6 +47,8 @@ export const wearableHealthTechTx: CaseStudyData = {
         "Keyword research targeting 1,847 terms across wearable health subcategories: health monitors, fitness trackers, sleep tracking devices, subscription health wearables, and Texas-specific health technology queries",
         "Implemented enhanced ecommerce tracking with full subscription funnel: sessions → product views → add-to-carts → device orders → subscription activations → MRR attribution by channel",
         "Published 4 foundational pillar pages: 'Complete Guide to Health Monitoring Wearables,' 'Subscription Health Tech: What You Get Beyond the Device,' 'Sleep Tracking Technology Comparison 2025,' and 'Heart Rate Variability Monitoring Explained'",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
+        'Launched initial creative testing suite with 30+ AI-generated ad variations across formats (static, carousel, video stills) to seed the algorithm with diverse creative signals',
       ],
     },
     {
@@ -62,6 +64,8 @@ export const wearableHealthTechTx: CaseStudyData = {
         "Dynamic creative optimization — subscription ROI calculators in ads showing '$34.99/mo = $1.17/day for 24/7 health monitoring,' personalized by health interest vertical",
         "Internal linking overhaul connecting health education articles → comparison guides → product pages → subscription signup, building topical authority clusters around wearable health technology",
         "Backlink outreach to Texas health publications, fitness blogs, and health tech reviewers — secured 11 referring domains in first outreach wave",
+        'Scaled AI-generated creative production to 50+ new variations per month, testing hooks, angles, offers, and visual styles at a pace impossible for traditional creative teams',
+        'AI agents identified winning creative patterns and automatically generated new variations, keeping the campaign fresh while competitors recycled the same handful of ads',
       ],
     },
     {
@@ -77,6 +81,8 @@ export const wearableHealthTechTx: CaseStudyData = {
         "Advanced value-based bidding using subscriber LTV data — campaigns optimizing for predicted 12-month subscription value rather than device purchase price, dramatically improving acquisition efficiency at scale",
         "MRR tracking dashboard — real-time visibility into monthly recurring revenue by acquisition channel, enabling the team to see that organic subscribers retained 23% longer than paid subscribers",
         "End-of-engagement performance documentation and strategic roadmap for scaling to $100K+ monthly ad spend while maintaining 4x+ ROAS through 2026",
+        'With 100+ creatives in active rotation, the campaign avoided creative fatigue entirely, a common problem for businesses running fewer than 10 ads at a time',
+        'Real-time performance monitoring detected and responded to competitive shifts, seasonal trends, and algorithm changes within hours rather than the typical agency cycle of days or weeks',
       ],
     },
   ],

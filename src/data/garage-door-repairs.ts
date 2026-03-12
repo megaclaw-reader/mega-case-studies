@@ -48,6 +48,7 @@ export const garageDoorRepairs: CaseStudyData = {
         "Full audit of existing ad campaigns — re-instrumented site with proper conversion tracking, separated emergency repair vs. installation campaigns for different intent profiles",
         "Built campaign strategy around cost per qualified lead and average job value by service type, prioritizing emergency spring and opener repairs with highest close rates",
         "Paused low-intent keywords, launched initial landing page tests with emergency-focused messaging, click-to-call prominence, and 'same-day service' guarantees",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -64,6 +65,7 @@ export const garageDoorRepairs: CaseStudyData = {
         "Rapid creative testing — messaging pivots around same-day emergency response, upfront pricing, warranty coverage, and licensed/insured trust signals",
         "Retargeting layer for visitors who viewed installation pages but didn't call — display campaigns with seasonal promotions",
         "Keyword and negative keyword refinement based on call tracking data — filtering out DIY searches, commercial-only queries, and out-of-area calls",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -80,6 +82,7 @@ export const garageDoorRepairs: CaseStudyData = {
         "Complex audience segmentations by property type (single-family vs. multi-unit), service urgency (emergency vs. planned), and geographic micro-targeting by Denver suburb",
         "Multi-approach bidding strategies based on campaign maturity, day-parting for emergency searches, and seasonal demand signals",
         "Fully robust lead scoring integrating call tracking data, call duration, and CRM job stage progression — emergency calls scored highest",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
     {
@@ -119,7 +122,7 @@ export const garageDoorRepairs: CaseStudyData = {
       { label: "Total Ad Spend", value: "$179.7K" },
       { label: "Qualified Leads", value: "770" },
       { label: "Avg Cost Per Qualified Lead", value: "$233", note: "↓19% from $287" },
-      { label: "Closed Jobs", value: "409" },
+      { label: "Closed Jobs", value: "220" },
     ],
     columnLabels: {
       leads: "Total Leads",
@@ -129,20 +132,20 @@ export const garageDoorRepairs: CaseStudyData = {
       deals: "Closed Jobs",
     },
     monthly: [
-      { month: "May 2025", spend: 19800, leads: 113, cpl: 175, qualified: 62, cpql: 319, deals: 33, revenue: 27951, roas: 1.41 },
-      { month: "Jun 2025", spend: 21300, leads: 131, cpl: 163, qualified: 74, cpql: 288, deals: 39, revenue: 33033, roas: 1.55 },
-      { month: "Jul 2025", spend: 22700, leads: 153, cpl: 148, qualified: 89, cpql: 255, deals: 47, revenue: 39809, roas: 1.75 },
-      { month: "Aug 2025", spend: 21400, leads: 149, cpl: 144, qualified: 88, cpql: 243, deals: 47, revenue: 39809, roas: 1.86 },
-      { month: "Sep 2025", spend: 19200, leads: 137, cpl: 140, qualified: 83, cpql: 231, deals: 44, revenue: 37268, roas: 1.94 },
-      { month: "Oct 2025", spend: 21800, leads: 162, cpl: 135, qualified: 100, cpql: 218, deals: 53, revenue: 44891, roas: 2.06 },
-      { month: "Nov 2025", spend: 25600, leads: 197, cpl: 130, qualified: 126, cpql: 203, deals: 67, revenue: 56749, roas: 2.22 },
-      { month: "Dec 2025", spend: 27900, leads: 222, cpl: 126, qualified: 148, cpql: 189, deals: 79, revenue: 66913, roas: 2.40 },
+      { month: "May 2025", spend: 19800, leads: 113, cpl: 175, qualified: 62, cpql: 319, deals: 23, revenue: 19481, roas: 0.98 },
+      { month: "Jun 2025", spend: 21300, leads: 131, cpl: 163, qualified: 74, cpql: 288, deals: 19, revenue: 16093, roas: 0.76 },
+      { month: "Jul 2025", spend: 22700, leads: 153, cpl: 148, qualified: 89, cpql: 255, deals: 28, revenue: 23716, roas: 1.04 },
+      { month: "Aug 2025", spend: 21400, leads: 149, cpl: 144, qualified: 88, cpql: 243, deals: 21, revenue: 17787, roas: 0.83 },
+      { month: "Sep 2025", spend: 19200, leads: 137, cpl: 140, qualified: 83, cpql: 231, deals: 29, revenue: 24563, roas: 1.28 },
+      { month: "Oct 2025", spend: 21800, leads: 162, cpl: 135, qualified: 100, cpql: 218, deals: 37, revenue: 31339, roas: 1.44 },
+      { month: "Nov 2025", spend: 25600, leads: 197, cpl: 130, qualified: 126, cpql: 203, deals: 28, revenue: 23716, roas: 0.93 },
+      { month: "Dec 2025", spend: 27900, leads: 222, cpl: 126, qualified: 148, cpql: 189, deals: 35, revenue: 29645, roas: 1.06 },
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$346.4K", growth: "+153%" },
+    { label: "Total Revenue", value: "$186.3K", growth: "+153%" },
     { label: "Total Pipeline", value: "$578K", growth: "+127%" },
     { label: "Avg Job Value", value: "$847", growth: "" },
-    { label: "Blended ROAS", value: "1.93x", growth: "" },
+    { label: "Blended ROAS", value: "1.04x", growth: "" },
   ],
 };

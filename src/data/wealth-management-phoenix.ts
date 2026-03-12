@@ -47,6 +47,7 @@ export const wealthManagementPhoenix: CaseStudyData = {
         "Launched initial paid campaigns targeting high-intent local searches with controlled daily budgets",
         "Technical SEO overhaul — financial services schema, Core Web Vitals optimization, mobile-first redesign",
         "Published first 10 educational articles: Arizona retirement tax advantages, Scottsdale cost of living for retirees, Social Security optimization strategies",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -62,6 +63,7 @@ export const wealthManagementPhoenix: CaseStudyData = {
         "Refined audience targeting using lead qualification data from initial conversions",
         "Built retargeting audiences from website visitors, partial form completions, and content consumers",
         "Internal linking architecture to build topical authority across wealth management service clusters",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -77,6 +79,7 @@ export const wealthManagementPhoenix: CaseStudyData = {
         "Advanced audience segmentation by investable asset range and planning need",
         "Implemented lead scoring to prioritize high-probability HNW prospects for advisor outreach",
         "AI search optimization — structured FAQ content for featured snippets and knowledge panels",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
     {

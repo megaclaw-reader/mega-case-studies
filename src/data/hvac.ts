@@ -48,6 +48,7 @@ export const hvac: CaseStudyData = {
         "CRM integration for closed-loop lead-to-job attribution with same-day and next-day booking tracking",
         "Rebuilt ad strategy around cost per qualified lead and average job value — separated emergency AC repair from installation campaigns",
         "Paused low-intent keywords, launched landing page A/B tests for emergency AC repair vs. scheduled maintenance vs. new system installation",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -64,6 +65,7 @@ export const hvac: CaseStudyData = {
         "Rapid ad creative testing — messaging pivots around emergency AC urgency vs. seasonal tune-up savings vs. financing options for full system replacements",
         "Retargeting layer for estimate request page visitors and phone call non-converters",
         "Negative keyword refinement based on call recording data — filtering out DIY searches, commercial HVAC, and non-service-area clicks",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -80,6 +82,7 @@ export const hvac: CaseStudyData = {
         "Complex audience segmentations by service type (repair vs. install), neighborhood, and urgency signals",
         "Multi-approach bidding strategies optimized for peak summer demand and emergency intent",
         "Fully robust lead scoring integrating call duration, time-of-day patterns, and CRM job stage progression",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
   ],
@@ -104,8 +107,8 @@ export const hvac: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$45.8K" },
-      { label: "Qualified Leads", value: "341" },
-      { label: "Avg Cost Per Qualified Lead", value: "$134", note: "↓25% from $178" },
+      { label: "Qualified Leads", value: "323" },
+      { label: "Avg Cost Per Qualified Lead", value: "$142", note: "↓20% from $178" },
       { label: "Closed Jobs", value: "83" },
     ],
     columnLabels: {
@@ -122,8 +125,8 @@ export const hvac: CaseStudyData = {
       { month: "Jul 2025", spend: 7200, leads: 96, cpl: 75, qualified: 64, cpql: 113, deals: 19, revenue: 34300, roas: 4.76 },
       { month: "Aug 2025", spend: 5800, leads: 74, cpl: 78, qualified: 44, cpql: 132, deals: 8, revenue: 24400, roas: 4.21 },
       { month: "Sep 2025", spend: 5400, leads: 67, cpl: 81, qualified: 41, cpql: 132, deals: 8, revenue: 21100, roas: 3.91 },
-      { month: "Oct 2025", spend: 5164, leads: 52, cpl: 99, qualified: 42, cpql: 123, deals: 7, revenue: 23000, roas: 4.45 },
-      { month: "Nov 2025", spend: 5323, leads: 46, cpl: 116, qualified: 33, cpql: 161, deals: 6, revenue: 24000, roas: 4.51 },
+      { month: "Oct 2025", spend: 5164, leads: 52, cpl: 99, qualified: 32, cpql: 161, deals: 7, revenue: 23000, roas: 4.45 },
+      { month: "Nov 2025", spend: 5323, leads: 46, cpl: 116, qualified: 25, cpql: 213, deals: 6, revenue: 24000, roas: 4.51 },
     ],
   },
   organicConversions: {

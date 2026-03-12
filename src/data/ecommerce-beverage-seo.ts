@@ -47,6 +47,8 @@ export const ecommerceBeverageSeo: CaseStudyData = {
         "Built initial content calendar — mapped 12-month editorial plan covering ingredient education, category comparisons, recipe content, and seasonal beverage guides",
         "Published 8 foundational pillar pages: 'What Are Adaptogens,' 'Electrolyte Guide for Athletes,' 'Clean Label Beverages Explained,' and 5 ingredient-specific deep-dives (ashwagandha, lion's mane, reishi, collagen, magnesium)",
         "Deployed enhanced ecommerce analytics with organic attribution — tracking sessions, add-to-carts, checkout starts, and completed orders by organic landing page",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
+        'Launched initial creative testing suite with 30+ AI-generated ad variations across formats (static, carousel, video stills) to seed the algorithm with diverse creative signals',
       ],
     },
     {
@@ -62,6 +64,8 @@ export const ecommerceBeverageSeo: CaseStudyData = {
         "Internal linking overhaul — built topical authority clusters connecting ingredient pages → product pages → recipe content → category pages with strategic anchor text",
         "Conversion rate optimization for organic traffic — A/B tested product page layouts, added 'frequently bought together' modules, optimized add-to-cart button placement based on scroll depth data",
         "Monthly content refreshes on highest-impression pages — updated nutritional data, added new customer reviews, expanded FAQ sections based on Search Console query data",
+        'Scaled AI-generated creative production to 50+ new variations per month, testing hooks, angles, offers, and visual styles at a pace impossible for traditional creative teams',
+        'AI agents identified winning creative patterns and automatically generated new variations, keeping the campaign fresh while competitors recycled the same handful of ads',
       ],
     },
     {
@@ -76,6 +80,8 @@ export const ecommerceBeverageSeo: CaseStudyData = {
         "Subscription-focused content — articles targeting 'best drink subscription boxes,' 'monthly wellness subscription' queries, with dedicated landing page optimized for subscription conversion",
         "Page speed re-optimization — addressed Largest Contentful Paint regression from new imagery, implemented next-gen image formats, and server-side rendering improvements",
         "Organic conversion funnel refinement — identified that recipe pages had 3.2x higher add-to-cart rates than direct product pages, doubled recipe content production",
+        'With 100+ creatives in active rotation, the campaign avoided creative fatigue entirely, a common problem for businesses running fewer than 10 ads at a time',
+        'Real-time performance monitoring detected and responded to competitive shifts, seasonal trends, and algorithm changes within hours rather than the typical agency cycle of days or weeks',
       ],
     },
     {

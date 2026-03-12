@@ -48,6 +48,7 @@ export const commercialConstructionTx: CaseStudyData = {
         "Generated 14 initial articles covering commercial construction planning guides, Texas permitting requirements, project timeline frameworks, and industry-specific content",
         "Business profile optimization with service areas covering 18 Dallas-Fort Worth communities and surrounding Texas metros",
         "Local citation building across 52+ directories — NAP consistency audit and corrections on commercial construction and B2B service listings",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -64,6 +65,7 @@ export const commercialConstructionTx: CaseStudyData = {
         "A/B tested landing page funnel variations — qualification form length, project portfolio placement, and social proof elements optimized for commercial decision-makers",
         "Retargeting campaigns targeting estimate request page visitors, portfolio browsers, and partial form completions with project-type-specific messaging",
         "Weekly business profile posts featuring completed commercial projects, construction progress documentation, and client testimonials from property managers",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -79,6 +81,7 @@ export const commercialConstructionTx: CaseStudyData = {
         "AI search optimization for placement in commercial contractor recommendation queries across emerging search platforms",
         "Lead scoring model integrating ad engagement signals with CRM project stage data, estimated project value, and property type classification",
         "Audience segmentation refinement — separated campaigns by project size tier ($50-150K, $150-300K, $300K+) with bid adjustments reflecting deal value",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
     {
@@ -119,8 +122,8 @@ export const commercialConstructionTx: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$81.7K" },
-      { label: "Qualified Leads", value: "219" },
-      { label: "Avg Cost Per Qualified Lead", value: "$373", note: "↓40% from $623" },
+      { label: "Qualified Leads", value: "211" },
+      { label: "Avg Cost Per Qualified Lead", value: "$387", note: "↓38% from $623" },
       { label: "Booked Consultations", value: "51" },
     ],
     columnLabels: {
@@ -150,7 +153,7 @@ export const commercialConstructionTx: CaseStudyData = {
       // Nov 2025: Slight seasonal dip but Texas stays active
       { month: "Nov 2025", spend: 8734, leads: 33, cpl: 265, qualified: 23, cpql: 380, deals: 5, revenue: 33247, roas: 3.81 },
       // Dec 2025: Year-end budget pushes, planning for Q1 projects
-      { month: "Dec 2025", spend: 8437, leads: 31, cpl: 272, qualified: 25, cpql: 337, deals: 4, revenue: 28891, roas: 3.42 },
+      { month: "Dec 2025", spend: 8437, leads: 31, cpl: 272, qualified: 17, cpql: 496, deals: 4, revenue: 28891, roas: 3.42 },
     ],
   },
   impact: [

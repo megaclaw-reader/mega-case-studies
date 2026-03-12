@@ -45,6 +45,7 @@ export const personalInjuryLawyer: CaseStudyData = {
         "Competitive keyword analysis across 280+ personal injury terms in the Jacksonville DMA — mapped keywords by intent level, estimated case value, and competition density to identify gaps",
         "Rebuilt paid campaigns from scratch — hyper-focused on high-intent, case-specific terms ('car accident lawyer Jacksonville,' 'injury attorney near me'), eliminated broad match waste, built dedicated landing pages with click-to-call as the primary CTA",
         "Established baseline metrics from first 30 days: cost per qualified lead of $1,583, qualified-to-signed conversion rate of 29%, and average cost per visit of $127",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -59,6 +60,7 @@ export const personalInjuryLawyer: CaseStudyData = {
         "Implemented after-hours call routing with live answering service — PI leads call at all hours, especially after evening and weekend accidents; previously 100% of after-hours calls went to voicemail and most never called back",
         "Added FAQ, Attorney, and LocalBusiness schema markup across all practice area and location pages",
         "Launched weekly Google Business Profile posts highlighting anonymized case results and legal tips",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -72,6 +74,7 @@ export const personalInjuryLawyer: CaseStudyData = {
         "Advanced call scoring integrated into CRM — calls auto-classified by duration, caller questions, and intake staff feedback as qualified/unqualified, enabling real-time CPQL reporting",
         "Content refresh on top 5 performing pages with enhanced E-E-A-T signals — attorney credentials, years of experience, specific case type expertise, and Florida statute references",
         "AI search optimization targeting conversational queries like 'best personal injury lawyer in Jacksonville' and 'what should I do after a car accident in Duval County'",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
   ],

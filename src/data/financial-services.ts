@@ -46,6 +46,7 @@ export const financialServices: CaseStudyData = {
         "Launched precision-targeted paid campaigns on high-intent queries with compliance-approved ad copy and negative keyword lists from prior agency's waste",
         "Technical SEO overhaul — implemented financial services schema markup, fixed crawl errors, optimized Core Web Vitals from 34 to 78 mobile score",
         "Published first 6 educational articles: 'California retirement tax strategies', '401(k) rollover guide', 'choosing a financial advisor checklist'",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -60,6 +61,7 @@ export const financialServices: CaseStudyData = {
         "A/B tested landing page consultation offers — 'free portfolio review' outperformed 'free consultation' by 34%",
         "Built retargeting audiences from website visitors, video viewers, and partial form completions",
         "Internal linking architecture redesign to strengthen topical authority clusters",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -73,6 +75,7 @@ export const financialServices: CaseStudyData = {
         "Launched seasonal Q1 tax planning campaign with increased budget allocation",
         "CRO improvements from heatmap analysis — simplified form fields from 8 to 5, added trust badges, reduced page load time",
         "Advanced audience segmentation based on asset level signals and life stage indicators",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
     {

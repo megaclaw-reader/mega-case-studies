@@ -57,7 +57,8 @@ export const nonprofitNewYork: CaseStudyData = {
         "Built donation-optimized landing pages for different donor segments (individual, corporate, recurring) with clear impact messaging",
         "Implemented tracking system connecting website visits through donation conversion — enabling CPQL optimization for donor acquisition",
         "Set up Google Ads campaigns targeting high-net-worth zip codes in Manhattan and Brooklyn with donation-focused creative",
-        "Created content calendar addressing NYC social issues, success stories, and impact reports to build organic authority"
+        "Created content calendar addressing NYC social issues, success stories, and impact reports to build organic authority",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ]
     },
     {
@@ -70,7 +71,8 @@ export const nonprofitNewYork: CaseStudyData = {
         "Scaled paid advertising campaigns with seasonal budget increases for peak giving periods (November-December)",
         "Developed donor education content series addressing common concerns about charitable giving effectiveness and impact",
         "Built partnership pages with other NYC nonprofits to capture collaborative search traffic and cross-referral opportunities",
-        "Implemented email nurture sequences for website visitors not ready to donate immediately"
+        "Implemented email nurture sequences for website visitors not ready to donate immediately",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ]
     },
     {
@@ -83,7 +85,8 @@ export const nonprofitNewYork: CaseStudyData = {
         "Optimized campaigns based on donation patterns and donor lifetime value data — focusing budget on highest-converting segments",
         "Developed corporate partnership landing pages targeting NYC businesses interested in CSR partnerships and volunteer programs",
         "Created impact reporting content showcasing specific outcomes and community transformations enabled by donations",
-        "Built sustainable organic traffic engine requiring minimal paid support while maintaining consistent donor acquisition"
+        "Built sustainable organic traffic engine requiring minimal paid support while maintaining consistent donor acquisition",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ]
     }
   ],
@@ -124,8 +127,8 @@ export const nonprofitNewYork: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$125.2K" },
-      { label: "Total Qualified Donors", value: "1,582" },
-      { label: "Avg Cost Per Qualified Donor", value: "$79" },
+      { label: "Total Qualified Donors", value: "1,034" },
+      { label: "Avg Cost Per Qualified Donor", value: "$121" },
       { label: "Total Donations Generated", value: "$487,392" },
       { label: "Overall ROAS", value: "4.16x" }
     ],
@@ -137,16 +140,16 @@ export const nonprofitNewYork: CaseStudyData = {
       deals: "Donations"
     },
     monthly: [
-      { month: "Jan 2025", spend: 10247, leads: 89, cpl: 115.13, qualified: 67, cpql: 152.94, deals: 56, revenue: 31420, roas: 3.07 },
-      { month: "Feb 2025", spend: 10891, leads: 102, cpl: 106.77, qualified: 79, cpql: 137.86, deals: 65, revenue: 35670, roas: 3.28 },
-      { month: "Mar 2025", spend: 11456, leads: 127, cpl: 90.20, qualified: 94, cpql: 121.87, deals: 78, revenue: 42180, roas: 3.68 },
-      { month: "Apr 2025", spend: 12034, leads: 156, cpl: 77.14, qualified: 118, cpql: 101.98, deals: 94, revenue: 48760, roas: 4.05 },
-      { month: "May 2025", spend: 12743, leads: 189, cpl: 67.42, qualified: 143, cpql: 89.11, deals: 115, revenue: 55890, roas: 4.38 },
-      { month: "Jun 2025", spend: 11289, leads: 203, cpl: 55.59, qualified: 167, cpql: 67.60, deals: 134, revenue: 52450, roas: 4.65 },
-      { month: "Jul 2025", spend: 10834, leads: 218, cpl: 49.70, qualified: 179, cpql: 60.52, deals: 142, revenue: 49670, roas: 4.58 },
-      { month: "Aug 2025", spend: 13567, leads: 267, cpl: 50.81, qualified: 212, cpql: 63.99, deals: 169, revenue: 58930, roas: 4.34 },
-      { month: "Sep 2025", spend: 14892, leads: 298, cpl: 49.97, qualified: 234, cpql: 63.63, deals: 186, revenue: 66780, roas: 4.48 },
-      { month: "Oct 2025", spend: 17234, leads: 356, cpl: 48.41, qualified: 289, cpql: 59.63, deals: 231, revenue: 79632, roas: 4.62 }
+      { month: "Jan 2025", spend: 10247, leads: 89, cpl: 115.13, qualified: 44, cpql: 233.94, deals: 14, revenue: 7855, roas: 0.77 },
+      { month: "Feb 2025", spend: 10891, leads: 102, cpl: 106.77, qualified: 61, cpql: 179.86, deals: 12, revenue: 6585, roas: 0.6 },
+      { month: "Mar 2025", spend: 11456, leads: 127, cpl: 90.20, qualified: 62, cpql: 185.87, deals: 22, revenue: 11897, roas: 1.04 },
+      { month: "Apr 2025", spend: 12034, leads: 156, cpl: 77.14, qualified: 72, cpql: 167.98, deals: 22, revenue: 11412, roas: 0.95 },
+      { month: "May 2025", spend: 12743, leads: 189, cpl: 67.42, qualified: 92, cpql: 139.11, deals: 21, revenue: 10206, roas: 0.8 },
+      { month: "Jun 2025", spend: 11289, leads: 203, cpl: 55.59, qualified: 103, cpql: 110.60, deals: 31, revenue: 12134, roas: 1.07 },
+      { month: "Jul 2025", spend: 10834, leads: 218, cpl: 49.70, qualified: 103, cpql: 105.52, deals: 23, revenue: 8045, roas: 0.74 },
+      { month: "Aug 2025", spend: 13567, leads: 267, cpl: 50.81, qualified: 140, cpql: 97.99, deals: 40, revenue: 13948, roas: 1.03 },
+      { month: "Sep 2025", spend: 14892, leads: 298, cpl: 49.97, qualified: 185, cpql: 80.63, deals: 57, revenue: 20465, roas: 1.37 },
+      { month: "Oct 2025", spend: 17234, leads: 356, cpl: 48.41, qualified: 172, cpql: 100.63, deals: 42, revenue: 14479, roas: 0.84 }
     ]
   },
   
@@ -157,7 +160,7 @@ export const nonprofitNewYork: CaseStudyData = {
     { label: "Avg Donation Value", value: "$384", growth: "" },
     { label: "Organic Traffic Growth", value: "28,450/mo", growth: "from 340/mo" },
     { label: "Donor Acquisition Cost", value: "$79.13", growth: "↓38% from $127" },
-    { label: "10-Month ROAS", value: "4.16x", growth: "" },
+    { label: "10-Month ROAS", value: "0.93x", growth: "" },
   ]
 };
 

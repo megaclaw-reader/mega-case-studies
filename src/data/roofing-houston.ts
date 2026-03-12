@@ -48,6 +48,7 @@ export const roofingHouston: CaseStudyData = {
         "Defined CPQL as the primary optimization metric — established baseline of $507 per qualified lead and set reduction targets by month",
         "Paused low-performing keywords, launched landing page A/B tests for storm damage vs. planned replacement messaging, and implemented negative keyword filters for DIY and out-of-area searches",
         "Built lead scoring framework integrating inquiry source, property type, estimated job value, and insurance status to separate qualified leads from noise",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -64,6 +65,7 @@ export const roofingHouston: CaseStudyData = {
         "Rapid creative testing cycles — storm urgency messaging vs. quality craftsmanship vs. insurance claim expertise positioning",
         "Retargeting campaigns for estimate request page visitors and form abandoners with urgency-driven messaging",
         "Keyword and negative keyword refinement based on CRM qualification data — filtering out renters, commercial tenants, and searches outside the Houston metro",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -79,6 +81,7 @@ export const roofingHouston: CaseStudyData = {
         "Local backlink campaigns via Houston home improvement publications, neighborhood associations, and real estate blogs",
         "CRO improvements — streamlined estimate request forms, added click-to-call for mobile, and implemented chat for after-hours storm damage inquiries",
         "AI search optimization for placement in local roofing recommendation queries and storm damage repair searches",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
     {
@@ -119,7 +122,7 @@ export const roofingHouston: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$77.7K" },
-      { label: "Qualified Leads", value: "243" },
+      { label: "Qualified Leads", value: "191" },
       { label: "Avg CPQL", value: "$320", note: "↓37% from $507" },
       { label: "Closed Jobs", value: "27" },
     ],
@@ -128,12 +131,12 @@ export const roofingHouston: CaseStudyData = {
       { month: "Feb 2025", spend: 6741, leads: 24, cpl: 281, qualified: 15, cpql: 449, deals: 3, revenue: 28143, roas: 4.18 },
       { month: "Mar 2025", spend: 7123, leads: 28, cpl: 254, qualified: 19, cpql: 375, deals: 2, revenue: 21900, roas: 3.07 },
       { month: "Apr 2025", spend: 7847, leads: 33, cpl: 238, qualified: 23, cpql: 341, deals: 4, revenue: 34800, roas: 4.43 },
-      { month: "May 2025", spend: 8412, leads: 38, cpl: 221, qualified: 27, cpql: 312, deals: 3, revenue: 25200, roas: 3.0 },
-      { month: "Jun 2025", spend: 9156, leads: 44, cpl: 208, qualified: 32, cpql: 286, deals: 3, revenue: 27700, roas: 3.03 },
-      { month: "Jul 2025", spend: 8734, leads: 42, cpl: 208, qualified: 31, cpql: 282, deals: 3, revenue: 30700, roas: 3.51 },
-      { month: "Aug 2025", spend: 8289, leads: 40, cpl: 207, qualified: 30, cpql: 276, deals: 3, revenue: 28500, roas: 3.44 },
-      { month: "Sep 2025", spend: 7563, leads: 36, cpl: 210, qualified: 27, cpql: 280, deals: 2, revenue: 22700, roas: 3.0 },
-      { month: "Oct 2025", spend: 7198, leads: 34, cpl: 212, qualified: 26, cpql: 277, deals: 2, revenue: 21000, roas: 2.92 },
+      { month: "May 2025", spend: 8412, leads: 38, cpl: 221, qualified: 20, cpql: 421, deals: 3, revenue: 25200, roas: 3.0 },
+      { month: "Jun 2025", spend: 9156, leads: 44, cpl: 208, qualified: 23, cpql: 398, deals: 3, revenue: 27700, roas: 3.03 },
+      { month: "Jul 2025", spend: 8734, leads: 42, cpl: 208, qualified: 20, cpql: 437, deals: 3, revenue: 30700, roas: 3.51 },
+      { month: "Aug 2025", spend: 8289, leads: 40, cpl: 207, qualified: 20, cpql: 414, deals: 3, revenue: 28500, roas: 3.44 },
+      { month: "Sep 2025", spend: 7563, leads: 36, cpl: 210, qualified: 21, cpql: 360, deals: 2, revenue: 22700, roas: 3.0 },
+      { month: "Oct 2025", spend: 7198, leads: 34, cpl: 212, qualified: 17, cpql: 423, deals: 2, revenue: 21000, roas: 2.92 },
     ],
   },
   impact: [

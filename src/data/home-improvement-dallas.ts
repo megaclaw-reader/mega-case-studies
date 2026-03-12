@@ -45,6 +45,7 @@ export const homeImprovementDallas: CaseStudyData = {
         "Implemented advanced conversion tracking across phone calls, form submissions, and consultation requests with attribution back to specific keywords and campaigns",
         "Restructured paid campaigns around project intent: kitchen remodels, bathroom renovations, outdoor living, whole-home projects rather than generic targeting",
         "Created dedicated Dallas neighborhood landing pages with local project galleries and testimonials from recent clients",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -59,6 +60,7 @@ export const homeImprovementDallas: CaseStudyData = {
         "A/B tested ad creative emphasizing Dallas market expertise vs. generic home improvement messaging — local expertise angle drove 34% higher qualified lead rate",
         "Implemented seasonal budget allocation strategy with 40% increase during spring planning season (February-April)",
         "Started ranking on page 1 for 23 Dallas home improvement terms by end of month 4",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -73,6 +75,7 @@ export const homeImprovementDallas: CaseStudyData = {
         "Advanced audience layering combining geographic, demographic, and behavioral signals increased qualified lead rate to 31% of total ad-driven traffic",
         "Seasonal creative refresh for summer outdoor living emphasis — deck, patio, outdoor kitchen focus drove $180K in additional project pipeline",
         "Monthly ad spend confidently scaled to $14K+ as cost per qualified lead dropped to $278 with improved attribution visibility",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
     {

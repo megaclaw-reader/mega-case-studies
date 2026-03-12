@@ -47,6 +47,8 @@ export const luxuryMenswearCalifornia: CaseStudyData = {
         "Built 12-month content calendar covering fabric education, style comparison guides, occasion dressing resources, California lifestyle content, and seasonal menswear trends",
         "Published 6 foundational pillar pages: 'Complete Guide to Men's Suit Fabrics,' 'How a Suit Should Fit,' 'California Black Tie & Formal Wear Guide,' 'Luxury Dress Shirt Buying Guide,' 'Men's Business Casual in 2025,' and 'Italian vs British vs American Tailoring Styles'",
         "Deployed enhanced ecommerce analytics with organic attribution — tracking sessions, product views, add-to-carts, and completed orders by organic landing page",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
+        'Launched initial creative testing suite with 30+ AI-generated ad variations across formats (static, carousel, video stills) to seed the algorithm with diverse creative signals',
       ],
     },
     {
@@ -61,6 +63,8 @@ export const luxuryMenswearCalifornia: CaseStudyData = {
         "Backlink acquisition campaign — outreach to men's style publications, GQ regional contributors, fashion blogs, California lifestyle media, and luxury retail platforms for guest features and product mentions",
         "Internal linking overhaul — built topical clusters connecting fabric guides → product pages → occasion content → collection pages with strategic anchor text",
         "Conversion optimization for organic traffic — A/B tested product page layouts, added virtual styling consultation booking, and optimized the high-ticket checkout flow for organic visitors arriving from educational content",
+        'Scaled AI-generated creative production to 50+ new variations per month, testing hooks, angles, offers, and visual styles at a pace impossible for traditional creative teams',
+        'AI agents identified winning creative patterns and automatically generated new variations, keeping the campaign fresh while competitors recycled the same handful of ads',
       ],
     },
     {
@@ -77,6 +81,8 @@ export const luxuryMenswearCalifornia: CaseStudyData = {
         "Backlink velocity increase — averaging 12 referring domains per month through earned media, fashion publication features, and content partnerships with California lifestyle brands",
         "Featured snippet optimization — restructured top-ranking content for position zero on 'what is [fabric type]' and 'best [menswear item]' queries, captured 14 featured snippets",
         "Ongoing technical maintenance — monthly crawl audits, Core Web Vitals monitoring, and index management as the site scaled past 260 indexed pages",
+        'With 100+ creatives in active rotation, the campaign avoided creative fatigue entirely, a common problem for businesses running fewer than 10 ads at a time',
+        'Real-time performance monitoring detected and responded to competitive shifts, seasonal trends, and algorithm changes within hours rather than the typical agency cycle of days or weeks',
       ],
     },
   ],

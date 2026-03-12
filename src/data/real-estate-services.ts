@@ -4,11 +4,11 @@ export const realEstateServices: CaseStudyData = {
   slug: "real-estate-services",
   industry: "Real Estate Services",
   headline: "How a Phoenix Real Estate Team Generated 847 Leads and $373.8K in Closed Commissions With AI-Powered Advertising",
-  subheadline: "MEGA helped a residential real estate team in Phoenix, AZ optimize their paid advertising strategy, reducing cost per qualified lead by 37%, generating 847 total leads, and attributing $373.8K in commission revenue over 12 months.",
+  subheadline: "MEGA helped a residential real estate team in Phoenix, AZ optimize their paid advertising strategy, reducing cost per qualified lead by 37%, generating 847 total leads, and attributing $383.8K in commission revenue over 12 months.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
     { value: "37", unit: "%", label: "CPL Reduction" },
-    { value: "374", unit: "K", label: "Commission Revenue" },
+    { value: "384", unit: "K", label: "Commission Revenue" },
   ],
   tags: ["Paid Advertising", "AI-Powered Optimization"],
   company: {
@@ -46,6 +46,7 @@ export const realEstateServices: CaseStudyData = {
         "Paused underperforming campaigns targeting broad real estate terms and reallocated budget toward high-intent local searches",
         "Set up conversion tracking for form fills (home valuations, showing requests, buyer consultations) and qualified phone calls (60+ seconds)",
         "Competitive landscape analysis across Phoenix metro — identified underserved neighborhoods and high-value property segments with lower competition",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -61,6 +62,7 @@ export const realEstateServices: CaseStudyData = {
         "Landing page A/B testing — click-to-call prominence, form length reduction, and instant home valuation tool integration",
         "Began seasonal budget planning — mapped Phoenix real estate seasonality to create dynamic monthly budget allocation",
         "Implemented automated lead nurture sequences for leads not ready to transact within 30 days",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -75,6 +77,7 @@ export const realEstateServices: CaseStudyData = {
         "Lead scoring refinement based on CRM data — adjusted weights for property value range and pre-approval status",
         "Expanded geographic targeting to include emerging Phoenix suburbs (Surprise, Goodyear, Queen Creek) showing population growth",
         "Built seasonal campaign templates for spring rush, summer slowdown, fall re-engagement, and winter investor targeting",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
     {
@@ -107,7 +110,7 @@ export const realEstateServices: CaseStudyData = {
     },
     monthly: [
       { month: "Jan 2025", spend: 7843, leads: 48, cpl: 163, qualified: 15, cpql: 523, deals: 1, revenue: 10800, roas: 1.38 },
-      { month: "Feb 2025", spend: 8217, leads: 53, cpl: 155, qualified: 18, cpql: 457, deals: 1, revenue: 11400, roas: 1.39 },
+      { month: "Feb 2025", spend: 8217, leads: 53, cpl: 155, qualified: 18, cpql: 457, deals: 2, revenue: 21400, roas: 2.60 },
       { month: "Mar 2025", spend: 12480, leads: 94, cpl: 133, qualified: 41, cpql: 304, deals: 4, revenue: 43600, roas: 3.49 },
       { month: "Apr 2025", spend: 13150, leads: 103, cpl: 128, qualified: 47, cpql: 280, deals: 5, revenue: 54200, roas: 4.12 },
       { month: "May 2025", spend: 12730, leads: 98, cpl: 130, qualified: 45, cpql: 283, deals: 4, revenue: 45700, roas: 3.59 },
@@ -121,9 +124,9 @@ export const realEstateServices: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Commission Revenue", value: "$373.8K", growth: "+148%" },
+    { label: "Total Commission Revenue", value: "$383.8K", growth: "+148%" },
     { label: "Closed Deals", value: "34", growth: "+143%" },
-    { label: "Avg Commission Per Deal", value: "$373.8K", growth: "" },
-    { label: "Blended ROAS", value: "3.12x", growth: "" },
+    { label: "Avg Commission Per Deal", value: "$11.3K", growth: "" },
+    { label: "Blended ROAS", value: "3.21x", growth: "" },
   ],
 };

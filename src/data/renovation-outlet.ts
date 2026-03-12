@@ -47,6 +47,7 @@ export const renovationOutlet: CaseStudyData = {
         "Built paid advertising strategy segmented by audience type (DIY homeowners vs. licensed contractors), product category, and seasonal demand cycle",
         "Restructured historical ad account — paused wasteful generic keywords, built campaign architecture around product categories and buyer intent levels",
         "Local citation building across 52 directories — NAP consistency audit, home improvement listing platforms, and Florida contractor association directories",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -62,6 +63,7 @@ export const renovationOutlet: CaseStudyData = {
         "Weekly business profile posts with new inventory arrivals, closeout deals, project inspiration photos, and seasonal renovation tips",
         "Retargeting campaigns for website visitors who browsed product categories but didn't submit a lead form or call — segmented by product interest",
         "A/B testing across ad creative: showroom photography vs. installed-project imagery vs. price-focused messaging vs. selection/variety messaging",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -76,6 +78,7 @@ export const renovationOutlet: CaseStudyData = {
         "Backlink outreach targeting Florida home improvement publications, real estate blogs, interior design directories, and contractor association websites — secured 41 referring domains",
         "Lead scoring model implementation: separating DIY homeowners (avg $2,800 project value) from contractors (avg $11,400 order value) based on form responses, browsing behavior, and engagement signals",
         "Budget reallocation based on CRM data — shifted spend toward contractor-focused campaigns delivering 3.7x higher average deal value",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
     {

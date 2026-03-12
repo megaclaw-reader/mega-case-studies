@@ -48,6 +48,7 @@ export const safetyTraining: CaseStudyData = {
         "Local citation building — submitted to 48 directories including industry-specific platforms, Houston Chamber of Commerce, oil & gas industry directories, and safety association listings",
         "Competitor analysis of top 6 Houston safety training providers — pricing, course offerings, digital presence, and keyword positioning",
         "Launched initial paid campaigns at $5,100/month with broad industry targeting to establish baseline ICP data — intentionally casting a wide net across oil & gas, construction, and manufacturing verticals",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -65,6 +66,7 @@ export const safetyTraining: CaseStudyData = {
         "Implemented retargeting sequences segmented by industry vertical and page behavior",
         "Weekly business profile posts featuring on-site training photos, safety tips, regulatory updates, and client testimonials",
         "Budget held at $5,300/month while ICP data accumulated — scaling only after validated patterns emerged",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -81,6 +83,7 @@ export const safetyTraining: CaseStudyData = {
         "CRO optimization — added instant quote calculator for enterprise programs, client logo wall (anonymized by industry), and compliance guarantee messaging",
         "Expanded service area pages into Freeport, Port Arthur, Beaumont, and League City based on emerging demand from ICP data",
         "Review generation campaign launched — 31 new reviews added over next 4 months, with emphasis on enterprise client testimonials",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
     {

@@ -48,6 +48,7 @@ export const taxPlanningCoaching: CaseStudyData = {
         "Full technical SEO audit of existing website — fixed crawl errors, improved page speed from 2.8s to 1.3s, implemented proper schema markup for financial advisory services",
         "Keyword research identifying 340+ high-intent search terms across tax planning, entity structuring, and retirement strategies for business owners in the Philadelphia metro area",
         "Published initial pillar content: 8 long-form guides covering core coaching topics (S-Corp election, cost segregation, backdoor Roth strategies) targeting Philadelphia-area searches",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -65,6 +66,7 @@ export const taxPlanningCoaching: CaseStudyData = {
         "Published 23 location-targeted service pages covering Philadelphia, Bucks County, Montgomery County, Delaware County, and South Jersey — each optimized for local tax planning coaching searches",
         "Launched blog content calendar: 3 SEO-optimized articles per week targeting long-tail queries like 'tax planning for real estate investors Philadelphia' and 'business owner tax reduction strategies PA'",
         "Built internal linking architecture connecting pillar guides to city-level pages and blog content — establishing topical authority clusters around core coaching services",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -82,6 +84,7 @@ export const taxPlanningCoaching: CaseStudyData = {
         "SEO content compounding: 147 indexed pages driving 4,200+ organic visits/month — programmatic city-level pages ranking in top 10 for 'tax planning coaching [city]' across 14 Philadelphia-area municipalities",
         "Earned 23 backlinks from Philadelphia business directories, local CPA associations, and entrepreneur communities — domain authority climbing from 12 to 31",
         "Organic traffic now generating qualified leads at $0 marginal cost — 18 organic-sourced qualified leads in months 5-7 alone, reducing blended acquisition cost",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
     {

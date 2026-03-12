@@ -48,6 +48,8 @@ export const highEndFashionNyc: CaseStudyData = {
         "Generated 8 initial SEO content pieces: NYC style guides, seasonal wardrobe editorials, gift guides for men and women, and care/styling tips for premium fabrics",
         "Retargeting architecture: built audiences segmented by gender, product category viewed, cart abandonment stage, and recency — separate creative for each segment",
         "Negative keyword overhaul — removed outlet, discount, fast-fashion, and wholesale queries draining budget without converting at acceptable margins",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
+        'Launched initial creative testing suite with 30+ AI-generated ad variations across formats (static, carousel, video stills) to seed the algorithm with diverse creative signals',
       ],
     },
     {
@@ -65,6 +67,8 @@ export const highEndFashionNyc: CaseStudyData = {
         "Weekly content publishing cadence established — blog posts, lookbook pages, and seasonal landing pages to build topical authority in luxury fashion",
         "A/B testing creative approaches: editorial lifestyle vs. studio product shots vs. user-generated content from NYC customers",
         "Performance-based budget reallocation — shifted spend from underperforming broad campaigns to high-ROAS product-specific and audience-specific campaigns",
+        'Scaled AI-generated creative production to 50+ new variations per month, testing hooks, angles, offers, and visual styles at a pace impossible for traditional creative teams',
+        'AI agents identified winning creative patterns and automatically generated new variations, keeping the campaign fresh while competitors recycled the same handful of ads',
       ],
     },
     {
@@ -81,6 +85,8 @@ export const highEndFashionNyc: CaseStudyData = {
         "Advanced schema markup across gift guide pages, seasonal landing pages, and product collections for enhanced search visibility during peak shopping period",
         "Dynamic remarketing campaigns showing specific products viewed with 'still available' and 'selling fast' urgency messaging",
         "Post-holiday strategy: January clearance campaigns for seasonal inventory, spring collection teaser content, and loyalty campaigns for Q4 first-time buyers",
+        'With 100+ creatives in active rotation, the campaign avoided creative fatigue entirely, a common problem for businesses running fewer than 10 ads at a time',
+        'Real-time performance monitoring detected and responded to competitive shifts, seasonal trends, and algorithm changes within hours rather than the typical agency cycle of days or weeks',
       ],
     },
   ],

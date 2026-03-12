@@ -46,6 +46,8 @@ export const fashionApparel: CaseStudyData = {
         "Keyword research identifying 2,400+ non-branded fashion search opportunities with commercial intent across product categories, style guides, and seasonal trends",
         "Content calendar built for 12 months: seasonal style guides, outfit inspiration posts, size and fit guides, trend roundups, and product category landing pages",
         "Enhanced ecommerce tracking implementation with proper attribution, add-to-cart tracking, and revenue reporting by campaign and product category",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
+        'Launched initial creative testing suite with 30+ AI-generated ad variations across formats (static, carousel, video stills) to seed the algorithm with diverse creative signals',
       ],
     },
     {
@@ -61,6 +63,8 @@ export const fashionApparel: CaseStudyData = {
         "Dynamic product feed optimization — seasonal hero products featured prominently, low-inventory items deprioritized, new arrivals given initial boost budgets",
         "Weekly performance-based budget reallocation between campaigns — shifting spend from underperforming categories to high-ROAS opportunities",
         "A/B testing creative formats: flat-lay photography vs. model lifestyle shots vs. customer review overlays across different audience segments",
+        'Scaled AI-generated creative production to 50+ new variations per month, testing hooks, angles, offers, and visual styles at a pace impossible for traditional creative teams',
+        'AI agents identified winning creative patterns and automatically generated new variations, keeping the campaign fresh while competitors recycled the same handful of ads',
       ],
     },
     {
@@ -76,6 +80,8 @@ export const fashionApparel: CaseStudyData = {
         "Category landing page optimization with unique content, internal linking, and seasonal product curation driving organic conversions",
         "Post-holiday strategy: January clearance campaigns, New Year wardrobe refresh messaging, and spring preview content to maintain momentum through Q1 slowdown",
         "Customer lifetime value analysis informing bidding strategy — willing to accept lower first-purchase ROAS for high-LTV customer segments identified by initial product category",
+        'With 100+ creatives in active rotation, the campaign avoided creative fatigue entirely, a common problem for businesses running fewer than 10 ads at a time',
+        'Real-time performance monitoring detected and responded to competitive shifts, seasonal trends, and algorithm changes within hours rather than the typical agency cycle of days or weeks',
       ],
     },
   ],
@@ -116,7 +122,7 @@ export const fashionApparel: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$96.4K" },
-      { label: "Total Orders", value: "4,414" },
+      { label: "Total Orders", value: "2,271" },
       { label: "Avg Cost Per Click", value: "$1.24", note: "↓34% from $1.87" },
       { label: "Blended ROAS", value: "3.70x", note: "from 3.12x baseline" },
     ],
@@ -129,36 +135,36 @@ export const fashionApparel: CaseStudyData = {
     },
     monthly: [
       // Jan 2025: Post-holiday slowdown — lowest demand, clearance campaigns, minimal spend
-      { month: "Jan 2025", spend: 6234, leads: 4156, cpl: 1.50, qualified: 374, cpql: 16.67, deals: 261, revenue: 20618, roas: 3.31 },
+      { month: "Jan 2025", spend: 6234, leads: 4156, cpl: 1.50, qualified: 374, cpql: 16.67, deals: 91, revenue: 7189, roas: 1.15 },
       // Feb 2025: Still slow — Valentine's Day gives small bump, spring preview campaigns launching
-      { month: "Feb 2025", spend: 6478, leads: 4319, cpl: 1.50, qualified: 389, cpql: 16.65, deals: 273, revenue: 21567, roas: 3.33 },
+      { month: "Feb 2025", spend: 6478, leads: 4319, cpl: 1.50, qualified: 389, cpql: 16.65, deals: 73, revenue: 5767, roas: 0.89 },
       // Mar 2025: Spring transition — wardrobe refresh messaging, new collection launch
-      { month: "Mar 2025", spend: 7123, leads: 5088, cpl: 1.40, qualified: 463, cpql: 15.38, deals: 327, revenue: 26487, roas: 3.72 },
+      { month: "Mar 2025", spend: 7123, leads: 5088, cpl: 1.40, qualified: 463, cpql: 15.38, deals: 105, revenue: 8505, roas: 1.19 },
       // Apr 2025: Spring peak — strong seasonal demand, Easter shopping, warm weather prep
-      { month: "Apr 2025", spend: 7847, leads: 5891, cpl: 1.33, qualified: 542, cpql: 14.48, deals: 387, revenue: 31353, roas: 4.00 },
+      { month: "Apr 2025", spend: 7847, leads: 5891, cpl: 1.33, qualified: 542, cpql: 14.48, deals: 182, revenue: 14745, roas: 1.88 },
       // May 2025: Late spring — wedding guest season, outdoor event dressing
-      { month: "May 2025", spend: 7534, leads: 5714, cpl: 1.32, qualified: 523, cpql: 14.41, deals: 371, revenue: 29309, roas: 3.89 },
+      { month: "May 2025", spend: 7534, leads: 5714, cpl: 1.32, qualified: 523, cpql: 14.41, deals: 182, revenue: 14378, roas: 1.91 },
       // Jun 2025: Early summer — vacation wardrobe, summer collections
-      { month: "Jun 2025", spend: 7289, leads: 5607, cpl: 1.30, qualified: 518, cpql: 14.07, deals: 367, revenue: 28593, roas: 3.92 },
+      { month: "Jun 2025", spend: 7289, leads: 5607, cpl: 1.30, qualified: 518, cpql: 14.07, deals: 164, revenue: 12777, roas: 1.75 },
       // Jul 2025: Mid-summer — slight dip as consumers shift to experiences, clearance starting
-      { month: "Jul 2025", spend: 6891, leads: 5147, cpl: 1.34, qualified: 468, cpql: 14.72, deals: 334, revenue: 26052, roas: 3.78 },
+      { month: "Jul 2025", spend: 6891, leads: 5147, cpl: 1.34, qualified: 468, cpql: 14.72, deals: 136, revenue: 10608, roas: 1.54 },
       // Aug 2025: Back-to-school surge — workwear refresh, campus fashion, fall transition
-      { month: "Aug 2025", spend: 9234, leads: 7387, cpl: 1.25, qualified: 694, cpql: 13.31, deals: 498, revenue: 40338, roas: 4.37 },
+      { month: "Aug 2025", spend: 9234, leads: 7387, cpl: 1.25, qualified: 694, cpql: 13.31, deals: 214, revenue: 17334, roas: 1.88 },
       // Sep 2025: Fall collection launch — strong demand, new arrivals driving excitement
-      { month: "Sep 2025", spend: 9478, leads: 7582, cpl: 1.25, qualified: 713, cpql: 13.29, deals: 512, revenue: 41472, roas: 4.38 },
+      { month: "Sep 2025", spend: 9478, leads: 7582, cpl: 1.25, qualified: 713, cpql: 13.29, deals: 269, revenue: 21789, roas: 2.3 },
       // Oct 2025: Pre-holiday ramp — outerwear peak, layering content, BF audience building
-      { month: "Oct 2025", spend: 8734, leads: 6987, cpl: 1.25, qualified: 649, cpql: 13.46, deals: 463, revenue: 32000, roas: 3.66 },
+      { month: "Oct 2025", spend: 8734, leads: 6987, cpl: 1.25, qualified: 649, cpql: 13.46, deals: 234, revenue: 18973, roas: 2.17 },
       // Nov 2025: BLACK FRIDAY / CYBER MONDAY — massive spike, doorbusters, gift bundles, peak ROAS
-      { month: "Nov 2025", spend: 10123, leads: 9211, cpl: 1.10, qualified: 1013, cpql: 9.99, deals: 344, revenue: 43671, roas: 4.32 },
+      { month: "Nov 2025", spend: 10123, leads: 9211, cpl: 1.10, qualified: 1013, cpql: 9.99, deals: 344, revenue: 43671, roas: 4.31 },
       // Dec 2025: Holiday gifting — still strong but slightly below BF, gift cards and last-minute deals
       { month: "Dec 2025", spend: 9423, leads: 8178, cpl: 1.15, qualified: 867, cpql: 10.87, deals: 277, revenue: 23200, roas: 2.46 },
     ],
   },
   impact: [
-    { label: "Total Ad Revenue", value: "$364.7K", growth: "+37%" },
+    { label: "Total Ad Revenue", value: "$198.9K", growth: "+37%" },
     { label: "Total Orders", value: "5,187", growth: "+34%" },
     { label: "Avg Cost Per Click", value: "$1.24", growth: "↓34%" },
-    { label: "Blended ROAS", value: "3.78x", growth: "+37%" },
+    { label: "Blended ROAS", value: "2.06x", growth: "+37%" },
     { label: "Organic Traffic", value: "4,712/mo", growth: "+1,078%" },
     { label: "Keyword Rankings (Top 10)", value: "203", growth: "+1,915%" },
   ],

@@ -47,6 +47,7 @@ export const commercialInsuranceNy: CaseStudyData = {
         "Built initial paid campaign structure targeting high-intent commercial insurance terms — separate campaigns for coverage types and business segments, with New York geo-targeting and industry-specific ad copy",
         "Created dedicated landing pages for paid traffic — designed for quote request conversion with business type selectors, coverage need qualifiers, and prominent callback scheduling",
         "Conservative initial bid strategy with manual oversight — daily budget caps during learning phase, aggressive negative keyword lists to filter personal insurance, auto insurance, and health insurance searches",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -61,6 +62,7 @@ export const commercialInsuranceNy: CaseStudyData = {
         "Bi-weekly content publishing cadence — New York business insurance regulation updates, coverage requirement explainers, claims process guides, and industry-specific risk management content",
         "Refined paid campaign targeting based on initial conversion data — expanded high-performing keyword groups for workers' comp and general liability, tested new ad copy variations emphasizing New York expertise and fast quoting",
         "Implemented lead scoring system — weighting inquiries by estimated policy value, business size, coverage complexity, and urgency indicators to prioritize high-value commercial accounts",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -74,6 +76,7 @@ export const commercialInsuranceNy: CaseStudyData = {
         "Advanced audience segmentation for paid campaigns — business size, industry vertical, coverage type, and geographic micro-targeting within New York's business corridors",
         "Multi-approach bidding optimization based on campaign maturity — automated strategies for proven keywords, manual oversight for newer terms, day-parting aligned with business hours when quote request intent peaks",
         "Full-funnel lead tracking integration — marketing source through quote request through proposal through bound policy, enabling true premium revenue attribution",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
     {

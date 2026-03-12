@@ -46,6 +46,8 @@ export const ecommerceFishing: CaseStudyData = {
         "Dynamic product feed optimization — seasonal hero products, inventory-aware bidding, and fishing-calendar-aligned product descriptions",
         "Negative keyword overhaul — removed DIY repair, used equipment, and bargain/clearance queries eating budget without converting at acceptable margins",
         "Built retargeting audiences segmented by product category viewed, cart abandonment stage, and days since last purchase for repeat buyer campaigns",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
+        'Launched initial creative testing suite with 30+ AI-generated ad variations across formats (static, carousel, video stills) to seed the algorithm with diverse creative signals',
       ],
     },
     {
@@ -61,6 +63,8 @@ export const ecommerceFishing: CaseStudyData = {
         "Performance-based budget reallocation: shifted spend from underperforming generic campaigns to high-ROAS product-specific and audience-specific campaigns weekly",
         "A/B testing seasonal creative: lifestyle photography (anglers on water) vs. product-focused (gear detail shots) vs. UGC-style customer photos",
         "Dynamic weather-responsive campaigns — increased bids during ideal fishing weather windows in top-revenue regions",
+        'Scaled AI-generated creative production to 50+ new variations per month, testing hooks, angles, offers, and visual styles at a pace impossible for traditional creative teams',
+        'AI agents identified winning creative patterns and automatically generated new variations, keeping the campaign fresh while competitors recycled the same handful of ads',
       ],
     },
     {
@@ -76,6 +80,8 @@ export const ecommerceFishing: CaseStudyData = {
         "Inventory-aware campaign management — paused ads for low-stock items, increased bids on overstocked seasonal items, and created clearance campaigns for end-of-season gear",
         "Post-purchase review and UGC campaigns to build social proof heading into the holiday push",
         "Customer lifetime value bidding strategies prioritizing long-term customer acquisition over short-term ROAS during peak season",
+        'With 100+ creatives in active rotation, the campaign avoided creative fatigue entirely, a common problem for businesses running fewer than 10 ads at a time',
+        'Real-time performance monitoring detected and responded to competitive shifts, seasonal trends, and algorithm changes within hours rather than the typical agency cycle of days or weeks',
       ],
     },
   ],

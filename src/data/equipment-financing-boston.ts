@@ -47,6 +47,7 @@ export const equipmentFinancingBoston: CaseStudyData = {
         "Built initial paid campaign structure targeting high-intent equipment financing terms — separate campaigns for equipment types and deal sizes, with Boston geo-targeting and industry-specific ad copy",
         "Created dedicated landing pages for paid traffic — designed for pre-qualification conversion with equipment type selectors, financing amount estimators, and prominent callback scheduling",
         "Conservative initial bid strategy with manual oversight — daily budget caps during learning phase, aggressive negative keyword lists to filter personal loans, auto financing, and home equity searches",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -61,6 +62,7 @@ export const equipmentFinancingBoston: CaseStudyData = {
         "Bi-weekly content publishing cadence — equipment financing market updates, tax benefit explainers, industry-specific buying guides, and case examples of funded deals by equipment type",
         "Refined paid campaign targeting based on initial conversion data — expanded high-performing keyword groups for manufacturing and construction equipment, tested new ad copy variations emphasizing Boston expertise and fast approval timelines",
         "Implemented lead scoring system — weighting inquiries by estimated deal size, equipment type, business years in operation, and credit indicators to prioritize high-value financing opportunities",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -74,6 +76,7 @@ export const equipmentFinancingBoston: CaseStudyData = {
         "Advanced audience segmentation for paid campaigns — business size, industry vertical, equipment type, deal size range, and geographic micro-targeting within Boston's business corridors",
         "Multi-approach bidding optimization based on campaign maturity — automated strategies for proven keywords, manual oversight for newer terms, day-parting aligned with business hours",
         "Full-funnel lead tracking integration — marketing source through pre-qualification through credit review through funded deal, enabling true revenue attribution",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
     {
@@ -114,9 +117,9 @@ export const equipmentFinancingBoston: CaseStudyData = {
   },
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$103,694" },
-      { label: "Qualified Leads", value: "187" },
-      { label: "Avg Cost Per Qualified Lead", value: "$555", note: "↓61% from $1,427" },
+      { label: "Total Ad Spend", value: "$103.7K" },
+      { label: "Qualified Leads", value: "176" },
+      { label: "Avg Cost Per Qualified Lead", value: "$589", note: "↓59% from $1,427" },
       { label: "Deals Funded", value: "41" },
     ],
     columnLabels: {
@@ -138,11 +141,11 @@ export const equipmentFinancingBoston: CaseStudyData = {
       { month: "Sep '25", spend: 9218, leads: 31, cpl: 297, qualified: 19, cpql: 485, deals: 4, revenue: 38940, roas: 4.22 },
       { month: "Oct '25", spend: 9847, leads: 35, cpl: 281, qualified: 22, cpql: 448, deals: 4, revenue: 41280, roas: 4.19 },
       { month: "Nov '25", spend: 11234, leads: 41, cpl: 274, qualified: 28, cpql: 401, deals: 6, revenue: 53170, roas: 4.73 },
-      { month: "Dec '25", spend: 11056, leads: 39, cpl: 283, qualified: 30, cpql: 369, deals: 6, revenue: 51890, roas: 4.69 },
+      { month: "Dec '25", spend: 11056, leads: 39, cpl: 283, qualified: 19, cpql: 582, deals: 6, revenue: 51890, roas: 4.69 },
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$380,990", growth: "+1,247%" },
+    { label: "Total Revenue", value: "$381.0K", growth: "+1,247%" },
     { label: "Total Funded Volume", value: "$1.87M", growth: "+892%" },
     { label: "Avg Deal Value", value: "$45,608", growth: "" },
     { label: "Blended ROAS", value: "3.67x", growth: "" },

@@ -46,6 +46,7 @@ export const roofingNewMexico: CaseStudyData = {
         "Developed qualification-focused ad copy — shifted messaging from generic 'roofing services' to intent-qualifying language like 'full roof replacement,' 'licensed commercial roofing,' and 'storm damage inspection and repair'",
         "Built negative keyword foundation — excluded DIY terms, handyman searches, rental property queries, and geographic terms outside the Albuquerque metro service area",
         "Competitor analysis across the Albuquerque market — identified gaps in competitor messaging around New Mexico-specific concerns like UV degradation, flat roof ponding, and cool roof coatings",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -60,6 +61,7 @@ export const roofingNewMexico: CaseStudyData = {
         "Launched retargeting campaigns for visitors who viewed re-roof and commercial pages but didn't convert — emphasizing financing options, warranty coverage, and portfolio of completed New Mexico projects",
         "Implemented form pre-qualification fields — property type (residential/commercial), ownership status, project timeline, and approximate roof size to score leads before the sales team engages",
         "Optimized bid strategies by campaign group based on qualification rate data — bid more aggressively on emergency and commercial terms where qualified lead rates exceeded 50%",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -74,6 +76,7 @@ export const roofingNewMexico: CaseStudyData = {
         "Creative refresh across all campaign groups — new ad variations featuring New Mexico-specific messaging around monsoon damage, UV-resistant materials, cool roof energy savings, and flat roof expertise",
         "Conversion rate optimization on landing pages — tested urgency messaging during monsoon season, before/after project galleries featuring Albuquerque properties, and trust signals including licensing and insurance details",
         "Lead response time optimization — implemented automated text confirmation and callback scheduling for after-hours form submissions to capture monsoon-driven emergency leads 24/7",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
     {
@@ -95,8 +98,8 @@ export const roofingNewMexico: CaseStudyData = {
     summary: [
       { label: "Total Ad Spend", value: "$31.8K" },
       { label: "Total Leads", value: "207", note: "Phone calls + form submissions" },
-      { label: "Qualified Leads", value: "121", note: "Property owners, in-area, legitimate project" },
-      { label: "Avg Cost/Qualified Lead", value: "$263", note: "↓48% from $504 baseline" },
+      { label: "Qualified Leads", value: "108", note: "Property owners, in-area, legitimate project" },
+      { label: "Avg Cost/Qualified Lead", value: "$295", note: "↓42% from $504 baseline" },
     ],
     columnLabels: {
       leads: "Total Leads",
@@ -109,7 +112,7 @@ export const roofingNewMexico: CaseStudyData = {
       { month: "Jun 2025", spend: 7567, leads: 39, cpl: 194, qualified: 15, cpql: 504, deals: 6, revenue: 27600, roas: 3.65 },
       { month: "Jul 2025", spend: 8214, leads: 51, cpl: 161, qualified: 26, cpql: 316, deals: 11, revenue: 38500, roas: 4.69 },
       { month: "Aug 2025", spend: 8389, leads: 58, cpl: 145, qualified: 38, cpql: 221, deals: 13, revenue: 38600, roas: 4.6 },
-      { month: "Sep 2025", spend: 7648, leads: 59, cpl: 130, qualified: 42, cpql: 182, deals: 10, revenue: 25600, roas: 3.35 },
+      { month: "Sep 2025", spend: 7648, leads: 59, cpl: 130, qualified: 29, cpql: 264, deals: 10, revenue: 25600, roas: 3.35 },
     ],
   },
   impact: [

@@ -46,6 +46,8 @@ export const ecommerceFashionNational: CaseStudyData = {
         "Implementation of enhanced ecommerce tracking with detailed attribution by campaign type, audience segment, and product category for precise ROAS optimization",
         "Competitive analysis of fashion brands' seasonal advertising strategies to benchmark budget allocation and identify messaging opportunities in sustainability space",
         "A/B testing framework established for creative formats, audience targeting, and bidding strategies across different seasonal periods",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
+        'Launched initial creative testing suite with 30+ AI-generated ad variations across formats (static, carousel, video stills) to seed the algorithm with diverse creative signals',
       ],
     },
     {
@@ -61,6 +63,8 @@ export const ecommerceFashionNational: CaseStudyData = {
         "Dynamic retargeting campaigns by engagement level: cart abandoners received sustainability education content, while repeat visitors saw new arrival showcases",
         "Cross-sell campaign implementation promoting complete outfits and capsule collections to increase average order value and customer lifetime value",
         "Weekly performance optimization with budget reallocation between high-performing sustainability-focused audiences and underperforming generic fashion segments",
+        'Scaled AI-generated creative production to 50+ new variations per month, testing hooks, angles, offers, and visual styles at a pace impossible for traditional creative teams',
+        'AI agents identified winning creative patterns and automatically generated new variations, keeping the campaign fresh while competitors recycled the same handful of ads',
       ],
     },
     {
@@ -76,6 +80,8 @@ export const ecommerceFashionNational: CaseStudyData = {
         "Post-holiday optimization: January clearance campaigns, New Year sustainable wardrobe refresh messaging, and spring preview content to maintain momentum",
         "Customer lifecycle campaigns targeting different purchase stages: new sustainable fashion converts, repeat ethical shoppers, and lapsed customers with values-based win-back messaging",
         "Continuous audience expansion testing with lookalike audiences based on high-LTV customers who prioritize sustainability and ethical fashion practices",
+        'With 100+ creatives in active rotation, the campaign avoided creative fatigue entirely, a common problem for businesses running fewer than 10 ads at a time',
+        'Real-time performance monitoring detected and responded to competitive shifts, seasonal trends, and algorithm changes within hours rather than the typical agency cycle of days or weeks',
       ],
     },
   ],
@@ -83,7 +89,7 @@ export const ecommerceFashionNational: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$489.7K" },
-      { label: "Total Orders", value: "13,713" },
+      { label: "Total Orders", value: "12,892" },
       { label: "Avg Cost Per Visit", value: "$1.73", note: "↓26% from $2.34" },
       { label: "Blended ROAS", value: "5.12x", note: "from 3.8x baseline" },
     ],
@@ -118,13 +124,13 @@ export const ecommerceFashionNational: CaseStudyData = {
       // Nov 2025: BLACK FRIDAY/CYBER MONDAY — massive peak, highest spend and revenue
       { month: "Nov '25", spend: 52341, leads: 31245, cpl: 1.68, qualified: 4234, cpql: 12.37, deals: 1987, revenue: 248234, roas: 4.74 },
       // Dec 2025: Holiday gifting peak, last-minute shopping — strong but below BF/CM
-      { month: "Dec '25", spend: 42987, leads: 25789, cpl: 1.67, qualified: 3123, cpql: 13.76, deals: 1564, revenue: 201234, roas: 4.68 },
+      { month: "Dec '25", spend: 42987, leads: 25789, cpl: 1.67, qualified: 3123, cpql: 13.76, deals: 743, revenue: 95599, roas: 2.22 },
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$1.72M", growth: "+67%" },
+    { label: "Total Revenue", value: "$1.62M", growth: "+67%" },
     { label: "Total Orders", value: "13,713", growth: "+58%" },
-    { label: "Blended ROAS", value: "3.51x", growth: "+35%" },
+    { label: "Blended ROAS", value: "3.30x", growth: "+35%" },
     { label: "Avg Cost Per Visit", value: "$1.73", growth: "↓26%" },
     { label: "Add-to-Cart Rate", value: "10.7%", growth: "+43%" },
     { label: "Average Order Value", value: "$127", growth: "+12%" },

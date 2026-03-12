@@ -48,6 +48,7 @@ export const legalServicesSeo: CaseStudyData = {
         "Deployed call tracking with source attribution and language preference routing, rebuilt intake forms with practice-area and language selection, set up conversion tracking",
         "Local citation audit and cleanup — corrected NAP data across 39 directories, removed 14 duplicate listings, added immigration-specific directory listings",
         "Initial backlink outreach to Philadelphia legal directories, immigration advocacy organizations, and community resource hubs",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -63,6 +64,7 @@ export const legalServicesSeo: CaseStudyData = {
         "Internal linking optimization — built topical authority clusters connecting visa type pages, country-specific guides, blog posts, and neighborhood service pages",
         "Conversion rate optimization — A/B tested CTAs in English and Spanish, simplified intake process, added click-to-call with language routing, implemented multilingual chat widget",
         "Monthly content refresh on highest-potential pages based on search impression data and ranking trajectory analysis",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -77,6 +79,7 @@ export const legalServicesSeo: CaseStudyData = {
         "Advanced schema implementation — FAQ schema on all guide pages, breadcrumb markup, how-to schema for immigration process guides, multilingual alternate tags",
         "Attorney profile optimization — individual pages with schema, case success statistics, language capabilities, and practice area specializations",
         "Conversion funnel refinement based on 6 months of lead data — identified that asylum and family petition content generated highest conversion rates",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
     {

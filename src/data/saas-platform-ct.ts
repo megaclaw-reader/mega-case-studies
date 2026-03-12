@@ -44,6 +44,7 @@ export const saasPlatformCt: CaseStudyData = {
         "Competitor analysis across 7 SaaS companies advertising in the workflow automation space — identified gaps in messaging, underserved audience segments, and cost benchmarks for the category",
         "Launched initial campaigns with broad professional targeting to establish baseline metrics — deliberately casting a wider net to generate data on which audience segments, creative angles, and landing pages produced the highest engagement signals",
         "Set up weekly pipeline review cadence with the sales team to track lead-to-demo-to-close progression and feed qualification data back into campaign optimization",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -57,6 +58,7 @@ export const saasPlatformCt: CaseStudyData = {
         "Landing page optimization — A/B tested social proof variations (customer logos vs. ROI statistics vs. analyst quotes) and found that specific time-saved metrics drove 34% higher demo request rates than generic testimonials",
         "Built custom audience segments from CRM data — uploaded closed-won customer profiles to create lookalike targeting models weighted toward the highest-LTV accounts",
         "Established lead scoring framework with sales team — MQL criteria based on title + company size + engagement, SQL criteria based on demo attendance + budget confirmation + timeline",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -69,6 +71,7 @@ export const saasPlatformCt: CaseStudyData = {
         "Expanded keyword and interest targeting into adjacent operations pain points — project management bottlenecks, vendor management inefficiencies, and regulatory compliance workflows — that mapped to the platform's secondary use cases",
         "Began testing higher-intent campaign structures — demo-first vs. free-trial-first funnels — and found that gated product walkthroughs produced leads with 41% shorter sales cycles than ungated content offers",
         "Sales team reported marked improvement in lead quality — demo no-show rate dropped from 38% to 19%, and average deal size increased 12% as campaigns attracted buyers with larger team deployments",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
     {

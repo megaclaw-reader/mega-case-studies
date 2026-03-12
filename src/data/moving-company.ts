@@ -48,6 +48,7 @@ export const movingCompany: CaseStudyData = {
         "Technical SEO fixes — local business schema markup, NAP consistency audit across 53 directories, image optimization and alt text for fleet/service photos",
         "Local citation building across 48 directories including major platforms, Atlanta Chamber of Commerce, and neighborhood business associations",
         "Launched paid campaigns at $19,200/month with intentionally broad targeting to establish baseline lead quality data — gathering phone call and form submission patterns for refinement",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -65,6 +66,7 @@ export const movingCompany: CaseStudyData = {
         "Restructured paid campaigns to weight budget toward zip codes producing highest qualified lead rates — Buckhead, Sandy Springs, Alpharetta, and Roswell indexed 2.7x above average",
         "Adjusted bid strategy to prioritize searches indicating larger moves — 'moving company for house', 'full service movers', 'packing and moving service'",
         "Increased spend to $21,400 as initial quality refinements showed measurable improvement in qualified lead rate",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -82,6 +84,7 @@ export const movingCompany: CaseStudyData = {
         "CRO improvements — added instant callback request with 15-minute response guarantee for qualified leads, added video testimonials from recent moves",
         "Review generation campaign launched — 47 new reviews added over the following 3 months targeting specific service categories",
         "Expanded neighborhood pages into Kennesaw, Smyrna, Johns Creek, Dunwoody, and Peachtree City based on emerging demand signals",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
     {

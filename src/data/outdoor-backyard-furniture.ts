@@ -46,6 +46,8 @@ export const outdoorBackyardFurniture: CaseStudyData = {
         "Full audit of past paid campaign performance and implemented proper conversion tracking for consultation requests, phone calls, and showroom visit bookings",
         "CRM integration for closed-loop lead-to-sale attribution tracking across the typical 2–4 week outdoor furniture sales cycle",
         "Paused low-intent keywords, restructured campaigns by product category and buyer intent tier, launched initial landing page and creative A/B tests",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
+        'Launched initial creative testing suite with 30+ AI-generated ad variations across formats (static, carousel, video stills) to seed the algorithm with diverse creative signals',
       ],
     },
     {
@@ -61,6 +63,8 @@ export const outdoorBackyardFurniture: CaseStudyData = {
         "Rapid creative testing iterations — messaging pivots around outdoor living transformation, seasonal urgency, and free design consultation offers",
         "Retargeting layer for product page visitors, collection browsers, and consultation page abandoners",
         "Keyword and negative keyword refinement based on CRM qualification data — filtering out DIY searchers, cushion-only shoppers, and wholesale inquiries",
+        'Scaled AI-generated creative production to 50+ new variations per month, testing hooks, angles, offers, and visual styles at a pace impossible for traditional creative teams',
+        'AI agents identified winning creative patterns and automatically generated new variations, keeping the campaign fresh while competitors recycled the same handful of ads',
       ],
     },
     {
@@ -76,6 +80,8 @@ export const outdoorBackyardFurniture: CaseStudyData = {
         "AI search optimization for LLM placement in outdoor furniture recommendation and patio design planning queries",
         "Audience segmentation by product interest (dining, lounge, fire features, outdoor kitchen), price tier, and purchase intent signals",
         "Lead scoring model integrating ad engagement signals with CRM consultation stage progression and estimated order value",
+        'With 100+ creatives in active rotation, the campaign avoided creative fatigue entirely, a common problem for businesses running fewer than 10 ads at a time',
+        'Real-time performance monitoring detected and responded to competitive shifts, seasonal trends, and algorithm changes within hours rather than the typical agency cycle of days or weeks',
       ],
     },
     {
@@ -136,7 +142,7 @@ export const outdoorBackyardFurniture: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$203.0K", growth: "+217%" },
+    { label: "Total Revenue", value: "$203K", growth: "+217%" },
     { label: "Total Orders", value: "1,015", growth: "ecommerce growth" },
     { label: "Average Order Value", value: "$200", growth: "" },
     { label: "Blended ROAS", value: "2.40x", growth: "" },

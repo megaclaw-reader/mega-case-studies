@@ -48,6 +48,7 @@ export const interiorDesign: CaseStudyData = {
         "Paid campaign restructuring — separate campaigns for residential design, commercial projects, and home staging services",
         "Landing page development for high-value service lines with consultation booking integration",
         "Retargeting setup for portfolio viewers and design guide downloaders",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -65,6 +66,7 @@ export const interiorDesign: CaseStudyData = {
         "Negative keyword expansion to filter out DIY-focused and ultra-low-budget queries",
         "Consultation qualification funnel — pre-consultation questionnaire to screen for project scope and budget alignment",
         "Email nurture sequences for consultation leads not ready to move forward immediately",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -81,6 +83,7 @@ export const interiorDesign: CaseStudyData = {
         "Lookalike audience development based on high-value past clients for more precise targeting",
         "Landing page variations for different project types — kitchen design, master suite renovation, commercial space planning",
         "Review generation strategy tied to project completion milestones and client satisfaction touchpoints",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
     {

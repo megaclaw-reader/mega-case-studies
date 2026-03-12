@@ -48,6 +48,7 @@ export const hvacKitchenBathAz: CaseStudyData = {
         "Merged two Google Ads accounts into unified structure — installed call tracking with service-line routing, implemented conversion tracking across phone calls, form submissions, and online estimate requests",
         "CRM integration for closed-loop lead-to-contract attribution with separate pipelines for HVAC jobs and renovation projects",
         "Rebuilt ad strategy around cost per qualified lead segmented by service type — separated emergency AC repair, HVAC installation, kitchen remodel, and bathroom renovation campaigns with distinct landing pages",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -65,6 +66,7 @@ export const hvacKitchenBathAz: CaseStudyData = {
         "Rapid ad creative testing — seasonal messaging for AC urgency vs. renovation project inspiration vs. bundled home improvement financing",
         "Launched retargeting campaigns targeting HVAC estimate visitors with renovation offers and renovation browsers with HVAC maintenance packages",
         "Negative keyword refinement using call recording data — filtering commercial HVAC, DIY renovation, out-of-area clicks, and wholesale supplier searches",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -82,6 +84,7 @@ export const hvacKitchenBathAz: CaseStudyData = {
         "Multi-approach bidding strategies optimized for Arizona's extreme summer HVAC demand and cooler-month renovation peaks",
         "Fully robust lead scoring integrating call duration, service type identification, estimated project value, and CRM pipeline stage progression",
         "Cross-sell automation — HVAC customers receiving renovation nurture sequences and renovation clients offered preventive HVAC maintenance packages",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
   ],
@@ -108,8 +111,8 @@ export const hvacKitchenBathAz: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$64.3K" },
-      { label: "Qualified Leads", value: "487" },
-      { label: "Avg Cost Per Qualified Lead", value: "$132", note: "↓32% from $194" },
+      { label: "Qualified Leads", value: "335" },
+      { label: "Avg Cost Per Qualified Lead", value: "$192", note: "↓1% from $194" },
       { label: "Closed Deals", value: "91" },
     ],
     columnLabels: {
@@ -121,15 +124,15 @@ export const hvacKitchenBathAz: CaseStudyData = {
     },
     monthly: [
       { month: "Feb 2025", spend: 5100, leads: 38, cpl: 134, qualified: 26, cpql: 196, deals: 9, revenue: 22100, roas: 4.33 },
-      { month: "Mar 2025", spend: 5400, leads: 44, cpl: 123, qualified: 31, cpql: 174, deals: 6, revenue: 15200, roas: 2.81 },
-      { month: "Apr 2025", spend: 5800, leads: 52, cpl: 112, qualified: 38, cpql: 153, deals: 6, revenue: 14300, roas: 2.47 },
-      { month: "May 2025", spend: 7200, leads: 71, cpl: 101, qualified: 54, cpql: 133, deals: 9, revenue: 22700, roas: 3.15 },
-      { month: "Jun 2025", spend: 8400, leads: 89, cpl: 94, qualified: 68, cpql: 124, deals: 14, revenue: 33600, roas: 4.0 },
-      { month: "Jul 2025", spend: 8900, leads: 97, cpl: 92, qualified: 74, cpql: 120, deals: 13, revenue: 30500, roas: 3.43 },
-      { month: "Aug 2025", spend: 7400, leads: 78, cpl: 95, qualified: 58, cpql: 128, deals: 10, revenue: 24100, roas: 3.26 },
-      { month: "Sep 2025", spend: 5700, leads: 56, cpl: 102, qualified: 42, cpql: 136, deals: 7, revenue: 15700, roas: 2.75 },
-      { month: "Oct 2025", spend: 5200, leads: 61, cpl: 85, qualified: 51, cpql: 102, deals: 7, revenue: 18800, roas: 3.62 },
-      { month: "Nov 2025", spend: 5205, leads: 54, cpl: 96, qualified: 45, cpql: 116, deals: 10, revenue: 24300, roas: 4.67 },
+      { month: "Mar 2025", spend: 5400, leads: 44, cpl: 123, qualified: 23, cpql: 235, deals: 6, revenue: 15200, roas: 2.81 },
+      { month: "Apr 2025", spend: 5800, leads: 52, cpl: 112, qualified: 30, cpql: 193, deals: 6, revenue: 14300, roas: 2.47 },
+      { month: "May 2025", spend: 7200, leads: 71, cpl: 101, qualified: 40, cpql: 180, deals: 9, revenue: 22700, roas: 3.15 },
+      { month: "Jun 2025", spend: 8400, leads: 89, cpl: 94, qualified: 42, cpql: 200, deals: 14, revenue: 33600, roas: 4.0 },
+      { month: "Jul 2025", spend: 8900, leads: 97, cpl: 92, qualified: 44, cpql: 202, deals: 13, revenue: 30500, roas: 3.43 },
+      { month: "Aug 2025", spend: 7400, leads: 78, cpl: 95, qualified: 36, cpql: 206, deals: 10, revenue: 24100, roas: 3.26 },
+      { month: "Sep 2025", spend: 5700, leads: 56, cpl: 102, qualified: 30, cpql: 190, deals: 7, revenue: 15700, roas: 2.75 },
+      { month: "Oct 2025", spend: 5200, leads: 61, cpl: 85, qualified: 38, cpql: 137, deals: 7, revenue: 18800, roas: 3.62 },
+      { month: "Nov 2025", spend: 5205, leads: 54, cpl: 96, qualified: 26, cpql: 200, deals: 10, revenue: 24300, roas: 4.67 },
     ],
   },
   organicConversions: {

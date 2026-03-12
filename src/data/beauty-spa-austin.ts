@@ -46,6 +46,7 @@ export const beautySpaAustin: CaseStudyData = {
         "Published 14 initial content pieces — facial treatment guides, lash extension care tips, seasonal skincare for Austin climate, body treatment benefits for active lifestyles",
         "Technical SEO fixes — local business schema, NAP consistency across 38 directories, image compression and alt-tag optimization",
         "Launched initial paid campaigns at $6,745/month with broad Austin metro targeting — intentionally wide to gather lead quality data before narrowing",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -61,6 +62,7 @@ export const beautySpaAustin: CaseStudyData = {
         "Launched programmatic location pages for 18 Austin neighborhoods and suburbs",
         "Added negative targeting to exclude deal-related searches (coupon, Groupon, cheap, discount, deal) from premium service campaigns",
         "Implemented retargeting segmented by service category page views — facial visitors saw facial-specific follow-up, lash visitors saw lash content",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -75,6 +77,7 @@ export const beautySpaAustin: CaseStudyData = {
         "Published 8 additional service pages — dermaplaning, LED light therapy, prenatal massage modifications, seasonal peel protocols for Austin summers",
         "Backlink campaigns — Austin lifestyle publications, local wellness directories, beauty blogger roundups, and Austin Chamber of Commerce",
         "CRO optimization — added virtual consultation booking option, treatment quiz recommender, and before/after gallery with client consent",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
     {

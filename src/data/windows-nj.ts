@@ -48,6 +48,7 @@ export const windowsNj: CaseStudyData = {
         "CRM integration for closed-loop lead-to-estimate attribution tracking across the typical 2–4 week window sales cycle",
         "Built paid strategy around cost per qualified lead and average project value, segmented by window type and project scope",
         "Paused broad match waste, restructured campaigns by service line, launched initial landing pages for key NJ markets",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -64,6 +65,7 @@ export const windowsNj: CaseStudyData = {
         "Creative testing iterations — messaging focused on energy savings, winter preparation, and financing options",
         "Retargeting layer for estimate request page visitors and product comparison browsers who didn't convert",
         "Keyword and negative keyword refinement based on CRM data — filtering out DIY searchers, commercial inquiries, and out-of-area clicks",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -80,6 +82,7 @@ export const windowsNj: CaseStudyData = {
         "Audience segmentation by project type (full house, single room, doors), location, and intent signals",
         "Multi-approach bidding strategies calibrated to campaign maturity and project pipeline data",
         "Lead scoring model integrating ad engagement signals with CRM estimate stage progression and job value",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
     {

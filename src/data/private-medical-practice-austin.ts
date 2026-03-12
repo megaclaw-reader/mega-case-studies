@@ -46,6 +46,7 @@ export const privateMedicalPracticeAustin: CaseStudyData = {
         "Published 18 initial content pieces — preventive health guides for Austin professionals, chronic care management resources, new-to-Austin patient guides, seasonal health tips for Central Texas climate",
         "Technical SEO overhaul — medical practice schema markup, NAP consistency across 47 healthcare directories, HIPAA-compliant review management system, image optimization",
         "Launched initial paid campaigns at $10,324/month with broad Austin metro targeting — intentionally wide to gather patient quality data across demographics and geographies before refining",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -61,6 +62,7 @@ export const privateMedicalPracticeAustin: CaseStudyData = {
         "Launched programmatic location pages for 22 Austin neighborhoods and surrounding communities",
         "Added negative targeting to exclude searches for specialists, free clinics, emergency rooms, dental, vision, and mental health — focusing budget purely on primary care and preventive medicine intent",
         "Implemented retargeting segmented by service page visits — wellness exam page visitors received preventive care messaging, chronic care visitors saw ongoing management content",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -75,6 +77,7 @@ export const privateMedicalPracticeAustin: CaseStudyData = {
         "Published 12 additional service and condition pages — diabetes management, hypertension monitoring, thyroid care, weight management programs, pre-employment physicals, travel medicine consultations",
         "Backlink campaigns — Austin health publications, Texas Medical Association features, local wellness directories, Austin Chamber of Commerce health resources, and physician Q&A contributions to Austin American-Statesman",
         "CRO optimization — added online appointment scheduling with real-time availability, virtual pre-visit intake forms, insurance verification tool, and physician bio comparison feature",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
     {

@@ -47,6 +47,7 @@ export const realEstateSeoNational: CaseStudyData = {
         "Created foundational content calendar — mapped 12-month editorial strategy covering market reports, seasonal trends, buyer/seller education, and local community insights",
         "Published 47 market-specific pillar pages: comprehensive buyer guides and seller guides customized for local market conditions, regulations, and price ranges in each metro",
         "Built automated home valuation tool pages optimized for '[city] home value estimator' and '[neighborhood] property values' searches with local market data integration",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -62,6 +63,7 @@ export const realEstateSeoNational: CaseStudyData = {
         "Internal linking strategy implementation — connected market pages → neighborhood guides → agent profiles → home valuation tools with location-specific anchor text",
         "Local backlink acquisition campaign — partnerships with local chamber of commerce sites, community organizations, and local news publications for market report features",
         "Home valuation tool optimization — enhanced functionality with neighborhood-specific data, comparable sales, and local market trends to capture 'what's my home worth' searches",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -76,6 +78,7 @@ export const realEstateSeoNational: CaseStudyData = {
         "Competitive content gap analysis — identified 290 keyword opportunities where competitors ranked but the platform didn't, prioritized based on search volume and commercial intent",
         "Expanded home search functionality content — detailed search pages for property types ('condos in [city],' 'luxury homes [area]') and price ranges optimized for long-tail searches",
         "Local market forecasting content — annual and quarterly market predictions for each metro area with supporting data, charts, and expert analysis to capture research-phase traffic",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
     {

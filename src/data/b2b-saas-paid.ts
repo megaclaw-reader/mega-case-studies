@@ -46,6 +46,7 @@ export const b2bSaasPaid: CaseStudyData = {
         "Set up lead routing automation — new MQLs assigned and notified within 15 minutes of form submission",
         "Created exclusion audiences for existing customers, competitors, and job seekers",
         "Installed proper event tracking for demo requests, pricing page engagement, and content downloads",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -61,6 +62,7 @@ export const b2bSaasPaid: CaseStudyData = {
         "Audience segmentation by company size (200-500, 500-1500, 1500-3000 employees) and industry vertical",
         "Implemented dayparting strategy based on demo booking patterns — concentrated spend during business hours",
         "Launched competitor displacement campaigns targeting prospects actively evaluating alternatives",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -74,6 +76,7 @@ export const b2bSaasPaid: CaseStudyData = {
         "Bid strategy refinement based on deal velocity and contract value by segment — shifted budget to highest ACV audiences",
         "CRO improvements across demo booking flow — reduced form fields from 9 to 5, added calendar scheduling inline",
         "Expanded into new verticals: healthcare procurement, manufacturing supply chain, financial services vendor management",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
     {

@@ -48,6 +48,7 @@ export const mortgageRealEstateColumbus: CaseStudyData = {
         "Local citation cleanup — corrected NAP inconsistencies across 34 directories, claimed unclaimed profiles, standardized business descriptions",
         "Created 8 foundational content pages — loan type pages for Conventional, FHA, VA, and Jumbo products, plus 4 Columbus neighborhood guides (Short North, Dublin, Westerville, New Albany)",
         "Implemented schema markup — mortgage lender schema, local business markup, FAQ schema, and breadcrumb navigation across all pages",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -65,6 +66,7 @@ export const mortgageRealEstateColumbus: CaseStudyData = {
         "Internal linking optimization connecting loan type pages, neighborhood pages, and blog content into tight topical clusters",
         "Negative keyword refinement based on search term reports — excluded commercial, land, and out-of-state queries that were consuming budget",
         "Began monthly 'Columbus Housing Market Update' content series to build topical authority and capture recurring search interest",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -82,6 +84,7 @@ export const mortgageRealEstateColumbus: CaseStudyData = {
         "Ad spend allocation refined — shifted budget toward highest-performing campaigns with proven qualification rates above 40%",
         "Advanced audience segmentation — built custom audiences from qualified lead profiles, tested expansion into similar demographic and geographic segments",
         "Video content strategy — loan officer Q&A sessions about Columbus market conditions, transcribed into blog posts for dual-format reach",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
     {

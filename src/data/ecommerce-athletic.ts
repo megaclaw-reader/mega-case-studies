@@ -46,6 +46,8 @@ export const ecommerceAthletic: CaseStudyData = {
         "Competitive audit of 14 DTC athletic brands in the $60-$150 AOV range to identify positioning gaps and underserved audience segments",
         "Landing page buildout: created gender-specific collection pages with social proof, size guides, and urgency elements optimized for paid traffic conversion",
         "Set ROAS floor targets by campaign type: 3.0x for prospecting, 5.0x for retargeting, 2.0x for brand awareness with lifetime value justification",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
+        'Launched initial creative testing suite with 30+ AI-generated ad variations across formats (static, carousel, video stills) to seed the algorithm with diverse creative signals',
       ],
     },
     {
@@ -61,6 +63,8 @@ export const ecommerceAthletic: CaseStudyData = {
         "Geographic bid optimization: increased spend in college towns and metro areas with high gym membership density during back-to-school windows",
         "Cross-sell campaign layers: legging buyers targeted with matching sports bras, shorts buyers with compression tops, outerwear browsers with cold-weather accessory bundles",
         "A/B tested pricing presentation: 'free shipping over $75' vs. '15% off first order' vs. 'bundle and save' — bundle messaging won by 23% on conversion rate",
+        'Scaled AI-generated creative production to 50+ new variations per month, testing hooks, angles, offers, and visual styles at a pace impossible for traditional creative teams',
+        'AI agents identified winning creative patterns and automatically generated new variations, keeping the campaign fresh while competitors recycled the same handful of ads',
       ],
     },
     {
@@ -76,6 +80,8 @@ export const ecommerceAthletic: CaseStudyData = {
         "Creative testing at scale during high-traffic periods: ran 34 unique ad variations across gender, product, and funnel stage combinations",
         "End-of-season clearance campaigns for transitional inventory — summer styles at deep discounts to clear stock and fund spring buying",
         "End-of-campaign performance analysis and audience asset documentation for continued scaling beyond the engagement",
+        'With 100+ creatives in active rotation, the campaign avoided creative fatigue entirely, a common problem for businesses running fewer than 10 ads at a time',
+        'Real-time performance monitoring detected and responded to competitive shifts, seasonal trends, and algorithm changes within hours rather than the typical agency cycle of days or weeks',
       ],
     },
   ],

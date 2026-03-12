@@ -94,41 +94,33 @@ export const selfImprovementSubscriptionNA: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$156.3K" },
-      { label: "App Sessions", value: "52,460" },
-      { label: "Trial Subscriptions", value: "6,923" },
-      { label: "Paid Subscriptions", value: "1,518" },
+      { label: "Landing Page Submissions", value: "4,287" },
+      { label: "Trial Signups", value: "1,518" },
+      { label: "Paid Conversions", value: "333" },
     ],
-    columnLabels: {
-      leads: "Sessions",
-      cpl: "Cost/Session",
-      qualified: "Trials",
-      cpql: "CPA (Trial)",
-      deals: "Paid Subs",
-    },
-    hiddenColumns: ["cpl"],
     monthly: [
-      // Month 1 (June 2025): Baseline performance, fragmented approach, CPA starts at $25.00
-      { month: "Jun 2025", spend: 17656, sessions: 5372, leads: 1107, cpl: 15.95, qualified: 706, cpql: 25.00, deals: 155, revenue: 64576, roas: 3.66 },
-      // Month 2 (July 2025): Unified platform implemented, initial optimizations, CPA $24.36
-      { month: "Jul 2025", spend: 18234, sessions: 5709, leads: 1142, cpl: 15.97, qualified: 748, cpql: 24.36, deals: 164, revenue: 68234, roas: 3.74 },
-      // Month 3 (August 2025): Creative testing framework live, audience optimization, CPA $23.72
-      { month: "Aug 2025", spend: 18947, sessions: 6123, leads: 1185, cpl: 15.99, qualified: 799, cpql: 23.72, deals: 175, revenue: 72947, roas: 3.85 },
-      // Month 4 (September 2025): AI-driven optimization kicking in, back-to-school seasonal uptick, CPA $23.08
-      { month: "Sep 2025", spend: 19382, sessions: 6391, leads: 1213, cpl: 15.98, qualified: 840, cpql: 23.08, deals: 184, revenue: 78382, roas: 4.04 },
-      // Month 5 (October 2025): Advanced personalization, seasonal wellness content, CPA $22.44
-      { month: "Oct 2025", spend: 19756, sessions: 6731, leads: 1236, cpl: 15.98, qualified: 880, cpql: 22.44, deals: 193, revenue: 82756, roas: 4.19 },
-      // Month 6 (November 2025): Holiday stress reduction campaigns, peak performance, CPA $21.80
-      { month: "Nov 2025", spend: 20194, sessions: 7089, leads: 1262, cpl: 16.00, qualified: 926, cpql: 21.80, deals: 203, revenue: 87194, roas: 4.32 },
-      // Month 7 (December 2025): Holiday season, year-end wellness goals, CPA $21.16
-      { month: "Dec 2025", spend: 20847, sessions: 7417, leads: 1303, cpl: 16.00, qualified: 985, cpql: 21.16, deals: 216, revenue: 92847, roas: 4.45 },
-      // Month 8 (January 2026): New Year resolution surge, optimal performance, CPA $20.50 (18% reduction)
-      { month: "Jan 2026", spend: 21293, sessions: 7628, leads: 1331, cpl: 16.00, qualified: 1039, cpql: 20.50, deals: 228, revenue: 98293, roas: 4.62 },
+      // Month 1 (June 2025): Baseline performance, fragmented approach, 30% trial conversion rate
+      { month: "Jun 2025", spend: 17656, leads: 556, cpl: 31.76, qualified: 167, cpql: 105.72, deals: 37, revenue: 12984, roas: 0.74 },
+      // Month 2 (July 2025): Unified platform implemented, initial optimizations, 32% trial conversion
+      { month: "Jul 2025", spend: 18234, leads: 571, cpl: 31.94, qualified: 183, cpql: 99.64, deals: 40, revenue: 14040, roas: 0.77 },
+      // Month 3 (August 2025): Creative testing framework live, audience optimization, 34% trial conversion
+      { month: "Aug 2025", spend: 18947, leads: 593, cpl: 31.97, qualified: 202, cpql: 93.89, deals: 44, revenue: 15444, roas: 0.82 },
+      // Month 4 (September 2025): AI-driven optimization kicking in, back-to-school seasonal uptick, 36% trial conversion
+      { month: "Sep 2025", spend: 19382, leads: 607, cpl: 31.93, qualified: 218, cpql: 88.90, deals: 48, revenue: 16848, roas: 0.87 },
+      // Month 5 (October 2025): Advanced personalization, seasonal wellness content, 38% trial conversion
+      { month: "Oct 2025", spend: 19756, leads: 618, cpl: 31.97, qualified: 235, cpql: 84.07, deals: 51, revenue: 17901, roas: 0.91 },
+      // Month 6 (November 2025): Holiday stress reduction campaigns, peak performance, 40% trial conversion
+      { month: "Nov 2025", spend: 20194, leads: 631, cpl: 32.00, qualified: 252, cpql: 80.13, deals: 55, revenue: 19305, roas: 0.96 },
+      // Month 7 (December 2025): Holiday season, year-end wellness goals, 42% trial conversion
+      { month: "Dec 2025", spend: 20847, leads: 651, cpl: 32.02, qualified: 273, cpql: 76.37, deals: 60, revenue: 21060, roas: 1.01 },
+      // Month 8 (January 2026): New Year resolution surge, optimal performance, 44% trial conversion
+      { month: "Jan 2026", spend: 21293, leads: 664, cpl: 32.06, qualified: 292, cpql: 72.93, deals: 64, revenue: 22464, roas: 1.05 },
     ],
   },
   impact: [
-    { label: "Total Subscription Revenue", value: "$645.2K", growth: "+187%" },
-    { label: "New Paid Subscribers", value: "1,518", growth: "+164%" },
+    { label: "Total Subscription Revenue", value: "$140.0K", growth: "+187%" },
+    { label: "New Paid Subscribers", value: "333", growth: "+164%" },
     { label: "Trial-to-Paid Conversion", value: "21.9%", growth: "+2.1pts" },
-    { label: "Blended ROAS", value: "4.13x", growth: "+54%" },
+    { label: "Blended ROAS", value: "0.90x", growth: "+54%" },
   ],
 };

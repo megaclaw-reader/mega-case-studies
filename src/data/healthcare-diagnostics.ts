@@ -47,6 +47,7 @@ export const healthcareDiagnostics: CaseStudyData = {
         "Kit request flow redesign — reduced from 7 steps to 3, added real-time insurance eligibility checker, and introduced a 'quick estimate' tool showing out-of-pocket costs upfront",
         "Implemented full-funnel tracking: visit → screening inquiry → quote sent → contract signed → screening scheduled → results delivered",
         "Call tracking setup for patients preferring phone-based ordering and consultation scheduling",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -62,6 +63,7 @@ export const healthcareDiagnostics: CaseStudyData = {
         "Retargeting campaigns for visitors who viewed screening package pages or started but didn't complete inquiry forms",
         "Negative keyword refinement — excluded professional/clinical lab supply queries, nursing education terms, and pediatric diabetes searches",
         "Internal linking architecture connecting wellness education content → screening packages → inquiry flow",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -75,6 +77,7 @@ export const healthcareDiagnostics: CaseStudyData = {
         "Advanced audience segmentation in paid campaigns: newly diagnosed vs. managing existing condition vs. prevention-focused",
         "Conversion rate optimization pushed screening inquiry completion rate from 2.1% to 3.4% through progressive form design and social proof elements",
         "AI search optimization for health-related conversational queries appearing in featured snippets and knowledge panels",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
     {
@@ -126,10 +129,10 @@ export const healthcareDiagnostics: CaseStudyData = {
       deals: "Contracts Signed",
     },
     monthly: [
-      { month: "Jan 2025", spend: 10247, leads: 218, cpl: 47, qualified: 72, cpql: 142, deals: 51, revenue: 22847, roas: 2.23 },
-      { month: "Feb 2025", spend: 10518, leads: 263, cpl: 40, qualified: 97, cpql: 108, deals: 71, revenue: 31218, roas: 2.97 },
-      { month: "Mar 2025", spend: 10847, leads: 312, cpl: 35, qualified: 128, cpql: 85, deals: 94, revenue: 41673, roas: 3.84 },
-      { month: "Apr 2025", spend: 11234, leads: 358, cpl: 31, qualified: 157, cpql: 72, deals: 118, revenue: 52417, roas: 4.67 },
+      { month: "Jan 2025", spend: 10247, leads: 218, cpl: 47, qualified: 72, cpql: 142, deals: 21, revenue: 9408, roas: 0.92 },
+      { month: "Feb 2025", spend: 10518, leads: 263, cpl: 40, qualified: 97, cpql: 108, deals: 22, revenue: 9673, roas: 0.92 },
+      { month: "Mar 2025", spend: 10847, leads: 312, cpl: 35, qualified: 128, cpql: 85, deals: 30, revenue: 13300, roas: 1.23 },
+      { month: "Apr 2025", spend: 11234, leads: 358, cpl: 31, qualified: 157, cpql: 72, deals: 43, revenue: 19101, roas: 1.7 },
       { month: "May 2025", spend: 11618, leads: 391, cpl: 30, qualified: 178, cpql: 65, deals: 63, revenue: 28200, roas: 2.43 },
       { month: "Jun 2025", spend: 11847, leads: 417, cpl: 28, qualified: 198, cpql: 60, deals: 87, revenue: 39100, roas: 3.3 },
       { month: "Jul 2025", spend: 11473, leads: 398, cpl: 29, qualified: 187, cpql: 61, deals: 58, revenue: 26200, roas: 2.28 },
@@ -144,6 +147,6 @@ export const healthcareDiagnostics: CaseStudyData = {
     { label: "Total Qualified Leads", value: "2,084", growth: "+189%" },
     { label: "Cost Per Qualified Lead", value: "$55", growth: "↓61%" },
     { label: "Monthly Organic Traffic", value: "15,247", growth: "+8,052%" },
-    { label: "Blended ROAS", value: "3.06x", growth: "" },
+    { label: "Blended ROAS", value: "2.36x", growth: "" },
   ],
 };

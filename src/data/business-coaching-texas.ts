@@ -48,6 +48,7 @@ export const businessCoachingTexas: CaseStudyData = {
         "Technical SEO audit of existing website — fixed crawl errors, improved Core Web Vitals, implemented schema markup for business coaching services targeting Texas searches",
         "Keyword research identifying 280+ high-intent terms across executive coaching, business consulting, and leadership development for Texas business owners",
         "Published foundational pillar content: 6 comprehensive guides covering core coaching topics (strategic planning, team building, revenue optimization) optimized for Texas business searches",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -65,6 +66,7 @@ export const businessCoachingTexas: CaseStudyData = {
         "Published 19 Texas-specific service pages covering Dallas, Houston, Austin, San Antonio, Fort Worth, and rural Texas markets — each optimized for local business coaching searches",
         "Launched content calendar: 4 SEO-optimized articles weekly targeting long-tail queries like 'executive coaching Dallas' and 'business consultant Houston Texas'",
         "Built comprehensive internal linking connecting pillar guides to city pages and industry-specific content — establishing topical authority for Texas business coaching",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -82,6 +84,7 @@ export const businessCoachingTexas: CaseStudyData = {
         "SEO momentum building: 89 indexed pages driving 2,800+ organic visits/month — city-level pages ranking in top 10 for 'business coaching [Texas city]' across 12 markets",
         "Earned 31 backlinks from Texas business publications, chambers of commerce, and entrepreneur networks — domain authority growing from 18 to 34",
         "Organic traffic generating first qualified leads at $0 marginal cost — 11 organic-sourced qualified prospects in months 4-6, reducing blended acquisition costs",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
     {

@@ -47,6 +47,7 @@ export const healthcareEquipmentNational: CaseStudyData = {
         "Multi-step lead qualification system — reduced inquiry form from 12 fields to 4, added equipment category selector, introduced 'schedule consultation' option for complex purchases",
         "Implemented healthcare-specific conversion tracking: visit → equipment inquiry → consultation scheduled → proposal sent → contract signed → equipment delivered",
         "Call tracking for facilities preferring phone-based procurement discussions and technical consultations",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -62,6 +63,7 @@ export const healthcareEquipmentNational: CaseStudyData = {
         "Retargeting campaigns for visitors who viewed high-value equipment pages, downloaded specification sheets, or started consultation request forms",
         "Negative keyword refinement — excluded consumer medical device searches, student research queries, and repair/maintenance-only inquiries",
         "Internal linking strategy connecting clinical outcome content → equipment specifications → consultation request flow",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -75,6 +77,7 @@ export const healthcareEquipmentNational: CaseStudyData = {
         "Advanced audience segmentation: hospital procurement vs. clinic administrators vs. private practice owners vs. surgical center managers",
         "Conversion optimization increased consultation request completion rate from 1.8% to 3.7% through progressive disclosure and clinical outcome emphasis",
         "Voice search optimization for equipment-specific queries appearing in healthcare professional searches and facility procurement research",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
     {

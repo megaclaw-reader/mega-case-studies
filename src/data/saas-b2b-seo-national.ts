@@ -48,6 +48,7 @@ export const saasB2bSeoNational: CaseStudyData = {
         "CRM integration for full-funnel tracking from organic search to closed deals and customer lifetime value",
         "On-page optimization for existing product pages, feature descriptions, and case study content",
         "Technical crawl optimization ensuring all important pages are indexed and ranking-ready",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -65,6 +66,7 @@ export const saasB2bSeoNational: CaseStudyData = {
         "Conversion rate optimization for organic landing pages focusing on demo request forms and trial signups",
         "Competitor content analysis and gap identification for untapped keyword opportunities in workflow automation",
         "Long-tail keyword expansion targeting specific automation use cases and business process terminology",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -80,6 +82,7 @@ export const saasB2bSeoNational: CaseStudyData = {
         "Seasonal content calendar aligned with business automation peak search periods and industry events",
         "Weekly performance analysis with organic revenue attribution, keyword rank tracking, and content ROI measurement",
         "Voice search and AI optimization for natural language queries about workflow automation solutions",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
   ],

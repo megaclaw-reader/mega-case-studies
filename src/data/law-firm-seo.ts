@@ -48,6 +48,7 @@ export const lawFirmSeo: CaseStudyData = {
         "Deployed call tracking with source attribution, rebuilt contact forms with practice-area routing, and set up conversion tracking",
         "Local citation audit and cleanup — corrected NAP data across 47 directories, removed 19 duplicate listings",
         "Initial backlink outreach to Chicago legal directories, bar association publications, and community organizations",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -63,6 +64,7 @@ export const lawFirmSeo: CaseStudyData = {
         "Internal linking optimization — built topical authority clusters connecting practice area pages, blog posts, and neighborhood pages",
         "Conversion rate optimization — A/B tested CTAs, simplified intake forms, added click-to-call buttons, implemented live chat during business hours",
         "Monthly content refresh on highest-potential pages based on Search Console impression data and ranking trajectory",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -77,6 +79,7 @@ export const lawFirmSeo: CaseStudyData = {
         "Advanced schema implementation — case result schema, breadcrumb markup, and how-to schema for legal process guides",
         "Page speed re-optimization — addressed new Core Web Vitals thresholds, image optimization, and lazy loading improvements",
         "Conversion funnel refinement based on 6 months of lead data — identified highest-converting page templates and replicated structure",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
     {

@@ -48,6 +48,7 @@ export const poolCoversNational: CaseStudyData = {
         "Built paid strategy around cost per qualified consultation segmented by cover type (manual safety, automatic, winter, solar) and customer type (homeowner vs. pool professional)",
         "Paused broad-match keywords attracting universal tarp shoppers, restructured campaigns by product line and installation intent level",
         "Launched initial landing page tests for high-intent terms — consultation booking vs. quote request vs. installer referral flows",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -64,6 +65,7 @@ export const poolCoversNational: CaseStudyData = {
         "Keyword and negative keyword refinement based on CRM qualification data — filtering out DIY tarp buyers, commercial pool contractors, and spa-only inquiries",
         "Installer partnership content — created contractor-focused landing pages with territory-specific messaging and lead routing systems",
         "Pre-season campaign builds for spring peak — creative assets, seasonal landing pages, and budget scaling models ready for March activation",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -80,6 +82,7 @@ export const poolCoversNational: CaseStudyData = {
         "Audience segmentation by cover interest (safety vs automatic vs seasonal), pool type/size, geography, and installation timeline signals",
         "Multi-approach bidding strategies calibrated to seasonal installation patterns and average order value by cover category and installation complexity",
         "Lead scoring model integrating ad engagement signals with CRM consultation stage progression and estimated project value based on pool specifications",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
     {

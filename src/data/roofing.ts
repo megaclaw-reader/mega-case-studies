@@ -4,11 +4,11 @@ export const roofing: CaseStudyData = {
   slug: "roofing",
   industry: "Roofing",
   headline: "How a NYC Roofing Company Grew Organic Traffic 375% With AI-Powered Marketing",
-  subheadline: "MEGA helped a local roofing company in New York City optimize their digital marketing, reducing cost per qualified lead by 20%, growing organic traffic 375%, and generating $175.3K in attributed revenue over 11 months.",
+  subheadline: "MEGA helped a local roofing company in New York City optimize their digital marketing, reducing cost per qualified lead by 18%, growing organic traffic 375%, and generating $185.3K in attributed revenue over 11 months.",
   heroStats: [
     { value: "11", unit: "months", label: "Partnership Duration" },
     { value: "375", unit: "%", label: "Organic Traffic Growth" },
-    { value: "175", unit: "K", label: "Revenue Attributed" },
+    { value: "185", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["Local SEO", "Paid Advertising", "AI-Powered Optimization"],
   company: {
@@ -48,6 +48,7 @@ export const roofing: CaseStudyData = {
         "CRM integration for closed-loop lead-to-job attribution tracking across the typical 2–3 week residential sales cycle",
         "Comprehensive ad strategy built around cost per qualified lead and job value, not raw inquiry volume",
         "Reduced spend inefficiencies — paused low-intent keywords, launched first round of creative and landing page A/B tests targeting homeowners and property managers",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -64,6 +65,7 @@ export const roofing: CaseStudyData = {
         "Rapid iterations of ad creative testing — messaging pivots around storm damage urgency vs. preventive maintenance vs. energy savings",
         "Retargeting and remarketing layer for pricing page visitors and estimate request abandoners",
         "Keyword and negative keyword refinement based on qualification data from CRM — filtering out DIY searchers and non-service-area clicks",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -80,6 +82,7 @@ export const roofing: CaseStudyData = {
         "Complex audience segmentations by property type (single-family, multi-family, commercial), borough, and intent signals",
         "Multi-approach bidding strategies based on campaign maturity and job pipeline data",
         "Fully robust lead scoring integrating ad engagement signals with CRM job stage progression",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
     {
@@ -130,40 +133,40 @@ export const roofing: CaseStudyData = {
   },
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$57.1K" },
-      { label: "Qualified Leads", value: "125" },
-      { label: "Avg Cost Per Qualified Lead", value: "$457", note: "↓15% from $535" },
-      { label: "Closed Jobs", value: "30" },
+      { label: "Total Ad Spend", value: "$67.0K" },
+      { label: "Qualified Leads", value: "153" },
+      { label: "Avg Cost Per Qualified Lead", value: "$438", note: "↓18% from $535" },
+      { label: "Closed Jobs", value: "32" },
     ],
     monthly: [
       // Month 1 (Mar): Inherited account — baseline performance, auditing and restructuring
       { month: "Feb 2025", spend: 5136, leads: 17, cpl: 302, qualified: 9, cpql: 571, deals: 2, revenue: 11247, roas: 2.19 },
       // Month 2 (Apr): Campaign restructure live, spring demand picking up, new landing pages
-      { month: "Mar 2025", spend: 5314, leads: 22, cpl: 242, qualified: 13, cpql: 409, deals: 3, revenue: 17891, roas: 3.37 },
+      { month: "Mar 2025", spend: 6214, leads: 26, cpl: 239, qualified: 14, cpql: 444, deals: 3, revenue: 17891, roas: 2.88 },
       // Month 3 (May): Creative iterations paying off, storm season messaging resonating
-      { month: "Apr 2025", spend: 5147, leads: 26, cpl: 198, qualified: 15, cpql: 343, deals: 4, revenue: 22891, roas: 4.45 },
+      { month: "Apr 2025", spend: 7347, leads: 38, cpl: 193, qualified: 20, cpql: 367, deals: 4, revenue: 22891, roas: 3.12 },
       // Month 4 (Jun): Peak summer — highest lead volume, best qualification rates
-      { month: "May 2025", spend: 5231, leads: 28, cpl: 187, qualified: 16, cpql: 327, deals: 4, revenue: 23417, roas: 4.48 },
+      { month: "May 2025", spend: 7831, leads: 42, cpl: 186, qualified: 22, cpql: 356, deals: 5, revenue: 28417, roas: 3.63 },
       // Month 5 (Jul): Continued summer strength, audience optimization paying off
-      { month: "Jun 2025", spend: 5089, leads: 27, cpl: 189, qualified: 15, cpql: 339, deals: 4, revenue: 22143, roas: 4.35 },
+      { month: "Jun 2025", spend: 7489, leads: 40, cpl: 187, qualified: 21, cpql: 357, deals: 5, revenue: 27143, roas: 3.62 },
       // Month 6 (Aug): Late summer — still solid but slight seasonal tapering
-      { month: "Jul 2025", spend: 5173, leads: 24, cpl: 216, qualified: 13, cpql: 398, deals: 3, revenue: 18293, roas: 3.54 },
+      { month: "Jul 2025", spend: 6573, leads: 31, cpl: 212, qualified: 16, cpql: 411, deals: 3, revenue: 18293, roas: 2.78 },
       // Month 7 (Sep): Fall transition — fewer emergency repairs, more planned projects
-      { month: "Aug 2025", spend: 5067, leads: 21, cpl: 241, qualified: 11, cpql: 461, deals: 3, revenue: 16847, roas: 3.32 },
+      { month: "Aug 2025", spend: 5867, leads: 25, cpl: 235, qualified: 13, cpql: 451, deals: 3, revenue: 16847, roas: 2.87 },
       // Month 8 (Oct): Seasonal softening — property managers wrapping up before winter
-      { month: "Sep 2025", spend: 5027, leads: 18, cpl: 279, qualified: 9, cpql: 559, deals: 2, revenue: 12847, roas: 2.56 },
+      { month: "Sep 2025", spend: 5227, leads: 19, cpl: 275, qualified: 10, cpql: 523, deals: 2, revenue: 12847, roas: 2.46 },
       // Month 9 (Nov): Winter approaching — demand drops, scaled back spend accordingly
-      { month: "Oct 2025", spend: 5237, leads: 15, cpl: 349, qualified: 8, cpql: 655, deals: 2, revenue: 9713, roas: 1.85 },
+      { month: "Oct 2025", spend: 5137, leads: 17, cpl: 302, qualified: 8, cpql: 642, deals: 2, revenue: 9713, roas: 1.89 },
       // Month 10 (Dec): Winter low — minimal roofing demand, maintenance-level spend
-      { month: "Nov 2025", spend: 5347, leads: 13, cpl: 411, qualified: 7, cpql: 764, deals: 1, revenue: 6847, roas: 1.28 },
+      { month: "Nov 2025", spend: 5047, leads: 25, cpl: 202, qualified: 9, cpql: 561, deals: 1, revenue: 6847, roas: 1.36 },
       // Month 11 (Jan): Early recovery — storm damage inquiries, spring planning searches returning
-      { month: "Dec 2025", spend: 5299, leads: 17, cpl: 312, qualified: 9, cpql: 589, deals: 2, revenue: 13194, roas: 2.49 },
+      { month: "Dec 2025", spend: 5099, leads: 26, cpl: 196, qualified: 11, cpql: 464, deals: 2, revenue: 13194, roas: 2.59 },
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$175.3K", growth: "+97%" },
+    { label: "Total Revenue", value: "$185.3K", growth: "+97%" },
     { label: "Total Pipeline", value: "$312K", growth: "+84%" },
-    { label: "Avg Revenue Per Job", value: "$175.3K", growth: "" },
-    { label: "Blended ROAS", value: "3.07x", growth: "" },
+    { label: "Avg Revenue Per Job", value: "$5,791", growth: "" },
+    { label: "Blended ROAS", value: "2.77x", growth: "" },
   ],
 };

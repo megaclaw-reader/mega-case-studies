@@ -48,6 +48,7 @@ export const carDealershipNewYork: CaseStudyData = {
         "Implemented comprehensive schema markup — automotive business schema, vehicle schema for inventory, service schema for repairs, and local business schema with operating hours and accepted payment methods",
         "Mobile optimization — reduced mobile load time to 1.9 seconds, implemented AMP for key landing pages, and created mobile-friendly vehicle browsing interface",
         "Initial content foundation — published 12 articles covering NYC parking regulations, winter driving tips, vehicle inspection requirements, and Queens area automotive service guides",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -65,6 +66,7 @@ export const carDealershipNewYork: CaseStudyData = {
         "Seasonal content optimization — summer road trip vehicle prep, winter car care for NYC salt and snow, spring car buying season content, and holiday gift guides for car accessories",
         "Internal linking expansion — created topical authority clusters connecting service pages → vehicle pages → financing pages → blog content with strategic anchor text optimization",
         "Conversion rate optimization for organic traffic — A/B tested contact forms, added click-to-call buttons for mobile users, optimized vehicle inquiry forms, and implemented live chat for immediate response",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -82,6 +84,7 @@ export const carDealershipNewYork: CaseStudyData = {
         "Dynamic content optimization — real-time inventory integration, automated pricing updates, seasonal promotion integration, and personalized content based on visitor behavior patterns",
         "Conversion funnel refinement — identified that financing calculator pages had 4.1x higher lead conversion rates, expanded financial planning content and tools across the site",
         "Performance optimization iteration — continued page speed improvements, Core Web Vitals monitoring, and mobile experience refinements to maintain competitive search performance",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
   ],

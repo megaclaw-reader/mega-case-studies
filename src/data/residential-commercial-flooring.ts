@@ -48,6 +48,7 @@ export const residentialCommercialFlooring: CaseStudyData = {
         "CRM integration for closed-loop lead-to-job attribution tracking, with separate pipelines for residential and commercial leads",
         "Comprehensive ad strategy built around cost per qualified lead and average job value, segmented by residential vs. commercial intent",
         "Paused low-intent keywords, launched landing page A/B tests with separate experiences for homeowners and commercial property managers",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -65,6 +66,7 @@ export const residentialCommercialFlooring: CaseStudyData = {
         "Rapid ad creative testing — messaging pivots around material quality, installation speed, free estimates, and commercial project capabilities",
         "Retargeting layer for showroom page visitors, estimate request abandoners, and commercial specification page viewers",
         "Keyword and negative keyword refinement based on CRM qualification data — filtering out DIY searchers, out-of-area clicks, and non-service inquiries",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -81,6 +83,7 @@ export const residentialCommercialFlooring: CaseStudyData = {
         "Complex audience segmentations by property type (single-family, multi-family, commercial), neighborhood, and intent signals",
         "Multi-approach bidding strategies based on campaign maturity and job pipeline data",
         "Fully robust lead scoring integrating ad engagement signals with CRM job stage progression — weighted by residential vs. commercial job value",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
     {

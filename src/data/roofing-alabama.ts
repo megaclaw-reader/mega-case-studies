@@ -44,7 +44,8 @@ export const roofingAlabama: CaseStudyData = {
         "Comprehensive SEO audit and keyword research across Alabama markets",
         "Competitive analysis of top roofing companies in Birmingham, Huntsville, Mobile",
         "Technical SEO optimization and site structure improvements",
-        "Initial paid advertising campaigns targeting storm-damage keywords"
+        "Initial paid advertising campaigns targeting storm-damage keywords",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ]
     },
     {
@@ -55,7 +56,8 @@ export const roofingAlabama: CaseStudyData = {
         "Location-specific landing pages for major Alabama cities",
         "Storm damage and seasonal roofing content marketing",
         "Local link building and citation optimization",
-        "Scaled paid advertising during peak storm season"
+        "Scaled paid advertising during peak storm season",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ]
     },
     {
@@ -66,7 +68,8 @@ export const roofingAlabama: CaseStudyData = {
         "Advanced keyword expansion across Alabama metro areas",
         "Conversion rate optimization for high-value leads",
         "Brand awareness campaigns targeting competitor keywords",
-        "ROAS optimization and lead quality improvements"
+        "ROAS optimization and lead quality improvements",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ]
     }
   ],
@@ -93,7 +96,7 @@ export const roofingAlabama: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$244.8K" },
-      { label: "Total Qualified Leads", value: "1,582" },
+      { label: "Total Qualified Leads", value: "1,126" },
       { label: "Avg CPQL", value: "$154.73" },
       { label: "Total Revenue", value: "$892.5K" },
       { label: "Blended ROAS", value: "3.65x" }
@@ -122,8 +125,8 @@ export const roofingAlabama: CaseStudyData = {
         spend: 24890,
         leads: 168,
         cpl: 148,
-        qualified: 124,
-        cpql: 201,
+        qualified: 87,
+        cpql: 286,
         deals: 4,
         revenue: 70200,
         roas: 2.82
@@ -133,8 +136,8 @@ export const roofingAlabama: CaseStudyData = {
         spend: 28340,
         leads: 203,
         cpl: 140,
-        qualified: 152,
-        cpql: 186,
+        qualified: 95,
+        cpql: 298,
         deals: 6,
         revenue: 118200,
         roas: 4.17
@@ -144,8 +147,8 @@ export const roofingAlabama: CaseStudyData = {
         spend: 31250,
         leads: 247,
         cpl: 127,
-        qualified: 189,
-        cpql: 165,
+        qualified: 152,
+        cpql: 206,
         deals: 6,
         revenue: 123800,
         roas: 3.96
@@ -155,8 +158,8 @@ export const roofingAlabama: CaseStudyData = {
         spend: 33180,
         leads: 289,
         cpl: 115,
-        qualified: 227,
-        cpql: 146,
+        qualified: 163,
+        cpql: 204,
         deals: 7,
         revenue: 150600,
         roas: 4.54
@@ -166,8 +169,8 @@ export const roofingAlabama: CaseStudyData = {
         spend: 35670,
         leads: 326,
         cpl: 109,
-        qualified: 263,
-        cpql: 136,
+        qualified: 187,
+        cpql: 191,
         deals: 4,
         revenue: 86700,
         roas: 2.43
@@ -177,8 +180,8 @@ export const roofingAlabama: CaseStudyData = {
         spend: 34920,
         leads: 341,
         cpl: 102,
-        qualified: 278,
-        cpql: 126,
+        qualified: 181,
+        cpql: 193,
         deals: 8,
         revenue: 162700,
         roas: 4.66
@@ -188,8 +191,8 @@ export const roofingAlabama: CaseStudyData = {
         spend: 32890,
         leads: 312,
         cpl: 105,
-        qualified: 251,
-        cpql: 131,
+        qualified: 163,
+        cpql: 202,
         deals: 5,
         revenue: 111200,
         roas: 3.38

@@ -47,6 +47,7 @@ export const printShop: CaseStudyData = {
         "Technical fixes — schema markup for local business and product/service types, NAP consistency audit across 52 directories, image optimization with alt text for print samples",
         "Local citation building — submitted to 58 directories including Yelp, BBB, Chicago Chamber of Commerce, neighborhood business associations",
         "Launched initial paid campaigns at $8K/month with broad Chicago metro targeting to establish baseline conversion data",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -63,6 +64,7 @@ export const printShop: CaseStudyData = {
         "Added retargeting campaigns for visitors who viewed high-value service pages but didn't submit a quote request",
         "Weekly GBP posts featuring completed projects, seasonal promotions, and customer testimonials",
         "Scaled budget to $9.2K as B2B targeting refinements showed clear ROI improvement",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -78,6 +80,7 @@ export const printShop: CaseStudyData = {
         "CRO optimization — added instant quote calculator for standard products, portfolio gallery filterable by industry, and customer review carousel",
         "Budget scaled to $10.5-12.5K during Q4 peak, capturing holiday card and year-end corporate demand",
         "Review generation campaign — 47 new reviews added over this period, pushing to 4.8 stars across 134 reviews",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
     {

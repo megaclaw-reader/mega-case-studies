@@ -46,6 +46,8 @@ export const ecommerceAthleticApparel: CaseStudyData = {
         "Dynamic product feed optimization — seasonal hero products featured prominently, size-aware inventory management to prevent ads for out-of-stock sizes",
         "Built retargeting audiences segmented by product viewed, cart abandonment stage, and days since last visit with frequency caps to prevent ad fatigue",
         "Competitive creative audit — analyzed top DTC athletic brands' ad strategies to identify gaps in messaging and positioning opportunities",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
+        'Launched initial creative testing suite with 30+ AI-generated ad variations across formats (static, carousel, video stills) to seed the algorithm with diverse creative signals',
       ],
     },
     {
@@ -61,6 +63,8 @@ export const ecommerceAthleticApparel: CaseStudyData = {
         "Performance-based budget reallocation: weekly reviews shifting spend from underperforming audiences to high-ROAS segments",
         "A/B testing creative formats: lifestyle photography vs. product flat-lays vs. UGC-style workout content — UGC outperformed by 23% on click-through rate",
         "Size-inclusive messaging testing — campaigns featuring diverse body types showed 18% higher conversion rates across all demographics",
+        'Scaled AI-generated creative production to 50+ new variations per month, testing hooks, angles, offers, and visual styles at a pace impossible for traditional creative teams',
+        'AI agents identified winning creative patterns and automatically generated new variations, keeping the campaign fresh while competitors recycled the same handful of ads',
       ],
     },
     {
@@ -76,6 +80,8 @@ export const ecommerceAthleticApparel: CaseStudyData = {
         "Post-Black Friday retention campaigns: thank-you sequences, review solicitation, and January preview teasers to maintain momentum into New Year's resolution season",
         "Inventory-aware campaign management — real-time pausing of ads for sizes and styles running low, reallocation to overstocked items",
         "End-of-engagement performance review and handoff documentation for continued optimization",
+        'With 100+ creatives in active rotation, the campaign avoided creative fatigue entirely, a common problem for businesses running fewer than 10 ads at a time',
+        'Real-time performance monitoring detected and responded to competitive shifts, seasonal trends, and algorithm changes within hours rather than the typical agency cycle of days or weeks',
       ],
     },
   ],

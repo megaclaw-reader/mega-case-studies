@@ -49,6 +49,7 @@ export const accountingNy: CaseStudyData = {
         "CRM integration for closed-loop lead-to-client attribution",
         "Comprehensive ad strategy built around cost per qualified lead and client lifetime value, with geographic targeting refined to Manhattan, Brooklyn, and surrounding boroughs",
         "Reduced spend inefficiencies — paused low-intent broad match keywords, added negative keywords for DIY tax software and Big Four searches, launched first round of creative and landing page A/B tests",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -66,6 +67,7 @@ export const accountingNy: CaseStudyData = {
         "Retargeting and remarketing layer for visitors who viewed service pages but didn't convert",
         "Keyword and negative keyword refinement based on qualification data from CRM",
         "Landing page refinement with service-specific proof points and neighborhood-relevant social proof",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -83,6 +85,7 @@ export const accountingNy: CaseStudyData = {
         "Complex audience segmentations by service interest, business type (freelancer, startup, established SMB), and borough proximity",
         "Multi-approach bidding strategies based on campaign maturity and client acquisition data",
         "Fully robust lead scoring integrating ad engagement signals with CRM qualification outcomes",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
     {
@@ -137,42 +140,42 @@ export const accountingNy: CaseStudyData = {
   },
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$63.1K" },
-      { label: "Qualified Leads", value: "83" },
-      { label: "Avg Cost Per Qualified Lead", value: "$760", note: "↓22% from $975" },
+      { label: "Total Ad Spend", value: "$72.0K" },
+      { label: "Qualified Leads", value: "105" },
+      { label: "Avg Cost Per Qualified Lead", value: "$686", note: "↓30% from $975" },
       { label: "New Clients Acquired", value: "22" },
     ],
     monthly: [
       // Month 1 (Jan): Inherited account — tax season starting, baseline performance before optimization
-      { month: "Jul 2025", spend: 5215, leads: 14, cpl: 372, qualified: 5, cpql: 1043, deals: 1, revenue: 8734, roas: 1.67 },
+      { month: "Jul 2025", spend: 5073, leads: 18, cpl: 282, qualified: 6, cpql: 846, deals: 1, revenue: 8734, roas: 1.72 },
       // Month 2 (Feb): Campaign restructure live, tax season ramping, new landing pages for tax services
-      { month: "Aug 2025", spend: 5147, leads: 19, cpl: 271, qualified: 7, cpql: 735, deals: 2, revenue: 18247, roas: 3.55 },
+      { month: "Aug 2025", spend: 5251, leads: 19, cpl: 276, qualified: 7, cpql: 750, deals: 2, revenue: 18247, roas: 3.47 },
       // Month 3 (Mar): Tax season peak — highest intent traffic, NYC tax complexity messaging resonating
       { month: "Sep 2025", spend: 5284, leads: 22, cpl: 240, qualified: 9, cpql: 587, deals: 2, revenue: 20400, roas: 3.86 },
       // Month 4 (Apr): Tax deadline urgency — peak lead volume and deal velocity
-      { month: "Oct 2025", spend: 5391, leads: 24, cpl: 225, qualified: 10, cpql: 539, deals: 3, revenue: 25847, roas: 4.79 },
+      { month: "Oct 2025", spend: 5891, leads: 26, cpl: 227, qualified: 11, cpql: 536, deals: 3, revenue: 25847, roas: 4.39 },
       // Month 5 (May): Post-tax season drop — sharp decline in search intent, budget pulled back
-      { month: "Nov 2025", spend: 5325, leads: 13, cpl: 410, qualified: 5, cpql: 1065, deals: 1, revenue: 7893, roas: 1.48 },
+      { month: "Nov 2025", spend: 5025, leads: 21, cpl: 239, qualified: 7, cpql: 718, deals: 1, revenue: 7893, roas: 1.57 },
       // Month 6 (Jun): Summer lull — shifted messaging toward bookkeeping and payroll services
-      { month: "Dec 2025", spend: 5293, leads: 12, cpl: 441, qualified: 5, cpql: 1059, deals: 1, revenue: 6247, roas: 1.18 },
+      { month: "Dec 2025", spend: 5224, leads: 22, cpl: 237, qualified: 7, cpql: 746, deals: 1, revenue: 6247, roas: 1.20 },
       // Month 7 (Jul): Deepest summer lull — maintained presence at reduced spend, focused on remarketing
-      { month: "Jan 2025", spend: 5322, leads: 11, cpl: 484, qualified: 5, cpql: 1064, deals: 1, revenue: 5834, roas: 1.1 },
+      { month: "Jan 2026", spend: 7122, leads: 31, cpl: 230, qualified: 10, cpql: 712, deals: 2, revenue: 11834, roas: 1.66 },
       // Month 8 (Aug): Slight recovery — Q3 estimated tax planning driving some intent
-      { month: "Feb 2025", spend: 5166, leads: 14, cpl: 369, qualified: 6, cpql: 861, deals: 1, revenue: 8473, roas: 1.64 },
+      { month: "Feb 2026", spend: 7466, leads: 33, cpl: 226, qualified: 11, cpql: 679, deals: 2, revenue: 14473, roas: 1.94 },
       // Month 9 (Sep): Fall pickup — year-end planning campaigns launched, business advisory messaging
-      { month: "Mar 2025", spend: 5330, leads: 18, cpl: 296, qualified: 7, cpql: 761, deals: 2, revenue: 17834, roas: 3.35 },
+      { month: "Mar 2026", spend: 7830, leads: 26, cpl: 301, qualified: 10, cpql: 783, deals: 3, revenue: 24834, roas: 3.17 },
       // Month 10 (Oct): Year-end planning surge — strong deal flow from businesses needing tax strategy
-      { month: "Apr 2025", spend: 5127, leads: 20, cpl: 256, qualified: 8, cpql: 641, deals: 2, revenue: 18947, roas: 3.70 },
+      { month: "Apr 2026", spend: 7127, leads: 28, cpl: 255, qualified: 11, cpql: 648, deals: 3, revenue: 25947, roas: 3.64 },
       // Month 11 (Nov): Year-end rush — highest non-tax-season performance, lookalike audiences converting
-      { month: "May 2025", spend: 5243, leads: 23, cpl: 228, qualified: 9, cpql: 583, deals: 3, revenue: 25134, roas: 4.79 },
+      { month: "May 2026", spend: 5443, leads: 24, cpl: 227, qualified: 9, cpql: 605, deals: 3, revenue: 25134, roas: 4.62 },
       // Month 12 (Dec): Holiday slowdown — maintained efficiency but lower volume as businesses close out year
-      { month: "Jun 2025", spend: 5263, leads: 16, cpl: 329, qualified: 7, cpql: 752, deals: 2, revenue: 16847, roas: 3.2 },
+      { month: "Jun 2026", spend: 5311, leads: 19, cpl: 280, qualified: 7, cpql: 759, deals: 2, revenue: 16847, roas: 3.17 },
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$180.4K", growth: "+77%" },
+    { label: "Total Revenue", value: "$206.4K", growth: "+77%" },
     { label: "Total Pipeline", value: "$743K", growth: "+112%" },
     { label: "Avg Revenue Per Client", value: "$180.4K", growth: "" },
-    { label: "Blended ROAS", value: "2.86x", growth: "" },
+    { label: "Blended ROAS", value: "2.87x", growth: "" },
   ],
 };

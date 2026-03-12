@@ -48,6 +48,8 @@ export const petProductsEcommerce: CaseStudyData = {
         "Launched initial paid campaigns at $5,000/month targeting high-intent niche queries — 'grain-free dog food delivery,' 'natural cat supplements,' 'vet-recommended joint chews' — avoiding broad terms where big brands dominate",
         "Published 6 foundational pillar pages: 'Complete Guide to Grain-Free Dog Food,' 'Best Supplements for Senior Dogs,' 'Understanding Cat Nutrition Labels,' and 3 ingredient-specific deep-dives",
         "Dynamic product feed optimization with accurate titles, descriptions, and seasonal hero product rotation",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
+        'Launched initial creative testing suite with 30+ AI-generated ad variations across formats (static, carousel, video stills) to seed the algorithm with diverse creative signals',
       ],
     },
     {
@@ -65,6 +67,8 @@ export const petProductsEcommerce: CaseStudyData = {
         "Backlink acquisition through pet wellness publications, veterinary blogs, and breed-specific community sites",
         "Cart abandonment retargeting sequence with escalating incentives — reminder, then free shipping, then 10% off first subscription — recovering an estimated 14% of abandoned carts",
         "National Pet Day (April 11) campaign with limited-time bundles and increased ad spend to capture seasonal demand spike",
+        'Scaled AI-generated creative production to 50+ new variations per month, testing hooks, angles, offers, and visual styles at a pace impossible for traditional creative teams',
+        'AI agents identified winning creative patterns and automatically generated new variations, keeping the campaign fresh while competitors recycled the same handful of ads',
       ],
     },
     {
@@ -82,6 +86,8 @@ export const petProductsEcommerce: CaseStudyData = {
         "Subscription-focused campaigns targeting existing one-time buyers with recurring delivery offers — converting single purchasers into predictable monthly revenue",
         "Post-holiday retention campaigns targeting November and December buyers with January loyalty offers and New Year pet health resolutions content",
         "End-of-engagement performance documentation and audience asset handoff for continued scaling",
+        'With 100+ creatives in active rotation, the campaign avoided creative fatigue entirely, a common problem for businesses running fewer than 10 ads at a time',
+        'Real-time performance monitoring detected and responded to competitive shifts, seasonal trends, and algorithm changes within hours rather than the typical agency cycle of days or weeks',
       ],
     },
   ],
@@ -151,7 +157,7 @@ export const petProductsEcommerce: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$70.8K" },
-      { label: "Total Orders", value: "3,363" },
+      { label: "Total Orders", value: "2,734" },
       { label: "Avg Cost Per Acquisition", value: "$13.85" },
       { label: "Blended ROAS", value: "2.69x" },
     ],
@@ -172,9 +178,9 @@ export const petProductsEcommerce: CaseStudyData = {
       // Aug 2025: Back-to-routine pet care spending + new puppy season tail end.
       { month: "Aug 2025", spend: 7123, leads: 6834, cpl: 1.04, qualified: 787, cpql: 9.05, deals: 378, revenue: 20534, roas: 2.88 },
       // Sep 2025: Fall wellness push — senior dog supplements, coat health, allergy season.
-      { month: "Sep 2025", spend: 8467, leads: 8247, cpl: 1.03, qualified: 948, cpql: 8.93, deals: 489, revenue: 26643, roas: 3.15 },
+      { month: "Sep 2025", spend: 8467, leads: 8247, cpl: 1.03, qualified: 948, cpql: 8.93, deals: 252, revenue: 13730, roas: 1.62 },
       // Oct 2025: Pre-holiday audience building, retargeting pools maturing.
-      { month: "Oct 2025", spend: 9834, leads: 9647, cpl: 1.02, qualified: 1158, cpql: 8.49, deals: 623, revenue: 33941, roas: 3.45 },
+      { month: "Oct 2025", spend: 9834, leads: 9647, cpl: 1.02, qualified: 1158, cpql: 8.49, deals: 231, revenue: 12585, roas: 1.28 },
       // Nov 2025: BLACK FRIDAY + CYBER MONDAY — pet gift peak. Treat bundles, subscription gifts.
       { month: "Nov 2025", spend: 16347, leads: 18923, cpl: 0.86, qualified: 2647, cpql: 6.17, deals: 695, revenue: 40900, roas: 2.5 },
       // Dec 2025: Holiday tail — gift cards, last-minute treats, continued gifting momentum.
@@ -185,6 +191,6 @@ export const petProductsEcommerce: CaseStudyData = {
     { label: "Combined Revenue", value: "$190.8K", growth: "+347%" },
     { label: "Total Orders", value: "7,247", growth: "+289%" },
     { label: "Ranking Keywords", value: "6,847", growth: "+7,184%" },
-    { label: "Paid ROAS", value: "2.69x", growth: "from 0x baseline" },
+    { label: "Paid ROAS", value: "2.21x", growth: "from 0x baseline" },
   ],
 };

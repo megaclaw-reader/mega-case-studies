@@ -49,6 +49,7 @@ export const lawFirmMontreal: CaseStudyData = {
         "Local citation building — submitted to 47 directories including Pages Jaunes, Yelp, Avvo, Canadian Lawyer Magazine directory, Barreau du Québec, CCMM, and regional chambers",
         "Restructured paid campaigns into practice-area-specific ad groups with language targeting — separate French and English campaigns for PI, family, and immigration",
         "Implemented negative keyword lists — removed informational queries, DIY legal terms, and cross-practice contamination",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -66,6 +67,7 @@ export const lawFirmMontreal: CaseStudyData = {
         "Launched retargeting campaigns segmented by practice area intent based on page visits and form abandonment",
         "Negative keyword expansion — removed competitor branded terms, legal education queries, and bar exam content consuming budget",
         "Local backlink outreach — Journal de Montréal legal column, Montreal Gazette, Quebec Bar Association publications, local community organizations",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -82,6 +84,7 @@ export const lawFirmMontreal: CaseStudyData = {
         "Expanded paid campaigns to target underserved practice areas showing organic traction — immigration consultations up 67% from content alone",
         "Audience refinement — layered demographic and geographic targeting based on case value data by neighborhood and practice area",
         "AI search optimization — structured content for featured snippets and LLM-friendly answers to common Quebec legal questions",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
     {

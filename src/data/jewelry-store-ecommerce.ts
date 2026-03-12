@@ -48,6 +48,8 @@ export const jewelryStoreEcommerce: CaseStudyData = {
         "CRM integration for lead-to-sale attribution with booking tracking for in-store consultations and custom order inquiries",
         "Rebuilt ad strategy separating local lead gen campaigns (engagement rings, custom work, repairs) from ecommerce purchase campaigns (ready-made jewelry, gifts)",
         "Paused low-intent keywords, launched landing page tests for engagement ring consultations vs. online jewelry collections vs. repair services",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
+        'Launched initial creative testing suite with 30+ AI-generated ad variations across formats (static, carousel, video stills) to seed the algorithm with diverse creative signals',
       ],
     },
     {
@@ -65,6 +67,8 @@ export const jewelryStoreEcommerce: CaseStudyData = {
         "Rapid ad creative testing — messaging pivots around holiday gifting urgency vs. custom engagement ring consultations vs. everyday luxury positioning",
         "Retargeting layer for product page visitors who didn't purchase and consultation page visitors who didn't book",
         "Negative keyword refinement based on call recording data — filtering out wholesale, costume jewelry, and non-service-area searches",
+        'Scaled AI-generated creative production to 50+ new variations per month, testing hooks, angles, offers, and visual styles at a pace impossible for traditional creative teams',
+        'AI agents identified winning creative patterns and automatically generated new variations, keeping the campaign fresh while competitors recycled the same handful of ads',
       ],
     },
     {
@@ -81,6 +85,8 @@ export const jewelryStoreEcommerce: CaseStudyData = {
         "Complex audience segmentations by intent (consultation vs. purchase), product category (engagement vs. fashion vs. gifts), and geography (Chicago metro vs. national)",
         "Dynamic remarketing campaigns showing specific products viewed to ecommerce visitors",
         "Fully robust lead scoring integrating call duration, consultation booking confirmations, and online purchase value data",
+        'With 100+ creatives in active rotation, the campaign avoided creative fatigue entirely, a common problem for businesses running fewer than 10 ads at a time',
+        'Real-time performance monitoring detected and responded to competitive shifts, seasonal trends, and algorithm changes within hours rather than the typical agency cycle of days or weeks',
       ],
     },
   ],

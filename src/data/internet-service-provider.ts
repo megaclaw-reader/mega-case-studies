@@ -47,6 +47,7 @@ export const internetServiceProvider: CaseStudyData = {
         "Competitive ad intelligence — analyzed Spectrum, Comcast, AT&T, and Cox messaging, offers, and landing strategies across top 15 markets",
         "Launched initial paid campaigns at $10,000/month focused on top 12 established markets with highest subscriber density potential",
         "Built real-time coverage verification flow — leads checked against the address-level serviceability database before reaching sales, eliminating wasted follow-up on unserviceable inquiries",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -63,6 +64,7 @@ export const internetServiceProvider: CaseStudyData = {
         "Budget increased to $10,700 as early data validated efficient segments in established markets",
         "Implemented negative targeting for apartment complexes without fiber infrastructure and addresses outside coverage zones across all campaigns",
         "Established weekly competitive pricing monitoring — auto-updating comparison content when incumbents changed plans or pricing in target markets",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -78,6 +80,7 @@ export const internetServiceProvider: CaseStudyData = {
         "CRO optimization — added real-time chat with coverage verification, simplified signup to 3 steps, introduced 'switch guarantee' addressing cancellation anxiety, added live speed test comparison widget pulling real data from local infrastructure",
         "Launched retargeting campaigns segmented by market and funnel stage — coverage checkers who bounced received competitive comparison ads, plan viewers received promotional first-month offers",
         "Review generation campaigns across all active GBP profiles — 218 new reviews added over subsequent 4 months",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
     {
@@ -149,7 +152,7 @@ export const internetServiceProvider: CaseStudyData = {
       // Month 3: $11.4K — competitive positioning rebuild live, conversion rate climbing
       { month: "Mar 2025", spend: 11400, leads: 261, cpl: 44, qualified: 58, cpql: 197, deals: 29, revenue: 30972, roas: 2.72 },
       // Month 4: $12.3K — spring moving season begins, audience segmentation deployed
-      { month: "Apr 2025", spend: 12300, leads: 294, cpl: 42, qualified: 71, cpql: 173, deals: 36, revenue: 38448, roas: 3.13 },
+      { month: "Apr 2025", spend: 12300, leads: 294, cpl: 42, qualified: 71, cpql: 173, deals: 25, revenue: 26700, roas: 2.17 },
       // Month 5: $13.1K — peak moving season, new market campaigns activated
       { month: "May 2025", spend: 13100, leads: 318, cpl: 41, qualified: 82, cpql: 160, deals: 41, revenue: 43788, roas: 3.34 },
       // Month 6: $13.8K — strong summer demand, remote work + moving signups surging
@@ -165,9 +168,9 @@ export const internetServiceProvider: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$430.4K", growth: "+218%" },
+    { label: "Total Revenue", value: "$418.7K", growth: "+218%" },
     { label: "New Subscribers", value: "437", growth: "+218%" },
     { label: "Cost Per Qualified Lead", value: "$145", growth: "↓47%" },
-    { label: "Blended ROAS", value: "3.14x", growth: "" },
+    { label: "Blended ROAS", value: "3.06x", growth: "" },
   ],
 };

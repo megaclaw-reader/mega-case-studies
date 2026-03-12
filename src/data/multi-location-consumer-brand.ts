@@ -45,6 +45,8 @@ export const multiLocationConsumerBrand: CaseStudyData = {
         "Established individualized performance baselines for each market: ROAS targets, CAC thresholds, creative fatigue benchmarks, and audience saturation indicators — all feeding into the algorithmic decision layer",
         "Built the initial budget allocation engine framework — efficiency-weighted distribution rules that would evolve into the fully algorithmic reallocation system in Phase 2",
         "Created a real-time performance monitoring layer with market-level drill-downs, creative health scoring, and automated alerts for efficiency threshold breaches",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
+        'Launched initial creative testing suite with 30+ AI-generated ad variations across formats (static, carousel, video stills) to seed the algorithm with diverse creative signals',
       ],
     },
     {
@@ -59,6 +61,8 @@ export const multiLocationConsumerBrand: CaseStudyData = {
         "Implemented dynamic budget pacing tied to intra-week and intra-day performance patterns — reduced wasted spend during low-conversion windows by an estimated 18%",
         "Cross-market intelligence layer activated: high-performing audience segments identified in one market were systematically tested and expanded to other markets",
         "Creative production pipeline scaled to maintain a 3x asset library relative to active campaigns — ensuring no market ever ran degraded creative due to production bottlenecks",
+        'Scaled AI-generated creative production to 50+ new variations per month, testing hooks, angles, offers, and visual styles at a pace impossible for traditional creative teams',
+        'AI agents identified winning creative patterns and automatically generated new variations, keeping the campaign fresh while competitors recycled the same handful of ads',
       ],
     },
     {
@@ -73,6 +77,8 @@ export const multiLocationConsumerBrand: CaseStudyData = {
         "Deployed automated performance anomaly detection — the system identified and flagged unusual market-level performance shifts within hours, enabling response before efficiency degradation materialized",
         "Full system stress-tested during peak spend periods — the infrastructure maintained ROAS floors even at maximum daily spend levels, validating the scalability thesis across the entire spend range",
         "Our AI-powered systems scale based on data density and performance signals — not industry specialization. The infrastructure built for this engagement is designed to be transferable across any multi-location brand facing the same scaling complexity.",
+        'With 100+ creatives in active rotation, the campaign avoided creative fatigue entirely, a common problem for businesses running fewer than 10 ads at a time',
+        'Real-time performance monitoring detected and responded to competitive shifts, seasonal trends, and algorithm changes within hours rather than the typical agency cycle of days or weeks',
       ],
     },
   ],

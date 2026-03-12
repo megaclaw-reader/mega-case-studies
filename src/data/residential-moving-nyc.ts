@@ -46,7 +46,8 @@ export const residentialMovingNyc: CaseStudyData = {
         "Landing page redesign with qualifying intake forms — home size, move distance, timeline, services needed, and budget indicators",
         "Local SEO foundation — NYC neighborhood-specific keyword research, schema markup, and NAP consistency across 67 local directories",
         "Seasonal campaign planning — identified peak moving months (Jun-Aug) and adjusted budget allocation strategy",
-        "Created separate funnel paths for local moves vs. long-distance relocations to improve qualification rates"
+        "Created separate funnel paths for local moves vs. long-distance relocations to improve qualification rates",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ]
     },
     {
@@ -59,7 +60,8 @@ export const residentialMovingNyc: CaseStudyData = {
         "Content development — NYC moving guides, neighborhood profiles, and seasonal moving tips",
         "Call analysis integration — tagged conversations by move type, qualification status, and close probability",
         "Implemented dynamic landing pages that adjusted messaging based on neighborhood and move type",
-        "Beta tested qualification scoring system to prioritize high-intent leads for faster follow-up"
+        "Beta tested qualification scoring system to prioritize high-intent leads for faster follow-up",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ]
     },
     {
@@ -72,7 +74,8 @@ export const residentialMovingNyc: CaseStudyData = {
         "Expanded local SEO content — created 47 neighborhood-specific landing pages across NYC",
         "Seasonal budget optimization — reduced spend during slower winter months while maintaining presence",
         "Advanced retargeting campaigns for website visitors who didn't initially convert",
-        "Continuous optimization based on CPQL improvements and ROAS targets"
+        "Continuous optimization based on CPQL improvements and ROAS targets",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ]
     }
   ],

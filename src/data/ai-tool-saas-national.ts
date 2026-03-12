@@ -48,6 +48,7 @@ export const aiToolSaasNational: CaseStudyData = {
         "Landing page optimization with demo booking flow improvements, social proof placement, and clear pricing transparency",
         "CRM integration enabling full-funnel tracking from ad click through demo, trial, and subscription activation",
         "Lead scoring model implemented based on company size signals, job title, and engagement depth",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -65,6 +66,7 @@ export const aiToolSaasNational: CaseStudyData = {
         "Lead qualification refinement — negative targeting for companies under 25 employees, students, and job seekers",
         "Audience expansion using lookalike modeling based on highest-value closed subscribers",
         "Budget reallocation testing across search, display, and content syndication channels based on cost-per-trial data",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -80,6 +82,7 @@ export const aiToolSaasNational: CaseStudyData = {
         "Full attribution model operational — budget decisions driven by subscription revenue data and customer lifetime value analysis",
         "Bid strategy optimization based on demo-to-subscription conversion rates by audience segment",
         "Demo-to-trial flow improvements reducing friction and increasing activation rates through better onboarding content",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
     {

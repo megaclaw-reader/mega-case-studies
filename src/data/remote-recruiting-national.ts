@@ -46,6 +46,7 @@ export const remoteRecruitingNational: CaseStudyData = {
         "Audience development for LinkedIn and display advertising — built custom audiences based on job titles (HR Director, Talent Acquisition, VP People) and company characteristics (50-500 employees, tech-forward industries)",
         "Competitive analysis of established staffing agencies — identified content gaps and positioning opportunities where TalentBridge's remote expertise could differentiate them in the market",
         "Conversion funnel mapping — tracked complete journey from initial website visit through placement completion to optimize each touchpoint for maximum lead-to-revenue conversion",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -61,6 +62,7 @@ export const remoteRecruitingNational: CaseStudyData = {
         "Partnership content development — collaborated with remote work tools, HR software providers, and business consultants to create co-branded content that expanded keyword reach and authority",
         "Retargeting campaign launch — built sophisticated audiences based on blog engagement, case study downloads, and service page visits with messaging tailored to their demonstrated interests",
         "Conversion rate optimization testing — systematically tested contact forms, service descriptions, and pricing presentations to improve qualified lead conversion rates from website visitors",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -76,6 +78,7 @@ export const remoteRecruitingNational: CaseStudyData = {
         "Cross-channel attribution modeling — implemented tracking systems to measure complete customer journey from initial content engagement through placement completion and client retention",
         "Seasonal campaign optimization — developed specific strategies for Q1 hiring surge, summer project staffing, and Q4 budget-driven hiring to smooth revenue volatility",
         "Competitive intelligence program — monthly analysis of competitor content strategies, keyword targeting, and service positioning to identify new opportunities and defend market share",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
     {

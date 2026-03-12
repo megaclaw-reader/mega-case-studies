@@ -48,6 +48,7 @@ export const weddingPhotographyAtlanta: CaseStudyData = {
         "Rebuilt paid campaign structure — separated campaigns by service type (full-day wedding, half-day, engagement-only, elopement) and intent level (ready-to-book vs. researching)",
         "Built landing pages with portfolio samples, transparent pricing frameworks, and prominent 'Check Availability' calls-to-action optimized for mobile conversions",
         "Paused broad-match terms bleeding budget, launched initial ad tests with urgency messaging around spring booking deadlines",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -65,6 +66,7 @@ export const weddingPhotographyAtlanta: CaseStudyData = {
         "Rapid creative testing — ad messaging pivots around limited spring availability, portfolio social proof, award recognition, and consultation booking incentives",
         "Retargeting campaigns for couples who viewed pricing or portfolio pages but didn't submit an inquiry — display and social with seasonal urgency",
         "Negative keyword refinement based on inquiry tracking — filtering out DIY photography searches, free photo editing queries, and out-of-area requests",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -81,6 +83,7 @@ export const weddingPhotographyAtlanta: CaseStudyData = {
         "Audience segmentation by wedding timeline (booking 12+ months out vs. 3-6 months), budget tier, and venue type preference",
         "Bid strategy refinement based on day-of-week patterns (Sunday–Tuesday peak research hours) and seasonal demand acceleration",
         "Lead scoring integration — weighting consultations booked, wedding date provided, venue confirmed, and budget range disclosed",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
     {

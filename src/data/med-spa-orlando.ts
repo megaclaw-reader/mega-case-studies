@@ -47,6 +47,7 @@ export const medSpaOrlando: CaseStudyData = {
         "Google Business Profile optimization: added 38 high-quality treatment photos, updated service categories, implemented Q&A responses, and launched a review generation campaign",
         "Online booking widget integration with SMS confirmation and 24-hour follow-up sequence for abandoned consultations",
         "Call tracking implementation with whisper messages to differentiate paid vs. organic leads at the front desk",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -62,6 +63,7 @@ export const medSpaOrlando: CaseStudyData = {
         "Negative keyword refinement — excluded surgical procedure queries, dermatology medical conditions, spa resort/hotel searches, and Groupon deal-seeking terms",
         "A/B tested landing page elements: provider credentials emphasis vs. patient transformation focus, finding transformations drove 28% higher consultation bookings",
         "Internal linking architecture connecting educational content → treatment pages → before/after gallery → booking funnel",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -77,6 +79,7 @@ export const medSpaOrlando: CaseStudyData = {
         "Seasonal campaign calendar: Valentine's Day couples packages, spring refresh promotions, summer body contouring push, fall skin rejuvenation, holiday gift card campaigns",
         "AI search optimization for conversational queries appearing in featured snippets: 'is Botox safe,' 'how much do fillers cost in Orlando,' 'best med spa treatments for aging skin'",
         "Monthly performance reporting with full attribution from first touchpoint through consultation booking, treatment completion, and rebooking rate",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
   ],
@@ -111,9 +114,9 @@ export const medSpaOrlando: CaseStudyData = {
       deals: "Booked Treatments",
     },
     monthly: [
-      { month: "Jan 2025", spend: 6513, leads: 218, cpl: 30, qualified: 85, cpql: 77, deals: 47, revenue: 21667, roas: 3.33 },
-      { month: "Feb 2025", spend: 6487, leads: 247, cpl: 26, qualified: 104, cpql: 62, deals: 58, revenue: 27318, roas: 4.21 },
-      { month: "Mar 2025", spend: 6718, leads: 283, cpl: 24, qualified: 127, cpql: 53, deals: 66, revenue: 31300, roas: 4.66 },
+      { month: "Jan 2025", spend: 6513, leads: 218, cpl: 30, qualified: 85, cpql: 77, deals: 27, revenue: 12447, roas: 1.91 },
+      { month: "Feb 2025", spend: 6487, leads: 247, cpl: 26, qualified: 104, cpql: 62, deals: 34, revenue: 16014, roas: 2.47 },
+      { month: "Mar 2025", spend: 6718, leads: 283, cpl: 24, qualified: 127, cpql: 53, deals: 23, revenue: 10908, roas: 1.62 },
       { month: "Apr 2025", spend: 7247, leads: 314, cpl: 23, qualified: 149, cpql: 49, deals: 37, revenue: 17500, roas: 2.41 },
       { month: "May 2025", spend: 7813, leads: 347, cpl: 23, qualified: 174, cpql: 45, deals: 56, revenue: 27100, roas: 3.47 },
       { month: "Jun 2025", spend: 8017, leads: 412, cpl: 19, qualified: 197, cpql: 41, deals: 44, revenue: 21600, roas: 2.69 },
@@ -139,6 +142,6 @@ export const medSpaOrlando: CaseStudyData = {
     { label: "Total Qualified Leads", value: "836", growth: "+312%" },
     { label: "Cost Per Qualified Lead", value: "$51", growth: "↓60%" },
     { label: "Monthly Organic Traffic", value: "11,247", growth: "+2,643%" },
-    { label: "Blended ROAS", value: "3.42x", growth: "+166%" },
+    { label: "Blended ROAS", value: "2.47x", growth: "+166%" },
   ],
 };

@@ -48,6 +48,7 @@ export const landscapingArizonaSeo: CaseStudyData = {
         "Implemented schema markup for landscaping services, local business data, FAQ content, and plant care guides",
         "Technical SEO optimization — improved Core Web Vitals, mobile responsiveness for portfolio galleries, and page speed for image-heavy project showcases",
         "Competitor analysis of top-ranking Phoenix landscaping companies — identified content gaps and link building opportunities through Arizona trade associations",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -65,6 +66,7 @@ export const landscapingArizonaSeo: CaseStudyData = {
         "Guest posting and backlink outreach — contributed content to Arizona home & garden publications, Desert Botanical Garden blog, Arizona water conservation organizations",
         "Internal linking optimization — created topic clusters connecting related content about desert plants, hardscaping materials, irrigation systems, and seasonal maintenance",
         "Review generation campaign — systematized post-project review requests, achieved 147 Google reviews with 4.8-star average by August",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -82,6 +84,7 @@ export const landscapingArizonaSeo: CaseStudyData = {
         "Client success story case studies — detailed project breakdowns with cost ranges, timelines, plant selections, and maintenance requirements for different Arizona microclimates",
         "Mobile optimization for portfolio browsing — improved image loading speed and gallery navigation for prospects viewing projects on phones during consultations",
         "Analytics and conversion tracking refinement — implemented heat mapping, form abandonment analysis, and call attribution to optimize lead capture from organic traffic",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
   ],

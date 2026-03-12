@@ -45,6 +45,7 @@ export const homeRenovations: CaseStudyData = {
         "Restructured campaigns around project type clusters (kitchen, bathroom, basement, whole-home) rather than generic 'home renovation' targeting",
         "Created dedicated landing pages for each project category with qualification-focused forms capturing project scope, timeline, and budget range",
         "Launched call tracking with automated tagging — calls over 3 minutes flagged as qualified consultations, under 90 seconds flagged for review",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -59,6 +60,7 @@ export const homeRenovations: CaseStudyData = {
         "A/B tested landing page copy emphasizing 'transform your home' vs. 'fix your home' — transformation messaging drove 28% higher qualified lead rate",
         "Implemented lead scoring model combining form data (project type, budget, timeline) with call signals (duration, intent language, decision-maker confirmation)",
         "Began scaling budget incrementally as qualified lead volume and CPQL improvements provided confidence in ROI",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -72,6 +74,7 @@ export const homeRenovations: CaseStudyData = {
         "Scaled monthly budget from $5K to $7K+ as CPQL dropped below $350 and close rates climbed above 22%",
         "Launched seasonal campaign strategy — spring/summer emphasis on outdoor living spaces, additions, and curb appeal; fall pivot to interior projects and holiday-ready renovations",
         "Retargeting layer activated for consultation request abandoners and repeat site visitors viewing project galleries",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
     {
@@ -92,7 +95,7 @@ export const homeRenovations: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$86.9K" },
-      { label: "Qualified Leads", value: "289" },
+      { label: "Qualified Leads", value: "260" },
       { label: "Avg CPQL", value: "$301", note: "↓38% from $485" },
       { label: "Closed Jobs", value: "34" },
     ],
@@ -114,7 +117,7 @@ export const homeRenovations: CaseStudyData = {
       // Month 4 (Apr): Spring peak — ICP feedback loop active, strong lead quality
       { month: "Apr 2025", spend: 6100, leads: 42, cpl: 145, qualified: 28, cpql: 218, deals: 3, revenue: 27700, roas: 4.54 },
       // Month 5 (May): Peak season — highest lead volume, ICP targeting fully refined
-      { month: "May 2025", spend: 6600, leads: 46, cpl: 143, qualified: 33, cpql: 200, deals: 3, revenue: 31200, roas: 4.73 },
+      { month: "May 2025", spend: 6600, leads: 46, cpl: 143, qualified: 24, cpql: 275, deals: 3, revenue: 31200, roas: 4.73 },
       // Month 6 (Jun): Summer strong — outdoor projects, additions
       { month: "Jun 2025", spend: 7100, leads: 43, cpl: 165, qualified: 30, cpql: 237, deals: 3, revenue: 29700, roas: 4.18 },
       // Month 7 (Jul): Mid-summer — sustained demand, ICP model mature
@@ -124,11 +127,11 @@ export const homeRenovations: CaseStudyData = {
       // Month 9 (Sep): Fall — interior project shift, moderate demand
       { month: "Sep 2025", spend: 8300, leads: 33, cpl: 252, qualified: 23, cpql: 361, deals: 3, revenue: 23200, roas: 2.8 },
       // Month 10 (Oct): Fall — holiday renovation push, ICP keeps quality steady
-      { month: "Oct 2025", spend: 8800, leads: 36, cpl: 244, qualified: 27, cpql: 326, deals: 3, revenue: 26100, roas: 2.97 },
+      { month: "Oct 2025", spend: 8800, leads: 36, cpl: 244, qualified: 22, cpql: 400, deals: 3, revenue: 26100, roas: 2.97 },
       // Month 11 (Nov): Winter slowdown — ICP compensates for lower volume
-      { month: "Nov 2025", spend: 9100, leads: 31, cpl: 294, qualified: 23, cpql: 396, deals: 5, revenue: 42000, roas: 4.62 },
+      { month: "Nov 2025", spend: 9100, leads: 31, cpl: 294, qualified: 17, cpql: 535, deals: 5, revenue: 42000, roas: 4.62 },
       // Month 12 (Dec): Winter — planning season starting, budget at peak
-      { month: "Dec 2025", spend: 9500, leads: 36, cpl: 264, qualified: 27, cpql: 352, deals: 3, revenue: 22900, roas: 2.41 },
+      { month: "Dec 2025", spend: 9500, leads: 36, cpl: 264, qualified: 18, cpql: 528, deals: 3, revenue: 22900, roas: 2.41 },
     ],
   },
   impact: [

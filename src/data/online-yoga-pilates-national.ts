@@ -46,6 +46,7 @@ export const onlineYogaPilatesNational: CaseStudyData = {
         "Trial experience redesign — shortened trial period to 7 days with more aggressive onboarding sequence highlighting personalized class recommendations, progress tracking, and live class interaction opportunities",
         "Negative keyword foundation across all campaigns — excluded free content seekers, equipment purchasers, in-person studio searches, and budget fitness searchers to improve lead quality",
         "Creative testing framework established — developed 47 ad variations featuring different class styles, instructor personalities, transformation stories, and subscription value messaging for systematic performance evaluation",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -61,6 +62,7 @@ export const onlineYogaPilatesNational: CaseStudyData = {
         "Class preview strategy implementation — used 3-5 minute instructor-led previews in video ads to demonstrate teaching quality and class atmosphere, significantly improving click-through rates and trial conversion quality",
         "Geographic expansion testing — identified metropolitan areas with highest yoga studio density and launched location-specific campaigns with local wellness messaging and instructor spotlights",
         "Subscription pricing experimentation — tested annual plan promotions, family subscription offers, and student discounts to optimize lifetime value and reduce monthly churn through longer commitment periods",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -76,6 +78,7 @@ export const onlineYogaPilatesNational: CaseStudyData = {
         "Partnership channel development — affiliate program launch with wellness bloggers, yoga teacher training programs, and corporate wellness platforms to diversify subscriber acquisition beyond paid advertising",
         "Seasonal inventory planning — aligned content production and instructor scheduling with subscriber acquisition forecasts, ensuring adequate class variety during high-growth periods without overproducing during slower seasons",
         "Customer lifecycle optimization — built retention campaigns for at-risk subscribers, win-back sequences for churned users, and upgrade paths for engaged monthly subscribers to commit to annual plans",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
     {
@@ -121,7 +124,7 @@ export const onlineYogaPilatesNational: CaseStudyData = {
       { month: "Sep 2025", spend: 11267, leads: 734, cpl: 15.35, qualified: 478, cpql: 23.58, deals: 187, revenue: 54082, roas: 4.80 },
       { month: "Oct 2025", spend: 12456, leads: 823, cpl: 15.13, qualified: 534, cpql: 23.32, deals: 198, revenue: 59789, roas: 4.80 },
       { month: "Nov 2025", spend: 11789, leads: 756, cpl: 15.59, qualified: 489, cpql: 24.10, deals: 176, revenue: 56587, roas: 4.80 },
-      { month: "Dec 2025", spend: 11847, leads: 443, cpl: 26.75, qualified: 312, cpql: 37.98, deals: 87, revenue: 39234, roas: 3.31 },
+      { month: "Dec 2025", spend: 11847, leads: 443, cpl: 26.75, qualified: 214, cpql: 55.98, deals: 87, revenue: 39234, roas: 3.31 },
     ],
   },
   impact: [

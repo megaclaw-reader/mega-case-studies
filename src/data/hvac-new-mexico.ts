@@ -47,6 +47,7 @@ export const hvacNewMexico: CaseStudyData = {
         "Generated 16 initial articles covering refrigerated air vs. evaporative cooling, desert climate AC maintenance, monsoon season humidity challenges, and energy efficiency in extreme heat",
         "Rebuilt paid campaigns from scratch — separated emergency repair, system replacement, seasonal tune-up, and swamp cooler conversion campaigns with dedicated landing pages across multiple channels",
         "Installed cross-platform conversion tracking with qualified lead as the primary optimization event (not raw form fills)",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -63,6 +64,7 @@ export const hvacNewMexico: CaseStudyData = {
         "Rapid ad creative testing — messaging pivots around emergency AC urgency vs. pre-summer tune-up savings vs. financing for refrigerated air conversions",
         "Retargeting layer for estimate request page visitors and phone call non-converters across all channels",
         "Began scaling ad spend as qualified lead volume and CPQL proved out — increased budget allocation toward highest-converting audiences and service types",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -79,6 +81,7 @@ export const hvacNewMexico: CaseStudyData = {
         "Advanced audience segmentation by service type (repair vs. install vs. conversion), geography, and urgency signals from call data",
         "Multi-channel budget reallocation based on CPQL by channel — shifted spend toward audiences delivering sub-$120 CPQL vs. those stuck at $160+",
         "Fully robust lead scoring integrating call duration, AI intent classification, CRM job stage progression, and average job value by lead source",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
   ],

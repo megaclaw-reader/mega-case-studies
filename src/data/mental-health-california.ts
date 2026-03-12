@@ -48,6 +48,7 @@ export const mentalHealthCalifornia: CaseStudyData = {
         "Launched therapist matching quiz — 12-question assessment helping visitors find appropriate providers based on their needs, preferred therapy style, and scheduling availability",
         "Restructured paid campaigns by urgency and service type — crisis intervention, initial therapy consultations, ongoing treatment, couples/family therapy, and specialized services (trauma, ADHD)",
         "Implemented comprehensive conversion tracking — form submissions, phone calls, quiz completions, consultation bookings, and session scheduling with full attribution path",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -64,6 +65,7 @@ export const mentalHealthCalifornia: CaseStudyData = {
         "Optimized paid campaigns based on performance data — increased bids on anxiety and trauma keywords, reduced spend on general wellness terms with poor qualification rates",
         "Insurance verification tool integration — real-time check for Aetna, Blue Shield of California, Kaiser Permanente, Cigna, and other major California insurance plans",
         "Retargeting campaigns for quiz completers who didn't book — personalized messaging based on quiz responses about their specific mental health concerns",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -79,6 +81,7 @@ export const mentalHealthCalifornia: CaseStudyData = {
         "Conversion rate optimization — simplified 5-step booking process to 2 steps (quiz → provider match → book consultation), reducing abandonment by 43%",
         "Mobile optimization focus — 71% of mental health searches were mobile; rebuilt mobile experience with one-tap calling, simplified forms, and crisis resource quick access",
         "Seasonal campaign planning for California mental health trends — January (New Year mental health resolutions), September (back-to-school anxiety), November (seasonal depression and holiday stress)",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
     {

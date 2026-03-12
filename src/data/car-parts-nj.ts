@@ -46,6 +46,8 @@ export const carPartsNj: CaseStudyData = {
         "Keyword research targeting 1,200+ commercial and informational car parts terms with New Jersey local modifiers where applicable",
         "Implemented enhanced ecommerce tracking with proper attribution windows for considered automotive purchases (7-day click, 1-day view)",
         "Built retargeting audiences segmented by part category viewed, cart abandonment stage, and vehicle type browsed",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
+        'Launched initial creative testing suite with 30+ AI-generated ad variations across formats (static, carousel, video stills) to seed the algorithm with diverse creative signals',
       ],
     },
     {
@@ -61,6 +63,8 @@ export const carPartsNj: CaseStudyData = {
         "Performance-based budget reallocation: shifted spend weekly from underperforming generic campaigns to high-ROAS vehicle-specific and category-specific campaigns",
         "A/B tested product photography styles: studio shots vs. installed-on-vehicle lifestyle images vs. comparison (old vs. new part) creative",
         "Built local link acquisition strategy targeting New Jersey automotive blogs, car club directories, and regional enthusiast forums",
+        'Scaled AI-generated creative production to 50+ new variations per month, testing hooks, angles, offers, and visual styles at a pace impossible for traditional creative teams',
+        'AI agents identified winning creative patterns and automatically generated new variations, keeping the campaign fresh while competitors recycled the same handful of ads',
       ],
     },
     {
@@ -76,6 +80,8 @@ export const carPartsNj: CaseStudyData = {
         "Built holiday gifting campaigns for car enthusiasts: tool kits, detailing supplies, and performance part gift cards with seasonal creative",
         "Backlink outreach campaign secured 34 referring domains from automotive publications, regional directories, and enthusiast communities",
         "Customer review generation program: post-purchase email sequences driving reviews to product pages, improving on-site social proof and organic click-through rates",
+        'With 100+ creatives in active rotation, the campaign avoided creative fatigue entirely, a common problem for businesses running fewer than 10 ads at a time',
+        'Real-time performance monitoring detected and responded to competitive shifts, seasonal trends, and algorithm changes within hours rather than the typical agency cycle of days or weeks',
       ],
     },
   ],
@@ -100,7 +106,7 @@ export const carPartsNj: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$47.6K" },
-      { label: "Total Orders", value: "1,631" },
+      { label: "Total Orders", value: "939" },
       { label: "Avg Cost Per Visit", value: "$1.89", note: "↓38% from $3.04" },
       { label: "Blended ROAS", value: "3.66x", note: "from 3.21x baseline" },
     ],
@@ -113,28 +119,28 @@ export const carPartsNj: CaseStudyData = {
     },
     monthly: [
       // Mar 2025: Early spring — maintenance season ramping. Budget at floor.
-      { month: "Mar 2025", spend: 5134, leads: 2347, cpl: 2.19, qualified: 278, cpql: 18.47, deals: 198, revenue: 21186, roas: 4.13 },
+      { month: "Mar 2025", spend: 5134, leads: 2347, cpl: 2.19, qualified: 278, cpql: 18.47, deals: 91, revenue: 9737, roas: 1.9 },
       // Apr 2025: Spring peak — inspection season, pothole repairs, warm weather prep.
       { month: "Apr 2025", spend: 6247, leads: 3178, cpl: 1.97, qualified: 389, cpql: 16.06, deals: 156, revenue: 17000, roas: 2.72 },
       // May 2025: Late spring — sustained high demand, road trip prep begins.
-      { month: "May 2025", spend: 6891, leads: 3634, cpl: 1.90, qualified: 437, cpql: 15.77, deals: 255, revenue: 26800, roas: 3.89 },
+      { month: "May 2025", spend: 6891, leads: 3634, cpl: 1.90, qualified: 437, cpql: 15.77, deals: 149, revenue: 15660, roas: 2.27 },
       // Jun 2025: Summer peak — performance upgrades, AC parts, heavy driving season.
-      { month: "Jun 2025", spend: 7234, leads: 3891, cpl: 1.86, qualified: 467, cpql: 15.49, deals: 240, revenue: 26200, roas: 3.62 },
+      { month: "Jun 2025", spend: 7234, leads: 3891, cpl: 1.86, qualified: 467, cpql: 15.49, deals: 140, revenue: 15283, roas: 2.11 },
       // Jul 2025: Mid-summer — still strong but leveling. Road trip season fully active.
       { month: "Jul 2025", spend: 6478, leads: 3423, cpl: 1.89, qualified: 412, cpql: 15.72, deals: 169, revenue: 17900, roas: 2.76 },
       // Aug 2025: Late summer — back-to-school impact, slight decline.
-      { month: "Aug 2025", spend: 5347, leads: 2734, cpl: 1.96, qualified: 318, cpql: 16.82, deals: 187, revenue: 19900, roas: 3.72 },
+      { month: "Aug 2025", spend: 5347, leads: 2734, cpl: 1.96, qualified: 318, cpql: 16.82, deals: 111, revenue: 11812, roas: 2.21 },
       // Sep 2025: Fall maintenance — winterization prep, battery and wiper demand rising.
-      { month: "Sep 2025", spend: 5123, leads: 2567, cpl: 2.00, qualified: 298, cpql: 17.19, deals: 223, revenue: 23167, roas: 4.52 },
+      { month: "Sep 2025", spend: 5123, leads: 2567, cpl: 2.00, qualified: 298, cpql: 17.19, deals: 59, revenue: 6129, roas: 1.2 },
       // Oct 2025: Late fall — winter prep peak, holiday gifting begins.
-      { month: "Oct 2025", spend: 5178, leads: 2689, cpl: 1.93, qualified: 323, cpql: 16.03, deals: 203, revenue: 22300, roas: 4.31 },
+      { month: "Oct 2025", spend: 5178, leads: 2689, cpl: 1.93, qualified: 323, cpql: 16.03, deals: 64, revenue: 7031, roas: 1.36 },
     ],
   },
   impact: [
-    { label: "Total Ad Revenue", value: "$174.5K", growth: "+37%" },
+    { label: "Total Ad Revenue", value: "$100.6K", growth: "+37%" },
     { label: "Total Orders", value: "2,847", growth: "+34%" },
     { label: "Cost Per Visit", value: "$1.89", growth: "↓38%" },
-    { label: "Blended ROAS", value: "3.66x", growth: "+47%" },
+    { label: "Blended ROAS", value: "2.11x", growth: "+47%" },
     { label: "Organic Traffic", value: "+137%", growth: "2,134→5,058/mo" },
     { label: "Keywords Top 20", value: "347", growth: "from 41" },
   ],

@@ -46,6 +46,7 @@ export const gymPrivateTrainingAz: CaseStudyData = {
         "Paid campaign restructuring — separated campaigns by intent: trial session seekers, membership inquiries, and program-specific interest (weight loss, strength, sport-specific)",
         "Implemented call tracking with dedicated phone numbers for paid vs. organic sources, plus missed-call text-back automation",
         "Created 'Free Fitness Assessment' lead magnet landing page to capture top-of-funnel prospects not yet ready for a trial session commitment",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -61,6 +62,7 @@ export const gymPrivateTrainingAz: CaseStudyData = {
         "Negative keyword refinement — excluded budget gym queries, franchise gym names, group fitness class searches, and gym equipment purchase intent",
         "Built internal linking architecture connecting blog content → program pages → trial session booking → contact options",
         "Review generation campaign — automated post-session review requests increasing Google review volume by 47% in 30 days",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -74,6 +76,7 @@ export const gymPrivateTrainingAz: CaseStudyData = {
         "Advanced audience segmentation in paid campaigns: new-to-fitness vs. gym-switchers vs. returning-after-break vs. athlete/sport-specific",
         "Conversion rate optimization pushed trial-session booking rate from 3.1% to 4.8% through social proof integration, urgency elements, and simplified booking flow",
         "Expanded Google Business Profile strategy with weekly posts, Q&A management, and photo updates showcasing facility and trainer expertise",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
   ],

@@ -48,6 +48,7 @@ export const generalContracting: CaseStudyData = {
         "CRM integration for closed-loop lead-to-project attribution tracking across the typical 3–6 week general contracting sales cycle",
         "Built comprehensive paid strategy around cost per qualified lead and average project value, segmented by service type",
         "Paused low-intent keywords, restructured campaigns by service line, launched initial landing page and creative A/B tests",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -64,6 +65,7 @@ export const generalContracting: CaseStudyData = {
         "Rapid creative testing iterations — messaging pivots around project visualization, financing options, and seasonal urgency",
         "Retargeting layer for estimate request page visitors and portfolio browsers who didn't convert",
         "Keyword and negative keyword refinement based on CRM qualification data — filtering out DIY searchers, handyman-level inquiries, and out-of-area clicks",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -80,6 +82,7 @@ export const generalContracting: CaseStudyData = {
         "Audience segmentation by project type (kitchen, bathroom, addition, commercial), location tier, and intent signals",
         "Multi-approach bidding strategies calibrated to campaign maturity and project pipeline data from CRM",
         "Lead scoring model integrating ad engagement signals with CRM project stage progression and estimated job value",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
     {

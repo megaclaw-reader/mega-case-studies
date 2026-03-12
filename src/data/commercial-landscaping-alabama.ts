@@ -52,7 +52,8 @@ export const commercialLandscapingAlabama: CaseStudyData = {
         'Development of industry-specific landing pages targeting commercial decision-makers',
         'Initial paid advertising campaigns focused on high-intent commercial keywords',
         'SEO foundation work including technical optimization and keyword research',
-        'Lead qualification system implementation to identify genuine commercial prospects'
+        'Lead qualification system implementation to identify genuine commercial prospects',
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ]
     },
     {
@@ -64,7 +65,8 @@ export const commercialLandscapingAlabama: CaseStudyData = {
         'Content marketing strategy targeting commercial property management challenges',
         'Advanced SEO work including content creation and authority building',
         'Conversion rate optimization based on initial performance data',
-        'Integration of revenue tracking systems for full-funnel attribution'
+        'Integration of revenue tracking systems for full-funnel attribution',
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ]
     },
     {
@@ -76,7 +78,8 @@ export const commercialLandscapingAlabama: CaseStudyData = {
         'Advanced audience targeting and bidding strategies for maximum efficiency',
         'Comprehensive organic content strategy driving long-term authority',
         'Performance optimization across all channels for sustained growth',
-        'Preparation for sustained growth beyond initial engagement period'
+        'Preparation for sustained growth beyond initial engagement period',
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ]
     }
   ],

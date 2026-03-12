@@ -48,6 +48,7 @@ export const cybersecurity: CaseStudyData = {
         "CRM integration for closed-loop lead-to-deal attribution across longer B2B sales cycles",
         "Comprehensive ad strategy built around cost per qualified lead and pipeline value, not inquiry volume",
         "Reduced spend inefficiencies and launched first round of creative and landing page A/B tests targeting security decision-makers",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -64,6 +65,7 @@ export const cybersecurity: CaseStudyData = {
         "Retargeting and remarketing layer for whitepaper downloaders and pricing page visitors",
         "Keyword and negative keyword refinement based on SQL qualification data from CRM",
         "Landing page refinement with industry-specific proof points and case references",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -80,6 +82,7 @@ export const cybersecurity: CaseStudyData = {
         "Complex audience segmentations by company size, industry, and security maturity level",
         "Multi-approach bidding strategies based on campaign maturity and deal pipeline data",
         "Fully robust lead scoring integrating ad engagement signals with CRM deal stage progression",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
     {

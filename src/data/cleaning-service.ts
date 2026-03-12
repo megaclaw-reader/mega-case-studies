@@ -48,6 +48,7 @@ export const cleaningService: CaseStudyData = {
         "Local citation building — submitted to 52 directories including major review platforms, business directories, Apple Maps, and the Columbus Chamber",
         "Competitor analysis of top 5 Columbus cleaning companies — ad messaging, landing page structure, review strategy, and keyword positioning",
         "Launched initial paid campaigns with broad geographic and demographic targeting at $5K/month to establish baseline ICP data — intentionally wide net to gather phone call and landing page behavior data for refinement",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -65,6 +66,7 @@ export const cleaningService: CaseStudyData = {
         "Implemented retargeting sequences segmented by residential vs. commercial page behavior",
         "Weekly business profile posts featuring before/after photos, seasonal cleaning tips, and customer testimonials",
         "Scaled budget from $5K to $5.4K based on early ICP data showing which segments justified additional spend",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -81,6 +83,7 @@ export const cleaningService: CaseStudyData = {
         "CRO optimization — simplified booking flow to 3 steps, added instant quote calculator for residential, added portfolio of commercial client logos",
         "Expanded neighborhood pages into Hilliard, Powell, Grove City, and Reynoldsburg based on emerging demand signals from ICP data",
         "Review generation campaign launched — 38 new reviews added over next 3 months",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
     {

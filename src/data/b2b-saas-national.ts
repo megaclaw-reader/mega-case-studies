@@ -48,6 +48,7 @@ export const b2bSaasNational: CaseStudyData = {
         "Landing page optimization focused on trial signup flow with reduced friction and clear value propositions",
         "CRM integration for full-funnel tracking from first click through subscription payment and churn events",
         "Conversion tracking setup with trial-to-paid attribution and monthly recurring revenue reporting",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -65,6 +66,7 @@ export const b2bSaasNational: CaseStudyData = {
         "Lead qualification scoring based on company size, industry signals, and engagement behavior patterns",
         "Negative keyword expansion removing consumer productivity, student project, and personal task management queries",
         "Audience lookalike modeling based on highest-value customer segments and longest subscription tenures",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -80,6 +82,7 @@ export const b2bSaasNational: CaseStudyData = {
         "Attribution modeling fully operational — budget decisions driven by subscription revenue attribution and customer lifetime value data",
         "Bid strategy optimization based on trial conversion rates and subscription value by customer segment",
         "Onboarding flow improvements to reduce early churn — better user activation, feature adoption guidance, and success milestones",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
     {

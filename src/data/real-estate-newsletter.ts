@@ -47,6 +47,7 @@ export const realEstateNewsletter: CaseStudyData = {
         "Technical SEO foundation — site speed optimization, schema markup, XML sitemap, internal linking structure",
         "Published first 6 long-form articles: rental property ROI calculators, market timing analysis, cap rate guides",
         "Set up email onboarding sequence to convert new subscribers into engaged readers within first 7 days",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -62,6 +63,7 @@ export const realEstateNewsletter: CaseStudyData = {
         "Launched content upgrade strategy — gated deep-dive reports within blog posts to capture organic readers",
         "Internal linking optimization connecting new articles to signup-optimized pages",
         "Began weekly content cadence targeting trending real estate investment topics for timely organic traffic",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -77,6 +79,7 @@ export const realEstateNewsletter: CaseStudyData = {
         "Advanced audience lookalike modeling based on highest-engagement subscriber profiles",
         "Seasonal content push around spring real estate market activity and investment opportunities",
         "AI search optimization — structured content for featured snippets on key investment queries",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
   ],
@@ -101,7 +104,7 @@ export const realEstateNewsletter: CaseStudyData = {
       { label: "Total Ad Spend", value: "$37.6K" },
       { label: "New Subscribers (Paid)", value: "5,847" },
       { label: "Avg Cost/Subscriber", value: "$6.43", note: "↓37% from $10.18" },
-      { label: "Premium Conversions", value: "312" },
+      { label: "Premium Conversions", value: "424" },
     ],
     columnLabels: {
       leads: "New Subscribers",
@@ -112,17 +115,17 @@ export const realEstateNewsletter: CaseStudyData = {
     },
     monthly: [
       // Month 1 (Apr): Launch — building baseline, testing audiences, higher cost/sub expected
-      { month: "Apr", spend: 5134, leads: 504, cpl: 10.19, qualified: 23, cpql: 223.22, deals: 0, revenue: 1840, roas: 0.36 },
+      { month: "Apr", spend: 5134, leads: 504, cpl: 10.19, qualified: 35, cpql: 146.69, deals: 0, revenue: 1840, roas: 0.36 },
       // Month 2 (May): Optimizing — spring market interest helps, costs starting to improve
-      { month: "May", spend: 5647, leads: 623, cpl: 9.06, qualified: 31, cpql: 182.16, deals: 1, revenue: 3200, roas: 0.57 },
+      { month: "May", spend: 5647, leads: 623, cpl: 9.06, qualified: 43, cpql: 131.33, deals: 1, revenue: 3200, roas: 0.57 },
       // Month 3 (Jun): Strong momentum — summer investing content resonates, first sponsor deal
-      { month: "Jun", spend: 6218, leads: 783, cpl: 7.94, qualified: 42, cpql: 148.05, deals: 1, revenue: 4750, roas: 0.76 },
+      { month: "Jun", spend: 6218, leads: 783, cpl: 7.94, qualified: 55, cpql: 113.05, deals: 1, revenue: 4750, roas: 0.76 },
       // Month 4 (Jul): Mid-summer — slight seasonal dip in real estate interest, maintain spend
-      { month: "Jul", spend: 6483, leads: 891, cpl: 7.28, qualified: 54, cpql: 120.06, deals: 1, revenue: 6100, roas: 0.94 },
+      { month: "Jul", spend: 6483, leads: 891, cpl: 7.28, qualified: 67, cpql: 96.76, deals: 1, revenue: 6100, roas: 0.94 },
       // Month 5 (Aug): Back-to-school / fall market preview — strong acquisition period
-      { month: "Aug", spend: 7012, leads: 1047, cpl: 6.70, qualified: 71, cpql: 98.76, deals: 2, revenue: 9400, roas: 1.34 },
+      { month: "Aug", spend: 7012, leads: 1047, cpl: 6.70, qualified: 84, cpql: 83.48, deals: 2, revenue: 9400, roas: 1.34 },
       // Month 6 (Sep): Peak — fall market surge, list hits critical mass for sponsor demand
-      { month: "Sep", spend: 7143, leads: 1999, cpl: 3.57, qualified: 91, cpql: 78.49, deals: 2, revenue: 12800, roas: 1.79 },
+      { month: "Sep", spend: 7143, leads: 1999, cpl: 3.57, qualified: 140, cpql: 51.02, deals: 2, revenue: 12800, roas: 1.79 },
     ],
   },
   organicConversions: {

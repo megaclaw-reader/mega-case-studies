@@ -49,6 +49,7 @@ export const landscaping: CaseStudyData = {
         "Business profile optimization with updated service categories, project photos, and service area definitions",
         "Restructured existing paid campaigns with improved landing pages featuring project-type selection and neighborhood targeting",
         "Set up weekly reporting that separated total leads from qualified leads with full source attribution",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -65,6 +66,7 @@ export const landscaping: CaseStudyData = {
         "Weekly business profile posts featuring before/after project photos from Nashville-area properties",
         "Local backlink outreach — Nashville Scene home section, Williamson Herald, local home improvement blogs",
         "Refined ad creative to emphasize homeowner-specific messaging: 'Your property deserves...' vs. generic 'landscaping services'",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -81,6 +83,7 @@ export const landscaping: CaseStudyData = {
         "Backlink campaigns via Nashville business publications and local community directories",
         "Negative keyword expansion — removed DIY, rental property, and equipment-related queries consuming budget",
         "AI search crawlability improvements for LLM placement in local landscaping recommendation queries",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
     {

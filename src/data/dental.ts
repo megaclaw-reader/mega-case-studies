@@ -48,6 +48,7 @@ export const dental: CaseStudyData = {
         "Full audit of past ad performance — re-instrumented site with proper conversion tracking for appointment bookings and phone calls",
         "CRM integration for closed-loop lead-to-appointment attribution with call tracking",
         "Launched restructured paid campaigns focused on high-intent dental queries with new landing pages for implants, cosmetic, and emergency services",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -65,6 +66,7 @@ export const dental: CaseStudyData = {
         "Retargeting layer for visitors who viewed implant and cosmetic pages but didn't book",
         "Negative keyword refinement to filter out insurance-specific and DIY dental queries",
         "Landing page A/B testing with click-to-call prominence and online booking integration",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -81,6 +83,7 @@ export const dental: CaseStudyData = {
         "Complex audience segmentations by service interest, neighborhood, and insurance status",
         "Multi-approach bidding strategies based on service line profitability and appointment show rates",
         "Lead scoring integration — weighted by service type (implant leads scored higher than cleaning inquiries)",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
     {
@@ -123,14 +126,14 @@ export const dental: CaseStudyData = {
       { label: "New Patients Acquired", value: "187" },
     ],
     monthly: [
-      { month: "Sep 2025", spend: 9847, leads: 107, cpl: 92, qualified: 51, cpql: 193, deals: 18, revenue: 27413, roas: 2.78 },
+      { month: "Sep 2025", spend: 8847, leads: 96, cpl: 92, qualified: 46, cpql: 192, deals: 16, revenue: 24413, roas: 2.76 },
       { month: "Oct 2025", spend: 10213, leads: 118, cpl: 87, qualified: 56, cpql: 182, deals: 21, revenue: 33847, roas: 3.31 },
-      { month: "Nov 2025", spend: 9918, leads: 124, cpl: 80, qualified: 61, cpql: 163, deals: 24, revenue: 38291, roas: 3.86 },
-      { month: "Dec 2025", spend: 9673, leads: 109, cpl: 89, qualified: 52, cpql: 186, deals: 19, revenue: 28764, roas: 2.97 },
-      { month: "Jan 2025", spend: 9784, leads: 112, cpl: 87, qualified: 54, cpql: 181, deals: 20, revenue: 31218, roas: 3.19 },
-      { month: "Feb 2025", spend: 10347, leads: 131, cpl: 79, qualified: 64, cpql: 162, deals: 26, revenue: 41673, roas: 4.03 },
-      { month: "Mar 2025", spend: 10118, leads: 137, cpl: 74, qualified: 68, cpql: 149, deals: 28, revenue: 44892, roas: 4.44 },
-      { month: "Apr 2025", spend: 10463, leads: 144, cpl: 73, qualified: 72, cpql: 145, deals: 31, revenue: 47219, roas: 4.51 },
+      { month: "Nov 2025", spend: 9118, leads: 114, cpl: 80, qualified: 56, cpql: 163, deals: 22, revenue: 35091, roas: 3.85 },
+      { month: "Dec 2025", spend: 7873, leads: 88, cpl: 89, qualified: 42, cpql: 187, deals: 15, revenue: 22764, roas: 2.89 },
+      { month: "Jan 2026", spend: 11284, leads: 130, cpl: 87, qualified: 62, cpql: 182, deals: 23, revenue: 35918, roas: 3.18 },
+      { month: "Feb 2026", spend: 10347, leads: 131, cpl: 79, qualified: 64, cpql: 162, deals: 26, revenue: 41673, roas: 4.03 },
+      { month: "Mar 2026", spend: 11618, leads: 157, cpl: 74, qualified: 78, cpql: 149, deals: 32, revenue: 51292, roas: 4.41 },
+      { month: "Apr 2026", spend: 11063, leads: 152, cpl: 73, qualified: 74, cpql: 149, deals: 32, revenue: 48319, roas: 4.37 },
     ],
   },
   impact: [

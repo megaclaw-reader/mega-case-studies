@@ -49,6 +49,7 @@ export const landscapingRc: CaseStudyData = {
         "Local citation building — submitted to 52 directories including Yelp, BBB, Angi, HomeAdvisor, Apple Maps, Charlotte Chamber, Lake Norman Chamber",
         "Full audit of past ad performance — restructured campaigns into separate residential and commercial ad groups with tailored messaging and landing pages",
         "Launched dedicated commercial campaign targeting property managers, HOA management companies, and commercial developers in Mecklenburg and Iredell counties",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -66,6 +67,7 @@ export const landscapingRc: CaseStudyData = {
         "Retargeting layer for website visitors segmented by residential vs. commercial intent based on page behavior",
         "Negative keyword expansion — removed DIY landscaping, lawn mower, and equipment-related queries eating budget",
         "Local backlink outreach — Charlotte Observer home section, Lake Norman Magazine, Charlotte Home + Garden",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -82,6 +84,7 @@ export const landscapingRc: CaseStudyData = {
         "Commercial campaign expansion — launched campaigns targeting specific verticals: HOA management, medical office parks, retail centers, and corporate campus properties",
         "Audience refinement — layered household income and property value targeting for residential; company size and industry for commercial",
         "AI search crawlability improvements for LLM placement in local landscaping recommendation queries",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
     {

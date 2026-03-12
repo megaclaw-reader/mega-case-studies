@@ -46,6 +46,7 @@ export const financialServicesCalifornia: CaseStudyData = {
         "Launched tightly segmented paid campaigns targeting high-intent financial planning queries with compliance-reviewed ad copy and aggressive negative keyword lists built from prior agency's wasted spend data",
         "Technical SEO overhaul — financial services schema, FAQ markup, advisor profile structured data, Core Web Vitals improvement from 31 to 82 mobile score",
         "Published first 8 educational articles: 'California capital gains tax strategies for 2025', 'Bay Area retirement cost calculator', 'choosing a fiduciary advisor in California'",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -60,6 +61,7 @@ export const financialServicesCalifornia: CaseStudyData = {
         "A/B tested landing page offers — 'complimentary portfolio analysis' outperformed 'free financial consultation' by 29% in conversion rate",
         "Built retargeting audiences from website visitors, educational content consumers, and partial form abandonments",
         "Implemented internal linking architecture connecting service pages, location pages, and educational content into topical authority clusters",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -73,6 +75,7 @@ export const financialServicesCalifornia: CaseStudyData = {
         "Launched seasonal Q1 tax planning campaign with 28% budget increase targeting high-income zip codes in Bay Area and Sacramento",
         "CRO improvements from session recording analysis — simplified consultation request form from 9 fields to 5, added advisor credential badges, implemented live chat during business hours",
         "Advanced audience segmentation based on net worth indicators, property ownership signals, and professional demographic targeting",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
     {

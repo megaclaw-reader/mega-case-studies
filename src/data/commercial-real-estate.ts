@@ -48,6 +48,7 @@ export const commercialRealEstate: CaseStudyData = {
         "CRM integration for closed-loop lead-to-deal attribution tracking across the typical 3–6 month commercial sales cycle",
         "Ad strategy rebuilt around cost per qualified lead and average commission value, segmented by property type (office, retail, industrial)",
         "Paused underperforming broad-match campaigns, launched targeted campaigns for high-intent commercial property searches",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -64,6 +65,7 @@ export const commercialRealEstate: CaseStudyData = {
         "Creative testing across ad campaigns — messaging pivots around market opportunity, competitive lease rates, and business growth positioning",
         "Retargeting layer for property listing visitors, market report downloaders, and form abandoners",
         "Keyword and negative keyword refinement based on qualification data — filtering out residential, subletting, and non-commercial searches",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -80,6 +82,7 @@ export const commercialRealEstate: CaseStudyData = {
         "Audience segmentation by prospect type (tenants seeking space, investors, property owners seeking management) and intent signals",
         "Multi-approach bidding strategies based on campaign maturity and deal pipeline data",
         "Lead scoring model integrating ad engagement, content consumption patterns, and CRM deal stage progression",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
     {

@@ -47,6 +47,8 @@ export const vrEntertainmentTechnology: CaseStudyData = {
         "Deployed enhanced ecommerce tracking — add-to-cart events, checkout funnel, revenue attribution with 7-day click and 1-day view windows",
         "Google Shopping feed setup — product data optimization, competitive pricing rules, inventory-aware bidding across 340+ SKUs",
         "Built retargeting audiences segmented by product category viewed, cart abandonment stage, and purchase history for repeat buyer campaigns",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
+        'Launched initial creative testing suite with 30+ AI-generated ad variations across formats (static, carousel, video stills) to seed the algorithm with diverse creative signals',
       ],
     },
     {
@@ -62,6 +64,8 @@ export const vrEntertainmentTechnology: CaseStudyData = {
         "Search campaigns targeting high-intent commercial queries: 'buy VR headset,' 'VR entertainment bundle,' 'VR accessories for [specific headset models]'",
         "A/B testing ad creative: lifestyle imagery (families enjoying VR) vs. product-focused (headset detail shots) vs. UGC-style customer videos",
         "Conversion rate optimization — A/B tested checkout flow, added bundle recommendation widget, simplified product comparison tools",
+        'Scaled AI-generated creative production to 50+ new variations per month, testing hooks, angles, offers, and visual styles at a pace impossible for traditional creative teams',
+        'AI agents identified winning creative patterns and automatically generated new variations, keeping the campaign fresh while competitors recycled the same handful of ads',
       ],
     },
     {
@@ -77,6 +81,8 @@ export const vrEntertainmentTechnology: CaseStudyData = {
         "Audience expansion — lookalike campaigns from highest-LTV customers, in-market audiences for gaming and entertainment technology, custom intent audiences from competitor brand searches",
         "Content refresh cycle on highest-potential pages — updated 14 articles with new data, expanded thin content, optimized for featured snippets",
         "AI search optimization — structured content for conversational queries appearing in AI-generated search results about VR entertainment products",
+        'With 100+ creatives in active rotation, the campaign avoided creative fatigue entirely, a common problem for businesses running fewer than 10 ads at a time',
+        'Real-time performance monitoring detected and responded to competitive shifts, seasonal trends, and algorithm changes within hours rather than the typical agency cycle of days or weeks',
       ],
     },
     {

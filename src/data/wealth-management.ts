@@ -47,6 +47,7 @@ export const wealthManagement: CaseStudyData = {
         "Launched initial paid campaigns targeting high-intent local searches with conservative daily budgets",
         "Technical SEO fixes — schema markup for financial services, site speed optimization, mobile UX improvements",
         "Published first 8 educational articles: retirement income strategies, tax-efficient investing, Social Security optimization",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -62,6 +63,7 @@ export const wealthManagement: CaseStudyData = {
         "Refined audience targeting using qualification data from initial leads",
         "Built retargeting audiences from website visitors and partial form completions",
         "Internal linking optimization to strengthen topical authority for core service pages",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -77,6 +79,7 @@ export const wealthManagement: CaseStudyData = {
         "Advanced audience segmentation based on lead quality and conversion patterns",
         "Implemented lead scoring system to prioritize high-probability prospects for advisor follow-up",
         "AI search optimization — structured content for featured snippets and knowledge panels",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
     {

@@ -48,6 +48,7 @@ export const mortgageBoutiqueSeo: CaseStudyData = {
         "Deployed call tracking with organic source attribution, rebuilt contact forms with loan-type routing, implemented analytics with conversion tracking",
         "Implemented schema markup — mortgage lender schema, loan product schema, FAQ schema, local business markup, and breadcrumb navigation",
         "Published first 4 blog articles — 'Complete Guide to Buying Your First Home in Charlotte,' 'FHA vs. Conventional Loans: Which is Right for You,' 'Understanding Charlotte's Housing Market in 2025,' 'VA Loan Benefits for North Carolina Veterans'",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -63,6 +64,7 @@ export const mortgageBoutiqueSeo: CaseStudyData = {
         "Backlink acquisition — guest contributions to Charlotte real estate blogs, NC housing publications, local business journals, and financial literacy organizations",
         "Internal linking optimization — connected all loan type pages, neighborhood pages, and blog content into tight topical clusters with strategic anchor text",
         "Began monthly 'Charlotte Housing Market Update' series — recurring content that builds topical authority and captures seasonal search interest",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -78,6 +80,7 @@ export const mortgageBoutiqueSeo: CaseStudyData = {
         "Video content strategy — loan officer Q&A sessions transcribed into blog content, creating dual-format assets that improved dwell time and engagement metrics",
         "Conversion rate optimization based on 6 months of lead data — identified that rate comparison content converted 3.2x higher than general guides, doubled output of rate-focused content",
         "Advanced technical optimization — implemented dynamic internal linking based on seasonal trends, refreshed all early content with updated rate information and market data",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
     {

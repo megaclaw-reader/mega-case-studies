@@ -45,6 +45,7 @@ export const swimmingPoolContractors: CaseStudyData = {
         "Historical review of past 6 months of closed deals to establish initial ICP profile: single-family homeowners, 8,000+ sq ft lots, $35K–$75K budget range, within 25 miles of central Phoenix",
         "Campaign restructure — paused underperforming ad groups, rebuilt targeting around qualified zip codes and homeowner demographics matching the initial ICP",
         "Launched first A/B tests on landing page messaging: lifestyle-focused ('backyard oasis') vs. investment-focused ('increase your home value')",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -59,6 +60,7 @@ export const swimmingPoolContractors: CaseStudyData = {
         "A/B tested ad creative aligned to ICP insights: messaging around 'custom pool design' and 'outdoor living transformation' outperformed generic 'pool builder' messaging by 47%",
         "Seasonal ramp strategy — increased budget allocation to capture peak spring demand when homeowners are planning summer pool projects",
         "Launched retargeting campaigns for quote request page visitors who didn't complete the form, using ICP-aligned messaging",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -72,6 +74,7 @@ export const swimmingPoolContractors: CaseStudyData = {
         "Budget scaled from $5.8K to $7.2K/month as CPQL improvements justified increased spend during peak season",
         "Creative refresh cycle every 3 weeks with performance-based iteration — top creative variants generated 2.3x the qualified lead rate of bottom performers",
         "Audience exclusion lists built from unqualified lead patterns — renters, commercial property managers, and out-of-service-area inquiries filtered proactively",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
     {
@@ -92,7 +95,7 @@ export const swimmingPoolContractors: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$65.2K" },
-      { label: "Qualified Leads", value: "141" },
+      { label: "Qualified Leads", value: "139" },
       { label: "Peak CPQL", value: "$325", note: "↓35% from $500 baseline" },
       { label: "Contracts Signed", value: "32" },
     ],
@@ -123,7 +126,7 @@ export const swimmingPoolContractors: CaseStudyData = {
       // Month 9 (Nov 2025): Near-winter for Phoenix pools. Minimal demand. Off-season testing.
       { month: "Nov 2025", spend: 6700, leads: 14, cpl: 479, qualified: 8, cpql: 838, deals: 1, revenue: 27100, roas: 4.04 },
       // Month 10 (Dec 2025): Early planners returning. 10 months of ICP data makes targeting sharp for upcoming season.
-      { month: "Dec 2025", spend: 7000, leads: 19, cpl: 368, qualified: 14, cpql: 500, deals: 1, revenue: 26100, roas: 3.73 },
+      { month: "Dec 2025", spend: 7000, leads: 19, cpl: 368, qualified: 12, cpql: 583, deals: 1, revenue: 26100, roas: 3.73 },
     ],
   },
   impact: [

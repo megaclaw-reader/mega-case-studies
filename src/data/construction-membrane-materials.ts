@@ -47,6 +47,7 @@ export const constructionMembraneMaterials: CaseStudyData = {
         "CRM integration for closed-loop attribution from ad engagement through RFQ submission to purchase order, accounting for 60-120 day B2B sales cycles",
         "Conversion tracking instrumented for RFQ forms, technical datasheet downloads, sample requests, and phone calls to inside sales",
         "Built segmented paid campaigns by product vertical and buyer persona — specification engineers vs. GC procurement vs. facility managers",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -63,6 +64,7 @@ export const constructionMembraneMaterials: CaseStudyData = {
         "Retargeting campaigns for specification sheet downloaders and RFQ page visitors who didn't convert — segmented by product interest",
         "Negative keyword refinement based on CRM data — filtering residential DIY queries, small-patch repairs, and non-commercial intent",
         "A/B testing on landing page layouts — technical specification-forward vs. project portfolio-forward messaging for different buyer personas",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -79,6 +81,7 @@ export const constructionMembraneMaterials: CaseStudyData = {
         "Audience segmentation refinement by project type (new construction vs. re-roofing vs. containment), estimated project size, and procurement timeline",
         "Multi-approach bidding strategies calibrated to product line margins and average order values from CRM data",
         "Lead scoring model integrating ad engagement patterns with CRM pipeline stage, RFQ value, and estimated material volume",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
     {

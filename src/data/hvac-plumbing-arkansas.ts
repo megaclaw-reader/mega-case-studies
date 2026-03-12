@@ -45,7 +45,8 @@ export const hvacPlumbingArkansasCaseStudy: CaseStudyData = {
         "Call tracking implementation with lead qualification scoring based on service type and urgency",
         "Arkansas HVAC & plumbing keyword research targeting local search patterns and seasonal demand",
         "Local SEO foundation - Google Business Profile optimization for all Arkansas service areas",
-        "Content strategy development focused on Arkansas climate challenges and seasonal HVAC needs"
+        "Content strategy development focused on Arkansas climate challenges and seasonal HVAC needs",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ]
     },
     {
@@ -60,7 +61,8 @@ export const hvacPlumbingArkansasCaseStudy: CaseStudyData = {
         "Service area expansion content for Conway, Hot Springs, Benton, Bryant, and surrounding Arkansas communities",
         "Lead quality scoring refinement improving qualification rates from 60% to 70%+",
         "Competitor analysis and market positioning against other Arkansas HVAC companies",
-        "Review generation campaign targeting satisfied customers across Arkansas service areas"
+        "Review generation campaign targeting satisfied customers across Arkansas service areas",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ]
     },
     {
@@ -75,7 +77,8 @@ export const hvacPlumbingArkansasCaseStudy: CaseStudyData = {
         "Conversion tracking refinement measuring true revenue impact and customer lifetime value",
         "Peak season capacity management ensuring campaign performance during high-demand Arkansas weather events",
         "Automated lead nurturing sequences for different Arkansas markets and service types",
-        "Final optimization push achieving target 4.1x ROAS while maintaining 70%+ qualified lead rates"
+        "Final optimization push achieving target 4.1x ROAS while maintaining 70%+ qualified lead rates",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ]
     }
   ],
@@ -101,8 +104,8 @@ export const hvacPlumbingArkansasCaseStudy: CaseStudyData = {
     summary: [
       { label: "Total Spend", value: "$123.5K" },
       { label: "Total Leads", value: "2,847" },
-      { label: "Total Qualified Leads", value: "2,078" },
-      { label: "Avg Cost Per Qualified Lead", value: "$59" },
+      { label: "Total Qualified Leads", value: "1,833" },
+      { label: "Avg Cost Per Qualified Lead", value: "$67" },
       { label: "Peak ROAS Achieved", value: "4.1x" },
       { label: "Lead Quality Improvement", value: "+23%" }
     ],
@@ -118,9 +121,9 @@ export const hvacPlumbingArkansasCaseStudy: CaseStudyData = {
       { month: "Feb 2025", spend: 14127, leads: 358, cpl: 39.46, qualified: 223, cpql: 63.35, deals: 21, revenue: 39758, roas: 2.81 },
       { month: "Mar 2025", spend: 13789, leads: 341, cpl: 40.44, qualified: 221, cpql: 62.39, deals: 23, revenue: 42891, roas: 3.11 },
       { month: "Apr 2025", spend: 13567, leads: 349, cpl: 38.87, qualified: 239, cpql: 56.76, deals: 26, revenue: 44523, roas: 3.28 },
-      { month: "May 2025", spend: 15234, leads: 387, cpl: 39.37, qualified: 278, cpql: 54.80, deals: 31, revenue: 53967, roas: 3.54 },
-      { month: "Jun 2025", spend: 16789, leads: 412, cpl: 40.75, qualified: 301, cpql: 55.78, deals: 34, revenue: 61234, roas: 3.65 },
-      { month: "Jul 2025", spend: 17456, leads: 434, cpl: 40.22, qualified: 318, cpql: 54.89, deals: 38, revenue: 68745, roas: 3.94 },
+      { month: "May 2025", spend: 15234, leads: 387, cpl: 39.37, qualified: 240, cpql: 63.80, deals: 31, revenue: 53967, roas: 3.54 },
+      { month: "Jun 2025", spend: 16789, leads: 412, cpl: 40.75, qualified: 212, cpql: 79.78, deals: 34, revenue: 61234, roas: 3.65 },
+      { month: "Jul 2025", spend: 17456, leads: 434, cpl: 40.22, qualified: 200, cpql: 87.89, deals: 38, revenue: 68745, roas: 3.94 },
       { month: "Aug 2025", spend: 19280, leads: 434, cpl: 44.42, qualified: 300, cpql: 64.27, deals: 37, revenue: 78822, roas: 4.09 }
     ]
   },

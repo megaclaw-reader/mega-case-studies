@@ -46,6 +46,8 @@ export const healthySnackBrand: CaseStudyData = {
         "Set up proper attribution tracking including first-touch and last-touch models, UTM parameter framework, and integration with the brand's ecommerce analytics",
         "Established a weekly reporting cadence with the client covering spend, sessions, add-to-carts, orders, revenue, ROAS, and AOV — full transparency from day one",
         "Budget kept intentionally low (~$5K) during testing phase to minimize waste while gathering enough data for the algorithms to begin optimizing",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
+        'Launched initial creative testing suite with 30+ AI-generated ad variations across formats (static, carousel, video stills) to seed the algorithm with diverse creative signals',
       ],
     },
     {
@@ -61,6 +63,8 @@ export const healthySnackBrand: CaseStudyData = {
         "Optimized landing pages for ad traffic: simplified the path from ad click to purchase, added trust signals (reviews, certifications, ingredient transparency), and tested subscription vs. one-time purchase emphasis",
         "Built a cart abandonment retargeting sequence with escalating incentives — reminder, then free shipping offer, then small discount — recovering an estimated 12% of abandoned carts",
         "Gradually increased budget as ROAS improved, moving from test-phase spending to confident scaling based on proven audience and creative combinations",
+        'Scaled AI-generated creative production to 50+ new variations per month, testing hooks, angles, offers, and visual styles at a pace impossible for traditional creative teams',
+        'AI agents identified winning creative patterns and automatically generated new variations, keeping the campaign fresh while competitors recycled the same handful of ads',
       ],
     },
     {
@@ -76,6 +80,8 @@ export const healthySnackBrand: CaseStudyData = {
         "Expanded creative library with customer review highlights, before/after subscription stories, and educational content about ingredient sourcing — building brand trust through ads",
         "Cross-sell campaigns targeting existing one-time buyers with subscription offers — converting single purchasers into recurring revenue at a fraction of new customer acquisition cost",
         "By month 5, campaigns were running at 3.6x ROAS with a stable and repeatable framework — the brand had gone from zero ads to a profitable, scalable paid advertising engine",
+        'With 100+ creatives in active rotation, the campaign avoided creative fatigue entirely, a common problem for businesses running fewer than 10 ads at a time',
+        'Real-time performance monitoring detected and responded to competitive shifts, seasonal trends, and algorithm changes within hours rather than the typical agency cycle of days or weeks',
       ],
     },
   ],

@@ -46,6 +46,7 @@ export const solarPhoenix: CaseStudyData = {
         "Created dedicated landing pages for residential vs. commercial solar with qualification questions built into the form flow, filtering out non-qualifying prospects before they consumed sales bandwidth",
         "Competitor analysis across the Arizona solar market — mapped national installer pricing, local competitor positioning, and identified underserved segments including commercial properties and new construction",
         "Built initial negative keyword lists targeting DIY solar, solar panel cleaning, solar farm investment, and other non-installation queries that were draining budget",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -61,6 +62,7 @@ export const solarPhoenix: CaseStudyData = {
         "Rapid creative testing cycle — messaging pivots around federal tax credits, Arizona-specific utility savings, battery backup for grid outages, and 25-year warranty coverage",
         "Retargeting campaigns for high-intent visitors who started but didn't complete the qualification form — serving them testimonial-driven creative featuring Arizona homeowners with similar properties",
         "Weekly CPQL reporting by campaign, audience segment, and creative variation — identifying the specific combinations producing consultations at the lowest cost",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -75,6 +77,7 @@ export const solarPhoenix: CaseStudyData = {
         "Conversion rate optimization on landing pages — simplified the qualification form from 8 fields to 5, added instant savings calculator, and implemented click-to-call with estimated wait times",
         "Built lookalike audiences from the highest-value closed installations, weighted toward homeowners who completed the full journey from consultation to signed contract in under 14 days",
         "Multi-approach creative strategy testing video testimonials, before/after utility bill comparisons, and neighborhood social proof showing clusters of installations on the same street",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
     {

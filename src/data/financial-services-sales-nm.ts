@@ -45,6 +45,7 @@ export const financialServicesSalesNm: CaseStudyData = {
         "Launched tightly segmented paid campaigns targeting high-intent financial planning queries with compliance-reviewed ad copy and aggressive negative keyword lists filtering out job seekers, students, and DIY investors",
         "Created audience segments based on household income indicators, property ownership signals, age demographics (45-70), and professional affiliation targeting across New Mexico metro areas",
         "Streamlined landing page forms from 11 fields to 5 essential qualifiers including estimated investable assets — conversion rate jumped to 4.7% within the first two weeks",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -58,6 +59,7 @@ export const financialServicesSalesNm: CaseStudyData = {
         "A/B tested landing page positioning — 'complimentary portfolio review with a certified planner' outperformed 'free financial consultation' by 34% in qualified lead conversion rate",
         "Implemented a lead qualification phone screen within 15 minutes of form submission — reduced no-show rate for initial consultations from 38% to 12%",
         "Expanded geographic targeting from Albuquerque-only to include Santa Fe, Rio Rancho, and Las Cruces corridors based on emerging wealth migration patterns in New Mexico",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -71,6 +73,7 @@ export const financialServicesSalesNm: CaseStudyData = {
         "Implemented advanced bid strategies with time-of-day and day-of-week modifiers based on when qualified prospects were most likely to convert (Tuesday-Thursday, 9am-2pm performed 67% above average)",
         "Built dedicated campaigns for estate planning targeting New Mexico residents aged 55+ with property ownership signals",
         "Added video testimonial assets to display campaigns — cost per qualified lead from video campaigns was 28% lower than static image campaigns",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
     {

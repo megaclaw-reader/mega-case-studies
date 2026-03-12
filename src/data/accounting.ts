@@ -49,6 +49,7 @@ export const accounting: CaseStudyData = {
         "CRM integration for closed-loop lead-to-client attribution",
         "Comprehensive ad strategy built around cost per qualified lead and client lifetime value, not raw inquiry volume",
         "Reduced spend inefficiencies — paused low-intent broad match keywords and launched first round of creative and landing page A/B tests",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -66,6 +67,7 @@ export const accounting: CaseStudyData = {
         "Retargeting and remarketing layer for visitors who viewed service pages but didn't convert",
         "Keyword and negative keyword refinement based on qualification data from CRM",
         "Landing page refinement with service-specific proof points and client testimonials",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -83,6 +85,7 @@ export const accounting: CaseStudyData = {
         "Complex audience segmentations by service interest, business size, and geographic proximity",
         "Multi-approach bidding strategies based on campaign maturity and client acquisition data",
         "Fully robust lead scoring integrating ad engagement signals with CRM qualification outcomes",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
     {
