@@ -80,7 +80,7 @@ export const ecommerceAthletic: CaseStudyData = {
         "Creative testing at scale during high-traffic periods: ran 34 unique ad variations across gender, product, and funnel stage combinations",
         "End-of-season clearance campaigns for transitional inventory — summer styles at deep discounts to clear stock and fund spring buying",
         "End-of-campaign performance analysis and audience asset documentation for continued scaling beyond the engagement",
-        'With 100+ creatives in active rotation, the campaign avoided creative fatigue entirely, a common problem for businesses running fewer than 10 ads at a time',
+        'With 80+ creatives in active rotation, the campaign eliminated creative fatigue entirely as new AI-generated variations replaced underperformers daily',
         'Real-time performance monitoring detected and responded to competitive shifts, seasonal trends, and algorithm changes within hours rather than the typical agency cycle of days or weeks',
       ],
     },

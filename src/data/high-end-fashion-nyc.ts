@@ -85,7 +85,7 @@ export const highEndFashionNyc: CaseStudyData = {
         "Advanced schema markup across gift guide pages, seasonal landing pages, and product collections for enhanced search visibility during peak shopping period",
         "Dynamic remarketing campaigns showing specific products viewed with 'still available' and 'selling fast' urgency messaging",
         "Post-holiday strategy: January clearance campaigns for seasonal inventory, spring collection teaser content, and loyalty campaigns for Q4 first-time buyers",
-        'With 100+ creatives in active rotation, the campaign avoided creative fatigue entirely, a common problem for businesses running fewer than 10 ads at a time',
+        'With 80+ creatives in active rotation, the campaign eliminated creative fatigue entirely as new AI-generated variations replaced underperformers daily',
         'Real-time performance monitoring detected and responded to competitive shifts, seasonal trends, and algorithm changes within hours rather than the typical agency cycle of days or weeks',
       ],
     },

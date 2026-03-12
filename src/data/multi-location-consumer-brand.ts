@@ -77,7 +77,7 @@ export const multiLocationConsumerBrand: CaseStudyData = {
         "Deployed automated performance anomaly detection — the system identified and flagged unusual market-level performance shifts within hours, enabling response before efficiency degradation materialized",
         "Full system stress-tested during peak spend periods — the infrastructure maintained ROAS floors even at maximum daily spend levels, validating the scalability thesis across the entire spend range",
         "Our AI-powered systems scale based on data density and performance signals — not industry specialization. The infrastructure built for this engagement is designed to be transferable across any multi-location brand facing the same scaling complexity.",
-        'With 100+ creatives in active rotation, the campaign avoided creative fatigue entirely, a common problem for businesses running fewer than 10 ads at a time',
+        'With 80+ creatives in active rotation, the campaign eliminated creative fatigue entirely as new AI-generated variations replaced underperformers daily',
         'Real-time performance monitoring detected and responded to competitive shifts, seasonal trends, and algorithm changes within hours rather than the typical agency cycle of days or weeks',
       ],
     },

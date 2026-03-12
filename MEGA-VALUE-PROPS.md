@@ -24,20 +24,37 @@ Traditional agencies review campaign performance weekly, biweekly, or monthly. M
 
 ---
 
-### 2. Creative Volume Strategy (Especially for Meta/Ecom)
+### 2. Creative Strategy — AI-Powered, Budget-Appropriate
 
-Meta is a creative-intensive platform. The winning strategy isn't 3-4 perfect creatives — it's 100+ good-enough creatives that keep the feed fresh and let the algorithm find winners. MEGA's AI generates creative at scale.
+Meta is a creative-intensive platform. Agencies charge $500-$2K per creative, so a $5K client gets 3-4 ads and that's it. With MEGA, AI generates creative at zero marginal cost — so 100% of the budget goes to media spend, and the client gets MORE creative variety than they'd get from an agency charging twice as much.
 
-**How to integrate:**
-- Phase 1: "Launched initial creative testing with 30+ ad variations — AI-generated copy, headlines, and visual treatments across multiple formats (static, carousel, video stills) to seed the algorithm with diverse creative signals"
-- Phase 2: "Scaled creative production to 50+ new variations per month — testing hooks, angles, offers, and visual styles at a pace impossible for traditional creative teams. The AI creative engine produces more volume in a week than most agencies produce in a quarter"
-- Phase 3+: "With 100+ creatives in rotation, the campaign never experienced creative fatigue. The algorithm continuously had fresh material to test against new audience segments, while AI identified winning patterns and generated new variations based on top performers"
+**The key insight: it's not about flooding the algorithm with 100 creatives at every budget level.** It's that AI creative eliminates production costs, so clients get more variety AND more media spend.
 
-**Key insight for case studies:**
-- Meta's algorithm needs VOLUME to optimize. More creatives = more data points = better optimization
-- It's not about having 3-4 award-winning ads — it's about having 100 that are good enough and letting the algorithm sort them
-- AI-generated creative makes this economically viable (agencies charge $500-$2K per creative — at 100/month that's $50K-$200K/month in creative costs alone)
-- **Only mention creative volume for Meta/social campaigns.** For Google/search-heavy campaigns, focus on keyword coverage and bid optimization instead.
+**SCALE CREATIVE VOLUME WITH BUDGET — THIS IS NON-NEGOTIABLE:**
+
+| Monthly Budget | Creative Variations | Active Testing | The Real Advantage |
+|---|---|---|---|
+| $5-8K | 10-15 variations | 3-4 at a time | Agency would give you 3-4 total AND charge $1-2K for them. With MEGA, all $5K is media spend + 3-4x the creative variety |
+| $10-20K | 20-30 variations | 5-8 at a time | Enough to test hooks, angles, and formats. Rotate winners weekly. Faster learning than agency monthly creative refreshes |
+| $20-50K | 40-60 variations | 8-15 at a time | Real creative diversity. Multiple audience segments get tailored creative. Algorithm has enough data to optimize meaningfully |
+| $50K+ | 80-120+ variations | 15-25 at a time | Full-scale creative testing. New variations daily. Creative fatigue is impossible |
+
+**How to integrate in strategy sections:**
+
+For $5-10K budgets:
+- Phase 1: "Launched with 10-15 AI-generated creative variations across formats, giving the algorithm 3-4x more creative diversity than a traditional agency would produce at this budget level — with zero production costs eating into media spend"
+- Phase 2: "Rotated in fresh creative weekly based on performance data, replacing underperformers within days rather than the typical agency cycle of monthly creative refreshes"
+
+For $15-30K budgets:
+- Phase 1: "Launched initial creative testing with 20-25 AI-generated ad variations across formats (static, carousel, short video) to establish performance baselines across multiple hooks and angles"
+- Phase 2: "Scaled to 30+ active variations per month, with AI identifying winning patterns and generating new iterations — keeping creative fresh at a pace that would require a dedicated design team"
+
+For $30K+ budgets:
+- Phase 1: "Launched with 30+ creative variations across formats, seeding the algorithm with diverse signals from day one"
+- Phase 2: "Scaled creative production to 50+ new variations per month, testing hooks, angles, and visual styles simultaneously across audience segments"
+- Phase 3: "With 80+ creatives in active rotation, the campaign eliminated creative fatigue entirely — new AI-generated variations replaced underperformers daily"
+
+**Only mention creative volume for Meta/social campaigns.** For Google/search-heavy campaigns, focus on keyword coverage, bid optimization, and landing page testing instead.
 
 ---
 

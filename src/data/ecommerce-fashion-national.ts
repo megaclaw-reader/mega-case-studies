@@ -80,7 +80,7 @@ export const ecommerceFashionNational: CaseStudyData = {
         "Post-holiday optimization: January clearance campaigns, New Year sustainable wardrobe refresh messaging, and spring preview content to maintain momentum",
         "Customer lifecycle campaigns targeting different purchase stages: new sustainable fashion converts, repeat ethical shoppers, and lapsed customers with values-based win-back messaging",
         "Continuous audience expansion testing with lookalike audiences based on high-LTV customers who prioritize sustainability and ethical fashion practices",
-        'With 100+ creatives in active rotation, the campaign avoided creative fatigue entirely, a common problem for businesses running fewer than 10 ads at a time',
+        'With 80+ creatives in active rotation, the campaign eliminated creative fatigue entirely as new AI-generated variations replaced underperformers daily',
         'Real-time performance monitoring detected and responded to competitive shifts, seasonal trends, and algorithm changes within hours rather than the typical agency cycle of days or weeks',
       ],
     },

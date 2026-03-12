@@ -26,19 +26,11 @@ PHASE1_LEADGEN = [
     "Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence",
 ]
 
-PHASE1_ECOM = [
-    "Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence",
-    "Launched initial creative testing suite with 30+ AI-generated ad variations across formats (static, carousel, video stills) to seed the algorithm with diverse creative signals",
-]
+# Ecom creative props are set dynamically based on budget in get_ecom_props()
 
 # Value props for Phase 2
 PHASE2_LEADGEN = [
     "AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains",
-]
-
-PHASE2_ECOM = [
-    "Scaled AI-generated creative production to 50+ new variations per month, testing hooks, angles, offers, and visual styles at a pace impossible for traditional creative teams",
-    "AI agents identified winning creative patterns and automatically generated new variations, keeping the campaign fresh while competitors recycled the same handful of ads",
 ]
 
 # Value props for Phase 3+
@@ -46,10 +38,65 @@ PHASE3_LEADGEN = [
     "Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles",
 ]
 
-PHASE3_ECOM = [
-    "With 100+ creatives in active rotation, the campaign avoided creative fatigue entirely, a common problem for businesses running fewer than 10 ads at a time",
-    "Real-time performance monitoring detected and responded to competitive shifts, seasonal trends, and algorithm changes within hours rather than the typical agency cycle of days or weeks",
-]
+
+def get_avg_monthly_spend(content):
+    """Extract average monthly spend from paid ads data."""
+    paid_section = re.search(r'paidAds:\s*\{', content)
+    if not paid_section:
+        return 10000  # Default assumption
+    paid_content = content[paid_section.start():]
+    spends = re.findall(r'spend:\s*(\d+)', paid_content)
+    if spends:
+        return sum(int(s) for s in spends) / len(spends)
+    return 10000
+
+
+def get_ecom_props(content):
+    """Get budget-appropriate creative volume props for ecom."""
+    avg_spend = get_avg_monthly_spend(content)
+    
+    if avg_spend < 10000:
+        # $5-10K range
+        p1 = [
+            "Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence",
+            "Launched with 10-15 AI-generated creative variations across formats, giving the algorithm 3-4x more creative diversity than a traditional agency would produce at this budget level, with zero production costs eating into media spend",
+        ]
+        p2 = [
+            "Rotated in fresh AI-generated creative weekly based on performance data, replacing underperformers within days rather than the typical agency cycle of monthly creative refreshes",
+            "AI agents identified winning creative patterns and generated new iterations automatically, keeping the campaign fresh without the production costs that would consume a significant portion of the budget at a traditional agency",
+        ]
+        p3 = [
+            "Continuous AI optimization compounded daily improvements while the zero-cost creative engine ensured the campaign never went stale, delivering creative variety that would cost $2-3K per month in agency production fees",
+        ]
+    elif avg_spend < 25000:
+        # $10-25K range
+        p1 = [
+            "Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence",
+            "Launched initial creative testing with 20-25 AI-generated ad variations across formats (static, carousel, short video) to establish performance baselines across multiple hooks and angles",
+        ]
+        p2 = [
+            "Scaled to 30+ active creative variations per month, with AI identifying winning patterns and generating new iterations at a pace that would require a dedicated design team at a traditional agency",
+            "AI agents identified winning creative patterns and automatically generated new variations, keeping the campaign fresh while competitors recycled the same handful of ads",
+        ]
+        p3 = [
+            "With 40+ creatives in active rotation, the campaign avoided creative fatigue while AI-driven optimization compounded daily improvements across bid management, audience targeting, and budget allocation",
+        ]
+    else:
+        # $25K+ range
+        p1 = [
+            "Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence",
+            "Launched initial creative testing suite with 30+ AI-generated ad variations across formats (static, carousel, video) to seed the algorithm with diverse creative signals from day one",
+        ]
+        p2 = [
+            "Scaled AI-generated creative production to 50+ new variations per month, testing hooks, angles, offers, and visual styles simultaneously across audience segments",
+            "AI agents identified winning creative patterns and automatically generated new variations, keeping the campaign fresh while competitors recycled the same handful of ads",
+        ]
+        p3 = [
+            "With 80+ creatives in active rotation, the campaign eliminated creative fatigue entirely, new AI-generated variations replaced underperformers daily while the algorithm continuously optimized delivery",
+            "Real-time performance monitoring detected and responded to competitive shifts, seasonal trends, and algorithm changes within hours rather than the typical agency cycle of days or weeks",
+        ]
+    
+    return p1, p2, p3
 
 
 def is_ecom(content):
@@ -62,11 +109,17 @@ def is_ecom(content):
     return False
 
 
-def has_value_props(content):
+def has_value_props(content, force_ecom_update=False):
     """Check if file already has value prop language."""
     content_lower = content.lower()
     matches = sum(1 for marker in ALREADY_HAS if marker.lower() in content_lower)
-    return matches >= 2  # Need at least 2 markers to consider it already done
+    if matches >= 2:
+        # Check if it has the OLD non-budget-aware ecom props that need updating
+        if force_ecom_update and is_ecom(content):
+            if '30+ ai-generated ad variations' in content_lower or '100+ creatives in active rotation' in content_lower:
+                return False  # Force re-injection with budget-aware props
+        return True
+    return False
 
 
 def find_items_array(content, start_pos):
@@ -149,16 +202,18 @@ def process_file(filepath, dry_run=False):
     original = content
     ecom = is_ecom(content)
     
-    # Inject into phases
-    p1_items = PHASE1_ECOM if ecom else PHASE1_LEADGEN
-    p2_items = PHASE2_ECOM if ecom else PHASE2_LEADGEN
+    if ecom:
+        p1_items, p2_items, p3_items = get_ecom_props(content)
+    else:
+        p1_items = PHASE1_LEADGEN
+        p2_items = PHASE2_LEADGEN
+        p3_items = PHASE3_LEADGEN
     
     content = inject_into_phase(content, 1, p1_items)
     content = inject_into_phase(content, 2, p2_items)
     
     # Try Phase 3 if it exists
     if re.search(r'phase:\s*3', content):
-        p3_items = PHASE3_ECOM if ecom else PHASE3_LEADGEN
         content = inject_into_phase(content, 3, p3_items)
     
     if content != original:

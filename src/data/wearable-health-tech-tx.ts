@@ -81,7 +81,7 @@ export const wearableHealthTechTx: CaseStudyData = {
         "Advanced value-based bidding using subscriber LTV data — campaigns optimizing for predicted 12-month subscription value rather than device purchase price, dramatically improving acquisition efficiency at scale",
         "MRR tracking dashboard — real-time visibility into monthly recurring revenue by acquisition channel, enabling the team to see that organic subscribers retained 23% longer than paid subscribers",
         "End-of-engagement performance documentation and strategic roadmap for scaling to $100K+ monthly ad spend while maintaining 4x+ ROAS through 2026",
-        'With 100+ creatives in active rotation, the campaign avoided creative fatigue entirely, a common problem for businesses running fewer than 10 ads at a time',
+        'With 80+ creatives in active rotation, the campaign eliminated creative fatigue entirely as new AI-generated variations replaced underperformers daily',
         'Real-time performance monitoring detected and responded to competitive shifts, seasonal trends, and algorithm changes within hours rather than the typical agency cycle of days or weeks',
       ],
     },

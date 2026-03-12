@@ -80,7 +80,7 @@ export const ecommerceAthleticApparel: CaseStudyData = {
         "Post-Black Friday retention campaigns: thank-you sequences, review solicitation, and January preview teasers to maintain momentum into New Year's resolution season",
         "Inventory-aware campaign management — real-time pausing of ads for sizes and styles running low, reallocation to overstocked items",
         "End-of-engagement performance review and handoff documentation for continued optimization",
-        'With 100+ creatives in active rotation, the campaign avoided creative fatigue entirely, a common problem for businesses running fewer than 10 ads at a time',
+        'With 80+ creatives in active rotation, the campaign eliminated creative fatigue entirely as new AI-generated variations replaced underperformers daily',
         'Real-time performance monitoring detected and responded to competitive shifts, seasonal trends, and algorithm changes within hours rather than the typical agency cycle of days or weeks',
       ],
     },

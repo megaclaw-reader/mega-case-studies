@@ -46,6 +46,7 @@ export const selfImprovementSubscriptionNA: CaseStudyData = {
         "Created optimized landing pages aligned with wellness trends and seasonal patterns",
         "Implemented automated bid adjustments based on real-time cost per acquisition and lifetime value calculations",
         "Launched initial round of video creative featuring authentic user success stories and guided meditation previews",
+        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ],
     },
     {
@@ -60,6 +61,7 @@ export const selfImprovementSubscriptionNA: CaseStudyData = {
         "Added retargeting campaigns for trial users who didn't convert, with personalized messaging based on in-app behavior",
         "Introduced seasonal creative themes aligned with wellness trends (New Year resolutions, spring wellness, back-to-school stress)",
         "Set up automated competitive intelligence monitoring to adjust messaging and positioning in real-time",
+        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
       ],
     },
     {
@@ -74,6 +76,7 @@ export const selfImprovementSubscriptionNA: CaseStudyData = {
         "Added video testimonial campaigns featuring real users to build credibility and trust",
         "Integrated subscription upgrade campaigns targeting existing free trial users with premium feature highlights",
         "Deployed automated day-of-week and time-of-day bid adjustments based on user behavior patterns",
+        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
       ],
     },
     {
