@@ -83,6 +83,7 @@ import { constructionMembraneMaterials } from "./construction-membrane-materials
 import { roofingHouston } from "./roofing-houston";
 import { windowsNj } from "./windows-nj";
 import { commercialInsuranceNy } from "./commercial-insurance-ny";
+import { equipmentFinancingBoston } from "./equipment-financing-boston";
 import { commercialConstructionTx } from "./commercial-construction-tx";
 import { roofingNewMexico } from "./roofing-new-mexico";
 import { telehealthArizona } from "./telehealth-arizona";
@@ -208,6 +209,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "roofing-houston": roofingHouston,
   "windows-nj": windowsNj,
   "commercial-insurance-ny": commercialInsuranceNy,
+  "equipment-financing-boston": equipmentFinancingBoston,
   "commercial-construction-tx": commercialConstructionTx,
   "roofing-new-mexico": roofingNewMexico,
   "telehealth-arizona": telehealthArizona,
