@@ -4,7 +4,7 @@ export const sustainableLuxuryStartup: CaseStudyData = {
   slug: "sustainable-luxury-startup",
   industry: "Sustainable Luxury Startup",
   headline: "How a Sustainable Luxury Startup Generated $427K Revenue and 5.2x ROAS in Their First Year",
-  subheadline: "MEGA helped Verde Luxe grow from a startup idea into a thriving sustainable luxury brand, generating 1,500 orders and building a loyal customer base of conscious luxury consumers across the U.S. through AI-powered ecommerce marketing.",
+  subheadline: "MEGA helped this sustainable luxury startup grow from an early-stage brand into a thriving ecommerce business, generating 1,500 orders and building a loyal customer base of conscious luxury consumers across the U.S. through AI-powered marketing.",
   heroStats: [
     { value: "5.2", unit: "x", label: "Blended ROAS" },
     { value: "1,500", unit: "", label: "Total Orders" },
@@ -16,20 +16,20 @@ export const sustainableLuxuryStartup: CaseStudyData = {
     employees: "3",
     revenue: "Startup",
     location: "National",
-    description: "Verde Luxe is a sustainable luxury startup specializing in ethically-sourced jewelry and eco-friendly home goods. Founded by Sarah Chen, a former fashion industry executive passionate about environmental responsibility, the company was created to prove that luxury and sustainability aren't mutually exclusive. With a curated collection of jewelry made from recycled precious metals and lab-grown gems, plus home decor items crafted from sustainable materials, Verde Luxe targets conscious luxury consumers who value both quality and ethical sourcing. As a new brand in the competitive luxury space, they needed to build trust with high-value customers while educating the market about their sustainable practices and competing against established luxury brands with significantly larger marketing budgets.",
+    description: "This client is a sustainable luxury startup specializing in ethically-sourced jewelry and eco-friendly home goods. Founded by an entrepreneur passionate about environmental responsibility, the company was created to prove that luxury and sustainability aren't mutually exclusive. With a curated collection of jewelry made from recycled precious metals and lab-grown gems, plus home decor items crafted from sustainable materials, they target conscious luxury consumers who value both quality and ethical sourcing. As a new brand in the competitive luxury space, they needed to build trust with high-value customers while educating the market about their sustainable practices and competing against established luxury brands with significantly larger marketing budgets.",
   },
   challenges: [
     {
       title: "New Brand in Competitive Luxury Market",
-      description: "As a startup with no brand recognition, Verde Luxe faced the challenge of competing against established luxury brands with decades of heritage and massive marketing budgets. They needed to build trust and credibility with discerning luxury customers who expect quality, craftsmanship, and brand reputation before making high-value purchases. Without customer testimonials or brand legacy to lean on, every marketing dollar needed to work harder to establish legitimacy in the sustainable luxury space.",
+      description: "As a startup with no brand recognition, this client faced the challenge of competing against established luxury brands with decades of heritage and massive marketing budgets. They needed to build trust and credibility with discerning luxury customers who expect quality, craftsmanship, and brand reputation before making high-value purchases. Without customer testimonials or brand legacy to lean on, every marketing dollar needed to work harder to establish legitimacy in the sustainable luxury space.",
     },
     {
       title: "Educating Customers About Sustainable Luxury",
-      description: "Many luxury consumers weren't familiar with sustainable practices in the luxury goods industry. Verde Luxe needed to educate potential customers about their sustainable sourcing story, explain the value of recycled precious metals and lab-grown gems, and position these innovations as premium choices rather than compromises. This required sophisticated content marketing and longer customer journeys compared to traditional luxury brands that could rely on established desirability.",
+      description: "Many luxury consumers weren't familiar with sustainable practices in the luxury goods industry. the client needed to educate potential customers about their sustainable sourcing story, explain the value of recycled precious metals and lab-grown gems, and position these innovations as premium choices rather than compromises. This required sophisticated content marketing and longer customer journeys compared to traditional luxury brands that could rely on established desirability.",
     },
     {
       title: "Limited Budget Competing Against Established Players",
-      description: "With only $7,000 per month in marketing budget, Verde Luxe needed to compete for the same high-intent luxury shopping keywords as brands spending 10-20x more on advertising. Traditional agency approaches would have eaten into their budget with high creative production costs and lengthy optimization cycles, leaving insufficient funds for media spend against well-funded competitors already dominating the luxury ecommerce space.",
+      description: "With only $7,000 per month in marketing budget, the client needed to compete for the same high-intent luxury shopping keywords as brands spending 10-20x more on advertising. Traditional agency approaches would have eaten into their budget with high creative production costs and lengthy optimization cycles, leaving insufficient funds for media spend against well-funded competitors already dominating the luxury ecommerce space.",
     },
   ],
   strategy: [
