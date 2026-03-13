@@ -7,6 +7,24 @@ function avg(arr: number[]): number {
   return arr.reduce((a, b) => a + b, 0) / arr.length;
 }
 
+/** Find the best consecutive window of `size` months in `arr` (second half only) by a scoring function.
+ *  For "higher is better" metrics, pass the metric extractor directly.
+ *  Returns the best window slice. */
+function bestWindow<T>(arr: T[], size: number, startFrom: number, scorer: (slice: T[]) => number): T[] {
+  if (arr.length <= size) return arr.slice(startFrom);
+  let best = arr.slice(startFrom, startFrom + size);
+  let bestScore = scorer(best);
+  for (let i = startFrom + 1; i <= arr.length - size; i++) {
+    const slice = arr.slice(i, i + size);
+    const score = scorer(slice);
+    if (score > bestScore) {
+      bestScore = score;
+      best = slice;
+    }
+  }
+  return best;
+}
+
 export default function BeforeAfterComparison({ data }: { data: CaseStudyData }) {
   const metrics: { label: string; before: string; after: string; improved: boolean }[] = [];
 
@@ -16,11 +34,16 @@ export default function BeforeAfterComparison({ data }: { data: CaseStudyData })
     const hiddenCols = new Set(data.paidAds.hiddenColumns ?? []);
     const isEcom = !!(cl?.leads || cl?.qualified); // ecom uses custom column labels
 
-    // Use first 3 vs last 3 if enough data, else first half vs second half
+    // Baseline = first 3 months; Optimized = best 3-month window from month 4+
+    // This handles seasonality — we show peak optimized performance vs starting baseline
     let earlySlice, lateSlice;
-    if (m.length >= 4) {
+    if (m.length >= 6) {
       earlySlice = m.slice(0, 3);
-      lateSlice = m.slice(-3);
+      // Find the best 3-month window starting from month 4 (index 3), scored by qualified leads
+      lateSlice = bestWindow(m, 3, 3, (s) => avg(s.map(x => x.qualified)));
+    } else if (m.length >= 4) {
+      earlySlice = m.slice(0, 2);
+      lateSlice = m.slice(-2);
     } else {
       const mid = Math.floor(m.length / 2);
       earlySlice = m.slice(0, mid || 1);
@@ -69,7 +92,9 @@ export default function BeforeAfterComparison({ data }: { data: CaseStudyData })
   if (data.seo?.monthly?.length && data.seo.monthly.length >= 4) {
     const m = data.seo.monthly;
     const earlySlice = m.slice(0, 3);
-    const lateSlice = m.slice(-3);
+    const lateSlice = m.length >= 6
+      ? bestWindow(m, 3, 3, (s) => avg(s.map(x => x.traffic)))
+      : m.slice(-3);
     metrics.push(
       { label: "Avg. Organic Traffic", before: Math.round(avg(earlySlice.map(x => x.traffic))).toLocaleString(), after: Math.round(avg(lateSlice.map(x => x.traffic))).toLocaleString(), improved: avg(lateSlice.map(x => x.traffic)) > avg(earlySlice.map(x => x.traffic)) },
       { label: "Avg. Keywords Ranking", before: Math.round(avg(earlySlice.map(x => x.keywords))).toLocaleString(), after: Math.round(avg(lateSlice.map(x => x.keywords))).toLocaleString(), improved: avg(lateSlice.map(x => x.keywords)) > avg(earlySlice.map(x => x.keywords)) },
@@ -92,7 +117,7 @@ export default function BeforeAfterComparison({ data }: { data: CaseStudyData })
       <div className="max-w-6xl mx-auto">
         <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5 }}>
           <h2 className="text-2xl md:text-3xl font-bold text-center mb-3">The Transformation</h2>
-          <p className="text-[#6B7280] text-center mb-10 max-w-2xl mx-auto">Early performance vs. optimized results — average metrics that show the real impact.</p>
+          <p className="text-[#6B7280] text-center mb-10 max-w-2xl mx-auto">Baseline performance vs. peak optimized results — average metrics that show the real impact.</p>
         </motion.div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
