@@ -3,11 +3,11 @@ import { CaseStudyData } from "./types";
 export const sustainableLuxuryStartup: CaseStudyData = {
   slug: "sustainable-luxury-startup",
   industry: "Sustainable Luxury Startup",
-  headline: "How a Sustainable Luxury Startup Generated $427K Revenue and 5.2x ROAS in Their First Year",
+  headline: "How a Sustainable Luxury Startup Generated $427.9K Revenue and 5.2x ROAS in Their First Year",
   subheadline: "MEGA helped this sustainable luxury startup grow from an early-stage brand into a thriving ecommerce business, generating 1,500 orders and building a loyal customer base of conscious luxury consumers across the U.S. through AI-powered marketing.",
   heroStats: [
     { value: "5.2", unit: "x", label: "Blended ROAS" },
-    { value: "1,500", unit: "", label: "Total Orders" },
+    { value: "1500", unit: "", label: "Total Orders" },
     { value: "$285", unit: "", label: "Average Order Value" },
   ],
   tags: ["Ecommerce", "Paid Advertising", "SEO", "National", "Sustainable Luxury"],
@@ -74,9 +74,9 @@ export const sustainableLuxuryStartup: CaseStudyData = {
     }
   ],
   impact: [
-    { label: "Total Revenue", value: "$427,864", growth: "From $0" },
-    { label: "Blended ROAS", value: "5.2x", growth: "Profitable from month 2" },
-    { label: "Average Order Value", value: "$285", growth: "Premium positioning" },
+    { label: "Total Revenue", value: "$427.9K", growth: "From $0" },
+    { label: "Blended ROAS", value: "5.22x", growth: "Profitable from month 2" },
+    { label: "Average Order Value", value: "1,500", growth: "Premium positioning" },
     { label: "Total Orders", value: "1,500", growth: "Across all 50 states" },
     { label: "Email Subscribers", value: "12,000+", growth: "Engaged customer base" },
     { label: "Organic Sessions (Month 12)", value: "6,300", growth: "2,800% growth" },
@@ -106,8 +106,8 @@ export const sustainableLuxuryStartup: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Revenue", value: "$427,864", note: "Direct attribution" },
-      { label: "Total Ad Spend", value: "$82,000", note: "12-month investment" },
-      { label: "Blended ROAS", value: "5.2x", note: "Profitable from month 2" },
+      { label: "Total Ad Spend", value: "$82K", note: "12-month investment" },
+      { label: "Blended ROAS", value: "5.22x", note: "Profitable from month 2" },
       { label: "Total Orders", value: "1,500", note: "Average $285 AOV" },
       { label: "Total Sessions", value: "42,425", note: "Improving cost/visit" },
       { label: "Total Add-to-Carts", value: "3,346", note: "7.9% avg cart rate" },

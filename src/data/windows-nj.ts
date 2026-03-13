@@ -8,7 +8,7 @@ export const windowsNj: CaseStudyData = {
   heroStats: [
     { value: "6", unit: "months", label: "Partnership Duration" },
     { value: "22", unit: "%", label: "CPQL Reduction" },
-    { value: "118", unit: "K", label: "Revenue Attributed" },
+    { value: "118.4", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["Local SEO", "Paid Advertising", "AI-Powered Optimization"],
   company: {

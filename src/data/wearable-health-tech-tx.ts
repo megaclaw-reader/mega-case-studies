@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const wearableHealthTechTx: CaseStudyData = {
   slug: "wearable-health-tech-tx",
   industry: "Ecommerce",
-  headline: "How a Texas-Based Wearable Health Tech Startup Scaled Ad Spend From $20K to $60K — While Lifting ROAS From 1.3x to 4.6x",
+  headline: "How a Texas-Based Wearable Health Tech Startup Scaled Ad Spend From $931.3K to $931.3K — While Lifting ROAS From 1.3x to 4.6x",
   subheadline: "MEGA helped a subscription-based wearable health technology startup in Texas transform struggling paid campaigns and build organic search authority — scaling monthly ad spend from $20,000 to $60,000 while improving ROAS from a below-breakeven 1.3x to a profitable 4.6x across 7 months of hyper growth.",
   heroStats: [
     { value: "3.6", unit: "x", label: "Peak ROAS (from 1.3x)" },
     { value: "4,617", unit: "+", label: "Ranking Keywords" },
-    { value: "931", unit: "K", label: "Total Revenue" },
+    { value: "931.3", unit: "K", label: "Total Revenue" },
   ],
   tags: ["SEO Strategy", "Paid Advertising", "Ecommerce", "Subscription Model"],
   company: {

@@ -8,7 +8,7 @@ export const commercialTaxServicesUs: CaseStudyData = {
   heroStats: [
     { value: "6", unit: "months", label: "Partnership Duration" },
     { value: "127", unit: "%", label: "Organic Traffic Growth" },
-    { value: "22", unit: "", label: "New Tax Clients" },
+    { value: "19", unit: "", label: "New Tax Clients" },
   ],
   tags: ["SEO Strategy", "Paid Advertising", "B2B Tax Services"],
   company: {

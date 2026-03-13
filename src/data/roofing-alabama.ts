@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const roofingAlabama: CaseStudyData = {
   slug: "roofing-alabama",
   industry: "Roofing",
-  headline: "How Alabama Premier Roofing Generated 2,847 Qualified Leads and $4.2M Revenue in 8 Months",
+  headline: "How Alabama Premier Roofing Generated 2,847 Qualified Leads and $892.5K Revenue in 8 Months",
   subheadline: "Dominating Alabama's competitive roofing market through strategic SEO and paid advertising during peak storm season",
   heroStats: [
-    { value: "892", unit: "K", label: "Total Revenue Generated" },
-    { value: "30.4x", unit: "", label: "Blended ROAS" },
-    { value: "2,847", unit: "", label: "Qualified Leads" }
+    { value: "892.5", unit: "K", label: "Total Revenue Generated" },
+    { value: "3.6", unit: "x", label: "Blended ROAS" },
+    { value: "1126", unit: "", label: "Qualified Leads" }
   ],
   tags: ["SEO", "Paid Advertising", "Lead Generation", "Local"],
   

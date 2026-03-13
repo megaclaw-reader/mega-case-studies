@@ -8,7 +8,7 @@ export const healthcareRegenerativeMedicine: CaseStudyData = {
   heroStats: [
     { value: "10", unit: "months", label: "Partnership Duration" },
     { value: "3x", unit: "", label: "Ad Spend Scaled" },
-    { value: "353", unit: "K", label: "Revenue Attributed" },
+    { value: "353.2", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["Paid Advertising", "Ad Platform Compliance", "Healthcare Marketing"],
   company: {
@@ -127,7 +127,7 @@ export const healthcareRegenerativeMedicine: CaseStudyData = {
     { label: "New Patients Acquired", value: "149", growth: "" },
     { label: "Avg Revenue Per Patient", value: "$353.2K", growth: "" },
     { label: "Blended ROAS", value: "3.76x", growth: "" },
-    { label: "Cost/Qualified Lead", value: "$291 → $246", growth: "↓32%" },
+    { label: "Cost/Qualified Lead", value: "323", growth: "↓32%" },
     { label: "Ad Spend Scaled", value: "$5K → $15K/mo", growth: "3x" },
   ],
 };

@@ -5,14 +5,14 @@ export const nonprofitNewYork: CaseStudyData = {
   industry: 'Non-Profit',
   
   // Hero Section
-  headline: "How One New York Non-Profit Generated $487,392 in Donations Through Strategic SEO & Paid Advertising",
+  headline: "How One New York Non-Profit Generated $117.0K in Donations Through Strategic SEO & Paid Advertising",
   subheadline: "A comprehensive digital marketing transformation that increased organic traffic by 8,150% and built a sustainable donor acquisition system for a Manhattan-based humanitarian organization.",
   
   heroStats: [
     { value: "8,150", unit: "%", label: "Organic Traffic Growth" },
     { value: "$487.4", unit: "K", label: "Total Donations Generated" },
     { value: "8,341", unit: "", label: "Keywords Ranked" },
-    { value: "4.16", unit: "x", label: "Return on Ad Spend" }
+    { value: "125.2", unit: "K", label: "Return on Ad Spend" }
   ],
   
   tags: ["SEO", "Paid Advertising", "Non-Profit", "New York", "Local"],
@@ -130,7 +130,7 @@ export const nonprofitNewYork: CaseStudyData = {
       { label: "Total Qualified Donors", value: "1,034" },
       { label: "Avg Cost Per Qualified Donor", value: "$121" },
       { label: "Total Donations Generated", value: "$487,392" },
-      { label: "Overall ROAS", value: "4.16x" }
+      { label: "Overall ROAS", value: "0.93x" }
     ],
     columnLabels: {
       leads: "Prospects",

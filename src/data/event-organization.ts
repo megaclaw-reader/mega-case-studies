@@ -8,7 +8,7 @@ export const eventOrganization: CaseStudyData = {
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
     { value: "89", unit: "%", label: "Booking Growth Rate" },
-    { value: "149", unit: "K", label: "Revenue Attributed" },
+    { value: "163.0", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["Local SEO", "Paid Advertising", "AI-Powered Optimization"],
   company: {

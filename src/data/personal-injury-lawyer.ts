@@ -3,7 +3,7 @@ import { CaseStudyData } from "./types";
 export const personalInjuryLawyer: CaseStudyData = {
   slug: "personal-injury-lawyer",
   industry: "Personal Injury Law",
-  headline: "How a Jacksonville PI Firm Generated $205.5K in Case Fees From a $49K Ad Investment in 5 Months",
+  headline: "How a Jacksonville PI Firm Generated $205.5K in Case Fees From a $205.5K Ad Investment in 5 Months",
   subheadline: "MEGA helped a personal injury law firm in Jacksonville, FL build a high-intent digital pipeline — combining paid advertising with aggressive local SEO to deliver 43 qualified leads and 17 signed cases at a cost per qualified lead 34% lower than their previous efforts.",
   heroStats: [
     { value: "5", unit: "months", label: "Partnership Duration" },

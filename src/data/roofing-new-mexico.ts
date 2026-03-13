@@ -8,7 +8,7 @@ export const roofingNewMexico: CaseStudyData = {
   heroStats: [
     { value: "4", unit: "months", label: "Partnership Duration" },
     { value: "69", unit: "%", label: "Qualification Rate" },
-    { value: "130", unit: "K", label: "Revenue Attributed" },
+    { value: "130.3", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["Paid Advertising", "Lead Quality Optimization", "Local Service Marketing"],
   company: {

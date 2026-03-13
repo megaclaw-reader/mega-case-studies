@@ -7,7 +7,7 @@ export const motorcycleBoatRepairAz: CaseStudyData = {
   subheadline: "MEGA helped a full-service motorcycle and boat repair shop in Arizona dominate local search and paid advertising, reducing cost per qualified lead by 41%, growing organic traffic 847%, and generating $171.7K in attributed revenue over 8 months.",
   heroStats: [
     { value: "8", unit: "months", label: "Partnership Duration" },
-    { value: "172", unit: "K", label: "Revenue Attributed" },
+    { value: "55.9", unit: "K", label: "Revenue Attributed" },
     { value: "41", unit: "%", label: "CPL Reduction" },
   ],
   tags: ["Local SEO", "Paid Advertising", "AI-Powered Optimization"],

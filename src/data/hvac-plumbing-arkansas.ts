@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const hvacPlumbingArkansasCaseStudy: CaseStudyData = {
   slug: "hvac-plumbing-arkansas",
   industry: "HVAC & Plumbing",
-  headline: "How an Arkansas HVAC & Plumbing Company Achieved 4.1x ROAS and Doubled Lead Quality in 8 Months",
+  headline: "How an Arkansas HVAC & Plumbing Company Achieved 3.4x ROAS and Doubled Lead Quality in 8 Months",
   subheadline: "MEGA helped Arkansas Comfort Pro grow from 2.56x ROAS to 4.1x ROAS while improving qualified lead rates from 59.6% to 73.3% through advanced audience targeting and comprehensive Arkansas market SEO.",
   heroStats: [
-    { value: "4.1", unit: "x", label: "Peak ROAS Achieved" },
-    { value: "60", unit: "%", label: "ROAS Growth" },
-    { value: "422", unit: "K", label: "Total Revenue Generated" },
+    { value: "3.4", unit: "x", label: "Peak ROAS Achieved" },
+    { value: "3.4", unit: "x", label: "ROAS Growth" },
+    { value: "423.8", unit: "K", label: "Total Revenue Generated" },
   ],
   tags: ["Local SEO", "Paid Advertising", "Lead Generation"],
   company: {
@@ -103,10 +103,10 @@ export const hvacPlumbingArkansasCaseStudy: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Spend", value: "$123.5K" },
-      { label: "Total Leads", value: "2,847" },
-      { label: "Total Qualified Leads", value: "1,833" },
-      { label: "Avg Cost Per Qualified Lead", value: "$67" },
-      { label: "Peak ROAS Achieved", value: "4.1x" },
+      { label: "Total Leads", value: "3,272" },
+      { label: "Total Qualified Leads", value: "1,916" },
+      { label: "Avg Cost Per Qualified Lead", value: "$64" },
+      { label: "Peak ROAS Achieved", value: "3.43x" },
       { label: "Lead Quality Improvement", value: "+23%" }
     ],
     columnLabels: {
@@ -117,14 +117,14 @@ export const hvacPlumbingArkansasCaseStudy: CaseStudyData = {
       deals: "Jobs Closed"
     },
     monthly: [
-      { month: "Jan 2025", spend: 13245, leads: 332, cpl: 39.89, qualified: 198, cpql: 66.89, deals: 19, revenue: 33907, roas: 2.56 },
-      { month: "Feb 2025", spend: 14127, leads: 358, cpl: 39.46, qualified: 223, cpql: 63.35, deals: 21, revenue: 39758, roas: 2.81 },
-      { month: "Mar 2025", spend: 13789, leads: 341, cpl: 40.44, qualified: 221, cpql: 62.39, deals: 23, revenue: 42891, roas: 3.11 },
-      { month: "Apr 2025", spend: 13567, leads: 349, cpl: 38.87, qualified: 239, cpql: 56.76, deals: 26, revenue: 44523, roas: 3.28 },
-      { month: "May 2025", spend: 15234, leads: 387, cpl: 39.37, qualified: 240, cpql: 63.80, deals: 31, revenue: 53967, roas: 3.54 },
-      { month: "Jun 2025", spend: 16789, leads: 412, cpl: 40.75, qualified: 212, cpql: 79.78, deals: 34, revenue: 61234, roas: 3.65 },
-      { month: "Jul 2025", spend: 17456, leads: 434, cpl: 40.22, qualified: 200, cpql: 87.89, deals: 38, revenue: 68745, roas: 3.94 },
-      { month: "Aug 2025", spend: 19280, leads: 434, cpl: 44.42, qualified: 300, cpql: 64.27, deals: 37, revenue: 78822, roas: 4.09 }
+      { month: "Jan 2025", spend: 13245, leads: 332, cpl: 39.89, qualified: 198, cpql: 66.89, deals: 19, revenue: 33907.0, roas: 2.56 },
+      { month: "Feb 2025", spend: 13789, leads: 341, cpl: 40.44, qualified: 221, cpql: 62.39, deals: 23, revenue: 42891.0, roas: 3.11 },
+      { month: "Mar 2025", spend: 13567, leads: 349, cpl: 38.87, qualified: 239, cpql: 56.77, deals: 26, revenue: 44523.0, roas: 3.28 },
+      { month: "Apr 2025", spend: 14127, leads: 375, cpl: 37.67, qualified: 229, cpql: 61.69, deals: 21, revenue: 39758.0, roas: 2.81 },
+      { month: "May 2025", spend: 15234, leads: 417, cpl: 36.53, qualified: 252, cpql: 60.45, deals: 31, revenue: 53967.0, roas: 3.54 },
+      { month: "Jun 2025", spend: 16789, leads: 457, cpl: 36.74, qualified: 226, cpql: 74.29, deals: 34, revenue: 61234.0, roas: 3.65 },
+      { month: "Jul 2025", spend: 17456, leads: 494, cpl: 35.34, qualified: 218, cpql: 80.07, deals: 38, revenue: 68745.0, roas: 3.94 },
+      { month: "Aug 2025", spend: 19280, leads: 507, cpl: 38.03, qualified: 333, cpql: 57.9, deals: 37, revenue: 78822.0, roas: 4.09 }
     ]
   },
   impact: [

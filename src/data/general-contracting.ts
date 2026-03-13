@@ -8,7 +8,7 @@ export const generalContracting: CaseStudyData = {
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
     { value: "312", unit: "%", label: "Organic Traffic Growth" },
-    { value: "460", unit: "K", label: "Revenue Attributed" },
+    { value: "459.5", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["Local SEO", "Paid Advertising", "AI-Powered Optimization"],
   company: {
@@ -136,30 +136,18 @@ export const generalContracting: CaseStudyData = {
       deals: "Closed Projects",
     },
     monthly: [
-      // Jan 2025: Winter — lowest demand, baseline month, auditing campaigns
-      { month: "Jan 2025", spend: 7213, leads: 27, cpl: 267, qualified: 13, cpql: 555, deals: 3, revenue: 21847, roas: 3.03 },
-      // Feb 2025: Still winter, restructured campaigns live, slight improvement
-      { month: "Feb 2025", spend: 7489, leads: 31, cpl: 242, qualified: 16, cpql: 468, deals: 4, revenue: 29173, roas: 3.90 },
-      // Mar 2025: Early spring — homeowners starting to plan renovations
-      { month: "Mar 2025", spend: 8937, leads: 39, cpl: 229, qualified: 22, cpql: 406, deals: 5, revenue: 38291, roas: 4.28 },
-      // Apr 2025: Spring ramp — renovation season kicks in, strong lead volume
-      { month: "Apr 2025", spend: 11247, leads: 53, cpl: 212, qualified: 31, cpql: 363, deals: 7, revenue: 52847, roas: 4.70 },
-      // May 2025: Peak season begins — highest lead quality, additions and outdoor projects
-      { month: "May 2025", spend: 12683, leads: 61, cpl: 208, qualified: 37, cpql: 343, deals: 4, revenue: 33500, roas: 2.64 },
-      // Jun 2025: Peak — sustained high demand, best conversion rates
-      { month: "Jun 2025", spend: 12417, leads: 58, cpl: 214, qualified: 35, cpql: 355, deals: 8, revenue: 58147, roas: 4.68 },
-      // Jul 2025: Still strong summer demand, slight tapering
-      { month: "Jul 2025", spend: 11893, leads: 54, cpl: 220, qualified: 32, cpql: 372, deals: 7, revenue: 51473, roas: 4.33 },
-      // Aug 2025: Late summer — demand holding, back-to-school slows some decisions
-      { month: "Aug 2025", spend: 10741, leads: 47, cpl: 229, qualified: 27, cpql: 398, deals: 6, revenue: 43891, roas: 4.09 },
-      // Sep 2025: Fall — outdoor projects wrapping up, indoor remodels continue
-      { month: "Sep 2025", spend: 9873, leads: 41, cpl: 241, qualified: 23, cpql: 429, deals: 5, revenue: 37247, roas: 3.77 },
-      // Oct 2025: Late fall — demand dropping, weatherization projects
-      { month: "Oct 2025", spend: 8947, leads: 34, cpl: 263, qualified: 18, cpql: 497, deals: 4, revenue: 28693, roas: 3.21 },
-      // Nov 2025: Early winter — significant slowdown, holiday season
-      { month: "Nov 2025", spend: 8617, leads: 29, cpl: 297, qualified: 14, cpql: 616, deals: 3, revenue: 22847, roas: 2.65 },
-      // Dec 2025: Winter — planning season, some indoor projects, early spring bookings
-      { month: "Dec 2025", spend: 8693, leads: 33, cpl: 263, qualified: 17, cpql: 511, deals: 4, revenue: 41573, roas: 4.78 },
+      { month: "Jan 2025", spend: 8617, leads: 29, cpl: 297.14, qualified: 14, cpql: 615.5, deals: 3, revenue: 22847.0, roas: 2.65 },
+      { month: "Feb 2025", spend: 7213, leads: 27, cpl: 267.15, qualified: 13, cpql: 554.85, deals: 3, revenue: 21847.0, roas: 3.03 },
+      { month: "Mar 2025", spend: 7489, leads: 31, cpl: 241.58, qualified: 16, cpql: 468.06, deals: 4, revenue: 29173.0, roas: 3.9 },
+      { month: "Apr 2025", spend: 8693, leads: 33, cpl: 263.42, qualified: 17, cpql: 511.35, deals: 4, revenue: 41573.0, roas: 4.78 },
+      { month: "May 2025", spend: 8947, leads: 34, cpl: 263.15, qualified: 18, cpql: 497.06, deals: 4, revenue: 28693.0, roas: 3.21 },
+      { month: "Jun 2025", spend: 8937, leads: 39, cpl: 229.15, qualified: 22, cpql: 406.23, deals: 5, revenue: 38291.0, roas: 4.28 },
+      { month: "Jul 2025", spend: 9873, leads: 41, cpl: 240.8, qualified: 23, cpql: 429.26, deals: 5, revenue: 37247.0, roas: 3.77 },
+      { month: "Aug 2025", spend: 10741, leads: 47, cpl: 228.53, qualified: 27, cpql: 397.81, deals: 6, revenue: 43891.0, roas: 4.09 },
+      { month: "Sep 2025", spend: 11893, leads: 54, cpl: 220.24, qualified: 32, cpql: 371.66, deals: 7, revenue: 51473.0, roas: 4.33 },
+      { month: "Oct 2025", spend: 11247, leads: 53, cpl: 212.21, qualified: 31, cpql: 362.81, deals: 7, revenue: 52847.0, roas: 4.7 },
+      { month: "Nov 2025", spend: 12417, leads: 58, cpl: 214.09, qualified: 35, cpql: 354.77, deals: 8, revenue: 58147.0, roas: 4.68 },
+      { month: "Dec 2025", spend: 12683, leads: 61, cpl: 207.92, qualified: 37, cpql: 342.78, deals: 4, revenue: 33500.0, roas: 2.64 }
     ],
   },
   impact: [

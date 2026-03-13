@@ -8,7 +8,7 @@ export const hvacKitchenBathAz: CaseStudyData = {
   heroStats: [
     { value: "10", unit: "months", label: "Partnership Duration" },
     { value: "3,180", unit: "%", label: "Organic Traffic Growth" },
-    { value: "221", unit: "K", label: "Revenue Attributed" },
+    { value: "221.3", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["Local SEO", "Paid Advertising", "Lead Generation", "Dual-Service"],
   company: {
@@ -189,7 +189,7 @@ export const hvacKitchenBathAz: CaseStudyData = {
   },
   impact: [
     { label: "Total Revenue", value: "$221.3K", growth: "+217%" },
-    { label: "Total Qualified Leads", value: "487", growth: "+41% lower Cost/Lead" },
+    { label: "Total Qualified Leads", value: "335", growth: "+41% lower Cost/Lead" },
     { label: "Avg Revenue Per Deal", value: "$221.3K", growth: "" },
     { label: "Blended ROAS", value: "3.44x", growth: "" },
   ],

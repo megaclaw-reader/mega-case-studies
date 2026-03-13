@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const accountingNy: CaseStudyData = {
   slug: "accounting-ny",
   industry: "Accounting",
-  headline: "How a New York Accounting Firm Generated $180.4K in New Revenue With AI-Powered Marketing",
+  headline: "How a New York Accounting Firm Generated $206.4K in New Revenue With AI-Powered Marketing",
   subheadline: "MEGA helped a local accounting firm in New York City optimize their digital marketing, reducing cost per qualified lead by 26%, growing organic traffic 902%, and acquiring 22 new clients over 12 months.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
     { value: "902", unit: "%", label: "Organic Traffic Growth" },
-    { value: "180", unit: "K", label: "Revenue Attributed" },
+    { value: "206.4", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["SEO Strategy", "Paid Advertising", "Local SEO"],
   company: {

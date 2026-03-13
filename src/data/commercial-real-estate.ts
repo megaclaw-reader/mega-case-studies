@@ -8,7 +8,7 @@ export const commercialRealEstate: CaseStudyData = {
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
     { value: "312", unit: "%", label: "Organic Traffic Growth" },
-    { value: "392", unit: "K", label: "Commission Revenue" },
+    { value: "391.6", unit: "K", label: "Commission Revenue" },
   ],
   tags: ["Local SEO", "Paid Advertising", "AI-Powered Optimization"],
   company: {

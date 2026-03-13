@@ -8,7 +8,7 @@ export const dental: CaseStudyData = {
   heroStats: [
     { value: "8", unit: "months", label: "Partnership Duration" },
     { value: "74", unit: "%", label: "New Patient Growth" },
-    { value: "293", unit: "K", label: "Revenue Attributed" },
+    { value: "293.3", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["Local SEO", "Paid Advertising", "AI-Powered Optimization"],
   company: {

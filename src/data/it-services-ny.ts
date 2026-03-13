@@ -195,7 +195,7 @@ export const itServicesNy: CaseStudyData = {
   },
   impact: [
     { label: "Total Revenue", value: "$437K", growth: "+214%" },
-    { label: "Total Qualified Leads", value: "487", growth: "+36% lower CPQL" },
+    { label: "Total Qualified Leads", value: "507", growth: "+36% lower CPQL" },
     { label: "Avg Contract Value", value: "$14,270", growth: "" },
     { label: "Blended ROAS", value: "3.98x", growth: "" },
   ],

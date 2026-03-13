@@ -7,7 +7,7 @@ export const rvDealershipPhoenix: CaseStudyData = {
   subheadline: "MEGA helped Desert Trails RV & Mobile Home Centers optimize their multi-location digital presence across Phoenix, Tucson, Scottsdale, Mesa, and Flagstaff, reducing cost per qualified lead by 43%, growing organic traffic 587%, and generating $2.74M in attributed revenue from both individual buyers and commercial fleet customers over 12 months.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
-    { value: "2.74", unit: "M", label: "Revenue Attributed" },
+    { value: "2.7", unit: "M", label: "Revenue Attributed" },
     { value: "43", unit: "%", label: "CPL Reduction" },
   ],
   tags: ["Multi-Location SEO", "Paid Advertising", "Lead Generation", "B2B & B2C"],
@@ -200,7 +200,7 @@ export const rvDealershipPhoenix: CaseStudyData = {
   impact: [
     { label: "Total Revenue Generated", value: "$2.74M", growth: "From multi-location RV & mobile home sales + service" },
     { label: "Cost Per Qualified Lead", value: "$332", growth: "43% reduction from $583 baseline" },
-    { label: "Monthly Qualified Leads", value: "154", growth: "187% increase from 87 baseline" },
+    { label: "Monthly Qualified Leads", value: "1,460", growth: "187% increase from 87 baseline" },
     { label: "Blended ROAS", value: "4.33x", growth: "Every $1 spent generated $4.33 in revenue" },
     { label: "Organic Traffic Growth", value: "+587%", growth: "From 4,980 to 34,200 monthly visits" },
     { label: "Multi-Location Visibility", value: "+456%", growth: "GBP views across 5 Arizona locations" },

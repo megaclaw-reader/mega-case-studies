@@ -7,7 +7,7 @@ export const saasPlatformCt: CaseStudyData = {
   subheadline: "MEGA helped a Connecticut-based B2B SaaS platform go from zero paid advertising experience to a refined ICP-targeting engine, generating 14 closed deals and a 2.72x LTV-based ROAS in just 6 months — with qualified leads accelerating sharply after the first 60 days of campaign learning.",
   heroStats: [
     { value: "6", unit: "months", label: "Partnership Duration" },
-    { value: "109", unit: "K", label: "First-Year Contract Revenue" },
+    { value: "109.2", unit: "K", label: "First-Year Contract Revenue" },
     { value: "2.7", unit: "x", label: "LTV-Based ROAS" },
   ],
   tags: ["Paid Advertising", "ICP Targeting", "First-Time Advertiser"],
@@ -114,7 +114,7 @@ export const saasPlatformCt: CaseStudyData = {
   },
   impact: [
     { label: "First-Year Contract Revenue", value: "$109.2K", growth: "+∞% (from $0 paid)" },
-    { label: "Qualified Pipeline Value", value: "$163K", growth: "" },
+    { label: "Qualified Pipeline Value", value: "75", growth: "" },
     { label: "Avg Contract Value", value: "$7,800/yr", growth: "" },
     { label: "Blended LTV-Based ROAS", value: "2.72x", growth: "" },
   ],

@@ -8,7 +8,7 @@ export const commercialConstructionTx: CaseStudyData = {
   heroStats: [
     { value: "10", unit: "months", label: "Partnership Duration" },
     { value: "7,900", unit: "%", label: "Keyword Growth" },
-    { value: "292", unit: "K", label: "Revenue Attributed" },
+    { value: "292.4", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["Local SEO", "Paid Search", "CPQL Optimization", "Landing Page Funnels"],
   company: {

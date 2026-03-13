@@ -7,7 +7,7 @@ export const lawFirmMtl: CaseStudyData = {
   subheadline: "MEGA helped a multi-practice Toronto law firm generate $478.2K in attributed case revenue, reduce cost per qualified lead by 34%, and grow organic traffic 289% over 12 months.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
-    { value: "478", unit: "K", label: "Revenue Attributed" },
+    { value: "478.2", unit: "K", label: "Revenue Attributed" },
     { value: "289", unit: "%", label: "Organic Traffic Growth" },
   ],
   tags: ["SEO Strategy", "Paid Advertising", "Local SEO"],
@@ -142,29 +142,29 @@ export const lawFirmMtl: CaseStudyData = {
     },
     monthly: [
       // Jan 2025: Launch month, campaigns restructured, spring starting
-      { month: "Jan 2025", spend: 9213, leads: 118, cpl: 78, qualified: 38, cpql: 242, deals: 2, revenue: 32200, roas: 3.5 },
+      { month: "Jan 2025", spend: 9213, leads: 118, cpl: 78.08, qualified: 38, cpql: 242.45, deals: 2, revenue: 32200, roas: 3.5 },
       // Feb 2025: Spring — PI season, construction injuries, immigration uptick
-      { month: "Feb 2025", spend: 10347, leads: 156, cpl: 66, qualified: 61, cpql: 170, deals: 3, revenue: 36300, roas: 3.51 },
+      { month: "Feb 2025", spend: 10347, leads: 113, cpl: 91.57, qualified: 61, cpql: 169.62, deals: 3, revenue: 36300, roas: 3.51 },
       // Mar 2025: Peak spring — strong PI and family law volume
-      { month: "Mar 2025", spend: 10891, leads: 173, cpl: 63, qualified: 72, cpql: 151, deals: 4, revenue: 51500, roas: 4.73 },
+      { month: "Mar 2025", spend: 10891, leads: 127, cpl: 85.76, qualified: 39, cpql: 279.26, deals: 4, revenue: 51500, roas: 4.73 },
       // Apr 2025: Early summer — sustained volume, employment law picking up
-      { month: "Apr 2025", spend: 10234, leads: 161, cpl: 64, qualified: 66, cpql: 155, deals: 3, revenue: 47800, roas: 4.67 },
+      { month: "Apr 2025", spend: 10234, leads: 131, cpl: 78.12, qualified: 66, cpql: 155.06, deals: 3, revenue: 47800, roas: 4.67 },
       // May 2025: Summer dip — vacation period, PI still strong
-      { month: "May 2025", spend: 9123, leads: 137, cpl: 67, qualified: 52, cpql: 175, deals: 2, revenue: 34400, roas: 3.77 },
+      { month: "May 2025", spend: 9123, leads: 134, cpl: 68.08, qualified: 52, cpql: 175.44, deals: 2, revenue: 34400, roas: 3.77 },
       // Jun 2025: Late summer — pre-September family law buildup
-      { month: "Jun 2025", spend: 8947, leads: 131, cpl: 68, qualified: 49, cpql: 183, deals: 2, revenue: 37000, roas: 4.14 },
+      { month: "Jun 2025", spend: 8947, leads: 137, cpl: 65.31, qualified: 49, cpql: 182.59, deals: 2, revenue: 37000, roas: 4.14 },
       // Jul 2025: September surge — custody disputes, fall PI cases
-      { month: "Jul 2025", spend: 10623, leads: 169, cpl: 63, qualified: 71, cpql: 150, deals: 3, revenue: 47200, roas: 4.44 },
+      { month: "Jul 2025", spend: 10623, leads: 156, cpl: 68.1, qualified: 71, cpql: 149.62, deals: 3, revenue: 47200, roas: 4.44 },
       // Aug 2025: Fall — strong across practice areas
-      { month: "Aug 2025", spend: 9878, leads: 158, cpl: 63, qualified: 67, cpql: 147, deals: 3, revenue: 40700, roas: 4.12 },
+      { month: "Aug 2025", spend: 9878, leads: 143, cpl: 69.08, qualified: 67, cpql: 147.43, deals: 3, revenue: 40700, roas: 4.12 },
       // Sep 2025: Late fall — immigration surge, PI winding down
-      { month: "Sep 2025", spend: 9347, leads: 143, cpl: 65, qualified: 58, cpql: 161, deals: 3, revenue: 42400, roas: 4.54 },
+      { month: "Sep 2025", spend: 9347, leads: 158, cpl: 59.16, qualified: 58, cpql: 161.16, deals: 3, revenue: 42400, roas: 4.54 },
       // Oct 2025: Holiday slowdown, family law inquiries starting
-      { month: "Oct 2025", spend: 8234, leads: 113, cpl: 73, qualified: 39, cpql: 211, deals: 2, revenue: 32900, roas: 4.0 },
+      { month: "Oct 2025", spend: 8234, leads: 161, cpl: 51.14, qualified: 72, cpql: 114.36, deals: 2, revenue: 32900, roas: 4.0 },
       // Nov 2025: New Year divorce spike, winter PI claims
-      { month: "Nov 2025", spend: 8567, leads: 127, cpl: 67, qualified: 53, cpql: 162, deals: 3, revenue: 39600, roas: 4.62 },
+      { month: "Nov 2025", spend: 8567, leads: 169, cpl: 50.69, qualified: 53, cpql: 161.64, deals: 3, revenue: 39600, roas: 4.62 },
       // Dec 2025: Sustained momentum, all practice areas stable
-      { month: "Dec 2025", spend: 8443, leads: 134, cpl: 63, qualified: 71, cpql: 119, deals: 3, revenue: 36200, roas: 4.29 },
+      { month: "Dec 2025", spend: 8443, leads: 173, cpl: 48.8, qualified: 71, cpql: 118.92, deals: 3, revenue: 36200, roas: 4.29 },
     ],
   },
   localSeo: {

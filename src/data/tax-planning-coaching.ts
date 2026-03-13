@@ -8,7 +8,7 @@ export const taxPlanningCoaching: CaseStudyData = {
   heroStats: [
     { value: "10", unit: "months", label: "Partnership Duration" },
     { value: "61", unit: "%", label: "CPQL Reduction" },
-    { value: "1.25", unit: "M", label: "Coaching Revenue Generated" },
+    { value: "1.2", unit: "M", label: "Coaching Revenue Generated" },
   ],
   tags: ["Paid Advertising", "SEO", "Lead Generation", "CPQL Optimization"],
   company: {
@@ -174,7 +174,7 @@ export const taxPlanningCoaching: CaseStudyData = {
   },
   impact: [
     { label: "Total Coaching Revenue", value: "$1.25M", growth: "" },
-    { label: "Total Deals Closed", value: "121", growth: "" },
+    { label: "Total Deals Closed", value: "114", growth: "" },
     { label: "Avg Deal Value", value: "$10,912", growth: "" },
     { label: "Qualification Rate", value: "42%", growth: "from 18%" },
     { label: "Cost Per Qualified Lead", value: "$487", growth: "↓61% from $1,259" },

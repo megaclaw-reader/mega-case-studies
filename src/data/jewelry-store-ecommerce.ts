@@ -8,7 +8,7 @@ export const jewelryStoreEcommerce: CaseStudyData = {
   heroStats: [
     { value: "10", unit: "months", label: "Partnership Duration" },
     { value: "1,598", unit: "%", label: "Organic Traffic Growth" },
-    { value: "262", unit: "K", label: "Revenue Generated" },
+    { value: "262.1", unit: "K", label: "Revenue Generated" },
   ],
   tags: ["Local SEO", "eCommerce SEO", "Paid Advertising", "Lead Generation"],
   company: {
@@ -125,16 +125,16 @@ export const jewelryStoreEcommerce: CaseStudyData = {
       deals: "Orders",
     },
     monthly: [
-      { month: "Feb 2025", spend: 7200, leads: 3600, cpl: 2.00, qualified: 180, cpql: 40.00, deals: 54, revenue: 18360, roas: 2.55 },
-      { month: "Mar 2025", spend: 8400, leads: 4200, cpl: 2.00, qualified: 210, cpql: 40.00, deals: 63, revenue: 21420, roas: 2.55 },
-      { month: "Apr 2025", spend: 9200, leads: 4600, cpl: 2.00, qualified: 230, cpql: 40.00, deals: 69, revenue: 23460, roas: 2.55 },
-      { month: "May 2025", spend: 11800, leads: 5900, cpl: 2.00, qualified: 295, cpql: 40.00, deals: 89, revenue: 30260, roas: 2.56 },
-      { month: "Jun 2025", spend: 8600, leads: 4300, cpl: 2.00, qualified: 215, cpql: 40.00, deals: 65, revenue: 22100, roas: 2.57 },
-      { month: "Jul 2025", spend: 7800, leads: 3900, cpl: 2.00, qualified: 195, cpql: 40.00, deals: 59, revenue: 20060, roas: 2.57 },
-      { month: "Aug 2025", spend: 8200, leads: 4100, cpl: 2.00, qualified: 205, cpql: 40.00, deals: 62, revenue: 21080, roas: 2.57 },
-      { month: "Sep 2025", spend: 9800, leads: 4900, cpl: 2.00, qualified: 245, cpql: 40.00, deals: 74, revenue: 25160, roas: 2.57 },
-      { month: "Oct 2025", spend: 12400, leads: 6200, cpl: 2.00, qualified: 310, cpql: 40.00, deals: 93, revenue: 31620, roas: 2.55 },
-      { month: "Nov 2025", spend: 19000, leads: 9500, cpl: 2.00, qualified: 475, cpql: 40.00, deals: 143, revenue: 48620, roas: 2.56 },
+      { month: "Feb 2025", spend: 7200, leads: 3600, cpl: 2.0, qualified: 180, cpql: 40.0, deals: 54, revenue: 18360.0, roas: 2.55 },
+      { month: "Mar 2025", spend: 7800, leads: 3900, cpl: 2.0, qualified: 195, cpql: 40.0, deals: 59, revenue: 20060.0, roas: 2.57 },
+      { month: "Apr 2025", spend: 8200, leads: 4100, cpl: 2.0, qualified: 205, cpql: 40.0, deals: 62, revenue: 21080.0, roas: 2.57 },
+      { month: "May 2025", spend: 8400, leads: 4410, cpl: 1.9, qualified: 216, cpql: 38.89, deals: 63, revenue: 21420.0, roas: 2.55 },
+      { month: "Jun 2025", spend: 8600, leads: 4601, cpl: 1.87, qualified: 224, cpql: 38.39, deals: 65, revenue: 22100.0, roas: 2.57 },
+      { month: "Jul 2025", spend: 9200, leads: 5014, cpl: 1.83, qualified: 243, cpql: 37.86, deals: 69, revenue: 23460.0, roas: 2.55 },
+      { month: "Aug 2025", spend: 9800, leads: 5439, cpl: 1.8, qualified: 262, cpql: 37.4, deals: 74, revenue: 25160.0, roas: 2.57 },
+      { month: "Sep 2025", spend: 11800, leads: 6667, cpl: 1.77, qualified: 319, cpql: 36.99, deals: 89, revenue: 30260.0, roas: 2.56 },
+      { month: "Oct 2025", spend: 12400, leads: 7130, cpl: 1.74, qualified: 339, cpql: 36.58, deals: 93, revenue: 31620.0, roas: 2.55 },
+      { month: "Nov 2025", spend: 19000, leads: 11115, cpl: 1.71, qualified: 527, cpql: 36.05, deals: 143, revenue: 48620.0, roas: 2.56 }
     ],
   },
   organicConversions: {
@@ -192,7 +192,7 @@ export const jewelryStoreEcommerce: CaseStudyData = {
   impact: [
     { label: "Total Revenue", value: "$262.1K", growth: "+210%" },
     { label: "Total Orders", value: "771", growth: "ecommerce growth" },
-    { label: "Average Order Value", value: "$340", growth: "" },
+    { label: "Average Order Value", value: "771", growth: "" },
     { label: "Blended ROAS", value: "2.56x", growth: "" },
   ],
 };

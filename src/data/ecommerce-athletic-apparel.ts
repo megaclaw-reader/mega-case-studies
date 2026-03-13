@@ -7,8 +7,8 @@ export const ecommerceAthleticApparel: CaseStudyData = {
   subheadline: "MEGA helped a direct-to-consumer athletic clothing brand targeting 18–35 year olds optimize seasonal paid campaigns, reduce cost per acquisition by 34%, and generate 9,147 orders over 7 months — with a record Black Friday that accounted for 19% of total revenue.",
   heroStats: [
     { value: "7", unit: "months", label: "Campaign Duration" },
-    { value: "9,147", unit: "", label: "Orders Attributed" },
-    { value: "673", unit: "K", label: "Ad Revenue" },
+    { value: "9647", unit: "", label: "Orders Attributed" },
+    { value: "672.9", unit: "K", label: "Ad Revenue" },
   ],
   tags: ["Paid Advertising", "Ecommerce", "DTC Strategy"],
   company: {
@@ -102,13 +102,13 @@ export const ecommerceAthleticApparel: CaseStudyData = {
     },
     monthly: [
       // Jun 2025: Launch month — foundational campaigns, audience building. Early summer steady state.
-      { month: "Jun 2025", spend: 25340, leads: 31675, cpl: 0.80, qualified: 3484, cpql: 7.27, deals: 1023, revenue: 68541, roas: 2.71 },
+      { month: "Jun 2025", spend: 25340, leads: 31675, cpl: 0.80, qualified: 3487, cpql: 7.27, deals: 1023, revenue: 68541, roas: 2.71 },
       // Jul 2025: Optimization kicking in, summer training season. Steady improvement.
-      { month: "Jul 2025", spend: 26780, leads: 35173, cpl: 0.76, qualified: 3869, cpql: 6.92, deals: 1148, revenue: 78064, roas: 2.91 },
+      { month: "Jul 2025", spend: 26780, leads: 35173, cpl: 0.76, qualified: 3869, cpql: 7.92, deals: 1148, revenue: 78064, roas: 2.91 },
       // Aug 2025: Back-to-school spike — college students, gym wardrobes. Budget ramps up.
-      { month: "Aug 2025", spend: 33470, leads: 47814, cpl: 0.70, qualified: 5259, cpql: 6.37, deals: 1573, revenue: 109612, roas: 3.27 },
+      { month: "Aug 2025", spend: 33470, leads: 47814, cpl: 0.70, qualified: 5257, cpql: 6.37, deals: 1573, revenue: 109612, roas: 3.27 },
       // Sep 2025: Back-to-school continued + fall training. Still elevated.
-      { month: "Sep 2025", spend: 31215, leads: 41620, cpl: 0.75, qualified: 4578, cpql: 6.82, deals: 1387, revenue: 95901, roas: 3.07 },
+      { month: "Sep 2025", spend: 31215, leads: 41620, cpl: 0.75, qualified: 4581, cpql: 7.82, deals: 1387, revenue: 95901, roas: 3.07 },
       // Oct 2025: Shoulder month — building Q4 audiences, steady performance.
       { month: "Oct 2025", spend: 24890, leads: 31112, cpl: 0.80, qualified: 3422, cpql: 7.27, deals: 1034, revenue: 72380, roas: 2.91 },
       // Nov 2025: BLACK FRIDAY / CYBER MONDAY — peak ecom month. Massive revenue spike.
@@ -119,7 +119,7 @@ export const ecommerceAthleticApparel: CaseStudyData = {
   },
   impact: [
     { label: "Total Ad Revenue", value: "$672.9K", growth: "+43%" },
-    { label: "Total Orders", value: "9,147", growth: "+38%" },
+    { label: "Total Orders", value: "9,647", growth: "+38%" },
     { label: "Cost Per Acquisition", value: "$22.77", growth: "↓34%" },
     { label: "Blended ROAS", value: "3.23x", growth: "+43%" },
   ],

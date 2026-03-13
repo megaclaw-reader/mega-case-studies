@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const fashionApparel: CaseStudyData = {
   slug: "fashion-apparel",
   industry: "Fashion & Apparel",
-  headline: "How a National Women's Fashion Brand Grew Online Revenue 37% to $356.2K in 12 Months",
+  headline: "How a National Women's Fashion Brand Grew Online Revenue 37% to $198.9K in 12 Months",
   subheadline: "MEGA helped a direct-to-consumer women's apparel brand optimize paid advertising, build an organic content engine, and capitalize on seasonal demand — generating 5,187 orders and a 4.27x blended ROAS across a full calendar year.",
   heroStats: [
     { value: "12", unit: "months", label: "Campaign Duration" },
-    { value: "5,187", unit: "", label: "Orders Attributed" },
-    { value: "356", unit: "K", label: "Ad Revenue" },
+    { value: "2271", unit: "", label: "Orders Attributed" },
+    { value: "198.9", unit: "K", label: "Ad Revenue" },
   ],
   tags: ["Paid Advertising", "SEO", "Ecommerce", "Fashion & Apparel"],
   company: {
@@ -124,7 +124,7 @@ export const fashionApparel: CaseStudyData = {
       { label: "Total Ad Spend", value: "$96.4K" },
       { label: "Total Orders", value: "2,271" },
       { label: "Avg Cost Per Click", value: "$1.24", note: "↓34% from $1.87" },
-      { label: "Blended ROAS", value: "3.70x", note: "from 3.12x baseline" },
+      { label: "Blended ROAS", value: "2.06x", note: "from 3.12x baseline" },
     ],
     columnLabels: {
       leads: "Sessions",
@@ -162,7 +162,7 @@ export const fashionApparel: CaseStudyData = {
   },
   impact: [
     { label: "Total Ad Revenue", value: "$198.9K", growth: "+37%" },
-    { label: "Total Orders", value: "5,187", growth: "+34%" },
+    { label: "Total Orders", value: "2,271", growth: "+34%" },
     { label: "Avg Cost Per Click", value: "$1.24", growth: "↓34%" },
     { label: "Blended ROAS", value: "2.06x", growth: "+37%" },
     { label: "Organic Traffic", value: "4,712/mo", growth: "+1,078%" },

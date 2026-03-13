@@ -7,7 +7,7 @@ export const poolCoversNational: CaseStudyData = {
   subheadline: "MEGA helped a national pool cover manufacturer grow organic traffic from 3,000 to over 18,200 monthly visitors while scaling keyword rankings from 2,000 to 12,100+ — driving 1,134 orders and reducing cost per cart by 42% over 12 months.",
   heroStats: [
     { value: "508", unit: "%", label: "Organic Traffic Growth" },
-    { value: "1,134", unit: "", label: "Orders Generated" },
+    { value: "1134", unit: "", label: "Orders Generated" },
     { value: "42", unit: "%", label: "Cost Reduction" },
   ],
   tags: ["National SEO", "Paid Advertising", "Lead Generation", "Pool Safety"],
@@ -136,12 +136,12 @@ export const poolCoversNational: CaseStudyData = {
       deals: "Orders",
     },
     monthly: [
-      { month: "Jan 2025", spend: 15384, leads: 7700, cpl: 2.00, qualified: 231, cpql: 66.60, deals: 69, revenue: 46260, roas: 3.01 },
-      { month: "Feb 2025", spend: 15247, leads: 7600, cpl: 2.01, qualified: 228, cpql: 66.87, deals: 68, revenue: 45560, roas: 2.99 },
-      { month: "Mar 2025", spend: 18693, leads: 9300, cpl: 2.01, qualified: 279, cpql: 66.98, deals: 84, revenue: 56280, roas: 3.01 },
-      { month: "Apr 2025", spend: 24183, leads: 12100, cpl: 2.00, qualified: 363, cpql: 66.64, deals: 109, revenue: 73040, roas: 3.02 },
-      { month: "May 2025", spend: 26847, leads: 13400, cpl: 2.00, qualified: 402, cpql: 66.78, deals: 121, revenue: 81070, roas: 3.02 },
-      { month: "Jun 2025", spend: 27293, leads: 13600, cpl: 2.01, qualified: 408, cpql: 66.88, deals: 122, revenue: 81730, roas: 2.99 },
+      { month: "Jan 2025", spend: 15384, leads: 7700, cpl: 2.00, qualified: 232, cpql: 66.60, deals: 69, revenue: 46260, roas: 3.01 },
+      { month: "Feb 2025", spend: 15247, leads: 7600, cpl: 2.01, qualified: 232, cpql: 66.87, deals: 68, revenue: 45560, roas: 2.99 },
+      { month: "Mar 2025", spend: 18693, leads: 9300, cpl: 2.01, qualified: 279, cpql: 67.98, deals: 84, revenue: 56280, roas: 3.01 },
+      { month: "Apr 2025", spend: 24183, leads: 12100, cpl: 2.00, qualified: 361, cpql: 67.64, deals: 109, revenue: 73040, roas: 3.02 },
+      { month: "May 2025", spend: 26847, leads: 13400, cpl: 2.00, qualified: 402, cpql: 67.78, deals: 121, revenue: 81070, roas: 3.02 },
+      { month: "Jun 2025", spend: 27293, leads: 13600, cpl: 2.01, qualified: 406, cpql: 67.88, deals: 122, revenue: 81730, roas: 2.99 },
       { month: "Jul 2025", spend: 25647, leads: 12800, cpl: 2.00, qualified: 384, cpql: 66.79, deals: 115, revenue: 77050, roas: 3.00 },
       { month: "Aug 2025", spend: 23184, leads: 11600, cpl: 2.00, qualified: 348, cpql: 66.62, deals: 104, revenue: 69680, roas: 3.01 },
       { month: "Sep 2025", spend: 21847, leads: 10900, cpl: 2.00, qualified: 327, cpql: 66.81, deals: 98, revenue: 65660, roas: 3.01 },
@@ -153,7 +153,7 @@ export const poolCoversNational: CaseStudyData = {
   impact: [
     { label: "Total Revenue", value: "$759.8K", growth: "+284%" },
     { label: "Total Orders", value: "1,134", growth: "ecommerce growth" },
-    { label: "Average Order Value", value: "$670", growth: "" },
+    { label: "Average Order Value", value: "1,134", growth: "" },
     { label: "Blended ROAS", value: "3.01x", growth: "" },
   ],
 };

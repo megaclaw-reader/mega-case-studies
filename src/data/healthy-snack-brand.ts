@@ -7,8 +7,8 @@ export const healthySnackBrand: CaseStudyData = {
   subheadline: "MEGA took a direct-to-consumer healthy snack brand with no paid advertising history and built a profitable ad engine from scratch — scaling from first-ever campaigns to 2.8x ROAS, generating $107.7K in ad-attributed revenue and 2,392 orders across 5 months.",
   heroStats: [
     { value: "2.8", unit: "x", label: "ROAS by Month 5" },
-    { value: "2,392", unit: "", label: "Orders Generated" },
-    { value: "108", unit: "K", label: "Ad Revenue" },
+    { value: "2392", unit: "", label: "Orders Generated" },
+    { value: "107.7", unit: "K", label: "Ad Revenue" },
   ],
   tags: ["Paid Advertising", "Ecommerce", "DTC"],
   company: {

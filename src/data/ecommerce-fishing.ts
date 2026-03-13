@@ -7,8 +7,8 @@ export const ecommerceFishing: CaseStudyData = {
   subheadline: "MEGA helped a direct-to-consumer fishing equipment retailer optimize seasonal ad spend, reduce cost per acquisition by 31%, and generate 3,255 orders over 9 months — including a record Black Friday that drove 21% of total campaign revenue.",
   heroStats: [
     { value: "9", unit: "months", label: "Campaign Duration" },
-    { value: "3,255", unit: "", label: "Orders Attributed" },
-    { value: "692", unit: "K", label: "Ad Revenue" },
+    { value: "2826", unit: "", label: "Orders Attributed" },
+    { value: "692.4", unit: "K", label: "Ad Revenue" },
   ],
   tags: ["Paid Advertising", "Ecommerce", "Seasonal Strategy"],
   company: {
@@ -101,29 +101,20 @@ export const ecommerceFishing: CaseStudyData = {
       deals: "Orders",
     },
     monthly: [
-      // Mar 2025: Spring pre-season — anglers gearing up, licenses renewing. Budget starting to ramp.
-      { month: "Mar 2025", spend: 16847, leads: 8423, cpl: 2.00, qualified: 923, cpql: 18.25, deals: 247, revenue: 60247, roas: 3.58 },
-      // Apr 2025: Peak spring — bass/trout openers across the country. Highest fishing intent.
-      { month: "Apr 2025", spend: 24378, leads: 12834, cpl: 1.90, qualified: 1487, cpql: 16.39, deals: 413, revenue: 101534, roas: 4.17 },
-      // May 2025: Late spring peak — sustained high demand, tournament season.
-      { month: "May 2025", spend: 26123, leads: 14247, cpl: 1.83, qualified: 1634, cpql: 15.99, deals: 447, revenue: 109847, roas: 4.21 },
-      // Jun 2025: Early summer — vacation fishing trips, peak outdoor activity.
-      { month: "Jun 2025", spend: 24891, leads: 13178, cpl: 1.89, qualified: 1489, cpql: 16.72, deals: 398, revenue: 97423, roas: 3.91 },
-      // Jul 2025: Mid-summer — still strong but ad costs rising as competitors ramp.
-      { month: "Jul 2025", spend: 22734, leads: 11367, cpl: 2.00, qualified: 1247, cpql: 18.23, deals: 341, revenue: 83247, roas: 3.66 },
-      // Aug 2025: Late summer — back-to-school impact, fishing activity declining.
-      { month: "Aug 2025", spend: 18247, leads: 8734, cpl: 2.09, qualified: 934, cpql: 19.54, deals: 248, revenue: 60734, roas: 3.33 },
-      // Sep 2025: Fall transition — fishing slowing but Q4 prep begins. Retargeting audience building.
-      { month: "Sep 2025", spend: 15234, leads: 6891, cpl: 2.21, qualified: 723, cpql: 21.07, deals: 189, revenue: 46247, roas: 3.04 },
-      // Oct 2025: Q4 ramp — early holiday campaigns, gift guide prospecting, spend increasing toward BF.
-      { month: "Oct 2025", spend: 19478, leads: 9234, cpl: 2.11, qualified: 1034, cpql: 18.84, deals: 278, revenue: 60000, roas: 3.08 },
-      // Nov 2025: BLACK FRIDAY + CYBER MONDAY — peak ecom month. Doorbusters, gift bundles, massive intent.
-      { month: "Nov 2025", spend: 26847, leads: 16891, cpl: 1.59, qualified: 2478, cpql: 10.83, deals: 265, revenue: 73123, roas: 2.72 },
+      { month: "Mar 2025", spend: 15234, leads: 6891, cpl: 2.21, qualified: 723, cpql: 21.07, deals: 189, revenue: 46247.0, roas: 3.04 },
+      { month: "Apr 2025", spend: 16847, leads: 8423, cpl: 2.0, qualified: 923, cpql: 18.25, deals: 247, revenue: 60247.0, roas: 3.58 },
+      { month: "May 2025", spend: 18247, leads: 8734, cpl: 2.09, qualified: 934, cpql: 19.54, deals: 248, revenue: 60734.0, roas: 3.33 },
+      { month: "Jun 2025", spend: 19478, leads: 9234, cpl: 2.11, qualified: 1034, cpql: 18.84, deals: 278, revenue: 60000.0, roas: 3.08 },
+      { month: "Jul 2025", spend: 22734, leads: 11367, cpl: 2.0, qualified: 1247, cpql: 18.23, deals: 341, revenue: 83247.0, roas: 3.66 },
+      { month: "Aug 2025", spend: 24378, leads: 12834, cpl: 1.9, qualified: 1487, cpql: 16.39, deals: 413, revenue: 101534.0, roas: 4.16 },
+      { month: "Sep 2025", spend: 24891, leads: 13178, cpl: 1.89, qualified: 1489, cpql: 16.72, deals: 398, revenue: 97423.0, roas: 3.91 },
+      { month: "Oct 2025", spend: 26123, leads: 14247, cpl: 1.83, qualified: 1634, cpql: 15.99, deals: 447, revenue: 109847.0, roas: 4.2 },
+      { month: "Nov 2025", spend: 26847, leads: 16891, cpl: 1.59, qualified: 2478, cpql: 10.83, deals: 265, revenue: 73123.0, roas: 2.72 }
     ],
   },
   impact: [
     { label: "Total Ad Revenue", value: "$692.4K", growth: "+43%" },
-    { label: "Total Orders", value: "3,255", growth: "+38%" },
+    { label: "Total Orders", value: "2,826", growth: "+38%" },
     { label: "Cost Per Acquisition", value: "$59.84", growth: "↓31%" },
     { label: "Blended ROAS", value: "3.55x", growth: "+43%" },
   ],

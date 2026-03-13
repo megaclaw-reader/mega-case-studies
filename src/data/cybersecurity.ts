@@ -7,8 +7,8 @@ export const cybersecurity: CaseStudyData = {
   subheadline: "MEGA helped a nationwide cybersecurity company optimize their digital marketing, reducing cost per qualified lead by 30%, growing organic traffic 418%, and generating $655.5K in attributed revenue over 8 months.",
   heroStats: [
     { value: "8", unit: "months", label: "Partnership Duration" },
-    { value: "656", unit: "K", label: "Revenue Growth Rate" },
-    { value: "656", unit: "K", label: "Revenue Attributed" },
+    { value: "655.5", unit: "K", label: "Revenue Growth Rate" },
+    { value: "655.5", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["SEO Strategy", "Paid Advertising", "AI-Powered Optimization"],
   company: {

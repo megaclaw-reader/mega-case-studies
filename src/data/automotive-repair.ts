@@ -7,7 +7,7 @@ export const automotiveRepair: CaseStudyData = {
   subheadline: "MEGA helped a full-service automotive repair and maintenance shop in San Antonio optimize their local SEO and paid advertising, reducing cost per qualified lead by 36%, growing organic traffic 412%, and generating $181.9K in attributed revenue over 12 months.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
-    { value: "182", unit: "K", label: "Revenue Attributed" },
+    { value: "45.7", unit: "K", label: "Revenue Attributed" },
     { value: "36", unit: "%", label: "CPL Reduction" },
   ],
   tags: ["Local SEO", "Paid Advertising", "AI-Powered Optimization"],

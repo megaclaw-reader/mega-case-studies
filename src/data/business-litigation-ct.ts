@@ -7,7 +7,7 @@ export const businessLitigationCt: CaseStudyData = {
   subheadline: "MEGA helped a Connecticut business litigation law firm build a paid advertising program from scratch while scaling organic search visibility, reducing cost per qualified lead by 39%, growing organic keywords to 7,200+, and generating $332.4K in attributed revenue over 8 months.",
   heroStats: [
     { value: "8", unit: "months", label: "Partnership Duration" },
-    { value: "332", unit: "K", label: "Revenue Attributed" },
+    { value: "332.4", unit: "K", label: "Revenue Attributed" },
     { value: "39", unit: "%", label: "CPQL Reduction" },
   ],
   tags: ["Local SEO", "Paid Advertising", "AI-Powered Optimization"],

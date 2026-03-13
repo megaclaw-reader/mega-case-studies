@@ -7,7 +7,7 @@ export const commercialInsuranceNy: CaseStudyData = {
   subheadline: "MEGA helped a New York-based commercial insurance agency serving small and medium-sized businesses build a paid advertising program from scratch while establishing organic search foundations, reducing cost per qualified lead by 55%, and generating $128.5K in attributed premium revenue over 5 months.",
   heroStats: [
     { value: "5", unit: "months", label: "Partnership Duration" },
-    { value: "128", unit: "K", label: "Premium Revenue" },
+    { value: "128.5", unit: "K", label: "Premium Revenue" },
     { value: "55", unit: "%", label: "CPQL Reduction" },
   ],
   tags: ["SEO", "Paid Advertising", "AI-Powered Optimization"],

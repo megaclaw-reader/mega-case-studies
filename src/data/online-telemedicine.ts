@@ -8,7 +8,7 @@ export const onlineTelemedicine: CaseStudyData = {
   heroStats: [
     { value: "9", unit: "months", label: "Partnership Duration" },
     { value: "156", unit: "%", label: "Patient Acquisition Growth" },
-    { value: "1,847", unit: "", label: "New Patients Acquired" },
+    { value: "148", unit: "", label: "New Patients Acquired" },
   ],
   tags: ["SEO", "Paid Advertising", "AI-Powered Optimization"],
   company: {

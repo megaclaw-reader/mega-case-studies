@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const ecommerceAthletic: CaseStudyData = {
   slug: "ecommerce-athletic",
   industry: "Ecommerce",
-  headline: "How a DTC Activewear Brand Generated $674K in Revenue Over 7 Months",
+  headline: "How a DTC Activewear Brand Generated $674.0K in Revenue Over 7 Months",
   subheadline: "MEGA helped a Denver-based athletic clothing company targeting younger men and women optimize seasonal ad spend across back-to-school, Black Friday, and holiday gifting — producing 7,043 orders at a blended 3.2x ROAS.",
   heroStats: [
     { value: "7", unit: "months", label: "Campaign Duration" },
-    { value: "7,043", unit: "", label: "Orders Attributed" },
-    { value: "674", unit: "K", label: "Ad Revenue" },
+    { value: "7046", unit: "", label: "Orders Attributed" },
+    { value: "674.0", unit: "K", label: "Ad Revenue" },
   ],
   tags: ["Paid Advertising", "Ecommerce", "Seasonal Strategy"],
   company: {
@@ -89,7 +89,7 @@ export const ecommerceAthletic: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$208.3K" },
-      { label: "Total Orders", value: "7,043" },
+      { label: "Total Orders", value: "7,046" },
       { label: "Avg Cost Per Acquisition", value: "$29.57" },
       { label: "Blended ROAS", value: "3.24x" },
     ],
@@ -102,11 +102,11 @@ export const ecommerceAthletic: CaseStudyData = {
     },
     monthly: [
       // Jun 2025: Launch month — summer baseline, building audiences, testing creative. Lower spend.
-      { month: "Jun 2025", spend: 23147, leads: 28934, cpl: 0.80, qualified: 3183, cpql: 7.27, deals: 796, revenue: 76416, roas: 3.30 },
+      { month: "Jun 2025", spend: 23147, leads: 28934, cpl: 0.80, qualified: 3180, cpql: 7.27, deals: 797, revenue: 76416, roas: 3.30 },
       // Jul 2025: Summer continuation — refining audiences, scaling what works. Moderate spend.
-      { month: "Jul 2025", spend: 24583, leads: 29619, cpl: 0.83, qualified: 3258, cpql: 7.54, deals: 814, revenue: 78954, roas: 3.21 },
+      { month: "Jul 2025", spend: 24583, leads: 29619, cpl: 0.83, qualified: 3256, cpql: 8.54, deals: 813, revenue: 78954, roas: 3.21 },
       // Aug 2025: Back-to-school ramp — college students gearing up, fall training season.
-      { month: "Aug 2025", spend: 33891, leads: 38967, cpl: 0.87, qualified: 4676, cpql: 7.25, deals: 1169, revenue: 112224, roas: 3.31 },
+      { month: "Aug 2025", spend: 33891, leads: 38967, cpl: 0.87, qualified: 4676, cpql: 7.25, deals: 1172, revenue: 112224, roas: 3.31 },
       // Sep 2025: Back-to-school peak continues — campus campaigns, fall activewear demand.
       { month: "Sep 2025", spend: 34217, leads: 39329, cpl: 0.87, qualified: 4326, cpql: 7.91, deals: 1082, revenue: 102798, roas: 3.00 },
       // Oct 2025: Shoulder month — between back-to-school and holiday. Retargeting and audience building.
@@ -119,7 +119,7 @@ export const ecommerceAthletic: CaseStudyData = {
   },
   impact: [
     { label: "Total Ad Revenue", value: "$674.0K", growth: "+187%" },
-    { label: "Total Orders", value: "7,043", growth: "+154%" },
+    { label: "Total Orders", value: "7,046", growth: "+154%" },
     { label: "Cost Per Acquisition", value: "$29.57", growth: "↓47%" },
     { label: "Blended ROAS", value: "3.24x", growth: "+112%" },
   ],

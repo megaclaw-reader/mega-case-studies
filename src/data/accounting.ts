@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const accounting: CaseStudyData = {
   slug: "accounting",
   industry: "Accounting",
-  headline: "How a California Accounting Firm Generated $275K in New Revenue With AI-Powered Marketing",
+  headline: "How a California Accounting Firm Generated $275.0K in New Revenue With AI-Powered Marketing",
   subheadline: "MEGA helped a local accounting firm in California optimize their digital marketing, reducing cost per qualified lead by 26%, growing organic traffic 858%, and acquiring 35 new clients over 12 months.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
     { value: "858", unit: "%", label: "Organic Traffic Growth" },
-    { value: "275", unit: "K", label: "Revenue Attributed" },
+    { value: "275.0", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["SEO Strategy", "Paid Advertising", "Local SEO"],
   company: {
@@ -146,30 +146,18 @@ export const accounting: CaseStudyData = {
       { label: "New Clients Acquired", value: "35" },
     ],
     monthly: [
-      // Month 1 (Jan): Inherited account — tax season starting, baseline performance before optimization
-      { month: "Aug 2025", spend: 6847, leads: 23, cpl: 298, qualified: 8, cpql: 856, deals: 2, revenue: 17293, roas: 2.53 },
-      // Month 2 (Feb): Campaign restructure live, tax season ramping, new landing pages for tax services
-      { month: "Sep 2025", spend: 7134, leads: 29, cpl: 246, qualified: 11, cpql: 649, deals: 3, revenue: 26847, roas: 3.76 },
-      // Month 3 (Mar): Tax season peak — highest intent traffic, compliance messaging resonating
-      { month: "Oct 2025", spend: 7389, leads: 33, cpl: 224, qualified: 14, cpql: 528, deals: 4, revenue: 33847, roas: 4.58 },
-      // Month 4 (Apr): Tax deadline urgency — peak lead volume and deal velocity
-      { month: "Nov 2025", spend: 7512, leads: 37, cpl: 203, qualified: 16, cpql: 470, deals: 5, revenue: 35293, roas: 4.70 },
-      // Month 5 (May): Post-tax season drop — sharp decline in search intent, budget pulled back
-      { month: "Dec 2025", spend: 6793, leads: 21, cpl: 324, qualified: 10, cpql: 679, deals: 2, revenue: 14293, roas: 2.10 },
-      // Month 6 (Jun): Summer lull — shifted messaging toward bookkeeping and payroll services
-      { month: "Jan 2025", spend: 6614, leads: 18, cpl: 367, qualified: 9, cpql: 735, deals: 2, revenue: 11847, roas: 1.79 },
-      // Month 7 (Jul): Deepest summer lull — maintained presence at reduced spend, focused on remarketing
-      { month: "Feb 2025", spend: 6547, leads: 17, cpl: 385, qualified: 8, cpql: 818, deals: 1, revenue: 8947, roas: 1.37 },
-      // Month 8 (Aug): Slight recovery — Q3 estimated tax planning driving some intent
-      { month: "Mar 2025", spend: 6712, leads: 19, cpl: 353, qualified: 9, cpql: 746, deals: 2, revenue: 14847, roas: 2.21 },
-      // Month 9 (Sep): Fall pickup — year-end planning campaigns launched, business advisory messaging
-      { month: "Apr 2025", spend: 7023, leads: 24, cpl: 293, qualified: 11, cpql: 639, deals: 3, revenue: 25847, roas: 3.68 },
-      // Month 10 (Oct): Year-end planning surge — strong deal flow from businesses needing tax strategy
-      { month: "May 2025", spend: 7184, leads: 27, cpl: 266, qualified: 13, cpql: 553, deals: 4, revenue: 31293, roas: 4.36 },
-      // Month 11 (Nov): Year-end rush — highest non-tax-season performance, lookalike audiences converting
-      { month: "Jun 2025", spend: 7347, leads: 31, cpl: 237, qualified: 14, cpql: 525, deals: 4, revenue: 33847, roas: 4.61 },
-      // Month 12 (Dec): Holiday slowdown — maintained efficiency but lower volume as businesses close out year
-      { month: "Jul 2025", spend: 6891, leads: 22, cpl: 313, qualified: 10, cpql: 689, deals: 3, revenue: 20847, roas: 3.03 },
+      { month: "Aug 2025", spend: 6547, leads: 17, cpl: 385.12, qualified: 8, cpql: 818.38, deals: 1, revenue: 8947.0, roas: 1.37 },
+      { month: "Sep 2025", spend: 6712, leads: 19, cpl: 353.26, qualified: 9, cpql: 745.78, deals: 2, revenue: 14847.0, roas: 2.21 },
+      { month: "Oct 2025", spend: 6614, leads: 18, cpl: 367.44, qualified: 9, cpql: 734.89, deals: 2, revenue: 11847.0, roas: 1.79 },
+      { month: "Nov 2025", spend: 6793, leads: 21, cpl: 323.48, qualified: 10, cpql: 679.3, deals: 2, revenue: 14293.0, roas: 2.1 },
+      { month: "Dec 2025", spend: 6847, leads: 23, cpl: 297.7, qualified: 8, cpql: 855.88, deals: 2, revenue: 17293.0, roas: 2.53 },
+      { month: "Jan 2025", spend: 6891, leads: 22, cpl: 313.23, qualified: 10, cpql: 689.1, deals: 3, revenue: 20847.0, roas: 3.03 },
+      { month: "Feb 2025", spend: 7023, leads: 24, cpl: 292.62, qualified: 11, cpql: 638.45, deals: 3, revenue: 25847.0, roas: 3.68 },
+      { month: "Mar 2025", spend: 7184, leads: 27, cpl: 266.07, qualified: 13, cpql: 552.62, deals: 4, revenue: 31293.0, roas: 4.36 },
+      { month: "Apr 2025", spend: 7134, leads: 29, cpl: 246.0, qualified: 11, cpql: 648.55, deals: 3, revenue: 26847.0, roas: 3.76 },
+      { month: "May 2025", spend: 7347, leads: 31, cpl: 237.0, qualified: 14, cpql: 524.79, deals: 4, revenue: 33847.0, roas: 4.61 },
+      { month: "Jun 2025", spend: 7389, leads: 33, cpl: 223.91, qualified: 14, cpql: 527.79, deals: 4, revenue: 33847.0, roas: 4.58 },
+      { month: "Jul 2025", spend: 7512, leads: 37, cpl: 203.03, qualified: 16, cpql: 469.5, deals: 5, revenue: 35293.0, roas: 4.7 }
     ],
   },
   impact: [

@@ -7,7 +7,7 @@ export const weddingPhotographyAtlanta: CaseStudyData = {
   subheadline: "MEGA helped a boutique wedding photography studio in Atlanta build organic search authority and optimize paid advertising, growing domain authority from 8 to 24, increasing organic traffic by 1,619%, and generating 61 booked weddings worth $156.4K in just 5 months.",
   heroStats: [
     { value: "5", unit: "months", label: "Partnership Duration" },
-    { value: "156", unit: "K", label: "Revenue Booked" },
+    { value: "156.4", unit: "K", label: "Revenue Booked" },
     { value: "1,619", unit: "%", label: "Organic Traffic Growth" },
   ],
   tags: ["Local SEO", "Paid Advertising", "AI-Powered Optimization"],

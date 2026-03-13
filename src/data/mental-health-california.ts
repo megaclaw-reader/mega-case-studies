@@ -7,7 +7,7 @@ export const mentalHealthCalifornia: CaseStudyData = {
   subheadline: "MEGA helped a California-based mental health and digital wellness platform grow from 94 ranking keywords to 8,673 while scaling paid advertising to generate 2,513 qualified client consultations — reducing cost per qualified lead from $118 to $61 and generating over $646.7K in attributed revenue across California's competitive wellness market.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
-    { value: "647", unit: "K", label: "Revenue Attributed" },
+    { value: "646.7", unit: "K", label: "Revenue Attributed" },
     { value: "48", unit: "%", label: "CPQL Reduction" },
   ],
   tags: ["SEO", "Paid Advertising", "Mental Health Marketing", "Digital Wellness"],
@@ -126,7 +126,7 @@ export const mentalHealthCalifornia: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$152.8K" },
-      { label: "Total Leads", value: "5,247", note: "Form submissions + phone calls" },
+      { label: "Total Leads", value: "5,647", note: "Form submissions + phone calls" },
       { label: "Qualified Leads", value: "2,513", note: "Consultation bookings" },
       { label: "Avg Cost/Qualified Lead", value: "$61", note: "↓48% from $118" },
     ],
@@ -155,7 +155,7 @@ export const mentalHealthCalifornia: CaseStudyData = {
   impact: [
     { label: "Total Revenue", value: "$646.7K", growth: "" },
     { label: "New Clients Acquired", value: "1,082", growth: "" },
-    { label: "Cost/Qualified Lead", value: "$118 → $61", growth: "↓48%" },
+    { label: "Cost/Qualified Lead", value: "2,513", growth: "↓48%" },
     { label: "Blended ROAS", value: "4.23x", growth: "" },
     { label: "Organic Keywords", value: "94 → 8,673", growth: "+9,124%" },
     { label: "Monthly Organic Traffic", value: "1,347 → 12,847", growth: "+854%" },

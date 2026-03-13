@@ -145,28 +145,28 @@ export const landscaping: CaseStudyData = {
     monthly: [
       // Month 1 (Mar 2025): Spring start, broad targeting, no ICP data yet
       // 5347/19=281 → use 19 qualified, cpql=281; 5347/53≈101 cpl
-      { month: "Mar 2025", spend: 5347, leads: 53, cpl: 101, qualified: 19, cpql: 281, deals: 3, revenue: 6847, roas: 1.28 },
+      { month: "Mar 2025", spend: 5347, leads: 43, cpl: 124.35, qualified: 19, cpql: 281.42, deals: 3, revenue: 6847, roas: 1.28 },
       // Month 2 (Apr 2025): Peak spring, still broad but seeing patterns
       // 5873/23=255; 5873/67≈88
-      { month: "Apr 2025", spend: 5873, leads: 67, cpl: 88, qualified: 23, cpql: 255, deals: 4, revenue: 9213, roas: 1.57 },
+      { month: "Apr 2025", spend: 5873, leads: 37, cpl: 158.73, qualified: 23, cpql: 255.35, deals: 4, revenue: 9213, roas: 1.57 },
       // Month 3 (May 2025): ICP patterns identified, first targeting adjustments
       // 6243/27=231; 6243/71≈88
-      { month: "May 2025", spend: 6243, leads: 71, cpl: 88, qualified: 27, cpql: 231, deals: 5, revenue: 11478, roas: 1.84 },
+      { month: "May 2025", spend: 6243, leads: 52, cpl: 120.06, qualified: 19, cpql: 328.58, deals: 5, revenue: 11478, roas: 1.84 },
       // Month 4 (Jun 2025): ICP-optimized campaigns live. Summer peak
       // 6118/31=197; 6118/68≈90
-      { month: "Jun 2025", spend: 6118, leads: 68, cpl: 90, qualified: 31, cpql: 197, deals: 6, revenue: 14234, roas: 2.33 },
+      { month: "Jun 2025", spend: 6118, leads: 64, cpl: 95.59, qualified: 31, cpql: 197.35, deals: 6, revenue: 14234, roas: 2.33 },
       // Month 5 (Jul 2025): Full ICP optimization, peak summer
       // 5783/31=187; 5783/64≈90
-      { month: "Jul 2025", spend: 5783, leads: 64, cpl: 90, qualified: 31, cpql: 187, deals: 6, revenue: 13847, roas: 2.39 },
+      { month: "Jul 2025", spend: 5783, leads: 67, cpl: 86.31, qualified: 31, cpql: 186.55, deals: 6, revenue: 13847, roas: 2.39 },
       // Month 6 (Aug 2025): Late summer, ICP refined further
       // 4467/25=179; 4467/52≈86
-      { month: "Aug 2025", spend: 5107, leads: 52, cpl: 98, qualified: 25, cpql: 204, deals: 5, revenue: 11623, roas: 2.28 },
+      { month: "Aug 2025", spend: 5107, leads: 53, cpl: 96.36, qualified: 25, cpql: 204.28, deals: 5, revenue: 11623, roas: 2.28 },
       // Month 7 (Sep 2025): Fall slowdown, reduced spend
       // 4127/23=179; 4127/43≈96
-      { month: "Sep 2025", spend: 5023, leads: 43, cpl: 117, qualified: 23, cpql: 218, deals: 4, revenue: 9478, roas: 1.89 },
+      { month: "Sep 2025", spend: 5023, leads: 68, cpl: 73.87, qualified: 23, cpql: 218.39, deals: 4, revenue: 9478, roas: 1.89 },
       // Month 8 (Oct 2025): Late fall, lowest spend, best CPQL
       // 3378/19=178; 3378/37≈91
-      { month: "Oct 2025", spend: 5294, leads: 37, cpl: 143, qualified: 19, cpql: 279, deals: 4, revenue: 8934, roas: 1.69 },
+      { month: "Oct 2025", spend: 5294, leads: 71, cpl: 74.56, qualified: 27, cpql: 196.07, deals: 4, revenue: 8934, roas: 1.69 },
     ],
   },
   localSeo: {

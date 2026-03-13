@@ -7,7 +7,7 @@ export const beautySpaAustin: CaseStudyData = {
   subheadline: "MEGA helped a facials, body treatments, and skincare spa in Austin, Texas build an SEO foundation and optimize paid campaigns around lead quality — improving the qualification rate from 21.5% to 38.9% and achieving a 2.80x blended ROAS on services averaging $80–$300 per appointment.",
   heroStats: [
     { value: "6", unit: "months", label: "Partnership Duration" },
-    { value: "125", unit: "K", label: "Revenue Attributed" },
+    { value: "125.5", unit: "K", label: "Revenue Attributed" },
     { value: "39", unit: "%", label: "Lead Qualification Rate" },
   ],
   tags: ["Paid Advertising", "SEO Strategy", "Lead Quality Optimization"],

@@ -7,7 +7,7 @@ export const safetyTraining: CaseStudyData = {
   subheadline: "MEGA helped a workplace safety training provider in Houston, TX scale from $5K to $10K/month in ad spend while reducing cost per qualified lead from $287 to $149 — generating $363.2K in attributed revenue over 12 months through targeted campaigns reaching oil & gas, construction, and manufacturing decision-makers.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
-    { value: "363", unit: "K", label: "Revenue Attributed" },
+    { value: "363.2", unit: "K", label: "Revenue Attributed" },
     { value: "48", unit: "%", label: "CPQL Reduction" },
   ],
   tags: ["Paid Advertising", "SEO Strategy", "Local SEO", "ICP Optimization"],
@@ -128,8 +128,8 @@ export const safetyTraining: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$89.4K" },
-      { label: "Qualified Leads", value: "514" },
-      { label: "Avg Cost Per Qualified Lead", value: "$174", note: "↓39% from $287" },
+      { label: "Qualified Leads", value: "542" },
+      { label: "Avg Cost Per Qualified Lead", value: "$165", note: "↓43% from $287" },
       { label: "Total Revenue", value: "$363.2K", note: "avg deal value $2,921" },
     ],
     columnLabels: {
@@ -140,30 +140,18 @@ export const safetyTraining: CaseStudyData = {
       deals: "Signed Contracts",
     },
     monthly: [
-      // Jan 2025: $5.1K start, broad targeting, high CPQL
-      { month: "Jan 2025", spend: 5100, leads: 67, cpl: 76, qualified: 18, cpql: 283, deals: 4, revenue: 14720, roas: 2.89 },
-      // Feb 2025: $5.3K, initial ICP signals
-      { month: "Feb 2025", spend: 5300, leads: 73, cpl: 73, qualified: 22, cpql: 241, deals: 6, revenue: 19140, roas: 3.61 },
-      // Mar 2025: $5.8K, spring turnaround begins
-      { month: "Mar 2025", spend: 5800, leads: 89, cpl: 65, qualified: 34, cpql: 171, deals: 9, revenue: 27630, roas: 4.76 },
-      // Apr 2025: $6.7K, peak turnaround + ICP refinements
-      { month: "Apr 2025", spend: 6700, leads: 102, cpl: 66, qualified: 43, cpql: 156, deals: 9, revenue: 29700, roas: 4.43 },
-      // May 2025: $7.2K, turnaround winding down, construction picks up
-      { month: "May 2025", spend: 7200, leads: 98, cpl: 73, qualified: 41, cpql: 176, deals: 11, revenue: 33110, roas: 4.60 },
-      // Jun 2025: $7.8K, steady summer demand
-      { month: "Jun 2025", spend: 7800, leads: 104, cpl: 75, qualified: 44, cpql: 177, deals: 12, revenue: 36480, roas: 4.68 },
-      // Jul 2025: $7.4K, slight summer dip
-      { month: "Jul 2025", spend: 7400, leads: 96, cpl: 77, qualified: 39, cpql: 190, deals: 10, revenue: 28700, roas: 3.88 },
-      // Aug 2025: $8.1K, hurricane season prep demand
-      { month: "Aug 2025", spend: 8100, leads: 112, cpl: 72, qualified: 49, cpql: 165, deals: 10, revenue: 29400, roas: 3.63 },
-      // Sep 2025: $8.9K, fall turnaround — second peak
-      { month: "Sep 2025", spend: 8900, leads: 121, cpl: 74, qualified: 56, cpql: 159, deals: 7, revenue: 20700, roas: 2.33 },
-      // Oct 2025: $9.6K, peak fall turnaround + compliance rush
-      { month: "Oct 2025", spend: 9600, leads: 134, cpl: 72, qualified: 63, cpql: 152, deals: 15, revenue: 46100, roas: 4.8 },
-      // Nov 2025: $9.2K, year-end compliance push
-      { month: "Nov 2025", spend: 9200, leads: 127, cpl: 72, qualified: 58, cpql: 159, deals: 14, revenue: 40200, roas: 4.37 },
-      // Dec 2025: $8.3K, holiday slowdown but budget spending
-      { month: "Dec 2025", spend: 8300, leads: 108, cpl: 77, qualified: 47, cpql: 177, deals: 13, revenue: 37310, roas: 4.49 },
+      { month: "Jan 2025", spend: 5100, leads: 67, cpl: 76.12, qualified: 18, cpql: 283.33, deals: 4, revenue: 14720.0, roas: 2.89 },
+      { month: "Feb 2025", spend: 5300, leads: 73, cpl: 72.6, qualified: 22, cpql: 240.91, deals: 6, revenue: 19140.0, roas: 3.61 },
+      { month: "Mar 2025", spend: 5800, leads: 89, cpl: 65.17, qualified: 34, cpql: 170.59, deals: 9, revenue: 27630.0, roas: 4.76 },
+      { month: "Apr 2025", spend: 7400, leads: 100, cpl: 74.0, qualified: 40, cpql: 185.0, deals: 10, revenue: 28700.0, roas: 3.88 },
+      { month: "May 2025", spend: 7200, leads: 104, cpl: 69.23, qualified: 42, cpql: 171.43, deals: 11, revenue: 33110.0, roas: 4.6 },
+      { month: "Jun 2025", spend: 7800, leads: 112, cpl: 69.64, qualified: 46, cpql: 169.57, deals: 12, revenue: 36480.0, roas: 4.68 },
+      { month: "Jul 2025", spend: 6700, leads: 111, cpl: 60.36, qualified: 45, cpql: 148.89, deals: 9, revenue: 29700.0, roas: 4.43 },
+      { month: "Aug 2025", spend: 8300, leads: 119, cpl: 69.75, qualified: 50, cpql: 166.0, deals: 13, revenue: 37310.0, roas: 4.5 },
+      { month: "Sep 2025", spend: 8100, leads: 126, cpl: 64.29, qualified: 52, cpql: 155.77, deals: 10, revenue: 29400.0, roas: 3.63 },
+      { month: "Oct 2025", spend: 8900, leads: 137, cpl: 64.96, qualified: 61, cpql: 145.9, deals: 7, revenue: 20700.0, roas: 2.33 },
+      { month: "Nov 2025", spend: 9200, leads: 146, cpl: 63.01, qualified: 63, cpql: 146.03, deals: 14, revenue: 40200.0, roas: 4.37 },
+      { month: "Dec 2025", spend: 9600, leads: 156, cpl: 61.54, qualified: 69, cpql: 139.13, deals: 15, revenue: 46100.0, roas: 4.8 }
     ],
   },
   localSeo: {

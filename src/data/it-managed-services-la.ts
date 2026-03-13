@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const itManagedServicesLa: CaseStudyData = {
   slug: "it-managed-services-la",
   industry: "IT - Managed Services",
-  headline: "How a Los Angeles Managed IT Services Firm Generated 360 Qualified Leads and $926K in Revenue in 12 Months",
+  headline: "How a Los Angeles Managed IT Services Firm Generated 360 Qualified Leads and $926.6K in Revenue in 12 Months",
   subheadline: "MEGA helped a Los Angeles-based managed IT services provider slash their cost per qualified lead by 64%, grow organic traffic 1,847%, and build a predictable pipeline of consultation requests through SEO and paid advertising — serving businesses across all of California.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
     { value: "1,847", unit: "%", label: "Organic Traffic Growth" },
-    { value: "926", unit: "K", label: "Revenue Attributed" },
+    { value: "926.6", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["Local SEO", "Paid Advertising", "Lead Generation"],
   company: {

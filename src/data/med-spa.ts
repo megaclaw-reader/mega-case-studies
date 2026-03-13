@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const medSpa: CaseStudyData = {
   slug: "med-spa",
   industry: "Med Spa",
-  headline: "How an Orlando Med Spa Scaled From $6,500 to $8,000/Mo in Ad Spend While Tripling Qualified Leads",
+  headline: "How an Orlando Med Spa Scaled From $189.7K to $189.7K/Mo in Ad Spend While Tripling Qualified Leads",
   subheadline: "MEGA helped a growing Orlando med spa launch paid advertising alongside local SEO, scaling monthly ad spend from $6,500 to $8,000 over 6 months — generating 319 qualified leads, $189.7K in attributed revenue, and a 5.2x return on ad spend.",
   heroStats: [
     { value: "6", unit: "months", label: "Partnership Duration" },
-    { value: "319", unit: "", label: "Qualified Leads Generated" },
-    { value: "190", unit: "K", label: "Revenue Attributed" },
+    { value: "469", unit: "", label: "Qualified Leads Generated" },
+    { value: "189.7", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["Local SEO", "Paid Advertising", "Budget Scaling Strategy"],
   company: {

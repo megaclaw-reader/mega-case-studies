@@ -7,7 +7,7 @@ export const carWashAutoDetailing: CaseStudyData = {
   subheadline: "MEGA helped a full-service car wash and auto detailing operation in Phoenix, AZ scale from 127 to 174 qualified leads per month — dropping CPQL from $41 to $27 — by combining hyper-local SEO dominance with data-driven paid campaigns targeting membership-ready customers.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
-    { value: "178", unit: "K", label: "Revenue Attributed" },
+    { value: "187.5", unit: "K", label: "Revenue Attributed" },
     { value: "34", unit: "%", label: "CPQL Reduction" },
   ],
   tags: ["Paid Advertising", "SEO Strategy", "Local SEO", "Membership Growth"],
@@ -212,7 +212,7 @@ export const carWashAutoDetailing: CaseStudyData = {
   },
   impact: [
     { label: "Total Revenue Attributed", value: "$187.5K", growth: "+197%" },
-    { label: "New Memberships + Detail Bookings", value: "578", growth: "+41%" },
+    { label: "New Memberships + Detail Bookings", value: "1,940", growth: "+41%" },
     { label: "Cost Per Qualified Lead", value: "$27", growth: "↓34%" },
     { label: "Blended ROAS", value: "2.67x", growth: "" },
   ],

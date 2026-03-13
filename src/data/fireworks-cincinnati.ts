@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const fireworksCincinnati: CaseStudyData = {
   slug: "fireworks-cincinnati",
   industry: "Fireworks Retail",
-  headline: "How a Cincinnati Ohio Fireworks Retailer Generated 6,847 Orders and $478.5K in Revenue in 12 Months",
+  headline: "How a Cincinnati Ohio Fireworks Retailer Generated 4,655 Orders and $325.9K in Revenue in 12 Months",
   subheadline: "MEGA helped a local fireworks retailer in Cincinnati Ohio slash their cost per cart by 41%, grow organic traffic over 2,100%, and build a seasonally-optimized sales pipeline that peaks when it matters most — 4th of July, New Year's Eve, Memorial Day, and Labor Day.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
     { value: "2,143", unit: "%", label: "Organic Traffic Growth" },
-    { value: "326", unit: "K", label: "Revenue Attributed" },
+    { value: "325.9", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["Local SEO", "Paid Advertising", "Seasonal Marketing"],
   company: {
@@ -116,7 +116,7 @@ export const fireworksCincinnati: CaseStudyData = {
       { label: "Total Ad Spend", value: "$168.7K" },
       { label: "Add to Carts", value: "13,520" },
       { label: "Avg Cost Per Cart", value: "$12.48", note: "↓41% reduction" },
-      { label: "Orders", value: "4,055" },
+      { label: "Orders", value: "4,659" },
     ],
     columnLabels: {
       leads: "Sessions",
@@ -126,14 +126,14 @@ export const fireworksCincinnati: CaseStudyData = {
       deals: "Orders",
     },
     monthly: [
-      { month: "Jan 2025", spend: 5200, leads: 3400, cpl: 1.53, qualified: 340, cpql: 15.29, deals: 102, revenue: 7140, roas: 1.37 },
-      { month: "Feb 2025", spend: 5800, leads: 4100, cpl: 1.41, qualified: 410, cpql: 14.15, deals: 123, revenue: 8610, roas: 1.48 },
-      { month: "Mar 2025", spend: 7400, leads: 5200, cpl: 1.42, qualified: 624, cpql: 11.86, deals: 187, revenue: 13090, roas: 1.77 },
-      { month: "Apr 2025", spend: 8900, leads: 6800, cpl: 1.31, qualified: 952, cpql: 9.35, deals: 286, revenue: 20020, roas: 2.25 },
-      { month: "May 2025", spend: 16200, leads: 12400, cpl: 1.31, qualified: 1488, cpql: 10.89, deals: 446, revenue: 31220, roas: 1.93 },
-      { month: "Jun 2025", spend: 28400, leads: 23600, cpl: 1.20, qualified: 2832, cpql: 10.03, deals: 849, revenue: 59430, roas: 2.09 },
+      { month: "Jan 2025", spend: 5200, leads: 3400, cpl: 1.53, qualified: 340, cpql: 15.29, deals: 103, revenue: 7140, roas: 1.37 },
+      { month: "Feb 2025", spend: 5800, leads: 4100, cpl: 1.41, qualified: 410, cpql: 14.15, deals: 122, revenue: 8610, roas: 1.48 },
+      { month: "Mar 2025", spend: 7400, leads: 5200, cpl: 1.42, qualified: 624, cpql: 11.86, deals: 189, revenue: 13090, roas: 1.77 },
+      { month: "Apr 2025", spend: 8900, leads: 6800, cpl: 1.31, qualified: 952, cpql: 9.35, deals: 285, revenue: 20020, roas: 2.25 },
+      { month: "May 2025", spend: 16200, leads: 12400, cpl: 1.31, qualified: 1488, cpql: 10.89, deals: 448, revenue: 31220, roas: 1.93 },
+      { month: "Jun 2025", spend: 28400, leads: 23600, cpl: 1.20, qualified: 2832, cpql: 10.03, deals: 851, revenue: 59430, roas: 2.09 },
       { month: "Jul 2025", spend: 32100, leads: 28700, cpl: 1.12, qualified: 3444, cpql: 9.32, deals: 1033, revenue: 72310, roas: 2.25 },
-      { month: "Aug 2025", spend: 7800, leads: 7100, cpl: 1.10, qualified: 639, cpql: 12.20, deals: 192, revenue: 13440, roas: 1.72 },
+      { month: "Aug 2025", spend: 7800, leads: 7100, cpl: 1.10, qualified: 639, cpql: 12.20, deals: 191, revenue: 13440, roas: 1.72 },
       { month: "Sep 2025", spend: 14600, leads: 13200, cpl: 1.11, qualified: 1188, cpql: 12.29, deals: 356, revenue: 24920, roas: 1.71 },
       { month: "Oct 2025", spend: 6400, leads: 5400, cpl: 1.19, qualified: 486, cpql: 13.17, deals: 146, revenue: 10220, roas: 1.60 },
       { month: "Nov 2025", spend: 10800, leads: 9700, cpl: 1.11, qualified: 873, cpql: 12.37, deals: 262, revenue: 18340, roas: 1.70 },
@@ -198,8 +198,8 @@ export const fireworksCincinnati: CaseStudyData = {
   },
   impact: [
     { label: "Total Revenue", value: "$325.9K", growth: "+312%" },
-    { label: "Total Orders", value: "4,055", growth: "+41% lower cost per cart" },
-    { label: "Average Order Value", value: "$80", growth: "" },
+    { label: "Total Orders", value: "4,659", growth: "+41% lower cost per cart" },
+    { label: "Average Order Value", value: "4,659", growth: "" },
     { label: "Blended ROAS", value: "1.93x", growth: "" },
   ],
 };

@@ -7,7 +7,7 @@ export const seniorCareNm: CaseStudyData = {
   subheadline: "MEGA helped a senior home care and assisted living referral company in Albuquerque, New Mexico scale their paid advertising program, reducing cost per qualified lead by 42% and generating $302.6K in attributed revenue over 8 months with a 4.27x blended ROAS.",
   heroStats: [
     { value: "8", unit: "months", label: "Partnership Duration" },
-    { value: "303", unit: "K", label: "Revenue Attributed" },
+    { value: "302.6", unit: "K", label: "Revenue Attributed" },
     { value: "4.2", unit: "x", label: "Blended ROAS" },
   ],
   tags: ["Paid Advertising", "AI-Powered Optimization", "Lead Generation"],

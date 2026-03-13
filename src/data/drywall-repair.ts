@@ -6,8 +6,8 @@ export const drywallRepair: CaseStudyData = {
   headline: "How a 6-Person Phoenix Drywall Crew Scaled From 47 to 200+ Booked Jobs Per Month With AI-Powered Marketing",
   subheadline: "MEGA helped a drywall repair specialist in Phoenix build a high-velocity lead engine — scaling from 93 to 379 monthly leads, dropping cost per lead by 51%, and generating $414K in revenue over 12 months while growing from 6 to 9 employees.",
   heroStats: [
-    { value: "200", unit: "+/mo", label: "Peak Booked Jobs" },
-    { value: "414", unit: "K", label: "12-Month Revenue" },
+    { value: "400", unit: "", label: "Peak Booked Jobs" },
+    { value: "200.1", unit: "K", label: "12-Month Revenue" },
     { value: "308", unit: "%", label: "Lead Volume Growth" },
   ],
   tags: ["Lead Velocity", "High Volume", "Local SEO", "Paid Advertising"],

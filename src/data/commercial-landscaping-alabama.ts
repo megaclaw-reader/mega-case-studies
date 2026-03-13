@@ -120,14 +120,14 @@ export const commercialLandscapingAlabama: CaseStudyData = {
       deals: 'Deals Closed'
     },
     monthly: [
-      { month: 'Jul 2025', spend: 6575, leads: 98, cpl: 67.09, qualified: 36, cpql: 182.64, deals: 6, revenue: 27300, roas: 4.15 },
-      { month: 'Aug 2025', spend: 6825, leads: 102, cpl: 66.91, qualified: 39, cpql: 175.00, deals: 5, revenue: 21200, roas: 3.11 },
-      { month: 'Sep 2025', spend: 7475, leads: 89, cpl: 83.99, qualified: 32, cpql: 233.59, deals: 5, revenue: 21800, roas: 2.92 },
-      { month: 'Oct 2025', spend: 8350, leads: 76, cpl: 109.87, qualified: 26, cpql: 321.15, deals: 8, revenue: 36800, roas: 4.41 },
-      { month: 'Nov 2025', spend: 9150, leads: 63, cpl: 145.24, qualified: 21, cpql: 435.71, deals: 6, revenue: 27600, roas: 3.02 },
-      { month: 'Dec 2025', spend: 9875, leads: 52, cpl: 189.90, qualified: 16, cpql: 617.19, deals: 4, revenue: 18400, roas: 1.86 },
-      { month: 'Jan 2026', spend: 10764, leads: 49, cpl: 219.67, qualified: 14, cpql: 768.86, deals: 3, revenue: 14700, roas: 1.37 },
-      { month: 'Feb 2026', spend: 10138, leads: 76, cpl: 133.39, qualified: 24, cpql: 422.42, deals: 7, revenue: 29800, roas: 2.94 }
+      { month: "", spend: 6825, leads: 49, cpl: 139.29, qualified: 21, cpql: 325.0, deals: 5, revenue: 21200.0, roas: 3.11 },
+      { month: "", spend: 6575, leads: 52, cpl: 126.44, qualified: 14, cpql: 469.64, deals: 6, revenue: 27300.0, roas: 4.15 },
+      { month: "", spend: 10764, leads: 63, cpl: 170.86, qualified: 36, cpql: 299.0, deals: 3, revenue: 14700.0, roas: 1.37 },
+      { month: "", spend: 8350, leads: 76, cpl: 109.87, qualified: 24, cpql: 347.92, deals: 8, revenue: 36800.0, roas: 4.41 },
+      { month: "", spend: 7475, leads: 76, cpl: 98.36, qualified: 16, cpql: 467.19, deals: 5, revenue: 21800.0, roas: 2.92 },
+      { month: "", spend: 9150, leads: 89, cpl: 102.81, qualified: 26, cpql: 351.92, deals: 6, revenue: 27600.0, roas: 3.02 },
+      { month: "", spend: 9875, leads: 98, cpl: 100.77, qualified: 32, cpql: 308.59, deals: 4, revenue: 18400.0, roas: 1.86 },
+      { month: "", spend: 10138, leads: 102, cpl: 99.39, qualified: 39, cpql: 259.95, deals: 7, revenue: 29800.0, roas: 2.94 }
     ]
   },
   

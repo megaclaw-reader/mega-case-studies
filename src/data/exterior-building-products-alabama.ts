@@ -8,7 +8,7 @@ export const exteriorBuildingProductsAlabama: CaseStudyData = {
   heroStats: [
     { value: "347", unit: "%", label: "Lead Quality Improvement" },
     { value: "1,847", unit: "", label: "Keywords Ranked (5 months)" },
-    { value: "4.09x", unit: "", label: "Blended ROAS" },
+    { value: "4.1", unit: "x", label: "Blended ROAS" },
   ],
   tags: ["SEO Strategy", "Paid Advertising", "Lead Generation", "Alabama"],
   company: {

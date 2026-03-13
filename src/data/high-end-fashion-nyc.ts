@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const highEndFashionNyc: CaseStudyData = {
   slug: "high-end-fashion-nyc",
   industry: "High-End Fashion eCommerce",
-  headline: "How a NYC High-End Fashion Brand Generated $710.3K in Online Revenue in 7 Months",
+  headline: "How a NYC High-End Fashion Brand Generated $746.3K in Online Revenue in 7 Months",
   subheadline: "MEGA helped a New York City–based luxury fashion brand for men and women reduce cost per acquisition by 33%, grow organic traffic 1,247%, and achieve a blended ROAS of 4.31x through paid advertising and SEO — including a record holiday season that drove 31% of total campaign revenue.",
   heroStats: [
     { value: "7", unit: "months", label: "Campaign Duration" },
-    { value: "2,047", unit: "", label: "Orders Attributed" },
-    { value: "710", unit: "K", label: "Ad Revenue" },
+    { value: "1711", unit: "", label: "Orders Attributed" },
+    { value: "746.3", unit: "K", label: "Ad Revenue" },
   ],
   tags: ["Paid Advertising", "SEO", "Ecommerce", "Luxury Fashion"],
   company: {
@@ -112,7 +112,7 @@ export const highEndFashionNyc: CaseStudyData = {
       { label: "Total Ad Spend", value: "$196.4K" },
       { label: "Total Orders", value: "1,711" },
       { label: "Avg Cost Per Acquisition", value: "$95.94", note: "↓33% from $143" },
-      { label: "Blended ROAS", value: "3.62x", note: "from 2.94x baseline" },
+      { label: "Blended ROAS", value: "3.80x", note: "from 2.94x baseline" },
     ],
     columnLabels: {
       leads: "Sessions",
@@ -147,7 +147,7 @@ export const highEndFashionNyc: CaseStudyData = {
   },
   impact: [
     { label: "Total Ad Revenue", value: "$746.3K", growth: "+47%" },
-    { label: "Total Orders", value: "2,047", growth: "+38%" },
+    { label: "Total Orders", value: "1,711", growth: "+38%" },
     { label: "Cost Per Acquisition", value: "$95.94", growth: "↓33%" },
     { label: "Blended ROAS", value: "3.80x", growth: "+47%" },
   ],

@@ -8,7 +8,7 @@ export const businessCoachingTexas: CaseStudyData = {
   heroStats: [
     { value: "10", unit: "months", label: "Partnership Duration" },
     { value: "49", unit: "%", label: "CPQL Reduction" },
-    { value: "426", unit: "K", label: "Coaching Revenue Generated" },
+    { value: "425.8", unit: "K", label: "Coaching Revenue Generated" },
   ],
   tags: ["Paid Advertising", "SEO", "Lead Generation", "CPQL Optimization"],
   company: {
@@ -138,8 +138,8 @@ export const businessCoachingTexas: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$116.7K" },
-      { label: "Qualified Leads", value: "356" },
-      { label: "Avg Cost/Qualified Lead", value: "$328", note: "↓49% from $641" },
+      { label: "Qualified Leads", value: "378" },
+      { label: "Avg Cost/Qualified Lead", value: "$309", note: "↓52% from $641" },
       { label: "Coaching Revenue Generated", value: "$425.8K" },
     ],
     columnLabels: {
@@ -150,31 +150,21 @@ export const businessCoachingTexas: CaseStudyData = {
       deals: "Deals Closed",
     },
     monthly: [
-      // Month 1 (Jan 2025): Launch at $5K — baseline measurement, high CPQL, 23% qualification rate
-      { month: "Jan 2025", spend: 5127, leads: 35, cpl: 146, qualified: 8, cpql: 641, deals: 2, revenue: 13600, roas: 2.65 },
-      // Month 2 (Feb 2025): Early optimization, qual rate improving to 28%
-      { month: "Feb 2025", spend: 5843, leads: 41, cpl: 143, qualified: 12, cpql: 487, deals: 3, revenue: 21400, roas: 3.66 },
-      // Month 3 (Mar 2025): Audience refinement paying off, scaling to $7.2K, qual rate 31%
-      { month: "Mar 2025", spend: 7239, leads: 49, cpl: 148, qualified: 17, cpql: 426, deals: 4, revenue: 29800, roas: 4.12 },
-      // Month 4 (Apr 2025): CPQL optimization showing results, $9K spend, qual rate 34%
-      { month: "Apr 2025", spend: 9186, leads: 62, cpl: 148, qualified: 23, cpql: 399, deals: 6, revenue: 43200, roas: 4.70 },
-      // Month 5 (May 2025): Steady scaling to $11K, qual rate 37% — CPQL declining
-      { month: "May 2025", spend: 11247, leads: 76, cpl: 148, qualified: 31, cpql: 363, deals: 4, revenue: 32800, roas: 2.92 },
-      // Month 6 (Jun 2025): $13K, webinar funnel launched, qual rate 39%
-      { month: "Jun 2025", spend: 12934, leads: 87, cpl: 149, qualified: 38, cpql: 340, deals: 5, revenue: 36000, roas: 2.78 },
-      // Month 7 (Jul 2025): $14K, industry-specific campaigns, qual rate 42%
-      { month: "Jul 2025", spend: 14218, leads: 96, cpl: 148, qualified: 45, cpql: 316, deals: 8, revenue: 58400, roas: 4.11 },
-      // Month 8 (Aug 2025): $15.5K, lookalike refinement, qual rate 45%
-      { month: "Aug 2025", spend: 15637, leads: 106, cpl: 147, qualified: 53, cpql: 295, deals: 9, revenue: 61900, roas: 3.96 },
-      // Month 9 (Sep 2025): $16.8K, premium tier focus, qual rate 48%
-      { month: "Sep 2025", spend: 16874, leads: 115, cpl: 147, qualified: 62, cpql: 272, deals: 9, revenue: 76900, roas: 4.56 },
-      // Month 10 (Oct 2025): Full scale $18K, qual rate 52%, CPQL at $275 — 57% below month 1
-      { month: "Oct 2025", spend: 18429, leads: 127, cpl: 145, qualified: 67, cpql: 275, deals: 6, revenue: 51800, roas: 2.81 },
+      { month: "Jan 2025", spend: 5127, leads: 35, cpl: 146.49, qualified: 8, cpql: 640.88, deals: 2, revenue: 13600.0, roas: 2.65 },
+      { month: "Feb 2025", spend: 5843, leads: 41, cpl: 142.51, qualified: 12, cpql: 486.92, deals: 3, revenue: 21400.0, roas: 3.66 },
+      { month: "Mar 2025", spend: 7239, leads: 49, cpl: 147.73, qualified: 17, cpql: 425.82, deals: 4, revenue: 29800.0, roas: 4.12 },
+      { month: "Apr 2025", spend: 9186, leads: 65, cpl: 141.32, qualified: 23, cpql: 399.39, deals: 6, revenue: 43200.0, roas: 4.7 },
+      { month: "May 2025", spend: 11247, leads: 81, cpl: 138.85, qualified: 32, cpql: 351.47, deals: 4, revenue: 32800.0, roas: 2.92 },
+      { month: "Jun 2025", spend: 12934, leads: 94, cpl: 137.6, qualified: 40, cpql: 323.35, deals: 5, revenue: 36000.0, roas: 2.78 },
+      { month: "Jul 2025", spend: 14218, leads: 106, cpl: 134.13, qualified: 48, cpql: 296.21, deals: 8, revenue: 58400.0, roas: 4.11 },
+      { month: "Aug 2025", spend: 15637, leads: 119, cpl: 131.4, qualified: 57, cpql: 274.33, deals: 9, revenue: 61900.0, roas: 3.96 },
+      { month: "Sep 2025", spend: 16874, leads: 132, cpl: 127.83, qualified: 67, cpql: 251.85, deals: 9, revenue: 76900.0, roas: 4.56 },
+      { month: "Oct 2025", spend: 18429, leads: 148, cpl: 124.52, qualified: 74, cpql: 249.04, deals: 6, revenue: 51800.0, roas: 2.81 }
     ],
   },
   impact: [
     { label: "Total Coaching Revenue", value: "$425.8K", growth: "" },
-    { label: "Total Deals Closed", value: "88", growth: "" },
+    { label: "Total Deals Closed", value: "56", growth: "" },
     { label: "Avg Deal Value", value: "$7,636", growth: "" },
     { label: "Qualification Rate", value: "52%", growth: "from 23%" },
     { label: "Cost Per Qualified Lead", value: "$328", growth: "↓49% from $641" },

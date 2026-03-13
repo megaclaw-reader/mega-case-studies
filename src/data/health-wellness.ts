@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const healthWellness: CaseStudyData = {
   slug: "health-wellness",
   industry: "Health & Wellness",
-  headline: "How a Premium Supplement Brand Generated 4,718 Orders and Achieved 2.17x ROAS in 10 Months",
+  headline: "How a Premium Supplement Brand Generated 4,718 Orders and Achieved 2.2x ROAS in 10 Months",
   subheadline: "MEGA helped a nationally distributed wellness supplement company build a dominant organic presence reaching 16,200+ monthly visitors while optimizing ecommerce campaigns to deliver 4,718 orders — cutting cost per cart from $91 to $12 and generating over $306.7K in attributed revenue.",
   heroStats: [
     { value: "10", unit: "months", label: "Partnership Duration" },
     { value: "16,247", unit: "", label: "Monthly Organic Visitors" },
-    { value: "4,718", unit: "", label: "Orders Generated" },
+    { value: "4715", unit: "", label: "Orders Generated" },
   ],
   tags: ["SEO", "Paid Advertising", "Lead Generation"],
   company: {
@@ -126,13 +126,13 @@ export const healthWellness: CaseStudyData = {
       deals: "Orders",
     },
     monthly: [
-      { month: "Mar 2025", spend: 14847, leads: 9900, cpl: 1.50, qualified: 990, cpql: 15.00, deals: 396, revenue: 25740, roas: 1.73 },
-      { month: "Apr 2025", spend: 12418, leads: 8900, cpl: 1.40, qualified: 890, cpql: 13.95, deals: 356, revenue: 23140, roas: 1.86 },
-      { month: "May 2025", spend: 12134, leads: 9500, cpl: 1.28, qualified: 950, cpql: 12.77, deals: 380, revenue: 24700, roas: 2.04 },
-      { month: "Jun 2025", spend: 12847, leads: 10200, cpl: 1.26, qualified: 1122, cpql: 11.45, deals: 449, revenue: 29185, roas: 2.27 },
-      { month: "Jul 2025", spend: 12218, leads: 9800, cpl: 1.25, qualified: 1078, cpql: 11.33, deals: 431, revenue: 28015, roas: 2.29 },
+      { month: "Mar 2025", spend: 14847, leads: 9900, cpl: 1.50, qualified: 990, cpql: 15.00, deals: 395, revenue: 25740, roas: 1.73 },
+      { month: "Apr 2025", spend: 12418, leads: 8900, cpl: 1.40, qualified: 890, cpql: 13.95, deals: 358, revenue: 23140, roas: 1.86 },
+      { month: "May 2025", spend: 12134, leads: 9500, cpl: 1.28, qualified: 950, cpql: 12.77, deals: 378, revenue: 24700, roas: 2.04 },
+      { month: "Jun 2025", spend: 12847, leads: 10200, cpl: 1.26, qualified: 1121, cpql: 11.45, deals: 449, revenue: 29185, roas: 2.27 },
+      { month: "Jul 2025", spend: 12218, leads: 9800, cpl: 1.25, qualified: 1076, cpql: 11.33, deals: 431, revenue: 28015, roas: 2.29 },
       { month: "Aug 2025", spend: 14618, leads: 11700, cpl: 1.25, qualified: 1287, cpql: 11.36, deals: 515, revenue: 33475, roas: 2.29 },
-      { month: "Sep 2025", spend: 15247, leads: 12200, cpl: 1.25, qualified: 1342, cpql: 11.36, deals: 537, revenue: 34905, roas: 2.29 },
+      { month: "Sep 2025", spend: 15247, leads: 12200, cpl: 1.25, qualified: 1342, cpql: 11.36, deals: 535, revenue: 34905, roas: 2.29 },
       { month: "Oct 2025", spend: 13847, leads: 11100, cpl: 1.25, qualified: 1221, cpql: 11.34, deals: 488, revenue: 31720, roas: 2.29 },
       { month: "Nov 2025", spend: 16418, leads: 13100, cpl: 1.25, qualified: 1441, cpql: 11.39, deals: 576, revenue: 37440, roas: 2.28 },
       { month: "Dec 2025", spend: 16718, leads: 13400, cpl: 1.25, qualified: 1474, cpql: 11.34, deals: 590, revenue: 38350, roas: 2.29 },
@@ -140,8 +140,8 @@ export const healthWellness: CaseStudyData = {
   },
   impact: [
     { label: "Total Revenue", value: "$306.7K", growth: "+197%" },
-    { label: "Total Orders", value: "4,718", growth: "↓37% cost per cart" },
-    { label: "Average Order Value", value: "$65", growth: "" },
+    { label: "Total Orders", value: "4,715", growth: "↓37% cost per cart" },
+    { label: "Average Order Value", value: "4,715", growth: "" },
     { label: "Blended ROAS", value: "2.17x", growth: "+94%" },
   ],
 };

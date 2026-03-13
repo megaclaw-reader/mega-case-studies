@@ -7,7 +7,7 @@ export const movingCompany: CaseStudyData = {
   subheadline: "MEGA helped a full-service moving company in Atlanta, GA transform their paid advertising from a volume game into a precision lead engine — reducing cost per qualified lead from $247 to $163 while scaling monthly ad spend from $19K to $29K and generating $636.9K in attributed revenue over 8 months.",
   heroStats: [
     { value: "8", unit: "months", label: "Partnership Duration" },
-    { value: "637", unit: "K", label: "Revenue Attributed" },
+    { value: "636.9", unit: "K", label: "Revenue Attributed" },
     { value: "34", unit: "%", label: "CPQL Reduction" },
   ],
   tags: ["Paid Advertising", "SEO Strategy", "Local SEO", "Lead Quality Optimization"],

@@ -8,7 +8,7 @@ export const subscriptionEducationNational: CaseStudyData = {
   heroStats: [
     { value: "347", unit: "%", label: "MRR Growth" },
     { value: "11,289", unit: "", label: "Monthly Subscribers" },
-    { value: "3.22", unit: "x", label: "Blended ROAS" },
+    { value: "3.2", unit: "x", label: "Blended ROAS" },
   ],
   tags: ["SEO", "Paid Advertising", "Subscription Growth", "MRR Optimization"],
   company: {
@@ -149,7 +149,7 @@ export const subscriptionEducationNational: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Monthly Recurring Revenue", value: "$2,847 → $12,734", growth: "+347%" },
+    { label: "Monthly Recurring Revenue", value: "$529.9K", growth: "+347%" },
     { label: "Total Subscribers", value: "11,289", growth: "+8,442" },
     { label: "Subscriber Acquisition Cost", value: "$94 → $68", growth: "↓28%" },
     { label: "Trial-to-Paid Rate", value: "12.8% → 70.8%", growth: "+58pts" },

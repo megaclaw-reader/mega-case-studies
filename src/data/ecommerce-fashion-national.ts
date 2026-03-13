@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const ecommerceFashionNational: CaseStudyData = {
   slug: "ecommerce-fashion-national",
   industry: "eCommerce - Fashion",
-  headline: "How a National Fashion Brand Generated $1.47M in Revenue with a 5.12x ROAS Through Strategic Seasonal Paid Advertising",
+  headline: "How a National Fashion Brand Generated $1.62M in Revenue with a 3.3x ROAS Through Strategic Seasonal Paid Advertising",
   subheadline: "MEGA helped a sustainable fashion ecommerce company optimize their paid advertising campaigns across seasonal demand cycles — delivering 12,847 orders and capturing peak performance during Black Friday/Cyber Monday with strategic budget allocation and audience targeting.",
   heroStats: [
     { value: "12", unit: "months", label: "Campaign Duration" },
-    { value: "12,847", unit: "", label: "Total Orders" },
-    { value: "1.47", unit: "M", label: "Total Revenue" },
+    { value: "12892", unit: "", label: "Total Orders" },
+    { value: "1.6", unit: "M", label: "Total Revenue" },
   ],
   tags: ["Paid Advertising", "eCommerce", "Fashion", "National"],
   company: {
@@ -91,7 +91,7 @@ export const ecommerceFashionNational: CaseStudyData = {
       { label: "Total Ad Spend", value: "$489.7K" },
       { label: "Total Orders", value: "12,892" },
       { label: "Avg Cost Per Visit", value: "$1.73", note: "↓26% from $2.34" },
-      { label: "Blended ROAS", value: "5.12x", note: "from 3.8x baseline" },
+      { label: "Blended ROAS", value: "3.30x", note: "from 3.8x baseline" },
     ],
     columnLabels: {
       leads: "Sessions",
@@ -101,38 +101,26 @@ export const ecommerceFashionNational: CaseStudyData = {
       deals: "Orders",
     },
     monthly: [
-      // Jan 2025: Post-holiday sales, winter clearance — lowest spend, margins compressed
-      { month: "Jan '25", spend: 31247, leads: 18234, cpl: 1.71, qualified: 1876, cpql: 16.66, deals: 743, revenue: 87634, roas: 2.81 },
-      // Feb 2025: Valentine's Day boost, pre-spring messaging — still conservative spend
-      { month: "Feb '25", spend: 32891, leads: 19567, cpl: 1.68, qualified: 2034, cpql: 16.17, deals: 812, revenue: 96793, roas: 2.94 },
-      // Mar 2025: Spring collection launch, wardrobe refresh campaigns — spending increases
-      { month: "Mar '25", spend: 36743, leads: 21891, cpl: 1.68, qualified: 2297, cpql: 16.00, deals: 934, revenue: 114267, roas: 3.11 },
-      // Apr 2025: Spring peak demand, Easter shopping, warm weather prep — strong performance
-      { month: "Apr '25", spend: 41234, leads: 24387, cpl: 1.69, qualified: 2634, cpql: 15.65, deals: 1087, revenue: 135743, roas: 3.29 },
-      // May 2025: Late spring, Memorial Day sales, vacation prep — sustained performance
-      { month: "May '25", spend: 39876, leads: 23456, cpl: 1.70, qualified: 2498, cpql: 15.96, deals: 1034, revenue: 129387, roas: 3.24 },
-      // Jun 2025: Early summer collections, outdoor lifestyle focus — slight dip in efficiency
-      { month: "Jun '25", spend: 37234, leads: 22134, cpl: 1.68, qualified: 2367, cpql: 15.73, deals: 976, revenue: 122456, roas: 3.29 },
-      // Jul 2025: Mid-summer lull, early clearance starting — reduced spend
-      { month: "Jul '25", spend: 34567, leads: 20789, cpl: 1.66, qualified: 2187, cpql: 15.81, deals: 897, revenue: 113234, roas: 3.28 },
-      // Aug 2025: Back-to-school surge, fall preview — significant spend increase
-      { month: "Aug '25", spend: 46782, leads: 27234, cpl: 1.72, qualified: 2934, cpql: 15.94, deals: 1234, revenue: 154678, roas: 3.31 },
-      // Sep 2025: Fall fashion week, new season launches — peak pre-holiday performance
-      { month: "Sep '25", spend: 49123, leads: 28567, cpl: 1.72, qualified: 3087, cpql: 15.91, deals: 1289, revenue: 167234, roas: 3.40 },
-      // Oct 2025: Pre-holiday buildup, outerwear season — scaling for Q4
-      { month: "Oct '25", spend: 44673, leads: 25987, cpl: 1.72, qualified: 2798, cpql: 15.97, deals: 1156, revenue: 149873, roas: 3.36 },
-      // Nov 2025: BLACK FRIDAY/CYBER MONDAY — massive peak, highest spend and revenue
-      { month: "Nov '25", spend: 52341, leads: 31245, cpl: 1.68, qualified: 4234, cpql: 12.37, deals: 1987, revenue: 248234, roas: 4.74 },
-      // Dec 2025: Holiday gifting peak, last-minute shopping — strong but below BF/CM
-      { month: "Dec '25", spend: 42987, leads: 25789, cpl: 1.67, qualified: 3123, cpql: 13.76, deals: 743, revenue: 95599, roas: 2.22 },
+      { month: "Jan '25", spend: 31247, leads: 18234, cpl: 1.71, qualified: 1876, cpql: 16.66, deals: 743, revenue: 87634.0, roas: 2.8 },
+      { month: "Feb '25", spend: 32891, leads: 19567, cpl: 1.68, qualified: 2034, cpql: 16.17, deals: 812, revenue: 96793.0, roas: 2.94 },
+      { month: "Mar '25", spend: 34567, leads: 20789, cpl: 1.66, qualified: 2187, cpql: 15.81, deals: 897, revenue: 113234.0, roas: 3.28 },
+      { month: "Apr '25", spend: 36743, leads: 22985, cpl: 1.6, qualified: 2365, cpql: 15.54, deals: 934, revenue: 114267.0, roas: 3.11 },
+      { month: "May '25", spend: 37234, leads: 23572, cpl: 1.58, qualified: 2461, cpql: 15.13, deals: 976, revenue: 122456.0, roas: 3.29 },
+      { month: "Jun '25", spend: 39876, leads: 25332, cpl: 1.57, qualified: 2622, cpql: 15.21, deals: 1034, revenue: 129387.0, roas: 3.24 },
+      { month: "Jul '25", spend: 41234, leads: 26703, cpl: 1.54, qualified: 2792, cpql: 14.77, deals: 1087, revenue: 135743.0, roas: 3.29 },
+      { month: "Aug '25", spend: 42987, leads: 28625, cpl: 1.5, qualified: 3341, cpql: 12.87, deals: 743, revenue: 95599.0, roas: 2.22 },
+      { month: "Sep '25", spend: 44673, leads: 29235, cpl: 1.53, qualified: 3021, cpql: 14.79, deals: 1156, revenue: 149873.0, roas: 3.35 },
+      { month: "Oct '25", spend: 46782, leads: 31046, cpl: 1.51, qualified: 3198, cpql: 14.63, deals: 1234, revenue: 154678.0, roas: 3.31 },
+      { month: "Nov '25", spend: 49123, leads: 32994, cpl: 1.49, qualified: 3395, cpql: 14.47, deals: 1289, revenue: 167234.0, roas: 3.4 },
+      { month: "Dec '25", spend: 52341, leads: 36556, cpl: 1.43, qualified: 4699, cpql: 11.14, deals: 1987, revenue: 248234.0, roas: 4.74 }
     ],
   },
   impact: [
     { label: "Total Revenue", value: "$1.62M", growth: "+67%" },
-    { label: "Total Orders", value: "13,713", growth: "+58%" },
+    { label: "Total Orders", value: "12,892", growth: "+58%" },
     { label: "Blended ROAS", value: "3.30x", growth: "+35%" },
     { label: "Avg Cost Per Visit", value: "$1.73", growth: "↓26%" },
     { label: "Add-to-Cart Rate", value: "10.7%", growth: "+43%" },
-    { label: "Average Order Value", value: "$127", growth: "+12%" },
+    { label: "Average Order Value", value: "12,892", growth: "+12%" },
   ],
 };

@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const medSpaMultiLocationFlorida: CaseStudyData = {
   slug: "medspa-multilocation-florida",
   industry: "MedSpa",
-  headline: "How a Multi-Location MedSpa Chain Scaled From $20K to $35K Monthly Ad Spend Across 3 States — Generating 2,847 Qualified Leads and $1.4M in Revenue",
+  headline: "How a Multi-Location MedSpa Chain Scaled From $642.5K to $642.5K Monthly Ad Spend Across 3 States — Generating 2,847 Qualified Leads and $642.5K in Revenue",
   subheadline: "MEGA transformed a Florida-headquartered MedSpa chain with 10 locations across 3 states from fragmented local campaigns into a unified growth engine. Through location-specific SEO strategies, geo-targeted paid campaigns, and centralized performance optimization, we delivered 2,847 qualified leads, achieved a 4.2x blended ROAS, and established market dominance in 8 metro areas.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
-    { value: "2,847", unit: "", label: "Qualified Leads" },
-    { value: "4.2", unit: "x", label: "Blended ROAS" },
+    { value: "3045", unit: "", label: "Qualified Leads" },
+    { value: "2.0", unit: "x", label: "Blended ROAS" },
   ],
   tags: ["Multi-Location SEO", "Paid Advertising", "Geographic Expansion"],
   company: {
@@ -120,7 +120,7 @@ export const medSpaMultiLocationFlorida: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$327.5K" },
-      { label: "Total Leads", value: "7,184" },
+      { label: "Total Leads", value: "6,184" },
       { label: "Qualified Leads", value: "3,045" },
       { label: "Avg CPQL", value: "$115", note: "↓47% by month 12" },
     ],
@@ -169,7 +169,7 @@ export const medSpaMultiLocationFlorida: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Qualified Leads", value: "2,847", growth: "+1,847%" },
+    { label: "Total Qualified Leads", value: "3,045", growth: "+1,847%" },
     { label: "Cost Per Qualified Lead", value: "$115", growth: "↓47%" },
     { label: "Monthly Organic Traffic", value: "16,847", growth: "+2,241%" },
     { label: "Blended ROAS", value: "1.96x", growth: "Maintained across all locations" },

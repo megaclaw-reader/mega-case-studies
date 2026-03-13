@@ -7,7 +7,7 @@ export const printShop: CaseStudyData = {
   subheadline: "MEGA helped a full-service print shop in Chicago's River North neighborhood scale from $8K to $12.5K/month in ad spend while reducing cost per qualified lead by 37% — generating $183.3K in attributed revenue over 12 months through hyper-local targeting and organic visibility.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
-    { value: "183", unit: "K", label: "Revenue Attributed" },
+    { value: "183.3", unit: "K", label: "Revenue Attributed" },
     { value: "37", unit: "%", label: "CPQL Reduction" },
   ],
   tags: ["Paid Advertising", "SEO Strategy", "Local SEO", "Lead Generation"],
@@ -208,7 +208,7 @@ export const printShop: CaseStudyData = {
   },
   impact: [
     { label: "Total Revenue", value: "$183.3K", growth: "+34%" },
-    { label: "Closed Jobs", value: "284", growth: "+189%" },
+    { label: "Closed Jobs", value: "294", growth: "+189%" },
     { label: "Cost Per Qualified Lead", value: "$118", growth: "↓37%" },
     { label: "Blended ROAS", value: "1.59x", growth: "" },
   ],

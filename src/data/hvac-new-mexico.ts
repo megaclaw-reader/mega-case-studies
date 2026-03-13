@@ -8,7 +8,7 @@ export const hvacNewMexico: CaseStudyData = {
   heroStats: [
     { value: "8", unit: "months", label: "Partnership Duration" },
     { value: "47", unit: "%", label: "CPQL Reduction" },
-    { value: "417", unit: "K", label: "Revenue Attributed" },
+    { value: "416.6", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["Local SEO", "Paid Advertising", "Lead Generation", "Instrumentation"],
   company: {

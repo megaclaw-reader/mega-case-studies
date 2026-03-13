@@ -3,11 +3,11 @@ import { CaseStudyData } from "./types";
 export const lawFirmNational: CaseStudyData = {
   slug: "law-firm-national",
   industry: "National Law Firm",
-  headline: "How a Multi-Practice National Law Firm Generated $4.93M in Case Revenue From a $1.34M Annual Ad Investment",
+  headline: "How a Multi-Practice National Law Firm Generated $4.93M in Case Revenue From a $4.93M Annual Ad Investment",
   subheadline: "MEGA helped a national law firm spanning mass torts, class action, and personal injury build a coast-to-coast digital acquisition engine — scaling from 0 to 8,700+ organic keywords, reducing cost per qualified lead by 44%, and delivering a 6.33x blended ROAS across all practice areas in 12 months.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
-    { value: "4.93", unit: "M", label: "Attributed Revenue" },
+    { value: "4.9", unit: "M", label: "Attributed Revenue" },
     { value: "3.7", unit: "x", label: "Blended ROAS" },
   ],
   tags: ["Paid Advertising", "SEO Strategy", "Lead Generation"],

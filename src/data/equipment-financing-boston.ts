@@ -3,7 +3,7 @@ import { CaseStudyData } from "./types";
 export const equipmentFinancingBoston: CaseStudyData = {
   slug: "equipment-financing-boston",
   industry: "Equipment Financing",
-  headline: "How a Boston Equipment Financing Firm Generated $1.87M in Funded Deals With AI-Powered Marketing",
+  headline: "How a Boston Equipment Financing Firm Generated $381.0K in Funded Deals With AI-Powered Marketing",
   subheadline: "MEGA helped a Boston-based equipment financing company serving small and mid-sized businesses build a comprehensive digital acquisition program from scratch, reducing cost per qualified lead by 61% and generating $1.87M in funded equipment deals over 12 months.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },

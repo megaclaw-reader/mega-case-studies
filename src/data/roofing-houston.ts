@@ -7,7 +7,7 @@ export const roofingHouston: CaseStudyData = {
   subheadline: "MEGA helped a Houston-based residential and commercial roofing company optimize their paid advertising funnel and build an organic search engine, reducing CPQL from $507 to $277, ranking for 8,200+ keywords, and generating $260.5K in attributed revenue over 10 months.",
   heroStats: [
     { value: "45", unit: "%", label: "CPQL Reduction" },
-    { value: "260", unit: "K", label: "Revenue Attributed" },
+    { value: "260.5", unit: "K", label: "Revenue Attributed" },
     { value: "8,247", unit: "", label: "Keywords Ranked" },
   ],
   tags: ["SEO", "Paid Advertising", "CPQL Optimization"],
@@ -142,7 +142,7 @@ export const roofingHouston: CaseStudyData = {
   impact: [
     { label: "Total Revenue", value: "$260.5K", growth: "+142%" },
     { label: "Blended ROAS", value: "3.35x", growth: "" },
-    { label: "Total Qualified Leads", value: "243", growth: "+108%" },
+    { label: "Total Qualified Leads", value: "191", growth: "+108%" },
     { label: "Avg CPQL", value: "$320", growth: "↓37% from $507" },
   ],
 };

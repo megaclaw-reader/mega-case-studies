@@ -8,7 +8,7 @@ export const interiorDesign: CaseStudyData = {
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
     { value: "73", unit: "%", label: "Consultation Growth" },
-    { value: "307", unit: "K", label: "Project Revenue Attributed" },
+    { value: "307.1", unit: "K", label: "Project Revenue Attributed" },
   ],
   tags: ["Local SEO", "Paid Advertising", "High-Value Service Marketing"],
   company: {

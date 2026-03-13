@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const wearableHealthTech: CaseStudyData = {
   slug: "wearable-health-tech",
   industry: "Ecommerce",
-  headline: "How a DTC Wearable Health Tech Brand Scaled From $10K to $28K Monthly Ad Spend — and Hit 3.8x ROAS",
+  headline: "How a DTC Wearable Health Tech Brand Scaled From $676.2K to $676.2K Monthly Ad Spend — and Hit 3.8x ROAS",
   subheadline: "MEGA helped a direct-to-consumer wearable health technology company optimize paid campaigns and organic search simultaneously — growing monthly revenue from $24K to over $152K while scaling ad spend strategically as ROAS improved from 2.4x to 5.4x across 10 months.",
   heroStats: [
     { value: "3.8", unit: "x", label: "Peak ROAS" },
     { value: "8,247", unit: "+", label: "Ranking Keywords" },
-    { value: "676", unit: "K", label: "Total Revenue" },
+    { value: "676.2", unit: "K", label: "Total Revenue" },
   ],
   tags: ["SEO Strategy", "Paid Advertising", "Ecommerce", "DTC Strategy"],
   company: {
@@ -136,7 +136,7 @@ export const wearableHealthTech: CaseStudyData = {
       // Apr 2025: Optimization phase — segments tested, early learnings
       { month: "Apr 2025", spend: 10470, leads: 7692, cpl: 1.36, qualified: 631, cpql: 16.59, deals: 127, revenue: 28067, roas: 2.68 },
       // May 2025: First budget increase as sleep + fitness segments prove out
-      { month: "May 2025", spend: 12340, leads: 9492, cpl: 1.30, qualified: 808, cpql: 15.27, deals: 168, revenue: 37296, roas: 3.02 },
+      { month: "May 2025", spend: 12340, leads: 9492, cpl: 1.30, qualified: 807, cpql: 15.27, deals: 168, revenue: 37296, roas: 3.02 },
       // Jun 2025: Summer fitness demand surge — scaling into warm audiences
       { month: "Jun 2025", spend: 14180, leads: 11344, cpl: 1.25, qualified: 964, cpql: 14.71, deals: 214, revenue: 48418, roas: 3.41 },
       // Jul 2025: Peak summer — fitness wearable searches highest, confident scaling

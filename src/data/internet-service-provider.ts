@@ -7,7 +7,7 @@ export const internetServiceProvider: CaseStudyData = {
   subheadline: "MEGA helped a nationwide internet service provider grow monthly ad spend from $10K to $18.4K while cutting cost per qualified lead from $287 to $152 — generating $430.4K in attributed first-year subscriber revenue over 10 months.",
   heroStats: [
     { value: "10", unit: "months", label: "Partnership Duration" },
-    { value: "430", unit: "K", label: "Revenue Attributed" },
+    { value: "418.7", unit: "K", label: "Revenue Attributed" },
     { value: "47", unit: "%", label: "CPQL Reduction" },
   ],
   tags: ["SEO Strategy", "Paid Advertising", "Subscriber Acquisition", "National Scaling"],

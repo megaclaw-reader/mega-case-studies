@@ -7,7 +7,7 @@ export const homeDamageRestoration: CaseStudyData = {
   subheadline: "MEGA helped a residential and commercial restoration company in Atlanta optimize their digital marketing, reducing cost per qualified lead by 39%, growing organic traffic 341%, and generating $740.8K in attributed revenue over 12 months.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
-    { value: "741", unit: "K", label: "Revenue Attributed" },
+    { value: "740.8", unit: "K", label: "Revenue Attributed" },
     { value: "39", unit: "%", label: "CPL Reduction" },
   ],
   tags: ["Local SEO", "Paid Advertising", "AI-Powered Optimization"],

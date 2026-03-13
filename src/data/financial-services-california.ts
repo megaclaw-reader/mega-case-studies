@@ -7,8 +7,8 @@ export const financialServicesCalifornia: CaseStudyData = {
   subheadline: "MEGA partnered with a boutique wealth advisory and insurance firm in California to build a scalable digital acquisition engine — reducing cost per qualified lead by 38%, ranking for 8,200+ keywords, and closing 47 new high-value clients through an integrated SEO and paid advertising strategy.",
   heroStats: [
     { value: "8", unit: "months", label: "Partnership Duration" },
-    { value: "38", unit: "%", label: "Qualified Lead Cost Reduction" },
-    { value: "970", unit: "K", label: "New Client Revenue" },
+    { value: "189", unit: "", label: "Qualified Lead Cost Reduction" },
+    { value: "969.8", unit: "K", label: "New Client Revenue" },
   ],
   tags: ["SEO Strategy", "Paid Advertising", "Lead Generation"],
   company: {

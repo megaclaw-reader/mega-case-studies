@@ -7,8 +7,8 @@ export const mortgageLending: CaseStudyData = {
   subheadline: "MEGA helped a nationwide mortgage lending company optimize their digital marketing, improving ad efficiency by 35%, growing organic traffic 691%, and generating $781.2K in attributed revenue within 12 months.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
-    { value: "781", unit: "K", label: "Revenue Growth" },
-    { value: "781", unit: "K", label: "Revenue Attributed" },
+    { value: "742.3", unit: "K", label: "Revenue Growth" },
+    { value: "742.3", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["SEO Strategy", "Paid Advertising", "AI-Powered Optimization"],
   company: {

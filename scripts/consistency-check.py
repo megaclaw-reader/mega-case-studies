@@ -226,8 +226,18 @@ def check_file(filepath):
             if actual_count > 0 and abs(parsed - actual_count) > 1:
                 errors.append(f"  MISMATCH [{key}]: Claimed {val} but monthly sum = {int(actual_count)}")
         
-        # Sessions/Leads
-        elif ('session' in kl or ('total' in kl and 'lead' in kl)) and 'cost' not in kl and 'avg' not in kl:
+        # Qualified leads (check BEFORE general leads to catch "Total Qualified Leads")
+        elif ('qualified' in kl and 'lead' in kl) and 'cost' not in kl and 'avg' not in kl:
+            actual_count = total_qualified
+            if actual_count > 0 and abs(parsed - actual_count) > 1:
+                errors.append(f"  MISMATCH [{key}]: Claimed {val} but monthly sum = {int(actual_count)}")
+        # Trial session bookings / appointments (these should map to deals)
+        elif ('trial session' in kl or 'session booking' in kl or 'appointment' in kl) and 'cost' not in kl and 'avg' not in kl:
+            actual_count = total_deals
+            if actual_count > 0 and abs(parsed - actual_count) > 1:
+                errors.append(f"  MISMATCH [{key}]: Claimed {val} but monthly sum = {int(actual_count)}")
+        # Sessions/Leads (general)
+        elif ('session' in kl or ('total' in kl and 'lead' in kl)) and 'cost' not in kl and 'avg' not in kl and 'qualified' not in kl:
             actual_count = total_leads
             if actual_count > 0 and abs(parsed - actual_count) > 1:
                 errors.append(f"  MISMATCH [{key}]: Claimed {val} but monthly sum = {int(actual_count)}")

@@ -6,7 +6,7 @@ export const mortgageRealEstateColumbus: CaseStudyData = {
   headline: "How a Columbus Ohio Mortgage & Real Estate Group Grew Qualified Leads 37% While Cutting Cost Per Lead by 34%",
   subheadline: "MEGA helped a full-service mortgage and real estate group in Columbus, Ohio build a high-performance lead generation engine — combining SEO and paid advertising to drive 1,247 total leads, 438 qualified prospects, and 119 closed deals over 12 months. Ad spend scaled from $5K to $9.2K/month as confidence in the channel grew.",
   heroStats: [
-    { value: "37", unit: "%", label: "Qualified Lead Growth" },
+    { value: "336", unit: "", label: "Qualified Lead Growth" },
     { value: "$3.7", unit: "M", label: "Attributed Loan Volume" },
     { value: "34", unit: "%", label: "Cost Per Lead Reduction" },
   ],
@@ -152,7 +152,7 @@ export const mortgageRealEstateColumbus: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$82.9K" },
-      { label: "Total Leads", value: "847" },
+      { label: "Total Leads", value: "817" },
       { label: "Avg Cost Per Lead", value: "$101", note: "↓34% from $148" },
       { label: "Qualified Leads", value: "336", note: "41.1% qualification rate" },
     ],
@@ -225,8 +225,8 @@ export const mortgageRealEstateColumbus: CaseStudyData = {
   },
   impact: [
     { label: "Attributed Loan Volume", value: "$3.74M", growth: "from paid + organic leads" },
-    { label: "Total Leads (All Channels)", value: "1,247", growth: "+197% over 12 months" },
-    { label: "Qualified Leads", value: "438", growth: "35.1% qualification rate" },
+    { label: "Total Leads (All Channels)", value: "817", growth: "+197% over 12 months" },
+    { label: "Qualified Leads", value: "336", growth: "35.1% qualification rate" },
     { label: "Avg Cost Per Qualified Lead", value: "$189", growth: "↓34% from $290 baseline" },
     { label: "Ad Spend Growth", value: "$5K → $9.2K/mo", growth: "scaled with proven ROI" },
     { label: "Organic Traffic", value: "7,891/mo", growth: "+3,604% from 213/mo" },

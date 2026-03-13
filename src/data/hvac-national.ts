@@ -8,7 +8,7 @@ export const hvacNational: CaseStudyData = {
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
     { value: "1,180", unit: "%", label: "Organic Traffic Growth" },
-    { value: "655", unit: "K", label: "Revenue Attributed" },
+    { value: "655.3", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["National SEO", "Paid Advertising", "Lead Generation", "Multi-Location"],
   company: {

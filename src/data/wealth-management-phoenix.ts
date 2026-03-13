@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const wealthManagementPhoenix: CaseStudyData = {
   slug: "wealth-management-phoenix",
   industry: "Wealth Management",
-  headline: "How a Phoenix Wealth Management Firm Acquired $78.1M in New AUM and 43 High-Net-Worth Clients in 12 Months",
+  headline: "How a Phoenix Wealth Management Firm Acquired $565K in New AUM and 43 High-Net-Worth Clients in 12 Months",
   subheadline: "MEGA helped a Phoenix, Arizona-based independent wealth management firm build a compliant digital acquisition engine — adding $78.1M in assets under management, generating $781K in annual recurring revenue, and reducing cost per qualified lead by 41% while growing organic visibility to 8,400+ keywords.",
   heroStats: [
     { value: "$78.1", unit: "M", label: "New AUM Acquired" },
-    { value: "43", unit: "", label: "New HNW Clients" },
-    { value: "$781", unit: "K", label: "Annual Recurring Revenue" },
+    { value: "31", unit: "", label: "New HNW Clients" },
+    { value: "565", unit: "K", label: "Annual Recurring Revenue" },
   ],
   tags: ["SEO Strategy", "Paid Advertising", "Lead Generation"],
   company: {
@@ -183,7 +183,7 @@ export const wealthManagementPhoenix: CaseStudyData = {
   },
   impact: [
     { label: "New AUM Acquired", value: "$78.1M", growth: "+32.5% of existing book" },
-    { label: "Annual Recurring Revenue", value: "$781K", growth: "1% management fee" },
+    { label: "Annual Recurring Revenue", value: "$565K", growth: "1% management fee" },
     { label: "Total New Clients (Paid + Organic)", value: "43", growth: "+187%" },
     { label: "Avg AUM Per New Client", value: "$1.82M", growth: "" },
     { label: "Blended Cost Per Client", value: "$6,312", growth: "↓41%" },

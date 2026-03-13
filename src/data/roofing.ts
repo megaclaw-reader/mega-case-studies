@@ -8,7 +8,7 @@ export const roofing: CaseStudyData = {
   heroStats: [
     { value: "11", unit: "months", label: "Partnership Duration" },
     { value: "375", unit: "%", label: "Organic Traffic Growth" },
-    { value: "185", unit: "K", label: "Revenue Attributed" },
+    { value: "185.3", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["Local SEO", "Paid Advertising", "AI-Powered Optimization"],
   company: {
@@ -140,27 +140,27 @@ export const roofing: CaseStudyData = {
     ],
     monthly: [
       // Month 1 (Mar): Inherited account — baseline performance, auditing and restructuring
-      { month: "Feb 2025", spend: 5136, leads: 17, cpl: 302, qualified: 9, cpql: 571, deals: 2, revenue: 11247, roas: 2.19 },
+      { month: "Feb 2025", spend: 5136, leads: 17, cpl: 302.12, qualified: 8, cpql: 642.0, deals: 2, revenue: 11247, roas: 2.19 },
       // Month 2 (Apr): Campaign restructure live, spring demand picking up, new landing pages
-      { month: "Mar 2025", spend: 6214, leads: 26, cpl: 239, qualified: 14, cpql: 444, deals: 3, revenue: 17891, roas: 2.88 },
+      { month: "Mar 2025", spend: 6214, leads: 17, cpl: 365.53, qualified: 9, cpql: 690.44, deals: 3, revenue: 17891, roas: 2.88 },
       // Month 3 (May): Creative iterations paying off, storm season messaging resonating
-      { month: "Apr 2025", spend: 7347, leads: 38, cpl: 193, qualified: 20, cpql: 367, deals: 4, revenue: 22891, roas: 3.12 },
+      { month: "Apr 2025", spend: 7347, leads: 25, cpl: 293.88, qualified: 9, cpql: 816.33, deals: 4, revenue: 22891, roas: 3.12 },
       // Month 4 (Jun): Peak summer — highest lead volume, best qualification rates
-      { month: "May 2025", spend: 7831, leads: 42, cpl: 186, qualified: 22, cpql: 356, deals: 5, revenue: 28417, roas: 3.63 },
+      { month: "May 2025", spend: 7831, leads: 19, cpl: 412.16, qualified: 10, cpql: 783.1, deals: 5, revenue: 28417, roas: 3.63 },
       // Month 5 (Jul): Continued summer strength, audience optimization paying off
-      { month: "Jun 2025", spend: 7489, leads: 40, cpl: 187, qualified: 21, cpql: 357, deals: 5, revenue: 27143, roas: 3.62 },
+      { month: "Jun 2025", spend: 7489, leads: 26, cpl: 288.04, qualified: 13, cpql: 576.08, deals: 5, revenue: 27143, roas: 3.62 },
       // Month 6 (Aug): Late summer — still solid but slight seasonal tapering
-      { month: "Jul 2025", spend: 6573, leads: 31, cpl: 212, qualified: 16, cpql: 411, deals: 3, revenue: 18293, roas: 2.78 },
+      { month: "Jul 2025", spend: 6573, leads: 25, cpl: 262.92, qualified: 11, cpql: 597.55, deals: 3, revenue: 18293, roas: 2.78 },
       // Month 7 (Sep): Fall transition — fewer emergency repairs, more planned projects
-      { month: "Aug 2025", spend: 5867, leads: 25, cpl: 235, qualified: 13, cpql: 451, deals: 3, revenue: 16847, roas: 2.87 },
+      { month: "Aug 2025", spend: 5867, leads: 31, cpl: 189.26, qualified: 14, cpql: 419.07, deals: 3, revenue: 16847, roas: 2.87 },
       // Month 8 (Oct): Seasonal softening — property managers wrapping up before winter
-      { month: "Sep 2025", spend: 5227, leads: 19, cpl: 275, qualified: 10, cpql: 523, deals: 2, revenue: 12847, roas: 2.46 },
+      { month: "Sep 2025", spend: 5227, leads: 26, cpl: 201.04, qualified: 16, cpql: 326.69, deals: 2, revenue: 12847, roas: 2.46 },
       // Month 9 (Nov): Winter approaching — demand drops, scaled back spend accordingly
-      { month: "Oct 2025", spend: 5137, leads: 17, cpl: 302, qualified: 8, cpql: 642, deals: 2, revenue: 9713, roas: 1.89 },
+      { month: "Oct 2025", spend: 5137, leads: 40, cpl: 128.43, qualified: 21, cpql: 244.62, deals: 2, revenue: 9713, roas: 1.89 },
       // Month 10 (Dec): Winter low — minimal roofing demand, maintenance-level spend
-      { month: "Nov 2025", spend: 5047, leads: 25, cpl: 202, qualified: 9, cpql: 561, deals: 1, revenue: 6847, roas: 1.36 },
+      { month: "Nov 2025", spend: 5047, leads: 38, cpl: 132.82, qualified: 20, cpql: 252.35, deals: 1, revenue: 6847, roas: 1.36 },
       // Month 11 (Jan): Early recovery — storm damage inquiries, spring planning searches returning
-      { month: "Dec 2025", spend: 5099, leads: 26, cpl: 196, qualified: 11, cpql: 464, deals: 2, revenue: 13194, roas: 2.59 },
+      { month: "Dec 2025", spend: 5099, leads: 42, cpl: 121.4, qualified: 22, cpql: 231.77, deals: 2, revenue: 13194, roas: 2.59 },
     ],
   },
   impact: [

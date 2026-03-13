@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const remoteRecruitingNational: CaseStudyData = {
   slug: "remote-recruiting-national",
   industry: "Remote Talent Recruiting",
-  headline: "How a National Remote Recruiting Agency Generated $3.78M in Placement Revenue with 3.88x ROAS",
+  headline: "How a National Remote Recruiting Agency Generated $456.3K in Placement Revenue with 4.6x ROAS",
   subheadline: "MEGA helped TalentBridge Remote scale from 31 to 84 monthly qualified employer leads while building SEO dominance with 6,234+ keywords — driving 158 successful remote placements and establishing market leadership in distributed workforce recruiting.",
   heroStats: [
-    { value: "$3.78", unit: "M", label: "Total Placement Revenue" },
-    { value: "84", unit: "", label: "Monthly Qualified Leads" },
-    { value: "3.88", unit: "x", label: "Blended ROAS" },
+    { value: "456.3", unit: "K", label: "Total Placement Revenue" },
+    { value: "611", unit: "", label: "Total Qualified Leads" },
+    { value: "4.6", unit: "x", label: "Blended ROAS" },
   ],
   tags: ["SEO", "Paid Advertising", "B2B Lead Generation", "Remote Recruiting"],
   company: {
@@ -122,7 +122,7 @@ export const remoteRecruitingNational: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$98.6K" },
-      { label: "Total Leads Generated", value: "1,410", note: "Employer inquiries and placement requests" },
+      { label: "Total Leads Generated", value: "1,510", note: "Employer inquiries and placement requests" },
       { label: "Qualified Leads", value: "611", note: "Companies ready to hire remote talent" },
       { label: "Avg Cost per Qualified Lead", value: "$161", note: "↓36% from $253 baseline" },
     ],
@@ -149,8 +149,8 @@ export const remoteRecruitingNational: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Placement Revenue", value: "$456K", growth: "+347%" },
-    { label: "Monthly Qualified Leads", value: "84", growth: "+171% (from 31)" },
+    { label: "Total Placement Revenue", value: "$456.3K", growth: "+347%" },
+    { label: "Monthly Qualified Leads", value: "611", growth: "+171% (from 31)" },
     { label: "Blended ROAS", value: "4.63x", growth: "" },
     { label: "Successful Placements", value: "158", growth: "+275%" },
     { label: "Active Client Companies", value: "47", growth: "+292% (from 12)" },

@@ -7,8 +7,8 @@ export const vrEntertainmentTechnology: CaseStudyData = {
   subheadline: "MEGA helped a direct-to-consumer VR entertainment technology company dominate organic search while building a paid ads engine that drove 1,910 orders at a 4.65x blended ROAS — selling headsets, accessories, and experience packages to enthusiasts and venue operators nationwide.",
   heroStats: [
     { value: "1,247", unit: "%", label: "Organic Traffic Growth" },
-    { value: "1,910", unit: "", label: "Orders Attributed" },
-    { value: "473", unit: "K", label: "Ad Revenue" },
+    { value: "1704", unit: "", label: "Orders Attributed" },
+    { value: "473.1", unit: "K", label: "Ad Revenue" },
   ],
   tags: ["SEO Strategy", "Paid Advertising", "Ecommerce"],
   company: {
@@ -155,7 +155,7 @@ export const vrEntertainmentTechnology: CaseStudyData = {
   impact: [
     { label: "Total Ad Revenue", value: "$473.1K", growth: "from $0" },
     { label: "Organic Traffic", value: "5,567/mo", growth: "+1,247%" },
-    { label: "Total Orders", value: "1,910", growth: "from 0 paid" },
+    { label: "Total Orders", value: "1,704", growth: "from 0 paid" },
     { label: "Blended ROAS", value: "4.20x", growth: "from 0x" },
   ],
 };
