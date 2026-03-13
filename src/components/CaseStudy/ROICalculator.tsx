@@ -7,6 +7,11 @@ import { CaseStudyData } from "@/data/types";
 export default function ROICalculator({ data }: { data: CaseStudyData }) {
   const [budget, setBudget] = useState(5000);
 
+  const labels = data.paidAds?.columnLabels;
+  const isEcom = !!(labels?.leads?.toLowerCase().includes("session") ||
+    labels?.qualified?.toLowerCase().includes("cart") ||
+    labels?.deals?.toLowerCase().includes("order"));
+
   const benchmarks = useMemo(() => {
     if (!data.paidAds?.monthly?.length) return null;
     const m = data.paidAds.monthly;
@@ -28,6 +33,21 @@ export default function ROICalculator({ data }: { data: CaseStudyData }) {
   const projQualified = Math.round(projLeads * benchmarks.avgQualRate);
   const projDeals = Math.max(1, Math.round(projQualified * benchmarks.avgDealRate));
   const projRevenue = Math.round(projDeals * benchmarks.avgDealValue);
+  const projROAS = budget > 0 ? (projRevenue / budget).toFixed(1) : "0";
+
+  const metrics = isEcom
+    ? [
+        { label: labels?.leads || "Sessions", value: projLeads },
+        { label: labels?.qualified || "Add to Carts", value: projQualified },
+        { label: labels?.deals || "Orders", value: projDeals },
+        { label: "Estimated Revenue", value: `$${projRevenue.toLocaleString()}` },
+      ]
+    : [
+        { label: labels?.leads || "Leads / Month", value: projLeads },
+        { label: labels?.qualified || "Qualified Leads", value: projQualified },
+        { label: labels?.deals || "Estimated Deals", value: projDeals },
+        { label: "Estimated Revenue", value: `$${projRevenue.toLocaleString()}` },
+      ];
 
   return (
     <section className="py-16 px-6 bg-[#F9FAFB]">
@@ -55,18 +75,22 @@ export default function ROICalculator({ data }: { data: CaseStudyData }) {
           <p className="text-xs text-[#9CA3AF] mb-8">Drag to adjust — projections update instantly</p>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-            {[
-              { label: "Leads / Month", value: projLeads },
-              { label: "Qualified Leads", value: projQualified },
-              { label: "Estimated Deals", value: projDeals },
-              { label: "Estimated Revenue", value: `$${projRevenue.toLocaleString()}` },
-            ].map((item, i) => (
+            {metrics.map((item) => (
               <div key={item.label} className="text-center">
                 <p className="text-2xl md:text-3xl font-bold text-[#2965FF]">{typeof item.value === "number" ? item.value.toLocaleString() : item.value}</p>
                 <p className="text-sm text-[#6B7280] mt-1">{item.label}</p>
               </div>
             ))}
           </div>
+
+          {isEcom && (
+            <div className="mt-4 text-center">
+              <p className="text-sm text-[#6B7280]">
+                Projected ROAS: <span className="font-semibold text-[#2965FF]">{projROAS}x</span>
+                {" · "}AOV: <span className="font-semibold text-[#374151]">${Math.round(benchmarks.avgDealValue).toLocaleString()}</span>
+              </p>
+            </div>
+          )}
 
           <div className="mt-8 text-center">
             <a href="https://gomega.ai" target="_blank" rel="noopener noreferrer" className="inline-block px-8 py-3 bg-[#2965FF] text-white font-semibold rounded-xl hover:bg-[#1E4FD9] transition-colors">
