@@ -4,7 +4,7 @@ export const sustainableLuxuryStartup: CaseStudyData = {
   slug: "sustainable-luxury-startup",
   industry: "Sustainable Luxury Startup",
   headline: "How a Sustainable Luxury Startup Generated $427K Revenue and 5.2x ROAS in Their First Year",
-  subheadline: "MEGA helped Verde Luxe transform from startup idea to nationally recognized sustainable luxury brand, generating 1,500 orders and building a customer base of conscious luxury consumers across all 50 states through AI-powered ecommerce marketing.",
+  subheadline: "MEGA helped Verde Luxe grow from a startup idea into a thriving sustainable luxury brand, generating 1,500 orders and building a loyal customer base of conscious luxury consumers across the U.S. through AI-powered ecommerce marketing.",
   heroStats: [
     { value: "5.2", unit: "x", label: "Blended ROAS" },
     { value: "1,500", unit: "", label: "Total Orders" },
@@ -35,7 +35,7 @@ export const sustainableLuxuryStartup: CaseStudyData = {
   strategy: [
     {
       phase: 1,
-      months: "Months 1-4",
+      months: "1-4",
       title: "Foundation & Trust Building",
       items: [
         "Deployed AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement—replacing traditional weekly review cycles with real-time optimization",
@@ -48,7 +48,7 @@ export const sustainableLuxuryStartup: CaseStudyData = {
     },
     {
       phase: 2,
-      months: "Months 5-8",
+      months: "5-8",
       title: "Creative Volume & Audience Expansion",
       items: [
         "Scaled AI-generated creative production to 25+ new variations per month, testing sustainable luxury hooks (\"guilt-free luxury,\" \"timeless ethical design\") and visual styles to keep campaigns fresh",
@@ -61,10 +61,10 @@ export const sustainableLuxuryStartup: CaseStudyData = {
     },
     {
       phase: 3,
-      months: "Months 9-12",
+      months: "9-12",
       title: "Scale & Cross-Channel Optimization",
       items: [
-        "With 40+ creatives in active rotation, eliminated creative fatigue entirely—new AI-generated variations replaced underperformers daily based on performance data",
+        "With 40+ creatives in active rotation, significantly reduced creative fatigue—new AI-generated variations replaced underperformers regularly based on performance data",
         "Launched Black Friday sustainable luxury campaign with 60+ creative variations emphasizing \"conscious Black Friday\" messaging and limited-time sustainability stories",
         "AI agents optimized budget allocation in real-time between campaigns based on performance signals, shifting spend to highest-converting audiences and creative combinations",
         "Implemented cross-channel data integration where paid performance informed SEO content strategy and organic insights shaped paid targeting",
