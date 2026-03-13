@@ -223,10 +223,10 @@ for filepath in files:
             if abs(expected_roas - roas) > 0.15:
                 errors.append(f"  {month}: ROAS mismatch — stated {roas:.2f}x, actual {expected_roas:.2f}x")
             # Hard ROAS cap: lead gen max 4.8x, ecom max 8.0x
-            is_ecom = any(k in content for k in ['addToCart', 'add_to_cart', 'sessions:'])
-            roas_cap = 8.0 if is_ecom else 4.8
+            is_ecom_file = is_ecom or any(k in content for k in ['addToCart', 'add_to_cart', 'Sessions', 'Orders', 'Add to Cart', 'columnLabels'])
+            roas_cap = 8.0 if is_ecom_file else 4.8
             if roas > roas_cap:
-                errors.append(f"  {month}: ROAS {roas:.2f}x exceeds {roas_cap}x cap for {'ecom' if is_ecom else 'lead gen'} — MUST be reduced")
+                errors.append(f"  {month}: ROAS {roas:.2f}x exceeds {roas_cap}x cap for {'ecom' if is_ecom_file else 'lead gen'} — MUST be reduced")
         
         # Ecom: revenue = orders * aov (approx)
         if orders is not None and aov is not None and revenue is not None:
@@ -331,3 +331,19 @@ else:
     print("\n✅ All case studies passed math validation!\n")
 
 print(f"Total files audited: {len(files)}")
+
+# --- PHASE 2: Consistency check (summary vs monthly, uniformity) ---
+import subprocess
+print("\n" + "="*60)
+print("Running consistency check...")
+print("="*60)
+result = subprocess.run(
+    [sys.executable, os.path.join(os.path.dirname(os.path.abspath(__file__)), "consistency-check.py")],
+    capture_output=True, text=True
+)
+print(result.stdout)
+if result.stderr:
+    print(result.stderr)
+if result.returncode != 0 and not errors_by_file:
+    # Consistency check failed but math passed — still fail overall
+    sys.exit(1)
