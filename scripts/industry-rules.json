@@ -87,6 +87,10 @@
           30,
           200
         ],
+        "rental_car_company": [
+          200,
+          1000
+        ],
         "interior_design": [
           5000,
           50000
@@ -529,6 +533,7 @@
     "Healthcare / TeleHealth Service": "healthcare_medical",
     "Self Improvement Subscription": "subscription",
     "Equipment Financing": "lead_gen_professional",
-    "Sustainable Luxury Startup": "ecommerce"
+    "Sustainable Luxury Startup": "ecommerce",
+    "Rental Car Company": "lead_gen_services"
   }
 }

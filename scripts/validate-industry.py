@@ -50,6 +50,7 @@ CPL_RANGES = {
     "wedding_photo":     (15, 120),
     "automotive_dealer": (15, 150),
     "rv_dealer":         (15, 150),
+    "rental_car":        (30, 80),
     # Lead gen professional — higher competition, expensive keywords
     "legal":             (50, 500),
     "personal_injury":   (75, 600),
@@ -118,6 +119,7 @@ def _cpl_category(industry, model_key):
         ("wedding", "wedding_photo"), ("photo", "wedding_photo"),
         ("rv ", "rv_dealer"), ("mobile home", "rv_dealer"),
         ("dealership", "automotive_dealer"),
+        ("rental car", "rental_car"), ("car rental", "rental_car"),
         ("personal injury", "personal_injury"), ("immigration", "immigration_law"),
         ("litigation", "business_litigation"),
         ("legal", "legal"), ("law", "legal"),
@@ -191,6 +193,7 @@ DEAL_VALUE_RANGES = {
     "wedding_photo": (1500, 10000),
     "automotive_dealer": (5000, 60000),
     "rv_dealer": (10000, 100000),
+    "rental_car": (200, 1000),
     "legal": (2000, 30000),
     "personal_injury": (5000, 150000),
     "immigration_law": (2000, 20000),

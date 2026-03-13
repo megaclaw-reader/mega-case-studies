@@ -133,6 +133,6 @@ export const onlineYogaPilatesNational: CaseStudyData = {
     { label: "Cost Per Subscriber", value: "$67 → $23.47", growth: "↓65%" },
     { label: "Trial-to-Paid Rate", value: "18.3% → 60.6%", growth: "+42.3pts" },
     { label: "Monthly Churn Rate", value: "8.7% → 6.3%", growth: "↓2.4pts" },
-    { label: "Blended ROAS", value: "4.53x", growth: "" },
+    { label: "Blended ROAS", value: "4.57x", growth: "" },
   ],
 };
