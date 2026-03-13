@@ -92,7 +92,7 @@ export default function ReviewPageClient({ data, slug }: { data: CaseStudyData; 
                 type="text"
                 value={reviewer}
                 onChange={(e) => setReviewer(e.target.value)}
-                placeholder="e.g. Sarah Chen"
+                placeholder="e.g. John Smith"
                 required
                 style={{
                   width: "100%",
