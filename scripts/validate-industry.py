@@ -84,6 +84,7 @@ CPL_RANGES = {
     "saas":              (30, 500),
     # Ecom — cost per SESSION (not per lead)
     "ecom":              (0.20, 5.00),
+    "sustainable_luxury": (1.50, 4.00),
     # Newsletter / subscription — cost per subscriber
     "newsletter":        (1, 50),
 }
@@ -149,6 +150,7 @@ def _cpl_category(industry, model_key):
         ("peptide", "healthcare"),
         ("healthcare", "healthcare"), ("medical", "healthcare"),
         ("wellness", "healthcare"),
+        ("sustainable luxury", "sustainable_luxury"),
         ("saas", "saas"), ("platform", "saas"),
         ("fitness", "gym_fitness"),
     ]
@@ -218,6 +220,7 @@ DEAL_VALUE_RANGES = {
     "financial_services": (3000, 50000),
     "venture_capital": (5000, 100000),
     "saas": (2000, 150000),
+    "sustainable_luxury": (150, 400),
 }
 
 # ─── Month-over-month growth cap ───

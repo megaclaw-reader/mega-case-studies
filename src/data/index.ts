@@ -124,6 +124,7 @@ import { landscapingArizonaSeo } from "./landscaping-arizona-seo";
 import { itManagedServicesLa } from "./it-managed-services-la";
 import { aiToolSaasNational } from "./ai-tool-saas-national";
 import { hvacNational } from "./hvac-national";
+import { sustainableLuxuryStartup } from "./sustainable-luxury-startup";
 
 export const caseStudies: Record<string, CaseStudyData> = {
   "mortgage-lending": mortgageLending,
@@ -251,6 +252,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "it-managed-services-la": itManagedServicesLa,
   "ai-tool-saas-national": aiToolSaasNational,
   "hvac-national": hvacNational,
+  "sustainable-luxury-startup": sustainableLuxuryStartup,
 };
 
 export type { CaseStudyData };
