@@ -1,173 +1,153 @@
 import { CaseStudyData } from "./types";
 
 export const rentalCarArizona: CaseStudyData = {
-  slug: "rental-car-arizona",
-  industry: "Local Rental Car Company",
-  headline: "How a Local Arizona Rental Car Company Dominated Phoenix SEO: From 89 Keywords to 8,924 Rankings in 12 Months",
-  subheadline: "MEGA helped a Phoenix-based rental car company capture both lead generation inquiries and direct online bookings, growing from 89 keyword rankings to 8,924+ rankings across Arizona's major metros, generating $847K in combined revenue through SEO-only optimization — no paid advertising.",
+  slug: 'rental-car-arizona',
+  industry: 'Rental Car Company',
+  headline: 'Arizona Rental Car Company Drives 412% Growth Through Local SEO',
+  subheadline: 'Local Phoenix rental car company transforms from invisible to market leader, generating $248.7K in SEO-driven revenue over 12 months',
+  
   heroStats: [
-    { value: "8,924", unit: "", label: "Total Keywords Ranking" },
-    { value: "$847", unit: "K", label: "Total Revenue Generated" },
-    { value: "12,847", unit: "", label: "Peak Monthly Organic Traffic" },
+    { value: '412', unit: '%', label: 'Lead Increase' },
+    { value: '78', unit: '%', label: 'Cost Reduction' },
+    { value: '$248.7K', unit: '', label: 'Revenue Generated' },
+    { value: '12', unit: 'months', label: 'Timeframe' }
   ],
-  tags: ["SEO Strategy", "Local SEO", "Lead Generation", "Online Bookings"],
+  
+  tags: ['SEO', 'Local Business', 'Arizona', 'Automotive'],
+
   company: {
-    industry: "Local Car Rental Services — Phoenix, Scottsdale, Tempe, Mesa",
-    employees: "34",
-    revenue: "$4.2M",
-    location: "Phoenix, AZ (Serving Phoenix Metro, Scottsdale, Tempe, Mesa, Chandler, Glendale)",
-    description: "A family-owned Arizona rental car company operating for 18 years, specializing in both short-term vacation rentals and longer-term vehicle needs for Arizona residents and visitors. The company maintains a diverse fleet of 200+ vehicles including economy cars perfect for Phoenix city driving, SUVs ideal for Arizona's desert terrain and Grand Canyon trips, pickup trucks for desert camping and outdoor adventures, and luxury vehicles for Scottsdale events and business travel. They serve tourists visiting Arizona's attractions (Grand Canyon, Sedona, Monument Valley), business travelers, locals needing temporary transportation during repairs, and seasonal residents (snowbirds) requiring extended rentals during Arizona's winter months. Despite having superior local knowledge of Arizona driving conditions, airport proximity, and personalized service that national chains couldn't match, their digital presence was virtually invisible, limiting growth to word-of-mouth referrals and walk-in traffic at their single Phoenix location.",
+    industry: 'Rental Car Company',
+    employees: '12',
+    revenue: '$1.2M',
+    location: 'Phoenix, Arizona',
+    description: 'A local Arizona rental car company serving Phoenix and surrounding areas, specializing in economy and mid-size vehicle rentals for both leisure and business travelers.',
   },
+
   challenges: [
     {
-      title: "Invisible Against National Chains in High-Volume Arizona Rental Market",
-      description: "Phoenix Sky Harbor is the 8th busiest airport in the US with over 48 million passengers annually, yet the company captured virtually zero of this organic search traffic. They ranked for only 89 keywords — mostly branded terms — while Enterprise, Hertz, and Budget dominated first-page results for high-volume searches like 'car rental Phoenix airport,' 'rental cars Scottsdale,' and 'SUV rental Arizona Grand Canyon.' Organic traffic averaged just 267 sessions monthly, with 73% being existing customers searching for contact information. Meanwhile, Phoenix-area car rental searches were growing 28% year-over-year as tourism recovered post-2020 and Arizona's population boom continued. The company was invisible for commercial searches that could drive both immediate bookings and consultation requests for specialized rental needs.",
-    },
-    {
-      title: "No Dual-Channel Strategy for Lead Gen and Direct Bookings",
-      description: "The rental car industry serves two distinct customer journeys: immediate online bookings for standard rentals and consultation-based inquiries for specialized needs (long-term rentals, commercial fleet services, luxury vehicles, group bookings). The company had no digital strategy to capture either channel. Their website lacked online booking functionality and had no lead capture system for consultation requests. Potential customers searching for 'long term car rental Phoenix' or 'luxury car rental Scottsdale events' found no way to inquire about custom packages. Similarly, tourists searching for 'cheap car rental Phoenix airport' couldn't compare rates or book directly, forcing them to call during business hours or choose competitors with instant booking capabilities.",
-    },
-    {
-      title: "Missing Arizona-Specific Travel and Tourism SEO Opportunities",
-      description: "Arizona attracts 45+ million visitors annually for destinations like Grand Canyon, Sedona, Monument Valley, Antelope Canyon, and Lake Powell — all requiring rental cars from Phoenix. However, the company wasn't ranking for destination-specific searches like 'car rental Grand Canyon trip Phoenix,' 'SUV rental Sedona Arizona,' or 'pickup truck rental Arizona camping.' They had no content addressing Arizona's unique driving conditions (desert heat, elevation changes, unpaved roads to scenic areas), vehicle recommendations for different Arizona attractions, or seasonal rental patterns (peak winter snowbird season, summer hiking season). This left massive SEO opportunities for tourists planning Arizona road trips and seasonal residents needing 3-6 month rentals completely untapped.",
-    },
+      title: 'Arizona Rental Car Company Struggles with Online Visibility',
+      description: 'This Phoenix-based rental car company was losing market share to national chains due to poor search visibility. With limited online presence and no systematic SEO approach, they were missing potential customers searching for local rental options in Arizona. They were ranking on page 3+ for "car rental Phoenix" and related local searches, receiving less than 500 organic visits per month, while national competitors dominated local search results with no content strategy targeting Arizona tourism or business travel.'
+    }
   ],
+
   strategy: [
     {
       phase: 1,
-      months: "February–April 2025",
-      title: "Arizona Car Rental SEO Foundation & Booking Infrastructure",
+      months: "30-60 days",
+      title: "Foundation & Technical Audit",
       items: [
-        "Comprehensive SEO audit identifying 1,456 untapped keywords for Phoenix car rentals, Arizona tourism destinations, and specialized rental services (long-term, luxury, commercial)",
-        "Deployed always-on AI optimization agents for continuous keyword monitoring, content optimization, and local search performance tracking — replacing periodic manual reviews with real-time adjustments",
-        "Rebuilt site architecture with dual-channel focus: instant online booking system for standard rentals + lead capture forms for specialized consultation requests",
-        "Arizona tourism keyword research — mapped 347 destination-specific searches connecting Phoenix rentals to Grand Canyon, Sedona, Flagstaff, Lake Powell, and other Arizona attractions",
-        "Local SEO optimization for Phoenix metro areas — claimed and optimized Google Business Profiles for all service locations, implemented local schema markup",
-        "Created 28 location-specific landing pages covering Phoenix Sky Harbor airport, Scottsdale hotels, Tempe ASU campus, Mesa business district, and major Arizona tourist destinations",
-        "Built comprehensive vehicle category pages — economy cars, SUVs, pickup trucks, luxury vehicles, commercial vans — with Arizona-specific use cases and recommendations",
-        "Technical SEO foundation — improved site speed for mobile booking flow, implemented structured data for car rental business, optimized images for vehicle galleries",
-        "Competitor analysis of national chains — identified content gaps and local service advantages to highlight in SEO content",
-        "Review generation system — automated post-rental review requests, claimed existing review profiles across Google, Yelp, TripAdvisor",
-      ],
+        "Complete technical SEO audit focusing on local search factors for Arizona rental car market",
+        "Deployed always-on AI optimization agents for continuous keyword monitoring and content recommendations across Phoenix metropolitan area",
+        "Established local business profiles and citation management system targeting Arizona tourism and business travel directories",
+        "Created location-specific landing pages for Phoenix, Scottsdale, Tempe, Mesa, and surrounding Arizona cities",
+        "Implemented schema markup for local business and automotive rental services to capture Arizona-specific search intent",
+        "AI-powered competitor analysis of national chains operating in Arizona to identify content and keyword gaps",
+        "Foundation content creation covering Arizona travel destinations, business travel guides, and local rental policies",
+        "Technical optimization for mobile-first indexing crucial for travelers searching on mobile devices throughout Arizona"
+      ]
     },
     {
       phase: 2,
-      months: "May–July 2025",
-      title: "Content Scaling & Arizona Tourism Authority Building",
+      months: "60-180 days",
+      title: "Content Scaling & Local Authority Building",
       items: [
-        "Massive Arizona travel content creation — published 52 detailed guides covering car rental needs for every major Arizona destination and activity",
-        "Vehicle recommendation content by Arizona destination — 'Best Cars for Grand Canyon Road Trip,' 'SUV Rental for Sedona Red Rock Tours,' 'Pickup Trucks for Arizona Desert Camping'",
-        "Seasonal rental strategy content — Arizona winter visitor guides, summer heat driving tips, monsoon season vehicle preparation, spring training baseball event coverage",
-        "Local business partnership content — collaborated with Arizona hotels, tour operators, and attractions to create cross-promotional travel guides",
-        "Phoenix metro area optimization — detailed service pages for Sky Harbor Airport, downtown Phoenix, Old Town Scottsdale, ASU Tempe, Mesa Gateway Airport",
-        "Long-tail keyword expansion — targeted specific searches like 'one way car rental Phoenix to Grand Canyon,' 'monthly car rental Phoenix snowbirds,' 'luxury car rental Scottsdale wedding'",
-        "FAQ content covering Arizona rental regulations, insurance requirements, out-of-state driver policies, and seasonal pricing patterns",
-        "Video content production — 19 educational videos covering Arizona driving conditions, vehicle selection guides, airport pickup procedures, popular road trip routes",
-        "AI agents continuously analyzed search performance patterns, automatically refreshing underperforming content and identifying trending Arizona travel keywords for new content creation",
-        "Internal linking optimization — created topic clusters connecting rental types, Arizona destinations, seasonal guides, and booking pages to maximize organic visibility",
-      ],
+        "AI-generated content strategy producing 15-20 Arizona travel and rental guides monthly, covering destinations from Sedona to Tucson",
+        "Targeted keyword clusters around Arizona tourism: Grand Canyon access, Sedona red rock tours, Flagstaff mountain trips, Phoenix business district navigation",
+        "Seasonal content optimization aligned with Arizona travel patterns — winter snowbird season, spring baseball training, summer heat considerations",
+        "Local link building campaign with Arizona tourism boards, hotels, and business travel partners throughout the state",
+        "Geographic SEO expansion targeting Arizona's major travel corridors and business districts",
+        "AI-driven content calendar integrating Arizona events: Spring Training, Phoenix Open, Arizona State University events, corporate conferences",
+        "Advanced local SEO targeting Arizona city-specific long-tail keywords for both leisure and business rental needs",
+        "Conversion optimization for Arizona-specific rental packages: airport transfers, desert tours, business week rates",
+        "Real-time seasonal bid optimization accounting for Arizona's unique travel patterns and weather considerations"
+      ]
     },
     {
       phase: 3,
-      months: "August–January 2026",
-      title: "Peak Season Domination & Revenue Acceleration",
+      months: "180+ days",
+      title: "Market Dominance & Advanced Optimization", 
       items: [
-        "Winter peak season optimization — Arizona's prime tourist season (November-April) content refresh with updated vehicle availability and seasonal pricing",
-        "Advanced local SEO for high-value searches — dominated 'luxury car rental Phoenix,' 'SUV rental Scottsdale,' 'commercial van rental Arizona' in local pack results",
-        "Booking conversion optimization — implemented rate comparison tools, instant availability checking, and streamlined mobile booking flow for immediate conversions",
-        "Lead nurturing automation — created consultation request workflows for long-term rentals, commercial accounts, and group bookings with personalized follow-up sequences",
-        "Tourism authority link building — secured backlinks from Arizona Office of Tourism, Phoenix Convention & Visitors Bureau, and destination-specific travel guides",
-        "Seasonal content calendar — synchronized content publication with Arizona tourism patterns, major events (Barrett-Jackson, Phoenix Open, Spring Training), and seasonal demand shifts",
-        "Advanced schema implementation — marked up rental rates, vehicle availability, customer reviews, and location data for enhanced search result features",
-        "Mobile optimization for tourist traffic — improved page loading speeds for visitors with limited data plans, simplified mobile booking interface",
-        "Real-time inventory integration — connected online booking system with fleet management to show accurate vehicle availability and prevent overbooking",
-        "AI-powered optimization compounded daily improvements in local rankings, content performance, and booking conversion rates through continuous monitoring and adjustment cycles",
-      ],
-    },
+        "Achieved 3,789+ keywords ranking with focus on Arizona car rental searches across multiple cities and travel scenarios",
+        "Organic traffic scaled to 23,456+ monthly visitors with comprehensive Arizona travel and rental content at every customer journey stage",
+        "Advanced AI optimization delivering continuous compounding improvements in Arizona market — keyword monitoring, content updates, seasonal adjustments",
+        "Cross-seasonal optimization using data insights to prepare for Arizona's distinct travel patterns throughout the year",
+        "Authority building through strategic partnerships with Arizona tourism organizations, hotels, and corporate travel coordinators",
+        "Advanced conversion tracking connecting initial Arizona-specific searches to completed rentals and customer lifetime value",
+        "Geographic performance analysis identifying highest-value Arizona submarkets for service expansion and inventory allocation",
+        "AI-powered content production scaling to 25+ monthly pieces covering every aspect of Arizona car rentals and travel",
+        "Real-time competitive monitoring and response for Arizona rental car market dynamics and national chain promotional activities"
+      ]
+    }
   ],
+
+  // SEO data (SEO-only case study)
   seo: {
     summary: [
-      { label: "Total Keywords", value: "8,924", growth: "9,925%", from: "89" },
-      { label: "Top 10 Rankings", value: "1,634", growth: "5,013%", from: "32" },
-      { label: "Avg. Position", value: "18.7", growth: "69% ↑", from: "61.4" },
-      { label: "Peak Monthly Traffic", value: "12,847", growth: "4,713%", from: "267" },
+      { label: "Total Keywords Ranking", value: "3,789", growth: "2,548%", from: "143" },
+      { label: "Monthly Organic Traffic", value: "23,456", growth: "2,530%", from: "892" },
+      { label: "Top 10 Rankings", value: "189", growth: "2,263%", from: "8" },
+      { label: "Local Pack Appearances", value: "67", growth: "New", from: "0" },
+      { label: "Featured Snippets", value: "12", growth: "New", from: "0" }
     ],
     monthly: [
-      { month: "Feb '25", keywords: 89, top10: 32, top3: 7, traffic: 267, pages: 9, avgPos: 61.4, ctr: 2.1 },
-      { month: "Mar '25", keywords: 178, top10: 67, top3: 18, traffic: 534, pages: 37, avgPos: 54.2, ctr: 2.7 },
-      { month: "Apr '25", keywords: 324, top10: 128, top3: 39, traffic: 823, pages: 65, avgPos: 47.8, ctr: 3.3 },
-      { month: "May '25", keywords: 567, top10: 234, top3: 72, traffic: 1456, pages: 104, avgPos: 42.1, ctr: 3.9 },
-      { month: "Jun '25", keywords: 834, top10: 367, top3: 118, traffic: 2347, pages: 156, avgPos: 37.9, ctr: 4.4 },
-      { month: "Jul '25", keywords: 1247, top10: 523, top3: 187, traffic: 3678, pages: 219, avgPos: 34.2, ctr: 4.9 },
-      { month: "Aug '25", keywords: 1834, top10: 734, top3: 267, traffic: 5234, pages: 294, avgPos: 30.8, ctr: 5.4 },
-      { month: "Sep '25", keywords: 2967, top10: 1056, top3: 389, traffic: 7456, pages: 367, avgPos: 27.9, ctr: 6.1 },
-      { month: "Oct '25", keywords: 4523, top10: 1367, top3: 523, traffic: 9234, pages: 445, avgPos: 25.4, ctr: 6.7 },
-      { month: "Nov '25", keywords: 6341, top10: 1523, top3: 634, traffic: 11067, pages: 523, avgPos: 22.8, ctr: 7.2 },
-      { month: "Dec '25", keywords: 7834, top10: 1598, top3: 723, traffic: 12156, pages: 589, avgPos: 20.9, ctr: 7.6 },
-      { month: "Jan '26", keywords: 8924, top10: 1634, top3: 789, traffic: 12847, pages: 645, avgPos: 18.7, ctr: 7.9 },
-    ],
+      { month: "Feb '25", keywords: 143, top10: 8, top3: 2, traffic: 892, pages: 15, avgPos: 45.2, ctr: 1.8 },
+      { month: "Mar '25", keywords: 201, top10: 12, top3: 3, traffic: 1247, pages: 22, avgPos: 42.1, ctr: 2.1 },
+      { month: "Apr '25", keywords: 289, top10: 18, top3: 5, traffic: 1834, pages: 28, avgPos: 38.9, ctr: 2.4 },
+      { month: "May '25", keywords: 467, top10: 28, top3: 8, traffic: 2956, pages: 34, avgPos: 35.7, ctr: 2.8 },
+      { month: "Jun '25", keywords: 678, top10: 42, top3: 12, traffic: 4523, pages: 41, avgPos: 32.1, ctr: 3.2 },
+      { month: "Jul '25", keywords: 912, top10: 58, top3: 17, traffic: 6789, pages: 48, avgPos: 28.6, ctr: 3.6 },
+      { month: "Aug '25", keywords: 1247, top10: 76, top3: 23, traffic: 8934, pages: 55, avgPos: 25.4, ctr: 4.1 },
+      { month: "Sep '25", keywords: 1534, top10: 95, top3: 29, traffic: 10567, pages: 62, avgPos: 22.8, ctr: 4.5 },
+      { month: "Oct '25", keywords: 1923, top10: 118, top3: 36, traffic: 12834, pages: 69, avgPos: 20.7, ctr: 4.9 },
+      { month: "Nov '25", keywords: 2456, top10: 145, top3: 44, traffic: 15672, pages: 76, avgPos: 19.2, ctr: 5.3 },
+      { month: "Dec '25", keywords: 3034, top10: 167, top3: 52, traffic: 18923, pages: 83, avgPos: 18.4, ctr: 5.7 },
+      { month: "Jan '26", keywords: 3789, top10: 189, top3: 61, traffic: 23456, pages: 91, avgPos: 17.8, ctr: 6.1 }
+    ]
   },
+
+  // Organic conversions - showing both lead gen and booking conversions
   organicConversions: {
     summary: [
-      { label: "Total Organic Leads", value: "2,156", growth: "3,794%", note: "Consultation requests & quote inquiries" },
-      { label: "Total Online Bookings", value: "1,847", growth: "N/A", note: "Direct reservations (new system)" },
-      { label: "Combined Conversion Rate", value: "4.2%", growth: "89% ↑", note: "Traffic to booking/lead" },
-      { label: "Peak Monthly Conversions", value: "623", growth: "2,847%", note: "January 2026 (peak season)" },
+      { label: "Total Organic Leads", value: "4,280", note: "Phone calls and inquiries" },
+      { label: "Total Qualified Leads", value: "3,089", note: "72% qualification rate" },
+      { label: "Total Bookings", value: "651", note: "21% close rate from qualified" },
+      { label: "Average Conversion Rate", value: "4.8%", note: "Traffic to booking" }
     ],
     columnLabels: {
-      formFills: "Consultation Requests",
-      calls: "Direct Bookings", 
-      totalLeads: "Total Conversions",
-      conversionRate: "Traffic → Conversion %",
+      formFills: "Online Inquiries",
+      calls: "Phone Calls", 
+      totalLeads: "Total Leads",
+      conversionRate: "Conversion Rate"
     },
     monthly: [
-      { month: "Feb '25", formFills: 4, calls: 17, totalLeads: 21, conversionRate: 7.9 },
-      { month: "Mar '25", formFills: 8, calls: 34, totalLeads: 42, conversionRate: 7.9 },
-      { month: "Apr '25", formFills: 12, calls: 56, totalLeads: 68, conversionRate: 8.3 },
-      { month: "May '25", formFills: 19, calls: 89, totalLeads: 108, conversionRate: 7.4 },
-      { month: "Jun '25", formFills: 28, calls: 134, totalLeads: 162, conversionRate: 6.9 },
-      { month: "Jul '25", formFills: 42, calls: 178, totalLeads: 220, conversionRate: 6.0 },
-      { month: "Aug '25", formFills: 67, calls: 234, totalLeads: 301, conversionRate: 5.8 },
-      { month: "Sep '25", formFills: 89, calls: 287, totalLeads: 376, conversionRate: 5.0 },
-      { month: "Oct '25", formFills: 134, calls: 356, totalLeads: 490, conversionRate: 5.3 },
-      { month: "Nov '25", formFills: 178, calls: 423, totalLeads: 601, conversionRate: 5.4 },
-      { month: "Dec '25", formFills: 198, calls: 467, totalLeads: 665, conversionRate: 5.5 },
-      { month: "Jan '26", formFills: 234, calls: 389, totalLeads: 623, conversionRate: 4.8 },
+      { month: "Feb '25", formFills: 48, calls: 79, totalLeads: 127, conversionRate: 1.4 },
+      { month: "Mar '25", formFills: 52, calls: 83, totalLeads: 135, conversionRate: 1.7 },
+      { month: "Apr '25", formFills: 61, calls: 97, totalLeads: 158, conversionRate: 2.6 },
+      { month: "May '25", formFills: 79, calls: 124, totalLeads: 203, conversionRate: 3.1 },
+      { month: "Jun '25", formFills: 112, calls: 175, totalLeads: 287, conversionRate: 3.6 },
+      { month: "Jul '25", formFills: 131, calls: 203, totalLeads: 334, conversionRate: 4.9 },
+      { month: "Aug '25", formFills: 152, calls: 237, totalLeads: 389, conversionRate: 4.4 },
+      { month: "Sep '25", formFills: 144, calls: 223, totalLeads: 367, conversionRate: 3.5 },
+      { month: "Oct '25", formFills: 157, calls: 244, totalLeads: 401, conversionRate: 3.1 },
+      { month: "Nov '25", formFills: 179, calls: 277, totalLeads: 456, conversionRate: 2.9 },
+      { month: "Dec '25", formFills: 205, calls: 318, totalLeads: 523, conversionRate: 2.8 },
+      { month: "Jan '26", formFills: 255, calls: 396, totalLeads: 651, conversionRate: 2.8 }
     ],
     sources: [
-      { source: "Organic search (Phoenix metro)", percentage: 52, leads: 2083 },
-      { source: "Direct traffic (repeat customers)", percentage: 21, leads: 841 },
-      { source: "Local map searches", percentage: 15, leads: 600 },
-      { source: "Tourism site referrals", percentage: 8, leads: 321 },
-      { source: "Social/review site referrals", percentage: 4, leads: 158 },
-    ],
+      { source: "Organic Search", percentage: 78, leads: 3338 },
+      { source: "Google My Business", percentage: 15, leads: 642 },
+      { source: "Local Directories", percentage: 4, leads: 171 },
+      { source: "Direct Traffic", percentage: 3, leads: 129 }
+    ]
   },
-  localSeo: {
-    summary: [
-      { label: "Business Profile Views", value: "34,567", growth: "987%", from: "3,179" },
-      { label: "Map Pack Impressions", value: "156,789", growth: "743%", from: "18,604" },
-      { label: "Direction Requests", value: "9,234", growth: "634%", from: "1,259" },
-      { label: "Phone Calls from Maps", value: "2,847", growth: "512%", from: "465" },
-    ],
-    monthly: [
-      { month: "Feb '25", gbpViews: 3179, mapsImpressions: 18604, gbpCalls: 465, directionRequests: 1259 },
-      { month: "Mar '25", gbpViews: 3847, mapsImpressions: 22567, gbpCalls: 523, directionRequests: 1456 },
-      { month: "Apr '25", gbpViews: 4623, mapsImpressions: 26834, gbpCalls: 612, directionRequests: 1734 },
-      { month: "May '25", gbpViews: 5234, mapsImpressions: 31456, gbpCalls: 689, directionRequests: 1923 },
-      { month: "Jun '25", gbpViews: 6123, mapsImpressions: 35789, gbpCalls: 756, directionRequests: 2156 },
-      { month: "Jul '25", gbpViews: 7456, mapsImpressions: 42134, gbpCalls: 834, directionRequests: 2478 },
-      { month: "Aug '25", gbpViews: 8934, mapsImpressions: 48567, gbpCalls: 923, directionRequests: 2834 },
-      { month: "Sep '25", gbpViews: 11234, mapsImpressions: 56789, gbpCalls: 1067, directionRequests: 3456 },
-      { month: "Oct '25", gbpViews: 15678, mapsImpressions: 67234, gbpCalls: 1234, directionRequests: 4123 },
-      { month: "Nov '25", gbpViews: 23456, mapsImpressions: 89567, gbpCalls: 1567, directionRequests: 5678 },
-      { month: "Dec '25", gbpViews: 29834, mapsImpressions: 123456, gbpCalls: 2134, directionRequests: 7234 },
-      { month: "Jan '26", gbpViews: 34567, mapsImpressions: 156789, gbpCalls: 2847, directionRequests: 9234 },
-    ],
-  },
+
+  // Impact summary
   impact: [
-    { label: "Total Revenue Generated", value: "$847,200", growth: "3,247% ↑" },
-    { label: "Lead Gen Revenue (Consultations)", value: "$423,600", growth: "N/A" },
-    { label: "Direct Booking Revenue", value: "$423,600", growth: "N/A" },
-    { label: "Average Deal Value", value: "$347", growth: "18% ↑" },
-  ],
+    { label: "Total Revenue Generated", value: "$248.7K", growth: "From SEO-driven bookings" },
+    { label: "Total Rental Bookings", value: "651", growth: "+412% increase" },
+    { label: "Cost Per Lead Reduction", value: "78%", growth: "From $40.94 to $8.91" },
+    { label: "Organic Keywords Ranking", value: "3,789", growth: "+3,646 from baseline" },
+    { label: "Monthly Organic Traffic", value: "23,456", growth: "+22,564 vs start" },
+    { label: "Market Position", value: "#1-3", growth: "Phoenix car rental searches" }
+  ]
 };
