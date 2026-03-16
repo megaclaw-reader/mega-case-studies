@@ -7,7 +7,7 @@ export const healthcareRegenerativeMedicine: CaseStudyData = {
   subheadline: "MEGA helped a multi-location regenerative medicine clinic in Scottsdale overcome repeated ad disapprovals, rebuild compliant campaign infrastructure, and scale monthly ad spend from $5K to $15K — generating $353.2K in attributed patient revenue over 10 months.",
   heroStats: [
     { value: "10", unit: "months", label: "Partnership Duration" },
-    { value: "3x", unit: "", label: "Ad Spend Scaled" },
+    { value: "94", unit: "K", label: "Total Ad Spend" },
     { value: "353.2", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["Paid Advertising", "Ad Platform Compliance", "Healthcare Marketing"],

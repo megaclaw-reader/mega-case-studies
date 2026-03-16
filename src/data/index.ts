@@ -106,6 +106,7 @@ import { nonprofitNewYork } from "./nonprofit-new-york";
 import { realEstateSeoNational } from "./real-estate-seo-national";
 import { healthcareEquipmentNational } from "./healthcare-equipment-national";
 import { subscriptionEducationNational } from "./subscription-education-national";
+import { subscriptionEducationPlatform } from "./subscription-education-platform";
 import { remoteRecruitingNational } from "./remote-recruiting-national";
 import { exteriorBuildingProductsAlabama } from "./exterior-building-products-alabama";
 import { hvacPlumbingArkansasCaseStudy } from "./hvac-plumbing-arkansas";
@@ -236,6 +237,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "real-estate-seo-national": realEstateSeoNational,
   "healthcare-equipment-national": healthcareEquipmentNational,
   "subscription-education-national": subscriptionEducationNational,
+  "subscription-education-platform": subscriptionEducationPlatform,
   "remote-recruiting-national": remoteRecruitingNational,
   "exterior-building-products-alabama": exteriorBuildingProductsAlabama,
   "hvac-plumbing-arkansas": hvacPlumbingArkansasCaseStudy,

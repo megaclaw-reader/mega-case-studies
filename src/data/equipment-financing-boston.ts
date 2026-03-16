@@ -7,7 +7,7 @@ export const equipmentFinancingBoston: CaseStudyData = {
   subheadline: "MEGA helped a Boston-based equipment financing company serving small and mid-sized businesses build a comprehensive digital acquisition program from scratch, reducing cost per qualified lead by 61% and generating $1.87M in funded equipment deals over 12 months.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
-    { value: "1.87", unit: "M", label: "Funded Deal Volume" },
+    { value: "41", unit: "deals", label: "Funded Deal Volume" },
     { value: "61", unit: "%", label: "CPQL Reduction" },
   ],
   tags: ["SEO", "Paid Advertising", "AI-Powered Optimization"],

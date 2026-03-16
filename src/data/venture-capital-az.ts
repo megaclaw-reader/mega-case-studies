@@ -179,7 +179,7 @@ export const ventureCapitalAz: CaseStudyData = {
   impact: [
     { label: "New LP Commitments", value: "$2.7M", growth: "" },
     { label: "Projected Management Fees", value: "$54K/yr", growth: "recurring" },
-    { label: "Total Deal Submissions (Paid + Organic)", value: "172", growth: "+387%" },
+    { label: "Total Deal Submissions (Paid + Organic)", value: "8", growth: "+387%" },
     { label: "Qualified Deal Flow", value: "8", growth: "+312%" },
     { label: "Blended Cost Per Deal Closed", value: "$3,552", growth: "↓41%" },
     { label: "First-Year ROI", value: "263%", growth: "" },

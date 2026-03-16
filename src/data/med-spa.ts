@@ -159,7 +159,7 @@ export const medSpa: CaseStudyData = {
   impact: [
     { label: "Total Revenue Attributed", value: "$189.7K", growth: "+5.2x ROAS" },
     { label: "Qualified Leads Generated", value: "319", growth: "+156%" },
-    { label: "Booked Appointments", value: "136", growth: "" },
+    { label: "Booked Appointments", value: "52", growth: "" },
     { label: "Cost Per Qualified Lead", value: "$137", growth: "↓52% by Month 6" },
   ],
 };

@@ -122,7 +122,7 @@ export const motorcycleBoatRepairAz: CaseStudyData = {
       { label: "Total Ad Spend", value: "$47.3K" },
       { label: "Qualified Leads", value: "282" },
       { label: "Avg Cost Per Qualified Lead", value: "$168", note: "↓18% from $143" },
-      { label: "Booked Appointments", value: "312" },
+      { label: "Booked Appointments", value: "81" },
     ],
     columnLabels: {
       leads: "Total Leads",

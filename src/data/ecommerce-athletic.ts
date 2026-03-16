@@ -102,11 +102,11 @@ export const ecommerceAthletic: CaseStudyData = {
     },
     monthly: [
       // Jun 2025: Launch month — summer baseline, building audiences, testing creative. Lower spend.
-      { month: "Jun 2025", spend: 23147, leads: 28934, cpl: 0.80, qualified: 3180, cpql: 7.27, deals: 797, revenue: 76416, roas: 3.30 },
+      { month: "Jun 2025", spend: 23147, leads: 28934, cpl: 0.80, qualified: 3177, cpql: 7.28, deals: 794, revenue: 76416, roas: 3.30 },
       // Jul 2025: Summer continuation — refining audiences, scaling what works. Moderate spend.
       { month: "Jul 2025", spend: 24583, leads: 29619, cpl: 0.83, qualified: 3256, cpql: 8.54, deals: 813, revenue: 78954, roas: 3.21 },
       // Aug 2025: Back-to-school ramp — college students gearing up, fall training season.
-      { month: "Aug 2025", spend: 33891, leads: 38967, cpl: 0.87, qualified: 4676, cpql: 7.25, deals: 1172, revenue: 112224, roas: 3.31 },
+      { month: "Aug 2025", spend: 33891, leads: 38967, cpl: 0.87, qualified: 4679, cpql: 7.24, deals: 1169, revenue: 112224, roas: 3.31 },
       // Sep 2025: Back-to-school peak continues — campus campaigns, fall activewear demand.
       { month: "Sep 2025", spend: 34217, leads: 39329, cpl: 0.87, qualified: 4326, cpql: 7.91, deals: 1082, revenue: 102798, roas: 3.00 },
       // Oct 2025: Shoulder month — between back-to-school and holiday. Retargeting and audience building.

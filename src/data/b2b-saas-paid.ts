@@ -8,7 +8,7 @@ export const b2bSaasPaid: CaseStudyData = {
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
     { value: "38", unit: "%", label: "SQL Cost Reduction" },
-    { value: "2.0", unit: "M", label: "Revenue Attributed" },
+    { value: "2.05", unit: "M", label: "Revenue Attributed" },
   ],
   tags: ["Paid Advertising", "AI-Powered Optimization", "Lead Generation"],
   company: {

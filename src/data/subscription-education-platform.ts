@@ -1,0 +1,131 @@
+import { CaseStudyData } from "./types";
+
+export const subscriptionEducationPlatform: CaseStudyData = {
+  slug: "subscription-education-platform",
+  industry: "Subscription Education Platform",
+  headline: "How a Subscription Learning Platform Scaled to 11,289 Subscribers with 3.22x Blended ROAS",
+  subheadline: "MEGA helped a subscription-based education platform optimize their growth engine across SEO and paid advertising, scaling from 2,847 monthly subscribers to 11,289 subscribers with improved unit economics — dropping subscriber acquisition cost to $68 while achieving 3.22x blended ROAS over 7 months.",
+  heroStats: [
+    { value: "11,289", unit: "", label: "Monthly Subscribers" },
+    { value: "$68", unit: "", label: "Subscriber Acquisition Cost" },
+    { value: "3.22", unit: "x", label: "Blended ROAS" },
+  ],
+  tags: ["SEO", "Paid Advertising", "Subscription Growth", "National"],
+  company: {
+    industry: "Subscription Education Platform",
+    employees: "32",
+    revenue: "$2.1M ARR",
+    location: "National (USA)",
+    description: "A subscription-based online education platform offering professional development courses in technology, business, and creative fields. The platform operates on a freemium model with premium subscriptions at $29/month or $249/year, providing access to instructor-led workshops, self-paced courses, and certification tracks. Despite building a library of 280+ courses over two years, the company struggled with inefficient subscriber acquisition and limited organic visibility. With 2,847 active subscribers generating modest recurring revenue, leadership needed a systematic growth strategy that could scale acquisition volume while improving unit economics in the increasingly competitive online education space.",
+  },
+  challenges: [
+    {
+      title: "Minimal Organic Discovery Despite Quality Course Content",
+      description: "With 280+ professionally produced courses spanning in-demand professional skills, the platform had virtually no organic search presence. They ranked for fewer than 100 keywords, almost none on page 1, while competitors with less comprehensive content dominated search results for high-intent queries like 'data analytics certification,' 'project management training online,' and 'UX design course.' Organic traffic sat at just 1,840 monthly visitors — a fraction of what the content library warranted. The platform's blog existed but was updated sporadically with no keyword strategy, and course pages lacked the technical optimization needed to compete in search results.",
+    },
+    {
+      title: "Unsustainable Subscriber Acquisition Costs Limiting Growth",
+      description: "The company was running paid campaigns with a subscriber acquisition cost averaging $94 — well above the threshold needed for healthy unit economics given their $29/month subscription price and average subscriber lifetime of 6.4 months. Campaigns were optimized for free trial signups rather than users likely to convert to paid subscriptions, producing high trial volume but a trial-to-paid conversion rate of only 14.2%. Budget allocation was static month-over-month with no seasonal adjustment, and targeting cast too wide a net — attracting casual browsers and students looking for free resources rather than working professionals willing to invest in premium educational content.",
+    },
+    {
+      title: "No Compounding Growth Engine or Predictable Acquisition Channels",
+      description: "Revenue growth was entirely dependent on paid advertising spend with zero organic momentum. Without SEO-driven traffic or content marketing generating inbound interest, every new subscriber required direct ad spend to acquire. This created a ceiling on growth — scaling meant proportionally scaling costs with no efficiency gains. The company had no systematic approach to content-driven acquisition, no retargeting infrastructure, and no lifecycle marketing to improve trial conversion rates. Leadership needed growth systems that could compound over time, reducing reliance on paid channels alone.",
+    },
+  ],
+  strategy: [
+    {
+      phase: 1,
+      months: "Month 1–2",
+      title: "Foundation & Technical Optimization",
+      items: [
+        "Comprehensive SEO audit revealing 1,240 keyword opportunities across professional development, online certification, and skill-building categories — mapped against existing course inventory to identify quick wins and content gaps",
+        "Technical SEO overhaul — restructured site architecture to surface course category pages, implemented educational content schema markup, and improved Core Web Vitals from poor to passing scores across all templates",
+        "Deployed always-on AI optimization agents directly within ad accounts — monitoring performance signals, adjusting bids, reallocating budget, and refining audience targeting in real time rather than waiting for weekly agency review cycles",
+        "Paid advertising account restructuring — separated broad awareness campaigns from high-intent professional development searches, built conversion tracking from ad click through trial signup to paid subscription activation",
+        "Audience segmentation by professional persona — created distinct campaign groups for career-changers, mid-career professionals seeking advancement, and entrepreneurs building specific technical skills",
+        "Negative keyword foundation — excluded hobbyist searches, free course seekers, and academic student terms that historically attracted low-intent trial signups unlikely to convert to paid",
+        "Trial experience redesign — implemented personalized onboarding flows showing the most relevant premium courses based on signup interests, increasing early engagement during the 7-day trial window",
+        "Launched initial creative testing with 12 AI-generated ad variations across formats, providing 3x more creative diversity than a traditional agency would produce at this budget level — with zero production costs eating into media spend",
+      ],
+    },
+    {
+      phase: 2,
+      months: "Month 3–5",
+      title: "Content Scaling & Paid Optimization",
+      items: [
+        "First wave of SEO content deployed — 18 comprehensive guides targeting high-intent topics like 'best online project management courses,' 'data analytics career path,' and 'professional development ROI' — each optimized for 12-20 related keyword clusters",
+        "Course page optimization across all 280+ listings — rewrote descriptions with keyword-rich content, added structured outcome data, implemented internal linking between related courses and learning paths",
+        "Paid budget reallocation based on 60-day trial-to-subscription data — shifted spend toward skill-specific searches showing 2.3x higher conversion rates versus broad 'online learning' terms",
+        "Lookalike audience development from highest-value subscribers — professionals who maintained subscriptions for 4+ months and completed multiple courses became the seed for expanded targeting",
+        "AI agents analyzed thousands of performance signals daily, identifying micro-trends in keyword performance and audience behavior — reallocating budget to top-performing segments in real time, compounding small daily improvements into significant monthly efficiency gains",
+        "Retargeting infrastructure launched — custom audiences for course page visitors, blog readers, and trial users who engaged with premium content but hadn't converted, with messaging tailored to their specific areas of interest",
+        "Email nurture sequence rebuilt — personalized course recommendations based on trial user behavior, professional success stories, and clear value messaging around career advancement through continued learning",
+        "Rotated in fresh creative weekly based on performance data, replacing underperformers within days rather than the typical agency cycle of monthly creative refreshes",
+      ],
+    },
+    {
+      phase: 3,
+      months: "Month 6–7",
+      title: "Scale & Efficiency Optimization",
+      items: [
+        "SEO momentum compounding — over 2,800 keywords ranking with course pages and blog content capturing long-tail professional development searches across all major skill categories",
+        "Authority building through earned backlinks from 19 industry publications and professional development organizations via expert content contributions and educational partnership features",
+        "Advanced audience layering — combined behavioral signals from course engagement, email interaction, and site activity to create high-precision targeting segments for paid campaigns",
+        "Conversion rate optimization program — systematic A/B testing of pricing pages, trial signup flows, and subscription upgrade experiences based on accumulated user behavior data",
+        "Paid subscriber acquisition cost driven to $68 through compounding optimizations across targeting, creative, and funnel improvements — achieving sustainable unit economics for aggressive scaling",
+        "When New Year resolution-driven demand surged in January, AI agents detected the seasonal shift and reallocated budget to high-intent career development keywords within hours — capturing opportunity that would have taken a traditional agency days to recognize and act on",
+        "Continuous AI optimization compounded daily improvements across bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for periodic manual review cycles",
+        "Cross-channel synergy realized — organic content insights informed paid ad targeting while paid conversion data revealed high-performing keyword themes that shaped SEO content priorities",
+      ],
+    },
+  ],
+  seo: {
+    summary: [
+      { label: "Total Keywords Ranking", value: "2,834", growth: "+2,741", from: "from 93" },
+      { label: "Page 1 Rankings", value: "487", growth: "+472", from: "from 15" },
+      { label: "Top 3 Positions", value: "89", growth: "+84", from: "from 5" },
+      { label: "Monthly Organic Traffic", value: "18,247", growth: "+16,407", from: "from 1,840" },
+    ],
+    monthly: [
+      { month: "Aug '25", keywords: 93, top10: 15, top3: 5, traffic: 1840, pages: 12, avgPos: 52.3, ctr: 1.8 },
+      { month: "Sep '25", keywords: 187, top10: 34, top3: 8, traffic: 2456, pages: 28, avgPos: 46.7, ctr: 2.1 },
+      { month: "Oct '25", keywords: 478, top10: 89, top3: 17, traffic: 4123, pages: 64, avgPos: 39.4, ctr: 2.7 },
+      { month: "Nov '25", keywords: 1034, top10: 178, top3: 34, traffic: 7289, pages: 112, avgPos: 33.8, ctr: 3.4 },
+      { month: "Dec '25", keywords: 1567, top10: 267, top3: 48, traffic: 10134, pages: 167, avgPos: 29.2, ctr: 4.1 },
+      { month: "Jan '26", keywords: 2189, top10: 378, top3: 67, traffic: 14567, pages: 234, avgPos: 25.6, ctr: 4.8 },
+      { month: "Feb '26", keywords: 2834, top10: 487, top3: 89, traffic: 18247, pages: 298, avgPos: 22.1, ctr: 5.4 },
+    ],
+  },
+  paidAds: {
+    summary: [
+      { label: "Total Ad Spend", value: "$48,960" },
+      { label: "Trial Signups", value: "1,376", note: "7-day free trial conversions" },
+      { label: "Paid Subscribers", value: "720", note: "Trial-to-paid conversions" },
+      { label: "Avg Cost/Subscriber", value: "$68", note: "↓28% from $94 baseline" },
+    ],
+    columnLabels: {
+      leads: "Trial Signups",
+      cpl: "Cost/Trial",
+      qualified: "Paid Subscribers",
+      cpql: "Cost/Subscriber",
+      deals: "Annual Plans",
+    },
+    monthly: [
+      { month: "Aug '25", spend: 6380, leads: 143, cpl: 44.62, qualified: 74, cpql: 86.22, deals: 17, revenue: 14789, roas: 2.32 },
+      { month: "Sep '25", spend: 6840, leads: 167, cpl: 40.96, qualified: 91, cpql: 75.16, deals: 22, revenue: 18234, roas: 2.67 },
+      { month: "Oct '25", spend: 7520, leads: 194, cpl: 38.76, qualified: 111, cpql: 67.75, deals: 29, revenue: 24567, roas: 3.27 },
+      { month: "Nov '25", spend: 6640, leads: 172, cpl: 38.60, qualified: 98, cpql: 67.76, deals: 24, revenue: 21456, roas: 3.23 },
+      { month: "Dec '25", spend: 6380, leads: 149, cpl: 42.82, qualified: 79, cpql: 80.76, deals: 18, revenue: 16123, roas: 2.53 },
+      { month: "Jan '26", spend: 8280, leads: 232, cpl: 35.69, qualified: 141, cpql: 58.72, deals: 38, revenue: 32489, roas: 3.92 },
+      { month: "Feb '26", spend: 6920, leads: 189, cpl: 36.61, qualified: 126, cpql: 54.92, deals: 33, revenue: 29993, roas: 4.33 },
+    ],
+  },
+  impact: [
+    { label: "Monthly Subscribers", value: "2,847 → 11,289", growth: "+296%" },
+    { label: "Subscriber Acquisition Cost", value: "$94 → $68", growth: "↓28%" },
+    { label: "Total Paid Revenue", value: "$157,651", growth: "" },
+    { label: "Blended ROAS", value: "3.22x", growth: "" },
+    { label: "Monthly Organic Traffic", value: "1,840 → 18,247", growth: "+892%" },
+    { label: "Keywords Ranking", value: "93 → 2,834", growth: "+2,948%" },
+  ],
+};
