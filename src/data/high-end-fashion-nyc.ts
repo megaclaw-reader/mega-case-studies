@@ -92,19 +92,19 @@ export const highEndFashionNyc: CaseStudyData = {
   ],
   seo: {
     summary: [
-      { label: "Total Keywords", value: "2,134", growth: "+1,492%", from: "from 134" },
-      { label: "Top 10 Rankings", value: "247", growth: "+2,145%", from: "from 11" },
+      { label: "Total Keywords", value: "2,388", growth: "+1,492%", from: "from 150" },
+      { label: "Top 10 Rankings", value: "276", growth: "+2,200%", from: "from 11" },
       { label: "Pages Created", value: "78", growth: "", from: "incl. 14 category + 38 editorial pages" },
       { label: "Organic Traffic", value: "4,814/mo", growth: "+1,247%", from: "from 357" },
     ],
     monthly: [
-      { month: "Jun 2025", keywords: 134, top10: 11, top3: 2, traffic: 357, pages: 6, avgPos: 48.7, ctr: 0.7 },
-      { month: "Jul 2025", keywords: 287, top10: 28, top3: 5, traffic: 623, pages: 14, avgPos: 41.3, ctr: 1.0 },
-      { month: "Aug 2025", keywords: 512, top10: 54, top3: 11, traffic: 1087, pages: 28, avgPos: 34.8, ctr: 1.3 },
-      { month: "Sep 2025", keywords: 847, top10: 89, top3: 19, traffic: 1742, pages: 42, avgPos: 28.4, ctr: 1.7 },
-      { month: "Oct 2025", keywords: 1234, top10: 134, top3: 31, traffic: 2587, pages: 54, avgPos: 23.6, ctr: 2.1 },
-      { month: "Nov 2025", keywords: 1712, top10: 192, top3: 48, traffic: 3847, pages: 67, avgPos: 19.8, ctr: 2.6 },
-      { month: "Dec 2025", keywords: 2134, top10: 247, top3: 62, traffic: 4814, pages: 78, avgPos: 17.2, ctr: 3.0 },
+      { month: "Jun 2025", keywords: 150, top10: 12, top3: 2, traffic: 357, pages: 6, avgPos: 48.7, ctr: 0.7 },
+      { month: "Jul 2025", keywords: 321, top10: 31, top3: 5, traffic: 623, pages: 14, avgPos: 41.3, ctr: 1.0 },
+      { month: "Aug 2025", keywords: 573, top10: 60, top3: 12, traffic: 1087, pages: 28, avgPos: 34.8, ctr: 1.3 },
+      { month: "Sep 2025", keywords: 948, top10: 99, top3: 21, traffic: 1742, pages: 42, avgPos: 28.4, ctr: 1.7 },
+      { month: "Oct 2025", keywords: 1381, top10: 150, top3: 34, traffic: 2587, pages: 54, avgPos: 23.6, ctr: 2.1 },
+      { month: "Nov 2025", keywords: 1916, top10: 214, top3: 53, traffic: 3847, pages: 67, avgPos: 19.8, ctr: 2.6 },
+      { month: "Dec 2025", keywords: 2388, top10: 276, top3: 69, traffic: 4814, pages: 78, avgPos: 17.2, ctr: 3.0 },
     ],
   },
   paidAds: {

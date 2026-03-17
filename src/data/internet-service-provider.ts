@@ -102,32 +102,32 @@ export const internetServiceProvider: CaseStudyData = {
   ],
   seo: {
     summary: [
-      { label: "Total Keywords", value: "8,847", growth: "+8,170%", from: "from 107" },
-      { label: "Top 10 Rankings", value: "791", growth: "+5,492%", from: "from 14" },
+      { label: "Total Keywords", value: "12,402", growth: "+8,168%", from: "from 150" },
+      { label: "Top 10 Rankings", value: "1,108", growth: "+5,731%", from: "from 14" },
       { label: "Pages Created", value: "247", growth: "", from: "incl. 134 neighborhood/zip pages" },
       { label: "Organic Traffic", value: "15,412/mo", growth: "+4,342%", from: "from 347" },
     ],
     monthly: [
       // Month 1: Baseline — inherited site with branded-only rankings, audit underway
-      { month: "Jan 2025", keywords: 107, top10: 14, top3: 2, traffic: 347, pages: 21, avgPos: 51.7, ctr: 0.6 },
+      { month: "Jan 2025", keywords: 150, top10: 19, top3: 2, traffic: 347, pages: 21, avgPos: 51.7, ctr: 0.6 },
       // Month 2: State hubs and initial city pages indexing, first articles published
-      { month: "Feb 2025", keywords: 274, top10: 36, top3: 5, traffic: 643, pages: 56, avgPos: 45.3, ctr: 0.8 },
+      { month: "Feb 2025", keywords: 384, top10: 50, top3: 7, traffic: 643, pages: 56, avgPos: 45.3, ctr: 0.8 },
       // Month 3: Programmatic zip code pages indexing, comparison content gaining traction
-      { month: "Mar 2025", keywords: 612, top10: 74, top3: 11, traffic: 1387, pages: 84, avgPos: 37.9, ctr: 1.1 },
+      { month: "Mar 2025", keywords: 857, top10: 103, top3: 15, traffic: 1387, pages: 84, avgPos: 37.9, ctr: 1.1 },
       // Month 4: Hockey stick begins — long-tail local queries breaking through at scale
-      { month: "Apr 2025", keywords: 1143, top10: 138, top3: 21, traffic: 2891, pages: 112, avgPos: 31.6, ctr: 1.4 },
+      { month: "Apr 2025", keywords: 1602, top10: 193, top3: 29, traffic: 2891, pages: 112, avgPos: 31.6, ctr: 1.4 },
       // Month 5: Compounding — comparison pages ranking, summer moving season boosting volume
-      { month: "May 2025", keywords: 2017, top10: 213, top3: 34, traffic: 4718, pages: 139, avgPos: 27.4, ctr: 1.7 },
+      { month: "May 2025", keywords: 2827, top10: 298, top3: 47, traffic: 4718, pages: 139, avgPos: 27.4, ctr: 1.7 },
       // Month 6: Strong growth — backlink efforts compounding, hub pages gaining authority
-      { month: "Jun 2025", keywords: 3184, top10: 312, top3: 52, traffic: 6843, pages: 162, avgPos: 24.7, ctr: 1.9 },
+      { month: "Jun 2025", keywords: 4463, top10: 437, top3: 72, traffic: 6843, pages: 162, avgPos: 24.7, ctr: 1.9 },
       // Month 7: Authority established — some head terms cracking page 1, featured snippets appearing
-      { month: "Jul 2025", keywords: 4523, top10: 418, top3: 71, traffic: 8917, pages: 184, avgPos: 22.3, ctr: 2.1 },
+      { month: "Jul 2025", keywords: 6340, top10: 585, top3: 99, traffic: 8917, pages: 184, avgPos: 22.3, ctr: 2.1 },
       // Month 8: Organic traffic crosses 10K — content flywheel fully operational
-      { month: "Aug 2025", keywords: 5891, top10: 524, top3: 89, traffic: 11234, pages: 207, avgPos: 20.6, ctr: 2.3 },
+      { month: "Aug 2025", keywords: 8258, top10: 734, top3: 124, traffic: 11234, pages: 207, avgPos: 20.6, ctr: 2.3 },
       // Month 9: Continued compounding across 23 states
-      { month: "Sep 2025", keywords: 7342, top10: 658, top3: 112, traffic: 13478, pages: 228, avgPos: 19.1, ctr: 2.5 },
+      { month: "Sep 2025", keywords: 10292, top10: 922, top3: 157, traffic: 13478, pages: 228, avgPos: 19.1, ctr: 2.5 },
       // Month 10: Full compound effect — dominant local presence across majority of service areas
-      { month: "Oct 2025", keywords: 8847, top10: 791, top3: 134, traffic: 15412, pages: 247, avgPos: 17.9, ctr: 2.7 },
+      { month: "Oct 2025", keywords: 12402, top10: 1108, top3: 187, traffic: 15412, pages: 247, avgPos: 17.9, ctr: 2.7 },
     ],
   },
   paidAds: {

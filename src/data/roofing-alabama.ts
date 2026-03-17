@@ -79,17 +79,17 @@ export const roofingAlabama: CaseStudyData = {
       { label: "Authority Score", value: "25", growth: "+47%", from: "17" },
       { label: "Ranking Keywords", value: "3,847", growth: "+2,927%", from: "127" },
       { label: "Organic Traffic", value: "18,430", growth: "+1,967%", from: "892" },
-      { label: "Top 10 Rankings", value: "1,284", growth: "+2,156%", from: "57" }
+      { label: "Top 10 Rankings", value: "1,516", growth: "+2,162%", from: "57" }
     ],
     monthly: [
-      { month: "Jan 2025", keywords: 127, top10: 57, top3: 23, traffic: 892, pages: 45, avgPos: 47.2, ctr: 1.8 },
-      { month: "Feb 2025", keywords: 234, top10: 89, top3: 34, traffic: 1456, pages: 52, avgPos: 42.1, ctr: 2.1 },
-      { month: "Mar 2025", keywords: 478, top10: 156, top3: 67, traffic: 2890, pages: 68, avgPos: 38.4, ctr: 2.7 },
-      { month: "Apr 2025", keywords: 892, top10: 298, top3: 134, traffic: 5670, pages: 89, avgPos: 34.2, ctr: 3.4 },
-      { month: "May 2025", keywords: 1456, top10: 487, top3: 223, traffic: 8920, pages: 112, avgPos: 30.1, ctr: 4.2 },
-      { month: "Jun 2025", keywords: 2340, top10: 734, top3: 356, traffic: 12450, pages: 134, avgPos: 26.8, ctr: 4.9 },
-      { month: "Jul 2025", keywords: 3120, top10: 989, top3: 467, traffic: 15670, pages: 156, avgPos: 23.4, ctr: 5.6 },
-      { month: "Aug 2025", keywords: 3847, top10: 1284, top3: 578, traffic: 18430, pages: 178, avgPos: 20.1, ctr: 6.3 }
+      { month: "Jan 2025", keywords: 150, top10: 67, top3: 27, traffic: 892, pages: 45, avgPos: 47.2, ctr: 1.8 },
+      { month: "Feb 2025", keywords: 276, top10: 105, top3: 40, traffic: 1456, pages: 52, avgPos: 42.1, ctr: 2.1 },
+      { month: "Mar 2025", keywords: 564, top10: 184, top3: 79, traffic: 2890, pages: 68, avgPos: 38.4, ctr: 2.7 },
+      { month: "Apr 2025", keywords: 1053, top10: 351, top3: 158, traffic: 5670, pages: 89, avgPos: 34.2, ctr: 3.4 },
+      { month: "May 2025", keywords: 1719, top10: 575, top3: 263, traffic: 8920, pages: 112, avgPos: 30.1, ctr: 4.2 },
+      { month: "Jun 2025", keywords: 2763, top10: 866, top3: 420, traffic: 12450, pages: 134, avgPos: 26.8, ctr: 4.9 },
+      { month: "Jul 2025", keywords: 3685, top10: 1168, top3: 551, traffic: 15670, pages: 156, avgPos: 23.4, ctr: 5.6 },
+      { month: "Aug 2025", keywords: 4543, top10: 1516, top3: 682, traffic: 18430, pages: 178, avgPos: 20.1, ctr: 6.3 }
     ]
   },
   

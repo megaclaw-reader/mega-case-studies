@@ -88,19 +88,19 @@ export const wearableHealthTechTx: CaseStudyData = {
   ],
   seo: {
     summary: [
-      { label: "Total Keywords", value: "4,617", growth: "+4,175%", from: "from 108" },
-      { label: "Top 10 Rankings", value: "412", growth: "+5,050%", from: "from 8" },
+      { label: "Total Keywords", value: "6,412", growth: "+4,174%", from: "from 150" },
+      { label: "Top 10 Rankings", value: "572", growth: "+5,100%", from: "from 8" },
       { label: "Organic Traffic", value: "11,234/mo", growth: "+2,701%", from: "from 401" },
       { label: "Domain Authority", value: "31", growth: "+121%", from: "from 14" },
     ],
     monthly: [
-      { month: "Jun 2025", keywords: 108, top10: 8, top3: 0, traffic: 401, pages: 18, avgPos: 57.3, ctr: 0.3 },
-      { month: "Jul 2025", keywords: 167, top10: 14, top3: 0, traffic: 523, pages: 32, avgPos: 52.8, ctr: 0.4 },
-      { month: "Aug 2025", keywords: 341, top10: 37, top3: 2, traffic: 894, pages: 54, avgPos: 46.2, ctr: 0.6 },
-      { month: "Sep 2025", keywords: 847, top10: 89, top3: 8, traffic: 2134, pages: 78, avgPos: 40.7, ctr: 0.9 },
-      { month: "Oct 2025", keywords: 1823, top10: 178, top3: 19, traffic: 4567, pages: 106, avgPos: 35.4, ctr: 1.2 },
-      { month: "Nov 2025", keywords: 3214, top10: 298, top3: 38, traffic: 7891, pages: 138, avgPos: 30.1, ctr: 1.6 },
-      { month: "Dec 2025", keywords: 4617, top10: 412, top3: 57, traffic: 11234, pages: 174, avgPos: 26.4, ctr: 1.9 },
+      { month: "Jun 2025", keywords: 150, top10: 11, top3: 0, traffic: 401, pages: 18, avgPos: 57.3, ctr: 0.3 },
+      { month: "Jul 2025", keywords: 231, top10: 19, top3: 0, traffic: 523, pages: 32, avgPos: 52.8, ctr: 0.4 },
+      { month: "Aug 2025", keywords: 473, top10: 51, top3: 2, traffic: 894, pages: 54, avgPos: 46.2, ctr: 0.6 },
+      { month: "Sep 2025", keywords: 1176, top10: 123, top3: 11, traffic: 2134, pages: 78, avgPos: 40.7, ctr: 0.9 },
+      { month: "Oct 2025", keywords: 2531, top10: 247, top3: 26, traffic: 4567, pages: 106, avgPos: 35.4, ctr: 1.2 },
+      { month: "Nov 2025", keywords: 4463, top10: 413, top3: 52, traffic: 7891, pages: 138, avgPos: 30.1, ctr: 1.6 },
+      { month: "Dec 2025", keywords: 6412, top10: 572, top3: 79, traffic: 11234, pages: 174, avgPos: 26.4, ctr: 1.9 },
     ],
   },
   paidAds: {

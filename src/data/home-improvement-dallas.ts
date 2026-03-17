@@ -95,32 +95,32 @@ export const homeImprovementDallas: CaseStudyData = {
   ],
   seo: {
     summary: [
-      { label: "Total Keywords", value: "8,417", growth: "+6,537%", from: "127" },
+      { label: "Total Keywords", value: "9,941", growth: "+6,527%", from: "127" },
       { label: "Page 1 Keywords", value: "1,247", growth: "+4,088%", from: "30" },
       { label: "Monthly Traffic", value: "12,368", growth: "+1,446%", from: "800" },
       { label: "Avg Position", value: "18.3", growth: "↑47 spots", from: "65.3" },
     ],
     monthly: [
       // Month 1 (Jan 2025): Foundation building, technical fixes starting
-      { month: "Jan 2025", keywords: 127, top10: 30, top3: 8, traffic: 800, pages: 34, avgPos: 65.3, ctr: 2.1 },
+      { month: "Jan 2025", keywords: 150, top10: 35, top3: 9, traffic: 800, pages: 34, avgPos: 65.3, ctr: 2.1 },
       // Month 2 (Feb): Content production begins, technical improvements live
-      { month: "Feb 2025", keywords: 189, top10: 47, top3: 14, traffic: 1050, pages: 41, avgPos: 58.7, ctr: 2.4 },
+      { month: "Feb 2025", keywords: 223, top10: 55, top3: 16, traffic: 1050, pages: 41, avgPos: 58.7, ctr: 2.4 },
       // Month 3 (Mar): Spring content push, Dallas neighborhood pages launching
-      { month: "Mar 2025", keywords: 267, top10: 73, top3: 22, traffic: 1380, pages: 52, avgPos: 51.2, ctr: 2.8 },
+      { month: "Mar 2025", keywords: 315, top10: 86, top3: 25, traffic: 1380, pages: 52, avgPos: 51.2, ctr: 2.8 },
       // Month 4 (Apr): SEO momentum building, first page rankings growing
-      { month: "Apr 2025", keywords: 1124, top10: 158, top3: 41, traffic: 2140, pages: 67, avgPos: 43.6, ctr: 3.2 },
+      { month: "Apr 2025", keywords: 1327, top10: 186, top3: 48, traffic: 2140, pages: 67, avgPos: 43.6, ctr: 3.2 },
       // Month 5 (May): Hockey stick acceleration, content authority building
-      { month: "May 2025", keywords: 1876, top10: 289, top3: 73, traffic: 3420, pages: 84, avgPos: 38.1, ctr: 3.7 },
+      { month: "May 2025", keywords: 2215, top10: 341, top3: 86, traffic: 3420, pages: 84, avgPos: 38.1, ctr: 3.7 },
       // Month 6 (Jun): Summer peak content performing, strong rankings
-      { month: "Jun 2025", keywords: 2834, top10: 467, top3: 126, traffic: 4890, pages: 103, avgPos: 32.4, ctr: 4.1 },
+      { month: "Jun 2025", keywords: 3347, top10: 551, top3: 148, traffic: 4890, pages: 103, avgPos: 32.4, ctr: 4.1 },
       // Month 7 (Jul): Authority established, competitive keywords ranking
-      { month: "Jul 2025", keywords: 4127, top10: 623, top3: 189, traffic: 6730, pages: 124, avgPos: 28.7, ctr: 4.6 },
+      { month: "Jul 2025", keywords: 4874, top10: 735, top3: 223, traffic: 6730, pages: 124, avgPos: 28.7, ctr: 4.6 },
       // Month 8 (Aug): Market dominance emerging, traffic surge
-      { month: "Aug 2025", keywords: 5498, top10: 847, top3: 267, traffic: 8190, pages: 146, avgPos: 25.3, ctr: 5.0 },
+      { month: "Aug 2025", keywords: 6493, top10: 1000, top3: 315, traffic: 8190, pages: 146, avgPos: 25.3, ctr: 5.0 },
       // Month 9 (Sep): Fall content performing, sustained growth
-      { month: "Sep 2025", keywords: 6723, top10: 976, top3: 341, traffic: 9680, pages: 167, avgPos: 22.1, ctr: 5.4 },
+      { month: "Sep 2025", keywords: 7940, top10: 1152, top3: 402, traffic: 9680, pages: 167, avgPos: 22.1, ctr: 5.4 },
       // Month 10 (Oct): Peak performance, market leadership established
-      { month: "Oct 2025", keywords: 8417, top10: 1247, top3: 458, traffic: 12368, pages: 189, avgPos: 18.3, ctr: 5.9 },
+      { month: "Oct 2025", keywords: 9941, top10: 1472, top3: 540, traffic: 12368, pages: 189, avgPos: 18.3, ctr: 5.9 },
     ],
   },
   paidAds: {

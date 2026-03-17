@@ -198,7 +198,7 @@ export const residentialMovingNyc: CaseStudyData = {
     monthly: [
       {
         month: "Jun '25",
-        keywords: 147,
+        keywords: 156,
         top10: 23,
         top3: 8,
         traffic: 823,

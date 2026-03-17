@@ -87,9 +87,9 @@ export const subscriptionEducationPlatform: CaseStudyData = {
       { label: "Monthly Organic Traffic", value: "18,247", growth: "+16,407", from: "from 1,840" },
     ],
     monthly: [
-      { month: "Aug '25", keywords: 93, top10: 15, top3: 5, traffic: 1840, pages: 12, avgPos: 52.3, ctr: 1.8 },
-      { month: "Sep '25", keywords: 187, top10: 34, top3: 8, traffic: 2456, pages: 28, avgPos: 46.7, ctr: 2.1 },
-      { month: "Oct '25", keywords: 478, top10: 89, top3: 17, traffic: 4123, pages: 64, avgPos: 39.4, ctr: 2.7 },
+      { month: "Aug '25", keywords: 306, top10: 49, top3: 16, traffic: 1840, pages: 12, avgPos: 52.3, ctr: 1.8 },
+      { month: "Sep '25", keywords: 409, top10: 74, top3: 17, traffic: 2456, pages: 28, avgPos: 46.7, ctr: 2.1 },
+      { month: "Oct '25", keywords: 478, top10: 89, top3: 18, traffic: 4123, pages: 64, avgPos: 39.4, ctr: 2.7 },
       { month: "Nov '25", keywords: 1034, top10: 178, top3: 34, traffic: 7289, pages: 112, avgPos: 33.8, ctr: 3.4 },
       { month: "Dec '25", keywords: 1567, top10: 267, top3: 48, traffic: 10134, pages: 167, avgPos: 29.2, ctr: 4.1 },
       { month: "Jan '26", keywords: 2189, top10: 378, top3: 67, traffic: 14567, pages: 234, avgPos: 25.6, ctr: 4.8 },

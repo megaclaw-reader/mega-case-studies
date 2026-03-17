@@ -101,13 +101,13 @@ export const motorcycleBoatRepairAz: CaseStudyData = {
   ],
   seo: {
     summary: [
-      { label: "Total Keywords", value: "4,732", growth: "+4,537%", from: "from 102" },
-      { label: "Top 10 Rankings", value: "287", growth: "+2,770%", from: "from 10" },
+      { label: "Total Keywords", value: "4,732", growth: "+2,750%", from: "from 166" },
+      { label: "Top 10 Rankings", value: "287", growth: "+1,693%", from: "from 10" },
       { label: "Pages Created", value: "83", growth: "", from: "incl. 70 location × service pages" },
       { label: "Organic Traffic", value: "11,247/mo", growth: "+1,028%", from: "from 997" },
     ],
     monthly: [
-      { month: "May 2025", keywords: 102, top10: 10, top3: 2, traffic: 997, pages: 6, avgPos: 51.3, ctr: 0.6 },
+      { month: "May 2025", keywords: 166, top10: 16, top3: 3, traffic: 997, pages: 6, avgPos: 51.3, ctr: 0.6 },
       { month: "Jun 2025", keywords: 187, top10: 18, top3: 3, traffic: 1243, pages: 17, avgPos: 46.8, ctr: 0.8 },
       { month: "Jul 2025", keywords: 413, top10: 41, top3: 7, traffic: 1891, pages: 31, avgPos: 39.4, ctr: 1.1 },
       { month: "Aug 2025", keywords: 1078, top10: 89, top3: 18, traffic: 3472, pages: 48, avgPos: 31.7, ctr: 1.6 },

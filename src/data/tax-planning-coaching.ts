@@ -107,32 +107,32 @@ export const taxPlanningCoaching: CaseStudyData = {
   ],
   seo: {
     summary: [
-      { label: "Total Keywords", value: "8,247", growth: "+7,659%", from: "from 106" },
-      { label: "Top 10 Rankings", value: "437", growth: "+4,856%", from: "from 9" },
+      { label: "Total Keywords", value: "11,670", growth: "+7,680%", from: "from 150" },
+      { label: "Top 10 Rankings", value: "618", growth: "+5,050%", from: "from 9" },
       { label: "Pages Created", value: "213", growth: "", from: "incl. 47 city-level service pages" },
       { label: "Organic Traffic", value: "12,418/mo", growth: "+11,217%", from: "from 110" },
     ],
     monthly: [
       // Month 1 (Jan 2025): Technical audit, baseline — inherited thin site with minimal organic presence
-      { month: "Jan 2025", keywords: 106, top10: 9, top3: 1, traffic: 110, pages: 12, avgPos: 52.7, ctr: 0.8 },
+      { month: "Jan 2025", keywords: 150, top10: 12, top3: 1, traffic: 110, pages: 12, avgPos: 52.7, ctr: 0.8 },
       // Month 2 (Feb 2025): Technical fixes live, first pillar content published, schema markup deployed
-      { month: "Feb 2025", keywords: 189, top10: 16, top3: 2, traffic: 247, pages: 31, avgPos: 46.3, ctr: 1.0 },
+      { month: "Feb 2025", keywords: 267, top10: 22, top3: 2, traffic: 247, pages: 31, avgPos: 46.3, ctr: 1.0 },
       // Month 3 (Mar 2025): City-level pages indexing, blog cadence ramping, tax season search volume boost
-      { month: "Mar 2025", keywords: 412, top10: 38, top3: 5, traffic: 683, pages: 58, avgPos: 39.8, ctr: 1.2 },
+      { month: "Mar 2025", keywords: 583, top10: 53, top3: 7, traffic: 683, pages: 58, avgPos: 39.8, ctr: 1.2 },
       // Month 4 (Apr 2025): Hockey stick begins — programmatic pages ranking, tax deadline driving massive search volume
-      { month: "Apr 2025", keywords: 1034, top10: 87, top3: 14, traffic: 1847, pages: 82, avgPos: 33.1, ctr: 1.5 },
+      { month: "Apr 2025", keywords: 1463, top10: 123, top3: 19, traffic: 1847, pages: 82, avgPos: 33.1, ctr: 1.5 },
       // Month 5 (May 2025): Compounding accelerates — backlinks building, topical authority established
-      { month: "May 2025", keywords: 2187, top10: 134, top3: 28, traffic: 3219, pages: 104, avgPos: 28.4, ctr: 1.8 },
+      { month: "May 2025", keywords: 3094, top10: 189, top3: 39, traffic: 3219, pages: 104, avgPos: 28.4, ctr: 1.8 },
       // Month 6 (Jun 2025): Content flywheel spinning — 150+ pages indexed, featured snippets appearing
-      { month: "Jun 2025", keywords: 3412, top10: 198, top3: 47, traffic: 4876, pages: 127, avgPos: 24.7, ctr: 2.1 },
+      { month: "Jun 2025", keywords: 4828, top10: 280, top3: 66, traffic: 4876, pages: 127, avgPos: 24.7, ctr: 2.1 },
       // Month 7 (Jul 2025): Sustained growth through summer — evergreen tax planning content holding strong
-      { month: "Jul 2025", keywords: 4673, top10: 261, top3: 68, traffic: 6534, pages: 148, avgPos: 21.9, ctr: 2.3 },
+      { month: "Jul 2025", keywords: 6612, top10: 369, top3: 96, traffic: 6534, pages: 148, avgPos: 21.9, ctr: 2.3 },
       // Month 8 (Aug 2025): Q3 estimated tax deadline driving search volume, authority compounding
-      { month: "Aug 2025", keywords: 5891, top10: 318, top3: 87, traffic: 8412, pages: 169, avgPos: 19.6, ctr: 2.5 },
+      { month: "Aug 2025", keywords: 8336, top10: 449, top3: 123, traffic: 8412, pages: 169, avgPos: 19.6, ctr: 2.5 },
       // Month 9 (Sep 2025): Year-end planning searches ramping, organic leads becoming significant channel
-      { month: "Sep 2025", keywords: 7134, top10: 382, top3: 109, traffic: 10347, pages: 192, avgPos: 17.8, ctr: 2.7 },
+      { month: "Sep 2025", keywords: 10095, top10: 540, top3: 154, traffic: 10347, pages: 192, avgPos: 17.8, ctr: 2.7 },
       // Month 10 (Oct 2025): Full organic authority — 8,200+ keywords, 12,400+ traffic, 437 top-10 rankings
-      { month: "Oct 2025", keywords: 8247, top10: 437, top3: 127, traffic: 12418, pages: 213, avgPos: 16.3, ctr: 2.9 },
+      { month: "Oct 2025", keywords: 11670, top10: 618, top3: 179, traffic: 12418, pages: 213, avgPos: 16.3, ctr: 2.9 },
     ],
   },
   paidAds: {

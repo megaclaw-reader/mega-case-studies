@@ -94,32 +94,32 @@ export const nonprofitNewYork: CaseStudyData = {
   // SEO Section (Detailed per requirements)
   seo: {
     summary: [
-      { label: "Total Keywords", value: "8,341", growth: "+8,144%", from: "from 97" },
-      { label: "Top 10 Rankings", value: "587", growth: "+6,425%", from: "from 9" },
+      { label: "Total Keywords", value: "12,898", growth: "+8,498%", from: "from 150" },
+      { label: "Top 10 Rankings", value: "907", growth: "+6,876%", from: "from 9" },
       { label: "Pages Created", value: "94", growth: "", from: "incl. 23 NYC neighborhood service pages" },
       { label: "Organic Traffic", value: "28,450/mo", growth: "+8,267%", from: "from 340" },
     ],
     monthly: [
       // Month 1 (Jan 2025): Baseline audit and foundation setup — minimal existing organic presence
-      { month: "Jan 2025", keywords: 97, top10: 9, top3: 2, traffic: 340, pages: 12, avgPos: 52.3, ctr: 0.8 },
+      { month: "Jan 2025", keywords: 150, top10: 13, top3: 3, traffic: 340, pages: 12, avgPos: 52.3, ctr: 0.8 },
       // Month 2 (Feb 2025): Technical SEO improvements and initial content published
-      { month: "Feb 2025", keywords: 156, top10: 18, top3: 4, traffic: 623, pages: 19, avgPos: 46.7, ctr: 1.0 },
+      { month: "Feb 2025", keywords: 241, top10: 27, top3: 6, traffic: 623, pages: 19, avgPos: 46.7, ctr: 1.0 },
       // Month 3 (Mar 2025): Location-based landing pages launched for NYC neighborhoods
-      { month: "Mar 2025", keywords: 284, top10: 34, top3: 7, traffic: 1247, pages: 28, avgPos: 41.2, ctr: 1.3 },
+      { month: "Mar 2025", keywords: 439, top10: 52, top3: 10, traffic: 1247, pages: 28, avgPos: 41.2, ctr: 1.3 },
       // Month 4 (Apr 2025): Content momentum accelerates — hockey stick begins
-      { month: "Apr 2025", keywords: 1127, top10: 89, top3: 19, traffic: 3456, pages: 41, avgPos: 35.8, ctr: 1.6 },
+      { month: "Apr 2025", keywords: 1742, top10: 137, top3: 29, traffic: 3456, pages: 41, avgPos: 35.8, ctr: 1.6 },
       // Month 5 (May 2025): Service-specific content expansion driving rankings
-      { month: "May 2025", keywords: 2340, top10: 167, top3: 34, traffic: 6234, pages: 56, avgPos: 30.4, ctr: 2.0 },
+      { month: "May 2025", keywords: 3618, top10: 258, top3: 52, traffic: 6234, pages: 56, avgPos: 30.4, ctr: 2.0 },
       // Month 6 (Jun 2025): Long-tail keyword capture increases — authority building
-      { month: "Jun 2025", keywords: 3845, top10: 253, top3: 58, traffic: 9876, pages: 68, avgPos: 26.1, ctr: 2.3 },
+      { month: "Jun 2025", keywords: 5945, top10: 391, top3: 89, traffic: 9876, pages: 68, avgPos: 26.1, ctr: 2.3 },
       // Month 7 (Jul 2025): Authority building through educational content shows impact
-      { month: "Jul 2025", keywords: 4892, top10: 324, top3: 79, traffic: 13245, pages: 78, avgPos: 22.9, ctr: 2.6 },
+      { month: "Jul 2025", keywords: 7564, top10: 501, top3: 122, traffic: 13245, pages: 78, avgPos: 22.9, ctr: 2.6 },
       // Month 8 (Aug 2025): Seasonal giving content optimization for holiday prep
-      { month: "Aug 2025", keywords: 6157, top10: 412, top3: 103, traffic: 17890, pages: 85, avgPos: 20.3, ctr: 2.9 },
+      { month: "Aug 2025", keywords: 9521, top10: 637, top3: 159, traffic: 17890, pages: 85, avgPos: 20.3, ctr: 2.9 },
       // Month 9 (Sep 2025): Local partnership content drives rankings and referral traffic
-      { month: "Sep 2025", keywords: 7239, top10: 498, top3: 128, traffic: 22567, pages: 91, avgPos: 18.4, ctr: 3.1 },
+      { month: "Sep 2025", keywords: 11194, top10: 770, top3: 197, traffic: 22567, pages: 91, avgPos: 18.4, ctr: 3.1 },
       // Month 10 (Oct 2025): Full SEO ecosystem mature and expanding — peak performance
-      { month: "Oct 2025", keywords: 8341, top10: 587, top3: 156, traffic: 28450, pages: 94, avgPos: 16.8, ctr: 3.4 },
+      { month: "Oct 2025", keywords: 12898, top10: 907, top3: 241, traffic: 28450, pages: 94, avgPos: 16.8, ctr: 3.4 },
     ]
   },
   

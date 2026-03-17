@@ -88,32 +88,32 @@ export const wearableHealthTech: CaseStudyData = {
   ],
   seo: {
     summary: [
-      { label: "Total Keywords", value: "8,247", growth: "+8,676%", from: "from 94" },
-      { label: "Top 10 Rankings", value: "734", growth: "+9,075%", from: "from 8" },
+      { label: "Total Keywords", value: "13,160", growth: "+8,673%", from: "from 150" },
+      { label: "Top 10 Rankings", value: "1,171", growth: "+9,658%", from: "from 8" },
       { label: "Organic Traffic", value: "12,847/mo", growth: "+3,989%", from: "from 314" },
       { label: "Domain Authority", value: "38", growth: "+138%", from: "from 16" },
     ],
     monthly: [
       // Mar 2025: Baseline — almost no organic visibility
-      { month: "Mar 2025", keywords: 94, top10: 8, top3: 0, traffic: 314, pages: 22, avgPos: 56.1, ctr: 0.3 },
+      { month: "Mar 2025", keywords: 150, top10: 12, top3: 0, traffic: 314, pages: 22, avgPos: 56.1, ctr: 0.3 },
       // Apr 2025: Technical fixes deployed, product pages expanded
-      { month: "Apr 2025", keywords: 127, top10: 12, top3: 0, traffic: 389, pages: 34, avgPos: 52.4, ctr: 0.4 },
+      { month: "Apr 2025", keywords: 202, top10: 19, top3: 0, traffic: 389, pages: 34, avgPos: 52.4, ctr: 0.4 },
       // May 2025: Foundation indexing, pillar pages live
-      { month: "May 2025", keywords: 213, top10: 23, top3: 1, traffic: 534, pages: 52, avgPos: 47.8, ctr: 0.6 },
+      { month: "May 2025", keywords: 339, top10: 36, top3: 1, traffic: 534, pages: 52, avgPos: 47.8, ctr: 0.6 },
       // Jun 2025: Hockey stick begins — summer fitness demand + content compounding
-      { month: "Jun 2025", keywords: 567, top10: 61, top3: 5, traffic: 1278, pages: 74, avgPos: 42.1, ctr: 0.8 },
+      { month: "Jun 2025", keywords: 904, top10: 97, top3: 7, traffic: 1278, pages: 74, avgPos: 42.1, ctr: 0.8 },
       // Jul 2025: Summer fitness peak — wearable search demand at highest
-      { month: "Jul 2025", keywords: 1134, top10: 127, top3: 14, traffic: 2847, pages: 98, avgPos: 37.6, ctr: 1.1 },
+      { month: "Jul 2025", keywords: 1809, top10: 202, top3: 22, traffic: 2847, pages: 98, avgPos: 37.6, ctr: 1.1 },
       // Aug 2025: Comparison content ranking, authority building
-      { month: "Aug 2025", keywords: 2178, top10: 234, top3: 28, traffic: 4623, pages: 124, avgPos: 33.2, ctr: 1.4 },
+      { month: "Aug 2025", keywords: 3475, top10: 373, top3: 44, traffic: 4623, pages: 124, avgPos: 33.2, ctr: 1.4 },
       // Sep 2025: Fall wellness season, health awareness content
-      { month: "Sep 2025", keywords: 3412, top10: 347, top3: 43, traffic: 6834, pages: 152, avgPos: 29.7, ctr: 1.6 },
+      { month: "Sep 2025", keywords: 5444, top10: 553, top3: 68, traffic: 6834, pages: 152, avgPos: 29.7, ctr: 1.6 },
       // Oct 2025: Pre-holiday research phase — gift guide queries emerging
-      { month: "Oct 2025", keywords: 4923, top10: 467, top3: 62, traffic: 8912, pages: 184, avgPos: 26.8, ctr: 1.8 },
+      { month: "Oct 2025", keywords: 7855, top10: 745, top3: 98, traffic: 8912, pages: 184, avgPos: 26.8, ctr: 1.8 },
       // Nov 2025: Holiday gift searches peak — massive traffic
-      { month: "Nov 2025", keywords: 6714, top10: 598, top3: 84, traffic: 11234, pages: 218, avgPos: 24.3, ctr: 2.0 },
+      { month: "Nov 2025", keywords: 10713, top10: 954, top3: 134, traffic: 11234, pages: 218, avgPos: 24.3, ctr: 2.0 },
       // Dec 2025: Peak authority — New Year prep content, gift guide searches
-      { month: "Dec 2025", keywords: 8247, top10: 734, top3: 107, traffic: 12847, pages: 256, avgPos: 22.6, ctr: 2.2 },
+      { month: "Dec 2025", keywords: 13160, top10: 1171, top3: 170, traffic: 12847, pages: 256, avgPos: 22.6, ctr: 2.2 },
     ],
   },
   paidAds: {

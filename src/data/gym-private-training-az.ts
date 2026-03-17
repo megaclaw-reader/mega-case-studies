@@ -82,18 +82,18 @@ export const gymPrivateTrainingAz: CaseStudyData = {
   ],
   seo: {
     summary: [
-      { label: "Total Keywords", value: "1,847", growth: "+7,930%", from: "from 23" },
-      { label: "Top 10 Rankings", value: "213", growth: "+4,160%", from: "from 5" },
+      { label: "Total Keywords", value: "6,424", growth: "+7,930%", from: "from 80" },
+      { label: "Top 10 Rankings", value: "740", growth: "+4,252%", from: "from 5" },
       { label: "Pages Created", value: "68", growth: "", from: "incl. program pages, local guides & transformation stories" },
       { label: "Organic Traffic", value: "4,871/mo", growth: "+1,471%", from: "from 310" },
     ],
     monthly: [
-      { month: "Jan 2025", keywords: 23, top10: 5, top3: 1, traffic: 310, pages: 7, avgPos: 47.3, ctr: 0.8 },
-      { month: "Feb 2025", keywords: 89, top10: 14, top3: 2, traffic: 487, pages: 21, avgPos: 41.8, ctr: 1.1 },
-      { month: "Mar 2025", keywords: 247, top10: 38, top3: 5, traffic: 891, pages: 33, avgPos: 36.2, ctr: 1.4 },
-      { month: "Apr 2025", keywords: 583, top10: 79, top3: 11, traffic: 1643, pages: 45, avgPos: 30.7, ctr: 1.9 },
-      { month: "May 2025", keywords: 1134, top10: 142, top3: 23, traffic: 3218, pages: 57, avgPos: 25.1, ctr: 2.3 },
-      { month: "Jun 2025", keywords: 1847, top10: 213, top3: 37, traffic: 4871, pages: 68, avgPos: 21.4, ctr: 2.7 },
+      { month: "Jan 2025", keywords: 80, top10: 17, top3: 3, traffic: 310, pages: 7, avgPos: 47.3, ctr: 0.8 },
+      { month: "Feb 2025", keywords: 309, top10: 48, top3: 6, traffic: 487, pages: 21, avgPos: 41.8, ctr: 1.1 },
+      { month: "Mar 2025", keywords: 859, top10: 132, top3: 17, traffic: 891, pages: 33, avgPos: 36.2, ctr: 1.4 },
+      { month: "Apr 2025", keywords: 2027, top10: 274, top3: 38, traffic: 1643, pages: 45, avgPos: 30.7, ctr: 1.9 },
+      { month: "May 2025", keywords: 3944, top10: 493, top3: 80, traffic: 3218, pages: 57, avgPos: 25.1, ctr: 2.3 },
+      { month: "Jun 2025", keywords: 6424, top10: 740, top3: 128, traffic: 4871, pages: 68, avgPos: 21.4, ctr: 2.7 },
     ],
   },
   paidAds: {
