@@ -1,5 +1,6 @@
 import { CaseStudyData } from "./types";
 import { lawFirmSmallPractice } from "./law-firm-small-practice";
+import { immigrationLaw } from "./immigration-law";
 import { alarmSurveillanceSeo } from "./alarm-surveillance-seo";
 import { mortgageLending } from "./mortgage-lending";
 import { cybersecurity } from "./cybersecurity";
@@ -263,6 +264,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "landscaping-pennsylvania": landscapingPennsylvaniaData,
   "rental-car-arizona": rentalCarArizona,
   "law-firm-small-practice": lawFirmSmallPractice,
+  "immigration-law": immigrationLaw,
 };
 
 export type { CaseStudyData };
