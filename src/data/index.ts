@@ -1,4 +1,5 @@
 import { CaseStudyData } from "./types";
+import { alarmSurveillanceSeo } from "./alarm-surveillance-seo";
 import { mortgageLending } from "./mortgage-lending";
 import { cybersecurity } from "./cybersecurity";
 import { dental } from "./dental";
@@ -130,6 +131,7 @@ import { landscapingPennsylvaniaData } from "./landscaping-pennsylvania";
 import { rentalCarArizona } from "./rental-car-arizona";
 
 export const caseStudies: Record<string, CaseStudyData> = {
+  "alarm-surveillance-seo": alarmSurveillanceSeo,
   "mortgage-lending": mortgageLending,
   "cybersecurity": cybersecurity,
   "dental": dental,

@@ -130,6 +130,10 @@
         "default": [
           1000,
           10000
+        ],
+        "alarm_surveillance": [
+          2000,
+          8000
         ]
       }
     },
@@ -534,6 +538,7 @@
     "Self Improvement Subscription": "subscription",
     "Equipment Financing": "lead_gen_professional",
     "Sustainable Luxury Startup": "ecommerce",
-    "Rental Car Company": "lead_gen_services"
+    "Rental Car Company": "lead_gen_services",
+    "Alarm and Surveillance": "lead_gen_services"
   }
 }
