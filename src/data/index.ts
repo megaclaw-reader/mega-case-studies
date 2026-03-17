@@ -1,4 +1,5 @@
 import { CaseStudyData } from "./types";
+import { hvacVancouver } from "./hvac-vancouver";
 import { lawFirmSmallPractice } from "./law-firm-small-practice";
 import { immigrationLaw } from "./immigration-law";
 import { alarmSurveillanceSeo } from "./alarm-surveillance-seo";
@@ -263,6 +264,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "sustainable-luxury-startup": sustainableLuxuryStartup,
   "landscaping-pennsylvania": landscapingPennsylvaniaData,
   "rental-car-arizona": rentalCarArizona,
+  "hvac-vancouver": hvacVancouver,
   "law-firm-small-practice": lawFirmSmallPractice,
   "immigration-law": immigrationLaw,
 };
