@@ -347,3 +347,17 @@ if result.stderr:
 if result.returncode != 0 and not errors_by_file:
     # Consistency check failed but math passed — still fail overall
     sys.exit(1)
+
+# --- PHASE 3: SEO keyword-to-traffic ratio check ---
+print("\n" + "="*60)
+print("Running SEO ratio check...")
+print("="*60)
+seo_result = subprocess.run(
+    [sys.executable, os.path.join(os.path.dirname(os.path.abspath(__file__)), "seo-ratio-check.py")],
+    capture_output=True, text=True
+)
+print(seo_result.stdout)
+if seo_result.stderr:
+    print(seo_result.stderr)
+if seo_result.returncode != 0:
+    sys.exit(1)
