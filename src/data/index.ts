@@ -133,6 +133,7 @@ import { hvacNational } from "./hvac-national";
 import { sustainableLuxuryStartup } from "./sustainable-luxury-startup";
 import { landscapingPennsylvaniaData } from "./landscaping-pennsylvania";
 import { rentalCarArizona } from "./rental-car-arizona";
+import { paintingCompanyPhoenix } from "./painting-company-phoenix";
 
 export const caseStudies: Record<string, CaseStudyData> = {
   "alarm-surveillance-seo": alarmSurveillanceSeo,
@@ -265,6 +266,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "sustainable-luxury-startup": sustainableLuxuryStartup,
   "landscaping-pennsylvania": landscapingPennsylvaniaData,
   "rental-car-arizona": rentalCarArizona,
+  "painting-company-phoenix": paintingCompanyPhoenix,
   "hvac-vancouver": hvacVancouver,
   "law-firm-small-practice": lawFirmSmallPractice,
   "immigration-law": immigrationLaw,
