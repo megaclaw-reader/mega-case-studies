@@ -3,6 +3,7 @@ import { hvacVancouver } from "./hvac-vancouver";
 import { lawFirmSmallPractice } from "./law-firm-small-practice";
 import { immigrationLaw } from "./immigration-law";
 import { alarmSurveillanceSeo } from "./alarm-surveillance-seo";
+import { taxConsultancySeo } from "./tax-consultancy-seo";
 import { mortgageLending } from "./mortgage-lending";
 import { cybersecurity } from "./cybersecurity";
 import { dental } from "./dental";
@@ -267,6 +268,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "hvac-vancouver": hvacVancouver,
   "law-firm-small-practice": lawFirmSmallPractice,
   "immigration-law": immigrationLaw,
+  "tax-consultancy-seo": taxConsultancySeo,
 };
 
 export type { CaseStudyData };
