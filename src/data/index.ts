@@ -136,6 +136,7 @@ import { landscapingPennsylvaniaData } from "./landscaping-pennsylvania";
 import { rentalCarArizona } from "./rental-car-arizona";
 import { paintingCompanyPhoenix } from "./painting-company-phoenix";
 import { b2bOfficeServiceTexas } from "./b2b-office-service-texas";
+import { franchiseRestaurant } from "./franchise-restaurant";
 
 export const caseStudies: Record<string, CaseStudyData> = {
   "alarm-surveillance-seo": alarmSurveillanceSeo,
@@ -271,6 +272,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "painting-company-phoenix": paintingCompanyPhoenix,
   "b2b-office-service-texas": b2bOfficeServiceTexas,
   "rental-home-management-arizona": rentalHomeManagementArizona,
+  "franchise-restaurant": franchiseRestaurant,
   "hvac-vancouver": hvacVancouver,
   "law-firm-small-practice": lawFirmSmallPractice,
   "immigration-law": immigrationLaw,

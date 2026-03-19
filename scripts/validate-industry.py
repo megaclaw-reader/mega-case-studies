@@ -71,6 +71,7 @@ CPL_RANGES = {
     "construction":      (30, 400),
     "building_materials": (25, 300),
     "alarm_surveillance": (30, 150),
+    "franchise_restaurant": (15, 65),
     "b2b_office_service": (75, 275),
     "healthcare_equip":  (30, 300),
     # Wealth management / financial
@@ -126,6 +127,7 @@ def _cpl_category(industry, model_key):
         ("b2b office", "b2b_office_service"), ("office service", "b2b_office_service"), ("managed print", "b2b_office_service"), ("copier", "b2b_office_service"),
         ("alarm", "alarm_surveillance"), ("surveillance", "alarm_surveillance"), ("security system", "alarm_surveillance"),
         ("rental home", "rental_home_mgmt"), ("property management", "rental_home_mgmt"), ("rental management", "rental_home_mgmt"),
+        ("franchise restaurant", "franchise_restaurant"), ("franchise", "franchise_restaurant"),
         ("rental car", "rental_car"), ("car rental", "rental_car"),
         ("personal injury", "personal_injury"), ("immigration", "immigration_law"),
         ("litigation", "business_litigation"),
@@ -204,6 +206,7 @@ DEAL_VALUE_RANGES = {
     "rental_car": (200, 1000),
     "rental_home_mgmt": (2400, 9600),
     "alarm_surveillance": (2000, 8000),
+    "franchise_restaurant": (1500, 5000),
     "b2b_office_service": (3000, 25000),
     "legal": (2000, 30000),
     "personal_injury": (5000, 150000),
