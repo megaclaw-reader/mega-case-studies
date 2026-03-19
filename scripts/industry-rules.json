@@ -543,6 +543,7 @@
     "Immigration Law": "lead_gen_professional",
     "Tax Consultancy": "lead_gen_professional",
     "Painting Company": "lead_gen_services",
-    "B2B Office Service": "lead_gen_professional"
+    "B2B Office Service": "lead_gen_professional",
+    "Rental Home Management": "lead_gen_services"
   }
 }

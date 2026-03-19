@@ -52,6 +52,7 @@ CPL_RANGES = {
     "automotive_dealer": (15, 150),
     "rv_dealer":         (15, 150),
     "rental_car":        (30, 80),
+    "rental_home_mgmt":  (30, 120),
     # Lead gen professional — higher competition, expensive keywords
     "legal":             (50, 500),
     "personal_injury":   (75, 600),
@@ -124,6 +125,7 @@ def _cpl_category(industry, model_key):
         ("dealership", "automotive_dealer"),
         ("b2b office", "b2b_office_service"), ("office service", "b2b_office_service"), ("managed print", "b2b_office_service"), ("copier", "b2b_office_service"),
         ("alarm", "alarm_surveillance"), ("surveillance", "alarm_surveillance"), ("security system", "alarm_surveillance"),
+        ("rental home", "rental_home_mgmt"), ("property management", "rental_home_mgmt"), ("rental management", "rental_home_mgmt"),
         ("rental car", "rental_car"), ("car rental", "rental_car"),
         ("personal injury", "personal_injury"), ("immigration", "immigration_law"),
         ("litigation", "business_litigation"),
@@ -200,6 +202,7 @@ DEAL_VALUE_RANGES = {
     "automotive_dealer": (5000, 60000),
     "rv_dealer": (10000, 100000),
     "rental_car": (200, 1000),
+    "rental_home_mgmt": (2400, 9600),
     "alarm_surveillance": (2000, 8000),
     "b2b_office_service": (3000, 25000),
     "legal": (2000, 30000),

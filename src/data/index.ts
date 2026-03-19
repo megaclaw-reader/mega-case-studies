@@ -1,4 +1,5 @@
 import { CaseStudyData } from "./types";
+import { rentalHomeManagementArizona } from "./rental-home-management-arizona";
 import { hvacVancouver } from "./hvac-vancouver";
 import { lawFirmSmallPractice } from "./law-firm-small-practice";
 import { immigrationLaw } from "./immigration-law";
@@ -269,6 +270,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "rental-car-arizona": rentalCarArizona,
   "painting-company-phoenix": paintingCompanyPhoenix,
   "b2b-office-service-texas": b2bOfficeServiceTexas,
+  "rental-home-management-arizona": rentalHomeManagementArizona,
   "hvac-vancouver": hvacVancouver,
   "law-firm-small-practice": lawFirmSmallPractice,
   "immigration-law": immigrationLaw,
