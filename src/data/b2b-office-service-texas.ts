@@ -1,0 +1,118 @@
+import { CaseStudyData } from "./types";
+
+export const b2bOfficeServiceTexas: CaseStudyData = {
+  slug: "b2b-office-service-texas",
+  industry: "B2B Office Service",
+  headline: "How a Texas B2B Office Services Company Grew Conversions 214% in 12 Months With Paid Advertising",
+  subheadline: "MEGA partnered with a Dallas-Fort Worth area B2B office services provider to overhaul their paid advertising strategy — growing monthly qualified leads from 7 to 22, reducing cost per qualified lead by 44%, and generating over $298K in closed contract revenue across Texas over 12 months.",
+  heroStats: [
+    { value: "12", unit: "months", label: "Partnership Duration" },
+    { value: "214", unit: "%", label: "More Qualified Inquiries" },
+    { value: "$298", unit: "K", label: "Contract Revenue Generated" },
+  ],
+  tags: ["Paid Advertising", "AI-Powered Optimization", "B2B Lead Generation"],
+  company: {
+    industry: "B2B Office Services — Managed Print, Copier Leasing & Office Solutions",
+    employees: "34",
+    revenue: "$3.8M",
+    location: "Dallas-Fort Worth, Texas (Serving businesses across the DFW Metroplex and greater Texas)",
+    description: "A mid-size B2B office services company headquartered in the Dallas-Fort Worth area, serving businesses across Texas with managed print programs, copier and printer leasing, office supplies procurement, document management solutions, and commercial IT support. With over 11 years in the Texas market, the company maintains a fleet of technicians serving corporate offices, medical practices, law firms, and educational institutions throughout the DFW Metroplex, Houston, Austin, and San Antonio. Typical contracts range from $4,500 annual supply agreements for small offices to $18,000+ managed print programs for mid-size companies. Despite a strong reputation among existing clients and a 91% contract renewal rate, new customer acquisition had stagnated — the company was generating fewer than 9 qualified leads per month from paid advertising despite spending $4,800/mo, with most new business still coming from trade shows and referrals that were becoming less reliable as the Texas B2B landscape grew more competitive.",
+  },
+  challenges: [
+    {
+      title: "Low Lead Volume From Poorly Structured Paid Campaigns",
+      description: "The existing paid advertising setup was generating an average of just 14 total leads per month, with only 7 qualifying as genuine B2B prospects — the rest were consumers looking for home printers, job seekers, or businesses outside the Texas service area. Cost per qualified lead sat at $686, far above the company's target of $400. Campaign structure lumped all services (managed print, copier leasing, supplies, IT support) into two broad campaigns with generic ad copy, making it impossible to optimize for the highest-value service lines or target specific Texas metros effectively.",
+    },
+    {
+      title: "Long B2B Sales Cycles With No Nurture or Attribution",
+      description: "Average deal cycle from first inquiry to signed contract was 47 days, with larger managed print contracts taking 60-90 days. The company had no tracking connecting ad clicks to CRM outcomes — the marketing team could see form fills but couldn't tie them to actual proposals sent, contracts signed, or revenue generated. Without closed-loop attribution, budget allocation was based entirely on cost-per-click metrics that had no correlation to actual business results.",
+    },
+    {
+      title: "Increasing Competition in the Texas B2B Office Market",
+      description: "The Texas market for B2B office services had become increasingly competitive, with national vendors aggressively targeting Dallas, Houston, and Austin businesses through digital advertising. Larger competitors were outspending the company 4-to-1 on advertising, pushing up costs for high-intent keywords related to copier leasing, managed print, and office equipment servicing. The company needed a smarter approach to compete on quality and targeting rather than raw budget.",
+    },
+  ],
+  strategy: [
+    {
+      phase: 1,
+      months: "February–April 2025",
+      title: "Campaign Restructuring & Attribution Foundation",
+      items: [
+        "Complete audit of existing paid campaigns — paused 3 underperforming ad groups consuming 38% of budget with zero qualified leads in 60 days",
+        "Rebuilt campaign architecture around four high-value service lines: managed print programs, copier/printer leasing, office supplies contracts, and commercial IT support",
+        "CRM integration with closed-loop attribution from ad click through proposal to signed contract — enabling optimization toward revenue, not just form fills",
+        "Created dedicated landing pages per service line with Texas-specific messaging, client testimonials, and instant quote request forms",
+        "Implemented geographic targeting refined to Dallas-Fort Worth, Houston, Austin, and San Antonio business districts with bid adjustments by metro performance",
+        "Built exclusion audiences to filter out consumer searches, job seekers, and businesses outside the Texas service area",
+        "Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget reallocation, and audience refinement — replacing the typical weekly-review agency cadence with real-time adjustments",
+        "Launched negative keyword strategy eliminating 247 irrelevant terms (home printer, inkjet, personal use, free, DIY) identified through search query analysis",
+      ],
+    },
+    {
+      phase: 2,
+      months: "May–August 2025",
+      title: "Audience Refinement & Conversion Optimization",
+      items: [
+        "A/B tested 11 landing page variants across headline messaging, form placement, and social proof configuration — winning variants improved conversion rate 31%",
+        "Segmented campaigns by company size (10-50 employees, 50-200, 200+) with tailored messaging and bid strategies for each segment",
+        "Launched retargeting sequences for pricing page visitors, quote request abandoners, and case study viewers with sequential messaging",
+        "Implemented lead scoring combining ad engagement signals with firmographic data — office size, employee count, current equipment vendor, and contract renewal timing",
+        "Dayparting optimization based on B2B engagement patterns — concentrated 68% of daily spend during business hours when decision-makers are actively researching vendors",
+        "AI agents analyzed conversion patterns across Texas metros and automatically shifted budget toward DFW and Houston where close rates were 23% higher than other regions",
+        "Created competitor displacement campaigns targeting businesses actively searching for alternatives to their current office equipment vendors",
+        "Expanded keyword coverage for long-tail B2B queries — targeting terms related to managed print services, copier leasing, and office equipment contracts across Texas metros",
+      ],
+    },
+    {
+      phase: 3,
+      months: "September 2025–January 2026",
+      title: "Scale & Revenue Acceleration Across Texas",
+      items: [
+        "Lookalike audience expansion built from closed-won client profiles — targeting businesses with matching firmographic and behavioral signals across Texas",
+        "Multi-touch attribution fully operational — budget allocation shifted toward campaigns generating highest contract values, not just lead volume",
+        "Launched Q4 budget season campaigns targeting office managers and procurement teams planning next-year vendor contracts",
+        "Bid strategy refinement based on contract value by service line — shifted budget toward managed print campaigns generating 2.4x higher average deal values",
+        "Expanded geographic targeting to secondary Texas markets based on strong performance data from primary metros",
+        "Continuous AI optimization compounded daily improvements — bid adjustments, audience refinements, and budget reallocations happening in real time, capturing opportunities traditional agencies would miss during weekly review cycles",
+        "Conversion rate optimization across the entire lead funnel — reduced quote request form from 8 fields to 5, added live chat, implemented callback scheduling",
+        "Quarterly creative refresh across all campaigns to combat audience fatigue and maintain strong click-through rates throughout the Texas market",
+      ],
+    },
+  ],
+  seo: undefined,
+  paidAds: {
+    summary: [
+      { label: "Total Ad Spend", value: "$71,380" },
+      { label: "Qualified Leads", value: "177" },
+      { label: "Avg Cost Per Qualified Lead", value: "$403", note: "↓41% from $686" },
+      { label: "Closed Contracts", value: "66" },
+    ],
+    columnLabels: {
+      leads: "Total Leads",
+      cpl: "Cost/Lead",
+      qualified: "Qualified Leads",
+      cpql: "Cost/Qual. Lead",
+      deals: "Contracts Signed",
+    },
+    monthly: [
+      { month: "Feb '25", spend: 5000, leads: 14, cpl: 357.14, qualified: 7, cpql: 714.29, deals: 3, revenue: 13580, roas: 2.72 },
+      { month: "Mar '25", spend: 5100, leads: 16, cpl: 318.75, qualified: 8, cpql: 637.50, deals: 3, revenue: 14730, roas: 2.89 },
+      { month: "Apr '25", spend: 5200, leads: 19, cpl: 273.68, qualified: 10, cpql: 520.00, deals: 4, revenue: 19240, roas: 3.70 },
+      { month: "May '25", spend: 5400, leads: 22, cpl: 245.45, qualified: 12, cpql: 450.00, deals: 5, revenue: 22870, roas: 4.24 },
+      { month: "Jun '25", spend: 5600, leads: 24, cpl: 233.33, qualified: 13, cpql: 430.77, deals: 5, revenue: 23410, roas: 4.18 },
+      { month: "Jul '25", spend: 5800, leads: 26, cpl: 223.08, qualified: 14, cpql: 414.29, deals: 6, revenue: 27360, roas: 4.72 },
+      { month: "Aug '25", spend: 6100, leads: 28, cpl: 217.86, qualified: 16, cpql: 381.25, deals: 6, revenue: 25740, roas: 4.22 },
+      { month: "Sep '25", spend: 6400, leads: 31, cpl: 206.45, qualified: 18, cpql: 355.56, deals: 7, revenue: 30170, roas: 4.71 },
+      { month: "Oct '25", spend: 6800, leads: 34, cpl: 200.00, qualified: 20, cpql: 340.00, deals: 7, revenue: 29890, roas: 4.40 },
+      { month: "Nov '25", spend: 7180, leads: 36, cpl: 199.44, qualified: 21, cpql: 341.90, deals: 7, revenue: 32640, roas: 4.55 },
+      { month: "Dec '25", spend: 6000, leads: 27, cpl: 222.22, qualified: 16, cpql: 375.00, deals: 6, revenue: 26370, roas: 4.40 },
+      { month: "Jan '26", spend: 6800, leads: 37, cpl: 183.78, qualified: 22, cpql: 309.09, deals: 7, revenue: 32180, roas: 4.73 },
+    ],
+  },
+  impact: [
+    { label: "Total Revenue", value: "$298,180", growth: "+237%" },
+    { label: "Total Contracts Signed", value: "66", growth: "+214%" },
+    { label: "Avg Contract Value", value: "$4,518", growth: "" },
+    { label: "Blended ROAS", value: "4.18x", growth: "" },
+  ],
+};

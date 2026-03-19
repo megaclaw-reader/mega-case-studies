@@ -542,6 +542,7 @@
     "Alarm and Surveillance": "lead_gen_services",
     "Immigration Law": "lead_gen_professional",
     "Tax Consultancy": "lead_gen_professional",
-    "Painting Company": "lead_gen_services"
+    "Painting Company": "lead_gen_services",
+    "B2B Office Service": "lead_gen_professional"
   }
 }
