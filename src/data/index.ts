@@ -95,6 +95,7 @@ import { commercialConstructionTx } from "./commercial-construction-tx";
 import { roofingNewMexico } from "./roofing-new-mexico";
 import { telehealthArizona } from "./telehealth-arizona";
 import { b2bSaasPaid } from "./b2b-saas-paid";
+import { b2bSaasPaidAds } from "./b2b-saas-paid-ads";
 import { luxuryMenswearCalifornia } from "./luxury-menswear-california";
 import { wealthManagementPhoenix } from "./wealth-management-phoenix";
 import { lawFirmNational } from "./law-firm-national";
@@ -230,6 +231,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "roofing-new-mexico": roofingNewMexico,
   "telehealth-arizona": telehealthArizona,
   "b2b-saas-paid": b2bSaasPaid,
+  "b2b-saas-paid-ads": b2bSaasPaidAds,
   "luxury-menswear-california": luxuryMenswearCalifornia,
   "wealth-management-phoenix": wealthManagementPhoenix,
   "law-firm-national": lawFirmNational,
