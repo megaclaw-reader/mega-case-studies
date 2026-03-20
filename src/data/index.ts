@@ -1,4 +1,5 @@
 import { CaseStudyData } from "./types";
+import { foodCateringLosAngeles } from "./food-catering-los-angeles";
 import { rentalHomeManagementArizona } from "./rental-home-management-arizona";
 import { hvacVancouver } from "./hvac-vancouver";
 import { lawFirmSmallPractice } from "./law-firm-small-practice";
@@ -277,6 +278,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "law-firm-small-practice": lawFirmSmallPractice,
   "immigration-law": immigrationLaw,
   "tax-consultancy-seo": taxConsultancySeo,
+  "food-catering-los-angeles": foodCateringLosAngeles,
 };
 
 export type { CaseStudyData };
