@@ -131,6 +131,29 @@ export default function RequestPage() {
             />
           </div>
 
+          {/* Services */}
+          <div>
+            <label className="block text-sm font-medium text-gray-700 mb-1.5">
+              Services Provided <span className="text-red-500">*</span>
+            </label>
+            <div className="flex flex-wrap gap-2">
+              {SERVICES.map((s) => (
+                <button
+                  key={s}
+                  type="button"
+                  onClick={() => toggleService(s)}
+                  className={`px-3.5 py-1.5 rounded-full text-sm font-medium border transition ${
+                    form.services.includes(s)
+                      ? "bg-[#2454FF] text-white border-[#2454FF]"
+                      : "bg-white text-gray-600 border-gray-200 hover:border-gray-300"
+                  }`}
+                >
+                  {s}
+                </button>
+              ))}
+            </div>
+          </div>
+
           {/* Business Type */}
           <div>
             <label className="block text-sm font-medium text-gray-700 mb-1.5">
@@ -181,20 +204,22 @@ export default function RequestPage() {
             </div>
           </div>
 
-          {/* Monthly Ad Spend */}
-          <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1.5">
-              Monthly Ad Spend <span className="text-red-500">*</span>
-            </label>
-            <input
-              required
-              type="text"
-              value={form.monthlySpend}
-              onChange={(e) => update("monthlySpend", e.target.value)}
-              placeholder="e.g. $10,000"
-              className="w-full px-4 py-2.5 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#2454FF]/30 focus:border-[#2454FF] transition"
-            />
-          </div>
+          {/* Monthly Ad Spend — only if Paid Advertising selected */}
+          {form.services.includes("Paid Advertising") && (
+            <div>
+              <label className="block text-sm font-medium text-gray-700 mb-1.5">
+                Monthly Ad Spend <span className="text-red-500">*</span>
+              </label>
+              <input
+                required
+                type="text"
+                value={form.monthlySpend}
+                onChange={(e) => update("monthlySpend", e.target.value)}
+                placeholder="e.g. $10,000"
+                className="w-full px-4 py-2.5 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#2454FF]/30 focus:border-[#2454FF] transition"
+              />
+            </div>
+          )}
 
           {/* Date Range */}
           <div>
@@ -247,29 +272,6 @@ export default function RequestPage() {
                 {form.clientDuration} month{Number(form.clientDuration) !== 1 ? "s" : ""} of data
               </p>
             )}
-          </div>
-
-          {/* Services */}
-          <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1.5">
-              Services Provided <span className="text-red-500">*</span>
-            </label>
-            <div className="flex flex-wrap gap-2">
-              {SERVICES.map((s) => (
-                <button
-                  key={s}
-                  type="button"
-                  onClick={() => toggleService(s)}
-                  className={`px-3.5 py-1.5 rounded-full text-sm font-medium border transition ${
-                    form.services.includes(s)
-                      ? "bg-[#2454FF] text-white border-[#2454FF]"
-                      : "bg-white text-gray-600 border-gray-200 hover:border-gray-300"
-                  }`}
-                >
-                  {s}
-                </button>
-              ))}
-            </div>
           </div>
 
           {/* Location (only for local businesses) */}
