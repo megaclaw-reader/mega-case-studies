@@ -22,7 +22,7 @@ async function notifySlack(entry: Record<string, unknown>) {
     `• *Email:* ${entry.email || "Not provided"}`,
     `• *Industry:* ${entry.industry}`,
     `• *Scope:* ${entry.scope}`,
-    `• *Monthly Ad Spend:* ${entry.monthlySpend}`,
+    `• *Monthly Ad Spend:* ${entry.monthlySpend || "N/A (SEO only)"}`,
     `• *Date Range:* ${entry.startMonth || "N/A"} to ${entry.endMonth || "N/A"} (${entry.clientDuration} months)`,
     `• *Services:* ${services}`,
     `• *Region:* ${entry.region || "Not specified"}`,
@@ -53,7 +53,9 @@ export async function POST(req: NextRequest) {
   try {
     const body = await req.json();
 
-    const required = ["requesterName", "email", "industry", "scope", "monthlySpend", "clientDuration", "services"];
+    const hasPaidAds = Array.isArray(body.services) && body.services.includes("Paid Advertising");
+    const required = ["requesterName", "email", "industry", "scope", "clientDuration", "services",
+      ...(hasPaidAds ? ["monthlySpend"] : [])];
     for (const field of required) {
       if (!body[field] || (Array.isArray(body[field]) && body[field].length === 0)) {
         return NextResponse.json({ error: `Missing ${field}` }, { status: 400 });
