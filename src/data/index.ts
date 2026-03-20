@@ -1,4 +1,5 @@
 import { CaseStudyData } from "./types";
+import { indoorAdventureFlorida } from "./indoor-adventure-florida";
 import { foodCateringLosAngeles } from "./food-catering-los-angeles";
 import { rentalHomeManagementArizona } from "./rental-home-management-arizona";
 import { hvacVancouver } from "./hvac-vancouver";
@@ -280,6 +281,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "law-firm-small-practice": lawFirmSmallPractice,
   "immigration-law": immigrationLaw,
   "tax-consultancy-seo": taxConsultancySeo,
+  "indoor-adventure-florida": indoorAdventureFlorida,
   "food-catering-los-angeles": foodCateringLosAngeles,
 };
 
