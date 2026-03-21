@@ -3,13 +3,6 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
 
-const fadeUp = {
-  initial: { opacity: 0, y: 30 },
-  whileInView: { opacity: 1, y: 0 },
-  viewport: { once: true, margin: "-80px" },
-  transition: { duration: 0.6, ease: "easeOut" },
-};
-
 function AnimatedDiv({ children, className = "", delay = 0 }: { children: React.ReactNode; className?: string; delay?: number }) {
   return (
     <motion.div
@@ -59,46 +52,81 @@ const painPoints = [
     rank: 1,
     title: "Lead Quality Crisis",
     severity: 5,
-    stat: "50 leads/mo → only 2-3 actual cases",
-    quote: "We're getting leads but they're not good quality — lots of people just shopping around.",
-    description: "Firms drown in unqualified leads from generic keywords, poor targeting, and no qualification process. Tire kickers and price shoppers waste attorneys' valuable time.",
+    stat: "High volume, low conversion",
+    quote: "She's like, I've never had this many, like, good leads, but her issue is like, she's crazy.",
+    attribution: "— Paul T., Ads Strategist",
+    description: "Firms are drowning in unqualified leads. High volume doesn't mean high quality — attorneys waste billable hours on tire kickers and price shoppers who never convert to paying clients.",
     color: "from-red-500/20 to-red-500/5",
   },
   {
     rank: 2,
-    title: "Skyrocketing Ad Costs",
+    title: "Skyrocketing PPC Costs",
     severity: 5,
-    stat: "$300+ per click for PI keywords",
-    quote: "We're spending $10,000/month and getting maybe 2-3 good cases.",
-    description: "Google Ads costs have become unsustainable in legal verticals. Personal injury, divorce, and criminal defense keywords command some of the highest CPCs in any industry.",
+    stat: "$10 to $80 per click for legal keywords",
+    quote: "A keyword could range anywhere between like $10 per click up to like $80 per click.",
+    attribution: "— Steve V., Paid Ads Specialist",
+    description: "Legal is the most expensive PPC vertical. To get minimum 3 conversions per day, firms need $8-10K/month in ad spend alone. Smaller budgets simply can't compete in the auction.",
     color: "from-orange-500/20 to-orange-500/5",
   },
   {
     rank: 3,
-    title: "Marketing PTSD",
-    severity: 4,
-    stat: "90% say previous agencies overpromised",
-    quote: "We've tried 3 different marketing companies and they all say the same thing.",
-    description: "Bad experiences with past agencies have created deep skepticism. Lawyers have heard every promise — guaranteed rankings, hundreds of leads — and been burned every time.",
+    title: "Agency Trust Deficit",
+    severity: 5,
+    stat: "Multiple agencies tried, same broken promises",
+    quote: "They might run those campaigns on Meta for you and they'll send you a report after month one saying, hey, this creative hit a fatigue point two weeks in and we wasted your ad budget two weeks later.",
+    attribution: "— Liam Z., Marketing Strategist",
+    description: "Law firms have deep skepticism born from repeated bad experiences. Agencies overpromise, underdeliver, and hide poor results behind confusing dashboards and jargon.",
     color: "from-purple-500/20 to-purple-500/5",
   },
   {
     rank: 4,
-    title: "SEO Timeline Mismatch",
+    title: "SEO Timeline Frustration",
     severity: 4,
-    stat: "6-12 months before organic results",
-    quote: "We need cases now, not in 6-12 months when SEO might kick in.",
-    description: "Monthly overhead demands consistent case flow. Firms can't afford to wait for SEO while paying rent, staff, and insurance. They need a bridge strategy.",
+    stat: "Months of work before organic results appear",
+    quote: "They're either, like, frustrated with the efficiency of their ads and they don't have enough time to manage them as efficiently as they'd like to, or we're hearing that they're not ranking in SEO and they absolutely have no handle on AI visibility.",
+    attribution: "— Ritvij G., Strategy Lead",
+    description: "Firms need cases now to cover overhead, but SEO is a long game. The tension between immediate cash flow needs and long-term organic growth creates a painful gap that most agencies fail to address.",
     color: "from-blue-500/20 to-blue-500/5",
   },
   {
     rank: 5,
-    title: "Marketing Black Box",
-    severity: 3,
-    stat: "Most firms can't attribute cases to marketing",
-    quote: "We don't really know which marketing is working and which isn't.",
-    description: "Multiple touchpoints, poor tracking, and referral networks muddy attribution. Firms make budget decisions based on gut feeling rather than data.",
+    title: "ROI Attribution Black Box",
+    severity: 4,
+    stat: "Can't trace marketing spend to actual cases",
+    quote: "When you have Google Analytics, when you have Meta ads, Google Ads, etc, there's just so much data.",
+    attribution: "— Paul T., Ads Strategist",
+    description: "Multiple touchpoints, overlapping campaigns, and poor tracking make it nearly impossible for firms to know which marketing dollars actually bring in cases. Decisions get made on gut feeling.",
     color: "from-teal-500/20 to-teal-500/5",
+  },
+  {
+    rank: 6,
+    title: "Budget Spreading Problem",
+    severity: 4,
+    stat: "Too many campaigns, too little budget per campaign",
+    quote: "And then we look and we see they're spreading a $10,000 budget or a $5,000 budget across like 20 different campaigns.",
+    attribution: "— Corey Z., Ads Analyst",
+    description: "Firms dilute their ad spend across too many campaigns, preventing any single campaign from gathering enough data to optimize. The result: no campaign performs well, and the entire budget is wasted.",
+    color: "from-yellow-500/20 to-yellow-500/5",
+  },
+  {
+    rank: 7,
+    title: "AI Content Concerns",
+    severity: 3,
+    stat: "Uncertainty about Google penalties for AI content",
+    quote: "Do you anticipate or have you experienced any kind of issues with like Google, for example, penalizing content that it knows is fully AI written?",
+    attribution: "— Pxrseus, Legal Marketing Consultant",
+    description: "As AI-generated content becomes ubiquitous, attorneys worry about Google penalizing their websites. The fear of losing hard-won rankings to an algorithm change creates hesitation around modern content strategies.",
+    color: "from-indigo-500/20 to-indigo-500/5",
+  },
+  {
+    rank: 8,
+    title: "Ad Policy & Compliance Issues",
+    severity: 3,
+    stat: "Meta flags legal ads, forcing workarounds",
+    quote: "I know with Meta, we also ran into an issue where we had to set ourselves as financial services, because if we're talking about, you know, a settlement or something like that, Meta will flag the ads unless we specify that that's our category.",
+    attribution: "— Pxrseus, Legal Marketing Consultant",
+    description: "Legal advertising faces unique compliance hurdles on major platforms. Meta categorizes settlement-related ads as financial services, and some legal verticals have become too risky to advertise in due to constant policy violations.",
+    color: "from-pink-500/20 to-pink-500/5",
   },
 ];
 
@@ -107,18 +135,22 @@ const budgetData = [
     size: "Small Firms",
     attorneys: "1–3 attorneys",
     budget: "$3K–5K/mo",
-    mindset: "Show me ROI first, then we'll scale",
+    mindset: "With a $5,000 budget they don't have enough volume where they can justify it.",
+    attribution: "— Paul T., Ads Strategist",
     decision: "Founding partner decides fast",
     timeline: "Need results within 90 days",
+    note: "Per our data, this isn't enough for competitive legal PPC. Firms at this level struggle to hit minimum conversion thresholds.",
     icon: "🏠",
   },
   {
-    size: "Medium Firms",
-    attorneys: "4–10 attorneys",
-    budget: "$10K–15K/mo",
-    mindset: "We need systems that scale",
+    size: "Recommended Minimum",
+    attorneys: "3–8 attorneys",
+    budget: "$10K+/mo",
+    mindset: "To get about three minimum conversions per day, you're probably looking at somewhere between eight and $10,000 a month.",
+    attribution: "— Steve V., Paid Ads Specialist",
     decision: "Managing partner + marketing coordinator",
-    timeline: "6-month commitment acceptable",
+    timeline: "6-month commitment, data-driven scaling",
+    note: "This is where real results begin. Enough budget to feed campaigns through learning phases and optimize.",
     icon: "🏢",
     highlight: true,
   },
@@ -126,114 +158,117 @@ const budgetData = [
     size: "Large Firms",
     attorneys: "10+ attorneys",
     budget: "$15K–25K+/mo",
-    mindset: "Brand management + comprehensive strategy",
+    mindset: "We're spending in excess of $100,000 a year on marketing.",
+    attribution: "— Banks L., Estate Planning Attorney",
     decision: "Committee-based, slower process",
     timeline: "Long-term strategic thinking",
+    note: "Top competitors like Parnell spend $40-50K/month. At this tier, the question is efficiency, not budget.",
     icon: "🏛️",
   },
 ];
 
-const practiceAreas = [
+const whatTheyTried = [
   {
-    area: "Personal Injury",
-    icon: "⚖️",
-    challenge: "$300+ per click for 'car accident lawyer'",
-    opportunity: "Target specific accident types & geographic micro-areas",
-    metric: "Cost per qualified case, not cost per lead",
-    gradient: "from-red-500 to-orange-500",
+    method: "SEO Companies That Overpromised",
+    icon: "🔍",
+    quote: "Your content creation is not good, which is why you're not ranking on a ton of keywords and you're not, like, kind of developing, you know, traction right now to like, get there.",
+    attribution: "— Steve V., Paid Ads Specialist",
+    detail: "Previous SEO providers failed to deliver rankings. Firms found their websites riddled with technical issues, broken links, and thin content that never moved the needle.",
   },
   {
-    area: "Family Law / Divorce",
-    icon: "👨‍👩‍👧",
-    challenge: "Emotional clients, price-sensitive decisions",
-    opportunity: "Educational content + long-tail keywords",
-    metric: "January spike — New Year resolution divorces",
-    gradient: "from-purple-500 to-pink-500",
+    method: "Google Ads With Poor Targeting",
+    icon: "💸",
+    quote: "It's Google Ads or meta ads is not working.",
+    attribution: "— Corey Z., Ads Analyst",
+    detail: "Firms poured money into Google Ads without proper negative keywords, geo-targeting, or landing page optimization. Budgets spread too thin across too many campaigns to generate meaningful data.",
   },
   {
-    area: "Criminal Defense",
-    icon: "🛡️",
-    challenge: "Urgent needs, budget constraints",
-    opportunity: "24/7 landing pages, emergency consultation offers",
-    metric: "Mobile-optimized — people search on phones when arrested",
-    gradient: "from-blue-500 to-cyan-500",
+    method: "Facebook/Meta Ads (Flagging Issues)",
+    icon: "📱",
+    quote: "The only problem is that with Meta, I was able to just select financial services and then our ads would continue running.",
+    attribution: "— Pxrseus, Legal Marketing Consultant",
+    detail: "Legal ads on Meta face constant policy hurdles. Settlement-related content gets flagged, requiring financial services categorization. Some legal verticals became too risky for consistent ad delivery.",
   },
   {
-    area: "Estate Planning",
-    icon: "📋",
-    challenge: "Procrastination factor, complex education needed",
-    opportunity: "Life event triggers, educational content marketing",
-    metric: "Partner with financial advisors for referral pipeline",
-    gradient: "from-green-500 to-emerald-500",
+    method: "Referral Networks Only",
+    icon: "🤝",
+    quote: "But given that it's a brand new business, I don't, I don't think it's worth it yet to dump advertising dollars, which is really, really expensive.",
+    attribution: "— Corey Z., Ads Analyst",
+    detail: "Many firms relied solely on referrals and word-of-mouth, avoiding digital marketing entirely. While referrals convert well, this approach doesn't scale and leaves firms vulnerable to dry spells.",
   },
+];
+
+const keyStats = [
+  { value: "70+", label: "Transcripts Analyzed", sublabel: "Real sales calls & client conversations" },
+  { value: "$10–$80", label: "Per Click Range", sublabel: "Legal keyword costs (Steve V., verbatim)" },
+  { value: "$10K+/mo", label: "Recommended Minimum", sublabel: "For 3+ conversions/day (Steve V.)" },
+  { value: "$350", label: "Cost Per Client", sublabel: "Acquisition cost (Genus Law Group)" },
+  { value: "$100K+/yr", label: "Marketing Spend", sublabel: "Large firm benchmark (Banks L.)" },
+  { value: "#1", label: "Most Expensive PPC", sublabel: "\"Law is the most expensive PPC value\" (Anthony C.)" },
 ];
 
 const objections = [
   {
     objection: "We've tried marketing before — it didn't work",
-    why: "Previous agencies overpromised and underdelivered",
-    response: "Ask what specifically failed. Show case studies from their exact practice area. Explain what's changed.",
+    why: "Multiple agencies have overpromised and underdelivered. Deep skepticism is the norm.",
+    response: "Ask what specifically failed. Show transparent dashboards — not vanity metrics. Let them see real campaign data from similar practice areas.",
+    quote: "Yeah, we're right at about $5,000 anyway, you know, but the problem is, is we haven't been getting the return.",
+    attribution: "— Banks L., Estate Planning Attorney",
   },
   {
     objection: "It's too expensive for our budget",
-    why: "Fear of wasting money again",
-    response: "Focus on cost per case vs. hourly billing rates. One PI case = $10K+ in fees. Start with test budgets.",
+    why: "Legal PPC is genuinely expensive. Firms see $80/click and hesitate.",
+    response: "Frame cost against case value. One estate planning trust is $4-5K. One PI case can be $10K+. The math works — but only with sufficient budget to hit conversion minimums.",
+    quote: "$80 per click is extremely expensive, right? So right there, that's $240 a day on that specific campaign.",
+    attribution: "— Steve V., Paid Ads Specialist",
   },
   {
-    objection: "Takes too long to see results",
-    why: "Need immediate cash flow to cover overhead",
-    response: "Hybrid approach: quick wins with PPC + long-term growth with SEO. Show 30-day milestones.",
+    objection: "SEO takes too long to see results",
+    why: "Need immediate cash flow to cover overhead. Can't wait 6-12 months.",
+    response: "Hybrid approach: paid ads for immediate case flow while SEO builds organic pipeline. Show 30-day milestones and technical fixes that improve rankings early.",
+    quote: "They want more leads for their business and they're frustrated with their existing ads management or like, you know, they want to do better on SEO and AI search.",
+    attribution: "— Ritvij G., Strategy Lead",
   },
   {
     objection: "We don't have time to manage another vendor",
-    why: "Lawyers are already overwhelmed with caseloads",
-    response: "White-glove service — 30 minutes monthly reviewing results. Automated reporting, single point of contact.",
+    why: "Lawyers are overwhelmed with caseloads. They can't babysit a marketing agency.",
+    response: "White-glove service with AI automation handling the heavy lifting. Simple dashboards showing metrics attorneys actually care about, not marketing jargon.",
+    quote: "Like, we don't have time to like, we're also not like designers and we're like having to act like them today.",
+    attribution: "— Valerie Y., Agency Operations",
   },
   {
     objection: "Our practice area is too competitive",
-    why: "Seeing $300+ CPCs in Google Ads",
-    response: "Long-tail intent-based keywords, geographic micro-targeting, content marketing for thought leadership.",
+    why: "Seeing competitors spend $40-50K/month and wondering how to compete.",
+    response: "Geographic micro-targeting, long-tail keywords, and content-driven SEO can level the playing field. Not every firm needs to outspend — they need to out-target.",
+    quote: "Parnell's probably spending probably 40, $50,000 a month here in all of this.",
+    attribution: "— Anthony S., Legal Practice",
   },
 ];
 
-const keyStats = [
-  { value: "70+", label: "Law Firms Analyzed", sublabel: "Across multiple practice areas" },
-  { value: "$300+", label: "Per Click (PI)", sublabel: "Average for competitive keywords" },
-
-  { value: "$10K+/mo", label: "Budget Sweet Spot", sublabel: "For firms wanting real results" },
-  { value: "90%", label: "Agency Burned", sublabel: "Say previous agencies overpromised" },
-  { value: "95", label: "Budget Mentions", sublabel: "Extracted from real conversations" },
-  { value: "38", label: "Pain Points Found", sublabel: "Identified from transcript analysis" },
-];
-
-const winningStrategies = [
+const ppcFacts = [
   {
-    title: "Target Long-Tail, Not Generic",
-    before: "\"Personal injury lawyer\"",
-    after: "\"Uber accident lawyer in [City]\"",
-    result: "70% lower CPC, 3x higher conversion rate",
-    icon: "🎯",
+    title: "Law = Most Expensive PPC",
+    quote: "And law by nature is the most expensive PPC value.",
+    attribution: "— Anthony C., PPC Specialist",
+    detail: "Legal keywords command the highest cost-per-click of virtually any industry. Hedge funds have revenue share partnerships with local businesses to compete in these auctions.",
   },
   {
-    title: "Geographic Micro-Targeting",
-    before: "Broad city-wide targeting",
-    after: "5-mile radius around courthouse",
-    result: "Higher quality leads, better case values",
-    icon: "📍",
+    title: "City Size = Higher Costs",
+    quote: "It's the bigger the city, the more expensive the ads.",
+    attribution: "— Steve V., Paid Ads Specialist",
+    detail: "New York City and DFW are among the most expensive PPC markets. Geographic location is the single biggest cost multiplier in legal advertising.",
   },
   {
-    title: "Practice-Specific Landing Pages",
-    before: "Generic firm homepage",
-    after: "Dedicated pages with local social proof",
-    result: "2x conversion rate improvement",
-    icon: "📄",
+    title: "Minimum Budget Reality",
+    quote: "You want a minimum of three high quality conversions per day that depending on what the bid ranges for law, it's usually about like 8 to $10,000.",
+    attribution: "— Steve V., Paid Ads Specialist",
+    detail: "Below $8-10K/month, campaigns can't gather enough conversion data to optimize. You're essentially paying to learn — without ever reaching the performance threshold.",
   },
   {
-    title: "Hybrid PPC + SEO Strategy",
-    before: "SEO only — wait 6-12 months",
-    after: "Quick wins (ads) + long-term growth (SEO)",
-    result: "Immediate case flow while building organic pipeline",
-    icon: "⚡",
+    title: "Policy Risk in Legal Verticals",
+    quote: "There are some verticals that over time have become way too risky for us where we just don't feel confident that we can run the ads and then we're just going to be dealing with policy issues the whole time.",
+    attribution: "— Paul T., Ads Strategist",
+    detail: "Ad platforms increasingly flag legal content. Some practice areas face constant policy violations that prevent consistent ad delivery, wasting both time and budget.",
   },
 ];
 
@@ -259,7 +294,7 @@ export default function LegalConferencePage() {
         <div className="max-w-6xl mx-auto relative">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
             <span className="inline-block px-4 py-1.5 rounded-full bg-[#2965FF]/15 text-[#2965FF] text-sm font-medium mb-6">
-              Based on 70+ Real Conversations
+              Based on 70+ Real Transcripts
             </span>
             <h1 className="text-4xl md:text-6xl font-bold leading-tight max-w-5xl mb-6">
               Law Firm Marketing:{" "}
@@ -268,7 +303,7 @@ export default function LegalConferencePage() {
               </span>
             </h1>
             <p className="text-lg md:text-xl text-gray-400 max-w-3xl mb-12 leading-relaxed">
-              An analysis of actual sales calls and client conversations with attorneys across PI, family law, criminal defense, and estate planning. Real voices. Real pain points. Real solutions.
+              Every quote is verbatim. Every number comes from actual transcripts. We analyzed 70+ real sales calls and client conversations with attorneys — here&apos;s what they&apos;re actually saying about marketing, budgets, and what&apos;s broken.
             </p>
           </motion.div>
 
@@ -302,17 +337,18 @@ export default function LegalConferencePage() {
                 <div>
                   <h3 className="text-xl font-bold text-white mb-3">Law firms have been burned — and they remember.</h3>
                   <p className="text-gray-400 leading-relaxed mb-4">
-                    After analyzing 70+ transcripts from actual law firm conversations, one pattern dominates everything else: attorneys are experiencing a <span className="text-white font-semibold">marketing trust crisis</span>. They&apos;ve been burned by agencies before and are increasingly skeptical of new solutions — even when they desperately need help.
+                    After analyzing 70+ transcripts from actual law firm conversations, one pattern dominates everything else: attorneys are experiencing a <span className="text-white font-semibold">marketing trust crisis</span>. They&apos;ve hired agencies that overpromised, wasted budget on campaigns that never optimized, and received reports designed to obscure rather than reveal.
                   </p>
                   <p className="text-gray-400 leading-relaxed">
-                    This isn&apos;t about budgets or channels. It&apos;s about broken promises. Guaranteed rankings that never materialized. Cookie-cutter strategies. Reports that obscured rather than revealed. The result? Smart buyers who need proof, not pitches.
+                    The numbers tell the story: legal keywords cost $10 to $80 per click. Law is the most expensive PPC vertical in existence. And firms are spending $100K+ per year on marketing without confidence it&apos;s working. They don&apos;t need another pitch — they need proof.
                   </p>
                 </div>
               </div>
               <div className="border-t border-white/[0.08] pt-6 mt-6">
                 <p className="text-[#2965FF] font-medium italic">
-                  &ldquo;Lawyers are smart buyers who&apos;ve been burned before. They don&apos;t need another sales pitch — they need proof.&rdquo;
+                  &ldquo;Yeah, we&apos;re right at about $5,000 anyway, you know, but the problem is, is we haven&apos;t been getting the return.&rdquo;
                 </p>
+                <p className="text-gray-500 text-sm mt-2">— Banks L., Estate Planning Attorney</p>
               </div>
             </GlassCard>
           </AnimatedDiv>
@@ -322,7 +358,7 @@ export default function LegalConferencePage() {
       {/* Pain Points */}
       <section className="py-20 px-6 bg-gradient-to-b from-transparent via-[#2965FF]/[0.03] to-transparent">
         <div className="max-w-6xl mx-auto">
-          <SectionTitle badge="Pain Points" title="Top 5 Pain Points" subtitle="Ranked by frequency across 70+ conversations with attorneys" />
+          <SectionTitle badge="Pain Points" title="8 Pain Points From Real Transcripts" subtitle="Every quote below is verbatim from actual conversations with attorneys" />
           <div className="space-y-6">
             {painPoints.map((point, i) => (
               <AnimatedDiv key={point.rank} delay={i * 0.1}>
@@ -347,9 +383,10 @@ export default function LegalConferencePage() {
                           <div className="text-xs text-gray-500 uppercase tracking-wider mb-1">Key Stat</div>
                           <div className="text-[#2965FF] font-semibold">{point.stat}</div>
                         </div>
-                        <div className="flex-1 bg-white/[0.03] rounded-xl p-4 border border-white/[0.06]">
-                          <div className="text-xs text-gray-500 uppercase tracking-wider mb-1">Real Quote</div>
+                        <div className="flex-[2] bg-white/[0.03] rounded-xl p-4 border border-white/[0.06]">
+                          <div className="text-xs text-gray-500 uppercase tracking-wider mb-1">Verbatim Quote</div>
                           <div className="text-gray-300 italic text-sm">&ldquo;{point.quote}&rdquo;</div>
+                          <div className="text-gray-500 text-xs mt-1">{point.attribution}</div>
                         </div>
                       </div>
                     </div>
@@ -364,7 +401,7 @@ export default function LegalConferencePage() {
       {/* Key Statistics */}
       <section className="py-20 px-6">
         <div className="max-w-6xl mx-auto">
-          <SectionTitle badge="By The Numbers" title="Key Statistics" subtitle="The headline numbers from our analysis" />
+          <SectionTitle badge="By The Numbers" title="Verified Statistics" subtitle="Every number traced directly to transcript data — no made-up metrics" />
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
             {keyStats.map((stat, i) => (
               <AnimatedDiv key={stat.label} delay={i * 0.08}>
@@ -381,17 +418,41 @@ export default function LegalConferencePage() {
         </div>
       </section>
 
-      {/* Budget Reality */}
+      {/* What They've Already Tried */}
       <section className="py-20 px-6 bg-gradient-to-b from-transparent via-[#2965FF]/[0.03] to-transparent">
         <div className="max-w-6xl mx-auto">
-          <SectionTitle badge="Budget Reality" title="What Firms Actually Spend" subtitle="Budget ranges by firm size — based on 95 budget mentions from real conversations" />
+          <SectionTitle badge="Failed Strategies" title="What They&apos;ve Already Tried" subtitle="Before they came to us — the marketing graveyard" />
+          <div className="grid md:grid-cols-2 gap-6">
+            {whatTheyTried.map((item, i) => (
+              <AnimatedDiv key={item.method} delay={i * 0.1}>
+                <GlassCard className="p-8 h-full">
+                  <div className="flex items-center gap-3 mb-4">
+                    <span className="text-2xl">{item.icon}</span>
+                    <h3 className="text-lg font-bold text-white">{item.method}</h3>
+                  </div>
+                  <p className="text-gray-400 text-sm mb-4">{item.detail}</p>
+                  <div className="bg-white/[0.03] rounded-xl p-4 border border-white/[0.06]">
+                    <div className="text-gray-300 italic text-sm">&ldquo;{item.quote}&rdquo;</div>
+                    <div className="text-gray-500 text-xs mt-2">{item.attribution}</div>
+                  </div>
+                </GlassCard>
+              </AnimatedDiv>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Budget Reality */}
+      <section className="py-20 px-6">
+        <div className="max-w-6xl mx-auto">
+          <SectionTitle badge="Budget Reality" title="What Firms Actually Need to Spend" subtitle="Real budget numbers from transcripts — not industry averages" />
           <div className="grid md:grid-cols-3 gap-6">
             {budgetData.map((tier, i) => (
               <AnimatedDiv key={tier.size} delay={i * 0.1}>
                 <GlassCard className={`p-8 h-full relative ${tier.highlight ? "border-[#2965FF]/30 ring-1 ring-[#2965FF]/20" : ""}`}>
                   {tier.highlight && (
                     <div className="absolute -top-3 left-1/2 -translate-x-1/2 px-3 py-1 bg-[#2965FF] rounded-full text-xs font-medium text-white">
-                      Sweet Spot
+                      Recommended
                     </div>
                   )}
                   <div className="text-3xl mb-4">{tier.icon}</div>
@@ -400,8 +461,13 @@ export default function LegalConferencePage() {
                   <div className="text-2xl font-bold text-[#2965FF] mb-4">{tier.budget}</div>
                   <div className="space-y-3 text-sm">
                     <div className="bg-white/[0.03] rounded-lg p-3 border border-white/[0.06]">
-                      <div className="text-gray-500 text-xs uppercase tracking-wider mb-1">Mindset</div>
-                      <div className="text-gray-300 italic">&ldquo;{tier.mindset}&rdquo;</div>
+                      <div className="text-gray-500 text-xs uppercase tracking-wider mb-1">From the transcripts</div>
+                      <div className="text-gray-300 italic text-xs">&ldquo;{tier.mindset}&rdquo;</div>
+                      <div className="text-gray-500 text-xs mt-1">{tier.attribution}</div>
+                    </div>
+                    <div className="bg-white/[0.03] rounded-lg p-3 border border-white/[0.06]">
+                      <div className="text-gray-500 text-xs uppercase tracking-wider mb-1">Reality Check</div>
+                      <div className="text-gray-300 text-xs">{tier.note}</div>
                     </div>
                     <div className="flex justify-between text-gray-400">
                       <span>Decision</span>
@@ -416,37 +482,40 @@ export default function LegalConferencePage() {
               </AnimatedDiv>
             ))}
           </div>
+          <AnimatedDiv delay={0.3}>
+            <div className="mt-8 max-w-3xl mx-auto">
+              <GlassCard className="p-6">
+                <div className="flex items-start gap-3">
+                  <span className="text-xl">💡</span>
+                  <div>
+                    <h4 className="text-white font-semibold mb-2">Competitor Benchmark</h4>
+                    <p className="text-gray-400 text-sm">
+                      &ldquo;Parnell&apos;s probably spending probably 40, $50,000 a month here in all of this.&rdquo;
+                      <span className="text-gray-500"> — Anthony S., Legal Practice</span>
+                    </p>
+                    <p className="text-gray-500 text-xs mt-2">Top-spending competitors set the bar. Firms spending under $10K/month are competing against budgets 4-5x their size.</p>
+                  </div>
+                </div>
+              </GlassCard>
+            </div>
+          </AnimatedDiv>
         </div>
       </section>
 
-      {/* Practice Area Insights */}
-      <section className="py-20 px-6">
+      {/* PPC Deep Dive */}
+      <section className="py-20 px-6 bg-gradient-to-b from-transparent via-[#2965FF]/[0.03] to-transparent">
         <div className="max-w-6xl mx-auto">
-          <SectionTitle badge="Practice Areas" title="Practice Area Insights" subtitle="Each practice area has unique challenges and opportunities" />
+          <SectionTitle badge="PPC Reality" title="The True Cost of Legal PPC" subtitle="Direct quotes from paid ads specialists working with law firms daily" />
           <div className="grid md:grid-cols-2 gap-6">
-            {practiceAreas.map((area, i) => (
-              <AnimatedDiv key={area.area} delay={i * 0.1}>
+            {ppcFacts.map((fact, i) => (
+              <AnimatedDiv key={fact.title} delay={i * 0.1}>
                 <GlassCard className="p-8 h-full">
-                  <div className="flex items-center gap-3 mb-6">
-                    <div className={`w-10 h-10 rounded-xl bg-gradient-to-br ${area.gradient} flex items-center justify-center text-lg opacity-80`}>
-                      {area.icon}
-                    </div>
-                    <h3 className="text-xl font-bold text-white">{area.area}</h3>
+                  <h3 className="text-lg font-bold text-white mb-4">{fact.title}</h3>
+                  <div className="bg-white/[0.03] rounded-xl p-4 border border-white/[0.06] mb-4">
+                    <div className="text-gray-300 italic text-sm">&ldquo;{fact.quote}&rdquo;</div>
+                    <div className="text-gray-500 text-xs mt-2">{fact.attribution}</div>
                   </div>
-                  <div className="space-y-4">
-                    <div>
-                      <div className="text-xs text-red-400 uppercase tracking-wider font-medium mb-1">⚠ Challenge</div>
-                      <p className="text-gray-300 text-sm">{area.challenge}</p>
-                    </div>
-                    <div>
-                      <div className="text-xs text-green-400 uppercase tracking-wider font-medium mb-1">✦ Opportunity</div>
-                      <p className="text-gray-300 text-sm">{area.opportunity}</p>
-                    </div>
-                    <div>
-                      <div className="text-xs text-[#2965FF] uppercase tracking-wider font-medium mb-1">📊 Key Insight</div>
-                      <p className="text-gray-300 text-sm">{area.metric}</p>
-                    </div>
-                  </div>
+                  <p className="text-gray-400 text-sm">{fact.detail}</p>
                 </GlassCard>
               </AnimatedDiv>
             ))}
@@ -455,9 +524,9 @@ export default function LegalConferencePage() {
       </section>
 
       {/* Common Objections */}
-      <section className="py-20 px-6 bg-gradient-to-b from-transparent via-[#2965FF]/[0.03] to-transparent">
+      <section className="py-20 px-6">
         <div className="max-w-6xl mx-auto">
-          <SectionTitle badge="Objection Handling" title="Common Objections" subtitle="The 5 objections you'll hear in every law firm conversation — and how to respond" />
+          <SectionTitle badge="Objection Handling" title="Common Objections" subtitle="The 5 objections heard most often — with real quotes from transcripts" />
           <div className="space-y-4 max-w-4xl mx-auto">
             {objections.map((obj, i) => (
               <AnimatedDiv key={i} delay={i * 0.08}>
@@ -483,51 +552,25 @@ export default function LegalConferencePage() {
                       transition={{ duration: 0.3 }}
                       className="px-6 pb-6"
                     >
-                      <div className="grid sm:grid-cols-2 gap-4 pt-2 border-t border-white/[0.06]">
-                        <div className="bg-red-500/5 rounded-xl p-4 border border-red-500/10">
-                          <div className="text-xs text-red-400 uppercase tracking-wider font-medium mb-2">Why They Say It</div>
-                          <p className="text-gray-300 text-sm">{obj.why}</p>
+                      <div className="space-y-4 pt-2 border-t border-white/[0.06]">
+                        <div className="bg-white/[0.03] rounded-xl p-4 border border-white/[0.06]">
+                          <div className="text-xs text-gray-500 uppercase tracking-wider font-medium mb-2">Real Quote From Transcripts</div>
+                          <p className="text-gray-300 text-sm italic">&ldquo;{obj.quote}&rdquo;</p>
+                          <p className="text-gray-500 text-xs mt-1">{obj.attribution}</p>
                         </div>
-                        <div className="bg-green-500/5 rounded-xl p-4 border border-green-500/10">
-                          <div className="text-xs text-green-400 uppercase tracking-wider font-medium mb-2">Response Strategy</div>
-                          <p className="text-gray-300 text-sm">{obj.response}</p>
+                        <div className="grid sm:grid-cols-2 gap-4">
+                          <div className="bg-red-500/5 rounded-xl p-4 border border-red-500/10">
+                            <div className="text-xs text-red-400 uppercase tracking-wider font-medium mb-2">Why They Say It</div>
+                            <p className="text-gray-300 text-sm">{obj.why}</p>
+                          </div>
+                          <div className="bg-green-500/5 rounded-xl p-4 border border-green-500/10">
+                            <div className="text-xs text-green-400 uppercase tracking-wider font-medium mb-2">Response Strategy</div>
+                            <p className="text-gray-300 text-sm">{obj.response}</p>
+                          </div>
                         </div>
                       </div>
                     </motion.div>
                   )}
-                </GlassCard>
-              </AnimatedDiv>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* What Works */}
-      <section className="py-20 px-6">
-        <div className="max-w-6xl mx-auto">
-          <SectionTitle badge="What Works" title="Winning Strategies" subtitle="Proven approaches that deliver results for law firms" />
-          <div className="grid md:grid-cols-2 gap-6">
-            {winningStrategies.map((strategy, i) => (
-              <AnimatedDiv key={strategy.title} delay={i * 0.1}>
-                <GlassCard className="p-8 h-full">
-                  <div className="flex items-center gap-3 mb-6">
-                    <span className="text-2xl">{strategy.icon}</span>
-                    <h3 className="text-lg font-bold text-white">{strategy.title}</h3>
-                  </div>
-                  <div className="space-y-3 mb-6">
-                    <div className="flex items-start gap-3">
-                      <span className="text-red-400 text-xs font-bold mt-0.5 flex-shrink-0 w-14">BEFORE</span>
-                      <span className="text-gray-500 text-sm line-through">{strategy.before}</span>
-                    </div>
-                    <div className="flex items-start gap-3">
-                      <span className="text-green-400 text-xs font-bold mt-0.5 flex-shrink-0 w-14">AFTER</span>
-                      <span className="text-gray-300 text-sm">{strategy.after}</span>
-                    </div>
-                  </div>
-                  <div className="bg-[#2965FF]/10 rounded-xl p-4 border border-[#2965FF]/20">
-                    <div className="text-xs text-[#2965FF] uppercase tracking-wider font-medium mb-1">Result</div>
-                    <div className="text-white font-medium text-sm">{strategy.result}</div>
-                  </div>
                 </GlassCard>
               </AnimatedDiv>
             ))}
@@ -542,11 +585,17 @@ export default function LegalConferencePage() {
             <GlassCard className="p-8 md:p-12 bg-gradient-to-br from-[#2965FF]/10 to-transparent">
               <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">The Bottom Line</h2>
               <p className="text-lg text-gray-300 leading-relaxed mb-6">
-                Lawyers are smart buyers who&apos;ve been burned before. They don&apos;t need another sales pitch — they need <span className="text-[#2965FF] font-semibold">proof</span>. Show them you understand their specific practice area, set realistic expectations, and deliver transparent results.
+                Law firms are spending $100K+ per year on marketing without confidence it&apos;s working. Legal PPC costs $10-$80 per click — the most expensive in any industry. They&apos;ve been burned by agencies before and need <span className="text-[#2965FF] font-semibold">transparent, data-driven proof</span> before trusting again.
               </p>
-              <p className="text-xl text-white font-semibold">
-                Do that, and they&apos;ll become clients for life.
+              <p className="text-lg text-gray-300 leading-relaxed mb-8">
+                The minimum viable ad budget is $10K/month. Below that, campaigns can&apos;t gather enough data to optimize. But with the right strategy, a $350 cost per client acquisition is achievable — and one $4-5K estate planning trust or PI case more than covers the investment.
               </p>
+              <div className="border-t border-white/[0.08] pt-6">
+                <p className="text-[#2965FF] font-medium italic text-lg">
+                  &ldquo;That&apos;s just because you guys chose to be in a business where digital marketing, at least for advertising is expensive.&rdquo;
+                </p>
+                <p className="text-gray-500 text-sm mt-2">— Steve V., Paid Ads Specialist</p>
+              </div>
             </GlassCard>
           </AnimatedDiv>
         </div>
@@ -561,7 +610,7 @@ export default function LegalConferencePage() {
             </svg>
           </div>
           <p className="text-sm text-gray-500 max-w-xl mx-auto mb-4">
-            Analysis based on 70+ real sales calls and client conversations with law firms across multiple practice areas. Prepared by MEGA AI.
+            Analysis based on 70+ real sales calls and client conversations with law firms. Every quote is verbatim from transcripts. Prepared by MEGA AI.
           </p>
           <p className="text-xs text-gray-600">
             © {new Date().getFullYear()} Mega. All rights reserved.
