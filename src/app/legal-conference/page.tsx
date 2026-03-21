@@ -69,7 +69,7 @@ const painPoints = [
     title: "Skyrocketing Ad Costs",
     severity: 5,
     stat: "$300+ per click for PI keywords",
-    quote: "We're spending $5,000/month and getting maybe 2-3 good cases.",
+    quote: "We're spending $10,000/month and getting maybe 2-3 good cases.",
     description: "Google Ads costs have become unsustainable in legal verticals. Personal injury, divorce, and criminal defense keywords command some of the highest CPCs in any industry.",
     color: "from-orange-500/20 to-orange-500/5",
   },
@@ -106,7 +106,7 @@ const budgetData = [
   {
     size: "Small Firms",
     attorneys: "1–3 attorneys",
-    budget: "$1K–3K/mo",
+    budget: "$3K–5K/mo",
     mindset: "Show me ROI first, then we'll scale",
     decision: "Founding partner decides fast",
     timeline: "Need results within 90 days",
@@ -115,7 +115,7 @@ const budgetData = [
   {
     size: "Medium Firms",
     attorneys: "4–10 attorneys",
-    budget: "$3K–8K/mo",
+    budget: "$10K–15K/mo",
     mindset: "We need systems that scale",
     decision: "Managing partner + marketing coordinator",
     timeline: "6-month commitment acceptable",
@@ -125,7 +125,7 @@ const budgetData = [
   {
     size: "Large Firms",
     attorneys: "10+ attorneys",
-    budget: "$8K–25K+/mo",
+    budget: "$15K–25K+/mo",
     mindset: "Brand management + comprehensive strategy",
     decision: "Committee-based, slower process",
     timeline: "Long-term strategic thinking",
@@ -199,7 +199,8 @@ const objections = [
 const keyStats = [
   { value: "70+", label: "Law Firms Analyzed", sublabel: "Across multiple practice areas" },
   { value: "$300+", label: "Per Click (PI)", sublabel: "Average for competitive keywords" },
-  { value: "$5K/mo", label: "Budget Sweet Spot", sublabel: "For firms wanting real results" },
+
+  { value: "$10K+/mo", label: "Budget Sweet Spot", sublabel: "For firms wanting real results" },
   { value: "90%", label: "Agency Burned", sublabel: "Say previous agencies overpromised" },
   { value: "95", label: "Budget Mentions", sublabel: "Extracted from real conversations" },
   { value: "38", label: "Pain Points Found", sublabel: "Identified from transcript analysis" },
