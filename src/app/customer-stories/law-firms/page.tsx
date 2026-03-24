@@ -11,7 +11,8 @@ import {
 const firms = [
   {
     name: "Bluestone Law",
-    url: "bluestone.law",
+    url: "",
+    description: "California Employment Firm",
     since: "Sep 2025",
     articles: 130,
     da: 8,
@@ -39,7 +40,8 @@ const firms = [
   },
   {
     name: "Law Office of Thomas K. Mallon, LLC",
-    url: "mallon-jurisprudence.com",
+    url: "",
+    description: "Family and Divorce Counsel in Baltimore",
     since: "Jul 2025",
     articles: 153,
     da: 28,
@@ -67,7 +69,8 @@ const firms = [
   },
   {
     name: "Logue Law",
-    url: "seanloguelaw.com",
+    url: "",
+    description: "Pittsburgh Defense Lawyer",
     since: "Nov 2025",
     articles: 67,
     da: 23,
@@ -92,7 +95,8 @@ const firms = [
   },
   {
     name: "Deldar Legal",
-    url: "deldarlegal.com",
+    url: "",
+    description: "California Personal Injury Law Firm",
     since: "Nov 2025",
     articles: 74,
     da: 24,
@@ -187,8 +191,12 @@ function FirmCard({ firm, index }: { firm: (typeof firms)[0]; index: number }) {
           <div>
             <h3 className="text-2xl font-bold">{firm.name}</h3>
             <div className="flex flex-wrap gap-3 mt-2">
-              <span className="text-sm text-[#6B7280]">{firm.url}</span>
-              <span className="text-sm text-[#6B7280]">•</span>
+              {firm.description && (
+                <>
+                  <span className="text-sm text-[#6B7280]">{firm.description}</span>
+                  <span className="text-sm text-[#6B7280]">•</span>
+                </>
+              )}
               <span className="text-sm text-[#6B7280]">Customer since {firm.since}</span>
               <span className="text-sm text-[#6B7280]">•</span>
               <span className="text-sm text-[#6B7280]">{firm.articles} articles published</span>
