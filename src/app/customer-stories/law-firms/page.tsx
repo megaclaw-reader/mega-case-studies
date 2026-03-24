@@ -10,9 +10,9 @@ import {
 
 const firms = [
   {
-    name: "Bluestone Law",
+    name: "California Employment Law Firm",
     url: "",
-    description: "California Employment Firm",
+    description: "",
     since: "Sep 2025",
     articles: 130,
     da: 8,
@@ -39,9 +39,9 @@ const firms = [
     ],
   },
   {
-    name: "Law Office of Thomas K. Mallon, LLC",
+    name: "Family and Divorce Counsel in Baltimore",
     url: "",
-    description: "Family and Divorce Counsel in Baltimore",
+    description: "",
     since: "Jul 2025",
     articles: 153,
     da: 28,
@@ -68,9 +68,9 @@ const firms = [
     ],
   },
   {
-    name: "Logue Law",
+    name: "Pittsburgh Defense Lawyer",
     url: "",
-    description: "Pittsburgh Defense Lawyer",
+    description: "",
     since: "Nov 2025",
     articles: 67,
     da: 23,
@@ -94,9 +94,9 @@ const firms = [
     ],
   },
   {
-    name: "Deldar Legal",
+    name: "California Personal Injury Law Firm",
     url: "",
-    description: "California Personal Injury Law Firm",
+    description: "",
     since: "Nov 2025",
     articles: 74,
     da: 24,
