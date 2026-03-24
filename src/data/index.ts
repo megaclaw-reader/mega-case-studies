@@ -1,5 +1,6 @@
 import { CaseStudyData } from "./types";
 import { indoorAdventureFlorida } from "./indoor-adventure-florida";
+import { sightseeingExcursionFlorida } from "./sightseeing-excursion-florida";
 import { foodCateringLosAngeles } from "./food-catering-los-angeles";
 import { rentalHomeManagementArizona } from "./rental-home-management-arizona";
 import { hvacVancouver } from "./hvac-vancouver";
@@ -140,6 +141,7 @@ import { rentalCarArizona } from "./rental-car-arizona";
 import { paintingCompanyPhoenix } from "./painting-company-phoenix";
 import { b2bOfficeServiceTexas } from "./b2b-office-service-texas";
 import { franchiseRestaurant } from "./franchise-restaurant";
+import { sightseeingFlorida } from "./sightseeing-florida";
 
 export const caseStudies: Record<string, CaseStudyData> = {
   "alarm-surveillance-seo": alarmSurveillanceSeo,
@@ -282,7 +284,9 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "immigration-law": immigrationLaw,
   "tax-consultancy-seo": taxConsultancySeo,
   "indoor-adventure-florida": indoorAdventureFlorida,
+  "sightseeing-excursion-florida": sightseeingExcursionFlorida,
   "food-catering-los-angeles": foodCateringLosAngeles,
+  "sightseeing-florida": sightseeingFlorida,
 };
 
 export type { CaseStudyData };
