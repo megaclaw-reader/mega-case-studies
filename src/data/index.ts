@@ -142,6 +142,7 @@ import { paintingCompanyPhoenix } from "./painting-company-phoenix";
 import { b2bOfficeServiceTexas } from "./b2b-office-service-texas";
 import { franchiseRestaurant } from "./franchise-restaurant";
 import { sightseeingFlorida } from "./sightseeing-florida";
+import { homeImprovementPhoenix } from "./home-improvement-phoenix";
 
 export const caseStudies: Record<string, CaseStudyData> = {
   "alarm-surveillance-seo": alarmSurveillanceSeo,
@@ -287,6 +288,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "sightseeing-excursion-florida": sightseeingExcursionFlorida,
   "food-catering-los-angeles": foodCateringLosAngeles,
   "sightseeing-florida": sightseeingFlorida,
+  "home-improvement-phoenix": homeImprovementPhoenix,
 };
 
 export type { CaseStudyData };
