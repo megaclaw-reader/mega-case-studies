@@ -40,6 +40,7 @@ CPL_RANGES = {
     "pool":              (30, 500),
     "window":            (20, 150),
     "beauty_spa":        (10, 80),
+    "chiropractor":      (20, 120),
     "med_spa":           (20, 150),
     "gym_fitness":       (10, 80),
     "senior_care":       (25, 200),
@@ -107,7 +108,7 @@ def _cpl_category(industry, model_key):
     # Try specific matches
     # Order matters — more specific matches first
     mappings = [
-        ("painting", "painting"), ("dental", "dental"), ("hvac", "hvac"), ("roof", "roofing"),
+        ("chiropract", "chiropractor"), ("painting", "painting"), ("dental", "dental"), ("hvac", "hvac"), ("roof", "roofing"),
         ("plumb", "plumbing"), ("commercial landscap", "construction"),
         ("landscap", "landscaping"), ("clean", "cleaning"),
         ("moving", "moving"), ("garage", "garage_door"),
@@ -198,6 +199,7 @@ DEAL_VALUE_RANGES = {
     "pool": (15000, 100000),
     "window": (3000, 25000),
     "beauty_spa": (50, 2500),
+    "chiropractor": (500, 2000),
     "med_spa": (200, 5000),
     "gym_fitness": (100, 2000),
     "senior_care": (2000, 15000),
