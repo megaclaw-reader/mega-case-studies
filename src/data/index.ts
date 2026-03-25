@@ -1,4 +1,5 @@
 import { CaseStudyData } from "./types";
+import { probiotics } from "./probiotics";
 import { indoorAdventureFlorida } from "./indoor-adventure-florida";
 import { sightseeingExcursionFlorida } from "./sightseeing-excursion-florida";
 import { foodCateringLosAngeles } from "./food-catering-los-angeles";
@@ -295,6 +296,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "home-renovations-arizona": homeRenovationsArizona,
   "chiropractor-texas": chiropractorTexas,
   "dietary-supplements": dietarySupplements,
+  "probiotics": probiotics,
 };
 
 export type { CaseStudyData };
