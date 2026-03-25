@@ -145,6 +145,7 @@ import { sightseeingFlorida } from "./sightseeing-florida";
 import { homeImprovementPhoenix } from "./home-improvement-phoenix";
 import { homeRenovationsArizona } from "./home-renovations-arizona";
 import { chiropractorTexas } from "./chiropractor-texas";
+import { dietarySupplements } from "./dietary-supplements";
 
 export const caseStudies: Record<string, CaseStudyData> = {
   "alarm-surveillance-seo": alarmSurveillanceSeo,
@@ -293,6 +294,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "home-improvement-phoenix": homeImprovementPhoenix,
   "home-renovations-arizona": homeRenovationsArizona,
   "chiropractor-texas": chiropractorTexas,
+  "dietary-supplements": dietarySupplements,
 };
 
 export type { CaseStudyData };
