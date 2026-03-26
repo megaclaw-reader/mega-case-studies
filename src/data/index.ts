@@ -148,6 +148,7 @@ import { homeRenovationsArizona } from "./home-renovations-arizona";
 import { chiropractorTexas } from "./chiropractor-texas";
 import { dietarySupplements } from "./dietary-supplements";
 import { tropicalDestinationPlanner } from "./tropical-destination-planner";
+import { transportation } from "./transportation";
 
 export const caseStudies: Record<string, CaseStudyData> = {
   "alarm-surveillance-seo": alarmSurveillanceSeo,
@@ -299,6 +300,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "dietary-supplements": dietarySupplements,
   "probiotics": probiotics,
   "tropical-destination-planner": tropicalDestinationPlanner,
+  "transportation": transportation,
 };
 
 export type { CaseStudyData };

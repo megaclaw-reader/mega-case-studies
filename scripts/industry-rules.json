@@ -555,6 +555,7 @@
     "City Sightseeing / Excursion Operator": "lead_gen_services",
     "Chiropractor": "lead_gen_services",
     "Dietary Supplements": "ecommerce",
-    "Tropical Destination Planner": "lead_gen_services"
+    "Tropical Destination Planner": "lead_gen_services",
+    "transportation": "lead_gen_professional"
   }
 }
