@@ -78,6 +78,7 @@ CPL_RANGES = {
     "tropical_destination": (15, 100),
     "franchise_restaurant": (15, 65),
     "b2b_office_service": (75, 275),
+    "logistics":         (100, 450),
     "healthcare_equip":  (30, 300),
     # Wealth management / financial
     "wealth_mgmt":       (100, 2500),
@@ -133,6 +134,7 @@ def _cpl_category(industry, model_key):
         ("wedding", "wedding_photo"), ("photo", "wedding_photo"),
         ("rv ", "rv_dealer"), ("mobile home", "rv_dealer"),
         ("dealership", "automotive_dealer"),
+        ("logistics", "logistics"), ("supply chain", "logistics"), ("freight", "logistics"),
         ("b2b office", "b2b_office_service"), ("office service", "b2b_office_service"), ("managed print", "b2b_office_service"), ("copier", "b2b_office_service"),
         ("alarm", "alarm_surveillance"), ("surveillance", "alarm_surveillance"), ("security system", "alarm_surveillance"),
         ("rental home", "rental_home_mgmt"), ("property management", "rental_home_mgmt"), ("rental management", "rental_home_mgmt"),
@@ -222,6 +224,7 @@ DEAL_VALUE_RANGES = {
     "alarm_surveillance": (2000, 8000),
     "franchise_restaurant": (1500, 5000),
     "b2b_office_service": (3000, 25000),
+    "logistics": (8000, 60000),
     "legal": (2000, 30000),
     "personal_injury": (5000, 150000),
     "immigration_law": (2000, 20000),
