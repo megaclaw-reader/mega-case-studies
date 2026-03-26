@@ -1,0 +1,147 @@
+import { CaseStudyData } from "./types";
+
+export const functionalMedicineClinic: CaseStudyData = {
+  slug: "functional-medicine-clinic",
+  industry: "Functional Medicine Clinic",
+  headline: "How a North Carolina Functional Medicine Clinic Acquired 39 New Patients and Generated $127.4K in Revenue in 5 Months",
+  subheadline: "MEGA helped a small functional medicine clinic in North Carolina build organic visibility from the ground up while running targeted paid campaigns — growing organic traffic 387%, generating 156 qualified leads, and achieving a 3.2x blended return on ad spend across SEO and paid advertising.",
+  heroStats: [
+    { value: "5", unit: "months", label: "Partnership Duration" },
+    { value: "156", unit: "", label: "Qualified Leads Generated" },
+    { value: "127.4", unit: "K", label: "Revenue Attributed" },
+  ],
+  tags: ["Local SEO", "Paid Advertising", "Healthcare Marketing"],
+  company: {
+    industry: "Functional Medicine Clinic",
+    employees: "6",
+    revenue: "$680K",
+    location: "North Carolina",
+    description: "A small functional medicine clinic in North Carolina offering personalized treatment plans including hormone optimization, gut health protocols, thyroid management, and integrative wellness programs. The clinic had built a modest patient base through physician referrals and word-of-mouth over 3 years, but lacked any digital marketing infrastructure. With one practitioner and a growing waitlist for certain services, they needed a scalable patient acquisition system to fill appointment slots for higher-margin treatment programs — particularly comprehensive wellness packages and ongoing care plans averaging $2,000–$5,000 per patient.",
+  },
+  challenges: [
+    {
+      title: "Zero Digital Marketing Infrastructure",
+      description: "The clinic had no paid advertising history, no conversion tracking, and a basic website with minimal content. Previous patient acquisition relied entirely on physician referrals and word-of-mouth, making growth unpredictable and difficult to scale. There was no CRM integration, no landing pages optimized for specific treatment modalities, and no way to measure which channels were driving new patient inquiries.",
+    },
+    {
+      title: "Weak Organic Presence in a Niche Market",
+      description: "Despite functional medicine growing in popularity across North Carolina, the clinic ranked for fewer than 90 keywords — almost all branded. Competitors in the Raleigh-Durham-Charlotte corridor had established content libraries and hundreds of Google reviews, while this clinic had 23 reviews and zero educational content addressing common patient questions about hormone therapy, gut health, or integrative approaches.",
+    },
+    {
+      title: "High Patient Value but Long Decision Cycle",
+      description: "Functional medicine patients typically research extensively before committing to treatment plans ranging from $2,000 to $5,000. The clinic needed a strategy that nurtured prospects through an educational journey — addressing skepticism about non-traditional approaches while building trust and authority in a space where patients often compare 3-4 practitioners before scheduling a consultation.",
+    },
+  ],
+  strategy: [
+    {
+      phase: 1,
+      months: "0–30 days",
+      title: "Foundation & Launch",
+      items: [
+        "Full technical site audit — mobile responsiveness, page speed optimization, sitemap and robots.txt configuration, and crawlability improvements across the existing 12-page site",
+        "Google Business Profile overhaul — updated NAP consistency across 30+ healthcare directories, added treatment categories, optimized photos and service descriptions with functional medicine keywords specific to North Carolina",
+        "Google Search Console setup and baseline keyword measurement across functional medicine treatment verticals in the North Carolina market",
+        "Competitor analysis across functional medicine and integrative health practitioners in North Carolina — identified content gaps in treatment-specific and condition-specific educational content",
+        "Keyword research spanning hormone optimization, gut health, thyroid management, functional medicine consultation, and integrative wellness queries with North Carolina geo-modifiers",
+        "Generated 8 initial articles — treatment explainers for hormone therapy, gut health protocols, thyroid management, plus condition guides for adrenal fatigue, autoimmune support, and inflammation management",
+        "Metadata optimization and image SEO across all existing service pages, added local business and medical practice schema markup",
+        "Installed conversion tracking — phone call tracking, consultation form submission attribution, and appointment request integration",
+        "CRM integration for closed-loop lead-to-consultation-to-patient attribution",
+        "Launched initial paid campaigns at $7,654/mo focused on high-intent functional medicine queries in North Carolina — hormone therapy, gut health specialist, and functional medicine doctor near me",
+        "Built dedicated landing pages for top 3 treatment categories with consultation request forms and educational content addressing common patient concerns",
+        "Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement — replacing the traditional weekly-review agency cadence with real-time adjustments",
+      ],
+    },
+    {
+      phase: 2,
+      months: "30–60 days",
+      title: "Optimization & Content Scaling",
+      items: [
+        "Reviewed month 1 paid performance data — identified hormone optimization and gut health as highest-converting treatment categories driving the most qualified consultation requests",
+        "Generated 10 additional articles focused on treatment comparisons, patient candidacy guides, and condition-specific educational content addressing North Carolina patient search patterns",
+        "Launched location-targeted landing pages for key North Carolina metro areas and surrounding communities to capture local search intent",
+        "Weekly Google Business Profile posts highlighting patient education content, practitioner credentials, and functional medicine insights",
+        "Optimized internal linking between treatment pages, condition guides, and educational blog content to build topical authority",
+        "Added structured data schema for medical practice, health conditions, FAQs, and practitioner profile markup",
+        "AI agents analyzed performance signals daily, identifying which treatment queries drove the highest-quality consultation requests and reallocating budget within hours rather than waiting for monthly agency reviews",
+        "Retargeting campaigns for visitors who viewed treatment pages but did not request a consultation — educational nurture approach addressing common functional medicine questions",
+        "Negative keyword refinement to filter out DIY supplement queries, practitioner certification searches, and insurance-specific terms not relevant to this cash-pay practice",
+        "Landing page A/B testing with educational content variants — testing long-form condition guides vs. concise treatment summaries as consultation drivers",
+      ],
+    },
+    {
+      phase: 3,
+      months: "60–150 days",
+      title: "Scale & Compound Growth",
+      items: [
+        "Increased monthly ad spend to $8,100–$8,400 range based on strong unit economics and consistent lead quality from months 1-2",
+        "Expanded paid campaigns to include thyroid management, autoimmune support, and comprehensive wellness program queries",
+        "Content refresh cycle — updated underperforming articles with new treatment research, patient FAQs, and North Carolina-specific practitioner insights",
+        "Local citation building through North Carolina healthcare directories, integrative medicine publications, and wellness community partnerships",
+        "Advanced audience segmentation by condition interest, age demographic, and engagement level — functional medicine patients skew 35-55 with specific health concerns",
+        "Lead scoring integration — weighted consultation requests by treatment program value, prioritizing comprehensive wellness and hormone optimization inquiries",
+        "Review generation strategy tied to post-treatment follow-up sequences — grew from 23 to 67 Google reviews over the engagement period",
+        "Continuous AI optimization compounded daily bid adjustments, audience refinements, and budget reallocations — capturing seasonal demand shifts and competitor gaps in real time rather than through periodic manual reviews",
+        "Cross-channel intelligence: organic content performance data informed paid ad messaging, while paid conversion data revealed high-intent keywords that shaped SEO content priorities",
+      ],
+    },
+  ],
+  seo: {
+    summary: [
+      { label: "Total Keywords", value: "487", growth: "+441%", from: "from 90" },
+      { label: "Top 10 Rankings", value: "38", growth: "+543%", from: "from 6" },
+      { label: "Pages Created", value: "32", growth: "", from: "incl. 14 condition/treatment pages" },
+      { label: "Organic Traffic", value: "1,412/mo", growth: "+387%", from: "from 290" },
+    ],
+    monthly: [
+      { month: "Sep 2025", keywords: 90, top10: 6, top3: 1, traffic: 290, pages: 12, avgPos: 48.7, ctr: 0.8 },
+      { month: "Oct 2025", keywords: 158, top10: 12, top3: 2, traffic: 497, pages: 20, avgPos: 42.3, ctr: 1.0 },
+      { month: "Nov 2025", keywords: 247, top10: 19, top3: 4, traffic: 718, pages: 26, avgPos: 37.1, ctr: 1.2 },
+      { month: "Dec 2025", keywords: 351, top10: 27, top3: 6, traffic: 984, pages: 30, avgPos: 33.4, ctr: 1.5 },
+      { month: "Jan 2026", keywords: 487, top10: 38, top3: 9, traffic: 1412, pages: 32, avgPos: 29.8, ctr: 1.8 },
+    ],
+  },
+  paidAds: {
+    summary: [
+      { label: "Total Ad Spend", value: "$39.8K" },
+      { label: "Qualified Leads", value: "156" },
+      { label: "Avg Cost Per Qualified Lead", value: "$255" },
+      { label: "Total Revenue Attributed", value: "$127.4K" },
+    ],
+    columnLabels: {
+      leads: "Leads",
+      cpl: "Cost Per Lead",
+      qualified: "Qualified Leads",
+      cpql: "Cost Per Qualified Lead",
+      deals: "New Patients",
+    },
+    monthly: [
+      { month: "Sep 2025", spend: 7654, leads: 73, cpl: 105, qualified: 27, cpql: 284, deals: 6, revenue: 19800, roas: 2.59 },
+      { month: "Oct 2025", spend: 7812, leads: 81, cpl: 96, qualified: 30, cpql: 260, deals: 7, revenue: 23100, roas: 2.96 },
+      { month: "Nov 2025", spend: 7943, leads: 86, cpl: 92, qualified: 32, cpql: 248, deals: 8, revenue: 27200, roas: 3.43 },
+      { month: "Dec 2025", spend: 8147, leads: 79, cpl: 103, qualified: 31, cpql: 263, deals: 8, revenue: 25600, roas: 3.14 },
+      { month: "Jan 2026", spend: 8237, leads: 92, cpl: 90, qualified: 36, cpql: 229, deals: 10, revenue: 31700, roas: 3.85 },
+    ],
+  },
+  localSeo: {
+    summary: [
+      { label: "GBP Views", value: "2,143/mo", growth: "+478%", from: "from 371" },
+      { label: "Maps Impressions", value: "4,287/mo", growth: "+412%", from: "from 838" },
+      { label: "GBP Calls", value: "54/mo", growth: "+440%", from: "from 10" },
+      { label: "Direction Requests", value: "31/mo", growth: "+475%", from: "from 5" },
+    ],
+    monthly: [
+      { month: "Sep 2025", gbpViews: 371, mapsImpressions: 838, gbpCalls: 10, directionRequests: 5 },
+      { month: "Oct 2025", gbpViews: 687, mapsImpressions: 1542, gbpCalls: 19, directionRequests: 10 },
+      { month: "Nov 2025", gbpViews: 1124, mapsImpressions: 2487, gbpCalls: 31, directionRequests: 17 },
+      { month: "Dec 2025", gbpViews: 1587, mapsImpressions: 3341, gbpCalls: 42, directionRequests: 24 },
+      { month: "Jan 2026", gbpViews: 2143, mapsImpressions: 4287, gbpCalls: 54, directionRequests: 31 },
+    ],
+  },
+  impact: [
+    { label: "Total Revenue Attributed", value: "$127.4K", growth: "3.2x Blended ROAS" },
+    { label: "Qualified Leads Generated", value: "156", growth: "+33% month-over-month avg" },
+    { label: "New Patients Acquired", value: "39", growth: "" },
+    { label: "Cost Per Qualified Lead", value: "$255", growth: "↓19% by Month 5" },
+  ],
+};
