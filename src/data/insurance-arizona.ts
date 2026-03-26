@@ -3,7 +3,7 @@ import { CaseStudyData } from "./types";
 export const insuranceArizona: CaseStudyData = {
   slug: "insurance-arizona",
   industry: "Insurance",
-  headline: "How an Arizona Insurance Agency Generated $287K in New Policy Revenue With AI-Powered SEO and Paid Advertising",
+  headline: "How an Arizona Insurance Agency Generated $207K in New Policy Revenue With AI-Powered SEO and Paid Advertising",
   subheadline: "MEGA helped a Phoenix-area insurance agency serving Arizona families and businesses build a comprehensive digital marketing program combining SEO and paid advertising, growing organic traffic by 4,811% while reducing cost per qualified lead by 36% and generating $207K in attributed policy revenue over 12 months.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
@@ -99,7 +99,7 @@ export const insuranceArizona: CaseStudyData = {
       { label: "Total Keywords", value: "8,847", growth: "+7,799%", from: "from 112" },
       { label: "Top 10 Rankings", value: "489", growth: "+3,975%", from: "from 12" },
       { label: "Pages Created", value: "127", growth: "", from: "incl. location × coverage pages" },
-      { label: "Organic Traffic", value: "23,914/mo", growth: "+1,680%", from: "from 1,344" },
+      { label: "Organic Traffic", value: "23,914/mo", growth: "+4,810%", from: "from 487" },
     ],
     monthly: [
       { month: "Feb '25", keywords: 112, top10: 12, top3: 2, traffic: 487, pages: 11, avgPos: 52.7, ctr: 0.6 },
@@ -146,9 +146,9 @@ export const insuranceArizona: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$286,840", growth: "+412%" },
-    { label: "Policies Bound", value: "71", growth: "+284%" },
-    { label: "Avg Policy Value", value: "$4,040", growth: "" },
-    { label: "Blended ROAS", value: "3.62x", growth: "" },
+    { label: "Total Revenue", value: "$207,580", growth: "+312%" },
+    { label: "Policies Bound", value: "66", growth: "+267%" },
+    { label: "Avg Policy Value", value: "$3,145", growth: "" },
+    { label: "Blended ROAS", value: "2.62x", growth: "" },
   ],
 };
