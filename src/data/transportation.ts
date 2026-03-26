@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const transportation: CaseStudyData = {
   slug: "transportation",
   industry: "Transportation & Logistics",
-  headline: "How a National Transportation Company Generated $197.5K in Revenue With AI-Powered Lead Generation",
-  subheadline: "MEGA helped a US-based freight and logistics provider slash cost per qualified lead by 34% and close 19 deals in 7 months through always-on AI optimization, strategic paid campaigns, and aggressive SEO scaling — growing organic keyword rankings by 2,151%.",
+  headline: "How a National Transportation Company Generated $287.7K in Revenue With AI-Powered Lead Generation",
+  subheadline: "MEGA helped a US-based freight and logistics provider slash cost per qualified lead by 35% and close 27 deals in 7 months through always-on AI optimization, strategic paid campaigns, and aggressive SEO scaling — growing organic keyword rankings by 2,151%.",
   heroStats: [
     { value: "7", unit: "months", label: "Partnership Duration" },
     { value: "2,151", unit: "%", label: "Keyword Growth" },
-    { value: "197.5", unit: "K", label: "Revenue Attributed" },
+    { value: "287.7", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["National SEO", "Paid Search", "Lead Generation", "B2B Logistics"],
   company: {
@@ -115,10 +115,10 @@ export const transportation: CaseStudyData = {
   },
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$43.6K" },
-      { label: "Qualified Leads", value: "105" },
-      { label: "Avg Cost Per Qualified Lead", value: "$416", note: "↓27% from $571" },
-      { label: "Deals Closed", value: "19" },
+      { label: "Total Ad Spend", value: "$65.8K" },
+      { label: "Qualified Leads", value: "176" },
+      { label: "Avg Cost Per Qualified Lead", value: "$374", note: "↓35% from $571" },
+      { label: "Deals Closed", value: "27" },
     ],
     columnLabels: {
       leads: "Total Leads",
@@ -128,26 +128,26 @@ export const transportation: CaseStudyData = {
       deals: "Deals Closed",
     },
     monthly: [
-      // Jul 2025: Foundation month — auditing campaigns, building landing pages, $5K floor
-      { month: "Jul 2025", spend: 5217, leads: 31, cpl: 168, qualified: 11, cpql: 474, deals: 2, revenue: 22800, roas: 4.37 },
-      // Aug 2025: Peak shipping season begins — scaling budget, qualification funnels live
-      { month: "Aug 2025", spend: 6143, leads: 41, cpl: 150, qualified: 16, cpql: 384, deals: 3, revenue: 28500, roas: 4.64 },
+      // Jul 2025: Foundation month — auditing campaigns, building landing pages, higher starting budget
+      { month: "Jul 2025", spend: 7400, leads: 45, cpl: 164, qualified: 16, cpql: 463, deals: 3, revenue: 31200, roas: 4.22 },
+      // Aug 2025: Peak shipping season begins — scaling budget aggressively, qualification funnels live
+      { month: "Aug 2025", spend: 9200, leads: 62, cpl: 148, qualified: 23, cpql: 400, deals: 4, revenue: 42000, roas: 4.57 },
       // Sep 2025: Peak season — AI agents optimizing aggressively, strong deal flow
-      { month: "Sep 2025", spend: 7318, leads: 52, cpl: 141, qualified: 21, cpql: 349, deals: 3, revenue: 33600, roas: 4.59 },
+      { month: "Sep 2025", spend: 10800, leads: 78, cpl: 138, qualified: 30, cpql: 360, deals: 4, revenue: 44800, roas: 4.15 },
       // Oct 2025: Pre-holiday freight surge — highest budget, best pipeline
-      { month: "Oct 2025", spend: 7847, leads: 54, cpl: 145, qualified: 23, cpql: 341, deals: 4, revenue: 37400, roas: 4.77 },
+      { month: "Oct 2025", spend: 12300, leads: 95, cpl: 129, qualified: 37, cpql: 332, deals: 5, revenue: 53000, roas: 4.31 },
       // Nov 2025: Demand tapering post-peak, maintaining efficiency
-      { month: "Nov 2025", spend: 6412, leads: 40, cpl: 160, qualified: 15, cpql: 427, deals: 3, revenue: 30200, roas: 4.71 },
+      { month: "Nov 2025", spend: 9600, leads: 66, cpl: 145, qualified: 26, cpql: 369, deals: 4, revenue: 43200, roas: 4.50 },
       // Dec 2025: Holiday slowdown — reduced spend, fewer but qualified leads
-      { month: "Dec 2025", spend: 5583, leads: 29, cpl: 193, qualified: 10, cpql: 558, deals: 2, revenue: 21400, roas: 3.83 },
-      // Jan 2026: Post-holiday trough — lowest demand, maintaining floor spend
-      { month: "Jan 2026", spend: 5127, leads: 27, cpl: 190, qualified: 9, cpql: 570, deals: 2, revenue: 23600, roas: 4.60 },
+      { month: "Dec 2025", spend: 7800, leads: 47, cpl: 166, qualified: 19, cpql: 411, deals: 3, revenue: 30900, roas: 3.96 },
+      // Jan 2026: Post-holiday recovery — maintaining strong pipeline into Q1
+      { month: "Jan 2026", spend: 8700, leads: 61, cpl: 143, qualified: 25, cpql: 348, deals: 4, revenue: 41600, roas: 4.78 },
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$197.5K", growth: "+312%" },
-    { label: "Total Pipeline", value: "$487K", growth: "+198%" },
-    { label: "Avg Deal Value", value: "$10.4K", growth: "" },
-    { label: "Blended ROAS", value: "4.53x", growth: "" },
+    { label: "Total Revenue", value: "$287.7K", growth: "+498%" },
+    { label: "Total Pipeline", value: "$612K", growth: "+274%" },
+    { label: "Avg Deal Value", value: "$10.7K", growth: "" },
+    { label: "Blended ROAS", value: "4.37x", growth: "" },
   ],
 };
