@@ -565,6 +565,7 @@
     "Functional Medicine Clinic": "healthcare_medical",
     "Insurance": "lead_gen_professional",
     "Meal Prep Service": "lead_gen_services",
-    "Hospitality / Private Membership Clubs": "lead_gen_services"
+    "Hospitality / Private Membership Clubs": "lead_gen_services",
+    "Vacation Rental": "lead_gen_services"
   }
 }

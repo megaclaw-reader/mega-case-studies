@@ -1,4 +1,5 @@
 import { CaseStudyData } from "./types";
+import { vacationRental } from "./vacation-rental";
 import { functionalMedicineClinic } from "./functional-medicine-clinic";
 import { logisticsSupplyChain } from "./logistics-supply-chain";
 import { insuranceArizona } from "./insurance-arizona";
@@ -311,6 +312,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "functional-medicine-clinic": functionalMedicineClinic,
   "insurance-arizona": insuranceArizona,
   "private-membership-clubs": privateMembershipClubs,
+  "vacation-rental": vacationRental,
 };
 
 export type { CaseStudyData };
