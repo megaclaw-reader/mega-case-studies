@@ -559,6 +559,7 @@
     "transportation": "lead_gen_professional",
     "Logistics & Supply Chain": "lead_gen_professional",
     "Functional Medicine Clinic": "healthcare_medical",
-    "Insurance": "lead_gen_professional"
+    "Insurance": "lead_gen_professional",
+    "Meal Prep Service": "lead_gen_services"
   }
 }
