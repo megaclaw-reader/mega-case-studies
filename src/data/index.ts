@@ -153,6 +153,7 @@ import { dietarySupplements } from "./dietary-supplements";
 import { tropicalDestinationPlanner } from "./tropical-destination-planner";
 import { transportation } from "./transportation";
 import { mealPrepService } from "./meal-prep-service";
+import { privateMembershipClubs } from "./private-membership-clubs";
 
 export const caseStudies: Record<string, CaseStudyData> = {
   "alarm-surveillance-seo": alarmSurveillanceSeo,
@@ -309,6 +310,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "meal-prep-service": mealPrepService,
   "functional-medicine-clinic": functionalMedicineClinic,
   "insurance-arizona": insuranceArizona,
+  "private-membership-clubs": privateMembershipClubs,
 };
 
 export type { CaseStudyData };

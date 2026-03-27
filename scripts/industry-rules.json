@@ -138,6 +138,10 @@
         "chiropractor": [
           500,
           2000
+        ],
+        "private_membership_club": [
+          2000,
+          10000
         ]
       }
     },
@@ -560,6 +564,7 @@
     "Logistics & Supply Chain": "lead_gen_professional",
     "Functional Medicine Clinic": "healthcare_medical",
     "Insurance": "lead_gen_professional",
-    "Meal Prep Service": "lead_gen_services"
+    "Meal Prep Service": "lead_gen_services",
+    "Hospitality / Private Membership Clubs": "lead_gen_services"
   }
 }

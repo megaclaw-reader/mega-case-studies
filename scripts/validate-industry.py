@@ -80,6 +80,7 @@ CPL_RANGES = {
     "b2b_office_service": (75, 275),
     "logistics":         (100, 450),
     "healthcare_equip":  (30, 300),
+    "private_membership_club": (80, 300),
     # Wealth management / financial
     "wealth_mgmt":       (100, 2500),
     "financial_services": (75, 1500),
@@ -136,6 +137,7 @@ def _cpl_category(industry, model_key):
         ("dealership", "automotive_dealer"),
         ("logistics", "logistics"), ("supply chain", "logistics"), ("freight", "logistics"),
         ("b2b office", "b2b_office_service"), ("office service", "b2b_office_service"), ("managed print", "b2b_office_service"), ("copier", "b2b_office_service"),
+        ("private membership", "private_membership_club"), ("membership club", "private_membership_club"),
         ("alarm", "alarm_surveillance"), ("surveillance", "alarm_surveillance"), ("security system", "alarm_surveillance"),
         ("rental home", "rental_home_mgmt"), ("property management", "rental_home_mgmt"), ("rental management", "rental_home_mgmt"),
         ("franchise restaurant", "franchise_restaurant"), ("franchise", "franchise_restaurant"),
@@ -223,6 +225,7 @@ DEAL_VALUE_RANGES = {
     "rental_home_mgmt": (2400, 9600),
     "alarm_surveillance": (2000, 8000),
     "franchise_restaurant": (1500, 5000),
+    "private_membership_club": (2000, 10000),
     "b2b_office_service": (3000, 25000),
     "logistics": (8000, 60000),
     "legal": (2000, 30000),
