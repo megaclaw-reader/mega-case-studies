@@ -418,6 +418,10 @@
         "default": [
           40,
           150
+        ],
+        "candles_home_fragrance": [
+          35,
+          55
         ]
       }
     },
@@ -566,6 +570,7 @@
     "Insurance": "lead_gen_professional",
     "Meal Prep Service": "lead_gen_services",
     "Hospitality / Private Membership Clubs": "lead_gen_services",
-    "Vacation Rental": "lead_gen_services"
+    "Vacation Rental": "lead_gen_services",
+    "Boutique Skincare & Wellness": "ecommerce"
   }
 }
