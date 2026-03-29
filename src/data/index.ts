@@ -156,6 +156,7 @@ import { tropicalDestinationPlanner } from "./tropical-destination-planner";
 import { transportation } from "./transportation";
 import { mealPrepService } from "./meal-prep-service";
 import { privateMembershipClubs } from "./private-membership-clubs";
+import { premiumCandleHomeFragrance } from "./premium-candle-home-fragrance";
 
 export const caseStudies: Record<string, CaseStudyData> = {
   "alarm-surveillance-seo": alarmSurveillanceSeo,
@@ -315,6 +316,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "private-membership-clubs": privateMembershipClubs,
   "vacation-rental": vacationRental,
   "boutique-skincare-wellness": boutiqueSkincareWellness,
+  "premium-candle-home-fragrance": premiumCandleHomeFragrance,
 };
 
 export type { CaseStudyData };
