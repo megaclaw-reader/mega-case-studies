@@ -20,6 +20,7 @@ DATA_DIR = os.path.join(SCRIPT_DIR, "..", "src", "data")
 # For ecom, this is cost-per-session (much lower). For services, cost-per-lead.
 CPL_RANGES = {
     # Lead gen services — local, lower competition
+    "sports_nutrition":  (15, 55),
     "painting":         (20, 120),
     "dental":           (15, 120),
     "cosmetic_dentistry": (45, 150),
@@ -172,6 +173,7 @@ def _cpl_category(industry, model_key):
         ("telemedicine", "telemedicine"), ("telehealth", "telemedicine"),
         ("mental health", "mental_health"),
         ("regenerative", "regen_medicine"), ("functional medicine", "regen_medicine"),
+        ("sports nutrition", "sports_nutrition"), ("supplement", "sports_nutrition"),
         ("yoga", "gym_fitness"), ("pilates", "gym_fitness"),
         ("self improvement", "education"), ("subscription", "education"),
         ("peptide", "healthcare"),
@@ -188,6 +190,7 @@ def _cpl_category(industry, model_key):
 
 # ─── Deal value ranges by industry ───
 DEAL_VALUE_RANGES = {
+    "sports_nutrition": (150, 600),
     "painting": (2000, 10000),
     "dental": (300, 5000),
     "cosmetic_dentistry": (1500, 5000),

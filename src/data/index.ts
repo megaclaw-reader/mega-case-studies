@@ -1,4 +1,5 @@
 import { CaseStudyData } from "./types";
+import { sportsNutritionArizona } from "./sports-nutrition-arizona";
 import { cosmeticDentistryAustin } from "./cosmetic-dentistry-austin";
 import { customVehicleManufacturing } from "./custom-vehicle-manufacturing";
 import { vacationRental } from "./vacation-rental";
@@ -321,6 +322,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "boutique-skincare-wellness": boutiqueSkincareWellness,
   "premium-candle-home-fragrance": premiumCandleHomeFragrance,
   "custom-vehicle-manufacturing": customVehicleManufacturing,
+  "sports-nutrition-arizona": sportsNutritionArizona,
   "cosmetic-dentistry-austin": cosmeticDentistryAustin,
   "security-protective-services-arizona": securityProtectiveServicesArizona,
 };
