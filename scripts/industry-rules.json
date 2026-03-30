@@ -142,6 +142,10 @@
         "private_membership_club": [
           2000,
           10000
+        ],
+        "custom_vehicle_manufacturing": [
+          3000,
+          15000
         ]
       }
     },
@@ -571,6 +575,7 @@
     "Meal Prep Service": "lead_gen_services",
     "Hospitality / Private Membership Clubs": "lead_gen_services",
     "Vacation Rental": "lead_gen_services",
-    "Boutique Skincare & Wellness": "ecommerce"
+    "Boutique Skincare & Wellness": "ecommerce",
+    "Custom Vehicle Manufacturing": "lead_gen_services"
   }
 }
