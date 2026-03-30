@@ -22,6 +22,7 @@ CPL_RANGES = {
     # Lead gen services — local, lower competition
     "painting":         (20, 120),
     "dental":           (15, 120),
+    "cosmetic_dentistry": (45, 150),
     "hvac":             (20, 150),
     "roofing":          (25, 200),
     "plumbing":         (15, 120),
@@ -112,7 +113,7 @@ def _cpl_category(industry, model_key):
     # Try specific matches
     # Order matters — more specific matches first
     mappings = [
-        ("chiropract", "chiropractor"), ("painting", "painting"), ("dental", "dental"), ("hvac", "hvac"), ("roof", "roofing"),
+        ("cosmetic dentist", "cosmetic_dentistry"), ("chiropract", "chiropractor"), ("painting", "painting"), ("dental", "dental"), ("hvac", "hvac"), ("roof", "roofing"),
         ("plumb", "plumbing"), ("commercial landscap", "construction"),
         ("landscap", "landscaping"), ("clean", "cleaning"),
         ("moving", "moving"), ("garage", "garage_door"),
@@ -189,6 +190,7 @@ def _cpl_category(industry, model_key):
 DEAL_VALUE_RANGES = {
     "painting": (2000, 10000),
     "dental": (300, 5000),
+    "cosmetic_dentistry": (1500, 5000),
     "hvac": (2000, 15000),
     "roofing": (5000, 30000),
     "plumbing": (300, 6000),
