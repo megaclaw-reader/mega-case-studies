@@ -159,6 +159,7 @@ import { transportation } from "./transportation";
 import { mealPrepService } from "./meal-prep-service";
 import { privateMembershipClubs } from "./private-membership-clubs";
 import { premiumCandleHomeFragrance } from "./premium-candle-home-fragrance";
+import { securityProtectiveServicesArizona } from "./security-protective-services-arizona";
 
 export const caseStudies: Record<string, CaseStudyData> = {
   "alarm-surveillance-seo": alarmSurveillanceSeo,
@@ -321,6 +322,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "premium-candle-home-fragrance": premiumCandleHomeFragrance,
   "custom-vehicle-manufacturing": customVehicleManufacturing,
   "cosmetic-dentistry-austin": cosmeticDentistryAustin,
+  "security-protective-services-arizona": securityProtectiveServicesArizona,
 };
 
 export type { CaseStudyData };
