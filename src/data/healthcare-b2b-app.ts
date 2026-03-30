@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const healthcareB2bApp: CaseStudyData = {
   slug: "healthcare-b2b-app",
   industry: "Healthcare B2B App",
-  headline: "How a National B2B Employee Wellness Platform Generated 259 Qualified HR Leads and $219K in Contract Revenue",
-  subheadline: "MEGA partnered with a national health and wellness app company to build a paid advertising engine targeting HR decision-makers — reducing cost per qualified lead from $487 to $226, closing 9 enterprise deals, and generating $219K in attributed revenue over 7 months.",
+  headline: "How a National B2B Employee Wellness Platform Generated 259 Qualified HR Leads and $222.7K in Contract Revenue",
+  subheadline: "MEGA partnered with a national health and wellness app company to build a paid advertising engine targeting HR decision-makers — reducing cost per qualified lead from $487 to $226, closing 22 deals, and generating $222.7K in attributed revenue over 7 months.",
   heroStats: [
     { value: "7", unit: "months", label: "Partnership Duration" },
     { value: "259", unit: "", label: "Qualified HR Leads" },
-    { value: "$219", unit: "K", label: "Revenue Generated" },
+    { value: "$222.7", unit: "K", label: "Revenue Generated" },
   ],
   tags: ["Paid Advertising", "B2B Lead Generation", "AI-Powered Optimization"],
   company: {
@@ -16,7 +16,7 @@ export const healthcareB2bApp: CaseStudyData = {
     employees: "28",
     revenue: "$1.2M",
     location: "Nationwide US",
-    description: "A growing health and wellness technology company offering an employee wellness app designed for mid-size and enterprise businesses. The platform provides personalized wellness programs, mental health resources, fitness tracking, and health coaching — all managed through an HR dashboard that tracks employee engagement and program ROI. The company targets HR directors and benefits managers at organizations with 100-5,000 employees, with annual contracts ranging from $15K to $45K depending on company size. Despite strong product retention and positive client outcomes, the company struggled to generate a consistent flow of qualified HR decision-maker leads through digital advertising.",
+    description: "A growing health and wellness technology company offering an employee wellness app designed for mid-size and enterprise businesses. The platform provides personalized wellness programs, mental health resources, fitness tracking, and health coaching — all managed through an HR dashboard that tracks employee engagement and program ROI. The company targets HR directors and benefits managers at organizations with 100-5,000 employees, with annual contracts ranging from $6K to $18K depending on company size. Despite strong product retention and positive client outcomes, the company struggled to generate a consistent flow of qualified HR decision-maker leads through digital advertising.",
   },
   challenges: [
     {
@@ -82,7 +82,7 @@ export const healthcareB2bApp: CaseStudyData = {
       { label: "Total Ad Spend", value: "$60,709" },
       { label: "Qualified Leads", value: "259" },
       { label: "Avg Cost Per Qualified Lead", value: "$234", note: "↓52% from $487" },
-      { label: "Closed Deals", value: "9" },
+      { label: "Closed Deals", value: "22" },
     ],
     columnLabels: {
       leads: "Total Leads",
@@ -92,19 +92,19 @@ export const healthcareB2bApp: CaseStudyData = {
       deals: "Closed Deals",
     },
     monthly: [
-      { month: "Jul '25", spend: 7564, leads: 42, cpl: 180, qualified: 27, cpql: 280, deals: 1, revenue: 24800, roas: 3.28 },
-      { month: "Aug '25", spend: 7891, leads: 48, cpl: 164, qualified: 31, cpql: 255, deals: 1, revenue: 18500, roas: 2.34 },
-      { month: "Sep '25", spend: 8247, leads: 54, cpl: 153, qualified: 35, cpql: 236, deals: 1, revenue: 32100, roas: 3.89 },
-      { month: "Oct '25", spend: 8734, leads: 57, cpl: 153, qualified: 38, cpql: 230, deals: 2, revenue: 41700, roas: 4.77 },
-      { month: "Nov '25", spend: 9813, leads: 65, cpl: 151, qualified: 45, cpql: 218, deals: 1, revenue: 27400, roas: 2.79 },
-      { month: "Dec '25", spend: 9247, leads: 60, cpl: 154, qualified: 42, cpql: 220, deals: 2, revenue: 43200, roas: 4.67 },
-      { month: "Jan '26", spend: 9213, leads: 59, cpl: 156, qualified: 41, cpql: 225, deals: 1, revenue: 31800, roas: 3.45 },
+      { month: "Jul '25", spend: 7564, leads: 42, cpl: 180, qualified: 27, cpql: 280, deals: 2, revenue: 18200, roas: 2.41 },
+      { month: "Aug '25", spend: 7891, leads: 48, cpl: 164, qualified: 31, cpql: 255, deals: 3, revenue: 28700, roas: 3.64 },
+      { month: "Sep '25", spend: 8247, leads: 54, cpl: 153, qualified: 35, cpql: 236, deals: 3, revenue: 31400, roas: 3.81 },
+      { month: "Oct '25", spend: 8734, leads: 57, cpl: 153, qualified: 38, cpql: 230, deals: 4, revenue: 38900, roas: 4.45 },
+      { month: "Nov '25", spend: 9813, leads: 65, cpl: 151, qualified: 45, cpql: 218, deals: 3, revenue: 33600, roas: 3.42 },
+      { month: "Dec '25", spend: 9247, leads: 60, cpl: 154, qualified: 42, cpql: 220, deals: 4, revenue: 42100, roas: 4.55 },
+      { month: "Jan '26", spend: 9213, leads: 59, cpl: 156, qualified: 41, cpql: 225, deals: 3, revenue: 29800, roas: 3.23 },
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$219.5K", growth: "+267%" },
-    { label: "Total Deals Closed", value: "9", growth: "+200%" },
-    { label: "Avg Contract Value", value: "$24,389", growth: "" },
-    { label: "Blended ROAS", value: "3.62x", growth: "" },
+    { label: "Total Revenue", value: "$222.7K", growth: "+272%" },
+    { label: "Total Deals Closed", value: "22", growth: "+633%" },
+    { label: "Avg Contract Value", value: "$10,123", growth: "" },
+    { label: "Blended ROAS", value: "3.67x", growth: "" },
   ],
 };
