@@ -224,6 +224,10 @@
         "equipment_financing": [
           50000,
           500000
+        ],
+        "healthcare_b2b_app": [
+          15000,
+          50000
         ]
       }
     },
@@ -579,6 +583,7 @@
     "Custom Vehicle Manufacturing": "lead_gen_services",
     "Cosmetic Dentistry": "lead_gen_services",
     "Security and Protective Services": "lead_gen_services",
-    "Sports Nutrition": "lead_gen_services"
+    "Sports Nutrition": "lead_gen_services",
+    "Healthcare B2B App": "lead_gen_professional"
   }
 }
