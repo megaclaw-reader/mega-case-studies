@@ -87,6 +87,10 @@
           30,
           200
         ],
+        "dog_grooming": [
+          200,
+          800
+        ],
         "rental_car_company": [
           200,
           1000
@@ -591,6 +595,7 @@
     "Healthcare B2B App": "lead_gen_professional",
     "Multifamily Housing Rental Properties": "lead_gen_services",
     "Website with App": "saas",
-    "Mobile App": "saas"
+    "Mobile App": "saas",
+    "Dog Grooming Service": "lead_gen_services"
   }
 }

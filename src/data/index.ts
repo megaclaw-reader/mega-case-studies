@@ -115,6 +115,7 @@ import { lawFirmNational } from "./law-firm-national";
 import { seniorCareNm } from "./senior-care-nm";
 import { wearableHealthTech } from "./wearable-health-tech";
 import { beautySpaAustin } from "./beauty-spa-austin";
+import { dogGroomingArizona } from "./dog-grooming-arizona";
 import { privateMedicalPracticeAustin } from "./private-medical-practice-austin";
 import { petProductsEcommerce } from "./pet-products-ecommerce";
 import { wearableHealthTechTx } from "./wearable-health-tech-tx";
@@ -333,6 +334,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "healthcare-b2b-app": healthcareB2bApp,
   "website-app-seo": websiteAppSeo,
   "mobile-app-seo": mobileAppSeo,
+  "dog-grooming-arizona": dogGroomingArizona,
 };
 
 export type { CaseStudyData };
