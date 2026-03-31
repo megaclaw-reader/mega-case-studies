@@ -1,0 +1,137 @@
+import { CaseStudyData } from "./types";
+
+export const multifamilyHousingBoston: CaseStudyData = {
+  slug: "multifamily-housing-boston",
+  industry: "Multifamily Housing Rental Properties",
+  headline: "How a Boston Multifamily Property Management Company Generated 174 Qualified Tenant Leads to Fill Rental Units Across the City",
+  subheadline: "MEGA helped a Boston-based multifamily housing company drive qualified tenant leads through AI-powered paid advertising and local SEO, reducing cost per qualified lead from $516 to $338 and generating $168.6K in attributed lease revenue over 7 months.",
+  heroStats: [
+    { value: "174", unit: "", label: "Qualified Leads" },
+    { value: "168.6", unit: "K", label: "Lease Revenue" },
+    { value: "35", unit: "%", label: "CPQL Reduction" },
+  ],
+  tags: ["SEO", "Paid Advertising", "Lead Generation"],
+  company: {
+    industry: "Multifamily Housing Rental Properties",
+    employees: "18",
+    revenue: "$2.8M",
+    location: "Boston, MA",
+    description: "A growing multifamily property management company overseeing rental units across Boston's diverse neighborhoods — from Back Bay and South Boston to Allston, Brighton, and Cambridge-adjacent communities. The company manages a portfolio of apartment buildings ranging from 8 to 60+ units each, catering to young professionals, graduate students, and families relocating to the Boston metro area. Despite strong occupancy rates historically, the company was facing rising vacancy rates as competition intensified from newer luxury developments and institutional property managers with larger marketing budgets. Their existing marketing consisted of basic listings on rental platforms and word-of-mouth referrals, with no systematic digital strategy to attract qualified tenants or fill units ahead of Boston's critical September lease cycle.",
+  },
+  challenges: [
+    {
+      title: "Rising Vacancy Rates With No Proactive Lead Generation Strategy",
+      description: "The company relied almost entirely on third-party listing platforms and walk-in inquiries to fill vacancies. With Boston's rental market becoming increasingly competitive — particularly in neighborhoods like South Boston and the Seaport where new luxury developments were absorbing demand — passive marketing was no longer enough. Vacancy rates had climbed from 3% to nearly 7% across the portfolio, costing thousands in lost monthly rental income. There was no system to proactively generate qualified tenant leads or track where successful lease signings originated.",
+    },
+    {
+      title: "No Organic Search Visibility for Boston Rental Keywords",
+      description: "The company's website had minimal content beyond basic property listings. They ranked for just 94 keywords, almost none in the top 10, and were invisible for high-intent searches like 'apartments for rent in South Boston,' 'pet-friendly rentals Back Bay,' and 'Boston apartments near T.' Competitors with established content strategies and neighborhood-specific landing pages were capturing the majority of organic search traffic from prospective tenants actively looking for housing in Boston.",
+    },
+    {
+      title: "Seasonal Pressure From Boston's September Lease Cycle",
+      description: "Boston's rental market is uniquely driven by the September 1st lease cycle, when tens of thousands of leases turn over simultaneously — fueled by the city's massive student and academic population. The company had no strategy to capitalize on this annual surge. Marketing spend was flat year-round, there was no pre-season lead nurturing, and by the time peak demand hit, competing properties had already captured the best tenants. The July–August window to fill September vacancies was being wasted without targeted campaigns.",
+    },
+  ],
+  strategy: [
+    {
+      phase: 1,
+      months: "0–30 days",
+      title: "Foundation & Lead Pipeline Setup",
+      items: [
+        "Full site audit — technical SEO, mobile performance, and crawlability review focused on local rental search visibility across Boston neighborhoods",
+        "Google Business Profile optimization with service area targeting across 28 Boston-area zip codes, updated photos of available units, and review generation campaign from current tenants",
+        "Competitor analysis across Boston's top 20 property management companies — identified content gaps, keyword opportunities, and paid advertising positioning for rental-focused searches",
+        "Generated 14 initial articles covering Boston neighborhood rental guides, moving-to-Boston checklists, tenant qualification resources, and seasonal rental market insights",
+        "Built closed-loop lead tracking from ad click to property tour to signed lease, integrating with the property management CRM to measure true cost per qualified tenant lead",
+        "Launched initial paid search campaigns targeting high-intent rental keywords: 'apartments for rent Boston,' 'Boston 2-bedroom apartments,' neighborhood-specific rental terms, and pet-friendly/amenity-based searches",
+        "Implemented negative keyword filters for commercial real estate, property investment, and out-of-market searches to focus budget exclusively on prospective tenants",
+        "Defined qualified lead criteria: tenant leads who passed income verification thresholds, matched unit availability, and scheduled a property tour or submitted an application",
+        "Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement — replacing the traditional weekly-review agency cadence with real-time optimization that captured shifts in rental demand as they happened",
+        "Built lead scoring model integrating search intent signals, income indicators, move-in timeline, and neighborhood preference data to prioritize high-quality tenant prospects",
+      ],
+    },
+    {
+      phase: 2,
+      months: "30–60 days",
+      title: "Neighborhood Targeting & Pre-Season Ramp",
+      items: [
+        "Reviewed 30-day performance data — refined audience targeting by neighborhood, unit size preference, and tenant demographic segments",
+        "Generated 18 additional articles targeting Boston neighborhood-specific rental content: Allston vs. Brighton comparison guides, South Boston waterfront living, Fenway area apartment tips, and public transit accessibility guides",
+        "Launched programmatic neighborhood landing pages for 22 Boston neighborhoods and surrounding communities, each optimized for local rental search terms",
+        "Built internal linking architecture connecting neighborhood pages, amenity-focused content, and seasonal guides to establish topical authority for Boston rental searches",
+        "AI agents analyzed daily performance signals across thousands of keyword and audience combinations, identifying which neighborhoods, unit types, and tenant demographics drove the highest-quality leads — reallocating budget in real time rather than waiting for monthly reviews",
+        "Retargeting campaigns for property listing page visitors and tour request form abandoners with urgency-driven messaging highlighting limited availability",
+        "Pre-season campaign buildout targeting September movers — launched 'Boston September 1st apartments' and 'fall move-in Boston' ad groups with dedicated landing pages",
+        "Added structured data schema for rental listings, local business, FAQ, and review markup across all neighborhood and property pages",
+      ],
+    },
+    {
+      phase: 3,
+      months: "60–90 days",
+      title: "September Cycle Surge Capture",
+      items: [
+        "Scaled paid advertising budget during peak August–September window to capture the surge in tenant searches ahead of Boston's September 1st lease turnover",
+        "Published urgent-availability content targeting last-minute Boston movers and students arriving for fall semester at BU, Northeastern, BC, and other area universities",
+        "Advanced audience segmentation by income bracket, household size, commute preference, pet ownership, and move-in timeline to match leads with appropriate available units",
+        "Expanded programmatic pages to cover T-line-specific searches (Green Line apartments, Red Line rentals, Orange Line neighborhoods) and university-proximity content",
+        "AI optimization detected the seasonal demand surge and automatically redistributed budget toward highest-converting keyword themes within hours — capturing opportunities that traditional agencies reviewing campaigns weekly would have missed entirely",
+        "CRO improvements: streamlined tour scheduling forms, added virtual tour CTAs, implemented chat for after-hours rental inquiries, and launched mobile-optimized unit comparison tools",
+        "Local backlink campaigns via Boston housing blogs, neighborhood association websites, university housing resource pages, and relocation guides",
+      ],
+    },
+    {
+      phase: 4,
+      months: "90+ days",
+      title: "Post-Season Optimization & Year-Round Pipeline",
+      items: [
+        "Transitioned from surge capture to year-round pipeline building — targeting mid-lease movers, corporate relocations, and early planners for the next cycle",
+        "Audience pruning based on 4+ months of lease signing data — removed low-intent segments, built lookalike audiences from tenants who signed leases",
+        "Expanded content to cover Boston winter rental tips, lease renewal resources, and early-bird September planning guides to capture future-cycle demand",
+        "Dynamic budget allocation adjusting spend based on real-time vacancy rates across the portfolio — higher bids for neighborhoods with more available units",
+        "Continuous CPQL optimization through creative refresh, landing page iteration, and lead scoring model refinement based on which lead characteristics predicted actual lease signings",
+        "Weekly reporting tied to CPQL trends, lease signing attribution, and vacancy fill rates by neighborhood and unit type",
+        "Content refresh cycles aligned to Boston's rental calendar — September cycle prep in spring, peak-season content in summer, off-cycle targeting in winter",
+      ],
+    },
+  ],
+  seo: {
+    summary: [
+      { label: "Total Keywords", value: "3,612", growth: "+3,743%", from: "from 94" },
+      { label: "Top 10 Rankings", value: "287", growth: "+9,467%", from: "from 3" },
+      { label: "Pages Created", value: "68", growth: "", from: "incl. 22 neighborhood landing pages" },
+      { label: "Organic Traffic", value: "8,947/mo", growth: "+6,432%", from: "from 137" },
+    ],
+    monthly: [
+      { month: "Jul 2025", keywords: 94, top10: 3, top3: 1, traffic: 412, pages: 4, avgPos: 48.7, ctr: 0.7 },
+      { month: "Aug 2025", keywords: 267, top10: 16, top3: 3, traffic: 1043, pages: 18, avgPos: 39.2, ctr: 0.9 },
+      { month: "Sep 2025", keywords: 614, top10: 52, top3: 9, traffic: 2187, pages: 32, avgPos: 31.4, ctr: 1.3 },
+      { month: "Oct 2025", keywords: 1187, top10: 108, top3: 19, traffic: 3841, pages: 44, avgPos: 25.1, ctr: 1.7 },
+      { month: "Nov 2025", keywords: 2041, top10: 176, top3: 34, traffic: 5412, pages: 53, avgPos: 21.3, ctr: 2.0 },
+      { month: "Dec 2025", keywords: 2714, top10: 241, top3: 51, traffic: 7124, pages: 61, avgPos: 18.6, ctr: 2.3 },
+      { month: "Jan 2026", keywords: 3612, top10: 287, top3: 68, traffic: 8947, pages: 68, avgPos: 16.4, ctr: 2.5 },
+    ],
+  },
+  paidAds: {
+    summary: [
+      { label: "Total Ad Spend", value: "$68.9K" },
+      { label: "Qualified Leads", value: "174" },
+      { label: "Avg CPQL", value: "$396", note: "↓23% from $516" },
+      { label: "Signed Leases", value: "41" },
+    ],
+    monthly: [
+      { month: "Jul 2025", spend: 8764, leads: 28, cpl: 313, qualified: 17, cpql: 516, deals: 3, revenue: 11541, roas: 1.32 },
+      { month: "Aug 2025", spend: 10247, leads: 38, cpl: 270, qualified: 24, cpql: 427, deals: 5, revenue: 21065, roas: 2.06 },
+      { month: "Sep 2025", spend: 12183, leads: 52, cpl: 234, qualified: 34, cpql: 358, deals: 9, revenue: 40383, roas: 3.31 },
+      { month: "Oct 2025", spend: 10412, leads: 41, cpl: 254, qualified: 28, cpql: 372, deals: 7, revenue: 29092, roas: 2.79 },
+      { month: "Nov 2025", spend: 9387, leads: 35, cpl: 268, qualified: 23, cpql: 408, deals: 6, revenue: 23544, roas: 2.51 },
+      { month: "Dec 2025", spend: 9124, leads: 32, cpl: 285, qualified: 22, cpql: 415, deals: 5, revenue: 18590, roas: 2.04 },
+      { month: "Jan 2026", spend: 8791, leads: 39, cpl: 225, qualified: 26, cpql: 338, deals: 6, revenue: 24378, roas: 2.77 },
+    ],
+  },
+  impact: [
+    { label: "Total Revenue", value: "$168.6K", growth: "" },
+    { label: "Blended ROAS", value: "2.45x", growth: "" },
+    { label: "Total Qualified Leads", value: "174", growth: "" },
+    { label: "Avg CPQL", value: "$396", growth: "↓23% from $516" },
+  ],
+};

@@ -100,6 +100,7 @@ import { saasPlatformCt } from "./saas-platform-ct";
 import { businessLitigationCt } from "./business-litigation-ct";
 import { constructionMembraneMaterials } from "./construction-membrane-materials";
 import { roofingHouston } from "./roofing-houston";
+import { multifamilyHousingBoston } from "./multifamily-housing-boston";
 import { windowsNj } from "./windows-nj";
 import { commercialInsuranceNy } from "./commercial-insurance-ny";
 import { equipmentFinancingBoston } from "./equipment-financing-boston";
@@ -247,6 +248,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "business-litigation-ct": businessLitigationCt,
   "construction-membrane-materials": constructionMembraneMaterials,
   "roofing-houston": roofingHouston,
+  "multifamily-housing-boston": multifamilyHousingBoston,
   "windows-nj": windowsNj,
   "commercial-insurance-ny": commercialInsuranceNy,
   "equipment-financing-boston": equipmentFinancingBoston,

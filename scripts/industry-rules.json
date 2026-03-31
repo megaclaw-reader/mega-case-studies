@@ -146,6 +146,10 @@
         "custom_vehicle_manufacturing": [
           3000,
           15000
+        ],
+        "multifamily_housing": [
+          1500,
+          4000
         ]
       }
     },
@@ -584,6 +588,7 @@
     "Cosmetic Dentistry": "lead_gen_services",
     "Security and Protective Services": "lead_gen_services",
     "Sports Nutrition": "lead_gen_services",
-    "Healthcare B2B App": "lead_gen_professional"
+    "Healthcare B2B App": "lead_gen_professional",
+    "Multifamily Housing Rental Properties": "lead_gen_services"
   }
 }
