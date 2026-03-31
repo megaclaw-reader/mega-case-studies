@@ -163,6 +163,7 @@ import { mealPrepService } from "./meal-prep-service";
 import { privateMembershipClubs } from "./private-membership-clubs";
 import { premiumCandleHomeFragrance } from "./premium-candle-home-fragrance";
 import { securityProtectiveServicesArizona } from "./security-protective-services-arizona";
+import { websiteAppSeo } from "./website-app-seo";
 
 export const caseStudies: Record<string, CaseStudyData> = {
   "alarm-surveillance-seo": alarmSurveillanceSeo,
@@ -329,6 +330,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "cosmetic-dentistry-austin": cosmeticDentistryAustin,
   "security-protective-services-arizona": securityProtectiveServicesArizona,
   "healthcare-b2b-app": healthcareB2bApp,
+  "website-app-seo": websiteAppSeo,
 };
 
 export type { CaseStudyData };
