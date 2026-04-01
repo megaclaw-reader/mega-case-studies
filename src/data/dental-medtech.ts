@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const dentalMedtech: CaseStudyData = {
   slug: "dental-medtech",
   industry: "Dental Medtech",
-  headline: "How a National Dental Medtech Company Generated $2.35M in Revenue at 4.72x Blended ROAS in 7 Months",
-  subheadline: "MEGA helped a B2B dental technology company shift from high-volume, low-quality leads to bottom-of-funnel qualified prospects — scaling monthly revenue past $365K, achieving 4.76x ROAS, and closing 53 equipment deals worth $2.35M across 7 months.",
+  headline: "How a National Dental Medtech Company Generated $1.58M in Revenue at 3.22x Blended ROAS in 7 Months",
+  subheadline: "MEGA helped a B2B dental technology company shift from high-volume, low-quality leads to bottom-of-funnel qualified prospects — doubling monthly revenue from $148K to $302K, achieving 3.22x blended ROAS, and closing 38 equipment deals worth $1.58M across 7 months.",
   heroStats: [
     { value: "7", unit: "months", label: "Partnership Duration" },
-    { value: "2,352.1", unit: "K", label: "Revenue Attributed" },
-    { value: "66", unit: "%", label: "Lead Qualification Rate" },
+    { value: "1,579.5", unit: "K", label: "Revenue Attributed" },
+    { value: "65", unit: "%", label: "Lead Qualification Rate" },
   ],
   tags: ["Paid Advertising", "SEO Strategy", "AI-Powered Optimization", "Lead Quality"],
   company: {
@@ -81,12 +81,12 @@ export const dentalMedtech: CaseStudyData = {
       months: "90+ days",
       title: "Aggressive Scale & Revenue Maximization",
       items: [
-        "Budget scaled to $75-77K/month as qualification rates exceeded 55% and deal values climbed — the client reinvested aggressively based on proven ROAS trajectory",
+        "Budget scaled to $73-74K/month as qualification rates exceeded 55% and deal values climbed — the client reinvested aggressively based on proven ROAS trajectory",
         "Budget reallocation based on qualified-lead-to-deal conversion data — shifted spend toward equipment categories with highest close rates and deal values",
         "Expansion of programmatic content into emerging dental technology categories and practice workflow optimization topics",
         "Audience pruning — removed low-intent segments identified through 90+ days of qualification data, tested new lookalike seeds from recent closed-won accounts",
         "Continuous AI optimization compounded daily improvements — bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for periodic agency review cycles",
-        "Monthly reporting with full pipeline attribution from click to closed deal — demonstrating $365K+ in monthly revenue and 4.76x ROAS by month 7",
+        "Monthly reporting with full pipeline attribution from click to closed deal — demonstrating $302K in monthly revenue and 4.09x ROAS by month 7",
       ],
     },
   ],
@@ -109,32 +109,32 @@ export const dentalMedtech: CaseStudyData = {
   },
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$498.1K" },
-      { label: "Qualified Leads (SQLs)", value: "335" },
-      { label: "Avg Cost Per Qualified Lead", value: "$1,487", note: "↓28% from $2,071" },
-      { label: "Closed Deals", value: "53" },
+      { label: "Total Ad Spend", value: "$490.0K" },
+      { label: "Qualified Leads (SQLs)", value: "318" },
+      { label: "Avg Cost Per Qualified Lead", value: "$1,541", note: "↓31% from $1,944" },
+      { label: "Closed Deals", value: "38" },
     ],
     monthly: [
-      // Month 1 (Jul '25): Aggressive launch with refined B2B targeting from day one — 46% qualification rate
-      { month: "Jul '25", spend: 64147, leads: 82, cpl: 782, qualified: 38, cpql: 1688, deals: 7, revenue: 301000, roas: 4.69 },
-      // Month 2 (Aug '25): Negative keywords deployed, quality climbing — 52% qualified
-      { month: "Aug '25", spend: 66483, leads: 79, cpl: 841, qualified: 41, cpql: 1621, deals: 7, revenue: 312900, roas: 4.71 },
-      // Month 3 (Sep '25): B2B landing pages live, qualification triggers working — 54% qualified
-      { month: "Sep '25", spend: 69214, leads: 84, cpl: 824, qualified: 45, cpql: 1538, deals: 7, revenue: 325400, roas: 4.70 },
-      // Month 4 (Oct '25): Lookalike audiences hitting stride, lead scoring refining — 56% qualification
-      { month: "Oct '25", spend: 71847, leads: 87, cpl: 826, qualified: 49, cpql: 1467, deals: 8, revenue: 339200, roas: 4.72 },
+      // Month 1 (Jul '25): Launch phase — building B2B targeting, early ROAS as pipeline develops
+      { month: "Jul '25", spend: 64147, leads: 78, cpl: 822, qualified: 33, cpql: 1944, deals: 4, revenue: 148500, roas: 2.31 },
+      // Month 2 (Aug '25): Negative keywords deployed, quality climbing — 46% qualified
+      { month: "Aug '25", spend: 66839, leads: 81, cpl: 825, qualified: 37, cpql: 1807, deals: 4, revenue: 173200, roas: 2.59 },
+      // Month 3 (Sep '25): B2B landing pages live, qualification triggers working — 49% qualified
+      { month: "Sep '25", spend: 68472, leads: 85, cpl: 806, qualified: 42, cpql: 1630, deals: 5, revenue: 198700, roas: 2.90 },
+      // Month 4 (Oct '25): Lookalike audiences hitting stride, lead scoring refining — 53% qualification
+      { month: "Oct '25", spend: 71253, leads: 88, cpl: 810, qualified: 47, cpql: 1516, deals: 5, revenue: 227400, roas: 3.19 },
       // Month 5 (Nov '25): Strong Q4 equipment buying season — practices spending year-end budgets
-      { month: "Nov '25", spend: 73912, leads: 91, cpl: 812, qualified: 52, cpql: 1421, deals: 8, revenue: 349600, roas: 4.73 },
-      // Month 6 (Dec '25): Year-end equipment purchasing rush — 61% qualified, strong deal volume
-      { month: "Dec '25", spend: 75634, leads: 88, cpl: 859, qualified: 54, cpql: 1400, deals: 8, revenue: 358400, roas: 4.74 },
-      // Month 7 (Jan '26): New year budgets, practices executing on equipment plans — 66% qualification rate
-      { month: "Jan '26", spend: 76813, leads: 85, cpl: 904, qualified: 56, cpql: 1372, deals: 8, revenue: 365600, roas: 4.76 },
+      { month: "Nov '25", spend: 72184, leads: 91, cpl: 793, qualified: 51, cpql: 1415, deals: 6, revenue: 251800, roas: 3.49 },
+      // Month 6 (Dec '25): Year-end equipment purchasing rush — 62% qualified, growing deal volume
+      { month: "Dec '25", spend: 73417, leads: 86, cpl: 854, qualified: 53, cpql: 1385, deals: 7, revenue: 278300, roas: 3.79 },
+      // Month 7 (Jan '26): New year budgets, practices executing on equipment plans — 65% qualification rate
+      { month: "Jan '26", spend: 73691, leads: 84, cpl: 877, qualified: 55, cpql: 1340, deals: 7, revenue: 301600, roas: 4.09 },
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$2,352.1K", growth: "+168%" },
-    { label: "Lead Qualification Rate", value: "66%", growth: "from 15%" },
-    { label: "Avg Deal Value", value: "$44.4K", growth: "" },
-    { label: "Blended ROAS", value: "4.72x", growth: "" },
+    { label: "Total Revenue", value: "$1,579.5K", growth: "+101%" },
+    { label: "Lead Qualification Rate", value: "65%", growth: "from 15%" },
+    { label: "Avg Deal Value", value: "$41.6K", growth: "" },
+    { label: "Blended ROAS", value: "3.22x", growth: "" },
   ],
 };
