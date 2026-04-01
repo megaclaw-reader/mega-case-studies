@@ -597,6 +597,7 @@
     "Website with App": "saas",
     "Mobile App": "saas",
     "Dog Grooming Service": "lead_gen_services",
-    "Dental Medtech": "lead_gen_professional"
+    "Dental Medtech": "lead_gen_professional",
+    "Fintech": "lead_gen_professional"
   }
 }

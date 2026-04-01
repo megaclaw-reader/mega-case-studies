@@ -167,6 +167,7 @@ import { securityProtectiveServicesArizona } from "./security-protective-service
 import { websiteAppSeo } from "./website-app-seo";
 import { mobileAppSeo } from "./mobile-app-seo";
 import { dentalMedtech } from "./dental-medtech";
+import { fintechNewYork } from "./fintech-new-york";
 
 export const caseStudies: Record<string, CaseStudyData> = {
   "alarm-surveillance-seo": alarmSurveillanceSeo,
@@ -337,6 +338,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "mobile-app-seo": mobileAppSeo,
   "dog-grooming-arizona": dogGroomingArizona,
   "dental-medtech": dentalMedtech,
+  "fintech-new-york": fintechNewYork,
 };
 
 export type { CaseStudyData };

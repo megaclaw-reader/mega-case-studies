@@ -171,6 +171,7 @@ def _cpl_category(industry, model_key):
         ("healthcare b2b", "healthcare_b2b_app"),
         ("dental medtech", "healthcare_equip"), ("healthcare equip", "healthcare_equip"), ("medical device", "healthcare_equip"),
         ("wealth", "wealth_mgmt"), ("venture capital", "venture_capital"),
+        ("fintech", "financial_services"),
         ("financial", "financial_services"),
         ("newsletter", "newsletter"),
         ("commercial real", "commercial_re"),
