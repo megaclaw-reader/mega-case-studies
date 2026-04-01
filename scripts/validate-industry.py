@@ -117,7 +117,7 @@ def _cpl_category(industry, model_key):
     # Try specific matches
     # Order matters — more specific matches first
     mappings = [
-        ("cosmetic dentist", "cosmetic_dentistry"), ("chiropract", "chiropractor"), ("painting", "painting"), ("dental", "dental"), ("hvac", "hvac"), ("roof", "roofing"),
+        ("cosmetic dentist", "cosmetic_dentistry"), ("chiropract", "chiropractor"), ("painting", "painting"), ("dental medtech", "healthcare_equip"), ("dental", "dental"), ("hvac", "hvac"), ("roof", "roofing"),
         ("plumb", "plumbing"), ("commercial landscap", "construction"),
         ("landscap", "landscaping"), ("clean", "cleaning"),
         ("moving", "moving"), ("garage", "garage_door"),
@@ -169,7 +169,7 @@ def _cpl_category(industry, model_key):
         ("building material", "building_materials"), ("building product", "building_materials"),
         ("exterior", "building_materials"), ("membrane", "building_materials"),
         ("healthcare b2b", "healthcare_b2b_app"),
-        ("healthcare equip", "healthcare_equip"), ("medical device", "healthcare_equip"),
+        ("dental medtech", "healthcare_equip"), ("healthcare equip", "healthcare_equip"), ("medical device", "healthcare_equip"),
         ("wealth", "wealth_mgmt"), ("venture capital", "venture_capital"),
         ("financial", "financial_services"),
         ("newsletter", "newsletter"),
