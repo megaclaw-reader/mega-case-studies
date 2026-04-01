@@ -85,7 +85,7 @@ CPL_RANGES = {
     "b2b_office_service": (75, 275),
     "healthcare_b2b_app": (150, 400),
     "logistics":         (100, 450),
-    "healthcare_equip":  (30, 300),
+    "healthcare_equip":  (30, 1500),
     "private_membership_club": (80, 300),
     # Wealth management / financial
     "wealth_mgmt":       (100, 2500),
