@@ -1,4 +1,5 @@
 import { CaseStudyData } from "./types";
+import { luxuryHomeDecor } from "./luxury-home-decor";
 import { healthcareB2bApp } from "./healthcare-b2b-app";
 import { sportsNutritionArizona } from "./sports-nutrition-arizona";
 import { cosmeticDentistryAustin } from "./cosmetic-dentistry-austin";
@@ -341,6 +342,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "dental-medtech": dentalMedtech,
   "fintech-new-york": fintechNewYork,
   "art-gallery-decorative-art": artGalleryDecorativeArt,
+  "luxury-home-decor": luxuryHomeDecor,
 };
 
 export type { CaseStudyData };
