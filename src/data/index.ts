@@ -1,4 +1,5 @@
 import { CaseStudyData } from "./types";
+import { medspaPhoenix } from "./medspa-phoenix";
 import { skincareEcommerce } from "./skincare-ecommerce";
 import { selfStorageNewYork } from "./self-storage-new-york";
 import { liveEventTechnologySeo } from "./live-event-technology-seo";
@@ -355,6 +356,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "self-storage-new-york": selfStorageNewYork,
   "live-event-technology-seo": liveEventTechnologySeo,
   "skincare-ecommerce": skincareEcommerce,
+  "medspa-phoenix": medspaPhoenix,
 };
 
 export type { CaseStudyData };

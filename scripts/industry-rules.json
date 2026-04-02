@@ -446,6 +446,10 @@
         "art_decorative": [
           200,
           600
+        ],
+        "skincare": [
+          60,
+          100
         ]
       }
     },
@@ -616,9 +620,11 @@
     "Live Event Technology": "saas",
     "self_storage": "lead_gen_services",
     "Self-Storage": "lead_gen_services",
-    "Skin Care": "ecommerce"
+    "Skin Care": "ecommerce",
+    "medspa": "lead_gen_services"
   },
   "industry_mapping": {
-    "Self-Storage": "lead_gen_services"
+    "Self-Storage": "lead_gen_services",
+    "Skin Care": "ecommerce"
   }
 }
