@@ -450,6 +450,10 @@
         "skincare": [
           60,
           100
+        ],
+        "beauty_products": [
+          45,
+          85
         ]
       }
     },
@@ -621,10 +625,12 @@
     "self_storage": "lead_gen_services",
     "Self-Storage": "lead_gen_services",
     "Skin Care": "ecommerce",
+    "Beauty Products": "ecommerce",
     "medspa": "lead_gen_services"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",
-    "Skin Care": "ecommerce"
+    "Skin Care": "ecommerce",
+    "Beauty Products": "ecommerce"
   }
 }
