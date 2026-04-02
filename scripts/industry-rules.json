@@ -611,6 +611,7 @@
     "Luxury Home Decor": "ecommerce",
     "Art Gallery / Decorative Art": "ecommerce",
     "optometrist": "lead_gen_services",
-    "Staffing": "lead_gen_professional"
+    "Staffing": "lead_gen_professional",
+    "ophthalmology": "lead_gen_services"
   }
 }
