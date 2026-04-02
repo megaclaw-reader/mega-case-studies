@@ -615,7 +615,8 @@
     "ophthalmology": "lead_gen_services",
     "Live Event Technology": "saas",
     "self_storage": "lead_gen_services",
-    "Self-Storage": "lead_gen_services"
+    "Self-Storage": "lead_gen_services",
+    "Skin Care": "ecommerce"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services"
