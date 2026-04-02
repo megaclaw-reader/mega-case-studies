@@ -626,7 +626,8 @@
     "Self-Storage": "lead_gen_services",
     "Skin Care": "ecommerce",
     "Beauty Products": "ecommerce",
-    "medspa": "lead_gen_services"
+    "medspa": "lead_gen_services",
+    "Men's Clothing": "ecommerce"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",
