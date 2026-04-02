@@ -1,4 +1,5 @@
 import { CaseStudyData } from "./types";
+import { liveEventTechnologySeo } from "./live-event-technology-seo";
 import { ophthalmologyFlorida } from "./ophthalmology-florida";
 import { luxuryHomeDecor } from "./luxury-home-decor";
 import { healthcareB2bApp } from "./healthcare-b2b-app";
@@ -349,6 +350,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "optometrist-arizona": optometristArizona,
   "staffing-boston": staffingBoston,
   "ophthalmology-florida": ophthalmologyFlorida,
+  "live-event-technology-seo": liveEventTechnologySeo,
 };
 
 export type { CaseStudyData };
