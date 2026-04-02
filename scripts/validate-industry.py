@@ -161,7 +161,7 @@ def _cpl_category(industry, model_key):
         ("commercial insurance", "insurance"), ("insurance", "insurance"),
         ("it service", "it_services"), ("managed service", "it_services"),
         ("cyber", "cybersecurity"),
-        ("recruit", "recruiting"),
+        ("staff", "recruiting"), ("recruit", "recruiting"),
         ("business coach", "coaching"), ("coach", "coaching"),
         ("safety training", "safety_training"), ("osha", "safety_training"),
         ("educat", "education"),

@@ -171,6 +171,7 @@ import { dentalMedtech } from "./dental-medtech";
 import { fintechNewYork } from "./fintech-new-york";
 import { artGalleryDecorativeArt } from "./art-gallery-decorative-art";
 import { optometristArizona } from "./optometrist-arizona";
+import { staffingBoston } from "./staffing-boston";
 
 export const caseStudies: Record<string, CaseStudyData> = {
   "alarm-surveillance-seo": alarmSurveillanceSeo,
@@ -345,6 +346,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "art-gallery-decorative-art": artGalleryDecorativeArt,
   "luxury-home-decor": luxuryHomeDecor,
   "optometrist-arizona": optometristArizona,
+  "staffing-boston": staffingBoston,
 };
 
 export type { CaseStudyData };
