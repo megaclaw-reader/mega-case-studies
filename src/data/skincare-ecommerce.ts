@@ -108,7 +108,7 @@ export const skincareEcommerce: CaseStudyData = {
       // Nov 2025: Black Friday / Cyber Monday. Elevated spend. AI managed real-time bids for peak ROAS.
       { month: "Nov '25", spend: 1362415, leads: 1706768, cpl: 0.80, qualified: 158865, cpql: 8.58, deals: 98496, revenue: 8281481.28, roas: 6.08 },
       // Dec 2025: Holiday gifting tail + early winter skincare. Strong month normalizing from BF peak.
-      { month: "Dec '25", spend: 1285932, leads: 1373724, cpl: 0.94, qualified: 144241, cpql: 8.92, deals: 83660, revenue: 6982410.20, roas: 5.43 },
+      { month: "Dec '25", spend: 1285932, leads: 1343084, cpl: 0.96, qualified: 144241, cpql: 8.92, deals: 83660, revenue: 6982410.20, roas: 5.43 },
       // Jan 2026: New Year skincare resolutions. Replenishment + subscription push. ROAS holding strong.
       { month: "Jan '26", spend: 1193847, leads: 1414589, cpl: 0.84, qualified: 154448, cpql: 7.73, deals: 86491, revenue: 7056395.78, roas: 5.91 },
     ],
