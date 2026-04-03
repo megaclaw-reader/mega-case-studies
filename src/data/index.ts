@@ -179,6 +179,7 @@ import { artGalleryDecorativeArt } from "./art-gallery-decorative-art";
 import { optometristArizona } from "./optometrist-arizona";
 import { staffingBoston } from "./staffing-boston";
 import { beautyProductsEcommerce } from "./beauty-products-ecommerce";
+import { roofingTexas } from "./roofing-texas";
 
 export const caseStudies: Record<string, CaseStudyData> = {
   "alarm-surveillance-seo": alarmSurveillanceSeo,
@@ -361,6 +362,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "medspa-phoenix": medspaPhoenix,
   "beauty-products-ecommerce": beautyProductsEcommerce,
   "mens-clothing-brand": mensClothingBrand,
+  "roofing-texas": roofingTexas,
 };
 
 export type { CaseStudyData };
