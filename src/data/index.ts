@@ -1,4 +1,5 @@
 import { CaseStudyData } from "./types";
+import { electricalSupplyDistribution } from "./electrical-supply-distribution";
 import { mensClothingBrand } from "./mens-clothing-brand";
 import { medspaPhoenix } from "./medspa-phoenix";
 import { skincareEcommerce } from "./skincare-ecommerce";
@@ -363,6 +364,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "beauty-products-ecommerce": beautyProductsEcommerce,
   "mens-clothing-brand": mensClothingBrand,
   "roofing-texas": roofingTexas,
+  "electrical-supply-distribution": electricalSupplyDistribution,
 };
 
 export type { CaseStudyData };

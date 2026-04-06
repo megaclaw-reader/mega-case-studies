@@ -628,7 +628,8 @@
     "Beauty Products": "ecommerce",
     "medspa": "lead_gen_services",
     "Men's Clothing": "ecommerce",
-    "roofing": "lead_gen_services"
+    "roofing": "lead_gen_services",
+    "Electrical Supply": "ecommerce"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",
