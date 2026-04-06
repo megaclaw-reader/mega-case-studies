@@ -165,6 +165,7 @@ import { sightseeingFlorida } from "./sightseeing-florida";
 import { homeImprovementPhoenix } from "./home-improvement-phoenix";
 import { homeRenovationsArizona } from "./home-renovations-arizona";
 import { chiropractorTexas } from "./chiropractor-texas";
+import { chiropractorArizona } from "./chiropractor-arizona";
 import { dietarySupplements } from "./dietary-supplements";
 import { tropicalDestinationPlanner } from "./tropical-destination-planner";
 import { transportation } from "./transportation";
@@ -330,6 +331,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "home-improvement-phoenix": homeImprovementPhoenix,
   "home-renovations-arizona": homeRenovationsArizona,
   "chiropractor-texas": chiropractorTexas,
+  "chiropractor-arizona": chiropractorArizona,
   "dietary-supplements": dietarySupplements,
   "probiotics": probiotics,
   "tropical-destination-planner": tropicalDestinationPlanner,
