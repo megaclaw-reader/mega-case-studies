@@ -629,7 +629,8 @@
     "medspa": "lead_gen_services",
     "Men's Clothing": "ecommerce",
     "roofing": "lead_gen_services",
-    "Electrical Supply": "ecommerce"
+    "Electrical Supply": "ecommerce",
+    "Junk Removal": "lead_gen_services"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",

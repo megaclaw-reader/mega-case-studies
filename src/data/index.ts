@@ -1,5 +1,6 @@
 import { CaseStudyData } from "./types";
 import { electricalSupplyDistribution } from "./electrical-supply-distribution";
+import { junkRemovalLosAngeles } from "./junk-removal-los-angeles";
 import { mensClothingBrand } from "./mens-clothing-brand";
 import { medspaPhoenix } from "./medspa-phoenix";
 import { skincareEcommerce } from "./skincare-ecommerce";
@@ -367,6 +368,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "mens-clothing-brand": mensClothingBrand,
   "roofing-texas": roofingTexas,
   "electrical-supply-distribution": electricalSupplyDistribution,
+  "junk-removal-los-angeles": junkRemovalLosAngeles,
 };
 
 export type { CaseStudyData };
