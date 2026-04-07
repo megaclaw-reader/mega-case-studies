@@ -3,6 +3,7 @@ import { jewelryEcommerce } from "./jewelry-ecommerce";
 import { probateLawArizona } from "./probate-law-arizona";
 import { electricalSupplyDistribution } from "./electrical-supply-distribution";
 import { junkRemovalLosAngeles } from "./junk-removal-los-angeles";
+import { inspectionCompanyPhoenix } from "./inspection-company-phoenix";
 import { mensClothingBrand } from "./mens-clothing-brand";
 import { medspaPhoenix } from "./medspa-phoenix";
 import { skincareEcommerce } from "./skincare-ecommerce";
@@ -373,6 +374,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "junk-removal-los-angeles": junkRemovalLosAngeles,
   "jewelry-ecommerce": jewelryEcommerce,
   "probate-law-arizona": probateLawArizona,
+  "inspection-company-phoenix": inspectionCompanyPhoenix,
 };
 
 export type { CaseStudyData };

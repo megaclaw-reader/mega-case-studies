@@ -632,7 +632,8 @@
     "roofing": "lead_gen_services",
     "Electrical Supply": "ecommerce",
     "Junk Removal": "lead_gen_services",
-    "Probate Law": "lead_gen_professional"
+    "Probate Law": "lead_gen_professional",
+    "Inspection Company": "lead_gen_services"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",
