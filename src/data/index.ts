@@ -1,4 +1,5 @@
 import { CaseStudyData } from "./types";
+import { probateLawArizona } from "./probate-law-arizona";
 import { electricalSupplyDistribution } from "./electrical-supply-distribution";
 import { junkRemovalLosAngeles } from "./junk-removal-los-angeles";
 import { mensClothingBrand } from "./mens-clothing-brand";
@@ -369,6 +370,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "roofing-texas": roofingTexas,
   "electrical-supply-distribution": electricalSupplyDistribution,
   "junk-removal-los-angeles": junkRemovalLosAngeles,
+  "probate-law-arizona": probateLawArizona,
 };
 
 export type { CaseStudyData };
