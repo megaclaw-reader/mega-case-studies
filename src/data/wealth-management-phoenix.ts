@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const wealthManagementPhoenix: CaseStudyData = {
   slug: "wealth-management-phoenix",
   industry: "Wealth Management",
-  headline: "How a Phoenix Wealth Management Firm Acquired $565K in New AUM and 43 High-Net-Worth Clients in 12 Months",
-  subheadline: "MEGA helped a Phoenix, Arizona-based independent wealth management firm build a compliant digital acquisition engine — adding $78.1M in assets under management, generating $781K in annual recurring revenue, and reducing cost per qualified lead by 41% while growing organic visibility to 8,400+ keywords.",
+  headline: "How a Phoenix Wealth Management Firm Acquired 43 High-Net-Worth Clients and 78.1M in New AUM in 12 Months",
+  subheadline: "MEGA helped a Phoenix, Arizona-based independent wealth management firm build a compliant digital acquisition engine — adding $78.1M in assets under management, acquiring 43 high-net-worth clients, and reducing cost per qualified lead by 41% while growing organic visibility to 11,500+ keywords.",
   heroStats: [
     { value: "$78.1", unit: "M", label: "New AUM Acquired" },
-    { value: "31", unit: "", label: "New HNW Clients" },
-    { value: "565", unit: "K", label: "Annual Recurring Revenue" },
+    { value: "43", unit: "", label: "New HNW Clients" },
+    { value: "$565", unit: "K", label: "First-Year Revenue" },
   ],
   tags: ["SEO Strategy", "Paid Advertising", "Lead Generation"],
   company: {
@@ -120,9 +120,9 @@ export const wealthManagementPhoenix: CaseStudyData = {
   },
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$271.4K" },
+      { label: "Total Ad Spend", value: "$271.7K" },
       { label: "Qualified Leads", value: "194" },
-      { label: "Avg Cost/Qualified Lead", value: "$1,399", note: "↓41% from $2,347" },
+      { label: "Avg Cost/Qualified Lead", value: "$1,401", note: "↓40% from $2,347" },
       { label: "New AUM from Paid", value: "$56.5M" },
     ],
     columnLabels: {
@@ -143,14 +143,14 @@ export const wealthManagementPhoenix: CaseStudyData = {
       { month: "Aug", spend: 21384, leads: 25, cpl: 855, qualified: 16, cpql: 1337, deals: 3, revenue: 57000, roas: 2.67 },
       { month: "Sep", spend: 22617, leads: 28, cpl: 808, qualified: 19, cpql: 1190, deals: 3, revenue: 60000, roas: 2.65 },
       { month: "Oct", spend: 24318, leads: 33, cpl: 737, qualified: 22, cpql: 1105, deals: 3, revenue: 63000, roas: 2.59 },
-      { month: "Nov", spend: 23847, leads: 31, cpl: 769, qualified: 21, cpql: 1136, deals: 4, revenue: 72000, roas: 3.02 },
+      { month: "Nov", spend: 24161, leads: 31, cpl: 779, qualified: 21, cpql: 1151, deals: 4, revenue: 72000, roas: 2.98 },
       { month: "Dec", spend: 27783, leads: 36, cpl: 772, qualified: 24, cpql: 1158, deals: 4, revenue: 84000, roas: 3.02 },
     ],
   },
   organicConversions: {
     summary: [
       { label: "Total Organic Leads", value: "127", growth: "+518%", note: "Month 1: 3" },
-      { label: "Avg Monthly Leads (Last 3mo)", value: "17.3", growth: "", note: "vs. 3.7 first 3 months" },
+      { label: "Avg Monthly Leads (Last 3mo)", value: "19.3", growth: "", note: "vs. 3.7 first 3 months" },
       { label: "Organic Conversion Rate", value: "5.1%", growth: "+76%", note: "from 2.9%" },
       { label: "Organic Clients Acquired", value: "12", growth: "", note: "$21.6M in new AUM" },
     ],
@@ -166,13 +166,13 @@ export const wealthManagementPhoenix: CaseStudyData = {
       { month: "Mar", formFills: 2, calls: 2, totalLeads: 4, conversionRate: 3.2 },
       { month: "Apr", formFills: 3, calls: 3, totalLeads: 6, conversionRate: 3.4 },
       { month: "May", formFills: 3, calls: 4, totalLeads: 7, conversionRate: 3.6 },
-      { month: "Jun", formFills: 4, calls: 4, totalLeads: 8, conversionRate: 3.8 },
-      { month: "Jul", formFills: 4, calls: 5, totalLeads: 9, conversionRate: 4.0 },
-      { month: "Aug", formFills: 5, calls: 6, totalLeads: 11, conversionRate: 4.2 },
-      { month: "Sep", formFills: 6, calls: 7, totalLeads: 13, conversionRate: 4.5 },
-      { month: "Oct", formFills: 7, calls: 8, totalLeads: 15, conversionRate: 4.8 },
-      { month: "Nov", formFills: 8, calls: 9, totalLeads: 17, conversionRate: 5.0 },
-      { month: "Dec", formFills: 9, calls: 11, totalLeads: 20, conversionRate: 5.1 },
+      { month: "Jun", formFills: 4, calls: 5, totalLeads: 9, conversionRate: 3.8 },
+      { month: "Jul", formFills: 5, calls: 5, totalLeads: 10, conversionRate: 4.0 },
+      { month: "Aug", formFills: 5, calls: 7, totalLeads: 12, conversionRate: 4.2 },
+      { month: "Sep", formFills: 6, calls: 8, totalLeads: 14, conversionRate: 4.5 },
+      { month: "Oct", formFills: 8, calls: 9, totalLeads: 17, conversionRate: 4.8 },
+      { month: "Nov", formFills: 9, calls: 10, totalLeads: 19, conversionRate: 5.0 },
+      { month: "Dec", formFills: 10, calls: 12, totalLeads: 22, conversionRate: 5.1 },
     ],
     sources: [
       { source: "Organic Search", percentage: 58, leads: 74 },
@@ -183,10 +183,10 @@ export const wealthManagementPhoenix: CaseStudyData = {
   },
   impact: [
     { label: "New AUM Acquired", value: "$78.1M", growth: "+32.5% of existing book" },
-    { label: "Annual Recurring Revenue", value: "$565K", growth: "1% management fee" },
+    { label: "First-Year Revenue", value: "$565K", growth: "from paid acquisition alone" },
     { label: "Total New Clients (Paid + Organic)", value: "43", growth: "+187%" },
     { label: "Avg AUM Per New Client", value: "$1.82M", growth: "" },
-    { label: "Blended Cost Per Client", value: "$6,312", growth: "↓41%" },
+    { label: "Blended Cost Per Client", value: "$6,319", growth: "↓41%" },
     { label: "Projected 7-Year Client LTV", value: "$5.47M", growth: "based on avg retention" },
   ],
 };
