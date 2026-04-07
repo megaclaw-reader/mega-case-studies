@@ -633,7 +633,8 @@
     "Electrical Supply": "ecommerce",
     "Junk Removal": "lead_gen_services",
     "Probate Law": "lead_gen_professional",
-    "Inspection Company": "lead_gen_services"
+    "Inspection Company": "lead_gen_services",
+    "Backyard Renovations": "lead_gen_services"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",
