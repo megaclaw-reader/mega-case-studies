@@ -2,6 +2,7 @@ import { CaseStudyData } from "./types";
 import { backyardRenovationsNewMexico } from "./backyard-renovations-new-mexico";
 import { jewelryEcommerce } from "./jewelry-ecommerce";
 import { probateLawArizona } from "./probate-law-arizona";
+import { realEstateBuySellArizona } from "./real-estate-buy-sell-arizona";
 import { electricalSupplyDistribution } from "./electrical-supply-distribution";
 import { junkRemovalLosAngeles } from "./junk-removal-los-angeles";
 import { inspectionCompanyPhoenix } from "./inspection-company-phoenix";
@@ -375,6 +376,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "junk-removal-los-angeles": junkRemovalLosAngeles,
   "jewelry-ecommerce": jewelryEcommerce,
   "probate-law-arizona": probateLawArizona,
+  "real-estate-buy-sell-arizona": realEstateBuySellArizona,
   "inspection-company-phoenix": inspectionCompanyPhoenix,
   "backyard-renovations-new-mexico": backyardRenovationsNewMexico,
 };
