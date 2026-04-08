@@ -236,7 +236,7 @@ export const vacationRental: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$286,750", growth: "from paid campaigns" },
+    { label: "Total Revenue", value: "$286.8K", growth: "from paid campaigns" },
     { label: "Blended ROAS", value: "3.06x", growth: "across all 12 months" },
     { label: "CPQL Reduction", value: "$286 → $164", growth: "↓43%" },
     { label: "Monthly Bookings", value: "4 → 11", growth: "+175%" },

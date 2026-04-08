@@ -124,7 +124,7 @@ export const sportsNutritionArizona: CaseStudyData = {
     summary: [
       { label: "Total Ad Spend", value: "$102.7K" },
       { label: "Qualified Leads", value: "1,393" },
-      { label: "Avg Cost Per Qualified Lead", value: "$73.74" },
+      { label: "Avg Cost Per Qualified Lead", value: "$74" },
       { label: "Deals Closed", value: "419" },
     ],
     monthly: [

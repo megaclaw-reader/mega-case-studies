@@ -73,10 +73,10 @@ export const homeImprovementPhoenix: CaseStudyData = {
   ],
   paidAds: {
     summary: [
-      { label: "Total Spend", value: "$120,000" },
+      { label: "Total Spend", value: "$135.2K" },
       { label: "Total Leads", value: "1,936" },
-      { label: "Qualified Leads", value: "562" },
-      { label: "Avg Cost Per Lead", value: "$62" },
+      { label: "Qualified Leads", value: "556" },
+      { label: "Avg Cost Per Lead", value: "$68" },
       { label: "Avg CPQL", value: "$214" },
       { label: "Signed Contracts", value: "126" },
       { label: "Total Revenue", value: "$396,400" },
@@ -99,7 +99,7 @@ export const homeImprovementPhoenix: CaseStudyData = {
         cpql: 263,
         deals: 8,
         revenue: 112000,
-        roas: 2.8
+        roas: 11.2
       },
       {
         month: "Feb '25", 
@@ -110,7 +110,7 @@ export const homeImprovementPhoenix: CaseStudyData = {
         cpql: 248,
         deals: 9,
         revenue: 126000,
-        roas: 3.1
+        roas: 12.35
       },
       {
         month: "Mar '25",
@@ -121,7 +121,7 @@ export const homeImprovementPhoenix: CaseStudyData = {
         cpql: 239,
         deals: 11,
         revenue: 154000,
-        roas: 3.4
+        roas: 13.39
       },
       {
         month: "Apr '25",
@@ -132,7 +132,7 @@ export const homeImprovementPhoenix: CaseStudyData = {
         cpql: 231,
         deals: 12,
         revenue: 168000,
-        roas: 3.5
+        roas: 14.0
       },
       {
         month: "May '25",
@@ -143,7 +143,7 @@ export const homeImprovementPhoenix: CaseStudyData = {
         cpql: 240,
         deals: 11,
         revenue: 154000,
-        roas: 3.3
+        roas: 13.05
       },
       {
         month: "Jun '25",
@@ -154,7 +154,7 @@ export const homeImprovementPhoenix: CaseStudyData = {
         cpql: 244,
         deals: 9,
         revenue: 126000,
-        roas: 3.0
+        roas: 12.0
       },
       {
         month: "Jul '25",
@@ -165,7 +165,7 @@ export const homeImprovementPhoenix: CaseStudyData = {
         cpql: 261,
         deals: 8,
         revenue: 112000,
-        roas: 2.7
+        roas: 10.98
       },
       {
         month: "Aug '25",
@@ -176,7 +176,7 @@ export const homeImprovementPhoenix: CaseStudyData = {
         cpql: 245,
         deals: 9,
         revenue: 126000,
-        roas: 3.1
+        roas: 12.23
       },
       {
         month: "Sep '25",
@@ -187,7 +187,7 @@ export const homeImprovementPhoenix: CaseStudyData = {
         cpql: 238,
         deals: 11,
         revenue: 154000,
-        roas: 3.4
+        roas: 13.75
       },
       {
         month: "Oct '25",
@@ -198,7 +198,7 @@ export const homeImprovementPhoenix: CaseStudyData = {
         cpql: 236,
         deals: 13,
         revenue: 182000,
-        roas: 3.6
+        roas: 14.56
       },
       {
         month: "Nov '25",
@@ -209,7 +209,7 @@ export const homeImprovementPhoenix: CaseStudyData = {
         cpql: 236,
         deals: 14,
         revenue: 196000,
-        roas: 3.7
+        roas: 14.85
       },
       {
         month: "Dec '25",
@@ -220,7 +220,7 @@ export const homeImprovementPhoenix: CaseStudyData = {
         cpql: 246,
         deals: 11,
         revenue: 154000,
-        roas: 3.3
+        roas: 13.05
       }
     ]
   },
@@ -355,7 +355,7 @@ export const homeImprovementPhoenix: CaseStudyData = {
     ]
   },
   impact: [
-    { label: "Total Revenue", value: "$396,400", growth: "Generated from paid advertising campaigns" },
+    { label: "Total Revenue", value: "$1.76M", growth: "Generated from paid advertising campaigns" },
     { label: "Total Qualified Leads", value: "562", growth: "From 1,936 total leads generated" },
     { label: "Average Deal Value", value: "$14,000", growth: "Kitchen remodels: $25K, Bath: $15K, General: $8K" },
     { label: "Organic Traffic Growth", value: "+1159%", growth: "From 340 to 4,280 monthly visitors" },

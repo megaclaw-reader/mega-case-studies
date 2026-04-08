@@ -82,7 +82,7 @@ export const b2bOfficeServiceTexas: CaseStudyData = {
   seo: undefined,
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$71,380" },
+      { label: "Total Ad Spend", value: "$71.4K" },
       { label: "Qualified Leads", value: "177" },
       { label: "Avg Cost Per Qualified Lead", value: "$403", note: "↓41% from $686" },
       { label: "Closed Contracts", value: "66" },
@@ -110,7 +110,7 @@ export const b2bOfficeServiceTexas: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$298,180", growth: "+237%" },
+    { label: "Total Revenue", value: "$298.2K", growth: "+237%" },
     { label: "Total Contracts Signed", value: "66", growth: "+214%" },
     { label: "Avg Contract Value", value: "$4,518", growth: "" },
     { label: "Blended ROAS", value: "4.18x", growth: "" },

@@ -128,7 +128,7 @@ export const probiotics: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$1.4M", growth: "+50% ROAS improvement" },
+    { label: "Total Revenue", value: "$1.40M", growth: "+50% ROAS improvement" },
     { label: "Total Orders", value: "26,411", growth: "across 7 months" },
     { label: "Average Order Value", value: "$53.01", growth: "probiotics category" },
     { label: "Blended ROAS", value: "6.60x", growth: "from 5.12x starting" },

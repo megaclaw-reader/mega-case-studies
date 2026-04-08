@@ -116,7 +116,7 @@ export const junkRemovalLosAngeles: CaseStudyData = {
   },
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$82,000" },
+      { label: "Total Ad Spend", value: "$82K" },
       { label: "Total Leads", value: "2,292" },
       { label: "Avg CPL", value: "$35.78" },
       { label: "Qualified Leads", value: "947" },
@@ -141,7 +141,7 @@ export const junkRemovalLosAngeles: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$185,712", growth: "+412 jobs booked" },
+    { label: "Total Revenue", value: "$185.7K", growth: "+412 jobs booked" },
     { label: "Blended ROAS", value: "2.26x", growth: "Across $82K spend" },
     { label: "Cost Per Qualified Lead", value: "$86.59", growth: "-32% from baseline" },
     { label: "Organic Traffic", value: "3,847/mo", growth: "+1,247% growth" },

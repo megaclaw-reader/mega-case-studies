@@ -79,7 +79,7 @@ export const healthcareB2bApp: CaseStudyData = {
   seo: undefined,
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$60,709" },
+      { label: "Total Ad Spend", value: "$60.7K" },
       { label: "Qualified Leads", value: "150" },
       { label: "Avg Cost Per Qualified Lead", value: "$405", note: "↓17% from $487" },
       { label: "Closed Deals", value: "42" },

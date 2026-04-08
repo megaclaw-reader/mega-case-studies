@@ -146,7 +146,7 @@ export const insuranceArizona: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$207,580", growth: "+312%" },
+    { label: "Total Revenue", value: "$207.6K", growth: "+312%" },
     { label: "Policies Bound", value: "66", growth: "+267%" },
     { label: "Avg Policy Value", value: "$3,145", growth: "" },
     { label: "Blended ROAS", value: "2.62x", growth: "" },

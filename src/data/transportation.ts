@@ -145,9 +145,9 @@ export const transportation: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$287.7K", growth: "+498%" },
+    { label: "Total Revenue", value: "$286.7K", growth: "+498%" },
     { label: "Total Pipeline", value: "$612K", growth: "+274%" },
     { label: "Avg Deal Value", value: "$10.7K", growth: "" },
-    { label: "Blended ROAS", value: "4.37x", growth: "" },
+    { label: "Blended ROAS", value: "4.36x", growth: "" },
   ],
 };

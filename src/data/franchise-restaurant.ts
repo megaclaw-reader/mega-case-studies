@@ -122,7 +122,7 @@ export const franchiseRestaurant: CaseStudyData = {
     summary: [
       { label: "Total Ad Spend", value: "$152.7K" },
       { label: "Qualified Leads", value: "2,751" },
-      { label: "Avg Cost Per Qualified Lead", value: "$55.50", note: "↓22% from $71" },
+      { label: "Avg Cost Per Qualified Lead", value: "$56", note: "↓22% from $71" },
       { label: "Customers Acquired", value: "297" },
     ],
     monthly: [

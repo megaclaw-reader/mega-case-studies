@@ -161,7 +161,7 @@ export const hvacVancouver: CaseStudyData = {
     summary: [
       { label: "Total Ad Spend", value: "$358.7K" },
       { label: "Total Leads", value: "3,409" },
-      { label: "Qualified Leads", value: "1,495", note: "52% qualification rate by month 19" },
+      { label: "Qualified Leads", value: "1,494", note: "52% qualification rate by month 19" },
       { label: "Avg Cost/Qualified Lead", value: "$240", note: "↓41% from $333 baseline" },
     ],
     columnLabels: {

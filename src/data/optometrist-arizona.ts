@@ -172,7 +172,7 @@ export const optometristArizona: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue Attributed", value: "$271.5K", growth: "3.5x Blended ROAS" },
+    { label: "Total Revenue Attributed", value: "$271.4K", growth: "3.5x Blended ROAS" },
     { label: "Qualified Patient Leads", value: "812", growth: "+121% by Month 13" },
     { label: "Booked Appointments", value: "168", growth: "+138% Growth" },
     { label: "Cost Per Qualified Lead", value: "$96", growth: "↓43% from $137" },

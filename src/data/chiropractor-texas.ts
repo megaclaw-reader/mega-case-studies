@@ -144,7 +144,7 @@ export const chiropractorTexas: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$389K", growth: "+68%" },
+    { label: "Total Revenue", value: "$389.0K", growth: "+68%" },
     { label: "New Patients Acquired", value: "313", growth: "+72%" },
     { label: "Avg Revenue Per Patient", value: "$1,243", growth: "" },
     { label: "Blended ROAS", value: "3.31x", growth: "" },

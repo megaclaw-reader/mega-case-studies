@@ -98,7 +98,7 @@ export const subscriptionEducationPlatform: CaseStudyData = {
   },
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$48,960" },
+      { label: "Total Ad Spend", value: "$49.0K" },
       { label: "Trial Signups", value: "1,376", note: "7-day free trial conversions" },
       { label: "Paid Subscribers", value: "720", note: "Trial-to-paid conversions" },
       { label: "Avg Cost/Subscriber", value: "$68", note: "↓28% from $94 baseline" },

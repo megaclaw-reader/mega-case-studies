@@ -114,7 +114,7 @@ export const customVehicleManufacturing: CaseStudyData = {
   },
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$78,600" },
+      { label: "Total Ad Spend", value: "$78.6K" },
       { label: "Total Leads", value: "353" },
       { label: "Avg CPL", value: "$222.66" },
       { label: "Total Qualified Leads", value: "188" },
@@ -140,7 +140,7 @@ export const customVehicleManufacturing: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue Attributed", value: "$354,017", growth: "From $0 digital pipeline" },
+    { label: "Total Revenue Attributed", value: "$354.0K", growth: "From $0 digital pipeline" },
     { label: "Total Projects Closed", value: "80", growth: "100% from digital channels" },
     { label: "Cost Per Qualified Lead", value: "$418.09", growth: "-16% from Month 1" },
     { label: "Organic Traffic Growth", value: "7,836/mo", growth: "+1,849% over 13 months" },

@@ -120,9 +120,9 @@ export const paintingCompanyPhoenix: CaseStudyData = {
   },
   paidAds: {
     summary: [
-      { label: "Avg Cost Per Lead", value: "$48.53" },
-      { label: "Avg Cost Per Qualified Lead", value: "$130.79" },
-      { label: "Total Ad Spend", value: "$85,800" },
+      { label: "Avg Cost Per Lead", value: "$49" },
+      { label: "Avg Cost Per Qualified Lead", value: "$131" },
+      { label: "Total Ad Spend", value: "$85.8K" },
       { label: "Total Qualified Leads", value: "656" },
       { label: "Total Deals Closed", value: "103" },
       { label: "Total Revenue", value: "$338,250" },
@@ -144,7 +144,7 @@ export const paintingCompanyPhoenix: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue Generated", value: "$338,250", growth: "From $0 attributed" },
+    { label: "Total Revenue Generated", value: "$338.2K", growth: "From $0 attributed" },
     { label: "Blended ROAS", value: "3.94x", growth: "Across 12 months" },
     { label: "Total Projects Closed", value: "103", growth: "From paid advertising" },
     { label: "Total Keywords Ranking", value: "8,247", growth: "+7,263% from 112" },

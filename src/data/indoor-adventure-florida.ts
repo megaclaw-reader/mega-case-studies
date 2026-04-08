@@ -124,7 +124,7 @@ export const indoorAdventureFlorida: CaseStudyData = {
     summary: [
       { label: "Total Ad Spend", value: "$156.8K" },
       { label: "Qualified Leads", value: "8,251" },
-      { label: "Avg Cost Per Qualified Lead", value: "$19.00" },
+      { label: "Avg Cost Per Qualified Lead", value: "$19" },
       { label: "Closed Bookings", value: "3,647" },
     ],
     columnLabels: {

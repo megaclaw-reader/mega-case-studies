@@ -120,7 +120,7 @@ export const medspaPhoenix: CaseStudyData = {
     summary: [
       { label: "Total Ad Spend", value: "$112.3K" },
       { label: "Qualified Leads", value: "531" },
-      { label: "Avg Cost Per Qualified Lead", value: "$213", note: "↓46% from $397" },
+      { label: "Avg Cost Per Qualified Lead", value: "$212", note: "↓47% from $397" },
       { label: "Booked Clients", value: "187", note: "avg treatment value $725" },
     ],
     columnLabels: {

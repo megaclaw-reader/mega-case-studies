@@ -124,7 +124,7 @@ export const sightseeingFlorida: CaseStudyData = {
     summary: [
       { label: "Total Ad Spend", value: "$103.5K" },
       { label: "Qualified Leads", value: "5,323" },
-      { label: "Avg Cost Per Qualified Lead", value: "$19.44" },
+      { label: "Avg Cost Per Qualified Lead", value: "$19" },
       { label: "Closed Bookings", value: "2,187" },
     ],
     columnLabels: {

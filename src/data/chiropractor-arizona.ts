@@ -146,7 +146,7 @@ export const chiropractorArizona: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$350K", growth: "+103%" },
+    { label: "Total Revenue", value: "$350.3K", growth: "+103%" },
     { label: "New Patients Acquired", value: "271", growth: "+89%" },
     { label: "Avg Revenue Per Patient", value: "$1,293", growth: "" },
     { label: "Blended ROAS", value: "3.41x", growth: "" },

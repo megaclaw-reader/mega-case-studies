@@ -135,7 +135,7 @@ def _cpl_category(industry, model_key):
         ("window", "window"), ("beauty spa", "beauty_spa"), ("wax", "beauty_spa"),
         ("med spa", "med_spa"), ("medspa", "med_spa"),
         ("gym", "gym_fitness"), ("private training", "gym_fitness"),
-        ("senior care", "senior_care"), ("restor", "restoration"),
+        ("senior care", "senior_care"), ("disaster recovery", "restoration"), ("disaster", "restoration"), ("restor", "restoration"),
         ("interior design", "interior_design"), ("event", "event"),
         ("custom vehicle", "custom_vehicle_manufacturing"),
         ("motorcycle", "motorcycle_boat"), ("boat", "motorcycle_boat"),

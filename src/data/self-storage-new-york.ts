@@ -122,7 +122,7 @@ export const selfStorageNewYork: CaseStudyData = {
   },
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$84,347" },
+      { label: "Total Ad Spend", value: "$84.3K" },
       { label: "Total Leads", value: "2,245" },
       { label: "Avg CPL", value: "$37.57" },
       { label: "Total Qualified", value: "1,228" },
@@ -153,7 +153,7 @@ export const selfStorageNewYork: CaseStudyData = {
     { label: "Total Qualified Leads", value: "1,228", growth: "+55% qualification rate" },
     { label: "Avg Cost Per Qualified Lead", value: "$68.69", growth: "-44% from $111 to $62" },
     { label: "Total New Tenants Signed", value: "163", growth: "" },
-    { label: "Total Revenue (First-Year Value)", value: "$373,540", growth: "" },
+    { label: "Total Revenue (First-Year Value)", value: "$373.5K", growth: "" },
     { label: "Blended ROAS", value: "4.43x", growth: "" },
     { label: "Keywords Indexed", value: "3,147", growth: "+2,248% from 134" },
     { label: "Monthly Organic Traffic", value: "7,843", growth: "+2,305% from 326" },
