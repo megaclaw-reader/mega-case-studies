@@ -11,7 +11,6 @@ import LocalSeoPerformance from "./LocalSeoPerformance";
 import OrganicConversions from "./OrganicConversions";
 import BusinessImpact from "./BusinessImpact";
 import BeforeAfterComparison from "./BeforeAfterComparison";
-import ROICalculator from "./ROICalculator";
 import PressAndBackers from "./PressAndBackers";
 import Footer from "./Footer";
 
@@ -29,7 +28,6 @@ export default function CaseStudyPage({ data }: { data: CaseStudyData }) {
         {data.organicConversions && <OrganicConversions data={data} />}
         {data.paidAds && <PaidAdsPerformance data={data} />}
         <BusinessImpact data={data} />
-        <ROICalculator data={data} />
       </main>
       <PressAndBackers />
       <Footer />
