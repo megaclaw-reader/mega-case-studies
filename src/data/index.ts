@@ -191,6 +191,7 @@ import { optometristArizona } from "./optometrist-arizona";
 import { staffingBoston } from "./staffing-boston";
 import { beautyProductsEcommerce } from "./beauty-products-ecommerce";
 import { roofingTexas } from "./roofing-texas";
+import { lifeInsuranceChicago } from "./life-insurance-chicago";
 
 export const caseStudies: Record<string, CaseStudyData> = {
   "alarm-surveillance-seo": alarmSurveillanceSeo,
@@ -375,6 +376,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "beauty-products-ecommerce": beautyProductsEcommerce,
   "mens-clothing-brand": mensClothingBrand,
   "roofing-texas": roofingTexas,
+  "life-insurance-chicago": lifeInsuranceChicago,
   "electrical-supply-distribution": electricalSupplyDistribution,
   "junk-removal-los-angeles": junkRemovalLosAngeles,
   "jewelry-ecommerce": jewelryEcommerce,

@@ -90,6 +90,7 @@ CPL_RANGES = {
     "logistics":         (100, 450),
     "healthcare_equip":  (30, 1500),
     "private_membership_club": (80, 300),
+    "life_insurance":    (40, 350),
     # Wealth management / financial
     "wealth_mgmt":       (100, 2500),
     "financial_services": (75, 1500),
@@ -161,6 +162,7 @@ def _cpl_category(industry, model_key):
         ("account", "accounting"),
         ("commercial tax", "tax"), ("tax planning", "tax"), ("tax", "tax"),
         ("commercial insurance", "insurance"), ("insurance", "insurance"),
+        ("life insurance", "life_insurance"),
         ("it service", "it_services"), ("managed service", "it_services"),
         ("cyber", "cybersecurity"),
         ("staff", "recruiting"), ("recruit", "recruiting"),
@@ -271,6 +273,7 @@ DEAL_VALUE_RANGES = {
     "construction": (10000, 200000),
     "building_materials": (2000, 50000),
     "healthcare_equip": (5000, 100000),
+    "life_insurance": (500, 2000),
     "healthcare": (200, 5000),
     "telemedicine": (80, 400),
     "mental_health": (100, 1000),
