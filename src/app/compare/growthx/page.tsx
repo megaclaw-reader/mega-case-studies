@@ -190,42 +190,100 @@ export default function GrowthXComparison() {
         </div>
       </section>
 
-      {/* What GrowthX Does Well */}
+      {/* AI Architecture Diagram */}
       <AnimatedSection className="py-20 px-6 bg-[#F9FAFB]">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-[#111827] text-center mb-4">
-            What GrowthX.ai Does Well
+            How the AI Actually Works
           </h2>
           <p className="text-[#6B7280] text-center mb-12 max-w-2xl mx-auto">
-            Fair is fair — here&apos;s where GrowthX.ai genuinely excels.
+            Two fundamentally different architectures. One is AI doing the work. The other is humans using AI tools.
           </p>
-          <div className="grid md:grid-cols-3 gap-6">
+          <div className="grid md:grid-cols-2 gap-8">
+            {/* MEGA diagram */}
+            <div className="bg-white rounded-2xl border-2 border-[#2965FF] p-8 relative">
+              <div className="absolute -top-3 left-6 px-3 py-0.5 bg-[#2965FF] text-white text-xs font-bold rounded-full">MEGA AI — Agentic</div>
+              <div className="space-y-4 mt-2">
+                {[
+                  { step: "1", label: "AI agents monitor", detail: "Rankings, competitors, conversions — every hour" },
+                  { step: "2", label: "AI agents decide", detail: "Spot opportunities, detect threats, prioritize actions" },
+                  { step: "3", label: "AI agents execute", detail: "Publish content, adjust bids, test creative, fix pages" },
+                  { step: "4", label: "AI agents learn", detail: "Every result feeds back — the system gets smarter daily" },
+                ].map((item, i) => (
+                  <div key={i} className="flex items-start gap-4">
+                    <div className="flex-shrink-0 w-8 h-8 rounded-full bg-[#2965FF] text-white flex items-center justify-center text-sm font-bold">{item.step}</div>
+                    <div>
+                      <div className="font-semibold text-[#111827] text-sm">{item.label}</div>
+                      <div className="text-xs text-[#6B7280]">{item.detail}</div>
+                    </div>
+                  </div>
+                ))}
+                <div className="flex items-center justify-center pt-2">
+                  <div className="text-xs font-medium text-[#2965FF] bg-[#2965FF]/10 px-3 py-1 rounded-full">↻ Continuous loop — 24/7/365</div>
+                </div>
+              </div>
+            </div>
+            {/* GrowthX diagram */}
+            <div className="bg-white rounded-2xl border border-gray-200 p-8 relative">
+              <div className="absolute -top-3 left-6 px-3 py-0.5 bg-gray-500 text-white text-xs font-bold rounded-full">GrowthX — AI-Assisted</div>
+              <div className="space-y-4 mt-2">
+                {[
+                  { step: "1", label: "Human strategist reviews", detail: "Weekly/biweekly analysis of performance data" },
+                  { step: "2", label: "Human decides strategy", detail: "Sets priorities, picks topics, assigns work" },
+                  { step: "3", label: "AI assists production", detail: "Drafts content that humans review and refine" },
+                  { step: "4", label: "Human publishes & reports", detail: "Manual QA, scheduling, and monthly reporting" },
+                ].map((item, i) => (
+                  <div key={i} className="flex items-start gap-4">
+                    <div className="flex-shrink-0 w-8 h-8 rounded-full bg-gray-400 text-white flex items-center justify-center text-sm font-bold">{item.step}</div>
+                    <div>
+                      <div className="font-semibold text-[#374151] text-sm">{item.label}</div>
+                      <div className="text-xs text-[#6B7280]">{item.detail}</div>
+                    </div>
+                  </div>
+                ))}
+                <div className="flex items-center justify-center pt-2">
+                  <div className="text-xs font-medium text-gray-500 bg-gray-100 px-3 py-1 rounded-full">↻ Weekly cycle — business hours only</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </AnimatedSection>
+
+      {/* MEGA Results — Social Proof */}
+      <AnimatedSection className="py-20 px-6">
+        <div className="max-w-5xl mx-auto">
+          <h2 className="text-3xl md:text-4xl font-bold text-[#111827] text-center mb-4">
+            What MEGA&apos;s AI Agents Deliver
+          </h2>
+          <p className="text-[#6B7280] text-center mb-12 max-w-2xl mx-auto">
+            Real results from real clients — powered by autonomous AI, not human review cycles.
+          </p>
+          <div className="grid md:grid-cols-4 gap-6">
             {[
-              {
-                title: "Enterprise SEO Pedigree",
-                text: "Founded by ex-CMOs from Deepgram, Scale AI, HashiCorp, and ServiceTitan. Deep expertise in B2B SaaS growth marketing.",
-              },
-              {
-                title: "Impressive Client Results",
-                text: "200× click increase for Abnormal AI, 32K+ weekly visits for Webflow, 6× traffic for Discern. Real, documented outcomes.",
-              },
-              {
-                title: "High-Touch Strategy",
-                text: "Dedicated growth strategist, Slack integration, and a 'services as software' model that blends AI efficiency with senior human judgment.",
-              },
-            ].map((c) => (
+              { value: "1,231%", label: "Organic traffic growth", sub: "Cybersecurity firm, 8 months" },
+              { value: "3,847", label: "Keywords ranking", sub: "From 291 baseline" },
+              { value: "412", label: "Top 10 rankings", sub: "From 24 baseline" },
+              { value: "$655K", label: "Revenue attributed", sub: "Blended SEO + Paid Ads" },
+            ].map((stat) => (
               <motion.div
-                key={c.title}
+                key={stat.label}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5 }}
-                className="bg-white rounded-2xl border border-gray-100 shadow-sm p-6"
+                className="bg-gradient-to-br from-[#2965FF]/5 to-white rounded-2xl border border-[#2965FF]/20 p-6 text-center"
               >
-                <h4 className="font-bold text-[#111827] mb-2">{c.title}</h4>
-                <p className="text-sm text-[#6B7280] leading-relaxed">{c.text}</p>
+                <div className="text-3xl font-bold text-[#2965FF] mb-1">{stat.value}</div>
+                <div className="text-sm font-medium text-[#111827]">{stat.label}</div>
+                <div className="text-xs text-[#6B7280] mt-1">{stat.sub}</div>
               </motion.div>
             ))}
+          </div>
+          <div className="text-center mt-8">
+            <a href="/cybersecurity" className="text-[#2965FF] font-medium text-sm hover:underline">
+              View the full cybersecurity case study →
+            </a>
           </div>
         </div>
       </AnimatedSection>
