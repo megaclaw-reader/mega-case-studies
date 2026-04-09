@@ -16,52 +16,59 @@ const fadeUp = {
 
 const comparisonRows = [
   { dimension: "Starting Price", mega: "From $699/mo", growthx: "From $15,000/mo" },
-  { dimension: "Services", mega: "SEO/GEO + Paid Ads + Website", growthx: "SEO, AEO, GEO, Content only" },
-  { dimension: "Paid Ads Management", mega: "Always-on AI optimization + creative", growthx: "Not offered" },
-  { dimension: "Website Management", mega: "Included — built & optimized", growthx: "Not offered" },
-  { dimension: "Content Output", mega: "20–25 SEO pages/month, daily optimization", growthx: "High-volume AI-assisted publishing" },
-  { dimension: "AI Approach", mega: "AI agents inside your accounts, optimizing 24/7", growthx: "AI workflows with human expert refinement" },
-  { dimension: "Business Types", mega: "B2B, B2C, ecommerce, local, lead gen — any industry", growthx: "Primarily B2B SaaS / tech companies" },
-  { dimension: "Team Model", mega: "Dedicated account manager + AI agents", growthx: "Dedicated growth strategist + Slack access" },
-  { dimension: "Ad Creative", mega: "AI-generated at zero extra cost", growthx: "N/A — no ads service" },
-  { dimension: "Speed to Deploy", mega: "AI agents deploy immediately", growthx: "Onboarding sprint required" },
+  { dimension: "AI Architecture", mega: "Autonomous AI agents living inside your accounts 24/7", growthx: "AI-assisted workflows refined by human editors" },
+  { dimension: "Competitive Intelligence", mega: "AI agents monitor competitors' rankings, content gaps, and ad strategies in real time", growthx: "Manual competitor research by strategist" },
+  { dimension: "Optimization Cycle", mega: "Continuous — AI agents adjust bids, content, and targeting every hour", growthx: "Weekly/biweekly human review cycles" },
+  { dimension: "Content Output", mega: "20–25 SEO pages/month + daily optimization of existing content", growthx: "High-volume AI-assisted publishing" },
+  { dimension: "Services", mega: "SEO/GEO + Paid Ads + Website — full growth stack", growthx: "SEO and content only" },
+  { dimension: "Business Types", mega: "B2B, B2C, ecommerce, local, lead gen — any industry", growthx: "Primarily B2B SaaS / tech" },
+  { dimension: "Speed to Deploy", mega: "AI agents deploy into your accounts within days", growthx: "Onboarding sprint, then ramp-up period" },
+  { dimension: "Team Model", mega: "Dedicated account manager + autonomous AI agents", growthx: "Dedicated growth strategist + Slack access" },
+  { dimension: "Learning & Adaptation", mega: "AI learns your market daily — auto-adapts to algorithm changes, seasonality, and competitor moves", growthx: "Strategy updated based on periodic human analysis" },
 ];
 
 const sections = [
   {
+    icon: "🤖",
+    title: "Truly Agentic AI vs. AI-Assisted Humans",
+    description: "MEGA built autonomous AI agents. GrowthX built AI tools for their team.",
+    detail:
+      "This is the fundamental difference. MEGA's AI agents are autonomous — they live inside your ad accounts, your CMS, and your analytics. They don't wait for a human to review a dashboard and make decisions. They monitor your competitors' rankings in real time, spot content gaps the moment they appear, adjust bids when conversion patterns shift, and publish optimized content on a schedule no human team could sustain. GrowthX uses AI to help their human team work faster. MEGA built AI that works for you directly — 24 hours a day, 7 days a week, including holidays.",
+  },
+  {
+    icon: "🔍",
+    title: "Real-Time Competitive Intelligence",
+    description: "AI agents that spy on your competitors while you sleep.",
+    detail:
+      "MEGA's AI agents continuously monitor your competitive landscape — tracking competitors' keyword movements, new content they publish, ad copy changes, and ranking shifts. When a competitor starts ranking for a term you own, our agents detect it within hours and respond: adjusting content, strengthening pages, or shifting ad spend to defend your position. GrowthX relies on periodic manual competitor research by their strategist. By the time they spot a competitive threat, MEGA's agents have already countered it.",
+  },
+  {
+    icon: "⚡",
+    title: "Always-On Optimization vs. Weekly Reviews",
+    description: "AI that optimizes every hour vs. humans who check in every week.",
+    detail:
+      "Traditional agencies — even AI-assisted ones like GrowthX — operate on human review cycles: weekly check-ins, biweekly strategy updates, monthly reporting. MEGA's agents optimize continuously. Bids adjust based on real-time conversion signals. Content gets refreshed when engagement drops. New keyword opportunities get targeted the day they emerge. Algorithm updates? Our agents detect ranking shifts within hours and adapt immediately. That compounding advantage — thousands of micro-optimizations per month instead of a handful of manual tweaks — is what separates AI-native execution from AI-assisted services.",
+  },
+  {
     icon: "💰",
     title: "$699/mo vs. $15,000/mo",
-    description: "Enterprise-grade AI marketing at a fraction of the cost.",
+    description: "21× less expensive — and you get more services, not fewer.",
     detail:
-      "GrowthX.ai charges $15,000/month and up — pricing designed for well-funded Series B+ companies. MEGA delivers AI-powered SEO starting at $699/month. That's not a stripped-down version — you get 20–25 optimized pages per month, daily AI optimization, and GEO-ready content. For the cost of one month with GrowthX, you could run MEGA for nearly two years.",
+      "GrowthX charges $15,000/month minimum — pricing built for VC-backed tech companies with big marketing budgets. MEGA starts at $699/month for SEO/GEO with the same AI-powered approach. For context: the cost of one month with GrowthX covers nearly two full years with MEGA. And MEGA includes capabilities GrowthX doesn't offer at any price — paid ads management, website development, and AI-generated creative. More services, more AI, less cost.",
+  },
+  {
+    icon: "🧠",
+    title: "AI That Learns Your Market Daily",
+    description: "Every day makes the next day better. Compounding intelligence.",
+    detail:
+      "MEGA's AI agents don't just execute — they learn. Every click, every conversion, every ranking change feeds back into the system. The agents learn which keywords drive qualified leads for your specific business, which ad angles resonate with your audience, which content formats earn the most engagement in your industry. By month 3, they know your market better than most human marketers. By month 6, they're anticipating seasonal shifts and competitive moves before they happen. This compounding intelligence is the real product — and it never stops learning.",
   },
   {
     icon: "🔧",
-    title: "Full Stack vs. SEO Only",
-    description: "One partner for every growth channel — not just organic content.",
+    title: "Full Growth Stack in One Platform",
+    description: "SEO + Paid Ads + Website + Creative — no extra vendors needed.",
     detail:
-      "GrowthX.ai does SEO and content. That's it. No paid ads, no website management, no creative. If you need Google Ads, Meta campaigns, or landing pages, you'll need another vendor on top of your $15K/month. MEGA handles SEO, paid ads, ad creative, and website — all in one platform. One partner, one bill, every channel covered.",
-  },
-  {
-    icon: "🤖",
-    title: "AI-First Execution vs. AI-Assisted Workflows",
-    description: "AI agents that live in your accounts vs. AI tools that assist humans.",
-    detail:
-      'GrowthX positions as "services as software" — AI workflows refined by human experts. MEGA is AI-native from the ground up. Our AI agents live inside your ad accounts and CMS, optimizing bids, testing creative, and publishing content 24/7. It\'s not AI helping a human work faster — it\'s AI doing the work, with humans providing strategic oversight.',
-  },
-  {
-    icon: "📢",
-    title: "Paid Ads? Only With MEGA.",
-    description: "GrowthX doesn't touch paid acquisition. MEGA runs it around the clock.",
-    detail:
-      "If you need paid search, social ads, or retargeting, GrowthX can't help. You'd need to hire another agency or build an in-house team — adding another $5K–$15K/month to your marketing spend. MEGA's Paid Ads plan ($1,999/mo) includes always-on AI optimization, AI-generated ad creative, and multi-platform campaign management. SEO + Ads under one roof.",
-  },
-  {
-    icon: "🌍",
-    title: "Built for Everyone, Not Just SaaS",
-    description: "From local businesses to enterprise — MEGA works for any company.",
-    detail:
-      "GrowthX.ai's client roster reads like a VC portfolio: Lovable, Abnormal AI, Webflow. Great for funded tech companies, but what about the ecommerce brand, the local service business, or the B2C startup? MEGA works across industries and business models — B2B, B2C, ecommerce, local services, lead generation. If you need customers, MEGA can help.",
+      "Most companies need more than content to grow. They need search ads capturing high-intent buyers, landing pages converting that traffic, and creative that doesn't cost $2,000 per round. MEGA covers the full stack: AI-powered SEO, always-on paid ads management, website development, and unlimited AI-generated creative. GrowthX focuses on organic content — a critical piece, but just one piece. With MEGA, your AI agents coordinate across every channel, sharing learnings between SEO and paid to optimize the whole funnel.",
   },
 ];
 
@@ -82,22 +89,22 @@ export default function GrowthXComparison() {
         >
           <motion.div variants={fadeUp}>
             <span className="inline-block px-4 py-1.5 rounded-full bg-[#2965FF]/10 text-[#2965FF] text-sm font-medium mb-6">
-              MEGA AI vs GrowthX.ai — Honest Comparison
+              Agentic AI vs AI-Assisted — How They Compare
             </span>
           </motion.div>
           <motion.h1
             variants={fadeUp}
             className="text-4xl md:text-6xl font-bold text-[#111827] leading-tight mb-6"
           >
-            AI-Powered Marketing.
+            Autonomous AI Agents.
             <br />
-            <span className="text-[#2965FF]">21× Less.</span>
+            <span className="text-[#2965FF]">Not AI-Assisted Humans.</span>
           </motion.h1>
           <motion.p
             variants={fadeUp}
             className="text-lg md:text-xl text-[#6B7280] max-w-2xl mx-auto mb-12"
           >
-            Both platforms use AI to grow your business. One charges $15,000/month for SEO content alone. The other starts at $699/month and covers SEO, paid ads, and your website.
+            MEGA built autonomous AI agents that live inside your accounts — optimizing 24/7, spying on competitors, and adapting in real time. GrowthX uses AI to help their human team work faster. Same word, very different reality.
           </motion.p>
 
           {/* Stat cards */}
@@ -107,7 +114,7 @@ export default function GrowthXComparison() {
           >
             {[
               { value: "$699", label: "MEGA starting price", sub: "vs $15,000/mo" },
-              { value: "3", label: "Services in one platform", sub: "SEO + Ads + Website" },
+              { value: "1000s", label: "Micro-optimizations/month", sub: "vs weekly human reviews" },
               { value: "24/7", label: "AI optimization", sub: "Always-on agents" },
             ].map((s) => (
               <motion.div
@@ -238,12 +245,12 @@ export default function GrowthXComparison() {
               <h3 className="text-xl font-bold text-[#2965FF] mb-4">Choose MEGA AI if you…</h3>
               <ul className="space-y-3 text-[#374151]">
                 {[
-                  "Want AI-powered marketing without enterprise pricing",
-                  "Need SEO and paid ads managed together",
-                  "Run any type of business — not just B2B SaaS",
-                  "Want a full website included in your plan",
-                  "Prefer AI agents working 24/7, not just business hours",
-                  "Need to stretch every marketing dollar",
+                  "Want truly autonomous AI agents, not AI-assisted human services",
+                  "Need 24/7 optimization that compounds — not weekly human check-ins",
+                  "Want real-time competitive intelligence monitoring your market",
+                  "Need SEO, paid ads, and website in one AI-powered platform",
+                  "Run any type of business — B2B, B2C, ecommerce, local, or enterprise",
+                  "Want enterprise-grade AI at $699/mo instead of $15,000/mo",
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-2">
                     <span className="text-[#2965FF] mt-0.5">✓</span>
@@ -259,12 +266,12 @@ export default function GrowthXComparison() {
               </h3>
               <ul className="space-y-3 text-[#6B7280]">
                 {[
-                  "Have $15K+/month budget for content alone",
-                  "Are a B2B SaaS company with VC backing",
-                  "Want a senior strategist from enterprise backgrounds",
-                  "Only need SEO/content — no ads or website",
-                  "Prefer human-led strategy with AI-assisted execution",
-                  "Value established agency credentials over price",
+                  "Have $15K+/month budget for organic content alone",
+                  "Are a well-funded B2B SaaS company",
+                  "Want a human strategist leading with AI tools assisting",
+                  "Only need SEO/content — no paid ads or website needed",
+                  "Prefer weekly human review cycles over autonomous AI",
+                  "Value agency pedigree (ex-Deepgram, Scale AI, HashiCorp team)",
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-2">
                     <span className="text-gray-400 mt-0.5">•</span>
