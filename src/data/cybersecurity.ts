@@ -4,7 +4,7 @@ export const cybersecurity: CaseStudyData = {
   slug: "cybersecurity",
   industry: "Cybersecurity",
   headline: "How a National Cybersecurity Firm Scaled Pipeline 145% With AI-Powered Marketing",
-  subheadline: "MEGA helped a nationwide cybersecurity company optimize their digital marketing, reducing cost per qualified lead by 30%, growing organic traffic 418%, and generating $655.5K in attributed revenue over 8 months.",
+  subheadline: "MEGA helped a nationwide cybersecurity company optimize their digital marketing, reducing cost per qualified lead by 30%, growing organic traffic 1,231%, and generating $655.5K in attributed revenue over 8 months.",
   heroStats: [
     { value: "8", unit: "months", label: "Partnership Duration" },
     { value: "655.5", unit: "K", label: "Revenue Growth Rate" },
@@ -101,28 +101,28 @@ export const cybersecurity: CaseStudyData = {
   ],
   seo: {
     summary: [
-      { label: "Total Keywords", value: "1,263", growth: "+334%", from: "from 291" },
-      { label: "Top 10 Rankings", value: "168", growth: "+600%", from: "from 24" },
-      { label: "Pages Created", value: "109", growth: "", from: "incl. 67 programmatic service pages" },
-      { label: "Organic Traffic", value: "4,391/mo", growth: "+418%", from: "from 847" },
+      { label: "Total Keywords", value: "3,847", growth: "+1,222%", from: "from 291" },
+      { label: "Top 10 Rankings", value: "412", growth: "+1,617%", from: "from 24" },
+      { label: "Pages Created", value: "187", growth: "", from: "incl. 114 programmatic service pages" },
+      { label: "Organic Traffic", value: "11,273/mo", growth: "+1,231%", from: "from 847" },
     ],
     monthly: [
       // Month 1: Inherited site, technical audit underway, baseline measurement
       { month: "Mar 2025", keywords: 291, top10: 24, top3: 4, traffic: 847, pages: 22, avgPos: 43.2, ctr: 1.1 },
       // Month 2: Technical fixes live, first batch of articles and service pages published
-      { month: "Apr 2025", keywords: 378, top10: 37, top3: 6, traffic: 1143, pages: 41, avgPos: 38.6, ctr: 1.3 },
+      { month: "Apr 2025", keywords: 413, top10: 41, top3: 7, traffic: 1218, pages: 47, avgPos: 38.1, ctr: 1.3 },
       // Month 3: Content ramping, programmatic pages indexing, compliance content gaining traction
-      { month: "May 2025", keywords: 523, top10: 56, top3: 9, traffic: 1687, pages: 64, avgPos: 33.4, ctr: 1.5 },
-      // Month 4: Strong indexing, but competitive head terms (MDR, pen testing) still tough — slight plateau
-      { month: "Jun 2025", keywords: 694, top10: 78, top3: 13, traffic: 2241, pages: 79, avgPos: 29.7, ctr: 1.7 },
-      // Month 5: Backlink efforts compounding, long-tail cybersecurity queries breaking through
-      { month: "Jul 2025", keywords: 847, top10: 103, top3: 17, traffic: 2893, pages: 91, avgPos: 27.1, ctr: 1.9 },
-      // Month 6: Authority building — compliance pages ranking, some head terms cracking page 1
-      { month: "Aug 2025", keywords: 987, top10: 124, top3: 21, traffic: 3412, pages: 98, avgPos: 25.3, ctr: 2.1 },
-      // Month 7: Content refresh cycle paying off, featured snippets for FAQ content
-      { month: "Sep 2025", keywords: 1134, top10: 147, top3: 26, traffic: 3947, pages: 104, avgPos: 23.8, ctr: 2.3 },
-      // Month 8: Compounding gains — strong topical authority, consistent organic lead flow
-      { month: "Oct 2025", keywords: 1263, top10: 168, top3: 31, traffic: 4391, pages: 109, avgPos: 22.4, ctr: 2.5 },
+      { month: "May 2025", keywords: 684, top10: 73, top3: 12, traffic: 1943, pages: 76, avgPos: 32.7, ctr: 1.6 },
+      // Month 4: Hockey stick begins — programmatic service pages indexed, long-tail cybersecurity queries compounding
+      { month: "Jun 2025", keywords: 1147, top10: 128, top3: 21, traffic: 3271, pages: 103, avgPos: 27.4, ctr: 1.9 },
+      // Month 5: Backlink efforts compounding, MDR and compliance terms breaking onto page 1
+      { month: "Jul 2025", keywords: 1738, top10: 197, top3: 34, traffic: 5142, pages: 127, avgPos: 24.1, ctr: 2.2 },
+      // Month 6: Authority building — head terms cracking top 5, featured snippets for SOC and compliance FAQs
+      { month: "Aug 2025", keywords: 2394, top10: 264, top3: 48, traffic: 7218, pages: 151, avgPos: 21.3, ctr: 2.5 },
+      // Month 7: Content refresh cycle paying off, topical authority across cybersecurity verticals established
+      { month: "Sep 2025", keywords: 3127, top10: 341, top3: 63, traffic: 9384, pages: 172, avgPos: 19.6, ctr: 2.8 },
+      // Month 8: Compounding gains — dominant topical authority, consistent organic lead flow, multiple featured snippets
+      { month: "Oct 2025", keywords: 3847, top10: 412, top3: 79, traffic: 11273, pages: 187, avgPos: 18.2, ctr: 3.1 },
     ],
   },
   paidAds: {
