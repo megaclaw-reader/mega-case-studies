@@ -1,4 +1,5 @@
 import { CaseStudyData } from "./types";
+import { estatePlanningLaw } from "./estate-planning-law";
 import { backyardRenovationsNewMexico } from "./backyard-renovations-new-mexico";
 import { disasterRecoveryNewMexico } from "./disaster-recovery-new-mexico";
 import { disasterRecoveryNorthCarolina } from "./disaster-recovery-north-carolina";
@@ -384,6 +385,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "real-estate-buy-sell-arizona": realEstateBuySellArizona,
   "inspection-company-phoenix": inspectionCompanyPhoenix,
   "backyard-renovations-new-mexico": backyardRenovationsNewMexico,
+  "estate-planning-law": estatePlanningLaw,
   "disaster-recovery-north-carolina": disasterRecoveryNorthCarolina,
   "med-spa-seo-new-york": medSpaSeoNewYork,
 };

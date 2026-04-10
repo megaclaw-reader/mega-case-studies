@@ -636,7 +636,8 @@
     "Inspection Company": "lead_gen_services",
     "Backyard Renovations": "lead_gen_services",
     "Disaster Recovery": "lead_gen_services",
-    "Life Insurance": "lead_gen_professional"
+    "Life Insurance": "lead_gen_professional",
+    "Estate Planning and Law": "lead_gen_professional"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",
