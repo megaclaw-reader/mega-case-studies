@@ -153,6 +153,7 @@ import { remoteRecruitingNational } from "./remote-recruiting-national";
 import { exteriorBuildingProductsAlabama } from "./exterior-building-products-alabama";
 import { hvacPlumbingArkansasCaseStudy } from "./hvac-plumbing-arkansas";
 import { mentalHealthCalifornia } from "./mental-health-california";
+import { mentalHealthTreatment } from "./mental-health-treatment";
 import { onlineYogaPilatesNational } from "./online-yoga-pilates-national";
 import { residentialMovingNyc } from "./residential-moving-nyc";
 import { medSpaMultiLocationFlorida } from "./medspa-multilocation-florida";
@@ -312,6 +313,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "exterior-building-products-alabama": exteriorBuildingProductsAlabama,
   "hvac-plumbing-arkansas": hvacPlumbingArkansasCaseStudy,
   "mental-health-california": mentalHealthCalifornia,
+  "mental-health-treatment": mentalHealthTreatment,
   "online-yoga-pilates-national": onlineYogaPilatesNational,
   "residential-moving-nyc": residentialMovingNyc,
   "medspa-multilocation-florida": medSpaMultiLocationFlorida,

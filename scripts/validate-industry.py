@@ -101,7 +101,7 @@ CPL_RANGES = {
     # Healthcare / medical
     "healthcare":        (20, 200),
     "telemedicine":      (15, 150),
-    "mental_health":     (20, 200),
+    "mental_health":     (20, 350),
     "regen_medicine":    (30, 250),
     # SaaS
     "saas":              (30, 500),
@@ -276,7 +276,7 @@ DEAL_VALUE_RANGES = {
     "life_insurance": (500, 2000),
     "healthcare": (200, 5000),
     "telemedicine": (80, 400),
-    "mental_health": (100, 1000),
+    "mental_health": (100, 15000),
     "regen_medicine": (1500, 15000),
     "real_estate": (3000, 60000),
     "commercial_re": (5000, 100000),
