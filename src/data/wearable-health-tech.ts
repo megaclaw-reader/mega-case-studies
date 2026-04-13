@@ -3,7 +3,7 @@ import { CaseStudyData } from "./types";
 export const wearableHealthTech: CaseStudyData = {
   slug: "wearable-health-tech",
   industry: "Ecommerce — Wearable Health Tech",
-  headline: "How a DTC Wearable Health Tech Brand Scaled From $676.2K to $676.2K Monthly Ad Spend — and Hit 3.8x ROAS",
+  headline: "How a DTC Wearable Health Tech Brand Scaled From $10K to $26K Monthly Ad Spend — and Hit 3.8x ROAS",
   subheadline: "MEGA helped a direct-to-consumer wearable health technology company optimize paid campaigns and organic search simultaneously — growing monthly revenue from $24K to over $152K while scaling ad spend strategically as ROAS improved from 2.4x to 5.4x across 10 months.",
   heroStats: [
     { value: "3.8", unit: "x", label: "Peak ROAS" },
