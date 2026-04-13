@@ -201,6 +201,7 @@ import { carDealership } from "./car-dealership";
 import { medspa as medspaScottsdale } from "./medspa";
 import { fitnessEquipmentPhoenix } from "./fitness-equipment";
 import { travelServices } from "./travel-services";
+import { personalCareBeauty } from "./personal-care-beauty";
 
 export const caseStudies: Record<string, CaseStudyData> = {
   "alarm-surveillance-seo": alarmSurveillanceSeo,
@@ -404,6 +405,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "medspa": medspaScottsdale,
   "fitness-equipment": fitnessEquipmentPhoenix,
   "travel-services": travelServices,
+  "personal-care-beauty": personalCareBeauty,
 };
 
 export type { CaseStudyData };

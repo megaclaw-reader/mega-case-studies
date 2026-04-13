@@ -648,7 +648,8 @@
     "Mental Health Treatment": "lead_gen_professional",
     "Car Dealership": "lead_gen_services",
     "Fitness Equipment": "lead_gen_services",
-    "Travel & Services": "lead_gen_services"
+    "Travel & Services": "lead_gen_services",
+    "Personal Care and Beauty": "ecommerce"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",
