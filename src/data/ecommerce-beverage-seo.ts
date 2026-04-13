@@ -2,7 +2,7 @@ import { CaseStudyData } from "./types";
 
 export const ecommerceBeverageSeo: CaseStudyData = {
   slug: "ecommerce-beverage-seo",
-  industry: "Ecommerce",
+  industry: "Ecommerce — Beverages",
   headline: "How a DTC Beverage Brand Drove $1.2M in Organic Revenue Through SEO Alone",
   subheadline: "MEGA helped a national direct-to-consumer functional beverage company grow from 87 ranking keywords to over 9,400 in 12 months — generating 14,200+ organic sessions per month, 2,847 orders, and $1.23M in organic-attributed revenue without spending a dollar on ads.",
   heroStats: [
@@ -12,7 +12,7 @@ export const ecommerceBeverageSeo: CaseStudyData = {
   ],
   tags: ["SEO Strategy", "Ecommerce", "Content Marketing"],
   company: {
-    industry: "Ecommerce — Functional Beverages & Wellness Drinks",
+    industry: "Ecommerce — Beverages",
     employees: "19",
     revenue: "$3.1M",
     location: "National (USA — DTC)",

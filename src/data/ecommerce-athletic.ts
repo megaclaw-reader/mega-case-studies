@@ -2,7 +2,7 @@ import { CaseStudyData } from "./types";
 
 export const ecommerceAthletic: CaseStudyData = {
   slug: "ecommerce-athletic",
-  industry: "Ecommerce",
+  industry: "Ecommerce — Activewear",
   headline: "How a DTC Activewear Brand Generated $674.0K in Revenue Over 7 Months",
   subheadline: "MEGA helped a Denver-based athletic clothing company targeting younger men and women optimize seasonal ad spend across back-to-school, Black Friday, and holiday gifting — producing 7,043 orders at a blended 3.2x ROAS.",
   heroStats: [
@@ -12,7 +12,7 @@ export const ecommerceAthletic: CaseStudyData = {
   ],
   tags: ["Paid Advertising", "Ecommerce", "Seasonal Strategy"],
   company: {
-    industry: "Ecommerce — Athletic Clothing & Activewear",
+    industry: "Ecommerce — Activewear",
     employees: "18",
     revenue: "$3.2M",
     location: "Denver, CO (Selling Nationally)",

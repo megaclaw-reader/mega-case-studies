@@ -2,7 +2,7 @@ import { CaseStudyData } from "./types";
 
 export const carPartsNj: CaseStudyData = {
   slug: "car-parts-nj",
-  industry: "Ecommerce",
+  industry: "Ecommerce — Auto Parts",
   headline: "How a New Jersey Car Parts Retailer Drove $100.6K in Revenue With Paid Ads and SEO",
   subheadline: "MEGA helped a New Jersey-based auto parts ecommerce store optimize seasonal ad spend, grow organic traffic by 137%, and achieve a blended 3.7x ROAS over 8 months — turning a fragmented digital presence into a high-performing revenue engine.",
   heroStats: [
@@ -12,7 +12,7 @@ export const carPartsNj: CaseStudyData = {
   ],
   tags: ["Paid Advertising", "SEO", "Ecommerce"],
   company: {
-    industry: "Ecommerce — Automotive Parts & Accessories",
+    industry: "Ecommerce — Auto Parts",
     employees: "14",
     revenue: "$2.1M",
     location: "New Jersey",

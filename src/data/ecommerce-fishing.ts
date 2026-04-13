@@ -2,7 +2,7 @@ import { CaseStudyData } from "./types";
 
 export const ecommerceFishing: CaseStudyData = {
   slug: "ecommerce-fishing",
-  industry: "Ecommerce",
+  industry: "Ecommerce — Fishing Gear",
   headline: "How a National Fishing Gear Brand Scaled to $692.4K in Ad-Attributed Revenue",
   subheadline: "MEGA helped a direct-to-consumer fishing equipment retailer optimize seasonal ad spend, reduce cost per acquisition by 31%, and generate 3,255 orders over 9 months — including a record Black Friday that drove 21% of total campaign revenue.",
   heroStats: [
@@ -12,7 +12,7 @@ export const ecommerceFishing: CaseStudyData = {
   ],
   tags: ["Paid Advertising", "Ecommerce", "Seasonal Strategy"],
   company: {
-    industry: "Ecommerce — Outdoor Fishing Clothing & Equipment",
+    industry: "Ecommerce — Fishing Gear",
     employees: "23",
     revenue: "$4.7M",
     location: "National (USA — DTC)",

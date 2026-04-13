@@ -2,7 +2,7 @@ import { CaseStudyData } from "./types";
 
 export const highTicketEcommerceSeo: CaseStudyData = {
   slug: "high-ticket-ecommerce-seo",
-  industry: "Ecommerce",
+  industry: "Ecommerce — Premium Home Furnishings",
   headline: "How a Premium Home Furnishings Brand Generated $441K in Organic Revenue Through SEO in 10 Months",
   subheadline: "MEGA helped a national direct-to-consumer luxury furniture and décor company grow from 94 ranking keywords to over 8,200 in 10 months — driving 13,100+ organic sessions per month, 287 orders at a $1,536 average order value, and $441K in organic-attributed revenue without a single dollar spent on ads.",
   heroStats: [
@@ -12,7 +12,7 @@ export const highTicketEcommerceSeo: CaseStudyData = {
   ],
   tags: ["SEO Strategy", "Ecommerce", "High Ticket"],
   company: {
-    industry: "Ecommerce — Premium Home Furnishings & Décor",
+    industry: "Ecommerce — Premium Home Furnishings",
     employees: "23",
     revenue: "$4.7M",
     location: "National (USA — DTC)",

@@ -2,7 +2,7 @@ import { CaseStudyData } from "./types";
 
 export const petProductsEcommerce: CaseStudyData = {
   slug: "pet-products-ecommerce",
-  industry: "Ecommerce",
+  industry: "Ecommerce — Pet Products",
   headline: "How a DTC Pet Brand Scaled to $156.5K in Revenue With SEO + Paid Ads in 8 Months",
   subheadline: "MEGA helped a national direct-to-consumer pet food and supplements company build organic visibility from 94 keywords to 6,800+ while running profitable ad campaigns — generating 7,247 total orders, $190.8K in combined revenue, and a blended paid ROAS of 4.18x on a lean budget.",
   heroStats: [
@@ -12,7 +12,7 @@ export const petProductsEcommerce: CaseStudyData = {
   ],
   tags: ["SEO Strategy", "Paid Advertising", "Ecommerce"],
   company: {
-    industry: "Ecommerce — Pet Food, Treats & Supplements",
+    industry: "Ecommerce — Pet Products",
     employees: "14",
     revenue: "$2.1M",
     location: "National (USA — DTC)",

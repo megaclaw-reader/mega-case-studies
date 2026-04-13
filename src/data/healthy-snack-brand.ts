@@ -2,7 +2,7 @@ import { CaseStudyData } from "./types";
 
 export const healthySnackBrand: CaseStudyData = {
   slug: "healthy-snack-brand",
-  industry: "Ecommerce",
+  industry: "Ecommerce — Healthy Snacks",
   headline: "How a Healthy Snack Brand Went From Zero Ads to 2.8x ROAS in 5 Months",
   subheadline: "MEGA took a direct-to-consumer healthy snack brand with no paid advertising history and built a profitable ad engine from scratch — scaling from first-ever campaigns to 2.8x ROAS, generating $107.7K in ad-attributed revenue and 2,392 orders across 5 months.",
   heroStats: [
@@ -12,7 +12,7 @@ export const healthySnackBrand: CaseStudyData = {
   ],
   tags: ["Paid Advertising", "Ecommerce", "DTC"],
   company: {
-    industry: "Ecommerce — Healthy Snacks & Functional Foods",
+    industry: "Ecommerce — Healthy Snacks",
     employees: "12",
     revenue: "$1.8M",
     location: "National (USA — DTC, HQ: Boulder, CO)",
