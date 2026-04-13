@@ -69,7 +69,13 @@ export default function PaidAdsPerformance({ data }: { data: CaseStudyData }) {
           const headers = ["Month", "Spend", cl?.leads || "Leads"];
           if (showCpl) headers.push(cl?.cpl || "CPL");
           headers.push(cl?.qualified || "Qualified", cl?.cpql || "CPQL");
-          if (hasDeals) { headers.push(cl?.deals || "Deals", "Cost/Order"); }
+          if (hasDeals) {
+            const dealsLabel = cl?.deals || "Deals";
+            headers.push(dealsLabel);
+            // Only show "Cost/Order" for ecommerce; use "Cost/Acquisition" for lead gen
+            const isEcom = dealsLabel.toLowerCase().includes("order") || (cl?.leads && cl.leads.toLowerCase().includes("session"));
+            headers.push(isEcom ? "Cost/Order" : "Cost/Acquisition");
+          }
           if (hasRevenue) { headers.push("Revenue", "ROAS"); }
           const m = paidAds.monthly;
           const totalSpend = m.reduce((s, r) => s + r.spend, 0);

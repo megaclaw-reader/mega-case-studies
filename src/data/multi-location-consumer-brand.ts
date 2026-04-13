@@ -3,7 +3,7 @@ import { CaseStudyData } from "./types";
 export const multiLocationConsumerBrand: CaseStudyData = {
   slug: "multi-location-consumer-brand",
   industry: "Multi-Location Consumer Brand",
-  headline: "How AI Infrastructure Scaled a Multi-Market Brand From $6.37M to $6.37M+ Daily Ad Spend — While Maintaining 3.6x+ Blended ROAS",
+  headline: "How AI Infrastructure Scaled a Multi-Market Brand From $146K to $278K Monthly Ad Spend — While Maintaining 3.6x+ Blended ROAS",
   subheadline: "MEGA engineered a predictive performance system — creative fatigue modeling, algorithmic budget reallocation, and conversion signal optimization — that transformed a multi-location consumer brand's paid media from unpredictable spend into a scalable growth engine. Over 10 months, daily ad spend nearly doubled with zero efficiency collapse.",
   heroStats: [
     { value: "10", unit: "months", label: "Engagement Duration" },
