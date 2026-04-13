@@ -69,7 +69,7 @@ export default function PaidAdsPerformance({ data }: { data: CaseStudyData }) {
           const headers = ["Month", "Spend", cl?.leads || "Leads"];
           if (showCpl) headers.push(cl?.cpl || "CPL");
           headers.push(cl?.qualified || "Qualified", cl?.cpql || "CPQL");
-          if (hasDeals) { headers.push(cl?.deals || "Deals"); }
+          if (hasDeals) { headers.push(cl?.deals || "Deals", "Cost/Order"); }
           if (hasRevenue) { headers.push("Revenue", "ROAS"); }
           const m = paidAds.monthly;
           const totalSpend = m.reduce((s, r) => s + r.spend, 0);
@@ -104,6 +104,7 @@ export default function PaidAdsPerformance({ data }: { data: CaseStudyData }) {
                     <td className="px-5 py-3">{row.qualified}</td>
                     <td className="px-5 py-3">${row.cpql.toLocaleString()}</td>
                     {hasDeals && <td className="px-5 py-3">{row.deals}</td>}
+                    {hasDeals && <td className="px-5 py-3">${row.deals ? Math.round(row.spend / row.deals).toLocaleString() : "—"}</td>}
                     {hasRevenue && <td className="px-5 py-3">${(row.revenue ?? 0).toLocaleString()}</td>}
                     {hasRevenue && <td className="px-5 py-3">{row.roas}x</td>}
                   </tr>
@@ -118,6 +119,7 @@ export default function PaidAdsPerformance({ data }: { data: CaseStudyData }) {
                   <td className="px-5 py-3">{totalQualified.toLocaleString()}</td>
                   <td className="px-5 py-3">${avgCpql.toLocaleString()}</td>
                   {hasDeals && <td className="px-5 py-3">{totalDeals}</td>}
+                  {hasDeals && <td className="px-5 py-3">${totalDeals ? Math.round(totalSpend / totalDeals).toLocaleString() : "—"}</td>}
                   {hasRevenue && <td className="px-5 py-3">${totalRevenue.toLocaleString()}</td>}
                   {hasRevenue && <td className="px-5 py-3">{avgRoas}x</td>}
                 </tr>
