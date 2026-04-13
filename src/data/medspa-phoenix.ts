@@ -129,6 +129,7 @@ export const medspaPhoenix: CaseStudyData = {
       qualified: "Qualified Leads",
       cpql: "CPQL",
       deals: "Booked Clients",
+      costPerDeal: "Cost/Client",
     },
     monthly: [
       { month: "Apr '25", spend: 8764, leads: 114, cpl: 76.88, qualified: 28, cpql: 312.93, deals: 9, revenue: 18423, roas: 2.10 },

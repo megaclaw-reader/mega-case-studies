@@ -133,6 +133,7 @@ export const travelServices: CaseStudyData = {
       qualified: "Qualified Leads",
       cpql: "Cost/Qualified",
       deals: "Confirmed Bookings",
+      costPerDeal: "Cost/Booking",
     },
     monthly: [
       { month: "Jan '25", spend: 6200, leads: 208, cpl: 29.81, qualified: 119, cpql: 52.10, deals: 31, revenue: 14508, roas: 2.34 },

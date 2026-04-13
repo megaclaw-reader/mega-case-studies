@@ -136,6 +136,7 @@ export const movingCompany: CaseStudyData = {
       qualified: "Qualified Leads",
       cpql: "CPQL",
       deals: "Booked Moves",
+      costPerDeal: "Cost/Move",
     },
     monthly: [
       // Jan 2025: $19.2K, winter slow season, broad targeting to gather baseline data, low qualified rate

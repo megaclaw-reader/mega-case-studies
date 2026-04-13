@@ -130,6 +130,7 @@ export const motorcycleBoatRepairAz: CaseStudyData = {
       qualified: "Qualified Leads",
       cpql: "Cost/Qualified",
       deals: "Booked Appointments",
+      costPerDeal: "Cost/Appointment",
     },
     monthly: [
       { month: "May 2025", spend: 5200, leads: 42, cpl: 124, qualified: 21, cpql: 248, deals: 6, revenue: 4134, roas: 0.79 },

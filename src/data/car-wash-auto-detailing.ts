@@ -139,6 +139,7 @@ export const carWashAutoDetailing: CaseStudyData = {
       qualified: "Qualified Leads",
       cpql: "CPQL",
       deals: "Conversions",
+      costPerDeal: "Cost/Conversion",
     },
     monthly: [
       { month: "Jan 2025", spend: 5292, leads: 224, cpl: 24, qualified: 91, cpql: 58, deals: 27, revenue: 8034, roas: 1.52 },

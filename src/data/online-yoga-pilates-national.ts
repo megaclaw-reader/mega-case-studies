@@ -111,6 +111,7 @@ export const onlineYogaPilatesNational: CaseStudyData = {
       qualified: "Paid Subscribers",
       cpql: "Cost/Subscriber",
       deals: "Annual Plans",
+      costPerDeal: "Cost/Subscriber",
     },
     monthly: [
       { month: "Jan 2025", spend: 15738, leads: 423, cpl: 37.21, qualified: 267, cpql: 58.94, deals: 234, revenue: 78060, roas: 4.96 },

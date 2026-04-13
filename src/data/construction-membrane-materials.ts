@@ -133,6 +133,7 @@ export const constructionMembraneMaterials: CaseStudyData = {
       qualified: "Qualified RFQs",
       cpql: "Cost/Qualified RFQ",
       deals: "Purchase Orders",
+      costPerDeal: "Cost/Order",
     },
     monthly: [
       { month: "Jan 2025", spend: 10147, leads: 23, cpl: 441.17, qualified: 7, cpql: 1449.57, deals: 1, revenue: 31847.0, roas: 3.14 },

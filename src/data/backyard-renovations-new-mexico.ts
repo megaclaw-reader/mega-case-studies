@@ -112,6 +112,7 @@ export const backyardRenovationsNewMexico: CaseStudyData = {
       qualified: "Qualified Leads",
       cpql: "Cost/Qualified Lead",
       deals: "Closed Deals",
+      costPerDeal: "Cost/Deal",
     },
     monthly: [
       // Jul '25: Month 1 — foundation, baseline. qual rate 35%. 2 deals × $8,200 = $16,400

@@ -109,6 +109,7 @@ export const gymPrivateTrainingAz: CaseStudyData = {
       qualified: "Qualified Leads",
       cpql: "Cost/Qualified Lead",
       deals: "Trial Bookings",
+      costPerDeal: "Cost/Booking",
     },
     monthly: [
       { month: "Jan 2025", spend: 6847, leads: 312, cpl: 22, qualified: 88, cpql: 78, deals: 41, revenue: undefined, roas: undefined },

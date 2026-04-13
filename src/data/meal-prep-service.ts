@@ -108,6 +108,7 @@ export const mealPrepService: CaseStudyData = {
       qualified: "Qualified Leads",
       cpql: "Cost Per Qualified Lead",
       deals: "New Subscribers",
+      costPerDeal: "Cost/Subscriber",
     },
     monthly: [
       { month: "Jan '25", spend: 5000, leads: 179, cpl: 27.93, qualified: 33, cpql: 151.52, deals: 7, revenue: 10738, roas: 2.15 },

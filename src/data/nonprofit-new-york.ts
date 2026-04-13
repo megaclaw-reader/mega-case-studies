@@ -137,7 +137,8 @@ export const nonprofitNewYork: CaseStudyData = {
       cpl: "Cost/Prospect", 
       qualified: "Qualified Donors",
       cpql: "Cost/Qualified",
-      deals: "Donations"
+      deals: "Donations",
+      costPerDeal: "Cost/Donation",
     },
     monthly: [
       { month: "Jan 2025", spend: 10247, leads: 89, cpl: 115.13, qualified: 44, cpql: 233.94, deals: 14, revenue: 7855, roas: 0.77 },

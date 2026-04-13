@@ -126,6 +126,7 @@ export const transportation: CaseStudyData = {
       qualified: "Qualified Leads",
       cpql: "Cost/Qualified Lead",
       deals: "Deals Closed",
+      costPerDeal: "Cost/Deal",
     },
     monthly: [
       // Jul 2025: Foundation month — auditing campaigns, building landing pages, higher starting budget

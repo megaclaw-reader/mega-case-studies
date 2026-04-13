@@ -127,6 +127,7 @@ export const healthcareEquipmentNational: CaseStudyData = {
       leads: "Equipment Inquiries",
       qualified: "Qualified Leads",
       deals: "Equipment Sales",
+      costPerDeal: "Cost/Sale",
     },
     monthly: [
       { month: "Jan 2025", spend: 15247, leads: 218, cpl: 70, qualified: 61, cpql: 250, deals: 14, revenue: 38760, roas: 2.54 },

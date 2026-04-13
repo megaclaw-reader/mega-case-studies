@@ -134,6 +134,7 @@ export const homeDamageRestoration: CaseStudyData = {
       qualified: "Qualified Leads",
       cpql: "Cost/Qualified",
       deals: "Closed Jobs",
+      costPerDeal: "Cost/Job",
     },
     monthly: [
       { month: "Jan 2025", spend: 17200, leads: 56, cpl: 307, qualified: 30, cpql: 573, deals: 9, revenue: 47700, roas: 2.77 },

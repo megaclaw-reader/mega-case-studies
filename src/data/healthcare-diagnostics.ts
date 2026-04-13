@@ -127,6 +127,7 @@ export const healthcareDiagnostics: CaseStudyData = {
       leads: "Screening Inquiries",
       qualified: "Qualified Leads",
       deals: "Contracts Signed",
+      costPerDeal: "Cost/Contract",
     },
     monthly: [
       { month: "Jan 2025", spend: 10247, leads: 218, cpl: 47, qualified: 72, cpql: 142, deals: 21, revenue: 9408, roas: 0.92 },

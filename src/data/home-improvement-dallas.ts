@@ -136,6 +136,7 @@ export const homeImprovementDallas: CaseStudyData = {
       qualified: "Qualified Leads", 
       cpql: "CPQL",
       deals: "Closed Projects",
+      costPerDeal: "Cost/Project",
     },
     monthly: [
       // Month 1 (Jan 2025): Baseline performance, existing campaigns

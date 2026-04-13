@@ -132,6 +132,7 @@ export const commercialConstructionTx: CaseStudyData = {
       qualified: "Qualified Leads",
       cpql: "Cost/Qualified Lead",
       deals: "Booked Consultations",
+      costPerDeal: "Cost/Consultation",
     },
     monthly: [
       // Mar 2025: Baseline month — auditing campaigns, building landing page funnels, $6K budget

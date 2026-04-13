@@ -108,6 +108,7 @@ export const seniorCareNm: CaseStudyData = {
       qualified: "Qualified Consultations",
       cpql: "Cost/Consultation",
       deals: "Signed Clients",
+      costPerDeal: "Cost/Client",
     },
     monthly: [
       { month: "May 2025", spend: 7658, leads: 44, cpl: 174, qualified: 19, cpql: 403, deals: 7, revenue: 23947, roas: 3.13 },

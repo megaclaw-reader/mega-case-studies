@@ -128,6 +128,7 @@ export const equipmentFinancingBoston: CaseStudyData = {
       qualified: "Qualified Leads",
       cpql: "Cost/Qualified",
       deals: "Deals Funded",
+      costPerDeal: "Cost/Deal",
     },
     monthly: [
       { month: "Jan '25", spend: 7135, leads: 14, cpl: 510, qualified: 5, cpql: 1427, deals: 1, revenue: 8740, roas: 1.22 },

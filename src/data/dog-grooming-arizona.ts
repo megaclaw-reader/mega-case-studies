@@ -130,6 +130,7 @@ export const dogGroomingArizona: CaseStudyData = {
       qualified: "Qualified Leads",
       cpql: "CPQL",
       deals: "Booked Clients",
+      costPerDeal: "Cost/Client",
     },
     monthly: [
       { month: "Mar '25", spend: 6217, leads: 148, cpl: 42.01, qualified: 34, cpql: 182.85, deals: 14, revenue: 8218, roas: 1.32 },

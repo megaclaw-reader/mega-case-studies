@@ -130,6 +130,7 @@ export const privateMembershipClubs: CaseStudyData = {
       qualified: "Qualified Leads",
       cpql: "CPQL",
       deals: "New Members",
+      costPerDeal: "Cost/Member",
     },
     monthly: [
       { month: "Jan 2025", spend: 7200, leads: 42, cpl: 171.43, qualified: 14, cpql: 514.29, deals: 5, revenue: 22000, roas: 3.06 },

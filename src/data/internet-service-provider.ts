@@ -143,6 +143,7 @@ export const internetServiceProvider: CaseStudyData = {
       qualified: "Qualified Leads",
       cpql: "Cost/Qualified Lead",
       deals: "Subscribers",
+      costPerDeal: "Cost/Subscriber",
     },
     monthly: [
       // Month 1: $10K floor — broad campaigns across 12 established markets, gathering baseline

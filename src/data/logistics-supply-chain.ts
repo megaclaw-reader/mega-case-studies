@@ -140,6 +140,7 @@ export const logisticsSupplyChain: CaseStudyData = {
       qualified: "Qualified Leads",
       cpql: "Cost/Qualified Lead",
       deals: "Deals Closed",
+      costPerDeal: "Cost/Deal",
     },
     monthly: [
       // Jan 2025: Foundation month — campaign setup, $10K floor

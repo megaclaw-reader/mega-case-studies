@@ -40,6 +40,7 @@ export interface CaseStudyData {
       qualified?: string;
       cpql?: string;
       deals?: string;
+      costPerDeal?: string;
     };
     hiddenColumns?: string[];
     monthly: {

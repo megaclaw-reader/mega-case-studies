@@ -128,6 +128,7 @@ export const weddingPhotographyAtlanta: CaseStudyData = {
       qualified: "Consultations Booked",
       cpql: "Cost/Consultation",
       deals: "Weddings Booked",
+      costPerDeal: "Cost/Booking",
     },
     monthly: [
       { month: "Jan 2025", spend: 6585, leads: 34, cpl: 194, qualified: 14, cpql: 470, deals: 5, revenue: 17850, roas: 2.71 },

@@ -135,6 +135,7 @@ export const printShop: CaseStudyData = {
       qualified: "Qualified Leads",
       cpql: "CPQL",
       deals: "Closed Jobs",
+      costPerDeal: "Cost/Job",
     },
     monthly: [
       { month: "Jan 2025", spend: 8000, leads: 134, cpl: 60, qualified: 43, cpql: 186, deals: 17, revenue: 9894, roas: 1.24 },

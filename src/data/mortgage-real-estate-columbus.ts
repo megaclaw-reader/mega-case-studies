@@ -162,6 +162,7 @@ export const mortgageRealEstateColumbus: CaseStudyData = {
       qualified: "Qualified Leads",
       cpql: "Cost/Qualified Lead",
       deals: "Closed Deals",
+      costPerDeal: "Cost/Deal",
     },
     monthly: [
       // Month 1: Inherited campaigns, audit underway. ~$5K spend. CPL ~$148, qual rate ~30%

@@ -121,6 +121,7 @@ export const commercialInsuranceNy: CaseStudyData = {
       qualified: "Qualified Leads",
       cpql: "Cost/Qualified",
       deals: "Policies Bound",
+      costPerDeal: "Cost/Policy",
     },
     monthly: [
       { month: "Sep 2025", spend: 7815, leads: 24, cpl: 326, qualified: 7, cpql: 1116, deals: 1, revenue: 9800, roas: 1.25 },

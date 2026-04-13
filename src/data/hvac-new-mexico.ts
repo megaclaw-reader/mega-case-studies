@@ -116,6 +116,7 @@ export const hvacNewMexico: CaseStudyData = {
       qualified: "Qualified Leads",
       cpql: "Cost/Qualified Lead",
       deals: "Booked Jobs",
+      costPerDeal: "Cost/Job",
     },
     monthly: [
       { month: "Mar 2025", spend: 10565, leads: 158, cpl: 67, qualified: 52, cpql: 203, deals: 13, revenue: 41184, roas: 3.90 },

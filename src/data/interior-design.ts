@@ -135,6 +135,7 @@ export const interiorDesign: CaseStudyData = {
       qualified: "Qualified Consults",
       cpql: "Cost Per Consult",
       deals: "Projects Won",
+      costPerDeal: "Cost/Project",
     },
     monthly: [
       { month: "Jan 2025", spend: 5847, leads: 41, cpl: 143, qualified: 17, cpql: 344, deals: 5, revenue: 24700, roas: 4.22 },

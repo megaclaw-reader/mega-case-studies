@@ -134,6 +134,7 @@ export const generalContracting: CaseStudyData = {
       qualified: "Qualified Leads",
       cpql: "Cost/Qualified Lead",
       deals: "Closed Projects",
+      costPerDeal: "Cost/Project",
     },
     monthly: [
       { month: "Jan 2025", spend: 8617, leads: 29, cpl: 297.14, qualified: 14, cpql: 615.5, deals: 3, revenue: 22847.0, roas: 2.65 },

@@ -134,6 +134,7 @@ export const automotiveRepair: CaseStudyData = {
       qualified: "Qualified Leads",
       cpql: "Cost/Qualified",
       deals: "Booked Appointments",
+      costPerDeal: "Cost/Appointment",
     },
     monthly: [
       { month: "Jan 2025", spend: 5206, leads: 47, cpl: 111, qualified: 24, cpql: 217, deals: 5, revenue: 2155, roas: 0.41 },

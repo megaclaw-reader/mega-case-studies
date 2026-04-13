@@ -134,6 +134,7 @@ export const commercialRealEstate: CaseStudyData = {
       qualified: "Qualified Leads",
       cpql: "Cost/Qualified",
       deals: "Closed Deals",
+      costPerDeal: "Cost/Deal",
     },
     monthly: [
       // Jan 2025: Baseline month, inheriting poorly targeted campaigns. Q1 = busier for commercial RE

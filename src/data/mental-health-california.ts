@@ -136,6 +136,7 @@ export const mentalHealthCalifornia: CaseStudyData = {
       qualified: "Qualified Leads",
       cpql: "Cost/Qualified Lead",
       deals: "New Clients",
+      costPerDeal: "Cost/Client",
     },
     monthly: [
       { month: "Jan 2025", spend: 14647, leads: 347, cpl: 42, qualified: 124, cpql: 118, deals: 47, revenue: 28294, roas: 1.93 },

@@ -131,6 +131,7 @@ export const optometristArizona: CaseStudyData = {
       qualified: "Qualified Leads",
       cpql: "Cost Per Qualified Lead",
       deals: "Booked Appointments",
+      costPerDeal: "Cost/Appointment",
     },
     monthly: [
       { month: "Feb '25", spend: 5217, leads: 74, cpl: 70, qualified: 38, cpql: 137, deals: 8, revenue: 12640, roas: 2.42 },

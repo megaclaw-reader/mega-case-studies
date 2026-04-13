@@ -72,9 +72,9 @@ export default function PaidAdsPerformance({ data }: { data: CaseStudyData }) {
           if (hasDeals) {
             const dealsLabel = cl?.deals || "Deals";
             headers.push(dealsLabel);
-            // Only show "Cost/Order" for ecommerce; use "Cost/Acquisition" for lead gen
+            // Use custom costPerDeal label if provided, otherwise infer from deals label
             const isEcom = dealsLabel.toLowerCase().includes("order") || (cl?.leads && cl.leads.toLowerCase().includes("session"));
-            headers.push(isEcom ? "Cost/Order" : "Cost/Acquisition");
+            headers.push(cl?.costPerDeal || (isEcom ? "Cost/Order" : "Cost/Acquisition"));
           }
           if (hasRevenue) { headers.push("Revenue", "ROAS"); }
           const m = paidAds.monthly;

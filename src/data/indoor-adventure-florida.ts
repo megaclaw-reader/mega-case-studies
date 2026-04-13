@@ -133,6 +133,7 @@ export const indoorAdventureFlorida: CaseStudyData = {
       qualified: "Qualified Leads",
       cpql: "Cost/Qualified",
       deals: "Confirmed Bookings",
+      costPerDeal: "Cost/Booking",
     },
     monthly: [
       { month: "Jan '25", spend: 10200, leads: 763, cpl: 13.37, qualified: 471, cpql: 21.66, deals: 198, revenue: 24948, roas: 2.45 },

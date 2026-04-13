@@ -132,6 +132,7 @@ export const mentalHealthTreatment: CaseStudyData = {
       qualified: "Qualified Leads",
       cpql: "Cost/Qualified Lead",
       deals: "New Patients",
+      costPerDeal: "Cost/Patient",
     },
     monthly: [
       { month: "Jan 2025", spend: 14218, leads: 118, cpl: 120, qualified: 44, cpql: 323, deals: 5, revenue: 16235, roas: 1.14 },

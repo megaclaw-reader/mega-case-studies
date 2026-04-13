@@ -148,6 +148,7 @@ export const businessCoachingTexas: CaseStudyData = {
       qualified: "Qualified Leads",
       cpql: "Cost/Qualified Lead",
       deals: "Deals Closed",
+      costPerDeal: "Cost/Deal",
     },
     monthly: [
       { month: "Jan 2025", spend: 5127, leads: 35, cpl: 146.49, qualified: 8, cpql: 640.88, deals: 2, revenue: 13600.0, roas: 2.65 },

@@ -121,6 +121,7 @@ export const fintechNewYork: CaseStudyData = {
       qualified: "Qualified Leads",
       cpql: "Cost/Qualified Lead",
       deals: "Signed Contracts",
+      costPerDeal: "Cost/Contract",
     },
     monthly: [
       { month: "Jan 2025", spend: 8200, leads: 38, cpl: 216, qualified: 22, cpql: 373, deals: 1, revenue: 16800, roas: 2.05 },

@@ -87,7 +87,8 @@ export const homeImprovementPhoenix: CaseStudyData = {
       cpl: "Cost Per Lead", 
       qualified: "Qualified Leads",
       cpql: "Cost Per Qualified Lead",
-      deals: "Signed Contracts"
+      deals: "Signed Contracts",
+      costPerDeal: "Cost/Contract",
     },
     monthly: [
       {

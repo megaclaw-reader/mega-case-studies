@@ -123,6 +123,7 @@ export const financialServicesCalifornia: CaseStudyData = {
       qualified: "Qualified Leads",
       cpql: "Cost/Qualified Lead",
       deals: "New Clients",
+      costPerDeal: "Cost/Client",
     },
     monthly: [
       { month: "Jan", spend: 32676, leads: 38, cpl: 860, qualified: 13, cpql: 2514, deals: 2, revenue: 56400, roas: 1.73 },

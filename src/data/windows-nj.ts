@@ -128,6 +128,7 @@ export const windowsNj: CaseStudyData = {
       qualified: "Qualified Leads",
       cpql: "Cost/Qualified Lead",
       deals: "Closed Jobs",
+      costPerDeal: "Cost/Job",
     },
     monthly: [
       // Jul 2025: Summer — campaign launch month, auditing and restructuring

@@ -135,6 +135,7 @@ export const educationChicago: CaseStudyData = {
       qualified: "Qualified Leads",
       cpql: "Cost/Qualified Lead",
       deals: "Enrollments",
+      costPerDeal: "Cost/Enrollment",
     },
     monthly: [
       { month: "Jan 2025", spend: 12847, leads: 143, cpl: 89.84, qualified: 61, cpql: 210.61, deals: 18, revenue: 0, roas: 0 },

@@ -132,6 +132,7 @@ export const exteriorBuildingProductsAlabama: CaseStudyData = {
       qualified: "Qualified Leads",
       cpql: "Cost Per Qualified Lead",
       deals: "Closed Deals",
+      costPerDeal: "Cost/Deal",
     },
     monthly: [
       {

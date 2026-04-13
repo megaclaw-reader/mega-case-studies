@@ -131,6 +131,7 @@ export const disasterRecoveryNewMexico: CaseStudyData = {
       qualified: "Qualified Leads",
       cpql: "Cost/Qualified",
       deals: "Closed Jobs",
+      costPerDeal: "Cost/Job",
     },
     monthly: [
       { month: "Jun 2025", spend: 5654, leads: 41, cpl: 138, qualified: 18, cpql: 314, deals: 6, revenue: 18500, roas: 3.27 },

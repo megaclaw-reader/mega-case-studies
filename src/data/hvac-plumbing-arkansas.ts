@@ -114,7 +114,8 @@ export const hvacPlumbingArkansasCaseStudy: CaseStudyData = {
       cpl: "Cost/Lead",
       qualified: "Qualified",
       cpql: "Cost/Qualified",
-      deals: "Jobs Closed"
+      deals: "Jobs Closed",
+      costPerDeal: "Cost/Job",
     },
     monthly: [
       { month: "Jan 2025", spend: 13245, leads: 332, cpl: 39.89, qualified: 198, cpql: 66.89, deals: 19, revenue: 33907.0, roas: 2.56 },

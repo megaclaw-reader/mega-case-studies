@@ -130,6 +130,7 @@ export const businessLitigationCt: CaseStudyData = {
       qualified: "Qualified Consultations",
       cpql: "Cost/Qualified",
       deals: "Signed Retainers",
+      costPerDeal: "Cost/Case",
     },
     monthly: [
       { month: "May 2025", spend: 10875, leads: 22, cpl: 494, qualified: 11, cpql: 989, deals: 2, revenue: 31400, roas: 2.89 },

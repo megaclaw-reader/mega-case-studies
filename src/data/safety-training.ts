@@ -138,6 +138,7 @@ export const safetyTraining: CaseStudyData = {
       qualified: "Qualified Leads",
       cpql: "Cost/Qualified Lead",
       deals: "Signed Contracts",
+      costPerDeal: "Cost/Contract",
     },
     monthly: [
       { month: "Jan 2025", spend: 5100, leads: 67, cpl: 76.12, qualified: 18, cpql: 283.33, deals: 4, revenue: 14720.0, roas: 2.89 },

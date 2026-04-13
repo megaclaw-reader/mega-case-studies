@@ -132,6 +132,7 @@ export const subscriptionEducationNational: CaseStudyData = {
       qualified: "Paid Subscribers",
       cpql: "Cost/Subscriber",
       deals: "Annual Plans",
+      costPerDeal: "Cost/Subscriber",
     },
     monthly: [
       { month: "Jan 2025", spend: 12000, leads: 189, cpl: 63, qualified: 95, cpql: 126, deals: 23, revenue: 21789, roas: 1.82 },

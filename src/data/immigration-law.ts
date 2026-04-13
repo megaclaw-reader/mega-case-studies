@@ -133,6 +133,7 @@ export const immigrationLaw: CaseStudyData = {
       qualified: "Qualified Consultations",
       cpql: "Cost/Qualified",
       deals: "Signed Retainers",
+      costPerDeal: "Cost/Case",
     },
     monthly: [
       { month: "Jan 2025", spend: 150000, leads: 1071, cpl: 140, qualified: 210, cpql: 714, deals: 31, revenue: 198710, roas: 1.32 },

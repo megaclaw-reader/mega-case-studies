@@ -128,6 +128,7 @@ export const lawFirmSmallPractice: CaseStudyData = {
       qualified: "Qualified Leads",
       cpql: "Cost/Qualified",
       deals: "Signed Cases",
+      costPerDeal: "Cost/Case",
     },
     monthly: [
       { month: "Jan '25", spend: 10200, leads: 38, cpl: 268, qualified: 14, cpql: 729, deals: 5, revenue: 24600, roas: 2.41 },

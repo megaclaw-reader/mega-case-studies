@@ -134,6 +134,7 @@ export const drywallRepair: CaseStudyData = {
       qualified: "Booked Jobs",
       cpql: "Cost/Booked Job",
       deals: "Completed Jobs",
+      costPerDeal: "Cost/Job",
     },
     monthly: [
       { month: "Jan 2025", spend: 6200, leads: 83, cpl: 74.70, qualified: 34, cpql: 182.35, deals: 8, revenue: 3760, roas: 0.61 },

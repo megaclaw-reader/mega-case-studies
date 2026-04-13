@@ -117,6 +117,7 @@ export const hvac: CaseStudyData = {
       qualified: "Qualified Leads",
       cpql: "Cost/Qualified Lead",
       deals: "Booked Jobs",
+      costPerDeal: "Cost/Job",
     },
     monthly: [
       { month: "Apr 2025", spend: 5166, leads: 42, cpl: 123.0, qualified: 25, cpql: 206.64, deals: 9, revenue: 11400, roas: 2.21 },

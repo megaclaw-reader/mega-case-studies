@@ -132,6 +132,7 @@ export const remoteRecruitingNational: CaseStudyData = {
       qualified: "Qualified Employers",
       cpql: "Cost/Qualified",
       deals: "Successful Placements",
+      costPerDeal: "Cost/Placement",
     },
     monthly: [
       { month: "Jan 2025", spend: 7850, leads: 89, cpl: 88.20, qualified: 31, cpql: 253.22, deals: 8, revenue: 32400, roas: 4.13 },

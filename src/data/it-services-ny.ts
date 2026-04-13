@@ -121,6 +121,7 @@ export const itServicesNy: CaseStudyData = {
       qualified: "Qualified Leads",
       cpql: "Cost/Qualified Lead",
       deals: "Signed Contracts",
+      costPerDeal: "Cost/Contract",
     },
     monthly: [
       { month: "Jan 2025", spend: 8200, leads: 47, cpl: 174, qualified: 28, cpql: 293, deals: 2, revenue: 28000, roas: 3.41 },

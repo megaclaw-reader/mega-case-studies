@@ -90,6 +90,7 @@ export const healthcareB2bApp: CaseStudyData = {
       qualified: "Qualified Leads",
       cpql: "Cost/Qualified",
       deals: "Closed Deals",
+      costPerDeal: "Cost/Deal",
     },
     monthly: [
       { month: "Jul '25", spend: 7564, leads: 42, cpl: 180, qualified: 16, cpql: 473, deals: 4, revenue: 23400, roas: 3.09 },

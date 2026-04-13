@@ -118,6 +118,7 @@ export const lawFirmNational: CaseStudyData = {
       qualified: "Qualified Leads",
       cpql: "Cost/Qualified",
       deals: "Signed Cases",
+      costPerDeal: "Cost/Case",
     },
     monthly: [
       { month: "Jan 2025", spend: 100000, leads: 312, cpl: 320.51, qualified: 78, cpql: 1282.05, deals: 19, revenue: 341400, roas: 3.41 },

@@ -100,7 +100,8 @@ export const lifeInsuranceChicago: CaseStudyData = {
       cpl: "Cost Per Lead",
       qualified: "Qualified Leads",
       cpql: "Cost Per Qualified Lead",
-      deals: "Policies Sold"
+      deals: "Policies Sold",
+      costPerDeal: "Cost/Policy",
     },
     monthly: [
       {

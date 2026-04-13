@@ -108,6 +108,7 @@ export const healthcareRegenerativeMedicine: CaseStudyData = {
       qualified: "Qualified Leads",
       cpql: "Cost/Qualified Lead",
       deals: "New Patients",
+      costPerDeal: "Cost/Patient",
     },
     monthly: [
       { month: "Jan 2025", spend: 5000, leads: 18, cpl: 278, qualified: 8, cpql: 625, deals: 3, revenue: 12600, roas: 2.52 },

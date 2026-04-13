@@ -93,6 +93,7 @@ export const b2bOfficeServiceTexas: CaseStudyData = {
       qualified: "Qualified Leads",
       cpql: "Cost/Qual. Lead",
       deals: "Contracts Signed",
+      costPerDeal: "Cost/Contract",
     },
     monthly: [
       { month: "Feb '25", spend: 5000, leads: 14, cpl: 357.14, qualified: 7, cpql: 714.29, deals: 3, revenue: 13580, roas: 2.72 },

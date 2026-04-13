@@ -125,6 +125,7 @@ export const beautySpaAustin: CaseStudyData = {
       qualified: "Qualified Leads",
       cpql: "CPQL",
       deals: "Booked Clients",
+      costPerDeal: "Cost/Client",
     },
     monthly: [
       { month: "Jul 2025", spend: 6745, leads: 79, cpl: 85.38, qualified: 17, cpql: 396.76, deals: 6, revenue: 13847, roas: 2.05 },

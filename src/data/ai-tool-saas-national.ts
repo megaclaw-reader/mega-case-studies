@@ -134,6 +134,7 @@ export const aiToolSaasNational: CaseStudyData = {
       qualified: "Qualified Leads",
       cpql: "Cost/Qualified Lead",
       deals: "New Subscriptions",
+      costPerDeal: "Cost/Subscription",
     },
     monthly: [
       { month: "Jan 2025", spend: 5147, leads: 34, cpl: 151, qualified: 11, cpql: 468, deals: 2, revenue: 7566, roas: 1.47 },

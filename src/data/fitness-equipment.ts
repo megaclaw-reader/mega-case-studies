@@ -99,7 +99,8 @@ export const fitnessEquipmentPhoenix: CaseStudyData = {
       cpl: "Cost Per Lead",
       qualified: "Qualified Leads",
       cpql: "Cost Per Qualified Lead",
-      deals: "Closed Deals"
+      deals: "Closed Deals",
+      costPerDeal: "Cost/Deal",
     },
     monthly: [
       {

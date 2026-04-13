@@ -121,6 +121,7 @@ export const hvacKitchenBathAz: CaseStudyData = {
       qualified: "Qualified Leads",
       cpql: "Cost/Qualified Lead",
       deals: "Closed Deals",
+      costPerDeal: "Cost/Deal",
     },
     monthly: [
       { month: "Feb 2025", spend: 5100, leads: 38, cpl: 134, qualified: 26, cpql: 196, deals: 9, revenue: 22100, roas: 4.33 },

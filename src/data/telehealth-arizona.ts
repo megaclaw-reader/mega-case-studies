@@ -130,6 +130,7 @@ export const telehealthArizona: CaseStudyData = {
       qualified: "Qualified Leads",
       cpql: "Cost/Qualified Lead",
       deals: "New Patients",
+      costPerDeal: "Cost/Patient",
     },
     monthly: [
       { month: "Jan 2025", spend: 6000, leads: 73, cpl: 82, qualified: 32, cpql: 188, deals: 14, revenue: 6370, roas: 1.06 },

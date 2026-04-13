@@ -112,6 +112,7 @@ export const medSpaOrlando: CaseStudyData = {
       qualified: "Qualified Consultations",
       cpql: "Cost/Consultation",
       deals: "Booked Treatments",
+      costPerDeal: "Cost/Patient",
     },
     monthly: [
       { month: "Jan 2025", spend: 6513, leads: 218, cpl: 30, qualified: 85, cpql: 77, deals: 27, revenue: 12447, roas: 1.91 },

@@ -114,6 +114,7 @@ export const functionalMedicineClinic: CaseStudyData = {
       qualified: "Qualified Leads",
       cpql: "Cost Per Qualified Lead",
       deals: "New Patients",
+      costPerDeal: "Cost/Patient",
     },
     monthly: [
       { month: "Sep 2025", spend: 7654, leads: 73, cpl: 105, qualified: 27, cpql: 284, deals: 6, revenue: 19800, roas: 2.59 },

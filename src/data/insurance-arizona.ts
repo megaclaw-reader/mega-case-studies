@@ -129,6 +129,7 @@ export const insuranceArizona: CaseStudyData = {
       qualified: "Qualified Leads",
       cpql: "Cost/Qualified",
       deals: "Policies Bound",
+      costPerDeal: "Cost/Policy",
     },
     monthly: [
       { month: "Feb '25", spend: 5180, leads: 38, cpl: 136, qualified: 14, cpql: 370, deals: 3, revenue: 7140, roas: 1.38 },

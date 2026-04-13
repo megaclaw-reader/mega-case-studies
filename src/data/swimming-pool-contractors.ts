@@ -105,6 +105,7 @@ export const swimmingPoolContractors: CaseStudyData = {
       qualified: "Qualified Leads",
       cpql: "Cost/Qualified Lead",
       deals: "Contracts Signed",
+      costPerDeal: "Cost/Contract",
     },
     monthly: [
       // Month 1 (Mar 2025): Baseline — audit, instrumentation, ICP discovery. Early spring demand starting.

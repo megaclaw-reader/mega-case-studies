@@ -105,6 +105,7 @@ export const homeRenovations: CaseStudyData = {
       qualified: "Qualified Leads",
       cpql: "CPQL",
       deals: "Closed Jobs",
+      costPerDeal: "Cost/Job",
     },
     monthly: [
       { month: "Jan 2025", spend: 5000, leads: 26, cpl: 192.31, qualified: 10, cpql: 500.0, deals: 1, revenue: 15900.0, roas: 3.18 },

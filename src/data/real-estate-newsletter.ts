@@ -112,6 +112,7 @@ export const realEstateNewsletter: CaseStudyData = {
       qualified: "Premium Conversions",
       cpql: "Cost/Conversion",
       deals: "Sponsors Secured",
+      costPerDeal: "Cost/Sponsor",
     },
     monthly: [
       // Month 1 (Apr): Launch — building baseline, testing audiences, higher cost/sub expected

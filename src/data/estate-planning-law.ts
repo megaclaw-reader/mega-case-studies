@@ -156,6 +156,7 @@ export const estatePlanningLaw: CaseStudyData = {
       qualified: "Qualified Consultations",
       cpql: "Cost/Qualified",
       deals: "Signed Engagements",
+      costPerDeal: "Cost/Case",
     },
     monthly: [
       { month: "Jan '25", spend: 8000, leads: 29, cpl: 276, qualified: 15, cpql: 533, deals: 3, revenue: 14850, roas: 1.86 },

@@ -133,6 +133,7 @@ export const sightseeingFlorida: CaseStudyData = {
       qualified: "Qualified Leads",
       cpql: "Cost/Qualified",
       deals: "Confirmed Bookings",
+      costPerDeal: "Cost/Booking",
     },
     monthly: [
       { month: "Jan '25", spend: 8400, leads: 651, cpl: 12.90, qualified: 410, cpql: 20.49, deals: 172, revenue: 22188, roas: 2.64 },

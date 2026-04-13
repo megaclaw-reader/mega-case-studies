@@ -124,6 +124,7 @@ export const rvDealershipPhoenix: CaseStudyData = {
       qualified: "Qualified Leads", 
       cpql: "Cost/Qualified",
       deals: "Sales Closed",
+      costPerDeal: "Cost/Sale",
     },
     monthly: [
       { month: "Jan '25", spend: 42000, leads: 164, cpl: 256, qualified: 78, cpql: 538, deals: 31, revenue: 168000, roas: 4.0 },

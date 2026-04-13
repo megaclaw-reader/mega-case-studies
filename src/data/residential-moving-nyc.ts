@@ -94,7 +94,8 @@ export const residentialMovingNyc: CaseStudyData = {
       cpl: "Cost Per Lead", 
       qualified: "Qualified Leads",
       cpql: "Cost Per Qualified Lead",
-      deals: "Deals Closed"
+      deals: "Deals Closed",
+      costPerDeal: "Cost/Deal",
     },
     monthly: [
       {

@@ -141,6 +141,7 @@ export const landscaping: CaseStudyData = {
       qualified: "Qualified Leads",
       cpql: "CPQL",
       deals: "Signed Jobs",
+      costPerDeal: "Cost/Job",
     },
     monthly: [
       // Month 1 (Mar 2025): Spring start, broad targeting, no ICP data yet

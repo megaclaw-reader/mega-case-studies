@@ -102,6 +102,7 @@ export const saasPlatformCt: CaseStudyData = {
       qualified: "SQLs",
       cpql: "Cost/SQL",
       deals: "Closed Deals",
+      costPerDeal: "Cost/Deal",
     },
     monthly: [
       { month: "Jan 2025", spend: 5679, leads: 29, cpl: 196, qualified: 4, cpql: 1420, deals: 1, revenue: 7800, roas: 1.37 },

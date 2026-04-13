@@ -130,6 +130,7 @@ export const garageDoorRepairs: CaseStudyData = {
       qualified: "Qualified Leads",
       cpql: "Cost/Qualified",
       deals: "Closed Jobs",
+      costPerDeal: "Cost/Job",
     },
     monthly: [
       { month: "May 2025", spend: 19800, leads: 113, cpl: 175, qualified: 62, cpql: 319, deals: 23, revenue: 19481, roas: 0.98 },

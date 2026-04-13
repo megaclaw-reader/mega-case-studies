@@ -131,6 +131,7 @@ export const wealthManagementPhoenix: CaseStudyData = {
       qualified: "Qualified Leads",
       cpql: "Cost/Qualified Lead",
       deals: "New Clients",
+      costPerDeal: "Cost/Client",
     },
     monthly: [
       { month: "Jan", spend: 20134, leads: 18, cpl: 1119, qualified: 9, cpql: 2237, deals: 1, revenue: 13000, roas: 0.65 },

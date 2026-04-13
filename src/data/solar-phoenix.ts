@@ -108,6 +108,7 @@ export const solarPhoenix: CaseStudyData = {
       qualified: "Consultations Booked",
       cpql: "Cost/Consultation",
       deals: "Installs Closed",
+      costPerDeal: "Cost/Install",
     },
     monthly: [
       { month: "Jun 2025", spend: 14750, leads: 67, cpl: 220.15, qualified: 27, cpql: 546.3, deals: 3, revenue: 52800, roas: 3.58 },

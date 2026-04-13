@@ -131,6 +131,7 @@ export const wealthManagement: CaseStudyData = {
       qualified: "Qualified Leads",
       cpql: "Cost/Qualified Lead",
       deals: "New Clients",
+      costPerDeal: "Cost/Client",
     },
     monthly: [
       // Month 1: Campaign launch — conservative spend, building baseline, high CPL expected

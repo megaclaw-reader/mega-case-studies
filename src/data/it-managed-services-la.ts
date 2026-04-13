@@ -121,6 +121,7 @@ export const itManagedServicesLa: CaseStudyData = {
       qualified: "Qualified Leads",
       cpql: "Cost/Qualified Lead",
       deals: "Signed Contracts",
+      costPerDeal: "Cost/Contract",
     },
     monthly: [
       { month: "Jan 2025", spend: 20400, leads: 79, cpl: 258, qualified: 13, cpql: 1569, deals: 1, revenue: 38400, roas: 1.88 },

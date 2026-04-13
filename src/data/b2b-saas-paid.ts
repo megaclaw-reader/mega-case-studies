@@ -107,6 +107,7 @@ export const b2bSaasPaid: CaseStudyData = {
       qualified: "SQLs",
       cpql: "Cost/SQL",
       deals: "Closed Deals",
+      costPerDeal: "Cost/Deal",
     },
     monthly: [
       { month: "Jan 2025", spend: 40213, leads: 47, cpl: 856, qualified: 22, cpql: 1828, deals: 4, revenue: 111847, roas: 2.78 },

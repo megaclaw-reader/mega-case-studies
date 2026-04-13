@@ -146,6 +146,7 @@ export const vacationRental: CaseStudyData = {
       qualified: "Qualified Leads",
       cpql: "CPQL",
       deals: "Bookings",
+      costPerDeal: "Cost/Booking",
     },
     monthly: [
       // Month 1 (Jan 2025): Winter low — minimum spend, low demand

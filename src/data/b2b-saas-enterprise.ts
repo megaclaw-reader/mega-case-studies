@@ -124,6 +124,7 @@ export const b2bSaasEnterprise: CaseStudyData = {
       qualified: "Qualified Demos",
       cpql: "Cost/Demo",
       deals: "Contracts Closed",
+      costPerDeal: "Cost/Contract",
     },
     monthly: [
       { month: "Apr '25", spend: 40247, leads: 108, cpl: 373, qualified: 31, cpql: 1298, deals: 2, revenue: 142847, roas: 3.55 },

@@ -148,6 +148,7 @@ export const taxPlanningCoaching: CaseStudyData = {
       qualified: "Qualified Leads",
       cpql: "Cost/Qualified Lead",
       deals: "Deals Closed",
+      costPerDeal: "Cost/Deal",
     },
     monthly: [
       // Month 1 (Jan 2025): Launch at $20K — building baseline, high CPQL, 18% qualification rate

@@ -107,6 +107,7 @@ export const realEstateServices: CaseStudyData = {
       qualified: "Qualified Leads",
       cpql: "Cost/Qualified",
       deals: "Closed Deals",
+      costPerDeal: "Cost/Deal",
     },
     monthly: [
       { month: "Jan 2025", spend: 7843, leads: 47, cpl: 166.87, qualified: 15, cpql: 522.87, deals: 1, revenue: 10800, roas: 1.38 },

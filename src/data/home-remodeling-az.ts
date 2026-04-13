@@ -110,6 +110,7 @@ export const homeRemodelingAz: CaseStudyData = {
       qualified: "Qualified Leads",
       cpql: "Cost/Qualified",
       deals: "Closed Projects",
+      costPerDeal: "Cost/Project",
     },
     monthly: [
       { month: "May 2025", spend: 8000, leads: 42, cpl: 190, qualified: 21, cpql: 381, deals: 5, revenue: 29000, roas: 3.63 },

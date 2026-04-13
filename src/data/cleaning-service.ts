@@ -136,6 +136,7 @@ export const cleaningService: CaseStudyData = {
       qualified: "Qualified Leads",
       cpql: "CPQL",
       deals: "Closed Clients",
+      costPerDeal: "Cost/Client",
     },
     monthly: [
       { month: "Jan 2025", spend: 5000, leads: 96, cpl: 52.08, qualified: 26, cpql: 192.31, deals: 8, revenue: 8247.0, roas: 1.65 },

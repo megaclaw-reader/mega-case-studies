@@ -126,6 +126,7 @@ export const ventureCapitalAz: CaseStudyData = {
       qualified: "Qualified Leads",
       cpql: "Cost/Qualified Lead",
       deals: "Deals Closed",
+      costPerDeal: "Cost/Deal",
     },
     monthly: [
       // Month 1 (May): Launch — conservative spend, establishing baselines

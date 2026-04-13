@@ -150,6 +150,7 @@ export const rentalHomeManagementArizona: CaseStudyData = {
       qualified: "Qualified Leads",
       cpql: "Cost Per Qualified Lead",
       deals: "Signed Contracts",
+      costPerDeal: "Cost/Contract",
     },
     monthly: [
       { month: "Feb '25", spend: 5200, leads: 78, cpl: 66.67, qualified: 33, cpql: 157.58, deals: 7, revenue: 17143, roas: 3.30 },

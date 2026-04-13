@@ -89,6 +89,7 @@ export const roofingNewMexico: CaseStudyData = {
       qualified: "Qualified Leads",
       cpql: "Cost/Qualified Lead",
       deals: "Closed Deals",
+      costPerDeal: "Cost/Deal",
     },
     monthly: [
       { month: "Jun '25", spend: 12400, leads: 87, cpl: 143, qualified: 49, cpql: 253, deals: 4, revenue: 54000, roas: 4.35 },

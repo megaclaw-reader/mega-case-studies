@@ -151,6 +151,7 @@ export const lawFirmMontreal: CaseStudyData = {
       qualified: "Qualified Leads",
       cpql: "Cost Per Lead",
       deals: "Retainers",
+      costPerDeal: "Cost/Case",
     },
     monthly: [
       // Jan 2025: Winter, restructuring campaigns, family law spike (New Year divorces)
