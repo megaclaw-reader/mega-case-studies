@@ -3,7 +3,7 @@ import { CaseStudyData } from "./types";
 export const privateMedicalPracticeAustin: CaseStudyData = {
   slug: "private-medical-practice-austin",
   industry: "Private Medical Practice",
-  headline: "How an Austin Private Medical Practice Scaled Ad Spend From $356.4K to $356.4K/Month While Improving Lead Quality — Generating $356.4K in Patient Revenue Over 8 Months",
+  headline: "How an Austin Private Medical Practice Scaled Ad Spend From $10K to $14K/Month While Improving Lead Quality — Generating $356.4K in Patient Revenue Over 8 Months",
   subheadline: "MEGA helped a multi-physician private medical practice in Austin, Texas build a dominant organic presence and systematically scale paid campaigns around lead quality — growing qualified patient leads by 205% and achieving a 3.63x blended ROAS on services averaging $3,100–$3,500 per new patient.",
   heroStats: [
     { value: "8", unit: "months", label: "Partnership Duration" },
