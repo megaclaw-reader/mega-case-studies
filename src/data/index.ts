@@ -197,6 +197,7 @@ import { beautyProductsEcommerce } from "./beauty-products-ecommerce";
 import { roofingTexas } from "./roofing-texas";
 import { lifeInsuranceChicago } from "./life-insurance-chicago";
 import { carDealership } from "./car-dealership";
+import { medspa as medspaScottsdale } from "./medspa";
 
 export const caseStudies: Record<string, CaseStudyData> = {
   "alarm-surveillance-seo": alarmSurveillanceSeo,
@@ -396,6 +397,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "med-spa-seo-new-york": medSpaSeoNewYork,
   "b2b-saas-enterprise": b2bSaasEnterprise,
   "car-dealership": carDealership,
+  "medspa": medspaScottsdale,
 };
 
 export type { CaseStudyData };
