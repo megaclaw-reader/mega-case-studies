@@ -645,7 +645,8 @@
     "Estate Planning and Law": "lead_gen_professional",
     "Outdoor Lighting": "lead_gen_services",
     "Mental Health Treatment": "lead_gen_professional",
-    "Car Dealership": "lead_gen_services"
+    "Car Dealership": "lead_gen_services",
+    "Fitness Equipment": "lead_gen_services"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",

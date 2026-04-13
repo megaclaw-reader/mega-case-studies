@@ -198,6 +198,7 @@ import { roofingTexas } from "./roofing-texas";
 import { lifeInsuranceChicago } from "./life-insurance-chicago";
 import { carDealership } from "./car-dealership";
 import { medspa as medspaScottsdale } from "./medspa";
+import { fitnessEquipmentPhoenix } from "./fitness-equipment";
 
 export const caseStudies: Record<string, CaseStudyData> = {
   "alarm-surveillance-seo": alarmSurveillanceSeo,
@@ -398,6 +399,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "b2b-saas-enterprise": b2bSaasEnterprise,
   "car-dealership": carDealership,
   "medspa": medspaScottsdale,
+  "fitness-equipment": fitnessEquipmentPhoenix,
 };
 
 export type { CaseStudyData };
