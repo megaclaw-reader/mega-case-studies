@@ -154,6 +154,10 @@
         "multifamily_housing": [
           1500,
           4000
+        ],
+        "car_dealership": [
+          5000,
+          60000
         ]
       }
     },
@@ -640,7 +644,8 @@
     "Life Insurance": "lead_gen_professional",
     "Estate Planning and Law": "lead_gen_professional",
     "Outdoor Lighting": "lead_gen_services",
-    "Mental Health Treatment": "lead_gen_professional"
+    "Mental Health Treatment": "lead_gen_professional",
+    "Car Dealership": "lead_gen_services"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",
