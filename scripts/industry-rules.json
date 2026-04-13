@@ -547,6 +547,7 @@
     "Business Coaching": "lead_gen_professional",
     "Internet Service Provider": "lead_gen_professional",
     "Education": "lead_gen_professional",
+    "Education and Training": "lead_gen_professional",
     "Wealth Management": "wealth_management",
     "Venture Capital": "wealth_management",
     "Financial Services": "wealth_management",
@@ -646,7 +647,8 @@
     "Outdoor Lighting": "lead_gen_services",
     "Mental Health Treatment": "lead_gen_professional",
     "Car Dealership": "lead_gen_services",
-    "Fitness Equipment": "lead_gen_services"
+    "Fitness Equipment": "lead_gen_services",
+    "Travel & Services": "lead_gen_services"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",
