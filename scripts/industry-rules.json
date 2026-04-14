@@ -655,7 +655,8 @@
     "Rehabilitation Center": "lead_gen_professional",
     "Addiction Treatment": "lead_gen_professional",
     "Behavioral Health": "lead_gen_professional",
-    "Entertainment Events": "lead_gen_services"
+    "Entertainment Events": "lead_gen_services",
+    "Food and Beverage / Packaged Foods": "ecommerce"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",
