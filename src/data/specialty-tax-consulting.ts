@@ -1,0 +1,136 @@
+import { CaseStudyData } from "./types";
+
+export const specialtyTaxConsulting: CaseStudyData = {
+  slug: "specialty-tax-consulting",
+  industry: "Specialty Tax Consulting",
+  headline: "How a North Carolina Specialty Tax Consulting Firm Grew Qualified Leads From 9 to 32 Per Month With AI-Powered Marketing",
+  subheadline: "MEGA helped a specialty tax consulting firm in North Carolina build a scalable inbound pipeline, growing qualified leads 256% and generating $165.0K in new revenue over 6 months.",
+  heroStats: [
+    { value: "6", unit: "months", label: "Partnership Duration" },
+    { value: "113", unit: "", label: "Qualified Leads Generated" },
+    { value: "165.0", unit: "K", label: "Revenue Attributed" },
+  ],
+  tags: ["SEO Strategy", "Paid Advertising", "Local SEO"],
+  company: {
+    industry: "Specialty Tax Consulting",
+    employees: "11",
+    revenue: "$2.1M",
+    location: "North Carolina (Triangle Region)",
+    description: "A boutique specialty tax consulting firm based in North Carolina's Research Triangle region, serving businesses and high-net-worth individuals across the state. The firm specialized in R&D tax credits, cost segregation studies, estate and trust tax planning, IRS audit defense, and international tax compliance. With average engagement values ranging from $5,000 to $18,000, the firm relied heavily on CPA referrals and professional networking — generating only a handful of inbound leads per month despite strong expertise and client outcomes. Their website was informational but not optimized for search, and prior attempts at paid advertising had produced a high volume of unqualified inquiries from individuals seeking basic tax preparation rather than the complex, high-value advisory services the firm offered.",
+  },
+  challenges: [
+    {
+      title: "Low Volume of Qualified Inbound Leads",
+      description: "Despite strong credentials and deep expertise in specialized tax services, the firm averaged fewer than 10 qualified inbound leads per month. Most website traffic came from branded searches or direct referrals. The few paid campaign leads that did come in were predominantly seeking basic personal tax prep — not the $8,000–$18,000 specialty engagements the firm was built around. The qualification rate on paid leads hovered around 35%, wasting significant ad spend on prospects who weren't a fit.",
+    },
+    {
+      title: "Minimal Search Visibility for High-Intent Services",
+      description: "The firm's website ranked for only 124 keywords, almost none related to their core specialty services like R&D tax credits, cost segregation, or IRS audit defense in North Carolina. Competitors with dedicated content around these topics dominated local search results. Organic traffic was just 347 visits per month — a fraction of what the addressable search demand could support for specialty tax advisory in a region home to thousands of technology, biotech, and real estate companies.",
+    },
+    {
+      title: "Seasonal Revenue Concentration and Pipeline Gaps",
+      description: "Roughly 60% of the firm's annual revenue was concentrated around the April 15 and October 15 tax deadlines, with significant pipeline gaps during summer months. The engagement period starting in September meant the firm needed to capitalize on the October extension deadline surge, build momentum through year-end planning season, and sustain growth into the January–February tax season ramp-up — all while building a digital marketing infrastructure from near-zero.",
+    },
+  ],
+  strategy: [
+    {
+      phase: 1,
+      months: "0–30 days",
+      title: "Foundation & Quick Wins",
+      items: [
+        "Full technical site audit — crawlability, site speed, structured data, and local business schema for specialty tax services across North Carolina",
+        "Google Search Console and Google Business Profile optimization targeting Research Triangle, Charlotte, and Raleigh-Durham metro areas",
+        "Competitive keyword research across R&D tax credits, cost segregation, estate and trust tax planning, IRS audit defense, and international tax compliance verticals",
+        "Generated 14 initial content pieces — service-specific guides on North Carolina R&D tax credit eligibility, cost segregation for commercial real estate, and extension deadline planning",
+        "Technical SEO fixes including canonical cleanup, image optimization, and E-E-A-T signals for financial advisory authority",
+        "Local citation building — submitted to 38 directories including industry-specific listings for tax professionals in North Carolina",
+        "Full audit of prior ad campaigns and re-instrumented site with proper conversion tracking and CRM integration for lead-to-client attribution",
+        "Built comprehensive ad strategy targeting business owners and CFOs searching for specialty tax services — emphasizing qualification over volume",
+        "Paused broad match keywords attracting basic tax prep seekers and launched first round of high-intent keyword campaigns around R&D credits and cost segregation",
+        "Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement — replacing the traditional weekly-review agency cadence",
+      ],
+    },
+    {
+      phase: 2,
+      months: "30–60 days",
+      title: "Content & Optimization Engine",
+      items: [
+        "Reviewed 0–30 day performance data and refined targeting for North Carolina business owners with specialty tax needs",
+        "Generated 18 additional articles focused on year-end tax planning strategies, North Carolina-specific incentives, and IRS audit preparation guides",
+        "Launched programmatic location pages targeting specialty tax services across 12 North Carolina metros and surrounding counties",
+        "Optimized internal linking to build topical authority clusters around each specialty service line",
+        "Added FAQ schema, service schema, and organization markup across all key landing pages",
+        "Rapid iterations of ad creative testing — messaging pivots around tax savings quantification, compliance risk reduction, and audit protection",
+        "Retargeting campaigns for visitors who viewed specialty service pages but didn't convert",
+        "Keyword and negative keyword refinement based on CRM qualification data — systematically eliminating personal tax prep and low-value searches",
+        "AI agents analyzed thousands of performance signals daily, identifying high-converting audience segments and reallocating budget in real time to compound small daily improvements into significant monthly gains",
+      ],
+    },
+    {
+      phase: 3,
+      months: "60–90 days",
+      title: "Scale & Compound",
+      items: [
+        "Reviewed 0–60 day data and expanded programmatic content to additional North Carolina regions and service combinations",
+        "Backlink campaigns targeting local business publications, CPA professional networks, and financial planning resources in North Carolina",
+        "Content refresh cycle aligned to tax season milestones — Q4 year-end planning, January filing season preparation, and extension deadline strategies",
+        "Advanced audience segmentation by industry vertical (technology companies for R&D credits, real estate investors for cost segregation, high-net-worth individuals for estate planning)",
+        "Landing page optimization with service-specific case examples and engagement value framing",
+        "Multi-approach bidding strategies based on campaign maturity and lead quality data from CRM",
+        "Continuous AI optimization compounded daily improvements — bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles",
+      ],
+    },
+    {
+      phase: 4,
+      months: "90+ days",
+      title: "Ongoing Optimization",
+      items: [
+        "Budget reallocation based on performance — shifted spend toward highest-converting service lines and geographic areas within North Carolina",
+        "Seasonal campaign adjustments — ramped ad spend for January tax season surge and maintained strong pipeline through February filing activity",
+        "Audience pruning and expansion — removed low-intent segments, tested lookalike audiences modeled from closed specialty tax clients",
+        "Content expansion into emerging specialty areas — qualified opportunity zone investments, cryptocurrency tax compliance, and state-specific incentive programs",
+        "Weekly reporting with full attribution from ad click through qualified lead to closed engagement, tied directly to revenue impact",
+        "Google Business Profile review generation campaigns and ongoing citation maintenance across North Carolina service areas",
+        "When seasonal demand shifted around tax deadlines, AI agents restructured campaigns within hours to capture the opportunity — reallocating budget to high-intent keywords that would take traditional agencies days to identify and act on",
+      ],
+    },
+  ],
+  seo: {
+    summary: [
+      { label: "Total Keywords", value: "2,347", growth: "+1,793%", from: "from 124" },
+      { label: "Top 10 Rankings", value: "156", growth: "+1,850%", from: "from 8" },
+      { label: "Pages Created", value: "94", growth: "", from: "incl. 52 location-service pages" },
+      { label: "Organic Traffic", value: "5,218/mo", growth: "+1,404%", from: "from 347" },
+    ],
+    monthly: [
+      { month: "Sep '25", keywords: 124, top10: 8, top3: 1, traffic: 347, pages: 12, avgPos: 52.4, ctr: 0.8 },
+      { month: "Oct '25", keywords: 318, top10: 19, top3: 3, traffic: 893, pages: 31, avgPos: 44.7, ctr: 1.0 },
+      { month: "Nov '25", keywords: 612, top10: 38, top3: 6, traffic: 1647, pages: 48, avgPos: 38.2, ctr: 1.2 },
+      { month: "Dec '25", keywords: 978, top10: 64, top3: 11, traffic: 2418, pages: 63, avgPos: 33.1, ctr: 1.4 },
+      { month: "Jan '26", keywords: 1587, top10: 103, top3: 18, traffic: 3847, pages: 79, avgPos: 28.6, ctr: 1.6 },
+      { month: "Feb '26", keywords: 2347, top10: 156, top3: 27, traffic: 5218, pages: 94, avgPos: 24.3, ctr: 1.8 },
+    ],
+  },
+  paidAds: {
+    summary: [
+      { label: "Total Ad Spend", value: "$42.8K" },
+      { label: "Qualified Leads", value: "113" },
+      { label: "Avg Cost Per Qualified Lead", value: "$379", note: "↓48% from $732" },
+      { label: "New Clients Acquired", value: "20" },
+    ],
+    monthly: [
+      { month: "Sep '25", spend: 6587, leads: 23, cpl: 286.39, qualified: 9, cpql: 731.89, deals: 1, revenue: 12400, roas: 1.88 },
+      { month: "Oct '25", spend: 7214, leads: 28, cpl: 257.64, qualified: 13, cpql: 554.92, deals: 3, revenue: 30800, roas: 4.27 },
+      { month: "Nov '25", spend: 6843, leads: 27, cpl: 253.44, qualified: 16, cpql: 427.69, deals: 3, revenue: 27900, roas: 4.08 },
+      { month: "Dec '25", spend: 6921, leads: 26, cpl: 266.19, qualified: 18, cpql: 384.50, deals: 2, revenue: 23400, roas: 3.38 },
+      { month: "Jan '26", spend: 7438, leads: 37, cpl: 201.03, qualified: 25, cpql: 297.52, deals: 5, revenue: 34800, roas: 4.68 },
+      { month: "Feb '26", spend: 7812, leads: 46, cpl: 169.83, qualified: 32, cpql: 244.13, deals: 6, revenue: 35700, roas: 4.57 },
+    ],
+  },
+  impact: [
+    { label: "Total Revenue", value: "$165.0K", growth: "+189%" },
+    { label: "Qualified Leads Generated", value: "113", growth: "9 → 32/mo" },
+    { label: "Avg Engagement Value", value: "$8.3K", growth: "" },
+    { label: "Blended ROAS", value: "3.85x", growth: "" },
+  ],
+};
