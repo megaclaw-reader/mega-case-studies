@@ -1,5 +1,6 @@
 import { CaseStudyData } from "./types";
 import { exterminator } from "./exterminator";
+import { exterminatorCa } from "./exterminator-ca";
 import { specialtyTaxConsulting } from "./specialty-tax-consulting";
 import { packagedFoods } from "./packaged-foods";
 import { entertainmentEvents } from "./entertainment-events";
@@ -210,6 +211,7 @@ import { medspa as medspaScottsdale } from "./medspa";
 import { fitnessEquipmentPhoenix } from "./fitness-equipment";
 import { travelServices } from "./travel-services";
 import { personalCareBeauty } from "./personal-care-beauty";
+import { plasticSurgery } from "./plastic-surgery";
 
 export const caseStudies: Record<string, CaseStudyData> = {
   "alarm-surveillance-seo": alarmSurveillanceSeo,
@@ -422,6 +424,8 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "packaged-foods": packagedFoods,
   "specialty-tax-consulting": specialtyTaxConsulting,
   "exterminator": exterminator,
+  "exterminator-ca": exterminatorCa,
+  "plastic-surgery": plasticSurgery,
 };
 
 export type { CaseStudyData };
