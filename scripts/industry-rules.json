@@ -650,7 +650,11 @@
     "Fitness Equipment": "lead_gen_services",
     "Travel & Services": "lead_gen_services",
     "Personal Care and Beauty": "ecommerce",
-    "Disease Prevention Clinic": "healthcare_medical"
+    "Disease Prevention Clinic": "healthcare_medical",
+    "Rehab Center": "lead_gen_professional",
+    "Rehabilitation Center": "lead_gen_professional",
+    "Addiction Treatment": "lead_gen_professional",
+    "Behavioral Health": "lead_gen_professional"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",

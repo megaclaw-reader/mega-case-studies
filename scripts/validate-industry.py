@@ -104,6 +104,7 @@ CPL_RANGES = {
     "healthcare":        (20, 200),
     "telemedicine":      (15, 150),
     "mental_health":     (20, 350),
+    "rehab_center":      (150, 450),
     "regen_medicine":    (30, 250),
     # SaaS
     "saas":              (30, 500),
@@ -188,6 +189,7 @@ def _cpl_category(industry, model_key):
         ("real estate", "real_estate"),  # newsletters have unique economics
         ("mortgage", "mortgage"), ("lending", "mortgage"),
         ("telemedicine", "telemedicine"), ("telehealth", "telemedicine"),
+        ("rehab", "rehab_center"),
         ("mental health", "mental_health"),
         ("regenerative", "regen_medicine"), ("functional medicine", "regen_medicine"),
         ("sports nutrition", "sports_nutrition"), ("supplement", "sports_nutrition"),
@@ -283,6 +285,7 @@ DEAL_VALUE_RANGES = {
     "healthcare": (200, 5000),
     "telemedicine": (80, 400),
     "mental_health": (100, 15000),
+    "rehab_center": (8000, 35000),
     "regen_medicine": (1500, 15000),
     "real_estate": (3000, 60000),
     "commercial_re": (5000, 100000),
