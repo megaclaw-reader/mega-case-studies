@@ -649,7 +649,8 @@
     "Car Dealership": "lead_gen_services",
     "Fitness Equipment": "lead_gen_services",
     "Travel & Services": "lead_gen_services",
-    "Personal Care and Beauty": "ecommerce"
+    "Personal Care and Beauty": "ecommerce",
+    "Disease Prevention Clinic": "healthcare_medical"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",

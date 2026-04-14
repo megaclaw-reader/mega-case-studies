@@ -140,7 +140,7 @@ def _cpl_category(industry, model_key):
         ("fitness equipment", "fitness_equipment"),
         ("gym", "gym_fitness"), ("private training", "gym_fitness"),
         ("senior care", "senior_care"), ("disaster recovery", "restoration"), ("disaster", "restoration"), ("restor", "restoration"),
-        ("interior design", "interior_design"), ("event", "event"),
+        ("interior design", "interior_design"), ("disease prevention", "healthcare"), ("event", "event"),
         ("custom vehicle", "custom_vehicle_manufacturing"),
         ("motorcycle", "motorcycle_boat"), ("boat", "motorcycle_boat"),
         ("indoor adventure", "indoor_adventure"), ("activity center", "indoor_adventure"), ("trampoline", "indoor_adventure"), ("entertainment venue", "indoor_adventure"),
