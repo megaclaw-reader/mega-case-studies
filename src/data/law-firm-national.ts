@@ -4,7 +4,7 @@ export const lawFirmNational: CaseStudyData = {
   slug: "law-firm-national",
   industry: "National Law Firm",
   headline: "How a Multi-Practice National Law Firm Generated $4.97M in Case Revenue at a 3.7x Blended ROAS",
-  subheadline: "MEGA helped a national law firm spanning mass torts, class action, and personal injury transform a stagnant 14,000-keyword footprint into a coast-to-coast digital acquisition engine — growing to 78,000+ keywords with 4,300+ top-10 rankings, reducing cost per qualified lead by 40%, and delivering a 3.7x blended ROAS across all practice areas in 12 months.",
+  subheadline: "MEGA helped a national law firm spanning mass torts, class action, and personal injury transform a stagnant 14,000-keyword footprint into a coast-to-coast digital acquisition engine — strategically growing to 36,700+ keywords with 5,700+ top-10 rankings and an average position of 12.4, reducing cost per qualified lead by 40%, and delivering a 3.7x blended ROAS across all practice areas in 12 months.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
     { value: "5.0", unit: "M", label: "Attributed Revenue" },

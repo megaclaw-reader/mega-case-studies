@@ -65,6 +65,7 @@ CPL_RANGES = {
     "wedding_photo":     (15, 120),
     "automotive_dealer": (15, 150),
     "rv_dealer":         (15, 150),
+    "pest_control":      (20, 80),
     "rental_car":        (30, 80),
     "rental_home_mgmt":  (30, 120),
     # Lead gen professional — higher competition, expensive keywords
@@ -156,6 +157,7 @@ def _cpl_category(industry, model_key):
         ("logistics", "logistics"), ("supply chain", "logistics"), ("freight", "logistics"),
         ("b2b office", "b2b_office_service"), ("office service", "b2b_office_service"), ("managed print", "b2b_office_service"), ("copier", "b2b_office_service"),
         ("private membership", "private_membership_club"), ("membership club", "private_membership_club"),
+        ("pest", "pest_control"), ("exterminator", "pest_control"), ("termite", "pest_control"),
         ("alarm", "alarm_surveillance"), ("surveillance", "alarm_surveillance"), ("security system", "alarm_surveillance"),
         ("multifamily", "multifamily_housing"), ("multi-family", "multifamily_housing"),
         ("rental home", "rental_home_mgmt"), ("property management", "rental_home_mgmt"), ("rental management", "rental_home_mgmt"),
@@ -257,6 +259,7 @@ DEAL_VALUE_RANGES = {
     "rental_car": (200, 1000),
     "multifamily_housing": (1800, 4800),
     "rental_home_mgmt": (2400, 9600),
+    "pest_control": (200, 1200),
     "alarm_surveillance": (2000, 8000),
     "franchise_restaurant": (1500, 5000),
     "private_membership_club": (2000, 10000),

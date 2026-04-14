@@ -657,7 +657,8 @@
     "Behavioral Health": "lead_gen_professional",
     "Entertainment Events": "lead_gen_services",
     "Food and Beverage / Packaged Foods": "ecommerce",
-    "Specialty Tax Consulting": "lead_gen_professional"
+    "Specialty Tax Consulting": "lead_gen_professional",
+    "Pest Control": "lead_gen_services"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",
