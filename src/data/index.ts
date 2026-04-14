@@ -1,6 +1,7 @@
 import { CaseStudyData } from "./types";
 import { exterminator } from "./exterminator";
 import { exterminatorCa } from "./exterminator-ca";
+import { exterminatorChicago } from "./exterminator-chicago";
 import { specialtyTaxConsulting } from "./specialty-tax-consulting";
 import { packagedFoods } from "./packaged-foods";
 import { entertainmentEvents } from "./entertainment-events";
@@ -425,6 +426,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "specialty-tax-consulting": specialtyTaxConsulting,
   "exterminator": exterminator,
   "exterminator-ca": exterminatorCa,
+  "exterminator-chicago": exterminatorChicago,
   "plastic-surgery": plasticSurgery,
 };
 
