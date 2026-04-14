@@ -654,7 +654,8 @@
     "Rehab Center": "lead_gen_professional",
     "Rehabilitation Center": "lead_gen_professional",
     "Addiction Treatment": "lead_gen_professional",
-    "Behavioral Health": "lead_gen_professional"
+    "Behavioral Health": "lead_gen_professional",
+    "Entertainment Events": "lead_gen_services"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",
