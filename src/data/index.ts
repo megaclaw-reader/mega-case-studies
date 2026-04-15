@@ -1,4 +1,5 @@
 import { CaseStudyData } from "./types";
+import { eventPlanning } from "./event-planning";
 import { exterminator } from "./exterminator";
 import { exterminatorCa } from "./exterminator-ca";
 import { exterminatorChicago } from "./exterminator-chicago";
@@ -432,6 +433,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "plastic-surgery": plasticSurgery,
   "custom-closets-storage": customClosetsStorage,
   "social-security-disability": socialSecurityDisability,
+  "event-planning": eventPlanning,
 };
 
 export type { CaseStudyData };
