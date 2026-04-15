@@ -659,7 +659,8 @@
     "Food and Beverage / Packaged Foods": "ecommerce",
     "Specialty Tax Consulting": "lead_gen_professional",
     "Pest Control": "lead_gen_services",
-    "Plastic Surgery": "lead_gen_services"
+    "Plastic Surgery": "lead_gen_services",
+    "Social Security Disability Representation": "lead_gen_professional"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",

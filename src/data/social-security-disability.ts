@@ -1,0 +1,155 @@
+import { CaseStudyData } from "./types";
+
+export const socialSecurityDisability: CaseStudyData = {
+  slug: "social-security-disability",
+  industry: "Social Security Disability Representation",
+  headline: "How a New Mexico Disability Law Firm Generated 3,035 Qualified Leads and $3.6M in Case Fees in 6 Months",
+  subheadline: "MEGA deployed AI-driven paid advertising and aggressive SEO to help a Social Security disability representation firm in New Mexico scale qualified lead volume from 312 to 707 per month — achieving a blended 4.34x ROAS across $829K in total ad spend.",
+  heroStats: [
+    { value: "3,035", unit: "", label: "Qualified Leads" },
+    { value: "$3.6", unit: "M", label: "Total Case Fees" },
+    { value: "4.34", unit: "x", label: "Blended ROAS" },
+  ],
+  tags: ["Paid Advertising", "SEO", "Lead Generation"],
+  company: {
+    industry: "Social Security Disability Representation",
+    employees: "34",
+    revenue: "$5.8M",
+    location: "Albuquerque, New Mexico",
+    description: "A Social Security disability representation firm headquartered in Albuquerque, New Mexico, serving claimants across the entire state including Las Cruces, Santa Fe, Rio Rancho, and Roswell. Founded 12 years ago by a former Social Security Administration hearing office attorney, the firm represents individuals filing for SSDI and SSI benefits at every stage — initial applications, reconsiderations, ALJ hearings, and Appeals Council reviews. Operating on the standard contingency fee model (25% of back pay, capped at the federal maximum), the firm had grown primarily through word-of-mouth and community outreach but was losing market share to national disability firms running aggressive digital campaigns targeting New Mexico claimants. Their previous marketing consisted of occasional radio ads and a basic website generating roughly 15-20 inbound inquiries per week with no tracking, no lead qualification system, and no visibility into which claimants were likely to have meritorious claims versus low-probability cases.",
+  },
+  challenges: [
+    {
+      title: "National Competitors Flooding New Mexico Search Results",
+      description: "Large national disability firms with multi-million-dollar marketing budgets had saturated Google results for key New Mexico terms like 'disability lawyer Albuquerque,' 'SSDI attorney New Mexico,' and 'Social Security disability help near me.' These firms ran 24/7 call centers and had domain authorities exceeding 60, making it nearly impossible for the local firm to compete organically. Despite being deeply established in the New Mexico legal community with a 67% hearing win rate — well above the national average — the firm was invisible online. Their website ranked on page one for zero high-intent disability terms, and they were losing potential clients to national firms that often outsourced New Mexico cases to less experienced local attorneys.",
+    },
+    {
+      title: "No Lead Qualification System for High-Volume Intake",
+      description: "Social Security disability cases have strict eligibility criteria — work history requirements for SSDI, income/asset limits for SSI, and medical documentation thresholds. The firm's intake process was entirely manual: a receptionist answered calls, took basic information, and scheduled consultations regardless of case viability. Roughly 45% of consultations turned out to be non-viable — claimants who hadn't worked enough quarters, had earnings above SGA limits, or lacked sufficient medical evidence. At the firm's target volume, this manual approach would waste thousands of attorney hours annually on unqualified consultations. They needed a system to pre-qualify leads before scheduling, but had no digital infrastructure to support one.",
+    },
+    {
+      title: "Seasonal Demand Swings and Budget Allocation Blind Spots",
+      description: "Disability claim filings in New Mexico follow patterns tied to federal processing backlogs, ALJ hearing schedules, and local economic conditions. The firm had no data on when demand peaked or which case types (SSDI vs. SSI, initial vs. hearing-level) generated the highest fees. Without this intelligence, their sporadic ad spend was evenly distributed year-round — overspending during slow periods and underinvesting when demand surged. They also had no way to distinguish between claimants at different stages of the process, meaning marketing dollars targeted everyone equally despite hearing-level cases being significantly more valuable (back pay accumulates during the multi-year wait for a hearing).",
+    },
+  ],
+  strategy: [
+    {
+      phase: 1,
+      months: "0–30 days",
+      title: "Foundation, Tracking & Campaign Architecture",
+      items: [
+        "Deployed comprehensive call tracking with dynamic number insertion across all landing pages and directory listings — every inbound call tagged by source, keyword, and geographic origin for the first time in the firm's history",
+        "Built automated lead qualification flow: intake form captures work history, medical conditions, current benefits status, and claim stage — scoring leads as high/medium/low probability before routing to attorneys, eliminating 40%+ of unqualified consultations",
+        "Full technical audit of the existing website revealed 52 issues: 7.1-second mobile load times, no schema markup, zero location-specific content for New Mexico cities, and missing FAQ content addressing the most common claimant questions",
+        "Competitive keyword analysis across 420+ disability-related terms in New Mexico — mapped by claim type (SSDI vs. SSI), process stage (application, denial, hearing), and geographic modifier to identify high-intent gaps",
+        "Launched paid campaigns across Google Search targeting high-intent terms: 'disability lawyer Albuquerque,' 'SSDI denied New Mexico,' 'Social Security hearing attorney near me' — with dedicated landing pages for each claim stage featuring click-to-call and instant intake forms",
+        "Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement — replacing the need for weekly manual reviews and enabling real-time response to competitive bid changes",
+        "Google Business Profile overhaul for the Albuquerque headquarters and Las Cruces satellite office — completed all practice categories, added 14 service area cities, and launched a review solicitation campaign targeting 8 years of past clients",
+        "Established baseline metrics: cost per lead of $98, cost per qualified lead of $399, qualified-to-retained conversion rate of 21%, and average case fee of $5,840",
+      ],
+    },
+    {
+      phase: 2,
+      months: "30–60 days",
+      title: "Content Scaling & Campaign Optimization",
+      items: [
+        "Analyzed 30-day call and form data — hearing-level case terms converting to qualified leads at 3.1x the rate of initial application terms; reallocated 55% of paid budget to denial and hearing-stage campaigns",
+        "Published 22 SEO articles: New Mexico-specific disability guides, 'how to apply for SSDI in New Mexico' content, ALJ hearing preparation resources, condition-specific pages (back injuries, mental health conditions, autoimmune disorders), and city-specific landing pages for Santa Fe, Las Cruces, Rio Rancho, Roswell, and Farmington",
+        "Negative keyword expansion based on call recordings — filtered out 'free disability check,' 'VA disability' (different program), 'disability insurance quotes,' 'workers compensation,' and other non-qualifying terms consuming 12% of budget",
+        "Implemented after-hours automated intake with SMS follow-up — disability claimants often research late at night; previously 100% of after-hours inquiries were lost. New system captured contact info and scheduled callbacks for 73% of after-hours visitors",
+        "Built location landing pages targeting 11 New Mexico cities with unique content addressing local SSA office wait times, hearing office backlog data, and regional economic factors driving disability claims",
+        "AI agents analyzed performance signals continuously, identifying that mobile campaigns between 7-10 PM generated 34% lower CPQL than daytime — automatically shifted budget allocation to capitalize on evening search behavior",
+        "Added FAQ, Attorney, LegalService, and LocalBusiness schema markup across all practice area and location pages",
+        "Launched remarketing campaigns targeting visitors who started but didn't complete the intake form — recovering an estimated 8-12% of abandoned leads",
+      ],
+    },
+    {
+      phase: 3,
+      months: "60–180 days",
+      title: "Scale, Compound Growth & Statewide Dominance",
+      items: [
+        "60-day review confirmed CPQL dropped 31% from baseline; identified top 12 converting keyword clusters driving 68% of qualified leads — increased investment while pausing underperformers",
+        "Conversion rate optimization: A/B tested landing page layouts, added trust signals (hearing win rate statistics, years of experience, client testimonials with anonymized case outcomes), and simplified the intake form from 14 fields to 8 — improving form completion rate by 41%",
+        "Local backlink campaign via New Mexico State Bar Association, disability advocacy organizations, Legal Aid partnerships, community health center referral pages, and local news contributor articles on disability benefits",
+        "Advanced lead scoring integrated into CRM — calls and forms auto-classified by claim stage, medical condition severity, and work history completeness, enabling real-time CPQL reporting and priority routing of high-value hearing-level cases to senior attorneys",
+        "Content refresh on top 10 performing pages with enhanced E-E-A-T signals — attorney credentials, hearing win statistics, ALJ-specific experience, and current SSA policy references",
+        "Expanded paid campaigns to include display remarketing, YouTube pre-roll targeting disability-related content viewers in New Mexico, and Performance Max campaigns — diversifying beyond search while maintaining ROAS targets",
+        "Continuous AI optimization compounded daily improvements — bid adjustments responding to ALJ hearing schedule announcements, seasonal claim filing patterns, and competitor budget changes in real time rather than waiting for periodic review cycles",
+        "AI agents detected a surge in hearing-level searches following SSA processing backlog announcements and automatically increased bids on denial-related terms within hours, capturing a 22% increase in high-value leads during the spike",
+      ],
+    },
+  ],
+  seo: {
+    summary: [
+      { label: "Total Keywords", value: "2,814", growth: "+181%", from: "from 1,002" },
+      { label: "Top 10 Rankings", value: "89", growth: "+618%", from: "from 12" },
+      { label: "Pages Created", value: "47", growth: "", from: "incl. 11 location pages" },
+      { label: "Organic Traffic", value: "12,340/mo", growth: "+89%", from: "from 6,530" },
+    ],
+    monthly: [
+      { month: "Sep '25", keywords: 1002, top10: 12, top3: 1, traffic: 6530, pages: 6, avgPos: 42.3, ctr: 1.1 },
+      { month: "Oct '25", keywords: 1284, top10: 21, top3: 3, traffic: 7180, pages: 18, avgPos: 38.7, ctr: 1.3 },
+      { month: "Nov '25", keywords: 1612, top10: 34, top3: 6, traffic: 8240, pages: 28, avgPos: 34.9, ctr: 1.5 },
+      { month: "Dec '25", keywords: 1943, top10: 49, top3: 10, traffic: 9410, pages: 35, avgPos: 31.4, ctr: 1.7 },
+      { month: "Jan '26", keywords: 2367, top10: 68, top3: 15, traffic: 10870, pages: 42, avgPos: 28.1, ctr: 1.9 },
+      { month: "Feb '26", keywords: 2814, top10: 89, top3: 21, traffic: 12340, pages: 47, avgPos: 25.6, ctr: 2.1 },
+    ],
+  },
+  paidAds: {
+    summary: [
+      { label: "Total Ad Spend", value: "$829.4K" },
+      { label: "Qualified Leads", value: "3,035" },
+      { label: "Avg Cost Per Qualified Lead", value: "$273", note: "↓32% from $399" },
+      { label: "Retained Cases", value: "668" },
+    ],
+    columnLabels: {
+      leads: "Total Leads",
+      cpl: "Cost/Lead",
+      qualified: "Qualified Leads",
+      cpql: "Cost/Qualified",
+      deals: "Retained Cases",
+      costPerDeal: "Cost/Case",
+    },
+    monthly: [
+      { month: "Sep '25", spend: 124367, leads: 1247, cpl: 99.7, qualified: 312, cpql: 398.6, deals: 68, revenue: 397120, roas: 3.19 },
+      { month: "Oct '25", spend: 131840, leads: 1418, cpl: 93.0, qualified: 407, cpql: 323.9, deals: 91, revenue: 528710, roas: 4.01 },
+      { month: "Nov '25", spend: 142390, leads: 1654, cpl: 86.1, qualified: 501, cpql: 284.2, deals: 112, revenue: 648320, roas: 4.55 },
+      { month: "Dec '25", spend: 126783, leads: 1412, cpl: 89.8, qualified: 487, cpql: 260.3, deals: 106, revenue: 589260, roas: 4.65 },
+      { month: "Jan '26", spend: 148920, leads: 1748, cpl: 85.2, qualified: 621, cpql: 239.8, deals: 136, revenue: 699360, roas: 4.70 },
+      { month: "Feb '26", spend: 155130, leads: 1899, cpl: 81.7, qualified: 707, cpql: 219.4, deals: 155, revenue: 735210, roas: 4.74 },
+    ],
+  },
+  organicConversions: {
+    summary: [
+      { label: "Total Organic Leads", value: "389", growth: "+284%", note: "from ~28/mo to ~102/mo" },
+      { label: "Organic Phone Calls", value: "267", growth: "+312%", note: "primary conversion path" },
+      { label: "Form Submissions", value: "122", growth: "+247%" },
+      { label: "Avg Organic Conversion Rate", value: "3.8%", growth: "+1.4pp", note: "from 2.4%" },
+    ],
+    columnLabels: {
+      formFills: "Form Fills",
+      calls: "Phone Calls",
+      totalLeads: "Total Leads",
+      conversionRate: "Conv. Rate",
+    },
+    monthly: [
+      { month: "Sep '25", formFills: 12, calls: 28, totalLeads: 40, conversionRate: 2.4 },
+      { month: "Oct '25", formFills: 15, calls: 33, totalLeads: 48, conversionRate: 2.7 },
+      { month: "Nov '25", formFills: 18, calls: 39, totalLeads: 57, conversionRate: 3.0 },
+      { month: "Dec '25", formFills: 21, calls: 43, totalLeads: 64, conversionRate: 3.3 },
+      { month: "Jan '26", formFills: 25, calls: 53, totalLeads: 78, conversionRate: 3.6 },
+      { month: "Feb '26", formFills: 31, calls: 71, totalLeads: 102, conversionRate: 3.8 },
+    ],
+    sources: [
+      { source: "Organic Search", percentage: 62, leads: 241 },
+      { source: "Local Pack / Maps", percentage: 24, leads: 93 },
+      { source: "Direct (branded)", percentage: 14, leads: 55 },
+    ],
+  },
+  impact: [
+    { label: "Total Case Fees Attributed", value: "$3.6M", growth: "4.34x ROAS" },
+    { label: "Qualified Leads (Paid)", value: "3,035", growth: "↓32% CPQL" },
+    { label: "Retained Cases", value: "668", growth: "22% close rate" },
+    { label: "Avg Case Fee", value: "$5,386", growth: "" },
+  ],
+};

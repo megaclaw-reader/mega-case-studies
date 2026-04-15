@@ -28,6 +28,7 @@ import { medspaPhoenix } from "./medspa-phoenix";
 import { skincareEcommerce } from "./skincare-ecommerce";
 import { selfStorageNewYork } from "./self-storage-new-york";
 import { liveEventTechnologySeo } from "./live-event-technology-seo";
+import { socialSecurityDisability } from "./social-security-disability";
 import { ophthalmologyFlorida } from "./ophthalmology-florida";
 import { luxuryHomeDecor } from "./luxury-home-decor";
 import { healthcareB2bApp } from "./healthcare-b2b-app";
@@ -428,6 +429,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "exterminator-ca": exterminatorCa,
   "exterminator-chicago": exterminatorChicago,
   "plastic-surgery": plasticSurgery,
+  "social-security-disability": socialSecurityDisability,
 };
 
 export type { CaseStudyData };

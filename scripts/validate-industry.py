@@ -66,6 +66,7 @@ CPL_RANGES = {
     "automotive_dealer": (15, 150),
     "rv_dealer":         (15, 150),
     "pest_control":      (20, 80),
+    "social_security_disability": (50, 150),
     "rental_car":        (30, 80),
     "rental_home_mgmt":  (30, 120),
     # Lead gen professional — higher competition, expensive keywords
@@ -163,6 +164,7 @@ def _cpl_category(industry, model_key):
         ("rental home", "rental_home_mgmt"), ("property management", "rental_home_mgmt"), ("rental management", "rental_home_mgmt"),
         ("franchise restaurant", "franchise_restaurant"), ("franchise", "franchise_restaurant"),
         ("rental car", "rental_car"), ("car rental", "rental_car"),
+        ("social security disability", "social_security_disability"),
         ("personal injury", "personal_injury"), ("immigration", "immigration_law"),
         ("litigation", "business_litigation"),
         ("legal", "legal"), ("law", "legal"),
@@ -260,6 +262,7 @@ DEAL_VALUE_RANGES = {
     "multifamily_housing": (1800, 4800),
     "rental_home_mgmt": (2400, 9600),
     "pest_control": (200, 1200),
+    "social_security_disability": (3000, 7200),
     "alarm_surveillance": (2000, 8000),
     "franchise_restaurant": (1500, 5000),
     "private_membership_club": (2000, 10000),
