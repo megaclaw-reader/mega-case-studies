@@ -214,6 +214,7 @@ import { fitnessEquipmentPhoenix } from "./fitness-equipment";
 import { travelServices } from "./travel-services";
 import { personalCareBeauty } from "./personal-care-beauty";
 import { plasticSurgery } from "./plastic-surgery";
+import { customClosetsStorage } from "./custom-closets-storage";
 
 export const caseStudies: Record<string, CaseStudyData> = {
   "alarm-surveillance-seo": alarmSurveillanceSeo,
@@ -429,6 +430,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "exterminator-ca": exterminatorCa,
   "exterminator-chicago": exterminatorChicago,
   "plastic-surgery": plasticSurgery,
+  "custom-closets-storage": customClosetsStorage,
   "social-security-disability": socialSecurityDisability,
 };
 

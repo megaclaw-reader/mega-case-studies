@@ -660,7 +660,8 @@
     "Specialty Tax Consulting": "lead_gen_professional",
     "Pest Control": "lead_gen_services",
     "Plastic Surgery": "lead_gen_services",
-    "Social Security Disability Representation": "lead_gen_professional"
+    "Social Security Disability Representation": "lead_gen_professional",
+    "Custom Closets and Storage": "lead_gen_services"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",
