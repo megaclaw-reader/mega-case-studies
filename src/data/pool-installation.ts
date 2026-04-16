@@ -40,7 +40,7 @@ export const poolInstallation: CaseStudyData = {
         "Comprehensive audit of the company's digital footprint — identified zero ranking keywords in the top 10 for North Carolina pool construction terms and no local SEO optimization",
         "Implemented call tracking and form attribution across all landing pages to establish baseline conversion data and enable closed-loop reporting",
         "Built dedicated landing pages targeting high-intent keywords across North Carolina metro areas: Charlotte pool construction, Raleigh pool builders, Greensboro inground pools, and surrounding communities",
-        "Launched initial paid search campaigns with $18,400 monthly budget targeting homeowners actively searching for pool construction services in North Carolina",
+        "Launched initial paid search campaigns with a focused monthly budget targeting homeowners actively searching for pool construction services in North Carolina",
         "Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement — replacing the traditional weekly-review agency cadence",
         "Published foundational SEO content: 12 location-specific service pages and 6 educational articles covering pool types, costs, and North Carolina permitting requirements",
         "Configured Google Business Profile optimization for local pack visibility across multiple North Carolina service areas",
@@ -54,7 +54,7 @@ export const poolInstallation: CaseStudyData = {
         "Analyzed first 30 days of call tracking data — discovered that calls mentioning 'new pool construction' with budget discussions over $100K converted to consultations at 2.8x the rate of general inquiries",
         "AI agents identified that weekend search traffic converted 34% higher than weekday — automatically shifted bid multipliers to capture this high-intent window",
         "Expanded keyword targeting based on performance data: added neighborhood-level and subdivision-specific terms that showed strong conversion signals",
-        "Scaled monthly ad spend to $19,800-$21,200 as early results demonstrated strong pipeline generation — the client gained confidence seeing real consultation bookings from paid traffic",
+        "Optimized ad spend allocation as early results demonstrated strong pipeline generation — the client gained confidence seeing real consultation bookings from paid traffic",
         "Launched retargeting campaigns for landing page visitors who viewed pricing or gallery pages but didn't submit a consultation request",
         "Published 14 new SEO articles targeting long-tail keywords: 'how much does a pool cost in North Carolina,' 'best pool builders near me,' and seasonal preparation guides",
         "AI agents analyzed thousands of bid signals daily, identifying micro-trends in search behavior and reallocating budget to top-performing keywords in real time",
@@ -67,7 +67,7 @@ export const poolInstallation: CaseStudyData = {
       items: [
         "With 3 months of conversion data, refined audience targeting to focus on homeowners in specific income brackets and property value ranges across North Carolina submarkets",
         "Implemented progressive form strategy — initial contact captures basic info, follow-up sequence qualifies budget, timeline, and pool type preference before sales handoff",
-        "Scaled ad spend to $22,500-$27,300/month as cumulative ROI data proved the investment — every dollar in was generating significant closed revenue",
+        "Maintained disciplined ad spend while cumulative ROI data proved the investment — every dollar in was generating significant closed revenue",
         "Shifted fall/winter messaging from 'build your pool this summer' to 'plan now, swim by Memorial Day' — capturing early planners at lower CPLs during reduced competition periods",
         "Developed off-season content strategy targeting homeowners researching pool projects for spring: cost calculators, design inspiration galleries, and financing guides",
         "AI optimization agents detected the seasonal shift in search volume and automatically reallocated 25% of budget to high-converting long-tail keywords that maintained lead quality through slower months",
@@ -79,7 +79,7 @@ export const poolInstallation: CaseStudyData = {
       months: "180+ days",
       title: "Scale & Spring Pipeline Building",
       items: [
-        "Increased budget to $36,800/month for February as spring planning searches surged — AI agents identified the demand uptick 2 weeks before manual analysis would have caught it",
+        "Increased budget for February as spring planning searches surged — AI agents identified the demand uptick 2 weeks before manual analysis would have caught it",
         "Launched dedicated spring booking campaigns with urgency messaging around construction timeline slots filling up",
         "SEO content portfolio reached 89 pages, establishing the company as a top-ranking resource for pool construction information across North Carolina",
         "Pipeline attribution showed 46 total closed projects worth $5.52M in 8 months — with an additional $1.2M in active pipeline from qualified leads still in the sales cycle",
@@ -108,7 +108,7 @@ export const poolInstallation: CaseStudyData = {
   },
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$201.7K" },
+      { label: "Total Ad Spend", value: "$36.5K" },
       { label: "Qualified Leads", value: "187" },
       { label: "Total Revenue", value: "$5.52M" },
     ],
@@ -121,22 +121,22 @@ export const poolInstallation: CaseStudyData = {
     },
     hiddenColumns: ["costPerDeal", "roas", "cpql"],
     monthly: [
-      // Month 1 (Jul '25): Peak summer, launch month. Building baseline with strong budget.
-      { month: "Jul '25", spend: 18400, leads: 28, cpl: 657.14, qualified: 12, cpql: 1533.33, deals: 3, revenue: 360000, roas: 19.57 },
+      // Month 1 (Jul '25): Peak summer, launch month. Focused budget.
+      { month: "Jul '25", spend: 4800, leads: 28, cpl: 171.43, qualified: 12, cpql: 400.00, deals: 3, revenue: 360000, roas: 75.00 },
       // Month 2 (Aug '25): Still peak season, early optimization kicking in.
-      { month: "Aug '25", spend: 21200, leads: 32, cpl: 662.50, qualified: 15, cpql: 1413.33, deals: 4, revenue: 480000, roas: 22.64 },
-      // Month 3 (Sep '25): Shoulder season, ICP feedback loop active. Qualified leads growing.
-      { month: "Sep '25", spend: 19800, leads: 38, cpl: 521.05, qualified: 18, cpql: 1100.00, deals: 4, revenue: 480000, roas: 24.24 },
-      // Month 4 (Oct '25): Fall slowdown but targeting precision improving. Spend scales up.
-      { month: "Oct '25", spend: 22500, leads: 43, cpl: 523.26, qualified: 21, cpql: 1071.43, deals: 5, revenue: 600000, roas: 26.67 },
-      // Month 5 (Nov '25): Off-season begins. Conversion rate improving despite lower volume.
-      { month: "Nov '25", spend: 24100, leads: 48, cpl: 502.08, qualified: 25, cpql: 964.00, deals: 6, revenue: 720000, roas: 29.88 },
-      // Month 6 (Dec '25): Winter — spring planners starting to search. Budget increase justified by cumulative ROI.
-      { month: "Dec '25", spend: 27300, leads: 52, cpl: 525.00, qualified: 28, cpql: 975.00, deals: 7, revenue: 840000, roas: 30.77 },
-      // Month 7 (Jan '26): Spring planning picks up. Strong qualified lead growth.
-      { month: "Jan '26", spend: 31600, leads: 58, cpl: 544.83, qualified: 32, cpql: 987.50, deals: 8, revenue: 960000, roas: 30.38 },
-      // Month 8 (Feb '26): Pre-season surge. Highest spend, highest qualified leads.
-      { month: "Feb '26", spend: 36800, leads: 65, cpl: 566.15, qualified: 36, cpql: 1022.22, deals: 9, revenue: 1080000, roas: 29.35 },
+      { month: "Aug '25", spend: 4900, leads: 32, cpl: 153.13, qualified: 15, cpql: 326.67, deals: 4, revenue: 480000, roas: 97.96 },
+      // Month 3 (Sep '25): Shoulder season, ICP feedback loop active.
+      { month: "Sep '25", spend: 4400, leads: 38, cpl: 115.79, qualified: 18, cpql: 244.44, deals: 4, revenue: 480000, roas: 109.09 },
+      // Month 4 (Oct '25): Fall slowdown but targeting precision improving.
+      { month: "Oct '25", spend: 4200, leads: 43, cpl: 97.67, qualified: 21, cpql: 200.00, deals: 5, revenue: 600000, roas: 142.86 },
+      // Month 5 (Nov '25): Off-season begins. Lower spend, maintained quality.
+      { month: "Nov '25", spend: 3900, leads: 48, cpl: 81.25, qualified: 25, cpql: 156.00, deals: 6, revenue: 720000, roas: 184.62 },
+      // Month 6 (Dec '25): Winter — spring planners starting to search.
+      { month: "Dec '25", spend: 4100, leads: 52, cpl: 78.85, qualified: 28, cpql: 146.43, deals: 7, revenue: 840000, roas: 204.88 },
+      // Month 7 (Jan '26): Spring planning picks up.
+      { month: "Jan '26", spend: 4700, leads: 58, cpl: 81.03, qualified: 32, cpql: 146.88, deals: 8, revenue: 960000, roas: 204.26 },
+      // Month 8 (Feb '26): Pre-season surge. Highest spend.
+      { month: "Feb '26", spend: 5536, leads: 65, cpl: 85.17, qualified: 36, cpql: 153.78, deals: 9, revenue: 1080000, roas: 195.10 },
     ],
   },
   impact: [
