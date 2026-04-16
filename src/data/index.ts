@@ -33,6 +33,7 @@ import { socialSecurityDisability } from "./social-security-disability";
 import { ophthalmologyFlorida } from "./ophthalmology-florida";
 import { luxuryHomeDecor } from "./luxury-home-decor";
 import { healthcareB2bApp } from "./healthcare-b2b-app";
+import { mensHealthWellnessMedia } from "./mens-health-wellness-media";
 import { sportsNutritionArizona } from "./sports-nutrition-arizona";
 import { cosmeticDentistryAustin } from "./cosmetic-dentistry-austin";
 import { customVehicleManufacturing } from "./custom-vehicle-manufacturing";
@@ -434,6 +435,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "custom-closets-storage": customClosetsStorage,
   "social-security-disability": socialSecurityDisability,
   "event-planning": eventPlanning,
+  "mens-health-wellness-media": mensHealthWellnessMedia,
 };
 
 export type { CaseStudyData };

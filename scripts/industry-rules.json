@@ -662,7 +662,8 @@
     "Plastic Surgery": "lead_gen_services",
     "Social Security Disability Representation": "lead_gen_professional",
     "Custom Closets and Storage": "lead_gen_services",
-    "Event Planning": "lead_gen_services"
+    "Event Planning": "lead_gen_services",
+    "Men's Health & Wellness Media": "subscription"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",
