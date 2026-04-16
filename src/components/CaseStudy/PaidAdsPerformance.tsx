@@ -14,7 +14,10 @@ export default function PaidAdsPerformance({ data }: { data: CaseStudyData }) {
   const cl = paidAds.columnLabels;
   const hidden = new Set(paidAds.hiddenColumns ?? []);
   const showCpl = !hidden.has("cpl");
+  const showCpql = !hidden.has("cpql");
   const showCostPerDeal = !hidden.has("costPerDeal");
+  const showRoas = !hidden.has("roas");
+  const showRevenue = !hidden.has("revenue");
 
   return (
     <AnimatedSection id="paid-ads" className="py-20 px-6 bg-gray-50/50">
@@ -57,7 +60,7 @@ export default function PaidAdsPerformance({ data }: { data: CaseStudyData }) {
                 <YAxis tick={{ fontSize: 12 }} />
                 <Tooltip />
                 <Line type="monotone" dataKey="cpl" stroke="#2965FF" strokeWidth={2.5} dot={false} />
-                <Line type="monotone" dataKey="cpql" stroke="#4A7DFF" strokeWidth={2} dot={false} strokeDasharray="4 4" />
+                {showCpql && <Line type="monotone" dataKey="cpql" stroke="#4A7DFF" strokeWidth={2} dot={false} strokeDasharray="4 4" />}
               </LineChart>
             </ResponsiveContainer>
           </div>
@@ -69,7 +72,8 @@ export default function PaidAdsPerformance({ data }: { data: CaseStudyData }) {
           const hasDeals = paidAds.monthly.some(r => r.deals != null && r.deals > 0);
           const headers = ["Month", "Spend", cl?.leads || "Leads"];
           if (showCpl) headers.push(cl?.cpl || "CPL");
-          headers.push(cl?.qualified || "Qualified", cl?.cpql || "CPQL");
+          headers.push(cl?.qualified || "Qualified");
+          if (showCpql) headers.push(cl?.cpql || "CPQL");
           if (hasDeals) {
             const dealsLabel = cl?.deals || "Deals";
             headers.push(dealsLabel);
@@ -79,7 +83,8 @@ export default function PaidAdsPerformance({ data }: { data: CaseStudyData }) {
               headers.push(cl?.costPerDeal || (isEcom ? "Cost/Order" : "Cost/Acquisition"));
             }
           }
-          if (hasRevenue) { headers.push("Revenue", "ROAS"); }
+          if (hasRevenue && showRevenue) { headers.push("Revenue"); }
+          if (hasRevenue && showRoas) { headers.push("ROAS"); }
           const m = paidAds.monthly;
           const totalSpend = m.reduce((s, r) => s + r.spend, 0);
           const totalLeads = m.reduce((s, r) => s + r.leads, 0);
@@ -111,11 +116,11 @@ export default function PaidAdsPerformance({ data }: { data: CaseStudyData }) {
                     <td className="px-5 py-3">{row.leads}</td>
                     {showCpl && <td className="px-5 py-3">${row.cpl}</td>}
                     <td className="px-5 py-3">{row.qualified}</td>
-                    <td className="px-5 py-3">${row.cpql.toLocaleString()}</td>
+                    {showCpql && <td className="px-5 py-3">${row.cpql.toLocaleString()}</td>}
                     {hasDeals && <td className="px-5 py-3">{row.deals}</td>}
                     {hasDeals && showCostPerDeal && <td className="px-5 py-3">${row.deals ? Math.round(row.spend / row.deals).toLocaleString() : "—"}</td>}
-                    {hasRevenue && <td className="px-5 py-3">${(row.revenue ?? 0).toLocaleString()}</td>}
-                    {hasRevenue && <td className="px-5 py-3">{row.roas}x</td>}
+                    {hasRevenue && showRevenue && <td className="px-5 py-3">${(row.revenue ?? 0).toLocaleString()}</td>}
+                    {hasRevenue && showRoas && <td className="px-5 py-3">{row.roas}x</td>}
                   </tr>
                 ))}
               </tbody>
@@ -126,11 +131,11 @@ export default function PaidAdsPerformance({ data }: { data: CaseStudyData }) {
                   <td className="px-5 py-3">{totalLeads.toLocaleString()}</td>
                   {showCpl && <td className="px-5 py-3">${avgCpl}</td>}
                   <td className="px-5 py-3">{totalQualified.toLocaleString()}</td>
-                  <td className="px-5 py-3">${avgCpql.toLocaleString()}</td>
+                  {showCpql && <td className="px-5 py-3">${avgCpql.toLocaleString()}</td>}
                   {hasDeals && <td className="px-5 py-3">{totalDeals}</td>}
                   {hasDeals && showCostPerDeal && <td className="px-5 py-3">${totalDeals ? Math.round(totalSpend / totalDeals).toLocaleString() : "—"}</td>}
-                  {hasRevenue && <td className="px-5 py-3">${totalRevenue.toLocaleString()}</td>}
-                  {hasRevenue && <td className="px-5 py-3">{avgRoas}x</td>}
+                  {hasRevenue && showRevenue && <td className="px-5 py-3">${totalRevenue.toLocaleString()}</td>}
+                  {hasRevenue && showRoas && <td className="px-5 py-3">{avgRoas}x</td>}
                 </tr>
               </tfoot>
             </table>

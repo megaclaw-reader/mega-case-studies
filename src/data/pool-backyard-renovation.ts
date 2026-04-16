@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const poolBackyardRenovation: CaseStudyData = {
   slug: "pool-backyard-renovation",
   industry: "Pool and Backyard Renovation",
-  headline: "How a Florida Pool & Backyard Renovation Company Generated 91 Qualified Leads and $4.62M in Revenue Through AI-Powered Creative Testing & SEO",
-  subheadline: "MEGA helped a pool and backyard renovation company in Florida leverage AI-powered creative testing and an aggressive SEO strategy to attract a steady stream of high-quality leads — growing qualified leads from 7 to 17 per month, closing 26 contracts at an average project value of $177,600, and generating $4.62M in attributed revenue over 8 months.",
+  headline: "How a Florida Pool & Backyard Renovation Company Generated 64 Qualified Leads and $4.26M in Revenue Through AI-Powered Creative Testing & SEO",
+  subheadline: "MEGA helped a pool and backyard renovation company in Florida leverage AI-powered creative testing and an aggressive SEO strategy to attract a steady stream of high-quality leads — growing qualified leads from 5 to 11 per month, closing 24 contracts at an average project value of $177,683, and generating $4.26M in attributed revenue over 8 months.",
   heroStats: [
-    { value: "91", unit: "", label: "Qualified Leads" },
-    { value: "26", unit: "", label: "Contracts Signed" },
-    { value: "4.62", unit: "M", label: "Revenue Attributed" },
+    { value: "64", unit: "", label: "Qualified Leads" },
+    { value: "24", unit: "", label: "Contracts Signed" },
+    { value: "4.26", unit: "M", label: "Revenue Attributed" },
   ],
   tags: ["SEO", "Paid Advertising", "Creative Testing", "Florida"],
   company: {
@@ -84,7 +84,7 @@ export const poolBackyardRenovation: CaseStudyData = {
       title: "Market Positioning & Compounding Returns",
       items: [
         "Creative testing program fully mature — 25+ active variations cycling through with AI-powered rotation ensuring zero creative fatigue, a common problem for competitors running 4–5 static ads",
-        "Average project value reached $177,600 — a 16% increase from the $153,000 baseline, directly attributable to creative strategy attracting homeowners with larger budgets and more ambitious renovation visions",
+        "Average project value reached $177,683 — a 16% increase from the $153,000 baseline, directly attributable to creative strategy attracting homeowners with larger budgets and more ambitious renovation visions",
         "SEO authority established with 3,820+ keywords ranked and monthly organic traffic exceeding 11,400 visitors, creating a compounding lead pipeline independent of ad spend",
         "Integrated strategy delivering compound value — SEO-driven content educates prospects before they see paid ads, resulting in warmer leads who convert faster with higher project values",
         "Florida market positioning as a premium renovation specialist achieved through consistent high-quality content and creative that speaks to discerning homeowners, not bargain hunters",
@@ -113,10 +113,10 @@ export const poolBackyardRenovation: CaseStudyData = {
   },
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$995.6K" },
-      { label: "Qualified Leads", value: "91" },
-      { label: "Contracts Signed", value: "26" },
-      { label: "Total Revenue", value: "$4.62M" },
+      { label: "Total Ad Spend", value: "$47.5K" },
+      { label: "Qualified Leads", value: "64" },
+      { label: "Contracts Signed", value: "24" },
+      { label: "Total Revenue", value: "$4.26M" },
     ],
     columnLabels: {
       leads: "Total Leads",
@@ -128,20 +128,20 @@ export const poolBackyardRenovation: CaseStudyData = {
     },
     hiddenColumns: ["cpl", "cpql", "roas", "costPerDeal"],
     monthly: [
-      { month: "Jul '25", spend: 76800, leads: 19, cpl: 4042.11, qualified: 7, cpql: 10971.43, deals: 2, revenue: 354600, roas: 4.62 },
-      { month: "Aug '25", spend: 78400, leads: 21, cpl: 3733.33, qualified: 8, cpql: 9800.00, deals: 2, revenue: 355200, roas: 4.53 },
-      { month: "Sep '25", spend: 113600, leads: 25, cpl: 4544.00, qualified: 9, cpql: 12622.22, deals: 3, revenue: 530700, roas: 4.67 },
-      { month: "Oct '25", spend: 116200, leads: 27, cpl: 4303.70, qualified: 10, cpql: 11620.00, deals: 3, revenue: 534300, roas: 4.60 },
-      { month: "Nov '25", spend: 114800, leads: 29, cpl: 3958.62, qualified: 12, cpql: 9566.67, deals: 3, revenue: 531600, roas: 4.63 },
-      { month: "Dec '25", spend: 153600, leads: 33, cpl: 4654.55, qualified: 13, cpql: 11815.38, deals: 4, revenue: 712800, roas: 4.64 },
-      { month: "Jan '26", spend: 152400, leads: 36, cpl: 4233.33, qualified: 15, cpql: 10160.00, deals: 4, revenue: 709200, roas: 4.65 },
-      { month: "Feb '26", spend: 189800, leads: 41, cpl: 4629.27, qualified: 17, cpql: 11164.71, deals: 5, revenue: 889500, roas: 4.69 },
+      { month: "Jul '25", spend: 5230, leads: 14, cpl: 373.57, qualified: 5, cpql: 1046.00, deals: 1, revenue: 176900, roas: 33.82 },
+      { month: "Aug '25", spend: 5680, leads: 16, cpl: 355.00, qualified: 6, cpql: 946.67, deals: 2, revenue: 354200, roas: 62.36 },
+      { month: "Sep '25", spend: 6140, leads: 18, cpl: 341.11, qualified: 7, cpql: 877.14, deals: 2, revenue: 359300, roas: 58.52 },
+      { month: "Oct '25", spend: 5870, leads: 17, cpl: 345.29, qualified: 8, cpql: 733.75, deals: 3, revenue: 527400, roas: 89.85 },
+      { month: "Nov '25", spend: 6320, leads: 19, cpl: 332.63, qualified: 9, cpql: 702.22, deals: 3, revenue: 536700, roas: 84.92 },
+      { month: "Dec '25", spend: 5490, leads: 16, cpl: 343.13, qualified: 8, cpql: 686.25, deals: 4, revenue: 705400, roas: 128.49 },
+      { month: "Jan '26", spend: 6543, leads: 21, cpl: 311.57, qualified: 11, cpql: 594.82, deals: 4, revenue: 716800, roas: 109.55 },
+      { month: "Feb '26", spend: 6210, leads: 20, cpl: 310.50, qualified: 10, cpql: 621.00, deals: 5, revenue: 887700, roas: 142.95 },
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$4.62M", growth: "+518%" },
+    { label: "Total Revenue", value: "$4.26M", growth: "+470%" },
     { label: "Monthly Organic Traffic", value: "11,480", growth: "+173%" },
-    { label: "Avg Project Value", value: "$177,600", growth: "+16%" },
-    { label: "Contracts Signed", value: "26", growth: "+225%" },
+    { label: "Avg Project Value", value: "$177,683", growth: "+16%" },
+    { label: "Contracts Signed", value: "24", growth: "+200%" },
   ],
 };
