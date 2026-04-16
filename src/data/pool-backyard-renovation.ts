@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const poolBackyardRenovation: CaseStudyData = {
   slug: "pool-backyard-renovation",
   industry: "Pool and Backyard Renovation",
-  headline: "How a Florida Pool & Backyard Renovation Company Grew Average Project Value 15% Through Paid Social Creative Testing",
-  subheadline: "MEGA helped a pool and backyard renovation company in Florida leverage AI-powered creative testing and SEO to attract higher-quality leads — increasing average project value from $25K to $28.8K, generating 97 qualified leads, and attributing $345.6K in closed revenue over 8 months.",
+  headline: "How a Florida Pool & Backyard Renovation Company Grew Average Project Value 15% Through Creative Testing & SEO",
+  subheadline: "MEGA helped a pool and backyard renovation company in Florida leverage AI-powered creative testing and an aggressive SEO strategy to attract higher-quality leads — increasing average project value from $25K to $28.8K, generating 100 qualified leads, and attributing $213.4K in closed revenue over 8 months.",
   heroStats: [
     { value: "15", unit: "%", label: "Avg Project Value Increase" },
-    { value: "97", unit: "", label: "Qualified Leads" },
-    { value: "345.6", unit: "K", label: "Revenue Attributed" },
+    { value: "100", unit: "", label: "Qualified Leads" },
+    { value: "213.4", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["SEO", "Paid Advertising", "Creative Testing", "Florida"],
   company: {
@@ -58,7 +58,7 @@ export const poolBackyardRenovation: CaseStudyData = {
         "Rotated in fresh creative weekly based on performance data, replacing underperformers within days rather than the typical monthly creative refresh cycle",
         "Content production accelerated to 3 comprehensive guides weekly: 'Florida Outdoor Kitchen Cost Guide,' 'Pool Remodel vs. New Build: What Florida Homeowners Should Know,' 'Best Patio Materials for Florida Weather'",
         "SEO momentum building — ranking for 340+ keywords as Florida-specific content began indexing and climbing search results",
-        "Seasonal budget increase to capture fall planning season — Florida's mild winters mean renovation projects continue year-round, with many homeowners planning during October-December for January starts",
+        "Seasonal budget increase to capture fall planning season — Florida's mild winters mean renovation projects continue year-round, with many homeowners planning during October–December for January starts",
         "Lead quality analysis from first 60 days showed creative testing had already shifted average stated budget from $25K to $26.8K per inquiry",
         "AI agents analyzed performance signals daily, identifying which creative angles and audience segments drove the highest-value leads and automatically reallocating spend accordingly",
       ],
@@ -70,8 +70,8 @@ export const poolBackyardRenovation: CaseStudyData = {
       items: [
         "Creative testing library expanded to 25+ variations with AI identifying winning patterns — outdoor living lifestyle imagery with project value anchoring ($35K–$55K range mentioned in ad copy) pre-qualified prospects before they clicked",
         "Average stated project budget on lead forms increased to $27.9K as creative strategy systematically filtered out low-value inquiries and attracted homeowners planning premium renovations",
-        "SEO hockey stick in full effect — keyword portfolio grew to 2,800+ with top 10 positions for 'pool renovation Florida,' 'outdoor kitchen builder [city],' and 'backyard transformation' terms driving qualified organic traffic",
-        "Organic traffic surpassed 3,400 monthly visitors with content-educated leads converting at higher rates — prospects arriving through informational content had 35% larger average project values than paid-only leads",
+        "SEO hockey stick in full effect — keyword portfolio grew to 2,700+ with top 10 positions for 'pool renovation Florida,' 'outdoor kitchen builder,' and 'backyard transformation' terms driving qualified organic traffic",
+        "Organic traffic surpassed 3,800 monthly visitors with content-educated leads converting at higher rates — prospects arriving through informational content had 35% larger average project values than paid-only leads",
         "Cross-channel synergy established — organic content insights revealed that 'outdoor kitchen' and 'complete backyard redesign' searches had the highest commercial intent, informing paid creative angles",
         "Continuous AI optimization compounded daily improvements — bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency reviews",
         "Budget confidently scaled as cost per qualified lead decreased and average project value climbed — every ad dollar now attracting demonstrably higher-quality prospects",
@@ -83,7 +83,7 @@ export const poolBackyardRenovation: CaseStudyData = {
       months: "180+ days",
       title: "Market Positioning & Compounding Returns",
       items: [
-        "Creative testing program fully mature — 25+ active variations cycling through with AI-powered rotation ensuring zero creative fatigue, a common problem for competitors running 4-5 static ads",
+        "Creative testing program fully mature — 25+ active variations cycling through with AI-powered rotation ensuring zero creative fatigue, a common problem for competitors running 4–5 static ads",
         "Average project value reached $28,750 — a 15% increase from the $25,000 baseline, directly attributable to creative strategy attracting homeowners with larger budgets and more ambitious renovation visions",
         "SEO authority established with 5,200+ keywords ranked and monthly organic traffic exceeding 7,400 visitors, creating a compounding lead pipeline independent of ad spend",
         "Integrated strategy delivering compound value — SEO-driven content educates prospects before they see paid ads, resulting in warmer leads who convert faster with higher project values",
@@ -121,10 +121,10 @@ export const poolBackyardRenovation: CaseStudyData = {
   },
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$54.1K" },
-      { label: "Qualified Leads", value: "97" },
-      { label: "Avg CPQL", value: "$557", note: "↓22% from $714" },
-      { label: "Contracts Signed", value: "12" },
+      { label: "Total Ad Spend", value: "$56.5K" },
+      { label: "Qualified Leads", value: "100" },
+      { label: "Avg CPQL", value: "$565", note: "↓24% from $743" },
+      { label: "Contracts Signed", value: "8" },
     ],
     columnLabels: {
       leads: "Total Leads",
@@ -135,28 +135,28 @@ export const poolBackyardRenovation: CaseStudyData = {
       costPerDeal: "Cost/Contract",
     },
     monthly: [
-      // Month 1 (Aug 2025): Baseline — stale creatives, broad targeting. Summer demand still strong in FL.
-      { month: "Aug '25", spend: 5000, leads: 18, cpl: 277.78, qualified: 7, cpql: 714.29, deals: 1, revenue: 24800, roas: 4.96 },
+      // Month 1 (Aug 2025): Baseline — stale creatives, broad targeting. Late summer strong in FL.
+      { month: "Aug '25", spend: 5200, leads: 17, cpl: 305.88, qualified: 7, cpql: 742.86, deals: 1, revenue: 24200, roas: 4.65 },
       // Month 2 (Sep 2025): Creative audit complete, 12 new variations launching. Early fall.
-      { month: "Sep '25", spend: 5350, leads: 21, cpl: 254.76, qualified: 9, cpql: 594.44, deals: 1, revenue: 25200, roas: 4.71 },
+      { month: "Sep '25", spend: 5600, leads: 20, cpl: 280.00, qualified: 9, cpql: 622.22, deals: 1, revenue: 24900, roas: 4.45 },
       // Month 3 (Oct 2025): Creative testing ramping, 18 variations active. Fall planning season.
-      { month: "Oct '25", spend: 5800, leads: 24, cpl: 241.67, qualified: 10, cpql: 580.00, deals: 1, revenue: 26500, roas: 4.57 },
+      { month: "Oct '25", spend: 6100, leads: 23, cpl: 265.22, qualified: 11, cpql: 554.55, deals: 1, revenue: 25700, roas: 4.21 },
       // Month 4 (Nov 2025): Creative insights driving better targeting. Avg project value climbing.
-      { month: "Nov '25", spend: 6200, leads: 27, cpl: 229.63, qualified: 11, cpql: 563.64, deals: 2, revenue: 53400, roas: 8.61 },
-      // Month 5 (Dec 2025): Holiday slowdown but quality improving. Fewer but better leads.
-      { month: "Dec '25", spend: 6700, leads: 23, cpl: 291.30, qualified: 11, cpql: 609.09, deals: 1, revenue: 27600, roas: 4.12 },
+      { month: "Nov '25", spend: 6500, leads: 27, cpl: 240.74, qualified: 12, cpql: 541.67, deals: 1, revenue: 26400, roas: 4.06 },
+      // Month 5 (Dec 2025): Holiday slowdown in lead volume but quality stays high. Fewer inquiries, serious buyers.
+      { month: "Dec '25", spend: 7100, leads: 22, cpl: 322.73, qualified: 10, cpql: 710.00, deals: 1, revenue: 27200, roas: 3.83 },
       // Month 6 (Jan 2026): New year renovation push. Creative library mature. Budget scaling.
-      { month: "Jan '26", spend: 7400, leads: 31, cpl: 238.71, qualified: 14, cpql: 528.57, deals: 2, revenue: 56800, roas: 7.68 },
+      { month: "Jan '26", spend: 7800, leads: 31, cpl: 251.61, qualified: 15, cpql: 520.00, deals: 1, revenue: 27800, roas: 3.56 },
       // Month 7 (Feb 2026): Spring planning season. High-value leads increasing.
-      { month: "Feb '26", spend: 8200, leads: 35, cpl: 234.29, qualified: 17, cpql: 482.35, deals: 2, revenue: 57500, roas: 7.01 },
-      // Month 8 (Mar 2026): Peak early spring. Creative strategy fully optimized. Best month.
-      { month: "Mar '26", spend: 9450, leads: 40, cpl: 236.25, qualified: 18, cpql: 525.00, deals: 2, revenue: 57500, roas: 6.08 },
+      { month: "Feb '26", spend: 8500, leads: 33, cpl: 257.58, qualified: 17, cpql: 500.00, deals: 1, revenue: 28400, roas: 3.34 },
+      // Month 8 (Mar 2026): Peak early spring. Creative strategy fully optimized. Best quality month.
+      { month: "Mar '26", spend: 9700, leads: 38, cpl: 255.26, qualified: 19, cpql: 510.53, deals: 1, revenue: 28750, roas: 2.96 },
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$329.3K", growth: "+186%" },
+    { label: "Total Revenue", value: "$213.4K", growth: "+186%" },
     { label: "Monthly Organic Traffic", value: "7,418", growth: "+2,549%" },
     { label: "Avg Project Value", value: "$28,750", growth: "+15%" },
-    { label: "Blended ROAS", value: "6.08x", growth: "" },
+    { label: "Blended ROAS", value: "3.78x", growth: "" },
   ],
 };

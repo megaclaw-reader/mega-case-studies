@@ -77,6 +77,7 @@ import { healthcareRegenerativeMedicine } from "./healthcare-regenerative-medici
 import { lawFirmSeo } from "./law-firm-seo";
 import { cleaningService } from "./cleaning-service";
 import { swimmingPoolContractors } from "./swimming-pool-contractors";
+import { poolBackyardRenovation } from "./pool-backyard-renovation";
 import { movingCompany } from "./moving-company";
 import { generalContracting } from "./general-contracting";
 import { wealthManagement } from "./wealth-management";
@@ -245,6 +246,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "law-firm-seo": lawFirmSeo,
   "cleaning-service": cleaningService,
   "swimming-pool-contractors": swimmingPoolContractors,
+  "pool-backyard-renovation": poolBackyardRenovation,
   "moving-company": movingCompany,
   "general-contracting": generalContracting,
   "wealth-management": wealthManagement,
