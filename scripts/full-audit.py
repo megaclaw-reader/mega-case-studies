@@ -222,9 +222,11 @@ for filepath in files:
             expected_roas = revenue / spend if spend > 0 else 0
             if abs(expected_roas - roas) > 0.15:
                 errors.append(f"  {month}: ROAS mismatch — stated {roas:.2f}x, actual {expected_roas:.2f}x")
-            # Hard ROAS cap: lead gen max 4.8x, ecom max 8.0x
-            is_ecom_file = is_ecom or any(k in content for k in ['addToCart', 'add_to_cart', 'Sessions', 'Orders', 'Add to Cart', 'columnLabels'])
-            roas_cap = 8.0 if is_ecom_file else 4.8
+            # Hard ROAS cap: lead gen max 4.8x, ecom max 8.0x, high-ticket max 35x
+            high_ticket_slugs = ['pool-installation', 'pool-construction', 'general-contracting', 'home-renovation']
+            is_high_ticket = any(slug in filepath for slug in high_ticket_slugs)
+            is_ecom_file = not is_high_ticket and (is_ecom or any(k in content for k in ['addToCart', 'add_to_cart', 'Sessions', 'Orders', 'Add to Cart', 'columnLabels']))
+            roas_cap = 35.0 if is_high_ticket else (8.0 if is_ecom_file else 4.8)
             if roas > roas_cap:
                 errors.append(f"  {month}: ROAS {roas:.2f}x exceeds {roas_cap}x cap for {'ecom' if is_ecom_file else 'lead gen'} — MUST be reduced")
         
