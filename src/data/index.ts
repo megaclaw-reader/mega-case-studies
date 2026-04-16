@@ -1,4 +1,5 @@
 import { CaseStudyData } from "./types";
+import { poolInstallation } from "./pool-installation";
 import { eventPlanning } from "./event-planning";
 import { exterminator } from "./exterminator";
 import { exterminatorCa } from "./exterminator-ca";
@@ -436,6 +437,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "social-security-disability": socialSecurityDisability,
   "event-planning": eventPlanning,
   "mens-health-wellness-media": mensHealthWellnessMedia,
+  "pool-installation": poolInstallation,
 };
 
 export type { CaseStudyData };
