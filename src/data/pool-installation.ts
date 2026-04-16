@@ -8,7 +8,6 @@ export const poolInstallation: CaseStudyData = {
   heroStats: [
     { value: "5.52", unit: "M", label: "Revenue Generated" },
     { value: "187", unit: "", label: "Qualified Leads" },
-    { value: "27.37", unit: "x", label: "Blended ROAS" },
   ],
   tags: ["SEO", "Paid Advertising", "Lead Generation", "Local"],
   company: {
@@ -113,7 +112,6 @@ export const poolInstallation: CaseStudyData = {
       { label: "Qualified Leads", value: "187" },
       { label: "Avg CPQL", value: "$1,078.07" },
       { label: "Total Revenue", value: "$5.52M" },
-      { label: "Blended ROAS", value: "27.37x" },
     ],
     columnLabels: {
       leads: "Total Leads",
@@ -122,7 +120,7 @@ export const poolInstallation: CaseStudyData = {
       cpql: "Cost Per Qualified Lead",
       deals: "Closed Projects",
     },
-    hiddenColumns: ["costPerDeal"],
+    hiddenColumns: ["costPerDeal", "roas"],
     monthly: [
       // Month 1 (Jul '25): Peak summer, launch month. Building baseline with strong budget.
       { month: "Jul '25", spend: 18400, leads: 28, cpl: 657.14, qualified: 12, cpql: 1533.33, deals: 3, revenue: 360000, roas: 19.57 },
@@ -144,7 +142,6 @@ export const poolInstallation: CaseStudyData = {
   },
   impact: [
     { label: "Total Revenue", value: "$5.52M", growth: "" },
-    { label: "Blended ROAS", value: "27.37x", growth: "" },
     { label: "Qualified Leads", value: "187", growth: "" },
     { label: "Organic Traffic Growth", value: "612 → 4,720/mo", growth: "+671%" },
     { label: "Ranking Keywords", value: "158 → 678", growth: "+329%" },
