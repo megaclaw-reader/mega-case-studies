@@ -110,7 +110,6 @@ export const poolInstallation: CaseStudyData = {
     summary: [
       { label: "Total Ad Spend", value: "$201.7K" },
       { label: "Qualified Leads", value: "187" },
-      { label: "Avg CPQL", value: "$1,078.07" },
       { label: "Total Revenue", value: "$5.52M" },
     ],
     columnLabels: {
@@ -120,7 +119,7 @@ export const poolInstallation: CaseStudyData = {
       cpql: "Cost Per Qualified Lead",
       deals: "Closed Projects",
     },
-    hiddenColumns: ["costPerDeal", "roas"],
+    hiddenColumns: ["costPerDeal", "roas", "cpql"],
     monthly: [
       // Month 1 (Jul '25): Peak summer, launch month. Building baseline with strong budget.
       { month: "Jul '25", spend: 18400, leads: 28, cpl: 657.14, qualified: 12, cpql: 1533.33, deals: 3, revenue: 360000, roas: 19.57 },
