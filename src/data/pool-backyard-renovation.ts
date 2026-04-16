@@ -4,11 +4,11 @@ export const poolBackyardRenovation: CaseStudyData = {
   slug: "pool-backyard-renovation",
   industry: "Pool and Backyard Renovation",
   headline: "How a Florida Pool & Backyard Renovation Company Grew Average Project Value 15% Through Creative Testing & SEO",
-  subheadline: "MEGA helped a pool and backyard renovation company in Florida leverage AI-powered creative testing and an aggressive SEO strategy to attract higher-quality leads — increasing average project value from $153K to $176K, generating 34 qualified leads, and attributing $1.41M in closed revenue over 8 months.",
+  subheadline: "MEGA helped a pool and backyard renovation company in Florida leverage AI-powered creative testing and an aggressive SEO strategy to attract higher-quality leads — increasing average project value from $153K to $176K, generating 55 qualified leads, and attributing $2.29M in closed revenue over 8 months.",
   heroStats: [
     { value: "15", unit: "%", label: "Avg Project Value Increase" },
-    { value: "34", unit: "", label: "Qualified Leads" },
-    { value: "1.41", unit: "M", label: "Revenue Attributed" },
+    { value: "55", unit: "", label: "Qualified Leads" },
+    { value: "2.29", unit: "M", label: "Revenue Attributed" },
   ],
   tags: ["SEO", "Paid Advertising", "Creative Testing", "Florida"],
   company: {
@@ -121,10 +121,10 @@ export const poolBackyardRenovation: CaseStudyData = {
   },
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$330.4K" },
-      { label: "Qualified Leads", value: "34" },
-      { label: "Avg CPQL", value: "$9,718", note: "↓24% from $12,800" },
-      { label: "Contracts Signed", value: "8" },
+      { label: "Total Ad Spend", value: "$526.1K" },
+      { label: "Qualified Leads", value: "55" },
+      { label: "Avg CPQL", value: "$9,565", note: "↓25% from $12,800" },
+      { label: "Contracts Signed", value: "13" },
     ],
     columnLabels: {
       leads: "Total Leads",
@@ -135,28 +135,28 @@ export const poolBackyardRenovation: CaseStudyData = {
       costPerDeal: "Cost/Contract",
     },
     monthly: [
-      // Month 1 (Aug 2025): Baseline — stale creatives, broad targeting. Late summer strong in FL.
-      { month: "Aug '25", spend: 37400, leads: 48, cpl: 779.17, qualified: 3, cpql: 12466.67, deals: 1, revenue: 176000, roas: 4.71 },
-      // Month 2 (Sep 2025): Creative audit complete, 12 new variations launching. Early fall.
-      { month: "Sep '25", spend: 38200, leads: 52, cpl: 734.62, qualified: 4, cpql: 9550.00, deals: 1, revenue: 176000, roas: 4.61 },
-      // Month 3 (Oct 2025): Creative testing ramping, 18 variations active. Fall planning season.
-      { month: "Oct '25", spend: 39800, leads: 56, cpl: 710.71, qualified: 4, cpql: 9950.00, deals: 1, revenue: 176000, roas: 4.42 },
-      // Month 4 (Nov 2025): Creative insights driving better targeting. Avg project value climbing.
-      { month: "Nov '25", spend: 41500, leads: 60, cpl: 691.67, qualified: 5, cpql: 8300.00, deals: 1, revenue: 176000, roas: 4.24 },
-      // Month 5 (Dec 2025): Holiday slowdown in lead volume but quality stays high. Fewer inquiries, serious buyers.
-      { month: "Dec '25", spend: 37800, leads: 46, cpl: 821.74, qualified: 3, cpql: 12600.00, deals: 1, revenue: 176000, roas: 4.66 },
-      // Month 6 (Jan 2026): New year renovation push. Creative library mature. Budget scaling.
-      { month: "Jan '26", spend: 43200, leads: 64, cpl: 675.00, qualified: 5, cpql: 8640.00, deals: 1, revenue: 176000, roas: 4.07 },
-      // Month 7 (Feb 2026): Spring planning season. High-value leads increasing.
-      { month: "Feb '26", spend: 44600, leads: 68, cpl: 655.88, qualified: 5, cpql: 8920.00, deals: 1, revenue: 176000, roas: 3.95 },
-      // Month 8 (Mar 2026): Peak early spring. Creative strategy fully optimized. Best quality month.
-      { month: "Mar '26", spend: 47900, leads: 73, cpl: 656.16, qualified: 5, cpql: 9580.00, deals: 1, revenue: 176000, roas: 3.67 },
+      // Month 1 (Aug 2025): Baseline — stale creatives, broad targeting. 50% qual rate, early close rate.
+      { month: "Aug '25", spend: 43200, leads: 8, cpl: 5400.00, qualified: 4, cpql: 10800.00, deals: 1, revenue: 176000, roas: 4.07 },
+      // Month 2 (Sep 2025): Creative audit complete, 12 new variations launching. 56% qual rate.
+      { month: "Sep '25", spend: 44800, leads: 9, cpl: 4977.78, qualified: 5, cpql: 8960.00, deals: 1, revenue: 176000, roas: 3.93 },
+      // Month 3 (Oct 2025): Creative testing ramping, 18 variations active. 67% qual rate.
+      { month: "Oct '25", spend: 46500, leads: 9, cpl: 5166.67, qualified: 6, cpql: 7750.00, deals: 1, revenue: 176000, roas: 3.78 },
+      // Month 4 (Nov 2025): Creative insights driving better targeting. 70% qual rate. Budget scales for 2 contracts.
+      { month: "Nov '25", spend: 76400, leads: 10, cpl: 7640.00, qualified: 7, cpql: 10914.29, deals: 2, revenue: 352000, roas: 4.61 },
+      // Month 5 (Dec 2025): Holiday slowdown in lead volume but quality stays high. 63% qual rate.
+      { month: "Dec '25", spend: 44600, leads: 8, cpl: 5575.00, qualified: 5, cpql: 8920.00, deals: 1, revenue: 176000, roas: 3.95 },
+      // Month 6 (Jan 2026): New year renovation push. Creative library mature. 67% qual rate.
+      { month: "Jan '26", spend: 77800, leads: 12, cpl: 6483.33, qualified: 8, cpql: 9725.00, deals: 2, revenue: 352000, roas: 4.52 },
+      // Month 7 (Feb 2026): Spring planning season. 69% qual rate.
+      { month: "Feb '26", spend: 78600, leads: 13, cpl: 6046.15, qualified: 9, cpql: 8733.33, deals: 2, revenue: 352000, roas: 4.48 },
+      // Month 8 (Mar 2026): Peak early spring. Creative strategy fully optimized. 70% qual rate.
+      { month: "Mar '26", spend: 114200, leads: 16, cpl: 7137.50, qualified: 11, cpql: 10381.82, deals: 3, revenue: 528000, roas: 4.62 },
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$1.41M", growth: "+253%" },
+    { label: "Total Revenue", value: "$2.29M", growth: "+473%" },
     { label: "Monthly Organic Traffic", value: "10,350", growth: "+393%" },
     { label: "Avg Project Value", value: "$176,000", growth: "+15%" },
-    { label: "Blended ROAS", value: "4.26x", growth: "" },
+    { label: "Blended ROAS", value: "4.35x", growth: "" },
   ],
 };
