@@ -14,6 +14,7 @@ export default function PaidAdsPerformance({ data }: { data: CaseStudyData }) {
   const cl = paidAds.columnLabels;
   const hidden = new Set(paidAds.hiddenColumns ?? []);
   const showCpl = !hidden.has("cpl");
+  const showCostPerDeal = !hidden.has("costPerDeal");
 
   return (
     <AnimatedSection id="paid-ads" className="py-20 px-6 bg-gray-50/50">
@@ -72,9 +73,11 @@ export default function PaidAdsPerformance({ data }: { data: CaseStudyData }) {
           if (hasDeals) {
             const dealsLabel = cl?.deals || "Deals";
             headers.push(dealsLabel);
-            // Use custom costPerDeal label if provided, otherwise infer from deals label
-            const isEcom = dealsLabel.toLowerCase().includes("order") || (cl?.leads && cl.leads.toLowerCase().includes("session"));
-            headers.push(cl?.costPerDeal || (isEcom ? "Cost/Order" : "Cost/Acquisition"));
+            if (showCostPerDeal) {
+              // Use custom costPerDeal label if provided, otherwise infer from deals label
+              const isEcom = dealsLabel.toLowerCase().includes("order") || (cl?.leads && cl.leads.toLowerCase().includes("session"));
+              headers.push(cl?.costPerDeal || (isEcom ? "Cost/Order" : "Cost/Acquisition"));
+            }
           }
           if (hasRevenue) { headers.push("Revenue", "ROAS"); }
           const m = paidAds.monthly;
@@ -110,7 +113,7 @@ export default function PaidAdsPerformance({ data }: { data: CaseStudyData }) {
                     <td className="px-5 py-3">{row.qualified}</td>
                     <td className="px-5 py-3">${row.cpql.toLocaleString()}</td>
                     {hasDeals && <td className="px-5 py-3">{row.deals}</td>}
-                    {hasDeals && <td className="px-5 py-3">${row.deals ? Math.round(row.spend / row.deals).toLocaleString() : "—"}</td>}
+                    {hasDeals && showCostPerDeal && <td className="px-5 py-3">${row.deals ? Math.round(row.spend / row.deals).toLocaleString() : "—"}</td>}
                     {hasRevenue && <td className="px-5 py-3">${(row.revenue ?? 0).toLocaleString()}</td>}
                     {hasRevenue && <td className="px-5 py-3">{row.roas}x</td>}
                   </tr>
@@ -125,7 +128,7 @@ export default function PaidAdsPerformance({ data }: { data: CaseStudyData }) {
                   <td className="px-5 py-3">{totalQualified.toLocaleString()}</td>
                   <td className="px-5 py-3">${avgCpql.toLocaleString()}</td>
                   {hasDeals && <td className="px-5 py-3">{totalDeals}</td>}
-                  {hasDeals && <td className="px-5 py-3">${totalDeals ? Math.round(totalSpend / totalDeals).toLocaleString() : "—"}</td>}
+                  {hasDeals && showCostPerDeal && <td className="px-5 py-3">${totalDeals ? Math.round(totalSpend / totalDeals).toLocaleString() : "—"}</td>}
                   {hasRevenue && <td className="px-5 py-3">${totalRevenue.toLocaleString()}</td>}
                   {hasRevenue && <td className="px-5 py-3">{avgRoas}x</td>}
                 </tr>

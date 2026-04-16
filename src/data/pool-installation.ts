@@ -122,6 +122,7 @@ export const poolInstallation: CaseStudyData = {
       cpql: "Cost Per Qualified Lead",
       deals: "Closed Projects",
     },
+    hiddenColumns: ["costPerDeal"],
     monthly: [
       // Month 1 (Jul '25): Peak summer, launch month. Building baseline with strong budget.
       { month: "Jul '25", spend: 18400, leads: 28, cpl: 657.14, qualified: 12, cpql: 1533.33, deals: 3, revenue: 360000, roas: 19.57 },
