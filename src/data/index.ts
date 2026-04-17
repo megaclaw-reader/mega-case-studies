@@ -219,6 +219,7 @@ import { travelServices } from "./travel-services";
 import { personalCareBeauty } from "./personal-care-beauty";
 import { plasticSurgery } from "./plastic-surgery";
 import { customClosetsStorage } from "./custom-closets-storage";
+import { seniorCareCharlotte } from "./senior-care-charlotte";
 
 export const caseStudies: Record<string, CaseStudyData> = {
   "alarm-surveillance-seo": alarmSurveillanceSeo,
@@ -440,6 +441,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "event-planning": eventPlanning,
   "mens-health-wellness-media": mensHealthWellnessMedia,
   "pool-installation": poolInstallation,
+  "senior-care-charlotte": seniorCareCharlotte,
 };
 
 export type { CaseStudyData };
