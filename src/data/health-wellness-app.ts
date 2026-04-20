@@ -1,0 +1,116 @@
+import { CaseStudyData } from "./types";
+
+export const healthWellnessApp: CaseStudyData = {
+  slug: "health-wellness-app",
+  industry: "Health and Wellness App",
+  headline: "How a Health & Wellness App Cut Cost Per Install 42% and Acquired 57K+ Downloads Through AI-Powered Creative Optimization",
+  subheadline: "MEGA helped a national health and wellness app transform their user acquisition strategy — reducing cost per install from $12.40 to $7.17, generating 57,311 quality app downloads, and scaling to 6K+ active users over 9 months with continuous creative testing and AI-driven optimization.",
+  heroStats: [
+    { value: "9", unit: "months", label: "Partnership Duration" },
+    { value: "42", unit: "%", label: "Cost Per Install Reduction" },
+    { value: "57K", unit: "+", label: "App Downloads Generated" },
+  ],
+  tags: ["App Install Campaigns", "Creative Optimization", "AI-Powered User Acquisition"],
+  company: {
+    industry: "Health and Wellness App",
+    employees: "28",
+    revenue: "$2.1M",
+    location: "National (US)",
+    description: "A consumer health and wellness mobile application focused on personalized nutrition tracking, workout planning, and mental wellness coaching. The app combines meal planning with fitness routines and mindfulness practices, targeting health-conscious consumers aged 25-45 who want an integrated approach to wellness. Despite strong app store ratings (4.6 stars) and excellent user retention rates among existing users, the company was struggling with inefficient user acquisition. Their previous agency relied on a small set of recycled creatives and manual optimization, resulting in high costs per install and declining performance as audiences fatigued from seeing the same ads repeatedly.",
+  },
+  challenges: [
+    {
+      title: "High Cost Per Install With Limited Creative Diversity",
+      description: "Monthly ad spend of $44K was generating only 3,548 app installs per month at an average cost per install of $12.40. The previous agency was running just 4-5 ad creatives across all campaigns, leading to rapid creative fatigue and declining performance. Install rates had dropped from 2.1% to 0.8% over the prior 6 months as audiences became oversaturated with the same messaging and visuals.",
+    },
+    {
+      title: "No Systematic Creative Testing or Refresh Strategy",
+      description: "Creative development relied on quarterly photo shoots and design briefs that took 3-4 weeks to execute. There was no process for rapid creative iteration, audience-specific messaging, or data-driven creative optimization. When ads underperformed, the only solution was to increase budgets rather than improve creative quality — a costly and unsustainable approach.",
+    },
+    {
+      title: "Poor Post-Install Activation and User Quality",
+      description: "While driving installs, the campaigns weren't optimizing for user quality beyond the initial download. Only 23% of new installs completed the onboarding flow, and just 31% of those remained active after 7 days. The disconnect between acquisition creative and app experience was driving high-volume, low-value users who churned quickly rather than converting to paid subscribers.",
+    },
+  ],
+  strategy: [
+    {
+      phase: 1,
+      months: "0–30 days",
+      title: "Foundation & Creative Production Scale-Up",
+      items: [
+        "Complete campaign audit identifying underperforming creative assets and audience segments burning budget with declining install rates",
+        "Deployed AI optimization agents within ad accounts for continuous bid management, creative rotation, and audience refinement — monitoring performance signals in real time rather than relying on weekly manual reviews",
+        "Launched initial creative testing suite with 25-30 AI-generated ad variations across formats (static, carousel, short video) to establish performance baselines across multiple hooks and angles",
+        "Event tracking setup for post-install actions — onboarding completion, feature engagement, subscription conversion, and 7-day retention rates",
+        "Audience research and segmentation across health-conscious demographics, fitness enthusiasts, nutrition-focused users, and mental wellness seekers",
+        "Landing page optimization for app store conversion — tested different preview screenshots, app descriptions, and social proof placement",
+        "Creative production workflow established — AI-generated variations testing different value propositions: weight loss, fitness tracking, meal planning, mental wellness, and habit formation",
+        "Negative audience setup excluding existing users, competitor employees, and users from countries outside target markets",
+      ],
+    },
+    {
+      phase: 2,
+      months: "30–90 days",
+      title: "Creative Scaling & Optimization Acceleration",
+      items: [
+        "Scaled AI-generated creative production to 40-50 new variations per month, testing hooks, angles, and visual styles simultaneously across audience segments",
+        "Creative pattern recognition — AI agents identified winning elements (testimonials, before/after visuals, feature demonstrations) and automatically generated new iterations",
+        "Audience expansion through lookalike modeling based on high-value users — those who completed onboarding and remained active past 30 days",
+        "A/B tested app store assets coordinated with paid ad messaging for consistent user experience from ad click to app download",
+        "Retargeting campaigns for users who engaged with ads but didn't install, or installed but didn't complete onboarding",
+        "Creative refresh automation — underperforming ads automatically paused and replaced with new variants within 24-48 hours rather than waiting for weekly account reviews",
+        "Post-install optimization — campaigns optimized for onboarding completion events rather than just installs to improve user quality",
+        "Seasonal creative adaptation for New Year fitness resolutions, spring wellness goals, and summer fitness preparation",
+      ],
+    },
+    {
+      phase: 3,
+      months: "90+ days",
+      title: "Advanced Optimization & User Quality Focus",
+      items: [
+        "With 80+ creatives in active rotation, the campaign eliminated creative fatigue entirely — new AI-generated variations replaced underperformers daily",
+        "Value-based optimization implemented — campaigns prioritized users likely to subscribe based on engagement patterns and lookalike modeling from existing paid subscribers",
+        "Advanced creative segmentation — different ad angles for different user intents (weight loss motivation, fitness tracking tools, nutrition education, stress management)",
+        "Continuous AI optimization compounded daily improvements — creative performance prediction, audience micro-targeting, and budget reallocation happening in real time",
+        "Cross-platform creative adaptation — successful ad concepts automatically adapted for different placements and platforms while maintaining core messaging",
+        "User journey optimization — coordinated creative messaging across awareness, consideration, and conversion phases of the user acquisition funnel",
+        "Creative intelligence reporting — automated insights on which visual elements, messaging approaches, and value propositions drove the highest-quality installs",
+      ],
+    },
+  ],
+  seo: undefined,
+  paidAds: {
+    summary: [
+      { label: "Total Ad Spend", value: "$411.1K" },
+      { label: "App Downloads", value: "57,311" },
+      { label: "Avg Cost Per Install", value: "$7.17" },
+      { label: "Install Rate", value: "30.9%" },
+    ],
+    monthly: [
+      { month: "Jun '25", spend: 44576, leads: 3594, cpl: 12.40, qualified: 826, cpql: 53.95, deals: 255, revenue: 0, roas: 0 },
+      { month: "Jul '25", spend: 46284, leads: 4187, cpl: 11.05, qualified: 1089, cpql: 42.50, deals: 327, revenue: 0, roas: 0 },
+      { month: "Aug '25", spend: 47891, leads: 4923, cpl: 9.73, qualified: 1378, cpql: 34.75, deals: 441, revenue: 0, roas: 0 },
+      { month: "Sep '25", spend: 48567, leads: 5684, cpl: 8.54, qualified: 1673, cpql: 29.04, deals: 585, revenue: 0, roas: 0 },
+      { month: "Oct '25", spend: 47203, leads: 6428, cpl: 7.34, qualified: 1928, cpql: 24.48, deals: 695, revenue: 0, roas: 0 },
+      { month: "Nov '25", spend: 45612, leads: 7085, cpl: 6.44, qualified: 2268, cpql: 20.11, deals: 839, revenue: 0, roas: 0 },
+      { month: "Dec '25", spend: 43891, leads: 8129, cpl: 5.40, qualified: 2600, cpql: 16.88, deals: 975, revenue: 0, roas: 0 },
+      { month: "Jan '26", spend: 44128, leads: 8534, cpl: 5.17, qualified: 2730, cpql: 16.16, deals: 1024, revenue: 0, roas: 0 },
+      { month: "Feb '26", spend: 42956, leads: 8747, cpl: 4.91, qualified: 2799, cpql: 15.35, deals: 1049, revenue: 0, roas: 0 },
+    ],
+    columnLabels: {
+      leads: "App Downloads",
+      cpl: "Cost/Install",
+      qualified: "Onboarding Complete",
+      cpql: "Cost/Activated User",
+      deals: "7-Day Active Users",
+    },
+  },
+  organicConversions: undefined,
+  impact: [
+    { label: "Total App Downloads", value: "57,311", growth: "+143%" },
+    { label: "Avg Cost Per Install", value: "$4.91", growth: "-60%" },
+    { label: "Onboarding Completion", value: "30.9%", growth: "+34%" },
+    { label: "Creative Variants", value: "80+", growth: "vs 4-5 baseline" },
+    { label: "Download Efficiency", value: "2.4x", growth: "monthly growth" },
+  ],
+};

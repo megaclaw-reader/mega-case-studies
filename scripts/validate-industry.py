@@ -112,6 +112,8 @@ CPL_RANGES = {
     "regen_medicine":    (30, 250),
     # SaaS
     "saas":              (30, 500),
+    # Health & Wellness App — cost per INSTALL (CPI)
+    "health_and_wellness_app": (3, 15),
     # Ecom — cost per SESSION (not per lead)
     "ecom":              (0.20, 5.00),
     "sustainable_luxury": (1.50, 4.00),
@@ -203,6 +205,8 @@ def _cpl_category(industry, model_key):
         ("cbd", "cbd_thc"), ("thc", "cbd_thc"), ("cannabis", "cbd_thc"), ("hemp", "cbd_thc"),
         ("yoga", "gym_fitness"), ("pilates", "gym_fitness"),
         ("self improvement", "education"), ("subscription", "education"),
+        ("health and wellness app", "health_and_wellness_app"),
+        ("health & wellness app", "health_and_wellness_app"),
         ("peptide", "healthcare"),
         ("healthcare", "healthcare"), ("medical", "healthcare"),
         ("wellness", "healthcare"),
@@ -293,6 +297,7 @@ DEAL_VALUE_RANGES = {
     "construction": (10000, 200000),
     "building_materials": (2000, 50000),
     "healthcare_equip": (5000, 100000),
+    "health_and_wellness_app": (5, 20),  # Monthly subscription value for consumer health apps
     "life_insurance": (500, 2000),
     "healthcare": (200, 5000),
     "telemedicine": (80, 400),

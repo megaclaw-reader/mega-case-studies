@@ -1,5 +1,6 @@
 import { CaseStudyData } from "./types";
 import { cbdThcSeo } from "./cbd-thc-seo";
+import { healthWellnessApp } from "./health-wellness-app";
 import { poolInstallation } from "./pool-installation";
 import { eventPlanning } from "./event-planning";
 import { exterminator } from "./exterminator";
@@ -276,6 +277,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "real-estate-newsletter": realEstateNewsletter,
   "car-parts-nj": carPartsNj,
   "health-wellness": healthWellness,
+  "health-wellness-app": healthWellnessApp,
   "mortgage-real-estate-columbus": mortgageRealEstateColumbus,
   "education-chicago": educationChicago,
   "vr-entertainment-technology": vrEntertainmentTechnology,

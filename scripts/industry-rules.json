@@ -671,7 +671,8 @@
     "Men's Health & Wellness Media": "subscription",
     "Pool Installation": "lead_gen_services",
     "Pool and Backyard Renovation": "lead_gen_services",
-    "CBD / THC": "ecommerce"
+    "CBD / THC": "ecommerce",
+    "Health and Wellness App": "saas"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",

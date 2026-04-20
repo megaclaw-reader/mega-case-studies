@@ -1,0 +1,31 @@
+{
+  "mo7lgo9cmx9d": {
+    "requestId": "mo7lgo9cmx9d",
+    "requester": "Jeremy Smith",
+    "requesterEmail": "jeremy.smith@gomega.ai",
+    "requesterSlackId": "U0ADPT5UY3H",
+    "industry": "HVAC",
+    "slug": "hvac-san-jose",
+    "scope": "local",
+    "region": "San Jose, California",
+    "monthlyAdSpend": "$4,000",
+    "dateRange": "2025-02 to 2026-02",
+    "services": "SEO + Paid Advertising",
+    "notes": "show how they grew with seo and paid ads. Dont over exagerate",
+    "completedAt": "2026-04-20T19:42:46Z",
+    "emailSent": true,
+    "deliveredVia": "slack-dm",
+    "deliveredAt": "2026-04-20T19:43:56Z",
+    "caseStudyUrl": "https://megacasestudies.onrender.com/hvac-san-jose",
+    "reviewUrl": "https://megacasestudies.onrender.com/hvac-san-jose/review",
+    "status": "completed",
+    "results": {
+      "qualifiedLeads": 732,
+      "cpqlReduction": "68%",
+      "organicTrafficGrowth": "835%",
+      "revenueAttributed": "$448K",
+      "blendedRoas": "6.96x",
+      "partnershipDuration": "13 months"
+    }
+  }
+}
