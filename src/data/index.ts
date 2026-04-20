@@ -221,6 +221,7 @@ import { personalCareBeauty } from "./personal-care-beauty";
 import { plasticSurgery } from "./plastic-surgery";
 import { customClosetsStorage } from "./custom-closets-storage";
 import { seniorCareCharlotte } from "./senior-care-charlotte";
+import { lifeInsuranceFloridaNew } from "./life-insurance-florida";
 
 export const caseStudies: Record<string, CaseStudyData> = {
   "alarm-surveillance-seo": alarmSurveillanceSeo,
@@ -444,6 +445,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "cbd-thc-seo": cbdThcSeo,
   "pool-installation": poolInstallation,
   "senior-care-charlotte": seniorCareCharlotte,
+  "life-insurance-florida": lifeInsuranceFloridaNew,
 };
 
 export type { CaseStudyData };
