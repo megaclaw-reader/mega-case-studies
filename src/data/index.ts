@@ -1,4 +1,5 @@
 import { CaseStudyData } from "./types";
+import { nailSalon } from "./nail-salon";
 import { cbdThcSeo } from "./cbd-thc-seo";
 import { healthWellnessApp } from "./health-wellness-app";
 import { poolInstallation } from "./pool-installation";
@@ -454,6 +455,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "hvac-san-jose": hvacSanJose,
   "ecommerce-sports-store": ecommerceSportsStore,
   "ecommerce-pet": ecommercePet,
+  "nail-salon": nailSalon,
 };
 
 export type { CaseStudyData };
