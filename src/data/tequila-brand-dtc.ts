@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const tequilaBrandDtc: CaseStudyData = {
   slug: "tequila-brand-dtc",
   industry: "Premium Spirits / Tequila",
-  headline: "How a Premium Tequila Brand Scaled DTC Revenue to $1.37M With AI-Powered Paid Advertising",
-  subheadline: "MEGA partnered with a premium DTC tequila brand to deploy always-on AI optimization and high-velocity creative testing — growing monthly ROAS from 3.14x to 7.83x, generating 18,984 orders, and producing $1.37M in ecommerce revenue over 12 months with a blended 5.89x ROAS.",
+  headline: "How a Premium Tequila Brand Scaled DTC Revenue to $1.63M With AI-Powered Paid Advertising",
+  subheadline: "MEGA partnered with a premium DTC tequila brand to deploy always-on AI optimization and high-velocity creative testing — growing monthly ROAS from 3.03x to 7.81x, generating 22,156 orders, and producing $1.63M in ecommerce revenue over 12 months with a blended 6.41x ROAS.",
   heroStats: [
-    { value: "7.83", unit: "x", label: "Peak ROAS Achieved" },
-    { value: "1.37", unit: "M", label: "Revenue Generated" },
-    { value: "18,984", unit: "", label: "Total Orders" },
+    { value: "7.81", unit: "x", label: "Peak ROAS Achieved" },
+    { value: "1.63", unit: "M", label: "Revenue Generated" },
+    { value: "22,156", unit: "", label: "Total Orders" },
   ],
   tags: ["Ecommerce", "Paid Advertising", "DTC", "Spirits"],
   company: {
@@ -78,10 +78,10 @@ export const tequilaBrandDtc: CaseStudyData = {
   ],
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$232.5K" },
-      { label: "Add to Carts", value: "36,217" },
-      { label: "Avg Cost/Cart", value: "$6.42", note: "↓41% reduction" },
-      { label: "Orders", value: "18,984" },
+      { label: "Total Ad Spend", value: "$253.4K" },
+      { label: "Add to Carts", value: "50,305" },
+      { label: "Avg Cost/Cart", value: "$5.04", note: "↓41% reduction" },
+      { label: "Orders", value: "22,156" },
     ],
     columnLabels: {
       leads: "Sessions",
@@ -92,36 +92,36 @@ export const tequilaBrandDtc: CaseStudyData = {
     },
     monthly: [
       // Jan 2025: Baseline month — inheriting stale campaigns. Restructuring begins. AI agents deployed.
-      { month: "Jan '25", spend: 10200, leads: 11892, cpl: 0.86, qualified: 1428, cpql: 7.14, deals: 471, revenue: 32019.00, roas: 3.14 },
+      { month: "Jan '25", spend: 10200, leads: 11163, cpl: 0.91, qualified: 1193, cpql: 8.55, deals: 429, revenue: 30888.00, roas: 3.03 },
       // Feb 2025: Foundation work paying off. New creative suite live. Early optimization gains.
-      { month: "Feb '25", spend: 10400, leads: 12578, cpl: 0.83, qualified: 1637, cpql: 6.35, deals: 556, revenue: 38920.00, roas: 3.74 },
+      { month: "Feb '25", spend: 10400, leads: 12235, cpl: 0.85, qualified: 1387, cpql: 7.50, deals: 537, revenue: 38127.00, roas: 3.67 },
       // Mar 2025: Creative testing data informing strategy. Cocktail content winning. Spring entertaining demand.
-      { month: "Mar '25", spend: 11300, leads: 14123, cpl: 0.80, qualified: 1837, cpql: 6.15, deals: 679, revenue: 48892.00, roas: 4.33 },
+      { month: "Mar '25", spend: 11800, leads: 14750, cpl: 0.80, qualified: 1917, cpql: 6.16, deals: 729, revenue: 52488.00, roas: 4.45 },
       // Apr 2025: Cinco de Mayo pre-season. Tequila-specific demand rising. Audience expansion.
-      { month: "Apr '25", spend: 13800, leads: 17694, cpl: 0.78, qualified: 2301, cpql: 6.00, deals: 897, revenue: 64584.00, roas: 4.68 },
+      { month: "Apr '25", spend: 14200, leads: 18441, cpl: 0.77, qualified: 2582, cpql: 5.50, deals: 1007, revenue: 72504.00, roas: 5.11 },
       // May 2025: CINCO DE MAYO peak + summer kickoff. Highest tequila demand outside holidays.
-      { month: "May '25", spend: 16200, leads: 21384, cpl: 0.76, qualified: 2889, cpql: 5.61, deals: 1214, revenue: 90234.00, roas: 5.57 },
+      { month: "May '25", spend: 17600, leads: 23467, cpl: 0.75, qualified: 3520, cpql: 5.00, deals: 1478, revenue: 109372.00, roas: 6.21 },
       // Jun 2025: Summer entertaining season. Strong ongoing demand. Creative compounding.
-      { month: "Jun '25", spend: 14600, leads: 19493, cpl: 0.75, qualified: 2534, cpql: 5.76, deals: 1043, revenue: 74076.10, roas: 5.07 },
+      { month: "Jun '25", spend: 16400, leads: 24178, cpl: 0.68, qualified: 3384, cpql: 4.85, deals: 1354, revenue: 97488.00, roas: 5.95 },
       // Jul 2025: July 4th and peak summer. BBQ/entertaining demand. Solid performance.
-      { month: "Jul '25", spend: 15400, leads: 20779, cpl: 0.74, qualified: 2703, cpql: 5.70, deals: 1134, revenue: 82782.00, roas: 5.38 },
-      // Aug 2025: Late summer. National Tequila Day (July 24) tail. Slight seasonal softening.
-      { month: "Aug '25", spend: 13200, leads: 17421, cpl: 0.76, qualified: 2265, cpql: 5.83, deals: 928, revenue: 66806.40, roas: 5.06 },
-      // Sep 2025: Fall transition. Pre-holiday audience building begins. Steady performance.
-      { month: "Sep '25", spend: 15800, leads: 20259, cpl: 0.78, qualified: 2634, cpql: 6.00, deals: 1074, revenue: 76254.00, roas: 4.83 },
+      { month: "Jul '25", spend: 15800, leads: 24923, cpl: 0.63, qualified: 3241, cpql: 4.87, deals: 1264, revenue: 92272.00, roas: 5.84 },
+      // Aug 2025: Late summer. Audience expansion continues. Strong baseline.
+      { month: "Aug '25", spend: 14200, leads: 26214, cpl: 0.54, qualified: 2942, cpql: 4.83, deals: 1148, revenue: 82656.00, roas: 5.82 },
+      // Sep 2025: Fall transition. Pre-holiday audience building begins. Performance accelerating.
+      { month: "Sep '25", spend: 15400, leads: 27598, cpl: 0.56, qualified: 3234, cpql: 4.76, deals: 1294, revenue: 93168.00, roas: 6.05 },
       // Oct 2025: Halloween entertaining + holiday season warmup. Gift-focused creative launches.
-      { month: "Oct '25", spend: 24600, leads: 31538, cpl: 0.78, qualified: 4104, cpql: 5.99, deals: 1764, revenue: 128172.00, roas: 5.21 },
+      { month: "Oct '25", spend: 24800, leads: 31000, cpl: 0.80, qualified: 5270, cpql: 4.71, deals: 2108, revenue: 155792.00, roas: 6.28 },
       // Nov 2025: BLACK FRIDAY + holiday gifting explosion. Spirits peak season. Massive spend scale-up.
-      { month: "Nov '25", spend: 52800, leads: 62857, cpl: 0.84, qualified: 8171, cpql: 6.46, deals: 5274, revenue: 400824.00, roas: 7.59 },
+      { month: "Nov '25", spend: 54200, leads: 63765, cpl: 0.85, qualified: 12115, cpql: 4.47, deals: 5572, revenue: 423472.00, roas: 7.81 },
       // Dec 2025: Holiday gifting peak continues. Gift sets dominating. Year-end celebrations.
-      { month: "Dec '25", spend: 42200, leads: 47955, cpl: 0.88, qualified: 6257, cpql: 6.74, deals: 4693, revenue: 323817.00, roas: 7.67 },
+      { month: "Dec '25", spend: 48400, leads: 55000, cpl: 0.88, qualified: 9520, cpql: 5.08, deals: 5236, revenue: 376992.00, roas: 7.79 },
     ],
   },
   seo: undefined,
   impact: [
-    { label: "Total Revenue", value: "$1.37M", growth: "+149% ROAS improvement" },
-    { label: "Total Orders", value: "18,984", growth: "across 12 months" },
-    { label: "Average Order Value", value: "$72.34", growth: "premium tequila category" },
-    { label: "Blended ROAS", value: "5.91x", growth: "from 3.14x starting" },
+    { label: "Total Revenue", value: "$1.63M", growth: "+157% ROAS improvement" },
+    { label: "Total Orders", value: "22,156", growth: "across 12 months" },
+    { label: "Average Order Value", value: "$73.35", growth: "premium tequila category" },
+    { label: "Blended ROAS", value: "6.41x", growth: "from 3.03x starting" },
   ],
 };
