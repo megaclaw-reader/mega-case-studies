@@ -676,7 +676,8 @@
     "ecommerce-sports-store": "ecommerce",
     "ecommerce-pet": "ecommerce",
     "nail-salon": "lead_gen_services",
-    "Nail Salon": "lead_gen_services"
+    "Nail Salon": "lead_gen_services",
+    "tequila-brand-dtc": "ecommerce"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",

@@ -1,5 +1,6 @@
 import { CaseStudyData } from "./types";
 import { nailSalon } from "./nail-salon";
+import { tequilaBrandDtc } from "./tequila-brand-dtc";
 import { cbdThcSeo } from "./cbd-thc-seo";
 import { healthWellnessApp } from "./health-wellness-app";
 import { poolInstallation } from "./pool-installation";
@@ -456,6 +457,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "ecommerce-sports-store": ecommerceSportsStore,
   "ecommerce-pet": ecommercePet,
   "nail-salon": nailSalon,
+  "tequila-brand-dtc": tequilaBrandDtc,
 };
 
 export type { CaseStudyData };
