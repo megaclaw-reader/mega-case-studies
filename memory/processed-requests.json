@@ -27,5 +27,33 @@
       "blendedRoas": "6.96x",
       "partnershipDuration": "13 months"
     }
+  },
+  "mo7q9h85ch53": {
+    "requestId": "mo7q9h85ch53",
+    "requester": "Brandon Hogbin",
+    "requesterEmail": "Brandon@gomega.ai",
+    "requesterSlackId": "U0AD2QQ1U2V",
+    "industry": "Health and Wellness App",
+    "slug": "health-wellness-app",
+    "scope": "national",
+    "region": "Not specified (national scope)",
+    "monthlyAdSpend": "$44,576",
+    "dateRange": "2025-06 to 2026-02",
+    "services": "Paid Advertising ONLY (no SEO)",
+    "notes": "Don't mention the ROAS mention the downloads they have acquired from our optimization - speak about our ad actions being efficient and that they found value in the creatives we produced",
+    "completedAt": "2026-04-20T21:59:14Z",
+    "emailSent": true,
+    "deliveredVia": "slack-dm",
+    "deliveredAt": "2026-04-20T21:59:14Z",
+    "caseStudyUrl": "https://megacasestudies.onrender.com/health-wellness-app",
+    "reviewUrl": "https://megacasestudies.onrender.com/health-wellness-app/review",
+    "status": "completed",
+    "results": {
+      "appDownloads": "57,311",
+      "costPerInstallReduction": "60%",
+      "downloadGrowth": "143%",
+      "avgCostPerInstall": "$4.91",
+      "partnershipDuration": "9 months"
+    }
   }
 }

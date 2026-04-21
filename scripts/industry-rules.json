@@ -672,7 +672,8 @@
     "Pool Installation": "lead_gen_services",
     "Pool and Backyard Renovation": "lead_gen_services",
     "CBD / THC": "ecommerce",
-    "Health and Wellness App": "saas"
+    "Health and Wellness App": "saas",
+    "ecommerce-sports-store": "ecommerce"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",
