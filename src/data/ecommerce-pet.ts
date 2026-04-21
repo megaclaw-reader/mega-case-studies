@@ -1,0 +1,117 @@
+import { CaseStudyData } from "./types";
+
+export const ecommercePet: CaseStudyData = {
+  slug: "ecommerce-pet",
+  industry: "Ecommerce — Pet Products",
+  headline: "How an Arizona Pet Store Scaled Online Revenue to $204.1K with AI-Driven Paid Advertising",
+  subheadline: "MEGA helped a local Arizona ecommerce pet retailer grow from a 1.95x ROAS to over 3.9x — generating 3,659 orders and $204.1K in ad-attributed revenue over 11 months, including a record Black Friday that drove 18% of total campaign revenue.",
+  heroStats: [
+    { value: "11", unit: "months", label: "Campaign Duration" },
+    { value: "3659", unit: "", label: "Orders Attributed" },
+    { value: "204.1", unit: "K", label: "Ad Revenue" },
+  ],
+  tags: ["Paid Advertising", "Ecommerce", "Arizona"],
+  company: {
+    industry: "Ecommerce — Pet Products",
+    employees: "8",
+    revenue: "$1.2M",
+    location: "Arizona",
+    description: "A locally owned Arizona ecommerce pet store specializing in premium dog and cat food, supplements, toys, and accessories. The business had a loyal base of repeat customers from their physical retail location in the Phoenix metro area but was struggling to scale their online presence beyond local walk-in shoppers. Their average order value hovered around $55, and paid advertising efforts had been sporadic — running generic campaigns with no segmentation between pet types, product categories, or buyer intent levels. With growing competition from national pet retailers and subscription box services flooding the Arizona market, the ownership team needed a structured digital advertising strategy to grow online revenue without cannibalizing margins on low-value orders.",
+  },
+  challenges: [
+    {
+      title: "Undifferentiated Campaigns Across Diverse Product Categories",
+      description: "The store carried everything from premium grain-free dog food to cat furniture to reptile supplies, yet all products were promoted through a single broad campaign targeting 'pet owners in Arizona.' A customer searching for hypoallergenic dog treats was seeing ads for aquarium filters. This lack of segmentation drove cost per visit above $1.20 while conversion rates languished below 2%. There was no strategy to match product-specific messaging to high-intent audiences, and the campaign structure made it impossible to identify which categories were actually profitable.",
+    },
+    {
+      title: "No Seasonal or Promotional Strategy for Peak Pet Shopping Periods",
+      description: "Pet product spending spikes significantly during Black Friday, the holiday gifting season, and summer months when pet owners invest in outdoor gear and travel accessories. Despite these well-documented seasonal patterns, the store ran flat $5,000 monthly budgets year-round with identical creative. Competitors were running aggressive promotions around National Pet Day, Black Friday bundles, and holiday gift guides while this store maintained business-as-usual campaigns. The November-December period — which should be the highest-revenue window — was actually underperforming relative to the rest of the year.",
+    },
+    {
+      title: "High Cart Abandonment With No Recovery System",
+      description: "The store's add-to-cart rate was reasonable at around 7%, but cart-to-order conversion was stuck at 38% — meaning over 60% of shoppers who showed purchase intent were dropping off before completing their order. There were no retargeting campaigns for cart abandoners, no urgency-based creative for browse-abandoners, and no segmentation between first-time visitors and returning customers. Every dollar spent acquiring a session was being wasted when over half of interested buyers left without purchasing.",
+    },
+  ],
+  strategy: [
+    {
+      phase: 1,
+      months: "0–30 days",
+      title: "Foundation & Campaign Architecture",
+      items: [
+        "Complete audit of historical ad performance, mapping revenue by product category, pet type, and customer segment to identify highest-margin opportunities",
+        "Restructured campaign architecture by product vertical: dog food and supplements, cat products, toys and accessories, and specialty/exotic pet supplies — each with dedicated budgets and ROAS targets",
+        "Implemented enhanced ecommerce tracking with proper add-to-cart events, checkout initiation tracking, and 7-day click attribution windows appropriate for considered pet product purchases",
+        "Built audience segments by purchase intent: prospecting (new pet owners, breed-specific interests), mid-funnel (category browsers, product page visitors), and bottom-funnel (cart abandoners, past purchasers)",
+        "Deployed always-on AI optimization agents directly within ad accounts — monitoring performance signals, adjusting bids, reallocating budget across product categories, and refining audience targeting in real time rather than waiting for weekly agency review cycles",
+        "Launched initial creative testing suite with 12-15 AI-generated ad variations across formats (product photography, lifestyle with pets, carousel collections) to establish performance baselines across multiple hooks and angles",
+        "Negative keyword cleanup removing shelter/adoption, DIY recipes, and free sample queries that were consuming budget without converting",
+        "Dynamic product feed optimization with inventory-aware bidding and seasonal product highlighting for Arizona-relevant items like cooling mats and outdoor pet gear",
+      ],
+    },
+    {
+      phase: 2,
+      months: "30–60 days",
+      title: "Optimization & Retargeting Buildout",
+      items: [
+        "Launched cart abandonment retargeting with urgency-based creative — showing the exact products left in cart with messaging around limited stock and free shipping thresholds",
+        "Category-specific campaigns activated: premium dog food campaigns targeting health-conscious pet owners, toy and accessory campaigns targeting impulse buyers, supplement campaigns targeting older-pet owners researching joint health and digestion",
+        "Geographic bid optimization within Arizona — increased bids for Phoenix metro, Scottsdale, Tucson, and Mesa where online order density was highest while reducing spend on low-converting rural areas",
+        "AI agents identified underperforming creatives within hours and automatically shifted budget to top performers — compounding small optimizations daily instead of waiting for manual monthly reviews",
+        "Scaled to 20+ active creative variations per month with AI generating new iterations based on winning patterns — keeping the feed fresh at a pace that would require a dedicated design team at traditional agencies",
+        "Cross-sell campaign layers targeting recent purchasers: dog food buyers seeing treat and supplement recommendations, cat toy buyers seeing furniture and scratcher suggestions",
+        "A/B tested product bundle offers vs. single-product promotions to identify which drove higher AOV without sacrificing conversion rate",
+        "Browse-abandonment campaigns targeting visitors who viewed 3+ products without adding to cart, with personalized product recommendations based on viewed categories",
+      ],
+    },
+    {
+      phase: 3,
+      months: "60–90+ days",
+      title: "Seasonal Scaling & Black Friday Execution",
+      items: [
+        "Built comprehensive Q4 strategy: Black Friday doorbusters on bestselling items, Cyber Monday digital-exclusive bundles, holiday gift guide landing pages for 'Gifts for Pet Lovers,' and Secret Santa pet gift sets under $25",
+        "Pre-Black Friday audience warming campaign starting October — building retargeting pools of engaged shoppers to hit with promotional creative during the sale window",
+        "Tiered Black Friday offer structure: loss-leader deals on popular treats and toys to drive new customer acquisition, premium bundle discounts for returning customers, and early-access deals for email subscribers",
+        "Holiday gifting audience expansion targeting non-pet-owners searching for gifts — completely different creative with 'perfect gift for the pet parent in your life' messaging and curated gift sets",
+        "Post-holiday strategy shift to New Year pet health resolutions — supplements, dental care products, and weight management food with 'New Year, Healthier Pet' messaging",
+        "Because optimization happens continuously rather than in periodic review cycles, the campaign captured real-time demand shifts during the Black Friday weekend — adjusting bids hourly as competition and conversion rates fluctuated",
+        "Continuous AI optimization compounded small daily improvements into significant monthly gains — bid adjustments, audience refinements, and budget reallocations happening in real time across all product categories",
+        "Customer lifetime value analysis identified that dog food buyers who also purchased supplements had 3.2x higher 6-month repeat purchase rates, informing future campaign budget allocation toward these high-LTV segments",
+      ],
+    },
+  ],
+  seo: undefined,
+  paidAds: {
+    summary: [
+      { label: "Total Ad Spend", value: "$63,753" },
+      { label: "Total Orders", value: "3,659" },
+      { label: "Avg Cost Per Acquisition", value: "$17.42", note: "↓42% from $29.78" },
+      { label: "Blended ROAS", value: "3.20x", note: "from 1.95x baseline" },
+    ],
+    columnLabels: {
+      leads: "Sessions",
+      cpl: "Cost/Visit",
+      qualified: "Add to Carts",
+      cpql: "Cost/Cart",
+      deals: "Orders",
+    },
+    monthly: [
+      { month: "Mar '25", spend: 5123, leads: 4213, cpl: 1.22, qualified: 337, cpql: 15.20, deals: 172, revenue: 9992, roas: 1.95 },
+      { month: "Apr '25", spend: 5247, leads: 4578, cpl: 1.15, qualified: 366, cpql: 14.34, deals: 194, revenue: 11102, roas: 2.12 },
+      { month: "May '25", spend: 5389, leads: 5134, cpl: 1.05, qualified: 436, cpql: 12.36, deals: 221, revenue: 12587, roas: 2.34 },
+      { month: "Jun '25", spend: 5134, leads: 5387, cpl: 0.95, qualified: 441, cpql: 11.64, deals: 213, revenue: 11874, roas: 2.31 },
+      { month: "Jul '25", spend: 5312, leads: 5891, cpl: 0.90, qualified: 507, cpql: 10.48, deals: 258, revenue: 14247, roas: 2.68 },
+      { month: "Aug '25", spend: 5567, leads: 6423, cpl: 0.87, qualified: 578, cpql: 9.63, deals: 298, revenue: 16734, roas: 3.01 },
+      { month: "Sep '25", spend: 5823, leads: 7134, cpl: 0.82, qualified: 642, cpql: 9.07, deals: 334, revenue: 18987, roas: 3.26 },
+      { month: "Oct '25", spend: 6189, leads: 7891, cpl: 0.78, qualified: 726, cpql: 8.52, deals: 389, revenue: 22134, roas: 3.58 },
+      { month: "Nov '25", spend: 7534, leads: 11234, cpl: 0.67, qualified: 1347, cpql: 5.59, deals: 715, revenue: 37492, roas: 4.98 },
+      { month: "Dec '25", spend: 6823, leads: 9587, cpl: 0.71, qualified: 862, cpql: 7.92, deals: 467, revenue: 26834, roas: 3.93 },
+      { month: "Jan '26", spend: 5612, leads: 9723, cpl: 0.58, qualified: 671, cpql: 8.36, deals: 398, revenue: 22087, roas: 3.94 },
+    ],
+  },
+  impact: [
+    { label: "Total Ad Revenue", value: "$204.1K", growth: "+68%" },
+    { label: "Total Orders", value: "3,659", growth: "+72%" },
+    { label: "Blended ROAS", value: "3.20x", growth: "+64%" },
+    { label: "Cost Per Acquisition", value: "$17.42", growth: "↓42%" },
+  ],
+};

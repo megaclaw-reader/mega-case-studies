@@ -225,6 +225,7 @@ import { seniorCareCharlotte } from "./senior-care-charlotte";
 import { lifeInsuranceFloridaNew } from "./life-insurance-florida";
 import { hvacSanJose } from "./hvac-san-jose";
 import { ecommerceSportsStore } from "./ecommerce-sports-store";
+import { ecommercePet } from "./ecommerce-pet";
 
 export const caseStudies: Record<string, CaseStudyData> = {
   "alarm-surveillance-seo": alarmSurveillanceSeo,
@@ -452,6 +453,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "life-insurance-florida": lifeInsuranceFloridaNew,
   "hvac-san-jose": hvacSanJose,
   "ecommerce-sports-store": ecommerceSportsStore,
+  "ecommerce-pet": ecommercePet,
 };
 
 export type { CaseStudyData };
