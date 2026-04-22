@@ -173,8 +173,8 @@ export const exterminatorChicago: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue Generated (Paid)", value: "$157,280", growth: "From $0 tracked" },
-    { label: "Blended ROAS", value: "3.5x", growth: "Paid channels" },
+    { label: "Total Revenue Generated (Paid)", value: "$157.3K", growth: "From $0 tracked" },
+    { label: "Blended ROAS", value: "3.49x", growth: "Paid channels" },
     { label: "Average Job Value", value: "$1,573", growth: "Including recurring plan sign-ups" },
     { label: "Cost Per Qualified Lead (Paid)", value: "$126", growth: "↓40% from ~$210 baseline" },
   ],

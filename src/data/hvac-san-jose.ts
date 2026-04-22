@@ -108,9 +108,9 @@ export const hvacSanJose: CaseStudyData = {
   },
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$64.3K" },
+      { label: "Total Ad Spend", value: "$69.4K" },
       { label: "Qualified Leads", value: "732" },
-      { label: "Avg Cost Per Qualified Lead", value: "$88", note: "↓68% from $171" },
+      { label: "Avg Cost Per Qualified Lead", value: "$95", note: "↓45% from $171" },
       { label: "Closed Jobs", value: "235" },
     ],
     columnLabels: {
@@ -122,19 +122,19 @@ export const hvacSanJose: CaseStudyData = {
       costPerDeal: "Cost/Job",
     },
     monthly: [
-      { month: "Feb '25", spend: 4800, leads: 51, cpl: 94.12, qualified: 28, cpql: 171.43, deals: 8, revenue: 19200, roas: 4.0 },
-      { month: "Mar '25", spend: 4650, leads: 62, cpl: 75.0, qualified: 34, cpql: 136.76, deals: 11, revenue: 26400, roas: 5.68 },
+      { month: "Feb '25", spend: 5321, leads: 51, cpl: 104, qualified: 28, cpql: 190, deals: 8, revenue: 19200, roas: 3.61 },
+      { month: "Mar '25", spend: 5107, leads: 62, cpl: 82, qualified: 34, cpql: 150, deals: 11, revenue: 26400, roas: 5.17 },
       { month: "Apr '25", spend: 5200, leads: 74, cpl: 70.27, qualified: 42, cpql: 123.81, deals: 13, revenue: 31200, roas: 6.0 },
       { month: "May '25", spend: 5800, leads: 86, cpl: 67.44, qualified: 49, cpql: 118.37, deals: 16, revenue: 38400, roas: 6.62 },
       { month: "Jun '25", spend: 6100, leads: 97, cpl: 62.89, qualified: 56, cpql: 108.93, deals: 18, revenue: 43200, roas: 7.08 },
       { month: "Jul '25", spend: 5900, leads: 94, cpl: 62.77, qualified: 54, cpql: 109.26, deals: 17, revenue: 40800, roas: 6.92 },
       { month: "Aug '25", spend: 5400, leads: 98, cpl: 55.10, qualified: 56, cpql: 96.43, deals: 18, revenue: 38400, roas: 7.11 },
-      { month: "Sep '25", spend: 4900, leads: 103, cpl: 47.57, qualified: 59, cpql: 83.05, deals: 19, revenue: 38000, roas: 7.76 },
-      { month: "Oct '25", spend: 4600, leads: 109, cpl: 42.20, qualified: 62, cpql: 74.19, deals: 20, revenue: 36800, roas: 8.0 },
-      { month: "Nov '25", spend: 4200, leads: 117, cpl: 35.90, qualified: 67, cpql: 62.69, deals: 22, revenue: 33600, roas: 8.0 },
-      { month: "Dec '25", spend: 4100, leads: 123, cpl: 33.33, qualified: 70, cpql: 58.57, deals: 23, revenue: 32800, roas: 8.0 },
-      { month: "Jan '26", spend: 4300, leads: 132, cpl: 32.58, qualified: 75, cpql: 57.33, deals: 24, revenue: 34400, roas: 8.0 },
-      { month: "Feb '26", spend: 4350, leads: 141, cpl: 30.85, qualified: 80, cpql: 54.38, deals: 26, revenue: 34800, roas: 8.0 },
+      { month: "Sep '25", spend: 5097, leads: 103, cpl: 49, qualified: 59, cpql: 86, deals: 19, revenue: 38000, roas: 7.46 },
+      { month: "Oct '25", spend: 5144, leads: 109, cpl: 47, qualified: 62, cpql: 83, deals: 20, revenue: 36800, roas: 7.15 },
+      { month: "Nov '25", spend: 5073, leads: 117, cpl: 43, qualified: 67, cpql: 76, deals: 22, revenue: 33600, roas: 6.62 },
+      { month: "Dec '25", spend: 5082, leads: 123, cpl: 41, qualified: 70, cpql: 73, deals: 23, revenue: 32800, roas: 6.45 },
+      { month: "Jan '26", spend: 5097, leads: 132, cpl: 39, qualified: 75, cpql: 68, deals: 24, revenue: 34400, roas: 6.75 },
+      { month: "Feb '26", spend: 5035, leads: 141, cpl: 36, qualified: 80, cpql: 63, deals: 26, revenue: 34800, roas: 6.91 },
     ],
   },
   organicConversions: {
@@ -196,9 +196,9 @@ export const hvacSanJose: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$447.6K", growth: "+133%" },
+    { label: "Total Revenue", value: "$448K", growth: "+133%" },
     { label: "Total Qualified Leads", value: "732", growth: "+68% lower CPL" },
     { label: "Avg Revenue Per Job", value: "$1,904", growth: "" },
-    { label: "Blended ROAS", value: "6.96x", growth: "" },
+    { label: "Blended ROAS", value: "6.46x", growth: "" },
   ],
 };

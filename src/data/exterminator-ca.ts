@@ -177,8 +177,8 @@ export const exterminatorCa: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue Generated (Paid)", value: "$102,030", growth: "From $0 tracked" },
-    { label: "Blended ROAS", value: "2.1x", growth: "Paid channels" },
+    { label: "Total Revenue Generated (Paid)", value: "$102.0K", growth: "From $0 tracked" },
+    { label: "Blended ROAS", value: "2.06x", growth: "Paid channels" },
     { label: "Average Job Value", value: "$1,244", growth: "Including recurring plan sign-ups" },
     { label: "Cost Per Qualified Lead (Paid)", value: "$171", growth: "↓22% from ~$220 baseline" },
   ],

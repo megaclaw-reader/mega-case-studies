@@ -128,7 +128,7 @@ export const specialtyTaxConsulting: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$165.0K", growth: "+189%" },
+    { label: "Total Revenue", value: "$165K", growth: "+189%" },
     { label: "Qualified Leads Generated", value: "113", growth: "9 → 32/mo" },
     { label: "Avg Engagement Value", value: "$8.3K", growth: "" },
     { label: "Blended ROAS", value: "3.85x", growth: "" },

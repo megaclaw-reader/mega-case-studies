@@ -228,6 +228,7 @@ import { lifeInsuranceFloridaNew } from "./life-insurance-florida";
 import { hvacSanJose } from "./hvac-san-jose";
 import { ecommerceSportsStore } from "./ecommerce-sports-store";
 import { ecommercePet } from "./ecommerce-pet";
+import { homeDamageRestorationFlorida } from "./home-damage-restoration-florida";
 
 export const caseStudies: Record<string, CaseStudyData> = {
   "alarm-surveillance-seo": alarmSurveillanceSeo,
@@ -458,6 +459,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "ecommerce-pet": ecommercePet,
   "nail-salon": nailSalon,
   "tequila-brand-dtc": tequilaBrandDtc,
+  "home-damage-restoration-florida": homeDamageRestorationFlorida,
 };
 
 export type { CaseStudyData };

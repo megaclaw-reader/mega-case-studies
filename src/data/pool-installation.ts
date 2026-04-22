@@ -108,7 +108,7 @@ export const poolInstallation: CaseStudyData = {
   },
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$36.5K" },
+      { label: "Total Ad Spend", value: "$41.3K" },
       { label: "Qualified Leads", value: "187" },
       { label: "Total Revenue", value: "$5.52M" },
     ],
@@ -122,19 +122,19 @@ export const poolInstallation: CaseStudyData = {
     hiddenColumns: ["costPerDeal", "roas", "cpql"],
     monthly: [
       // Month 1 (Jul '25): Peak summer, launch month. Focused budget.
-      { month: "Jul '25", spend: 4800, leads: 28, cpl: 171.43, qualified: 12, cpql: 400.00, deals: 3, revenue: 360000, roas: 75.00 },
+      { month: "Jul '25", spend: 5056, leads: 28, cpl: 181, qualified: 12, cpql: 421, deals: 3, revenue: 360000, roas: 71.2 },
       // Month 2 (Aug '25): Still peak season, early optimization kicking in.
-      { month: "Aug '25", spend: 4900, leads: 32, cpl: 153.13, qualified: 15, cpql: 326.67, deals: 4, revenue: 480000, roas: 97.96 },
+      { month: "Aug '25", spend: 5249, leads: 32, cpl: 164, qualified: 15, cpql: 350, deals: 4, revenue: 480000, roas: 91.45 },
       // Month 3 (Sep '25): Shoulder season, ICP feedback loop active.
-      { month: "Sep '25", spend: 4400, leads: 38, cpl: 115.79, qualified: 18, cpql: 244.44, deals: 4, revenue: 480000, roas: 109.09 },
+      { month: "Sep '25", spend: 5014, leads: 38, cpl: 132, qualified: 18, cpql: 279, deals: 4, revenue: 480000, roas: 95.73 },
       // Month 4 (Oct '25): Fall slowdown but targeting precision improving.
-      { month: "Oct '25", spend: 4200, leads: 43, cpl: 97.67, qualified: 21, cpql: 200.00, deals: 5, revenue: 600000, roas: 142.86 },
+      { month: "Oct '25", spend: 5012, leads: 43, cpl: 117, qualified: 21, cpql: 239, deals: 5, revenue: 600000, roas: 119.71 },
       // Month 5 (Nov '25): Off-season begins. Lower spend, maintained quality.
-      { month: "Nov '25", spend: 3900, leads: 48, cpl: 81.25, qualified: 25, cpql: 156.00, deals: 6, revenue: 720000, roas: 184.62 },
+      { month: "Nov '25", spend: 5050, leads: 48, cpl: 105, qualified: 25, cpql: 202, deals: 6, revenue: 720000, roas: 142.57 },
       // Month 6 (Dec '25): Winter — spring planners starting to search.
-      { month: "Dec '25", spend: 4100, leads: 52, cpl: 78.85, qualified: 28, cpql: 146.43, deals: 7, revenue: 840000, roas: 204.88 },
+      { month: "Dec '25", spend: 5339, leads: 52, cpl: 103, qualified: 28, cpql: 191, deals: 7, revenue: 840000, roas: 157.33 },
       // Month 7 (Jan '26): Spring planning picks up.
-      { month: "Jan '26", spend: 4700, leads: 58, cpl: 81.03, qualified: 32, cpql: 146.88, deals: 8, revenue: 960000, roas: 204.26 },
+      { month: "Jan '26", spend: 5028, leads: 58, cpl: 87, qualified: 32, cpql: 157, deals: 8, revenue: 960000, roas: 190.93 },
       // Month 8 (Feb '26): Pre-season surge. Highest spend.
       { month: "Feb '26", spend: 5536, leads: 65, cpl: 85.17, qualified: 36, cpql: 153.78, deals: 9, revenue: 1080000, roas: 195.10 },
     ],

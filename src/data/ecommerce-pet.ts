@@ -82,7 +82,7 @@ export const ecommercePet: CaseStudyData = {
   seo: undefined,
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$63,753" },
+      { label: "Total Ad Spend", value: "$63.8K" },
       { label: "Total Orders", value: "3,659" },
       { label: "Avg Cost Per Acquisition", value: "$17.42", note: "↓42% from $29.78" },
       { label: "Blended ROAS", value: "3.20x", note: "from 1.95x baseline" },

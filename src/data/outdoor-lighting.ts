@@ -146,7 +146,7 @@ export const outdoorLightingData: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue Generated", value: "$388K", growth: "From 77 lighting projects" },
+    { label: "Total Revenue Generated", value: "$388.4K", growth: "From 77 lighting projects" },
     { label: "Average Project Value", value: "$5,039", growth: "Mix of landscape and holiday installations" },
     { label: "Blended ROAS", value: "3.83x", growth: "Up from 2.4x in month 1" },
     { label: "Peak Monthly ROAS", value: "4.6x", growth: "Up from 2.4x in month 1" },

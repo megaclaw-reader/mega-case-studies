@@ -140,7 +140,7 @@ export const plasticSurgery: CaseStudyData = {
     summary: [
       { label: "Total Ad Spend", value: "$224.3K" },
       { label: "Qualified Consultations", value: "627" },
-      { label: "Avg Cost Per Qualified Lead", value: "$357.75", note: "↓25% from initial $428" },
+      { label: "Avg Cost Per Qualified Lead", value: "$358", note: "↓25% from initial $428" },
       { label: "Surgical Procedures Booked", value: "109" },
     ],
     columnLabels: {
