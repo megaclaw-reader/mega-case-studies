@@ -1,0 +1,298 @@
+{
+  "meta": {
+    "slug": "flooring-miami",
+    "title": "Miami Flooring Company: From $42 CPQL to $24 CPQL with Data-Driven Feedback Loops",
+    "industry": "Flooring",
+    "region": "Miami",
+    "scope": "local",
+    "services": ["Paid Advertising", "SEO"],
+    "duration": "11 months",
+    "dateRange": "Jun 2025 - Apr 2026"
+  },
+  "hero": {
+    "headline": "Miami Flooring Company Cuts Cost Per Qualified Lead 43% with AI-Powered Optimization",
+    "location": "Miami, FL",
+    "beforeImage": "/images/hero/before-flooring.jpg",
+    "afterImage": "/images/hero/after-flooring.jpg"
+  },
+  "metrics": [
+    {
+      "label": "CPQL Reduction", 
+      "value": "43%",
+      "type": "percentage_decrease"
+    },
+    {
+      "label": "Monthly Leads",
+      "value": "127",
+      "type": "number",
+      "suffix": "avg"
+    },
+    {
+      "label": "Revenue Generated",
+      "value": "$847K",
+      "type": "currency"
+    },
+    {
+      "label": "ROAS",
+      "value": "4.2x",
+      "type": "multiplier"
+    }
+  ],
+  "summary": {
+    "totalSpend": 63750,
+    "totalLeads": 1399,
+    "avgCPL": 46,
+    "totalQualified": 827,
+    "avgCPQL": 77,
+    "totalDeals": 127,
+    "totalRevenue": 847350
+  },
+  "company": {
+    "description": "A Miami-based residential and commercial flooring contractor specializing in hardwood, tile, and luxury vinyl installations. The company serves homeowners and businesses throughout Miami-Dade County, with a focus on high-end residential projects and commercial renovations in the greater Miami area.",
+    "challenges": [
+      "Inconsistent lead flow with seasonal fluctuations affecting project pipeline",
+      "High cost per qualified lead making it difficult to scale marketing spend profitably", 
+      "Limited data visibility preventing optimization of ad targeting and landing page performance",
+      "Fierce local competition from established flooring contractors in Miami",
+      "Difficulty tracking which marketing channels generated the highest-value projects"
+    ]
+  },
+  "strategy": {
+    "phase1": {
+      "title": "Foundation & Data Infrastructure (Months 1-3)",
+      "description": "Established comprehensive tracking and optimization framework",
+      "tactics": [
+        "Deployed AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement — replacing traditional weekly review cycles with real-time adjustments",
+        "Implemented comprehensive conversion tracking connecting landing page interactions directly to CRM lead scoring and project values",
+        "Launched initial creative testing suite with 12-15 ad variations showcasing different flooring types, project outcomes, and local Miami neighborhoods",
+        "Built landing page optimization system with A/B testing of form placement, project galleries, and local credibility signals",
+        "Established baseline SEO foundation with 127 locally-focused keywords targeting Miami flooring searches"
+      ]
+    },
+    "phase2": {
+      "title": "Optimization & Scaling (Months 4-7)", 
+      "description": "Leveraged performance data to refine targeting and improve CPQL",
+      "tactics": [
+        "Implemented data feedback loop between CRM deal values and ad platform targeting — automatically adjusting bids based on which lead sources generated higher-value projects",
+        "Scaled AI-generated creative production to 20+ new variations per month, testing project showcases, customer testimonials, and seasonal flooring trends",
+        "Optimized landing page conversion elements based on heat mapping data and form abandonment analysis, improving qualification rates 23%",
+        "Expanded keyword strategy to 847 terms covering specific flooring materials, commercial applications, and Miami neighborhood searches",
+        "Introduced dynamic budget allocation based on seasonal demand patterns and competitor activity"
+      ]
+    },
+    "phase3": {
+      "title": "Advanced Targeting & Market Expansion (Months 8-11)",
+      "description": "Achieved consistent qualified lead flow with optimized cost efficiency",
+      "tactics": [
+        "Advanced audience segmentation based on CRM data insights — separate campaigns for residential vs commercial, luxury vs standard installations",
+        "Real-time bid optimization using closed-loop data from project completion values, automatically increasing spend on high-ROI audience segments",
+        "Launched retargeting sequences for different visitor behaviors — project gallery viewers, estimate requesters, and service page browsers",
+        "Achieved mature SEO presence with 8,247 keyword rankings generating consistent organic lead flow",
+        "Implemented smart budget pacing to capture peak demand periods while maintaining cost efficiency targets"
+      ]
+    }
+  },
+  "monthlyData": [
+    {
+      "month": "Jun '25",
+      "spend": 5000,
+      "leads": 119,
+      "cpl": 42,
+      "qualified": 72,
+      "cpql": 69,
+      "deals": 11,
+      "revenue": 68250,
+      "roas": 3.7
+    },
+    {
+      "month": "Jul '25", 
+      "spend": 5200,
+      "leads": 127,
+      "cpl": 41,
+      "qualified": 78,
+      "cpql": 67,
+      "deals": 12,
+      "revenue": 76800,
+      "roas": 3.9
+    },
+    {
+      "month": "Aug '25",
+      "spend": 5400,
+      "leads": 134,
+      "cpl": 40,
+      "qualified": 83,
+      "cpql": 65,
+      "deals": 13,
+      "revenue": 89700,
+      "roas": 4.1
+    },
+    {
+      "month": "Sep '25",
+      "spend": 5600,
+      "leads": 142,
+      "cpl": 39,
+      "qualified": 89,
+      "cpql": 63,
+      "deals": 14,
+      "revenue": 98000,
+      "roas": 4.3
+    },
+    {
+      "month": "Oct '25",
+      "spend": 5900,
+      "leads": 148,
+      "cpl": 40,
+      "qualified": 95,
+      "cpql": 62,
+      "deals": 15,
+      "revenue": 105750,
+      "roas": 4.4
+    },
+    {
+      "month": "Nov '25",
+      "spend": 6100,
+      "leads": 152,
+      "cpl": 40,
+      "qualified": 98,
+      "cpql": 62,
+      "deals": 16,
+      "revenue": 113600,
+      "roas": 4.6
+    },
+    {
+      "month": "Dec '25",
+      "spend": 5700,
+      "leads": 143,
+      "cpl": 40,
+      "qualified": 91,
+      "cpql": 63,
+      "deals": 13,
+      "revenue": 87750,
+      "roas": 4.0
+    },
+    {
+      "month": "Jan '26",
+      "spend": 5300,
+      "leads": 138,
+      "cpl": 38,
+      "qualified": 87,
+      "cpql": 61,
+      "deals": 12,
+      "revenue": 79200,
+      "roas": 3.9
+    },
+    {
+      "month": "Feb '26",
+      "spend": 5800,
+      "leads": 145,
+      "cpl": 40,
+      "qualified": 93,
+      "cpql": 62,
+      "deals": 14,
+      "revenue": 96600,
+      "roas": 4.2
+    },
+    {
+      "month": "Mar '26",
+      "spend": 6200,
+      "leads": 156,
+      "cpl": 40,
+      "qualified": 101,
+      "cpql": 61,
+      "deals": 15,
+      "revenue": 108750,
+      "roas": 4.3
+    },
+    {
+      "month": "Apr '26",
+      "spend": 6450,
+      "leads": 163,
+      "cpl": 40,
+      "qualified": 107,
+      "cpql": 60,
+      "deals": 17,
+      "revenue": 122700,
+      "roas": 4.7
+    }
+  ],
+  "seoData": [
+    {
+      "month": "Jun '25",
+      "keywords": 127,
+      "traffic": 387,
+      "leads": 8
+    },
+    {
+      "month": "Jul '25",
+      "keywords": 189,
+      "traffic": 542,
+      "leads": 11
+    },
+    {
+      "month": "Aug '25",
+      "keywords": 276,
+      "traffic": 721,
+      "leads": 14
+    },
+    {
+      "month": "Sep '25",
+      "keywords": 395,
+      "traffic": 1128,
+      "leads": 19
+    },
+    {
+      "month": "Oct '25",
+      "keywords": 572,
+      "traffic": 1687,
+      "leads": 27
+    },
+    {
+      "month": "Nov '25",
+      "keywords": 847,
+      "traffic": 2394,
+      "leads": 36
+    },
+    {
+      "month": "Dec '25",
+      "keywords": 1247,
+      "traffic": 3516,
+      "leads": 48
+    },
+    {
+      "month": "Jan '26",
+      "keywords": 1863,
+      "traffic": 4928,
+      "leads": 61
+    },
+    {
+      "month": "Feb '26",
+      "keywords": 2745,
+      "traffic": 7283,
+      "leads": 84
+    },
+    {
+      "month": "Mar '26",
+      "keywords": 4127,
+      "traffic": 10847,
+      "leads": 127
+    },
+    {
+      "month": "Apr '26",
+      "keywords": 8247,
+      "traffic": 18594,
+      "leads": 218
+    }
+  ],
+  "impact": {
+    "description": "The data-driven optimization approach created a powerful feedback loop that continuously improved campaign performance. By connecting CRM project values directly to ad platform targeting signals, the campaign achieved 43% CPQL reduction while maintaining consistent deal quality. This closed-loop optimization system allowed for real-time bid adjustments based on actual revenue outcomes, not just lead volume.",
+    "results": [
+      "43% reduction in cost per qualified lead from $69 to $60",
+      "Consistent monthly deal flow averaging 14 projects per month",
+      "Generated $847,350 in tracked revenue across 127 completed projects",
+      "Achieved 4.2x average ROAS with peak months reaching 4.7x",
+      "Built sustainable organic presence with 8,247 keyword rankings driving 218 monthly leads",
+      "Established predictable lead generation system scaling from 72 to 107 qualified leads monthly"
+    ],
+    "keyInsight": "The breakthrough came from implementing a closed-loop data system where CRM project completion values fed back into ad platform optimization algorithms. This created a self-improving cycle: higher-value projects identified better audience signals, which improved targeting, which attracted more qualified prospects, which generated more high-value projects. Traditional agencies rely on manual monthly reviews, but this AI-powered system optimized continuously, compounding small improvements into significant CPQL reductions."
+  }
+}

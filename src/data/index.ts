@@ -1,4 +1,5 @@
 import { CaseStudyData } from "./types";
+import { flooringMiami } from "./flooring-miami";
 import { nailSalon } from "./nail-salon";
 import { tequilaBrandDtc } from "./tequila-brand-dtc";
 import { cbdThcSeo } from "./cbd-thc-seo";
@@ -458,6 +459,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "hvac-san-jose": hvacSanJose,
   "ecommerce-sports-store": ecommerceSportsStore,
   "ecommerce-pet": ecommercePet,
+  "flooring-miami": flooringMiami,
   "nail-salon": nailSalon,
   "tequila-brand-dtc": tequilaBrandDtc,
   "home-damage-restoration-florida": homeDamageRestorationFlorida,
