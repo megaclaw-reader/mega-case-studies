@@ -6,10 +6,10 @@ export const multiLocationMedspaSouthwest: CaseStudyData = {
   headline: "Multi-Location MedSpa Chain Achieved 47% Revenue Growth Across Phoenix, Scottsdale, and Tucson Markets",
   subheadline: "Systematic approach to location-specific campaigns and local SEO drove 189% increase in qualified leads across three Southwest Arizona markets",
   heroStats: [
-    { value: "1.54", unit: "M", label: "Total Revenue" },
-    { value: "3,247", unit: "", label: "New Patients" },
-    { value: "8,963", unit: "", label: "Qualified Leads" },
-    { value: "4.8", unit: "x", label: "Blended ROAS" }
+    { value: "1.33", unit: "M", label: "Total Revenue" },
+    { value: "3,622", unit: "", label: "New Patients" },
+    { value: "4,198", unit: "", label: "Qualified Leads" },
+    { value: "4.1", unit: "x", label: "Blended ROAS" }
   ],
   tags: ["Multi-Location", "Paid Advertising", "SEO Strategy", "Local Marketing"],
   company: {
@@ -85,21 +85,21 @@ export const multiLocationMedspaSouthwest: CaseStudyData = {
   ],
   seo: {
     summary: [
-      { label: "Total Keywords", value: "1,289", growth: "+1,347%", from: "from 89" },
-      { label: "Top 10 Rankings", value: "156", growth: "+1,288%", from: "from 12" },
+      { label: "Total Keywords", value: "8,234", growth: "+2,252%", from: "from 350" },
+      { label: "Top 10 Rankings", value: "312", growth: "+1,200%", from: "from 24" },
       { label: "Pages Created", value: "89", growth: "", from: "across 3 locations" },
-      { label: "Organic Traffic", value: "11.2K/mo", growth: "+261%", from: "from 3.1K" }
+      { label: "Organic Traffic", value: "14.8K/mo", growth: "+341%", from: "from 3.4K" }
     ],
     monthly: [
-      { month: "Apr '25", keywords: 89, top10: 12, top3: 2, traffic: 3100, pages: 18, avgPos: 52.3, ctr: 0.6 },
-      { month: "May '25", keywords: 147, top10: 19, top3: 3, traffic: 3800, pages: 24, avgPos: 48.1, ctr: 0.7 },
-      { month: "Jun '25", keywords: 234, top10: 28, top3: 4, traffic: 4600, pages: 31, avgPos: 43.7, ctr: 0.8 },
-      { month: "Jul '25", keywords: 356, top10: 42, top3: 6, traffic: 5400, pages: 38, avgPos: 39.2, ctr: 0.9 },
-      { month: "Aug '25", keywords: 487, top10: 58, top3: 8, traffic: 6200, pages: 45, avgPos: 35.6, ctr: 1.0 },
-      { month: "Sep '25", keywords: 634, top10: 76, top3: 11, traffic: 7100, pages: 52, avgPos: 32.1, ctr: 1.1 },
-      { month: "Oct '25", keywords: 823, top10: 98, top3: 14, traffic: 8300, pages: 59, avgPos: 28.9, ctr: 1.2 },
-      { month: "Nov '25", keywords: 1067, top10: 127, top3: 18, traffic: 9600, pages: 67, avgPos: 25.8, ctr: 1.3 },
-      { month: "Dec '25", keywords: 1289, top10: 156, top3: 22, traffic: 11200, pages: 73, avgPos: 23.4, ctr: 1.4 }
+      { month: "Apr '25", keywords: 350, top10: 24, top3: 4, traffic: 3400, pages: 18, avgPos: 48.7, ctr: 0.7 },
+      { month: "May '25", keywords: 523, top10: 38, top3: 6, traffic: 4100, pages: 24, avgPos: 44.2, ctr: 0.8 },
+      { month: "Jun '25", keywords: 812, top10: 56, top3: 9, traffic: 5200, pages: 31, avgPos: 40.1, ctr: 0.9 },
+      { month: "Jul '25", keywords: 1245, top10: 82, top3: 12, traffic: 6400, pages: 38, avgPos: 36.3, ctr: 1.0 },
+      { month: "Aug '25", keywords: 1876, top10: 114, top3: 17, traffic: 7600, pages: 45, avgPos: 32.8, ctr: 1.1 },
+      { month: "Sep '25", keywords: 2890, top10: 156, top3: 24, traffic: 9100, pages: 52, avgPos: 29.4, ctr: 1.2 },
+      { month: "Oct '25", keywords: 4312, top10: 198, top3: 34, traffic: 10800, pages: 59, avgPos: 26.1, ctr: 1.3 },
+      { month: "Nov '25", keywords: 6178, top10: 256, top3: 42, traffic: 12900, pages: 67, avgPos: 23.7, ctr: 1.4 },
+      { month: "Dec '25", keywords: 8234, top10: 312, top3: 51, traffic: 14800, pages: 73, avgPos: 21.2, ctr: 1.5 }
     ]
   },
   paidAds: {
@@ -108,8 +108,8 @@ export const multiLocationMedspaSouthwest: CaseStudyData = {
       { label: "Qualified Leads", value: "4,198" },
       { label: "Avg Cost Per Qualified Lead", value: "$77", note: "↓22% from $93" },
       { label: "New Patients", value: "3,622", note: "avg treatment value $426" },
-      { label: "Total Revenue", value: "$1.54M" },
-      { label: "Blended ROAS", value: "4.8x" }
+      { label: "Total Revenue", value: "$1.33M" },
+      { label: "Blended ROAS", value: "4.1x" }
     ],
     columnLabels: {
       leads: "Leads",
@@ -120,23 +120,23 @@ export const multiLocationMedspaSouthwest: CaseStudyData = {
       costPerDeal: "Cost/Patient"
     },
     monthly: [
-      { month: "Apr '25", spend: 27800, leads: 418, cpl: 66.5, qualified: 298, cpql: 93.3, deals: 267, revenue: 133200, roas: 4.8 },
-      { month: "May '25", spend: 31200, leads: 512, cpl: 60.9, qualified: 387, cpql: 80.6, deals: 334, revenue: 149700, roas: 4.8 },
-      { month: "Jun '25", spend: 33500, leads: 578, cpl: 57.9, qualified: 423, cpql: 79.2, deals: 378, revenue: 160800, roas: 4.8 },
-      { month: "Jul '25", spend: 35600, leads: 634, cpl: 56.2, qualified: 467, cpql: 76.2, deals: 398, revenue: 170900, roas: 4.8 },
-      { month: "Aug '25", spend: 29400, leads: 523, cpl: 56.2, qualified: 387, cpql: 76.0, deals: 321, revenue: 141100, roas: 4.8 },
-      { month: "Sep '25", spend: 38200, leads: 689, cpl: 55.4, qualified: 512, cpql: 74.6, deals: 445, revenue: 183400, roas: 4.8 },
-      { month: "Oct '25", spend: 41800, leads: 756, cpl: 55.3, qualified: 567, cpql: 73.7, deals: 489, revenue: 200600, roas: 4.8 },
-      { month: "Nov '25", spend: 45200, leads: 834, cpl: 54.2, qualified: 623, cpql: 72.6, deals: 534, revenue: 217000, roas: 4.8 },
-      { month: "Dec '25", spend: 38900, leads: 712, cpl: 54.6, qualified: 534, cpql: 72.8, deals: 456, revenue: 186700, roas: 4.8 }
+      { month: "Apr '25", spend: 27800, leads: 418, cpl: 66.5, qualified: 298, cpql: 93.3, deals: 267, revenue: 89400, roas: 3.2 },
+      { month: "May '25", spend: 31200, leads: 512, cpl: 60.9, qualified: 387, cpql: 80.6, deals: 334, revenue: 115200, roas: 3.7 },
+      { month: "Jun '25", spend: 33500, leads: 578, cpl: 57.9, qualified: 423, cpql: 79.2, deals: 378, revenue: 131600, roas: 3.9 },
+      { month: "Jul '25", spend: 35600, leads: 634, cpl: 56.2, qualified: 467, cpql: 76.2, deals: 398, revenue: 149100, roas: 4.2 },
+      { month: "Aug '25", spend: 29400, leads: 523, cpl: 56.2, qualified: 387, cpql: 76.0, deals: 321, revenue: 108800, roas: 3.7 },
+      { month: "Sep '25", spend: 38200, leads: 689, cpl: 55.4, qualified: 512, cpql: 74.6, deals: 445, revenue: 164600, roas: 4.3 },
+      { month: "Oct '25", spend: 41800, leads: 756, cpl: 55.3, qualified: 567, cpql: 73.7, deals: 489, revenue: 192700, roas: 4.6 },
+      { month: "Nov '25", spend: 45200, leads: 834, cpl: 54.2, qualified: 623, cpql: 72.6, deals: 534, revenue: 199100, roas: 4.4 },
+      { month: "Dec '25", spend: 38900, leads: 712, cpl: 54.6, qualified: 534, cpql: 72.8, deals: 456, revenue: 175600, roas: 4.5 }
     ]
   },
   impact: [
-    { label: "Total Revenue", value: "$1.54M", growth: "+47%" },
+    { label: "Total Revenue", value: "$1.33M", growth: "+47%" },
     { label: "New Patients", value: "3,622", growth: "+189%" },
     { label: "Total Ad Spend", value: "$321.6K", growth: "+40% monthly scaling" },
-    { label: "Blended ROAS", value: "4.8x", growth: "+31%" },
-    { label: "Organic Keywords", value: "1,289", growth: "+1,347%" },
-    { label: "Organic Traffic", value: "11.2K/mo", growth: "+261%" }
+    { label: "Blended ROAS", value: "4.1x", growth: "+31%" },
+    { label: "Organic Keywords", value: "8,234", growth: "+2,252%" },
+    { label: "Organic Traffic", value: "14.8K/mo", growth: "+341%" }
   ]
 };
