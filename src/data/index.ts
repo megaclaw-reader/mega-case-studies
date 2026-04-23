@@ -96,6 +96,7 @@ import { multiLocationConsumerBrand } from "./multi-location-consumer-brand";
 import { healthySnackBrand } from "./healthy-snack-brand";
 import { drywallRepair } from "./drywall-repair";
 import { personalInjuryLawyer } from "./personal-injury-lawyer";
+import { personalInjuryCharlotte } from "./personal-injury-charlotte";
 import { onlineTelemedicine } from "./online-telemedicine";
 import { dewateringWaterManagement } from "./dewatering-water-management";
 import { residentialCommercialFlooring } from "./residential-commercial-flooring";
@@ -273,6 +274,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "healthy-snack-brand": healthySnackBrand,
   "drywall-repair": drywallRepair,
   "personal-injury-lawyer": personalInjuryLawyer,
+  "personal-injury-charlotte": personalInjuryCharlotte,
   "online-telemedicine": onlineTelemedicine,
   "dewatering-water-management": dewateringWaterManagement,
   "residential-commercial-flooring": residentialCommercialFlooring,
