@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const hairProductsEcommerce: CaseStudyData = {
   slug: "hair-products-ecommerce",
   industry: "Hair Products",
-  headline: "How a DTC Hair Care Brand Achieved a 3.22x Blended ROAS While Building an Organic Traffic Engine — Generating $87.8K in Revenue in 7 Months",
-  subheadline: "MEGA deployed always-on AI optimization and creative testing to help a small but ambitious national DTC hair care brand scale from a 1.80x starting ROAS to a 4.25x Black Friday peak — generating over $87K in ecommerce revenue across 7 months while simultaneously growing organic traffic from 372 to 5,247 monthly visitors through strategic SEO content.",
+  headline: "How a DTC Hair Care Brand Achieved a 3.22x Blended ROAS While Building an Organic Traffic Engine — Generating $88.7K in Revenue in 7 Months",
+  subheadline: "MEGA deployed always-on AI optimization and creative testing to help a small but ambitious national DTC hair care brand scale from a 1.80x starting ROAS to a 4.25x Black Friday peak — generating over $88K in ecommerce revenue across 7 months while simultaneously growing organic traffic from 372 to 5,247 monthly visitors through strategic SEO content.",
   heroStats: [
     { value: "4.25", unit: "x", label: "Peak ROAS Achieved" },
-    { value: "87.8", unit: "K", label: "Revenue Generated" },
-    { value: "1,817", unit: "", label: "Total Orders" },
+    { value: "88.7", unit: "K", label: "Revenue Generated" },
+    { value: "1,836", unit: "", label: "Total Orders" },
   ],
   tags: ["Ecommerce", "SEO", "Paid Advertising", "DTC", "Hair Care"],
   company: {
@@ -96,10 +96,10 @@ export const hairProductsEcommerce: CaseStudyData = {
   },
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$27.3K" },
-      { label: "Add to Carts", value: "3,213" },
-      { label: "Avg Cost Per Cart", value: "$8.49", note: "↓42% reduction" },
-      { label: "Orders", value: "1,817" },
+      { label: "Total Ad Spend", value: "$27.6K" },
+      { label: "Add to Carts", value: "3,248" },
+      { label: "Avg Cost Per Cart", value: "$8.50", note: "↓41% reduction" },
+      { label: "Orders", value: "1,836" },
     ],
     columnLabels: {
       leads: "Sessions",
@@ -126,8 +126,8 @@ export const hairProductsEcommerce: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$87.8K", growth: "+79% ROAS improvement" },
-    { label: "Total Orders", value: "1,817", growth: "across 7 months" },
+    { label: "Total Revenue", value: "$88.7K", growth: "+79% ROAS improvement" },
+    { label: "Total Orders", value: "1,836", growth: "across 7 months" },
     { label: "Average Order Value", value: "$48.33", growth: "hair care category" },
     { label: "Blended ROAS", value: "3.22x", growth: "from 1.80x starting" },
   ],
