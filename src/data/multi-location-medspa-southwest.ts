@@ -135,7 +135,7 @@ export const multiLocationMedspaSouthwest: CaseStudyData = {
     { label: "Total Revenue", value: "$1.33M", growth: "+47%" },
     { label: "New Patients", value: "3,622", growth: "+189%" },
     { label: "Total Ad Spend", value: "$321.6K", growth: "+40% monthly scaling" },
-    { label: "Blended ROAS", value: "4.1x", growth: "+31%" },
+    { label: "Blended ROAS", value: "4.12x", growth: "+31%" },
     { label: "Organic Keywords", value: "8,234", growth: "+2,252%" },
     { label: "Organic Traffic", value: "14.8K/mo", growth: "+341%" }
   ]

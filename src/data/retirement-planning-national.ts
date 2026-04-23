@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const retirementPlanningNational: CaseStudyData = {
   slug: "retirement-planning-national",
   industry: "Financial Services",
-  headline: "How a National Retirement Planning Firm Acquired 37 New Clients and $410K in Recurring Revenue in 12 Months",
-  subheadline: "MEGA helped a fee-only retirement planning advisory build a compliant digital acquisition engine — reducing cost per qualified lead by 66%, growing organic visibility 4,280%, and generating $410K in new recurring annual revenue.",
+  headline: "How a National Retirement Planning Firm Generated 212 Qualified Leads and $392K in Recurring Revenue in 12 Months",
+  subheadline: "MEGA helped a fee-only retirement planning advisory build a compliant digital acquisition engine — reducing cost per qualified lead by 71%, improving qualification rates from 11% to 36%, and growing organic visibility 4,280%.",
   heroStats: [
-    { value: "$41", unit: "M", label: "New AUM Acquired" },
-    { value: "66", unit: "%", label: "CPQL Reduction" },
-    { value: "37", unit: "", label: "New Clients Acquired" },
+    { value: "212", unit: "", label: "Qualified Leads Generated" },
+    { value: "71", unit: "%", label: "CPQL Reduction" },
+    { value: "$392", unit: "K", label: "New Recurring Revenue" },
   ],
   tags: ["SEO Strategy", "Paid Advertising", "Lead Generation"],
   company: {
@@ -123,44 +123,43 @@ export const retirementPlanningNational: CaseStudyData = {
   },
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$97.7K" },
-      { label: "Qualified Leads", value: "111" },
-      { label: "Avg Cost/Qualified Lead", value: "$880", note: "↓66% from $2,591" },
-      { label: "New Clients Acquired", value: "28" },
+      { label: "Total Ad Spend", value: "$93.4K" },
+      { label: "Total Leads", value: "487" },
+      { label: "Qualified Leads", value: "139" },
+      { label: "Avg Cost/Qualified Lead", value: "$672", note: "↓71% from $2,564" },
     ],
     columnLabels: {
       leads: "Total Leads",
       cpl: "Cost/Lead",
       qualified: "Qualified Leads",
       cpql: "Cost/Qualified Lead",
-      deals: "New Clients",
-      costPerDeal: "Cost/Client",
     },
+    hiddenColumns: ["deals", "costPerDeal"],
     monthly: [
-      // Jan '25 — Month 1: Launch, conservative, learning phase
-      { month: "Jan '25", spend: 5182, leads: 7, cpl: 740, qualified: 2, cpql: 2591, deals: 0, revenue: 0, roas: 0 },
-      // Feb '25 — Month 2: Early optimization, first client close
-      { month: "Feb '25", spend: 5347, leads: 9, cpl: 594, qualified: 4, cpql: 1337, deals: 1, revenue: 14500, roas: 2.71 },
-      // Mar '25 — Month 3: Campaigns maturing, spring interest
-      { month: "Mar '25", spend: 5891, leads: 11, cpl: 536, qualified: 5, cpql: 1178, deals: 1, revenue: 16100, roas: 2.73 },
-      // Apr '25 — Month 4: Scaling, retargeting kicking in
-      { month: "Apr '25", spend: 6423, leads: 14, cpl: 459, qualified: 7, cpql: 918, deals: 2, revenue: 28300, roas: 4.41 },
-      // May '25 — Month 5: Pre-summer, strong lead quality
-      { month: "May '25", spend: 6817, leads: 16, cpl: 426, qualified: 8, cpql: 852, deals: 2, revenue: 31900, roas: 4.68 },
-      // Jun '25 — Month 6: Mid-year reviews driving demand
-      { month: "Jun '25", spend: 8653, leads: 21, cpl: 412, qualified: 10, cpql: 865, deals: 3, revenue: 41100, roas: 4.75 },
-      // Jul '25 — Month 7: Summer slight dip, still building
-      { month: "Jul '25", spend: 7093, leads: 19, cpl: 373, qualified: 9, cpql: 788, deals: 2, revenue: 30000, roas: 4.23 },
-      // Aug '25 — Month 8: Back to school = back to planning
-      { month: "Aug '25", spend: 9516, leads: 23, cpl: 414, qualified: 12, cpql: 793, deals: 3, revenue: 45200, roas: 4.75 },
-      // Sep '25 — Month 9: Q4 ramp, year-end planning starts
-      { month: "Sep '25", spend: 9074, leads: 22, cpl: 413, qualified: 11, cpql: 825, deals: 3, revenue: 43100, roas: 4.75 },
-      // Oct '25 — Month 10: Tax-loss harvesting, RMD deadline awareness
-      { month: "Oct '25", spend: 12590, leads: 29, cpl: 434, qualified: 14, cpql: 899, deals: 4, revenue: 59800, roas: 4.75 },
-      // Nov '25 — Month 11: Peak year-end urgency
-      { month: "Nov '25", spend: 11264, leads: 30, cpl: 375, qualified: 14, cpql: 805, deals: 4, revenue: 53500, roas: 4.75 },
-      // Dec '25 — Month 12: Strong close, RMD deadline, mature campaigns
-      { month: "Dec '25", spend: 9811, leads: 31, cpl: 316, qualified: 15, cpql: 654, deals: 3, revenue: 46600, roas: 4.75 },
+      // Jan '25 — Month 1: Launch, broad targeting, learning phase — Meta needs data
+      { month: "Jan '25", spend: 5127, leads: 18, cpl: 285, qualified: 2, cpql: 2564, deals: 0, revenue: 0, roas: 0 },
+      // Feb '25 — Month 2: Pixel warming, lookalikes starting to form
+      { month: "Feb '25", spend: 5284, leads: 22, cpl: 240, qualified: 4, cpql: 1321, deals: 1, revenue: 14500, roas: 2.74 },
+      // Mar '25 — Month 3: First lookalike audiences live, qual rate improving
+      { month: "Mar '25", spend: 5693, leads: 27, cpl: 211, qualified: 6, cpql: 949, deals: 2, revenue: 16100, roas: 2.83 },
+      // Apr '25 — Month 4: Retargeting funnels active, lead form optimization
+      { month: "Apr '25", spend: 6341, leads: 33, cpl: 192, qualified: 9, cpql: 705, deals: 2, revenue: 28300, roas: 4.46 },
+      // May '25 — Month 5: Creative refresh, video testimonials driving volume
+      { month: "May '25", spend: 6782, leads: 37, cpl: 183, qualified: 10, cpql: 678, deals: 3, revenue: 31900, roas: 4.70 },
+      // Jun '25 — Month 6: Mid-year financial review angle, strong engagement
+      { month: "Jun '25", spend: 7914, leads: 42, cpl: 188, qualified: 12, cpql: 660, deals: 3, revenue: 37600, roas: 4.75 },
+      // Jul '25 — Month 7: Summer — lighter intent but volume holds on Meta
+      { month: "Jul '25", spend: 7263, leads: 38, cpl: 191, qualified: 11, cpql: 660, deals: 2, revenue: 30700, roas: 4.23 },
+      // Aug '25 — Month 8: Back-to-planning season, new creative angles
+      { month: "Aug '25", spend: 8417, leads: 46, cpl: 183, qualified: 14, cpql: 601, deals: 3, revenue: 39900, roas: 4.74 },
+      // Sep '25 — Month 9: Q4 ramp, year-end urgency messaging
+      { month: "Sep '25", spend: 9182, leads: 51, cpl: 180, qualified: 15, cpql: 612, deals: 3, revenue: 43600, roas: 4.75 },
+      // Oct '25 — Month 10: Tax-loss harvesting content, highest engagement
+      { month: "Oct '25", spend: 10347, leads: 58, cpl: 178, qualified: 18, cpql: 575, deals: 4, revenue: 49100, roas: 4.75 },
+      // Nov '25 — Month 11: Year-end deadline urgency, peak qualified volume
+      { month: "Nov '25", spend: 11218, leads: 62, cpl: 181, qualified: 19, cpql: 590, deals: 4, revenue: 53200, roas: 4.74 },
+      // Dec '25 — Month 12: RMD deadline push, mature audiences, strongest qual rate
+      { month: "Dec '25", spend: 9847, leads: 53, cpl: 186, qualified: 19, cpql: 518, deals: 3, revenue: 46700, roas: 4.74 },
     ],
   },
   organicConversions: {
@@ -168,7 +167,7 @@ export const retirementPlanningNational: CaseStudyData = {
       { label: "Total Organic Leads", value: "73", growth: "+2,333%", note: "Month 1: 3" },
       { label: "Avg Monthly Leads (Last 3mo)", value: "11.3", growth: "", note: "vs. 3 first 3 months" },
       { label: "Organic Conversion Rate", value: "5.1%", growth: "+104%", note: "from 2.5%" },
-      { label: "Organic Clients Acquired", value: "9", growth: "", note: "$0 ad spend" },
+      { label: "Organic Qualified Leads", value: "73", growth: "", note: "$0 ad spend" },
     ],
     columnLabels: {
       formFills: "Consultation Requests",
@@ -198,12 +197,12 @@ export const retirementPlanningNational: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "New AUM Acquired", value: "$41M", growth: "+12.8% of total AUM" },
-    { label: "New Annual Recurring Revenue", value: "$410K", growth: "1% AUM fee" },
-    { label: "Projected 10-Year Client LTV", value: "$4.1M", growth: "recurring" },
-    { label: "Total New Clients (Paid + Organic)", value: "37", growth: "" },
-    { label: "Blended Cost Per Client", value: "$2,640", growth: "↓52%" },
-    { label: "Blended ROAS (Year 1)", value: "4.20x", growth: "" },
-    { label: "Organic Client Revenue", value: "$99K/yr", growth: "9 clients, $0 ad spend" },
+    { label: "New AUM Acquired", value: "$39.2M", growth: "+12.3% of total AUM" },
+    { label: "New Annual Recurring Revenue", value: "$392K", growth: "1% AUM fee" },
+    { label: "Projected 10-Year Client LTV", value: "$3.9M", growth: "recurring" },
+    { label: "Total Qualified Leads (Paid + Organic)", value: "212", growth: "" },
+    { label: "Qualification Rate Improvement", value: "11% → 36%", growth: "+227%" },
+    { label: "Blended ROAS (Year 1)", value: "4.19x", growth: "" },
+    { label: "Organic Qualified Leads", value: "73", growth: "$0 ad spend" },
   ],
 };
