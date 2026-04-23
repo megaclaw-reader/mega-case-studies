@@ -462,6 +462,10 @@
         "beauty_products": [
           45,
           85
+        ],
+        "hair_products": [
+          35,
+          60
         ]
       }
     },
@@ -677,7 +681,8 @@
     "ecommerce-pet": "ecommerce",
     "nail-salon": "lead_gen_services",
     "Nail Salon": "lead_gen_services",
-    "tequila-brand-dtc": "ecommerce"
+    "tequila-brand-dtc": "ecommerce",
+    "Hair Products": "ecommerce"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",

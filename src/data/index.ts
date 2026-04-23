@@ -48,6 +48,7 @@ import { boutiqueSkincareWellness } from "./boutique-skincare-wellness";
 import { functionalMedicineClinic } from "./functional-medicine-clinic";
 import { logisticsSupplyChain } from "./logistics-supply-chain";
 import { insuranceArizona } from "./insurance-arizona";
+import { hairProductsEcommerce } from "./hair-products-ecommerce";
 import { probiotics } from "./probiotics";
 import { indoorAdventureFlorida } from "./indoor-adventure-florida";
 import { sightseeingExcursionFlorida } from "./sightseeing-excursion-florida";
@@ -231,6 +232,7 @@ import { ecommerceSportsStore } from "./ecommerce-sports-store";
 import { ecommercePet } from "./ecommerce-pet";
 import { homeDamageRestorationFlorida } from "./home-damage-restoration-florida";
 import { multiLocationMedspaSouthwest } from "./multi-location-medspa-southwest";
+import { beautyEcommerceNational } from "./beauty-ecommerce-national";
 
 export const caseStudies: Record<string, CaseStudyData> = {
   "alarm-surveillance-seo": alarmSurveillanceSeo,
@@ -464,6 +466,8 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "tequila-brand-dtc": tequilaBrandDtc,
   "home-damage-restoration-florida": homeDamageRestorationFlorida,
   "multi-location-medspa-southwest": multiLocationMedspaSouthwest,
+  "beauty-ecommerce-national": beautyEcommerceNational,
+  "hair-products-ecommerce": hairProductsEcommerce,
 };
 
 export type { CaseStudyData };
