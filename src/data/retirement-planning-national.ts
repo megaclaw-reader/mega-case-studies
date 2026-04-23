@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const retirementPlanningNational: CaseStudyData = {
   slug: "retirement-planning-national",
   industry: "Financial Services",
-  headline: "How a National Retirement Planning Firm Acquired 18 New Clients in 7 Months",
-  subheadline: "MEGA helped a fee-only retirement planning advisory build a compliant digital acquisition engine — reducing cost per qualified lead by 52%, growing organic visibility 1,394%, and adding 18 new high-net-worth clients to the firm's roster.",
+  headline: "How a National Retirement Planning Firm Acquired 37 New Clients and $410K in Recurring Revenue in 12 Months",
+  subheadline: "MEGA helped a fee-only retirement planning advisory build a compliant digital acquisition engine — reducing cost per qualified lead by 66%, growing organic visibility 4,280%, and generating $410K in new recurring annual revenue.",
   heroStats: [
-    { value: "$9.7", unit: "M", label: "New AUM Acquired" },
-    { value: "52", unit: "%", label: "CPQL Reduction" },
-    { value: "14", unit: "", label: "New Clients Acquired" },
+    { value: "$41", unit: "M", label: "New AUM Acquired" },
+    { value: "66", unit: "%", label: "CPQL Reduction" },
+    { value: "37", unit: "", label: "New Clients Acquired" },
   ],
   tags: ["SEO Strategy", "Paid Advertising", "Lead Generation"],
   company: {
@@ -25,11 +25,11 @@ export const retirementPlanningNational: CaseStudyData = {
     },
     {
       title: "Invisible in Organic Search",
-      description: "Despite managing $320M in assets, the firm had virtually no organic search presence. The website had 12 static pages, no blog content, and ranked for only 94 keywords — none in the top 10 for competitive retirement planning terms. National competitors and large wirehouses dominated page one for every meaningful query.",
+      description: "Despite managing $320M in assets, the firm had virtually no organic search presence. The website had 12 static pages, no blog content, and ranked for only 87 keywords — none in the top 10 for competitive retirement planning terms. National competitors and large wirehouses dominated page one for every meaningful query.",
     },
     {
       title: "Compliance Barriers to Advertising",
-      description: "As an SEC-registered investment advisor, the firm had strict compliance requirements around advertising claims, testimonials, and performance representations. Previous attempts at Google Ads were abandoned after the compliance team flagged issues with ad copy, and the firm had no framework for running compliant digital campaigns at scale.",
+      description: "As an SEC-registered investment advisor, the firm had strict compliance requirements around advertising claims, testimonials, and performance representations. Previous attempts at digital ads were abandoned after the compliance team flagged issues with ad copy, and the firm had no framework for running compliant digital campaigns at scale.",
     },
     {
       title: "Long Sales Cycle with No Nurturing System",
@@ -48,7 +48,7 @@ export const retirementPlanningNational: CaseStudyData = {
         "Developed SEC-compliant ad copy templates and landing page frameworks reviewed by the firm's compliance officer",
         "Built dedicated landing pages for core services: retirement income planning, 401(k)/IRA rollover guidance, Social Security optimization, tax-efficient withdrawal strategies",
         "Implemented call tracking, form attribution, and CRM integration for closed-loop lead-to-client reporting",
-        "Launched initial Google Ads campaigns targeting high-intent national search terms with conservative daily budgets and compliance-approved copy",
+        "Launched initial ad campaigns targeting high-intent national search terms with conservative daily budgets and compliance-approved copy",
         "Technical SEO foundation: financial services schema markup, site speed optimization, secure hosting verification, mobile UX improvements",
         "Published first 6 educational articles targeting informational queries: retirement readiness checklists, Roth conversion considerations, Medicare enrollment timing",
         "Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement — replacing the typical weekly-review cadence of traditional agencies",
@@ -88,7 +88,7 @@ export const retirementPlanningNational: CaseStudyData = {
     {
       phase: 4,
       months: "90+ days",
-      title: "Ongoing Optimization & Year-End Push",
+      title: "Ongoing Optimization & Compounding Growth",
       items: [
         "Monthly content refreshes on evergreen retirement planning articles to maintain and improve rankings",
         "Seasonal budget increases for Q4 year-end planning demand — tax-loss harvesting, RMD planning, annual portfolio reviews",
@@ -101,34 +101,32 @@ export const retirementPlanningNational: CaseStudyData = {
   ],
   seo: {
     summary: [
-      { label: "Total Keywords", value: "1,924", growth: "+1,947%", from: "from 94" },
-      { label: "Top 10 Rankings", value: "187", growth: "+3,017%", from: "from 6" },
-      { label: "Organic Traffic", value: "4,812/mo", growth: "+1,394%", from: "from 322" },
-      { label: "Pages Created", value: "52", growth: "", from: "incl. 6 service pages" },
+      { label: "Total Keywords", value: "3,814", growth: "+4,280%", from: "from 87" },
+      { label: "Top 10 Rankings", value: "347", growth: "+4,913%", from: "from 7" },
+      { label: "Organic Traffic", value: "14,291/mo", growth: "+3,672%", from: "from 378" },
+      { label: "Pages Created", value: "74", growth: "", from: "incl. 8 service pages" },
     ],
     monthly: [
-      // Jun '25 — Month 1: Baseline, foundation work beginning
-      { month: "Jun '25", keywords: 94, top10: 6, top3: 1, traffic: 322, pages: 12, avgPos: 41.2, ctr: 1.4 },
-      // Jul '25 — Month 2: First content published, technical fixes live
-      { month: "Jul '25", keywords: 187, top10: 14, top3: 2, traffic: 594, pages: 20, avgPos: 37.8, ctr: 1.6 },
-      // Aug '25 — Month 3: Content indexing, early compounding
-      { month: "Aug '25", keywords: 341, top10: 31, top3: 4, traffic: 1023, pages: 27, avgPos: 34.1, ctr: 1.8 },
-      // Sep '25 — Month 4: Hockey stick begins, seasonal interest rising
-      { month: "Sep '25", keywords: 587, top10: 58, top3: 8, traffic: 1748, pages: 33, avgPos: 30.6, ctr: 2.1 },
-      // Oct '25 — Month 5: Q4 tax planning content gaining traction
-      { month: "Oct '25", keywords: 923, top10: 94, top3: 14, traffic: 2714, pages: 39, avgPos: 27.4, ctr: 2.4 },
-      // Nov '25 — Month 6: Year-end planning queries spiking
-      { month: "Nov '25", keywords: 1387, top10: 142, top3: 21, traffic: 3847, pages: 46, avgPos: 25.1, ctr: 2.7 },
-      // Dec '25 — Month 7: Peak year-end, strongest organic month
-      { month: "Dec '25", keywords: 1924, top10: 187, top3: 29, traffic: 4812, pages: 52, avgPos: 23.3, ctr: 2.9 },
+      { month: "Jan '25", keywords: 87, top10: 7, top3: 1, traffic: 378, pages: 12, avgPos: 42.3, ctr: 1.3 },
+      { month: "Feb '25", keywords: 134, top10: 11, top3: 2, traffic: 519, pages: 18, avgPos: 39.7, ctr: 1.4 },
+      { month: "Mar '25", keywords: 247, top10: 22, top3: 3, traffic: 841, pages: 24, avgPos: 36.4, ctr: 1.6 },
+      { month: "Apr '25", keywords: 438, top10: 41, top3: 6, traffic: 1487, pages: 30, avgPos: 33.1, ctr: 1.8 },
+      { month: "May '25", keywords: 714, top10: 68, top3: 11, traffic: 2413, pages: 36, avgPos: 30.2, ctr: 2.0 },
+      { month: "Jun '25", keywords: 1093, top10: 104, top3: 17, traffic: 3762, pages: 42, avgPos: 27.6, ctr: 2.3 },
+      { month: "Jul '25", keywords: 1412, top10: 138, top3: 22, traffic: 4891, pages: 47, avgPos: 25.9, ctr: 2.4 },
+      { month: "Aug '25", keywords: 1847, top10: 174, top3: 28, traffic: 6318, pages: 52, avgPos: 24.1, ctr: 2.6 },
+      { month: "Sep '25", keywords: 2341, top10: 217, top3: 36, traffic: 8247, pages: 57, avgPos: 22.4, ctr: 2.7 },
+      { month: "Oct '25", keywords: 2893, top10: 268, top3: 44, traffic: 10472, pages: 63, avgPos: 21.1, ctr: 2.9 },
+      { month: "Nov '25", keywords: 3384, top10: 312, top3: 52, traffic: 12681, pages: 69, avgPos: 19.8, ctr: 3.1 },
+      { month: "Dec '25", keywords: 3814, top10: 347, top3: 58, traffic: 14291, pages: 74, avgPos: 18.7, ctr: 3.2 },
     ],
   },
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$44.2K" },
-      { label: "Qualified Leads", value: "42" },
-      { label: "Avg Cost/Qualified Lead", value: "$1,053", note: "↓52% from $1,738" },
-      { label: "New Clients Acquired", value: "14" },
+      { label: "Total Ad Spend", value: "$97.7K" },
+      { label: "Qualified Leads", value: "111" },
+      { label: "Avg Cost/Qualified Lead", value: "$880", note: "↓66% from $2,591" },
+      { label: "New Clients Acquired", value: "28" },
     ],
     columnLabels: {
       leads: "Total Leads",
@@ -139,28 +137,38 @@ export const retirementPlanningNational: CaseStudyData = {
       costPerDeal: "Cost/Client",
     },
     monthly: [
-      // Jun '25 — Month 1: Campaign launch, conservative spend, building baseline
-      { month: "Jun '25", spend: 5214, leads: 9, cpl: 579, qualified: 3, cpql: 1738, deals: 1, revenue: 4870, roas: 0.93 },
-      // Jul '25 — Month 2: Summer — lower intent, maintaining presence
-      { month: "Jul '25", spend: 5087, leads: 8, cpl: 636, qualified: 4, cpql: 1272, deals: 1, revenue: 5230, roas: 1.03 },
-      // Aug '25 — Month 3: Late summer pickup, campaigns optimizing
-      { month: "Aug '25", spend: 5423, leads: 11, cpl: 493, qualified: 5, cpql: 1085, deals: 1, revenue: 5610, roas: 1.03 },
-      // Sep '25 — Month 4: Fall uptick, year-end planning conversations starting
-      { month: "Sep '25", spend: 6147, leads: 14, cpl: 439, qualified: 6, cpql: 1025, deals: 2, revenue: 10960, roas: 1.78 },
-      // Oct '25 — Month 5: Strong Q4, tax-loss harvesting, year-end reviews
-      { month: "Oct '25", spend: 7218, leads: 17, cpl: 425, qualified: 7, cpql: 1031, deals: 3, revenue: 17490, roas: 2.42 },
-      // Nov '25 — Month 6: Peak year-end planning, highest lead quality
-      { month: "Nov '25", spend: 7634, leads: 19, cpl: 402, qualified: 8, cpql: 954, deals: 3, revenue: 17160, roas: 2.25 },
-      // Dec '25 — Month 7: Strong close, mature campaigns, RMD deadline urgency
-      { month: "Dec '25", spend: 7491, leads: 21, cpl: 357, qualified: 9, cpql: 832, deals: 3, revenue: 16110, roas: 2.15 },
+      // Jan '25 — Month 1: Launch, conservative, learning phase
+      { month: "Jan '25", spend: 5182, leads: 7, cpl: 740, qualified: 2, cpql: 2591, deals: 0, revenue: 0, roas: 0 },
+      // Feb '25 — Month 2: Early optimization, first client close
+      { month: "Feb '25", spend: 5347, leads: 9, cpl: 594, qualified: 4, cpql: 1337, deals: 1, revenue: 14500, roas: 2.71 },
+      // Mar '25 — Month 3: Campaigns maturing, spring interest
+      { month: "Mar '25", spend: 5891, leads: 11, cpl: 536, qualified: 5, cpql: 1178, deals: 1, revenue: 16100, roas: 2.73 },
+      // Apr '25 — Month 4: Scaling, retargeting kicking in
+      { month: "Apr '25", spend: 6423, leads: 14, cpl: 459, qualified: 7, cpql: 918, deals: 2, revenue: 28300, roas: 4.41 },
+      // May '25 — Month 5: Pre-summer, strong lead quality
+      { month: "May '25", spend: 6817, leads: 16, cpl: 426, qualified: 8, cpql: 852, deals: 2, revenue: 31900, roas: 4.68 },
+      // Jun '25 — Month 6: Mid-year reviews driving demand
+      { month: "Jun '25", spend: 8653, leads: 21, cpl: 412, qualified: 10, cpql: 865, deals: 3, revenue: 41100, roas: 4.75 },
+      // Jul '25 — Month 7: Summer slight dip, still building
+      { month: "Jul '25", spend: 7093, leads: 19, cpl: 373, qualified: 9, cpql: 788, deals: 2, revenue: 30000, roas: 4.23 },
+      // Aug '25 — Month 8: Back to school = back to planning
+      { month: "Aug '25", spend: 9516, leads: 23, cpl: 414, qualified: 12, cpql: 793, deals: 3, revenue: 45200, roas: 4.75 },
+      // Sep '25 — Month 9: Q4 ramp, year-end planning starts
+      { month: "Sep '25", spend: 9074, leads: 22, cpl: 413, qualified: 11, cpql: 825, deals: 3, revenue: 43100, roas: 4.75 },
+      // Oct '25 — Month 10: Tax-loss harvesting, RMD deadline awareness
+      { month: "Oct '25", spend: 12590, leads: 29, cpl: 434, qualified: 14, cpql: 899, deals: 4, revenue: 59800, roas: 4.75 },
+      // Nov '25 — Month 11: Peak year-end urgency
+      { month: "Nov '25", spend: 11264, leads: 30, cpl: 375, qualified: 14, cpql: 805, deals: 4, revenue: 53500, roas: 4.75 },
+      // Dec '25 — Month 12: Strong close, RMD deadline, mature campaigns
+      { month: "Dec '25", spend: 9811, leads: 31, cpl: 316, qualified: 15, cpql: 654, deals: 3, revenue: 46600, roas: 4.75 },
     ],
   },
   organicConversions: {
     summary: [
-      { label: "Total Organic Leads", value: "34", growth: "+240%", note: "Month 1: 2" },
-      { label: "Avg Monthly Leads (Last 3mo)", value: "7.3", growth: "", note: "vs. 2.3 first 3 months" },
-      { label: "Organic Conversion Rate", value: "4.3%", growth: "+72%", note: "from 2.5%" },
-      { label: "Organic Clients Acquired", value: "4", growth: "", note: "$0 ad spend" },
+      { label: "Total Organic Leads", value: "73", growth: "+2,333%", note: "Month 1: 3" },
+      { label: "Avg Monthly Leads (Last 3mo)", value: "11.3", growth: "", note: "vs. 3 first 3 months" },
+      { label: "Organic Conversion Rate", value: "5.1%", growth: "+104%", note: "from 2.5%" },
+      { label: "Organic Clients Acquired", value: "9", growth: "", note: "$0 ad spend" },
     ],
     columnLabels: {
       formFills: "Consultation Requests",
@@ -169,27 +177,33 @@ export const retirementPlanningNational: CaseStudyData = {
       conversionRate: "Conversion Rate",
     },
     monthly: [
-      { month: "Jun '25", formFills: 1, calls: 1, totalLeads: 2, conversionRate: 2.5 },
-      { month: "Jul '25", formFills: 1, calls: 1, totalLeads: 2, conversionRate: 2.6 },
-      { month: "Aug '25", formFills: 1, calls: 2, totalLeads: 3, conversionRate: 2.8 },
-      { month: "Sep '25", formFills: 2, calls: 2, totalLeads: 4, conversionRate: 3.2 },
-      { month: "Oct '25", formFills: 3, calls: 3, totalLeads: 6, conversionRate: 3.7 },
-      { month: "Nov '25", formFills: 3, calls: 4, totalLeads: 7, conversionRate: 4.0 },
-      { month: "Dec '25", formFills: 4, calls: 6, totalLeads: 10, conversionRate: 4.3 },
+      { month: "Jan '25", formFills: 1, calls: 2, totalLeads: 3, conversionRate: 2.5 },
+      { month: "Feb '25", formFills: 1, calls: 1, totalLeads: 2, conversionRate: 2.4 },
+      { month: "Mar '25", formFills: 2, calls: 2, totalLeads: 4, conversionRate: 2.7 },
+      { month: "Apr '25", formFills: 2, calls: 2, totalLeads: 4, conversionRate: 3.0 },
+      { month: "May '25", formFills: 2, calls: 3, totalLeads: 5, conversionRate: 3.2 },
+      { month: "Jun '25", formFills: 3, calls: 3, totalLeads: 6, conversionRate: 3.5 },
+      { month: "Jul '25", formFills: 3, calls: 4, totalLeads: 7, conversionRate: 3.8 },
+      { month: "Aug '25", formFills: 4, calls: 4, totalLeads: 8, conversionRate: 4.1 },
+      { month: "Sep '25", formFills: 4, calls: 5, totalLeads: 9, conversionRate: 4.4 },
+      { month: "Oct '25", formFills: 5, calls: 5, totalLeads: 10, conversionRate: 4.7 },
+      { month: "Nov '25", formFills: 5, calls: 6, totalLeads: 11, conversionRate: 4.9 },
+      { month: "Dec '25", formFills: 5, calls: 7, totalLeads: 12, conversionRate: 5.1 },
     ],
     sources: [
-      { source: "Organic Search", percentage: 58, leads: 20 },
-      { source: "Direct (Brand Search)", percentage: 21, leads: 7 },
-      { source: "Referral", percentage: 14, leads: 5 },
-      { source: "Social", percentage: 7, leads: 2 },
+      { source: "Organic Search", percentage: 61, leads: 45 },
+      { source: "Direct (Brand Search)", percentage: 19, leads: 14 },
+      { source: "Referral", percentage: 13, leads: 9 },
+      { source: "Social", percentage: 7, leads: 5 },
     ],
   },
   impact: [
-    { label: "New AUM Acquired", value: "$9.7M", growth: "" },
-    { label: "First-Year Revenue (1% AUM Fee)", value: "$77.4K", growth: "recurring" },
-    { label: "Projected 10-Year Client LTV", value: "$970K", growth: "projected" },
-    { label: "Total New Clients (Paid + Organic)", value: "18", growth: "" },
-    { label: "Blended Cost Per Client", value: "$2,456", growth: "↓39%" },
-    { label: "Blended ROAS", value: "1.75x", growth: "" },
+    { label: "New AUM Acquired", value: "$41M", growth: "+12.8% of total AUM" },
+    { label: "New Annual Recurring Revenue", value: "$410K", growth: "1% AUM fee" },
+    { label: "Projected 10-Year Client LTV", value: "$4.1M", growth: "recurring" },
+    { label: "Total New Clients (Paid + Organic)", value: "37", growth: "" },
+    { label: "Blended Cost Per Client", value: "$2,640", growth: "↓52%" },
+    { label: "Blended ROAS (Year 1)", value: "4.20x", growth: "" },
+    { label: "Organic Client Revenue", value: "$99K/yr", growth: "9 clients, $0 ad spend" },
   ],
 };
