@@ -58,6 +58,7 @@ import { hvacVancouver } from "./hvac-vancouver";
 import { lawFirmSmallPractice } from "./law-firm-small-practice";
 import { immigrationLaw } from "./immigration-law";
 import { alarmSurveillanceSeo } from "./alarm-surveillance-seo";
+import { retirementPlanningNational } from "./retirement-planning-national";
 import { taxConsultancySeo } from "./tax-consultancy-seo";
 import { mortgageLending } from "./mortgage-lending";
 import { cybersecurity } from "./cybersecurity";
@@ -470,6 +471,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "multi-location-medspa-southwest": multiLocationMedspaSouthwest,
   "beauty-ecommerce-national": beautyEcommerceNational,
   "hair-products-ecommerce": hairProductsEcommerce,
+  "retirement-planning-national": retirementPlanningNational,
 };
 
 export type { CaseStudyData };

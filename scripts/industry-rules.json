@@ -3,7 +3,7 @@
   "models": {
     "lead_gen_services": {
       "description": "Local/regional service businesses that generate leads and close deals",
-      "revenue_formula": "deals \u00d7 avg_deal_value",
+      "revenue_formula": "deals × avg_deal_value",
       "revenue_field": "revenue",
       "required_columns": [
         "leads",
@@ -15,12 +15,12 @@
       ],
       "ecom_columns": false,
       "rules": [
-        "Revenue = deals \u00d7 average deal value for the industry",
+        "Revenue = deals × average deal value for the industry",
         "CPL < CPQL always (qualified is a subset of leads)",
         "Qualified < Leads always",
         "Deal close rate from qualified: typically 10-25% depending on industry",
         "No month should have more deals than qualified leads",
-        "Spend must vary seasonally \u2014 never flat across months"
+        "Spend must vary seasonally — never flat across months"
       ],
       "avg_deal_value_ranges": {
         "dental": [
@@ -167,7 +167,7 @@
     },
     "lead_gen_professional": {
       "description": "Professional services with higher deal values and longer sales cycles",
-      "revenue_formula": "deals \u00d7 avg_deal_value",
+      "revenue_formula": "deals × avg_deal_value",
       "revenue_field": "revenue",
       "required_columns": [
         "leads",
@@ -179,8 +179,8 @@
       ],
       "ecom_columns": false,
       "rules": [
-        "Revenue = deals \u00d7 average engagement/case value",
-        "Sales cycle is typically 1-6 months \u2014 deals may lag leads",
+        "Revenue = deals × average engagement/case value",
+        "Sales cycle is typically 1-6 months — deals may lag leads",
         "CPL is higher ($100-$500+) due to competitive keywords",
         "Close rates from qualified: 15-30%"
       ],
@@ -248,8 +248,8 @@
       }
     },
     "wealth_management": {
-      "description": "Wealth management, financial advisory, venture capital \u2014 revenue is fee % of AUM",
-      "revenue_formula": "AUM_acquired \u00d7 fee_percentage",
+      "description": "Wealth management, financial advisory, venture capital — revenue is fee % of AUM",
+      "revenue_formula": "AUM_acquired × fee_percentage",
       "revenue_field": "revenue",
       "required_columns": [
         "leads",
@@ -264,17 +264,17 @@
         "Revenue MUST equal approximately 1% of total AUM acquired (standard management fee)",
         "AUM per client typically $500K-$5M for HNW, $100K-$500K for mass affluent",
         "Monthly revenue = annual fee from clients closed that month (1% of their AUM)",
-        "Total revenue across all months must \u2248 1% of total AUM in headline/hero",
-        "ROAS will be low in early months (sub-1x is normal) \u2014 value is in retention",
-        "Average client retention is 7-10 years \u2014 note projected LTV in impact section",
+        "Total revenue across all months must ≈ 1% of total AUM in headline/hero",
+        "ROAS will be low in early months (sub-1x is normal) — value is in retention",
+        "Average client retention is 7-10 years — note projected LTV in impact section",
         "Hero stats MUST lead with AUM, not revenue"
       ],
       "fee_percentage": 0.01,
       "tolerance": 0.05
     },
     "real_estate": {
-      "description": "Real estate brokerages and agents \u2014 revenue from commissions",
-      "revenue_formula": "deals \u00d7 avg_transaction_value \u00d7 commission_rate",
+      "description": "Real estate brokerages and agents — revenue from commissions",
+      "revenue_formula": "deals × avg_transaction_value × commission_rate",
       "revenue_field": "revenue",
       "required_columns": [
         "leads",
@@ -286,8 +286,8 @@
       ],
       "ecom_columns": false,
       "rules": [
-        "Revenue = closed transactions \u00d7 avg home price \u00d7 commission rate (2.5-3%)",
-        "Average home price varies heavily by market \u2014 MUST research local market",
+        "Revenue = closed transactions × avg home price × commission rate (2.5-3%)",
+        "Average home price varies heavily by market — MUST research local market",
         "Commercial RE: commission is typically 3-6% of lease value or 1-3% of sale price",
         "Sales cycle: 30-90 days residential, 3-12 months commercial",
         "Lead volume is high but close rate is low (2-5% from lead to close)"
@@ -298,8 +298,8 @@
       ]
     },
     "mortgage_lending": {
-      "description": "Mortgage brokers and lenders \u2014 revenue from origination fees and loan volume",
-      "revenue_formula": "loans_closed \u00d7 avg_loan_amount \u00d7 origination_fee_pct",
+      "description": "Mortgage brokers and lenders — revenue from origination fees and loan volume",
+      "revenue_formula": "loans_closed × avg_loan_amount × origination_fee_pct",
       "revenue_field": "revenue",
       "required_columns": [
         "leads",
@@ -311,9 +311,9 @@
       ],
       "ecom_columns": false,
       "rules": [
-        "Revenue = loans closed \u00d7 average loan amount \u00d7 origination fee (0.5-1.5%)",
-        "OR revenue = loans closed \u00d7 flat fee per loan ($2K-$5K typical)",
-        "Average loan amount varies by market \u2014 research local home prices",
+        "Revenue = loans closed × average loan amount × origination fee (0.5-1.5%)",
+        "OR revenue = loans closed × flat fee per loan ($2K-$5K typical)",
+        "Average loan amount varies by market — research local home prices",
         "Close rate from application to funded: 40-60%",
         "Close rate from lead to funded: 5-15%",
         "Seasonal: spring/summer peaks, winter dips"
@@ -321,7 +321,7 @@
     },
     "healthcare_medical": {
       "description": "Medical practices, med spas, telemedicine, regenerative medicine",
-      "revenue_formula": "patients \u00d7 avg_treatment_value",
+      "revenue_formula": "patients × avg_treatment_value",
       "revenue_field": "revenue",
       "required_columns": [
         "leads",
@@ -333,18 +333,18 @@
       ],
       "ecom_columns": false,
       "rules": [
-        "Revenue = new patients/clients \u00d7 average treatment/procedure value",
+        "Revenue = new patients/clients × average treatment/procedure value",
         "Med spa: avg treatment $300-$1,500",
         "Regenerative medicine: avg treatment $2,000-$10,000",
         "Telemedicine: avg consultation $100-$300",
         "Dental: avg patient value $800-$3,000/year",
-        "Patient LTV often 3-5x initial visit value \u2014 can note in impact section",
+        "Patient LTV often 3-5x initial visit value — can note in impact section",
         "Insurance vs cash-pay matters: cash-pay practices have higher margins"
       ]
     },
     "saas": {
-      "description": "SaaS and subscription platforms \u2014 revenue from MRR/ARR",
-      "revenue_formula": "new_customers \u00d7 avg_MRR \u00d7 months_retained OR annual_contracts \u00d7 ACV",
+      "description": "SaaS and subscription platforms — revenue from MRR/ARR",
+      "revenue_formula": "new_customers × avg_MRR × months_retained OR annual_contracts × ACV",
       "revenue_field": "revenue",
       "required_columns": [
         "leads",
@@ -360,14 +360,14 @@
         "B2B SaaS avg deal: $5K-$100K+ ACV depending on market segment",
         "SMB SaaS: $1K-$10K ACV",
         "Enterprise: $50K-$500K+ ACV",
-        "Free trial \u2192 paid conversion: 5-15%",
-        "Demo \u2192 close rate: 15-30%",
+        "Free trial → paid conversion: 5-15%",
+        "Demo → close rate: 15-30%",
         "Churn matters: note net revenue retention if relevant"
       ]
     },
     "ecommerce": {
-      "description": "Online retail / DTC brands \u2014 revenue from orders",
-      "revenue_formula": "orders \u00d7 AOV",
+      "description": "Online retail / DTC brands — revenue from orders",
+      "revenue_formula": "orders × AOV",
       "revenue_field": "revenue",
       "required_columns_override": true,
       "ecom_columns": true,
@@ -379,16 +379,16 @@
         "deals": "Orders"
       },
       "rules": [
-        "MUST use columnLabels to rename leads\u2192Sessions, cpl\u2192Cost/Visit, qualified\u2192Add to Carts, cpql\u2192Cost/Cart, deals\u2192Orders",
-        "Revenue = orders \u00d7 AOV (with realistic variance month to month)",
+        "MUST use columnLabels to rename leads→Sessions, cpl→Cost/Visit, qualified→Add to Carts, cpql→Cost/Cart, deals→Orders",
+        "Revenue = orders × AOV (with realistic variance month to month)",
         "AOV MUST be researched for the specific product category",
-        "Session \u2192 Add to Cart rate: typically 5-15%",
-        "Cart \u2192 Order rate: typically 30-70%",
+        "Session → Add to Cart rate: typically 5-15%",
+        "Cart → Order rate: typically 30-70%",
         "Cost per visit: typically $0.50-$3.00",
         "ROAS: typically 2x-8x depending on margins and AOV",
         "Black Friday/Cyber Monday is MANDATORY if engagement includes November",
-        "NO lead gen terminology anywhere \u2014 no 'leads', 'qualified leads', 'CPL', 'CPQL'",
-        "Seasonal spend MUST vary \u2014 peak months get more budget"
+        "NO lead gen terminology anywhere — no 'leads', 'qualified leads', 'CPL', 'CPQL'",
+        "Seasonal spend MUST vary — peak months get more budget"
       ],
       "aov_ranges": {
         "fashion_apparel": [
@@ -470,11 +470,11 @@
       }
     },
     "subscription": {
-      "description": "Subscription/membership businesses (non-SaaS) \u2014 yoga, education, newsletters",
-      "revenue_formula": "new_subscribers \u00d7 monthly_price \u00d7 avg_months_retained",
+      "description": "Subscription/membership businesses (non-SaaS) — yoga, education, newsletters",
+      "revenue_formula": "new_subscribers × monthly_price × avg_months_retained",
       "revenue_field": "revenue",
       "rules": [
-        "Revenue should reflect subscription economics \u2014 recurring monthly value",
+        "Revenue should reflect subscription economics — recurring monthly value",
         "Track subscriber acquisition cost vs LTV",
         "Monthly churn rate matters: 3-8% for consumer subscriptions",
         "Free trial conversion: 10-25%",
@@ -482,8 +482,8 @@
       ]
     },
     "nonprofit": {
-      "description": "Nonprofits \u2014 donations, grants, event revenue",
-      "revenue_formula": "donors \u00d7 avg_donation OR event_revenue",
+      "description": "Nonprofits — donations, grants, event revenue",
+      "revenue_formula": "donors × avg_donation OR event_revenue",
       "revenue_field": "revenue",
       "rules": [
         "Revenue = donations generated, not profit",
@@ -497,7 +497,7 @@
     "Dental": "healthcare_medical",
     "Med Spa": "healthcare_medical",
     "MedSpa": "healthcare_medical",
-    "Healthcare \u2013 Regenerative / Functional Medicine": "healthcare_medical",
+    "Healthcare – Regenerative / Functional Medicine": "healthcare_medical",
     "Healthcare Diagnostics": "healthcare_medical",
     "Healthcare Education": "healthcare_medical",
     "Healthcare Equipment": "lead_gen_professional",
@@ -505,7 +505,7 @@
     "Private Medical Practice": "healthcare_medical",
     "Mental Health / Digital Wellness": "healthcare_medical",
     "Health & Wellness": "ecommerce",
-    "Health & Wellness \u2014 Peptides": "ecommerce",
+    "Health & Wellness — Peptides": "ecommerce",
     "Healthy Food / Protein Bars": "ecommerce",
     "HVAC": "lead_gen_services",
     "HVAC & Plumbing": "lead_gen_services",
@@ -531,7 +531,7 @@
     "Window Replacement & Installation": "lead_gen_services",
     "Event Organization": "lead_gen_services",
     "Beauty Spa": "lead_gen_services",
-    "Fitness \u2014 Private Training": "lead_gen_services",
+    "Fitness — Private Training": "lead_gen_services",
     "Motorcycle & Boat Repair Services": "lead_gen_services",
     "Residential & Commercial Flooring": "lead_gen_services",
     "Residential Moving Services": "lead_gen_services",
@@ -589,7 +589,7 @@
     "Non-Profit": "nonprofit",
     "Wedding Photography": "lead_gen_services",
     "Construction & Civil Engineering Support Services": "lead_gen_professional",
-    "Construction Support \u2014 Dewatering & Water Management": "lead_gen_professional",
+    "Construction Support — Dewatering & Water Management": "lead_gen_professional",
     "IT - Managed Services": "lead_gen_professional",
     "Home Renovation Supplies": "ecommerce",
     "Home Renovation Supplies & Materials Retail": "ecommerce",
@@ -682,7 +682,9 @@
     "nail-salon": "lead_gen_services",
     "Nail Salon": "lead_gen_services",
     "tequila-brand-dtc": "ecommerce",
-    "Hair Products": "ecommerce"
+    "Hair Products": "ecommerce",
+    "Retirement Planning": "wealth_management",
+    "Financial Services / Retirement Planning": "wealth_management"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",
