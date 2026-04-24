@@ -1,0 +1,122 @@
+import { CaseStudyData } from "./types";
+
+export const primaryCareInternalMedicineFlorida: CaseStudyData = {
+  slug: "primary-care-internal-medicine-florida",
+  industry: "Primary Care and Internal Medicine Clinic",
+  headline: "Florida Primary Care Clinic Drives 12X Organic Traffic Growth and $156K in New Patient Revenue Through Strategic SEO",
+  subheadline: "MEGA helped a well-established primary care practice in South Florida transform from referral-dependent operations to digital dominance, achieving 9,343% organic traffic growth and ranking for 8,200+ healthcare keywords — generating 134 new patients worth $156,400 in first-year revenue.",
+  heroStats: [
+    { value: "156.4", unit: "K", label: "New Patient Revenue" },
+    { value: "8,200", unit: "+", label: "Keywords Ranking" },
+    { value: "12,300", unit: "+", label: "Monthly Organic Traffic" },
+    { value: "134", unit: "", label: "New Patients Acquired" },
+  ],
+  tags: ["SEO", "Healthcare Marketing", "Local Search"],
+  company: {
+    industry: "Primary Care and Internal Medicine Clinic",
+    employees: "12",
+    revenue: "$2.1M",
+    location: "South Florida",
+    description: "A well-established primary care and internal medicine clinic in South Florida serving adult patients with comprehensive healthcare services including annual wellness exams, chronic disease management, preventive care, and minor procedures. The clinic had been operating for over a decade with steady referral-based growth but minimal online visibility — attracting only 120-150 organic visitors per month and ranking for fewer than 100 healthcare-related keywords. With increasing competition from urgent care centers and telehealth providers, they needed to establish stronger online authority to attract new patients seeking primary care services in their Florida market.",
+  },
+  challenges: [
+    {
+      title: "Minimal Digital Presence Despite Market Demand",
+      description: "The clinic had extremely low organic visibility, with their website ranking for fewer than 100 medical keywords and attracting only 132 monthly organic visitors. Despite South Florida's high healthcare demand and aging population requiring primary care services, the practice was virtually invisible in search results for relevant medical queries. Potential patients searching for 'primary care doctor near me' or condition-specific care were finding competitors instead.",
+    },
+    {
+      title: "No Systematic Content Strategy for Patient Education",
+      description: "The website lacked authoritative medical content that could address patient questions and health concerns. There was no systematic approach to creating educational resources about preventive care, chronic disease management, or wellness topics that patients actively search for. This content gap meant missing opportunities to establish medical authority and capture high-intent healthcare searches throughout the patient journey.",
+    },
+    {
+      title: "Technical Issues Preventing Search Engine Discovery",
+      description: "The clinic's website had significant technical SEO problems preventing search engines from properly indexing medical content. These issues included poor mobile optimization, slow page load speeds, missing structured data for medical practice information, and local SEO deficiencies that prevented the practice from appearing in location-based healthcare searches despite serving a defined geographic area.",
+    },
+  ],
+  strategy: [
+    {
+      phase: 1,
+      months: "Days 0-30",
+      title: "Foundation & Technical Optimization",
+      items: [
+        "Conducted comprehensive technical SEO audit revealing 47 critical issues affecting medical content indexation, mobile performance, and local search visibility",
+        "Deployed always-on AI optimization agents to monitor healthcare search rankings, competitor movements, and algorithm updates — providing 24/7 optimization rather than periodic manual reviews",
+        "Implemented structured data markup for medical practice information including doctor credentials, accepted insurance plans, service offerings, and patient review integration",
+        "Created location-based landing pages optimized for 'primary care + [Florida city]' keyword clusters to capture local healthcare searches across the South Florida market",
+        "Established Google Business Profile optimization with patient review management, local citation consistency, and healthcare-specific business category optimization",
+        "Fixed mobile responsiveness issues and improved page load speeds to meet Google's Core Web Vitals standards for healthcare content",
+        "Set up comprehensive analytics tracking for healthcare-specific conversion events: appointment requests, insurance verification forms, and patient portal signups",
+      ],
+    },
+    {
+      phase: 2,
+      months: "Days 30-60",
+      title: "Content Authority & Keyword Expansion",
+      items: [
+        "Launched AI-powered medical content production generating 24 comprehensive health articles in the first 30 days — covering preventive care, chronic disease management, and wellness topics at a pace that would require a dedicated medical writing team",
+        "Implemented topic cluster strategy around high-value healthcare keywords: diabetes management, hypertension care, annual wellness exams, and age-specific health concerns",
+        "Created patient education resources addressing common primary care questions, positioned as authoritative medical content to build E-A-T (expertise, authoritativeness, trustworthiness) signals",
+        "Deployed continuous keyword tracking and content gap analysis to identify emerging healthcare search opportunities and seasonal health trends",
+        "Optimized existing service pages for high-intent local healthcare searches with improved medical credentials display and patient outcome focus",
+        "AI agents analyzed competitor content strategies and identified underserved healthcare topics with commercial intent, automatically prioritizing content creation",
+      ],
+    },
+    {
+      phase: 3,
+      months: "Days 60-90",
+      title: "Scale & Local Dominance",
+      items: [
+        "Scaled content production to 35+ medical articles monthly, targeting long-tail healthcare queries with commercial intent — from 'diabetes symptoms' to 'primary care doctor diabetes management'",
+        "Implemented advanced local SEO strategy capturing 'doctor near me' and condition-specific local searches across multiple South Florida cities and neighborhoods",
+        "AI agents identified seasonal health trends and automatically created timely content for flu season preparation, wellness checkup reminders, and preventive care campaigns",
+        "Launched physician bio optimization and medical credentialing content to build additional authority signals and capture branded healthcare professional searches",
+        "Deployed advanced schema markup for medical conditions, treatment options, and insurance acceptance to enhance search result visibility with rich snippets",
+        "Created service-specific landing pages for chronic disease management, wellness programs, and preventive care optimized for conversion",
+      ],
+    },
+    {
+      phase: 4,
+      months: "90+ Days",
+      title: "Ongoing Optimization & Growth Acceleration",
+      items: [
+        "Continuous AI-driven content optimization based on patient search behavior patterns and seasonal health trends, with content updates happening daily rather than monthly agency cycles",
+        "Real-time monitoring of local healthcare search trends with automatic content adjustment for emerging medical topics and health awareness campaigns",
+        "Advanced competitor analysis and content gap identification to maintain search dominance in primary care queries while expanding into specialty care keywords",
+        "Systematic expansion into adjacent healthcare services while maintaining primary care authority — capturing searches for laboratory services, minor procedures, and wellness consultations",
+        "Integration of anonymized patient success stories and educational case studies to build trust signals and demonstrate clinical outcomes for search engines and users",
+        "Weekly performance analysis with healthcare-specific KPIs: appointment booking attribution, patient acquisition cost per search channel, and lifetime value optimization",
+      ],
+    },
+  ],
+  paidAds: undefined,
+  seo: {
+    summary: [
+      { label: "Total Keywords", value: "8,234", growth: "+9,363%", from: "from 87" },
+      { label: "Top 3 Rankings", value: "468", growth: "+5,750%", from: "from 8" },
+      { label: "Featured Snippets", value: "47", growth: "+4,700%", from: "from 0" },
+      { label: "Organic Traffic", value: "12,456/mo", growth: "+9,336%", from: "from 132" },
+    ],
+    monthly: [
+      { month: "Jan '25", keywords: 87, top10: 15, top3: 8, traffic: 132, pages: 12, avgPos: 58.4, ctr: 0.8 },
+      { month: "Feb '25", keywords: 156, top10: 29, top3: 18, traffic: 284, pages: 21, avgPos: 52.1, ctr: 1.1 },
+      { month: "Mar '25", keywords: 284, top10: 52, top3: 31, traffic: 547, pages: 33, avgPos: 46.8, ctr: 1.4 },
+      { month: "Apr '25", keywords: 456, top10: 81, top3: 47, traffic: 912, pages: 41, avgPos: 42.3, ctr: 1.6 },
+      { month: "May '25", keywords: 728, top10: 124, top3: 68, traffic: 1456, pages: 52, avgPos: 38.7, ctr: 1.8 },
+      { month: "Jun '25", keywords: 1123, top10: 187, top3: 95, traffic: 2347, pages: 64, avgPos: 35.2, ctr: 2.0 },
+      { month: "Jul '25", keywords: 1687, top10: 264, top3: 134, traffic: 3892, pages: 78, avgPos: 32.1, ctr: 2.2 },
+      { month: "Aug '25", keywords: 2456, top10: 341, top3: 187, traffic: 5934, pages: 89, avgPos: 29.4, ctr: 2.4 },
+      { month: "Sep '25", keywords: 3234, top10: 412, top3: 245, traffic: 7821, pages: 103, avgPos: 27.2, ctr: 2.5 },
+      { month: "Oct '25", keywords: 4567, top10: 498, top3: 312, traffic: 9456, pages: 118, avgPos: 25.1, ctr: 2.7 },
+      { month: "Nov '25", keywords: 6234, top10: 587, top3: 387, traffic: 10847, pages: 134, avgPos: 23.4, ctr: 2.8 },
+      { month: "Dec '25", keywords: 8234, top10: 672, top3: 468, traffic: 12456, pages: 147, avgPos: 21.9, ctr: 3.0 },
+    ],
+  },
+  impact: [
+    { label: "Organic Traffic Growth", value: "9,343%", growth: "From 132 to 12,456 monthly visitors" },
+    { label: "Healthcare Keywords Ranking", value: "8,200+", growth: "From 87 to 8,234 medical keywords" },
+    { label: "Featured Snippet Capture", value: "47", growth: "From 0 to 47 medical topics featured" },
+    { label: "Top 3 Search Rankings", value: "468", growth: "From 8 to 468 first-page rankings" },
+    { label: "New Patient Revenue Generated", value: "$156,400", growth: "134 new patients at $1,167 average value" },
+    { label: "Projected Patient Lifetime Value", value: "$468,000+", growth: "Based on 3.5-year retention periods" },
+  ],
+};

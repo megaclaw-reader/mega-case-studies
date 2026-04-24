@@ -106,6 +106,7 @@ CPL_RANGES = {
     "mortgage":          (20, 250),
     # Healthcare / medical
     "healthcare":        (20, 200),
+    "primary_care_and_internal_medicine_clinic": (50, 200),
     "telemedicine":      (15, 150),
     "mental_health":     (20, 350),
     "rehab_center":      (150, 450),
@@ -208,6 +209,8 @@ def _cpl_category(industry, model_key):
         ("health and wellness app", "health_and_wellness_app"),
         ("health & wellness app", "health_and_wellness_app"),
         ("peptide", "healthcare"),
+        ("primary care", "primary_care_and_internal_medicine_clinic"),
+        ("internal medicine", "primary_care_and_internal_medicine_clinic"),
         ("healthcare", "healthcare"), ("medical", "healthcare"),
         ("wellness", "healthcare"),
         ("sustainable luxury", "sustainable_luxury"),
@@ -300,6 +303,7 @@ DEAL_VALUE_RANGES = {
     "health_and_wellness_app": (5, 20),  # Monthly subscription value for consumer health apps
     "life_insurance": (500, 2000),
     "healthcare": (200, 5000),
+    "primary_care_and_internal_medicine_clinic": (300, 2000),
     "telemedicine": (80, 400),
     "mental_health": (100, 15000),
     "rehab_center": (8000, 35000),
