@@ -235,6 +235,7 @@ import { ecommercePet } from "./ecommerce-pet";
 import { homeDamageRestorationFlorida } from "./home-damage-restoration-florida";
 import { multiLocationMedspaSouthwest } from "./multi-location-medspa-southwest";
 import { beautyEcommerceNational } from "./beauty-ecommerce-national";
+import { primaryCareInternalMedicineTexas } from "./primary-care-internal-medicine-texas";
 
 export const caseStudies: Record<string, CaseStudyData> = {
   "alarm-surveillance-seo": alarmSurveillanceSeo,
@@ -472,6 +473,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "beauty-ecommerce-national": beautyEcommerceNational,
   "hair-products-ecommerce": hairProductsEcommerce,
   "retirement-planning-national": retirementPlanningNational,
+  "primary-care-internal-medicine-texas": primaryCareInternalMedicineTexas,
 };
 
 export type { CaseStudyData };
