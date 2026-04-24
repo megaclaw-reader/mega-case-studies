@@ -3,13 +3,13 @@ import { CaseStudyData } from "./types";
 export const visionCorrectionClinicFlorida: CaseStudyData = {
   slug: "vision-correction-clinic-florida",
   industry: "Vision Correction Clinic",
-  headline: "How a Florida Vision Correction Clinic Grew Qualified Leads 28% and Generated $225K in Revenue Over 7 Months",
+  headline: "How a Florida Vision Correction Clinic Grew Qualified Leads 28% and Generated $390K in Revenue Over 7 Months",
   subheadline: "AI-powered optimization and scaled content strategy delivered consistent lead growth for premium vision correction procedures",
   heroStats: [
     { value: "28", unit: "%", label: "Lead Growth" },
-    { value: "225", unit: "K", label: "Total Revenue" },
-    { value: "774", unit: "$", label: "Avg CPQL" },
-    { value: "3.7", unit: "x", label: "Blended ROAS" },
+    { value: "390", unit: "K", label: "Total Revenue" },
+    { value: "32", unit: "%", label: "Deal Conversion" },
+    { value: "6.5", unit: "x", label: "Blended ROAS" },
   ],
   tags: ["Paid Advertising", "SEO", "Local"],
   company: {
@@ -80,21 +80,22 @@ export const visionCorrectionClinicFlorida: CaseStudyData = {
     },
   ],
   paidAds: {
+    hiddenColumns: ["cpl", "cpql"],
     summary: [
       { label: "Total Ad Spend", value: "$60.4K" },
       { label: "Total Leads", value: "214" },
       { label: "Total Qualified Leads", value: "78" },
-      { label: "Total Procedures", value: "15" },
-      { label: "Blended ROAS", value: "3.73x" },
+      { label: "Total Procedures", value: "26" },
+      { label: "Blended ROAS", value: "6.46x" },
     ],
     monthly: [
-      { month: "Aug '25", spend: 7200, leads: 24, cpl: 300, qualified: 8, cpql: 900, deals: 1, revenue: 15000, roas: 2.08 },
-      { month: "Sep '25", spend: 7850, leads: 27, cpl: 291, qualified: 9, cpql: 872, deals: 2, revenue: 30000, roas: 3.82 },
-      { month: "Oct '25", spend: 8400, leads: 29, cpl: 290, qualified: 10, cpql: 840, deals: 2, revenue: 30000, roas: 3.57 },
-      { month: "Nov '25", spend: 8950, leads: 32, cpl: 280, qualified: 11, cpql: 814, deals: 2, revenue: 30000, roas: 3.35 },
-      { month: "Dec '25", spend: 9100, leads: 30, cpl: 303, qualified: 11, cpql: 827, deals: 2, revenue: 30000, roas: 3.30 },
-      { month: "Jan '26", spend: 9400, leads: 34, cpl: 276, qualified: 13, cpql: 723, deals: 3, revenue: 45000, roas: 4.79 },
-      { month: "Feb '26", spend: 9500, leads: 38, cpl: 250, qualified: 16, cpql: 594, deals: 3, revenue: 45000, roas: 4.74 },
+      { month: "Aug '25", spend: 7200, leads: 24, cpl: 300, qualified: 8, cpql: 900, deals: 3, revenue: 45000, roas: 6.25 },
+      { month: "Sep '25", spend: 7850, leads: 27, cpl: 291, qualified: 9, cpql: 872, deals: 3, revenue: 45000, roas: 5.73 },
+      { month: "Oct '25", spend: 8400, leads: 29, cpl: 290, qualified: 10, cpql: 840, deals: 3, revenue: 45000, roas: 5.36 },
+      { month: "Nov '25", spend: 8950, leads: 32, cpl: 280, qualified: 11, cpql: 814, deals: 4, revenue: 60000, roas: 6.70 },
+      { month: "Dec '25", spend: 9100, leads: 30, cpl: 303, qualified: 11, cpql: 827, deals: 4, revenue: 60000, roas: 6.59 },
+      { month: "Jan '26", spend: 9400, leads: 34, cpl: 276, qualified: 13, cpql: 723, deals: 4, revenue: 60000, roas: 6.38 },
+      { month: "Feb '26", spend: 9500, leads: 38, cpl: 250, qualified: 16, cpql: 594, deals: 5, revenue: 75000, roas: 7.89 },
     ],
   },
   seo: {
@@ -116,9 +117,9 @@ export const visionCorrectionClinicFlorida: CaseStudyData = {
   },
   impact: [
     { label: "Lead Growth", value: "28%", growth: "consistent increase over 7-month engagement" },
-    { label: "Total Revenue", value: "$225K", growth: "from 15 vision correction procedures completed" },
+    { label: "Total Revenue", value: "$390K", growth: "from 26 vision correction procedures completed" },
     { label: "Organic Traffic Growth", value: "375%", growth: "from 1,280 to 6,080 monthly visitors" },
     { label: "Keyword Rankings", value: "1,520", growth: "ranking keywords by month 7 (from 320)" },
-    { label: "Blended ROAS", value: "3.73x", growth: "strong return across all marketing channels" },
+    { label: "Blended ROAS", value: "6.5x", growth: "strong return across all marketing channels" },
   ],
 };
