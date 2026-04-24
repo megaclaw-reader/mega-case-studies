@@ -162,6 +162,10 @@
         "car_dealership": [
           5000,
           60000
+        ],
+        "vision_correction_clinic": [
+          10000,
+          20000
         ]
       }
     },
@@ -685,7 +689,8 @@
     "Hair Products": "ecommerce",
     "Retirement Planning": "wealth_management",
     "Financial Services / Retirement Planning": "wealth_management",
-    "Primary Care and Internal Medicine Clinic": "healthcare_medical"
+    "Primary Care and Internal Medicine Clinic": "healthcare_medical",
+    "Vision Correction Clinic": "lead_gen_services"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",

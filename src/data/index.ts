@@ -237,6 +237,7 @@ import { multiLocationMedspaSouthwest } from "./multi-location-medspa-southwest"
 import { beautyEcommerceNational } from "./beauty-ecommerce-national";
 import { primaryCareInternalMedicineFlorida } from "./primary-care-internal-medicine-florida";
 import { primaryCareInternalMedicineTexas } from "./primary-care-internal-medicine-texas";
+import { visionCorrectionClinicFlorida } from "./vision-correction-clinic-florida";
 
 export const caseStudies: Record<string, CaseStudyData> = {
   "alarm-surveillance-seo": alarmSurveillanceSeo,
@@ -476,6 +477,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "retirement-planning-national": retirementPlanningNational,
   "primary-care-internal-medicine-florida": primaryCareInternalMedicineFlorida,
   "primary-care-internal-medicine-texas": primaryCareInternalMedicineTexas,
+  "vision-correction-clinic-florida": visionCorrectionClinicFlorida,
 };
 
 export type { CaseStudyData };
