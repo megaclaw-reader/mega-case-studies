@@ -693,7 +693,8 @@
     "Vision Correction Clinic": "lead_gen_services",
     "Medical Devices & Diagnostics": "lead_gen_professional",
     "Travel Tours": "lead_gen_services",
-    "Restaurant and Events": "lead_gen_services"
+    "Restaurant and Events": "lead_gen_services",
+    "Health Insurance": "lead_gen_professional"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",

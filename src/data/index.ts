@@ -48,6 +48,7 @@ import { vacationRental } from "./vacation-rental";
 import { boutiqueSkincareWellness } from "./boutique-skincare-wellness";
 import { functionalMedicineClinic } from "./functional-medicine-clinic";
 import { logisticsSupplyChain } from "./logistics-supply-chain";
+import { healthInsuranceVermontData } from "./health-insurance-vermont";
 import { insuranceArizona } from "./insurance-arizona";
 import { hairProductsEcommerce } from "./hair-products-ecommerce";
 import { probiotics } from "./probiotics";
@@ -295,6 +296,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "real-estate-newsletter": realEstateNewsletter,
   "car-parts-nj": carPartsNj,
   "health-wellness": healthWellness,
+  "health-insurance-vermont": healthInsuranceVermontData,
   "health-wellness-app": healthWellnessApp,
   "mortgage-real-estate-columbus": mortgageRealEstateColumbus,
   "education-chicago": educationChicago,
