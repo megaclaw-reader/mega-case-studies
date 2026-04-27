@@ -95,6 +95,7 @@ CPL_RANGES = {
     "healthcare_b2b_app": (150, 400),
     "logistics":         (100, 450),
     "healthcare_equip":  (30, 1500),
+    "medical_devices_&_diagnostics": (200, 800),
     "private_membership_club": (80, 300),
     "life_insurance":    (40, 350),
     # Wealth management / financial
@@ -191,6 +192,7 @@ def _cpl_category(industry, model_key):
         ("exterior", "building_materials"), ("membrane", "building_materials"),
         ("healthcare b2b", "healthcare_b2b_app"),
         ("dental medtech", "healthcare_equip"), ("healthcare equip", "healthcare_equip"), ("medical device", "healthcare_equip"),
+        ("medical devices & diagnostics", "medical_devices_&_diagnostics"),
         ("wealth", "wealth_mgmt"), ("venture capital", "venture_capital"),
         ("fintech", "financial_services"),
         ("financial", "financial_services"),
@@ -300,6 +302,7 @@ DEAL_VALUE_RANGES = {
     "construction": (10000, 200000),
     "building_materials": (2000, 50000),
     "healthcare_equip": (5000, 100000),
+    "medical_devices_&_diagnostics": (25000, 100000),
     "health_and_wellness_app": (5, 20),  # Monthly subscription value for consumer health apps
     "life_insurance": (500, 2000),
     "healthcare": (200, 5000),
