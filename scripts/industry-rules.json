@@ -691,7 +691,8 @@
     "Financial Services / Retirement Planning": "wealth_management",
     "Primary Care and Internal Medicine Clinic": "healthcare_medical",
     "Vision Correction Clinic": "lead_gen_services",
-    "Medical Devices & Diagnostics": "lead_gen_professional"
+    "Medical Devices & Diagnostics": "lead_gen_professional",
+    "Travel Tours": "lead_gen_services"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",
