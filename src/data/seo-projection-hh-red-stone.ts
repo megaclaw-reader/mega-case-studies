@@ -13,15 +13,15 @@ export const seoProjectionHhRedStone: CaseStudyData = {
   tags: ["SEO Projection", "Local SEO", "Multi-Market Strategy", "Student Housing"],
   company: {
     industry: "Property Management — Student Housing & Multifamily",
-    employees: "50-100",
-    revenue: "$5M–$10M (est.)",
-    location: "11 Markets: Baltimore, Ithaca, Riverside, Savannah, Kansas City, Philadelphia, Washington DC, Champaign, New Haven, Newark DE, San Diego",
-    description: "A third-party student housing and property management company operating across 11 university markets nationwide. The company specializes in off-campus student housing operations, lease-up support, and owner-aligned property management for multifamily assets near major universities. Despite managing a significant portfolio across diverse markets — from Ivy League towns to major metros — their digital presence doesn't reflect their operational footprint. With an authority score of 17, just 78 organic keywords, and approximately 235 monthly organic visitors, the website is drastically underperforming relative to the company's size and market reach. Notably, the domain has 411 referring domains and 3,100+ backlinks — significant link equity that isn't being leveraged through content or technical optimization. This projection report analyzes the current state, identifies the total addressable search opportunity across all 11 markets, and projects what a 12-month SEO engagement with MEGA AI would deliver.",
+    employees: "19+ properties across 8+ markets",
+    revenue: "10,000+ units under management",
+    location: "Baltimore MD, Ithaca NY, Riverside CA, Savannah GA, Kansas City MO, Philadelphia PA, Washington DC, Champaign IL, New Haven CT, Newark DE, San Diego CA",
+    description: "HH Red Stone (Red Stone Properties LLC) is a nationwide student housing and property management company managing over 10,000 units across multiple university markets (source: hhredstone.com). The company operates 19+ named properties near major universities including Johns Hopkins, Cornell, Ithaca College, UC Riverside, SCAD, UIUC, UPenn, Drexel, Howard, Gallaudet, KCU, and UMKC (source: hhredstone.com/portfolio). HH Red Stone specializes in off-campus student housing, luxury apartments, lease-up support, and third-party management for multifamily conventional properties — describing itself as 'one of the fastest-growing management companies in the nation for off-campus student housing and luxury apartments' (source: hhredstone.com homepage). Despite this substantial real-world footprint, their digital presence tells a different story. With an authority score of 17, just 78 organic keywords, and approximately 235 monthly organic visitors (source: Semrush, April 2026), the website is drastically underperforming. The domain has 411 referring domains and 3,100+ backlinks — significant link equity that isn't translating into search visibility due to a lack of content and technical optimization.",
   },
   challenges: [
     {
       title: "Current State: Massive Gap Between Link Equity and Organic Performance",
-      description: "The domain currently ranks for just 78 organic keywords and generates approximately 235 monthly organic sessions — flat in the 100–350 range since June 2024. Yet the site has 411 referring domains and 3,100+ backlinks, which represents substantial link equity that most competitors would envy. An authority score of 17 despite this backlink profile strongly suggests technical SEO issues preventing the site from leveraging its existing authority: likely crawlability problems, thin or duplicate content, poor internal linking, missing structured data, and suboptimal page architecture. The site is essentially sitting on a foundation of link equity with no content structure built on top of it.",
+      description: "According to Semrush data (April 2026), the domain currently ranks for just 78 organic keywords and generates approximately 235 monthly organic sessions — flat in the 100–350 range since June 2024. Yet the site has 411 referring domains and 3,100+ backlinks, which represents substantial link equity that most competitors would envy. An authority score of 17 despite this backlink profile strongly suggests technical SEO issues preventing the site from leveraging its existing authority: likely crawlability problems, thin or duplicate content, poor internal linking, missing structured data, and suboptimal page architecture. The site is essentially sitting on a foundation of link equity with no content structure built on top of it.",
     },
     {
       title: "11 University Markets With Near-Zero Local Visibility",
@@ -56,7 +56,7 @@ export const seoProjectionHhRedStone: CaseStudyData = {
       title: "Content Acceleration & Programmatic SEO",
       items: [
         "Launch programmatic SEO engine — 11 markets × 7 services = 77 location-service combination pages (e.g., 'student housing management Baltimore,' 'off-campus housing operations Ithaca,' 'lease-up support San Diego')",
-        "Publish 36 university-specific content pieces — 'off-campus housing near [University Name]' guides for top 2–3 universities in each market (Johns Hopkins, Cornell, UC Riverside, SCAD, UMKC, UPenn/Temple, Georgetown/GWU, UIUC, Yale, UD, UCSD)",
+        "Publish 36 university-specific content pieces — 'off-campus housing near [University Name]' guides for the universities near each property (Johns Hopkins, Morgan State, MICA, University of Baltimore in Baltimore; Cornell and Ithaca College in Ithaca; UC Riverside; SCAD, Georgia Southern, Savannah State in Savannah; KCU and UMKC in Kansas City; UPenn, Drexel, University of the Sciences in Philadelphia; Howard and Gallaudet in DC; UIUC in Champaign — plus target universities in New Haven, Newark DE, and San Diego)",
         "Seasonal lease-up content strategy — publish guides aligned with student housing search cycles (spring lease-up, fall move-in, summer subletting) targeting high-intent seasonal keywords",
         "Blog content production — 12 articles/month covering property management thought leadership, student housing market trends, owner education content, and university housing market reports",
         "Local citation building at scale — submit to 40+ property management directories, university housing databases, and local business directories per market",
@@ -174,7 +174,7 @@ export const seoProjectionHhRedStone: CaseStudyData = {
     ],
   },
   keywordOpportunities: {
-    intro: "We analyzed the highest-value keywords across HH Red Stone's core services and markets. Below are the top opportunities ranked by a combination of search volume, business relevance, and ranking feasibility — showing exactly where the upside is and what it takes to get there.",
+    intro: "We analyzed the highest-value keywords across HH Red Stone's core services and markets using industry search data. Below are the top opportunities ranked by search volume, business relevance, and ranking feasibility — showing where the upside is and what it takes to get there. Volume and difficulty estimates are based on current search trends and will be validated with live tools during onboarding.",
     keywords: [
       {
         keyword: "student housing management companies",
