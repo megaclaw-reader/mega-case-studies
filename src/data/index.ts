@@ -227,6 +227,7 @@ import { lifeInsuranceChicago } from "./life-insurance-chicago";
 import { carDealership } from "./car-dealership";
 import { medspa as medspaScottsdale } from "./medspa";
 import { fitnessEquipmentPhoenix } from "./fitness-equipment";
+import { fitnessWeightLossCoachArizona } from "./fitness-weight-loss-coach-arizona";
 import { travelServices } from "./travel-services";
 import { personalCareBeauty } from "./personal-care-beauty";
 import { plasticSurgery } from "./plastic-surgery";
@@ -454,6 +455,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "car-dealership": carDealership,
   "medspa": medspaScottsdale,
   "fitness-equipment": fitnessEquipmentPhoenix,
+  "fitness-weight-loss-coach-arizona": fitnessWeightLossCoachArizona,
   "travel-services": travelServices,
   "personal-care-beauty": personalCareBeauty,
   "entertainment-events": entertainmentEvents,
