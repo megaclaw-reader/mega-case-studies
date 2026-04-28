@@ -100,6 +100,7 @@ CPL_RANGES = {
     "medical_devices_&_diagnostics": (200, 800),
     "private_membership_club": (80, 300),
     "life_insurance":    (40, 350),
+    "b2b_language_services": (150, 400),
     # Wealth management / financial
     "wealth_mgmt":       (100, 2500),
     "financial_services": (75, 1500),
@@ -187,6 +188,7 @@ def _cpl_category(industry, model_key):
         ("cyber", "cybersecurity"),
         ("staff", "recruiting"), ("recruit", "recruiting"),
         ("business coach", "coaching"), ("coach", "coaching"),
+        ("language services", "b2b_language_services"), ("translation", "b2b_language_services"), ("localization", "b2b_language_services"), ("interpretation", "b2b_language_services"),
         ("safety training", "safety_training"), ("osha", "safety_training"),
         ("educat", "education"),
         ("internet service", "isp"),
@@ -311,6 +313,7 @@ DEAL_VALUE_RANGES = {
     "medical_devices_&_diagnostics": (25000, 100000),
     "health_and_wellness_app": (5, 20),  # Monthly subscription value for consumer health apps
     "life_insurance": (500, 2000),
+    "b2b_language_services": (5000, 50000),
     "healthcare": (200, 5000),
     "primary_care_and_internal_medicine_clinic": (300, 2000),
     "telemedicine": (80, 400),

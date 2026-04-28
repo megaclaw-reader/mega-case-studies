@@ -248,6 +248,10 @@
         "healthcare_b2b_app": [
           15000,
           50000
+        ],
+        "b2b_language_services": [
+          5000,
+          50000
         ]
       }
     },
@@ -694,7 +698,8 @@
     "Medical Devices & Diagnostics": "lead_gen_professional",
     "Travel Tours": "lead_gen_services",
     "Restaurant and Events": "lead_gen_services",
-    "Health Insurance": "lead_gen_professional"
+    "Health Insurance": "lead_gen_professional",
+    "B2B Language Services": "lead_gen_professional"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",

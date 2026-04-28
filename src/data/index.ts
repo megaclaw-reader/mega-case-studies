@@ -18,6 +18,7 @@ import { entertainmentEventsNyc } from "./entertainment-events-nyc";
 import { diseasePreventionClinic } from "./disease-prevention-clinic";
 import { rehabCenter } from "./rehab-center";
 import { educationTraining } from "./education-training";
+import { b2bLanguageServices } from "./b2b-language-services";
 import { b2bSaasEnterprise } from "./b2b-saas-enterprise";
 import { estatePlanningLaw } from "./estate-planning-law";
 import { outdoorLightingData } from "./outdoor-lighting";
@@ -444,6 +445,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "disaster-recovery-north-carolina": disasterRecoveryNorthCarolina,
   "med-spa-seo-new-york": medSpaSeoNewYork,
   "education-training": educationTraining,
+  "b2b-language-services": b2bLanguageServices,
   "b2b-saas-enterprise": b2bSaasEnterprise,
   "car-dealership": carDealership,
   "medspa": medspaScottsdale,
