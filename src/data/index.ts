@@ -244,6 +244,7 @@ import { medicalDevicesDiagnostics } from "./medical-devices-diagnostics";
 import { visionCorrectionClinicFlorida } from "./vision-correction-clinic-florida";
 import { plumbingSanDiego } from "./plumbing-san-diego";
 import travelToursData from "./travel-tours";
+import { customHomeBuildingTennessee } from "./custom-home-building-tennessee";
 
 export const caseStudies: Record<string, CaseStudyData> = {
   "alarm-surveillance-seo": alarmSurveillanceSeo,
@@ -411,6 +412,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "vacation-rental": vacationRental,
   "boutique-skincare-wellness": boutiqueSkincareWellness,
   "premium-candle-home-fragrance": premiumCandleHomeFragrance,
+  "custom-home-building-tennessee": customHomeBuildingTennessee,
   "custom-vehicle-manufacturing": customVehicleManufacturing,
   "sports-nutrition-arizona": sportsNutritionArizona,
   "cosmetic-dentistry-austin": cosmeticDentistryAustin,

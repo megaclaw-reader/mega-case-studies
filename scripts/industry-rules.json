@@ -700,7 +700,8 @@
     "Restaurant and Events": "lead_gen_services",
     "Health Insurance": "lead_gen_professional",
     "B2B Language Services": "lead_gen_professional",
-    "Residential and Commercial Plumbing": "lead_gen_services"
+    "Residential and Commercial Plumbing": "lead_gen_services",
+    "Residential Home Building (Custom Homes)": "lead_gen_services"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",
