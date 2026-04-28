@@ -83,5 +83,19 @@ export interface CaseStudyData {
     }[];
     sources: { source: string; percentage: number; leads: number }[];
   };
+  keywordOpportunities?: {
+    intro?: string;
+    keywords: {
+      keyword: string;
+      monthlyVolume: number;
+      difficulty: number;          // 0-100
+      difficultyLabel: string;     // "Easy" | "Medium" | "Hard" | "Very Hard"
+      currentRank: string;         // e.g. "Not Ranking", "#47", etc.
+      projectedRank: string;       // e.g. "Top 5", "Top 10"
+      projectedTimeframe: string;  // e.g. "3-4 months", "6-8 months"
+      estimatedTraffic: number;    // monthly traffic if ranked
+      note?: string;               // brief upside note
+    }[];
+  };
   impact: { label: string; value: string; growth: string }[];
 }

@@ -9,6 +9,7 @@ import SeoPerformance from "./SeoPerformance";
 import PaidAdsPerformance from "./PaidAdsPerformance";
 import LocalSeoPerformance from "./LocalSeoPerformance";
 import OrganicConversions from "./OrganicConversions";
+import KeywordOpportunities from "./KeywordOpportunities";
 import BusinessImpact from "./BusinessImpact";
 import BeforeAfterComparison from "./BeforeAfterComparison";
 import PressAndBackers from "./PressAndBackers";
@@ -23,6 +24,7 @@ export default function CaseStudyPage({ data }: { data: CaseStudyData }) {
         <BeforeAfterComparison data={data} />
         <Challenge data={data} />
         <Strategy data={data} />
+        {data.keywordOpportunities && <KeywordOpportunities data={data} />}
         {data.seo && <SeoPerformance data={data} />}
         {data.localSeo && <LocalSeoPerformance data={data} />}
         {data.organicConversions && <OrganicConversions data={data} />}
