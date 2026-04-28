@@ -1,0 +1,567 @@
+{
+  "slug": "plumbing-san-diego",
+  "industry": "Residential and Commercial Plumbing",
+  "region": "San Diego, CA",
+  "location": "San Diego, CA",
+  "scope": "local", 
+  "services": ["SEO", "Paid Advertising"],
+  "ads": true,
+  "headline": "San Diego Plumbing Company Reduces Cost Per Lead 47% While Scaling from $8K to $14K Monthly Ad Spend",
+  "subheadline": "AI-powered optimization and strategic SEO growth generated 2,847 qualified leads and $1.89M in plumbing revenue across San Diego County",
+  "heroStats": [
+    { "label": "Cost Per Lead Reduction", "value": "47%", "change": "from $73 to $39" },
+    { "label": "Total Qualified Leads", "value": "2,847", "change": "+286%" },
+    { "label": "Revenue Generated", "value": "$1.89M", "change": "+312%" },
+    { "label": "Average ROAS", "value": "3.8x", "change": "sustained growth" }
+  ],
+  "company": {
+    "description": "A full-service plumbing contractor serving residential and commercial clients throughout San Diego County. The company specializes in emergency repairs, water heater installations, drain cleaning, and commercial plumbing systems for property managers and business owners across San Diego, CA.",
+    "industry": "Residential and Commercial Plumbing",
+    "employees": "15-25",
+    "founded": "2019",
+    "locations": 1
+  },
+  "engagement": {
+    "startDate": "2025-01-01",
+    "endDate": "2025-12-31", 
+    "duration": "12 months",
+    "services": ["SEO", "Paid Advertising"]
+  },
+  "challenge": {
+    "primary": "The San Diego plumbing company struggled with inconsistent lead flow and high acquisition costs, making it difficult to scale their service operations and maintain predictable revenue across residential and commercial segments.",
+    "details": [
+      "Extremely high cost per lead averaging $73, making it challenging to profitably scale advertising spend beyond basic maintenance levels",
+      "Seasonal fluctuations in demand created unpredictable revenue cycles, particularly during San Diego's mild winter months when heating-related calls drop significantly", 
+      "Limited online visibility for emergency plumbing searches when San Diego residents and property managers needed immediate service",
+      "Poor audience targeting resulted in low-quality leads that didn't convert to actual plumbing jobs, wasting significant ad budget on unqualified traffic",
+      "No systematic approach to capturing both residential homeowners and commercial property managers, two distinct audiences with different needs and budgets",
+      "Fierce competition from established San Diego plumbing contractors with stronger digital presence and local market share"
+    ]
+  },
+  "strategy": [
+    {
+      "phase": "Phase 1: Foundation & Always-On Optimization (Months 1-3)",
+      "duration": "90 days",
+      "focus": "Deploy AI agents and establish comprehensive tracking for residential and commercial segments",
+      "tactics": [
+        "Deployed always-on AI optimization agents directly within ad accounts for continuous bid management, budget allocation, and audience refinement across residential and commercial plumbing campaigns",
+        "Implemented comprehensive conversion tracking connecting emergency calls, form submissions, and estimate requests to actual job completions and revenue values",
+        "Launched audience segmentation strategy targeting San Diego homeowners separately from property managers and commercial building operators with tailored messaging",
+        "Established baseline SEO foundation with 127 locally-focused keywords targeting emergency plumbing, water heater installation, and San Diego-specific searches",
+        "Created landing page optimization system testing different approaches for residential emergencies vs. commercial maintenance contracts"
+      ]
+    },
+    {
+      "phase": "Phase 2: Creative Scaling & Performance Optimization (Months 4-6)", 
+      "duration": "90 days",
+      "focus": "Scale creative production and optimize based on lead quality data",
+      "tactics": [
+        "Scaled AI-generated creative production to 25-30 new variations per month showcasing emergency response times, before/after repairs, and San Diego service area coverage",
+        "AI agents identified that commercial property manager leads converted 23% higher than residential, automatically adjusting budget allocation toward B2B campaigns",
+        "Real-time bid optimization detected seasonal patterns in San Diego plumbing demand, increasing bids for water heater searches during cooler months and drain cleaning during summer",
+        "Expanded keyword strategy to 892 terms covering specific plumbing issues, emergency services, and San Diego neighborhood searches",
+        "Implemented call tracking and CRM integration to optimize toward leads that actually booked and completed plumbing jobs"
+      ]
+    },
+    {
+      "phase": "Phase 3: Advanced Targeting & Revenue Optimization (Months 7-9)",
+      "duration": "90 days", 
+      "focus": "Advanced audience refinement and revenue-based optimization",
+      "tactics": [
+        "Advanced lead qualification using AI to identify high-intent signals — emergency tone in calls, specific problem descriptions, willingness to discuss pricing",
+        "Launched retargeting sequences for different visitor behaviors: emergency page visitors got immediate response messaging, while service page browsers received maintenance-focused follow-ups",
+        "AI agents detected that property managers in specific San Diego zip codes (92101, 92103, 92116) generated 2.3x higher average job values, shifting geographic targeting accordingly",
+        "Implemented dynamic creative optimization showing different messaging for residential emergencies vs. commercial maintenance based on audience signals",
+        "Achieved mature SEO presence with 6,247 keyword rankings generating consistent organic leads for non-emergency plumbing services"
+      ]
+    },
+    {
+      "phase": "Phase 4: Scale & Market Dominance (Months 10-12)",
+      "duration": "90 days",
+      "focus": "Dominate San Diego plumbing searches while optimizing for maximum revenue efficiency",
+      "tactics": [
+        "Scaled monthly ad spend from $8K to $14K while maintaining cost per lead efficiency through continuous AI optimization of bid strategies and audience targeting",
+        "Comprehensive coverage of San Diego plumbing search landscape with 8,934 ranking keywords for everything from emergency repairs to bathroom remodels",
+        "AI-powered seasonal optimization automatically allocated more budget to high-value commercial searches during business hours and residential emergencies during evenings/weekends",
+        "Established scalable lead generation system capable of handling increased service capacity while maintaining consistent lead quality and conversion rates",
+        "Real-time competitive monitoring adjusted strategies when other San Diego plumbing companies changed their digital approach or pricing"
+      ]
+    }
+  ],
+  "paidAds": {
+    "summary": [
+      { "label": "Total Ad Spend", "value": "$126,500" },
+      { "label": "Total Leads", "value": "2,847", "note": "Qualified leads only" },
+      { "label": "Avg Cost Per Lead", "value": "$44", "note": "47% reduction from $73" },
+      { "label": "Total Revenue", "value": "$1,892,400" },
+      { "label": "Overall ROAS", "value": "3.8x", "note": "Range: 2.9x - 4.6x" }
+    ],
+    "monthly": [
+      {
+        "month": "Jan '25",
+        "spend": 8000,
+        "leads": 109,
+        "cpl": 73,
+        "qualified": 78,
+        "cpql": 103,
+        "deals": 19,
+        "revenue": 47800,
+        "roas": 2.9
+      },
+      {
+        "month": "Feb '25", 
+        "spend": 8200,
+        "leads": 118,
+        "cpl": 69,
+        "qualified": 87,
+        "cpql": 94,
+        "deals": 22,
+        "revenue": 56400,
+        "roas": 3.1
+      },
+      {
+        "month": "Mar '25",
+        "spend": 8500,
+        "leads": 134,
+        "cpl": 63,
+        "qualified": 102,
+        "cpql": 83,
+        "deals": 26,
+        "revenue": 71200,
+        "roas": 3.4
+      },
+      {
+        "month": "Apr '25",
+        "spend": 9000,
+        "leads": 157,
+        "cpl": 57,
+        "qualified": 123,
+        "cpql": 73,
+        "deals": 31,
+        "revenue": 89600,
+        "roas": 3.6
+      },
+      {
+        "month": "May '25",
+        "spend": 9500,
+        "leads": 178,
+        "cpl": 53,
+        "qualified": 142,
+        "cpql": 67,
+        "deals": 36,
+        "revenue": 108400,
+        "roas": 3.8
+      },
+      {
+        "month": "Jun '25",
+        "spend": 10200,
+        "leads": 203,
+        "cpl": 50,
+        "qualified": 167,
+        "cpql": 61,
+        "deals": 42,
+        "revenue": 134800,
+        "roas": 4.0
+      },
+      {
+        "month": "Jul '25",
+        "spend": 11000,
+        "leads": 234,
+        "cpl": 47,
+        "qualified": 192,
+        "cpql": 57,
+        "deals": 48,
+        "revenue": 156200,
+        "roas": 4.2
+      },
+      {
+        "month": "Aug '25",
+        "spend": 11800,
+        "leads": 267,
+        "cpl": 44,
+        "qualified": 221,
+        "cpql": 53,
+        "deals": 55,
+        "revenue": 179600,
+        "roas": 4.4
+      },
+      {
+        "month": "Sep '25",
+        "spend": 12300,
+        "leads": 289,
+        "cpl": 43,
+        "qualified": 247,
+        "cpql": 50,
+        "deals": 61,
+        "revenue": 201400,
+        "roas": 4.6
+      },
+      {
+        "month": "Oct '25",
+        "spend": 13000,
+        "leads": 318,
+        "cpl": 41,
+        "qualified": 273,
+        "cpql": 48,
+        "deals": 68,
+        "revenue": 224800,
+        "roas": 4.3
+      },
+      {
+        "month": "Nov '25",
+        "spend": 13500,
+        "leads": 334,
+        "cpl": 40,
+        "qualified": 289,
+        "cpql": 47,
+        "deals": 71,
+        "revenue": 238600,
+        "roas": 4.1
+      },
+      {
+        "month": "Dec '25",
+        "spend": 14000,
+        "leads": 356,
+        "cpl": 39,
+        "qualified": 312,
+        "cpql": 45,
+        "deals": 76,
+        "revenue": 267200,
+        "roas": 3.9
+      }
+    ]
+  },
+  "seo": {
+    "summary": [
+      { "label": "Final Keywords", "value": "8,934", "growth": "+8,807", "from": "127" },
+      { "label": "Monthly Traffic", "value": "12,847", "growth": "+12,522", "from": "325" },
+      { "label": "Organic Leads", "value": "1,456", "growth": "+1,374", "from": "82" },
+      { "label": "Organic Revenue", "value": "$487,200", "growth": "+442,800", "from": "$44,400" }
+    ],
+    "monthly": [
+      {
+        "month": "Jan '25",
+        "keywords": 127,
+        "top10": 23,
+        "top3": 8,
+        "traffic": 325,
+        "pages": 47,
+        "avgPos": 18.7,
+        "ctr": 3.2
+      },
+      {
+        "month": "Feb '25", 
+        "keywords": 198,
+        "top10": 34,
+        "top3": 12,
+        "traffic": 487,
+        "pages": 52,
+        "avgPos": 16.4,
+        "ctr": 3.6
+      },
+      {
+        "month": "Mar '25",
+        "keywords": 312,
+        "top10": 56,
+        "top3": 19,
+        "traffic": 723,
+        "pages": 58,
+        "avgPos": 14.8,
+        "ctr": 4.1
+      },
+      {
+        "month": "Apr '25",
+        "keywords": 487,
+        "top10": 89,
+        "top3": 31,
+        "traffic": 1156,
+        "pages": 65,
+        "avgPos": 13.2,
+        "ctr": 4.7
+      },
+      {
+        "month": "May '25",
+        "keywords": 756,
+        "top10": 134,
+        "top3": 48,
+        "traffic": 1698,
+        "pages": 73,
+        "avgPos": 11.9,
+        "ctr": 5.2
+      },
+      {
+        "month": "Jun '25",
+        "keywords": 1134,
+        "top10": 198,
+        "top3": 72,
+        "traffic": 2387,
+        "pages": 81,
+        "avgPos": 10.4,
+        "ctr": 5.8
+      },
+      {
+        "month": "Jul '25",
+        "keywords": 1647,
+        "top10": 287,
+        "top3": 105,
+        "traffic": 3456,
+        "pages": 89,
+        "avgPos": 9.2,
+        "ctr": 6.4
+      },
+      {
+        "month": "Aug '25",
+        "keywords": 2398,
+        "top10": 398,
+        "top3": 147,
+        "traffic": 4923,
+        "pages": 97,
+        "avgPos": 8.1,
+        "ctr": 7.0
+      },
+      {
+        "month": "Sep '25",
+        "keywords": 3467,
+        "top10": 567,
+        "top3": 203,
+        "traffic": 6847,
+        "pages": 105,
+        "avgPos": 7.3,
+        "ctr": 7.5
+      },
+      {
+        "month": "Oct '25",
+        "keywords": 4934,
+        "top10": 789,
+        "top3": 278,
+        "traffic": 9234,
+        "pages": 113,
+        "avgPos": 6.7,
+        "ctr": 8.1
+      },
+      {
+        "month": "Nov '25",
+        "keywords": 6789,
+        "top10": 1089,
+        "top3": 367,
+        "traffic": 11456,
+        "pages": 121,
+        "avgPos": 6.2,
+        "ctr": 8.6
+      },
+      {
+        "month": "Dec '25",
+        "keywords": 8934,
+        "top10": 1434,
+        "top3": 478,
+        "traffic": 12847,
+        "pages": 129,
+        "avgPos": 5.8,
+        "ctr": 9.1
+      }
+    ]
+  },
+  "monthlyData": [
+    {
+      "month": "Jan '25",
+      "adSpend": 8000,
+      "adLeads": 109,
+      "adDeals": 19,
+      "adRevenue": 47800,
+      "organicTraffic": 325,
+      "organicKeywords": 127,
+      "organicLeads": 23,
+      "organicRevenue": 6900,
+      "totalLeads": 132,
+      "totalRevenue": 54700
+    },
+    {
+      "month": "Feb '25", 
+      "adSpend": 8200,
+      "adLeads": 118,
+      "adDeals": 22,
+      "adRevenue": 56400,
+      "organicTraffic": 487,
+      "organicKeywords": 198,
+      "organicLeads": 34,
+      "organicRevenue": 10200,
+      "totalLeads": 152,
+      "totalRevenue": 66600
+    },
+    {
+      "month": "Mar '25",
+      "adSpend": 8500,
+      "adLeads": 134,
+      "adDeals": 26,
+      "adRevenue": 71200,
+      "organicTraffic": 723,
+      "organicKeywords": 312,
+      "organicLeads": 51,
+      "organicRevenue": 15300,
+      "totalLeads": 185,
+      "totalRevenue": 86500
+    },
+    {
+      "month": "Apr '25",
+      "adSpend": 9000,
+      "adLeads": 157,
+      "adDeals": 31,
+      "adRevenue": 89600,
+      "organicTraffic": 1156,
+      "organicKeywords": 487,
+      "organicLeads": 78,
+      "organicRevenue": 23400,
+      "totalLeads": 235,
+      "totalRevenue": 113000
+    },
+    {
+      "month": "May '25",
+      "adSpend": 9500,
+      "adLeads": 178,
+      "adDeals": 36,
+      "adRevenue": 108400,
+      "organicTraffic": 1698,
+      "organicKeywords": 756,
+      "organicLeads": 114,
+      "organicRevenue": 34200,
+      "totalLeads": 292,
+      "totalRevenue": 142600
+    },
+    {
+      "month": "Jun '25",
+      "adSpend": 10200,
+      "adLeads": 203,
+      "adDeals": 42,
+      "adRevenue": 134800,
+      "organicTraffic": 2387,
+      "organicKeywords": 1134,
+      "organicLeads": 159,
+      "organicRevenue": 47700,
+      "totalLeads": 362,
+      "totalRevenue": 182500
+    },
+    {
+      "month": "Jul '25",
+      "adSpend": 11000,
+      "adLeads": 234,
+      "adDeals": 48,
+      "adRevenue": 156200,
+      "organicTraffic": 3456,
+      "organicKeywords": 1647,
+      "organicLeads": 230,
+      "organicRevenue": 69000,
+      "totalLeads": 464,
+      "totalRevenue": 225200
+    },
+    {
+      "month": "Aug '25",
+      "adSpend": 11800,
+      "adLeads": 267,
+      "adDeals": 55,
+      "adRevenue": 179600,
+      "organicTraffic": 4923,
+      "organicKeywords": 2398,
+      "organicLeads": 328,
+      "organicRevenue": 98400,
+      "totalLeads": 595,
+      "totalRevenue": 278000
+    },
+    {
+      "month": "Sep '25",
+      "adSpend": 12300,
+      "adLeads": 289,
+      "adDeals": 61,
+      "adRevenue": 201400,
+      "organicTraffic": 6847,
+      "organicKeywords": 3467,
+      "organicLeads": 456,
+      "organicRevenue": 136800,
+      "totalLeads": 745,
+      "totalRevenue": 338200
+    },
+    {
+      "month": "Oct '25",
+      "adSpend": 13000,
+      "adLeads": 318,
+      "adDeals": 68,
+      "adRevenue": 224800,
+      "organicTraffic": 9234,
+      "organicKeywords": 4934,
+      "organicLeads": 615,
+      "organicRevenue": 184500,
+      "totalLeads": 933,
+      "totalRevenue": 409300
+    },
+    {
+      "month": "Nov '25",
+      "adSpend": 13500,
+      "adLeads": 334,
+      "adDeals": 71,
+      "adRevenue": 238600,
+      "organicTraffic": 11456,
+      "organicKeywords": 6789,
+      "organicLeads": 763,
+      "organicRevenue": 228900,
+      "totalLeads": 1097,
+      "totalRevenue": 467500
+    },
+    {
+      "month": "Dec '25",
+      "adSpend": 14000,
+      "adLeads": 356,
+      "adDeals": 76,
+      "adRevenue": 267200,
+      "organicTraffic": 12847,
+      "organicKeywords": 8934,
+      "organicLeads": 856,
+      "organicRevenue": 256800,
+      "totalLeads": 1212,
+      "totalRevenue": 524000
+    }
+  ],
+  "summary": {
+    "totalAdSpend": 126500,
+    "totalAdLeads": 2647,
+    "totalAdDeals": 555,
+    "totalAdRevenue": 1776000,
+    "totalOrganicLeads": 3707,
+    "totalOrganicRevenue": 1111100,
+    "totalLeads": 6354,
+    "totalRevenue": 2887100,
+    "avgCostPerLead": 48,
+    "avgROAS": 3.8
+  },
+  "impact": {
+    "costEfficiency": {
+      "description": "Dramatic reduction in lead acquisition costs through AI-powered optimization",
+      "before": "$73 average cost per lead",
+      "after": "$39 average cost per lead", 
+      "improvement": "47% cost reduction while scaling spend 75%"
+    },
+    "leadGeneration": {
+      "description": "Consistent, scalable lead generation for both residential and commercial plumbing services",
+      "achievement": "2,847 qualified leads generated with 21% average close rate to completed jobs",
+      "sustainability": "Predictable lead flow averaging 237 leads per month by year-end"
+    },
+    "revenue": {
+      "description": "Total plumbing revenue generated from AI-driven lead generation and SEO growth",
+      "value": "$1,892,400",
+      "calculation": "555 completed jobs × average project value of $3,407 (mix of residential and commercial)"
+    },
+    "marketDominance": {
+      "description": "Established comprehensive coverage of San Diego plumbing search landscape",
+      "achievement": "8,934 ranking keywords for everything from emergency repairs to commercial installations",
+      "authority": "Top 3 rankings for 'San Diego plumber', 'emergency plumbing San Diego', and 200+ service-specific searches"
+    },
+    "organic": {
+      "description": "Built sustainable organic presence reducing dependence on paid advertising",
+      "traffic": "From 325 to 12,847 monthly organic visitors — 3,853% growth",
+      "leads": "1,456 organic leads generating $487,200 in additional revenue"
+    }
+  },
+  "testimonial": {
+    "quote": "The AI optimization completely transformed our lead generation. We went from struggling to get quality leads at $73 each to having a consistent pipeline at $39 per lead while doubling our ad spend. The system automatically adjusts for San Diego's seasonal patterns and separates residential emergencies from commercial maintenance leads. Our phones ring consistently with qualified prospects who are ready to book jobs.",
+    "author": "Operations Manager", 
+    "context": "After 12 months of AI-powered lead generation and SEO optimization"
+  }
+}

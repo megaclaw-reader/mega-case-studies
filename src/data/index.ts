@@ -242,6 +242,7 @@ import { primaryCareInternalMedicineFlorida } from "./primary-care-internal-medi
 import { primaryCareInternalMedicineTexas } from "./primary-care-internal-medicine-texas";
 import { medicalDevicesDiagnostics } from "./medical-devices-diagnostics";
 import { visionCorrectionClinicFlorida } from "./vision-correction-clinic-florida";
+import { plumbingSanDiego } from "./plumbing-san-diego";
 import travelToursData from "./travel-tours";
 
 export const caseStudies: Record<string, CaseStudyData> = {
@@ -486,6 +487,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "primary-care-internal-medicine-texas": primaryCareInternalMedicineTexas,
   "medical-devices-diagnostics": medicalDevicesDiagnostics,
   "vision-correction-clinic-florida": visionCorrectionClinicFlorida,
+  "plumbing-san-diego": plumbingSanDiego,
   "travel-tours": travelToursData,
   "restaurant-events-california": restaurantEventsCaliforniaMar,
 };
