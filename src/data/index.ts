@@ -222,6 +222,7 @@ import { artGalleryDecorativeArt } from "./art-gallery-decorative-art";
 import { optometristArizona } from "./optometrist-arizona";
 import { staffingBoston } from "./staffing-boston";
 import { beautyProductsEcommerce } from "./beauty-products-ecommerce";
+import { roofRestorationCalifornia } from "./roof-restoration-california";
 import { roofingTexas } from "./roofing-texas";
 import { lifeInsuranceChicago } from "./life-insurance-chicago";
 import { carDealership } from "./car-dealership";
@@ -438,6 +439,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "medspa-phoenix": medspaPhoenix,
   "beauty-products-ecommerce": beautyProductsEcommerce,
   "mens-clothing-brand": mensClothingBrand,
+  "roof-restoration-california": roofRestorationCalifornia,
   "roofing-texas": roofingTexas,
   "life-insurance-chicago": lifeInsuranceChicago,
   "electrical-supply-distribution": electricalSupplyDistribution,
