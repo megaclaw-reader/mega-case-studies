@@ -702,7 +702,8 @@
     "B2B Language Services": "lead_gen_professional",
     "Residential and Commercial Plumbing": "lead_gen_services",
     "Residential Home Building (Custom Homes)": "lead_gen_services",
-    "Health Fitness Weight Loss Coach": "lead_gen_services"
+    "Health Fitness Weight Loss Coach": "lead_gen_services",
+    "AI Business Automation": "lead_gen_professional"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",

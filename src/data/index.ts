@@ -247,8 +247,10 @@ import { visionCorrectionClinicFlorida } from "./vision-correction-clinic-florid
 import { plumbingSanDiego } from "./plumbing-san-diego";
 import travelToursData from "./travel-tours";
 import { customHomeBuildingTennessee } from "./custom-home-building-tennessee";
+import { aiBusinessAutomationNational } from "./ai-business-automation-national";
 
 export const caseStudies: Record<string, CaseStudyData> = {
+  "ai-business-automation-national": aiBusinessAutomationNational,
   "alarm-surveillance-seo": alarmSurveillanceSeo,
   "mortgage-lending": mortgageLending,
   "cybersecurity": cybersecurity,
