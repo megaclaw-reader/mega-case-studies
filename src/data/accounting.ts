@@ -122,20 +122,20 @@ export const accounting: CaseStudyData = {
       { month: "Nov 2025", keywords: 517, top10: 49, top3: 8, traffic: 1347, pages: 74, avgPos: 34.2, ctr: 1.4 },
       // Month 5 (May): Post-tax season drop in search volume, but keyword base still growing
       { month: "Dec 2025", keywords: 631, top10: 62, top3: 11, traffic: 1623, pages: 87, avgPos: 31.7, ctr: 1.5 },
-      // Month 6 (Jun): Summer lull in accounting searches — traffic growth slows despite more rankings
-      { month: "Jan 2025", keywords: 743, top10: 78, top3: 14, traffic: 1847, pages: 96, avgPos: 29.4, ctr: 1.6 },
-      // Month 7 (Jul): Deepest summer lull — continued content investment for future compounding
-      { month: "Feb 2025", keywords: 847, top10: 91, top3: 17, traffic: 2134, pages: 108, avgPos: 27.8, ctr: 1.7 },
-      // Month 8 (Aug): Slight pickup as businesses start thinking about Q3 estimated taxes
-      { month: "Mar 2025", keywords: 963, top10: 107, top3: 19, traffic: 2418, pages: 119, avgPos: 26.1, ctr: 1.8 },
-      // Month 9 (Sep): Fall recovery — year-end planning content starts ranking, backlinks compounding
-      { month: "Apr 2025", keywords: 1087, top10: 124, top3: 22, traffic: 2847, pages: 131, avgPos: 24.7, ctr: 1.9 },
-      // Month 10 (Oct): Year-end planning surge — businesses seeking advisory and tax strategy services
-      { month: "May 2025", keywords: 1213, top10: 143, top3: 26, traffic: 3217, pages: 142, avgPos: 23.3, ctr: 2.0 },
-      // Month 11 (Nov): Strong year-end demand — featured snippets for FAQ content, local authority established
-      { month: "Jun 2025", keywords: 1347, top10: 161, top3: 29, traffic: 3641, pages: 153, avgPos: 22.1, ctr: 2.1 },
-      // Month 12 (Dec): December slowdown but strong foundation — authority carrying traffic through holidays
-      { month: "Jul 2025", keywords: 1478, top10: 179, top3: 33, traffic: 3947, pages: 162, avgPos: 21.3, ctr: 2.2 },
+      // Month 6 (Jan): New year — tax season early searches starting
+      { month: "Jan 2026", keywords: 743, top10: 78, top3: 14, traffic: 1847, pages: 96, avgPos: 29.4, ctr: 1.6 },
+      // Month 7 (Feb): Tax season ramping — strong demand returning
+      { month: "Feb 2026", keywords: 847, top10: 91, top3: 17, traffic: 2134, pages: 108, avgPos: 27.8, ctr: 1.7 },
+      // Month 8 (Mar): Tax season peak — backlinks compounding, strong organic growth
+      { month: "Mar 2026", keywords: 963, top10: 107, top3: 19, traffic: 2418, pages: 119, avgPos: 26.1, ctr: 1.8 },
+      // Month 9 (Apr): Tax deadline surge — highest organic traffic month
+      { month: "Apr 2026", keywords: 1087, top10: 124, top3: 22, traffic: 2847, pages: 131, avgPos: 24.7, ctr: 1.9 },
+      // Month 10 (May): Post-deadline but strong authority established
+      { month: "May 2026", keywords: 1213, top10: 143, top3: 26, traffic: 3217, pages: 142, avgPos: 23.3, ctr: 2.0 },
+      // Month 11 (Jun): Sustained growth through summer — authority carrying traffic
+      { month: "Jun 2026", keywords: 1347, top10: 161, top3: 29, traffic: 3641, pages: 153, avgPos: 22.1, ctr: 2.1 },
+      // Month 12 (Jul): Strong foundation — consistent growth even in traditional summer lull
+      { month: "Jul 2026", keywords: 1478, top10: 179, top3: 33, traffic: 3947, pages: 162, avgPos: 21.3, ctr: 2.2 },
     ],
   },
   paidAds: {
@@ -151,19 +151,19 @@ export const accounting: CaseStudyData = {
       { month: "Oct 2025", spend: 6614, leads: 18, cpl: 367.44, qualified: 9, cpql: 734.89, deals: 2, revenue: 11847.0, roas: 1.79 },
       { month: "Nov 2025", spend: 6793, leads: 21, cpl: 323.48, qualified: 10, cpql: 679.3, deals: 2, revenue: 14293.0, roas: 2.1 },
       { month: "Dec 2025", spend: 6847, leads: 23, cpl: 297.7, qualified: 8, cpql: 855.88, deals: 2, revenue: 17293.0, roas: 2.53 },
-      { month: "Jan 2025", spend: 6891, leads: 22, cpl: 313.23, qualified: 10, cpql: 689.1, deals: 3, revenue: 20847.0, roas: 3.03 },
-      { month: "Feb 2025", spend: 7023, leads: 24, cpl: 292.62, qualified: 11, cpql: 638.45, deals: 3, revenue: 25847.0, roas: 3.68 },
-      { month: "Mar 2025", spend: 7184, leads: 27, cpl: 266.07, qualified: 13, cpql: 552.62, deals: 4, revenue: 31293.0, roas: 4.36 },
-      { month: "Apr 2025", spend: 7134, leads: 29, cpl: 246.0, qualified: 11, cpql: 648.55, deals: 3, revenue: 26847.0, roas: 3.76 },
-      { month: "May 2025", spend: 7347, leads: 31, cpl: 237.0, qualified: 14, cpql: 524.79, deals: 4, revenue: 33847.0, roas: 4.61 },
-      { month: "Jun 2025", spend: 7389, leads: 33, cpl: 223.91, qualified: 14, cpql: 527.79, deals: 4, revenue: 33847.0, roas: 4.58 },
-      { month: "Jul 2025", spend: 7512, leads: 37, cpl: 203.03, qualified: 16, cpql: 469.5, deals: 5, revenue: 35293.0, roas: 4.7 }
+      { month: "Jan 2026", spend: 6891, leads: 22, cpl: 313.23, qualified: 10, cpql: 689.1, deals: 3, revenue: 20847.0, roas: 3.03 },
+      { month: "Feb 2026", spend: 7023, leads: 24, cpl: 292.62, qualified: 11, cpql: 638.45, deals: 3, revenue: 25847.0, roas: 3.68 },
+      { month: "Mar 2026", spend: 7184, leads: 27, cpl: 266.07, qualified: 13, cpql: 552.62, deals: 4, revenue: 31293.0, roas: 4.36 },
+      { month: "Apr 2026", spend: 7134, leads: 29, cpl: 246.0, qualified: 11, cpql: 648.55, deals: 3, revenue: 26847.0, roas: 3.76 },
+      { month: "May 2026", spend: 7347, leads: 31, cpl: 237.0, qualified: 14, cpql: 524.79, deals: 4, revenue: 33847.0, roas: 4.61 },
+      { month: "Jun 2026", spend: 7389, leads: 33, cpl: 223.91, qualified: 14, cpql: 527.79, deals: 4, revenue: 33847.0, roas: 4.58 },
+      { month: "Jul 2026", spend: 7512, leads: 37, cpl: 203.03, qualified: 16, cpql: 469.5, deals: 5, revenue: 35293.0, roas: 4.7 }
     ],
   },
   impact: [
     { label: "Total Revenue", value: "$275.0K", growth: "+189%" },
-    { label: "Total Pipeline", value: "$1.05M", growth: "+143%" },
-    { label: "Avg Revenue Per Client", value: "$275K", growth: "" },
+    { label: "New Clients Acquired", value: "35", growth: "from ads + organic" },
+    { label: "Avg Revenue Per Client", value: "$7,857", growth: "first-year value" },
     { label: "Blended ROAS", value: "3.27x", growth: "" },
   ],
 };
