@@ -252,6 +252,10 @@
         "b2b_language_services": [
           5000,
           50000
+        ],
+        "franchise_development": [
+          25000,
+          50000
         ]
       }
     },
@@ -704,7 +708,8 @@
     "Residential Home Building (Custom Homes)": "lead_gen_services",
     "Health Fitness Weight Loss Coach": "lead_gen_services",
     "AI Business Automation": "lead_gen_professional",
-    "Roof Restoration": "lead_gen_services"
+    "Roof Restoration": "lead_gen_services",
+    "Franchise Development": "lead_gen_professional"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",

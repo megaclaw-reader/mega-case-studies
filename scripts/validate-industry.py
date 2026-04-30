@@ -104,6 +104,7 @@ CPL_RANGES = {
     "life_insurance":    (40, 350),
     "b2b_language_services": (150, 400),
     "ai_business_automation": (100, 400),
+    "franchise_development": (50, 250),
     # Wealth management / financial
     "wealth_mgmt":       (100, 2500),
     "financial_services": (75, 1500),
@@ -171,6 +172,7 @@ def _cpl_category(industry, model_key):
         ("rv ", "rv_dealer"), ("mobile home", "rv_dealer"),
         ("dealership", "automotive_dealer"),
         ("logistics", "logistics"), ("supply chain", "logistics"), ("freight", "logistics"),
+        ("franchise development", "franchise_development"), ("franchisor", "franchise_development"), ("multi-brand franchisor", "franchise_development"),
         ("ai business automation", "ai_business_automation"), ("ai automation", "ai_business_automation"),
         ("b2b office", "b2b_office_service"), ("office service", "b2b_office_service"), ("managed print", "b2b_office_service"), ("copier", "b2b_office_service"),
         ("private membership", "private_membership_club"), ("membership club", "private_membership_club"),
@@ -322,6 +324,7 @@ DEAL_VALUE_RANGES = {
     "life_insurance": (500, 2000),
     "b2b_language_services": (5000, 50000),
     "ai_business_automation": (8000, 50000),
+    "franchise_development": (25000, 50000),
     "healthcare": (200, 5000),
     "primary_care_and_internal_medicine_clinic": (300, 2000),
     "telemedicine": (80, 400),

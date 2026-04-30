@@ -1,4 +1,5 @@
 import { CaseStudyData } from "./types";
+import { franchiseDevelopment } from "./franchise-development";
 import { seoProjectionHhRedStone } from "./seo-projection-hh-red-stone";
 import { restaurantEventsCaliforniaMar } from "./restaurant-events-california";
 import { flooringMiami } from "./flooring-miami";
@@ -500,6 +501,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "travel-tours": travelToursData,
   "restaurant-events-california": restaurantEventsCaliforniaMar,
   "seo-projection-hh-red-stone": seoProjectionHhRedStone,
+  "franchise-development": franchiseDevelopment,
 };
 
 export type { CaseStudyData };
