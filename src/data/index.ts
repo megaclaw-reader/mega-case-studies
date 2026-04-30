@@ -250,9 +250,11 @@ import { plumbingSanDiego } from "./plumbing-san-diego";
 import travelToursData from "./travel-tours";
 import { customHomeBuildingTennessee } from "./custom-home-building-tennessee";
 import { aiBusinessAutomationNational } from "./ai-business-automation-national";
+import { peachStateCpaProposal } from "./peach-state-cpa-proposal";
 
 export const caseStudies: Record<string, CaseStudyData> = {
   "ai-business-automation-national": aiBusinessAutomationNational,
+  "peach-state-cpa-proposal": peachStateCpaProposal,
   "alarm-surveillance-seo": alarmSurveillanceSeo,
   "mortgage-lending": mortgageLending,
   "cybersecurity": cybersecurity,
