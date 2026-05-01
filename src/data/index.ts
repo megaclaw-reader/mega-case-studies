@@ -252,6 +252,7 @@ import { customHomeBuildingTennessee } from "./custom-home-building-tennessee";
 import { aiBusinessAutomationNational } from "./ai-business-automation-national";
 import { maAdvisory } from "./ma-advisory";
 import { peachStateCpaProposal } from "./peach-state-cpa-proposal";
+import { seoPlanThegrint } from "./seo-plan-thegrint";
 
 export const caseStudies: Record<string, CaseStudyData> = {
   "ma-advisory": maAdvisory,
@@ -505,6 +506,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "travel-tours": travelToursData,
   "restaurant-events-california": restaurantEventsCaliforniaMar,
   "seo-projection-hh-red-stone": seoProjectionHhRedStone,
+  "seo-plan-thegrint": seoPlanThegrint,
   "franchise-development": franchiseDevelopment,
 };
 
