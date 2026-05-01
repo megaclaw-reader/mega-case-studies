@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const maAdvisory: CaseStudyData = {
   slug: "ma-advisory",
   industry: "M&A Advisory",
-  headline: "How a National M&A Advisory Firm Generated $270.1K in Engagement Revenue With AI-Powered Paid Advertising",
-  subheadline: "MEGA helped a boutique mergers and acquisitions advisory firm build a scalable digital lead pipeline, reducing cost per qualified lead by 44% and closing 21 new advisory engagements over 9 months.",
+  headline: "How a National M&A Advisory Firm Generated $275.6K in Engagement Revenue With AI-Powered Paid Advertising",
+  subheadline: "MEGA helped a boutique mergers and acquisitions advisory firm build a scalable digital lead pipeline, reducing cost per qualified lead by 44% and improving close rates from 17% to 38% over 9 months.",
   heroStats: [
     { value: "9", unit: "months", label: "Partnership Duration" },
     { value: "44", unit: "%", label: "CPQL Reduction" },
-    { value: "270.1", unit: "K", label: "Revenue Attributed" },
+    { value: "275.6", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["Paid Advertising"],
   company: {
@@ -92,11 +92,12 @@ export const maAdvisory: CaseStudyData = {
   ],
   seo: undefined,
   paidAds: {
+    hiddenColumns: ["costPerDeal"],
     summary: [
       { label: "Total Ad Spend", value: "$71.2K" },
       { label: "Qualified Leads", value: "81" },
       { label: "Avg Cost Per Qualified Lead", value: "$878", note: "↓44% from $1,253" },
-      { label: "New Engagements Signed", value: "21" },
+      { label: "New Engagements Signed", value: "24" },
     ],
     monthly: [
       { month: "Jun '25", spend: 5012, leads: 12, cpl: 417.67, qualified: 4, cpql: 1253.00, deals: 1, revenue: 13247, roas: 2.64 },
@@ -106,14 +107,14 @@ export const maAdvisory: CaseStudyData = {
       { month: "Oct '25", spend: 7618, leads: 27, cpl: 282.15, qualified: 8, cpql: 952.25, deals: 2, revenue: 28371, roas: 3.72 },
       { month: "Nov '25", spend: 8547, leads: 31, cpl: 275.71, qualified: 9, cpql: 949.67, deals: 2, revenue: 32648, roas: 3.82 },
       { month: "Dec '25", spend: 9813, leads: 40, cpl: 245.33, qualified: 12, cpql: 817.75, deals: 4, revenue: 44257, roas: 4.51 },
-      { month: "Jan '26", spend: 10472, leads: 47, cpl: 222.81, qualified: 14, cpql: 748.00, deals: 4, revenue: 47648, roas: 4.55 },
-      { month: "Feb '26", spend: 11247, leads: 53, cpl: 212.21, qualified: 16, cpql: 702.94, deals: 4, revenue: 49937, roas: 4.44 },
+      { month: "Jan '26", spend: 10472, leads: 47, cpl: 222.81, qualified: 14, cpql: 748.00, deals: 5, revenue: 49700, roas: 4.75 },
+      { month: "Feb '26", spend: 11247, leads: 53, cpl: 212.21, qualified: 16, cpql: 702.94, deals: 6, revenue: 53400, roas: 4.75 },
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$270.1K", growth: "+312%" },
-    { label: "New Engagements Signed", value: "21", growth: "from paid advertising" },
-    { label: "Avg Engagement Value", value: "$12,863", growth: "initial retainer + fees" },
-    { label: "Blended ROAS", value: "3.80x", growth: "" },
+    { label: "Total Revenue", value: "$275.6K", growth: "+321%" },
+    { label: "New Engagements Signed", value: "24", growth: "from paid advertising" },
+    { label: "Avg Engagement Value", value: "$11,484", growth: "initial retainer + fees" },
+    { label: "Blended ROAS", value: "3.87x", growth: "" },
   ],
 };
