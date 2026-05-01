@@ -166,6 +166,10 @@
         "vision_correction_clinic": [
           10000,
           20000
+        ],
+        "dental_implants": [
+          5000,
+          15000
         ]
       }
     },
@@ -637,6 +641,7 @@
     "Vacation Rental": "lead_gen_services",
     "Boutique Skincare & Wellness": "ecommerce",
     "Custom Vehicle Manufacturing": "lead_gen_services",
+    "Dental Implants": "lead_gen_services",
     "Cosmetic Dentistry": "lead_gen_services",
     "Security and Protective Services": "lead_gen_services",
     "Sports Nutrition": "lead_gen_services",

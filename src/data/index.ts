@@ -1,4 +1,5 @@
 import { CaseStudyData } from "./types";
+import { dentalImplantsAustin } from "./dental-implants-austin";
 import { franchiseDevelopment } from "./franchise-development";
 import { seoProjectionHhRedStone } from "./seo-projection-hh-red-stone";
 import { restaurantEventsCaliforniaMar } from "./restaurant-events-california";
@@ -508,6 +509,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "seo-projection-hh-red-stone": seoProjectionHhRedStone,
   "seo-plan-thegrint": seoPlanThegrint,
   "franchise-development": franchiseDevelopment,
+  "dental-implants-austin": dentalImplantsAustin,
 };
 
 export type { CaseStudyData };
