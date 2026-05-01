@@ -1,0 +1,119 @@
+import { CaseStudyData } from "./types";
+
+export const maAdvisory: CaseStudyData = {
+  slug: "ma-advisory",
+  industry: "M&A Advisory",
+  headline: "How a National M&A Advisory Firm Generated $265.3K in Engagement Revenue With AI-Powered Paid Advertising",
+  subheadline: "MEGA helped a boutique mergers and acquisitions advisory firm build a scalable digital lead pipeline, reducing cost per qualified lead by 41% and closing 19 new advisory engagements over 9 months.",
+  heroStats: [
+    { value: "9", unit: "months", label: "Partnership Duration" },
+    { value: "41", unit: "%", label: "CPQL Reduction" },
+    { value: "265.3", unit: "K", label: "Revenue Attributed" },
+  ],
+  tags: ["Paid Advertising"],
+  company: {
+    industry: "M&A Advisory",
+    employees: "14",
+    revenue: "$4.2M",
+    location: "National",
+    description: "A boutique mergers and acquisitions advisory firm serving middle-market business owners across the United States. The firm specialized in sell-side mandates for companies with $5M–$50M in annual revenue, offering valuation, buyer sourcing, deal structuring, and transaction management services. Their client base had been built entirely through referrals, CPA partnerships, and industry conference networking. They had never invested meaningfully in digital advertising and recognized that relying solely on relationship-based development left significant deal flow on the table — particularly from business owners actively researching exit strategies online but not yet connected to an advisor.",
+  },
+  challenges: [
+    {
+      title: "No Digital Lead Generation Infrastructure",
+      description: "The firm had zero paid advertising history and no conversion tracking in place. Their website was informational but lacked dedicated landing pages, lead magnets, or any mechanism to capture intent from business owners researching M&A topics. Every new engagement came through personal networks, which created unpredictable deal flow and long periods between signed mandates.",
+    },
+    {
+      title: "Extremely Niche Target Audience",
+      description: "Middle-market business owners considering a sale or acquisition represent a tiny fraction of any advertising audience. The firm needed to reach decision-makers with $5M–$50M businesses who were actively or passively considering a transaction — a hyper-specific audience that traditional broad-match advertising would waste budget on. Previous attempts at LinkedIn outreach had generated conversations but no signed engagements.",
+    },
+    {
+      title: "Long and Complex Sales Cycle",
+      description: "M&A advisory engagements typically involve multiple discovery calls, valuation discussions, and trust-building before a mandate is signed. The average sales cycle from initial inquiry to signed engagement letter was 60–120 days. The firm needed a marketing approach that could nurture high-intent prospects through this extended decision process while maintaining cost efficiency.",
+    },
+  ],
+  strategy: [
+    {
+      phase: 1,
+      months: "0–30 days",
+      title: "Foundation & Infrastructure",
+      items: [
+        "Full audit of existing web presence, competitive landscape analysis across top national M&A advisory firms' digital strategies",
+        "Implemented conversion tracking, CRM integration, and closed-loop attribution from ad click to signed engagement",
+        "Built dedicated landing pages for key service lines: sell-side advisory, business valuation, buyer identification, and exit planning",
+        "Developed lead magnets including a confidential business valuation request form and an exit readiness assessment",
+        "Comprehensive keyword research across M&A advisory, business sale, and exit planning intent signals — identified 340+ high-intent search terms",
+        "Launched initial Google Search campaigns targeting high-intent queries: 'sell my business,' 'M&A advisor,' 'business valuation services,' and industry-specific exit planning terms",
+        "Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement — replacing the traditional weekly-review agency cadence",
+        "LinkedIn campaign architecture targeting business owners by company size, industry, and seniority — with custom audience segments for likely sellers",
+      ],
+    },
+    {
+      phase: 2,
+      months: "30–60 days",
+      title: "Optimization & Qualification",
+      items: [
+        "Reviewed 30-day performance data — identified that Google Search drove 3x higher qualification rates than LinkedIn for bottom-funnel intent",
+        "Reallocated budget toward highest-converting keyword themes: business valuation requests and sell-side advisory inquiries",
+        "Implemented lead scoring model based on business revenue range, timeline to transaction, and engagement depth",
+        "AI agents identified underperforming ad groups within hours and automatically shifted budget to top performers — compounding small daily optimizations into significant monthly gains",
+        "Built remarketing audiences from landing page visitors and valuation request initiators for multi-touch nurturing",
+        "Expanded negative keyword list aggressively — excluded job seekers, students, and micro-business queries below the firm's revenue threshold",
+        "A/B tested landing page messaging: authority-driven positioning vs. process-focused positioning vs. outcome-driven ROI messaging",
+        "Launched content-driven campaigns promoting thought leadership on exit timing, valuation multiples, and deal preparation",
+      ],
+    },
+    {
+      phase: 3,
+      months: "60–90 days",
+      title: "Scale & Pipeline Acceleration",
+      items: [
+        "Reviewed 60-day data and expanded into adjacent high-intent keyword categories: succession planning, partner buyouts, and strategic acquisitions",
+        "Advanced audience segmentation by industry vertical — created tailored ad copy and landing pages for manufacturing, healthcare, and technology business owners",
+        "AI agents analyzed conversion patterns and identified that business owners who engaged with valuation content converted at 2.4x the rate of direct service inquiries",
+        "Scaled budget allocation based on qualified lead velocity and pipeline value, not just lead volume",
+        "Implemented automated email nurture sequences triggered by lead score thresholds for prospects not yet ready for discovery calls",
+        "Real-time performance monitoring detected shifts in competitive bidding and adjusted strategy within hours rather than the typical agency review cycle of days or weeks",
+      ],
+    },
+    {
+      phase: 4,
+      months: "90+ days",
+      title: "Ongoing Optimization & Expansion",
+      items: [
+        "Budget reallocation driven by real-time engagement-to-close data — shifted spend toward keyword themes and audience segments producing the highest-value mandates",
+        "Seasonal campaign adjustments — increased investment during Q4 year-end planning and Q1 tax season when business sale intent peaks",
+        "Expanded geographic targeting to underserved markets where competition for M&A advisory keywords was lower",
+        "Continuous AI optimization compounded daily improvements — bid adjustments, audience refinements, and budget reallocations happening in real time",
+        "Weekly attribution reporting tying ad spend directly to pipeline value and signed engagement revenue",
+        "Audience pruning — removed low-intent segments and built lookalike audiences from closed engagements",
+      ],
+    },
+  ],
+  seo: undefined,
+  paidAds: {
+    summary: [
+      { label: "Total Ad Spend", value: "$67.2K" },
+      { label: "Qualified Leads", value: "93" },
+      { label: "Avg Cost Per Qualified Lead", value: "$723", note: "↓41% from $1,253" },
+      { label: "New Engagements Signed", value: "19" },
+    ],
+    monthly: [
+      { month: "Jun '25", spend: 5012, leads: 11, cpl: 455.64, qualified: 4, cpql: 1253.00, deals: 1, revenue: 12831, roas: 2.56 },
+      { month: "Jul '25", spend: 5487, leads: 13, cpl: 422.08, qualified: 5, cpql: 1097.40, deals: 1, revenue: 14266, roas: 2.60 },
+      { month: "Aug '25", spend: 6134, leads: 16, cpl: 383.38, qualified: 7, cpql: 876.29, deals: 2, revenue: 21837, roas: 3.56 },
+      { month: "Sep '25", spend: 6723, leads: 19, cpl: 353.84, qualified: 8, cpql: 840.38, deals: 2, revenue: 24270, roas: 3.61 },
+      { month: "Oct '25", spend: 7418, leads: 22, cpl: 337.18, qualified: 9, cpql: 824.22, deals: 2, revenue: 28114, roas: 3.79 },
+      { month: "Nov '25", spend: 8147, leads: 26, cpl: 313.35, qualified: 11, cpql: 740.64, deals: 2, revenue: 33810, roas: 4.15 },
+      { month: "Dec '25", spend: 8893, leads: 29, cpl: 306.66, qualified: 13, cpql: 684.08, deals: 3, revenue: 39307, roas: 4.42 },
+      { month: "Jan '26", spend: 9647, leads: 33, cpl: 292.33, qualified: 16, cpql: 602.94, deals: 3, revenue: 44859, roas: 4.65 },
+      { month: "Feb '26", spend: 9741, leads: 36, cpl: 270.58, qualified: 20, cpql: 487.05, deals: 3, revenue: 45978, roas: 4.72 },
+    ],
+  },
+  impact: [
+    { label: "Total Revenue", value: "$265.3K", growth: "+267%" },
+    { label: "New Engagements Signed", value: "19", growth: "from paid advertising" },
+    { label: "Avg Engagement Value", value: "$13,962", growth: "initial retainer + fees" },
+    { label: "Blended ROAS", value: "3.95x", growth: "" },
+  ],
+};

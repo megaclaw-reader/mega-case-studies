@@ -105,6 +105,7 @@ CPL_RANGES = {
     "b2b_language_services": (150, 400),
     "ai_business_automation": (100, 400),
     "franchise_development": (50, 250),
+    "ma_advisory":       (150, 600),
     # Wealth management / financial
     "wealth_mgmt":       (100, 2500),
     "financial_services": (75, 1500),
@@ -139,6 +140,7 @@ def _cpl_category(industry, model_key):
     # Try specific matches
     # Order matters — more specific matches first
     mappings = [
+        ("m&a advisory", "ma_advisory"), ("m&a", "ma_advisory"), ("mergers", "ma_advisory"),
         ("ophthalmolog", "ophthalmology"), ("optometri", "optometrist"), ("vision care", "optometrist"), ("eye care", "optometrist"),
         ("cosmetic dentist", "cosmetic_dentistry"), ("chiropract", "chiropractor"), ("painting", "painting"), ("dental medtech", "healthcare_equip"), ("dental", "dental"), ("hvac", "hvac"), ("roof", "roofing"),
         ("plumb", "plumbing"), ("commercial landscap", "construction"),
@@ -325,6 +327,7 @@ DEAL_VALUE_RANGES = {
     "b2b_language_services": (5000, 50000),
     "ai_business_automation": (8000, 50000),
     "franchise_development": (25000, 50000),
+    "ma_advisory": (10000, 50000),
     "healthcare": (200, 5000),
     "primary_care_and_internal_medicine_clinic": (300, 2000),
     "telemedicine": (80, 400),

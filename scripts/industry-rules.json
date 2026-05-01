@@ -256,6 +256,10 @@
         "franchise_development": [
           25000,
           50000
+        ],
+        "ma_advisory": [
+          10000,
+          50000
         ]
       }
     },
@@ -709,7 +713,8 @@
     "Health Fitness Weight Loss Coach": "lead_gen_services",
     "AI Business Automation": "lead_gen_professional",
     "Roof Restoration": "lead_gen_services",
-    "Franchise Development": "lead_gen_professional"
+    "Franchise Development": "lead_gen_professional",
+    "M&A Advisory": "lead_gen_professional"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",
