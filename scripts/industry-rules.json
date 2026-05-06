@@ -719,12 +719,15 @@
     "AI Business Automation": "lead_gen_professional",
     "Roof Restoration": "lead_gen_services",
     "Franchise Development": "lead_gen_professional",
-    "M&A Advisory": "lead_gen_professional"
+    "M&A Advisory": "lead_gen_professional",
+    "glp1_weight_loss": "healthcare_medical",
+    "GLP-1 Weight Loss": "healthcare_medical"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",
     "Skin Care": "ecommerce",
     "Beauty Products": "ecommerce",
-    "Nail Salon": "lead_gen_services"
+    "Nail Salon": "lead_gen_services",
+    "GLP-1 Weight Loss": "healthcare_medical"
   }
 }

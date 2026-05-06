@@ -254,6 +254,7 @@ import { aiBusinessAutomationNational } from "./ai-business-automation-national"
 import { maAdvisory } from "./ma-advisory";
 import { peachStateCpaProposal } from "./peach-state-cpa-proposal";
 import { seoPlanThegrint } from "./seo-plan-thegrint";
+import { glp1WeightLoss } from "./glp1-weight-loss";
 
 export const caseStudies: Record<string, CaseStudyData> = {
   "ma-advisory": maAdvisory,
@@ -510,6 +511,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "seo-plan-thegrint": seoPlanThegrint,
   "franchise-development": franchiseDevelopment,
   "dental-implants-austin": dentalImplantsAustin,
+  "glp1-weight-loss": glp1WeightLoss,
 };
 
 export type { CaseStudyData };
