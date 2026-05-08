@@ -1,6 +1,7 @@
 import { CaseStudyData } from "./types";
 import { dentalImplantsAustin } from "./dental-implants-austin";
 import { franchiseDevelopment } from "./franchise-development";
+import { franchiseMedSpa } from "./franchise-med-spa";
 import { seoProjectionHhRedStone } from "./seo-projection-hh-red-stone";
 import { restaurantEventsCaliforniaMar } from "./restaurant-events-california";
 import { flooringMiami } from "./flooring-miami";
@@ -512,6 +513,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "seo-projection-hh-red-stone": seoProjectionHhRedStone,
   "seo-plan-thegrint": seoPlanThegrint,
   "franchise-development": franchiseDevelopment,
+  "franchise-med-spa": franchiseMedSpa,
   "dental-implants-austin": dentalImplantsAustin,
   "glp1-weight-loss": glp1WeightLoss,
   "childrens-clothing-ecommerce": childrensClothingEcommerce,
