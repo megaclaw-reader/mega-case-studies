@@ -722,7 +722,8 @@
     "M&A Advisory": "lead_gen_professional",
     "glp1_weight_loss": "healthcare_medical",
     "GLP-1 Weight Loss": "healthcare_medical",
-    "Financial Services / Pension & Annuity": "lead_gen_professional"
+    "Financial Services / Pension & Annuity": "lead_gen_professional",
+    "Children's Clothing Ecommerce": "ecommerce"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",

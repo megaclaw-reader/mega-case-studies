@@ -255,6 +255,7 @@ import { maAdvisory } from "./ma-advisory";
 import { peachStateCpaProposal } from "./peach-state-cpa-proposal";
 import { seoPlanThegrint } from "./seo-plan-thegrint";
 import { glp1WeightLoss } from "./glp1-weight-loss";
+import { childrensClothingEcommerce } from "./childrens-clothing-ecommerce";
 import { pensionAppointmentGeneration } from "./pension-appointment-generation";
 
 export const caseStudies: Record<string, CaseStudyData> = {
@@ -513,6 +514,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "franchise-development": franchiseDevelopment,
   "dental-implants-austin": dentalImplantsAustin,
   "glp1-weight-loss": glp1WeightLoss,
+  "childrens-clothing-ecommerce": childrensClothingEcommerce,
   "pension-appointment-generation": pensionAppointmentGeneration,
 };
 
