@@ -108,6 +108,7 @@ CPL_RANGES = {
     "ai_business_automation": (100, 400),
     "franchise_development": (50, 250),
     "ma_advisory":       (150, 600),
+    "pension_annuity":   (80, 400),
     # Wealth management / financial
     "wealth_mgmt":       (100, 2500),
     "financial_services": (75, 1500),
@@ -194,6 +195,7 @@ def _cpl_category(industry, model_key):
         ("commercial tax", "tax"), ("tax planning", "tax"), ("tax", "tax"),
         ("health insurance", "health_insurance"),
         ("commercial insurance", "insurance"), ("insurance", "insurance"),
+        ("pension", "pension_annuity"), ("annuity", "pension_annuity"),
         ("life insurance", "life_insurance"),
         ("it service", "it_services"), ("managed service", "it_services"),
         ("cyber", "cybersecurity"),
@@ -332,6 +334,7 @@ DEAL_VALUE_RANGES = {
     "ai_business_automation": (8000, 50000),
     "franchise_development": (25000, 50000),
     "ma_advisory": (10000, 50000),
+    "pension_annuity": (9000, 20000),
     "healthcare": (200, 5000),
     "primary_care_and_internal_medicine_clinic": (300, 2000),
     "telemedicine": (80, 400),
