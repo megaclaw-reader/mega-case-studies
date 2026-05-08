@@ -258,6 +258,7 @@ import { seoPlanThegrint } from "./seo-plan-thegrint";
 import { glp1WeightLoss } from "./glp1-weight-loss";
 import { childrensClothingEcommerce } from "./childrens-clothing-ecommerce";
 import { pensionAppointmentGeneration } from "./pension-appointment-generation";
+import { dentalPracticeCharlotte } from "./dental-practice-charlotte";
 
 export const caseStudies: Record<string, CaseStudyData> = {
   "ma-advisory": maAdvisory,
@@ -518,6 +519,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "glp1-weight-loss": glp1WeightLoss,
   "childrens-clothing-ecommerce": childrensClothingEcommerce,
   "pension-appointment-generation": pensionAppointmentGeneration,
+  "dental-practice-charlotte": dentalPracticeCharlotte,
 };
 
 export type { CaseStudyData };
