@@ -1,4 +1,5 @@
 import { CaseStudyData } from "./types";
+import { projectManagementSoftwareSeo } from "./project-management-software-seo";
 import { dentalImplantsAustin } from "./dental-implants-austin";
 import { franchiseDevelopment } from "./franchise-development";
 import { franchiseMedSpa } from "./franchise-med-spa";
@@ -517,6 +518,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "seo-plan-thegrint": seoPlanThegrint,
   "franchise-development": franchiseDevelopment,
   "franchise-med-spa": franchiseMedSpa,
+  "project-management-software-seo": projectManagementSoftwareSeo,
   "dental-implants-austin": dentalImplantsAustin,
   "glp1-weight-loss": glp1WeightLoss,
   "childrens-clothing-ecommerce": childrensClothingEcommerce,
