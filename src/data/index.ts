@@ -261,6 +261,7 @@ import { glp1WeightLoss } from "./glp1-weight-loss";
 import { childrensClothingEcommerce } from "./childrens-clothing-ecommerce";
 import { pensionAppointmentGeneration } from "./pension-appointment-generation";
 import { dentalPracticeCharlotte } from "./dental-practice-charlotte";
+import { wealthManagementSeo } from "./wealth-management-seo";
 
 export const caseStudies: Record<string, CaseStudyData> = {
   "ma-advisory": maAdvisory,
@@ -524,6 +525,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "childrens-clothing-ecommerce": childrensClothingEcommerce,
   "pension-appointment-generation": pensionAppointmentGeneration,
   "dental-practice-charlotte": dentalPracticeCharlotte,
+  "wealth-management-seo": wealthManagementSeo,
 };
 
 export type { CaseStudyData };
