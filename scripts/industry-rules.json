@@ -729,7 +729,8 @@
     "Financial Services / Pension & Annuity": "lead_gen_professional",
     "Children's Clothing Ecommerce": "ecommerce",
     "Franchise Med Spa": "lead_gen_services",
-    "Dental Practice": "lead_gen_services"
+    "Dental Practice": "lead_gen_services",
+    "Sports Drink": "ecommerce"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",

@@ -7,6 +7,7 @@ import { restaurantEventsCaliforniaMar } from "./restaurant-events-california";
 import { flooringMiami } from "./flooring-miami";
 import { nailSalon } from "./nail-salon";
 import { tequilaBrandDtc } from "./tequila-brand-dtc";
+import { sportsDrink } from "./sports-drink";
 import { cbdThcSeo } from "./cbd-thc-seo";
 import { healthWellnessApp } from "./health-wellness-app";
 import { poolInstallation } from "./pool-installation";
@@ -499,6 +500,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "flooring-miami": flooringMiami,
   "nail-salon": nailSalon,
   "tequila-brand-dtc": tequilaBrandDtc,
+  "sports-drink": sportsDrink,
   "home-damage-restoration-florida": homeDamageRestorationFlorida,
   "multi-location-medspa-southwest": multiLocationMedspaSouthwest,
   "beauty-ecommerce-national": beautyEcommerceNational,
