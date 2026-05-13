@@ -128,6 +128,8 @@ CPL_RANGES = {
     "saas":              (30, 500),
     # Health & Wellness App — cost per INSTALL (CPI)
     "health_and_wellness_app": (3, 15),
+    # Medical Assessment AI App — cost per INSTALL (CPI)
+    "medical_assessment_ai_app": (1.50, 7.00),
     # Ecom — cost per SESSION (not per lead)
     "ecom":              (0.20, 5.00),
     "sustainable_luxury": (1.50, 4.00),
@@ -229,6 +231,7 @@ def _cpl_category(industry, model_key):
         ("cbd", "cbd_thc"), ("thc", "cbd_thc"), ("cannabis", "cbd_thc"), ("hemp", "cbd_thc"),
         ("yoga", "gym_fitness"), ("pilates", "gym_fitness"),
         ("self improvement", "education"), ("subscription", "education"),
+        ("medical assessment", "medical_assessment_ai_app"),
         ("health and wellness app", "health_and_wellness_app"),
         ("health & wellness app", "health_and_wellness_app"),
         ("peptide", "healthcare"),
@@ -283,6 +286,7 @@ DEAL_VALUE_RANGES = {
     "gym_fitness": (100, 2000),
     "health_fitness_weight_loss_coach": (300, 2000),
     "glp1_weight_loss":  (1500, 4000),
+    "medical_assessment_ai_app": (15, 30),  # monthly subscription value
     "fitness_equipment": (1500, 8000),
     "senior_care": (2000, 15000),
     "restoration": (2000, 30000),

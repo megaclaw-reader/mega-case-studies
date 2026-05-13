@@ -731,7 +731,8 @@
     "Franchise Med Spa": "lead_gen_services",
     "Dental Practice": "lead_gen_services",
     "Sports Drink": "ecommerce",
-    "Project Management Software": "saas"
+    "Project Management Software": "saas",
+    "Medical Assessment AI App": "lead_gen_services"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",

@@ -1,4 +1,5 @@
 import { CaseStudyData } from "./types";
+import { medicalAssessmentAiApp } from "./medical-assessment-ai-app";
 import { projectManagementSoftwareSeo } from "./project-management-software-seo";
 import { dentalImplantsAustin } from "./dental-implants-austin";
 import { franchiseDevelopment } from "./franchise-development";
@@ -264,6 +265,7 @@ import { dentalPracticeCharlotte } from "./dental-practice-charlotte";
 import { wealthManagementSeo } from "./wealth-management-seo";
 
 export const caseStudies: Record<string, CaseStudyData> = {
+  "medical-assessment-ai-app": medicalAssessmentAiApp,
   "ma-advisory": maAdvisory,
   "ai-business-automation-national": aiBusinessAutomationNational,
   "peach-state-cpa-proposal": peachStateCpaProposal,
