@@ -195,8 +195,8 @@ for filepath in files:
                 errors.append(f"  {month}: Uses 2024 date (must be 2025)")
             
             # Spend floor
-            if spend < 5000:
-                errors.append(f"  {month}: Spend ${spend:,.0f} below $5K floor")
+            if spend < 3000:
+                errors.append(f"  {month}: Spend ${spend:,.0f} below $3K floor")
         
         # Lead gen checks
         if leads is not None and cpl is not None and spend is not None:

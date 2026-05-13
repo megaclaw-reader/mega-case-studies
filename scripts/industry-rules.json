@@ -732,7 +732,8 @@
     "Dental Practice": "lead_gen_services",
     "Sports Drink": "ecommerce",
     "Project Management Software": "saas",
-    "Medical Assessment AI App": "lead_gen_services"
+    "Medical Assessment AI App": "lead_gen_services",
+    "Business Brokerage": "lead_gen_professional"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",
