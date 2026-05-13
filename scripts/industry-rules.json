@@ -733,7 +733,8 @@
     "Sports Drink": "ecommerce",
     "Project Management Software": "saas",
     "Medical Assessment AI App": "lead_gen_services",
-    "Business Brokerage": "lead_gen_professional"
+    "Business Brokerage": "lead_gen_professional",
+    "Municipal Infrastructure Products": "lead_gen_professional"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",
