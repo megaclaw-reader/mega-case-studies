@@ -3,7 +3,7 @@ import { CaseStudyData } from "./types";
 export const medicalDevicesDiagnostics: CaseStudyData = {
   slug: "medical-devices-diagnostics",
   industry: "Medical Devices & Diagnostics",
-  headline: "How a Medical Devices Company Achieved 3.6x ROAS and Generated $547K in Pipeline Revenue",
+  headline: "Diagnostic Equipment Manufacturer Triples Lead Quality and Builds $547K Pipeline Through AI-Powered B2B Marketing",
   subheadline: "MEGA's AI-powered optimization helped this diagnostic equipment manufacturer triple lead quality, reduce cost per qualified lead by 47%, and establish thought leadership across multiple medical device categories over 12 months.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },

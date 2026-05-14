@@ -3,8 +3,8 @@ import { CaseStudyData } from "./types";
 export const b2bSaasNational: CaseStudyData = {
   slug: "b2b-saas-national",
   industry: "B2B SaaS",
-  headline: "How a B2B SaaS Startup Scaled to $408K MRR With MEGA's Growth Framework",
-  subheadline: "MEGA partnered with a growing B2B project management software company to build a dual-channel acquisition engine — combining paid advertising and SEO to reduce cost per qualified lead by 47%, scale organic traffic to 12,400+/mo, and build $240K monthly recurring revenue over 12 months.",
+  headline: "How a B2B Project Management SaaS Went From 637 Organic Visits to 12,400/mo — Adding 289 Paid Subscriptions Through MEGA's Dual-Channel Strategy",
+  subheadline: "MEGA partnered with a growing B2B project management software company to build a dual-channel acquisition engine — combining paid advertising and SEO to reduce cost per trial signup by 55%, scale organic traffic 1,847% to 12,400+ monthly visits, and generate 289 new paid subscriptions over 12 months.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
     { value: "1,847", unit: "%", label: "Organic Traffic Growth" },

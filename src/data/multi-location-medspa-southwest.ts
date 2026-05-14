@@ -3,7 +3,7 @@ import { CaseStudyData } from "./types";
 export const multiLocationMedspaSouthwest: CaseStudyData = {
   slug: "multi-location-medspa-southwest",
   industry: "MedSpa",
-  headline: "Multi-Location MedSpa Chain Achieved 47% Revenue Growth Across Phoenix, Scottsdale, and Tucson Markets",
+  headline: "Three-Location MedSpa Chain Drives $1.33M in Revenue and 3,622 New Patients Across Phoenix, Scottsdale, and Tucson",
   subheadline: "Systematic approach to location-specific campaigns and local SEO drove 189% increase in qualified leads across three Southwest Arizona markets",
   heroStats: [
     { value: "$1.33M", unit: "M", label: "Total Revenue" },

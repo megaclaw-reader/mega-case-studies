@@ -120,7 +120,7 @@ export const insuranceArizona: CaseStudyData = {
     summary: [
       { label: "Total Ad Spend", value: "$79.2K" },
       { label: "Qualified Leads", value: "285" },
-      { label: "Avg Cost Per Qualified Lead", value: "$278", note: "↓25% from $370" },
+      { label: "Avg Cost Per Qualified Lead", value: "$278", note: "↓36% peak reduction from $370" },
       { label: "Policies Bound", value: "66" },
     ],
     columnLabels: {

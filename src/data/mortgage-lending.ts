@@ -3,7 +3,7 @@ import { CaseStudyData } from "./types";
 export const mortgageLending: CaseStudyData = {
   slug: "mortgage-lending",
   industry: "Mortgage Lending",
-  headline: "How a National Mortgage Lender Grew Revenue 84% With AI-Powered Marketing",
+  headline: "National Mortgage Lender Closes 135 Funded Loans and $742K in Revenue Through AI-Optimized Digital Pipeline",
   subheadline: "MEGA helped a nationwide mortgage lending company optimize their digital marketing, improving ad efficiency by 35%, growing organic traffic 691%, and generating $781.2K in attributed revenue within 12 months.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
