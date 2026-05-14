@@ -227,6 +227,6 @@ export const lawFirmMtl: CaseStudyData = {
     { label: "Total Revenue", value: "$478.2K", growth: "+173%" },
     { label: "Signed Retainers", value: "81", growth: "+143%" },
     { label: "Cost Per Qualified Lead", value: "$163", growth: "↓34%" },
-    { label: "Blended ROAS", value: "4.20x", growth: "" },
+    { label: "Blended ROAS", value: "4.2x", growth: "" },
   ],
 };

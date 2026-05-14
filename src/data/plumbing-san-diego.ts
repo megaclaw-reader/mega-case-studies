@@ -7,8 +7,8 @@ export const plumbingSanDiego: CaseStudyData = {
   subheadline: "AI-powered optimization and strategic SEO growth generated 2,233 qualified leads and $507K in plumbing revenue across San Diego County over 12 months, while building sustainable organic presence with 8,934 keyword rankings.",
   heroStats: [
     { value: "47", unit: "%", label: "Cost Per Lead Reduction" },
-    { value: "1231", unit: "", label: "Total Qualified Leads" },
-    { value: "$507.4", unit: "K", label: "Revenue Generated" },
+    { value: "1,231", unit: "", label: "Total Qualified Leads" },
+    { value: "$507.4K", unit: "K", label: "Revenue Generated" },
     { value: "3.9", unit: "x", label: "Average ROAS" },
   ],
   tags: ["Always-On AI Optimization", "Paid Advertising", "SEO", "Lead Generation", "Residential & Commercial"],
@@ -108,7 +108,7 @@ export const plumbingSanDiego: CaseStudyData = {
   },
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$129K" },
+      { label: "Total Ad Spend", value: "$129.0K" },
       { label: "Total Leads", value: "1,818" },
       { label: "Avg Cost Per Lead", value: "$71", note: "↓47% from $73" },
       { label: "Total Revenue", value: "$507.4K" },
@@ -132,7 +132,7 @@ export const plumbingSanDiego: CaseStudyData = {
   impact: [
     { label: "Cost Per Lead Reduction", value: "47%", growth: "from $58 to $31" },
     { label: "Total Plumbing Revenue", value: "$507K", growth: "555 completed jobs" },
-    { label: "Average ROAS", value: "3.93x", growth: "sustained profitability" },
+    { label: "Average ROAS", value: "3.9x", growth: "sustained profitability" },
     { label: "Monthly Lead Growth", value: "221%", growth: "139 to 447 leads" },
   ],
 };

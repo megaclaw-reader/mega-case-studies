@@ -164,6 +164,6 @@ export const eventOrganization: CaseStudyData = {
     { label: "Total Revenue", value: "$163.0K", growth: "+89%" },
     { label: "Total Pipeline", value: "$261K", growth: "+74%" },
     { label: "Avg Revenue Per Booking", value: "$149.5K", growth: "" },
-    { label: "Blended ROAS", value: "2.26x", growth: "" },
+    { label: "Blended ROAS", value: "2.3x", growth: "" },
   ],
 };

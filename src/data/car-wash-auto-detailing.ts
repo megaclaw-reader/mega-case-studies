@@ -215,6 +215,6 @@ export const carWashAutoDetailing: CaseStudyData = {
     { label: "Total Revenue Attributed", value: "$187.5K", growth: "+197%" },
     { label: "New Memberships + Detail Bookings", value: "1,940", growth: "+41%" },
     { label: "Cost Per Qualified Lead", value: "$27", growth: "↓34%" },
-    { label: "Blended ROAS", value: "2.67x", growth: "" },
+    { label: "Blended ROAS", value: "2.7x", growth: "" },
   ],
 };

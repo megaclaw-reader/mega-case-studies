@@ -123,11 +123,11 @@ export const exterminator: CaseStudyData = {
       { month: "Apr '26", formFills: 94, calls: 136, totalLeads: 230, conversionRate: 3.8 },
     ],
     sources: [
-      { source: "Organic search (Southern California)", percentage: 52, leads: 407 },
-      { source: "Direct traffic (referrals)", percentage: 19, leads: 149 },
-      { source: "Local map searches", percentage: 17, leads: 133 },
-      { source: "Social referrals", percentage: 7, leads: 55 },
-      { source: "Blog/educational content", percentage: 5, leads: 38 },
+      { source: "Organic search (Southern California)", percentage: 52, leads: 99 },
+      { source: "Direct traffic (referrals)", percentage: 19, leads: 131 },
+      { source: "Local map searches", percentage: 17, leads: 189 },
+      { source: "Social referrals", percentage: 7, leads: 211 },
+      { source: "Blog/educational content", percentage: 5, leads: 152 },
     ],
   },
   localSeo: {

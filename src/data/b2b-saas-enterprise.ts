@@ -142,7 +142,7 @@ export const b2bSaasEnterprise: CaseStudyData = {
     { label: "Total Contract Value", value: "$1.72M", growth: "+412%" },
     { label: "Enterprise Contracts", value: "26", growth: "+367%" },
     { label: "Avg Contract Value", value: "$66.3K", growth: "" },
-    { label: "Blended ROAS", value: "4.29x", growth: "" },
+    { label: "Blended ROAS", value: "4.3x", growth: "" },
     { label: "Organic Traffic", value: "19,847/mo", growth: "+520%" },
     { label: "Total Keywords", value: "8,730", growth: "+1,840%" },
   ],

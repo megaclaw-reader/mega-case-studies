@@ -135,6 +135,6 @@ export const commercialInsuranceNy: CaseStudyData = {
     { label: "Total Revenue", value: "$128.5K", growth: "+328%" },
     { label: "Total Pipeline", value: "$267.4K", growth: "+214%" },
     { label: "Avg Policy Value", value: "$10,580", growth: "" },
-    { label: "Blended ROAS", value: "2.96x", growth: "" },
+    { label: "Blended ROAS", value: "3.0x", growth: "" },
   ],
 };

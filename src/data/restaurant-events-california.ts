@@ -156,6 +156,6 @@ export const restaurantEventsCaliforniaMar: CaseStudyData = {
     { label: "Total Revenue", value: "$229.8K", growth: "+209%" },
     { label: "Total Pipeline", value: "$605K", growth: "+156%" },
     { label: "Avg Revenue Per Booking", value: "$4,889", growth: "" },
-    { label: "Blended ROAS", value: "3.95x", growth: "" },
+    { label: "Blended ROAS", value: "4.0x", growth: "" },
   ],
 };

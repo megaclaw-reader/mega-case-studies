@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const lawFirmNational: CaseStudyData = {
   slug: "law-firm-national",
   industry: "National Law Firm",
-  headline: "How a Multi-Practice National Law Firm Generated $5.0M in Case Revenue at a 3.7x Blended ROAS",
+  headline: "How a Multi-Practice National Law Firm Generated $4,974,900 in Case Revenue at a 3.7x Blended ROAS",
   subheadline: "MEGA helped a national law firm spanning mass torts, class action, and personal injury transform a stagnant 14,000-keyword footprint into a coast-to-coast digital acquisition engine — strategically growing to 36,700+ keywords with 5,700+ top-10 rankings and an average position of 12.4, reducing cost per qualified lead by 40%, and delivering a 3.7x blended ROAS across all practice areas in 12 months.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
     { value: "5.0", unit: "M", label: "Attributed Revenue" },
-    { value: "3.7", unit: "x", label: "Blended ROAS" },
+    { value: "3.7x", unit: "x", label: "Blended ROAS" },
   ],
   tags: ["Paid Advertising", "SEO Strategy", "Lead Generation"],
   company: {
@@ -107,7 +107,7 @@ export const lawFirmNational: CaseStudyData = {
   },
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$1.34M" },
+      { label: "Total Ad Spend", value: "$1,342,700" },
       { label: "Qualified Leads", value: "5,477" },
       { label: "Avg Cost Per Qualified Lead", value: "$245", note: "↓81% from $1,282" },
       { label: "Signed Cases", value: "165" },
@@ -136,8 +136,8 @@ export const lawFirmNational: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue Attributed", value: "$4.97M", growth: "3.7x Blended ROAS" },
-    { label: "Total Qualified Leads", value: "5477", growth: "↓40% CPQL" },
+    { label: "Total Revenue Attributed", value: "$4,974,900", growth: "3.7x Blended ROAS" },
+    { label: "Total Qualified Leads", value: "5,477", growth: "↓40% CPQL" },
     { label: "Signed Cases", value: "165", growth: "9.4% close rate" },
     { label: "Total Ad Spend", value: "$1.34M", growth: "" },
   ],

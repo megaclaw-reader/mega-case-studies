@@ -141,7 +141,7 @@ export const roofingHouston: CaseStudyData = {
   },
   impact: [
     { label: "Total Revenue", value: "$260.5K", growth: "+142%" },
-    { label: "Blended ROAS", value: "3.35x", growth: "" },
+    { label: "Blended ROAS", value: "3.4x", growth: "" },
     { label: "Total Qualified Leads", value: "405", growth: "+108%" },
     { label: "Avg CPQL", value: "$320", growth: "↓37% from $507" },
   ],

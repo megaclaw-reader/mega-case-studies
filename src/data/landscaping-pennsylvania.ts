@@ -129,7 +129,7 @@ export const landscapingPennsylvaniaData: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue Generated", value: "$242K", growth: "From 44 landscaping projects" },
+    { label: "Total Revenue Generated", value: "$242.0K", growth: "From 44 landscaping projects" },
     { label: "Average Project Value", value: "$5,500", growth: "Mix of maintenance and design work" },
     { label: "Peak Season Optimization", value: "+85%", growth: "Revenue vs. previous year baseline" },
     { label: "Lead Quality Improvement", value: "+140%", growth: "Qualified rate: 35% → 54%" },

@@ -130,7 +130,7 @@ export const multifamilyHousingBoston: CaseStudyData = {
   },
   impact: [
     { label: "Total Revenue", value: "$168.6K", growth: "" },
-    { label: "Blended ROAS", value: "2.45x", growth: "" },
+    { label: "Blended ROAS", value: "2.4x", growth: "" },
     { label: "Total Qualified Leads", value: "394", growth: "" },
     { label: "Avg CPQL", value: "$396", growth: "↓23% from $516" },
   ],

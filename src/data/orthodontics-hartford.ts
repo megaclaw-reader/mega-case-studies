@@ -140,6 +140,6 @@ export const orthodonticsHartford: CaseStudyData = {
     { label: "Total Revenue", value: "$191.2K", growth: "+267%" },
     { label: "New Patient Starts", value: "35", growth: "+267%" },
     { label: "Cost Per Qualified Lead", value: "$179", growth: "↓59%" },
-    { label: "Blended ROAS", value: "3.42x", growth: "" },
+    { label: "Blended ROAS", value: "3.4x", growth: "" },
   ],
 };

@@ -172,6 +172,6 @@ export const internetServiceProvider: CaseStudyData = {
     { label: "Total Revenue", value: "$418.7K", growth: "+218%" },
     { label: "New Subscribers", value: "437", growth: "+218%" },
     { label: "Cost Per Qualified Lead", value: "$145", growth: "↓47%" },
-    { label: "Blended ROAS", value: "3.06x", growth: "" },
+    { label: "Blended ROAS", value: "3.1x", growth: "" },
   ],
 };

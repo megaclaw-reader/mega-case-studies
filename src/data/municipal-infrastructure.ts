@@ -124,7 +124,7 @@ export const municipalInfrastructure: CaseStudyData = {
     { label: "Total Contract Value", value: "$171.8K", growth: "" },
     { label: "CAC Reduction", value: "63%", growth: "$4,657 → $1,716" },
     { label: "Qualified RFQs", value: "93", growth: "3.2x growth" },
-    { label: "Blended ROAS", value: "4.02x", growth: "" },
+    { label: "Blended ROAS", value: "4.0x", growth: "" },
     { label: "Organic Traffic", value: "3,847/mo", growth: "+1,236%" },
     { label: "Keywords Ranked", value: "1,712", growth: "+1,914%" },
   ],

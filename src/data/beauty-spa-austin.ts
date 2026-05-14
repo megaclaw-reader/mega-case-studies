@@ -140,6 +140,6 @@ export const beautySpaAustin: CaseStudyData = {
     { label: "Total Revenue", value: "$125.5K", growth: "+167%" },
     { label: "Booked Clients", value: "84", growth: "+267%" },
     { label: "Lead Qualification Rate", value: "38.9%", growth: "↑from 21.5%" },
-    { label: "Blended ROAS", value: "2.80x", growth: "" },
+    { label: "Blended ROAS", value: "2.8x", growth: "" },
   ],
 };

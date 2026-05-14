@@ -150,6 +150,6 @@ export const orthodonticsSantaRosa: CaseStudyData = {
     { label: "Total Revenue", value: "$332.5K", growth: "+367%" },
     { label: "Orthodontic Cases Started", value: "63", growth: "+244%" },
     { label: "Cost Per Qualified Lead", value: "↓63%", growth: "$556 → $203" },
-    { label: "Blended ROAS", value: "4.34x", growth: "" },
+    { label: "Blended ROAS", value: "4.3x", growth: "" },
   ],
 };

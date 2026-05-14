@@ -148,6 +148,6 @@ export const commercialTaxServicesUs: CaseStudyData = {
     { label: "Total Revenue", value: "$145.1K", growth: "+140%" },
     { label: "Total Pipeline", value: "$523K", growth: "+165%" },
     { label: "Avg Revenue Per Client", value: "$7,209", growth: "" },
-    { label: "Blended ROAS", value: "2.54x", growth: "" },
+    { label: "Blended ROAS", value: "2.5x", growth: "" },
   ],
 };

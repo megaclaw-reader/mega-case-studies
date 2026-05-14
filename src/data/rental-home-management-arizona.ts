@@ -259,6 +259,6 @@ export const rentalHomeManagementArizona: CaseStudyData = {
     { label: "Total Revenue", value: "$656.9K", growth: "+387%" },
     { label: "Signed Contracts", value: "310", growth: "+312%" },
     { label: "Cost Per Qualified Lead", value: "$100", growth: "↓37%" },
-    { label: "Blended ROAS", value: "4.57x", growth: "" },
+    { label: "Blended ROAS", value: "4.6x", growth: "" },
   ],
 };

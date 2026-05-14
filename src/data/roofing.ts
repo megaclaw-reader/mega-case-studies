@@ -156,6 +156,6 @@ export const roofing: CaseStudyData = {
     { label: "Total Revenue", value: "$185.3K", growth: "+97%" },
     { label: "Total Pipeline", value: "$312K", growth: "+84%" },
     { label: "Avg Revenue Per Job", value: "$5,791", growth: "" },
-    { label: "Blended ROAS", value: "2.77x", growth: "" },
+    { label: "Blended ROAS", value: "2.8x", growth: "" },
   ],
 };

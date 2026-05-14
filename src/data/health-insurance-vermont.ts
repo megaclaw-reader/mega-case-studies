@@ -7,7 +7,7 @@ export const healthInsuranceVermontData: CaseStudyData = {
   subheadline: "10-month engagement transforms local market positioning with $58.5K total spend generating 404 qualified leads and $272K in new annual premiums — achieving a 4.64x blended ROAS while building keyword authority from 126 to 2,567 tracked terms.",
   heroStats: [
     { value: "164", unit: "%", label: "Lead Volume Growth" },
-    { value: "4.6", unit: "x", label: "Blended ROAS" },
+    { value: "4.6x", unit: "x", label: "Blended ROAS" },
     { value: "$271.7K", unit: "K", label: "Revenue Generated" },
   ],
   tags: ["Health Insurance", "Lead Generation", "Vermont", "Local Marketing", "AI Optimization"],

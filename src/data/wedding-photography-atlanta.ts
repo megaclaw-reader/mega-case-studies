@@ -142,6 +142,6 @@ export const weddingPhotographyAtlanta: CaseStudyData = {
     { label: "Total Revenue", value: "$156.4K", growth: "+284%" },
     { label: "Total Pipeline", value: "$367K", growth: "+219%" },
     { label: "Avg Package Value", value: "$3,533", growth: "" },
-    { label: "Blended ROAS", value: "3.60x", growth: "" },
+    { label: "Blended ROAS", value: "3.6x", growth: "" },
   ],
 };

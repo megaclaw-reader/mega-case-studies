@@ -154,6 +154,6 @@ export const indoorAdventureFlorida: CaseStudyData = {
     { label: "Total Revenue", value: "$476.6K", growth: "+312%" },
     { label: "Total Bookings", value: "3,647", growth: "+267%" },
     { label: "Avg Booking Value", value: "$127", growth: "" },
-    { label: "Blended ROAS", value: "3.04x", growth: "" },
+    { label: "Blended ROAS", value: "3.0x", growth: "" },
   ],
 };

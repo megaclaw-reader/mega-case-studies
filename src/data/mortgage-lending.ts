@@ -178,6 +178,6 @@ export const mortgageLending: CaseStudyData = {
     { label: "Total Revenue", value: "$742.3K", growth: "+82%" },
     { label: "Total Pipeline", value: "$1.68M", growth: "+69%" },
     { label: "Avg Revenue Per Funded Loan", value: "$5,499", growth: "" },
-    { label: "Blended ROAS", value: "4.04x", growth: "" },
+    { label: "Blended ROAS", value: "4.0x", growth: "" },
   ],
 };

@@ -116,14 +116,14 @@ export const junkRemovalLosAngeles: CaseStudyData = {
   },
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$82K" },
+      { label: "Total Ad Spend", value: "$82.0K" },
       { label: "Total Leads", value: "733" },
       { label: "Avg CPL", value: "$112" },
       { label: "Qualified Leads", value: "300" },
       { label: "Avg CPQL", value: "$273" },
       { label: "Total Jobs Booked", value: "412" },
       { label: "Total Revenue", value: "$185.7K" },
-      { label: "Blended ROAS", value: "2.3" },
+      { label: "Blended ROAS", value: "2.3x" },
     ],
     monthly: [
       { month: "Jan '25", spend: 5000, leads: 33, cpl: 151.52, qualified: 12, cpql: 416.67, deals: 18, revenue: 7614, roas: 1.52 },

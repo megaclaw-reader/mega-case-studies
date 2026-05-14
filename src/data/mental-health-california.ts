@@ -157,7 +157,7 @@ export const mentalHealthCalifornia: CaseStudyData = {
     { label: "Total Revenue", value: "$623.0K", growth: "" },
     { label: "New Clients Acquired", value: "1,082", growth: "" },
     { label: "Cost/Qualified Lead", value: "$61", growth: "↓48% from $118" },
-    { label: "Blended ROAS", value: "4.08x", growth: "" },
+    { label: "Blended ROAS", value: "4.1x", growth: "" },
     { label: "Organic Keywords", value: "94 → 8,673", growth: "+9,124%" },
     { label: "Monthly Organic Traffic", value: "1,347 → 12,847", growth: "+854%" },
   ],

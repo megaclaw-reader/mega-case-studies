@@ -126,6 +126,6 @@ export const homeRenovations: CaseStudyData = {
     { label: "Total Revenue", value: "$314.7K", growth: "+187%" },
     { label: "Qualified Leads", value: "876", growth: "+94%" },
     { label: "CPQL Reduction", value: "$301", growth: "↓38%" },
-    { label: "Blended ROAS", value: "3.62x", growth: "" },
+    { label: "Blended ROAS", value: "3.6x", growth: "" },
   ],
 };

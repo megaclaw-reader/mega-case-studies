@@ -125,9 +125,9 @@ export const b2bSaasPaid: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$2.05M", growth: "+247%" },
+    { label: "Total Revenue", value: "$2,046,497", growth: "+247%" },
     { label: "Total Pipeline", value: "$4.6M", growth: "+203%" },
     { label: "Avg Contract Value", value: "$27,942", growth: "" },
-    { label: "Blended ROAS", value: "3.74x", growth: "" },
+    { label: "Blended ROAS", value: "3.7x", growth: "" },
   ],
 };

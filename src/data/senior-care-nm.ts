@@ -123,7 +123,7 @@ export const seniorCareNm: CaseStudyData = {
   },
   impact: [
     { label: "Total Revenue", value: "$302.6K", growth: "+287%" },
-    { label: "Blended ROAS", value: "4.18x", growth: "" },
+    { label: "Blended ROAS", value: "4.2x", growth: "" },
     { label: "Avg Client Value", value: "$3,440", growth: "" },
     { label: "Total Pipeline", value: "$487K", growth: "+194%" },
   ],

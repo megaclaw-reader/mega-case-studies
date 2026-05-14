@@ -125,6 +125,6 @@ export const dentalImplantsAustin: CaseStudyData = {
     { label: "Total Revenue", value: "$785.9K", growth: "+326%" },
     { label: "Closed Implant Cases", value: "92", growth: "+333%" },
     { label: "Lead Qualification Rate", value: "49.3%", growth: "↑from 30.8%" },
-    { label: "Blended ROAS", value: "3.65x", growth: "" },
+    { label: "Blended ROAS", value: "3.6x", growth: "" },
   ],
 };

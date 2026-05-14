@@ -111,6 +111,6 @@ export const sportsDrink: CaseStudyData = {
     { label: "Total Revenue", value: "$230.2K", growth: "+157% ROAS improvement" },
     { label: "Total Orders", value: "6,306", growth: "across 8 months" },
     { label: "Average Order Value", value: "$36.51", growth: "multi-pack sports drink category" },
-    { label: "Blended ROAS", value: "4.86x", growth: "from 2.40x starting" },
+    { label: "Blended ROAS", value: "4.9x", growth: "from 2.40x starting" },
   ],
 };

@@ -125,7 +125,7 @@ export const subscriptionEducationPlatform: CaseStudyData = {
     { label: "Monthly Subscribers", value: "2,847 → 11,289", growth: "+296%" },
     { label: "Subscriber Acquisition Cost", value: "$94 → $68", growth: "↓28%" },
     { label: "Total Paid Revenue", value: "$157,651", growth: "" },
-    { label: "Blended ROAS", value: "3.22x", growth: "" },
+    { label: "Blended ROAS", value: "3.2x", growth: "" },
     { label: "Monthly Organic Traffic", value: "1,840 → 18,247", growth: "+892%" },
     { label: "Keywords Ranking", value: "93 → 2,834", growth: "+2,948%" },
   ],

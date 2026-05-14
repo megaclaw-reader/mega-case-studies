@@ -147,6 +147,6 @@ export const sportsNutritionArizona: CaseStudyData = {
     { label: "Total Revenue", value: "$160.1K", growth: "+365%" },
     { label: "Deals Closed", value: "419", growth: "+189%" },
     { label: "Avg Deal Value", value: "$382", growth: "" },
-    { label: "Blended ROAS", value: "1.56x", growth: "" },
+    { label: "Blended ROAS", value: "1.6x", growth: "" },
   ],
 };

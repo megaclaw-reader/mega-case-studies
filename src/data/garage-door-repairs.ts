@@ -147,6 +147,6 @@ export const garageDoorRepairs: CaseStudyData = {
     { label: "Total Revenue", value: "$186.3K", growth: "+153%" },
     { label: "Total Pipeline", value: "$578K", growth: "+127%" },
     { label: "Avg Job Value", value: "$847", growth: "" },
-    { label: "Blended ROAS", value: "1.04x", growth: "" },
+    { label: "Blended ROAS", value: "1.0x", growth: "" },
   ],
 };

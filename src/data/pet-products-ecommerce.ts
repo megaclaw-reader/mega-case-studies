@@ -159,7 +159,7 @@ export const petProductsEcommerce: CaseStudyData = {
       { label: "Total Ad Spend", value: "$70.8K" },
       { label: "Total Orders", value: "2,734" },
       { label: "Avg Cost Per Acquisition", value: "$13.85" },
-      { label: "Blended ROAS", value: "2.2" },
+      { label: "Blended ROAS", value: "2.2x" },
     ],
     columnLabels: {
       leads: "Sessions",

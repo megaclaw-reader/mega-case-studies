@@ -155,6 +155,6 @@ export const subscriptionEducationNational: CaseStudyData = {
     { label: "Subscriber Acquisition Cost", value: "$94 → $68", growth: "↓28%" },
     { label: "Trial-to-Paid Rate", value: "12.8% → 70.8%", growth: "+58pts" },
     { label: "Organic Trial Signups", value: "89 → 1,247/mo", growth: "+1,301%" },
-    { label: "Blended ROAS", value: "3.22x", growth: "" },
+    { label: "Blended ROAS", value: "3.2x", growth: "" },
   ],
 };

@@ -208,7 +208,7 @@ export const estatePlanningLaw: CaseStudyData = {
   },
   impact: [
     { label: "Total Revenue", value: "$367.4K", growth: "from $0 digital revenue" },
-    { label: "Blended ROAS", value: "3.35x", growth: "" },
+    { label: "Blended ROAS", value: "3.3x", growth: "" },
     { label: "Organic Traffic Growth", value: "+1,847%", growth: "167 → 3,247/mo" },
     { label: "Keywords Ranking", value: "8,740", growth: "from 118 (+7,305%)" },
   ],

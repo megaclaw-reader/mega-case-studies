@@ -202,7 +202,7 @@ export const retirementPlanningNational: CaseStudyData = {
     { label: "Projected 10-Year Client LTV", value: "$3.9M", growth: "recurring" },
     { label: "Total Qualified Leads (Paid + Organic)", value: "139", growth: "" },
     { label: "Qualification Rate Improvement", value: "11% → 36%", growth: "+227%" },
-    { label: "Blended ROAS (Year 1)", value: "4.19x", growth: "" },
+    { label: "Blended ROAS (Year 1)", value: "4.2x", growth: "" },
     { label: "Organic Qualified Leads", value: "139", growth: "$0 ad spend" },
   ],
 };

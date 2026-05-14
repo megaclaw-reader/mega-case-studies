@@ -165,9 +165,9 @@ export const homeDamageRestorationFlorida: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$1.50M", growth: "+387%" },
-    { label: "Total Qualified Leads", value: "2401", growth: "↓65% Cost Per Lead" },
+    { label: "Total Revenue", value: "$1.5M", growth: "+387%" },
+    { label: "Total Qualified Leads", value: "2,401", growth: "↓65% Cost Per Lead" },
     { label: "Closed Deals", value: "140", growth: "+250%" },
-    { label: "Blended ROAS", value: "3.72x", growth: "" },
+    { label: "Blended ROAS", value: "3.7x", growth: "" },
   ],
 };

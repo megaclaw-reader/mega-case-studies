@@ -7,7 +7,7 @@ export const b2bLanguageServices: CaseStudyData = {
   subheadline: "MEGA helped a national B2B language services provider combine AI-powered paid advertising with strategic SEO to reduce cost per qualified lead by 32%, grow organic keywords from 151 to 9,240+, and generate $701K in attributed revenue targeting corporate clients across translation, interpretation, and localization services.",
   heroStats: [
     { value: "$701.1K", unit: "K", label: "Revenue Generated" },
-    { value: "4.0", unit: "x", label: "Average ROAS" },
+    { value: "4.0x", unit: "x", label: "Average ROAS" },
     { value: "32", unit: "%", label: "CPQL Reduction" },
     { value: "6,025", unit: "%", label: "Organic Traffic Growth" }
   ],
@@ -132,7 +132,7 @@ export const b2bLanguageServices: CaseStudyData = {
       { label: "Avg CPQL", value: "$106" },
       { label: "Total Deals Closed", value: "174" },
       { label: "Total Revenue", value: "$701.1K" },
-      { label: "Blended ROAS", value: "4.0" }
+      { label: "Blended ROAS", value: "4.0x" }
     ],
     monthly: [
       { month: "Jan '25", spend: 10000, leads: 95, cpl: 105.26, qualified: 64, cpql: 156.25, deals: 6, revenue: 25400, roas: 2.54 },

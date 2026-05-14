@@ -164,6 +164,6 @@ export const accountingNy: CaseStudyData = {
     { label: "Total Revenue", value: "$206.4K", growth: "+77%" },
     { label: "New Clients Acquired", value: "22", growth: "from ads + organic" },
     { label: "Avg Revenue Per Client", value: "$9,382", growth: "first-year value" },
-    { label: "Blended ROAS", value: "2.87x", growth: "" },
+    { label: "Blended ROAS", value: "2.9x", growth: "" },
   ],
 };

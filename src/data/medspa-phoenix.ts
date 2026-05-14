@@ -148,6 +148,6 @@ export const medspaPhoenix: CaseStudyData = {
     { label: "Total Revenue", value: "$429.2K", growth: "+3.4x" },
     { label: "Booked Clients", value: "187", growth: "+200%" },
     { label: "Total Ad Spend", value: "$112.3K", growth: "+69% monthly scaling" },
-    { label: "Blended ROAS", value: "3.82x", growth: "" },
+    { label: "Blended ROAS", value: "3.8x", growth: "" },
   ],
 };

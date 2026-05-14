@@ -145,6 +145,6 @@ export const luxuryHomeDecor: CaseStudyData = {
     { label: "Total Revenue", value: "$348.0K", growth: "+247% ROAS improvement" },
     { label: "Total Orders", value: "1,771", growth: "across 12 months" },
     { label: "Average Order Value", value: "$196.51", growth: "luxury home decor category" },
-    { label: "Blended ROAS", value: "3.98x", growth: "from 1.85x starting" },
+    { label: "Blended ROAS", value: "4.0x", growth: "from 1.85x starting" },
   ],
 };

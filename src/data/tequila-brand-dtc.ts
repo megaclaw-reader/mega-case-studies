@@ -3,11 +3,11 @@ import { CaseStudyData } from "./types";
 export const tequilaBrandDtc: CaseStudyData = {
   slug: "tequila-brand-dtc",
   industry: "Premium Spirits / Tequila",
-  headline: "How a Premium Tequila Brand Scaled DTC Revenue to $1.6M With AI-Powered Paid Advertising",
+  headline: "How a Premium Tequila Brand Scaled DTC Revenue to $1,625,219 With AI-Powered Paid Advertising",
   subheadline: "MEGA partnered with a premium DTC tequila brand to deploy always-on AI optimization and high-velocity creative testing — growing monthly ROAS from 3.03x to 7.81x, generating 22,156 orders, and producing $1.63M in ecommerce revenue over 12 months with a blended 6.41x ROAS.",
   heroStats: [
     { value: "7.81", unit: "x", label: "Peak ROAS Achieved" },
-    { value: "$1.63M", unit: "M", label: "Revenue Generated" },
+    { value: "$1,625,219", unit: "M", label: "Revenue Generated" },
     { value: "22,156", unit: "", label: "Total Orders" },
   ],
   tags: ["Ecommerce", "Paid Advertising", "DTC", "Spirits"],
@@ -119,9 +119,9 @@ export const tequilaBrandDtc: CaseStudyData = {
   },
   seo: undefined,
   impact: [
-    { label: "Total Revenue", value: "$1.63M", growth: "+157% ROAS improvement" },
+    { label: "Total Revenue", value: "$1,625,219", growth: "+157% ROAS improvement" },
     { label: "Total Orders", value: "22,156", growth: "across 12 months" },
     { label: "Average Order Value", value: "$73.35", growth: "premium tequila category" },
-    { label: "Blended ROAS", value: "6.41x", growth: "from 3.03x starting" },
+    { label: "Blended ROAS", value: "6.4x", growth: "from 3.03x starting" },
   ],
 };

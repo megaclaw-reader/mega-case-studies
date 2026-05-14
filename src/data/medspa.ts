@@ -148,6 +148,6 @@ export const medspa: CaseStudyData = {
     { label: "Total Revenue", value: "$387.2K", growth: "+3.1x" },
     { label: "Booked Clients", value: "164", growth: "+134%" },
     { label: "Total Ad Spend", value: "$103.5K", growth: "" },
-    { label: "Blended ROAS", value: "3.74x", growth: "" },
+    { label: "Blended ROAS", value: "3.7x", growth: "" },
   ],
 };

@@ -155,6 +155,6 @@ export const cybersecurity: CaseStudyData = {
     { label: "Total Revenue", value: "$655.5K", growth: "+145%" },
     { label: "Total Pipeline", value: "$1.43M", growth: "+106%" },
     { label: "Avg Revenue Per Contract", value: "$655.5K", growth: "" },
-    { label: "Blended ROAS", value: "3.96x", growth: "" },
+    { label: "Blended ROAS", value: "4.0x", growth: "" },
   ],
 };

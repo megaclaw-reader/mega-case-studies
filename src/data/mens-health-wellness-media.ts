@@ -180,7 +180,7 @@ export const mensHealthWellnessMedia: CaseStudyData = {
   impact: [
     { label: "Total Revenue from Paid", value: "$428.1K", growth: "+12,200%" },
     { label: "Total Ad Spend", value: "$174.0K", growth: "" },
-    { label: "Blended ROAS", value: "2.46x", growth: "" },
+    { label: "Blended ROAS", value: "2.5x", growth: "" },
     { label: "Premium Members Acquired", value: "1,733", growth: "+12,279%" },
     { label: "Cost Per Member", value: "$456 → $100.38", growth: "↓78%" },
     { label: "Organic Traffic", value: "312 → 47,891/mo", growth: "+15,249%" },

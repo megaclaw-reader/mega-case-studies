@@ -138,8 +138,8 @@ export const exteriorBuildingProductsAlabama: CaseStudyData = {
       {
         month: "Jan 2025",
         spend: 8765,
-        leads: 67,
-        cpl: 131,
+        leads: 54,
+        cpl: 162,
         qualified: 29,
         cpql: 302,
         deals: 2,
@@ -149,8 +149,8 @@ export const exteriorBuildingProductsAlabama: CaseStudyData = {
       {
         month: "Feb 2025",
         spend: 9340,
-        leads: 84,
-        cpl: 111,
+        leads: 61,
+        cpl: 153,
         qualified: 43,
         cpql: 217,
         deals: 3,
@@ -160,8 +160,8 @@ export const exteriorBuildingProductsAlabama: CaseStudyData = {
       {
         month: "Mar 2025",
         spend: 11250,
-        leads: 98,
-        cpl: 115,
+        leads: 77,
+        cpl: 146,
         qualified: 56,
         cpql: 201,
         deals: 4,
@@ -171,8 +171,8 @@ export const exteriorBuildingProductsAlabama: CaseStudyData = {
       {
         month: "Apr 2025",
         spend: 12890,
-        leads: 123,
-        cpl: 105,
+        leads: 91,
+        cpl: 142,
         qualified: 59,
         cpql: 218,
         deals: 5,
@@ -182,8 +182,8 @@ export const exteriorBuildingProductsAlabama: CaseStudyData = {
       {
         month: "May 2025",
         spend: 10370,
-        leads: 134,
-        cpl: 77,
+        leads: 102,
+        cpl: 102,
         qualified: 77,
         cpql: 135,
         deals: 3,
@@ -213,9 +213,9 @@ export const exteriorBuildingProductsAlabama: CaseStudyData = {
       { month: "May 2025", formFills: 25, calls: 37, totalLeads: 62, conversionRate: 1.92 },
     ],
     sources: [
-      { source: "Organic Search", percentage: 58, leads: 108 },
-      { source: "Local Search / Map Pack", percentage: 31, leads: 58 },
-      { source: "Direct (Branded)", percentage: 11, leads: 21 },
+      { source: "Organic Search", percentage: 58, leads: 121 },
+      { source: "Local Search / Map Pack", percentage: 31, leads: 101 },
+      { source: "Direct (Branded)", percentage: 11, leads: 83 },
     ],
   },
   impact: [

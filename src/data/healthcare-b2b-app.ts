@@ -103,9 +103,9 @@ export const healthcareB2bApp: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$253K", growth: "+322%" },
+    { label: "Total Revenue", value: "$253.0K", growth: "+322%" },
     { label: "Total Deals Closed", value: "42", growth: "+1300%" },
     { label: "Avg Contract Value", value: "$6,024", growth: "" },
-    { label: "Blended ROAS", value: "4.17x", growth: "" },
+    { label: "Blended ROAS", value: "4.2x", growth: "" },
   ],
 };

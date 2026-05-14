@@ -8,7 +8,7 @@ export const probiotics: CaseStudyData = {
   heroStats: [
     { value: "7", unit: "months", label: "Partnership Duration" },
     { value: "7.70", unit: "x", label: "Peak ROAS Achieved" },
-    { value: "$1.40M", unit: "M", label: "Revenue Generated" },
+    { value: "$1.4M", unit: "M", label: "Revenue Generated" },
   ],
   tags: ["Ecommerce", "SEO", "Paid Advertising", "DTC"],
   company: {
@@ -128,9 +128,9 @@ export const probiotics: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$1.40M", growth: "+50% ROAS improvement" },
+    { label: "Total Revenue", value: "$1.4M", growth: "+50% ROAS improvement" },
     { label: "Total Orders", value: "26,411", growth: "across 7 months" },
     { label: "Average Order Value", value: "$53.01", growth: "probiotics category" },
-    { label: "Blended ROAS", value: "6.60x", growth: "from 5.12x starting" },
+    { label: "Blended ROAS", value: "6.6x", growth: "from 5.12x starting" },
   ],
 };

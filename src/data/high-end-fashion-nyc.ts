@@ -112,7 +112,7 @@ export const highEndFashionNyc: CaseStudyData = {
       { label: "Total Ad Spend", value: "$196.4K" },
       { label: "Total Orders", value: "1,711" },
       { label: "Avg Cost Per Acquisition", value: "$95.94", note: "↓33% from $143" },
-      { label: "Blended ROAS", value: "3.8", note: "from 2.94x baseline" },
+      { label: "Blended ROAS", value: "3.8x", note: "from 2.94x baseline" },
     ],
     columnLabels: {
       leads: "Sessions",

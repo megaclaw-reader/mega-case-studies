@@ -143,7 +143,7 @@ export const franchiseRestaurant: CaseStudyData = {
   impact: [
     { label: "Total Revenue", value: "$655.2K", growth: "+395%" },
     { label: "Customers Acquired", value: "297", growth: "+395%" },
-    { label: "Blended ROAS", value: "4.29x", growth: "" },
+    { label: "Blended ROAS", value: "4.3x", growth: "" },
     { label: "Organic Traffic Growth", value: "14,287/mo", growth: "+1,684%" },
   ],
 };

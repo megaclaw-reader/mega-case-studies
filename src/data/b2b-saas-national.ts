@@ -155,6 +155,6 @@ export const b2bSaasNational: CaseStudyData = {
     { label: "Total New MRR", value: "$240K", growth: "+567%" },
     { label: "Total Subscriptions", value: "289", growth: "+412%" },
     { label: "Avg Subscription Value", value: "$127/mo", growth: "" },
-    { label: "Blended ROAS", value: "2.67x", growth: "" },
+    { label: "Blended ROAS", value: "2.7x", growth: "" },
   ],
 };

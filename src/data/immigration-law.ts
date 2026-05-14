@@ -3,7 +3,7 @@ import { CaseStudyData } from "./types";
 export const immigrationLaw: CaseStudyData = {
   slug: "immigration-law",
   industry: "Immigration Law",
-  headline: "How a National Immigration Law Firm Generated $4.9M in Case Revenue With AI-Powered Digital Marketing",
+  headline: "How a National Immigration Law Firm Generated $4,872,350 in Case Revenue With AI-Powered Digital Marketing",
   subheadline: "MEGA helped a nationally recognized immigration law practice scale paid digital advertising and organic search simultaneously — reducing cost per qualified lead by 40%, growing organic keywords to 9,400+, and generating $4.87M in attributed revenue over 12 months.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
@@ -122,7 +122,7 @@ export const immigrationLaw: CaseStudyData = {
   },
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$1.98M" },
+      { label: "Total Ad Spend", value: "$1,984,000" },
       { label: "Qualified Consultations", value: "4,647" },
       { label: "Avg Cost Per Qualified Lead", value: "$427", note: "↓40% from $714" },
       { label: "Signed Retainers", value: "718" },
@@ -151,9 +151,9 @@ export const immigrationLaw: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$4.87M", growth: "+312%" },
+    { label: "Total Revenue", value: "$4,872,350", growth: "+312%" },
     { label: "Total Pipeline", value: "$14.2M", growth: "+247%" },
     { label: "Avg Case Value", value: "$6,784", growth: "" },
-    { label: "Blended ROAS", value: "2.46x", growth: "" },
+    { label: "Blended ROAS", value: "2.5x", growth: "" },
   ],
 };

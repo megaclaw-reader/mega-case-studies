@@ -155,7 +155,7 @@ export const seniorCareCharlotte: CaseStudyData = {
     { label: "Total Revenue", value: "$605.2K", growth: "" },
     { label: "New Care Clients", value: "197", growth: "" },
     { label: "Cost/Qualified Lead", value: "$72", growth: "↓53%" },
-    { label: "Blended ROAS", value: "4.21x", growth: "" },
+    { label: "Blended ROAS", value: "4.2x", growth: "" },
     { label: "Organic Keywords", value: "158 → 8,419", growth: "+5,228%" },
     { label: "Monthly Organic Traffic", value: "623 → 11,247", growth: "+1,706%" },
   ],

@@ -3,7 +3,7 @@ import { CaseStudyData } from "./types";
 export const ecommerceFashionNational: CaseStudyData = {
   slug: "ecommerce-fashion-national",
   industry: "eCommerce - Fashion",
-  headline: "How a National Fashion Brand Generated $1.6M in Revenue with a 3.3x ROAS Through Strategic Seasonal Paid Advertising",
+  headline: "How a National Fashion Brand Generated $1,615,132 in Revenue with a 3.3x ROAS Through Strategic Seasonal Paid Advertising",
   subheadline: "MEGA helped a sustainable fashion ecommerce company optimize their paid advertising campaigns across seasonal demand cycles — delivering 12,847 orders and capturing peak performance during Black Friday/Cyber Monday with strategic budget allocation and audience targeting.",
   heroStats: [
     { value: "12", unit: "months", label: "Campaign Duration" },
@@ -91,7 +91,7 @@ export const ecommerceFashionNational: CaseStudyData = {
       { label: "Total Ad Spend", value: "$489.7K" },
       { label: "Total Orders", value: "12,892" },
       { label: "Avg Cost Per Visit", value: "$1.73", note: "↓26% from $2.34" },
-      { label: "Blended ROAS", value: "3.3", note: "from 3.8x baseline" },
+      { label: "Blended ROAS", value: "3.3x", note: "from 3.8x baseline" },
     ],
     columnLabels: {
       leads: "Sessions",
@@ -116,7 +116,7 @@ export const ecommerceFashionNational: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$1.62M", growth: "+67%" },
+    { label: "Total Revenue", value: "$1,615,132", growth: "+67%" },
     { label: "Total Orders", value: "12,892", growth: "+58%" },
     { label: "Blended ROAS", value: "3.30x", growth: "+35%" },
     { label: "Avg Cost Per Visit", value: "$1.73", growth: "↓26%" },

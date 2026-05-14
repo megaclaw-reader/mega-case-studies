@@ -134,6 +134,6 @@ export const swimmingPoolContractors: CaseStudyData = {
     { label: "Closed Revenue", value: "$236.3K", growth: "" },
     { label: "Total Pipeline", value: "$1.58M", growth: "" },
     { label: "Avg Contract Value", value: "$40,344", growth: "" },
-    { label: "Blended ROAS", value: "3.62x", growth: "" },
+    { label: "Blended ROAS", value: "3.6x", growth: "" },
   ],
 };

@@ -155,6 +155,6 @@ export const homeDamageRestoration: CaseStudyData = {
     { label: "Total Revenue", value: "$740.8K", growth: "+162%" },
     { label: "Total Pipeline", value: "$1.28M", growth: "+118%" },
     { label: "Avg Revenue Per Job", value: "$740.8K", growth: "" },
-    { label: "Blended ROAS", value: "3.91x", growth: "" },
+    { label: "Blended ROAS", value: "3.9x", growth: "" },
   ],
 };

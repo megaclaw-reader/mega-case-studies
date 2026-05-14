@@ -129,7 +129,7 @@ export const flooringMiami: CaseStudyData = {
   impact: [
     { label: "CPQL Reduction", value: "43%", growth: "from $69 to $60" },
     { label: "Total Revenue", value: "$213.9K", growth: "127 deals closed" },
-    { label: "Average ROAS", value: "3.41x", growth: "peak 4.7x" },
+    { label: "Average ROAS", value: "3.4x", growth: "peak 4.7x" },
     { label: "Organic Leads", value: "218/mo", growth: "+2,625%" },
   ],
 };

@@ -147,6 +147,6 @@ export const motorcycleBoatRepair: CaseStudyData = {
     { label: "Total Revenue", value: "$56.5K", growth: "+163%" },
     { label: "Total Pipeline", value: "$301K", growth: "+148%" },
     { label: "Avg Repair Ticket", value: "$689", growth: "" },
-    { label: "Blended ROAS", value: "1.19x", growth: "" },
+    { label: "Blended ROAS", value: "1.2x", growth: "" },
   ],
 };

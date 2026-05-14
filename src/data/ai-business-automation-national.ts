@@ -108,6 +108,6 @@ export const aiBusinessAutomationNational: CaseStudyData = {
     { label: "Total Revenue", value: "$222.7K", growth: "+348%" },
     { label: "Qualified Meetings", value: "165", growth: "+233%" },
     { label: "Avg Deal Value", value: "$8,906", growth: "" },
-    { label: "Blended ROAS", value: "3.64x", growth: "" },
+    { label: "Blended ROAS", value: "3.6x", growth: "" },
   ],
 };

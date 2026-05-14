@@ -114,6 +114,6 @@ export const diseasePreventionClinic: CaseStudyData = {
     { label: "Total Revenue", value: "$97.4K", growth: "+187%" },
     { label: "New Patients Acquired", value: "148", growth: "+187%" },
     { label: "Avg Patient Value", value: "$658", growth: "" },
-    { label: "Blended ROAS", value: "2.52x", growth: "" },
+    { label: "Blended ROAS", value: "2.5x", growth: "" },
   ],
 };

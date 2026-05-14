@@ -99,7 +99,7 @@ export const mensClothingBrand: CaseStudyData = {
       { label: "Total Ad Spend", value: "$143.8K" },
       { label: "Total Orders", value: "4,642" },
       { label: "Avg Cost Per Visit", value: "$1.24", note: "↓38% from $2.01" },
-      { label: "Blended ROAS", value: "3.4", note: "from 2.1x baseline" },
+      { label: "Blended ROAS", value: "3.4x", note: "from 2.1x baseline" },
     ],
     columnLabels: {
       leads: "Sessions",

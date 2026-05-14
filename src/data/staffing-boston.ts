@@ -154,7 +154,7 @@ export const staffingBoston: CaseStudyData = {
     { label: "Total Revenue", value: "$287.3K", growth: "" },
     { label: "Total Placements", value: "36", growth: "" },
     { label: "Avg Placement Fee", value: "$7,981", growth: "" },
-    { label: "Blended ROAS", value: "4.51x", growth: "" },
+    { label: "Blended ROAS", value: "4.5x", growth: "" },
     { label: "CPQL Reduction", value: "$835 → $297", growth: "↓64%" },
     { label: "Organic Traffic", value: "187 → 2,847/mo", growth: "+1,422%" },
   ],

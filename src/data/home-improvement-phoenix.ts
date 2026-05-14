@@ -79,8 +79,8 @@ export const homeImprovementPhoenix: CaseStudyData = {
       { label: "Avg Cost Per Lead", value: "$68" },
       { label: "Avg CPQL", value: "$243" },
       { label: "Signed Contracts", value: "126" },
-      { label: "Total Revenue", value: "$543K" },
-      { label: "Blended ROAS", value: "4.0" }
+      { label: "Total Revenue", value: "$543.0K" },
+      { label: "Blended ROAS", value: "4.0x" }
     ],
     columnLabels: {
       leads: "Leads",

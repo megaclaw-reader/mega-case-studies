@@ -183,6 +183,6 @@ export const artGalleryDecorativeArt: CaseStudyData = {
     { label: "Total Revenue", value: "$477.5K", growth: "+267%" },
     { label: "Total Orders", value: "1,162", growth: "across all paid channels" },
     { label: "Average Order Value", value: "$411", growth: "" },
-    { label: "Blended ROAS", value: "3.90x", growth: "" },
+    { label: "Blended ROAS", value: "3.9x", growth: "" },
   ],
 };

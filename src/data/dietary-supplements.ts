@@ -121,6 +121,6 @@ export const dietarySupplements: CaseStudyData = {
     { label: "Total Revenue", value: "$285.7K", growth: "+107% ROAS improvement" },
     { label: "Total Orders", value: "4,981", growth: "across 6 months" },
     { label: "Average Order Value", value: "$57.36", growth: "supplement category" },
-    { label: "Blended ROAS", value: "3.13x", growth: "from 2.1x starting" },
+    { label: "Blended ROAS", value: "3.1x", growth: "from 2.1x starting" },
   ],
 };

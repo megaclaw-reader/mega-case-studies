@@ -167,6 +167,6 @@ export const commercialRealEstate: CaseStudyData = {
     { label: "Total Commission Revenue", value: "$391.6K", growth: "+143%" },
     { label: "Total Pipeline", value: "$687K", growth: "+112%" },
     { label: "Avg Commission Per Deal", value: "$391.6K", growth: "" },
-    { label: "Blended ROAS", value: "3.29x", growth: "" },
+    { label: "Blended ROAS", value: "3.3x", growth: "" },
   ],
 };

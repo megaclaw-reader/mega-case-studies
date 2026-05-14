@@ -154,6 +154,6 @@ export const travelServices: CaseStudyData = {
     { label: "Total Revenue", value: "$246.3K", growth: "+312%" },
     { label: "Total Bookings", value: "532", growth: "+287%" },
     { label: "Avg Booking Value", value: "$463", growth: "" },
-    { label: "Blended ROAS", value: "3.46x", growth: "" },
+    { label: "Blended ROAS", value: "3.5x", growth: "" },
   ],
 };

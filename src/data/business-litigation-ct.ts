@@ -147,6 +147,6 @@ export const businessLitigationCt: CaseStudyData = {
     { label: "Total Revenue", value: "$332.4K", growth: "+284%" },
     { label: "Total Pipeline", value: "$1.07M", growth: "+197%" },
     { label: "Avg Retainer Value", value: "$10,237", growth: "" },
-    { label: "Blended ROAS", value: "3.21x", growth: "" },
+    { label: "Blended ROAS", value: "3.2x", growth: "" },
   ],
 };

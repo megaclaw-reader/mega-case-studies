@@ -152,7 +152,7 @@ export const remoteRecruitingNational: CaseStudyData = {
   impact: [
     { label: "Total Placement Revenue", value: "$456.3K", growth: "+347%" },
     { label: "Monthly Qualified Leads", value: "611", growth: "+171% (from 31)" },
-    { label: "Blended ROAS", value: "4.63x", growth: "" },
+    { label: "Blended ROAS", value: "4.6x", growth: "" },
     { label: "Successful Placements", value: "158", growth: "+275%" },
     { label: "Active Client Companies", value: "47", growth: "+292% (from 12)" },
     { label: "Avg Placement Value", value: "$28K", growth: "+17% (from $24K)" },

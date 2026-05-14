@@ -132,25 +132,25 @@ export const landscapingRc: CaseStudyData = {
     ],
     monthly: [
       // Jan 2025: Winter, low intent, restructuring underway
-      { month: "Jan 2025", spend: 9847, leads: 127, cpl: 77.54, qualified: 41, cpql: 240.17, deals: 2, revenue: 31478, roas: 3.20 },
+      { month: "Jan 2025", spend: 9847, leads: 101, cpl: 97, qualified: 41, cpql: 240.17, deals: 2, revenue: 31478, roas: 3.20 },
       // Feb 2025: Restructured campaigns live, spring starting
-      { month: "Feb 2025", spend: 9923, leads: 147, cpl: 67.5, qualified: 53, cpql: 187.23, deals: 2, revenue: 38000, roas: 3.83 },
+      { month: "Feb 2025", spend: 9923, leads: 102, cpl: 97, qualified: 53, cpql: 187.23, deals: 2, revenue: 38000, roas: 3.83 },
       // Mar 2025: Spring surge — peak demand, new landing pages converting well
-      { month: "Mar 2025", spend: 10247, leads: 148, cpl: 69.24, qualified: 49, cpql: 209.12, deals: 3, revenue: 45500, roas: 4.44 },
+      { month: "Mar 2025", spend: 10247, leads: 117, cpl: 88, qualified: 49, cpql: 209.12, deals: 3, revenue: 45500, roas: 4.44 },
       // Apr 2025: Peak spring — highest lead volume, commercial campaigns gaining traction
-      { month: "Apr 2025", spend: 10384, leads: 143, cpl: 72.62, qualified: 84, cpql: 123.62, deals: 3, revenue: 45100, roas: 4.34 },
+      { month: "Apr 2025", spend: 10384, leads: 129, cpl: 80, qualified: 84, cpql: 123.62, deals: 3, revenue: 45100, roas: 4.34 },
       // May 2025: Late spring — sustained performance, audience refinement improving quality
-      { month: "May 2025", spend: 10167, leads: 158, cpl: 64.35, qualified: 76, cpql: 133.78, deals: 2, revenue: 35000, roas: 3.44 },
+      { month: "May 2025", spend: 10167, leads: 145, cpl: 70, qualified: 76, cpql: 133.78, deals: 2, revenue: 35000, roas: 3.44 },
       // Jun 2025: Summer — outdoor living projects driving residential, grounds maintenance driving commercial
-      { month: "Jun 2025", spend: 9934, leads: 174, cpl: 57.09, qualified: 64, cpql: 155.22, deals: 2, revenue: 36500, roas: 3.67 },
+      { month: "Jun 2025", spend: 9934, leads: 146, cpl: 68, qualified: 64, cpql: 155.22, deals: 2, revenue: 36500, roas: 3.67 },
       // Jul 2025: Mid-summer — steady performance, retargeting contributing meaningfully
-      { month: "Jul 2025", spend: 9784, leads: 189, cpl: 51.77, qualified: 57, cpql: 171.65, deals: 3, revenue: 46900, roas: 4.79 },
+      { month: "Jul 2025", spend: 9784, leads: 185, cpl: 53, qualified: 57, cpql: 171.65, deals: 3, revenue: 46900, roas: 4.79 },
       // Aug 2025: Late summer — slight seasonal softening, commercial pipeline still strong
-      { month: "Aug 2025", spend: 9623, leads: 162, cpl: 59.4, qualified: 71, cpql: 135.54, deals: 2, revenue: 35600, roas: 3.7 },
+      { month: "Aug 2025", spend: 9623, leads: 178, cpl: 54, qualified: 71, cpql: 135.54, deals: 2, revenue: 35600, roas: 3.7 },
       // Sep 2025: Early fall — fall planting season, year-end commercial budget decisions
-      { month: "Sep 2025", spend: 9547, leads: 197, cpl: 48.46, qualified: 58, cpql: 164.6, deals: 3, revenue: 45300, roas: 4.74 },
+      { month: "Sep 2025", spend: 9547, leads: 219, cpl: 44, qualified: 58, cpql: 164.6, deals: 3, revenue: 45300, roas: 4.74 },
       // Oct 2025: Fall — commercial contracts closing for next year, residential hardscaping finishing
-      { month: "Oct 2025", spend: 9247, leads: 213, cpl: 43.41, qualified: 51, cpql: 181.31, deals: 2, revenue: 41700, roas: 4.51 },
+      { month: "Oct 2025", spend: 9247, leads: 202, cpl: 46, qualified: 51, cpql: 181.31, deals: 2, revenue: 41700, roas: 4.51 },
     ],
   },
   localSeo: {
@@ -193,15 +193,15 @@ export const landscapingRc: CaseStudyData = {
       { month: "Oct 2025", formFills: 22, calls: 34, totalLeads: 56, conversionRate: 2.79 },
     ],
     sources: [
-      { source: "Organic Search", percentage: 54, leads: 187 },
-      { source: "Google Maps / GBP", percentage: 33, leads: 115 },
-      { source: "Direct (Branded)", percentage: 13, leads: 45 },
+      { source: "Organic Search", percentage: 54, leads: 188 },
+      { source: "Google Maps / GBP", percentage: 33, leads: 154 },
+      { source: "Direct (Branded)", percentage: 13, leads: 139 },
     ],
   },
   impact: [
     { label: "Total Revenue", value: "$401.1K", growth: "+213%" },
     { label: "Signed Contracts", value: "46", growth: "+189%" },
     { label: "Cost Per Qualified Lead", value: "$163", growth: "↓34%" },
-    { label: "Blended ROAS", value: "4.06x", growth: "" },
+    { label: "Blended ROAS", value: "4.1x", growth: "" },
   ],
 };

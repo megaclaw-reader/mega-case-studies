@@ -152,7 +152,7 @@ export const ecommerceSportsStore: CaseStudyData = {
       { label: "Total Ad Spend", value: "$125.7K" },
       { label: "Total Orders", value: "8,710" },
       { label: "Avg Cost Per Acquisition", value: "$14.43" },
-      { label: "Blended ROAS", value: "6.4" },
+      { label: "Blended ROAS", value: "6.4x" },
     ],
     columnLabels: {
       leads: "Sessions",

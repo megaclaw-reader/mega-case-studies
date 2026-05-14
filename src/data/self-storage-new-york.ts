@@ -129,7 +129,7 @@ export const selfStorageNewYork: CaseStudyData = {
       { label: "Avg CPQL", value: "$240" },
       { label: "Total Deals", value: "163" },
       { label: "Total Revenue", value: "$373.5K" },
-      { label: "Blended ROAS", value: "4.4" },
+      { label: "Blended ROAS", value: "4.4x" },
     ],
     monthly: [
       { month: "Jan '25", spend: 6000, leads: 34, cpl: 176.47, qualified: 15, cpql: 400.0, deals: 9, revenue: 18900, roas: 3.15 },

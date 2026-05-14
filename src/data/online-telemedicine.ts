@@ -136,6 +136,6 @@ export const onlineTelemedicine: CaseStudyData = {
     { label: "Total Revenue", value: "$77.8K", growth: "+156%" },
     { label: "New Patients Acquired", value: "383", growth: "+156%" },
     { label: "Avg Revenue Per Patient", value: "$146.1K", growth: "" },
-    { label: "Blended ROAS", value: "1.63x", growth: "" },
+    { label: "Blended ROAS", value: "1.6x", growth: "" },
   ],
 };

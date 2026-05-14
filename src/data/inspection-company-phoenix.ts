@@ -137,7 +137,7 @@ export const inspectionCompanyPhoenix: CaseStudyData = {
   },
   impact: [
     { label: "Total Revenue", value: "$182.6K", growth: "+218%" },
-    { label: "Blended ROAS", value: "2.54x", growth: "" },
+    { label: "Blended ROAS", value: "2.5x", growth: "" },
     { label: "Total Qualified Leads", value: "944", growth: "+108%" },
     { label: "Avg CPQL", value: "$76", growth: "↓19% from $94" },
   ],

@@ -141,6 +141,6 @@ export const jewelryEcommerce: CaseStudyData = {
     { label: "Total Revenue", value: "$598.2K", growth: "+169% ROAS improvement" },
     { label: "Total Orders", value: "2,942", growth: "across 12 months" },
     { label: "Average Order Value", value: "$203.32", growth: "national jewelry DTC" },
-    { label: "Blended ROAS", value: "4.20x", growth: "from 2.12x starting" },
+    { label: "Blended ROAS", value: "4.2x", growth: "from 2.12x starting" },
   ],
 };

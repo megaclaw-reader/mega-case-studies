@@ -154,6 +154,6 @@ export const poolCoversNational: CaseStudyData = {
     { label: "Total Revenue", value: "$759.8K", growth: "+284%" },
     { label: "Total Orders", value: "1,134", growth: "ecommerce growth" },
     { label: "Average Order Value", value: "$670", growth: "" },
-    { label: "Blended ROAS", value: "3.01x", growth: "" },
+    { label: "Blended ROAS", value: "3.0x", growth: "" },
   ],
 };

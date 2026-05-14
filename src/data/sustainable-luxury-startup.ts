@@ -75,7 +75,7 @@ export const sustainableLuxuryStartup: CaseStudyData = {
   ],
   impact: [
     { label: "Total Revenue", value: "$427.9K", growth: "From $0" },
-    { label: "Blended ROAS", value: "5.22x", growth: "Profitable from month 2" },
+    { label: "Blended ROAS", value: "5.2x", growth: "Profitable from month 2" },
     { label: "Average Order Value", value: "1,500", growth: "Premium positioning" },
     { label: "Total Orders", value: "1,500", growth: "Across all 50 states" },
     { label: "Email Subscribers", value: "12,000+", growth: "Engaged customer base" },
@@ -106,7 +106,7 @@ export const sustainableLuxuryStartup: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Revenue", value: "$427,864", note: "Direct attribution" },
-      { label: "Total Ad Spend", value: "$82K", note: "12-month investment" },
+      { label: "Total Ad Spend", value: "$82.0K", note: "12-month investment" },
       { label: "Blended ROAS", value: "5.22x", note: "Profitable from month 2" },
       { label: "Total Orders", value: "1,500", note: "Average $285 AOV" },
       { label: "Total Sessions", value: "930", note: "Improving cost/visit" },

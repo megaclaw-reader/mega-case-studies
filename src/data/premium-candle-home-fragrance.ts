@@ -133,6 +133,6 @@ export const premiumCandleHomeFragrance: CaseStudyData = {
     { label: "Total Revenue", value: "$534.0K", growth: "+98% ROAS improvement" },
     { label: "Total Orders", value: "11,248", growth: "across 8 months" },
     { label: "Average Order Value", value: "$47.47", growth: "premium candle category" },
-    { label: "Blended ROAS", value: "3.46x", growth: "from 1.75x starting" },
+    { label: "Blended ROAS", value: "3.5x", growth: "from 1.75x starting" },
   ],
 };

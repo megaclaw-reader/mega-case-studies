@@ -154,6 +154,6 @@ export const constructionMembraneMaterials: CaseStudyData = {
     { label: "Total Revenue", value: "$653.7K", growth: "+143%" },
     { label: "Total Pipeline", value: "$1.72M", growth: "+127%" },
     { label: "Avg Order Value", value: "$17,860", growth: "" },
-    { label: "Blended ROAS", value: "4.00x", growth: "" },
+    { label: "Blended ROAS", value: "4.0x", growth: "" },
   ],
 };

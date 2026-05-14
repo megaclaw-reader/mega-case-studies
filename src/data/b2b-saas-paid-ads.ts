@@ -125,6 +125,6 @@ export const b2bSaasPaidAds: CaseStudyData = {
     { label: "Total Revenue", value: "$763.8K", growth: "+140%" },
     { label: "Total Pipeline", value: "$1.68M", growth: "+187%" },
     { label: "Avg Contract Value", value: "$14,411", growth: "" },
-    { label: "Blended ROAS", value: "3.78x", growth: "" },
+    { label: "Blended ROAS", value: "3.8x", growth: "" },
   ],
 };

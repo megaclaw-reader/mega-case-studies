@@ -53,7 +53,7 @@ export const maAdvisory: CaseStudyData = {
       months: "30–60 days",
       title: "Optimization & Qualification",
       items: [
-        "Reviewed 30-day performance data — identified that Google Search drove 3x higher qualification rates than LinkedIn for bottom-funnel intent",
+        "Reviewed 30-day performance data — identified that search campaigns drove 3x higher qualification rates than social for bottom-funnel intent",
         "Reallocated budget toward highest-converting keyword themes: business valuation requests and sell-side advisory inquiries",
         "Implemented lead scoring model based on business revenue range, timeline to transaction, and engagement depth",
         "AI agents identified underperforming ad groups within hours and automatically shifted budget to top performers — compounding small daily optimizations into significant monthly gains",
@@ -115,6 +115,6 @@ export const maAdvisory: CaseStudyData = {
     { label: "Total Revenue", value: "$230.0K", growth: "+267%" },
     { label: "New Engagements Signed", value: "32", growth: "from paid advertising" },
     { label: "Avg Engagement Value", value: "$7,188", growth: "initial retainer + fees" },
-    { label: "Blended ROAS", value: "3.23x", growth: "" },
+    { label: "Blended ROAS", value: "3.2x", growth: "" },
   ],
 };

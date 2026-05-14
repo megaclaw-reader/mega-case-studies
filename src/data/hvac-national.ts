@@ -172,6 +172,6 @@ export const hvacNational: CaseStudyData = {
     { label: "Total Revenue", value: "$655.3K", growth: "+312%" },
     { label: "Total Qualified Leads", value: "847", growth: "↓41% Cost/Qualified Lead" },
     { label: "Avg Revenue Per Job", value: "$3,228", growth: "" },
-    { label: "Blended ROAS", value: "4.19x", growth: "" },
+    { label: "Blended ROAS", value: "4.2x", growth: "" },
   ],
 };

@@ -173,6 +173,6 @@ export const logisticsSupplyChain: CaseStudyData = {
     { label: "Total Revenue", value: "$590.5K", growth: "" },
     { label: "Total Pipeline", value: "$1.87M", growth: "" },
     { label: "Avg Deal Value", value: "$11.4K", growth: "" },
-    { label: "Blended ROAS", value: "3.61x", growth: "" },
+    { label: "Blended ROAS", value: "3.6x", growth: "" },
   ],
 };

@@ -214,6 +214,6 @@ export const safetyTraining: CaseStudyData = {
     { label: "Total Revenue", value: "$348.0K", growth: "+487%" },
     { label: "Signed Contracts", value: "141", growth: "+312%" },
     { label: "Cost Per Qualified Lead", value: "$149", growth: "↓48%" },
-    { label: "Blended ROAS", value: "3.89x", growth: "" },
+    { label: "Blended ROAS", value: "3.9x", growth: "" },
   ],
 };

@@ -199,6 +199,6 @@ export const hvacSanJose: CaseStudyData = {
     { label: "Total Revenue", value: "$253.9K", growth: "+133%" },
     { label: "Total Qualified Leads", value: "369", growth: "+68% lower CPL" },
     { label: "Avg Revenue Per Job", value: "$1,904", growth: "" },
-    { label: "Blended ROAS", value: "3.66x", growth: "" },
+    { label: "Blended ROAS", value: "3.7x", growth: "" },
   ],
 };

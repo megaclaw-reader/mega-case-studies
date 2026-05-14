@@ -143,9 +143,9 @@ export const eventPlanning: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$183K", growth: "+289%" },
+    { label: "Total Revenue", value: "$183.0K", growth: "+289%" },
     { label: "Total Bookings", value: "46", growth: "+245%" },
     { label: "Avg Booking Value", value: "$3,978", growth: "" },
-    { label: "Blended ROAS", value: "3.70x", growth: "" },
+    { label: "Blended ROAS", value: "3.7x", growth: "" },
   ],
 };

@@ -155,6 +155,6 @@ export const automotiveRepair: CaseStudyData = {
     { label: "Total Revenue", value: "$45.7K", growth: "+147%" },
     { label: "Total Pipeline", value: "$267K", growth: "+134%" },
     { label: "Avg Repair Ticket", value: "$431", growth: "" },
-    { label: "Blended ROAS", value: "0.72x", growth: "" },
+    { label: "Blended ROAS", value: "0.7x", growth: "" },
   ],
 };

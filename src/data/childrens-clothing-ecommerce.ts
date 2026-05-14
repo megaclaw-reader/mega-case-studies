@@ -118,6 +118,6 @@ export const childrensClothingEcommerce: CaseStudyData = {
     { label: "Total Revenue", value: "$276.4K", growth: "+116% ROAS improvement" },
     { label: "Total Orders", value: "5,481", growth: "across 11 months" },
     { label: "Average Order Value", value: "$50.44", growth: "children's clothing category" },
-    { label: "Blended ROAS", value: "3.22x", growth: "from 1.49x starting" },
+    { label: "Blended ROAS", value: "3.2x", growth: "from 1.49x starting" },
   ],
 };

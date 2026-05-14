@@ -144,8 +144,8 @@ export const fitnessWeightLossCoachArizona: CaseStudyData = {
   },
   impact: [
     { label: "Total Revenue Generated", value: "$538.5K", growth: "+223%" },
-    { label: "Total Qualified Leads", value: "2343", growth: "+294%" },
-    { label: "Average ROAS", value: "4.05x", growth: "+128%" },
+    { label: "Total Qualified Leads", value: "2,343", growth: "+294%" },
+    { label: "Average ROAS", value: "4.1x", growth: "+128%" },
     { label: "Monthly Organic Traffic", value: "8,430", growth: "+1,353%" },
     { label: "Cost Per Lead Reduction", value: "47%", growth: "From $73 to $39" },
   ],

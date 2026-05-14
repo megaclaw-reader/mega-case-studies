@@ -148,6 +148,6 @@ export const healthcareEquipmentNational: CaseStudyData = {
     { label: "Total Equipment Sales", value: "416", growth: "+287%" },
     { label: "Total Revenue", value: "$952.7K", growth: "+340%" },
     { label: "Cost Per Qualified Lead", value: "$119", growth: "↓52%" },
-    { label: "Blended ROAS", value: "4.18x", growth: "+168%" },
+    { label: "Blended ROAS", value: "4.2x", growth: "+168%" },
   ],
 };

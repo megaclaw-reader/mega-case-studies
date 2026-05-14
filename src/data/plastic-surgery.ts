@@ -164,7 +164,7 @@ export const plasticSurgery: CaseStudyData = {
   impact: [
     { label: "Total Revenue", value: "$919.8K", growth: "+218%" },
     { label: "Surgical Procedures Booked", value: "109", growth: "+156%" },
-    { label: "Blended ROAS", value: "4.10x", growth: "" },
+    { label: "Blended ROAS", value: "4.1x", growth: "" },
     { label: "Authority Score", value: "34", growth: "+89% from 18" },
   ],
 };

@@ -129,6 +129,6 @@ export const hairProductsEcommerce: CaseStudyData = {
     { label: "Total Revenue", value: "$88.7K", growth: "+79% ROAS improvement" },
     { label: "Total Orders", value: "1,836", growth: "across 7 months" },
     { label: "Average Order Value", value: "$48.33", growth: "hair care category" },
-    { label: "Blended ROAS", value: "2.42x", growth: "from 1.80x starting" },
+    { label: "Blended ROAS", value: "2.4x", growth: "from 1.80x starting" },
   ],
 };

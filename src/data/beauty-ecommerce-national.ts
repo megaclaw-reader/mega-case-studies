@@ -136,6 +136,6 @@ export const beautyEcommerceNational: CaseStudyData = {
     { label: "Total Revenue", value: "$260.4K", growth: "+177% ROAS improvement" },
     { label: "Total Orders", value: "4,194", growth: "across 9 months" },
     { label: "Average Order Value", value: "$62.08", growth: "beauty product category" },
-    { label: "Blended ROAS", value: "4.01x", growth: "from 1.98x starting" },
+    { label: "Blended ROAS", value: "4.0x", growth: "from 1.98x starting" },
   ],
 };

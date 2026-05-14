@@ -131,6 +131,6 @@ export const ophthalmologyFlorida: CaseStudyData = {
     { label: "Total Revenue", value: "$260.7K", growth: "+167%" },
     { label: "Patients Acquired", value: "71", growth: "+167%" },
     { label: "Qualification Rate", value: "64%", growth: "↑from 38%" },
-    { label: "Blended ROAS", value: "4.37x", growth: "" },
+    { label: "Blended ROAS", value: "4.4x", growth: "" },
   ],
 };

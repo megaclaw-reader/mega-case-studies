@@ -149,6 +149,6 @@ export const windowsNj: CaseStudyData = {
     { label: "Total Revenue", value: "$118.4K", growth: "" },
     { label: "Total Pipeline", value: "$247K", growth: "" },
     { label: "Avg Job Value", value: "$8,460", growth: "" },
-    { label: "Blended ROAS", value: "3.65x", growth: "" },
+    { label: "Blended ROAS", value: "3.7x", growth: "" },
   ],
 };

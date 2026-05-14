@@ -133,9 +133,9 @@ export const dentalMedtech: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$1.76M", growth: "+133%" },
+    { label: "Total Revenue", value: "$1,755,100", growth: "+133%" },
     { label: "Lead Qualification Rate", value: "65%", growth: "from 15%" },
     { label: "Avg Deal Value", value: "$46.2K", growth: "" },
-    { label: "Blended ROAS", value: "3.58x", growth: "" },
+    { label: "Blended ROAS", value: "3.6x", growth: "" },
   ],
 };

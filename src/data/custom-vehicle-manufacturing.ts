@@ -121,7 +121,7 @@ export const customVehicleManufacturing: CaseStudyData = {
       { label: "Avg CPQL", value: "$124" },
       { label: "Total Deals Closed", value: "80" },
       { label: "Total Revenue", value: "$354.0K" },
-      { label: "Blended ROAS", value: "4.5" },
+      { label: "Blended ROAS", value: "4.5x" },
     ],
     monthly: [
       { month: "Feb '25", spend: 5000, leads: 65, cpl: 76.92, qualified: 32, cpql: 156.25, deals: 3, revenue: 18699, roas: 3.74 },

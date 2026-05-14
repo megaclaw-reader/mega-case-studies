@@ -135,6 +135,6 @@ export const backyardRenovationsNewMexico: CaseStudyData = {
     { label: "Total Revenue", value: "$153.4K", growth: "+197%" },
     { label: "Qualified Leads", value: "216", growth: "↓34% Cost Per Lead" },
     { label: "Closed Deals", value: "22", growth: "+175%" },
-    { label: "Blended ROAS", value: "3.43x", growth: "" },
+    { label: "Blended ROAS", value: "3.4x", growth: "" },
   ],
 };

@@ -125,16 +125,16 @@ export const jewelryStoreEcommerce: CaseStudyData = {
       deals: "Orders",
     },
     monthly: [
-      { month: "Feb 2025", spend: 7200, leads: 3600, cpl: 2.0, qualified: 180, cpql: 40.0, deals: 54, revenue: 18360.0, roas: 2.55 },
-      { month: "Mar 2025", spend: 7800, leads: 3900, cpl: 2.0, qualified: 195, cpql: 40.0, deals: 59, revenue: 20060.0, roas: 2.57 },
-      { month: "Apr 2025", spend: 8200, leads: 4100, cpl: 2.0, qualified: 205, cpql: 40.0, deals: 62, revenue: 21080.0, roas: 2.57 },
-      { month: "May 2025", spend: 8400, leads: 4410, cpl: 1.9, qualified: 216, cpql: 38.89, deals: 63, revenue: 21420.0, roas: 2.55 },
-      { month: "Jun 2025", spend: 8600, leads: 4601, cpl: 1.87, qualified: 224, cpql: 38.39, deals: 65, revenue: 22100.0, roas: 2.57 },
-      { month: "Jul 2025", spend: 9200, leads: 5014, cpl: 1.83, qualified: 243, cpql: 37.86, deals: 69, revenue: 23460.0, roas: 2.55 },
-      { month: "Aug 2025", spend: 9800, leads: 5439, cpl: 1.8, qualified: 262, cpql: 37.4, deals: 74, revenue: 25160.0, roas: 2.57 },
-      { month: "Sep 2025", spend: 11800, leads: 6667, cpl: 1.77, qualified: 319, cpql: 36.99, deals: 89, revenue: 30260.0, roas: 2.56 },
-      { month: "Oct 2025", spend: 12400, leads: 7130, cpl: 1.74, qualified: 339, cpql: 36.58, deals: 93, revenue: 31620.0, roas: 2.55 },
-      { month: "Nov 2025", spend: 19000, leads: 11115, cpl: 1.71, qualified: 527, cpql: 36.05, deals: 143, revenue: 48620.0, roas: 2.56 }
+      { month: "Feb 2025", spend: 7200, leads: 2466, cpl: 2.0, qualified: 180, cpql: 40.0, deals: 54, revenue: 18360.0, roas: 2.55 },
+      { month: "Mar 2025", spend: 7800, leads: 2790, cpl: 2.0, qualified: 195, cpql: 40.0, deals: 59, revenue: 20060.0, roas: 2.57 },
+      { month: "Apr 2025", spend: 8200, leads: 2900, cpl: 2.0, qualified: 205, cpql: 40.0, deals: 62, revenue: 21080.0, roas: 2.57 },
+      { month: "May 2025", spend: 8400, leads: 3280, cpl: 3, qualified: 216, cpql: 38.89, deals: 63, revenue: 21420.0, roas: 2.55 },
+      { month: "Jun 2025", spend: 8600, leads: 3395, cpl: 3, qualified: 224, cpql: 38.39, deals: 65, revenue: 22100.0, roas: 2.57 },
+      { month: "Jul 2025", spend: 9200, leads: 3981, cpl: 1.83, qualified: 243, cpql: 37.86, deals: 69, revenue: 23460.0, roas: 2.55 },
+      { month: "Aug 2025", spend: 9800, leads: 4042, cpl: 1.8, qualified: 262, cpql: 37.4, deals: 74, revenue: 25160.0, roas: 2.57 },
+      { month: "Sep 2025", spend: 11800, leads: 4985, cpl: 1.77, qualified: 319, cpql: 36.99, deals: 89, revenue: 30260.0, roas: 2.56 },
+      { month: "Oct 2025", spend: 12400, leads: 5168, cpl: 1.74, qualified: 339, cpql: 36.58, deals: 93, revenue: 31620.0, roas: 2.55 },
+      { month: "Nov 2025", spend: 19000, leads: 5618, cpl: 3, qualified: 527, cpql: 36.05, deals: 143, revenue: 48620.0, roas: 2.56 }
     ],
   },
   organicConversions: {
@@ -163,10 +163,10 @@ export const jewelryStoreEcommerce: CaseStudyData = {
       { month: "Nov 2025", formFills: 11, calls: 23, totalLeads: 34, conversionRate: 4.2 },
     ],
     sources: [
-      { source: "Google Organic", percentage: 54, leads: 116 },
-      { source: "Google Maps / Local Pack", percentage: 22, leads: 47 },
-      { source: "Direct (branded search)", percentage: 16, leads: 34 },
-      { source: "Bing / Other", percentage: 8, leads: 17 },
+      { source: "Google Organic", percentage: 54, leads: 4613 },
+      { source: "Google Maps / Local Pack", percentage: 22, leads: 4374 },
+      { source: "Direct (branded search)", percentage: 16, leads: 4373 },
+      { source: "Bing / Other", percentage: 8, leads: 4199 },
     ],
   },
   localSeo: {
@@ -193,6 +193,6 @@ export const jewelryStoreEcommerce: CaseStudyData = {
     { label: "Total Revenue", value: "$262.1K", growth: "+210%" },
     { label: "Total Orders", value: "771", growth: "ecommerce growth" },
     { label: "Average Order Value", value: "771", growth: "" },
-    { label: "Blended ROAS", value: "2.56x", growth: "" },
+    { label: "Blended ROAS", value: "2.6x", growth: "" },
   ],
 };

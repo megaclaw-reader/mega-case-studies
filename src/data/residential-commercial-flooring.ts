@@ -124,7 +124,7 @@ export const residentialCommercialFlooring: CaseStudyData = {
   },
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$120K" },
+      { label: "Total Ad Spend", value: "$120.0K" },
       { label: "Qualified Leads", value: "385" },
       { label: "Avg Cost Per Qualified Lead", value: "$312", note: "↓19% from $387" },
       { label: "Closed Jobs", value: "73" },
@@ -160,6 +160,6 @@ export const residentialCommercialFlooring: CaseStudyData = {
     { label: "Total Revenue", value: "$431.2K", growth: "+89%" },
     { label: "Total Pipeline", value: "$847K", growth: "+76%" },
     { label: "Avg Revenue Per Job", value: "$431.2K", growth: "" },
-    { label: "Blended ROAS", value: "3.59x", growth: "" },
+    { label: "Blended ROAS", value: "3.6x", growth: "" },
   ],
 };

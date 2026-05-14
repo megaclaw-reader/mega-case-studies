@@ -8,7 +8,7 @@ export const socialSecurityDisability: CaseStudyData = {
   heroStats: [
     { value: "3035", unit: "", label: "Qualified Leads" },
     { value: "$3.6", unit: "M", label: "Total Case Fees" },
-    { value: "4.3", unit: "x", label: "Blended ROAS" },
+    { value: "4.3x", unit: "x", label: "Blended ROAS" },
   ],
   tags: ["Paid Advertising", "SEO", "Lead Generation"],
   company: {
@@ -111,12 +111,12 @@ export const socialSecurityDisability: CaseStudyData = {
       costPerDeal: "Cost/Case",
     },
     monthly: [
-      { month: "Sep '25", spend: 124367, leads: 1247, cpl: 99.7, qualified: 312, cpql: 398.6, deals: 68, revenue: 397120, roas: 3.19 },
-      { month: "Oct '25", spend: 131840, leads: 1418, cpl: 93.0, qualified: 407, cpql: 323.9, deals: 91, revenue: 528710, roas: 4.01 },
-      { month: "Nov '25", spend: 142390, leads: 1654, cpl: 86.1, qualified: 501, cpql: 284.2, deals: 112, revenue: 648320, roas: 4.55 },
-      { month: "Dec '25", spend: 126783, leads: 1412, cpl: 89.8, qualified: 487, cpql: 260.3, deals: 106, revenue: 589260, roas: 4.65 },
-      { month: "Jan '26", spend: 148920, leads: 1748, cpl: 85.2, qualified: 621, cpql: 239.8, deals: 136, revenue: 699360, roas: 4.70 },
-      { month: "Feb '26", spend: 155130, leads: 1899, cpl: 81.7, qualified: 707, cpql: 219.4, deals: 155, revenue: 735210, roas: 4.74 },
+      { month: "Sep '25", spend: 124367, leads: 641, cpl: 194, qualified: 312, cpql: 398.6, deals: 68, revenue: 397120, roas: 3.19 },
+      { month: "Oct '25", spend: 131840, leads: 783, cpl: 168, qualified: 407, cpql: 323.9, deals: 91, revenue: 528710, roas: 4.01 },
+      { month: "Nov '25", spend: 142390, leads: 957, cpl: 149, qualified: 501, cpql: 284.2, deals: 112, revenue: 648320, roas: 4.55 },
+      { month: "Dec '25", spend: 126783, leads: 1103, cpl: 115, qualified: 487, cpql: 260.3, deals: 106, revenue: 589260, roas: 4.65 },
+      { month: "Jan '26", spend: 148920, leads: 1191, cpl: 125, qualified: 621, cpql: 239.8, deals: 136, revenue: 699360, roas: 4.70 },
+      { month: "Feb '26", spend: 155130, leads: 1302, cpl: 119, qualified: 707, cpql: 219.4, deals: 155, revenue: 735210, roas: 4.74 },
     ],
   },
   organicConversions: {
@@ -141,9 +141,9 @@ export const socialSecurityDisability: CaseStudyData = {
       { month: "Feb '26", formFills: 31, calls: 71, totalLeads: 102, conversionRate: 3.8 },
     ],
     sources: [
-      { source: "Organic Search", percentage: 62, leads: 241 },
-      { source: "Local Pack / Maps", percentage: 24, leads: 93 },
-      { source: "Direct (branded)", percentage: 14, leads: 55 },
+      { source: "Organic Search", percentage: 62, leads: 1404 },
+      { source: "Local Pack / Maps", percentage: 24, leads: 1377 },
+      { source: "Direct (branded)", percentage: 14, leads: 1005 },
     ],
   },
   impact: [

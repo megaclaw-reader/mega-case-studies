@@ -125,7 +125,7 @@ export const pensionAppointmentGeneration: CaseStudyData = {
       { label: "Annuity Sales Closed", value: "37" },
       { label: "Appointment-to-Sale Rate", value: "14.9%" },
       { label: "Total Commission Revenue", value: "$354.6K" },
-      { label: "Blended ROAS", value: "4.0" },
+      { label: "Blended ROAS", value: "4.0x" },
     ],
     columnLabels: {
       leads: "Appointments",

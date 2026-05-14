@@ -213,7 +213,7 @@ export const realEstateBuySellArizona: CaseStudyData = {
   },
   impact: [
     { label: "Total Revenue", value: "$293.4K", growth: "from $73K previous year" },
-    { label: "Blended ROAS", value: "3.60x", growth: "across all channels" },
+    { label: "Blended ROAS", value: "3.6x", growth: "across all channels" },
     { label: "Closed Deals", value: "307", growth: "+3,983%" },
     { label: "Lead Cost Reduction", value: "57%", growth: "CPL $14.18 → $6.11" },
   ],

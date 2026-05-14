@@ -122,7 +122,7 @@ export const vrEntertainmentTechnology: CaseStudyData = {
       { label: "Total Ad Spend", value: "$112.7K" },
       { label: "Total Orders", value: "1,704" },
       { label: "Avg Cost Per Order", value: "$59.01" },
-      { label: "Blended ROAS", value: "4.2" },
+      { label: "Blended ROAS", value: "4.2x" },
     ],
     columnLabels: {
       leads: "Sessions",

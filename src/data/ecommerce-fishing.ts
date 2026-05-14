@@ -91,7 +91,7 @@ export const ecommerceFishing: CaseStudyData = {
       { label: "Total Ad Spend", value: "$194.8K" },
       { label: "Total Orders", value: "2,826" },
       { label: "Avg Cost Per Acquisition", value: "$59.84", note: "↓31% from $86.70" },
-      { label: "Blended ROAS", value: "3.6", note: "from 2.87x baseline" },
+      { label: "Blended ROAS", value: "3.6x", note: "from 2.87x baseline" },
     ],
     columnLabels: {
       leads: "Sessions",

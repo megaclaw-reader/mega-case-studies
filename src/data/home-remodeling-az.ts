@@ -127,6 +127,6 @@ export const homeRemodelingAz: CaseStudyData = {
     { label: "Total Revenue", value: "$289.6K", growth: "+187%" },
     { label: "Total Pipeline", value: "$692K", growth: "+143%" },
     { label: "Avg Project Value", value: "$289.6K", growth: "" },
-    { label: "Blended ROAS", value: "3.90x", growth: "" },
+    { label: "Blended ROAS", value: "3.9x", growth: "" },
   ],
 };

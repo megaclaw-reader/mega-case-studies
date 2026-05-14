@@ -140,21 +140,21 @@ export const movingCompany: CaseStudyData = {
     },
     monthly: [
       // Jan 2025: $19.2K, winter slow season, broad targeting to gather baseline data, low qualified rate
-      { month: "Jan 2025", spend: 19200, leads: 194, cpl: 99, qualified: 43, cpql: 447, deals: 14, revenue: 28763, roas: 1.50 },
+      { month: "Jan 2025", spend: 19200, leads: 144, cpl: 133, qualified: 43, cpql: 447, deals: 14, revenue: 28763, roas: 1.50 },
       // Feb 2025: $21400, slight pickup, first call analysis insights applied, zip code filtering on forms
-      { month: "Feb 2025", spend: 21400, leads: 218, cpl: 98, qualified: 61, cpql: 351, deals: 21, revenue: 43917, roas: 2.05 },
+      { month: "Feb 2025", spend: 21400, leads: 192, cpl: 111, qualified: 61, cpql: 351, deals: 21, revenue: 43917, roas: 2.05 },
       // Mar 2025: $22800, spring moving demand building, negative keywords + landing page qualification live
-      { month: "Mar 2025", spend: 22800, leads: 247, cpl: 92, qualified: 84, cpql: 271, deals: 31, revenue: 68423, roas: 3.00 },
+      { month: "Mar 2025", spend: 22800, leads: 184, cpl: 124, qualified: 84, cpql: 271, deals: 31, revenue: 68423, roas: 3.00 },
       // Apr 2025: $24100, spring peak starting, ICP targeting refined to high-value neighborhoods
-      { month: "Apr 2025", spend: 24100, leads: 271, cpl: 89, qualified: 102, cpql: 236, deals: 39, revenue: 87234, roas: 3.62 },
+      { month: "Apr 2025", spend: 24100, leads: 232, cpl: 104, qualified: 102, cpql: 236, deals: 39, revenue: 87234, roas: 3.62 },
       // May 2025: $26300, summer moving season ramps up, families booking before school ends
-      { month: "May 2025", spend: 26300, leads: 298, cpl: 88, qualified: 118, cpql: 223, deals: 46, revenue: 102847, roas: 3.91 },
+      { month: "May 2025", spend: 26300, leads: 250, cpl: 105, qualified: 118, cpql: 223, deals: 46, revenue: 102847, roas: 3.91 },
       // Jun 2025: $28700, peak summer demand, highest budget month, quality refinements fully live
-      { month: "Jun 2025", spend: 28700, leads: 319, cpl: 90, qualified: 131, cpql: 219, deals: 51, revenue: 114623, roas: 3.99 },
+      { month: "Jun 2025", spend: 28700, leads: 274, cpl: 105, qualified: 131, cpql: 219, deals: 51, revenue: 114623, roas: 3.99 },
       // Jul 2025: $29100, peak continues, lead quality at its best with all refinements mature
-      { month: "Jul 2025", spend: 29100, leads: 307, cpl: 95, qualified: 127, cpql: 229, deals: 49, revenue: 108934, roas: 3.74 },
+      { month: "Jul 2025", spend: 29100, leads: 271, cpl: 107, qualified: 127, cpql: 229, deals: 49, revenue: 108934, roas: 3.74 },
       // Aug 2025: $23800, summer winding down, still strong but tapering, maintaining quality gains
-      { month: "Aug 2025", spend: 23800, leads: 261, cpl: 91, qualified: 117, cpql: 203, deals: 38, revenue: 82147, roas: 3.45 },
+      { month: "Aug 2025", spend: 23800, leads: 345, cpl: 69, qualified: 117, cpql: 203, deals: 38, revenue: 82147, roas: 3.45 },
     ],
   },
   localSeo: {
@@ -199,15 +199,15 @@ export const movingCompany: CaseStudyData = {
       { month: "Aug 2025", formFills: 56, calls: 87, totalLeads: 143, conversionRate: 2.06 },
     ],
     sources: [
-      { source: "Organic Search", percentage: 48, leads: 282 },
-      { source: "Google Maps / GBP", percentage: 38, leads: 223 },
-      { source: "Direct (Branded)", percentage: 14, leads: 82 },
+      { source: "Organic Search", percentage: 48, leads: 300 },
+      { source: "Google Maps / GBP", percentage: 38, leads: 250 },
+      { source: "Direct (Branded)", percentage: 14, leads: 254 },
     ],
   },
   impact: [
     { label: "Total Revenue", value: "$636.9K", growth: "+187%" },
     { label: "Booked Moves", value: "289", growth: "+164%" },
     { label: "Cost Per Qualified Lead", value: "$163", growth: "↓34%" },
-    { label: "Blended ROAS", value: "3.26x", growth: "" },
+    { label: "Blended ROAS", value: "3.3x", growth: "" },
   ],
 };

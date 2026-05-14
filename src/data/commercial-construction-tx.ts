@@ -161,6 +161,6 @@ export const commercialConstructionTx: CaseStudyData = {
     { label: "Total Revenue", value: "$292.4K", growth: "+247%" },
     { label: "Total Pipeline", value: "$1.14M", growth: "+189%" },
     { label: "Avg Project Value", value: "$292.4K", growth: "" },
-    { label: "Blended ROAS", value: "3.58x", growth: "" },
+    { label: "Blended ROAS", value: "3.6x", growth: "" },
   ],
 };

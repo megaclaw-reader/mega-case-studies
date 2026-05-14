@@ -108,7 +108,7 @@ export const carPartsNj: CaseStudyData = {
       { label: "Total Ad Spend", value: "$47.6K" },
       { label: "Total Orders", value: "939" },
       { label: "Avg Cost Per Visit", value: "$1.89", note: "↓38% from $3.04" },
-      { label: "Blended ROAS", value: "2.1", note: "from 3.21x baseline" },
+      { label: "Blended ROAS", value: "2.1x", note: "from 3.21x baseline" },
     ],
     columnLabels: {
       leads: "Sessions",

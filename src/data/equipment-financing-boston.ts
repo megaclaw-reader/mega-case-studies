@@ -149,6 +149,6 @@ export const equipmentFinancingBoston: CaseStudyData = {
     { label: "Total Revenue", value: "$381.0K", growth: "+1,247%" },
     { label: "Total Funded Volume", value: "$1.87M", growth: "+892%" },
     { label: "Avg Deal Value", value: "$45,608", growth: "" },
-    { label: "Blended ROAS", value: "3.67x", growth: "" },
+    { label: "Blended ROAS", value: "3.7x", growth: "" },
   ],
 };

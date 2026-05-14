@@ -140,7 +140,7 @@ export const taxPlanningCoaching: CaseStudyData = {
       { label: "Total Ad Spend", value: "$344.3K" },
       { label: "Qualified Leads", value: "1,206" },
       { label: "Avg Cost/Qualified Lead", value: "$286", note: "↓77% from $1,259" },
-      { label: "Coaching Revenue Generated", value: "$1.25M" },
+      { label: "Coaching Revenue Generated", value: "$1.2M" },
     ],
     columnLabels: {
       leads: "Total Leads",

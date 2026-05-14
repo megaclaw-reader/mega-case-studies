@@ -112,7 +112,7 @@ export const fashionApparel: CaseStudyData = {
       { label: "Total Ad Spend", value: "$96.4K" },
       { label: "Total Orders", value: "2,271" },
       { label: "Avg Cost Per Click", value: "$1.24", note: "↓34% from $1.87" },
-      { label: "Blended ROAS", value: "2.1", note: "from 3.12x baseline" },
+      { label: "Blended ROAS", value: "2.1x", note: "from 3.12x baseline" },
     ],
     columnLabels: {
       leads: "Sessions",

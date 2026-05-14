@@ -170,9 +170,9 @@ export const medSpaMultiLocationFlorida: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Qualified Leads", value: "3045", growth: "+1,847%" },
+    { label: "Total Qualified Leads", value: "3,045", growth: "+1,847%" },
     { label: "Cost Per Qualified Lead", value: "$115", growth: "↓47%" },
     { label: "Monthly Organic Traffic", value: "16,847", growth: "+2,241%" },
-    { label: "Blended ROAS", value: "1.96x", growth: "Maintained across all locations" },
+    { label: "Blended ROAS", value: "2.0x", growth: "Maintained across all locations" },
   ],
 };

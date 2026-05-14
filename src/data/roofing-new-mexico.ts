@@ -108,6 +108,6 @@ export const roofingNewMexico: CaseStudyData = {
     { label: "Total Revenue", value: "$595.2K", growth: "+284%" },
     { label: "Total Qualified Leads", value: "611", growth: "↓38% Cost Per Lead" },
     { label: "Closed Deals", value: "44", growth: "+167%" },
-    { label: "Blended ROAS", value: "4.26x", growth: "" },
+    { label: "Blended ROAS", value: "4.3x", growth: "" },
   ],
 };

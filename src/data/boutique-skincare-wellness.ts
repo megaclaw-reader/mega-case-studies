@@ -141,6 +141,6 @@ export const boutiqueSkincareWellness: CaseStudyData = {
     { label: "Total Revenue", value: "$818.8K", growth: "+117% ROAS improvement" },
     { label: "Total Orders", value: "13,177", growth: "across 10 months" },
     { label: "Average Order Value", value: "$62.15", growth: "boutique skincare category" },
-    { label: "Blended ROAS", value: "3.58x", growth: "from 1.90x starting" },
+    { label: "Blended ROAS", value: "3.6x", growth: "from 1.90x starting" },
   ],
 };

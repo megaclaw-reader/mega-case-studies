@@ -154,7 +154,7 @@ export const aiToolSaasNational: CaseStudyData = {
   impact: [
     { label: "Total Revenue", value: "$359.5K", growth: "+412%" },
     { label: "Total Subscriptions", value: "107", growth: "+5,250%" },
-    { label: "Blended ROAS", value: "3.51x", growth: "" },
+    { label: "Blended ROAS", value: "3.5x", growth: "" },
     { label: "Avg Subscription Value", value: "$749/mo", growth: "" },
   ],
 };

@@ -44,7 +44,7 @@ export const privateMembershipClubs: CaseStudyData = {
         "Keyword research targeting private clubs, membership clubs, social clubs, networking venues, and exclusive experiences across New York neighborhoods — Manhattan, Tribeca, SoHo, Midtown, Upper East Side, Brooklyn Heights, Williamsburg",
         "Published 16 initial content pieces — membership experience guides, New York networking event roundups, private dining comparisons, and thought-leadership content on the value of curated professional communities",
         "Technical SEO implementation — local business schema, event schema for programming calendar, image optimization, and mobile experience overhaul",
-        "Launched paid campaigns at $7,200/month targeting New York metro professionals 28-55 with household income $200K+ — Google Search for high-intent queries plus Meta for awareness and retargeting",
+        "Launched paid campaigns at $7,200/month targeting New York metro professionals 28-55 with household income $200K+ — search ads for high-intent queries plus social campaigns for awareness and retargeting",
         "Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement — replacing the traditional weekly-review agency cadence",
         "Implemented call and form tracking with AI-powered lead scoring — tagging each inquiry by profession, income signals, engagement level, and membership fit score (1-10 scale)",
       ],
@@ -151,6 +151,6 @@ export const privateMembershipClubs: CaseStudyData = {
     { label: "Total Revenue", value: "$364.9K", growth: "+312%" },
     { label: "New Members", value: "82", growth: "+202%" },
     { label: "Lead Qualification Rate", value: "44.3%", growth: "↑from 33.3%" },
-    { label: "Blended ROAS", value: "4.04x", growth: "" },
+    { label: "Blended ROAS", value: "4.0x", growth: "" },
   ],
 };

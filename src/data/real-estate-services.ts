@@ -128,6 +128,6 @@ export const realEstateServices: CaseStudyData = {
     { label: "Total Commission Revenue", value: "$383.8K", growth: "+148%" },
     { label: "Closed Deals", value: "35", growth: "+143%" },
     { label: "Avg Commission Per Deal", value: "$11.3K", growth: "" },
-    { label: "Blended ROAS", value: "3.21x", growth: "" },
+    { label: "Blended ROAS", value: "3.2x", growth: "" },
   ],
 };
