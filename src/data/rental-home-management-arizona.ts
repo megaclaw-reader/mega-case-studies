@@ -251,7 +251,7 @@ export const rentalHomeManagementArizona: CaseStudyData = {
     ],
     sources: [
       { source: "Organic Search", percentage: 56, leads: 573 },
-      { source: "Google Maps / GBP", percentage: 31, leads: 317 },
+      { source: "Maps / Business Profile", percentage: 31, leads: 317 },
       { source: "Direct (Branded)", percentage: 13, leads: 133 },
     ],
   },

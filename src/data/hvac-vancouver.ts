@@ -230,7 +230,7 @@ export const hvacVancouver: CaseStudyData = {
     ],
     sources: [
       { source: "Google Organic", percentage: 54, leads: 457 },
-      { source: "Google Maps / Local Pack", percentage: 31, leads: 263 },
+      { source: "Maps / Local Pack", percentage: 31, leads: 263 },
       { source: "Direct (branded search)", percentage: 11, leads: 93 },
       { source: "Bing / Other", percentage: 4, leads: 34 },
     ],
