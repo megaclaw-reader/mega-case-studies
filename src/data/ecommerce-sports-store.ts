@@ -3,7 +3,7 @@ import { CaseStudyData } from "./types";
 export const ecommerceSportsStore: CaseStudyData = {
   slug: "ecommerce-sports-store",
   industry: "Ecommerce — Sports Equipment & Apparel",
-  headline: "How a National Sports Retailer Generated $804.6K in Ad Revenue Through AI-Powered SEO and Paid Advertising",
+  headline: "How a National Sports Retailer Generated $805K in Ad Revenue Through AI-Powered SEO and Paid Advertising",
   subheadline: "MEGA combined always-on AI optimization with aggressive SEO content production to help a national sports equipment and apparel ecommerce brand grow from near-zero organic visibility to 10,800+ monthly visitors — while paid campaigns delivered 8,710 orders at a 6.40x ROAS, with a record-breaking Black Friday that drove 21% of total ad revenue.",
   heroStats: [
     { value: "8710", unit: "", label: "Total Paid Orders" },
@@ -152,7 +152,7 @@ export const ecommerceSportsStore: CaseStudyData = {
       { label: "Total Ad Spend", value: "$125.7K" },
       { label: "Total Orders", value: "8,710" },
       { label: "Avg Cost Per Acquisition", value: "$14.43" },
-      { label: "Blended ROAS", value: "6.4x" },
+      { label: "Blended ROAS", value: "6.4" },
     ],
     columnLabels: {
       leads: "Sessions",

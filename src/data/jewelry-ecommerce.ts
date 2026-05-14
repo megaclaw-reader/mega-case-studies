@@ -38,7 +38,7 @@ export const jewelryEcommerce: CaseStudyData = {
       months: "0–30 days",
       title: "Foundation — Tracking, Creative Infrastructure & SEO Audit",
       items: [
-        "Complete ecommerce tracking overhaul — implemented Meta Conversions API with server-side purchase event tracking, configured paid search enhanced ecommerce conversions, and established consistent UTM taxonomy to create reliable revenue attribution across all paid channels",
+        "Complete ecommerce tracking overhaul — implemented server-side conversion API with purchase event tracking, configured paid search enhanced ecommerce conversions, and established consistent UTM taxonomy to create reliable revenue attribution across all paid channels",
         "Product catalog analysis across 300+ SKUs — identified hero products by margin, conversion rate, and review sentiment: gold pendant necklaces, diamond stud earrings, tennis bracelets, and custom engagement rings received priority in campaign structure and creative production",
         "Deployed always-on AI optimization agents directly within Meta and Google ad accounts — continuously monitoring performance signals, adjusting bids, reallocating budget between campaigns, and refining audience targeting in real time rather than waiting for weekly manual reviews",
         "Launched initial creative testing suite with 15 AI-generated ad variations across formats — lifestyle jewelry photography, gift-giving scenarios, close-up product detail shots, and styling inspiration carousels — replacing the stale 4-5 static images immediately and giving the algorithm 3-4x more creative diversity with zero production costs eating into media spend",

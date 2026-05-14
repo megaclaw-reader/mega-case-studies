@@ -7,7 +7,7 @@ export const landscapingRc: CaseStudyData = {
   subheadline: "MEGA helped a residential and commercial landscaping company in Charlotte, NC generate $401.1K in attributed revenue, reduce cost per qualified lead by 34%, and grow organic traffic 387% over 10 months.",
   heroStats: [
     { value: "10", unit: "months", label: "Partnership Duration" },
-    { value: "401.1", unit: "K", label: "Revenue Attributed" },
+    { value: "$401.1K", unit: "K", label: "Revenue Attributed" },
     { value: "387", unit: "%", label: "Organic Traffic Growth" },
   ],
   tags: ["SEO Strategy", "Paid Advertising", "Local SEO"],

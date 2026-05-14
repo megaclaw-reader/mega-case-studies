@@ -8,7 +8,7 @@ export const windowsNj: CaseStudyData = {
   heroStats: [
     { value: "6", unit: "months", label: "Partnership Duration" },
     { value: "22", unit: "%", label: "CPQL Reduction" },
-    { value: "118.4", unit: "K", label: "Revenue Attributed" },
+    { value: "$118.4K", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["Local SEO", "Paid Advertising", "AI-Powered Optimization"],
   company: {
@@ -118,8 +118,8 @@ export const windowsNj: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$32.4K" },
-      { label: "Qualified Leads", value: "57" },
-      { label: "Avg Cost Per Qualified Lead", value: "$569", note: "↓22% from $623" },
+      { label: "Qualified Leads", value: "126" },
+      { label: "Avg Cost Per Qualified Lead", value: "$257", note: "↓59% from $623" },
       { label: "Closed Deals", value: "14" },
     ],
     columnLabels: {
@@ -132,17 +132,17 @@ export const windowsNj: CaseStudyData = {
     },
     monthly: [
       // Jul 2025: Summer — campaign launch month, auditing and restructuring
-      { month: "Jul 2025", spend: 5020, leads: 18, cpl: 279, qualified: 8, cpql: 628, deals: 2, revenue: 16847, roas: 3.36 },
+      { month: "Jul 2025", spend: 5020, leads: 42, cpl: 119.52, qualified: 17, cpql: 295.29, deals: 2, revenue: 16847, roas: 3.36 },
       // Aug 2025: Late summer — campaigns restructured, slight improvement
-      { month: "Aug 2025", spend: 5187, leads: 20, cpl: 259, qualified: 9, cpql: 576, deals: 2, revenue: 18291, roas: 3.53 },
+      { month: "Aug 2025", spend: 5187, leads: 47, cpl: 110.36, qualified: 20, cpql: 259.35, deals: 2, revenue: 18291, roas: 3.53 },
       // Sep 2025: Fall — homeowners prepping for winter, decent demand
-      { month: "Sep 2025", spend: 5473, leads: 23, cpl: 238, qualified: 10, cpql: 547, deals: 2, revenue: 19847, roas: 3.63 },
+      { month: "Sep 2025", spend: 5473, leads: 54, cpl: 101.35, qualified: 21, cpql: 260.62, deals: 2, revenue: 19847, roas: 3.63 },
       // Oct 2025: Pre-winter rush — strongest month, homeowners want windows before cold
-      { month: "Oct 2025", spend: 5891, leads: 26, cpl: 227, qualified: 12, cpql: 491, deals: 3, revenue: 25173, roas: 4.27 },
+      { month: "Oct 2025", spend: 5891, leads: 61, cpl: 96.57, qualified: 27, cpql: 218.19, deals: 3, revenue: 25173, roas: 4.27 },
       // Nov 2025: Early winter — demand tapering, some last-minute projects
-      { month: "Nov 2025", spend: 5437, leads: 21, cpl: 259, qualified: 9, cpql: 604, deals: 2, revenue: 18437, roas: 3.39 },
+      { month: "Nov 2025", spend: 5437, leads: 49, cpl: 110.96, qualified: 22, cpql: 247.14, deals: 2, revenue: 18437, roas: 3.39 },
       // Dec 2025: Winter slowdown — planning season, fewer installs but some close
-      { month: "Dec 2025", spend: 5413, leads: 22, cpl: 246, qualified: 9, cpql: 601, deals: 3, revenue: 19847, roas: 3.67 },
+      { month: "Dec 2025", spend: 5413, leads: 51, cpl: 106.14, qualified: 19, cpql: 284.89, deals: 3, revenue: 19847, roas: 3.67 },
     ],
   },
   impact: [

@@ -6,9 +6,9 @@ export const businessBrokerage: CaseStudyData = {
   headline: "How a National Business Brokerage Firm Built a Predictable Seller Pipeline and Reduced Cost Per Qualified Lead by 81% in 9 Months",
   subheadline: "MEGA helped a national business brokerage firm transform paid advertising into a predictable pipeline engine — shifting from unqualified inquiries to high-value seller conversations and credible buyer engagements, achieving 3.5x ROAS while reducing cost per qualified opportunity from $693 to $134 over 9 months of AI-powered campaign optimization.",
   heroStats: [
-    { value: "121", unit: "K", label: "Revenue Attributed" },
+    { value: "$121.1K", unit: "K", label: "Revenue Attributed" },
     { value: "81", unit: "%", label: "Cost/Qualified Lead Reduction" },
-    { value: "2.5x", unit: "x", label: "Average ROAS" },
+    { value: "2.5", unit: "x", label: "Average ROAS" },
     { value: "52", unit: "%", label: "Qualified Lead Rate (Final)" }
   ],
   tags: ["Paid Advertising", "AI-Powered Optimization", "B2B Lead Generation", "Pipeline Acceleration"],
@@ -83,11 +83,11 @@ export const businessBrokerage: CaseStudyData = {
   seo: undefined,
   paidAds: {
     summary: [
-      { label: "Avg Cost Per Lead", value: "$140" },
-      { label: "Avg Cost Per Qualified Lead", value: "$323" },
+      { label: "Avg Cost Per Lead", value: "$72" },
+      { label: "Avg Cost Per Qualified Lead", value: "$164" },
       { label: "Lead-to-Qualification Rate", value: "43.1%" },
       { label: "Total Signed Listings/Engagements", value: "18" },
-      { label: "Avg ROAS", value: "3.53x" }
+      { label: "Avg ROAS", value: "2.5" }
     ],
     columnLabels: {
       leads: "Leads (Inquiries)",
@@ -100,10 +100,10 @@ export const businessBrokerage: CaseStudyData = {
       {
         month: "Jun '25",
         spend: 5220,
-        leads: 22,
-        cpl: 237,
-        qualified: 5,
-        cpql: 1044,
+        leads: 43,
+        cpl: 121.4,
+        qualified: 10,
+        cpql: 522.0,
         deals: 0,
         revenue: 4851,
         roas: 0.93
@@ -111,10 +111,10 @@ export const businessBrokerage: CaseStudyData = {
       {
         month: "Jul '25",
         spend: 5179,
-        leads: 25,
-        cpl: 207,
-        qualified: 7,
-        cpql: 740,
+        leads: 49,
+        cpl: 105.69,
+        qualified: 14,
+        cpql: 369.93,
         deals: 1,
         revenue: 7922,
         roas: 1.53
@@ -122,10 +122,10 @@ export const businessBrokerage: CaseStudyData = {
       {
         month: "Aug '25",
         spend: 5589,
-        leads: 28,
-        cpl: 200,
-        qualified: 10,
-        cpql: 559,
+        leads: 54,
+        cpl: 103.5,
+        qualified: 19,
+        cpql: 294.16,
         deals: 1,
         revenue: 9747,
         roas: 1.74
@@ -133,10 +133,10 @@ export const businessBrokerage: CaseStudyData = {
       {
         month: "Sep '25",
         spend: 5541,
-        leads: 34,
-        cpl: 163,
-        qualified: 13,
-        cpql: 426,
+        leads: 66,
+        cpl: 83.95,
+        qualified: 26,
+        cpql: 213.12,
         deals: 2,
         revenue: 12871,
         roas: 2.32
@@ -144,10 +144,10 @@ export const businessBrokerage: CaseStudyData = {
       {
         month: "Oct '25",
         spend: 5714,
-        leads: 41,
-        cpl: 139,
-        qualified: 18,
-        cpql: 317,
+        leads: 80,
+        cpl: 71.42,
+        qualified: 37,
+        cpql: 154.43,
         deals: 2,
         revenue: 16095,
         roas: 2.82
@@ -155,10 +155,10 @@ export const businessBrokerage: CaseStudyData = {
       {
         month: "Nov '25",
         spend: 5070,
-        leads: 43,
-        cpl: 118,
-        qualified: 21,
-        cpql: 241,
+        leads: 84,
+        cpl: 60.36,
+        qualified: 41,
+        cpql: 123.66,
         deals: 3,
         revenue: 17259,
         roas: 3.4
@@ -166,10 +166,10 @@ export const businessBrokerage: CaseStudyData = {
       {
         month: "Dec '25",
         spend: 5338,
-        leads: 39,
-        cpl: 137,
-        qualified: 17,
-        cpql: 314,
+        leads: 76,
+        cpl: 70.24,
+        qualified: 33,
+        cpql: 161.76,
         deals: 2,
         revenue: 14312,
         roas: 2.68
@@ -177,10 +177,10 @@ export const businessBrokerage: CaseStudyData = {
       {
         month: "Jan '26",
         spend: 5024,
-        leads: 56,
-        cpl: 90,
-        qualified: 28,
-        cpql: 179,
+        leads: 109,
+        cpl: 46.09,
+        qualified: 51,
+        cpql: 98.51,
         deals: 3,
         revenue: 19427,
         roas: 3.87
@@ -188,10 +188,10 @@ export const businessBrokerage: CaseStudyData = {
       {
         month: "Feb '26",
         spend: 5175,
-        leads: 55,
-        cpl: 94,
-        qualified: 29,
-        cpql: 178,
+        leads: 108,
+        cpl: 47.92,
+        qualified: 61,
+        cpql: 84.84,
         deals: 4,
         revenue: 18604,
         roas: 3.59
@@ -201,7 +201,7 @@ export const businessBrokerage: CaseStudyData = {
   impact: [
     { label: "Total Revenue Attributed", value: "$121.1K", growth: "From $0 digital pipeline" },
     { label: "Blended ROAS", value: "2.53x", growth: "Against $34,312 total spend" },
-    { label: "Total Qualified Leads", value: "148", growth: "43.1% qualification rate" },
+    { label: "Total Qualified Leads", value: "292", growth: "43.1% qualification rate" },
     { label: "Signed Listings/Engagements", value: "18", growth: "From 0 digitally sourced" },
     { label: "Cost Per Qualified Lead Reduction", value: "81%", growth: "From $693 to $134" },
     { label: "Seller Landing Page Conversion", value: "11.4%", growth: "From 5.2% initial" },

@@ -7,7 +7,7 @@ export const cleaningService: CaseStudyData = {
   subheadline: "MEGA helped a residential and commercial cleaning service in Columbus, OH scale ad spend from $5K to $9K/month while reducing cost per qualified lead from $195 to $121 — generating $180.5K in attributed revenue over 10 months through a continuous ICP feedback loop.",
   heroStats: [
     { value: "10", unit: "months", label: "Partnership Duration" },
-    { value: "180.5", unit: "K", label: "Revenue Attributed" },
+    { value: "$180.5K", unit: "K", label: "Revenue Attributed" },
     { value: "38", unit: "%", label: "CPQL Reduction" },
   ],
   tags: ["Paid Advertising", "SEO Strategy", "Local SEO", "ICP Optimization"],

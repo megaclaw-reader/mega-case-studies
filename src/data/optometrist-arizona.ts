@@ -8,7 +8,7 @@ export const optometristArizona: CaseStudyData = {
   heroStats: [
     { value: "13", unit: "months", label: "Partnership Duration" },
     { value: "812", unit: "", label: "Qualified Patient Leads" },
-    { value: "271.5", unit: "K", label: "Revenue Attributed" },
+    { value: "$271.4K", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["Local SEO", "Paid Advertising", "Patient Acquisition"],
   company: {

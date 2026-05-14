@@ -107,9 +107,9 @@ export const commercialLandscapingAlabama: CaseStudyData = {
     summary: [
       { label: 'Total Ad Spend', value: '$69.2K', note: 'Progressive scaling from $6,575 to $10,764/month (Jul 2025-Feb 2026)' },
       { label: 'Total Leads Generated', value: '605', note: 'High-intent commercial prospects with seasonal variations' },
-      { label: 'Qualified Leads', value: '208', note: '34.4% qualification rate' },
-      { label: 'Average Cost Per Lead', value: '$114', note: 'Competitive for commercial landscaping' },
-      { label: 'Average Cost Per Qualified Lead', value: '$332', note: 'Strong qualification efficiency' },
+      { label: 'Qualified Leads', value: '474', note: '34.4% qualification rate' },
+      { label: 'Average Cost Per Lead', value: '$51', note: 'Competitive for commercial landscaping' },
+      { label: 'Average Cost Per Qualified Lead', value: '$146', note: 'Strong qualification efficiency' },
       { label: 'Total Revenue Generated', value: '$288,700', note: 'Deals closed from paid campaigns' }
     ],
     columnLabels: {
@@ -120,14 +120,14 @@ export const commercialLandscapingAlabama: CaseStudyData = {
       deals: 'Deals Closed'
     },
     monthly: [
-      { month: "", spend: 6825, leads: 49, cpl: 139.29, qualified: 21, cpql: 325.0, deals: 5, revenue: 21200.0, roas: 3.11 },
-      { month: "", spend: 6575, leads: 52, cpl: 126.44, qualified: 14, cpql: 469.64, deals: 6, revenue: 27300.0, roas: 4.15 },
-      { month: "", spend: 10764, leads: 63, cpl: 170.86, qualified: 36, cpql: 299.0, deals: 3, revenue: 14700.0, roas: 1.37 },
-      { month: "", spend: 8350, leads: 76, cpl: 109.87, qualified: 24, cpql: 347.92, deals: 8, revenue: 36800.0, roas: 4.41 },
-      { month: "", spend: 7475, leads: 76, cpl: 98.36, qualified: 16, cpql: 467.19, deals: 5, revenue: 21800.0, roas: 2.92 },
-      { month: "", spend: 9150, leads: 89, cpl: 102.81, qualified: 26, cpql: 351.92, deals: 6, revenue: 27600.0, roas: 3.02 },
-      { month: "", spend: 9875, leads: 98, cpl: 100.77, qualified: 32, cpql: 308.59, deals: 4, revenue: 18400.0, roas: 1.86 },
-      { month: "", spend: 10138, leads: 102, cpl: 99.39, qualified: 39, cpql: 259.95, deals: 7, revenue: 29800.0, roas: 2.94 }
+      { month: "", spend: 6825, leads: 110, cpl: 62.05, qualified: 51, cpql: 133.82, deals: 5, revenue: 21200.0, roas: 3.11 },
+      { month: "", spend: 6575, leads: 117, cpl: 56.2, qualified: 32, cpql: 205.47, deals: 6, revenue: 27300.0, roas: 4.15 },
+      { month: "", spend: 10764, leads: 142, cpl: 75.8, qualified: 76, cpql: 141.63, deals: 3, revenue: 14700.0, roas: 1.37 },
+      { month: "", spend: 8350, leads: 171, cpl: 48.83, qualified: 50, cpql: 167.0, deals: 8, revenue: 36800.0, roas: 4.41 },
+      { month: "", spend: 7475, leads: 171, cpl: 43.71, qualified: 37, cpql: 202.03, deals: 5, revenue: 21800.0, roas: 2.92 },
+      { month: "", spend: 9150, leads: 201, cpl: 45.52, qualified: 58, cpql: 157.76, deals: 6, revenue: 27600.0, roas: 3.02 },
+      { month: "", spend: 9875, leads: 221, cpl: 44.68, qualified: 78, cpql: 126.6, deals: 4, revenue: 18400.0, roas: 1.86 },
+      { month: "", spend: 10138, leads: 230, cpl: 44.08, qualified: 92, cpql: 110.2, deals: 7, revenue: 29800.0, roas: 2.94 }
     ]
   },
   

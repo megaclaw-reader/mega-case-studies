@@ -3,7 +3,7 @@ import { CaseStudyData } from "./types";
 export const b2bSaasEnterprise: CaseStudyData = {
   slug: "b2b-saas-enterprise",
   industry: "B2B SaaS - Enterprise Software",
-  headline: "How an Enterprise Compliance Automation Platform Generated $1.72M in Contract Value With MEGA's AI-Driven Growth Engine",
+  headline: "How an Enterprise Compliance Automation Platform Generated $1.7M in Contract Value With MEGA's AI-Driven Growth Engine",
   subheadline: "MEGA partnered with an enterprise compliance automation platform to build a dual-channel acquisition strategy — combining paid advertising with aggressive SEO — reducing cost per qualified demo by 31%, scaling organic traffic to 19,800+/mo, and closing 26 enterprise contracts worth $1.72M in total contract value over 9 months.",
   heroStats: [
     { value: "9", unit: "months", label: "Partnership Duration" },

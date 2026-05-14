@@ -3,11 +3,11 @@ import { CaseStudyData } from "./types";
 export const seniorCareNm: CaseStudyData = {
   slug: "senior-care-nm",
   industry: "Senior Care",
-  headline: "How a New Mexico Home Care Agency Generated $302.6K in Revenue With AI-Powered Paid Advertising",
+  headline: "How a New Mexico Home Care Agency Generated $303K in Revenue With AI-Powered Paid Advertising",
   subheadline: "MEGA helped a senior home care and assisted living referral company in Albuquerque, New Mexico scale their paid advertising program, reducing cost per qualified lead by 42% and generating $302.6K in attributed revenue over 8 months with a 4.27x blended ROAS.",
   heroStats: [
     { value: "8", unit: "months", label: "Partnership Duration" },
-    { value: "302.6", unit: "K", label: "Revenue Attributed" },
+    { value: "$302.6K", unit: "K", label: "Revenue Attributed" },
     { value: "4.2", unit: "x", label: "Blended ROAS" },
   ],
   tags: ["Paid Advertising", "AI-Powered Optimization", "Lead Generation"],
@@ -98,8 +98,8 @@ export const seniorCareNm: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$72.5K" },
-      { label: "Qualified Leads", value: "256" },
-      { label: "Avg Cost Per Qualified Lead", value: "$283", note: "↓42% from $403" },
+      { label: "Qualified Leads", value: "792" },
+      { label: "Avg Cost Per Qualified Lead", value: "$91", note: "↓77% from $403" },
       { label: "Signed Clients", value: "90" },
     ],
     columnLabels: {
@@ -111,14 +111,14 @@ export const seniorCareNm: CaseStudyData = {
       costPerDeal: "Cost/Client",
     },
     monthly: [
-      { month: "May 2025", spend: 7658, leads: 44, cpl: 174, qualified: 19, cpql: 403, deals: 7, revenue: 23947, roas: 3.13 },
-      { month: "Jun 2025", spend: 7892, leads: 49, cpl: 161, qualified: 22, cpql: 359, deals: 8, revenue: 27888, roas: 3.53 },
-      { month: "Jul 2025", spend: 8247, leads: 55, cpl: 150, qualified: 26, cpql: 317, deals: 9, revenue: 31806, roas: 3.86 },
-      { month: "Aug 2025", spend: 8534, leads: 59, cpl: 145, qualified: 29, cpql: 294, deals: 10, revenue: 35780, roas: 4.19 },
-      { month: "Sep 2025", spend: 9178, leads: 66, cpl: 139, qualified: 33, cpql: 278, deals: 12, revenue: 39564, roas: 4.31 },
-      { month: "Oct 2025", spend: 9643, leads: 72, cpl: 134, qualified: 37, cpql: 261, deals: 13, revenue: 44356, roas: 4.60 },
-      { month: "Nov 2025", spend: 10412, leads: 81, cpl: 129, qualified: 43, cpql: 242, deals: 14, revenue: 49100, roas: 4.72 },
-      { month: "Dec 2025", spend: 10893, leads: 87, cpl: 125, qualified: 47, cpql: 232, deals: 15, revenue: 50200, roas: 4.61 },
+      { month: "May 2025", spend: 7658, leads: 140, cpl: 54.7, qualified: 57, cpql: 134.35, deals: 7, revenue: 23947, roas: 3.13 },
+      { month: "Jun 2025", spend: 7892, leads: 155, cpl: 50.92, qualified: 69, cpql: 114.38, deals: 8, revenue: 27888, roas: 3.53 },
+      { month: "Jul 2025", spend: 8247, leads: 174, cpl: 47.4, qualified: 77, cpql: 107.1, deals: 9, revenue: 31806, roas: 3.86 },
+      { month: "Aug 2025", spend: 8534, leads: 187, cpl: 45.64, qualified: 85, cpql: 100.4, deals: 10, revenue: 35780, roas: 4.19 },
+      { month: "Sep 2025", spend: 9178, leads: 210, cpl: 43.7, qualified: 104, cpql: 88.25, deals: 12, revenue: 39564, roas: 4.31 },
+      { month: "Oct 2025", spend: 9643, leads: 228, cpl: 42.29, qualified: 106, cpql: 90.97, deals: 13, revenue: 44356, roas: 4.60 },
+      { month: "Nov 2025", spend: 10412, leads: 256, cpl: 40.67, qualified: 132, cpql: 78.88, deals: 14, revenue: 49100, roas: 4.72 },
+      { month: "Dec 2025", spend: 10893, leads: 277, cpl: 39.32, qualified: 162, cpql: 67.24, deals: 15, revenue: 50200, roas: 4.61 },
     ],
   },
   impact: [

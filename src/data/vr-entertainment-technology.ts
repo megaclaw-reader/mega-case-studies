@@ -3,7 +3,7 @@ import { CaseStudyData } from "./types";
 export const vrEntertainmentTechnology: CaseStudyData = {
   slug: "vr-entertainment-technology",
   industry: "Ecommerce — VR Entertainment",
-  headline: "How a VR Entertainment Brand Grew Organic Traffic 1,247% and Generated $473.1K in Ad Revenue",
+  headline: "How a VR Entertainment Brand Grew Organic Traffic 1,247% and Generated $473K in Ad Revenue",
   subheadline: "MEGA helped a direct-to-consumer VR entertainment technology company dominate organic search while building a paid ads engine that drove 1,910 orders at a 4.65x blended ROAS — selling headsets, accessories, and experience packages to enthusiasts and venue operators nationwide.",
   heroStats: [
     { value: "1,247", unit: "%", label: "Organic Traffic Growth" },
@@ -122,7 +122,7 @@ export const vrEntertainmentTechnology: CaseStudyData = {
       { label: "Total Ad Spend", value: "$112.7K" },
       { label: "Total Orders", value: "1,704" },
       { label: "Avg Cost Per Order", value: "$59.01" },
-      { label: "Blended ROAS", value: "4.2x" },
+      { label: "Blended ROAS", value: "4.2" },
     ],
     columnLabels: {
       leads: "Sessions",

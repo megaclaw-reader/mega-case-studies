@@ -3,8 +3,8 @@ import { CaseStudyData } from "./types";
 export const medSpaMultiLocationFlorida: CaseStudyData = {
   slug: "medspa-multilocation-florida",
   industry: "MedSpa",
-  headline: "How a Multi-Location MedSpa Chain Scaled From $20K to $34K Monthly Ad Spend Across 3 States — Generating 2,847 Qualified Leads and $642.5K in Revenue",
-  subheadline: "MEGA transformed a Florida-headquartered MedSpa chain with 10 locations across 3 states from fragmented local campaigns into a unified growth engine. Through location-specific SEO strategies, geo-targeted paid campaigns, and centralized performance optimization, we delivered 2,847 qualified leads, achieved a 4.2x blended ROAS, and established market dominance in 8 metro areas.",
+  headline: "How a 10-Location MedSpa Chain Unified Fragmented Marketing Across 3 States — Generating 3,045 Qualified Consultations and $642K in Treatment Revenue",
+  subheadline: "MEGA transformed a Florida-headquartered MedSpa chain with 10 locations across Florida, Georgia, and Texas from fragmented local campaigns into a unified growth engine. Through location-specific SEO strategies, geo-targeted paid campaigns, and centralized performance optimization, we delivered 3,045 qualified consultations, grew organic traffic 2,241% to 16,847 monthly visitors, and established market dominance in 8 metro areas.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
     { value: "3045", unit: "", label: "Qualified Leads" },
@@ -21,7 +21,7 @@ export const medSpaMultiLocationFlorida: CaseStudyData = {
   challenges: [
     {
       title: "Fragmented Multi-Location Digital Strategy With No Centralized Control",
-      description: "Each of the 10 locations was running independent digital marketing efforts with wildly inconsistent results. The Tampa flagship generated 180+ leads per month, while newer locations in Houston and Atlanta were struggling with 12-15 leads monthly despite similar market potential. There was no standardized keyword strategy, no cross-location content sharing, no unified brand messaging, and no centralized performance tracking. Local managers were making budget decisions based on incomplete data, leading to $47K in wasted ad spend over 8 months. Google Business Profiles were inconsistently managed, with some locations having 200+ reviews while others had fewer than 15. This fragmentation meant the brand couldn't leverage its multi-location credibility or share high-performing strategies across markets.",
+      description: "Each of the 10 locations was running independent digital marketing efforts with wildly inconsistent results. The Tampa flagship generated 180+ leads per month, while newer locations in Houston and Atlanta were struggling with 12-15 leads monthly despite similar market potential. There was no standardized keyword strategy, no cross-location content sharing, no unified brand messaging, and no centralized performance tracking. Local managers were making budget decisions based on incomplete data, leading to $47K in wasted ad spend over 8 months. Business Profiles were inconsistently managed, with some locations having 200+ reviews while others had fewer than 15. This fragmentation meant the brand couldn't leverage its multi-location credibility or share high-performing strategies across markets.",
     },
     {
       title: "Inconsistent Lead Quality and Conversion Rates Across Markets",
@@ -29,7 +29,7 @@ export const medSpaMultiLocationFlorida: CaseStudyData = {
     },
     {
       title: "Competitive Pressure From National Chains and Local Independents",
-      description: "In every market, the brand faced intense competition from both national chains with massive advertising budgets and established local independents with strong community ties. National players like Ideal Image dominated high-volume keywords with corporate-level SEO and paid campaigns, while local competitors won on neighborhood-specific terms and Google Business Profile optimization. The multi-location brand was stuck in the middle — too fragmented to compete at the national level but not local enough to win neighborhood searches. In competitive markets like Miami and Houston, their average Google Business Profile ranking was position 8.3, well below the top-3 local pack positions needed for consistent lead flow.",
+      description: "In every market, the brand faced intense competition from both national chains with massive advertising budgets and established local independents with strong community ties. National players like Ideal Image dominated high-volume keywords with corporate-level SEO and paid campaigns, while local competitors won on neighborhood-specific terms and Business Profile optimization. The multi-location brand was stuck in the middle — too fragmented to compete at the national level but not local enough to win neighborhood searches. In competitive markets like Miami and Houston, their average Business Profile ranking was position 8.3, well below the top-3 local pack positions needed for consistent lead flow.",
     },
   ],
   strategy: [
@@ -40,7 +40,7 @@ export const medSpaMultiLocationFlorida: CaseStudyData = {
       items: [
         "Conducted comprehensive audit of all 10 locations — analyzed 18 months of historical performance data, identified top-performing markets, documented successful local strategies, and mapped competitive landscapes in each metro area",
         "Implemented centralized conversion tracking and CRM integration across all locations — unified lead attribution system capable of tracking customer journey from first touchpoint through treatment completion and rebookings",
-        "Standardized Google Business Profile optimization across all 10 locations — consistent NAP information, service categories, photos, posts, and review management protocols with location-specific customization",
+        "Standardized Business Profile optimization across all 10 locations — consistent NAP information, service categories, photos, posts, and review management protocols with location-specific customization",
         "Built comprehensive multi-location keyword strategy covering 1,320 treatment + location combinations — 'Botox Tampa,' 'CoolSculpting Houston,' 'med spa near Miami Beach,' etc., with local search volume analysis for each market",
         "Launched location-specific landing page architecture — 10 unique location pages plus 70 treatment + city combination pages optimized for local search intent and geo-specific conversion elements",
         "Developed multi-location content strategy with 3-tier approach: corporate-level treatment education, market-specific guides ('Best Botox in Tampa'), and neighborhood-level content for high-density metro areas",
@@ -72,7 +72,7 @@ export const medSpaMultiLocationFlorida: CaseStudyData = {
       title: "Advanced Optimization & Budget Scaling",
       items: [
         "Scaled monthly ad spend from $20K baseline to $28K based on proven ROI across top-performing locations — dynamic budget allocation ensuring each location maintained minimum $1,400/month with performance-based increases",
-        "Advanced local search optimization — achieved top-3 Google Business Profile positions for primary treatment terms in 8 of 10 markets through strategic review generation, post frequency optimization, and local citation building",
+        "Advanced local search optimization — achieved top-3 Business Profile positions for primary treatment terms in 8 of 10 markets through strategic review generation, post frequency optimization, and local citation building",
         "Cross-location data analysis revealed treatment preferences by region — body contouring dominated in beach markets (Miami, Tampa, Naples), while anti-aging treatments peaked in metropolitan areas (Atlanta, Houston, Dallas)",
         "Launched location-specific retargeting campaigns — visitors to Tampa location saw beach-body messaging, while Atlanta visitors received professional appearance and confidence-focused creative",
         "Implemented advanced lead scoring system — weighted leads based on treatment interest (CoolSculpting 3x, laser resurfacing 2.5x, Botox 1x), location (premium markets scored higher), and behavior patterns",
@@ -87,7 +87,7 @@ export const medSpaMultiLocationFlorida: CaseStudyData = {
       title: "Peak Performance & Market Expansion",
       items: [
         "Reached $35K monthly ad spend with maintained efficiency — algorithmic budget allocation system distributing spend across locations based on real-time lead quality, conversion rates, and market saturation indicators",
-        "Achieved market dominance in 8 of 10 metropolitan areas — captured top-3 Google Business Profile positions and first-page organic rankings for primary treatment terms in major markets",
+        "Achieved market dominance in 8 of 10 metropolitan areas — captured top-3 Business Profile positions and first-page organic rankings for primary treatment terms in major markets",
         "Advanced location clustering strategy — grouped similar markets (beach cities, metropolitan areas, suburban markets) for accelerated strategy rollout and creative testing across location types",
         "Multi-location customer lifetime value optimization — implemented referral programs, loyalty tracking, and cross-location visit incentives that increased average client value by 31% across the chain",
         "Seasonal revenue optimization — developed location-specific promotional calendars that maximized revenue during peak booking periods while maintaining consistent lead flow during slower seasons",
@@ -149,9 +149,9 @@ export const medSpaMultiLocationFlorida: CaseStudyData = {
   },
   localSeo: {
     summary: [
-      { label: "GBP Views", value: "47,284/mo", growth: "+1,891%", from: "from 2,374" },
+      { label: "Profile Views", value: "47,284/mo", growth: "+1,891%", from: "from 2,374" },
       { label: "Maps Impressions", value: "127,847/mo", growth: "+2,447%", from: "from 5,021" },
-      { label: "GBP Calls", value: "1,184/mo", growth: "+2,268%", from: "from 50" },
+      { label: "Profile Calls", value: "1,184/mo", growth: "+2,268%", from: "from 50" },
       { label: "Direction Requests", value: "847/mo", growth: "+2,118%", from: "from 38" },
     ],
     monthly: [
@@ -170,7 +170,7 @@ export const medSpaMultiLocationFlorida: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Qualified Leads", value: "3,045", growth: "+1,847%" },
+    { label: "Total Qualified Leads", value: "3045", growth: "+1,847%" },
     { label: "Cost Per Qualified Lead", value: "$115", growth: "↓47%" },
     { label: "Monthly Organic Traffic", value: "16,847", growth: "+2,241%" },
     { label: "Blended ROAS", value: "1.96x", growth: "Maintained across all locations" },

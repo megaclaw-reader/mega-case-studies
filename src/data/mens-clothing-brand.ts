@@ -8,7 +8,7 @@ export const mensClothingBrand: CaseStudyData = {
   heroStats: [
     { value: "4.3", unit: "x", label: "Peak ROAS" },
     { value: "4,642", unit: "", label: "Total Orders" },
-    { value: "$486", unit: "K", label: "Total Revenue" },
+    { value: "$486.2K", unit: "K", label: "Total Revenue" },
   ],
   tags: ["Paid Advertising", "SEO", "eCommerce", "Men's Clothing", "National"],
   company: {
@@ -99,7 +99,7 @@ export const mensClothingBrand: CaseStudyData = {
       { label: "Total Ad Spend", value: "$143.8K" },
       { label: "Total Orders", value: "4,642" },
       { label: "Avg Cost Per Visit", value: "$1.24", note: "↓38% from $2.01" },
-      { label: "Blended ROAS", value: "3.4x", note: "from 2.1x baseline" },
+      { label: "Blended ROAS", value: "3.4", note: "from 2.1x baseline" },
     ],
     columnLabels: {
       leads: "Sessions",
@@ -109,13 +109,13 @@ export const mensClothingBrand: CaseStudyData = {
       deals: "Orders",
     },
     monthly: [
-      { month: "Aug '25", spend: 18765, leads: 9334, cpl: 2.01, qualified: 812, cpql: 23.11, deals: 378, revenue: 39396, roas: 2.1 },
-      { month: "Sep '25", spend: 19240, leads: 10631, cpl: 1.81, qualified: 1042, cpql: 18.46, deals: 459, revenue: 47124, roas: 2.45 },
-      { month: "Oct '25", spend: 20350, leads: 12718, cpl: 1.6, qualified: 1143, cpql: 17.81, deals: 549, revenue: 57998, roas: 2.85 },
-      { month: "Nov '25", spend: 24890, leads: 17423, cpl: 1.43, qualified: 1982, cpql: 12.56, deals: 956, revenue: 103294, roas: 4.15 },
-      { month: "Dec '25", spend: 22470, leads: 14980, cpl: 1.5, qualified: 1753, cpql: 12.82, deals: 791, revenue: 82016, roas: 3.65 },
-      { month: "Jan '26", spend: 19120, leads: 14031, cpl: 1.36, qualified: 1523, cpql: 12.56, deals: 726, revenue: 74950, roas: 3.92 },
-      { month: "Feb '26", spend: 18935, leads: 14565, cpl: 1.3, qualified: 1631, cpql: 11.61, deals: 783, revenue: 81421, roas: 4.3 },
+      { month: "Aug '25", spend: 18765, leads: 259, cpl: 72.45, qualified: 24, cpql: 781.88, deals: 378, revenue: 39396, roas: 2.1 },
+      { month: "Sep '25", spend: 19240, leads: 295, cpl: 65.22, qualified: 31, cpql: 620.65, deals: 459, revenue: 47124, roas: 2.45 },
+      { month: "Oct '25", spend: 20350, leads: 353, cpl: 57.65, qualified: 34, cpql: 598.53, deals: 549, revenue: 57998, roas: 2.85 },
+      { month: "Nov '25", spend: 24890, leads: 484, cpl: 51.43, qualified: 57, cpql: 436.67, deals: 956, revenue: 103294, roas: 4.15 },
+      { month: "Dec '25", spend: 22470, leads: 416, cpl: 54.01, qualified: 45, cpql: 499.33, deals: 791, revenue: 82016, roas: 3.65 },
+      { month: "Jan '26", spend: 19120, leads: 391, cpl: 48.9, qualified: 41, cpql: 466.34, deals: 726, revenue: 74950, roas: 3.92 },
+      { month: "Feb '26", spend: 18935, leads: 405, cpl: 46.75, qualified: 43, cpql: 440.35, deals: 783, revenue: 81421, roas: 4.3 },
     ],
   },
   impact: [

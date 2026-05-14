@@ -6,9 +6,9 @@ export const socialSecurityDisability: CaseStudyData = {
   headline: "How a New Mexico Disability Law Firm Generated 3,035 Qualified Leads and $3.6M in Case Fees in 6 Months",
   subheadline: "MEGA deployed AI-driven paid advertising and aggressive SEO to help a Social Security disability representation firm in New Mexico scale qualified lead volume from 312 to 707 per month — achieving a blended 4.34x ROAS across $829K in total ad spend.",
   heroStats: [
-    { value: "3,035", unit: "", label: "Qualified Leads" },
+    { value: "3035", unit: "", label: "Qualified Leads" },
     { value: "$3.6", unit: "M", label: "Total Case Fees" },
-    { value: "4.3x", unit: "x", label: "Blended ROAS" },
+    { value: "4.3", unit: "x", label: "Blended ROAS" },
   ],
   tags: ["Paid Advertising", "SEO", "Lead Generation"],
   company: {

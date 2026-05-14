@@ -7,7 +7,7 @@ export const restaurantEventsCaliforniaMar: CaseStudyData = {
   subheadline: "MEGA helped a restaurant and events venue in California grow from struggling seasonal bookings to consistent monthly revenue, reducing cost per qualified lead by 37% and generating $230K in attributed revenue across 11 months.",
   heroStats: [
     { value: "209", unit: "%", label: "Booking Growth" },
-    { value: "$230", unit: "K", label: "Revenue Attributed" },
+    { value: "$229.8K", unit: "K", label: "Revenue Attributed" },
     { value: "47", unit: "", label: "Total Event Bookings" },
   ],
   tags: ["Local SEO", "Paid Advertising", "Events Marketing"],

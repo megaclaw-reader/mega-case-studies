@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const hvacNational: CaseStudyData = {
   slug: "hvac-national",
   industry: "HVAC",
-  headline: "How a National HVAC Franchise Generated 847 Qualified Leads and $655.3K in Revenue in 12 Months",
+  headline: "How a National HVAC Franchise Generated 847 Qualified Leads and $655K in Revenue in 12 Months",
   subheadline: "MEGA helped a multi-location HVAC company reduce their cost per qualified lead by 41%, grow organic traffic 1,180%, and build a predictable lead pipeline across 23 markets through SEO and paid advertising.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
     { value: "1,180", unit: "%", label: "Organic Traffic Growth" },
-    { value: "655.3", unit: "K", label: "Revenue Attributed" },
+    { value: "$655.3K", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["National SEO", "Paid Advertising", "Lead Generation", "Multi-Location"],
   company: {

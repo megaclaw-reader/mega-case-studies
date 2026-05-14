@@ -3,13 +3,13 @@ import { CaseStudyData } from "./types";
 export const lifeInsuranceChicago: CaseStudyData = {
   slug: "life-insurance-chicago",
   industry: "Life Insurance",
-  headline: "How a Chicago Life Insurance Agency Generated $76,800 in New Policy Commissions with Quality Lead Tracking",
+  headline: "How a Chicago Life Insurance Agency Generated $77K in New Policy Commissions with Quality Lead Tracking",
   subheadline: "Leveraging advanced tracking systems and call transcript analysis to identify high-intent prospects and improve close rates by 35%",
   heroStats: [
     { value: "76.8", unit: "K", label: "New Policy Commissions" },
     { value: "142", unit: "", label: "Qualified Leads Generated" },
     { value: "62", unit: "", label: "Policies Sold" },
-    { value: "3.57", unit: "x", label: "Blended ROAS" }
+    { value: "3.6", unit: "x", label: "Blended ROAS" }
   ],
   tags: ["Paid Advertising", "Lead Generation", "Local"],
 
@@ -90,8 +90,8 @@ export const lifeInsuranceChicago: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$21.5K" },
-      { label: "Total Qualified Leads", value: "142" },
-      { label: "Avg CPQL", value: "$151" },
+      { label: "Total Qualified Leads", value: "64" },
+      { label: "Avg CPQL", value: "$336" },
       { label: "Total Revenue", value: "$76.8K" },
       { label: "Blended ROAS", value: "3.6x" }
     ],
@@ -107,10 +107,10 @@ export const lifeInsuranceChicago: CaseStudyData = {
       {
         month: "Jan '25",
         spend: 5000,
-        leads: 89,
-        cpl: 56,
-        qualified: 28,
-        cpql: 179,
+        leads: 41,
+        cpl: 121.95,
+        qualified: 13,
+        cpql: 384.62,
         deals: 12,
         revenue: 9600,
         roas: 1.92
@@ -118,10 +118,10 @@ export const lifeInsuranceChicago: CaseStudyData = {
       {
         month: "Feb '25", 
         spend: 5200,
-        leads: 95,
-        cpl: 55,
-        qualified: 34,
-        cpql: 153,
+        leads: 43,
+        cpl: 120.93,
+        qualified: 13,
+        cpql: 400.0,
         deals: 16,
         revenue: 15200,
         roas: 2.92
@@ -129,10 +129,10 @@ export const lifeInsuranceChicago: CaseStudyData = {
       {
         month: "Mar '25",
         spend: 5500,
-        leads: 98,
-        cpl: 56,
-        qualified: 38,
-        cpql: 145,
+        leads: 45,
+        cpl: 122.22,
+        qualified: 18,
+        cpql: 305.56,
         deals: 18,
         revenue: 25200,
         roas: 4.58
@@ -140,10 +140,10 @@ export const lifeInsuranceChicago: CaseStudyData = {
       {
         month: "Apr '25",
         spend: 5800,
-        leads: 104,
-        cpl: 56,
-        qualified: 42,
-        cpql: 138,
+        leads: 47,
+        cpl: 123.4,
+        qualified: 20,
+        cpql: 290.0,
         deals: 16,
         revenue: 26800,
         roas: 4.62

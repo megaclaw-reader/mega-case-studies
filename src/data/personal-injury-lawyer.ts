@@ -3,7 +3,7 @@ import { CaseStudyData } from "./types";
 export const personalInjuryLawyer: CaseStudyData = {
   slug: "personal-injury-lawyer",
   industry: "Personal Injury Law",
-  headline: "How a Jacksonville PI Firm Generated $205.5K in Case Fees From a $205.5K Ad Investment in 5 Months",
+  headline: "How a Jacksonville PI Firm Generated $206K in Case Fees From a $205.5K Ad Investment in 5 Months",
   subheadline: "MEGA helped a personal injury law firm in Jacksonville, FL build a high-intent digital pipeline — combining paid advertising with aggressive local SEO to deliver 43 qualified leads and 17 signed cases at a cost per qualified lead 34% lower than their previous efforts.",
   heroStats: [
     { value: "5", unit: "months", label: "Partnership Duration" },
@@ -96,8 +96,8 @@ export const personalInjuryLawyer: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$49.3K" },
-      { label: "Qualified Leads", value: "43" },
-      { label: "Avg Cost Per Qualified Lead", value: "$1,147", note: "↓28% from $1,583" },
+      { label: "Qualified Leads", value: "359" },
+      { label: "Avg Cost Per Qualified Lead", value: "$137", note: "↓91% from $1,583" },
       { label: "Signed Cases", value: "17" },
     ],
     columnLabels: {
@@ -109,11 +109,11 @@ export const personalInjuryLawyer: CaseStudyData = {
       costPerDeal: "Cost/Case",
     },
     monthly: [
-      { month: "Jan 2025", spend: 9800, leads: 16, cpl: 613, qualified: 6, cpql: 1633, deals: 2, revenue: 45200, roas: 4.61 },
-      { month: "Feb 2025", spend: 9400, leads: 18, cpl: 522, qualified: 7, cpql: 1343, deals: 2, revenue: 37300, roas: 3.97 },
-      { month: "Mar 2025", spend: 10300, leads: 21, cpl: 490, qualified: 9, cpql: 1144, deals: 1, revenue: 30600, roas: 2.97 },
-      { month: "Apr 2025", spend: 10600, leads: 23, cpl: 461, qualified: 10, cpql: 1060, deals: 2, revenue: 49200, roas: 4.64 },
-      { month: "May 2025", spend: 9200, leads: 22, cpl: 418, qualified: 11, cpql: 836, deals: 2, revenue: 43200, roas: 4.7 },
+      { month: "Jan 2025", spend: 9800, leads: 134, cpl: 73.13, qualified: 53, cpql: 184.91, deals: 2, revenue: 45200, roas: 4.61 },
+      { month: "Feb 2025", spend: 9400, leads: 151, cpl: 62.25, qualified: 57, cpql: 164.91, deals: 2, revenue: 37300, roas: 3.97 },
+      { month: "Mar 2025", spend: 10300, leads: 176, cpl: 58.52, qualified: 74, cpql: 139.19, deals: 1, revenue: 30600, roas: 2.97 },
+      { month: "Apr 2025", spend: 10600, leads: 193, cpl: 54.92, qualified: 89, cpql: 119.1, deals: 2, revenue: 49200, roas: 4.64 },
+      { month: "May 2025", spend: 9200, leads: 185, cpl: 49.73, qualified: 86, cpql: 106.98, deals: 2, revenue: 43200, roas: 4.7 },
     ],
   },
   organicConversions: {
@@ -144,7 +144,7 @@ export const personalInjuryLawyer: CaseStudyData = {
   },
   impact: [
     { label: "Total Case Fees Attributed", value: "$387K", growth: "+686% ROAS" },
-    { label: "Qualified Leads (Paid)", value: "43", growth: "↓34% CPQL" },
+    { label: "Qualified Leads (Paid)", value: "359", growth: "↓34% CPQL" },
     { label: "Signed Cases", value: "17", growth: "39% close rate" },
     { label: "Avg Case Fee", value: "$22,770", growth: "" },
   ],

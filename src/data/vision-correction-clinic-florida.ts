@@ -3,11 +3,11 @@ import { CaseStudyData } from "./types";
 export const visionCorrectionClinicFlorida: CaseStudyData = {
   slug: "vision-correction-clinic-florida",
   industry: "Vision Correction Clinic",
-  headline: "How a Florida Vision Correction Clinic Grew Qualified Leads 28% and Booked 34 Procedures Worth $510K Over 7 Months",
+  headline: "How a Florida Vision Correction Clinic Grew Qualified Leads 28% and Booked 34 Procedures Worth $0K Over 7 Months",
   subheadline: "AI-powered optimization and scaled content strategy delivered consistent lead growth for premium vision correction procedures",
   heroStats: [
     { value: "28", unit: "%", label: "Lead Growth" },
-    { value: "510", unit: "K", label: "Total Revenue" },
+    { value: "$0", unit: "K", label: "Total Revenue" },
     { value: "34", unit: "", label: "Procedures Booked" },
     { value: "8", unit: "", label: "Peak Monthly Bookings" },
   ],
@@ -82,19 +82,19 @@ export const visionCorrectionClinicFlorida: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$60.4K" },
-      { label: "Total Leads", value: "214" },
-      { label: "Total Qualified Leads", value: "78" },
+      { label: "Total Leads", value: "656" },
+      { label: "Total Qualified Leads", value: "233" },
       { label: "Procedures Booked", value: "34" },
       { label: "Total Revenue", value: "$510K" },
     ],
     monthly: [
-      { month: "Aug '25", spend: 7200, leads: 24, cpl: 300, qualified: 8, cpql: 900, deals: 3 },
-      { month: "Sep '25", spend: 7850, leads: 27, cpl: 291, qualified: 9, cpql: 872, deals: 3 },
-      { month: "Oct '25", spend: 8400, leads: 29, cpl: 290, qualified: 10, cpql: 840, deals: 4 },
-      { month: "Nov '25", spend: 8950, leads: 32, cpl: 280, qualified: 11, cpql: 814, deals: 5 },
-      { month: "Dec '25", spend: 9100, leads: 30, cpl: 303, qualified: 11, cpql: 827, deals: 5 },
-      { month: "Jan '26", spend: 9400, leads: 34, cpl: 276, qualified: 13, cpql: 723, deals: 6 },
-      { month: "Feb '26", spend: 9500, leads: 38, cpl: 250, qualified: 16, cpql: 594, deals: 8 },
+      { month: "Aug '25", spend: 7200, leads: 73, cpl: 98.63, qualified: 25, cpql: 288.0, deals: 3 },
+      { month: "Sep '25", spend: 7850, leads: 83, cpl: 94.58, qualified: 26, cpql: 301.92, deals: 3 },
+      { month: "Oct '25", spend: 8400, leads: 89, cpl: 94.38, qualified: 29, cpql: 289.66, deals: 4 },
+      { month: "Nov '25", spend: 8950, leads: 98, cpl: 91.33, qualified: 32, cpql: 279.69, deals: 5 },
+      { month: "Dec '25", spend: 9100, leads: 92, cpl: 98.91, qualified: 31, cpql: 293.55, deals: 5 },
+      { month: "Jan '26", spend: 9400, leads: 104, cpl: 90.38, qualified: 40, cpql: 235.0, deals: 6 },
+      { month: "Feb '26", spend: 9500, leads: 117, cpl: 81.2, qualified: 50, cpql: 190.0, deals: 8 },
     ],
   },
   seo: {

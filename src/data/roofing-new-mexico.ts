@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const roofingNewMexico: CaseStudyData = {
   slug: "roofing-new-mexico",
   industry: "Roofing",
-  headline: "How a New Mexico Roofing Company Generated $595.2K in Revenue From Paid Advertising in 10 Months",
+  headline: "How a New Mexico Roofing Company Generated $595K in Revenue From Paid Advertising in 10 Months",
   subheadline: "MEGA helped a residential roofing contractor in New Mexico reduce their cost per qualified lead by 38% and close 44 deals worth $595.2K through AI-powered paid advertising — leveraging monsoon season demand and always-on campaign optimization.",
   heroStats: [
     { value: "10", unit: "months", label: "Partnership Duration" },
-    { value: "595.2", unit: "K", label: "Revenue Attributed" },
-    { value: "4.26", unit: "x", label: "Blended ROAS" },
+    { value: "$595.2K", unit: "K", label: "Revenue Attributed" },
+    { value: "4.3", unit: "x", label: "Blended ROAS" },
   ],
   tags: ["Paid Advertising", "Lead Generation", "Local"],
   company: {

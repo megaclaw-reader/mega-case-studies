@@ -3,7 +3,7 @@ import { CaseStudyData } from "./types";
 export const weddingPhotographyAtlanta: CaseStudyData = {
   slug: "wedding-photography-atlanta",
   industry: "Wedding Photography",
-  headline: "How an Atlanta Wedding Photography Studio Booked $156.4K in Revenue With AI-Powered Marketing",
+  headline: "How an Atlanta Wedding Photography Studio Booked $156K in Revenue With AI-Powered Marketing",
   subheadline: "MEGA helped a boutique wedding photography studio in Atlanta build organic search authority and optimize paid advertising, growing domain authority from 8 to 24, increasing organic traffic by 1,619%, and generating 61 booked weddings worth $156.4K in just 5 months.",
   heroStats: [
     { value: "5", unit: "months", label: "Partnership Duration" },

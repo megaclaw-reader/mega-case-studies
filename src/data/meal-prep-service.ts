@@ -6,9 +6,9 @@ export const mealPrepService: CaseStudyData = {
   headline: "How an Arizona Meal Prep Service Cut Cost Per Lead 47% While Scaling Ad Spend and Tripling New Subscriber Volume",
   subheadline: "MEGA helped a local meal prep delivery company in Arizona grow from 7 to 26 new subscribers per month — reducing cost per qualified lead from $152 to $81 and generating $291.7K in attributed revenue at a 3.58x blended ROAS over 13 months through AI-powered ad optimization and continuous audience refinement.",
   heroStats: [
-    { value: "291.7", unit: "K", label: "Revenue Attributed" },
+    { value: "$291.7K", unit: "K", label: "Revenue Attributed" },
     { value: "47", unit: "%", label: "CPQL Reduction" },
-    { value: "3.58", unit: "x", label: "Blended ROAS" },
+    { value: "3.6", unit: "x", label: "Blended ROAS" },
   ],
   tags: ["Paid Advertising", "AI-Powered Optimization", "Local Service"],
   company: {

@@ -6,9 +6,9 @@ export const multiLocationMedspaSouthwest: CaseStudyData = {
   headline: "Multi-Location MedSpa Chain Achieved 47% Revenue Growth Across Phoenix, Scottsdale, and Tucson Markets",
   subheadline: "Systematic approach to location-specific campaigns and local SEO drove 189% increase in qualified leads across three Southwest Arizona markets",
   heroStats: [
-    { value: "1.33", unit: "M", label: "Total Revenue" },
+    { value: "$1.33M", unit: "M", label: "Total Revenue" },
     { value: "3,622", unit: "", label: "New Patients" },
-    { value: "4,198", unit: "", label: "Qualified Leads" },
+    { value: "4198", unit: "", label: "Qualified Leads" },
     { value: "4.1", unit: "x", label: "Blended ROAS" }
   ],
   tags: ["Multi-Location", "Paid Advertising", "SEO Strategy", "Local Marketing"],
@@ -113,9 +113,9 @@ export const multiLocationMedspaSouthwest: CaseStudyData = {
     ],
     columnLabels: {
       leads: "Leads",
-      cpl: "CPL", 
+      cpl: "Cost/Lead", 
       qualified: "Qualified Leads",
-      cpql: "CPQL",
+      cpql: "Cost/Qualified Lead",
       deals: "New Patients",
       costPerDeal: "Cost/Patient"
     },

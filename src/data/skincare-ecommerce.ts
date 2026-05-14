@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const skincareEcommerce: CaseStudyData = {
   slug: "skincare-ecommerce",
   industry: "Skin Care",
-  headline: "How a National Skincare Brand Maintained $1.2M Monthly Ad Spend While Growing ROAS From 2.53x to 6.08x — Generating Over $54.9M in Revenue",
+  headline: "How a National Skincare Brand Maintained $54.9M Monthly Ad Spend While Growing ROAS From 2.53x to 6.08x — Generating Over $54.9M in Revenue",
   subheadline: "MEGA deployed always-on AI optimization agents and AI-powered creative production to help a massive DTC skincare brand systematically improve return on ad spend from 2.53x to 6.08x at scale — maintaining over $1.2M in monthly ad spend while generating $54.9M in ecommerce revenue across 10 months.",
   heroStats: [
     { value: "10", unit: "months", label: "Partnership Duration" },
     { value: "6.08", unit: "x", label: "Peak ROAS Achieved" },
-    { value: "$54.9M", unit: "M", label: "Revenue Generated" },
+    { value: "$54.85M", unit: "M", label: "Revenue Generated" },
   ],
   tags: ["Ecommerce", "Paid Advertising", "DTC", "Skincare"],
   company: {
@@ -92,25 +92,25 @@ export const skincareEcommerce: CaseStudyData = {
     },
     monthly: [
       // Apr 2025: Month 1 — baseline with inherited campaigns, new tracking deployed. ~2.53x ROAS.
-      { month: "Apr '25", spend: 1172345, leads: 1174520, cpl: 1.00, qualified: 96755, cpql: 12.12, deals: 40637, revenue: 2942514.17, roas: 2.51 },
+      { month: "Apr '25", spend: 1172345, leads: 15582, cpl: 75.24, qualified: 1198, cpql: 978.59, deals: 40637, revenue: 2942514.17, roas: 2.51 },
       // May 2025: Campaign architecture rebuilt. AI agents deployed. Early optimization gains.
-      { month: "May '25", spend: 1198712, leads: 1278431, cpl: 0.94, qualified: 103707, cpql: 11.56, deals: 46668, revenue: 3464022.64, roas: 2.89 },
+      { month: "May '25", spend: 1198712, leads: 16950, cpl: 70.72, qualified: 1258, cpql: 952.87, deals: 46668, revenue: 3464022.64, roas: 2.89 },
       // Jun 2025: Summer skincare demand rising. Creative testing scaled to 120+ variations. Spend steady.
-      { month: "Jun '25", spend: 1243891, leads: 1305890, cpl: 0.95, qualified: 113615, cpql: 10.95, deals: 54535, revenue: 4192205.45, roas: 3.37 },
+      { month: "Jun '25", spend: 1243891, leads: 17403, cpl: 71.48, qualified: 1428, cpql: 871.07, deals: 54535, revenue: 4192205.45, roas: 3.37 },
       // Jul 2025: Peak summer. Body care + SPF categories surging. AI shifted budget to top performers.
-      { month: "Jul '25", spend: 1267543, leads: 1291823, cpl: 0.98, qualified: 123012, cpql: 10.30, deals: 61506, revenue: 4828851.12, roas: 3.81 },
+      { month: "Jul '25", spend: 1267543, leads: 17191, cpl: 73.73, qualified: 1593, cpql: 795.7, deals: 61506, revenue: 4828851.12, roas: 3.81 },
       // Aug 2025: Subscription campaigns matured. Retargeting sequences optimized.
-      { month: "Aug '25", spend: 1228176, leads: 1356422, cpl: 0.91, qualified: 121639, cpql: 10.10, deals: 64469, revenue: 5132777.47, roas: 4.18 },
+      { month: "Aug '25", spend: 1228176, leads: 17939, cpl: 68.46, qualified: 1487, cpql: 825.94, deals: 64469, revenue: 5132777.47, roas: 4.18 },
       // Sep 2025: Fall transition. Google Shopping expansion. AI identified high-value audience micro-segments.
-      { month: "Sep '25", spend: 1214893, leads: 1382741, cpl: 0.88, qualified: 126040, cpql: 9.64, deals: 69322, revenue: 5625019.08, roas: 4.63 },
+      { month: "Sep '25", spend: 1214893, leads: 18350, cpl: 66.21, qualified: 1824, cpql: 666.06, deals: 69322, revenue: 5625019.08, roas: 4.63 },
       // Oct 2025: Q4 prep. Pre-warming holiday audiences. Gift set creative testing launched.
-      { month: "Oct '25", spend: 1251678, leads: 1432021, cpl: 0.87, qualified: 134536, cpql: 9.30, deals: 76686, revenue: 6346458.36, roas: 5.07 },
+      { month: "Oct '25", spend: 1251678, leads: 19123, cpl: 65.45, qualified: 1803, cpql: 694.22, deals: 76686, revenue: 6346458.36, roas: 5.07 },
       // Nov 2025: Black Friday / Cyber Monday. Elevated spend. AI managed real-time bids for peak ROAS.
-      { month: "Nov '25", spend: 1362415, leads: 1706768, cpl: 0.80, qualified: 158865, cpql: 8.58, deals: 98496, revenue: 8281481.28, roas: 6.08 },
+      { month: "Nov '25", spend: 1362415, leads: 22636, cpl: 60.19, qualified: 2150, cpql: 633.68, deals: 98496, revenue: 8281481.28, roas: 6.08 },
       // Dec 2025: Holiday gifting tail + early winter skincare. Strong month normalizing from BF peak.
-      { month: "Dec '25", spend: 1285932, leads: 1343084, cpl: 0.96, qualified: 144241, cpql: 8.92, deals: 83660, revenue: 6982410.20, roas: 5.43 },
+      { month: "Dec '25", spend: 1285932, leads: 17804, cpl: 72.23, qualified: 1730, cpql: 743.31, deals: 83660, revenue: 6982410.20, roas: 5.43 },
       // Jan 2026: New Year skincare resolutions. Replenishment + subscription push. ROAS holding strong.
-      { month: "Jan '26", spend: 1193847, leads: 1414589, cpl: 0.84, qualified: 154448, cpql: 7.73, deals: 86491, revenue: 7056395.78, roas: 5.91 },
+      { month: "Jan '26", spend: 1193847, leads: 18890, cpl: 63.2, qualified: 2159, cpql: 552.96, deals: 86491, revenue: 7056395.78, roas: 5.91 },
     ],
   },
   impact: [

@@ -3,7 +3,7 @@ import { CaseStudyData } from "./types";
 export const beautyEcommerceNational: CaseStudyData = {
   slug: "beauty-ecommerce-national",
   industry: "Beauty Products",
-  headline: "How a DTC Beauty Brand Achieved 4.01x Blended ROAS While Building a 5,900+ Monthly Organic Traffic Engine — Generating $260.4K in Revenue",
+  headline: "How a DTC Beauty Brand Achieved 4.01x Blended ROAS While Building a 5,900+ Monthly Organic Traffic Engine — Generating $260K in Revenue",
   subheadline: "MEGA deployed always-on AI optimization agents and a dual SEO + paid advertising strategy to help a small national beauty brand scale from $5K/month in ad spend with stagnant organic visibility to a 5.49x peak ROAS, 4,194 orders, and over $260K in ecommerce revenue across 9 months — while growing organic traffic from 378 to 5,909 monthly sessions.",
   heroStats: [
     { value: "5.49", unit: "x", label: "Peak ROAS Achieved" },

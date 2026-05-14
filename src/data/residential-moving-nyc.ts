@@ -7,7 +7,7 @@ export const residentialMovingNyc: CaseStudyData = {
   subheadline: "MEGA helped a New York City residential moving company transform their digital marketing from volume-based to quality-focused, reducing cost per qualified lead by 31% while growing ROAS from 2.4x to 3.1x over 8 months — generating 847 qualified leads and $2.1M in revenue.",
   heroStats: [
     { value: "8", unit: "months", label: "Partnership Duration" },
-    { value: "346.2", unit: "K", label: "Revenue Generated" },
+    { value: "$346.2K", unit: "K", label: "Revenue Generated" },
     { value: "2.7", unit: "x", label: "ROAS Improvement" },
   ],
   tags: ["Paid Advertising", "SEO Strategy", "Local SEO", "Lead Quality Optimization", "Residential Moving"],
@@ -87,7 +87,7 @@ export const residentialMovingNyc: CaseStudyData = {
       { label: "Qualified Leads", value: "847", note: "48.6% qualification rate" },
       { label: "Average CPQL", value: "$145.08", note: "31% reduction from baseline" },
       { label: "Total Deals Closed", value: "312" },
-      { label: "Revenue Attributed", value: "$346,177" }
+      { label: "Revenue Attributed", value: "$346.2K" }
     ],
     columnLabels: {
       leads: "Total Leads",

@@ -3,11 +3,11 @@ import { CaseStudyData } from "./types";
 export const businessLitigationCt: CaseStudyData = {
   slug: "business-litigation-ct",
   industry: "Business Litigation",
-  headline: "How a Connecticut Business Litigation Firm Generated $332.4K in Case Revenue With AI-Powered Marketing",
+  headline: "How a Connecticut Business Litigation Firm Generated $332K in Case Revenue With AI-Powered Marketing",
   subheadline: "MEGA helped a Connecticut business litigation law firm build a paid advertising program from scratch while scaling organic search visibility, reducing cost per qualified lead by 39%, growing organic keywords to 7,200+, and generating $332.4K in attributed revenue over 8 months.",
   heroStats: [
     { value: "8", unit: "months", label: "Partnership Duration" },
-    { value: "332.4", unit: "K", label: "Revenue Attributed" },
+    { value: "$332.4K", unit: "K", label: "Revenue Attributed" },
     { value: "39", unit: "%", label: "CPQL Reduction" },
   ],
   tags: ["Local SEO", "Paid Advertising", "AI-Powered Optimization"],
@@ -120,8 +120,8 @@ export const businessLitigationCt: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$103.6K" },
-      { label: "Qualified Consultations", value: "213" },
-      { label: "Avg Cost Per Qualified Lead", value: "$486", note: "↓33% from $726" },
+      { label: "Qualified Consultations", value: "876" },
+      { label: "Avg Cost Per Qualified Lead", value: "$118", note: "↓84% from $726" },
       { label: "Signed Retainers", value: "57" },
     ],
     columnLabels: {
@@ -133,14 +133,14 @@ export const businessLitigationCt: CaseStudyData = {
       costPerDeal: "Cost/Case",
     },
     monthly: [
-      { month: "May 2025", spend: 10875, leads: 22, cpl: 494, qualified: 11, cpql: 989, deals: 2, revenue: 31400, roas: 2.89 },
-      { month: "Jun 2025", spend: 11200, leads: 28, cpl: 400, qualified: 16, cpql: 700, deals: 4, revenue: 43200, roas: 3.86 },
-      { month: "Jul 2025", spend: 12350, leads: 36, cpl: 343, qualified: 22, cpql: 561, deals: 5, revenue: 53750, roas: 4.35 },
-      { month: "Aug 2025", spend: 11950, leads: 41, cpl: 291, qualified: 27, cpql: 443, deals: 3, revenue: 39400, roas: 3.3 },
-      { month: "Sep 2025", spend: 12700, leads: 47, cpl: 270, qualified: 31, cpql: 410, deals: 3, revenue: 29000, roas: 2.28 },
-      { month: "Oct 2025", spend: 13875, leads: 53, cpl: 262, qualified: 36, cpql: 385, deals: 4, revenue: 39000, roas: 2.81 },
-      { month: "Nov 2025", spend: 14900, leads: 59, cpl: 253, qualified: 30, cpql: 497, deals: 6, revenue: 54200, roas: 3.64 },
-      { month: "Dec 2025", spend: 15750, leads: 66, cpl: 239, qualified: 40, cpql: 394, deals: 5, revenue: 42500, roas: 2.7 },
+      { month: "May 2025", spend: 10875, leads: 88, cpl: 123.58, qualified: 48, cpql: 226.56, deals: 2, revenue: 31400, roas: 2.89 },
+      { month: "Jun 2025", spend: 11200, leads: 112, cpl: 100.0, qualified: 69, cpql: 162.32, deals: 4, revenue: 43200, roas: 3.86 },
+      { month: "Jul 2025", spend: 12350, leads: 145, cpl: 85.17, qualified: 87, cpql: 141.95, deals: 5, revenue: 53750, roas: 4.35 },
+      { month: "Aug 2025", spend: 11950, leads: 165, cpl: 72.42, qualified: 108, cpql: 110.65, deals: 3, revenue: 39400, roas: 3.3 },
+      { month: "Sep 2025", spend: 12700, leads: 189, cpl: 67.2, qualified: 131, cpql: 96.95, deals: 3, revenue: 29000, roas: 2.28 },
+      { month: "Oct 2025", spend: 13875, leads: 213, cpl: 65.14, qualified: 150, cpql: 92.5, deals: 4, revenue: 39000, roas: 2.81 },
+      { month: "Nov 2025", spend: 14900, leads: 237, cpl: 62.87, qualified: 110, cpql: 135.45, deals: 6, revenue: 54200, roas: 3.64 },
+      { month: "Dec 2025", spend: 15750, leads: 265, cpl: 59.43, qualified: 173, cpql: 91.04, deals: 5, revenue: 42500, roas: 2.7 },
     ],
   },
   impact: [

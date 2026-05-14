@@ -3,11 +3,11 @@ import { CaseStudyData } from "./types";
 export const disasterRecoveryNorthCarolina: CaseStudyData = {
   slug: "disaster-recovery-north-carolina",
   industry: "Disaster Recovery",
-  headline: "How a North Carolina Disaster Recovery Company Stabilized Lead Flow and Generated $242.2K in Revenue",
+  headline: "How a North Carolina Disaster Recovery Company Stabilized Lead Flow and Generated $242K in Revenue",
   subheadline: "MEGA helped a water, fire, and storm damage restoration company in Charlotte optimize their emergency service marketing, reducing cost per qualified lead by 34%, growing organic traffic 521%, and stabilizing consistent job bookings over 9 months.",
   heroStats: [
     { value: "9", unit: "months", label: "Partnership Duration" },
-    { value: "242.2", unit: "K", label: "Revenue Attributed" },
+    { value: "$242.2K", unit: "K", label: "Revenue Attributed" },
     { value: "34", unit: "%", label: "CPQL Reduction" },
   ],
   tags: ["Local SEO", "Paid Advertising", "Emergency Services"],

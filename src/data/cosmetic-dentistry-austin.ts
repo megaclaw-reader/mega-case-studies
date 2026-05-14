@@ -8,7 +8,7 @@ export const cosmeticDentistryAustin: CaseStudyData = {
   heroStats: [
     { value: "6", unit: "months", label: "Partnership Duration" },
     { value: "57", unit: "%", label: "Authority Score Growth" },
-    { value: "187.4", unit: "K", label: "Revenue Attributed" },
+    { value: "$187.4K", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["Paid Advertising", "SEO", "AI-Powered Optimization"],
   company: {

@@ -3,13 +3,13 @@ import { CaseStudyData } from "./types";
 export const orthodonticsSantaRosa: CaseStudyData = {
   slug: "orthodontics-santa-rosa",
   industry: "Orthodontics",
-  headline: "How a Santa Rosa Orthodontics Practice Cut Cost Per Qualified Lead 63% and Generated $332.5K in Case Revenue Over 13 Months",
+  headline: "How a Santa Rosa Orthodontics Practice Cut Cost Per Qualified Lead 63% and Generated $332K in Case Revenue Over 13 Months",
   subheadline: "MEGA deployed always-on AI optimization and a full-stack SEO strategy for an orthodontics practice in Santa Rosa, California — scaling qualified leads from 9 to 32 per month while driving cost per qualified lead from $556 down to $203, turning a previously unprofitable paid advertising strategy into a consistent growth engine generating $332.5K in attributed revenue with 8,300+ ranking keywords.",
   heroStats: [
     { value: "13", unit: "months", label: "Partnership Duration" },
-    { value: "332.5", unit: "K", label: "Revenue Attributed" },
+    { value: "$332.5K", unit: "K", label: "Revenue Attributed" },
     { value: "63", unit: "%", label: "CPQL Reduction" },
-    { value: "4.34", unit: "x", label: "Blended ROAS" },
+    { value: "4.3", unit: "x", label: "Blended ROAS" },
   ],
   tags: ["Paid Advertising", "SEO", "Orthodontics", "Lead Quality Optimization"],
   company: {

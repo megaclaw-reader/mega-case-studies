@@ -3,7 +3,7 @@ import { CaseStudyData } from "./types";
 export const insuranceArizona: CaseStudyData = {
   slug: "insurance-arizona",
   industry: "Insurance",
-  headline: "How an Arizona Insurance Agency Generated $207K in New Policy Revenue With AI-Powered SEO and Paid Advertising",
+  headline: "How an Arizona Insurance Agency Generated $208K in New Policy Revenue With AI-Powered SEO and Paid Advertising",
   subheadline: "MEGA helped a Phoenix-area insurance agency serving Arizona families and businesses build a comprehensive digital marketing program combining SEO and paid advertising, growing organic traffic by 4,811% while reducing cost per qualified lead by 36% and generating $207K in attributed policy revenue over 12 months.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },

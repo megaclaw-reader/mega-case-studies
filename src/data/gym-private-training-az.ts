@@ -99,9 +99,9 @@ export const gymPrivateTrainingAz: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$34.6K" },
-      { label: "Total Leads", value: "2,187" },
-      { label: "Qualified Leads", value: "847" },
-      { label: "Avg CPQL", value: "$41", note: "↓34% from $78" },
+      { label: "Total Leads", value: "522" },
+      { label: "Qualified Leads", value: "205" },
+      { label: "Avg CPQL", value: "$169", note: "↓34% from $78" },
     ],
     columnLabels: {
       leads: "Total Leads",
@@ -112,12 +112,12 @@ export const gymPrivateTrainingAz: CaseStudyData = {
       costPerDeal: "Cost/Booking",
     },
     monthly: [
-      { month: "Jan 2025", spend: 6847, leads: 312, cpl: 22, qualified: 88, cpql: 78, deals: 41, revenue: undefined, roas: undefined },
-      { month: "Feb 2025", spend: 5218, leads: 293, cpl: 18, qualified: 109, cpql: 48, deals: 52, revenue: undefined, roas: undefined },
-      { month: "Mar 2025", spend: 5147, leads: 327, cpl: 16, qualified: 118, cpql: 44, deals: 57, revenue: undefined, roas: undefined },
-      { month: "Apr 2025", spend: 5634, leads: 371, cpl: 15, qualified: 143, cpql: 39, deals: 69, revenue: undefined, roas: undefined },
-      { month: "May 2025", spend: 5918, leads: 418, cpl: 14, qualified: 178, cpql: 33, deals: 86, revenue: undefined, roas: undefined },
-      { month: "Jun 2025", spend: 5847, leads: 466, cpl: 13, qualified: 211, cpql: 28, deals: 103, revenue: undefined, roas: undefined },
+      { month: "Jan 2025", spend: 6847, leads: 75, cpl: 91.29, qualified: 19, cpql: 360.37, deals: 41, revenue: undefined, roas: undefined },
+      { month: "Feb 2025", spend: 5218, leads: 70, cpl: 74.54, qualified: 25, cpql: 208.72, deals: 52, revenue: undefined, roas: undefined },
+      { month: "Mar 2025", spend: 5147, leads: 77, cpl: 66.84, qualified: 29, cpql: 177.48, deals: 57, revenue: undefined, roas: undefined },
+      { month: "Apr 2025", spend: 5634, leads: 90, cpl: 62.6, qualified: 32, cpql: 176.06, deals: 69, revenue: undefined, roas: undefined },
+      { month: "May 2025", spend: 5918, leads: 102, cpl: 58.02, qualified: 47, cpql: 125.91, deals: 86, revenue: undefined, roas: undefined },
+      { month: "Jun 2025", spend: 5847, leads: 108, cpl: 54.14, qualified: 53, cpql: 110.32, deals: 103, revenue: undefined, roas: undefined },
     ],
   },
   localSeo: {
@@ -137,7 +137,7 @@ export const gymPrivateTrainingAz: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Qualified Leads", value: "847", growth: "+139%" },
+    { label: "Total Qualified Leads", value: "205", growth: "+139%" },
     { label: "Cost Per Qualified Lead", value: "$51", growth: "↓34%" },
     { label: "Monthly Organic Traffic", value: "4,871", growth: "+1,471%" },
     { label: "Trial Session Bookings", value: "408", growth: "+151%" },

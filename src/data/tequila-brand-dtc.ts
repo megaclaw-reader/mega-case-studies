@@ -3,11 +3,11 @@ import { CaseStudyData } from "./types";
 export const tequilaBrandDtc: CaseStudyData = {
   slug: "tequila-brand-dtc",
   industry: "Premium Spirits / Tequila",
-  headline: "How a Premium Tequila Brand Scaled DTC Revenue to $1.63M With AI-Powered Paid Advertising",
+  headline: "How a Premium Tequila Brand Scaled DTC Revenue to $1.6M With AI-Powered Paid Advertising",
   subheadline: "MEGA partnered with a premium DTC tequila brand to deploy always-on AI optimization and high-velocity creative testing — growing monthly ROAS from 3.03x to 7.81x, generating 22,156 orders, and producing $1.63M in ecommerce revenue over 12 months with a blended 6.41x ROAS.",
   heroStats: [
     { value: "7.81", unit: "x", label: "Peak ROAS Achieved" },
-    { value: "$1.6M", unit: "M", label: "Revenue Generated" },
+    { value: "$1.63M", unit: "M", label: "Revenue Generated" },
     { value: "22,156", unit: "", label: "Total Orders" },
   ],
   tags: ["Ecommerce", "Paid Advertising", "DTC", "Spirits"],

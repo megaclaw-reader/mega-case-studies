@@ -8,7 +8,7 @@ export const residentialCommercialFlooring: CaseStudyData = {
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
     { value: "312", unit: "%", label: "Organic Traffic Growth" },
-    { value: "431.2", unit: "K", label: "Revenue Attributed" },
+    { value: "$431.2K", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["Local SEO", "Paid Advertising", "AI-Powered Optimization"],
   company: {

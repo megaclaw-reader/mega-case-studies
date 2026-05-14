@@ -99,36 +99,36 @@ export const realEstateBuySellArizona: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$81.6K", note: "12 months" },
-      { label: "Total Leads", value: "9,246", note: "+2,686% from 461/year" },
-      { label: "Qualified Leads", value: "6,828", note: "+2,534% from 339/year" },
-      { label: "Avg CPL", value: "$9", note: "all lead sources" },
-      { label: "Avg CPQL", value: "$12", note: "qualified leads only" },
+      { label: "Total Leads", value: "1,244", note: "+2,686% from 461/year" },
+      { label: "Qualified Leads", value: "930", note: "+2,534% from 339/year" },
+      { label: "Avg CPL", value: "$66", note: "all lead sources" },
+      { label: "Avg CPQL", value: "$88", note: "qualified leads only" },
     ],
     monthly: [
       // March 2025: Starting baseline - minimal organic presence, testing initial campaigns
-      { month: "Mar '25", spend: 6000, leads: 423, cpl: 14.18, qualified: 287, cpql: 20.91, deals: 12, revenue: 19860, roas: 3.31 },
+      { month: "Mar '25", spend: 6000, leads: 57, cpl: 105.26, qualified: 37, cpql: 162.16, deals: 12, revenue: 19860, roas: 3.31 },
       // April 2025: Spring market activation, campaigns ramping up
-      { month: "Apr '25", spend: 6200, leads: 498, cpl: 12.45, qualified: 356, cpql: 17.42, deals: 16, revenue: 20026, roas: 3.23 },
+      { month: "Apr '25", spend: 6200, leads: 67, cpl: 92.54, qualified: 45, cpql: 137.78, deals: 16, revenue: 20026, roas: 3.23 },
       // May 2025: Peak spring season, increased budget allocation
-      { month: "May '25", spend: 7100, leads: 634, cpl: 11.20, qualified: 467, cpql: 15.20, deals: 22, revenue: 22294, roas: 3.14 },
+      { month: "May '25", spend: 7100, leads: 85, cpl: 83.53, qualified: 66, cpql: 107.58, deals: 22, revenue: 22294, roas: 3.14 },
       // June 2025: Summer momentum, audience expansion working
-      { month: "Jun '25", spend: 7400, leads: 723, cpl: 10.23, qualified: 534, cpql: 13.86, deals: 26, revenue: 31968, roas: 4.32 },
+      { month: "Jun '25", spend: 7400, leads: 97, cpl: 76.29, qualified: 77, cpql: 96.1, deals: 26, revenue: 31968, roas: 4.32 },
       // July 2025: Mid-summer optimization, creative testing showing results  
-      { month: "Jul '25", spend: 6800, leads: 789, cpl: 8.62, qualified: 587, cpql: 11.58, deals: 28, revenue: 28696, roas: 4.22 },
+      { month: "Jul '25", spend: 6800, leads: 106, cpl: 64.15, qualified: 81, cpql: 83.95, deals: 28, revenue: 28696, roas: 4.22 },
       // August 2025: Late summer strength, automation improvements
-      { month: "Aug '25", spend: 7300, leads: 856, cpl: 8.53, qualified: 634, cpql: 11.51, deals: 29, revenue: 24163, roas: 3.31 },
+      { month: "Aug '25", spend: 7300, leads: 115, cpl: 63.48, qualified: 93, cpql: 78.49, deals: 29, revenue: 24163, roas: 3.31 },
       // September 2025: Fall market pickup, advanced targeting active
-      { month: "Sep '25", spend: 6900, leads: 923, cpl: 7.48, qualified: 689, cpql: 10.01, deals: 31, revenue: 26634, roas: 3.86 },
+      { month: "Sep '25", spend: 6900, leads: 124, cpl: 55.65, qualified: 83, cpql: 83.13, deals: 31, revenue: 26634, roas: 3.86 },
       // October 2025: Luxury market campaigns launched, higher-value deals
-      { month: "Oct '25", spend: 7200, leads: 987, cpl: 7.30, qualified: 734, cpql: 9.81, deals: 34, revenue: 24768, roas: 3.44 },
+      { month: "Oct '25", spend: 7200, leads: 133, cpl: 54.14, qualified: 108, cpql: 66.67, deals: 34, revenue: 24768, roas: 3.44 },
       // November 2025: Holiday season adjustments, seller focus
-      { month: "Nov '25", spend: 6600, leads: 834, cpl: 7.91, qualified: 623, cpql: 10.59, deals: 27, revenue: 28248, roas: 4.28 },
+      { month: "Nov '25", spend: 6600, leads: 112, cpl: 58.93, qualified: 91, cpql: 72.53, deals: 27, revenue: 28248, roas: 4.28 },
       // December 2025: Year-end optimization, inventory strategy  
-      { month: "Dec '25", spend: 6500, leads: 798, cpl: 8.14, qualified: 587, cpql: 11.08, deals: 25, revenue: 23010, roas: 3.54 },
+      { month: "Dec '25", spend: 6500, leads: 108, cpl: 60.19, qualified: 74, cpql: 87.84, deals: 25, revenue: 23010, roas: 3.54 },
       // January 2026: New year market activity, expanded geographic reach
-      { month: "Jan '26", spend: 6700, leads: 867, cpl: 7.73, qualified: 643, cpql: 10.42, deals: 28, revenue: 21641, roas: 3.23 },
+      { month: "Jan '26", spend: 6700, leads: 117, cpl: 57.26, qualified: 89, cpql: 75.28, deals: 28, revenue: 21641, roas: 3.23 },
       // February 2026: Pre-spring preparation, market dominance established
-      { month: "Feb '26", spend: 6900, leads: 914, cpl: 7.55, qualified: 687, cpql: 10.04, deals: 29, revenue: 22080, roas: 3.2 },
+      { month: "Feb '26", spend: 6900, leads: 123, cpl: 56.1, qualified: 86, cpql: 80.23, deals: 29, revenue: 22080, roas: 3.2 },
     ],
   },
   seo: {
@@ -168,7 +168,7 @@ export const realEstateBuySellArizona: CaseStudyData = {
   organicConversions: {
     summary: [
       { label: "Total Organic Leads", value: "4,234", growth: "+2,017%", note: "200/year → 3,567/year" },
-      { label: "Total Qualified Leads", value: "6828", growth: "+1,894%", note: "140/year → 2,434/year" },
+      { label: "Total Qualified Leads", value: "930", growth: "+1,894%", note: "140/year → 2,434/year" },
       { label: "Total Closed Deals", value: "307", growth: "+1,775%", note: "3.6/year → 56/year" },
       { label: "Conversion Rate", value: "18.9%", note: "lead to qualified lead" },
     ],

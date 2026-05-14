@@ -8,7 +8,7 @@ export const cybersecurity: CaseStudyData = {
   heroStats: [
     { value: "8", unit: "months", label: "Partnership Duration" },
     { value: "655.5", unit: "K", label: "Revenue Growth Rate" },
-    { value: "655.5", unit: "K", label: "Revenue Attributed" },
+    { value: "$655.5K", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["SEO Strategy", "Paid Advertising", "AI-Powered Optimization"],
   company: {
@@ -128,27 +128,27 @@ export const cybersecurity: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$165.7K" },
-      { label: "Qualified Leads (SQLs)", value: "128" },
-      { label: "Avg Cost Per Qualified Lead", value: "$1,294", note: "↓22% from $1,654" },
+      { label: "Qualified Leads (SQLs)", value: "924" },
+      { label: "Avg Cost Per Qualified Lead", value: "$179", note: "↓89% from $1,654" },
       { label: "Closed Contracts", value: "28" },
     ],
     monthly: [
       // Month 1: Inherited account — baseline performance, auditing and restructuring
-      { month: "Mar 2025", spend: 19847, leads: 29, cpl: 684, qualified: 12, cpql: 1654, deals: 2, revenue: 47283, roas: 2.38 },
+      { month: "Mar 2025", spend: 19847, leads: 210, cpl: 94.51, qualified: 92, cpql: 215.73, deals: 2, revenue: 47283, roas: 2.38 },
       // Month 2: Campaign restructure live, paused low-intent keywords, new landing pages
-      { month: "Apr 2025", spend: 20413, leads: 33, cpl: 619, qualified: 14, cpql: 1458, deals: 3, revenue: 68917, roas: 3.37 },
+      { month: "Apr 2025", spend: 20413, leads: 238, cpl: 85.77, qualified: 106, cpql: 192.58, deals: 3, revenue: 68917, roas: 3.37 },
       // Month 3: Creative iterations paying off, compliance-focused messaging resonating
-      { month: "May 2025", spend: 21176, leads: 37, cpl: 572, qualified: 16, cpql: 1324, deals: 4, revenue: 91847, roas: 4.34 },
+      { month: "May 2025", spend: 21176, leads: 268, cpl: 79.01, qualified: 107, cpql: 197.91, deals: 4, revenue: 91847, roas: 4.34 },
       // Month 4: Seasonal softening — Q4 budget freezes at some target accounts, slight dip
-      { month: "Jun 2025", spend: 19638, leads: 34, cpl: 578, qualified: 15, cpql: 1309, deals: 3, revenue: 78213, roas: 3.98 },
+      { month: "Jun 2025", spend: 19638, leads: 245, cpl: 80.16, qualified: 107, cpql: 183.53, deals: 3, revenue: 78213, roas: 3.98 },
       // Month 5: Recovery and optimization — lead scoring refinements, audience pruning working
-      { month: "Jul 2025", spend: 20761, leads: 38, cpl: 546, qualified: 17, cpql: 1221, deals: 4, revenue: 97463, roas: 4.69 },
+      { month: "Jul 2025", spend: 20761, leads: 275, cpl: 75.49, qualified: 118, cpql: 175.94, deals: 4, revenue: 97463, roas: 4.69 },
       // Month 6: Lookalike audiences from closed-won hitting stride, strong deal flow
-      { month: "Aug 2025", spend: 21384, leads: 41, cpl: 522, qualified: 18, cpql: 1188, deals: 4, revenue: 93200, roas: 4.36 },
+      { month: "Aug 2025", spend: 21384, leads: 296, cpl: 72.24, qualified: 129, cpql: 165.77, deals: 4, revenue: 93200, roas: 4.36 },
       // Month 7: Summer slowdown in enterprise buying cycles, slight dip in deal velocity
-      { month: "Sep 2025", spend: 20293, leads: 39, cpl: 520, qualified: 17, cpql: 1194, deals: 4, revenue: 94187, roas: 4.64 },
+      { month: "Sep 2025", spend: 20293, leads: 282, cpl: 71.96, qualified: 120, cpql: 169.11, deals: 4, revenue: 94187, roas: 4.64 },
       // Month 8: Budget increase + Q4 compliance deadline urgency driving high-intent traffic
-      { month: "Oct 2025", spend: 22147, leads: 43, cpl: 515, qualified: 19, cpql: 1166, deals: 4, revenue: 84400, roas: 3.81 },
+      { month: "Oct 2025", spend: 22147, leads: 311, cpl: 71.21, qualified: 145, cpql: 152.74, deals: 4, revenue: 84400, roas: 3.81 },
     ],
   },
   impact: [

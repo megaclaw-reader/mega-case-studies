@@ -7,7 +7,7 @@ export const b2bSaasPaidAds: CaseStudyData = {
   subheadline: "MEGA helped a mid-market HR compliance platform scale monthly ad spend from $10K to over $24K — more than doubling lead volume without diminishing returns. Over 12 months, cost per qualified demo stayed flat while blended ROAS held at 3.78x, proving that smart budget scaling drives proportional pipeline growth.",
   heroStats: [
     { value: "140", unit: "%", label: "Budget Scaled" },
-    { value: "3.78", unit: "x", label: "Blended ROAS" },
+    { value: "3.8", unit: "x", label: "Blended ROAS" },
     { value: "$763.8K", unit: "K", label: "Revenue Generated" },
   ],
   tags: ["Paid Advertising", "AI-Powered Optimization", "Budget Scaling"],

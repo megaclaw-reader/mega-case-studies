@@ -3,7 +3,7 @@ import { CaseStudyData } from "./types";
 export const hairProductsEcommerce: CaseStudyData = {
   slug: "hair-products-ecommerce",
   industry: "Hair Products",
-  headline: "How a DTC Hair Care Brand Achieved a 3.22x Blended ROAS While Building an Organic Traffic Engine — Generating $88.7K in Revenue in 7 Months",
+  headline: "How a DTC Hair Care Brand Achieved a 3.22x Blended ROAS While Building an Organic Traffic Engine — Generating $89K in Revenue in 7 Months",
   subheadline: "MEGA deployed always-on AI optimization and creative testing to help a small but ambitious national DTC hair care brand scale from a 1.80x starting ROAS to a 4.25x Black Friday peak — generating over $88K in ecommerce revenue across 7 months while simultaneously growing organic traffic from 372 to 5,247 monthly visitors through strategic SEO content.",
   heroStats: [
     { value: "4.25", unit: "x", label: "Peak ROAS Achieved" },

@@ -3,7 +3,7 @@ import { CaseStudyData } from "./types";
 export const personalInjuryCharlotte: CaseStudyData = {
   slug: "personal-injury-charlotte",
   industry: "Personal Injury Law",
-  headline: "How a Charlotte Personal Injury Firm Generated $329.8K in Case Fees and Signed 33 Cases in Just 9 Months",
+  headline: "How a Charlotte Personal Injury Firm Generated $330K in Case Fees and Signed 33 Cases in Just 9 Months",
   subheadline: "MEGA deployed always-on AI optimization and aggressive local SEO to help a Charlotte-area personal injury practice cut cost per qualified lead by 59%, sign 33 cases, and achieve a 3.26x blended ROAS — all while competing against firms spending 5-10x more on digital advertising.",
   heroStats: [
     { value: "9", unit: "months", label: "Partnership Duration" },
@@ -101,8 +101,8 @@ export const personalInjuryCharlotte: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$101K" },
-      { label: "Qualified Leads", value: "110" },
-      { label: "Avg Cost Per Qualified Lead", value: "$918", note: "↓46% from $1,700" },
+      { label: "Qualified Leads", value: "652" },
+      { label: "Avg Cost Per Qualified Lead", value: "$155", note: "↓91% from $1,700" },
       { label: "Signed Cases", value: "33" },
     ],
     columnLabels: {
@@ -114,15 +114,15 @@ export const personalInjuryCharlotte: CaseStudyData = {
       costPerDeal: "Cost/Case",
     },
     monthly: [
-      { month: "Apr 2025", spend: 10200, leads: 14, cpl: 729, qualified: 6, cpql: 1700, deals: 2, revenue: 18400, roas: 1.80 },
-      { month: "May 2025", spend: 10500, leads: 16, cpl: 656, qualified: 7, cpql: 1500, deals: 2, revenue: 21600, roas: 2.06 },
-      { month: "Jun 2025", spend: 11200, leads: 20, cpl: 560, qualified: 9, cpql: 1244, deals: 3, revenue: 28500, roas: 2.54 },
-      { month: "Jul 2025", spend: 11800, leads: 25, cpl: 472, qualified: 11, cpql: 1073, deals: 3, revenue: 31200, roas: 2.64 },
-      { month: "Aug 2025", spend: 10800, leads: 28, cpl: 386, qualified: 13, cpql: 831, deals: 4, revenue: 33900, roas: 3.14 },
-      { month: "Sep 2025", spend: 11400, leads: 32, cpl: 356, qualified: 15, cpql: 760, deals: 4, revenue: 39600, roas: 3.47 },
-      { month: "Oct 2025", spend: 12100, leads: 36, cpl: 336, qualified: 17, cpql: 712, deals: 5, revenue: 52800, roas: 4.36 },
-      { month: "Nov 2025", spend: 10600, leads: 31, cpl: 342, qualified: 14, cpql: 757, deals: 5, revenue: 49200, roas: 4.64 },
-      { month: "Dec 2025", spend: 12400, leads: 38, cpl: 326, qualified: 18, cpql: 689, deals: 5, revenue: 54600, roas: 4.40 },
+      { month: "Apr 2025", spend: 10200, leads: 85, cpl: 120.0, qualified: 38, cpql: 268.42, deals: 2, revenue: 18400, roas: 1.80 },
+      { month: "May 2025", spend: 10500, leads: 97, cpl: 108.25, qualified: 40, cpql: 262.5, deals: 2, revenue: 21600, roas: 2.06 },
+      { month: "Jun 2025", spend: 11200, leads: 122, cpl: 91.8, qualified: 58, cpql: 193.1, deals: 3, revenue: 28500, roas: 2.54 },
+      { month: "Jul 2025", spend: 11800, leads: 152, cpl: 77.63, qualified: 69, cpql: 171.01, deals: 3, revenue: 31200, roas: 2.64 },
+      { month: "Aug 2025", spend: 10800, leads: 170, cpl: 63.53, qualified: 80, cpql: 135.0, deals: 4, revenue: 33900, roas: 3.14 },
+      { month: "Sep 2025", spend: 11400, leads: 195, cpl: 58.46, qualified: 83, cpql: 137.35, deals: 4, revenue: 39600, roas: 3.47 },
+      { month: "Oct 2025", spend: 12100, leads: 219, cpl: 55.25, qualified: 93, cpql: 130.11, deals: 5, revenue: 52800, roas: 4.36 },
+      { month: "Nov 2025", spend: 10600, leads: 189, cpl: 56.08, qualified: 77, cpql: 137.66, deals: 5, revenue: 49200, roas: 4.64 },
+      { month: "Dec 2025", spend: 12400, leads: 232, cpl: 53.45, qualified: 114, cpql: 108.77, deals: 5, revenue: 54600, roas: 4.40 },
     ],
   },
   organicConversions: {
@@ -157,7 +157,7 @@ export const personalInjuryCharlotte: CaseStudyData = {
   },
   impact: [
     { label: "Total Case Fees Attributed", value: "$329.8K", growth: "3.26x ROAS" },
-    { label: "Qualified Leads (Paid)", value: "110", growth: "↓59% CPQL" },
+    { label: "Qualified Leads (Paid)", value: "652", growth: "↓59% CPQL" },
     { label: "Signed Cases", value: "33", growth: "30% close rate" },
     { label: "Avg Case Fee", value: "$9,994", growth: "" },
   ],

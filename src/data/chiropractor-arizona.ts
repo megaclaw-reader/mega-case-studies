@@ -8,7 +8,7 @@ export const chiropractorArizona: CaseStudyData = {
   heroStats: [
     { value: "13", unit: "months", label: "Partnership Duration" },
     { value: "103", unit: "%", label: "New Patient Growth" },
-    { value: "350", unit: "K", label: "Revenue Attributed" },
+    { value: "$350.3K", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["Local SEO", "Paid Advertising", "AI-Powered Optimization"],
   company: {

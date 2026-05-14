@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const lifeInsuranceFloridaNew: CaseStudyData = {
   slug: "life-insurance-florida",
   industry: "Life Insurance",
-  headline: "How a Florida Life Insurance Agency Generated $102.8K in New Commissions With AI-Powered Marketing",
+  headline: "How a Florida Life Insurance Agency Generated $103K in New Commissions With AI-Powered Marketing",
   subheadline: "MEGA helped a life insurance agency in Florida optimize their digital marketing, reducing cost per qualified lead by 52%, growing organic traffic 1,012%, and closing 73 new policies over 6 months.",
   heroStats: [
     { value: "6", unit: "months", label: "Partnership Duration" },
     { value: "1,012", unit: "%", label: "Organic Traffic Growth" },
-    { value: "102.8", unit: "K", label: "Commission Revenue" },
+    { value: "$102.8K", unit: "K", label: "Commission Revenue" },
   ],
   tags: ["SEO Strategy", "Paid Advertising", "Lead Generation"],
   company: {

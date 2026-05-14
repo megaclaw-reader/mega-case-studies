@@ -3,11 +3,11 @@ import { CaseStudyData } from "./types";
 export const backyardRenovationsNewMexico: CaseStudyData = {
   slug: "backyard-renovations-new-mexico",
   industry: "Backyard Renovations",
-  headline: "How a New Mexico Backyard Renovation Company Generated $153.4K in Revenue While Improving Lead Quality Over 7 Months",
+  headline: "How a New Mexico Backyard Renovation Company Generated $153K in Revenue While Improving Lead Quality Over 7 Months",
   subheadline: "MEGA helped a local outdoor living contractor in New Mexico improve lead qualification rates, scale monthly ad budget from $5K to $7,845 as ROI proved out, and generate $153.4K in attributed revenue through AI-powered paid advertising and SEO.",
   heroStats: [
     { value: "7", unit: "months", label: "Partnership Duration" },
-    { value: "153.4", unit: "K", label: "Revenue Attributed" },
+    { value: "$153.4K", unit: "K", label: "Revenue Attributed" },
     { value: "34", unit: "%", label: "Lead Qualification Improvement" },
   ],
   tags: ["Paid Advertising", "SEO Strategy", "Local"],

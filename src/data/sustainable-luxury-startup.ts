@@ -3,7 +3,7 @@ import { CaseStudyData } from "./types";
 export const sustainableLuxuryStartup: CaseStudyData = {
   slug: "sustainable-luxury-startup",
   industry: "Sustainable Luxury Startup",
-  headline: "How a Sustainable Luxury Startup Generated $427.9K Revenue and 5.2x ROAS in Their First Year",
+  headline: "How a Sustainable Luxury Startup Generated $428K Revenue and 5.2x ROAS in Their First Year",
   subheadline: "MEGA helped this sustainable luxury startup grow from an early-stage brand into a thriving ecommerce business, generating 1,500 orders and building a loyal customer base of conscious luxury consumers across the U.S. through AI-powered marketing.",
   heroStats: [
     { value: "5.2", unit: "x", label: "Blended ROAS" },
@@ -109,7 +109,7 @@ export const sustainableLuxuryStartup: CaseStudyData = {
       { label: "Total Ad Spend", value: "$82K", note: "12-month investment" },
       { label: "Blended ROAS", value: "5.22x", note: "Profitable from month 2" },
       { label: "Total Orders", value: "1,500", note: "Average $285 AOV" },
-      { label: "Total Sessions", value: "42,425", note: "Improving cost/visit" },
+      { label: "Total Sessions", value: "930", note: "Improving cost/visit" },
       { label: "Total Add-to-Carts", value: "3,346", note: "7.9% avg cart rate" },
     ],
     columnLabels: {
@@ -120,18 +120,18 @@ export const sustainableLuxuryStartup: CaseStudyData = {
       deals: "Orders"
     },
     monthly: [
-      { month: "Jan '25", spend: 5200, leads: 2419, cpl: 2.15, qualified: 157, cpql: 33.12, deals: 66, revenue: 17952, roas: 3.5 },
-      { month: "Feb '25", spend: 5500, leads: 2644, cpl: 2.08, qualified: 185, cpql: 29.73, deals: 81, revenue: 22518, roas: 4.1 },
-      { month: "Mar '25", spend: 6000, leads: 3077, cpl: 1.95, qualified: 231, cpql: 25.97, deals: 106, revenue: 30210, roas: 5.04 },
-      { month: "Apr '25", spend: 6200, leads: 3407, cpl: 1.82, qualified: 266, cpql: 23.31, deals: 120, revenue: 33840, roas: 5.46 },
-      { month: "May '25", spend: 7000, leads: 3723, cpl: 1.88, qualified: 298, cpql: 23.49, deals: 137, revenue: 39456, roas: 5.64 },
-      { month: "Jun '25", spend: 6800, leads: 3317, cpl: 2.05, qualified: 252, cpql: 26.98, deals: 111, revenue: 30525, roas: 4.5 },
-      { month: "Jul '25", spend: 5800, leads: 2613, cpl: 2.22, qualified: 183, cpql: 31.69, deals: 77, revenue: 20636, roas: 3.6 },
-      { month: "Aug '25", spend: 7200, leads: 3750, cpl: 1.92, qualified: 308, cpql: 23.38, deals: 139, revenue: 38920, roas: 5.41 },
-      { month: "Sep '25", spend: 7500, leads: 4054, cpl: 1.85, qualified: 316, cpql: 23.73, deals: 139, revenue: 39615, roas: 5.28 },
-      { month: "Oct '25", spend: 8000, leads: 4211, cpl: 1.90, qualified: 337, cpql: 23.74, deals: 152, revenue: 44080, roas: 5.51 },
-      { month: "Nov '25", spend: 9500, leads: 5523, cpl: 1.72, qualified: 525, cpql: 18.10, deals: 248, revenue: 75640, roas: 7.96 },
-      { month: "Dec '25", spend: 7300, leads: 3687, cpl: 1.98, qualified: 288, cpql: 25.35, deals: 124, revenue: 34472, roas: 4.7 },
+      { month: "Jan '25", spend: 5200, leads: 53, cpl: 98.11, qualified: 3, cpql: 1733.33, deals: 66, revenue: 17952, roas: 3.5 },
+      { month: "Feb '25", spend: 5500, leads: 58, cpl: 94.83, qualified: 3, cpql: 1833.33, deals: 81, revenue: 22518, roas: 4.1 },
+      { month: "Mar '25", spend: 6000, leads: 67, cpl: 89.55, qualified: 5, cpql: 1200.0, deals: 106, revenue: 30210, roas: 5.04 },
+      { month: "Apr '25", spend: 6200, leads: 75, cpl: 82.67, qualified: 5, cpql: 1240.0, deals: 120, revenue: 33840, roas: 5.46 },
+      { month: "May '25", spend: 7000, leads: 82, cpl: 85.37, qualified: 6, cpql: 1166.67, deals: 137, revenue: 39456, roas: 5.64 },
+      { month: "Jun '25", spend: 6800, leads: 73, cpl: 93.15, qualified: 4, cpql: 1700.0, deals: 111, revenue: 30525, roas: 4.5 },
+      { month: "Jul '25", spend: 5800, leads: 57, cpl: 101.75, qualified: 3, cpql: 1933.33, deals: 77, revenue: 20636, roas: 3.6 },
+      { month: "Aug '25", spend: 7200, leads: 82, cpl: 87.8, qualified: 6, cpql: 1200.0, deals: 139, revenue: 38920, roas: 5.41 },
+      { month: "Sep '25", spend: 7500, leads: 89, cpl: 84.27, qualified: 6, cpql: 1250.0, deals: 139, revenue: 39615, roas: 5.28 },
+      { month: "Oct '25", spend: 8000, leads: 92, cpl: 86.96, qualified: 6, cpql: 1333.33, deals: 152, revenue: 44080, roas: 5.51 },
+      { month: "Nov '25", spend: 9500, leads: 121, cpl: 78.51, qualified: 12, cpql: 791.67, deals: 248, revenue: 75640, roas: 7.96 },
+      { month: "Dec '25", spend: 7300, leads: 81, cpl: 90.12, qualified: 6, cpql: 1216.67, deals: 124, revenue: 34472, roas: 4.7 },
     ]
   }
 };

@@ -8,7 +8,7 @@ export const diseasePreventionClinic: CaseStudyData = {
   heroStats: [
     { value: "6", unit: "months", label: "Partnership Duration" },
     { value: "148", unit: "", label: "New Patients Acquired" },
-    { value: "97.4", unit: "K", label: "Revenue Attributed" },
+    { value: "$97.4K", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["Local SEO", "Paid Advertising", "AI-Powered Optimization"],
   company: {

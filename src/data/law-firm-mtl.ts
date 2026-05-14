@@ -7,7 +7,7 @@ export const lawFirmMtl: CaseStudyData = {
   subheadline: "MEGA helped a multi-practice Toronto law firm generate $478.2K in attributed case revenue, reduce cost per qualified lead by 34%, and grow organic traffic 289% over 12 months.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
-    { value: "478.2", unit: "K", label: "Revenue Attributed" },
+    { value: "$478.2K", unit: "K", label: "Revenue Attributed" },
     { value: "289", unit: "%", label: "Organic Traffic Growth" },
   ],
   tags: ["SEO Strategy", "Paid Advertising", "Local SEO"],

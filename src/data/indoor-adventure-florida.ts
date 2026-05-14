@@ -3,7 +3,7 @@ import { CaseStudyData } from "./types";
 export const indoorAdventureFlorida: CaseStudyData = {
   slug: "indoor-adventure-florida",
   industry: "Indoor Adventure / Activity Centers",
-  headline: "How a Florida Indoor Adventure Center Drove 3,647 Bookings and $476K in Revenue With AI-Powered Marketing",
+  headline: "How a Florida Indoor Adventure Center Drove 3,647 Bookings and $477K in Revenue With AI-Powered Marketing",
   subheadline: "MEGA helped a multi-activity indoor entertainment venue in Orlando, Florida build a dominant local search presence and high-performing paid campaigns — reducing cost per qualified booking by 41%, growing organic traffic from 587 to 12,340 monthly visitors, and generating $476K in attributed revenue across 12 months.",
   heroStats: [
     { value: "$476.6K", unit: "K", label: "Revenue Generated" },

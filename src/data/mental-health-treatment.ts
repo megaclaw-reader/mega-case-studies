@@ -7,7 +7,7 @@ export const mentalHealthTreatment: CaseStudyData = {
   subheadline: "MEGA helped a multi-location behavioral health organization scale from 187 ranking keywords to 8,541 while optimizing paid advertising to generate 1,089 qualified intake consultations — reducing cost per qualified lead from $323 to $111 and attributing over $503.3K in treatment revenue across a competitive national mental health market.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
-    { value: "503.3", unit: "K", label: "Revenue Attributed" },
+    { value: "$503.3K", unit: "K", label: "Revenue Attributed" },
     { value: "66", unit: "%", label: "CPQL Reduction" },
   ],
   tags: ["SEO", "Paid Advertising", "Mental Health Marketing", "Behavioral Health"],

@@ -8,7 +8,7 @@ export const outdoorLightingData: CaseStudyData = {
   heroStats: [
     { value: "13", unit: "months", label: "Partnership Duration" },
     { value: "3.8", unit: "x", label: "Blended ROAS" },
-    { value: "388", unit: "K", label: "Revenue Generated" },
+    { value: "$388.4K", unit: "K", label: "Revenue Generated" },
   ],
   tags: ["Paid Advertising", "SEO Strategy", "Local SEO"],
   company: {

@@ -4,12 +4,12 @@ export const rentalHomeManagementArizona: CaseStudyData = {
   slug: "rental-home-management-arizona",
   industry: "Rental Home Management",
   headline:
-    "How an Arizona Rental Property Management Company Generated $663K in New Contract Revenue Through Paid Advertising and SEO Over 23 Months",
+    "How an Arizona Rental Property Management Company Generated $657K in New Contract Revenue Through Paid Advertising and SEO Over 23 Months",
   subheadline:
     "MEGA helped an Arizona-based residential property management firm scale from 5 inbound leads per month to 67+ — signing 310 new management contracts and reducing cost per qualified lead by 37% through always-on AI optimization and aggressive organic growth across the Phoenix metro.",
   heroStats: [
     { value: "23", unit: "months", label: "Partnership Duration" },
-    { value: "663.6", unit: "K", label: "Revenue Attributed" },
+    { value: "$656.9K", unit: "K", label: "Revenue Attributed" },
     { value: "37", unit: "%", label: "CPQL Reduction" },
   ],
   tags: ["Paid Advertising", "SEO Strategy", "Local SEO", "Lead Generation"],
@@ -180,9 +180,9 @@ export const rentalHomeManagementArizona: CaseStudyData = {
   },
   localSeo: {
     summary: [
-      { label: "GBP Views", value: "8,923/mo", growth: "+634%", from: "from 1,217" },
+      { label: "Profile Views", value: "8,923/mo", growth: "+634%", from: "from 1,217" },
       { label: "Maps Impressions", value: "6,847/mo", growth: "+589%", from: "from 993" },
-      { label: "GBP Calls (Total)", value: "1,847", growth: "+712%", from: "18/mo → 146/mo" },
+      { label: "Profile Calls (Total)", value: "1,847", growth: "+712%", from: "18/mo → 146/mo" },
       { label: "Direction Requests", value: "134/mo", growth: "+547%", from: "from 21" },
     ],
     monthly: [

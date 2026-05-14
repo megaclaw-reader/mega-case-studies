@@ -6,7 +6,7 @@ export const paintingCompanyPhoenix: CaseStudyData = {
   headline: "How a Phoenix AZ Painting Company Generated $338K in Revenue With AI-Powered Paid Ads & SEO",
   subheadline: "MEGA helped a residential and commercial painting company in Phoenix, AZ scale from zero digital presence to 103 closed projects and 8,247 ranking keywords in 12 months — leveraging always-on AI optimization to dominate the Phoenix metro painting market year-round.",
   heroStats: [
-    { value: "338", unit: "K", label: "Revenue Attributed" },
+    { value: "$338.2K", unit: "K", label: "Revenue Attributed" },
     { value: "8,247", unit: "", label: "Keywords Ranking" },
     { value: "103", unit: "", label: "Projects Closed" },
   ],
@@ -126,7 +126,7 @@ export const paintingCompanyPhoenix: CaseStudyData = {
       { label: "Total Qualified Leads", value: "656" },
       { label: "Total Deals Closed", value: "103" },
       { label: "Total Revenue", value: "$338.2K" },
-      { label: "Blended ROAS", value: "3.9x" },
+      { label: "Blended ROAS", value: "3.9" },
     ],
     monthly: [
       { month: "Jan '25", spend: 7500, leads: 156, cpl: 48.08, qualified: 58, cpql: 129.31, deals: 9, revenue: 28800, roas: 3.84 },

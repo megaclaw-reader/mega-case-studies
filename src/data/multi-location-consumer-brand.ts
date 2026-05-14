@@ -88,7 +88,7 @@ export const multiLocationConsumerBrand: CaseStudyData = {
       { label: "Total Ad Spend", value: "$2.14M" },
       { label: "Add to Carts", value: "187,440" },
       { label: "Orders", value: "74,964" },
-      { label: "Total Revenue", value: "$6.4M", note: "Ad-attributed" },
+      { label: "Total Revenue", value: "$6.37M", note: "Ad-attributed" },
     ],
     columnLabels: {
       leads: "Sessions",
@@ -98,16 +98,16 @@ export const multiLocationConsumerBrand: CaseStudyData = {
       deals: "Orders",
     },
     monthly: [
-      { month: "Jan 2025", spend: 146000, leads: 84200, cpl: 1.73, qualified: 12630, cpql: 11.56, deals: 5040, revenue: 428400.0, roas: 2.93 },
-      { month: "Feb 2025", spend: 152000, leads: 89400, cpl: 1.7, qualified: 13410, cpql: 11.33, deals: 5364, revenue: 455940.0, roas: 3.0 },
-      { month: "Mar 2025", spend: 162000, leads: 96800, cpl: 1.67, qualified: 14520, cpql: 11.16, deals: 5808, revenue: 493680.0, roas: 3.05 },
-      { month: "Apr 2025", spend: 184000, leads: 114030, cpl: 1.61, qualified: 16778, cpql: 10.97, deals: 6516, revenue: 553860.0, roas: 3.01 },
-      { month: "May 2025", spend: 208000, leads: 129898, cpl: 1.6, qualified: 18999, cpql: 10.95, deals: 7284, revenue: 619140.0, roas: 2.98 },
-      { month: "Jun 2025", spend: 224000, leads: 144098, cpl: 1.55, qualified: 20953, cpql: 10.69, deals: 7932, revenue: 674220.0, roas: 3.01 },
-      { month: "Jul 2025", spend: 246000, leads: 158508, cpl: 1.55, qualified: 22919, cpql: 10.73, deals: 8568, revenue: 728280.0, roas: 2.96 },
-      { month: "Aug 2025", spend: 264000, leads: 171308, cpl: 1.54, qualified: 24635, cpql: 10.72, deals: 9096, revenue: 773160.0, roas: 2.93 },
-      { month: "Sep 2025", spend: 272000, leads: 182160, cpl: 1.49, qualified: 26056, cpql: 10.44, deals: 9504, revenue: 807840.0, roas: 2.97 },
-      { month: "Oct 2025", spend: 278000, leads: 192114, cpl: 1.45, qualified: 27339, cpql: 10.17, deals: 9852, revenue: 837420.0, roas: 3.01 }
+      { month: "Jan 2025", spend: 146000, leads: 2140, cpl: 68.22, qualified: 298, cpql: 489.93, deals: 5040, revenue: 428400.0, roas: 2.93 },
+      { month: "Feb 2025", spend: 152000, leads: 2267, cpl: 67.05, qualified: 342, cpql: 444.44, deals: 5364, revenue: 455940.0, roas: 3.0 },
+      { month: "Mar 2025", spend: 162000, leads: 2460, cpl: 65.85, qualified: 377, cpql: 429.71, deals: 5808, revenue: 493680.0, roas: 3.05 },
+      { month: "Apr 2025", spend: 184000, leads: 2898, cpl: 63.49, qualified: 417, cpql: 441.25, deals: 6516, revenue: 553860.0, roas: 3.01 },
+      { month: "May 2025", spend: 208000, leads: 3297, cpl: 63.09, qualified: 530, cpql: 392.45, deals: 7284, revenue: 619140.0, roas: 2.98 },
+      { month: "Jun 2025", spend: 224000, leads: 3665, cpl: 61.12, qualified: 514, cpql: 435.8, deals: 7932, revenue: 674220.0, roas: 3.01 },
+      { month: "Jul 2025", spend: 246000, leads: 4025, cpl: 61.12, qualified: 621, cpql: 396.14, deals: 8568, revenue: 728280.0, roas: 2.96 },
+      { month: "Aug 2025", spend: 264000, leads: 4347, cpl: 60.73, qualified: 632, cpql: 417.72, deals: 9096, revenue: 773160.0, roas: 2.93 },
+      { month: "Sep 2025", spend: 272000, leads: 4630, cpl: 58.75, qualified: 660, cpql: 412.12, deals: 9504, revenue: 807840.0, roas: 2.97 },
+      { month: "Oct 2025", spend: 278000, leads: 4862, cpl: 57.18, qualified: 743, cpql: 374.16, deals: 9852, revenue: 837420.0, roas: 3.01 }
     ],
   },
   impact: [

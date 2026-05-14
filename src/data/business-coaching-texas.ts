@@ -3,7 +3,7 @@ import { CaseStudyData } from "./types";
 export const businessCoachingTexas: CaseStudyData = {
   slug: "business-coaching-texas",
   industry: "Business Coaching",
-  headline: "How a Texas Business Coaching Firm Used Targeted Ads + SEO to Generate $425.8K in Revenue While Cutting Cost Per Qualified Lead by 49%",
+  headline: "How a Texas Business Coaching Firm Used Targeted Ads + SEO to Generate $426K in Revenue While Cutting Cost Per Qualified Lead by 49%",
   subheadline: "MEGA helped a Dallas-based executive coaching and business development firm scale from $5,000 to $18,000/month in ad spend while simultaneously growing organic traffic from 0 to 11,247+ visits/month through SEO. Over 10 months, CPQL dropped from $641 to $328 through systematic feedback loop optimization, organic keywords grew to 8,340+, and the firm generated $425.8K in new coaching revenue across Texas.",
   heroStats: [
     { value: "10", unit: "months", label: "Partnership Duration" },

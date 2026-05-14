@@ -3,7 +3,7 @@ import { CaseStudyData } from "./types";
 export const commercialInsuranceNy: CaseStudyData = {
   slug: "commercial-insurance-ny",
   industry: "Commercial Insurance",
-  headline: "How a New York Commercial Insurance Agency Generated $128.5K in New Policy Revenue With AI-Powered Marketing",
+  headline: "How a New York Commercial Insurance Agency Generated $128K in New Policy Revenue With AI-Powered Marketing",
   subheadline: "MEGA helped a New York-based commercial insurance agency serving small and medium-sized businesses build a paid advertising program from scratch while establishing organic search foundations, reducing cost per qualified lead by 55%, and generating $128.5K in attributed premium revenue over 5 months.",
   heroStats: [
     { value: "5", unit: "months", label: "Partnership Duration" },

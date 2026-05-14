@@ -3,7 +3,7 @@ import { CaseStudyData } from "./types";
 export const ecommercePet: CaseStudyData = {
   slug: "ecommerce-pet",
   industry: "Ecommerce — Pet Products",
-  headline: "How an Arizona Pet Store Scaled Online Revenue to $204.1K with AI-Driven Paid Advertising",
+  headline: "How an Arizona Pet Store Scaled Online Revenue to $204K with AI-Driven Paid Advertising",
   subheadline: "MEGA helped a local Arizona ecommerce pet retailer grow from a 1.95x ROAS to over 3.9x — generating 3,659 orders and $204.1K in ad-attributed revenue over 11 months, including a record Black Friday that drove 18% of total campaign revenue.",
   heroStats: [
     { value: "11", unit: "months", label: "Campaign Duration" },
@@ -85,7 +85,7 @@ export const ecommercePet: CaseStudyData = {
       { label: "Total Ad Spend", value: "$63.8K" },
       { label: "Total Orders", value: "3,659" },
       { label: "Avg Cost Per Acquisition", value: "$17.42", note: "↓42% from $29.78" },
-      { label: "Blended ROAS", value: "3.2x", note: "from 1.95x baseline" },
+      { label: "Blended ROAS", value: "3.2", note: "from 1.95x baseline" },
     ],
     columnLabels: {
       leads: "Sessions",

@@ -3,7 +3,7 @@ import { CaseStudyData } from "./types";
 export const b2bSaasNational: CaseStudyData = {
   slug: "b2b-saas-national",
   industry: "B2B SaaS",
-  headline: "How a B2B SaaS Startup Scaled to $408.1K MRR With MEGA's Growth Framework",
+  headline: "How a B2B SaaS Startup Scaled to $408K MRR With MEGA's Growth Framework",
   subheadline: "MEGA partnered with a growing B2B project management software company to build a dual-channel acquisition engine — combining paid advertising and SEO to reduce cost per qualified lead by 47%, scale organic traffic to 12,400+/mo, and build $240K monthly recurring revenue over 12 months.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
@@ -124,8 +124,8 @@ export const b2bSaasNational: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$152.7K" },
-      { label: "Qualified Leads (SQLs)", value: "1,247" },
-      { label: "Avg Cost Per Qualified Lead", value: "$122", note: "↓43% from $216" },
+      { label: "Qualified Leads (SQLs)", value: "476" },
+      { label: "Avg Cost Per Qualified Lead", value: "$321", note: "↓43% from $216" },
       { label: "New Subscriptions", value: "289" },
     ],
     columnLabels: {
@@ -137,18 +137,18 @@ export const b2bSaasNational: CaseStudyData = {
       costPerDeal: "Cost/Subscription",
     },
     monthly: [
-      { month: "Jan 2025", spend: 10347, leads: 154, cpl: 67, qualified: 48, cpql: 216, deals: 6, revenue: 7234, roas: 0.70 },
-      { month: "Feb 2025", spend: 10891, leads: 167, cpl: 65, qualified: 56, cpql: 195, deals: 8, revenue: 9847, roas: 0.90 },
-      { month: "Mar 2025", spend: 11234, leads: 178, cpl: 63, qualified: 63, cpql: 178, deals: 11, revenue: 13467, roas: 1.20 },
-      { month: "Apr 2025", spend: 11847, leads: 192, cpl: 62, qualified: 74, cpql: 160, deals: 14, revenue: 17234, roas: 1.45 },
-      { month: "May 2025", spend: 12134, leads: 201, cpl: 60, qualified: 83, cpql: 146, deals: 18, revenue: 22347, roas: 1.84 },
-      { month: "Jun 2025", spend: 12467, leads: 213, cpl: 59, qualified: 94, cpql: 133, deals: 23, revenue: 28891, roas: 2.32 },
-      { month: "Jul 2025", spend: 12891, leads: 228, cpl: 57, qualified: 107, cpql: 120, deals: 28, revenue: 35234, roas: 2.73 },
-      { month: "Aug 2025", spend: 13234, leads: 241, cpl: 55, qualified: 119, cpql: 111, deals: 34, revenue: 42467, roas: 3.21 },
-      { month: "Sep 2025", spend: 13647, leads: 256, cpl: 53, qualified: 134, cpql: 102, deals: 41, revenue: 50891, roas: 3.73 },
-      { month: "Oct 2025", spend: 14134, leads: 273, cpl: 52, qualified: 148, cpql: 95, deals: 47, revenue: 58234, roas: 4.12 },
-      { month: "Nov 2025", spend: 14567, leads: 289, cpl: 50, qualified: 163, cpql: 89, deals: 53, revenue: 65347, roas: 4.49 },
-      { month: "Dec 2025", spend: 15347, leads: 298, cpl: 51, qualified: 158, cpql: 97, deals: 46, revenue: 56891, roas: 3.71 },
+      { month: "Jan 2025", spend: 10347, leads: 58, cpl: 178.4, qualified: 18, cpql: 574.83, deals: 6, revenue: 7234, roas: 0.70 },
+      { month: "Feb 2025", spend: 10891, leads: 63, cpl: 172.87, qualified: 21, cpql: 518.62, deals: 8, revenue: 9847, roas: 0.90 },
+      { month: "Mar 2025", spend: 11234, leads: 67, cpl: 167.67, qualified: 23, cpql: 488.43, deals: 11, revenue: 13467, roas: 1.20 },
+      { month: "Apr 2025", spend: 11847, leads: 72, cpl: 164.54, qualified: 30, cpql: 394.9, deals: 14, revenue: 17234, roas: 1.45 },
+      { month: "May 2025", spend: 12134, leads: 77, cpl: 157.58, qualified: 34, cpql: 356.88, deals: 18, revenue: 22347, roas: 1.84 },
+      { month: "Jun 2025", spend: 12467, leads: 80, cpl: 155.84, qualified: 35, cpql: 356.2, deals: 23, revenue: 28891, roas: 2.32 },
+      { month: "Jul 2025", spend: 12891, leads: 86, cpl: 149.9, qualified: 40, cpql: 322.27, deals: 28, revenue: 35234, roas: 2.73 },
+      { month: "Aug 2025", spend: 13234, leads: 91, cpl: 145.43, qualified: 46, cpql: 287.7, deals: 34, revenue: 42467, roas: 3.21 },
+      { month: "Sep 2025", spend: 13647, leads: 98, cpl: 139.26, qualified: 55, cpql: 248.13, deals: 41, revenue: 50891, roas: 3.73 },
+      { month: "Oct 2025", spend: 14134, leads: 103, cpl: 137.22, qualified: 52, cpql: 271.81, deals: 47, revenue: 58234, roas: 4.12 },
+      { month: "Nov 2025", spend: 14567, leads: 111, cpl: 131.23, qualified: 62, cpql: 234.95, deals: 53, revenue: 65347, roas: 4.49 },
+      { month: "Dec 2025", spend: 15347, leads: 114, cpl: 134.62, qualified: 60, cpql: 255.78, deals: 46, revenue: 56891, roas: 3.71 },
     ],
   },
   impact: [

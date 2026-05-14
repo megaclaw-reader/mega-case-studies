@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const transportation: CaseStudyData = {
   slug: "transportation",
   industry: "Transportation & Logistics",
-  headline: "How a National Transportation Company Generated $287.7K in Revenue With AI-Powered Lead Generation",
+  headline: "How a National Transportation Company Generated $287K in Revenue With AI-Powered Lead Generation",
   subheadline: "MEGA helped a US-based freight and logistics provider slash cost per qualified lead by 35% and close 27 deals in 7 months through always-on AI optimization, strategic paid campaigns, and aggressive SEO scaling — growing organic keyword rankings by 2,151%.",
   heroStats: [
     { value: "7", unit: "months", label: "Partnership Duration" },
     { value: "2,151", unit: "%", label: "Keyword Growth" },
-    { value: "287.7", unit: "K", label: "Revenue Attributed" },
+    { value: "$286.7K", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["National SEO", "Paid Search", "Lead Generation", "B2B Logistics"],
   company: {

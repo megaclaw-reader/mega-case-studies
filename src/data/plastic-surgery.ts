@@ -4,12 +4,12 @@ export const plasticSurgery: CaseStudyData = {
   slug: "plastic-surgery",
   industry: "Plastic Surgery",
   headline:
-    "How a Dallas Plastic Surgery Practice Generated $919.8K in Attributed Revenue and Grew Organic Traffic 1,680% With AI-Powered Marketing",
+    "How a Dallas Plastic Surgery Practice Generated $920K in Attributed Revenue and Grew Organic Traffic 1,680% With AI-Powered Marketing",
   subheadline:
     "MEGA helped a plastic surgery practice in Dallas, Texas scale paid advertising and SEO simultaneously — reducing cost per qualified consultation by 25%, ranking for 8,200+ keywords, and booking 109 surgical procedures over 10 months.",
   heroStats: [
     { value: "10", unit: "months", label: "Partnership Duration" },
-    { value: "919.8", unit: "K", label: "Revenue Attributed" },
+    { value: "$919.8K", unit: "K", label: "Revenue Attributed" },
     { value: "1,680", unit: "%", label: "Organic Traffic Growth" },
   ],
   tags: ["Paid Advertising", "SEO", "AI-Powered Optimization"],

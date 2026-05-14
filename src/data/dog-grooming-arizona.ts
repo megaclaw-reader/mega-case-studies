@@ -3,11 +3,11 @@ import { CaseStudyData } from "./types";
 export const dogGroomingArizona: CaseStudyData = {
   slug: "dog-grooming-arizona",
   industry: "Dog Grooming Service",
-  headline: "How an Arizona Dog Grooming Business Grew From 14 to 46 Monthly Bookings While Cutting Cost Per Qualified Lead by 55% — Generating $189.4K in Attributed Revenue Over 12 Months",
+  headline: "How an Arizona Dog Grooming Business Grew From 14 to 46 Monthly Bookings While Cutting Cost Per Qualified Lead by 55% — Generating $189K in Attributed Revenue Over 12 Months",
   subheadline: "MEGA helped a local dog grooming service in Arizona build organic visibility from scratch and optimize paid campaigns across Google — increasing new client bookings from 14 to 46 per month and achieving a 2.26x blended ROAS by focusing on recurring customer acquisition with an average lifetime value of $490–$590 per client.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
-    { value: "189.4", unit: "K", label: "Revenue Attributed" },
+    { value: "$189.4K", unit: "K", label: "Revenue Attributed" },
     { value: "46", unit: "", label: "Monthly Bookings (Peak)" },
   ],
   tags: ["Paid Advertising", "SEO Strategy", "Local Lead Generation"],

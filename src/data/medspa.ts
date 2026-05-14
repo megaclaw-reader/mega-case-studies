@@ -3,11 +3,11 @@ import { CaseStudyData } from "./types";
 export const medspa: CaseStudyData = {
   slug: "medspa",
   industry: "Medspa",
-  headline: "How a Scottsdale MedSpa Turned $8K/Month in Ads Into $387K Revenue — Achieving a 3.74x Blended ROAS in Just 10 Months",
+  headline: "How a Scottsdale MedSpa Turned $387K/Month in Ads Into $387K Revenue — Achieving a 3.74x Blended ROAS in Just 10 Months",
   subheadline: "MEGA deployed always-on AI optimization and a full-stack SEO + paid ads strategy to help a Scottsdale medical aesthetics practice systematically scale from $8,200/month in ad spend to $13,940/month — converting high-intent leads into $387K of booked treatments across Botox, fillers, body contouring, laser, and chemical peel services.",
   heroStats: [
     { value: "$387.2K", unit: "K", label: "Revenue Generated" },
-    { value: "3.74", unit: "x", label: "Blended ROAS" },
+    { value: "3.7", unit: "x", label: "Blended ROAS" },
     { value: "164", unit: "", label: "Booked Clients" },
   ],
   tags: ["Paid Advertising", "SEO Strategy", "Medical Aesthetics"],

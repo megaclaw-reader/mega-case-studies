@@ -8,7 +8,7 @@ export const subscriptionEducationPlatform: CaseStudyData = {
   heroStats: [
     { value: "11,289", unit: "", label: "Monthly Subscribers" },
     { value: "$68", unit: "", label: "Subscriber Acquisition Cost" },
-    { value: "3.22", unit: "x", label: "Blended ROAS" },
+    { value: "3.2", unit: "x", label: "Blended ROAS" },
   ],
   tags: ["SEO", "Paid Advertising", "Subscription Growth", "National"],
   company: {

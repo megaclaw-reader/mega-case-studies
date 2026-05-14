@@ -3,11 +3,11 @@ import { CaseStudyData } from "./types";
 export const disasterRecoveryNewMexico: CaseStudyData = {
   slug: "disaster-recovery-new-mexico",
   industry: "Disaster Recovery",
-  headline: "How a New Mexico Disaster Recovery Company Stabilized Lead Flow and Generated $242.2K in Revenue",
+  headline: "How a New Mexico Disaster Recovery Company Stabilized Lead Flow and Generated $242K in Revenue",
   subheadline: "MEGA helped a water, fire, and storm damage restoration company in Albuquerque optimize their emergency service marketing, reducing cost per qualified lead by 34%, growing organic traffic 521%, and stabilizing consistent job bookings over 9 months.",
   heroStats: [
     { value: "9", unit: "months", label: "Partnership Duration" },
-    { value: "242.2", unit: "K", label: "Revenue Attributed" },
+    { value: "$242.2K", unit: "K", label: "Revenue Attributed" },
     { value: "34", unit: "%", label: "CPQL Reduction" },
   ],
   tags: ["Local SEO", "Paid Advertising", "Emergency Services"],
@@ -121,8 +121,8 @@ export const disasterRecoveryNewMexico: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$63.0K" },
-      { label: "Qualified Leads", value: "267" },
-      { label: "Avg Cost Per Qualified Lead", value: "$236", note: "↓24% from $311" },
+      { label: "Qualified Leads", value: "659" },
+      { label: "Avg Cost Per Qualified Lead", value: "$96", note: "↓69% from $311" },
       { label: "Closed Jobs", value: "89" },
     ],
     columnLabels: {
@@ -134,15 +134,15 @@ export const disasterRecoveryNewMexico: CaseStudyData = {
       costPerDeal: "Cost/Job",
     },
     monthly: [
-      { month: "Jun 2025", spend: 5654, leads: 41, cpl: 138, qualified: 18, cpql: 314, deals: 6, revenue: 18500, roas: 3.27 },
-      { month: "Jul 2025", spend: 7823, leads: 58, cpl: 135, qualified: 28, cpql: 279, deals: 11, revenue: 33200, roas: 4.24 },
-      { month: "Aug 2025", spend: 8945, leads: 67, cpl: 133, qualified: 35, cpql: 256, deals: 14, revenue: 40100, roas: 4.48 },
-      { month: "Sep 2025", spend: 8234, leads: 62, cpl: 133, qualified: 34, cpql: 242, deals: 13, revenue: 35800, roas: 4.35 },
-      { month: "Oct 2025", spend: 6789, leads: 54, cpl: 126, qualified: 30, cpql: 226, deals: 11, revenue: 28200, roas: 4.15 },
-      { month: "Nov 2025", spend: 6123, leads: 49, cpl: 125, qualified: 27, cpql: 227, deals: 9, revenue: 22100, roas: 3.61 },
-      { month: "Dec 2025", spend: 7456, leads: 58, cpl: 129, qualified: 33, cpql: 226, deals: 12, revenue: 30600, roas: 4.11 },
-      { month: "Jan 2026", spend: 6345, leads: 52, cpl: 122, qualified: 31, cpql: 205, deals: 8, revenue: 19800, roas: 3.12 },
-      { month: "Feb 2026", spend: 5587, leads: 46, cpl: 121, qualified: 31, cpql: 180, deals: 5, revenue: 13900, roas: 2.49 },
+      { month: "Jun 2025", spend: 5654, leads: 103, cpl: 54.89, qualified: 47, cpql: 120.3, deals: 6, revenue: 18500, roas: 3.27 },
+      { month: "Jul 2025", spend: 7823, leads: 146, cpl: 53.58, qualified: 73, cpql: 107.16, deals: 11, revenue: 33200, roas: 4.24 },
+      { month: "Aug 2025", spend: 8945, leads: 170, cpl: 52.62, qualified: 82, cpql: 109.09, deals: 14, revenue: 40100, roas: 4.48 },
+      { month: "Sep 2025", spend: 8234, leads: 156, cpl: 52.78, qualified: 93, cpql: 88.54, deals: 13, revenue: 35800, roas: 4.35 },
+      { month: "Oct 2025", spend: 6789, leads: 136, cpl: 49.92, qualified: 71, cpql: 95.62, deals: 11, revenue: 28200, roas: 4.15 },
+      { month: "Nov 2025", spend: 6123, leads: 123, cpl: 49.78, qualified: 62, cpql: 98.76, deals: 9, revenue: 22100, roas: 3.61 },
+      { month: "Dec 2025", spend: 7456, leads: 146, cpl: 51.07, qualified: 83, cpql: 89.83, deals: 12, revenue: 30600, roas: 4.11 },
+      { month: "Jan 2026", spend: 6345, leads: 131, cpl: 48.44, qualified: 74, cpql: 85.74, deals: 8, revenue: 19800, roas: 3.12 },
+      { month: "Feb 2026", spend: 5587, leads: 116, cpl: 48.16, qualified: 74, cpql: 75.5, deals: 5, revenue: 13900, roas: 2.49 },
     ],
   },
   impact: [

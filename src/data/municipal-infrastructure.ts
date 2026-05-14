@@ -97,27 +97,27 @@ export const municipalInfrastructure: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$42.7K" },
-      { label: "Total Qualified Leads (RFQs)", value: "93" },
-      { label: "Avg Cost Per Qualified Lead", value: "$459", note: "↓41% from $776" },
+      { label: "Total Qualified Leads (RFQs)", value: "291" },
+      { label: "Avg Cost Per Qualified Lead", value: "$147", note: "↓81% from $776" },
       { label: "Customer Acquisition Cost", value: "$2,952", note: "↓63% from initial" },
     ],
     monthly: [
       // Jul '25: Foundation month — campaigns launching, first small deal from existing pipeline overlap
-      { month: "Jul '25", spend: 5169, leads: 18, cpl: 287, qualified: 6, cpql: 862, deals: 1, revenue: 14200, roas: 2.75 },
+      { month: "Jul '25", spend: 5169, leads: 57, cpl: 90.68, qualified: 17, cpql: 304.06, deals: 1, revenue: 14200, roas: 2.75 },
       // Aug '25: Early optimization — AI agents learning niche B2B signals
-      { month: "Aug '25", spend: 5754, leads: 19, cpl: 303, qualified: 7, cpql: 822, deals: 1, revenue: 16800, roas: 2.92 },
+      { month: "Aug '25", spend: 5754, leads: 60, cpl: 95.9, qualified: 21, cpql: 274.0, deals: 1, revenue: 16800, roas: 2.92 },
       // Sep '25: Targeting refinement — engineering firm segment identified as highest converter
-      { month: "Sep '25", spend: 5124, leads: 22, cpl: 232.91, qualified: 9, cpql: 569.33, deals: 1, revenue: 18500, roas: 3.61 },
+      { month: "Sep '25", spend: 5124, leads: 70, cpl: 73.2, qualified: 27, cpql: 189.78, deals: 1, revenue: 18500, roas: 3.61 },
       // Oct '25: Infrastructure budget season — municipalities finalizing capital purchases
-      { month: "Oct '25", spend: 5487, leads: 30, cpl: 182.90, qualified: 11, cpql: 498.82, deals: 2, revenue: 24700, roas: 4.50 },
+      { month: "Oct '25", spend: 5487, leads: 95, cpl: 57.76, qualified: 35, cpql: 156.77, deals: 2, revenue: 24700, roas: 4.50 },
       // Nov '25: Strong pipeline, continued deal flow from September RFQs
-      { month: "Nov '25", spend: 5263, leads: 32, cpl: 164.47, qualified: 12, cpql: 438.58, deals: 2, revenue: 23400, roas: 4.45 },
+      { month: "Nov '25", spend: 5263, leads: 102, cpl: 51.6, qualified: 36, cpql: 146.19, deals: 2, revenue: 23400, roas: 4.45 },
       // Dec '25: Year-end government budget flush — use-it-or-lose-it procurement
-      { month: "Dec '25", spend: 5741, leads: 38, cpl: 151.08, qualified: 14, cpql: 410.07, deals: 2, revenue: 27100, roas: 4.72 },
+      { month: "Dec '25", spend: 5741, leads: 121, cpl: 47.45, qualified: 41, cpql: 140.02, deals: 2, revenue: 27100, roas: 4.72 },
       // Jan '26: New fiscal year — municipalities executing capital improvement budgets
-      { month: "Jan '26", spend: 5012, leads: 40, cpl: 125.30, qualified: 15, cpql: 334.13, deals: 2, revenue: 22800, roas: 4.55 },
+      { month: "Jan '26", spend: 5012, leads: 127, cpl: 39.46, qualified: 51, cpql: 98.27, deals: 2, revenue: 22800, roas: 4.55 },
       // Feb '26: Peak efficiency — lowest CAC, highest qualified volume
-      { month: "Feb '26", spend: 5147, leads: 44, cpl: 117.02, qualified: 19, cpql: 270.89, deals: 3, revenue: 24300, roas: 4.72 },
+      { month: "Feb '26", spend: 5147, leads: 140, cpl: 36.76, qualified: 63, cpql: 81.7, deals: 3, revenue: 24300, roas: 4.72 },
     ],
   },
   impact: [

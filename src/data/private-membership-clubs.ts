@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const privateMembershipClubs: CaseStudyData = {
   slug: "private-membership-clubs",
   industry: "Hospitality / Private Membership Clubs",
-  headline: "How a New York Private Membership Club Generated $364.9K in New Membership Revenue Over 12 Months With SEO + Paid Advertising",
+  headline: "How a New York Private Membership Club Generated $365K in New Membership Revenue Over 12 Months With SEO + Paid Advertising",
   subheadline: "MEGA helped an exclusive private membership club in New York build organic authority and optimize paid campaigns to attract high-net-worth prospects — growing from 4 new memberships per month to 9 while reducing cost per qualified lead by 43% and achieving a 4.04x blended ROAS.",
   heroStats: [
     { value: "364.9", unit: "K", label: "Membership Revenue" },
     { value: "82", unit: "", label: "New Members" },
-    { value: "4.04", unit: "x", label: "Blended ROAS" },
+    { value: "4.0", unit: "x", label: "Blended ROAS" },
   ],
   tags: ["Paid Advertising", "SEO Strategy", "Lead Generation"],
   company: {

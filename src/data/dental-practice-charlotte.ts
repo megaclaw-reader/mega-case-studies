@@ -8,7 +8,7 @@ export const dentalPracticeCharlotte: CaseStudyData = {
   heroStats: [
     { value: "9", unit: "months", label: "Partnership Duration" },
     { value: "267", unit: "%", label: "New Patient Growth" },
-    { value: "166", unit: "K", label: "Revenue Attributed" },
+    { value: "$166.0K", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["Local SEO", "Paid Advertising", "AI-Powered Optimization"],
   company: {

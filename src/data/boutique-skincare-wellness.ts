@@ -3,7 +3,7 @@ import { CaseStudyData } from "./types";
 export const boutiqueSkincareWellness: CaseStudyData = {
   slug: "boutique-skincare-wellness",
   industry: "Boutique Skincare & Wellness",
-  headline: "How a Boutique Skincare Brand Scaled From 2x to 3.6x Blended ROAS — Generating $818.8K in Revenue",
+  headline: "How a Boutique Skincare Brand Scaled From 2x to 3.6x Blended ROAS — Generating $819K in Revenue",
   subheadline: "MEGA helped an established DTC skincare and wellness brand break through a ROAS plateau by deploying always-on AI optimization agents, rebuilding campaign architecture, fixing attribution gaps, and scaling creative production — growing from a 2x ROAS baseline to a 5.21x peak and over $818K in total ecommerce revenue across 10 months.",
   heroStats: [
     { value: "10", unit: "months", label: "Partnership Duration" },

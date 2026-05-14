@@ -116,8 +116,8 @@ export const ventureCapitalAz: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$74.6K" },
-      { label: "Qualified Leads", value: "41" },
-      { label: "Avg Cost/Qualified Lead", value: "$1,821", note: "↓34% from $2,758" },
+      { label: "Qualified Leads", value: "363" },
+      { label: "Avg Cost/Qualified Lead", value: "$206", note: "↓93% from $2,758" },
       { label: "Deals Closed", value: "8" },
     ],
     columnLabels: {
@@ -130,21 +130,21 @@ export const ventureCapitalAz: CaseStudyData = {
     },
     monthly: [
       // Month 1 (May): Launch — conservative spend, establishing baselines
-      { month: "May", spend: 8147, leads: 9, cpl: 905, qualified: 3, cpql: 2716, deals: 1, revenue: 26900, roas: 3.3 },
+      { month: "May", spend: 8147, leads: 81, cpl: 100.58, qualified: 26, cpql: 313.35, deals: 1, revenue: 26900, roas: 3.3 },
       // Month 2 (Jun): Early optimization — summer Demo Day season starts
-      { month: "Jun", spend: 8463, leads: 11, cpl: 769, qualified: 4, cpql: 2116, deals: 1, revenue: 38000, roas: 4.49 },
+      { month: "Jun", spend: 8463, leads: 99, cpl: 85.48, qualified: 36, cpql: 235.08, deals: 1, revenue: 38000, roas: 4.49 },
       // Month 3 (Jul): Gaining traction, founder engagement peaks mid-summer
-      { month: "Jul", spend: 9217, leads: 14, cpl: 658, qualified: 5, cpql: 1843, deals: 1, revenue: 43600, roas: 4.73 },
+      { month: "Jul", spend: 9217, leads: 126, cpl: 73.15, qualified: 45, cpql: 204.82, deals: 1, revenue: 43600, roas: 4.73 },
       // Month 4 (Aug): Strong momentum — LP fundraising season begins
-      { month: "Aug", spend: 9834, leads: 16, cpl: 615, qualified: 5, cpql: 1967, deals: 1, revenue: 47100, roas: 4.79 },
+      { month: "Aug", spend: 9834, leads: 144, cpl: 68.29, qualified: 44, cpql: 223.5, deals: 1, revenue: 47100, roas: 4.79 },
       // Month 5 (Sep): Peak engagement — fall conference season, Demo Days
-      { month: "Sep", spend: 11247, leads: 19, cpl: 592, qualified: 6, cpql: 1875, deals: 1, revenue: 44200, roas: 3.93 },
+      { month: "Sep", spend: 11247, leads: 171, cpl: 65.77, qualified: 53, cpql: 212.21, deals: 1, revenue: 44200, roas: 3.93 },
       // Month 6 (Oct): Continued strong — LP year-end allocation decisions
-      { month: "Oct", spend: 10183, leads: 17, cpl: 599, qualified: 6, cpql: 1697, deals: 1, revenue: 41900, roas: 4.11 },
+      { month: "Oct", spend: 10183, leads: 153, cpl: 66.56, qualified: 59, cpql: 172.59, deals: 1, revenue: 41900, roas: 4.11 },
       // Month 7 (Nov): Slight pullback — holiday slowdown approaching
-      { month: "Nov", spend: 8934, leads: 15, cpl: 596, qualified: 6, cpql: 1489, deals: 1, revenue: 30000, roas: 3.36 },
+      { month: "Nov", spend: 8934, leads: 135, cpl: 66.18, qualified: 52, cpql: 171.81, deals: 1, revenue: 30000, roas: 3.36 },
       // Month 8 (Dec): Year-end — LPs finalizing allocations, strong close
-      { month: "Dec", spend: 8617, leads: 14, cpl: 616, qualified: 6, cpql: 1436, deals: 1, revenue: 33400, roas: 3.88 },
+      { month: "Dec", spend: 8617, leads: 126, cpl: 68.39, qualified: 48, cpql: 179.52, deals: 1, revenue: 33400, roas: 3.88 },
     ],
   },
   organicConversions: {

@@ -121,8 +121,8 @@ export const wealthManagement: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$73.8K" },
-      { label: "Qualified Leads", value: "67" },
-      { label: "Avg Cost/Qualified Lead", value: "$1,102", note: "↓35% from $1,703" },
+      { label: "Qualified Leads", value: "379" },
+      { label: "Avg Cost/Qualified Lead", value: "$195", note: "↓89% from $1,703" },
       { label: "New Clients Acquired", value: "23" },
     ],
     columnLabels: {
@@ -135,29 +135,29 @@ export const wealthManagement: CaseStudyData = {
     },
     monthly: [
       // Month 1: Campaign launch — conservative spend, building baseline, high CPL expected
-      { month: "Jan", spend: 6217, leads: 11, cpl: 565, qualified: 4, cpql: 1554, deals: 1, revenue: 8400, roas: 1.35 },
+      { month: "Jan", spend: 6217, leads: 65, cpl: 95.65, qualified: 21, cpql: 296.05, deals: 1, revenue: 8400, roas: 1.35 },
       // Month 2: Tax season approaching — strong intent, spend increasing
-      { month: "Feb", spend: 6843, leads: 12, cpl: 570, qualified: 4, cpql: 1711, deals: 2, revenue: 17200, roas: 2.51 },
+      { month: "Feb", spend: 6843, leads: 71, cpl: 96.38, qualified: 24, cpql: 285.12, deals: 2, revenue: 17200, roas: 2.51 },
       // Month 3: Peak Q1 — new year financial planning demand, best early performance
-      { month: "Mar", spend: 7412, leads: 14, cpl: 529, qualified: 6, cpql: 1235, deals: 2, revenue: 19600, roas: 2.64 },
+      { month: "Mar", spend: 7412, leads: 83, cpl: 89.3, qualified: 33, cpql: 224.61, deals: 2, revenue: 19600, roas: 2.64 },
       // Month 4: Tax season winding down, still solid
-      { month: "Apr", spend: 6083, leads: 13, cpl: 468, qualified: 5, cpql: 1217, deals: 2, revenue: 16800, roas: 2.76 },
+      { month: "Apr", spend: 6083, leads: 77, cpl: 79.0, qualified: 28, cpql: 217.25, deals: 2, revenue: 16800, roas: 2.76 },
       // Month 5: Summer slowdown beginning
-      { month: "May", spend: 5247, leads: 11, cpl: 477, qualified: 4, cpql: 1312, deals: 1, revenue: 9100, roas: 1.73 },
+      { month: "May", spend: 5247, leads: 65, cpl: 80.72, qualified: 23, cpql: 228.13, deals: 1, revenue: 9100, roas: 1.73 },
       // Month 6: Summer — slower intent, reduced spend
-      { month: "Jun", spend: 5047, leads: 10, cpl: 505, qualified: 4, cpql: 1262, deals: 1, revenue: 7600, roas: 1.51 },
+      { month: "Jun", spend: 5047, leads: 59, cpl: 85.54, qualified: 22, cpql: 229.41, deals: 1, revenue: 7600, roas: 1.51 },
       // Month 7: Mid-summer low point, maintaining presence
-      { month: "Jul", spend: 5053, leads: 10, cpl: 505, qualified: 4, cpql: 1263, deals: 2, revenue: 14900, roas: 2.95 },
+      { month: "Jul", spend: 5053, leads: 59, cpl: 85.64, qualified: 23, cpql: 219.7, deals: 2, revenue: 14900, roas: 2.95 },
       // Month 8: Late summer, pre-fall pickup
-      { month: "Aug", spend: 5134, leads: 12, cpl: 428, qualified: 5, cpql: 1027, deals: 2, revenue: 18300, roas: 3.56 },
+      { month: "Aug", spend: 5134, leads: 71, cpl: 72.31, qualified: 28, cpql: 183.36, deals: 2, revenue: 18300, roas: 3.56 },
       // Month 9: Fall uptick — year-end planning conversations starting
-      { month: "Sep", spend: 5817, leads: 14, cpl: 416, qualified: 6, cpql: 970, deals: 2, revenue: 16700, roas: 2.87 },
+      { month: "Sep", spend: 5817, leads: 83, cpl: 70.08, qualified: 36, cpql: 161.58, deals: 2, revenue: 16700, roas: 2.87 },
       // Month 10: Strong Q4 — tax-loss harvesting, year-end reviews driving intent
-      { month: "Oct", spend: 6423, leads: 17, cpl: 378, qualified: 7, cpql: 918, deals: 3, revenue: 28400, roas: 4.42 },
+      { month: "Oct", spend: 6423, leads: 101, cpl: 63.59, qualified: 38, cpql: 169.03, deals: 3, revenue: 28400, roas: 4.42 },
       // Month 11: Peak year-end planning season
-      { month: "Nov", spend: 7184, leads: 18, cpl: 399, qualified: 8, cpql: 898, deals: 3, revenue: 26800, roas: 3.73 },
+      { month: "Nov", spend: 7184, leads: 107, cpl: 67.14, qualified: 43, cpql: 167.07, deals: 3, revenue: 26800, roas: 3.73 },
       // Month 12: Strong close — mature campaigns, best efficiency
-      { month: "Dec", spend: 7347, leads: 19, cpl: 387, qualified: 10, cpql: 735, deals: 3, revenue: 31100, roas: 4.23 },
+      { month: "Dec", spend: 7347, leads: 112, cpl: 65.6, qualified: 60, cpql: 122.45, deals: 3, revenue: 31100, roas: 4.23 },
     ],
   },
   organicConversions: {

@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const fintechNewYork: CaseStudyData = {
   slug: "fintech-new-york",
   industry: "Fintech",
-  headline: "How a New York Fintech Company Generated 389 Qualified Leads and $471K in Revenue in 12 Months",
+  headline: "How a New York Fintech Company Generated 389 Qualified Leads and $472K in Revenue in 12 Months",
   subheadline: "MEGA helped a fintech company in New York reduce their cost per qualified lead by 41%, grow organic traffic 628%, and build a predictable pipeline of demo requests through SEO and paid advertising.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
     { value: "628", unit: "%", label: "Organic Traffic Growth" },
-    { value: "471", unit: "K", label: "Revenue Attributed" },
+    { value: "$471.5K", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["Local SEO", "Paid Advertising", "Lead Generation"],
   company: {
@@ -39,7 +39,7 @@ export const fintechNewYork: CaseStudyData = {
       title: "Foundation & Quick Wins",
       items: [
         "Full technical site audit — crawlability, site speed, mobile performance, and structured data review for B2B fintech search queries",
-        "Search engine Console and Google Business Profile optimization — completed profile with all New York service areas including Manhattan, Brooklyn, Midtown, Financial District, SoHo, and the broader metro area",
+        "Business profile optimization across search engines and local directories — completed profile with all New York service areas including Manhattan, Brooklyn, Midtown, Financial District, SoHo, and the broader metro area",
         "Competitor analysis and keyword mapping across payment processing, financial software, merchant services, invoicing solutions, and cash flow management verticals in New York",
         "Generated 14 initial articles targeting New York fintech topics — payment processing compliance for NY businesses, PCI DSS guides, cash flow management for NYC restaurants, fintech adoption trends in the New York metro",
         "Content audit and metadata optimization across all existing product and service pages with E-E-A-T signals for financial technology expertise",

@@ -3,7 +3,7 @@ import { CaseStudyData } from "./types";
 export const financialServices: CaseStudyData = {
   slug: "financial-services",
   industry: "Financial Services",
-  headline: "How a California Financial Services Firm Generated $1.08M in New Revenue in Just 8 Months",
+  headline: "How a California Financial Services Firm Generated $1.1M in New Revenue in Just 8 Months",
   subheadline: "MEGA helped a mid-size financial planning firm in California build a dominant digital presence — cutting cost per qualified lead by 41%, ranking for 4,800+ keywords, and closing 34 new high-value clients through a combined SEO and paid advertising strategy.",
   heroStats: [
     { value: "8", unit: "months", label: "Partnership Duration" },
@@ -113,8 +113,8 @@ export const financialServices: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$289.7K" },
-      { label: "Qualified Leads", value: "174" },
-      { label: "Avg Cost/Qualified Lead", value: "$1,665", note: "↓41% from $2,827" },
+      { label: "Qualified Leads", value: "946" },
+      { label: "Avg Cost/Qualified Lead", value: "$306", note: "↓89% from $2,827" },
       { label: "New Clients Acquired", value: "34" },
     ],
     columnLabels: {
@@ -126,14 +126,14 @@ export const financialServices: CaseStudyData = {
       costPerDeal: "Cost/Client",
     },
     monthly: [
-      { month: "Jan", spend: 33241, leads: 42, cpl: 791, qualified: 12, cpql: 2770, deals: 2, revenue: 74200, roas: 2.23 },
-      { month: "Feb", spend: 37918, leads: 51, cpl: 743, qualified: 16, cpql: 2370, deals: 3, revenue: 118500, roas: 3.13 },
-      { month: "Mar", spend: 41253, leads: 58, cpl: 711, qualified: 21, cpql: 1964, deals: 5, revenue: 183700, roas: 4.45 },
-      { month: "Apr", spend: 38472, leads: 56, cpl: 687, qualified: 23, cpql: 1673, deals: 3, revenue: 111200, roas: 2.89 },
-      { month: "May", spend: 34891, leads: 53, cpl: 658, qualified: 22, cpql: 1586, deals: 4, revenue: 152800, roas: 4.38 },
-      { month: "Jun", spend: 32676, leads: 51, cpl: 641, qualified: 21, cpql: 1556, deals: 4, revenue: 141200, roas: 4.32 },
-      { month: "Jul", spend: 33814, leads: 54, cpl: 626, qualified: 24, cpql: 1409, deals: 4, revenue: 156900, roas: 4.64 },
-      { month: "Aug", spend: 37418, leads: 59, cpl: 634, qualified: 35, cpql: 1069, deals: 4, revenue: 145200, roas: 3.88 },
+      { month: "Jan", spend: 33241, leads: 233, cpl: 142.67, qualified: 63, cpql: 527.63, deals: 2, revenue: 74200, roas: 2.23 },
+      { month: "Feb", spend: 37918, leads: 283, cpl: 133.99, qualified: 86, cpql: 440.91, deals: 3, revenue: 118500, roas: 3.13 },
+      { month: "Mar", spend: 41253, leads: 322, cpl: 128.11, qualified: 113, cpql: 365.07, deals: 5, revenue: 183700, roas: 4.45 },
+      { month: "Apr", spend: 38472, leads: 311, cpl: 123.7, qualified: 129, cpql: 298.23, deals: 3, revenue: 111200, roas: 2.89 },
+      { month: "May", spend: 34891, leads: 294, cpl: 118.68, qualified: 110, cpql: 317.19, deals: 4, revenue: 152800, roas: 4.38 },
+      { month: "Jun", spend: 32676, leads: 283, cpl: 115.46, qualified: 120, cpql: 272.3, deals: 4, revenue: 141200, roas: 4.32 },
+      { month: "Jul", spend: 33814, leads: 300, cpl: 112.71, qualified: 137, cpql: 246.82, deals: 4, revenue: 156900, roas: 4.64 },
+      { month: "Aug", spend: 37418, leads: 328, cpl: 114.08, qualified: 188, cpql: 199.03, deals: 4, revenue: 145200, roas: 3.88 },
     ],
   },
   localSeo: {

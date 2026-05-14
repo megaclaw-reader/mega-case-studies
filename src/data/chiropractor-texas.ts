@@ -8,7 +8,7 @@ export const chiropractorTexas: CaseStudyData = {
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
     { value: "68", unit: "%", label: "New Patient Growth" },
-    { value: "389", unit: "K", label: "Revenue Attributed" },
+    { value: "$389.0K", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["Local SEO", "Paid Advertising", "AI-Powered Optimization"],
   company: {

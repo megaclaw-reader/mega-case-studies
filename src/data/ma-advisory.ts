@@ -8,7 +8,7 @@ export const maAdvisory: CaseStudyData = {
   heroStats: [
     { value: "9", unit: "months", label: "Partnership Duration" },
     { value: "32", unit: "", label: "Engagements Signed" },
-    { value: "230", unit: "K", label: "Revenue Attributed" },
+    { value: "$230.0K", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["Paid Advertising"],
   company: {

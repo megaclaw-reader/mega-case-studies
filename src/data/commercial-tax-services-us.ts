@@ -125,23 +125,23 @@ export const commercialTaxServicesUs: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$57.2K" },
-      { label: "Qualified Leads", value: "51" },
-      { label: "Avg Cost Per Qualified Lead", value: "$1,122", note: "↓10% from $1,247" },
+      { label: "Qualified Leads", value: "317" },
+      { label: "Avg Cost Per Qualified Lead", value: "$180", note: "↓86% from $1,247" },
       { label: "New Clients Acquired", value: "22" },
     ],
     monthly: [
       // Month 1 (Aug): Building pipeline for tax season, lower search volume but laying groundwork
-      { month: "Aug '25", spend: 8765, leads: 20, cpl: 438, qualified: 4, cpql: 2191, deals: 1, revenue: 18387, roas: 2.10 },
+      { month: "Aug '25", spend: 8765, leads: 127, cpl: 69.02, qualified: 22, cpql: 398.41, deals: 1, revenue: 18387, roas: 2.10 },
       // Month 2 (Sep): Contractor-focused campaigns gaining traction, better qualification rates
-      { month: "Sep '25", spend: 9134, leads: 21, cpl: 435, qualified: 6, cpql: 1522, deals: 2, revenue: 21847, roas: 2.39 },
+      { month: "Sep '25", spend: 9134, leads: 134, cpl: 68.16, qualified: 40, cpql: 228.35, deals: 2, revenue: 21847, roas: 2.39 },
       // Month 3 (Oct): Q4 tax planning interest picking up, seasonal equipment purchase consultations
-      { month: "Oct '25", spend: 9487, leads: 21, cpl: 452, qualified: 8, cpql: 1186, deals: 3, revenue: 26194, roas: 2.76 },
+      { month: "Oct '25", spend: 9487, leads: 133, cpl: 71.33, qualified: 49, cpql: 193.61, deals: 3, revenue: 26194, roas: 2.76 },
       // Month 4 (Nov): Year-end planning rush — contractors seeking advice before major purchases
-      { month: "Nov '25", spend: 9821, leads: 24, cpl: 409, qualified: 10, cpql: 982, deals: 4, revenue: 28765, roas: 2.93 },
+      { month: "Nov '25", spend: 9821, leads: 153, cpl: 64.19, qualified: 61, cpql: 161.0, deals: 4, revenue: 28765, roas: 2.93 },
       // Month 5 (Dec): Peak year-end tax planning — high-intent prospects finalizing strategies
-      { month: "Dec '25", spend: 10156, leads: 27, cpl: 376, qualified: 11, cpql: 923, deals: 5, revenue: 31892, roas: 3.14 },
+      { month: "Dec '25", spend: 10156, leads: 172, cpl: 59.05, qualified: 63, cpql: 161.21, deals: 5, revenue: 31892, roas: 3.14 },
       // Month 6 (Jan): Tax season launch — highest intent and conversion rates as filing deadlines approach
-      { month: "Jan '26", spend: 9847, leads: 29, cpl: 340, qualified: 12, cpql: 821, deals: 4, revenue: 18017, roas: 1.83 },
+      { month: "Jan '26", spend: 9847, leads: 184, cpl: 53.52, qualified: 82, cpql: 120.09, deals: 4, revenue: 18017, roas: 1.83 },
     ],
   },
   impact: [

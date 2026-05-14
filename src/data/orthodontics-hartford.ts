@@ -7,7 +7,7 @@ export const orthodonticsHartford: CaseStudyData = {
   subheadline: "MEGA helped a single-location orthodontics clinic in Hartford, Connecticut rebuild its digital presence from scratch — growing organic traffic from 504 to nearly 15,000 monthly visitors, reducing cost per qualified lead by 59%, and producing 35 new patient starts worth $191K in 10 months.",
   heroStats: [
     { value: "10", unit: "months", label: "Partnership Duration" },
-    { value: "191", unit: "K+", label: "Revenue Attributed" },
+    { value: "$191.2K", unit: "K+", label: "Revenue Attributed" },
     { value: "59", unit: "%", label: "CPQL Reduction" },
   ],
   tags: ["Local SEO", "Paid Advertising", "AI-Powered Optimization", "Orthodontics"],

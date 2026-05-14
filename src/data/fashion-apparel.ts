@@ -3,7 +3,7 @@ import { CaseStudyData } from "./types";
 export const fashionApparel: CaseStudyData = {
   slug: "fashion-apparel",
   industry: "Fashion & Apparel",
-  headline: "How a National Women's Fashion Brand Grew Online Revenue 37% to $198.9K in 12 Months",
+  headline: "How a National Women's Fashion Brand Grew Online Revenue 37% to $199K in 12 Months",
   subheadline: "MEGA helped a direct-to-consumer women's apparel brand optimize paid advertising, build an organic content engine, and capitalize on seasonal demand — generating 5,187 orders and a 4.27x blended ROAS across a full calendar year.",
   heroStats: [
     { value: "12", unit: "months", label: "Campaign Duration" },
@@ -112,7 +112,7 @@ export const fashionApparel: CaseStudyData = {
       { label: "Total Ad Spend", value: "$96.4K" },
       { label: "Total Orders", value: "2,271" },
       { label: "Avg Cost Per Click", value: "$1.24", note: "↓34% from $1.87" },
-      { label: "Blended ROAS", value: "2.1x", note: "from 3.12x baseline" },
+      { label: "Blended ROAS", value: "2.1", note: "from 3.12x baseline" },
     ],
     columnLabels: {
       leads: "Sessions",

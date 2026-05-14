@@ -3,11 +3,11 @@ import { CaseStudyData } from "./types";
 export const roofRestorationCalifornia: CaseStudyData = {
   slug: "roof-restoration-california",
   industry: "Roof Restoration",
-  headline: "How a California Roof Restoration Company Reduced CPQL 42% and Generated $460.2K in 10 Months",
+  headline: "How a California Roof Restoration Company Reduced CPQL 42% and Generated $460K in 10 Months",
   subheadline: "MEGA's feedback loop–driven approach to paid advertising turned a high-spend, low-visibility campaign into a consistent lead engine for a growing California roof restoration business.",
   heroStats: [
     { value: "460.2", unit: "K", label: "Total Revenue Generated" },
-    { value: "4.21", unit: "x", label: "Blended ROAS" },
+    { value: "4.2", unit: "x", label: "Blended ROAS" },
     { value: "42", unit: "%", label: "CPQL Reduction" },
   ],
   tags: ["Paid Advertising", "Lead Generation", "Local"],

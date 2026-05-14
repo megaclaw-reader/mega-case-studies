@@ -108,7 +108,7 @@ export const wearableHealthTechTx: CaseStudyData = {
       { label: "Total Ad Spend", value: "$261.7K" },
       { label: "Total Orders", value: "3,847" },
       { label: "Avg Cost Per Acquisition", value: "$68.02", note: "↓64% from $186.61" },
-      { label: "Blended ROAS", value: "3.6x", note: "from 1.28x baseline" },
+      { label: "Blended ROAS", value: "3.6", note: "from 1.28x baseline" },
     ],
     columnLabels: {
       leads: "Sessions",

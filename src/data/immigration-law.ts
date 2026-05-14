@@ -3,11 +3,11 @@ import { CaseStudyData } from "./types";
 export const immigrationLaw: CaseStudyData = {
   slug: "immigration-law",
   industry: "Immigration Law",
-  headline: "How a National Immigration Law Firm Generated $4.87M in Case Revenue With AI-Powered Digital Marketing",
+  headline: "How a National Immigration Law Firm Generated $4.9M in Case Revenue With AI-Powered Digital Marketing",
   subheadline: "MEGA helped a nationally recognized immigration law practice scale paid digital advertising and organic search simultaneously — reducing cost per qualified lead by 40%, growing organic keywords to 9,400+, and generating $4.87M in attributed revenue over 12 months.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
-    { value: "4.87", unit: "M", label: "Revenue Attributed" },
+    { value: "$4.87M", unit: "M", label: "Revenue Attributed" },
     { value: "40", unit: "%", label: "CPQL Reduction" },
   ],
   tags: ["National SEO", "Paid Advertising", "AI-Powered Lead Generation"],

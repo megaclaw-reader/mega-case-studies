@@ -3,11 +3,11 @@ import { CaseStudyData } from "./types";
 export const inspectionCompanyPhoenix: CaseStudyData = {
   slug: "inspection-company-phoenix",
   industry: "Inspection Company",
-  headline: "How a Phoenix Inspection Company Generated $182.6K in Revenue While Cutting Cost Per Qualified Lead 34%",
+  headline: "How a Phoenix Inspection Company Generated $183K in Revenue While Cutting Cost Per Qualified Lead 34%",
   subheadline: "MEGA helped a Phoenix-based home inspection company optimize their paid advertising and build an organic search presence, reducing CPQL from $94 to $62, ranking for 4,870+ keywords, and generating $182.6K in attributed revenue over 12 months.",
   heroStats: [
     { value: "34", unit: "%", label: "CPQL Reduction" },
-    { value: "182.6", unit: "K", label: "Revenue Attributed" },
+    { value: "$182.6K", unit: "K", label: "Revenue Attributed" },
     { value: "4,870", unit: "", label: "Keywords Ranked" },
   ],
   tags: ["SEO", "Paid Advertising", "Lead Generation"],

@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const hvac: CaseStudyData = {
   slug: "hvac",
   industry: "HVAC",
-  headline: "How a Jacksonville, Florida HVAC Company Generated 341 Qualified Leads and $180.5K in Revenue in 8 Months",
+  headline: "How a Jacksonville, Florida HVAC Company Generated 341 Qualified Leads and $180K in Revenue in 8 Months",
   subheadline: "MEGA helped a local HVAC company in Jacksonville, Florida reduce their cost per qualified lead by 38%, grow organic traffic 440%, and build a predictable lead pipeline through SEO and paid advertising.",
   heroStats: [
     { value: "8", unit: "months", label: "Partnership Duration" },
     { value: "440", unit: "%", label: "Organic Traffic Growth" },
-    { value: "180.5", unit: "K", label: "Revenue Attributed" },
+    { value: "$180.5K", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["Local SEO", "Paid Advertising", "Lead Generation"],
   company: {

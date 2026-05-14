@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const fireworksCincinnati: CaseStudyData = {
   slug: "fireworks-cincinnati",
   industry: "Fireworks Retail",
-  headline: "How a Cincinnati Ohio Fireworks Retailer Generated 4,655 Orders and $325.9K in Revenue in 12 Months",
+  headline: "How a Cincinnati Ohio Fireworks Retailer Generated 4,655 Orders and $326K in Revenue in 12 Months",
   subheadline: "MEGA helped a local fireworks retailer in Cincinnati Ohio slash their cost per cart by 41%, grow organic traffic over 2,100%, and build a seasonally-optimized sales pipeline that peaks when it matters most — 4th of July, New Year's Eve, Memorial Day, and Labor Day.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
     { value: "2,143", unit: "%", label: "Organic Traffic Growth" },
-    { value: "325.9", unit: "K", label: "Revenue Attributed" },
+    { value: "$325.9K", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["Local SEO", "Paid Advertising", "Seasonal Marketing"],
   company: {

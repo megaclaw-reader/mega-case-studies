@@ -3,7 +3,7 @@ import { CaseStudyData } from "./types";
 export const packagedFoods: CaseStudyData = {
   slug: "packaged-foods",
   industry: "Food and Beverage / Packaged Foods",
-  headline: "How a DTC Packaged Foods Brand Achieved 3.10x Blended ROAS — Generating Over $289K in Ecommerce Revenue in 12 Months",
+  headline: "How a DTC Packaged Foods Brand Achieved 3.10x Blended ROAS — Generating Over $290K in Ecommerce Revenue in 12 Months",
   subheadline: "MEGA deployed always-on AI optimization agents and scaled creative production to help a specialty packaged foods brand break through a ROAS plateau, growing from 1.28x to a 5.47x peak and generating over $289K in ecommerce revenue while building a compounding organic search presence from scratch.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },

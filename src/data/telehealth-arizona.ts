@@ -7,7 +7,7 @@ export const telehealthArizona: CaseStudyData = {
   subheadline: "MEGA helped an Arizona-based virtual healthcare provider build organic visibility from 103 to 8,412 keywords while scaling paid advertising from $6K to $8.5K/month — generating $172.3K in attributed patient revenue and reducing cost per qualified lead by 41% over 10 months.",
   heroStats: [
     { value: "10", unit: "months", label: "Partnership Duration" },
-    { value: "129.0", unit: "K", label: "Revenue Attributed" },
+    { value: "$129.0K", unit: "K", label: "Revenue Attributed" },
     { value: "41", unit: "%", label: "CPQL Reduction" },
   ],
   tags: ["SEO Strategy", "Paid Advertising", "Healthcare Marketing", "TeleHealth"],

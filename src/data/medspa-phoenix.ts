@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const medspaPhoenix: CaseStudyData = {
   slug: "medspa-phoenix",
   industry: "Medspa",
-  headline: "How a Phoenix Medspa Scaled Ad Spend From $8.7K to $14.8K/Month — Driving $429.2K in Revenue With a 3.82x Blended ROAS Over 10 Months",
+  headline: "How a Phoenix Medspa Scaled Ad Spend From $429K to $14.8K/Month — Driving $429.2K in Revenue With a 3.82x Blended ROAS Over 10 Months",
   subheadline: "MEGA helped a Phoenix-area medspa systematically scale paid advertising and SEO, growing monthly ad investment from $8,764 to $14,832 as ROAS consistently proved out — driving $429.2K in attributed revenue from high-value aesthetic treatments across the Scottsdale and East Valley corridor.",
   heroStats: [
     { value: "10", unit: "months", label: "Partnership Duration" },
-    { value: "429.2", unit: "K", label: "Revenue Attributed" },
-    { value: "3.82", unit: "x", label: "Blended ROAS" },
+    { value: "$429.2K", unit: "K", label: "Revenue Attributed" },
+    { value: "3.8", unit: "x", label: "Blended ROAS" },
   ],
   tags: ["Paid Advertising", "SEO Strategy", "Business Scaling"],
   company: {

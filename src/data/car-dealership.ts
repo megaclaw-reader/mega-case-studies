@@ -3,10 +3,10 @@ import { CaseStudyData } from "./types";
 export const carDealership: CaseStudyData = {
   slug: "car-dealership",
   industry: "Car Dealership",
-  headline: "How a Florida Car Dealership Generated $329.4K in Attributed Revenue and Ranked for 8,400+ Keywords in 12 Months",
+  headline: "How a Florida Car Dealership Generated $329K in Attributed Revenue and Ranked for 8,400+ Keywords in 12 Months",
   subheadline: "MEGA helped a Florida-based new and pre-owned vehicle dealership build a dominant local search presence and optimize their paid advertising pipeline, reducing Cost Per Qualified Lead from $191 to $110, ranking for 8,412 keywords, and generating $329.4K in attributed revenue across sales and service departments.",
   heroStats: [
-    { value: "329.4", unit: "K", label: "Revenue Attributed" },
+    { value: "$329.4K", unit: "K", label: "Revenue Attributed" },
     { value: "42.4", unit: "%", label: "CPQL Reduction" },
     { value: "8,412", unit: "", label: "Keywords Ranked" },
   ],

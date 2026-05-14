@@ -8,7 +8,7 @@ export const roofing: CaseStudyData = {
   heroStats: [
     { value: "11", unit: "months", label: "Partnership Duration" },
     { value: "375", unit: "%", label: "Organic Traffic Growth" },
-    { value: "185.3", unit: "K", label: "Revenue Attributed" },
+    { value: "$185.3K", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["Local SEO", "Paid Advertising", "AI-Powered Optimization"],
   company: {

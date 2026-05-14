@@ -3,7 +3,7 @@ import { CaseStudyData } from "./types";
 export const artGalleryDecorativeArt: CaseStudyData = {
   slug: "art-gallery-decorative-art",
   industry: "Art Gallery / Decorative Art",
-  headline: "How a National Decorative Art Brand Generated $477.5K in Revenue in 12 Months",
+  headline: "How a National Decorative Art Brand Generated $477K in Revenue in 12 Months",
   subheadline: "MEGA helped a decorative art ecommerce business grow organic traffic by 1,842%, reduce cost per cart by 41%, and achieve a 3.90x blended ROAS through AI-powered paid advertising and SEO.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },

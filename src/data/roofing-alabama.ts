@@ -3,8 +3,8 @@ import { CaseStudyData } from "./types";
 export const roofingAlabama: CaseStudyData = {
   slug: "roofing-alabama",
   industry: "Roofing",
-  headline: "How Alabama Premier Roofing Generated 2,847 Qualified Leads and $892.5K Revenue in 8 Months",
-  subheadline: "Dominating Alabama's competitive roofing market through strategic SEO and paid advertising during peak storm season",
+  headline: "How an Alabama Roofing Contractor Captured $892K in Storm Season Revenue by Combining SEO With AI-Optimized Paid Campaigns",
+  subheadline: "MEGA helped a Birmingham-based residential and commercial roofing company dominate Alabama's competitive storm season market — generating 1,126 qualified leads, closing 44 roofing projects, and achieving a 3.6x blended ROAS over 8 months through always-on AI optimization and aggressive local SEO expansion across Birmingham, Huntsville, Mobile, and Montgomery.",
   heroStats: [
     { value: "892.5", unit: "K", label: "Total Revenue Generated" },
     { value: "3.6", unit: "x", label: "Blended ROAS" },
@@ -14,24 +14,24 @@ export const roofingAlabama: CaseStudyData = {
   
   company: {
     industry: "Roofing",
-    employees: "25-50",
-    revenue: "$3-5M annually",
+    employees: "38",
+    revenue: "$4.2M",
     location: "Birmingham, Alabama",
-    description: "Alabama Premier Roofing serves Birmingham and surrounding metro areas, specializing in residential and commercial roofing services across Alabama's major cities including Huntsville, Mobile, and Montgomery."
+    description: "A residential and commercial roofing contractor headquartered in Birmingham, Alabama, serving the state's four largest metro areas — Birmingham, Huntsville, Mobile, and Montgomery — for over 12 years. The company specializes in storm damage repair, full roof replacements, commercial flat roofing, and emergency tarp services, with average project values ranging from $8,500 for residential re-roofs to $45,000+ for commercial projects. Alabama's severe weather corridor — frequent hailstorms, tornadoes, and high-wind events from March through August — creates intense seasonal demand that the company had historically captured through insurance adjuster relationships and yard sign marketing. However, the digital landscape had shifted: homeowners increasingly searched online for roofing contractors after storm events, and competitors with strong search presence were capturing leads within hours of severe weather. The company's website generated fewer than 20 inbound inquiries per month despite serving one of the most storm-active regions in the southeastern United States.",
   },
   
   challenges: [
     {
-      title: "Weak Digital Presence During Peak Season",
-      description: "During Alabama's prime storm season (March-August), the company was losing high-value roofing projects to competitors with stronger online visibility in key markets like Birmingham, Huntsville, and Mobile."
+      title: "Invisible Online During Alabama's Most Profitable Storm Windows",
+      description: "When severe thunderstorms or hail events hit Birmingham or Huntsville, homeowners immediately searched for roofing help — but this company didn't appear in those results. Competitors with optimized websites and active paid campaigns were capturing emergency roof repair leads within hours of storm events, while this company relied on door-knocking damaged neighborhoods days later. During Alabama's prime storm season (March through August), the company estimated they were missing 60-70% of available storm damage leads in their own service areas simply because their digital presence was nonexistent for searches like 'roof repair Birmingham AL,' 'storm damage roofer near me,' and 'emergency roof tarp Huntsville.'"
     },
     {
-      title: "Poor Search Rankings for High-Intent Keywords",
-      description: "The website ranked poorly for critical Alabama-focused keywords like 'roofing contractor Alabama' and city-specific terms, resulting in minimal organic lead flow when demand was highest."
+      title: "No System to Capture or Qualify Insurance Restoration Leads",
+      description: "The company had no digital infrastructure to differentiate between high-value insurance restoration projects ($12K-$45K) and small repair requests ($500-$2,000). Inbound calls and form fills were handled identically regardless of project scope, and the sales team spent hours driving to properties for estimates that turned out to be minor repairs or renters who couldn't authorize work. Without lead scoring, call tracking, or any pre-qualification system, the true cost of acquiring a profitable roofing project was unknown — making it impossible to scale advertising confidently."
     },
     {
-      title: "Low Authority Score Limiting Growth",
-      description: "Starting with an authority score of only 17, the website lacked the credibility signals needed to compete with established Alabama roofing companies in search results."
+      title: "Competing Against National Franchise Operations With Deeper Pockets",
+      description: "National roofing franchises with corporate marketing budgets dominated paid search results across Alabama's metro areas, consistently outbidding local contractors for high-intent keywords. These franchises also had hundreds of online reviews and polished websites, while this company had 34 reviews and a basic brochure site with no service-area pages, no storm damage content, and no project galleries. In the eyes of a homeowner searching after a storm, the national brands appeared more trustworthy and professional despite this company's superior local reputation and workmanship."
     }
   ],
   
@@ -39,37 +39,45 @@ export const roofingAlabama: CaseStudyData = {
     {
       phase: 1,
       months: "Months 1-2",
-      title: "Foundation & Market Research",
+      title: "Foundation, Storm Infrastructure & Quick Wins",
       items: [
-        "Comprehensive SEO audit and keyword research across Alabama markets",
-        "Competitive analysis of top roofing companies in Birmingham, Huntsville, Mobile",
-        "Technical SEO optimization and site structure improvements",
-        "Initial paid advertising campaigns targeting storm-damage keywords",
-        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
+        "Comprehensive SEO audit across Alabama markets — identified 480+ keyword opportunities across storm damage, roof replacement, and commercial roofing verticals for Birmingham, Huntsville, Mobile, and Montgomery",
+        "Competitive analysis of top 12 roofing companies across Alabama's metro areas — mapped content gaps, citation profiles, and paid campaign strategies to identify positioning opportunities",
+        "Technical SEO overhaul — site speed optimization, mobile responsiveness for homeowners searching from phones during storms, local business schema markup, and Core Web Vitals improvements",
+        "Built dedicated landing pages for each service type (storm damage repair, full roof replacement, commercial flat roofing, emergency tarp service) with city-specific variations for Birmingham, Huntsville, Mobile, and Montgomery",
+        "Implemented call tracking with AI-powered analysis — tagging calls by project type, estimated value, insurance status, and urgency level to feed quality signals back into campaign optimization",
+        "Generated 16 initial content pieces — Alabama storm damage guides, insurance claim navigation walkthroughs, roofing material comparisons for Alabama's climate, and seasonal maintenance checklists",
+        "Launched restructured paid campaigns segmented by intent: emergency storm response keywords (highest bids), planned roof replacement searches, and commercial roofing inquiries — each with dedicated landing pages",
+        "Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement — including weather-triggered bid adjustments that scaled campaigns automatically during severe weather alerts across Alabama counties",
       ]
     },
     {
       phase: 2,
       months: "Months 3-5",
-      title: "Content Strategy & Authority Building",
+      title: "Storm Season Scaling & Content Authority",
       items: [
-        "Location-specific landing pages for major Alabama cities",
-        "Storm damage and seasonal roofing content marketing",
-        "Local link building and citation optimization",
-        "Scaled paid advertising during peak storm season",
-        'AI agents analyzed thousands of performance signals daily, identifying micro-trends and reallocating budget to top-performing keywords and audiences in real time, compounding small daily improvements into significant monthly gains',
+        "Location-specific landing pages expanded to cover 22 Alabama cities and neighborhoods — 'roof repair [City] AL' pages with local storm history, project galleries, and area-specific testimonials",
+        "Storm damage content marketing calendar aligned with Alabama's severe weather season — pre-storm preparation guides, post-storm damage assessment checklists, and insurance documentation resources driving 3.2x higher engagement than generic roofing content",
+        "Local citation building across 54 Alabama-specific directories, Better Business Bureau chapters, and contractor association listings — NAP consistency audit across all platforms",
+        "Scaled paid advertising budget 40% during peak storm months (April-June) as AI agents detected increasing search volume for emergency roof repair terms across Birmingham and Huntsville",
+        "AI agents analyzed thousands of performance signals daily, identifying that insurance-related keywords ('roof insurance claim Alabama,' 'storm damage roofer accepts insurance') converted at 2.7x the rate of generic roofing terms — budget automatically reallocated within hours",
+        "A/B tested landing page elements — before/after storm damage photos from Alabama projects, insurance process timelines, and emergency response guarantees produced 34% higher conversion rates",
+        "Backlink campaigns through Alabama home improvement publications, local news storm coverage partnerships, and regional contractor associations",
+        "Business profile optimization with storm damage project photos, 24/7 emergency availability messaging, and systematic review generation from recent satisfied customers",
       ]
     },
     {
       phase: 3,
       months: "Months 6-8",
-      title: "Market Domination & Optimization",
+      title: "Market Dominance & Lead Quality Optimization",
       items: [
-        "Advanced keyword expansion across Alabama metro areas",
-        "Conversion rate optimization for high-value leads",
-        "Brand awareness campaigns targeting competitor keywords",
-        "ROAS optimization and lead quality improvements",
-        'Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles',
+        "Advanced keyword expansion across all Alabama metro areas — 4,500+ ranking keywords covering residential, commercial, and emergency roofing searches with strong positions for high-intent terms",
+        "Conversion rate optimization focused on high-value insurance restoration leads ($12K+) — implemented project scope pre-qualification, insurance verification steps, and estimated timeline selectors on landing pages",
+        "Lead scoring model integrating property type, damage severity, insurance status, and project timeline — routing high-value leads directly to senior estimators for same-day appointments",
+        "Seasonal transition strategy as storm season wound down — shifted messaging from emergency repair urgency toward planned roof replacement, commercial maintenance contracts, and pre-winter preparation",
+        "ROAS optimization through campaign pruning — paused underperforming ad groups targeting minor repair keywords and reallocated budget toward full replacement and insurance restoration campaigns with 3x higher average project values",
+        "Continuous AI optimization compounded daily improvements with bid adjustments, audience refinements, and budget reallocations happening in real time — capturing post-storm demand spikes within hours of severe weather events rather than waiting for weekly agency review cycles",
+        "Organic traffic surpassed 18,000 monthly visitors with dominant positions for Birmingham and Huntsville roofing searches — reducing long-term dependency on paid advertising for lead generation",
       ]
     }
   ],
@@ -202,10 +210,9 @@ export const roofingAlabama: CaseStudyData = {
   },
   
   impact: [
-    { label: "Total Revenue Generated", value: "$892.5K", growth: "" },
-    { label: "Return on Ad Spend", value: "30.4x ROAS", growth: "" },
-    { label: "Authority Score Growth", value: "17 → 25", growth: "+47%" },
-    { label: "Keyword Rankings", value: "3,847 keywords", growth: "+2,927%" },
-    { label: "Market Domination", value: "Top 3 in Alabama", growth: "from unranked" }
+    { label: "Total Revenue", value: "$892.5K", growth: "" },
+    { label: "Blended ROAS", value: "3.65x", growth: "" },
+    { label: "Qualified Leads", value: "1,126", growth: "" },
+    { label: "Keyword Rankings", value: "4,543", growth: "+2,929%" }
   ]
 };

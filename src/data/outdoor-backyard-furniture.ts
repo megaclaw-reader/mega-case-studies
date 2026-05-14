@@ -8,7 +8,7 @@ export const outdoorBackyardFurniture: CaseStudyData = {
   heroStats: [
     { value: "8", unit: "months", label: "Partnership Duration" },
     { value: "14.3", unit: "K", label: "Monthly Organic Traffic" },
-    { value: "203", unit: "K", label: "Revenue Attributed" },
+    { value: "$202.0K", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["National SEO", "Paid Advertising", "AI-Powered Optimization"],
   company: {

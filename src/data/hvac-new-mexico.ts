@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const hvacNewMexico: CaseStudyData = {
   slug: "hvac-new-mexico",
   industry: "HVAC",
-  headline: "How a New Mexico HVAC Company Generated 794 Qualified Leads and $416.6K in Revenue Through Instrumented Marketing in 8 Months",
+  headline: "How a New Mexico HVAC Company Generated 794 Qualified Leads and $417K in Revenue Through Instrumented Marketing in 8 Months",
   subheadline: "MEGA helped a growing HVAC company in New Mexico reduce their cost per qualified lead by 47% using call tracking, AI-powered lead scoring, and an ICP feedback loop — while scaling multi-channel ad spend from $10.5K to $18.9K/month as results compounded.",
   heroStats: [
     { value: "8", unit: "months", label: "Partnership Duration" },
     { value: "47", unit: "%", label: "CPQL Reduction" },
-    { value: "416.6", unit: "K", label: "Revenue Attributed" },
+    { value: "$416.6K", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["Local SEO", "Paid Advertising", "Lead Generation", "Instrumentation"],
   company: {

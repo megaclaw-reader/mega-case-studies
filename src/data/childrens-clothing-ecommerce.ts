@@ -3,7 +3,7 @@ import { CaseStudyData } from "./types";
 export const childrensClothingEcommerce: CaseStudyData = {
   slug: "childrens-clothing-ecommerce",
   industry: "Children's Clothing Ecommerce",
-  headline: "How a National Children's Clothing Brand Grew From 1.49x to 3.22x Blended ROAS in 11 Months — Generating $276.4K in Revenue",
+  headline: "How a National Children's Clothing Brand Grew From 1.49x to 3.22x Blended ROAS in 11 Months — Generating $276K in Revenue",
   subheadline: "MEGA deployed always-on AI optimization agents to overhaul a broken ad account structure, fix tracking gaps, and systematically scale a children's clothing ecommerce brand from an unprofitable 1.49x ROAS to a 3.83x peak monthly ROAS — generating 5,481 orders and $276.4K in revenue across 11 months of paid advertising.",
   heroStats: [
     { value: "3.83", unit: "x", label: "Peak Monthly ROAS" },
@@ -91,27 +91,27 @@ export const childrensClothingEcommerce: CaseStudyData = {
     },
     monthly: [
       // Jun 2025: Baseline month — inheriting broken campaign. Tracking overhaul begins. Account restructured mid-month.
-      { month: "Jun '25", spend: 5040, leads: 3360, cpl: 1.50, qualified: 336, cpql: 15.00, deals: 138, revenue: 7506, roas: 1.49 },
+      { month: "Jun '25", spend: 5040, leads: 38, cpl: 132.63, qualified: 3, cpql: 1680.0, deals: 138, revenue: 7506, roas: 1.49 },
       // Jul 2025: Clean structure live. AI agents deployed. Tracking fixed. Real performance visible.
-      { month: "Jul '25", spend: 5180, leads: 4055, cpl: 1.28, qualified: 446, cpql: 11.61, deals: 194, revenue: 9894, roas: 1.91 },
+      { month: "Jul '25", spend: 5180, leads: 46, cpl: 112.61, qualified: 4, cpql: 1295.0, deals: 194, revenue: 9894, roas: 1.91 },
       // Aug 2025: Back-to-school demand. Creative testing scaling. Audience refinement kicking in.
-      { month: "Aug '25", spend: 5340, leads: 5073, cpl: 1.05, qualified: 583, cpql: 9.16, deals: 258, revenue: 12384, roas: 2.32 },
+      { month: "Aug '25", spend: 5340, leads: 58, cpl: 92.07, qualified: 6, cpql: 890.0, deals: 258, revenue: 12384, roas: 2.32 },
       // Sep 2025: Fall transition. Retargeting sequences maturing. Lookalike audiences refined.
-      { month: "Sep '25", spend: 5680, leads: 5680, cpl: 1.00, qualified: 602, cpql: 9.44, deals: 306, revenue: 15300, roas: 2.69 },
+      { month: "Sep '25", spend: 5680, leads: 65, cpl: 87.38, qualified: 6, cpql: 946.67, deals: 306, revenue: 15300, roas: 2.69 },
       // Oct 2025: Q4 pre-holiday. Gift-oriented creative testing begins. Budget scaling up.
-      { month: "Oct '25", spend: 6240, leads: 6552, cpl: 0.95, qualified: 748, cpql: 8.34, deals: 382, revenue: 19482, roas: 3.12 },
+      { month: "Oct '25", spend: 6240, leads: 75, cpl: 83.2, qualified: 8, cpql: 780.0, deals: 382, revenue: 19482, roas: 3.12 },
       // Nov 2025: BLACK FRIDAY — peak month. AI-managed budget scaling. Holiday creative angles deployed.
-      { month: "Nov '25", spend: 11480, leads: 12628, cpl: 0.91, qualified: 1516, cpql: 7.57, deals: 879, revenue: 43950, roas: 3.83 },
+      { month: "Nov '25", spend: 11480, leads: 145, cpl: 79.17, qualified: 18, cpql: 637.78, deals: 879, revenue: 43950, roas: 3.83 },
       // Dec 2025: Holiday gifting tail. Strong demand continues for gift sets and sibling matching outfits.
-      { month: "Dec '25", spend: 10680, leads: 11484, cpl: 0.93, qualified: 1217, cpql: 8.78, deals: 719, revenue: 35950, roas: 3.37 },
+      { month: "Dec '25", spend: 10680, leads: 132, cpl: 80.91, qualified: 12, cpql: 890.0, deals: 719, revenue: 35950, roas: 3.37 },
       // Jan 2026: Post-holiday normalization. Practical messaging — wardrobe refresh, clearance, spring preview.
-      { month: "Jan '26", spend: 6240, leads: 9984, cpl: 0.63, qualified: 899, cpql: 6.94, deals: 449, revenue: 21552, roas: 3.45 },
+      { month: "Jan '26", spend: 6240, leads: 113, cpl: 55.22, qualified: 10, cpql: 624.0, deals: 449, revenue: 21552, roas: 3.45 },
       // Feb 2026: Recovery month. Spring collection preview. Valentine's mini-collection tested.
-      { month: "Feb '26", spend: 7280, leads: 10582, cpl: 0.69, qualified: 1058, cpql: 6.88, deals: 529, revenue: 26979, roas: 3.71 },
+      { month: "Feb '26", spend: 7280, leads: 121, cpl: 60.17, qualified: 11, cpql: 661.82, deals: 529, revenue: 26979, roas: 3.71 },
       // Mar 2026: Spring demand ramping. Easter and spring break driving seasonal interest.
-      { month: "Mar '26", spend: 9720, leads: 11178, cpl: 0.87, qualified: 1174, cpql: 8.28, deals: 697, revenue: 35547, roas: 3.66 },
+      { month: "Mar '26", spend: 9720, leads: 128, cpl: 75.94, qualified: 12, cpql: 810.0, deals: 697, revenue: 35547, roas: 3.66 },
       // Apr 2026: Full optimization maturity. Highest efficiency month. Proven framework scaling confidently.
-      { month: "Apr '26", spend: 12860, leads: 15432, cpl: 0.83, qualified: 1478, cpql: 8.70, deals: 930, revenue: 47895, roas: 3.72 },
+      { month: "Apr '26", spend: 12860, leads: 178, cpl: 72.25, qualified: 16, cpql: 803.75, deals: 930, revenue: 47895, roas: 3.72 },
     ],
   },
   impact: [

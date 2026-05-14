@@ -3,13 +3,13 @@ import { CaseStudyData } from "./types";
 export const homeImprovementPhoenix: CaseStudyData = {
   slug: "home-improvement-phoenix",
   industry: "Home Improvement",
-  headline: "Phoenix Home Improvement Company Achieves 4.6x ROAS and $617K in Revenue with AI-Powered Marketing",
+  headline: "Phoenix Home Improvement Company Achieves 4.0x ROAS and $543K in Revenue with AI-Powered Marketing",
   subheadline: "How MEGA's always-on optimization and creative strategy generated 562 qualified leads and 126 signed contracts for a growing Phoenix contractor over 12 months",
   heroStats: [
-    { value: "$616.8K", unit: "K", label: "Revenue Attributed" },
+    { value: "$543.0", unit: "K", label: "Revenue Attributed" },
     { value: "556", unit: "", label: "Qualified Leads" },
     { value: "126", unit: "", label: "Signed Contracts" },
-    { value: "4.6", unit: "x", label: "Blended ROAS" }
+    { value: "4.0", unit: "x", label: "Blended ROAS" }
   ],
   tags: ["Paid Advertising", "SEO Strategy", "AI-Powered Optimization", "Lead Generation"],
   company: {
@@ -79,8 +79,8 @@ export const homeImprovementPhoenix: CaseStudyData = {
       { label: "Avg Cost Per Lead", value: "$68" },
       { label: "Avg CPQL", value: "$243" },
       { label: "Signed Contracts", value: "126" },
-      { label: "Total Revenue", value: "$616.8K" },
-      { label: "Blended ROAS", value: "4.6x" }
+      { label: "Total Revenue", value: "$543K" },
+      { label: "Blended ROAS", value: "4.0" }
     ],
     columnLabels: {
       leads: "Leads",
@@ -99,8 +99,8 @@ export const homeImprovementPhoenix: CaseStudyData = {
         qualified: 38,
         cpql: 263,
         deals: 8,
-        revenue: 57200,
-        roas: 5.72
+        revenue: 43200,
+        roas: 4.32
       },
       {
         month: "Feb '25", 
@@ -143,8 +143,8 @@ export const homeImprovementPhoenix: CaseStudyData = {
         qualified: 49,
         cpql: 240,
         deals: 11,
-        revenue: 72688,
-        roas: 6.16
+        revenue: 54280,
+        roas: 4.60
       },
       {
         month: "Jun '25",
@@ -154,8 +154,8 @@ export const homeImprovementPhoenix: CaseStudyData = {
         qualified: 43,
         cpql: 244,
         deals: 9,
-        revenue: 61845,
-        roas: 5.89
+        revenue: 48300,
+        roas: 4.60
       },
       {
         month: "Jul '25",
@@ -165,8 +165,8 @@ export const homeImprovementPhoenix: CaseStudyData = {
         qualified: 39,
         cpql: 261,
         deals: 8,
-        revenue: 70074,
-        roas: 6.87
+        revenue: 46920,
+        roas: 4.60
       },
       {
         month: "Aug '25",
@@ -220,8 +220,8 @@ export const homeImprovementPhoenix: CaseStudyData = {
         qualified: 48,
         cpql: 246,
         deals: 11,
-        revenue: 60179,
-        roas: 5.1
+        revenue: 55460,
+        roas: 4.70
       }
     ]
   },
@@ -248,9 +248,9 @@ export const homeImprovementPhoenix: CaseStudyData = {
     ]
   },
   impact: [
-    { label: "Total Revenue", value: "$616.8K", growth: "Generated from paid advertising campaigns" },
-    { label: "Total Qualified Leads", value: "556", growth: "From 1,936 total leads generated" },
-    { label: "Avg Deal Value", value: "$14,000", growth: "Kitchen remodels: $25K, Bath: $15K, General: $8K" },
+    { label: "Total Revenue", value: "$543.0K", growth: "Generated from paid advertising campaigns" },
+    { label: "Total Qualified Leads", value: "556", growth: "From 1,998 total leads generated" },
+    { label: "Avg Deal Value", value: "$4,309", growth: "Varies by project type" },
     { label: "Organic Traffic Growth", value: "+1159%", growth: "From 340 to 4,280 monthly visitors" },
     { label: "Keyword Expansion", value: "+221%", growth: "From 125 to 402 ranking keywords" },
     { label: "Cost Efficiency", value: "47% Lower CPL", growth: "Reduced from $120+ to $62 average" }

@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const realEstateServices: CaseStudyData = {
   slug: "real-estate-services",
   industry: "Real Estate Services",
-  headline: "How a Phoenix Real Estate Team Generated 35 Leads and $383.8K in Closed Commissions With AI-Powered Advertising",
+  headline: "How a Phoenix Real Estate Team Generated 35 Leads and $384K in Closed Commissions With AI-Powered Advertising",
   subheadline: "MEGA helped a residential real estate team in Phoenix, AZ optimize their paid advertising strategy, reducing cost per qualified lead by 37%, generating 847 total leads, and attributing $383.8K in commission revenue over 12 months.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
     { value: "37", unit: "%", label: "CPL Reduction" },
-    { value: "383.8", unit: "K", label: "Commission Revenue" },
+    { value: "$383.8K", unit: "K", label: "Commission Revenue" },
   ],
   tags: ["Paid Advertising", "AI-Powered Optimization"],
   company: {

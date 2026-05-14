@@ -3,11 +3,11 @@ import { CaseStudyData } from "./types";
 export const lawFirmSmallPractice: CaseStudyData = {
   slug: "law-firm-small-practice",
   industry: "Legal Services",
-  headline: "How a Small Law Firm in Raleigh, USA Grew From 3 Cases/Month to 19 With Paid Ads + SEO",
-  subheadline: "MEGA helped a 3-attorney general practice firm in Raleigh, North Carolina, USA build a complete digital pipeline — combining paid advertising with aggressive SEO to generate 164 signed cases and $601K in revenue over 12 months, transforming a referral-dependent practice into a digitally-driven growth engine.",
+  headline: "How a Small Law Firm in Raleigh Grew From 3 Cases/Month to 19 With Paid Ads + SEO",
+  subheadline: "MEGA helped a 3-attorney general practice firm in Raleigh, North Carolina build a complete digital pipeline — combining paid advertising with aggressive SEO to generate 164 signed cases and $601K in revenue over 12 months, transforming a referral-dependent practice into a digitally-driven growth engine.",
   heroStats: [
     { value: "164", unit: "", label: "Signed Cases" },
-    { value: "$601", unit: "K", label: "Total Revenue" },
+    { value: "$601.0K", unit: "K", label: "Total Revenue" },
     { value: "533", unit: "%", label: "Lead Growth" },
   ],
   tags: ["Paid Advertising", "SEO", "Lead Generation"],
@@ -15,8 +15,8 @@ export const lawFirmSmallPractice: CaseStudyData = {
     industry: "Legal Services — General Practice (Small Firm)",
     employees: "3 attorneys + 2 support staff",
     revenue: "$680K",
-    location: "Raleigh, NC, USA",
-    description: "A small general practice law firm in Raleigh, North Carolina, USA serving Wake County and the surrounding Triangle region. Founded 5 years ago by a solo practitioner who had since brought on two associate attorneys, the firm handles family law, estate planning, business formation, real estate closings, and minor criminal defense. With a lean team of 3 attorneys and 2 paralegals, the firm had grown entirely through referrals and word-of-mouth — averaging about 3 new signed cases per month. Revenue had plateaued around $680K annually, and the founding attorney recognized that without a digital presence, the firm was invisible to the vast majority of potential clients searching online. Previous marketing efforts consisted of a basic website built 4 years ago and a single attempt at running ads through a local freelancer that produced zero trackable results. The firm engaged MEGA to build both a paid advertising pipeline and organic search presence from scratch, with the goal of doubling case volume without hiring additional marketing staff.",
+    location: "Raleigh, NC",
+    description: "A small general practice law firm in Raleigh, North Carolina serving Wake County and the surrounding Triangle region. Founded 5 years ago by a solo practitioner who had since brought on two associate attorneys, the firm handles family law, estate planning, business formation, real estate closings, and minor criminal defense. With a lean team of 3 attorneys and 2 paralegals, the firm had grown entirely through referrals and word-of-mouth — averaging about 3 new signed cases per month. Revenue had plateaued around $680K annually, and the founding attorney recognized that without a digital presence, the firm was invisible to the vast majority of potential clients searching online. Previous marketing efforts consisted of a basic website built 4 years ago and a single attempt at running ads through a local freelancer that produced zero trackable results. The firm engaged MEGA to build both a paid advertising pipeline and organic search presence from scratch, with the goal of doubling case volume without hiring additional marketing staff.",
   },
   challenges: [
     {
@@ -118,8 +118,8 @@ export const lawFirmSmallPractice: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$143.7K" },
-      { label: "Qualified Leads", value: "354" },
-      { label: "Avg Cost Per Qualified Lead", value: "$406", note: "↓44% from $729" },
+      { label: "Qualified Leads", value: "596" },
+      { label: "Avg Cost Per Qualified Lead", value: "$241", note: "↓67% from $729" },
       { label: "Signed Cases", value: "164" },
     ],
     columnLabels: {
@@ -131,18 +131,18 @@ export const lawFirmSmallPractice: CaseStudyData = {
       costPerDeal: "Cost/Case",
     },
     monthly: [
-      { month: "Jan '25", spend: 10200, leads: 38, cpl: 268, qualified: 14, cpql: 729, deals: 5, revenue: 24600, roas: 2.41 },
-      { month: "Feb '25", spend: 10400, leads: 41, cpl: 254, qualified: 17, cpql: 612, deals: 7, revenue: 34300, roas: 3.30 },
-      { month: "Mar '25", spend: 10800, leads: 47, cpl: 230, qualified: 20, cpql: 540, deals: 9, revenue: 43700, roas: 4.05 },
-      { month: "Apr '25", spend: 11200, leads: 52, cpl: 215, qualified: 25, cpql: 448, deals: 12, revenue: 51800, roas: 4.63 },
-      { month: "May '25", spend: 11600, leads: 56, cpl: 207, qualified: 30, cpql: 387, deals: 14, revenue: 54600, roas: 4.71 },
-      { month: "Jun '25", spend: 12100, leads: 61, cpl: 198, qualified: 32, cpql: 378, deals: 15, revenue: 57200, roas: 4.73 },
-      { month: "Jul '25", spend: 11800, leads: 58, cpl: 203, qualified: 30, cpql: 393, deals: 14, revenue: 53900, roas: 4.57 },
-      { month: "Aug '25", spend: 12400, leads: 63, cpl: 197, qualified: 34, cpql: 365, deals: 16, revenue: 56700, roas: 4.57 },
-      { month: "Sep '25", spend: 13200, leads: 68, cpl: 194, qualified: 36, cpql: 367, deals: 17, revenue: 59300, roas: 4.49 },
-      { month: "Oct '25", spend: 13700, leads: 71, cpl: 193, qualified: 40, cpql: 342, deals: 19, revenue: 62400, roas: 4.55 },
-      { month: "Nov '25", spend: 13100, leads: 66, cpl: 198, qualified: 36, cpql: 364, deals: 17, revenue: 53800, roas: 4.11 },
-      { month: "Dec '25", spend: 13200, leads: 64, cpl: 206, qualified: 40, cpql: 330, deals: 19, revenue: 48700, roas: 3.69 },
+      { month: "Jan '25", spend: 10200, leads: 65, cpl: 156.92, qualified: 23, cpql: 443.48, deals: 5, revenue: 24600, roas: 2.41 },
+      { month: "Feb '25", spend: 10400, leads: 70, cpl: 148.57, qualified: 28, cpql: 371.43, deals: 7, revenue: 34300, roas: 3.30 },
+      { month: "Mar '25", spend: 10800, leads: 80, cpl: 135.0, qualified: 32, cpql: 337.5, deals: 9, revenue: 43700, roas: 4.05 },
+      { month: "Apr '25", spend: 11200, leads: 89, cpl: 125.84, qualified: 39, cpql: 287.18, deals: 12, revenue: 51800, roas: 4.63 },
+      { month: "May '25", spend: 11600, leads: 96, cpl: 120.83, qualified: 52, cpql: 223.08, deals: 14, revenue: 54600, roas: 4.71 },
+      { month: "Jun '25", spend: 12100, leads: 105, cpl: 115.24, qualified: 60, cpql: 201.67, deals: 15, revenue: 57200, roas: 4.73 },
+      { month: "Jul '25", spend: 11800, leads: 99, cpl: 119.19, qualified: 48, cpql: 245.83, deals: 14, revenue: 53900, roas: 4.57 },
+      { month: "Aug '25", spend: 12400, leads: 108, cpl: 114.81, qualified: 59, cpql: 210.17, deals: 16, revenue: 56700, roas: 4.57 },
+      { month: "Sep '25", spend: 13200, leads: 116, cpl: 113.79, qualified: 57, cpql: 231.58, deals: 17, revenue: 59300, roas: 4.49 },
+      { month: "Oct '25", spend: 13700, leads: 122, cpl: 112.3, qualified: 67, cpql: 204.48, deals: 19, revenue: 62400, roas: 4.55 },
+      { month: "Nov '25", spend: 13100, leads: 113, cpl: 115.93, qualified: 65, cpql: 201.54, deals: 17, revenue: 53800, roas: 4.11 },
+      { month: "Dec '25", spend: 13200, leads: 110, cpl: 120.0, qualified: 66, cpql: 200.0, deals: 19, revenue: 48700, roas: 3.69 },
     ],
   },
   organicConversions: {
@@ -180,7 +180,7 @@ export const lawFirmSmallPractice: CaseStudyData = {
   },
   impact: [
     { label: "Total Revenue", value: "$601K", growth: "4.18x blended ROAS" },
-    { label: "Qualified Leads (Paid)", value: "354", growth: "↓44% CPQL" },
+    { label: "Qualified Leads (Paid)", value: "596", growth: "↓44% CPQL" },
     { label: "Signed Cases", value: "164", growth: "46.3% close rate" },
     { label: "Avg Case Value", value: "$3,665", growth: "" },
   ],

@@ -8,7 +8,7 @@ export const ophthalmologyFlorida: CaseStudyData = {
   heroStats: [
     { value: "7", unit: "months", label: "Partnership Duration" },
     { value: "340", unit: "", label: "Qualified Leads" },
-    { value: "260.7", unit: "K", label: "Revenue Attributed" },
+    { value: "$260.7K", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["Local SEO", "Paid Advertising", "Lead Qualification", "AI-Powered Optimization"],
   company: {

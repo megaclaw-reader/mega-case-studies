@@ -8,7 +8,7 @@ export const healthcareRegenerativeMedicine: CaseStudyData = {
   heroStats: [
     { value: "10", unit: "months", label: "Partnership Duration" },
     { value: "94", unit: "K", label: "Total Ad Spend" },
-    { value: "353.2", unit: "K", label: "Revenue Attributed" },
+    { value: "$353.2K", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["Paid Advertising", "Ad Platform Compliance", "Healthcare Marketing"],
   company: {

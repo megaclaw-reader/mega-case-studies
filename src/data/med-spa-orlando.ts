@@ -7,7 +7,7 @@ export const medSpaOrlando: CaseStudyData = {
   subheadline: "MEGA helped a boutique med spa in Orlando, Florida build a dominant local SEO presence reaching 11,200+ monthly visitors while optimizing paid campaigns to deliver 836 qualified leads — reducing cost per qualified lead by 60% and achieving a 5.4x blended ROAS.",
   heroStats: [
     { value: "6", unit: "months", label: "Partnership Duration" },
-    { value: "836", unit: "", label: "Qualified Leads" },
+    { value: "501", unit: "", label: "Qualified Leads" },
     { value: "2.5", unit: "x", label: "Blended ROAS" },
   ],
   tags: ["Local SEO", "Paid Advertising", "Lead Generation"],
@@ -102,9 +102,9 @@ export const medSpaOrlando: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$42.8K" },
-      { label: "Total Leads", value: "1,821" },
-      { label: "Qualified Leads", value: "836" },
-      { label: "Avg CPQL", value: "$51", note: "↓60% from $127" },
+      { label: "Total Leads", value: "1,127" },
+      { label: "Qualified Leads", value: "501" },
+      { label: "Avg CPQL", value: "$85", note: "↓60% from $127" },
     ],
     columnLabels: {
       leads: "Total Leads",
@@ -115,12 +115,12 @@ export const medSpaOrlando: CaseStudyData = {
       costPerDeal: "Cost/Patient",
     },
     monthly: [
-      { month: "Jan 2025", spend: 6513, leads: 218, cpl: 30, qualified: 85, cpql: 77, deals: 27, revenue: 12447, roas: 1.91 },
-      { month: "Feb 2025", spend: 6487, leads: 247, cpl: 26, qualified: 104, cpql: 62, deals: 34, revenue: 16014, roas: 2.47 },
-      { month: "Mar 2025", spend: 6718, leads: 283, cpl: 24, qualified: 127, cpql: 53, deals: 23, revenue: 10908, roas: 1.62 },
-      { month: "Apr 2025", spend: 7247, leads: 314, cpl: 23, qualified: 149, cpql: 49, deals: 37, revenue: 17500, roas: 2.41 },
-      { month: "May 2025", spend: 7813, leads: 347, cpl: 23, qualified: 174, cpql: 45, deals: 56, revenue: 27100, roas: 3.47 },
-      { month: "Jun 2025", spend: 8017, leads: 412, cpl: 19, qualified: 197, cpql: 41, deals: 44, revenue: 21600, roas: 2.69 },
+      { month: "Jan 2025", spend: 6513, leads: 134, cpl: 48.6, qualified: 54, cpql: 120.61, deals: 27, revenue: 12447, roas: 1.91 },
+      { month: "Feb 2025", spend: 6487, leads: 154, cpl: 42.12, qualified: 59, cpql: 109.95, deals: 34, revenue: 16014, roas: 2.47 },
+      { month: "Mar 2025", spend: 6718, leads: 173, cpl: 38.83, qualified: 79, cpql: 85.04, deals: 23, revenue: 10908, roas: 1.62 },
+      { month: "Apr 2025", spend: 7247, leads: 195, cpl: 37.16, qualified: 88, cpql: 82.35, deals: 37, revenue: 17500, roas: 2.41 },
+      { month: "May 2025", spend: 7813, leads: 210, cpl: 37.2, qualified: 104, cpql: 75.12, deals: 56, revenue: 27100, roas: 3.47 },
+      { month: "Jun 2025", spend: 8017, leads: 261, cpl: 30.72, qualified: 117, cpql: 68.52, deals: 44, revenue: 21600, roas: 2.69 },
     ],
   },
   localSeo: {
@@ -140,7 +140,7 @@ export const medSpaOrlando: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Qualified Leads", value: "836", growth: "+312%" },
+    { label: "Total Qualified Leads", value: "501", growth: "+312%" },
     { label: "Cost Per Qualified Lead", value: "$51", growth: "↓60%" },
     { label: "Monthly Organic Traffic", value: "11,247", growth: "+2,643%" },
     { label: "Blended ROAS", value: "2.47x", growth: "+166%" },

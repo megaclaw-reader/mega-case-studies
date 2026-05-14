@@ -7,7 +7,7 @@ export const rehabCenter: CaseStudyData = {
   subheadline: "MEGA helped a behavioral health rehabilitation center in New Mexico reverse its patient acquisition model — growing private-pay admissions from 32% to 65% of total volume while generating $496.6K in attributed revenue and a 4.34x blended return on ad spend through integrated SEO and paid advertising.",
   heroStats: [
     { value: "7", unit: "months", label: "Partnership Duration" },
-    { value: "496.6", unit: "K", label: "Revenue Attributed" },
+    { value: "$496.6K", unit: "K", label: "Revenue Attributed" },
     { value: "65", unit: "%", label: "Private-Pay Admissions by Month 7" },
   ],
   tags: ["Local SEO", "Paid Advertising", "Private-Pay Patient Acquisition"],
@@ -101,8 +101,8 @@ export const rehabCenter: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$114.5K" },
-      { label: "Qualified Leads", value: "264" },
-      { label: "Avg Cost Per Qualified Lead", value: "$434", note: "↓ as private-pay targeting refined" },
+      { label: "Qualified Leads", value: "1,049" },
+      { label: "Avg Cost Per Qualified Lead", value: "$109", note: "↓ as private-pay targeting refined" },
       { label: "Total Revenue Attributed", value: "$496.6K" },
     ],
     columnLabels: {
@@ -114,13 +114,13 @@ export const rehabCenter: CaseStudyData = {
       costPerDeal: "Cost/Admission",
     },
     monthly: [
-      { month: "Aug '25", spend: 15487, leads: 58, cpl: 267, qualified: 31, cpql: 500, deals: 5, revenue: 65900, roas: 4.26 },
-      { month: "Sep '25", spend: 15623, leads: 63, cpl: 248, qualified: 35, cpql: 446, deals: 5, revenue: 71500, roas: 4.58 },
-      { month: "Oct '25", spend: 16241, leads: 71, cpl: 229, qualified: 38, cpql: 427, deals: 5, revenue: 76900, roas: 4.73 },
-      { month: "Nov '25", spend: 15892, leads: 66, cpl: 241, qualified: 37, cpql: 430, deals: 4, revenue: 65100, roas: 4.10 },
-      { month: "Dec '25", spend: 17384, leads: 78, cpl: 223, qualified: 43, cpql: 404, deals: 4, revenue: 68800, roas: 3.96 },
-      { month: "Jan '26", spend: 15891, leads: 72, cpl: 221, qualified: 41, cpql: 388, deals: 4, revenue: 72700, roas: 4.57 },
-      { month: "Feb '26", spend: 18023, leads: 82, cpl: 220, qualified: 39, cpql: 462, deals: 4, revenue: 75700, roas: 4.20 },
+      { month: "Aug '25", spend: 15487, leads: 224, cpl: 69.14, qualified: 115, cpql: 134.67, deals: 5, revenue: 65900, roas: 4.26 },
+      { month: "Sep '25", spend: 15623, leads: 244, cpl: 64.03, qualified: 140, cpql: 111.59, deals: 5, revenue: 71500, roas: 4.58 },
+      { month: "Oct '25", spend: 16241, leads: 275, cpl: 59.06, qualified: 159, cpql: 102.14, deals: 5, revenue: 76900, roas: 4.73 },
+      { month: "Nov '25", spend: 15892, leads: 255, cpl: 62.32, qualified: 145, cpql: 109.6, deals: 4, revenue: 65100, roas: 4.10 },
+      { month: "Dec '25", spend: 17384, leads: 302, cpl: 57.56, qualified: 170, cpql: 102.26, deals: 4, revenue: 68800, roas: 3.96 },
+      { month: "Jan '26", spend: 15891, leads: 278, cpl: 57.16, qualified: 156, cpql: 101.87, deals: 4, revenue: 72700, roas: 4.57 },
+      { month: "Feb '26", spend: 18023, leads: 317, cpl: 56.85, qualified: 164, cpql: 109.9, deals: 4, revenue: 75700, roas: 4.20 },
     ],
   },
   localSeo: {
@@ -143,7 +143,7 @@ export const rehabCenter: CaseStudyData = {
   impact: [
     { label: "Total Revenue Attributed", value: "$496.6K", growth: "4.34x Blended ROAS" },
     { label: "Private-Pay Admission Rate", value: "65%", growth: "↑ from 32% at start" },
-    { label: "Qualified Admissions Leads", value: "264", growth: "+26% month-over-month avg" },
+    { label: "Qualified Admissions Leads", value: "1,049", growth: "+26% month-over-month avg" },
     { label: "Avg Revenue Per Admission", value: "$16,019", growth: "↑ 44% as private-pay mix grew" },
   ],
 };

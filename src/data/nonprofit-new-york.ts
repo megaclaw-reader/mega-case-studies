@@ -5,7 +5,7 @@ export const nonprofitNewYork: CaseStudyData = {
   industry: 'Non-Profit',
   
   // Hero Section
-  headline: "How One New York Non-Profit Generated $117.0K in Donations Through Strategic SEO & Paid Advertising",
+  headline: "How One New York Non-Profit Generated $117K in Donations Through Strategic SEO & Paid Advertising",
   subheadline: "A comprehensive digital marketing transformation that increased organic traffic by 8,150% and built a sustainable donor acquisition system for a Manhattan-based humanitarian organization.",
   
   heroStats: [

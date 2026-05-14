@@ -6,7 +6,7 @@ export const multifamilyHousingBoston: CaseStudyData = {
   headline: "How a Boston Multifamily Property Management Company Generated 174 Qualified Tenant Leads to Fill Rental Units Across the City",
   subheadline: "MEGA helped a Boston-based multifamily housing company drive qualified tenant leads through AI-powered paid advertising and local SEO, reducing cost per qualified lead from $516 to $338 and generating $168.6K in attributed lease revenue over 7 months.",
   heroStats: [
-    { value: "174", unit: "", label: "Qualified Leads" },
+    { value: "394", unit: "", label: "Qualified Leads" },
     { value: "168.6", unit: "K", label: "Lease Revenue" },
     { value: "35", unit: "%", label: "CPQL Reduction" },
   ],
@@ -114,24 +114,24 @@ export const multifamilyHousingBoston: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$68.9K" },
-      { label: "Qualified Leads", value: "174" },
-      { label: "Avg CPQL", value: "$396", note: "↓23% from $516" },
+      { label: "Qualified Leads", value: "394" },
+      { label: "Avg CPQL", value: "$175", note: "↓23% from $516" },
       { label: "Signed Leases", value: "41" },
     ],
     monthly: [
-      { month: "Jul 2025", spend: 8764, leads: 28, cpl: 313, qualified: 17, cpql: 516, deals: 3, revenue: 11541, roas: 1.32 },
-      { month: "Aug 2025", spend: 10247, leads: 38, cpl: 270, qualified: 24, cpql: 427, deals: 5, revenue: 21065, roas: 2.06 },
-      { month: "Sep 2025", spend: 12183, leads: 52, cpl: 234, qualified: 34, cpql: 358, deals: 9, revenue: 40383, roas: 3.31 },
-      { month: "Oct 2025", spend: 10412, leads: 41, cpl: 254, qualified: 28, cpql: 372, deals: 7, revenue: 29092, roas: 2.79 },
-      { month: "Nov 2025", spend: 9387, leads: 35, cpl: 268, qualified: 23, cpql: 408, deals: 6, revenue: 23544, roas: 2.51 },
-      { month: "Dec 2025", spend: 9124, leads: 32, cpl: 285, qualified: 22, cpql: 415, deals: 5, revenue: 18590, roas: 2.04 },
-      { month: "Jan 2026", spend: 8791, leads: 39, cpl: 225, qualified: 26, cpql: 338, deals: 6, revenue: 24378, roas: 2.77 },
+      { month: "Jul 2025", spend: 8764, leads: 63, cpl: 139.11, qualified: 39, cpql: 224.72, deals: 3, revenue: 11541, roas: 1.32 },
+      { month: "Aug 2025", spend: 10247, leads: 85, cpl: 120.55, qualified: 48, cpql: 213.48, deals: 5, revenue: 21065, roas: 2.06 },
+      { month: "Sep 2025", spend: 12183, leads: 117, cpl: 104.13, qualified: 78, cpql: 156.19, deals: 9, revenue: 40383, roas: 3.31 },
+      { month: "Oct 2025", spend: 10412, leads: 92, cpl: 113.17, qualified: 66, cpql: 157.76, deals: 7, revenue: 29092, roas: 2.79 },
+      { month: "Nov 2025", spend: 9387, leads: 79, cpl: 118.82, qualified: 48, cpql: 195.56, deals: 6, revenue: 23544, roas: 2.51 },
+      { month: "Dec 2025", spend: 9124, leads: 72, cpl: 126.72, qualified: 51, cpql: 178.9, deals: 5, revenue: 18590, roas: 2.04 },
+      { month: "Jan 2026", spend: 8791, leads: 88, cpl: 99.9, qualified: 64, cpql: 137.36, deals: 6, revenue: 24378, roas: 2.77 },
     ],
   },
   impact: [
     { label: "Total Revenue", value: "$168.6K", growth: "" },
     { label: "Blended ROAS", value: "2.45x", growth: "" },
-    { label: "Total Qualified Leads", value: "174", growth: "" },
+    { label: "Total Qualified Leads", value: "394", growth: "" },
     { label: "Avg CPQL", value: "$396", growth: "↓23% from $516" },
   ],
 };

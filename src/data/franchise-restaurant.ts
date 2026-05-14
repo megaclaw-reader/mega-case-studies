@@ -8,7 +8,7 @@ export const franchiseRestaurant: CaseStudyData = {
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
     { value: "395", unit: "%", label: "Customer Acquisition Growth" },
-    { value: "655", unit: "K", label: "Revenue Attributed" },
+    { value: "$655.2K", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["Paid Advertising", "Local SEO", "Multi-Location", "AI-Powered Optimization"],
   company: {

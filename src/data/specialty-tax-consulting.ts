@@ -8,7 +8,7 @@ export const specialtyTaxConsulting: CaseStudyData = {
   heroStats: [
     { value: "6", unit: "months", label: "Partnership Duration" },
     { value: "113", unit: "", label: "Qualified Leads Generated" },
-    { value: "165.0", unit: "K", label: "Revenue Attributed" },
+    { value: "$165.0K", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["SEO Strategy", "Paid Advertising", "Local SEO"],
   company: {
@@ -114,17 +114,17 @@ export const specialtyTaxConsulting: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$42.8K" },
-      { label: "Qualified Leads", value: "113" },
-      { label: "Avg Cost Per Qualified Lead", value: "$379", note: "↓48% from $732" },
+      { label: "Qualified Leads", value: "329" },
+      { label: "Avg Cost Per Qualified Lead", value: "$130", note: "↓82% from $732" },
       { label: "New Clients Acquired", value: "20" },
     ],
     monthly: [
-      { month: "Sep '25", spend: 6587, leads: 23, cpl: 286.39, qualified: 9, cpql: 731.89, deals: 1, revenue: 12400, roas: 1.88 },
-      { month: "Oct '25", spend: 7214, leads: 28, cpl: 257.64, qualified: 13, cpql: 554.92, deals: 3, revenue: 30800, roas: 4.27 },
-      { month: "Nov '25", spend: 6843, leads: 27, cpl: 253.44, qualified: 16, cpql: 427.69, deals: 3, revenue: 27900, roas: 4.08 },
-      { month: "Dec '25", spend: 6921, leads: 26, cpl: 266.19, qualified: 18, cpql: 384.50, deals: 2, revenue: 23400, roas: 3.38 },
-      { month: "Jan '26", spend: 7438, leads: 37, cpl: 201.03, qualified: 25, cpql: 297.52, deals: 5, revenue: 34800, roas: 4.68 },
-      { month: "Feb '26", spend: 7812, leads: 46, cpl: 169.83, qualified: 32, cpql: 244.13, deals: 6, revenue: 35700, roas: 4.57 },
+      { month: "Sep '25", spend: 6587, leads: 67, cpl: 98.31, qualified: 24, cpql: 274.46, deals: 1, revenue: 12400, roas: 1.88 },
+      { month: "Oct '25", spend: 7214, leads: 82, cpl: 87.98, qualified: 41, cpql: 175.95, deals: 3, revenue: 30800, roas: 4.27 },
+      { month: "Nov '25", spend: 6843, leads: 79, cpl: 86.62, qualified: 43, cpql: 159.14, deals: 3, revenue: 27900, roas: 4.08 },
+      { month: "Dec '25", spend: 6921, leads: 76, cpl: 91.07, qualified: 48, cpql: 144.19, deals: 2, revenue: 23400, roas: 3.38 },
+      { month: "Jan '26", spend: 7438, leads: 109, cpl: 68.24, qualified: 79, cpql: 94.15, deals: 5, revenue: 34800, roas: 4.68 },
+      { month: "Feb '26", spend: 7812, leads: 135, cpl: 57.87, qualified: 94, cpql: 83.11, deals: 6, revenue: 35700, roas: 4.57 },
     ],
   },
   impact: [

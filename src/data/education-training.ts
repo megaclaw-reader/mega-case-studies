@@ -7,8 +7,8 @@ export const educationTraining: CaseStudyData = {
   subheadline: "MEGA helped a national continuing education and professional certification company reduce cost per qualified lead by 34%, grow organic traffic 3,731%, and generate $347.1K in attributed revenue over 12 months.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
-    { value: "347.1", unit: "K", label: "Revenue Attributed" },
-    { value: "3.79", unit: "x", label: "Blended ROAS" },
+    { value: "$347.1K", unit: "K", label: "Revenue Attributed" },
+    { value: "3.8", unit: "x", label: "Blended ROAS" },
   ],
   tags: ["SEO Strategy", "Paid Advertising", "AI-Powered Optimization"],
   company: {

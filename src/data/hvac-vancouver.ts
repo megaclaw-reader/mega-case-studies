@@ -8,7 +8,7 @@ export const hvacVancouver: CaseStudyData = {
   heroStats: [
     { value: "19", unit: "months", label: "Partnership Duration" },
     { value: "52", unit: "%", label: "Qualification Rate" },
-    { value: "1.26", unit: "M", label: "Revenue Attributed" },
+    { value: "$1.26M", unit: "M", label: "Revenue Attributed" },
   ],
   tags: ["Paid Advertising", "SEO", "Local SEO", "Lead Quality Optimization"],
   company: {
@@ -130,9 +130,9 @@ export const hvacVancouver: CaseStudyData = {
   },
   localSeo: {
     summary: [
-      { label: "GBP Profile Views", value: "11,720/mo", growth: "+634%", from: "from 1,596" },
+      { label: "Profile Views", value: "11,720/mo", growth: "+634%", from: "from 1,596" },
       { label: "Maps Impressions", value: "19,840/mo", growth: "+587%", from: "from 2,882" },
-      { label: "GBP Phone Calls", value: "387/mo", growth: "+612%", from: "from 54" },
+      { label: "Profile Phone Calls", value: "387/mo", growth: "+612%", from: "from 54" },
       { label: "Direction Requests", value: "214/mo", growth: "+534%", from: "from 34" },
     ],
     monthly: [

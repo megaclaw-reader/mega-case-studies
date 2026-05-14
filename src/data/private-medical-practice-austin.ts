@@ -7,7 +7,7 @@ export const privateMedicalPracticeAustin: CaseStudyData = {
   subheadline: "MEGA helped a multi-physician private medical practice in Austin, Texas build a dominant organic presence and systematically scale paid campaigns around lead quality — growing qualified patient leads by 205% and achieving a 3.63x blended ROAS on services averaging $3,100–$3,500 per new patient.",
   heroStats: [
     { value: "8", unit: "months", label: "Partnership Duration" },
-    { value: "356.4", unit: "K", label: "Revenue Attributed" },
+    { value: "$356.4K", unit: "K", label: "Revenue Attributed" },
     { value: "58", unit: "%", label: "Lead Qualification Rate" },
   ],
   tags: ["Paid Advertising", "SEO Strategy", "Lead Quality Optimization"],
