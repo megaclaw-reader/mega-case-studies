@@ -735,7 +735,10 @@
     "Medical Assessment AI App": "lead_gen_services",
     "Business Brokerage": "lead_gen_professional",
     "Municipal Infrastructure Products": "lead_gen_professional",
-    "Orthodontics": "healthcare_medical"
+    "Orthodontics": "healthcare_medical",
+    "Artisan Home Goods Ecommerce": "ecommerce",
+    "Digital Marketing Agency": "lead_gen_professional",
+    "Creative Branding Agency": "lead_gen_professional"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",

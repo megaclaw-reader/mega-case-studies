@@ -1,0 +1,128 @@
+import { CaseStudyData } from "./types";
+
+export const commercialSurveillanceMiami: CaseStudyData = {
+  slug: "commercial-surveillance-miami",
+  industry: "Alarm and Surveillance",
+  headline: "Miami Commercial Surveillance Firm Closes 59 Projects Worth $303K Through AI-Driven Lead Generation and SEO",
+  subheadline: "MEGA helped a Miami-based commercial surveillance and access control company reduce Cost Per Qualified Lead by 59%, close 59 commercial projects, and grow organic search presence to 5,412 keywords in 10 months — using always-on AI optimization to compete in South Florida's high-stakes commercial security market.",
+  heroStats: [
+    { value: "59", unit: "%", label: "CPQL Reduction" },
+    { value: "59", unit: "", label: "Commercial Projects Closed" },
+    { value: "$303", unit: "K", label: "Total Revenue Generated" },
+    { value: "4.4", unit: "x", label: "Blended ROAS" },
+  ],
+  tags: ["Lead Generation", "Paid Advertising", "SEO", "Commercial Security"],
+  company: {
+    industry: "Alarm & Surveillance — Commercial Surveillance Systems and Access Control",
+    employees: "24",
+    revenue: "$3.1M",
+    location: "Miami, FL (Serving Fort Lauderdale, Boca Raton, West Palm Beach, Hialeah, Coral Gables, Doral)",
+    description: "A Miami-based commercial security company specializing in enterprise-grade surveillance system design, IP camera network installation, access control deployment, and integrated security solutions for commercial properties throughout South Florida. The company focuses exclusively on commercial and multi-tenant projects — office buildings, retail plazas, warehouse and distribution facilities, condominium associations, hospitality properties, and healthcare campuses. Project values range from $4,200 for small retail surveillance packages to $18,000+ for multi-building access control and camera network deployments with centralized monitoring. With 12 years of experience navigating South Florida's unique security landscape — hurricane-resistant outdoor installations, saltwater corrosion protection, bilingual project management, and compliance with Florida commercial security licensing requirements — the company had built a strong reputation among property management firms but struggled to attract new commercial clients through digital channels as competitors invested heavily in online lead generation.",
+  },
+  challenges: [
+    {
+      title: "Long Sales Cycles and High Acquisition Costs in Commercial Security",
+      description: "Commercial surveillance projects involve multiple decision-makers — property managers, building owners, HOA boards, and facilities directors — creating sales cycles averaging 45-60 days from initial inquiry to signed contract. The company's previous marketing efforts generated a mix of residential inquiries (which they didn't serve) and low-quality commercial leads from national directory listings. With an estimated Cost Per Qualified Lead exceeding $380 before engagement, the company was spending significantly to acquire each commercial opportunity. The mismatch between broad marketing and their narrow commercial focus meant over 60% of incoming inquiries were immediately disqualified, wasting both marketing budget and sales team capacity.",
+    },
+    {
+      title: "Competing Against National Integrators with Massive Digital Budgets",
+      description: "South Florida's commercial security market is dominated by national integration firms with six-figure monthly marketing budgets and dedicated digital teams. These competitors occupied top positions for virtually every commercial security search term in the Miami market. Despite offering superior local expertise, faster response times, and more competitive project pricing, the company was invisible online for high-intent searches like 'commercial surveillance installation Miami' and 'access control company South Florida.' The company's 8-page website lacked the depth, technical content, and local authority signals needed to compete for commercial decision-makers conducting online research.",
+    },
+    {
+      title: "No Content Strategy Addressing South Florida Commercial Security Needs",
+      description: "South Florida's commercial security landscape presents unique challenges that generic national content doesn't address — hurricane-rated outdoor camera housings, saltwater environment considerations for coastal properties, high-humidity equipment specifications, bilingual access control interfaces for diverse workforces, and Florida-specific commercial security licensing and insurance requirements. The company's deep expertise in these areas existed only in their sales conversations, not on their website. Commercial prospects researching surveillance solutions found generic national content rather than the South Florida-specific guidance that would establish the company as the local authority.",
+    },
+  ],
+  strategy: [
+    {
+      phase: 1,
+      months: "June–August 2025",
+      title: "Commercial-Focused Campaign Architecture",
+      items: [
+        "Deployed always-on AI optimization agents directly within ad accounts — monitoring bid performance, budget allocation, and audience signals continuously rather than relying on periodic manual review cycles",
+        "Built dedicated commercial lead qualification funnel with multi-step forms capturing project scope, property type, number of locations, and budget range to pre-qualify leads before sales engagement",
+        "Launched initial creative testing suite with 14 ad variations targeting distinct commercial verticals — office buildings, retail centers, warehouses, condominiums, and hospitality properties — each with industry-specific messaging",
+        "Created vertical-specific landing pages for each commercial segment with relevant case photography, technical specifications, and compliance certifications to build credibility with commercial decision-makers",
+        "Established SEO foundation with site architecture rebuild from 8 to 38 pages, technical audit, and keyword mapping targeting 624 South Florida commercial security search terms",
+        "Launched local citation building across 48 South Florida directories including Florida Department of Agriculture and Consumer Services contractor listings, Miami-Dade Chamber, Broward business directories, and commercial real estate associations",
+        "Published 9 foundational content pieces addressing South Florida commercial security topics including hurricane-rated installation guides, saltwater environment camera specifications, and Florida commercial licensing requirements",
+        "Implemented comprehensive conversion tracking with CRM integration connecting every form submission, phone call, and consultation to pipeline stages and project values for closed-loop attribution",
+      ],
+    },
+    {
+      phase: 2,
+      months: "September–December 2025",
+      title: "Vertical Optimization & Authority Building",
+      items: [
+        "AI agents identified that condominium association and warehouse verticals produced 2.3x higher close rates — automatically shifted 30% of budget toward these segments within days rather than waiting for quarterly strategy reviews",
+        "Scaled creative production to 20+ variations per month, testing vertical-specific messaging, project scope angles, and seasonal commercial themes at a pace that would require a dedicated marketing team",
+        "Implemented CRM feedback loop feeding closed project values back to ad platform algorithms — commercial projects averaging $5,800+ triggered automatic bid increases for similar audience profiles",
+        "Published 38 SEO content pieces targeting commercial security long-tail queries: facility-specific surveillance guides, access control system comparisons, and South Florida building code compliance content",
+        "Built location-specific commercial security pages for 9 South Florida markets — Miami, Fort Lauderdale, Boca Raton, West Palm Beach, Hialeah, Coral Gables, Doral, Hollywood, and Pompano Beach",
+        "Launched targeted content campaigns for hurricane season preparation — commercial property surveillance hardening, emergency access control protocols, and post-storm system assessment guides",
+        "Generated 47 new reviews from completed commercial projects through systematic post-installation follow-up sequences, growing from 64 to 111 reviews with 4.8-star average",
+        "Created technical resource library with downloadable commercial security planning worksheets, generating qualified leads from facilities managers and property management companies",
+      ],
+    },
+    {
+      phase: 3,
+      months: "January–March 2026",
+      title: "Market Expansion & Conversion Optimization",
+      items: [
+        "Real-time performance monitoring detected Q1 surge in commercial tenant improvement projects — AI agents reallocated budget to capture increased demand from office and retail buildouts across South Florida",
+        "Advanced audience targeting using first-party data signals — property management companies with multiple locations, recently permitted commercial construction projects, and condominium associations with upcoming annual meetings",
+        "Expanded content strategy to 5,412 indexed keywords covering emerging commercial security verticals: cannabis facility surveillance, medical office access control, luxury condo smart building integration, and marina security systems",
+        "Conversion rate optimization on high-traffic commercial pages — added project scoping calculators, virtual site assessment booking, and live chat with commercial security specialists, improving conversion rate from 2.8% to 5.2%",
+        "Implemented account-based retargeting for multi-location property management firms showing engagement across multiple service pages, recovering 18% of abandoned commercial inquiries",
+        "Continuous AI optimization compounded daily improvements across bid management, audience refinement, and budget allocation — capturing competitive shifts and seasonal patterns in real time without manual intervention",
+        "Published Q1 commercial security content including new construction surveillance planning guides, annual security audit checklists for commercial properties, and technology upgrade comparison resources",
+      ],
+    },
+  ],
+  seo: {
+    summary: [
+      { label: "Total Keywords", value: "5,412", growth: "+5,137%", from: "from 103" },
+      { label: "Top 10 Rankings", value: "289", growth: "+2,790%", from: "from 10" },
+      { label: "Organic Traffic", value: "11,847/mo", growth: "+6,863%", from: "from 170" },
+      { label: "Organic Leads", value: "142/mo", growth: "+3,450%", from: "from 4" },
+    ],
+    monthly: [
+      { month: "Jun '25", keywords: 103, top10: 10, top3: 2, traffic: 170, pages: 8, avgPos: 51.7, ctr: 0.6 },
+      { month: "Jul '25", keywords: 167, top10: 16, top3: 3, traffic: 278, pages: 17, avgPos: 46.9, ctr: 0.7 },
+      { month: "Aug '25", keywords: 258, top10: 25, top3: 5, traffic: 447, pages: 27, avgPos: 42.3, ctr: 0.8 },
+      { month: "Sep '25", keywords: 412, top10: 41, top3: 9, traffic: 789, pages: 38, avgPos: 38.1, ctr: 0.9 },
+      { month: "Oct '25", keywords: 647, top10: 64, top3: 14, traffic: 1384, pages: 52, avgPos: 34.6, ctr: 1.0 },
+      { month: "Nov '25", keywords: 987, top10: 98, top3: 22, traffic: 2247, pages: 68, avgPos: 31.2, ctr: 1.1 },
+      { month: "Dec '25", keywords: 1478, top10: 147, top3: 33, traffic: 3518, pages: 87, avgPos: 28.4, ctr: 1.2 },
+      { month: "Jan '26", keywords: 2247, top10: 189, top3: 47, traffic: 5342, pages: 108, avgPos: 25.9, ctr: 1.4 },
+      { month: "Feb '26", keywords: 3547, top10: 237, top3: 64, traffic: 8147, pages: 134, avgPos: 23.7, ctr: 1.5 },
+      { month: "Mar '26", keywords: 5412, top10: 289, top3: 87, traffic: 11847, pages: 162, avgPos: 21.4, ctr: 1.7 },
+    ],
+  },
+  paidAds: {
+    summary: [
+      { label: "Total Ad Spend", value: "$69.6K" },
+      { label: "Qualified Leads", value: "315" },
+      { label: "Avg Cost Per Qualified Lead", value: "$221", note: "↓59% from $388" },
+      { label: "Closed Deals", value: "59" },
+    ],
+    monthly: [
+      { month: "Jun '25", spend: 6200, leads: 37, cpl: 167.57, qualified: 15, cpql: 413.33, deals: 3, revenue: 23520, roas: 3.79 },
+      { month: "Jul '25", spend: 6400, leads: 43, cpl: 148.84, qualified: 19, cpql: 336.84, deals: 3, revenue: 25020, roas: 3.91 },
+      { month: "Aug '25", spend: 6500, leads: 49, cpl: 132.65, qualified: 22, cpql: 295.45, deals: 4, revenue: 26880, roas: 4.14 },
+      { month: "Sep '25", spend: 6800, leads: 56, cpl: 121.43, qualified: 26, cpql: 261.54, deals: 5, revenue: 29700, roas: 4.37 },
+      { month: "Oct '25", spend: 7100, leads: 63, cpl: 112.70, qualified: 31, cpql: 229.03, deals: 6, revenue: 31080, roas: 4.38 },
+      { month: "Nov '25", spend: 7300, leads: 71, cpl: 102.82, qualified: 35, cpql: 208.57, deals: 7, revenue: 32970, roas: 4.52 },
+      { month: "Dec '25", spend: 6800, leads: 69, cpl: 98.55, qualified: 34, cpql: 200.00, deals: 6, revenue: 30720, roas: 4.52 },
+      { month: "Jan '26", spend: 7200, leads: 78, cpl: 92.31, qualified: 40, cpql: 180.00, deals: 8, revenue: 32960, roas: 4.58 },
+      { month: "Feb '26", spend: 7500, leads: 86, cpl: 87.21, qualified: 44, cpql: 170.45, deals: 8, revenue: 34720, roas: 4.63 },
+      { month: "Mar '26", spend: 7800, leads: 94, cpl: 82.98, qualified: 49, cpql: 159.18, deals: 9, revenue: 35820, roas: 4.59 },
+    ],
+  },
+  impact: [
+    { label: "CPQL Reduction", value: "59%", growth: "from $388 to $159" },
+    { label: "Total Revenue", value: "$303.4K", growth: "59 projects closed" },
+    { label: "Blended ROAS", value: "4.4x", growth: "peak 4.6x" },
+    { label: "Organic Keywords", value: "5,412", growth: "+5,137% from 103" },
+  ],
+};

@@ -272,6 +272,9 @@ import { childrensClothingEcommerce } from "./childrens-clothing-ecommerce";
 import { pensionAppointmentGeneration } from "./pension-appointment-generation";
 import { dentalPracticeCharlotte } from "./dental-practice-charlotte";
 import { wealthManagementSeo } from "./wealth-management-seo";
+import { artisanHomeGoodsPortland } from "./artisan-home-goods-portland";
+import { digitalMarketingAgencyPhoenix } from "./digital-marketing-agency-phoenix";
+import { creativeBrandingAgencyAtlanta } from "./creative-branding-agency-atlanta";
 
 export const caseStudies: Record<string, CaseStudyData> = {
   "medical-assessment-ai-app": medicalAssessmentAiApp,
@@ -546,6 +549,9 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "security-surveillance-dallas": securitySurveillanceDallas,
   "security-surveillance-miami": securitySurveillanceMiami,
   "commercial-surveillance-miami": commercialSurveillanceMiami,
+  "artisan-home-goods-portland": artisanHomeGoodsPortland,
+  "digital-marketing-agency-phoenix": digitalMarketingAgencyPhoenix,
+  "creative-branding-agency-atlanta": creativeBrandingAgencyAtlanta,
 };
 
 export type { CaseStudyData };
