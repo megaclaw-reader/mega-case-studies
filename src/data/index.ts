@@ -1,4 +1,7 @@
 import { CaseStudyData } from "./types";
+import { securitySurveillanceDallas } from "./security-surveillance-dallas";
+import { securitySurveillanceMiami } from "./security-surveillance-miami";
+import { commercialSurveillanceMiami } from "./commercial-surveillance-miami";
 import { orthodonticsHartford } from "./orthodontics-hartford";
 import { orthodonticsSantaRosa } from "./orthodontics-santa-rosa";
 import { businessBrokerage } from "./business-brokerage";
@@ -231,6 +234,8 @@ import { fintechNewYork } from "./fintech-new-york";
 import { artGalleryDecorativeArt } from "./art-gallery-decorative-art";
 import { optometristArizona } from "./optometrist-arizona";
 import { staffingBoston } from "./staffing-boston";
+import { staffingChicago } from "./staffing-chicago";
+import { accountingHouston } from "./accounting-houston";
 import { beautyProductsEcommerce } from "./beauty-products-ecommerce";
 import { roofRestorationCalifornia } from "./roof-restoration-california";
 import { roofingTexas } from "./roofing-texas";
@@ -453,6 +458,8 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "luxury-home-decor": luxuryHomeDecor,
   "optometrist-arizona": optometristArizona,
   "staffing-boston": staffingBoston,
+  "staffing-chicago": staffingChicago,
+  "accounting-houston": accountingHouston,
   "ophthalmology-florida": ophthalmologyFlorida,
   "self-storage-new-york": selfStorageNewYork,
   "live-event-technology-seo": liveEventTechnologySeo,
@@ -536,6 +543,9 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "business-brokerage": businessBrokerage,
   "orthodontics-hartford": orthodonticsHartford,
   "orthodontics-santa-rosa": orthodonticsSantaRosa,
+  "security-surveillance-dallas": securitySurveillanceDallas,
+  "security-surveillance-miami": securitySurveillanceMiami,
+  "commercial-surveillance-miami": commercialSurveillanceMiami,
 };
 
 export type { CaseStudyData };
