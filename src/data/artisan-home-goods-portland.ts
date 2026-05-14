@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const artisanHomeGoodsPortland: CaseStudyData = {
   slug: "artisan-home-goods-portland",
   industry: "Artisan Home Goods Ecommerce",
-  headline: "How a Portland Artisan Home Goods Brand Scaled From 1.6x to 4.5x Blended ROAS — Generating $452K in Revenue Over 12 Months",
-  subheadline: "MEGA deployed always-on AI optimization agents, rebuilt campaign architecture from the ground up, and launched a comprehensive SEO content strategy for a direct-to-consumer artisan home décor brand based in Portland, Oregon. Over 12 months, cost per visit dropped 38%, add-to-cart rates nearly doubled, organic traffic grew past 9,400 monthly visitors, and the brand generated $452K in attributed ecommerce revenue.",
+  headline: "How a Portland Artisan Home Goods Brand Scaled From 2.3x to 4.6x Blended ROAS — Generating $496K in Revenue Over 12 Months",
+  subheadline: "MEGA deployed always-on AI optimization agents, rebuilt campaign architecture from the ground up, and launched a comprehensive SEO content strategy for a direct-to-consumer artisan home décor brand based in Portland, Oregon. Over 12 months, cost per visit dropped 36%, add-to-cart rates improved steadily, organic traffic grew past 9,400 monthly visitors, and the brand generated $496K in attributed ecommerce revenue.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
-    { value: "6.72", unit: "x", label: "Peak ROAS Achieved" },
-    { value: "$451.9K", unit: "K", label: "Revenue Generated" },
+    { value: "6.73", unit: "x", label: "Peak ROAS Achieved" },
+    { value: "$495.8K", unit: "K", label: "Revenue Generated" },
   ],
   tags: ["Ecommerce", "SEO", "Paid Advertising", "DTC", "Home Décor"],
   company: {
@@ -16,11 +16,11 @@ export const artisanHomeGoodsPortland: CaseStudyData = {
     employees: "8",
     revenue: "$850K",
     location: "Portland, Oregon",
-    description: "A direct-to-consumer artisan home goods and décor brand based in Portland, Oregon, specializing in handcrafted ceramics, woven textiles, hand-poured candles, reclaimed wood accent pieces, and curated small-batch furniture. The brand had built a loyal local following through weekend markets and a modest Shopify storefront, generating roughly $850K in annual revenue split between in-person sales and online orders. Average order values ranged from $65 for individual candles and small ceramics to $280+ for furniture and curated room collections. A freelance media buyer managed a single broad campaign spending $3K–$4K per month with no audience segmentation, no retargeting, and minimal creative variety — achieving roughly 1.6x ROAS that the founder knew was well below potential. The website had no SEO strategy, no blog content, and product pages lacked the storytelling that drove in-person conversions. With growing competition from national DTC home brands investing heavily in digital, the brand needed to professionalize its online acquisition before losing market share.",
+    description: "A direct-to-consumer artisan home goods and décor brand based in Portland, Oregon, specializing in handcrafted ceramics, woven textiles, hand-poured candles, reclaimed wood accent pieces, and curated small-batch furniture. The brand had built a loyal local following through weekend markets and a modest Shopify storefront, generating roughly $850K in annual revenue split between in-person sales and online orders. Average order values ranged from $65 for individual candles and small ceramics to $280+ for furniture and curated room collections. A freelance media buyer managed a single broad campaign spending $3K–$4K per month with no audience segmentation, no retargeting, and minimal creative variety — achieving roughly 2.3x ROAS that the founder knew was well below potential. The website had no SEO strategy, no blog content, and product pages lacked the storytelling that drove in-person conversions. With growing competition from national DTC home brands investing heavily in digital, the brand needed to professionalize its online acquisition before losing market share.",
   },
   challenges: [
     {
-      title: "Stagnant ROAS at 1.6x Despite Strong Product-Market Fit",
+      title: "Stagnant ROAS at 2.3x Despite Strong Product-Market Fit",
       description: "The brand was spending $3K–$4K per month on a single broad campaign with no separation between prospecting and retargeting, no product-level segmentation, and no margin-based targets. All products — from $28 tea light holders to $340 reclaimed wood shelving — were lumped into one campaign with identical bidding. The freelance media buyer checked performance every two weeks and made manual adjustments, but in a fast-moving auction environment, biweekly optimization meant missed opportunities daily. Budget was split evenly across all products regardless of margin or conversion rates, and there was no system to shift spend toward what was actually converting.",
     },
     {
@@ -104,10 +104,10 @@ export const artisanHomeGoodsPortland: CaseStudyData = {
   },
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$101.6K" },
-      { label: "Add to Carts", value: "7,749" },
-      { label: "Avg Cost Per Cart", value: "$13.11", note: "↓30% reduction" },
-      { label: "Orders", value: "4,218" },
+      { label: "Total Ad Spend", value: "$108.3K" },
+      { label: "Add to Carts", value: "8,394" },
+      { label: "Avg Cost Per Cart", value: "$12.90", note: "↓38% reduction" },
+      { label: "Orders", value: "4,563" },
     ],
     columnLabels: {
       leads: "Sessions",
@@ -118,35 +118,35 @@ export const artisanHomeGoodsPortland: CaseStudyData = {
     },
     monthly: [
       // Feb 2025: Baseline month — inheriting existing campaigns. Restructuring begins.
-      { month: "Feb '25", spend: 7120, leads: 4747, cpl: 1.50, qualified: 380, cpql: 18.74, deals: 171, revenue: 16587.00, roas: 2.33 },
+      { month: "Feb '25", spend: 7120, leads: 4300, cpl: 1.66, qualified: 344, cpql: 20.70, deals: 162, revenue: 16848.00, roas: 2.37 },
       // Mar 2025: New architecture deployed. AI agents active. Early optimization.
-      { month: "Mar '25", spend: 7340, leads: 5100, cpl: 1.44, qualified: 434, cpql: 16.91, deals: 204, revenue: 20196.00, roas: 2.75 },
+      { month: "Mar '25", spend: 7340, leads: 4600, cpl: 1.60, qualified: 391, cpql: 18.77, deals: 188, revenue: 19740.00, roas: 2.69 },
       // Apr 2025: Spring home refresh season. Creative testing ramping up.
-      { month: "Apr '25", spend: 7680, leads: 5486, cpl: 1.40, qualified: 494, cpql: 15.55, deals: 247, revenue: 24947.00, roas: 3.25 },
+      { month: "Apr '25", spend: 7680, leads: 5200, cpl: 1.48, qualified: 468, cpql: 16.41, deals: 234, revenue: 25038.00, roas: 3.26 },
       // May 2025: AI identified high-performing audience segments. Budget scaling begins.
-      { month: "May '25", spend: 8150, leads: 6038, cpl: 1.35, qualified: 556, cpql: 14.66, deals: 289, revenue: 29767.00, roas: 3.65 },
+      { month: "May '25", spend: 8150, leads: 5900, cpl: 1.38, qualified: 531, cpql: 15.35, deals: 276, revenue: 29808.00, roas: 3.66 },
       // Jun 2025: Summer decorating peak. Retargeting sequences matured.
-      { month: "Jun '25", spend: 8470, leads: 6438, cpl: 1.32, qualified: 612, cpql: 13.84, deals: 324, revenue: 33696.00, roas: 3.98 },
+      { month: "Jun '25", spend: 8470, leads: 6400, cpl: 1.32, qualified: 608, cpql: 13.93, deals: 322, revenue: 34454.00, roas: 4.07 },
       // Jul 2025: Continued scaling. Shopping campaigns launched.
-      { month: "Jul '25", spend: 8820, leads: 6892, cpl: 1.28, qualified: 655, cpql: 13.47, deals: 352, revenue: 37312.00, roas: 4.23 },
+      { month: "Jul '25", spend: 8820, leads: 6900, cpl: 1.28, qualified: 655, cpql: 13.47, deals: 352, revenue: 38016.00, roas: 4.31 },
       // Aug 2025: Peak summer. AI driving continuous bid optimization. Strong performance.
-      { month: "Aug '25", spend: 9140, leads: 7234, cpl: 1.26, qualified: 696, cpql: 13.13, deals: 378, revenue: 40446.00, roas: 4.43 },
+      { month: "Aug '25", spend: 9140, leads: 7300, cpl: 1.25, qualified: 693, cpql: 13.19, deals: 378, revenue: 40446.00, roas: 4.43 },
       // Sep 2025: Fall transition. Pre-holiday preparation begins.
-      { month: "Sep '25", spend: 8690, leads: 6838, cpl: 1.27, qualified: 663, cpql: 13.11, deals: 358, revenue: 38843.00, roas: 4.47 },
+      { month: "Sep '25", spend: 8690, leads: 6900, cpl: 1.26, qualified: 662, cpql: 13.13, deals: 358, revenue: 39022.00, roas: 4.49 },
       // Oct 2025: Q4 ramp-up. Holiday audience pre-warming. Gift campaign testing.
-      { month: "Oct '25", spend: 9380, leads: 7671, cpl: 1.22, qualified: 752, cpql: 12.47, deals: 421, revenue: 46310.00, roas: 4.94 },
+      { month: "Oct '25", spend: 9380, leads: 7700, cpl: 1.22, qualified: 755, cpql: 12.42, deals: 421, revenue: 46310.00, roas: 4.94 },
       // Nov 2025: Black Friday / Cyber Monday. Budget scaled aggressively for holiday gifting.
-      { month: "Nov '25", spend: 12840, leads: 11672, cpl: 1.10, qualified: 1283, cpql: 10.01, deals: 770, revenue: 86240.00, roas: 6.72 },
-      // Dec 2025: Holiday gifting tail. Strong organic reducing paid dependency.
-      { month: "Dec '25", spend: 8920, leads: 7433, cpl: 1.20, qualified: 743, cpql: 12.01, deals: 423, revenue: 48010.50, roas: 5.38 },
-      // Jan 2026: New year home refresh. Budget normalized. Strong baseline established.
-      { month: "Jan '26", spend: 5010, leads: 4018, cpl: 1.25, qualified: 481, cpql: 10.42, deals: 281, revenue: 29505.00, roas: 5.89 },
+      { month: "Nov '25", spend: 12840, leads: 11700, cpl: 1.10, qualified: 1287, cpql: 9.98, deals: 772, revenue: 86464.00, roas: 6.73 },
+      // Dec 2025: Holiday gifting tail. Post-BFCM normalization with sustained holiday demand.
+      { month: "Dec '25", spend: 10180, leads: 10100, cpl: 1.01, qualified: 960, cpql: 10.60, deals: 528, revenue: 59928.00, roas: 5.89 },
+      // Jan 2026: New year home refresh surge. Strong momentum with mature campaign efficiency.
+      { month: "Jan '26", spend: 10480, leads: 10400, cpl: 1.01, qualified: 1040, cpql: 10.08, deals: 572, revenue: 61204.00, roas: 5.84 },
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$451.9K", growth: "+178% ROAS improvement" },
-    { label: "Total Orders", value: "4,218", growth: "across 12 months" },
-    { label: "Average Order Value", value: "$107.13", growth: "artisan home goods category" },
-    { label: "Blended ROAS", value: "4.5x", growth: "from 1.6x starting" },
+    { label: "Total Revenue", value: "$497.3K", growth: "+94% ROAS improvement" },
+    { label: "Total Orders", value: "4,563", growth: "across 12 months" },
+    { label: "Average Order Value", value: "$109.00", growth: "artisan home goods category" },
+    { label: "Blended ROAS", value: "4.6x", growth: "from 2.3x starting" },
   ],
 };
