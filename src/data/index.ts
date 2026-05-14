@@ -1,4 +1,5 @@
 import { CaseStudyData } from "./types";
+import { orthodonticsHartford } from "./orthodontics-hartford";
 import { businessBrokerage } from "./business-brokerage";
 import { medicalAssessmentAiApp } from "./medical-assessment-ai-app";
 import { projectManagementSoftwareSeo } from "./project-management-software-seo";
@@ -532,6 +533,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "dental-practice-charlotte": dentalPracticeCharlotte,
   "wealth-management-seo": wealthManagementSeo,
   "business-brokerage": businessBrokerage,
+  "orthodontics-hartford": orthodonticsHartford,
 };
 
 export type { CaseStudyData };

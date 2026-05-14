@@ -734,7 +734,8 @@
     "Project Management Software": "saas",
     "Medical Assessment AI App": "lead_gen_services",
     "Business Brokerage": "lead_gen_professional",
-    "Municipal Infrastructure Products": "lead_gen_professional"
+    "Municipal Infrastructure Products": "lead_gen_professional",
+    "Orthodontics": "healthcare_medical"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",
