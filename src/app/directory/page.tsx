@@ -1,14 +1,16 @@
 import { caseStudies } from "@/data";
+import { v2Verticals } from "@/data/v2-index";
 import DirectoryClient from "./DirectoryClient";
 
 export const metadata = {
   title: "Case Study Directory — MEGA AI",
-  description: "Browse all MEGA AI case studies by industry, product, and ad spend.",
+  description: "Browse MEGA AI case studies across 31 industries. Curated results from real campaigns.",
 };
 
 type DirectoryEntry = {
   slug: string;
   industry: string;
+  vertical: string;
   product: "SEO & Paid Ads" | "Just SEO" | "Just Paid Ads";
   adSpendRange: string | null;
   adSpendBucket: string | null;
@@ -50,30 +52,35 @@ function getAdSpendBucket(data: (typeof caseStudies)[string]): string | null {
 }
 
 export default function DirectoryPage() {
-  const entries: DirectoryEntry[] = Object.values(caseStudies).map((data) => ({
-    slug: data.slug,
-    industry: data.industry,
-    product: getProduct(data),
-    adSpendRange: getAdSpendRange(data),
-    adSpendBucket: getAdSpendBucket(data),
-    headline: data.headline,
-    location: data.company.location,
-    tags: data.tags,
-    heroStats: data.heroStats,
+  // Build entries from V2 curated verticals
+  const verticalGroups = v2Verticals.map((vg) => ({
+    vertical: vg.vertical,
+    entries: vg.studies
+      .filter((data) => data != null)
+      .map((data) => ({
+        slug: data.slug,
+        industry: data.industry,
+        vertical: vg.vertical,
+        product: getProduct(data),
+        adSpendRange: getAdSpendRange(data),
+        adSpendBucket: getAdSpendBucket(data),
+        headline: data.headline,
+        location: data.company.location,
+        tags: data.tags,
+        heroStats: data.heroStats,
+      })),
   }));
 
-  // Sort by industry
-  entries.sort((a, b) => a.industry.localeCompare(b.industry));
-
-  // Derive filter options
-  const industries = [...new Set(entries.map((e) => e.industry))].sort();
+  const allEntries = verticalGroups.flatMap((vg) => vg.entries);
+  const verticals = verticalGroups.map((vg) => vg.vertical).sort();
   const products = ["SEO & Paid Ads", "Just SEO", "Just Paid Ads"] as const;
   const spendBuckets = ["Under $10K/mo", "$10K–$20K/mo", "$20K–$50K/mo", "$50K+/mo"];
 
   return (
     <DirectoryClient
-      entries={entries}
-      industries={industries}
+      entries={allEntries}
+      verticalGroups={verticalGroups}
+      verticals={verticals}
       products={[...products]}
       spendBuckets={spendBuckets}
     />
