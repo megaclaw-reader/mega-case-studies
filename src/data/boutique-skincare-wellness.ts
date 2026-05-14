@@ -8,7 +8,7 @@ export const boutiqueSkincareWellness: CaseStudyData = {
   heroStats: [
     { value: "10", unit: "months", label: "Partnership Duration" },
     { value: "5.21", unit: "x", label: "Peak ROAS Achieved" },
-    { value: "818.8", unit: "K", label: "Revenue Generated" },
+    { value: "$818.8K", unit: "K", label: "Revenue Generated" },
   ],
   tags: ["Ecommerce", "SEO", "Paid Advertising", "DTC", "Skincare"],
   company: {
@@ -82,22 +82,22 @@ export const boutiqueSkincareWellness: CaseStudyData = {
   ],
   seo: {
     summary: [
-      { label: "Total Keywords", value: "1,692", growth: "+938%", from: "from 163" },
+      { label: "Total Keywords", value: "8,205", growth: "+938%", from: "from 163" },
       { label: "Top 10 Rankings", value: "199", growth: "+1,558%", from: "from 12" },
       { label: "Pages Created", value: "54", growth: "", from: "incl. 38 articles + 8 category pages" },
       { label: "Organic Traffic", value: "5,076/mo", growth: "+679%", from: "from 652" },
     ],
     monthly: [
-      { month: "Mar '25", keywords: 163, top10: 12, top3: 2, traffic: 652, pages: 4, avgPos: 46.2, ctr: 0.7 },
-      { month: "Apr '25", keywords: 237, top10: 19, top3: 4, traffic: 854, pages: 14, avgPos: 42.8, ctr: 0.8 },
-      { month: "May '25", keywords: 374, top10: 38, top3: 7, traffic: 1309, pages: 22, avgPos: 37.4, ctr: 1.0 },
-      { month: "Jun '25", keywords: 528, top10: 58, top3: 12, traffic: 1901, pages: 28, avgPos: 33.1, ctr: 1.2 },
-      { month: "Jul '25", keywords: 692, top10: 81, top3: 18, traffic: 2422, pages: 32, avgPos: 29.6, ctr: 1.4 },
-      { month: "Aug '25", keywords: 856, top10: 102, top3: 24, traffic: 2825, pages: 36, avgPos: 26.3, ctr: 1.6 },
-      { month: "Sep '25", keywords: 1038, top10: 124, top3: 33, traffic: 3426, pages: 40, avgPos: 23.7, ctr: 1.8 },
-      { month: "Oct '25", keywords: 1238, top10: 147, top3: 41, traffic: 3838, pages: 44, avgPos: 21.0, ctr: 2.0 },
-      { month: "Nov '25", keywords: 1459, top10: 174, top3: 50, traffic: 4817, pages: 49, avgPos: 18.7, ctr: 2.3 },
-      { month: "Dec '25", keywords: 1692, top10: 199, top3: 58, traffic: 5076, pages: 54, avgPos: 16.4, ctr: 2.5 },
+      { month: "Mar '25", keywords: 295, top10: 25, top3: 4, traffic: 632, pages: 8, avgPos: 51.9, ctr: 0.7 },
+      { month: "Apr '25", keywords: 727, top10: 79, top3: 26, traffic: 1187, pages: 15, avgPos: 46.3, ctr: 1.1 },
+      { month: "May '25", keywords: 1064, top10: 123, top3: 30, traffic: 2107, pages: 22, avgPos: 41.8, ctr: 1.7 },
+      { month: "Jun '25", keywords: 2538, top10: 307, top3: 86, traffic: 6470, pages: 27, avgPos: 42.3, ctr: 1.6 },
+      { month: "Jul '25", keywords: 3490, top10: 311, top3: 68, traffic: 11359, pages: 32, avgPos: 34.7, ctr: 2.6 },
+      { month: "Aug '25", keywords: 4863, top10: 398, top3: 84, traffic: 13126, pages: 35, avgPos: 29.7, ctr: 2.8 },
+      { month: "Sep '25", keywords: 5824, top10: 848, top3: 208, traffic: 14858, pages: 41, avgPos: 30.1, ctr: 3.2 },
+      { month: "Oct '25", keywords: 6255, top10: 519, top3: 128, traffic: 17316, pages: 59, avgPos: 25.4, ctr: 3.5 },
+      { month: "Nov '25", keywords: 7387, top10: 875, top3: 188, traffic: 22886, pages: 71, avgPos: 12.4, ctr: 2.7 },
+      { month: "Dec '25", keywords: 8205, top10: 951, top3: 190, traffic: 20152, pages: 62, avgPos: 22.9, ctr: 4.8 }
     ],
   },
   paidAds: {

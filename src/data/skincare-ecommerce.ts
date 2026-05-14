@@ -8,7 +8,7 @@ export const skincareEcommerce: CaseStudyData = {
   heroStats: [
     { value: "10", unit: "months", label: "Partnership Duration" },
     { value: "6.08", unit: "x", label: "Peak ROAS Achieved" },
-    { value: "54.9", unit: "M", label: "Revenue Generated" },
+    { value: "$54.9M", unit: "M", label: "Revenue Generated" },
   ],
   tags: ["Ecommerce", "Paid Advertising", "DTC", "Skincare"],
   company: {
@@ -29,7 +29,7 @@ export const skincareEcommerce: CaseStudyData = {
     },
     {
       title: "Fragmented Attribution Across a Massive Campaign Portfolio",
-      description: "With dozens of active campaigns across Meta, Google, and Shopping, attribution was a mess. Meta pixel lacked server-side Conversions API tracking, losing an estimated 15-25% of conversion events. Google Ads lacked proper ecommerce event tracking across the full product catalog. Without reliable data at this spend level, millions were allocated based on incomplete signals — the equivalent of navigating a billion-dollar brand with a broken compass.",
+      description: "With dozens of active campaigns across Meta, Google, and Shopping, attribution was a mess. Meta pixel lacked server-side Conversions API tracking, losing an estimated 15-25% of conversion events. paid search lacked proper ecommerce event tracking across the full product catalog. Without reliable data at this spend level, millions were allocated based on incomplete signals — the equivalent of navigating a billion-dollar brand with a broken compass.",
     },
   ],
   strategy: [
@@ -38,7 +38,7 @@ export const skincareEcommerce: CaseStudyData = {
       months: "0–30 days",
       title: "Tracking Overhaul & Campaign Architecture Rebuild",
       items: [
-        "Complete attribution infrastructure rebuild — implemented Meta Conversions API with server-side event tracking, configured Google Ads enhanced conversions, and established consistent UTM taxonomy across all campaigns to create a single source of truth for revenue attribution across $1.2M+ monthly spend",
+        "Complete attribution infrastructure rebuild — implemented Meta Conversions API with server-side event tracking, configured paid search enhanced conversions, and established consistent UTM taxonomy across all campaigns to create a single source of truth for revenue attribution across $1.2M+ monthly spend",
         "Audited all existing campaigns and identified that roughly 22% of attributed conversions were branded search cannibalization — at this spend level, that represented over $260K/month in misattributed budget. Restructured to exclude branded traffic from prospecting ROAS calculations",
         "Product-level analysis across 200+ SKUs — mapped each product by margin, repeat purchase rate, and review sentiment to identify hero products (vitamin C serum, retinol night cream, peptide eye cream, hydrating cleanser) for aggressive scaling versus efficiency-focused products",
         "Rebuilt campaign architecture from scratch: 18 separate prospecting and retargeting structures segmented by product category, skin concern, and price point with margin-adjusted ROAS targets — high-margin serums received aggressive scaling budgets while lower-margin basics received efficiency-focused bids",

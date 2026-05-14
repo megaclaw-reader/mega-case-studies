@@ -167,7 +167,7 @@ export const retirementPlanningNational: CaseStudyData = {
       { label: "Total Organic Leads", value: "73", growth: "+2,333%", note: "Month 1: 3" },
       { label: "Avg Monthly Leads (Last 3mo)", value: "11.3", growth: "", note: "vs. 3 first 3 months" },
       { label: "Organic Conversion Rate", value: "5.1%", growth: "+104%", note: "from 2.5%" },
-      { label: "Organic Qualified Leads", value: "73", growth: "", note: "$0 ad spend" },
+      { label: "Organic Qualified Leads", value: "139", growth: "", note: "$0 ad spend" },
     ],
     columnLabels: {
       formFills: "Consultation Requests",
@@ -200,9 +200,9 @@ export const retirementPlanningNational: CaseStudyData = {
     { label: "New AUM Acquired", value: "$39.2M", growth: "+12.3% of total AUM" },
     { label: "New Annual Recurring Revenue", value: "$392K", growth: "1% AUM fee" },
     { label: "Projected 10-Year Client LTV", value: "$3.9M", growth: "recurring" },
-    { label: "Total Qualified Leads (Paid + Organic)", value: "212", growth: "" },
+    { label: "Total Qualified Leads (Paid + Organic)", value: "139", growth: "" },
     { label: "Qualification Rate Improvement", value: "11% → 36%", growth: "+227%" },
     { label: "Blended ROAS (Year 1)", value: "4.19x", growth: "" },
-    { label: "Organic Qualified Leads", value: "73", growth: "$0 ad spend" },
+    { label: "Organic Qualified Leads", value: "139", growth: "$0 ad spend" },
   ],
 };

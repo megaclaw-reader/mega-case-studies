@@ -92,8 +92,8 @@ export const lifeInsuranceChicago: CaseStudyData = {
       { label: "Total Ad Spend", value: "$21.5K" },
       { label: "Total Qualified Leads", value: "142" },
       { label: "Avg CPQL", value: "$151" },
-      { label: "Total Revenue", value: "$76,800" },
-      { label: "Blended ROAS", value: "3.57x" }
+      { label: "Total Revenue", value: "$76.8K" },
+      { label: "Blended ROAS", value: "3.6x" }
     ],
     columnLabels: {
       leads: "Total Leads",

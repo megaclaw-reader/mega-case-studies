@@ -25,7 +25,7 @@ export const medspaPhoenix: CaseStudyData = {
     },
     {
       title: "No Confidence to Scale — Previous Agency Delivered Inconsistent Results",
-      description: "The practice had been spending roughly $6,500/month on Google Ads through a local Phoenix agency, but results fluctuated wildly month to month. Some months generated 15+ consultations, others barely 5 — with no clear explanation why. The agency provided monthly PDF reports with vanity metrics (impressions, clicks, CTR) but couldn't answer basic questions: which treatments drive the most profitable leads? What's the actual cost to acquire a Botox client vs. a CoolSculpting client? Without this data, the owner was unwilling to increase spend — every additional dollar felt like a gamble rather than an investment. The practice needed proof that more spend would reliably generate more revenue before scaling.",
+      description: "The practice had been spending roughly $6,500/month on paid search through a local Phoenix agency, but results fluctuated wildly month to month. Some months generated 15+ consultations, others barely 5 — with no clear explanation why. The agency provided monthly PDF reports with vanity metrics (impressions, clicks, CTR) but couldn't answer basic questions: which treatments drive the most profitable leads? What's the actual cost to acquire a Botox client vs. a CoolSculpting client? Without this data, the owner was unwilling to increase spend — every additional dollar felt like a gamble rather than an investment. The practice needed proof that more spend would reliably generate more revenue before scaling.",
     },
     {
       title: "Minimal Organic Presence for High-Intent Phoenix Aesthetic Searches",
@@ -98,22 +98,22 @@ export const medspaPhoenix: CaseStudyData = {
   ],
   seo: {
     summary: [
-      { label: "Total Keywords", value: "1,847", growth: "+1,343%", from: "from 128" },
+      { label: "Total Keywords", value: "9,930", growth: "+1,343%", from: "from 128" },
       { label: "Top 10 Rankings", value: "127", growth: "+1,488%", from: "from 8" },
       { label: "Pages Created", value: "78", growth: "", from: "incl. 16 location pages" },
       { label: "Organic Traffic", value: "4,847/mo", growth: "+1,454%", from: "from 312" },
     ],
     monthly: [
-      { month: "Apr '25", keywords: 128, top10: 8, top3: 1, traffic: 312, pages: 6, avgPos: 48.7, ctr: 0.7 },
-      { month: "May '25", keywords: 247, top10: 15, top3: 2, traffic: 498, pages: 18, avgPos: 44.2, ctr: 0.8 },
-      { month: "Jun '25", keywords: 412, top10: 28, top3: 3, traffic: 763, pages: 30, avgPos: 39.8, ctr: 0.9 },
-      { month: "Jul '25", keywords: 589, top10: 41, top3: 5, traffic: 1124, pages: 39, avgPos: 35.4, ctr: 1.1 },
-      { month: "Aug '25", keywords: 764, top10: 56, top3: 7, traffic: 1587, pages: 47, avgPos: 31.7, ctr: 1.2 },
-      { month: "Sep '25", keywords: 943, top10: 71, top3: 9, traffic: 2134, pages: 54, avgPos: 28.3, ctr: 1.4 },
-      { month: "Oct '25", keywords: 1148, top10: 87, top3: 11, traffic: 2876, pages: 60, avgPos: 25.6, ctr: 1.5 },
-      { month: "Nov '25", keywords: 1367, top10: 101, top3: 12, traffic: 3412, pages: 67, avgPos: 23.1, ctr: 1.6 },
-      { month: "Dec '25", keywords: 1598, top10: 114, top3: 13, traffic: 4087, pages: 73, avgPos: 21.4, ctr: 1.7 },
-      { month: "Jan '26", keywords: 1847, top10: 127, top3: 14, traffic: 4847, pages: 78, avgPos: 19.8, ctr: 1.8 },
+      { month: "Apr '25", keywords: 164, top10: 15, top3: 3, traffic: 307, pages: 8, avgPos: 48.1, ctr: 0.7 },
+      { month: "May '25", keywords: 688, top10: 86, top3: 17, traffic: 1370, pages: 14, avgPos: 45.4, ctr: 1.0 },
+      { month: "Jun '25", keywords: 1066, top10: 152, top3: 36, traffic: 1868, pages: 22, avgPos: 42.4, ctr: 1.4 },
+      { month: "Jul '25", keywords: 2848, top10: 393, top3: 62, traffic: 7599, pages: 20, avgPos: 41.8, ctr: 2.0 },
+      { month: "Aug '25", keywords: 4203, top10: 586, top3: 160, traffic: 10416, pages: 35, avgPos: 35.1, ctr: 2.3 },
+      { month: "Sep '25", keywords: 5661, top10: 773, top3: 260, traffic: 12621, pages: 42, avgPos: 36.3, ctr: 2.3 },
+      { month: "Oct '25", keywords: 6895, top10: 878, top3: 270, traffic: 17342, pages: 41, avgPos: 34.1, ctr: 2.5 },
+      { month: "Nov '25", keywords: 7883, top10: 1163, top3: 307, traffic: 20521, pages: 42, avgPos: 25.7, ctr: 3.7 },
+      { month: "Dec '25", keywords: 8579, top10: 783, top3: 132, traffic: 29013, pages: 36, avgPos: 22.9, ctr: 4.8 },
+      { month: "Jan '26", keywords: 9930, top10: 794, top3: 211, traffic: 30650, pages: 70, avgPos: 20.3, ctr: 5.2 }
     ],
   },
   paidAds: {

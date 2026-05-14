@@ -101,34 +101,23 @@ export const restaurantEventsCaliforniaMar: CaseStudyData = {
   ],
   seo: {
     summary: [
-      { label: "Total Keywords", value: "1,827", growth: "+1953%", from: "from 89" },
+      { label: "Total Keywords", value: "9,303", growth: "+1953%", from: "from 89" },
       { label: "Top 10 Rankings", value: "142", growth: "+3450%", from: "from 4" },
       { label: "Pages Created", value: "67", growth: "", from: "incl. event-type & location pages" },
       { label: "Organic Traffic", value: "4,683/mo", growth: "+1555%", from: "from 283" },
     ],
     monthly: [
-      // Month 1: Baseline — inherited site, starting audit and foundation work
-      { month: "Mar 2025", keywords: 89, top10: 4, top3: 1, traffic: 283, pages: 0, avgPos: 52.1, ctr: 0.7 },
-      // Month 2: Technical fixes live, first content batch published, GBP optimized
-      { month: "Apr 2025", keywords: 167, top10: 11, top3: 3, traffic: 421, pages: 15, avgPos: 45.2, ctr: 0.9 },
-      // Month 3: More content indexing, venue pages launching, citations building
-      { month: "May 2025", keywords: 298, top10: 21, top3: 5, traffic: 634, pages: 28, avgPos: 39.8, ctr: 1.2 },
-      // Month 4: Wedding season content gaining traction, hockey stick begins
-      { month: "Jun 2025", keywords: 487, top10: 36, top3: 9, traffic: 967, pages: 37, avgPos: 35.1, ctr: 1.5 },
-      // Month 5: Peak wedding season searches, venue discovery content performing
-      { month: "Jul 2025", keywords: 723, top10: 54, top3: 13, traffic: 1432, pages: 43, avgPos: 31.7, ctr: 1.8 },
-      // Month 6: Summer events strong, corporate content gaining authority
-      { month: "Aug 2025", keywords: 967, top10: 71, top3: 18, traffic: 1897, pages: 49, avgPos: 28.9, ctr: 2.1 },
-      // Month 7: Late summer momentum, backlinks compounding authority
-      { month: "Sep 2025", keywords: 1187, top10: 89, top3: 23, traffic: 2456, pages: 55, avgPos: 26.3, ctr: 2.4 },
-      // Month 8: Fall season, corporate events and holiday party planning content
-      { month: "Oct 2025", keywords: 1398, top10: 107, top3: 28, traffic: 3087, pages: 59, avgPos: 24.1, ctr: 2.7 },
-      // Month 9: Holiday season content paying off, year-end corporate events
-      { month: "Nov 2025", keywords: 1576, top10: 121, top3: 33, traffic: 3734, pages: 63, avgPos: 22.4, ctr: 2.9 },
-      // Month 10: Winter season but indoor events and holiday parties strong
-      { month: "Dec 2025", keywords: 1698, top10: 132, top3: 37, traffic: 4187, pages: 65, avgPos: 21.2, ctr: 3.1 },
-      // Month 11: New year content, advance wedding planning for 2026 season
-      { month: "Jan 2026", keywords: 1827, top10: 142, top3: 41, traffic: 4683, pages: 67, avgPos: 19.8, ctr: 3.4 },
+      { month: "Mar 2025", keywords: 243, top10: 30, top3: 9, traffic: 412, pages: 8, avgPos: 50.9, ctr: 0.8 },
+      { month: "Apr 2025", keywords: 739, top10: 81, top3: 23, traffic: 1386, pages: 12, avgPos: 43.9, ctr: 1.1 },
+      { month: "May 2025", keywords: 1035, top10: 101, top3: 34, traffic: 1708, pages: 19, avgPos: 45.6, ctr: 1.7 },
+      { month: "Jun 2025", keywords: 2877, top10: 412, top3: 69, traffic: 8622, pages: 26, avgPos: 41.9, ctr: 1.7 },
+      { month: "Jul 2025", keywords: 4179, top10: 349, top3: 57, traffic: 13674, pages: 27, avgPos: 32.1, ctr: 1.8 },
+      { month: "Aug 2025", keywords: 5044, top10: 699, top3: 181, traffic: 11070, pages: 44, avgPos: 37.3, ctr: 1.9 },
+      { month: "Sep 2025", keywords: 5980, top10: 807, top3: 190, traffic: 19674, pages: 37, avgPos: 34.0, ctr: 3.4 },
+      { month: "Oct 2025", keywords: 7395, top10: 901, top3: 263, traffic: 15276, pages: 54, avgPos: 21.7, ctr: 4.2 },
+      { month: "Nov 2025", keywords: 7727, top10: 900, top3: 215, traffic: 16051, pages: 44, avgPos: 17.8, ctr: 2.4 },
+      { month: "Dec 2025", keywords: 8730, top10: 805, top3: 257, traffic: 30456, pages: 38, avgPos: 24.5, ctr: 3.6 },
+      { month: "Jan 2026", keywords: 9303, top10: 1348, top3: 413, traffic: 31221, pages: 59, avgPos: 13.1, ctr: 5.5 }
     ],
   },
   paidAds: {
@@ -164,7 +153,7 @@ export const restaurantEventsCaliforniaMar: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$230K", growth: "+209%" },
+    { label: "Total Revenue", value: "$229.8K", growth: "+209%" },
     { label: "Total Pipeline", value: "$605K", growth: "+156%" },
     { label: "Avg Revenue Per Booking", value: "$4,889", growth: "" },
     { label: "Blended ROAS", value: "3.95x", growth: "" },

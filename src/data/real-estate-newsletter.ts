@@ -85,18 +85,18 @@ export const realEstateNewsletter: CaseStudyData = {
   ],
   seo: {
     summary: [
-      { label: "Total Keywords", value: "743", growth: "+312%", from: "from 180" },
+      { label: "Total Keywords", value: "2,884", growth: "+312%", from: "from 180" },
       { label: "Top 10 Rankings", value: "89", growth: "+394%", from: "from 10" },
       { label: "Organic Traffic", value: "4,217/mo", growth: "+289%", from: "from 1,083" },
       { label: "Articles Published", value: "38", growth: "", from: "incl. 6 gated resources" },
     ],
     monthly: [
-      { month: "Apr", keywords: 180, top10: 18, top3: 1, traffic: 1083, pages: 8, avgPos: 41.2, ctr: 1.4 },
-      { month: "May", keywords: 206, top10: 20, top3: 2, traffic: 1341, pages: 14, avgPos: 37.8, ctr: 1.6 },
-      { month: "Jun", keywords: 238, top10: 29, top3: 5, traffic: 1847, pages: 22, avgPos: 33.4, ctr: 1.9 },
-      { month: "Jul", keywords: 367, top10: 43, top3: 8, traffic: 2513, pages: 28, avgPos: 29.7, ctr: 2.2 },
-      { month: "Aug", keywords: 531, top10: 64, top3: 12, traffic: 3284, pages: 34, avgPos: 26.1, ctr: 2.5 },
-      { month: "Sep", keywords: 743, top10: 89, top3: 17, traffic: 4217, pages: 38, avgPos: 23.3, ctr: 2.8 },
+      { month: "Apr", keywords: 140, top10: 14, top3: 4, traffic: 264, pages: 8, avgPos: 51.6, ctr: 0.9 },
+      { month: "May", keywords: 454, top10: 39, top3: 8, traffic: 796, pages: 14, avgPos: 47.5, ctr: 1.1 },
+      { month: "Jun", keywords: 684, top10: 64, top3: 19, traffic: 1269, pages: 22, avgPos: 43.4, ctr: 1.7 },
+      { month: "Jul", keywords: 1077, top10: 126, top3: 28, traffic: 3690, pages: 28, avgPos: 36.2, ctr: 1.5 },
+      { month: "Aug", keywords: 1971, top10: 163, top3: 45, traffic: 6764, pages: 30, avgPos: 31.2, ctr: 1.9 },
+      { month: "Sep", keywords: 2884, top10: 299, top3: 62, traffic: 8976, pages: 32, avgPos: 29.5, ctr: 2.4 }
     ],
   },
   paidAds: {

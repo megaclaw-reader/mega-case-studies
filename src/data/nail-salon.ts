@@ -84,21 +84,21 @@ export const nailSalon: CaseStudyData = {
   ],
   seo: {
     summary: [
-      { label: "Total Keywords", value: "391", growth: "2,072%", from: "18" },
+      { label: "Total Keywords", value: "7,301", growth: "2,072%", from: "18" },
       { label: "Domain Authority", value: "12", growth: "71% ↑", from: "7" },
       { label: "Peak Monthly Traffic", value: "974", growth: "785%", from: "110" },
       { label: "Top 10 Rankings", value: "178", growth: "2,867%", from: "6" },
     ],
     monthly: [
-      { month: "Jun '25", keywords: 18, top10: 6, top3: 1, traffic: 110, pages: 7, avgPos: 62.1, ctr: 1.8 },
-      { month: "Jul '25", keywords: 47, top10: 16, top3: 4, traffic: 221, pages: 24, avgPos: 55.3, ctr: 2.1 },
-      { month: "Aug '25", keywords: 89, top10: 31, top3: 9, traffic: 378, pages: 38, avgPos: 48.7, ctr: 2.6 },
-      { month: "Sep '25", keywords: 138, top10: 48, top3: 14, traffic: 497, pages: 51, avgPos: 43.2, ctr: 3.0 },
-      { month: "Oct '25", keywords: 194, top10: 72, top3: 21, traffic: 612, pages: 67, avgPos: 38.9, ctr: 3.4 },
-      { month: "Nov '25", keywords: 251, top10: 98, top3: 31, traffic: 718, pages: 79, avgPos: 34.6, ctr: 3.9 },
-      { month: "Dec '25", keywords: 307, top10: 127, top3: 42, traffic: 821, pages: 94, avgPos: 30.8, ctr: 4.4 },
-      { month: "Jan '26", keywords: 358, top10: 154, top3: 53, traffic: 908, pages: 108, avgPos: 27.4, ctr: 4.9 },
-      { month: "Feb '26", keywords: 391, top10: 178, top3: 62, traffic: 974, pages: 119, avgPos: 25.1, ctr: 5.3 },
+      { month: "Jun '25", keywords: 155, top10: 20, top3: 4, traffic: 291, pages: 8, avgPos: 51.8, ctr: 0.8 },
+      { month: "Jul '25", keywords: 633, top10: 58, top3: 13, traffic: 1031, pages: 12, avgPos: 45.5, ctr: 0.9 },
+      { month: "Aug '25", keywords: 920, top10: 129, top3: 28, traffic: 1589, pages: 14, avgPos: 42.7, ctr: 1.8 },
+      { month: "Sep '25", keywords: 2098, top10: 256, top3: 84, traffic: 4726, pages: 17, avgPos: 36.6, ctr: 2.0 },
+      { month: "Oct '25", keywords: 3419, top10: 354, top3: 91, traffic: 10094, pages: 23, avgPos: 36.0, ctr: 1.7 },
+      { month: "Nov '25", keywords: 4344, top10: 633, top3: 122, traffic: 13466, pages: 31, avgPos: 34.5, ctr: 2.3 },
+      { month: "Dec '25", keywords: 5218, top10: 486, top3: 104, traffic: 17797, pages: 36, avgPos: 27.8, ctr: 3.5 },
+      { month: "Jan '26", keywords: 6211, top10: 732, top3: 205, traffic: 21077, pages: 45, avgPos: 29.4, ctr: 3.0 },
+      { month: "Feb '26", keywords: 7301, top10: 1013, top3: 263, traffic: 19346, pages: 43, avgPos: 20.2, ctr: 2.6 }
     ],
   },
   organicConversions: {

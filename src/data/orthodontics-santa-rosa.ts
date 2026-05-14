@@ -117,7 +117,7 @@ export const orthodonticsSantaRosa: CaseStudyData = {
   },
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$76.6K" },
+      { label: "Total Ad Spend", value: "$76.7K" },
       { label: "Qualified Leads", value: "267" },
       { label: "Avg Cost Per Qualified Lead", value: "$287", note: "↓63% from $556" },
       { label: "Closed Cases", value: "63", note: "avg case value $5,278" },

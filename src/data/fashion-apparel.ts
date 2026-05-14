@@ -7,7 +7,7 @@ export const fashionApparel: CaseStudyData = {
   subheadline: "MEGA helped a direct-to-consumer women's apparel brand optimize paid advertising, build an organic content engine, and capitalize on seasonal demand — generating 5,187 orders and a 4.27x blended ROAS across a full calendar year.",
   heroStats: [
     { value: "12", unit: "months", label: "Campaign Duration" },
-    { value: "2271", unit: "", label: "Orders Attributed" },
+    { value: "2,271", unit: "", label: "Orders Attributed" },
     { value: "198.9", unit: "K", label: "Ad Revenue" },
   ],
   tags: ["Paid Advertising", "SEO", "Ecommerce", "Fashion & Apparel"],
@@ -87,36 +87,24 @@ export const fashionApparel: CaseStudyData = {
   ],
   seo: {
     summary: [
-      { label: "Total Keywords", value: "1,847", growth: "+1,131%", from: "from 149" },
+      { label: "Total Keywords", value: "12,274", growth: "+1,131%", from: "from 149" },
       { label: "Top 10 Rankings", value: "203", growth: "+1,915%", from: "from 10" },
       { label: "Pages Created", value: "94", growth: "", from: "incl. 47 style guides & trend articles" },
       { label: "Organic Traffic", value: "4,712/mo", growth: "+1,078%", from: "from 401" },
     ],
     monthly: [
-      // Month 1 (Jan 2025): Baseline — thin site, almost no non-branded visibility
-      { month: "Jan 2025", keywords: 149, top10: 10, top3: 2, traffic: 401, pages: 14, avgPos: 52.3, ctr: 0.7 },
-      // Month 2 (Feb): Technical fixes live, first content published, structured data implemented
-      { month: "Feb 2025", keywords: 198, top10: 14, top3: 2, traffic: 487, pages: 21, avgPos: 48.1, ctr: 0.8 },
-      // Month 3 (Mar): Spring style guides indexing, size guides gaining traction
-      { month: "Mar 2025", keywords: 289, top10: 23, top3: 4, traffic: 634, pages: 29, avgPos: 43.7, ctr: 0.9 },
-      // Month 4 (Apr): Content compounding, spring fashion searches peaking
-      { month: "Apr 2025", keywords: 412, top10: 38, top3: 6, traffic: 923, pages: 37, avgPos: 39.4, ctr: 1.1 },
-      // Month 5 (May): Summer content ranking, workwear guides gaining authority
-      { month: "May 2025", keywords: 547, top10: 54, top3: 9, traffic: 1247, pages: 44, avgPos: 35.8, ctr: 1.2 },
-      // Month 6 (Jun): Strong organic growth — summer fashion queries driving traffic
-      { month: "Jun 2025", keywords: 689, top10: 71, top3: 12, traffic: 1634, pages: 51, avgPos: 32.6, ctr: 1.4 },
-      // Month 7 (Jul): Continued growth, vacation style content performing well
-      { month: "Jul 2025", keywords: 823, top10: 89, top3: 16, traffic: 1978, pages: 57, avgPos: 30.1, ctr: 1.5 },
-      // Month 8 (Aug): Back-to-school content boosting traffic, fall preview articles indexing
-      { month: "Aug 2025", keywords: 967, top10: 108, top3: 19, traffic: 2413, pages: 64, avgPos: 27.9, ctr: 1.6 },
-      // Month 9 (Sep): Fall fashion content peak — style guides and trend posts ranking strongly
-      { month: "Sep 2025", keywords: 1123, top10: 127, top3: 23, traffic: 2847, pages: 71, avgPos: 25.7, ctr: 1.7 },
-      // Month 10 (Oct): Holiday gift guide content indexing, organic authority established
-      { month: "Oct 2025", keywords: 1312, top10: 149, top3: 27, traffic: 3289, pages: 78, avgPos: 23.8, ctr: 1.8 },
-      // Month 11 (Nov): Black Friday organic traffic surge — gift guides and deal content ranking
-      { month: "Nov 2025", keywords: 1578, top10: 178, top3: 31, traffic: 4134, pages: 86, avgPos: 22.1, ctr: 1.9 },
-      // Month 12 (Dec): Holiday peak — organic driving significant revenue, full content engine operational
-      { month: "Dec 2025", keywords: 1847, top10: 203, top3: 36, traffic: 4712, pages: 94, avgPos: 20.6, ctr: 2.1 },
+      { month: "Jan 2025", keywords: 167, top10: 17, top3: 3, traffic: 269, pages: 8, avgPos: 50.4, ctr: 0.7 },
+      { month: "Feb 2025", keywords: 775, top10: 64, top3: 10, traffic: 1876, pages: 15, avgPos: 44.8, ctr: 1.0 },
+      { month: "Mar 2025", keywords: 1074, top10: 150, top3: 43, traffic: 2034, pages: 20, avgPos: 44.1, ctr: 1.4 },
+      { month: "Apr 2025", keywords: 3333, top10: 350, top3: 115, traffic: 7993, pages: 20, avgPos: 39.3, ctr: 2.2 },
+      { month: "May 2025", keywords: 4629, top10: 690, top3: 167, traffic: 11690, pages: 38, avgPos: 40.8, ctr: 2.5 },
+      { month: "Jun 2025", keywords: 6120, top10: 865, top3: 148, traffic: 17312, pages: 44, avgPos: 32.7, ctr: 1.9 },
+      { month: "Jul 2025", keywords: 7178, top10: 625, top3: 146, traffic: 24454, pages: 55, avgPos: 24.6, ctr: 3.1 },
+      { month: "Aug 2025", keywords: 8276, top10: 709, top3: 245, traffic: 27476, pages: 36, avgPos: 26.1, ctr: 2.2 },
+      { month: "Sep 2025", keywords: 9617, top10: 845, top3: 139, traffic: 28375, pages: 71, avgPos: 30.3, ctr: 3.3 },
+      { month: "Oct 2025", keywords: 10105, top10: 1168, top3: 218, traffic: 29664, pages: 48, avgPos: 24.9, ctr: 5.3 },
+      { month: "Nov 2025", keywords: 11671, top10: 1499, top3: 255, traffic: 31893, pages: 69, avgPos: 24.6, ctr: 2.9 },
+      { month: "Dec 2025", keywords: 12274, top10: 1455, top3: 445, traffic: 34146, pages: 87, avgPos: 8, ctr: 3.3 }
     ],
   },
   paidAds: {
@@ -124,7 +112,7 @@ export const fashionApparel: CaseStudyData = {
       { label: "Total Ad Spend", value: "$96.4K" },
       { label: "Total Orders", value: "2,271" },
       { label: "Avg Cost Per Click", value: "$1.24", note: "↓34% from $1.87" },
-      { label: "Blended ROAS", value: "2.06x", note: "from 3.12x baseline" },
+      { label: "Blended ROAS", value: "2.1x", note: "from 3.12x baseline" },
     ],
     columnLabels: {
       leads: "Sessions",

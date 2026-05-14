@@ -7,7 +7,7 @@ export const vrEntertainmentTechnology: CaseStudyData = {
   subheadline: "MEGA helped a direct-to-consumer VR entertainment technology company dominate organic search while building a paid ads engine that drove 1,910 orders at a 4.65x blended ROAS — selling headsets, accessories, and experience packages to enthusiasts and venue operators nationwide.",
   heroStats: [
     { value: "1,247", unit: "%", label: "Organic Traffic Growth" },
-    { value: "1704", unit: "", label: "Orders Attributed" },
+    { value: "1,704", unit: "", label: "Orders Attributed" },
     { value: "473.1", unit: "K", label: "Ad Revenue" },
   ],
   tags: ["SEO Strategy", "Paid Advertising", "Ecommerce"],
@@ -122,7 +122,7 @@ export const vrEntertainmentTechnology: CaseStudyData = {
       { label: "Total Ad Spend", value: "$112.7K" },
       { label: "Total Orders", value: "1,704" },
       { label: "Avg Cost Per Order", value: "$59.01" },
-      { label: "Blended ROAS", value: "4.20x" },
+      { label: "Blended ROAS", value: "4.2x" },
     ],
     columnLabels: {
       leads: "Sessions",
@@ -138,7 +138,7 @@ export const vrEntertainmentTechnology: CaseStudyData = {
       { month: "May 2025", spend: 11247, leads: 6147, cpl: 1.83, qualified: 689, cpql: 16.32, deals: 184, revenue: 52808, roas: 4.70 },
       // Jun 2025: Summer peak — VR entertainment demand high, graduation gifts, summer projects.
       { month: "Jun 2025", spend: 13891, leads: 7734, cpl: 1.80, qualified: 867, cpql: 16.02, deals: 229, revenue: 65600, roas: 4.72 },
-      // Jul 2025: Peak summer — Prime Day competition drives up CPCs but volume stays strong.
+      // Jul 2025: Peak summer — Prime Day competition drives up Cost Per Visits but volume stays strong.
       { month: "Jul 2025", spend: 14234, leads: 7489, cpl: 1.90, qualified: 823, cpql: 17.30, deals: 218, revenue: 62566, roas: 4.40 },
       // Aug 2025: Late summer — back-to-school shift, slight demand dip but still solid.
       { month: "Aug 2025", spend: 11478, leads: 5739, cpl: 2.00, qualified: 612, cpql: 18.76, deals: 163, revenue: 46781, roas: 4.08 },

@@ -7,7 +7,7 @@ export const safetyTraining: CaseStudyData = {
   subheadline: "MEGA helped a workplace safety training provider in Houston, TX scale from $5K to $10K/month in ad spend while reducing cost per qualified lead from $287 to $149 — generating $363.2K in attributed revenue over 12 months through targeted campaigns reaching oil & gas, construction, and manufacturing decision-makers.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
-    { value: "363.2", unit: "K", label: "Revenue Attributed" },
+    { value: "$348.0K", unit: "K", label: "Revenue Attributed" },
     { value: "48", unit: "%", label: "CPQL Reduction" },
   ],
   tags: ["Paid Advertising", "SEO Strategy", "Local SEO", "ICP Optimization"],
@@ -105,24 +105,24 @@ export const safetyTraining: CaseStudyData = {
   ],
   seo: {
     summary: [
-      { label: "Total Keywords", value: "2,847", growth: "+2834%", from: "from 97" },
+      { label: "Total Keywords", value: "10,936", growth: "+2834%", from: "from 97" },
       { label: "Top 10 Rankings", value: "289", growth: "+2790%", from: "from 10" },
       { label: "Pages Created", value: "114", growth: "", from: "incl. 22 service area pages" },
       { label: "Organic Traffic", value: "3,412/mo", growth: "+1724%", from: "from 187" },
     ],
     monthly: [
-      { month: "Jan 2025", keywords: 97, top10: 10, top3: 1, traffic: 187, pages: 8, avgPos: 52.3, ctr: 0.6 },
-      { month: "Feb 2025", keywords: 156, top10: 14, top3: 2, traffic: 234, pages: 22, avgPos: 47.8, ctr: 0.7 },
-      { month: "Mar 2025", keywords: 289, top10: 31, top3: 4, traffic: 387, pages: 38, avgPos: 42.1, ctr: 0.9 },
-      { month: "Apr 2025", keywords: 487, top10: 58, top3: 8, traffic: 641, pages: 50, avgPos: 37.4, ctr: 1.1 },
-      { month: "May 2025", keywords: 723, top10: 89, top3: 14, traffic: 978, pages: 61, avgPos: 33.1, ctr: 1.3 },
-      { month: "Jun 2025", keywords: 1012, top10: 124, top3: 21, traffic: 1389, pages: 71, avgPos: 29.7, ctr: 1.5 },
-      { month: "Jul 2025", keywords: 1341, top10: 157, top3: 29, traffic: 1823, pages: 79, avgPos: 27.2, ctr: 1.6 },
-      { month: "Aug 2025", keywords: 1687, top10: 193, top3: 38, traffic: 2214, pages: 87, avgPos: 25.1, ctr: 1.8 },
-      { month: "Sep 2025", keywords: 2034, top10: 228, top3: 47, traffic: 2647, pages: 96, avgPos: 23.4, ctr: 1.9 },
-      { month: "Oct 2025", keywords: 2389, top10: 256, top3: 54, traffic: 2987, pages: 103, avgPos: 22.1, ctr: 2.0 },
-      { month: "Nov 2025", keywords: 2623, top10: 274, top3: 59, traffic: 3189, pages: 109, avgPos: 21.3, ctr: 2.1 },
-      { month: "Dec 2025", keywords: 2847, top10: 289, top3: 63, traffic: 3412, pages: 114, avgPos: 20.7, ctr: 2.1 },
+      { month: "Jan 2025", keywords: 161, top10: 23, top3: 4, traffic: 300, pages: 8, avgPos: 48.1, ctr: 0.8 },
+      { month: "Feb 2025", keywords: 705, top10: 87, top3: 16, traffic: 1064, pages: 15, avgPos: 44.6, ctr: 1.1 },
+      { month: "Mar 2025", keywords: 975, top10: 108, top3: 30, traffic: 1970, pages: 20, avgPos: 41.6, ctr: 1.5 },
+      { month: "Apr 2025", keywords: 2876, top10: 420, top3: 78, traffic: 9577, pages: 21, avgPos: 40.8, ctr: 2.0 },
+      { month: "May 2025", keywords: 4461, top10: 546, top3: 185, traffic: 14545, pages: 25, avgPos: 35.2, ctr: 2.3 },
+      { month: "Jun 2025", keywords: 5250, top10: 453, top3: 157, traffic: 14344, pages: 40, avgPos: 30.8, ctr: 2.4 },
+      { month: "Jul 2025", keywords: 6230, top10: 889, top3: 138, traffic: 13749, pages: 39, avgPos: 22.8, ctr: 3.1 },
+      { month: "Aug 2025", keywords: 7790, top10: 1026, top3: 353, traffic: 24850, pages: 41, avgPos: 29.4, ctr: 3.8 },
+      { month: "Sep 2025", keywords: 8282, top10: 729, top3: 203, traffic: 23516, pages: 65, avgPos: 20.5, ctr: 3.8 },
+      { month: "Oct 2025", keywords: 9155, top10: 782, top3: 260, traffic: 31626, pages: 58, avgPos: 11.0, ctr: 2.7 },
+      { month: "Nov 2025", keywords: 10428, top10: 1356, top3: 417, traffic: 27989, pages: 64, avgPos: 24.0, ctr: 3.9 },
+      { month: "Dec 2025", keywords: 10936, top10: 1351, top3: 280, traffic: 31854, pages: 46, avgPos: 21.7, ctr: 4.5 }
     ],
   },
   paidAds: {
@@ -130,7 +130,7 @@ export const safetyTraining: CaseStudyData = {
       { label: "Total Ad Spend", value: "$89.4K" },
       { label: "Qualified Leads", value: "542" },
       { label: "Avg Cost Per Qualified Lead", value: "$165", note: "↓43% from $287" },
-      { label: "Total Revenue", value: "$363.2K", note: "avg deal value $2,921" },
+      { label: "Total Revenue", value: "$348.0K", note: "avg deal value $2,921" },
     ],
     columnLabels: {
       leads: "Total Inquiries",
@@ -152,7 +152,7 @@ export const safetyTraining: CaseStudyData = {
       { month: "Sep 2025", spend: 8100, leads: 126, cpl: 64.29, qualified: 52, cpql: 155.77, deals: 10, revenue: 29400.0, roas: 3.63 },
       { month: "Oct 2025", spend: 8900, leads: 137, cpl: 64.96, qualified: 61, cpql: 145.9, deals: 7, revenue: 20700.0, roas: 2.33 },
       { month: "Nov 2025", spend: 9200, leads: 146, cpl: 63.01, qualified: 63, cpql: 146.03, deals: 14, revenue: 40200.0, roas: 4.37 },
-      { month: "Dec 2025", spend: 9600, leads: 156, cpl: 61.54, qualified: 69, cpql: 139.13, deals: 15, revenue: 46100.0, roas: 4.8 }
+      { month: "Dec 2025", spend: 9600, leads: 156, cpl: 61.54, qualified: 69, cpql: 139.13, deals: 15, revenue: 30912, roas: 3.22 }
     ],
   },
   localSeo: {
@@ -211,9 +211,9 @@ export const safetyTraining: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$363.2K", growth: "+487%" },
+    { label: "Total Revenue", value: "$348.0K", growth: "+487%" },
     { label: "Signed Contracts", value: "141", growth: "+312%" },
     { label: "Cost Per Qualified Lead", value: "$149", growth: "↓48%" },
-    { label: "Blended ROAS", value: "4.06x", growth: "" },
+    { label: "Blended ROAS", value: "3.89x", growth: "" },
   ],
 };

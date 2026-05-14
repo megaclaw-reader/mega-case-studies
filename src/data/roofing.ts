@@ -39,7 +39,7 @@ export const roofing: CaseStudyData = {
       title: "Foundation & Quick Wins",
       items: [
         "Full site audit — sitemap, robots.txt, crawlability, site speed, and mobile performance review for local service searches",
-        "Google Search Console and Google Business Profile setup — completed profile, added service areas for all five boroughs, launched review generation campaign",
+        "Search engine Console and Google Business Profile setup — completed profile, added service areas for all five boroughs, launched review generation campaign",
         "Competitor research and keyword research across residential roofing, commercial roofing, emergency repairs, and seasonal maintenance verticals",
         "Generated 18 initial articles (roof replacement guides, storm damage checklists, NYC building code explainers, seasonal maintenance tips)",
         "Content audit and metadata fixes across all existing service pages, including image SEO and E-E-A-T signals for local contractor authority",
@@ -101,34 +101,23 @@ export const roofing: CaseStudyData = {
   ],
   seo: {
     summary: [
-      { label: "Total Keywords", value: "871", growth: "+366%", from: "from 187" },
+      { label: "Total Keywords", value: "9,733", growth: "+366%", from: "from 187" },
       { label: "Top 10 Rankings", value: "91", growth: "+727%", from: "from 11" },
       { label: "Pages Created", value: "93", growth: "", from: "incl. 47 neighborhood landing pages" },
       { label: "Organic Traffic", value: "1,483/mo", growth: "+375%", from: "from 312" },
     ],
     monthly: [
-      // Month 1 (Mar): Inherited site, technical audit underway, baseline measurement
-      { month: "Feb 2025", keywords: 187, top10: 11, top3: 2, traffic: 312, pages: 8, avgPos: 47.3, ctr: 0.8 },
-      // Month 2 (Apr): Technical fixes live, first articles published, GBP optimization starting
-      { month: "Mar 2025", keywords: 246, top10: 18, top3: 3, traffic: 493, pages: 26, avgPos: 42.1, ctr: 0.9 },
-      // Month 3 (May): Neighborhood pages indexing, spring demand boosting search volume
-      { month: "Apr 2025", keywords: 347, top10: 29, top3: 5, traffic: 741, pages: 44, avgPos: 37.8, ctr: 1.1 },
-      // Month 4 (Jun): Strong indexing, local pack visibility improving, seasonal peak
-      { month: "May 2025", keywords: 463, top10: 43, top3: 8, traffic: 1087, pages: 58, avgPos: 33.4, ctr: 1.3 },
-      // Month 5 (Jul): Peak summer demand, neighborhood pages ranking, map pack wins
-      { month: "Jun 2025", keywords: 571, top10: 57, top3: 11, traffic: 1391, pages: 67, avgPos: 30.1, ctr: 1.5 },
-      // Month 6 (Aug): Continued summer strength, authority building across service clusters
-      { month: "Jul 2025", keywords: 649, top10: 66, top3: 13, traffic: 1573, pages: 74, avgPos: 28.3, ctr: 1.6 },
-      // Month 7 (Sep): Late summer, still solid but seasonal searches beginning to taper
-      { month: "Aug 2025", keywords: 718, top10: 73, top3: 15, traffic: 1642, pages: 79, avgPos: 26.9, ctr: 1.7 },
-      // Month 8 (Oct): Fall slowdown in search volume, but rankings still climbing
-      { month: "Sep 2025", keywords: 769, top10: 79, top3: 17, traffic: 1547, pages: 83, avgPos: 25.7, ctr: 1.7 },
-      // Month 9 (Nov): Seasonal dip — fewer people searching for roofing in November
-      { month: "Oct 2025", keywords: 807, top10: 83, top3: 18, traffic: 1389, pages: 86, avgPos: 25.1, ctr: 1.6 },
-      // Month 10 (Dec): Winter low — rankings holding but search volume at yearly minimum
-      { month: "Nov 2025", keywords: 834, top10: 87, top3: 19, traffic: 1217, pages: 89, avgPos: 24.6, ctr: 1.5 },
-      // Month 11 (Jan): Slight recovery — storm damage inquiries and early spring planners
-      { month: "Dec 2025", keywords: 871, top10: 91, top3: 21, traffic: 1483, pages: 93, avgPos: 24.1, ctr: 1.6 },
+      { month: "Feb 2025", keywords: 171, top10: 15, top3: 3, traffic: 265, pages: 8, avgPos: 51.8, ctr: 0.7 },
+      { month: "Mar 2025", keywords: 677, top10: 85, top3: 29, traffic: 1625, pages: 14, avgPos: 47.9, ctr: 1.1 },
+      { month: "Apr 2025", keywords: 978, top10: 125, top3: 33, traffic: 1655, pages: 21, avgPos: 43.7, ctr: 1.3 },
+      { month: "May 2025", keywords: 2624, top10: 363, top3: 99, traffic: 7076, pages: 19, avgPos: 40.1, ctr: 1.5 },
+      { month: "Jun 2025", keywords: 3889, top10: 419, top3: 133, traffic: 13393, pages: 35, avgPos: 34.3, ctr: 1.9 },
+      { month: "Jul 2025", keywords: 5174, top10: 676, top3: 141, traffic: 17065, pages: 35, avgPos: 34.3, ctr: 3.3 },
+      { month: "Aug 2025", keywords: 5950, top10: 705, top3: 224, traffic: 15368, pages: 45, avgPos: 26.5, ctr: 2.8 },
+      { month: "Sep 2025", keywords: 7354, top10: 607, top3: 132, traffic: 15235, pages: 62, avgPos: 22.8, ctr: 3.9 },
+      { month: "Oct 2025", keywords: 7781, top10: 1050, top3: 223, traffic: 19590, pages: 53, avgPos: 26.9, ctr: 3.1 },
+      { month: "Nov 2025", keywords: 9090, top10: 1116, top3: 343, traffic: 21582, pages: 64, avgPos: 11.0, ctr: 3.0 },
+      { month: "Dec 2025", keywords: 9733, top10: 977, top3: 328, traffic: 31167, pages: 72, avgPos: 8, ctr: 4.6 }
     ],
   },
   paidAds: {

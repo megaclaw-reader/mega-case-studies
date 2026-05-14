@@ -99,22 +99,22 @@ export const telehealthArizona: CaseStudyData = {
   ],
   seo: {
     summary: [
-      { label: "Total Keywords", value: "8,412", growth: "+8,068%", from: "from 103" },
+      { label: "Total Keywords", value: "10,636", growth: "+8,068%", from: "from 103" },
       { label: "Top 10 Rankings", value: "647", growth: "+5,288%", from: "from 12" },
       { label: "Pages Created", value: "134", growth: "", from: "incl. 30 city service pages" },
       { label: "Organic Traffic", value: "9,847/mo", growth: "+4,457%", from: "from 216" },
     ],
     monthly: [
-      { month: "Jan 2025", keywords: 103, top10: 12, top3: 1, traffic: 216, pages: 14, avgPos: 52.3, ctr: 0.6 },
-      { month: "Feb 2025", keywords: 247, top10: 29, top3: 3, traffic: 418, pages: 36, avgPos: 44.7, ctr: 0.8 },
-      { month: "Mar 2025", keywords: 589, top10: 67, top3: 8, traffic: 847, pages: 64, avgPos: 37.2, ctr: 1.1 },
-      { month: "Apr 2025", keywords: 1043, top10: 119, top3: 16, traffic: 1623, pages: 80, avgPos: 31.4, ctr: 1.4 },
-      { month: "May 2025", keywords: 1876, top10: 198, top3: 29, traffic: 2841, pages: 89, avgPos: 27.8, ctr: 1.7 },
-      { month: "Jun 2025", keywords: 2934, top10: 287, top3: 43, traffic: 4127, pages: 97, avgPos: 24.6, ctr: 1.9 },
-      { month: "Jul 2025", keywords: 4213, top10: 378, top3: 61, traffic: 5689, pages: 106, avgPos: 22.1, ctr: 2.1 },
-      { month: "Aug 2025", keywords: 5687, top10: 461, top3: 82, traffic: 7234, pages: 116, avgPos: 20.3, ctr: 2.3 },
-      { month: "Sep 2025", keywords: 7134, top10: 556, top3: 104, traffic: 8612, pages: 126, avgPos: 18.9, ctr: 2.4 },
-      { month: "Oct 2025", keywords: 8412, top10: 647, top3: 127, traffic: 9847, pages: 134, avgPos: 17.6, ctr: 2.5 },
+      { month: "Jan 2025", keywords: 216, top10: 21, top3: 4, traffic: 524, pages: 8, avgPos: 51.7, ctr: 0.8 },
+      { month: "Feb 2025", keywords: 682, top10: 59, top3: 20, traffic: 1238, pages: 11, avgPos: 48.3, ctr: 1.0 },
+      { month: "Mar 2025", keywords: 936, top10: 105, top3: 29, traffic: 2335, pages: 22, avgPos: 43.5, ctr: 1.4 },
+      { month: "Apr 2025", keywords: 2260, top10: 281, top3: 53, traffic: 5889, pages: 28, avgPos: 37.7, ctr: 1.7 },
+      { month: "May 2025", keywords: 3660, top10: 383, top3: 62, traffic: 8650, pages: 34, avgPos: 37.9, ctr: 1.8 },
+      { month: "Jun 2025", keywords: 4397, top10: 476, top3: 98, traffic: 12642, pages: 24, avgPos: 31.3, ctr: 2.7 },
+      { month: "Jul 2025", keywords: 6046, top10: 695, top3: 129, traffic: 16197, pages: 47, avgPos: 22.3, ctr: 2.5 },
+      { month: "Aug 2025", keywords: 7923, top10: 1100, top3: 339, traffic: 23495, pages: 46, avgPos: 27.0, ctr: 3.6 },
+      { month: "Sep 2025", keywords: 9702, top10: 1300, top3: 249, traffic: 20625, pages: 40, avgPos: 15.7, ctr: 3.3 },
+      { month: "Oct 2025", keywords: 10636, top10: 1271, top3: 383, traffic: 29360, pages: 72, avgPos: 20.3, ctr: 4.6 }
     ],
   },
   paidAds: {

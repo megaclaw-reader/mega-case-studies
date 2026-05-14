@@ -89,20 +89,20 @@ export const exteriorBuildingMaterialsAz: CaseStudyData = {
   ],
   seo: {
     summary: [
-      { label: "Total Keywords", value: "7,234", growth: "+38,000%", from: "from 19" },
+      { label: "Total Keywords", value: "4,535", growth: "+38,000%", from: "from 19" },
       { label: "Top 10 Rankings", value: "487", growth: "+24,250%", from: "from 2" },
       { label: "Organic Traffic", value: "6,534/mo", growth: "+7,410%", from: "from 87" },
       { label: "Domain Authority", value: "34", growth: "+209%", from: "from 11" },
     ],
     monthly: [
-      { month: "Mar 2025", keywords: 19, top10: 2, top3: 0, traffic: 87, pages: 4, avgPos: 64.8, ctr: 0.3 },
-      { month: "Apr 2025", keywords: 67, top10: 5, top3: 0, traffic: 134, pages: 24, avgPos: 54.3, ctr: 0.5 },
-      { month: "May 2025", keywords: 189, top10: 14, top3: 1, traffic: 278, pages: 42, avgPos: 46.7, ctr: 0.7 },
-      { month: "Jun 2025", keywords: 487, top10: 43, top3: 4, traffic: 612, pages: 64, avgPos: 39.2, ctr: 0.9 },
-      { month: "Jul 2025", keywords: 1078, top10: 98, top3: 11, traffic: 1347, pages: 89, avgPos: 33.1, ctr: 1.2 },
-      { month: "Aug 2025", keywords: 2413, top10: 187, top3: 24, traffic: 2834, pages: 118, avgPos: 27.8, ctr: 1.5 },
-      { month: "Sep 2025", keywords: 4567, top10: 312, top3: 43, traffic: 4623, pages: 152, avgPos: 23.4, ctr: 1.8 },
-      { month: "Oct 2025", keywords: 7234, top10: 487, top3: 67, traffic: 6534, pages: 194, avgPos: 19.6, ctr: 2.1 },
+      { month: "Mar 2025", keywords: 238, top10: 29, top3: 8, traffic: 501, pages: 8, avgPos: 48.9, ctr: 0.8 },
+      { month: "Apr 2025", keywords: 573, top10: 81, top3: 17, traffic: 1399, pages: 15, avgPos: 47.7, ctr: 1.2 },
+      { month: "May 2025", keywords: 799, top10: 71, top3: 22, traffic: 1973, pages: 17, avgPos: 44.7, ctr: 1.3 },
+      { month: "Jun 2025", keywords: 1598, top10: 167, top3: 56, traffic: 3923, pages: 18, avgPos: 40.9, ctr: 1.6 },
+      { month: "Jul 2025", keywords: 2438, top10: 304, top3: 47, traffic: 7061, pages: 28, avgPos: 33.5, ctr: 1.7 },
+      { month: "Aug 2025", keywords: 3277, top10: 264, top3: 82, traffic: 10927, pages: 34, avgPos: 30.2, ctr: 2.8 },
+      { month: "Sep 2025", keywords: 4072, top10: 398, top3: 72, traffic: 14184, pages: 54, avgPos: 36.3, ctr: 3.6 },
+      { month: "Oct 2025", keywords: 4535, top10: 398, top3: 122, traffic: 14959, pages: 47, avgPos: 24.4, ctr: 2.9 }
     ],
   },
   localSeo: {

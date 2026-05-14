@@ -125,8 +125,8 @@ export const paintingCompanyPhoenix: CaseStudyData = {
       { label: "Total Ad Spend", value: "$85.8K" },
       { label: "Total Qualified Leads", value: "656" },
       { label: "Total Deals Closed", value: "103" },
-      { label: "Total Revenue", value: "$338,250" },
-      { label: "Blended ROAS", value: "3.94x" },
+      { label: "Total Revenue", value: "$338.2K" },
+      { label: "Blended ROAS", value: "3.9x" },
     ],
     monthly: [
       { month: "Jan '25", spend: 7500, leads: 156, cpl: 48.08, qualified: 58, cpql: 129.31, deals: 9, revenue: 28800, roas: 3.84 },

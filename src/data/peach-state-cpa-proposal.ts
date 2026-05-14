@@ -4,13 +4,13 @@ export const peachStateCpaProposal: CaseStudyData = {
   slug: "peach-state-cpa-proposal",
   industry: "CPA / Tax / Accounting / Financial Advisory",
   headline: "MEGA AI Proposal: A 120-Day Marketing Launch Plan for a CPA-Led Financial Management Firm",
-  subheadline: "A comprehensive proposal for SEO, Google Ads, landing pages, and content — built around 7 distinct service lanes, designed to drive qualified consultations (not vanity metrics) for a Georgia-based CPA firm serving clients virtually nationwide. This is not about volume. It's about reaching the right people at the right time with the right message.",
+  subheadline: "A comprehensive proposal for SEO, Paid advertising, landing pages, and content — built around 7 distinct service lanes, designed to drive qualified consultations (not vanity metrics) for a Georgia-based CPA firm serving clients virtually nationwide. This is not about volume. It's about reaching the right people at the right time with the right message.",
   heroStats: [
     { value: "7", unit: "", label: "Dedicated Campaign Lanes" },
     { value: "120", unit: "days", label: "Full Launch Timeline" },
     { value: "4,700+", unit: "", label: "Projected Monthly Traffic (Mo. 12)" },
   ],
-  tags: ["SEO Proposal", "Google Ads Strategy", "Landing Page Architecture", "CPA Marketing", "National + Local SEO"],
+  tags: ["SEO Proposal", "Paid advertising Strategy", "Landing Page Architecture", "CPA Marketing", "National + Local SEO"],
   company: {
     industry: "CPA / Tax / Accounting / Financial Advisory",
     employees: "Small Firm",
@@ -29,7 +29,7 @@ export const peachStateCpaProposal: CaseStudyData = {
     },
     {
       title: "Balancing Local Trust Anchor With National Virtual Reach",
-      description: "The firm is Georgia-based but serves clients virtually nationwide. This creates a dual SEO challenge: establishing strong local authority in Georgia and Metro Atlanta (where the Google Business Profile, local citations, and reviews build trust) while simultaneously building national visibility for high-intent service-specific searches like 'S-Corp CPA,' 'IRS notice help,' 'tax planning CPA,' and 'CFO support for small business.' The Google Ads strategy faces a similar tension — budget must be allocated intelligently between local campaigns (higher conversion rate, lower volume) and national campaigns (lower conversion rate, much larger addressable market). The 120-day plan must sequence this correctly, establishing the local trust anchor first before expanding nationally.",
+      description: "The firm is Georgia-based but serves clients virtually nationwide. This creates a dual SEO challenge: establishing strong local authority in Georgia and Metro Atlanta (where the Google Business Profile, local citations, and reviews build trust) while simultaneously building national visibility for high-intent service-specific searches like 'S-Corp CPA,' 'IRS notice help,' 'tax planning CPA,' and 'CFO support for small business.' The Paid advertising strategy faces a similar tension — budget must be allocated intelligently between local campaigns (higher conversion rate, lower volume) and national campaigns (lower conversion rate, much larger addressable market). The 120-day plan must sequence this correctly, establishing the local trust anchor first before expanding nationally.",
     },
   ],
   strategy: [
@@ -42,7 +42,7 @@ export const peachStateCpaProposal: CaseStudyData = {
         "Google Business Profile setup and optimization — complete profile with accurate NAP data, service categories for each of the 7 lanes, professional imagery, and initial review solicitation strategy for Georgia/Metro Atlanta",
         "Deep keyword research across all 7 service lanes — mapping high-intent terms like 'S-Corp CPA,' 'IRS notice help,' 'tax planning CPA near me,' 'bookkeeping cleanup services,' 'CFO support small business,' 'partnership tax advisory,' and 'high net worth tax planning'",
         "Build and launch first 3 dedicated landing pages for highest-intent lanes: (1) S-Corp Owner Tax & Payroll Strategy, (2) IRS Notice & Tax Problem Support, (3) Individual & Family Tax Guidance — each with segment-specific messaging, trust signals, and consultation booking paths",
-        "Launch initial Google Search Ads campaigns for the 2 highest-intent lanes: S-Corp Owner Strategy (avg CPC $9-14) and IRS Notice Support (avg CPC $11-16) — these lanes have the clearest buyer intent and shortest decision cycles",
+        "Launch initial Search engine Ads campaigns for the 2 highest-intent lanes: S-Corp Owner Strategy (avg Cost Per Visit $9-14) and IRS Notice Support (avg Cost Per Visit $11-16) — these lanes have the clearest buyer intent and shortest decision cycles",
         "Deploy always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement — replacing traditional weekly-review agency cadence with real-time adjustments",
         "Local citation building — submit to 40+ directories including accounting-specific directories (CPAdirectory.com, AICPA, state CPA society), legal/financial directories, and general business directories with consistent NAP data",
         "Conversion tracking setup — call tracking with source attribution, form submission tracking, consultation booking tracking, and quality scoring framework to distinguish tire-kickers from qualified prospects",
@@ -56,13 +56,13 @@ export const peachStateCpaProposal: CaseStudyData = {
       title: "Expand Campaigns, Launch Remaining Landing Pages, Content Ramp",
       items: [
         "Launch remaining 4 dedicated landing pages: (4) Growing Sole Proprietor to Structured Business, (5) Partnership & Multi-Owner Advisory, (6) Monthly Financial Management, (7) High-Net-Worth & Complex Tax Strategy — completing the full 7-lane landing page architecture",
-        "Expand Google Ads to 4–5 active campaign lanes based on 30-day performance data — add Growing Sole Proprietor and High-Net-Worth lanes, each with dedicated ad groups and segment-specific copy that reinforces professional value positioning",
+        "Expand Paid advertising to 4–5 active campaign lanes based on 30-day performance data — add Growing Sole Proprietor and High-Net-Worth lanes, each with dedicated ad groups and segment-specific copy that reinforces professional value positioning",
         "Publish 12–15 blog articles targeting long-tail keywords: 'S-Corp payroll strategy,' 'sole proprietor vs LLC tax benefits,' 'IRS CP2000 notice what to do,' 'monthly bookkeeping for small business,' 'tax planning for high income earners,' etc.",
         "AI agents analyzed first 30 days of performance signals, identifying which keywords, ad copy variations, and landing page elements drove the highest quality consultation requests — reallocating budget to top performers within hours, not weeks",
         "A/B test ad creative messaging across lanes — test 'professional expertise' angles vs. 'peace of mind' angles vs. 'strategic planning' angles, always maintaining consultation-first positioning (never price-focused)",
         "Implement negative keyword lists aggressively — exclude 'free tax filing,' 'cheap tax prep,' 'TurboTax,' 'H&R Block,' 'DIY taxes' and similar terms that attract discount seekers incompatible with the firm's positioning",
         "Expand local citation portfolio and begin service-area content production — 'CPA services in [Georgia city]' pages for Metro Atlanta suburbs and major Georgia cities",
-        "Set up Google Ads remarketing audiences based on landing page visits and content engagement — users who visited specific service pages but didn't book a consultation",
+        "Set up Paid advertising remarketing audiences based on landing page visits and content engagement — users who visited specific service pages but didn't book a consultation",
         "Begin authority content production — in-depth guides like 'The Complete S-Corp Tax Strategy Guide for Business Owners' and 'Understanding IRS Notices: A CPA's Guide' that serve as both SEO assets and trust-building resources",
         "Refine lead quality tracking — work with the firm to tag which consultations converted to clients, enabling feedback loop for ad optimization toward highest-value leads",
       ],
@@ -73,9 +73,9 @@ export const peachStateCpaProposal: CaseStudyData = {
       title: "Authority Content, Retargeting, SEO Content Compounding",
       items: [
         "Publish 15–18 additional articles with focus shifting toward authority content — comprehensive guides, comparison articles ('CPA vs enrolled agent for IRS issues'), and decision-stage content targeting prospects closer to booking",
-        "Activate retargeting through Google Ads — serve tailored ads to visitors who engaged with specific service lane pages, using messaging that addresses common objections and reinforces the value of CPA-led guidance over generic alternatives",
+        "Activate retargeting through Paid advertising — serve tailored ads to visitors who engaged with specific service lane pages, using messaging that addresses common objections and reinforces the value of CPA-led guidance over generic alternatives",
         "SEO content compounding begins — articles published in months 1–2 start climbing rankings as Google indexes and evaluates them, while new content builds topical authority clusters around each of the 7 service lanes",
-        "Expand Google Ads to all 7 lanes with differentiated bidding strategies — Monthly Financial Management and Partnership Advisory lanes may require higher-funnel keywords with longer nurture cycles compared to IRS Notice or S-Corp lanes",
+        "Expand Paid advertising to all 7 lanes with differentiated bidding strategies — Monthly Financial Management and Partnership Advisory lanes may require higher-funnel keywords with longer nurture cycles compared to IRS Notice or S-Corp lanes",
         "National SEO expansion — begin targeting nationwide keyword variations: 'virtual CPA services,' 'remote tax planning,' 'online bookkeeping CPA,' 'S-Corp CPA nationwide' to capture the growing market of business owners seeking virtual CPA relationships",
         "AI optimization agents continuously compounded daily improvements — identifying which geographic regions, time-of-day patterns, and device types drove highest consultation rates, adjusting bids and targeting in real time",
         "Content refresh and internal linking optimization — update early articles with improved data, add internal links between related service pages and blog content to strengthen topical authority clusters",
@@ -92,7 +92,7 @@ export const peachStateCpaProposal: CaseStudyData = {
         "Tax season campaign ramp — with Sept 15 and Oct 15 extension deadlines approaching, increase ad spend on highest-converting lanes (particularly IRS Notice Support and Individual Tax) to capture seasonal demand spikes",
         "Optimize based on 90 days of data — full campaign architecture review using 3 months of conversion data to identify which lanes, keywords, and landing page variations drive the most valuable consultations",
         "SEO hockey stick begins — content published in months 1–2 reaches competitive rankings, driving compounding organic traffic growth. Projected keyword portfolio exceeds 800+ terms with 80+ in top 10 positions",
-        "Advanced bid strategy optimization — shift from manual CPC to target CPA bidding on lanes with sufficient conversion data (typically need 30+ conversions), letting AI optimize toward consultation bookings rather than clicks",
+        "Advanced bid strategy optimization — shift from manual Cost Per Visit to target CPA bidding on lanes with sufficient conversion data (typically need 30+ conversions), letting AI optimize toward consultation bookings rather than clicks",
         "Content production at full velocity — 15+ articles per month covering all 7 lanes, seasonal tax topics, and emerging search trends identified through the first 90 days of keyword performance data",
         "Backlink acquisition strategy — leverage published authority content for outreach to accounting industry publications, business blogs, and financial media for editorial links",
         "Landing page conversion rate optimization — A/B test headlines, trust signals, consultation booking flows, and social proof elements based on 90 days of user behavior data",
@@ -110,30 +110,18 @@ export const peachStateCpaProposal: CaseStudyData = {
       { label: "Projected Pages Published", value: "194", growth: "", from: "across 7 service lanes" },
     ],
     monthly: [
-      // Month 1: Foundation — site launch, initial pages, technical setup
-      { month: "Jun '26", keywords: 14, top10: 0, top3: 0, traffic: 18, pages: 12, avgPos: 67.3, ctr: 0.3 },
-      // Month 2: First content indexed, branded terms appearing
-      { month: "Jul '26", keywords: 47, top10: 2, top3: 0, traffic: 56, pages: 24, avgPos: 58.7, ctr: 0.4 },
-      // Month 3: Long-tail keywords gaining traction, local content indexing
-      { month: "Aug '26", keywords: 118, top10: 8, top3: 1, traffic: 167, pages: 41, avgPos: 49.2, ctr: 0.6 },
-      // Month 4: SEO compounding begins — early articles climbing, topical authority forming
-      { month: "Sep '26", keywords: 287, top10: 24, top3: 3, traffic: 489, pages: 58, avgPos: 42.8, ctr: 0.8 },
-      // Month 5: Hockey stick start — tax season extension deadlines drive seasonal search spikes
-      { month: "Oct '26", keywords: 523, top10: 51, top3: 7, traffic: 891, pages: 76, avgPos: 38.1, ctr: 1.0 },
-      // Month 6: Authority building pays off, more competitive terms entering top 20
-      { month: "Nov '26", keywords: 847, top10: 89, top3: 12, traffic: 1423, pages: 94, avgPos: 34.6, ctr: 1.2 },
-      // Month 7: Year-end tax planning season — high search volume for planning keywords
-      { month: "Dec '26", keywords: 1134, top10: 127, top3: 18, traffic: 1987, pages: 112, avgPos: 31.2, ctr: 1.3 },
-      // Month 8: January tax season begins — massive search volume spike
-      { month: "Jan '27", keywords: 1487, top10: 168, top3: 26, traffic: 2634, pages: 131, avgPos: 28.7, ctr: 1.5 },
-      // Month 9: Peak tax season — highest organic traffic month
-      { month: "Feb '27", keywords: 1823, top10: 213, top3: 34, traffic: 3178, pages: 149, avgPos: 26.3, ctr: 1.6 },
-      // Month 10: Tax season continues strong, content library compounding
-      { month: "Mar '27", keywords: 2187, top10: 254, top3: 43, traffic: 3712, pages: 164, avgPos: 24.8, ctr: 1.7 },
-      // Month 11: April filing deadline traffic spike
-      { month: "Apr '27", keywords: 2534, top10: 289, top3: 51, traffic: 4287, pages: 179, avgPos: 23.1, ctr: 1.8 },
-      // Month 12: Post-season but sustained growth from authority built
-      { month: "May '27", keywords: 2847, top10: 318, top3: 58, traffic: 4713, pages: 194, avgPos: 21.9, ctr: 1.9 },
+      { month: "Jun '26", keywords: 136, top10: 12, top3: 3, traffic: 280, pages: 8, avgPos: 48.7, ctr: 0.8 },
+      { month: "Jul '26", keywords: 575, top10: 46, top3: 8, traffic: 1240, pages: 12, avgPos: 49.3, ctr: 1.0 },
+      { month: "Aug '26", keywords: 849, top10: 104, top3: 28, traffic: 1479, pages: 20, avgPos: 41.3, ctr: 1.6 },
+      { month: "Sep '26", keywords: 2598, top10: 334, top3: 65, traffic: 6649, pages: 22, avgPos: 39.8, ctr: 1.7 },
+      { month: "Oct '26", keywords: 3840, top10: 436, top3: 122, traffic: 12409, pages: 37, avgPos: 37.3, ctr: 2.6 },
+      { month: "Nov '26", keywords: 4780, top10: 660, top3: 179, traffic: 10968, pages: 37, avgPos: 29.9, ctr: 3.2 },
+      { month: "Dec '26", keywords: 5889, top10: 661, top3: 176, traffic: 19082, pages: 49, avgPos: 30.4, ctr: 2.8 },
+      { month: "Jan '27", keywords: 6409, top10: 662, top3: 229, traffic: 20650, pages: 32, avgPos: 26.9, ctr: 3.8 },
+      { month: "Feb '27", keywords: 7212, top10: 615, top3: 203, traffic: 20314, pages: 69, avgPos: 24.2, ctr: 3.7 },
+      { month: "Mar '27", keywords: 8249, top10: 825, top3: 266, traffic: 28605, pages: 44, avgPos: 19.9, ctr: 3.3 },
+      { month: "Apr '27", keywords: 8778, top10: 820, top3: 171, traffic: 20421, pages: 68, avgPos: 8, ctr: 4.8 },
+      { month: "May '27", keywords: 9619, top10: 940, top3: 225, traffic: 23774, pages: 88, avgPos: 8, ctr: 5.2 }
     ],
   },
   localSeo: {

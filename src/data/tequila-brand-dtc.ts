@@ -7,7 +7,7 @@ export const tequilaBrandDtc: CaseStudyData = {
   subheadline: "MEGA partnered with a premium DTC tequila brand to deploy always-on AI optimization and high-velocity creative testing — growing monthly ROAS from 3.03x to 7.81x, generating 22,156 orders, and producing $1.63M in ecommerce revenue over 12 months with a blended 6.41x ROAS.",
   heroStats: [
     { value: "7.81", unit: "x", label: "Peak ROAS Achieved" },
-    { value: "1.63", unit: "M", label: "Revenue Generated" },
+    { value: "$1.6M", unit: "M", label: "Revenue Generated" },
     { value: "22,156", unit: "", label: "Total Orders" },
   ],
   tags: ["Ecommerce", "Paid Advertising", "DTC", "Spirits"],

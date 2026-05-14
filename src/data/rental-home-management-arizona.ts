@@ -156,7 +156,7 @@ export const rentalHomeManagementArizona: CaseStudyData = {
       { month: "Feb '25", spend: 5200, leads: 78, cpl: 66.67, qualified: 33, cpql: 157.58, deals: 7, revenue: 17143, roas: 3.30 },
       { month: "Mar '25", spend: 5200, leads: 83, cpl: 62.65, qualified: 36, cpql: 144.44, deals: 8, revenue: 19624, roas: 3.77 },
       { month: "Apr '25", spend: 5400, leads: 91, cpl: 59.34, qualified: 41, cpql: 131.71, deals: 10, revenue: 24170, roas: 4.48 },
-      { month: "May '25", spend: 6200, leads: 108, cpl: 57.41, qualified: 49, cpql: 126.53, deals: 12, revenue: 29784, roas: 4.80 },
+      { month: "May '25", spend: 6200, leads: 108, cpl: 57.41, qualified: 49, cpql: 126.53, deals: 12, revenue: 23002, roas: 3.71 },
       { month: "Jun '25", spend: 7100, leads: 124, cpl: 57.26, qualified: 57, cpql: 124.56, deals: 14, revenue: 33362, roas: 4.70 },
       { month: "Jul '25", spend: 7800, leads: 137, cpl: 56.93, qualified: 63, cpql: 123.81, deals: 15, revenue: 37245, roas: 4.78 },
       { month: "Aug '25", spend: 8200, leads: 143, cpl: 57.34, qualified: 67, cpql: 122.39, deals: 16, revenue: 38912, roas: 4.75 },
@@ -256,9 +256,9 @@ export const rentalHomeManagementArizona: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$663.6K", growth: "+387%" },
+    { label: "Total Revenue", value: "$656.9K", growth: "+387%" },
     { label: "Signed Contracts", value: "310", growth: "+312%" },
     { label: "Cost Per Qualified Lead", value: "$100", growth: "↓37%" },
-    { label: "Blended ROAS", value: "4.62x", growth: "" },
+    { label: "Blended ROAS", value: "4.57x", growth: "" },
   ],
 };

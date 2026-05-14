@@ -39,7 +39,7 @@ export const specialtyTaxConsulting: CaseStudyData = {
       title: "Foundation & Quick Wins",
       items: [
         "Full technical site audit — crawlability, site speed, structured data, and local business schema for specialty tax services across North Carolina",
-        "Google Search Console and Google Business Profile optimization targeting Research Triangle, Charlotte, and Raleigh-Durham metro areas",
+        "Search engine Console and Google Business Profile optimization targeting Research Triangle, Charlotte, and Raleigh-Durham metro areas",
         "Competitive keyword research across R&D tax credits, cost segregation, estate and trust tax planning, IRS audit defense, and international tax compliance verticals",
         "Generated 14 initial content pieces — service-specific guides on North Carolina R&D tax credit eligibility, cost segregation for commercial real estate, and extension deadline planning",
         "Technical SEO fixes including canonical cleanup, image optimization, and E-E-A-T signals for financial advisory authority",

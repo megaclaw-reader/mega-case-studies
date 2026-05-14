@@ -78,9 +78,9 @@ export const roofingTexas: CaseStudyData = {
     summary: [
       { label: "Total Ad Spend", value: "$130.9K" },
       { label: "Total Qualified Leads", value: "587" },
-      { label: "Avg CPQL", value: "$222.99" },
-      { label: "Total Revenue", value: "$489,700" },
-      { label: "Blended ROAS", value: "3.74x" }
+      { label: "Avg CPQL", value: "$223" },
+      { label: "Total Revenue", value: "$489.7K" },
+      { label: "Blended ROAS", value: "3.7x" }
     ],
     columnLabels: {
       leads: "Total Leads",
@@ -187,6 +187,6 @@ export const roofingTexas: CaseStudyData = {
     { label: "Blended ROAS", value: "3.74x", growth: "" },
     { label: "Total Qualified Leads", value: "587", growth: "" },
     { label: "Cost Per Qualified Lead", value: "$222.99", growth: "-47% from baseline" },
-    { label: "Closed Deals", value: "32 roofing projects", growth: "" }
+    { label: "Closed Deals", value: "32", growth: "" }
   ]
 };

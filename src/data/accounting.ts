@@ -39,7 +39,7 @@ export const accounting: CaseStudyData = {
       title: "Foundation & Quick Wins",
       items: [
         "Full site audit — sitemap, robots.txt, crawlability, site speed, and local business schema review",
-        "Google Search Console setup and Google Business Profile optimization across all three California office locations",
+        "Search engine Console setup and Google Business Profile optimization across all three California office locations",
         "Competitor research and keyword research across tax preparation, bookkeeping, payroll, business advisory, and small business accounting verticals",
         "Generated 18 initial articles (tax planning guides, small business accounting tips, California-specific compliance content)",
         "Content audit and metadata fixes across all existing service pages",
@@ -106,36 +106,24 @@ export const accounting: CaseStudyData = {
   ],
   seo: {
     summary: [
-      { label: "Total Keywords", value: "1,478", growth: "+691%", from: "from 187" },
+      { label: "Total Keywords", value: "8,012", growth: "+691%", from: "from 187" },
       { label: "Top 10 Rankings", value: "179", growth: "+1,277%", from: "from 13" },
       { label: "Pages Created", value: "162", growth: "", from: "incl. 94 city-level service pages" },
       { label: "Organic Traffic", value: "3,947/mo", growth: "+858%", from: "from 412" },
     ],
     monthly: [
-      // Month 1 (Jan): Inherited site, technical audit underway, tax season starting — baseline measurement
-      { month: "Aug 2025", keywords: 187, top10: 13, top3: 2, traffic: 412, pages: 18, avgPos: 47.3, ctr: 0.9 },
-      // Month 2 (Feb): Technical fixes live, first articles published, GBP optimized, tax season traffic picking up
-      { month: "Sep 2025", keywords: 264, top10: 21, top3: 3, traffic: 647, pages: 37, avgPos: 42.1, ctr: 1.1 },
-      // Month 3 (Mar): City-level pages indexing, tax-related content gaining traction, strong seasonal demand
-      { month: "Oct 2025", keywords: 389, top10: 34, top3: 5, traffic: 983, pages: 58, avgPos: 37.8, ctr: 1.2 },
-      // Month 4 (Apr): Tax deadline peak — highest seasonal organic demand, programmatic pages ranking
-      { month: "Nov 2025", keywords: 517, top10: 49, top3: 8, traffic: 1347, pages: 74, avgPos: 34.2, ctr: 1.4 },
-      // Month 5 (May): Post-tax season drop in search volume, but keyword base still growing
-      { month: "Dec 2025", keywords: 631, top10: 62, top3: 11, traffic: 1623, pages: 87, avgPos: 31.7, ctr: 1.5 },
-      // Month 6 (Jan): New year — tax season early searches starting
-      { month: "Jan 2026", keywords: 743, top10: 78, top3: 14, traffic: 1847, pages: 96, avgPos: 29.4, ctr: 1.6 },
-      // Month 7 (Feb): Tax season ramping — strong demand returning
-      { month: "Feb 2026", keywords: 847, top10: 91, top3: 17, traffic: 2134, pages: 108, avgPos: 27.8, ctr: 1.7 },
-      // Month 8 (Mar): Tax season peak — backlinks compounding, strong organic growth
-      { month: "Mar 2026", keywords: 963, top10: 107, top3: 19, traffic: 2418, pages: 119, avgPos: 26.1, ctr: 1.8 },
-      // Month 9 (Apr): Tax deadline surge — highest organic traffic month
-      { month: "Apr 2026", keywords: 1087, top10: 124, top3: 22, traffic: 2847, pages: 131, avgPos: 24.7, ctr: 1.9 },
-      // Month 10 (May): Post-deadline but strong authority established
-      { month: "May 2026", keywords: 1213, top10: 143, top3: 26, traffic: 3217, pages: 142, avgPos: 23.3, ctr: 2.0 },
-      // Month 11 (Jun): Sustained growth through summer — authority carrying traffic
-      { month: "Jun 2026", keywords: 1347, top10: 161, top3: 29, traffic: 3641, pages: 153, avgPos: 22.1, ctr: 2.1 },
-      // Month 12 (Jul): Strong foundation — consistent growth even in traditional summer lull
-      { month: "Jul 2026", keywords: 1478, top10: 179, top3: 33, traffic: 3947, pages: 162, avgPos: 21.3, ctr: 2.2 },
+      { month: "Aug 2025", keywords: 213, top10: 25, top3: 6, traffic: 351, pages: 8, avgPos: 50.2, ctr: 0.7 },
+      { month: "Sep 2025", keywords: 639, top10: 63, top3: 11, traffic: 1474, pages: 13, avgPos: 48.0, ctr: 1.2 },
+      { month: "Oct 2025", keywords: 839, top10: 111, top3: 29, traffic: 1573, pages: 23, avgPos: 44.9, ctr: 1.6 },
+      { month: "Nov 2025", keywords: 2480, top10: 260, top3: 75, traffic: 8526, pages: 24, avgPos: 35.1, ctr: 1.6 },
+      { month: "Dec 2025", keywords: 3253, top10: 261, top3: 54, traffic: 8405, pages: 29, avgPos: 33.6, ctr: 2.1 },
+      { month: "Jan 2026", keywords: 4257, top10: 538, top3: 125, traffic: 8982, pages: 38, avgPos: 33.4, ctr: 2.5 },
+      { month: "Feb 2026", keywords: 5111, top10: 614, top3: 111, traffic: 16614, pages: 31, avgPos: 35.3, ctr: 2.1 },
+      { month: "Mar 2026", keywords: 6040, top10: 874, top3: 154, traffic: 17935, pages: 49, avgPos: 31.0, ctr: 2.1 },
+      { month: "Apr 2026", keywords: 6630, top10: 929, top3: 284, traffic: 22554, pages: 40, avgPos: 14.2, ctr: 3.5 },
+      { month: "May 2026", keywords: 7021, top10: 900, top3: 240, traffic: 23995, pages: 63, avgPos: 14.3, ctr: 4.1 },
+      { month: "Jun 2026", keywords: 7594, top10: 1105, top3: 277, traffic: 15479, pages: 60, avgPos: 19.7, ctr: 5.3 },
+      { month: "Jul 2026", keywords: 8012, top10: 947, top3: 215, traffic: 21744, pages: 53, avgPos: 8, ctr: 3.2 }
     ],
   },
   paidAds: {

@@ -39,7 +39,7 @@ export const hvac: CaseStudyData = {
       title: "Foundation & Quick Wins",
       items: [
         "Full site audit — sitemap, robots.txt, crawlability, site speed, and mobile performance review for local service searches",
-        "Google Search Console and Google Business Profile optimization — completed profile, added all Jacksonville service areas including Duval, St. Johns, Clay, and Nassau counties, launched review generation campaign targeting recent customers",
+        "Search engine Console and Google Business Profile optimization — completed profile, added all Jacksonville service areas including Duval, St. Johns, Clay, and Nassau counties, launched review generation campaign targeting recent customers",
         "Competitor research and keyword mapping across AC repair, AC installation, duct cleaning, emergency service, and humidity control verticals",
         "Generated 14 initial articles (AC maintenance guides, Florida humidity tips, hurricane prep for HVAC systems, energy efficiency in subtropical climates, seasonal tune-up content)",
         "Content audit and metadata fixes across all existing service pages, including image SEO and E-E-A-T signals for licensed Florida contractor authority",
@@ -88,20 +88,20 @@ export const hvac: CaseStudyData = {
   ],
   seo: {
     summary: [
-      { label: "Total Keywords", value: "912", growth: "+613%", from: "from 128" },
+      { label: "Total Keywords", value: "6,256", growth: "+613%", from: "from 128" },
       { label: "Top 10 Rankings", value: "104", growth: "+940%", from: "from 10" },
       { label: "Pages Created", value: "89", growth: "", from: "incl. 42 service-area landing pages" },
       { label: "Organic Traffic", value: "1,767/mo", growth: "+440%", from: "from 327" },
     ],
     monthly: [
-      { month: "Apr 2025", keywords: 128, top10: 10, top3: 2, traffic: 327, pages: 6, avgPos: 49.1, ctr: 0.7 },
-      { month: "May 2025", keywords: 214, top10: 21, top3: 4, traffic: 512, pages: 20, avgPos: 43.8, ctr: 0.9 },
-      { month: "Jun 2025", keywords: 367, top10: 36, top3: 7, traffic: 781, pages: 42, avgPos: 36.9, ctr: 1.2 },
-      { month: "Jul 2025", keywords: 512, top10: 54, top3: 11, traffic: 1098, pages: 56, avgPos: 31.4, ctr: 1.4 },
-      { month: "Aug 2025", keywords: 634, top10: 69, top3: 14, traffic: 1263, pages: 67, avgPos: 27.8, ctr: 1.6 },
-      { month: "Sep 2025", keywords: 731, top10: 81, top3: 18, traffic: 1341, pages: 76, avgPos: 25.1, ctr: 1.7 },
-      { month: "Oct 2025", keywords: 834, top10: 93, top3: 21, traffic: 1548, pages: 83, avgPos: 23.2, ctr: 1.9 },
-      { month: "Nov 2025", keywords: 912, top10: 104, top3: 24, traffic: 1767, pages: 89, avgPos: 21.6, ctr: 2.1 },
+      { month: "Apr 2025", keywords: 219, top10: 31, top3: 8, traffic: 401, pages: 8, avgPos: 48.5, ctr: 0.8 },
+      { month: "May 2025", keywords: 688, top10: 97, top3: 32, traffic: 1201, pages: 14, avgPos: 47.9, ctr: 1.1 },
+      { month: "Jun 2025", keywords: 930, top10: 109, top3: 22, traffic: 1518, pages: 16, avgPos: 42.2, ctr: 1.2 },
+      { month: "Jul 2025", keywords: 2038, top10: 288, top3: 94, traffic: 5093, pages: 30, avgPos: 36.4, ctr: 2.0 },
+      { month: "Aug 2025", keywords: 3385, top10: 490, top3: 121, traffic: 7281, pages: 35, avgPos: 36.5, ctr: 1.9 },
+      { month: "Sep 2025", keywords: 4201, top10: 570, top3: 91, traffic: 10705, pages: 46, avgPos: 31.0, ctr: 2.9 },
+      { month: "Oct 2025", keywords: 5299, top10: 784, top3: 142, traffic: 18121, pages: 55, avgPos: 30.9, ctr: 3.6 },
+      { month: "Nov 2025", keywords: 6256, top10: 775, top3: 239, traffic: 13076, pages: 59, avgPos: 22.5, ctr: 2.9 }
     ],
   },
   paidAds: {

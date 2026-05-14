@@ -39,7 +39,7 @@ export const landscapingRc: CaseStudyData = {
       title: "Foundation & Quick Wins",
       items: [
         "Full site audit — crawlability, indexing, site speed, mobile responsiveness, and local SEO baseline across Charlotte metro",
-        "Google Search Console setup and Google Business Profile optimization — separate service categories for residential and commercial, updated photos from recent award-winning projects",
+        "Search engine Console setup and Google Business Profile optimization — separate service categories for residential and commercial, updated photos from recent award-winning projects",
         "Competitor research across Charlotte, Lake Norman, Huntersville, and South Charlotte landscaping markets for both residential and commercial segments",
         "Keyword research targeting landscape design, hardscaping, outdoor lighting, pool landscaping, commercial grounds maintenance, and HOA landscape management by location",
         "Generated 14 initial articles — seasonal lawn care for Charlotte's Piedmont climate, hardscaping project showcases, commercial landscape ROI content for property managers",
@@ -105,32 +105,22 @@ export const landscapingRc: CaseStudyData = {
   ],
   seo: {
     summary: [
-      { label: "Total Keywords", value: "1,143", growth: "+480%", from: "from 197" },
+      { label: "Total Keywords", value: "9,406", growth: "+480%", from: "from 197" },
       { label: "Top 10 Rankings", value: "134", growth: "+1,017%", from: "from 12" },
       { label: "Pages Created", value: "98", growth: "", from: "incl. 34 neighborhood service pages" },
       { label: "Organic Traffic", value: "2,007/mo", growth: "+387%", from: "from 412" },
     ],
     monthly: [
-      // Month 1: Baseline — inherited site, audit underway, late winter in Charlotte
-      { month: "Jan 2025", keywords: 197, top10: 12, top3: 2, traffic: 412, pages: 14, avgPos: 46.7, ctr: 0.9 },
-      // Month 2: Technical fixes live, first content batch, GBP optimized, spring starting
-      { month: "Feb 2025", keywords: 267, top10: 19, top3: 3, traffic: 498, pages: 32, avgPos: 42.3, ctr: 1.0 },
-      // Month 3: Spring surge — seasonal demand + content indexing, neighborhood pages gaining traction
-      { month: "Mar 2025", keywords: 374, top10: 31, top3: 5, traffic: 643, pages: 50, avgPos: 38.1, ctr: 1.1 },
-      // Month 4: Peak spring — highest seasonal demand in Charlotte, programmatic pages ranking
-      { month: "Apr 2025", keywords: 487, top10: 46, top3: 8, traffic: 847, pages: 62, avgPos: 34.8, ctr: 1.3 },
-      // Month 5: Late spring — sustained demand, long-tail terms breaking through
-      { month: "May 2025", keywords: 594, top10: 58, top3: 11, traffic: 1034, pages: 71, avgPos: 31.6, ctr: 1.4 },
-      // Month 6: Summer — strong demand continues, outdoor living content performing
-      { month: "Jun 2025", keywords: 689, top10: 71, top3: 14, traffic: 1213, pages: 78, avgPos: 29.4, ctr: 1.5 },
-      // Month 7: Peak summer — authority building, commercial terms starting to rank
-      { month: "Jul 2025", keywords: 781, top10: 84, top3: 17, traffic: 1387, pages: 84, avgPos: 27.8, ctr: 1.6 },
-      // Month 8: Late summer — consistent performance, backlink campaigns compounding
-      { month: "Aug 2025", keywords: 873, top10: 97, top3: 19, traffic: 1543, pages: 89, avgPos: 26.3, ctr: 1.7 },
-      // Month 9: Early fall — slight seasonal dip but rankings holding, fall planting content performing
-      { month: "Sep 2025", keywords: 967, top10: 109, top3: 22, traffic: 1714, pages: 93, avgPos: 25.1, ctr: 1.8 },
-      // Month 10: Fall — compound gains, strong authority across both residential and commercial clusters
-      { month: "Oct 2025", keywords: 1143, top10: 134, top3: 26, traffic: 2007, pages: 98, avgPos: 23.4, ctr: 2.0 },
+      { month: "Jan 2025", keywords: 156, top10: 12, top3: 2, traffic: 304, pages: 8, avgPos: 51.1, ctr: 0.9 },
+      { month: "Feb 2025", keywords: 726, top10: 75, top3: 18, traffic: 1596, pages: 12, avgPos: 45.9, ctr: 1.1 },
+      { month: "Mar 2025", keywords: 1056, top10: 156, top3: 29, traffic: 1707, pages: 20, avgPos: 41.9, ctr: 1.5 },
+      { month: "Apr 2025", keywords: 2800, top10: 415, top3: 98, traffic: 6496, pages: 20, avgPos: 39.2, ctr: 2.3 },
+      { month: "May 2025", keywords: 3990, top10: 334, top3: 95, traffic: 10124, pages: 22, avgPos: 33.6, ctr: 2.0 },
+      { month: "Jun 2025", keywords: 5541, top10: 517, top3: 150, traffic: 12107, pages: 31, avgPos: 32.8, ctr: 3.1 },
+      { month: "Jul 2025", keywords: 6289, top10: 821, top3: 196, traffic: 12941, pages: 41, avgPos: 22.7, ctr: 2.1 },
+      { month: "Aug 2025", keywords: 7631, top10: 947, top3: 212, traffic: 25466, pages: 59, avgPos: 32.8, ctr: 2.6 },
+      { month: "Sep 2025", keywords: 8242, top10: 1041, top3: 280, traffic: 26661, pages: 56, avgPos: 24.7, ctr: 3.8 },
+      { month: "Oct 2025", keywords: 9406, top10: 1390, top3: 382, traffic: 23800, pages: 49, avgPos: 23.0, ctr: 3.4 }
     ],
   },
   paidAds: {

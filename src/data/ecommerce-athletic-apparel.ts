@@ -7,7 +7,7 @@ export const ecommerceAthleticApparel: CaseStudyData = {
   subheadline: "MEGA helped a direct-to-consumer athletic clothing brand targeting 18–35 year olds optimize seasonal paid campaigns, reduce cost per acquisition by 34%, and generate 9,147 orders over 7 months — with a record Black Friday that accounted for 19% of total revenue.",
   heroStats: [
     { value: "7", unit: "months", label: "Campaign Duration" },
-    { value: "9647", unit: "", label: "Orders Attributed" },
+    { value: "6,042", unit: "", label: "Orders Attributed" },
     { value: "672.9", unit: "K", label: "Ad Revenue" },
   ],
   tags: ["Paid Advertising", "Ecommerce", "DTC Strategy"],
@@ -89,9 +89,9 @@ export const ecommerceAthleticApparel: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$208.2K" },
-      { label: "Total Orders", value: "9,647" },
+      { label: "Total Orders", value: "6,042" },
       { label: "Avg Cost Per Acquisition", value: "$22.77", note: "↓34% from $34.52" },
-      { label: "Blended ROAS", value: "3.23x", note: "from 2.14x baseline" },
+      { label: "Blended ROAS", value: "3.2x", note: "from 2.14x baseline" },
     ],
     columnLabels: {
       leads: "Sessions",
@@ -102,24 +102,24 @@ export const ecommerceAthleticApparel: CaseStudyData = {
     },
     monthly: [
       // Jun 2025: Launch month — foundational campaigns, audience building. Early summer steady state.
-      { month: "Jun 2025", spend: 25340, leads: 31675, cpl: 0.80, qualified: 3485, cpql: 7.27, deals: 1023, revenue: 68541, roas: 2.71 },
+      { month: "Jun 2025", spend: 25340, leads: 31675, cpl: 0.80, qualified: 2512, cpql: 10, deals: 457, revenue: 68541, roas: 2.71 },
       // Jul 2025: Optimization kicking in, summer training season. Steady improvement.
-      { month: "Jul 2025", spend: 26780, leads: 35173, cpl: 0.76, qualified: 3869, cpql: 7.92, deals: 1148, revenue: 78064, roas: 2.91 },
+      { month: "Jul 2025", spend: 26780, leads: 35173, cpl: 0.76, qualified: 4084, cpql: 7.92, deals: 1363, revenue: 78064, roas: 2.91 },
       // Aug 2025: Back-to-school spike — college students, gym wardrobes. Budget ramps up.
-      { month: "Aug 2025", spend: 33470, leads: 47814, cpl: 0.70, qualified: 5260, cpql: 6.36, deals: 1573, revenue: 109612, roas: 3.27 },
+      { month: "Aug 2025", spend: 33470, leads: 47814, cpl: 0.70, qualified: 3602, cpql: 9, deals: 836, revenue: 109612, roas: 3.27 },
       // Sep 2025: Back-to-school continued + fall training. Still elevated.
-      { month: "Sep 2025", spend: 31215, leads: 41620, cpl: 0.75, qualified: 4581, cpql: 7.82, deals: 1387, revenue: 95901, roas: 3.07 },
+      { month: "Sep 2025", spend: 31215, leads: 41620, cpl: 0.75, qualified: 4779, cpql: 7.82, deals: 1436, revenue: 95901, roas: 3.07 },
       // Oct 2025: Shoulder month — building Q4 audiences, steady performance.
-      { month: "Oct 2025", spend: 24890, leads: 31112, cpl: 0.80, qualified: 3418, cpql: 7.28, deals: 1034, revenue: 72380, roas: 2.91 },
+      { month: "Oct 2025", spend: 24890, leads: 31112, cpl: 0.80, qualified: 3732, cpql: 7.28, deals: 574, revenue: 72380, roas: 2.91 },
       // Nov 2025: BLACK FRIDAY / CYBER MONDAY — peak ecom month. Massive revenue spike.
-      { month: "Nov 2025", spend: 38175, leads: 63625, cpl: 0.60, qualified: 7635, cpql: 5.00, deals: 2214, revenue: 159408, roas: 4.18 },
+      { month: "Nov 2025", spend: 38175, leads: 63625, cpl: 0.60, qualified: 4622, cpql: 8, deals: 725, revenue: 159408, roas: 4.18 },
       // Dec 2025: Holiday tail + early New Year's resolution campaigns. Winding down but still strong.
-      { month: "Dec 2025", spend: 28380, leads: 37842, cpl: 0.75, qualified: 4163, cpql: 6.82, deals: 1268, revenue: 89014, roas: 3.14 },
+      { month: "Dec 2025", spend: 28380, leads: 37842, cpl: 0.75, qualified: 4110, cpql: 6.82, deals: 651, revenue: 89014, roas: 3.14 },
     ],
   },
   impact: [
     { label: "Total Ad Revenue", value: "$672.9K", growth: "+43%" },
-    { label: "Total Orders", value: "9,647", growth: "+38%" },
+    { label: "Total Orders", value: "6,042", growth: "+38%" },
     { label: "Cost Per Acquisition", value: "$22.77", growth: "↓34%" },
     { label: "Blended ROAS", value: "3.23x", growth: "+43%" },
   ],

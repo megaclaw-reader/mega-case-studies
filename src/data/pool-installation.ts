@@ -3,10 +3,10 @@ import { CaseStudyData } from "./types";
 export const poolInstallation: CaseStudyData = {
   slug: "pool-installation",
   industry: "Pool Construction",
-  headline: "How a North Carolina Pool Construction Company Generated $5.52M in Revenue and 187 Qualified Leads Over 8 Months",
+  headline: "How a North Carolina Pool Construction Company Generated $155K in Revenue and 187 Qualified Leads Over 8 Months",
   subheadline: "MEGA's AI-powered SEO and paid advertising strategy helped a North Carolina pool construction company scale from modest digital presence to a high-volume lead generation engine — growing qualified leads from 12 to 36 per month while closing 46 projects worth $120K each through peak season and into spring planning.",
   heroStats: [
-    { value: "5.52", unit: "M", label: "Revenue Generated" },
+    { value: "$154.8K", unit: "M", label: "Revenue Generated" },
     { value: "187", unit: "", label: "Qualified Leads" },
   ],
   tags: ["SEO", "Paid Advertising", "Lead Generation", "Local"],
@@ -96,21 +96,21 @@ export const poolInstallation: CaseStudyData = {
       { label: "Content Pages", value: "89", growth: "+394%", from: "18" },
     ],
     monthly: [
-      { month: "Jul '25", keywords: 158, top10: 34, top3: 9, traffic: 612, pages: 18, avgPos: 51.7, ctr: 1.7 },
-      { month: "Aug '25", keywords: 215, top10: 52, top3: 16, traffic: 845, pages: 26, avgPos: 46.3, ctr: 2.1 },
-      { month: "Sep '25", keywords: 224, top10: 72, top3: 24, traffic: 1085, pages: 35, avgPos: 41.8, ctr: 2.5 },
-      { month: "Oct '25", keywords: 312, top10: 108, top3: 39, traffic: 1620, pages: 46, avgPos: 37.4, ctr: 2.9 },
-      { month: "Nov '25", keywords: 398, top10: 152, top3: 58, traffic: 2190, pages: 56, avgPos: 33.1, ctr: 3.3 },
-      { month: "Dec '25", keywords: 487, top10: 198, top3: 79, traffic: 2940, pages: 67, avgPos: 29.6, ctr: 3.7 },
-      { month: "Jan '26", keywords: 578, top10: 248, top3: 102, traffic: 3780, pages: 78, avgPos: 26.2, ctr: 4.2 },
-      { month: "Feb '26", keywords: 678, top10: 287, top3: 131, traffic: 4720, pages: 89, avgPos: 23.5, ctr: 4.7 },
+      { month: "Jul '25", keywords: 226, top10: 31, top3: 7, traffic: 528, pages: 8, avgPos: 51.8, ctr: 0.8 },
+      { month: "Aug '25", keywords: 674, top10: 78, top3: 19, traffic: 1230, pages: 14, avgPos: 46.2, ctr: 1.2 },
+      { month: "Sep '25", keywords: 942, top10: 100, top3: 25, traffic: 2352, pages: 15, avgPos: 42.3, ctr: 1.3 },
+      { month: "Oct '25", keywords: 2120, top10: 185, top3: 57, traffic: 5486, pages: 29, avgPos: 38.5, ctr: 2.0 },
+      { month: "Nov '25", keywords: 3407, top10: 417, top3: 85, traffic: 9958, pages: 33, avgPos: 38.3, ctr: 1.5 },
+      { month: "Dec '25", keywords: 4214, top10: 400, top3: 129, traffic: 11835, pages: 24, avgPos: 36.5, ctr: 2.7 },
+      { month: "Jan '26", keywords: 5186, top10: 583, top3: 144, traffic: 11554, pages: 45, avgPos: 29.3, ctr: 3.4 },
+      { month: "Feb '26", keywords: 6480, top10: 613, top3: 160, traffic: 18318, pages: 30, avgPos: 31.0, ctr: 3.7 }
     ],
   },
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$41.3K" },
       { label: "Qualified Leads", value: "187" },
-      { label: "Total Revenue", value: "$5.52M" },
+      { label: "Total Revenue", value: "$154.8K" },
     ],
     columnLabels: {
       leads: "Total Leads",
@@ -122,25 +122,25 @@ export const poolInstallation: CaseStudyData = {
     hiddenColumns: ["costPerDeal", "roas", "cpql"],
     monthly: [
       // Month 1 (Jul '25): Peak summer, launch month. Focused budget.
-      { month: "Jul '25", spend: 5056, leads: 28, cpl: 181, qualified: 12, cpql: 421, deals: 3, revenue: 360000, roas: 71.2 },
+      { month: "Jul '25", spend: 5056, leads: 28, cpl: 181, qualified: 12, cpql: 421, deals: 3, revenue: 22246, roas: 4.4 },
       // Month 2 (Aug '25): Still peak season, early optimization kicking in.
-      { month: "Aug '25", spend: 5249, leads: 32, cpl: 164, qualified: 15, cpql: 350, deals: 4, revenue: 480000, roas: 91.45 },
+      { month: "Aug '25", spend: 5249, leads: 32, cpl: 164, qualified: 15, cpql: 350, deals: 4, revenue: 20103, roas: 3.83 },
       // Month 3 (Sep '25): Shoulder season, ICP feedback loop active.
-      { month: "Sep '25", spend: 5014, leads: 38, cpl: 132, qualified: 18, cpql: 279, deals: 4, revenue: 480000, roas: 95.73 },
+      { month: "Sep '25", spend: 5014, leads: 38, cpl: 132, qualified: 18, cpql: 279, deals: 4, revenue: 18551, roas: 3.7 },
       // Month 4 (Oct '25): Fall slowdown but targeting precision improving.
-      { month: "Oct '25", spend: 5012, leads: 43, cpl: 117, qualified: 21, cpql: 239, deals: 5, revenue: 600000, roas: 119.71 },
+      { month: "Oct '25", spend: 5012, leads: 43, cpl: 117, qualified: 21, cpql: 239, deals: 5, revenue: 19596, roas: 3.91 },
       // Month 5 (Nov '25): Off-season begins. Lower spend, maintained quality.
-      { month: "Nov '25", spend: 5050, leads: 48, cpl: 105, qualified: 25, cpql: 202, deals: 6, revenue: 720000, roas: 142.57 },
+      { month: "Nov '25", spend: 5050, leads: 48, cpl: 105, qualified: 25, cpql: 202, deals: 6, revenue: 21008, roas: 4.16 },
       // Month 6 (Dec '25): Winter — spring planners starting to search.
-      { month: "Dec '25", spend: 5339, leads: 52, cpl: 103, qualified: 28, cpql: 191, deals: 7, revenue: 840000, roas: 157.33 },
+      { month: "Dec '25", spend: 5339, leads: 52, cpl: 103, qualified: 28, cpql: 191, deals: 7, revenue: 21622, roas: 4.05 },
       // Month 7 (Jan '26): Spring planning picks up.
-      { month: "Jan '26", spend: 5028, leads: 58, cpl: 87, qualified: 32, cpql: 157, deals: 8, revenue: 960000, roas: 190.93 },
+      { month: "Jan '26", spend: 5028, leads: 58, cpl: 87, qualified: 32, cpql: 157, deals: 8, revenue: 15938, roas: 3.17 },
       // Month 8 (Feb '26): Pre-season surge. Highest spend.
-      { month: "Feb '26", spend: 5536, leads: 65, cpl: 85.17, qualified: 36, cpql: 153.78, deals: 9, revenue: 1080000, roas: 195.10 },
+      { month: "Feb '26", spend: 5536, leads: 65, cpl: 85.17, qualified: 36, cpql: 153.78, deals: 9, revenue: 15777, roas: 2.85 },
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$5.52M", growth: "" },
+    { label: "Total Revenue", value: "$154.8K", growth: "" },
     { label: "Qualified Leads", value: "187", growth: "" },
     { label: "Organic Traffic Growth", value: "612 → 4,720/mo", growth: "+671%" },
     { label: "Ranking Keywords", value: "158 → 678", growth: "+329%" },

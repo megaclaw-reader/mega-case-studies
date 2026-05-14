@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const plumbingSanDiego: CaseStudyData = {
   slug: "plumbing-san-diego",
   industry: "Residential and Commercial Plumbing",
-  headline: "San Diego Plumbing Company Reduces Cost Per Lead 47% While Scaling from $8K to $14K Monthly Ad Spend",
+  headline: "San Diego Plumbing Company Reduces Cost Per Lead 47% While Scaling from $507K to $507K Monthly Ad Spend",
   subheadline: "AI-powered optimization and strategic SEO growth generated 2,233 qualified leads and $507K in plumbing revenue across San Diego County over 12 months, while building sustainable organic presence with 8,934 keyword rankings.",
   heroStats: [
     { value: "47", unit: "%", label: "Cost Per Lead Reduction" },
     { value: "2,233", unit: "", label: "Total Qualified Leads" },
-    { value: "507", unit: "K", label: "Revenue Generated" },
+    { value: "$507.4K", unit: "K", label: "Revenue Generated" },
     { value: "3.9", unit: "x", label: "Average ROAS" },
   ],
   tags: ["Always-On AI Optimization", "Paid Advertising", "SEO", "Lead Generation", "Residential & Commercial"],
@@ -111,7 +111,7 @@ export const plumbingSanDiego: CaseStudyData = {
       { label: "Total Ad Spend", value: "$129K" },
       { label: "Total Leads", value: "3,311" },
       { label: "Avg Cost Per Lead", value: "$39", note: "↓47% from $73" },
-      { label: "Total Revenue", value: "$507K" },
+      { label: "Total Revenue", value: "$507.4K" },
       { label: "Overall ROAS", value: "3.9x" }
     ],
     monthly: [
@@ -132,7 +132,7 @@ export const plumbingSanDiego: CaseStudyData = {
   impact: [
     { label: "Cost Per Lead Reduction", value: "47%", growth: "from $58 to $31" },
     { label: "Total Plumbing Revenue", value: "$507K", growth: "555 completed jobs" },
-    { label: "Average ROAS", value: "3.9x", growth: "sustained profitability" },
+    { label: "Average ROAS", value: "3.93x", growth: "sustained profitability" },
     { label: "Monthly Lead Growth", value: "221%", growth: "139 to 447 leads" },
   ],
 };

@@ -6,7 +6,7 @@ export const travelServices: CaseStudyData = {
   headline: "How a Florida Charter Fishing & Water Sports Company Generated 532 Bookings and $246K in Revenue With AI-Powered Marketing",
   subheadline: "MEGA helped a Florida-based charter fishing and water sports outfitter build dominant local search visibility and high-converting paid campaigns — reducing cost per qualified lead by 27%, growing organic traffic from 389 to 13,567 monthly visitors, and generating $246K in attributed revenue across 12 months.",
   heroStats: [
-    { value: "246", unit: "K", label: "Revenue Generated" },
+    { value: "$246.3K", unit: "K", label: "Revenue Generated" },
     { value: "532", unit: "", label: "Total Bookings" },
     { value: "13,567", unit: "", label: "Monthly Organic Visitors" },
   ],

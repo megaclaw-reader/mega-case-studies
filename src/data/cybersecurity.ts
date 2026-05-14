@@ -39,7 +39,7 @@ export const cybersecurity: CaseStudyData = {
       title: "Foundation & Quick Wins",
       items: [
         "Full site audit — sitemap, robots.txt, crawlability, site speed, and security-focused technical review",
-        "Google Search Console setup and optimization for B2B cybersecurity queries",
+        "Search engine Console setup and optimization for B2B cybersecurity queries",
         "Competitor research and keyword research across MDR, penetration testing, compliance, and incident response verticals",
         "Generated 22 initial articles (CISO buying guides, compliance framework comparisons, threat landscape briefings)",
         "Content audit and metadata fixes across all existing service and solution pages",

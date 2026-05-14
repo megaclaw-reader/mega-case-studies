@@ -21,7 +21,7 @@ export const optometristArizona: CaseStudyData = {
   challenges: [
     {
       title: "Inefficient Ad Spend With No Tracking",
-      description: "The practice had experimented with Google Ads but was running broad-match campaigns with no conversion tracking, no call tracking, and no landing pages optimized for specific services. They were spending roughly $3,000/month with no visibility into which clicks turned into actual patient appointments, making it impossible to measure ROI or optimize spend allocation across service lines.",
+      description: "The practice had experimented with Paid advertising but was running broad-match campaigns with no conversion tracking, no call tracking, and no landing pages optimized for specific services. They were spending roughly $3,000/month with no visibility into which clicks turned into actual patient appointments, making it impossible to measure ROI or optimize spend allocation across service lines.",
     },
     {
       title: "Minimal Local Search Visibility",
@@ -97,25 +97,25 @@ export const optometristArizona: CaseStudyData = {
   ],
   seo: {
     summary: [
-      { label: "Total Keywords", value: "1,847", growth: "+1,131%", from: "from 150" },
+      { label: "Total Keywords", value: "11,897", growth: "+1,131%", from: "from 150" },
       { label: "Top 10 Rankings", value: "78", growth: "+680%", from: "from 10" },
       { label: "Pages Created", value: "58", growth: "", from: "incl. 22 service/neighborhood pages" },
       { label: "Organic Traffic", value: "4,312/mo", growth: "+1,625%", from: "from 250" },
     ],
     monthly: [
-      { month: "Feb '25", keywords: 150, top10: 10, top3: 1, traffic: 250, pages: 11, avgPos: 51.8, ctr: 0.8 },
-      { month: "Mar '25", keywords: 218, top10: 14, top3: 2, traffic: 387, pages: 17, avgPos: 47.3, ctr: 0.9 },
-      { month: "Apr '25", keywords: 341, top10: 19, top3: 3, traffic: 594, pages: 23, avgPos: 43.1, ctr: 1.0 },
-      { month: "May '25", keywords: 487, top10: 26, top3: 5, traffic: 847, pages: 29, avgPos: 39.4, ctr: 1.2 },
-      { month: "Jun '25", keywords: 614, top10: 33, top3: 7, traffic: 1138, pages: 33, avgPos: 36.2, ctr: 1.3 },
-      { month: "Jul '25", keywords: 762, top10: 39, top3: 10, traffic: 1467, pages: 37, avgPos: 33.7, ctr: 1.5 },
-      { month: "Aug '25", keywords: 943, top10: 46, top3: 13, traffic: 1893, pages: 41, avgPos: 31.4, ctr: 1.6 },
-      { month: "Sep '25", keywords: 1087, top10: 52, top3: 16, traffic: 2284, pages: 45, avgPos: 29.6, ctr: 1.7 },
-      { month: "Oct '25", keywords: 1241, top10: 58, top3: 19, traffic: 2718, pages: 48, avgPos: 28.1, ctr: 1.8 },
-      { month: "Nov '25", keywords: 1418, top10: 64, top3: 22, traffic: 3147, pages: 51, avgPos: 26.8, ctr: 1.9 },
-      { month: "Dec '25", keywords: 1587, top10: 70, top3: 25, traffic: 3589, pages: 54, avgPos: 25.4, ctr: 2.0 },
-      { month: "Jan '26", keywords: 1724, top10: 74, top3: 27, traffic: 3941, pages: 56, avgPos: 24.3, ctr: 2.1 },
-      { month: "Feb '26", keywords: 1847, top10: 78, top3: 29, traffic: 4312, pages: 58, avgPos: 23.6, ctr: 2.2 },
+      { month: "Feb '25", keywords: 232, top10: 30, top3: 9, traffic: 467, pages: 8, avgPos: 51.1, ctr: 0.7 },
+      { month: "Mar '25", keywords: 721, top10: 104, top3: 35, traffic: 1168, pages: 14, avgPos: 46.0, ctr: 1.2 },
+      { month: "Apr '25", keywords: 1116, top10: 144, top3: 25, traffic: 2175, pages: 17, avgPos: 45.0, ctr: 1.3 },
+      { month: "May '25", keywords: 3339, top10: 292, top3: 85, traffic: 6685, pages: 30, avgPos: 39.4, ctr: 1.6 },
+      { month: "Jun '25", keywords: 4692, top10: 513, top3: 137, traffic: 11184, pages: 37, avgPos: 32.3, ctr: 2.1 },
+      { month: "Jul '25", keywords: 5809, top10: 677, top3: 159, traffic: 14404, pages: 40, avgPos: 35.5, ctr: 3.3 },
+      { month: "Aug '25", keywords: 6730, top10: 788, top3: 170, traffic: 23383, pages: 45, avgPos: 28.5, ctr: 3.7 },
+      { month: "Sep '25", keywords: 7382, top10: 929, top3: 228, traffic: 18610, pages: 40, avgPos: 25.0, ctr: 4.0 },
+      { month: "Oct '25", keywords: 9068, top10: 1137, top3: 254, traffic: 31565, pages: 48, avgPos: 21.2, ctr: 3.2 },
+      { month: "Nov '25", keywords: 9434, top10: 903, top3: 302, traffic: 22184, pages: 77, avgPos: 17.9, ctr: 2.9 },
+      { month: "Dec '25", keywords: 10939, top10: 1480, top3: 457, traffic: 32366, pages: 76, avgPos: 12.3, ctr: 5.0 },
+      { month: "Jan '26", keywords: 11053, top10: 967, top3: 171, traffic: 23214, pages: 65, avgPos: 8, ctr: 4.5 },
+      { month: "Feb '26", keywords: 11897, top10: 1101, top3: 241, traffic: 33644, pages: 80, avgPos: 16.1, ctr: 6.0 }
     ],
   },
   paidAds: {
@@ -123,7 +123,7 @@ export const optometristArizona: CaseStudyData = {
       { label: "Total Ad Spend", value: "$78.1K" },
       { label: "Qualified Leads", value: "812" },
       { label: "Avg Cost Per Qualified Lead", value: "$96", note: "↓43% from month 1" },
-      { label: "Total Revenue Attributed", value: "$271.5K" },
+      { label: "Total Revenue Attributed", value: "$271.4K" },
     ],
     columnLabels: {
       leads: "Patient Inquiries",

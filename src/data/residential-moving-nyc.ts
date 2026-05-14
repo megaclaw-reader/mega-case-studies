@@ -197,86 +197,14 @@ export const residentialMovingNyc: CaseStudyData = {
       { label: "SEO Revenue", value: "$89,247", growth: "+891%", from: "9,003" }
     ],
     monthly: [
-      {
-        month: "Jun '25",
-        keywords: 156,
-        top10: 23,
-        top3: 8,
-        traffic: 823,
-        pages: 47,
-        avgPos: 28.4,
-        ctr: 2.1
-      },
-      {
-        month: "Jul '25",
-        keywords: 189,
-        top10: 31,
-        top3: 12,
-        traffic: 1147,
-        pages: 52,
-        avgPos: 25.8,
-        ctr: 2.3
-      },
-      {
-        month: "Aug '25",
-        keywords: 234,
-        top10: 41,
-        top3: 17,
-        traffic: 1583,
-        pages: 58,
-        avgPos: 22.7,
-        ctr: 2.6
-      },
-      {
-        month: "Sep '25",
-        keywords: 298,
-        top10: 56,
-        top3: 23,
-        traffic: 2147,
-        pages: 65,
-        avgPos: 19.8,
-        ctr: 2.9
-      },
-      {
-        month: "Oct '25",
-        keywords: 387,
-        top10: 74,
-        top3: 31,
-        traffic: 2834,
-        pages: 71,
-        avgPos: 17.2,
-        ctr: 3.2
-      },
-      {
-        month: "Nov '25",
-        keywords: 456,
-        top10: 89,
-        top3: 39,
-        traffic: 3267,
-        pages: 78,
-        avgPos: 15.6,
-        ctr: 3.5
-      },
-      {
-        month: "Dec '25",
-        keywords: 523,
-        top10: 103,
-        top3: 47,
-        traffic: 3789,
-        pages: 84,
-        avgPos: 14.1,
-        ctr: 3.8
-      },
-      {
-        month: "Jan '26",
-        keywords: 612,
-        top10: 121,
-        top3: 56,
-        traffic: 4328,
-        pages: 91,
-        avgPos: 12.9,
-        ctr: 4.1
-      }
+      { month: "Jun '25", keywords: 314, top10: 32, top3: 5, traffic: 530, pages: 8, avgPos: 51.7, ctr: 0.8 },
+      { month: "Jul '25", keywords: 820, top10: 102, top3: 24, traffic: 1676, pages: 14, avgPos: 46.0, ctr: 1.2 },
+      { month: "Aug '25", keywords: 1085, top10: 134, top3: 24, traffic: 1643, pages: 17, avgPos: 41.9, ctr: 1.5 },
+      { month: "Sep '25", keywords: 2305, top10: 210, top3: 57, traffic: 5892, pages: 29, avgPos: 35.9, ctr: 1.5 },
+      { month: "Oct '25", keywords: 3667, top10: 439, top3: 124, traffic: 8765, pages: 27, avgPos: 31.9, ctr: 2.4 },
+      { month: "Nov '25", keywords: 4666, top10: 506, top3: 148, traffic: 11065, pages: 34, avgPos: 30.7, ctr: 2.7 },
+      { month: "Dec '25", keywords: 5669, top10: 499, top3: 79, traffic: 17493, pages: 48, avgPos: 29.2, ctr: 3.3 },
+      { month: "Jan '26", keywords: 6505, top10: 629, top3: 156, traffic: 18425, pages: 29, avgPos: 25.7, ctr: 3.4 }
     ]
   },
 

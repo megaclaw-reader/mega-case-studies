@@ -56,7 +56,7 @@ export const nonprofitNewYork: CaseStudyData = {
         "Keyword research targeting 100+ high-intent terms around NYC charitable giving, volunteer opportunities, and social services",
         "Built donation-optimized landing pages for different donor segments (individual, corporate, recurring) with clear impact messaging",
         "Implemented tracking system connecting website visits through donation conversion — enabling CPQL optimization for donor acquisition",
-        "Set up Google Ads campaigns targeting high-net-worth zip codes in Manhattan and Brooklyn with donation-focused creative",
+        "Set up Paid advertising campaigns targeting high-net-worth zip codes in Manhattan and Brooklyn with donation-focused creative",
         "Created content calendar addressing NYC social issues, success stories, and impact reports to build organic authority",
         'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
       ]

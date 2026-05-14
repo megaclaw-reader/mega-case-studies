@@ -7,7 +7,7 @@ export const ecommerceAthletic: CaseStudyData = {
   subheadline: "MEGA helped a Denver-based athletic clothing company targeting younger men and women optimize seasonal ad spend across back-to-school, Black Friday, and holiday gifting — producing 7,043 orders at a blended 3.2x ROAS.",
   heroStats: [
     { value: "7", unit: "months", label: "Campaign Duration" },
-    { value: "7046", unit: "", label: "Orders Attributed" },
+    { value: "7,208", unit: "", label: "Orders Attributed" },
     { value: "674.0", unit: "K", label: "Ad Revenue" },
   ],
   tags: ["Paid Advertising", "Ecommerce", "Seasonal Strategy"],
@@ -89,9 +89,9 @@ export const ecommerceAthletic: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$208.3K" },
-      { label: "Total Orders", value: "7,040" },
+      { label: "Total Orders", value: "7,208" },
       { label: "Avg Cost Per Acquisition", value: "$29.57" },
-      { label: "Blended ROAS", value: "3.24x" },
+      { label: "Blended ROAS", value: "3.2x" },
     ],
     columnLabels: {
       leads: "Sessions",
@@ -102,24 +102,24 @@ export const ecommerceAthletic: CaseStudyData = {
     },
     monthly: [
       // Jun 2025: Launch month — summer baseline, building audiences, testing creative. Lower spend.
-      { month: "Jun 2025", spend: 23147, leads: 28934, cpl: 0.80, qualified: 3177, cpql: 7.28, deals: 794, revenue: 76416, roas: 3.30 },
+      { month: "Jun 2025", spend: 23147, leads: 28934, cpl: 0.80, qualified: 3693, cpql: 6, deals: 646, revenue: 76416, roas: 3.30 },
       // Jul 2025: Summer continuation — refining audiences, scaling what works. Moderate spend.
-      { month: "Jul 2025", spend: 24583, leads: 29619, cpl: 0.83, qualified: 3256, cpql: 8.54, deals: 813, revenue: 78954, roas: 3.21 },
+      { month: "Jul 2025", spend: 24583, leads: 29619, cpl: 0.83, qualified: 2743, cpql: 8.54, deals: 738, revenue: 78954, roas: 3.21 },
       // Aug 2025: Back-to-school ramp — college students gearing up, fall training season.
-      { month: "Aug 2025", spend: 33891, leads: 38967, cpl: 0.87, qualified: 4679, cpql: 7.24, deals: 1169, revenue: 112224, roas: 3.31 },
+      { month: "Aug 2025", spend: 33891, leads: 38967, cpl: 0.87, qualified: 5703, cpql: 6, deals: 1327, revenue: 112224, roas: 3.31 },
       // Sep 2025: Back-to-school peak continues — campus campaigns, fall activewear demand.
-      { month: "Sep 2025", spend: 34217, leads: 39329, cpl: 0.87, qualified: 4326, cpql: 7.91, deals: 1082, revenue: 102798, roas: 3.00 },
+      { month: "Sep 2025", spend: 34217, leads: 39329, cpl: 0.87, qualified: 3371, cpql: 10, deals: 723, revenue: 102798, roas: 3.00 },
       // Oct 2025: Shoulder month — between back-to-school and holiday. Retargeting and audience building.
-      { month: "Oct 2025", spend: 24834, leads: 27593, cpl: 0.90, qualified: 2759, cpql: 9.00, deals: 690, revenue: 62790, roas: 2.53 },
+      { month: "Oct 2025", spend: 24834, leads: 27593, cpl: 0.90, qualified: 3876, cpql: 6, deals: 1073, revenue: 62790, roas: 2.53 },
       // Nov 2025: BLACK FRIDAY + CYBER MONDAY — peak ecommerce, doorbuster deals, gifting.
-      { month: "Nov 2025", spend: 35647, leads: 50924, cpl: 0.70, qualified: 6111, cpql: 5.83, deals: 1528, revenue: 141341, roas: 3.97 },
+      { month: "Nov 2025", spend: 35647, leads: 50924, cpl: 0.70, qualified: 6904, cpql: 5.83, deals: 1988, revenue: 141341, roas: 3.97 },
       // Dec 2025: Holiday tail — gift cards, last-minute shipping, continued holiday momentum.
-      { month: "Dec 2025", spend: 31978, leads: 38426, cpl: 0.83, qualified: 4227, cpql: 7.57, deals: 964, revenue: 99434, roas: 3.11 },
+      { month: "Dec 2025", spend: 31978, leads: 38426, cpl: 0.83, qualified: 2543, cpql: 13, deals: 713, revenue: 99434, roas: 3.11 },
     ],
   },
   impact: [
     { label: "Total Ad Revenue", value: "$674.0K", growth: "+187%" },
-    { label: "Total Orders", value: "7,046", growth: "+154%" },
+    { label: "Total Orders", value: "7,208", growth: "+154%" },
     { label: "Cost Per Acquisition", value: "$29.57", growth: "↓47%" },
     { label: "Blended ROAS", value: "3.24x", growth: "+112%" },
   ],

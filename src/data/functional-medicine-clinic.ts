@@ -40,7 +40,7 @@ export const functionalMedicineClinic: CaseStudyData = {
       items: [
         "Full technical site audit — mobile responsiveness, page speed optimization, sitemap and robots.txt configuration, and crawlability improvements across the existing 12-page site",
         "Google Business Profile overhaul — updated NAP consistency across 30+ healthcare directories, added treatment categories, optimized photos and service descriptions with functional medicine keywords specific to North Carolina",
-        "Google Search Console setup and baseline keyword measurement across functional medicine treatment verticals in the North Carolina market",
+        "Search engine Console setup and baseline keyword measurement across functional medicine treatment verticals in the North Carolina market",
         "Competitor analysis across functional medicine and integrative health practitioners in North Carolina — identified content gaps in treatment-specific and condition-specific educational content",
         "Keyword research spanning hormone optimization, gut health, thyroid management, functional medicine consultation, and integrative wellness queries with North Carolina geo-modifiers",
         "Generated 8 initial articles — treatment explainers for hormone therapy, gut health protocols, thyroid management, plus condition guides for adrenal fatigue, autoimmune support, and inflammation management",
@@ -88,17 +88,17 @@ export const functionalMedicineClinic: CaseStudyData = {
   ],
   seo: {
     summary: [
-      { label: "Total Keywords", value: "487", growth: "+441%", from: "from 90" },
+      { label: "Total Keywords", value: "1,526", growth: "+441%", from: "from 90" },
       { label: "Top 10 Rankings", value: "38", growth: "+543%", from: "from 6" },
       { label: "Pages Created", value: "32", growth: "", from: "incl. 14 condition/treatment pages" },
       { label: "Organic Traffic", value: "1,412/mo", growth: "+387%", from: "from 290" },
     ],
     monthly: [
-      { month: "Sep 2025", keywords: 90, top10: 6, top3: 1, traffic: 290, pages: 12, avgPos: 48.7, ctr: 0.8 },
-      { month: "Oct 2025", keywords: 158, top10: 12, top3: 2, traffic: 497, pages: 20, avgPos: 42.3, ctr: 1.0 },
-      { month: "Nov 2025", keywords: 247, top10: 19, top3: 4, traffic: 718, pages: 26, avgPos: 37.1, ctr: 1.2 },
-      { month: "Dec 2025", keywords: 351, top10: 27, top3: 6, traffic: 984, pages: 30, avgPos: 33.4, ctr: 1.5 },
-      { month: "Jan 2026", keywords: 487, top10: 38, top3: 9, traffic: 1412, pages: 32, avgPos: 29.8, ctr: 1.8 },
+      { month: "Sep 2025", keywords: 151, top10: 15, top3: 3, traffic: 288, pages: 8, avgPos: 51.1, ctr: 0.8 },
+      { month: "Oct 2025", keywords: 411, top10: 40, top3: 7, traffic: 949, pages: 14, avgPos: 46.1, ctr: 1.1 },
+      { month: "Nov 2025", keywords: 556, top10: 67, top3: 12, traffic: 1018, pages: 21, avgPos: 41.3, ctr: 1.4 },
+      { month: "Dec 2025", keywords: 854, top10: 119, top3: 35, traffic: 2441, pages: 28, avgPos: 42.2, ctr: 1.7 },
+      { month: "Jan 2026", keywords: 1526, top10: 175, top3: 39, traffic: 4710, pages: 38, avgPos: 36.4, ctr: 2.2 }
     ],
   },
   paidAds: {

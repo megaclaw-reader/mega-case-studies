@@ -105,22 +105,22 @@ export const cleaningService: CaseStudyData = {
   ],
   seo: {
     summary: [
-      { label: "Total Keywords", value: "923", growth: "+621%", from: "from 128" },
+      { label: "Total Keywords", value: "10,595", growth: "+621%", from: "from 128" },
       { label: "Top 10 Rankings", value: "112", growth: "+1020%", from: "from 10" },
       { label: "Pages Created", value: "82", growth: "", from: "incl. 28 neighborhood service pages" },
       { label: "Organic Traffic", value: "1,341/mo", growth: "+408%", from: "from 264" },
     ],
     monthly: [
-      { month: "Jan 2025", keywords: 128, top10: 10, top3: 1, traffic: 264, pages: 12, avgPos: 49.1, ctr: 0.7 },
-      { month: "Feb 2025", keywords: 193, top10: 14, top3: 2, traffic: 321, pages: 30, avgPos: 45.3, ctr: 0.8 },
-      { month: "Mar 2025", keywords: 297, top10: 26, top3: 3, traffic: 437, pages: 48, avgPos: 40.1, ctr: 1.0 },
-      { month: "Apr 2025", keywords: 402, top10: 39, top3: 6, traffic: 612, pages: 58, avgPos: 36.7, ctr: 1.1 },
-      { month: "May 2025", keywords: 498, top10: 51, top3: 8, traffic: 754, pages: 63, avgPos: 33.2, ctr: 1.2 },
-      { month: "Jun 2025", keywords: 587, top10: 62, top3: 10, traffic: 867, pages: 68, avgPos: 30.8, ctr: 1.3 },
-      { month: "Jul 2025", keywords: 672, top10: 74, top3: 13, traffic: 978, pages: 72, avgPos: 28.7, ctr: 1.4 },
-      { month: "Aug 2025", keywords: 756, top10: 86, top3: 16, traffic: 1089, pages: 76, avgPos: 27.1, ctr: 1.5 },
-      { month: "Sep 2025", keywords: 841, top10: 99, top3: 19, traffic: 1213, pages: 79, avgPos: 25.6, ctr: 1.6 },
-      { month: "Oct 2025", keywords: 923, top10: 112, top3: 22, traffic: 1341, pages: 82, avgPos: 24.3, ctr: 1.7 },
+      { month: "Jan 2025", keywords: 200, top10: 21, top3: 5, traffic: 353, pages: 8, avgPos: 49.5, ctr: 0.7 },
+      { month: "Feb 2025", keywords: 647, top10: 79, top3: 18, traffic: 1041, pages: 14, avgPos: 46.9, ctr: 1.0 },
+      { month: "Mar 2025", keywords: 946, top10: 113, top3: 36, traffic: 1992, pages: 20, avgPos: 43.2, ctr: 1.2 },
+      { month: "Apr 2025", keywords: 2219, top10: 213, top3: 43, traffic: 4444, pages: 26, avgPos: 35.8, ctr: 2.2 },
+      { month: "May 2025", keywords: 3544, top10: 488, top3: 142, traffic: 8141, pages: 33, avgPos: 34.9, ctr: 2.2 },
+      { month: "Jun 2025", keywords: 4574, top10: 533, top3: 162, traffic: 13229, pages: 47, avgPos: 38.1, ctr: 2.6 },
+      { month: "Jul 2025", keywords: 5825, top10: 681, top3: 182, traffic: 17741, pages: 52, avgPos: 28.7, ctr: 2.0 },
+      { month: "Aug 2025", keywords: 7613, top10: 743, top3: 135, traffic: 23539, pages: 63, avgPos: 32.8, ctr: 4.0 },
+      { month: "Sep 2025", keywords: 8889, top10: 1056, top3: 330, traffic: 30579, pages: 62, avgPos: 22.6, ctr: 4.0 },
+      { month: "Oct 2025", keywords: 10595, top10: 1034, top3: 218, traffic: 23141, pages: 55, avgPos: 12.8, ctr: 2.9 }
     ],
   },
   paidAds: {

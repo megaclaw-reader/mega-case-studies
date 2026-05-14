@@ -79,19 +79,19 @@ export const medSpaSeoNewYork: CaseStudyData = {
   ],
   seo: {
     summary: [
-      { label: "Total Keywords", value: "850", growth: "+687%", from: "from 108" },
+      { label: "Total Keywords", value: "4,469", growth: "+687%", from: "from 108" },
       { label: "Top 10 Rankings", value: "124", growth: "+1,033%", from: "from 11" },
       { label: "Authority Score", value: "42", growth: "+50%", from: "from 28" },
       { label: "Organic Traffic", value: "8,240/mo", growth: "+1,229%", from: "from 620" },
     ],
     monthly: [
-      { month: "Aug 2025", keywords: 108, top10: 11, top3: 3, traffic: 620, pages: 18, avgPos: 52.3, ctr: 2.9 },
-      { month: "Sep 2025", keywords: 142, top10: 18, top3: 5, traffic: 980, pages: 26, avgPos: 47.1, ctr: 3.3 },
-      { month: "Oct 2025", keywords: 186, top10: 28, top3: 8, traffic: 1650, pages: 35, avgPos: 42.8, ctr: 3.6 },
-      { month: "Nov 2025", keywords: 315, top10: 42, top3: 12, traffic: 2980, pages: 47, avgPos: 38.2, ctr: 4.2 },
-      { month: "Dec 2025", keywords: 485, top10: 68, top3: 18, traffic: 4720, pages: 58, avgPos: 34.1, ctr: 4.8 },
-      { month: "Jan 2026", keywords: 705, top10: 95, top3: 26, traffic: 6840, pages: 71, avgPos: 31.5, ctr: 5.4 },
-      { month: "Feb 2026", keywords: 850, top10: 124, top3: 34, traffic: 8240, pages: 82, avgPos: 28.9, ctr: 6.1 },
+      { month: "Aug 2025", keywords: 202, top10: 21, top3: 5, traffic: 435, pages: 8, avgPos: 51.8, ctr: 0.8 },
+      { month: "Sep 2025", keywords: 598, top10: 60, top3: 17, traffic: 933, pages: 13, avgPos: 44.4, ctr: 1.2 },
+      { month: "Oct 2025", keywords: 833, top10: 122, top3: 26, traffic: 1511, pages: 14, avgPos: 44.4, ctr: 1.2 },
+      { month: "Nov 2025", keywords: 1661, top10: 240, top3: 47, traffic: 4108, pages: 18, avgPos: 40.2, ctr: 1.8 },
+      { month: "Dec 2025", keywords: 2822, top10: 382, top3: 61, traffic: 7326, pages: 28, avgPos: 33.8, ctr: 2.8 },
+      { month: "Jan 2026", keywords: 3730, top10: 507, top3: 163, traffic: 10194, pages: 30, avgPos: 27.2, ctr: 2.1 },
+      { month: "Feb 2026", keywords: 4469, top10: 630, top3: 166, traffic: 14101, pages: 37, avgPos: 23.0, ctr: 3.4 }
     ],
   },
   organicConversions: {

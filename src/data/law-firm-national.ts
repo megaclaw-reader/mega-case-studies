@@ -8,7 +8,7 @@ export const lawFirmNational: CaseStudyData = {
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
     { value: "5.0", unit: "M", label: "Attributed Revenue" },
-    { value: "3.7", unit: "x", label: "Blended ROAS" },
+    { value: "3.7x", unit: "x", label: "Blended ROAS" },
   ],
   tags: ["Paid Advertising", "SEO Strategy", "Lead Generation"],
   company: {

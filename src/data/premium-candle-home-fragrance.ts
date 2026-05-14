@@ -8,7 +8,7 @@ export const premiumCandleHomeFragrance: CaseStudyData = {
   heroStats: [
     { value: "8", unit: "months", label: "Partnership Duration" },
     { value: "4.85", unit: "x", label: "Peak ROAS Achieved" },
-    { value: "534", unit: "K", label: "Revenue Generated" },
+    { value: "$534.0K", unit: "K", label: "Revenue Generated" },
   ],
   tags: ["Ecommerce", "SEO", "Paid Advertising", "DTC", "Home Goods"],
   company: {
@@ -121,7 +121,7 @@ export const premiumCandleHomeFragrance: CaseStudyData = {
       { month: "Aug 2025", spend: 16240, leads: 15320, cpl: 1.06, qualified: 1916, cpql: 8.48, deals: 1014, revenue: 47151.00, roas: 2.90 },
       // Sep 2025: Fall transition. Candle seasonality beginning. Organic traffic starting to compound.
       { month: "Sep 2025", spend: 17680, leads: 17843, cpl: 0.99, qualified: 2284, cpql: 7.74, deals: 1233, revenue: 57951.00, roas: 3.28 },
-      // Oct 2025: Q4 competition drives CPCs up but conversion rates rise faster. Pre-warming holiday audiences.
+      // Oct 2025: Q4 competition drives Cost Per Visits up but conversion rates rise faster. Pre-warming holiday audiences.
       { month: "Oct 2025", spend: 21440, leads: 20038, cpl: 1.07, qualified: 2805, cpql: 7.64, deals: 1570, revenue: 74575.00, roas: 3.48 },
       // Nov 2025: Black Friday / Cyber Monday blitz. Budget scaled aggressively. AI managed real-time bid adjustments at peak.
       { month: "Nov 2025", spend: 38460, leads: 42733, cpl: 0.90, qualified: 6397, cpql: 6.01, deals: 3838, revenue: 186526.80, roas: 4.85 },

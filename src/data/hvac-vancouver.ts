@@ -237,7 +237,7 @@ export const hvacVancouver: CaseStudyData = {
   },
   impact: [
     { label: "Total Revenue", value: "$1.26M", growth: "+208%" },
-    { label: "Total Qualified Leads (Paid)", value: "1,495", growth: "↓41% CPQL" },
+    { label: "Total Qualified Leads (Paid)", value: "1,494", growth: "↓41% CPQL" },
     { label: "Organic Leads Generated", value: "847", growth: "+1,028%" },
     { label: "Qualification Rate", value: "35% → 52%", growth: "+17pts" },
     { label: "Blended ROAS", value: "3.50x", growth: "" },

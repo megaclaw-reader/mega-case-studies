@@ -8,7 +8,7 @@ export const probiotics: CaseStudyData = {
   heroStats: [
     { value: "7", unit: "months", label: "Partnership Duration" },
     { value: "7.70", unit: "x", label: "Peak ROAS Achieved" },
-    { value: "1.4", unit: "M", label: "Revenue Generated" },
+    { value: "$1.4M", unit: "M", label: "Revenue Generated" },
   ],
   tags: ["Ecommerce", "SEO", "Paid Advertising", "DTC"],
   company: {

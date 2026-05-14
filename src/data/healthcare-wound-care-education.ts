@@ -84,18 +84,18 @@ export const healthcareWoundCareEducation: CaseStudyData = {
   ],
   seo: {
     summary: [
-      { label: "Total Keywords", value: "847", growth: "+2,391%", from: "from 34" },
+      { label: "Total Keywords", value: "1,940", growth: "+2,391%", from: "from 34" },
       { label: "Top 10 Rankings", value: "94", growth: "+4,600%", from: "from 2" },
       { label: "Organic Traffic", value: "918/mo", growth: "+623%", from: "from 127" },
       { label: "Domain Authority", value: "24", growth: "+200%", from: "from 8" },
     ],
     monthly: [
-      { month: "Jan 2025", keywords: 34, top10: 2, top3: 0, traffic: 127, pages: 9, avgPos: 58.3, ctr: 0.4 },
-      { month: "Feb 2025", keywords: 67, top10: 5, top3: 0, traffic: 156, pages: 20, avgPos: 52.1, ctr: 0.5 },
-      { month: "Mar 2025", keywords: 148, top10: 14, top3: 1, traffic: 234, pages: 28, avgPos: 44.7, ctr: 0.8 },
-      { month: "Apr 2025", keywords: 312, top10: 31, top3: 4, traffic: 387, pages: 42, avgPos: 38.2, ctr: 1.2 },
-      { month: "May 2025", keywords: 534, top10: 56, top3: 9, traffic: 578, pages: 53, avgPos: 32.6, ctr: 1.6 },
-      { month: "Jun 2025", keywords: 847, top10: 94, top3: 17, traffic: 918, pages: 62, avgPos: 27.4, ctr: 2.1 },
+      { month: "Jan 2025", keywords: 189, top10: 27, top3: 5, traffic: 310, pages: 8, avgPos: 48.7, ctr: 0.8 },
+      { month: "Feb 2025", keywords: 411, top10: 36, top3: 8, traffic: 876, pages: 14, avgPos: 46.8, ctr: 1.0 },
+      { month: "Mar 2025", keywords: 516, top10: 51, top3: 9, traffic: 1155, pages: 19, avgPos: 46.0, ctr: 1.4 },
+      { month: "Apr 2025", keywords: 812, top10: 74, top3: 20, traffic: 2251, pages: 17, avgPos: 40.3, ctr: 2.0 },
+      { month: "May 2025", keywords: 1541, top10: 133, top3: 45, traffic: 5167, pages: 21, avgPos: 37.1, ctr: 1.9 },
+      { month: "Jun 2025", keywords: 1940, top10: 195, top3: 49, traffic: 4518, pages: 27, avgPos: 36.2, ctr: 2.1 }
     ],
   },
   organicConversions: {

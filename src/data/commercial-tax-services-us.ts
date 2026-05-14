@@ -108,24 +108,18 @@ export const commercialTaxServicesUs: CaseStudyData = {
   ],
   seo: {
     summary: [
-      { label: "Total Keywords", value: "432", growth: "+222%", from: "from 134" },
+      { label: "Total Keywords", value: "2,574", growth: "+222%", from: "from 134" },
       { label: "Top 10 Rankings", value: "47", growth: "+327%", from: "from 11" },
       { label: "Pages Created", value: "76", growth: "", from: "incl. 42 contractor-specific pages" },
       { label: "Organic Traffic", value: "1,134/mo", growth: "+227%", from: "from 347" },
     ],
     monthly: [
-      // Month 1 (Aug): Foundation building, contractor tax season prep content, baseline measurement
-      { month: "Aug '25", keywords: 134, top10: 11, top3: 2, traffic: 347, pages: 18, avgPos: 52.1, ctr: 0.8 },
-      // Month 2 (Sep): Technical fixes live, contractor-specific content indexing, trade associations finding content
-      { month: "Sep '25", keywords: 158, top10: 14, top3: 3, traffic: 423, pages: 29, avgPos: 49.2, ctr: 0.9 },
-      // Month 3 (Oct): Industry-specific landing pages gaining traction, Q4 tax planning content performing
-      { month: "Oct '25", keywords: 197, top10: 19, top3: 4, traffic: 547, pages: 42, avgPos: 45.8, ctr: 1.1 },
-      // Month 4 (Nov): Year-end planning surge — contractors seeking advice on equipment purchases and tax strategy
-      { month: "Nov '25", keywords: 253, top10: 26, top3: 5, traffic: 712, pages: 53, avgPos: 42.1, ctr: 1.2 },
-      // Month 5 (Dec): Peak year-end planning season — contractors finalizing tax strategies before year close
-      { month: "Dec '25", keywords: 324, top10: 35, top3: 7, traffic: 896, pages: 64, avgPos: 38.9, ctr: 1.4 },
-      // Month 6 (Jan): Tax season beginning — highest search intent from contractors needing filing services
-      { month: "Jan '26", keywords: 432, top10: 47, top3: 9, traffic: 1134, pages: 76, avgPos: 35.7, ctr: 1.6 },
+      { month: "Aug '25", keywords: 172, top10: 18, top3: 3, traffic: 314, pages: 8, avgPos: 51.8, ctr: 0.8 },
+      { month: "Sep '25", keywords: 457, top10: 43, top3: 9, traffic: 726, pages: 12, avgPos: 44.9, ctr: 1.0 },
+      { month: "Oct '25", keywords: 637, top10: 75, top3: 21, traffic: 1079, pages: 17, avgPos: 42.8, ctr: 1.5 },
+      { month: "Nov '25", keywords: 1056, top10: 128, top3: 37, traffic: 2536, pages: 23, avgPos: 38.6, ctr: 1.5 },
+      { month: "Dec '25", keywords: 1834, top10: 245, top3: 76, traffic: 3885, pages: 36, avgPos: 38.5, ctr: 1.9 },
+      { month: "Jan '26", keywords: 2574, top10: 378, top3: 121, traffic: 5826, pages: 24, avgPos: 31.4, ctr: 2.6 }
     ],
   },
   paidAds: {

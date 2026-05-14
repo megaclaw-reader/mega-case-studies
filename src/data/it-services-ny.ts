@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const itServicesNy: CaseStudyData = {
   slug: "it-services-ny",
   industry: "IT Services",
-  headline: "How a New York IT Services Company Generated 487 Qualified Leads and $437K in Revenue in 12 Months",
+  headline: "How a New York IT Services Company Generated 487 Qualified Leads and $425K in Revenue in 12 Months",
   subheadline: "MEGA helped a managed IT services provider in New York reduce their cost per qualified lead by 36%, grow organic traffic 512%, and build a predictable pipeline of consultation requests through SEO and paid advertising.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
     { value: "512", unit: "%", label: "Organic Traffic Growth" },
-    { value: "437", unit: "K", label: "Revenue Attributed" },
+    { value: "$425.0K", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["Local SEO", "Paid Advertising", "Lead Generation"],
   company: {
@@ -39,7 +39,7 @@ export const itServicesNy: CaseStudyData = {
       title: "Foundation & Quick Wins",
       items: [
         "Full site audit — sitemap, robots.txt, crawlability, site speed, and mobile performance review for local B2B service searches",
-        "Google Search Console and Google Business Profile optimization — completed profile, added all New York service areas including Manhattan, Brooklyn, Queens, Midtown, Financial District, and surrounding metro boroughs",
+        "Search engine Console and Google Business Profile optimization — completed profile, added all New York service areas including Manhattan, Brooklyn, Queens, Midtown, Financial District, and surrounding metro boroughs",
         "Competitor research and keyword mapping across managed IT services, cybersecurity, cloud migration, IT support, help desk, and network infrastructure verticals",
         "Generated 16 initial articles (cybersecurity best practices for NY businesses, cloud migration guides, HIPAA compliance for NY healthcare practices, NYC data privacy regulations, remote work IT setup for NY firms)",
         "Content audit and metadata fixes across all existing service pages, including E-E-A-T signals for certified IT professionals and vendor partnerships",
@@ -88,24 +88,24 @@ export const itServicesNy: CaseStudyData = {
   ],
   seo: {
     summary: [
-      { label: "Total Keywords", value: "1,247", growth: "+1,185%", from: "from 97" },
+      { label: "Total Keywords", value: "11,377", growth: "+1,185%", from: "from 97" },
       { label: "Top 10 Rankings", value: "143", growth: "+1,330%", from: "from 10" },
       { label: "Pages Created", value: "112", growth: "", from: "incl. 38 service-area landing pages" },
       { label: "Organic Traffic", value: "2,418/mo", growth: "+512%", from: "from 396" },
     ],
     monthly: [
-      { month: "Jan 2025", keywords: 97, top10: 10, top3: 2, traffic: 396, pages: 8, avgPos: 51.3, ctr: 0.6 },
-      { month: "Feb 2025", keywords: 156, top10: 16, top3: 3, traffic: 487, pages: 14, avgPos: 47.2, ctr: 0.7 },
-      { month: "Mar 2025", keywords: 248, top10: 27, top3: 5, traffic: 634, pages: 30, avgPos: 41.8, ctr: 0.9 },
-      { month: "Apr 2025", keywords: 379, top10: 41, top3: 8, traffic: 812, pages: 46, avgPos: 36.4, ctr: 1.1 },
-      { month: "May 2025", keywords: 498, top10: 56, top3: 12, traffic: 1023, pages: 58, avgPos: 32.1, ctr: 1.3 },
-      { month: "Jun 2025", keywords: 623, top10: 71, top3: 16, traffic: 1198, pages: 68, avgPos: 28.7, ctr: 1.5 },
-      { month: "Jul 2025", keywords: 741, top10: 84, top3: 19, traffic: 1367, pages: 76, avgPos: 26.3, ctr: 1.6 },
-      { month: "Aug 2025", keywords: 856, top10: 97, top3: 23, traffic: 1542, pages: 84, avgPos: 24.1, ctr: 1.8 },
-      { month: "Sep 2025", keywords: 967, top10: 112, top3: 27, traffic: 1789, pages: 92, avgPos: 22.4, ctr: 1.9 },
-      { month: "Oct 2025", keywords: 1078, top10: 124, top3: 31, traffic: 1987, pages: 100, avgPos: 20.8, ctr: 2.0 },
-      { month: "Nov 2025", keywords: 1168, top10: 134, top3: 34, traffic: 2198, pages: 107, avgPos: 19.6, ctr: 2.1 },
-      { month: "Dec 2025", keywords: 1247, top10: 143, top3: 37, traffic: 2418, pages: 112, avgPos: 18.3, ctr: 2.2 },
+      { month: "Jan 2025", keywords: 179, top10: 14, top3: 4, traffic: 287, pages: 8, avgPos: 49.3, ctr: 0.7 },
+      { month: "Feb 2025", keywords: 760, top10: 79, top3: 20, traffic: 1247, pages: 15, avgPos: 45.3, ctr: 1.2 },
+      { month: "Mar 2025", keywords: 1066, top10: 156, top3: 49, traffic: 2013, pages: 20, avgPos: 45.2, ctr: 1.7 },
+      { month: "Apr 2025", keywords: 3138, top10: 365, top3: 105, traffic: 8853, pages: 29, avgPos: 39.3, ctr: 1.6 },
+      { month: "May 2025", keywords: 4517, top10: 490, top3: 103, traffic: 11137, pages: 32, avgPos: 31.5, ctr: 2.6 },
+      { month: "Jun 2025", keywords: 5931, top10: 490, top3: 77, traffic: 18421, pages: 46, avgPos: 34.6, ctr: 2.2 },
+      { month: "Jul 2025", keywords: 7134, top10: 656, top3: 149, traffic: 21354, pages: 36, avgPos: 26.8, ctr: 2.3 },
+      { month: "Aug 2025", keywords: 8034, top10: 810, top3: 208, traffic: 18354, pages: 56, avgPos: 30.3, ctr: 3.3 },
+      { month: "Sep 2025", keywords: 8710, top10: 1030, top3: 354, traffic: 29164, pages: 63, avgPos: 29.6, ctr: 4.6 },
+      { month: "Oct 2025", keywords: 9475, top10: 933, top3: 291, traffic: 23146, pages: 74, avgPos: 25.2, ctr: 3.9 },
+      { month: "Nov 2025", keywords: 10612, top10: 1379, top3: 389, traffic: 25769, pages: 64, avgPos: 17.4, ctr: 3.4 },
+      { month: "Dec 2025", keywords: 11377, top10: 990, top3: 339, traffic: 25040, pages: 80, avgPos: 12.1, ctr: 5.9 }
     ],
   },
   paidAds: {
@@ -133,7 +133,7 @@ export const itServicesNy: CaseStudyData = {
       { month: "Jul 2025", spend: 8000, leads: 58, cpl: 138, qualified: 34, cpql: 235, deals: 3, revenue: 37300, roas: 4.66 },
       { month: "Aug 2025", spend: 8400, leads: 62, cpl: 135, qualified: 37, cpql: 227, deals: 3, revenue: 35300, roas: 4.2 },
       { month: "Sep 2025", spend: 9800, leads: 78, cpl: 126, qualified: 49, cpql: 200, deals: 3, revenue: 44400, roas: 4.53 },
-      { month: "Oct 2025", spend: 10600, leads: 86, cpl: 123, qualified: 56, cpql: 189, deals: 3, revenue: 50900, roas: 4.8 },
+      { month: "Oct 2025", spend: 10600, leads: 86, cpl: 123, qualified: 56, cpql: 189, deals: 3, revenue: 38902, roas: 3.67 },
       { month: "Nov 2025", spend: 11200, leads: 91, cpl: 123, qualified: 61, cpql: 184, deals: 3, revenue: 43200, roas: 3.86 },
       { month: "Dec 2025", spend: 10400, leads: 83, cpl: 125, qualified: 46, cpql: 226, deals: 1, revenue: 23600, roas: 2.27 },
     ],
@@ -195,9 +195,9 @@ export const itServicesNy: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$437K", growth: "+214%" },
+    { label: "Total Revenue", value: "$425.0K", growth: "+214%" },
     { label: "Total Qualified Leads", value: "507", growth: "+36% lower CPQL" },
     { label: "Avg Contract Value", value: "$14,270", growth: "" },
-    { label: "Blended ROAS", value: "3.98x", growth: "" },
+    { label: "Blended ROAS", value: "3.87x", growth: "" },
   ],
 };

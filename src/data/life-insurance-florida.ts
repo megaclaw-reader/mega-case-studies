@@ -25,7 +25,7 @@ export const lifeInsuranceFloridaNew: CaseStudyData = {
     },
     {
       title: "High Cost Per Lead from Outdated Campaigns",
-      description: "Their existing Google Ads campaigns were running on broad match keywords with no negative keyword lists, resulting in expensive clicks from tire-kickers and prospects outside their service area. Cost per qualified lead averaged $247, with only 28% of inquiries meeting their criteria for serious prospects. The campaigns weren't optimized for Florida's unique demographics or seasonal insurance buying patterns.",
+      description: "Their existing Paid advertising campaigns were running on broad match keywords with no negative keyword lists, resulting in expensive clicks from tire-kickers and prospects outside their service area. Cost per qualified lead averaged $247, with only 28% of inquiries meeting their criteria for serious prospects. The campaigns weren't optimized for Florida's unique demographics or seasonal insurance buying patterns.",
     },
     {
       title: "No Systematic Follow-Up Process",

@@ -96,8 +96,8 @@ export const franchiseMedSpa: CaseStudyData = {
       { label: "Qualified Leads", value: "19,369" },
       { label: "Avg Cost Per Qualified Lead", value: "$38", note: "↓46% from $60" },
       { label: "Booked Appointments", value: "4,746", note: "avg treatment value $591" },
-      { label: "Total Revenue", value: "$2.80M" },
-      { label: "Blended ROAS", value: "3.77x" }
+      { label: "Total Revenue", value: "$2.8M" },
+      { label: "Blended ROAS", value: "3.8x" }
     ],
     columnLabels: {
       leads: "Leads",

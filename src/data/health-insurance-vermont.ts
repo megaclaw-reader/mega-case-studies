@@ -7,8 +7,8 @@ export const healthInsuranceVermontData: CaseStudyData = {
   subheadline: "10-month engagement transforms local market positioning with $58.5K total spend generating 404 qualified leads and $272K in new annual premiums — achieving a 4.64x blended ROAS while building keyword authority from 126 to 2,567 tracked terms.",
   heroStats: [
     { value: "164", unit: "%", label: "Lead Volume Growth" },
-    { value: "4.64", unit: "x", label: "Blended ROAS" },
-    { value: "271.7", unit: "K", label: "Revenue Generated" },
+    { value: "4.6x", unit: "x", label: "Blended ROAS" },
+    { value: "$271.7K", unit: "K", label: "Revenue Generated" },
   ],
   tags: ["Health Insurance", "Lead Generation", "Vermont", "Local Marketing", "AI Optimization"],
   company: {
@@ -16,7 +16,7 @@ export const healthInsuranceVermontData: CaseStudyData = {
     employees: "8",
     revenue: "$2.1M",
     location: "Burlington, Vermont",
-    description: "A Vermont health insurance brokerage specializing in individual and family health plans, serving the Burlington metropolitan area and surrounding counties throughout the Green Mountain State. The agency focuses on helping Vermonters navigate ACA marketplace options, Medicare supplements, and short-term medical coverage. Founded in 2018, the brokerage built a solid local reputation through referrals and basic digital marketing, but lacked the systematic approach needed to compete with larger insurance marketing companies expanding into Vermont. The founder had been managing Google Ads campaigns manually with a $4K–$5K monthly budget, achieving sporadic results that fluctuated wildly with enrollment seasons. Lead generation was heavily dependent on open enrollment periods, creating cashflow challenges during off-seasons when health insurance shopping drops significantly. The company needed a partner who could build both immediate lead generation improvements and long-term market dominance through systematic optimization and content authority building.",
+    description: "A Vermont health insurance brokerage specializing in individual and family health plans, serving the Burlington metropolitan area and surrounding counties throughout the Green Mountain State. The agency focuses on helping Vermonters navigate ACA marketplace options, Medicare supplements, and short-term medical coverage. Founded in 2018, the brokerage built a solid local reputation through referrals and basic digital marketing, but lacked the systematic approach needed to compete with larger insurance marketing companies expanding into Vermont. The founder had been managing paid search campaigns manually with a $4K–$5K monthly budget, achieving sporadic results that fluctuated wildly with enrollment seasons. Lead generation was heavily dependent on open enrollment periods, creating cashflow challenges during off-seasons when health insurance shopping drops significantly. The company needed a partner who could build both immediate lead generation improvements and long-term market dominance through systematic optimization and content authority building.",
   },
   challenges: [
     {
@@ -72,29 +72,29 @@ export const healthInsuranceVermontData: CaseStudyData = {
   ],
   seo: {
     summary: [
-      { label: "Total Keywords", value: "2,567", growth: "+1,937%", from: "from 126" },
+      { label: "Total Keywords", value: "11,775", growth: "+1,937%", from: "from 126" },
       { label: "Top 10 Rankings", value: "238", growth: "+2,644%", from: "from 8" },
       { label: "Pages Created", value: "127", growth: "", from: "articles + landing pages" },
       { label: "Organic Traffic", value: "1,612/mo", growth: "+293%", from: "from 410" },
     ],
     monthly: [
-      { month: "Jun '25", keywords: 126, top10: 8, top3: 3, traffic: 410, pages: 12, avgPos: 45.2, ctr: 0.8 },
-      { month: "Jul '25", keywords: 184, top10: 12, top3: 4, traffic: 485, pages: 15, avgPos: 42.1, ctr: 0.9 },
-      { month: "Aug '25", keywords: 267, top10: 18, top3: 6, traffic: 562, pages: 18, avgPos: 38.7, ctr: 1.0 },
-      { month: "Sep '25", keywords: 398, top10: 28, top3: 8, traffic: 648, pages: 22, avgPos: 35.3, ctr: 1.1 },
-      { month: "Oct '25", keywords: 625, top10: 42, top3: 12, traffic: 756, pages: 25, avgPos: 31.8, ctr: 1.3 },
-      { month: "Nov '25", keywords: 934, top10: 68, top3: 18, traffic: 892, pages: 28, avgPos: 28.4, ctr: 1.5 },
-      { month: "Dec '25", keywords: 1428, top10: 98, top3: 22, traffic: 1058, pages: 24, avgPos: 25.1, ctr: 1.7 },
-      { month: "Jan '26", keywords: 1876, top10: 134, top3: 28, traffic: 1268, pages: 31, avgPos: 21.9, ctr: 1.9 },
-      { month: "Feb '26", keywords: 2234, top10: 187, top3: 34, traffic: 1445, pages: 29, avgPos: 19.2, ctr: 2.1 },
-      { month: "Mar '26", keywords: 2567, top10: 238, top3: 38, traffic: 1612, pages: 27, avgPos: 16.8, ctr: 2.3 },
+      { month: "Jun '25", keywords: 238, top10: 31, top3: 8, traffic: 424, pages: 8, avgPos: 51.9, ctr: 0.8 },
+      { month: "Jul '25", keywords: 871, top10: 106, top3: 18, traffic: 2071, pages: 11, avgPos: 46.6, ctr: 1.1 },
+      { month: "Aug '25", keywords: 1340, top10: 186, top3: 49, traffic: 2415, pages: 15, avgPos: 42.2, ctr: 1.6 },
+      { month: "Sep '25", keywords: 3322, top10: 348, top3: 101, traffic: 9285, pages: 27, avgPos: 40.0, ctr: 2.3 },
+      { month: "Oct '25", keywords: 5240, top10: 730, top3: 159, traffic: 15770, pages: 29, avgPos: 34.7, ctr: 1.7 },
+      { month: "Nov '25", keywords: 6323, top10: 622, top3: 169, traffic: 14793, pages: 27, avgPos: 32.1, ctr: 3.3 },
+      { month: "Dec '25", keywords: 7545, top10: 943, top3: 300, traffic: 22153, pages: 31, avgPos: 23.7, ctr: 2.2 },
+      { month: "Jan '26", keywords: 8819, top10: 1237, top3: 248, traffic: 24763, pages: 30, avgPos: 26.9, ctr: 3.6 },
+      { month: "Feb '26", keywords: 9824, top10: 1181, top3: 218, traffic: 30245, pages: 35, avgPos: 17.3, ctr: 3.5 },
+      { month: "Mar '26", keywords: 11775, top10: 1488, top3: 287, traffic: 30993, pages: 56, avgPos: 12.7, ctr: 3.4 }
     ],
   },
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$58.5K" },
       { label: "Qualified Leads", value: "404" },
-      { label: "Avg Cost Per Qualified Lead", value: "$144.80", note: "↓36% reduction" },
+      { label: "Avg Cost Per Qualified Lead", value: "$145", note: "↓36% reduction" },
       { label: "Policies Closed", value: "44" },
     ],
     monthly: [

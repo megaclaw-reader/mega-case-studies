@@ -97,9 +97,9 @@ export const roofingAlabama: CaseStudyData = {
     summary: [
       { label: "Total Ad Spend", value: "$244.8K" },
       { label: "Total Qualified Leads", value: "1,126" },
-      { label: "Avg CPQL", value: "$154.73" },
+      { label: "Avg CPQL", value: "$217" },
       { label: "Total Revenue", value: "$892.5K" },
-      { label: "Blended ROAS", value: "3.65x" }
+      { label: "Blended ROAS", value: "3.6x" }
     ],
     columnLabels: {
       leads: "Total Leads",

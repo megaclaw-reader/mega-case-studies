@@ -8,7 +8,7 @@ export const aiBusinessAutomationNational: CaseStudyData = {
   heroStats: [
     { value: "233", unit: "%", label: "Growth in Qualified Meetings" },
     { value: "25", unit: "", label: "Deals Closed" },
-    { value: "$222.7", unit: "K", label: "Revenue Generated" },
+    { value: "$222.7K", unit: "K", label: "Revenue Generated" },
   ],
   tags: ["Paid Advertising", "AI-Powered Optimization", "B2B Lead Generation"],
   company: {
@@ -16,7 +16,7 @@ export const aiBusinessAutomationNational: CaseStudyData = {
     employees: "14",
     revenue: "$1.8M",
     location: "Denver, CO (Serving Clients Nationwide)",
-    description: "A boutique AI automation consultancy based in Denver helping mid-market companies streamline operations through custom AI workflow solutions, intelligent document processing, chatbot deployment, and process automation. The firm targets operations leaders and COOs at companies with 50–500 employees across industries including logistics, healthcare administration, and professional services. With an average project value around $9,150 and a 45-day average sales cycle, the business had strong referral-based revenue but lacked a predictable paid acquisition channel. Previous attempts at Google Ads had been managed by a generalist freelancer, producing high volumes of unqualified clicks from small businesses and solopreneurs who couldn't afford enterprise automation solutions.",
+    description: "A boutique AI automation consultancy based in Denver helping mid-market companies streamline operations through custom AI workflow solutions, intelligent document processing, chatbot deployment, and process automation. The firm targets operations leaders and COOs at companies with 50–500 employees across industries including logistics, healthcare administration, and professional services. With an average project value around $9,150 and a 45-day average sales cycle, the business had strong referral-based revenue but lacked a predictable paid acquisition channel. Previous attempts at paid search had been managed by a generalist freelancer, producing high volumes of unqualified clicks from small businesses and solopreneurs who couldn't afford enterprise automation solutions.",
   },
   challenges: [
     {
@@ -38,7 +38,7 @@ export const aiBusinessAutomationNational: CaseStudyData = {
       months: "0–30 days",
       title: "Foundation & Qualification Infrastructure",
       items: [
-        "Complete audit of existing Google Ads account — identified $1,400/mo in wasted spend on broad-match terms like 'automation tools' and 'AI chatbot free' attracting DIY users",
+        "Complete audit of existing Paid advertising account — identified $1,400/mo in wasted spend on broad-match terms like 'automation tools' and 'AI chatbot free' attracting DIY users",
         "Rebuilt campaign architecture around three high-intent segments: operations automation, document processing, and AI workflow consulting — each with dedicated ad groups and landing pages",
         "Implemented multi-step qualification form replacing the basic contact form: company size, annual revenue range, automation budget, and specific pain point — filtering out sub-$5K prospects before they reached sales",
         "Deployed always-on AI optimization agents within the ad account for continuous bid management, budget allocation, and audience refinement — replacing the previous freelancer's weekly login-and-adjust approach",
@@ -71,7 +71,7 @@ export const aiBusinessAutomationNational: CaseStudyData = {
         "AI optimization agents detected seasonal demand patterns — increased budget allocation to healthcare administration prospects during Q4 budget planning season, capturing 34% more qualified meetings in that vertical",
         "Multi-touch attribution model fully operational: budget decisions driven by actual closed-deal contribution, not platform-reported conversions",
         "Expanded geographic targeting from initial focus on Mountain West and Midwest to include Southeast and Northeast metro areas showing strong intent signals",
-        "Speed of iteration advantage: when a new competitor entered the market with aggressive Google Ads, AI agents detected the CPL increase within hours and reallocated budget to LinkedIn and retargeting channels where competition was lower — a response that would have taken a traditional agency 1–2 weeks",
+        "Speed of iteration advantage: when a new competitor entered the market with aggressive paid search, AI agents detected the CPL increase within hours and reallocated budget to LinkedIn and retargeting channels where competition was lower — a response that would have taken a traditional agency 1–2 weeks",
         "Reduced average time from qualified meeting to proposal delivery from 8 days to 3 days through streamlined discovery call process",
       ],
     },

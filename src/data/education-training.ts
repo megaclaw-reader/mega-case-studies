@@ -39,7 +39,7 @@ export const educationTraining: CaseStudyData = {
       title: "Foundation & Quick Wins",
       items: [
         "Full site audit — technical SEO review covering crawlability, site speed, mobile experience, and structured data for course catalog pages",
-        "Google Search Console optimization and keyword research across certification verticals: PMP, CompTIA, AWS, data analytics, and leadership development",
+        "Search engine Console optimization and keyword research across certification verticals: PMP, CompTIA, AWS, data analytics, and leadership development",
         "Competitor content gap analysis against major online education platforms and university extension programs",
         "Generated 18 initial articles targeting high-intent search queries: certification comparison guides, career ROI analyses, and study methodology content",
         "Metadata optimization and content audit across all existing course landing pages and program descriptions",

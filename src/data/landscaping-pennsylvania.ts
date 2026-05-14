@@ -112,7 +112,7 @@ export const landscapingPennsylvaniaData: CaseStudyData = {
       { label: "Total Leads Generated", value: "1,976", note: "Paid advertising only" },
       { label: "Total Qualified Leads", value: "1,047", note: "53% qualification rate" },
       { label: "Cost Per Lead", value: "$33", note: "43% reduction from $58" },
-      { label: "Blended ROAS", value: "3.69x", note: "Revenue / Ad Spend" },
+      { label: "Blended ROAS", value: "3.7x", note: "Revenue / Ad Spend" },
     ],
     monthly: [
       { month: "Apr '25", spend: 5000, leads: 143, cpl: 34.97, qualified: 72, cpql: 69.44, deals: 2, revenue: 11000, roas: 2.2 },

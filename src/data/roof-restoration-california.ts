@@ -23,7 +23,7 @@ export const roofRestorationCalifornia: CaseStudyData = {
   challenges: [
     {
       title: "High Cost Per Qualified Lead With No Feedback Loop",
-      description: "The company was spending on Google Ads but had no mechanism to feed conversion quality data back into campaign optimization. Every lead was treated equally — a $15,000 full roof restoration inquiry and a $300 patch job received the same bid priority. The effective CPQL sat above $320 with no clear path to improvement.",
+      description: "The company was spending on Paid advertising but had no mechanism to feed conversion quality data back into campaign optimization. Every lead was treated equally — a $15,000 full roof restoration inquiry and a $300 patch job received the same bid priority. The effective CPQL sat above $320 with no clear path to improvement.",
     },
     {
       title: "Seasonal Demand Fluctuations Across California Markets",
@@ -41,7 +41,7 @@ export const roofRestorationCalifornia: CaseStudyData = {
       months: "Months 1-2",
       title: "Foundation & Feedback Loop Architecture",
       items: [
-        "Complete audit of existing Google Ads account — identified $1,200/mo in wasted spend on non-restoration keywords like 'roof cleaning' and 'gutter repair' that attracted low-value inquiries",
+        "Complete audit of existing Paid advertising account — identified $1,200/mo in wasted spend on non-restoration keywords like 'roof cleaning' and 'gutter repair' that attracted low-value inquiries",
         "Deployed always-on AI optimization agents directly within the ad account — monitoring performance signals, adjusting bids, and refining audience targeting in real time rather than the previous approach of weekly manual checks",
         "Built closed-loop CRM integration connecting lead source data to job outcomes, enabling the feedback loop that would drive CPQL optimization over the entire engagement",
         "Restructured campaigns around California service areas with separate ad groups for high-value restoration services (coatings, tile restoration, re-roofing) versus lower-margin repairs",
@@ -83,9 +83,9 @@ export const roofRestorationCalifornia: CaseStudyData = {
     summary: [
       { label: "Total Ad Spend", value: "$109.2K" },
       { label: "Total Qualified Leads", value: "491" },
-      { label: "Avg CPQL", value: "$222.40" },
-      { label: "Total Revenue", value: "$460,200" },
-      { label: "Blended ROAS", value: "4.21x" },
+      { label: "Avg CPQL", value: "$222" },
+      { label: "Total Revenue", value: "$460.2K" },
+      { label: "Blended ROAS", value: "4.2x" },
     ],
     columnLabels: {
       leads: "Total Leads",
@@ -214,6 +214,6 @@ export const roofRestorationCalifornia: CaseStudyData = {
     { label: "Blended ROAS", value: "4.21x", growth: "" },
     { label: "Total Qualified Leads", value: "491", growth: "" },
     { label: "Cost Per Qualified Lead", value: "$222.40", growth: "-42% from month 1" },
-    { label: "Closed Deals", value: "37 restoration projects", growth: "" },
+    { label: "Closed Deals", value: "37", growth: "" },
   ],
 };

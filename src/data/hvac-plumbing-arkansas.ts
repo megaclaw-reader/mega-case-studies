@@ -8,7 +8,7 @@ export const hvacPlumbingArkansasCaseStudy: CaseStudyData = {
   heroStats: [
     { value: "3.4", unit: "x", label: "Peak ROAS Achieved" },
     { value: "3.4", unit: "x", label: "ROAS Growth" },
-    { value: "423.8", unit: "K", label: "Total Revenue Generated" },
+    { value: "$423.8K", unit: "K", label: "Total Revenue Generated" },
   ],
   tags: ["Local SEO", "Paid Advertising", "Lead Generation"],
   company: {

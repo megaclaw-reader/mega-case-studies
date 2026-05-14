@@ -85,19 +85,19 @@ export const homeRenovationsArizona: CaseStudyData = {
       { label: "Monthly Organic Traffic", value: "2,725", growth: "685%", from: "347" }
     ],
     monthly: [
-      { month: "Feb '25", keywords: 156, top10: 50, top3: 18, traffic: 347, pages: 12, avgPos: 24.3, ctr: 3.2 },
-      { month: "Mar '25", keywords: 187, top10: 63, top3: 24, traffic: 421, pages: 15, avgPos: 22.8, ctr: 3.4 },
-      { month: "Apr '25", keywords: 234, top10: 81, top3: 31, traffic: 578, pages: 19, avgPos: 21.2, ctr: 3.7 },
-      { month: "May '25", keywords: 289, top10: 102, top3: 39, traffic: 712, pages: 24, avgPos: 19.8, ctr: 3.9 },
-      { month: "Jun '25", keywords: 356, top10: 127, top3: 48, traffic: 894, pages: 29, avgPos: 18.5, ctr: 4.1 },
-      { month: "Jul '25", keywords: 423, top10: 153, top3: 58, traffic: 1067, pages: 35, avgPos: 17.3, ctr: 4.3 },
-      { month: "Aug '25", keywords: 512, top10: 186, top3: 71, traffic: 1298, pages: 42, avgPos: 16.1, ctr: 4.6 },
-      { month: "Sep '25", keywords: 587, top10: 218, top3: 84, traffic: 1489, pages: 49, avgPos: 15.2, ctr: 4.8 },
-      { month: "Oct '25", keywords: 678, top10: 254, top3: 98, traffic: 1734, pages: 56, avgPos: 14.3, ctr: 5.1 },
-      { month: "Nov '25", keywords: 745, top10: 289, top3: 112, traffic: 1923, pages: 63, avgPos: 13.7, ctr: 5.3 },
-      { month: "Dec '25", keywords: 834, top10: 328, top3: 127, traffic: 2156, pages: 71, avgPos: 12.9, ctr: 5.6 },
-      { month: "Jan '26", keywords: 923, top10: 367, top3: 142, traffic: 2387, pages: 78, avgPos: 12.2, ctr: 5.8 },
-      { month: "Feb '26", keywords: 1247, top10: 423, top3: 164, traffic: 2725, pages: 87, avgPos: 11.4, ctr: 6.1 }
+      { month: "Feb '25", keywords: 228, top10: 30, top3: 4, traffic: 527, pages: 8, avgPos: 51.5, ctr: 0.7 },
+      { month: "Mar '25", keywords: 732, top10: 97, top3: 26, traffic: 1766, pages: 12, avgPos: 46.2, ctr: 1.2 },
+      { month: "Apr '25", keywords: 997, top10: 112, top3: 16, traffic: 1719, pages: 20, avgPos: 43.5, ctr: 1.2 },
+      { month: "May '25", keywords: 3038, top10: 324, top3: 93, traffic: 7745, pages: 30, avgPos: 36.4, ctr: 1.8 },
+      { month: "Jun '25", keywords: 4134, top10: 525, top3: 102, traffic: 9871, pages: 21, avgPos: 34.5, ctr: 1.9 },
+      { month: "Jul '25", keywords: 5366, top10: 631, top3: 156, traffic: 13713, pages: 38, avgPos: 34.7, ctr: 1.9 },
+      { month: "Aug '25", keywords: 6032, top10: 552, top3: 156, traffic: 19891, pages: 32, avgPos: 25.4, ctr: 2.8 },
+      { month: "Sep '25", keywords: 7492, top10: 909, top3: 157, traffic: 17053, pages: 34, avgPos: 22.8, ctr: 3.4 },
+      { month: "Oct '25", keywords: 7784, top10: 803, top3: 194, traffic: 24479, pages: 45, avgPos: 16.3, ctr: 3.7 },
+      { month: "Nov '25", keywords: 8626, top10: 1003, top3: 275, traffic: 29433, pages: 43, avgPos: 18.4, ctr: 4.9 },
+      { month: "Dec '25", keywords: 9380, top10: 1361, top3: 383, traffic: 31947, pages: 80, avgPos: 13.4, ctr: 3.0 },
+      { month: "Jan '26", keywords: 10330, top10: 1325, top3: 279, traffic: 33774, pages: 47, avgPos: 8, ctr: 5.9 },
+      { month: "Feb '26", keywords: 10449, top10: 1362, top3: 304, traffic: 36533, pages: 95, avgPos: 16.9, ctr: 5.5 }
     ]
   },
   organicConversions: {
@@ -138,7 +138,7 @@ export const homeRenovationsArizona: CaseStudyData = {
   impact: [
     { label: "Total Revenue Generated", value: "$847,329", growth: "685%" },
     { label: "Organic Traffic Growth", value: "2,725 visits/month", growth: "685%" },
-    { label: "Keyword Rankings", value: "1,247 total", growth: "698%" },
+    { label: "Keyword Rankings", value: "10,449", growth: "698%" },
     { label: "Local Search Visibility", value: "Page 1 for 423 terms", growth: "745%" },
     { label: "Lead Quality Improvement", value: "57.4% qualified rate", growth: "23%" },
     { label: "Customer Acquisition Cost", value: "$0 (organic only)", growth: "100% reduction" }

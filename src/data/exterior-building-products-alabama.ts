@@ -122,9 +122,9 @@ export const exteriorBuildingProductsAlabama: CaseStudyData = {
     summary: [
       { label: "Total Ad Spend", value: "$52.6K" },
       { label: "Total Qualified Leads", value: "264" },
-      { label: "Avg CPQL", value: "$159.88" },
+      { label: "Avg CPQL", value: "$199" },
       { label: "Total Revenue", value: "$215.2K" },
-      { label: "Blended ROAS", value: "4.09x" },
+      { label: "Blended ROAS", value: "4.1x" },
     ],
     columnLabels: {
       leads: "Total Leads",

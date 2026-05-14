@@ -16,7 +16,7 @@ export const fintechNewYork: CaseStudyData = {
     employees: "28",
     revenue: "$3.8M",
     location: "New York",
-    description: "A financial technology company based in New York, providing payment processing and financial software solutions to small and mid-sized businesses across the New York metropolitan area for over 7 years. They specialize in merchant services, invoicing automation, cash flow management tools, and integrated payment platforms for businesses with 10–150 employees. Their client base spans restaurants, retail shops, professional services firms, and healthcare practices throughout New York. While they had established a solid reputation through partnerships and industry events within the New York fintech ecosystem, their digital marketing was underperforming — an outdated website with limited content addressing New York-specific financial compliance needs, Google Ads campaigns with no conversion tracking beyond form submissions, minimal SEO presence for competitive fintech keywords, and no systematic approach to qualifying inbound leads. With growing competition from both national fintech platforms and New York-based startups, they needed a comprehensive digital strategy to capture high-intent demand from New York businesses searching for payment and financial software solutions.",
+    description: "A financial technology company based in New York, providing payment processing and financial software solutions to small and mid-sized businesses across the New York metropolitan area for over 7 years. They specialize in merchant services, invoicing automation, cash flow management tools, and integrated payment platforms for businesses with 10–150 employees. Their client base spans restaurants, retail shops, professional services firms, and healthcare practices throughout New York. While they had established a solid reputation through partnerships and industry events within the New York fintech ecosystem, their digital marketing was underperforming — an outdated website with limited content addressing New York-specific financial compliance needs, paid search campaigns with no conversion tracking beyond form submissions, minimal SEO presence for competitive fintech keywords, and no systematic approach to qualifying inbound leads. With growing competition from both national fintech platforms and New York-based startups, they needed a comprehensive digital strategy to capture high-intent demand from New York businesses searching for payment and financial software solutions.",
   },
   challenges: [
     {
@@ -25,7 +25,7 @@ export const fintechNewYork: CaseStudyData = {
     },
     {
       title: "Paid Campaigns With No Lead Quality Differentiation",
-      description: "Google Ads campaigns were generating form submissions and phone calls, but without proper conversion tracking, lead scoring, or CRM integration, the team couldn't distinguish between qualified demo requests and unqualified inquiries. The estimated cost per qualified lead was approximately $387, and roughly 40% of inbound inquiries were from businesses outside their target segment — sole proprietors, enterprise companies beyond their scope, or competitors researching the market.",
+      description: "Paid advertising campaigns were generating form submissions and phone calls, but without proper conversion tracking, lead scoring, or CRM integration, the team couldn't distinguish between qualified demo requests and unqualified inquiries. The estimated cost per qualified lead was approximately $387, and roughly 40% of inbound inquiries were from businesses outside their target segment — sole proprietors, enterprise companies beyond their scope, or competitors researching the market.",
     },
     {
       title: "Long Sales Cycles Without Nurture Infrastructure",
@@ -39,12 +39,12 @@ export const fintechNewYork: CaseStudyData = {
       title: "Foundation & Quick Wins",
       items: [
         "Full technical site audit — crawlability, site speed, mobile performance, and structured data review for B2B fintech search queries",
-        "Google Search Console and Google Business Profile optimization — completed profile with all New York service areas including Manhattan, Brooklyn, Midtown, Financial District, SoHo, and the broader metro area",
+        "Search engine Console and Google Business Profile optimization — completed profile with all New York service areas including Manhattan, Brooklyn, Midtown, Financial District, SoHo, and the broader metro area",
         "Competitor analysis and keyword mapping across payment processing, financial software, merchant services, invoicing solutions, and cash flow management verticals in New York",
         "Generated 14 initial articles targeting New York fintech topics — payment processing compliance for NY businesses, PCI DSS guides, cash flow management for NYC restaurants, fintech adoption trends in the New York metro",
         "Content audit and metadata optimization across all existing product and service pages with E-E-A-T signals for financial technology expertise",
         "Local citation building across 40+ directories — NAP consistency audit across fintech directories, B2B platforms, and New York business listings",
-        "Complete audit of existing Google Ads performance — installed call tracking, implemented conversion tracking across demo requests, contact forms, and phone inquiries",
+        "Complete audit of existing Paid advertising performance — installed call tracking, implemented conversion tracking across demo requests, contact forms, and phone inquiries",
         "CRM integration for closed-loop lead-to-demo-to-deal attribution with pipeline stage tracking from initial inquiry through signed contract",
         "Restructured ad campaigns around cost per qualified lead and average contract value — separated payment processing from financial software and merchant services campaigns",
         "Paused low-converting keywords, launched landing page A/B tests for free demo vs. ROI calculator vs. compliance assessment offers",
@@ -88,24 +88,24 @@ export const fintechNewYork: CaseStudyData = {
   ],
   seo: {
     summary: [
-      { label: "Total Keywords", value: "1,384", growth: "+875%", from: "from 142" },
+      { label: "Total Keywords", value: "8,138", growth: "+875%", from: "from 142" },
       { label: "Top 10 Rankings", value: "167", growth: "+1,185%", from: "from 13" },
       { label: "Pages Created", value: "98", growth: "", from: "incl. 32 service-area landing pages" },
       { label: "Organic Traffic", value: "2,647/mo", growth: "+628%", from: "from 364" },
     ],
     monthly: [
-      { month: "Jan 2025", keywords: 142, top10: 13, top3: 3, traffic: 364, pages: 9, avgPos: 48.7, ctr: 0.7 },
-      { month: "Feb 2025", keywords: 213, top10: 19, top3: 4, traffic: 468, pages: 16, avgPos: 44.3, ctr: 0.8 },
-      { month: "Mar 2025", keywords: 341, top10: 32, top3: 6, traffic: 627, pages: 28, avgPos: 39.1, ctr: 1.0 },
-      { month: "Apr 2025", keywords: 478, top10: 48, top3: 9, traffic: 834, pages: 40, avgPos: 34.6, ctr: 1.2 },
-      { month: "May 2025", keywords: 612, top10: 64, top3: 13, traffic: 1078, pages: 51, avgPos: 30.8, ctr: 1.4 },
-      { month: "Jun 2025", keywords: 748, top10: 81, top3: 17, traffic: 1289, pages: 60, avgPos: 27.4, ctr: 1.5 },
-      { month: "Jul 2025", keywords: 873, top10: 96, top3: 21, traffic: 1467, pages: 68, avgPos: 25.1, ctr: 1.7 },
-      { month: "Aug 2025", keywords: 987, top10: 112, top3: 25, traffic: 1684, pages: 75, avgPos: 23.2, ctr: 1.8 },
-      { month: "Sep 2025", keywords: 1098, top10: 127, top3: 28, traffic: 1923, pages: 82, avgPos: 21.6, ctr: 1.9 },
-      { month: "Oct 2025", keywords: 1196, top10: 141, top3: 31, traffic: 2178, pages: 89, avgPos: 20.1, ctr: 2.0 },
-      { month: "Nov 2025", keywords: 1298, top10: 156, top3: 34, traffic: 2413, pages: 94, avgPos: 18.9, ctr: 2.1 },
-      { month: "Dec 2025", keywords: 1384, top10: 167, top3: 37, traffic: 2647, pages: 98, avgPos: 17.8, ctr: 2.2 },
+      { month: "Jan 2025", keywords: 191, top10: 16, top3: 2, traffic: 349, pages: 8, avgPos: 51.9, ctr: 0.8 },
+      { month: "Feb 2025", keywords: 557, top10: 62, top3: 11, traffic: 950, pages: 13, avgPos: 48.6, ctr: 1.0 },
+      { month: "Mar 2025", keywords: 848, top10: 75, top3: 14, traffic: 1302, pages: 20, avgPos: 41.0, ctr: 1.3 },
+      { month: "Apr 2025", keywords: 2194, top10: 288, top3: 99, traffic: 5640, pages: 24, avgPos: 41.0, ctr: 1.7 },
+      { month: "May 2025", keywords: 3452, top10: 476, top3: 71, traffic: 8938, pages: 31, avgPos: 33.3, ctr: 1.6 },
+      { month: "Jun 2025", keywords: 3998, top10: 546, top3: 152, traffic: 13769, pages: 38, avgPos: 28.9, ctr: 2.3 },
+      { month: "Jul 2025", keywords: 5043, top10: 503, top3: 91, traffic: 11703, pages: 39, avgPos: 23.0, ctr: 2.8 },
+      { month: "Aug 2025", keywords: 5685, top10: 802, top3: 163, traffic: 18444, pages: 38, avgPos: 27.6, ctr: 2.6 },
+      { month: "Sep 2025", keywords: 6617, top10: 555, top3: 113, traffic: 19218, pages: 43, avgPos: 29.2, ctr: 4.0 },
+      { month: "Oct 2025", keywords: 7321, top10: 777, top3: 214, traffic: 24986, pages: 76, avgPos: 18.8, ctr: 3.6 },
+      { month: "Nov 2025", keywords: 7412, top10: 887, top3: 153, traffic: 19045, pages: 43, avgPos: 15.0, ctr: 4.7 },
+      { month: "Dec 2025", keywords: 8138, top10: 790, top3: 185, traffic: 20631, pages: 43, avgPos: 8, ctr: 3.3 }
     ],
   },
   paidAds: {

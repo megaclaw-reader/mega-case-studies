@@ -7,7 +7,7 @@ export const ecommercePet: CaseStudyData = {
   subheadline: "MEGA helped a local Arizona ecommerce pet retailer grow from a 1.95x ROAS to over 3.9x — generating 3,659 orders and $204.1K in ad-attributed revenue over 11 months, including a record Black Friday that drove 18% of total campaign revenue.",
   heroStats: [
     { value: "11", unit: "months", label: "Campaign Duration" },
-    { value: "3659", unit: "", label: "Orders Attributed" },
+    { value: "3,659", unit: "", label: "Orders Attributed" },
     { value: "204.1", unit: "K", label: "Ad Revenue" },
   ],
   tags: ["Paid Advertising", "Ecommerce", "Arizona"],
@@ -85,7 +85,7 @@ export const ecommercePet: CaseStudyData = {
       { label: "Total Ad Spend", value: "$63.8K" },
       { label: "Total Orders", value: "3,659" },
       { label: "Avg Cost Per Acquisition", value: "$17.42", note: "↓42% from $29.78" },
-      { label: "Blended ROAS", value: "3.20x", note: "from 1.95x baseline" },
+      { label: "Blended ROAS", value: "3.2x", note: "from 1.95x baseline" },
     ],
     columnLabels: {
       leads: "Sessions",

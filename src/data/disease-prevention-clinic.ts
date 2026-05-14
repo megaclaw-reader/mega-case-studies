@@ -44,7 +44,7 @@ export const diseasePreventionClinic: CaseStudyData = {
         "Keyword research spanning wellness screenings, preventive health exams, immunization services, chronic disease management, functional medicine, and New Mexico-specific health queries",
         "Generated 11 initial articles — preventive screening guides by age group, immunization schedules for adults, chronic disease risk assessment content, and New Mexico community health resources",
         "Full conversion tracking setup — appointment request forms, phone calls, direction requests, and online scheduling integrations all instrumented with proper attribution",
-        "Launched structured Google Ads campaigns targeting high-intent preventive health queries with dedicated landing pages for wellness screenings, immunizations, and chronic disease management programs",
+        "Launched structured Paid advertising campaigns targeting high-intent preventive health queries with dedicated landing pages for wellness screenings, immunizations, and chronic disease management programs",
         "Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience targeting refinement — replacing reactive weekly review cycles with proactive real-time adjustments",
       ],
     },
@@ -80,18 +80,18 @@ export const diseasePreventionClinic: CaseStudyData = {
   ],
   seo: {
     summary: [
-      { label: "Total Keywords", value: "783", growth: "+770%", from: "from 90" },
+      { label: "Total Keywords", value: "2,237", growth: "+770%", from: "from 90" },
       { label: "Top 10 Rankings", value: "64", growth: "+540%", from: "from 10" },
       { label: "Pages Created", value: "47", growth: "", from: "incl. 14 location/service pages" },
       { label: "Organic Traffic", value: "2,117/mo", growth: "+683%", from: "from 271" },
     ],
     monthly: [
-      { month: "Sep '25", keywords: 90, top10: 10, top3: 1, traffic: 271, pages: 0, avgPos: 51.4, ctr: 0.7 },
-      { month: "Oct '25", keywords: 168, top10: 17, top3: 2, traffic: 489, pages: 18, avgPos: 46.8, ctr: 0.9 },
-      { month: "Nov '25", keywords: 289, top10: 27, top3: 5, traffic: 763, pages: 29, avgPos: 41.3, ctr: 1.1 },
-      { month: "Dec '25", keywords: 421, top10: 38, top3: 8, traffic: 1104, pages: 36, avgPos: 36.7, ctr: 1.3 },
-      { month: "Jan '26", keywords: 594, top10: 51, top3: 12, traffic: 1578, pages: 42, avgPos: 31.9, ctr: 1.6 },
-      { month: "Feb '26", keywords: 783, top10: 64, top3: 17, traffic: 2117, pages: 47, avgPos: 28.2, ctr: 1.8 },
+      { month: "Sep '25", keywords: 206, top10: 27, top3: 6, traffic: 498, pages: 8, avgPos: 48.9, ctr: 0.7 },
+      { month: "Oct '25", keywords: 471, top10: 54, top3: 9, traffic: 906, pages: 13, avgPos: 46.9, ctr: 1.1 },
+      { month: "Nov '25", keywords: 650, top10: 87, top3: 27, traffic: 1375, pages: 14, avgPos: 45.6, ctr: 1.6 },
+      { month: "Dec '25", keywords: 1004, top10: 108, top3: 34, traffic: 3496, pages: 22, avgPos: 39.0, ctr: 2.4 },
+      { month: "Jan '26", keywords: 1669, top10: 136, top3: 20, traffic: 4643, pages: 39, avgPos: 33.4, ctr: 2.0 },
+      { month: "Feb '26", keywords: 2237, top10: 206, top3: 34, traffic: 5522, pages: 26, avgPos: 32.1, ctr: 2.7 }
     ],
   },
   paidAds: {

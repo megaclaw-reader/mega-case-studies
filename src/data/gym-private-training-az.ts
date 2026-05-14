@@ -101,7 +101,7 @@ export const gymPrivateTrainingAz: CaseStudyData = {
       { label: "Total Ad Spend", value: "$34.6K" },
       { label: "Total Leads", value: "2,187" },
       { label: "Qualified Leads", value: "847" },
-      { label: "Avg CPQL", value: "$51", note: "↓34% from $78" },
+      { label: "Avg CPQL", value: "$41", note: "↓34% from $78" },
     ],
     columnLabels: {
       leads: "Total Leads",

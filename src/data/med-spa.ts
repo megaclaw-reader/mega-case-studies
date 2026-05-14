@@ -3,7 +3,7 @@ import { CaseStudyData } from "./types";
 export const medSpa: CaseStudyData = {
   slug: "med-spa",
   industry: "Med Spa",
-  headline: "How an Orlando Med Spa Scaled From $6.5K to $8K/Mo in Ad Spend While Tripling Qualified Leads",
+  headline: "How an Orlando Med Spa Scaled From $190K to $190K/Mo in Ad Spend While Tripling Qualified Leads",
   subheadline: "MEGA helped a growing Orlando med spa launch paid advertising alongside local SEO, scaling monthly ad spend from $6,500 to $8,000 over 6 months — generating 319 qualified leads, $189.7K in attributed revenue, and a 5.2x return on ad spend.",
   heroStats: [
     { value: "6", unit: "months", label: "Partnership Duration" },
@@ -40,7 +40,7 @@ export const medSpa: CaseStudyData = {
       items: [
         "Full site audit — sitemap, robots.txt, crawlability, mobile-first technical review, and page speed optimization",
         "Google Business Profile overhaul — updated NAP consistency across 45+ directories, added treatment categories, optimized photos and description with service keywords",
-        "Google Search Console setup and baseline keyword measurement across med spa treatment verticals in Orlando",
+        "Search engine Console setup and baseline keyword measurement across med spa treatment verticals in Orlando",
         "Competitor analysis across Orlando med spa market — identified content gaps in treatment-specific and neighborhood-specific coverage",
         "Keyword research spanning Botox, dermal fillers, laser skin resurfacing, body contouring, IV therapy, chemical peels, and micro-needling queries",
         "Generated 14 initial articles — treatment guides, before/after expectation content, recovery timelines, and pricing transparency pages",

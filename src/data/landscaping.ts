@@ -104,28 +104,20 @@ export const landscaping: CaseStudyData = {
   ],
   seo: {
     summary: [
-      { label: "Total Keywords", value: "753", growth: "+412%", from: "from 147" },
+      { label: "Total Keywords", value: "6,628", growth: "+412%", from: "from 147" },
       { label: "Top 10 Rankings", value: "89", growth: "+988%", from: "from 8" },
       { label: "Pages Created", value: "71", growth: "", from: "incl. 28 neighborhood service pages" },
       { label: "Organic Traffic", value: "1,183/mo", growth: "+312%", from: "from 287" },
     ],
     monthly: [
-      // Month 1 (Mar 2025): Baseline — spring starting, audit underway
-      { month: "Mar 2025", keywords: 147, top10: 8, top3: 1, traffic: 287, pages: 12, avgPos: 48.2, ctr: 0.8 },
-      // Month 2 (Apr 2025): Technical fixes live, first content batch, spring demand rising
-      { month: "Apr 2025", keywords: 213, top10: 14, top3: 2, traffic: 367, pages: 26, avgPos: 43.7, ctr: 0.9 },
-      // Month 3 (May 2025): Content indexing, neighborhood pages gaining traction, peak spring
-      { month: "May 2025", keywords: 312, top10: 24, top3: 4, traffic: 478, pages: 40, avgPos: 38.9, ctr: 1.1 },
-      // Month 4 (Jun 2025): Summer — strong demand, programmatic pages ranking
-      { month: "Jun 2025", keywords: 398, top10: 36, top3: 7, traffic: 612, pages: 50, avgPos: 34.6, ctr: 1.2 },
-      // Month 5 (Jul 2025): Peak summer — highest seasonal demand in Nashville
-      { month: "Jul 2025", keywords: 479, top10: 48, top3: 10, traffic: 743, pages: 57, avgPos: 31.4, ctr: 1.4 },
-      // Month 6 (Aug 2025): Late summer — authority building, long-tail terms compounding
-      { month: "Aug 2025", keywords: 563, top10: 59, top3: 13, traffic: 871, pages: 63, avgPos: 29.1, ctr: 1.5 },
-      // Month 7 (Sep 2025): Early fall — slight seasonal dip but rankings holding, fall planting content performing
-      { month: "Sep 2025", keywords: 654, top10: 72, top3: 16, traffic: 1019, pages: 67, avgPos: 27.3, ctr: 1.7 },
-      // Month 8 (Oct 2025): Fall — compound gains, strong authority across service clusters
-      { month: "Oct 2025", keywords: 753, top10: 89, top3: 19, traffic: 1183, pages: 71, avgPos: 25.8, ctr: 1.8 },
+      { month: "Mar 2025", keywords: 240, top10: 35, top3: 7, traffic: 384, pages: 8, avgPos: 50.7, ctr: 0.8 },
+      { month: "Apr 2025", keywords: 733, top10: 103, top3: 27, traffic: 1690, pages: 11, avgPos: 48.7, ctr: 1.2 },
+      { month: "May 2025", keywords: 1082, top10: 160, top3: 49, traffic: 1746, pages: 14, avgPos: 40.3, ctr: 1.5 },
+      { month: "Jun 2025", keywords: 2221, top10: 188, top3: 41, traffic: 5041, pages: 31, avgPos: 39.4, ctr: 1.7 },
+      { month: "Jul 2025", keywords: 3570, top10: 296, top3: 47, traffic: 9055, pages: 26, avgPos: 34.5, ctr: 2.0 },
+      { month: "Aug 2025", keywords: 4556, top10: 525, top3: 164, traffic: 9589, pages: 44, avgPos: 32.0, ctr: 2.7 },
+      { month: "Sep 2025", keywords: 6017, top10: 527, top3: 147, traffic: 14144, pages: 33, avgPos: 27.8, ctr: 2.5 },
+      { month: "Oct 2025", keywords: 6628, top10: 593, top3: 158, traffic: 18728, pages: 48, avgPos: 28.4, ctr: 2.7 }
     ],
   },
   paidAds: {
@@ -133,7 +125,7 @@ export const landscaping: CaseStudyData = {
       { label: "Total Ad Spend", value: "$44.8K" },
       { label: "Total Leads (Calls + Forms)", value: "455" },
       { label: "Qualified Leads", value: "198" },
-      { label: "Avg CPQL", value: "$209", note: "↓37% from $281 to $178 by Month 8" },
+      { label: "Avg CPQL", value: "$226", note: "↓37% from $281 to $178 by Month 8" },
     ],
     columnLabels: {
       leads: "Total Leads",

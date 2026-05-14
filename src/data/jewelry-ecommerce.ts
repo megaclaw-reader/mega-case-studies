@@ -8,7 +8,7 @@ export const jewelryEcommerce: CaseStudyData = {
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
     { value: "5.7", unit: "x", label: "Peak ROAS Achieved" },
-    { value: "598.2", unit: "K", label: "Revenue Generated" },
+    { value: "$598.2K", unit: "K", label: "Revenue Generated" },
   ],
   tags: ["Ecommerce", "Paid Advertising", "SEO", "Jewelry"],
   company: {
@@ -16,12 +16,12 @@ export const jewelryEcommerce: CaseStudyData = {
     employees: "8",
     revenue: "$420K",
     location: "National (USA)",
-    description: "A direct-to-consumer jewelry brand selling curated collections of fine and fashion jewelry through its own Shopify storefront. The brand offered engagement rings, gold and sterling silver necklaces, bracelets, earrings, and custom pieces, with average order values ranging from $150 to $400. Despite strong product quality and a loyal customer base built through Instagram and word-of-mouth, the brand's digital advertising had plateaued — running a handful of Meta ads that generated a 2x ROAS with no systematic testing or optimization. Organic search was virtually nonexistent, with fewer than 200 indexed keywords and minimal product-level SEO. The founder wanted to scale revenue aggressively with a focus on maintaining ROAS above 3x, particularly capitalizing on key jewelry purchasing seasons like the holidays and Valentine's Day.",
+    description: "A direct-to-consumer jewelry brand selling curated collections of fine and fashion jewelry through its own Shopify storefront. The brand offered engagement rings, gold and sterling silver necklaces, bracelets, earrings, and custom pieces, with average order values ranging from $150 to $400. Despite strong product quality and a loyal customer base built through Instagram and word-of-mouth, the brand's digital advertising had plateaued — running a handful of paid social that generated a 2x ROAS with no systematic testing or optimization. Organic search was virtually nonexistent, with fewer than 200 indexed keywords and minimal product-level SEO. The founder wanted to scale revenue aggressively with a focus on maintaining ROAS above 3x, particularly capitalizing on key jewelry purchasing seasons like the holidays and Valentine's Day.",
   },
   challenges: [
     {
       title: "Stagnant Paid Performance at 2x ROAS With No Testing Infrastructure",
-      description: "The brand was spending roughly $10K per month on Meta ads but running only 4-5 static product images that had been live for months. There was no A/B testing, no creative rotation strategy, and no audience segmentation beyond basic interest targeting. The result was a flat 2x ROAS that had barely moved in over six months — meaning the brand was essentially breaking even on ad spend after accounting for cost of goods. Without a systematic approach to creative testing and optimization, every dollar spent was underperforming its potential.",
+      description: "The brand was spending roughly $10K per month on Paid social but running only 4-5 static product images that had been live for months. There was no A/B testing, no creative rotation strategy, and no audience segmentation beyond basic interest targeting. The result was a flat 2x ROAS that had barely moved in over six months — meaning the brand was essentially breaking even on ad spend after accounting for cost of goods. Without a systematic approach to creative testing and optimization, every dollar spent was underperforming its potential.",
     },
     {
       title: "Zero Organic Product Discovery Despite Hundreds of SKUs",
@@ -38,7 +38,7 @@ export const jewelryEcommerce: CaseStudyData = {
       months: "0–30 days",
       title: "Foundation — Tracking, Creative Infrastructure & SEO Audit",
       items: [
-        "Complete ecommerce tracking overhaul — implemented Meta Conversions API with server-side purchase event tracking, configured Google Ads enhanced ecommerce conversions, and established consistent UTM taxonomy to create reliable revenue attribution across all paid channels",
+        "Complete ecommerce tracking overhaul — implemented Meta Conversions API with server-side purchase event tracking, configured paid search enhanced ecommerce conversions, and established consistent UTM taxonomy to create reliable revenue attribution across all paid channels",
         "Product catalog analysis across 300+ SKUs — identified hero products by margin, conversion rate, and review sentiment: gold pendant necklaces, diamond stud earrings, tennis bracelets, and custom engagement rings received priority in campaign structure and creative production",
         "Deployed always-on AI optimization agents directly within Meta and Google ad accounts — continuously monitoring performance signals, adjusting bids, reallocating budget between campaigns, and refining audience targeting in real time rather than waiting for weekly manual reviews",
         "Launched initial creative testing suite with 15 AI-generated ad variations across formats — lifestyle jewelry photography, gift-giving scenarios, close-up product detail shots, and styling inspiration carousels — replacing the stale 4-5 static images immediately and giving the algorithm 3-4x more creative diversity with zero production costs eating into media spend",

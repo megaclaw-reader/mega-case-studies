@@ -30,7 +30,7 @@ export const plasticSurgery: CaseStudyData = {
     {
       title: "High Cost Per Qualified Consultation",
       description:
-        "While the practice was generating leads through Google Ads, roughly 55% of inquiries were price-shoppers, non-surgical candidates, or patients outside the Dallas service area. The cost per truly qualified surgical consultation — someone who booked and attended an in-person consultation for a specific procedure — was averaging $312, making it difficult to maintain profitability on lower-ticket procedures like injectable treatments.",
+        "While the practice was generating leads through Paid advertising, roughly 55% of inquiries were price-shoppers, non-surgical candidates, or patients outside the Dallas service area. The cost per truly qualified surgical consultation — someone who booked and attended an in-person consultation for a specific procedure — was averaging $312, making it difficult to maintain profitability on lower-ticket procedures like injectable treatments.",
     },
     {
       title: "Minimal Organic Presence Despite Strong Reputation",
@@ -48,7 +48,7 @@ export const plasticSurgery: CaseStudyData = {
         "Google Business Profile overhaul — updated procedure categories, added before/after gallery images, optimized business description with Dallas-specific keywords, and initiated a review response strategy",
         "Deep keyword research across all cosmetic procedure verticals: rhinoplasty, breast augmentation, facelift, tummy tuck, liposuction, BBL, mommy makeover, and body contouring for the Dallas–Fort Worth market",
         "Generated 16 initial content pieces — detailed procedure guides for the top 6 surgical procedures, financing explainers, recovery timeline articles, and Dallas-specific landing pages for surrounding communities",
-        "Deployed always-on AI optimization agents within Google Ads accounts for continuous bid management, budget allocation, and audience refinement — replacing the traditional weekly-review cadence with real-time adjustments",
+        "Deployed always-on AI optimization agents within Paid advertising accounts for continuous bid management, budget allocation, and audience refinement — replacing the traditional weekly-review cadence with real-time adjustments",
         "Restructured paid campaigns around procedure-specific ad groups with dedicated landing pages featuring consultation CTAs, before/after galleries, and financing pre-qualification",
         "Implemented call tracking and form attribution with CRM integration for closed-loop reporting — distinguishing surgical consultations from general inquiries and non-surgical treatments",
         "Built lead scoring system to prioritize high-value procedure inquiries (rhinoplasty, breast augmentation, facelift) over lower-ticket requests",

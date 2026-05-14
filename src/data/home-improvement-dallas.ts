@@ -127,7 +127,7 @@ export const homeImprovementDallas: CaseStudyData = {
     summary: [
       { label: "Total Ad Spend", value: "$139.7K" },
       { label: "Qualified Leads", value: "573" },
-      { label: "Avg CPQL", value: "$198", note: "↓49% from $387" },
+      { label: "Avg CPQL", value: "$244", note: "↓49% from $387" },
       { label: "Closed Projects", value: "73" },
     ],
     columnLabels: {

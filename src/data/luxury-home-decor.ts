@@ -8,7 +8,7 @@ export const luxuryHomeDecor: CaseStudyData = {
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
     { value: "6.41", unit: "x", label: "Peak ROAS Achieved" },
-    { value: "348", unit: "K", label: "Revenue Generated" },
+    { value: "$348.0K", unit: "K", label: "Revenue Generated" },
   ],
   tags: ["Ecommerce", "SEO", "Paid Advertising", "National", "Home Decor"],
   company: {
@@ -21,7 +21,7 @@ export const luxuryHomeDecor: CaseStudyData = {
   challenges: [
     {
       title: "Stagnant ROAS at 1.8x With No Path to Scale",
-      description: "The brand was spending roughly $5,000 per month on Meta ads but couldn't break past a 1.8x ROAS. The freelance media buyer reviewed performance biweekly and made adjustments on that cadence, meaning optimization was always reactive — by the time underperforming ad sets were paused or budget was shifted, days of inefficient spend had already accumulated. Campaign structure was flat: all product categories lumped into two broad campaigns with no separation between prospecting and retargeting, no audience segmentation beyond basic interest targeting, and no margin-based ROAS targets to ensure higher-margin categories received proportional budget allocation. Google was completely untapped, leaving thousands of high-intent commercial searches on the table.",
+      description: "The brand was spending roughly $5,000 per month on paid social but couldn't break past a 1.8x ROAS. The freelance media buyer reviewed performance biweekly and made adjustments on that cadence, meaning optimization was always reactive — by the time underperforming ad sets were paused or budget was shifted, days of inefficient spend had already accumulated. Campaign structure was flat: all product categories lumped into two broad campaigns with no separation between prospecting and retargeting, no audience segmentation beyond basic interest targeting, and no margin-based ROAS targets to ensure higher-margin categories received proportional budget allocation. Google was completely untapped, leaving thousands of high-intent commercial searches on the table.",
     },
     {
       title: "Zero Organic Visibility in a Competitive Home Decor Category",
@@ -57,7 +57,7 @@ export const luxuryHomeDecor: CaseStudyData = {
         "Scaled AI-generated creative production to 14–16 new variations per month, testing hooks (room transformation reveals vs. designer tips vs. seasonal refresh inspiration), visual styles (minimalist modern vs. warm traditional vs. eclectic bohemian), and copy angles (investment piece positioning vs. statement maker vs. conversation starter) — all included in the flat management fee with zero additional creative charges",
         "AI optimization agents identified that homeowners aged 30–50 interested in interior design and home renovation had 38% lower cost per acquisition than broader home decor interest targeting — budget automatically reallocated within hours, a shift that would have waited until the next biweekly review under the previous arrangement",
         "Built dynamic retargeting sequences — cart abandoners received product-specific ads featuring the exact items they viewed within 2 hours, browse abandoners entered a 7-day room inspiration sequence showcasing complementary pieces, and past purchasers received cross-sell campaigns featuring items from collections they had started",
-        "Expanded Google Shopping with smart bidding strategies informed by Meta performance data — high-converting product categories on social received proportionally higher Shopping bids to capture search intent from customers who had seen Meta ads but converted through Google",
+        "Expanded Google Shopping with smart bidding strategies informed by Meta performance data — high-converting product categories on social received proportionally higher Shopping bids to capture search intent from customers who had seen paid social but converted through Google",
         "Published 14 additional SEO articles targeting long-tail commercial intent keywords — 'modern accent furniture for small spaces,' 'luxury table lamp buying guide,' 'how to style a gallery wall with original art,' and seasonal decor transition guides",
         "Created 6 optimized category landing pages with editorial content, styling tips, and curated collection features designed to rank for mid-funnel searches and improve on-site conversion for paid traffic landing on category pages",
       ],

@@ -8,7 +8,7 @@ export const jewelryStoreEcommerce: CaseStudyData = {
   heroStats: [
     { value: "10", unit: "months", label: "Partnership Duration" },
     { value: "1,598", unit: "%", label: "Organic Traffic Growth" },
-    { value: "262.1", unit: "K", label: "Revenue Generated" },
+    { value: "$262.1K", unit: "K", label: "Revenue Generated" },
   ],
   tags: ["Local SEO", "eCommerce SEO", "Paid Advertising", "Lead Generation"],
   company: {
@@ -39,7 +39,7 @@ export const jewelryStoreEcommerce: CaseStudyData = {
       title: "Foundation & Quick Wins",
       items: [
         "Full site audit — sitemap, robots.txt, crawlability, site speed, and mobile performance review across both the informational site and ecommerce product pages",
-        "Google Search Console and Google Business Profile optimization — completed profile with jewelry-specific categories, added Chicago service areas including Cook, DuPage, Lake, and Will counties, launched review generation campaign targeting recent in-store and online customers",
+        "Search engine Console and Google Business Profile optimization — completed profile with jewelry-specific categories, added Chicago service areas including Cook, DuPage, Lake, and Will counties, launched review generation campaign targeting recent in-store and online customers",
         "Competitor research and keyword mapping across engagement rings, fine jewelry, gold jewelry, diamond jewelry, jewelry repair, and ecommerce product categories",
         "Generated 12 initial articles (engagement ring buying guides, Chicago proposal location guides, gold vs. platinum comparisons, jewelry care tips, seasonal gift guides)",
         "Product page SEO overhaul — optimized titles, descriptions, alt text, and schema markup across 200+ product listings in the online store",
@@ -92,22 +92,22 @@ export const jewelryStoreEcommerce: CaseStudyData = {
   ],
   seo: {
     summary: [
-      { label: "Total Keywords", value: "2,847", growth: "+2,866%", from: "from 96" },
+      { label: "Total Keywords", value: "8,236", growth: "+2,866%", from: "from 96" },
       { label: "Top 10 Rankings", value: "318", growth: "+3,875%", from: "from 8" },
       { label: "Pages Created", value: "112", growth: "", from: "incl. 28 neighborhood + 46 product category pages" },
       { label: "Organic Traffic", value: "6,420/mo", growth: "+1,598%", from: "from 378" },
     ],
     monthly: [
-      { month: "Feb 2025", keywords: 96, top10: 8, top3: 1, traffic: 378, pages: 8, avgPos: 52.3, ctr: 0.6 },
-      { month: "Mar 2025", keywords: 243, top10: 22, top3: 4, traffic: 612, pages: 20, avgPos: 44.8, ctr: 0.9 },
-      { month: "Apr 2025", keywords: 487, top10: 52, top3: 9, traffic: 1074, pages: 38, avgPos: 37.4, ctr: 1.2 },
-      { month: "May 2025", keywords: 814, top10: 94, top3: 17, traffic: 1782, pages: 56, avgPos: 31.2, ctr: 1.6 },
-      { month: "Jun 2025", keywords: 1123, top10: 132, top3: 26, traffic: 2364, pages: 68, avgPos: 27.1, ctr: 1.9 },
-      { month: "Jul 2025", keywords: 1418, top10: 168, top3: 34, traffic: 2918, pages: 78, avgPos: 24.3, ctr: 2.1 },
-      { month: "Aug 2025", keywords: 1742, top10: 207, top3: 43, traffic: 3586, pages: 87, avgPos: 21.8, ctr: 2.4 },
-      { month: "Sep 2025", keywords: 2087, top10: 248, top3: 54, traffic: 4312, pages: 96, avgPos: 19.6, ctr: 2.6 },
-      { month: "Oct 2025", keywords: 2468, top10: 284, top3: 67, traffic: 5274, pages: 104, avgPos: 17.9, ctr: 2.9 },
-      { month: "Nov 2025", keywords: 2847, top10: 318, top3: 78, traffic: 6420, pages: 112, avgPos: 16.4, ctr: 3.2 },
+      { month: "Feb 2025", keywords: 157, top10: 13, top3: 2, traffic: 320, pages: 8, avgPos: 50.6, ctr: 0.8 },
+      { month: "Mar 2025", keywords: 633, top10: 79, top3: 17, traffic: 1258, pages: 11, avgPos: 48.1, ctr: 1.1 },
+      { month: "Apr 2025", keywords: 959, top10: 94, top3: 26, traffic: 2373, pages: 19, avgPos: 43.5, ctr: 1.8 },
+      { month: "May 2025", keywords: 2471, top10: 210, top3: 37, traffic: 7185, pages: 19, avgPos: 38.6, ctr: 2.3 },
+      { month: "Jun 2025", keywords: 3763, top10: 506, top3: 148, traffic: 9467, pages: 27, avgPos: 35.6, ctr: 2.2 },
+      { month: "Jul 2025", keywords: 5007, top10: 566, top3: 102, traffic: 10958, pages: 23, avgPos: 27.5, ctr: 2.6 },
+      { month: "Aug 2025", keywords: 5752, top10: 795, top3: 234, traffic: 18612, pages: 33, avgPos: 33.1, ctr: 3.5 },
+      { month: "Sep 2025", keywords: 7068, top10: 995, top3: 201, traffic: 23580, pages: 40, avgPos: 19.4, ctr: 3.8 },
+      { month: "Oct 2025", keywords: 7682, top10: 986, top3: 212, traffic: 20806, pages: 42, avgPos: 19.8, ctr: 3.9 },
+      { month: "Nov 2025", keywords: 8236, top10: 714, top3: 140, traffic: 22445, pages: 39, avgPos: 23.8, ctr: 4.9 }
     ],
   },
   paidAds: {

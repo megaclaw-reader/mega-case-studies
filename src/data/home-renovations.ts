@@ -96,7 +96,7 @@ export const homeRenovations: CaseStudyData = {
     summary: [
       { label: "Total Ad Spend", value: "$86.9K" },
       { label: "Qualified Leads", value: "260" },
-      { label: "Avg CPQL", value: "$301", note: "↓38% from $485" },
+      { label: "Avg CPQL", value: "$334", note: "↓38% from $485" },
       { label: "Closed Jobs", value: "34" },
     ],
     columnLabels: {

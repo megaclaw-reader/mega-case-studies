@@ -7,7 +7,7 @@ export const highEndFashionNyc: CaseStudyData = {
   subheadline: "MEGA helped a New York City–based luxury fashion brand for men and women reduce cost per acquisition by 33%, grow organic traffic 1,247%, and achieve a blended ROAS of 4.31x through paid advertising and SEO — including a record holiday season that drove 31% of total campaign revenue.",
   heroStats: [
     { value: "7", unit: "months", label: "Campaign Duration" },
-    { value: "1711", unit: "", label: "Orders Attributed" },
+    { value: "1,711", unit: "", label: "Orders Attributed" },
     { value: "746.3", unit: "K", label: "Ad Revenue" },
   ],
   tags: ["Paid Advertising", "SEO", "Ecommerce", "Luxury Fashion"],
@@ -112,7 +112,7 @@ export const highEndFashionNyc: CaseStudyData = {
       { label: "Total Ad Spend", value: "$196.4K" },
       { label: "Total Orders", value: "1,711" },
       { label: "Avg Cost Per Acquisition", value: "$95.94", note: "↓33% from $143" },
-      { label: "Blended ROAS", value: "3.80x", note: "from 2.94x baseline" },
+      { label: "Blended ROAS", value: "3.8x", note: "from 2.94x baseline" },
     ],
     columnLabels: {
       leads: "Sessions",

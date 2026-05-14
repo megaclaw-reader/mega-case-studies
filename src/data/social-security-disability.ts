@@ -8,7 +8,7 @@ export const socialSecurityDisability: CaseStudyData = {
   heroStats: [
     { value: "3,035", unit: "", label: "Qualified Leads" },
     { value: "$3.6", unit: "M", label: "Total Case Fees" },
-    { value: "4.34", unit: "x", label: "Blended ROAS" },
+    { value: "4.3x", unit: "x", label: "Blended ROAS" },
   ],
   tags: ["Paid Advertising", "SEO", "Lead Generation"],
   company: {
@@ -42,7 +42,7 @@ export const socialSecurityDisability: CaseStudyData = {
         "Built automated lead qualification flow: intake form captures work history, medical conditions, current benefits status, and claim stage — scoring leads as high/medium/low probability before routing to attorneys, eliminating 40%+ of unqualified consultations",
         "Full technical audit of the existing website revealed 52 issues: 7.1-second mobile load times, no schema markup, zero location-specific content for New Mexico cities, and missing FAQ content addressing the most common claimant questions",
         "Competitive keyword analysis across 420+ disability-related terms in New Mexico — mapped by claim type (SSDI vs. SSI), process stage (application, denial, hearing), and geographic modifier to identify high-intent gaps",
-        "Launched paid campaigns across Google Search targeting high-intent terms: 'disability lawyer Albuquerque,' 'SSDI denied New Mexico,' 'Social Security hearing attorney near me' — with dedicated landing pages for each claim stage featuring click-to-call and instant intake forms",
+        "Launched paid campaigns across Search engine targeting high-intent terms: 'disability lawyer Albuquerque,' 'SSDI denied New Mexico,' 'Social Security hearing attorney near me' — with dedicated landing pages for each claim stage featuring click-to-call and instant intake forms",
         "Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement — replacing the need for weekly manual reviews and enabling real-time response to competitive bid changes",
         "Google Business Profile overhaul for the Albuquerque headquarters and Las Cruces satellite office — completed all practice categories, added 14 service area cities, and launched a review solicitation campaign targeting 8 years of past clients",
         "Established baseline metrics: cost per lead of $98, cost per qualified lead of $399, qualified-to-retained conversion rate of 21%, and average case fee of $5,840",

@@ -8,7 +8,7 @@ export const carPartsNj: CaseStudyData = {
   heroStats: [
     { value: "8", unit: "months", label: "Campaign Duration" },
     { value: "939", unit: "", label: "Orders Attributed" },
-    { value: "100.6", unit: "K", label: "Total Revenue" },
+    { value: "$100.6K", unit: "K", label: "Total Revenue" },
   ],
   tags: ["Paid Advertising", "SEO", "Ecommerce"],
   company: {
@@ -93,14 +93,14 @@ export const carPartsNj: CaseStudyData = {
       { label: "Organic Revenue (Est.)", value: "$174.5K", growth: "+194%", from: "from $16K" },
     ],
     monthly: [
-      { month: "Mar 2025", keywords: 355, top10: 103, top3: 25, traffic: 2134, pages: 18, avgPos: 47.3, ctr: 1.2 },
-      { month: "Apr 2025", keywords: 397, top10: 112, top3: 29, traffic: 2387, pages: 31, avgPos: 42.8, ctr: 1.5 },
-      { month: "May 2025", keywords: 456, top10: 149, top3: 39, traffic: 2741, pages: 47, avgPos: 37.4, ctr: 1.9 },
-      { month: "Jun 2025", keywords: 533, top10: 183, top3: 50, traffic: 3198, pages: 54, avgPos: 32.1, ctr: 2.3 },
-      { month: "Jul 2025", keywords: 603, top10: 213, top3: 67, traffic: 3623, pages: 58, avgPos: 28.7, ctr: 2.6 },
-      { month: "Aug 2025", keywords: 693, top10: 238, top3: 73, traffic: 3947, pages: 62, avgPos: 25.3, ctr: 2.9 },
-      { month: "Sep 2025", keywords: 796, top10: 266, top3: 80, traffic: 4412, pages: 67, avgPos: 22.1, ctr: 3.2 },
-      { month: "Oct 2025", keywords: 915, top10: 297, top3: 83, traffic: 5058, pages: 71, avgPos: 19.4, ctr: 3.5 },
+      { month: "Mar 2025", keywords: 161, top10: 13, top3: 2, traffic: 242, pages: 8, avgPos: 48.6, ctr: 0.8 },
+      { month: "Apr 2025", keywords: 588, top10: 54, top3: 13, traffic: 937, pages: 15, avgPos: 45.2, ctr: 1.1 },
+      { month: "May 2025", keywords: 791, top10: 71, top3: 17, traffic: 1650, pages: 18, avgPos: 44.7, ctr: 1.3 },
+      { month: "Jun 2025", keywords: 1704, top10: 212, top3: 63, traffic: 5209, pages: 23, avgPos: 40.1, ctr: 1.7 },
+      { month: "Jul 2025", keywords: 2875, top10: 328, top3: 59, traffic: 9258, pages: 36, avgPos: 34.7, ctr: 2.7 },
+      { month: "Aug 2025", keywords: 3753, top10: 443, top3: 95, traffic: 8954, pages: 27, avgPos: 28.4, ctr: 3.3 },
+      { month: "Sep 2025", keywords: 4636, top10: 380, top3: 111, traffic: 14534, pages: 32, avgPos: 35.5, ctr: 3.7 },
+      { month: "Oct 2025", keywords: 5270, top10: 503, top3: 79, traffic: 11834, pages: 62, avgPos: 20.6, ctr: 2.8 }
     ],
   },
   paidAds: {
@@ -108,7 +108,7 @@ export const carPartsNj: CaseStudyData = {
       { label: "Total Ad Spend", value: "$47.6K" },
       { label: "Total Orders", value: "939" },
       { label: "Avg Cost Per Visit", value: "$1.89", note: "↓38% from $3.04" },
-      { label: "Blended ROAS", value: "2.11x", note: "from 3.21x baseline" },
+      { label: "Blended ROAS", value: "2.1x", note: "from 3.21x baseline" },
     ],
     columnLabels: {
       leads: "Sessions",

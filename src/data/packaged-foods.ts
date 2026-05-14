@@ -8,7 +8,7 @@ export const packagedFoods: CaseStudyData = {
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
     { value: "5.47", unit: "x", label: "Peak ROAS Achieved" },
-    { value: "289.5", unit: "K", label: "Revenue Generated" },
+    { value: "$289.5K", unit: "K", label: "Revenue Generated" },
   ],
   tags: ["Ecommerce", "SEO", "Paid Advertising", "DTC", "Food & Beverage"],
   company: {
@@ -38,7 +38,7 @@ export const packagedFoods: CaseStudyData = {
       months: "0–30 days",
       title: "Tracking Foundation & Campaign Architecture",
       items: [
-        "Complete tracking infrastructure setup — implemented Meta Conversions API with server-side event tracking, configured Google Ads enhanced ecommerce conversions, and established proper UTM taxonomy across all campaigns to create reliable attribution for the first time",
+        "Complete tracking infrastructure setup — implemented Meta Conversions API with server-side event tracking, configured paid search enhanced ecommerce conversions, and established proper UTM taxonomy across all campaigns to create reliable attribution for the first time",
         "Product catalog analysis across 18 SKUs — identified top performers (signature hot sauce, everything seasoning blend, artisanal granola) based on margin, repeat purchase rate, and customer reviews to prioritize in campaign segmentation",
         "Rebuilt campaign architecture from scratch: separate prospecting and retargeting structures segmented by product category (sauces and seasonings, snacks, gift sets) with margin-based ROAS targets — high-margin hero products received aggressive scaling budgets while lower-margin items received efficiency-focused bids",
         "Deployed always-on AI optimization agents directly within Meta and Google ad accounts — continuously monitoring performance signals and adjusting bids, reallocating budget between campaigns, and refining audience targeting in real time rather than the founder's every-few-days check-in cadence",

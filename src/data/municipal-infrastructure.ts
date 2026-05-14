@@ -96,16 +96,16 @@ export const municipalInfrastructure: CaseStudyData = {
   },
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$41.3K" },
+      { label: "Total Ad Spend", value: "$42.7K" },
       { label: "Total Qualified Leads (RFQs)", value: "93" },
-      { label: "Avg Cost Per Qualified Lead", value: "$444", note: "↓43% from $776" },
+      { label: "Avg Cost Per Qualified Lead", value: "$459", note: "↓41% from $776" },
       { label: "Customer Acquisition Cost", value: "$2,952", note: "↓63% from initial" },
     ],
     monthly: [
       // Jul '25: Foundation month — campaigns launching, first small deal from existing pipeline overlap
-      { month: "Jul '25", spend: 4657, leads: 18, cpl: 258.72, qualified: 6, cpql: 776.17, deals: 1, revenue: 14200, roas: 3.05 },
+      { month: "Jul '25", spend: 5169, leads: 18, cpl: 287, qualified: 6, cpql: 862, deals: 1, revenue: 14200, roas: 2.75 },
       // Aug '25: Early optimization — AI agents learning niche B2B signals
-      { month: "Aug '25", spend: 4893, leads: 19, cpl: 257.53, qualified: 7, cpql: 699.00, deals: 1, revenue: 16800, roas: 3.43 },
+      { month: "Aug '25", spend: 5754, leads: 19, cpl: 303, qualified: 7, cpql: 822, deals: 1, revenue: 16800, roas: 2.92 },
       // Sep '25: Targeting refinement — engineering firm segment identified as highest converter
       { month: "Sep '25", spend: 5124, leads: 22, cpl: 232.91, qualified: 9, cpql: 569.33, deals: 1, revenue: 18500, roas: 3.61 },
       // Oct '25: Infrastructure budget season — municipalities finalizing capital purchases
@@ -124,7 +124,7 @@ export const municipalInfrastructure: CaseStudyData = {
     { label: "Total Contract Value", value: "$171.8K", growth: "" },
     { label: "CAC Reduction", value: "63%", growth: "$4,657 → $1,716" },
     { label: "Qualified RFQs", value: "93", growth: "3.2x growth" },
-    { label: "Blended ROAS", value: "4.16x", growth: "" },
+    { label: "Blended ROAS", value: "4.02x", growth: "" },
     { label: "Organic Traffic", value: "3,847/mo", growth: "+1,236%" },
     { label: "Keywords Ranked", value: "1,712", growth: "+1,914%" },
   ],

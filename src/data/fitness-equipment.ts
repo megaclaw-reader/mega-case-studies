@@ -91,7 +91,7 @@ export const fitnessEquipmentPhoenix: CaseStudyData = {
       { label: "Avg Cost Per Lead", value: "$61" },
       { label: "Avg CPQL", value: "$203" },
       { label: "Closed Deals", value: "158" },
-      { label: "Total Revenue", value: "$569,330" },
+      { label: "Total Revenue", value: "$569.3K" },
       { label: "Blended ROAS", value: "3.9x" }
     ],
     columnLabels: {

@@ -81,21 +81,21 @@ export const exterminatorCa: CaseStudyData = {
   ],
   seo: {
     summary: [
-      { label: "Total Keywords", value: "387", growth: "+366%", from: "83" },
+      { label: "Total Keywords", value: "7,036", growth: "+366%", from: "83" },
       { label: "Top 10 Rankings", value: "97", growth: "+782%", from: "11" },
       { label: "Avg. Position", value: "28.4", growth: "52% ↑", from: "58.7" },
       { label: "Peak Monthly Traffic", value: "751", growth: "+347%", from: "168" },
     ],
     monthly: [
-      { month: "Aug '25", keywords: 83, top10: 11, top3: 2, traffic: 168, pages: 6, avgPos: 58.7, ctr: 1.6 },
-      { month: "Sep '25", keywords: 108, top10: 16, top3: 3, traffic: 218, pages: 12, avgPos: 54.2, ctr: 1.9 },
-      { month: "Oct '25", keywords: 138, top10: 24, top3: 5, traffic: 279, pages: 18, avgPos: 49.1, ctr: 2.2 },
-      { month: "Nov '25", keywords: 172, top10: 34, top3: 9, traffic: 348, pages: 30, avgPos: 44.8, ctr: 2.5 },
-      { month: "Dec '25", keywords: 209, top10: 44, top3: 13, traffic: 412, pages: 36, avgPos: 41.3, ctr: 2.7 },
-      { month: "Jan '26", keywords: 254, top10: 58, top3: 17, traffic: 489, pages: 42, avgPos: 37.6, ctr: 3.0 },
-      { month: "Feb '26", keywords: 298, top10: 72, top3: 22, traffic: 573, pages: 52, avgPos: 33.9, ctr: 3.2 },
-      { month: "Mar '26", keywords: 347, top10: 86, top3: 28, traffic: 667, pages: 60, avgPos: 30.7, ctr: 3.5 },
-      { month: "Apr '26", keywords: 387, top10: 97, top3: 34, traffic: 751, pages: 68, avgPos: 28.4, ctr: 3.8 },
+      { month: "Aug '25", keywords: 239, top10: 29, top3: 7, traffic: 571, pages: 8, avgPos: 51.3, ctr: 0.8 },
+      { month: "Sep '25", keywords: 677, top10: 100, top3: 31, traffic: 1524, pages: 12, avgPos: 48.3, ctr: 1.2 },
+      { month: "Oct '25", keywords: 976, top10: 129, top3: 23, traffic: 2433, pages: 19, avgPos: 43.2, ctr: 1.7 },
+      { month: "Nov '25", keywords: 2170, top10: 186, top3: 31, traffic: 7504, pages: 22, avgPos: 37.9, ctr: 1.9 },
+      { month: "Dec '25", keywords: 3314, top10: 470, top3: 154, traffic: 7013, pages: 20, avgPos: 32.5, ctr: 2.8 },
+      { month: "Jan '26", keywords: 4083, top10: 451, top3: 85, traffic: 8263, pages: 31, avgPos: 35.0, ctr: 3.1 },
+      { month: "Feb '26", keywords: 4962, top10: 679, top3: 186, traffic: 13693, pages: 31, avgPos: 30.7, ctr: 2.3 },
+      { month: "Mar '26", keywords: 6049, top10: 598, top3: 130, traffic: 12605, pages: 53, avgPos: 18.1, ctr: 3.0 },
+      { month: "Apr '26", keywords: 7036, top10: 704, top3: 178, traffic: 23735, pages: 51, avgPos: 24.3, ctr: 3.0 }
     ],
   },
   paidAds: {

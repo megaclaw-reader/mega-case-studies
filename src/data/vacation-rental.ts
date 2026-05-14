@@ -8,7 +8,7 @@ export const vacationRental: CaseStudyData = {
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
     { value: "187", unit: "%", label: "Booking Growth" },
-    { value: "$547", unit: "K", label: "Total Revenue Generated" },
+    { value: "$286.8K", unit: "K", label: "Total Revenue Generated" },
   ],
   tags: ["Paid Advertising", "SEO Strategy", "Local SEO"],
   company: {
@@ -16,12 +16,12 @@ export const vacationRental: CaseStudyData = {
     employees: "14",
     revenue: "$1.8M",
     location: "New York (Catskills, Hudson Valley, Hamptons)",
-    description: "A vacation rental management company operating across New York's most popular getaway destinations — the Catskills, Hudson Valley, and the Hamptons. The company manages a portfolio of 35+ premium short-term rental properties ranging from cozy mountain cabins to lakefront estates and luxury beach houses. Their business model relies on driving direct bookings through their own website to avoid OTA commission fees (typically 15-20% on platforms like Airbnb and VRBO). Despite having beautiful properties and strong guest satisfaction ratings, they were overly dependent on OTA platforms for 78% of their bookings, eroding margins significantly. Their direct marketing efforts — a basic website with minimal SEO and sporadic Google Ads — were generating fewer than 15 qualified inquiries per month, and they had no systematic approach to capturing the high-intent travel demand flowing through search engines for New York vacation rental queries.",
+    description: "A vacation rental management company operating across New York's most popular getaway destinations — the Catskills, Hudson Valley, and the Hamptons. The company manages a portfolio of 35+ premium short-term rental properties ranging from cozy mountain cabins to lakefront estates and luxury beach houses. Their business model relies on driving direct bookings through their own website to avoid OTA commission fees (typically 15-20% on platforms like Airbnb and VRBO). Despite having beautiful properties and strong guest satisfaction ratings, they were overly dependent on OTA platforms for 78% of their bookings, eroding margins significantly. Their direct marketing efforts — a basic website with minimal SEO and sporadic paid search — were generating fewer than 15 qualified inquiries per month, and they had no systematic approach to capturing the high-intent travel demand flowing through search engines for New York vacation rental queries.",
   },
   challenges: [
     {
       title: "Heavy OTA Dependency Crushing Margins",
-      description: "With 78% of bookings coming through Airbnb and VRBO, the company was paying $180K+ annually in platform commissions. Every booking through an OTA meant 15-20% of the rental revenue went to the platform rather than the business. The owner knew that shifting even 20-30% of bookings to direct channels would add $50-80K to the bottom line annually, but previous attempts at Google Ads had been poorly managed — broad targeting, no seasonal bid adjustments, and landing pages that sent visitors to a generic homepage rather than property-specific booking pages.",
+      description: "With 78% of bookings coming through Airbnb and VRBO, the company was paying $180K+ annually in platform commissions. Every booking through an OTA meant 15-20% of the rental revenue went to the platform rather than the business. The owner knew that shifting even 20-30% of bookings to direct channels would add $50-80K to the bottom line annually, but previous attempts at paid search had been poorly managed — broad targeting, no seasonal bid adjustments, and landing pages that sent visitors to a generic homepage rather than property-specific booking pages.",
     },
     {
       title: "No Organic Visibility for High-Intent Travel Searches",
@@ -46,7 +46,7 @@ export const vacationRental: CaseStudyData = {
         "Created 12 destination-specific landing pages optimized for each property cluster and location",
         "Local citation building — submitted to 38 travel directories, local tourism boards, and New York travel resources",
         "Business profile optimization with updated photos, seasonal rates, amenity highlights, and area descriptions",
-        "Restructured Google Ads into seasonal campaign groups with destination-specific ad groups and property-type targeting",
+        "Restructured Paid advertising into seasonal campaign groups with destination-specific ad groups and property-type targeting",
         "Deployed always-on AI optimization agents within ad accounts for continuous bid management and budget allocation — replacing the previous set-it-and-forget-it approach with real-time adjustments responding to booking demand signals",
         "Set up weekly reporting separating total inquiries from qualified booking leads with full source and destination attribution",
       ],
@@ -136,7 +136,7 @@ export const vacationRental: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$93.6K" },
-      { label: "Total Leads (Calls + Forms)", value: "1,147" },
+      { label: "Total Paid Leads", value: "1,147" },
       { label: "Qualified Leads", value: "467" },
       { label: "Avg CPQL", value: "$200", note: "↓41% from $278 to $164 by Month 12" },
     ],

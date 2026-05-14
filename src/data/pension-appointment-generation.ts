@@ -124,8 +124,8 @@ export const pensionAppointmentGeneration: CaseStudyData = {
       { label: "Avg Cost/Appointment", value: "$358" },
       { label: "Annuity Sales Closed", value: "37" },
       { label: "Appointment-to-Sale Rate", value: "14.9%" },
-      { label: "Total Commission Revenue", value: "$354,600" },
-      { label: "Blended ROAS", value: "3.99x" },
+      { label: "Total Commission Revenue", value: "$354.6K" },
+      { label: "Blended ROAS", value: "4.0x" },
     ],
     columnLabels: {
       leads: "Appointments",
@@ -151,7 +151,7 @@ export const pensionAppointmentGeneration: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Ad Spend", value: "$88,850", growth: "12-month investment" },
+    { label: "Total Ad Spend", value: "$88.8K", growth: "12-month investment" },
     { label: "Total Appointments Booked", value: "368", growth: "+229% from month 1 to 12" },
     { label: "Total Qualified Appointments", value: "248", growth: "+357% from month 1 to 12" },
     { label: "Appointment-to-Sale Rate", value: "14.9%", growth: "From qualified appointments" },

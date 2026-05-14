@@ -8,7 +8,7 @@ export const businessBrokerage: CaseStudyData = {
   heroStats: [
     { value: "121", unit: "K", label: "Revenue Attributed" },
     { value: "81", unit: "%", label: "Cost/Qualified Lead Reduction" },
-    { value: "3.5", unit: "x", label: "Average ROAS" },
+    { value: "2.5x", unit: "x", label: "Average ROAS" },
     { value: "52", unit: "%", label: "Qualified Lead Rate (Final)" }
   ],
   tags: ["Paid Advertising", "AI-Powered Optimization", "B2B Lead Generation", "Pipeline Acceleration"],
@@ -83,8 +83,8 @@ export const businessBrokerage: CaseStudyData = {
   seo: undefined,
   paidAds: {
     summary: [
-      { label: "Avg Cost Per Lead", value: "$100.03" },
-      { label: "Avg Cost Per Qualified Lead", value: "$231.84" },
+      { label: "Avg Cost Per Lead", value: "$140" },
+      { label: "Avg Cost Per Qualified Lead", value: "$323" },
       { label: "Lead-to-Qualification Rate", value: "43.1%" },
       { label: "Total Signed Listings/Engagements", value: "18" },
       { label: "Avg ROAS", value: "3.53x" }
@@ -99,108 +99,108 @@ export const businessBrokerage: CaseStudyData = {
     monthly: [
       {
         month: "Jun '25",
-        spend: 3465,
+        spend: 5220,
         leads: 22,
-        cpl: 157.50,
+        cpl: 237,
         qualified: 5,
-        cpql: 693.00,
+        cpql: 1044,
         deals: 0,
         revenue: 4851,
-        roas: 1.40
+        roas: 0.93
       },
       {
         month: "Jul '25",
-        spend: 3521,
+        spend: 5179,
         leads: 25,
-        cpl: 140.84,
+        cpl: 207,
         qualified: 7,
-        cpql: 503.00,
+        cpql: 740,
         deals: 1,
         revenue: 7922,
-        roas: 2.25
+        roas: 1.53
       },
       {
         month: "Aug '25",
-        spend: 3678,
+        spend: 5589,
         leads: 28,
-        cpl: 131.36,
+        cpl: 200,
         qualified: 10,
-        cpql: 367.80,
+        cpql: 559,
         deals: 1,
         revenue: 9747,
-        roas: 2.65
+        roas: 1.74
       },
       {
         month: "Sep '25",
-        spend: 3842,
+        spend: 5541,
         leads: 34,
-        cpl: 113.00,
+        cpl: 163,
         qualified: 13,
-        cpql: 295.54,
+        cpql: 426,
         deals: 2,
         revenue: 12871,
-        roas: 3.35
+        roas: 2.32
       },
       {
         month: "Oct '25",
-        spend: 4127,
+        spend: 5714,
         leads: 41,
-        cpl: 100.66,
+        cpl: 139,
         qualified: 18,
-        cpql: 229.28,
+        cpql: 317,
         deals: 2,
         revenue: 16095,
-        roas: 3.90
+        roas: 2.82
       },
       {
         month: "Nov '25",
-        spend: 3986,
+        spend: 5070,
         leads: 43,
-        cpl: 92.70,
+        cpl: 118,
         qualified: 21,
-        cpql: 189.81,
+        cpql: 241,
         deals: 3,
         revenue: 17259,
-        roas: 4.33
+        roas: 3.4
       },
       {
         month: "Dec '25",
-        spend: 3587,
+        spend: 5338,
         leads: 39,
-        cpl: 91.97,
+        cpl: 137,
         qualified: 17,
-        cpql: 211.00,
+        cpql: 314,
         deals: 2,
         revenue: 14312,
-        roas: 3.99
+        roas: 2.68
       },
       {
         month: "Jan '26",
-        spend: 4214,
+        spend: 5024,
         leads: 56,
-        cpl: 75.25,
+        cpl: 90,
         qualified: 28,
-        cpql: 150.50,
+        cpql: 179,
         deals: 3,
         revenue: 19427,
-        roas: 4.61
+        roas: 3.87
       },
       {
         month: "Feb '26",
-        spend: 3892,
+        spend: 5175,
         leads: 55,
-        cpl: 70.76,
+        cpl: 94,
         qualified: 29,
-        cpql: 134.21,
+        cpql: 178,
         deals: 4,
         revenue: 18604,
-        roas: 4.78
+        roas: 3.59
       }
     ]
   },
   impact: [
-    { label: "Total Revenue Attributed", value: "$121,088", growth: "From $0 digital pipeline" },
-    { label: "Blended ROAS", value: "3.53x", growth: "Against $34,312 total spend" },
+    { label: "Total Revenue Attributed", value: "$121.1K", growth: "From $0 digital pipeline" },
+    { label: "Blended ROAS", value: "2.53x", growth: "Against $34,312 total spend" },
     { label: "Total Qualified Leads", value: "148", growth: "43.1% qualification rate" },
     { label: "Signed Listings/Engagements", value: "18", growth: "From 0 digitally sourced" },
     { label: "Cost Per Qualified Lead Reduction", value: "81%", growth: "From $693 to $134" },

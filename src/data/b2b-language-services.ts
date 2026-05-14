@@ -7,7 +7,7 @@ export const b2bLanguageServices: CaseStudyData = {
   subheadline: "MEGA helped a national B2B language services provider combine AI-powered paid advertising with strategic SEO to reduce cost per qualified lead by 32%, grow organic keywords from 151 to 9,240+, and generate $701K in attributed revenue targeting corporate clients across translation, interpretation, and localization services.",
   heroStats: [
     { value: "701", unit: "K", label: "Revenue Generated" },
-    { value: "4.0", unit: "x", label: "Average ROAS" },
+    { value: "4.0x", unit: "x", label: "Average ROAS" },
     { value: "32", unit: "%", label: "CPQL Reduction" },
     { value: "6,025", unit: "%", label: "Organic Traffic Growth" }
   ],
@@ -127,11 +127,11 @@ export const b2bLanguageServices: CaseStudyData = {
   },
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$176,400" },
+      { label: "Total Ad Spend", value: "$176.4K" },
       { label: "Total Qualified Leads", value: "730" },
       { label: "Avg CPQL", value: "$242" },
       { label: "Total Deals Closed", value: "174" },
-      { label: "Total Revenue", value: "$701,100" },
+      { label: "Total Revenue", value: "$701.1K" },
       { label: "Blended ROAS", value: "4.0x" }
     ],
     monthly: [
@@ -150,11 +150,11 @@ export const b2bLanguageServices: CaseStudyData = {
     ]
   },
   impact: [
-    { label: "Total Revenue Generated", value: "$701,100", growth: "∞" },
+    { label: "Total Revenue Generated", value: "$701.1K", growth: "∞" },
     { label: "Cost Per Qualified Lead", value: "$242", growth: "32% decrease" },
     { label: "Monthly Organic Traffic", value: "18,940", growth: "5,746% increase" },
     { label: "Keywords Ranking", value: "9,240", growth: "6,025% increase" },
-    { label: "Average Deal Value", value: "$4,029", growth: "N/A" },
-    { label: "Lead-to-Deal Conversion", value: "18.1%", growth: "N/A" }
+    { label: "Avg Deal Value", value: "$4,029", growth: "N/A" },
+    { label: "Avg Lead-to-Deal Rate", value: "18.1%", growth: "N/A" }
   ]
 };

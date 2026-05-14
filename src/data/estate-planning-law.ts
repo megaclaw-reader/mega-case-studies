@@ -6,7 +6,7 @@ export const estatePlanningLaw: CaseStudyData = {
   headline: "How a Boston Estate Planning Law Firm Generated $367.4K in Revenue and Grew Organic Traffic 1,847% in 12 Months",
   subheadline: "MEGA helped a Boston-based estate planning law firm combine AI-powered paid advertising with aggressive SEO to reduce cost per qualified lead by 40%, grow organic keywords from 118 to 8,740+, and generate $367.4K in attributed revenue over a 12-month engagement.",
   heroStats: [
-    { value: "367.4", unit: "K", label: "Revenue Generated" },
+    { value: "$367.4K", unit: "K", label: "Revenue Generated" },
     { value: "40", unit: "%", label: "CPQL Reduction" },
     { value: "1,847", unit: "%", label: "Organic Traffic Growth" },
   ],
@@ -21,7 +21,7 @@ export const estatePlanningLaw: CaseStudyData = {
   challenges: [
     {
       title: "No Digital Lead Generation in a Competitive Boston Market",
-      description: "Despite nearly a decade in practice, the firm had never run paid advertising and had no digital lead generation infrastructure. Every new client came through referrals or word of mouth — a steady but unpredictable channel. Meanwhile, at least five competing Boston estate planning firms were running aggressive Google Ads campaigns and had established content-rich websites capturing the growing number of residents searching online for estate planning attorneys. The firm had no landing pages, no conversion tracking, no call attribution, and no way to measure the ROI of any marketing investment. With Boston's high cost of living driving urgency around estate planning for homeowners and professionals, a significant volume of potential clients were finding competitors first.",
+      description: "Despite nearly a decade in practice, the firm had never run paid advertising and had no digital lead generation infrastructure. Every new client came through referrals or word of mouth — a steady but unpredictable channel. Meanwhile, at least five competing Boston estate planning firms were running aggressive paid search campaigns and had established content-rich websites capturing the growing number of residents searching online for estate planning attorneys. The firm had no landing pages, no conversion tracking, no call attribution, and no way to measure the ROI of any marketing investment. With Boston's high cost of living driving urgency around estate planning for homeowners and professionals, a significant volume of potential clients were finding competitors first.",
     },
     {
       title: "Minimal Organic Search Presence in a Content-Rich Practice Area",
@@ -101,24 +101,24 @@ export const estatePlanningLaw: CaseStudyData = {
   ],
   seo: {
     summary: [
-      { label: "Total Keywords", value: "8,740", growth: "+7,305%", from: "from 118" },
+      { label: "Total Keywords", value: "10,415", growth: "+7,305%", from: "from 118" },
       { label: "Top 10 Rankings", value: "412", growth: "+4,020%", from: "from 10" },
       { label: "Organic Traffic", value: "3,247/mo", growth: "+1,847%", from: "from 167/mo" },
       { label: "Authority Score", value: "38", growth: "+171%", from: "from 14" },
     ],
     monthly: [
-      { month: "Jan '25", keywords: 118, top10: 10, top3: 1, traffic: 167, pages: 8, avgPos: 51.4, ctr: 0.6 },
-      { month: "Feb '25", keywords: 156, top10: 13, top3: 1, traffic: 213, pages: 22, avgPos: 48.7, ctr: 0.7 },
-      { month: "Mar '25", keywords: 224, top10: 19, top3: 2, traffic: 298, pages: 31, avgPos: 45.1, ctr: 0.8 },
-      { month: "Apr '25", keywords: 487, top10: 41, top3: 5, traffic: 524, pages: 42, avgPos: 39.6, ctr: 1.0 },
-      { month: "May '25", keywords: 923, top10: 78, top3: 11, traffic: 847, pages: 53, avgPos: 34.2, ctr: 1.2 },
-      { month: "Jun '25", keywords: 1612, top10: 124, top3: 21, traffic: 1289, pages: 61, avgPos: 30.1, ctr: 1.4 },
-      { month: "Jul '25", keywords: 2847, top10: 178, top3: 34, traffic: 1734, pages: 70, avgPos: 27.3, ctr: 1.6 },
-      { month: "Aug '25", keywords: 4136, top10: 231, top3: 52, traffic: 2118, pages: 78, avgPos: 25.1, ctr: 1.8 },
-      { month: "Sep '25", keywords: 5423, top10: 287, top3: 71, traffic: 2487, pages: 86, avgPos: 23.4, ctr: 1.9 },
-      { month: "Oct '25", keywords: 6718, top10: 338, top3: 89, traffic: 2789, pages: 94, avgPos: 21.8, ctr: 2.1 },
-      { month: "Nov '25", keywords: 7834, top10: 381, top3: 104, traffic: 3012, pages: 103, avgPos: 20.4, ctr: 2.2 },
-      { month: "Dec '25", keywords: 8740, top10: 412, top3: 118, traffic: 3247, pages: 112, avgPos: 19.1, ctr: 2.4 },
+      { month: "Jan '25", keywords: 198, top10: 18, top3: 3, traffic: 456, pages: 8, avgPos: 49.3, ctr: 0.9 },
+      { month: "Feb '25", keywords: 711, top10: 87, top3: 24, traffic: 1460, pages: 12, avgPos: 48.4, ctr: 1.0 },
+      { month: "Mar '25", keywords: 981, top10: 89, top3: 21, traffic: 2231, pages: 14, avgPos: 43.5, ctr: 1.5 },
+      { month: "Apr '25", keywords: 2802, top10: 400, top3: 71, traffic: 9222, pages: 28, avgPos: 41.3, ctr: 2.0 },
+      { month: "May '25", keywords: 4182, top10: 611, top3: 203, traffic: 11333, pages: 23, avgPos: 40.4, ctr: 2.2 },
+      { month: "Jun '25", keywords: 4990, top10: 429, top3: 108, traffic: 10833, pages: 35, avgPos: 35.1, ctr: 3.0 },
+      { month: "Jul '25", keywords: 6495, top10: 540, top3: 115, traffic: 16317, pages: 43, avgPos: 34.7, ctr: 3.0 },
+      { month: "Aug '25", keywords: 7188, top10: 947, top3: 240, traffic: 20642, pages: 47, avgPos: 29.9, ctr: 3.5 },
+      { month: "Sep '25", keywords: 8344, top10: 1082, top3: 250, traffic: 23665, pages: 70, avgPos: 16.1, ctr: 4.7 },
+      { month: "Oct '25", keywords: 9135, top10: 789, top3: 170, traffic: 31120, pages: 55, avgPos: 23.1, ctr: 2.6 },
+      { month: "Nov '25", keywords: 10033, top10: 936, top3: 281, traffic: 22844, pages: 49, avgPos: 8, ctr: 5.6 },
+      { month: "Dec '25", keywords: 10415, top10: 1238, top3: 427, traffic: 26186, pages: 64, avgPos: 14.7, ctr: 4.7 }
     ],
   },
   localSeo: {

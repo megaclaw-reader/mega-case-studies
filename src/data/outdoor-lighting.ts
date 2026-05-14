@@ -29,7 +29,7 @@ export const outdoorLightingData: CaseStudyData = {
     },
     {
       title: "No Lead Attribution or Quality Scoring System",
-      description: "Inquiries came through a mix of phone calls, contact form submissions, and occasional social media messages — but there was no system to distinguish a homeowner planning a $8,000 landscape lighting overhaul from someone asking about replacing a single pathway light. Cost per lead from sporadic Google Ads efforts was averaging $118 with only a 38% qualification rate, meaning more than 60% of ad spend attracted low-intent browsers or service requests outside their geographic area. The sales team had no visibility into which channels, keywords, or campaigns drove their highest-value installation projects across New York's diverse submarkets.",
+      description: "Inquiries came through a mix of phone calls, contact form submissions, and occasional social media messages — but there was no system to distinguish a homeowner planning a $8,000 landscape lighting overhaul from someone asking about replacing a single pathway light. Cost per lead from sporadic paid search efforts was averaging $118 with only a 38% qualification rate, meaning more than 60% of ad spend attracted low-intent browsers or service requests outside their geographic area. The sales team had no visibility into which channels, keywords, or campaigns drove their highest-value installation projects across New York's diverse submarkets.",
     },
   ],
   strategy: [
@@ -127,7 +127,7 @@ export const outdoorLightingData: CaseStudyData = {
       { label: "Total Leads Generated", value: "1,130", note: "Paid advertising only" },
       { label: "Total Qualified Leads", value: "564", note: "50% qualification rate" },
       { label: "Cost Per Lead", value: "$90", note: "↓24% reduction from $118" },
-      { label: "Blended ROAS", value: "3.83x", note: "Revenue / Ad Spend" },
+      { label: "Blended ROAS", value: "3.8x", note: "Revenue / Ad Spend" },
     ],
     monthly: [
       { month: "Feb '25", spend: 6000, leads: 58, cpl: 103.45, qualified: 27, cpql: 222.22, deals: 3, revenue: 14400, roas: 2.4 },

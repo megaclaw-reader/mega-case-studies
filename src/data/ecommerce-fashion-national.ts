@@ -91,7 +91,7 @@ export const ecommerceFashionNational: CaseStudyData = {
       { label: "Total Ad Spend", value: "$489.7K" },
       { label: "Total Orders", value: "12,892" },
       { label: "Avg Cost Per Visit", value: "$1.73", note: "↓26% from $2.34" },
-      { label: "Blended ROAS", value: "3.30x", note: "from 3.8x baseline" },
+      { label: "Blended ROAS", value: "3.3x", note: "from 3.8x baseline" },
     ],
     columnLabels: {
       leads: "Sessions",

@@ -8,7 +8,7 @@ export const b2bOfficeServiceTexas: CaseStudyData = {
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
     { value: "214", unit: "%", label: "More Qualified Inquiries" },
-    { value: "$298", unit: "K", label: "Contract Revenue Generated" },
+    { value: "$298.2K", unit: "K", label: "Contract Revenue Generated" },
   ],
   tags: ["Paid Advertising", "AI-Powered Optimization", "B2B Lead Generation"],
   company: {

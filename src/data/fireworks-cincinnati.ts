@@ -39,7 +39,7 @@ export const fireworksCincinnati: CaseStudyData = {
       title: "Foundation & Seasonal Framework",
       items: [
         "Full site audit — sitemap, robots.txt, crawlability, site speed, and mobile performance review targeting seasonal fireworks search patterns",
-        "Google Search Console and Google Business Profile optimization — completed profile with seasonal hours, added all Cincinnati service areas including Hamilton, Butler, Warren, and Clermont counties plus Northern Kentucky",
+        "Search engine Console and Google Business Profile optimization — completed profile with seasonal hours, added all Cincinnati service areas including Hamilton, Butler, Warren, and Clermont counties plus Northern Kentucky",
         "Competitor research and keyword mapping across consumer fireworks, wholesale fireworks, fireworks shows, sparklers, Roman candles, mortar kits, and celebration-specific verticals",
         "Generated 16 initial articles (4th of July buying guides, fireworks safety in Ohio, best backyard fireworks for families, Cincinnati fireworks laws and regulations, New Year's Eve celebration planning guides)",
         "Content audit and metadata fixes across all existing pages, including product category SEO and E-E-A-T signals for licensed Ohio fireworks retailer authority",

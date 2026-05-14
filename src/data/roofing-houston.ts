@@ -123,7 +123,7 @@ export const roofingHouston: CaseStudyData = {
     summary: [
       { label: "Total Ad Spend", value: "$77.7K" },
       { label: "Qualified Leads", value: "191" },
-      { label: "Avg CPQL", value: "$320", note: "↓37% from $507" },
+      { label: "Avg CPQL", value: "$407", note: "↓37% from $507" },
       { label: "Closed Jobs", value: "27" },
     ],
     monthly: [

@@ -25,7 +25,7 @@ export const hvacKitchenBathAz: CaseStudyData = {
     },
     {
       title: "Paid Campaigns With No Lead Quality Visibility",
-      description: "Monthly ad spend was scattered across two separate Google Ads accounts with no unified tracking. The HVAC campaigns generated calls but couldn't distinguish emergency repair leads from general inquiries. The renovation campaigns drove form fills but had no follow-up attribution — the team couldn't tell which leads turned into signed contracts. Estimated blended cost per qualified lead was around $194, with roughly 45% of all paid inquiries being unqualified or out of service area.",
+      description: "Monthly ad spend was scattered across two separate paid search accounts with no unified tracking. The HVAC campaigns generated calls but couldn't distinguish emergency repair leads from general inquiries. The renovation campaigns drove form fills but had no follow-up attribution — the team couldn't tell which leads turned into signed contracts. Estimated blended cost per qualified lead was around $194, with roughly 45% of all paid inquiries being unqualified or out of service area.",
     },
     {
       title: "No Strategy for Arizona's Dual-Season Demand Cycles",
@@ -45,7 +45,7 @@ export const hvacKitchenBathAz: CaseStudyData = {
         "Generated 16 initial articles covering Arizona-specific topics: desert climate AC maintenance, energy-efficient HVAC for Arizona homes, kitchen renovation trends in Phoenix, bathroom remodel ROI in the Southwest, monsoon season home prep guides",
         "Content audit and metadata optimization across all existing service pages with E-E-A-T signals for licensed Arizona ROC contractor authority",
         "Local citation building across 45+ directories — NAP consistency audit and corrections, added renovation-specific directories alongside HVAC listings",
-        "Merged two Google Ads accounts into unified structure — installed call tracking with service-line routing, implemented conversion tracking across phone calls, form submissions, and online estimate requests",
+        "Merged two Paid advertising accounts into unified structure — installed call tracking with service-line routing, implemented conversion tracking across phone calls, form submissions, and online estimate requests",
         "CRM integration for closed-loop lead-to-contract attribution with separate pipelines for HVAC jobs and renovation projects",
         "Rebuilt ad strategy around cost per qualified lead segmented by service type — separated emergency AC repair, HVAC installation, kitchen remodel, and bathroom renovation campaigns with distinct landing pages",
         'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',

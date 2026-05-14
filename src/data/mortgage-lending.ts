@@ -39,7 +39,7 @@ export const mortgageLending: CaseStudyData = {
       title: "Foundation & Quick Wins",
       items: [
         "Full site audit — sitemap, robots.txt, crawlability, site speed",
-        "Google Search Console & Google Business Profile setup and optimization",
+        "Search engine Console & Google Business Profile setup and optimization",
         "Competitor research and keyword research across all loan types",
         "Generated 20+ initial articles (first-time buyer guides, VA loan explainers, refinance calculators)",
         "Content audit and metadata fixes across existing pages",

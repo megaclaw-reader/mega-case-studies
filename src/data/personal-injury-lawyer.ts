@@ -80,17 +80,17 @@ export const personalInjuryLawyer: CaseStudyData = {
   ],
   seo: {
     summary: [
-      { label: "Total Keywords", value: "347", growth: "+289%", from: "from 89" },
+      { label: "Total Keywords", value: "2,098", growth: "+289%", from: "from 89" },
       { label: "Top 10 Rankings", value: "31", growth: "+463%", from: "from 5" },
       { label: "Pages Created", value: "29", growth: "", from: "incl. 9 location pages" },
       { label: "Organic Traffic", value: "483/mo", growth: "+276%", from: "from 128" },
     ],
     monthly: [
-      { month: "Jan 2025", keywords: 89, top10: 5, top3: 0, traffic: 128, pages: 4, avgPos: 54.7, ctr: 0.6 },
-      { month: "Feb 2025", keywords: 143, top10: 9, top3: 1, traffic: 187, pages: 11, avgPos: 48.3, ctr: 0.7 },
-      { month: "Mar 2025", keywords: 214, top10: 16, top3: 2, traffic: 271, pages: 19, avgPos: 41.6, ctr: 0.9 },
-      { month: "Apr 2025", keywords: 289, top10: 24, top3: 4, traffic: 378, pages: 25, avgPos: 36.2, ctr: 1.1 },
-      { month: "May 2025", keywords: 347, top10: 31, top3: 6, traffic: 483, pages: 29, avgPos: 32.1, ctr: 1.2 },
+      { month: "Jan 2025", keywords: 206, top10: 21, top3: 3, traffic: 472, pages: 8, avgPos: 50.8, ctr: 0.9 },
+      { month: "Feb 2025", keywords: 514, top10: 43, top3: 7, traffic: 1136, pages: 11, avgPos: 47.7, ctr: 1.1 },
+      { month: "Mar 2025", keywords: 755, top10: 71, top3: 18, traffic: 1295, pages: 15, avgPos: 44.7, ctr: 1.6 },
+      { month: "Apr 2025", keywords: 1094, top10: 118, top3: 24, traffic: 2229, pages: 20, avgPos: 37.7, ctr: 1.6 },
+      { month: "May 2025", keywords: 2098, top10: 261, top3: 62, traffic: 5197, pages: 35, avgPos: 38.9, ctr: 2.5 }
     ],
   },
   paidAds: {

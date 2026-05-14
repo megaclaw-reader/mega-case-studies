@@ -6,7 +6,7 @@ export const sightseeingFlorida: CaseStudyData = {
   headline: "How a Florida Sightseeing & Excursion Operator Generated 2,187 Bookings and $287K in Revenue With AI-Powered Marketing",
   subheadline: "MEGA helped a Florida-based tour and excursion company build a dominant local search presence and high-converting paid campaigns — reducing cost per qualified lead by 34%, growing organic traffic from 312 to 11,847 monthly visitors, and generating $287K in attributed revenue across 12 months.",
   heroStats: [
-    { value: "287", unit: "K", label: "Revenue Generated" },
+    { value: "$287.4K", unit: "K", label: "Revenue Generated" },
     { value: "38", unit: "%", label: "Cost Per Lead Reduction" },
     { value: "2,187", unit: "", label: "Total Bookings" },
   ],

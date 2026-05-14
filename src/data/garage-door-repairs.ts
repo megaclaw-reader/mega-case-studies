@@ -101,20 +101,20 @@ export const garageDoorRepairs: CaseStudyData = {
   ],
   seo: {
     summary: [
-      { label: "Total Keywords", value: "987", growth: "+461%", from: "from 176" },
+      { label: "Total Keywords", value: "7,087", growth: "+461%", from: "from 176" },
       { label: "Top 10 Rankings", value: "89", growth: "+709%", from: "from 11" },
       { label: "Pages Created", value: "83", growth: "", from: "incl. 55 location × service pages" },
       { label: "Organic Traffic", value: "1,437/mo", growth: "+389%", from: "from 294" },
     ],
     monthly: [
-      { month: "May 2025", keywords: 176, top10: 11, top3: 2, traffic: 294, pages: 9, avgPos: 47.3, ctr: 0.8 },
-      { month: "Jun 2025", keywords: 263, top10: 18, top3: 3, traffic: 412, pages: 24, avgPos: 42.1, ctr: 0.9 },
-      { month: "Jul 2025", keywords: 378, top10: 29, top3: 5, traffic: 587, pages: 39, avgPos: 37.4, ctr: 1.1 },
-      { month: "Aug 2025", keywords: 491, top10: 41, top3: 7, traffic: 743, pages: 51, avgPos: 33.8, ctr: 1.2 },
-      { month: "Sep 2025", keywords: 602, top10: 52, top3: 10, traffic: 891, pages: 60, avgPos: 30.6, ctr: 1.3 },
-      { month: "Oct 2025", keywords: 718, top10: 63, top3: 13, traffic: 1048, pages: 68, avgPos: 28.1, ctr: 1.4 },
-      { month: "Nov 2025", keywords: 847, top10: 76, top3: 16, traffic: 1213, pages: 76, avgPos: 26.3, ctr: 1.5 },
-      { month: "Dec 2025", keywords: 987, top10: 89, top3: 19, traffic: 1437, pages: 83, avgPos: 24.7, ctr: 1.6 },
+      { month: "May 2025", keywords: 299, top10: 25, top3: 5, traffic: 451, pages: 8, avgPos: 51.5, ctr: 0.8 },
+      { month: "Jun 2025", keywords: 829, top10: 123, top3: 21, traffic: 1253, pages: 15, avgPos: 47.7, ctr: 1.2 },
+      { month: "Jul 2025", keywords: 1143, top10: 93, top3: 27, traffic: 1770, pages: 14, avgPos: 40.5, ctr: 1.4 },
+      { month: "Aug 2025", keywords: 2217, top10: 228, top3: 41, traffic: 6059, pages: 25, avgPos: 42.3, ctr: 1.7 },
+      { month: "Sep 2025", keywords: 3559, top10: 321, top3: 63, traffic: 8628, pages: 25, avgPos: 38.0, ctr: 2.8 },
+      { month: "Oct 2025", keywords: 4897, top10: 670, top3: 188, traffic: 11881, pages: 34, avgPos: 35.4, ctr: 1.8 },
+      { month: "Nov 2025", keywords: 5870, top10: 703, top3: 130, traffic: 17625, pages: 49, avgPos: 25.3, ctr: 2.6 },
+      { month: "Dec 2025", keywords: 7087, top10: 588, top3: 121, traffic: 19821, pages: 55, avgPos: 20.0, ctr: 3.0 }
     ],
   },
   paidAds: {

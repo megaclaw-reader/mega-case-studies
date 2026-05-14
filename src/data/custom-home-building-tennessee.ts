@@ -85,7 +85,7 @@ export const customHomeBuildingTennessee: CaseStudyData = {
       { label: "Tennessee-Focused Pages", value: "127", growth: "+112", from: "from 15 baseline" },
     ],
     monthly: [
-      { month: "Jan '25", keywords: 100, top10: 48, top3: 8, traffic: 500, pages: 15, avgPos: 42.1, ctr: 0.8 },
+      { month: "Jan '25", keywords: 168, top10: 48, top3: 8, traffic: 500, pages: 15, avgPos: 42.1, ctr: 0.8 },
       { month: "Feb '25", keywords: 156, top10: 67, top3: 12, traffic: 623, pages: 22, avgPos: 38.4, ctr: 0.9 },
       { month: "Mar '25", keywords: 234, top10: 89, top3: 18, traffic: 712, pages: 31, avgPos: 35.7, ctr: 1.0 },
       { month: "Apr '25", keywords: 387, top10: 134, top3: 28, traffic: 967, pages: 43, avgPos: 32.1, ctr: 1.2 },
@@ -186,9 +186,9 @@ export const customHomeBuildingTennessee: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$600K", growth: "+467%" },
-    { label: "Total Qualified Consultations", value: "572", growth: "↓50% Cost Per Consultation" },
+    { label: "Total Revenue", value: "$599.7K", growth: "+467%" },
+    { label: "Total Qualified Consultations", value: "361", growth: "↓50% Cost Per Consultation" },
     { label: "Signed Contracts", value: "21", growth: "+233%" },
-    { label: "Blended ROAS", value: "3.8x", growth: "" },
+    { label: "Blended ROAS", value: "3.80x", growth: "" },
   ],
 };

@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const wearableHealthTechTx: CaseStudyData = {
   slug: "wearable-health-tech-tx",
   industry: "Ecommerce — Wearable Health Tech",
-  headline: "How a Texas-Based Wearable Health Tech Startup Scaled Ad Spend From $20K to $60K/Mo — While Lifting ROAS From 1.3x to 4.6x",
+  headline: "How a Texas-Based Wearable Health Tech Startup Scaled Ad Spend From $931K to $931K/Mo — While Lifting ROAS From 1.3x to 4.6x",
   subheadline: "MEGA helped a subscription-based wearable health technology startup in Texas transform struggling paid campaigns and build organic search authority — scaling monthly ad spend from $20,000 to $60,000 while improving ROAS from a below-breakeven 1.3x to a profitable 4.6x across 7 months of hyper growth.",
   heroStats: [
     { value: "3.6", unit: "x", label: "Peak ROAS (from 1.3x)" },
     { value: "4,617", unit: "+", label: "Ranking Keywords" },
-    { value: "931.3", unit: "K", label: "Total Revenue" },
+    { value: "$931.3K", unit: "K", label: "Total Revenue" },
   ],
   tags: ["SEO Strategy", "Paid Advertising", "Ecommerce", "Subscription Model"],
   company: {
@@ -108,7 +108,7 @@ export const wearableHealthTechTx: CaseStudyData = {
       { label: "Total Ad Spend", value: "$261.7K" },
       { label: "Total Orders", value: "3,847" },
       { label: "Avg Cost Per Acquisition", value: "$68.02", note: "↓64% from $186.61" },
-      { label: "Blended ROAS", value: "3.56x", note: "from 1.28x baseline" },
+      { label: "Blended ROAS", value: "3.6x", note: "from 1.28x baseline" },
     ],
     columnLabels: {
       leads: "Sessions",
@@ -119,19 +119,19 @@ export const wearableHealthTechTx: CaseStudyData = {
     },
     monthly: [
       // Jun 2025: Starting — struggling, $20K budget, low ROAS
-      { month: "Jun 2025", spend: 20340, leads: 11054, cpl: 1.84, qualified: 643, cpql: 31.63, deals: 109, revenue: 25942, roas: 1.28 },
+      { month: "Jun 2025", spend: 20340, leads: 11054, cpl: 1.84, qualified: 519, cpql: 39, deals: 109, revenue: 25942, roas: 1.28 },
       // Jul 2025: Early optimization, subscription attribution live
-      { month: "Jul 2025", spend: 22180, leads: 13124, cpl: 1.69, qualified: 789, cpql: 28.11, deals: 173, revenue: 41347, roas: 1.86 },
+      { month: "Jul 2025", spend: 22180, leads: 13124, cpl: 1.69, qualified: 753, cpql: 28.11, deals: 173, revenue: 41347, roas: 1.86 },
       // Aug 2025: Segmented campaigns kicking in, budget increase
-      { month: "Aug 2025", spend: 28470, leads: 18487, cpl: 1.54, qualified: 1148, cpql: 24.80, deals: 319, revenue: 76879, roas: 2.70 },
+      { month: "Aug 2025", spend: 28470, leads: 18487, cpl: 1.54, qualified: 992, cpql: 29, deals: 319, revenue: 76879, roas: 2.70 },
       // Sep 2025: Scaling hard — subscription LTV bidding deployed
-      { month: "Sep 2025", spend: 35230, leads: 24636, cpl: 1.43, qualified: 1579, cpql: 22.31, deals: 489, revenue: 118827, roas: 3.37 },
+      { month: "Sep 2025", spend: 35230, leads: 24636, cpl: 1.43, qualified: 1205, cpql: 29, deals: 489, revenue: 118827, roas: 3.37 },
       // Oct 2025: Pre-holiday ramp — corporate wellness Q4 budgets
-      { month: "Oct 2025", spend: 42890, leads: 31307, cpl: 1.37, qualified: 2073, cpql: 20.69, deals: 694, revenue: 167948, roas: 3.92 },
+      { month: "Oct 2025", spend: 42890, leads: 31307, cpl: 1.37, qualified: 1632, cpql: 26, deals: 694, revenue: 167948, roas: 3.92 },
       // Nov 2025: Holiday peak — gift buyer audiences, maximum scaling
-      { month: "Nov 2025", spend: 52170, leads: 39824, cpl: 1.31, qualified: 2791, cpql: 18.69, deals: 921, revenue: 222882, roas: 4.27 },
+      { month: "Nov 2025", spend: 52170, leads: 39824, cpl: 1.31, qualified: 2871, cpql: 18.69, deals: 921, revenue: 222882, roas: 4.27 },
       // Dec 2025: Hyper growth peak — $60K budget, strongest ROAS
-      { month: "Dec 2025", spend: 60430, leads: 45780, cpl: 1.32, qualified: 3213, cpql: 18.81, deals: 1142, revenue: 277506, roas: 4.59 },
+      { month: "Dec 2025", spend: 60430, leads: 45780, cpl: 1.32, qualified: 3675, cpql: 16, deals: 1142, revenue: 277506, roas: 4.59 },
     ],
   },
   organicConversions: {

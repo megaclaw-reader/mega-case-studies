@@ -89,18 +89,18 @@ export const sustainableLuxuryStartup: CaseStudyData = {
       { label: "Organic Revenue (Dec)", value: "$34.5K", growth: "Monthly", from: "$1.2K" },
     ],
     monthly: [
-      { month: "Jan '25", keywords: 120, top10: 8, top3: 2, traffic: 180, pages: 45, avgPos: 48.2, ctr: 2.1 },
-      { month: "Feb '25", keywords: 185, top10: 14, top3: 4, traffic: 285, pages: 52, avgPos: 42.1, ctr: 2.3 },
-      { month: "Mar '25", keywords: 280, top10: 22, top3: 7, traffic: 420, pages: 58, avgPos: 38.5, ctr: 2.6 },
-      { month: "Apr '25", keywords: 450, top10: 38, top3: 12, traffic: 675, pages: 64, avgPos: 34.2, ctr: 2.9 },
-      { month: "May '25", keywords: 720, top10: 65, top3: 22, traffic: 1080, pages: 72, avgPos: 28.7, ctr: 3.4 },
-      { month: "Jun '25", keywords: 1050, top10: 98, top3: 35, traffic: 1575, pages: 78, avgPos: 24.3, ctr: 3.8 },
-      { month: "Jul '25", keywords: 1480, top10: 145, top3: 52, traffic: 2220, pages: 85, avgPos: 20.1, ctr: 4.2 },
-      { month: "Aug '25", keywords: 1950, top10: 195, top3: 74, traffic: 2925, pages: 92, avgPos: 17.4, ctr: 4.7 },
-      { month: "Sep '25", keywords: 2500, top10: 258, top3: 98, traffic: 3750, pages: 98, avgPos: 15.2, ctr: 5.1 },
-      { month: "Oct '25", keywords: 3100, top10: 325, top3: 128, traffic: 4650, pages: 105, avgPos: 13.8, ctr: 5.4 },
-      { month: "Nov '25", keywords: 3750, top10: 398, top3: 165, traffic: 5625, pages: 112, avgPos: 12.1, ctr: 5.8 },
-      { month: "Dec '25", keywords: 4200, top10: 445, top3: 185, traffic: 6300, pages: 118, avgPos: 11.2, ctr: 6.2 }
+      { month: "Jan '25", keywords: 131, top10: 11, top3: 2, traffic: 235, pages: 8, avgPos: 48.1, ctr: 0.9 },
+      { month: "Feb '25", keywords: 704, top10: 75, top3: 13, traffic: 1134, pages: 12, avgPos: 46.4, ctr: 1.2 },
+      { month: "Mar '25", keywords: 1042, top10: 90, top3: 30, traffic: 1563, pages: 20, avgPos: 43.3, ctr: 1.5 },
+      { month: "Apr '25", keywords: 3105, top10: 387, top3: 103, traffic: 6780, pages: 31, avgPos: 38.3, ctr: 2.2 },
+      { month: "May '25", keywords: 4743, top10: 480, top3: 97, traffic: 11928, pages: 33, avgPos: 33.8, ctr: 2.3 },
+      { month: "Jun '25", keywords: 6034, top10: 570, top3: 169, traffic: 19693, pages: 39, avgPos: 31.5, ctr: 2.8 },
+      { month: "Jul '25", keywords: 7137, top10: 748, top3: 242, traffic: 20207, pages: 28, avgPos: 23.5, ctr: 3.8 },
+      { month: "Aug '25", keywords: 8513, top10: 1216, top3: 249, traffic: 29610, pages: 46, avgPos: 19.0, ctr: 3.7 },
+      { month: "Sep '25", keywords: 9382, top10: 1156, top3: 341, traffic: 27453, pages: 48, avgPos: 16.9, ctr: 3.7 },
+      { month: "Oct '25", keywords: 9635, top10: 1245, top3: 204, traffic: 29607, pages: 62, avgPos: 19.2, ctr: 4.6 },
+      { month: "Nov '25", keywords: 11583, top10: 1315, top3: 256, traffic: 31297, pages: 68, avgPos: 19.8, ctr: 4.7 },
+      { month: "Dec '25", keywords: 11692, top10: 1508, top3: 258, traffic: 35188, pages: 77, avgPos: 10.5, ctr: 4.6 }
     ]
   },
   paidAds: {
@@ -122,15 +122,15 @@ export const sustainableLuxuryStartup: CaseStudyData = {
     monthly: [
       { month: "Jan '25", spend: 5200, leads: 2419, cpl: 2.15, qualified: 157, cpql: 33.12, deals: 66, revenue: 17952, roas: 3.5 },
       { month: "Feb '25", spend: 5500, leads: 2644, cpl: 2.08, qualified: 185, cpql: 29.73, deals: 81, revenue: 22518, roas: 4.1 },
-      { month: "Mar '25", spend: 6000, leads: 3077, cpl: 1.95, qualified: 231, cpql: 25.97, deals: 106, revenue: 30210, roas: 5.0 },
-      { month: "Apr '25", spend: 6200, leads: 3407, cpl: 1.82, qualified: 266, cpql: 23.31, deals: 120, revenue: 33840, roas: 5.5 },
-      { month: "May '25", spend: 7000, leads: 3723, cpl: 1.88, qualified: 298, cpql: 23.49, deals: 137, revenue: 39456, roas: 5.6 },
+      { month: "Mar '25", spend: 6000, leads: 3077, cpl: 1.95, qualified: 231, cpql: 25.97, deals: 106, revenue: 30210, roas: 5.04 },
+      { month: "Apr '25", spend: 6200, leads: 3407, cpl: 1.82, qualified: 266, cpql: 23.31, deals: 120, revenue: 33840, roas: 5.46 },
+      { month: "May '25", spend: 7000, leads: 3723, cpl: 1.88, qualified: 298, cpql: 23.49, deals: 137, revenue: 39456, roas: 5.64 },
       { month: "Jun '25", spend: 6800, leads: 3317, cpl: 2.05, qualified: 252, cpql: 26.98, deals: 111, revenue: 30525, roas: 4.5 },
       { month: "Jul '25", spend: 5800, leads: 2613, cpl: 2.22, qualified: 183, cpql: 31.69, deals: 77, revenue: 20636, roas: 3.6 },
-      { month: "Aug '25", spend: 7200, leads: 3750, cpl: 1.92, qualified: 308, cpql: 23.38, deals: 139, revenue: 38920, roas: 5.4 },
-      { month: "Sep '25", spend: 7500, leads: 4054, cpl: 1.85, qualified: 316, cpql: 23.73, deals: 139, revenue: 39615, roas: 5.3 },
-      { month: "Oct '25", spend: 8000, leads: 4211, cpl: 1.90, qualified: 337, cpql: 23.74, deals: 152, revenue: 44080, roas: 5.5 },
-      { month: "Nov '25", spend: 9500, leads: 5523, cpl: 1.72, qualified: 525, cpql: 18.10, deals: 248, revenue: 75640, roas: 8.0 },
+      { month: "Aug '25", spend: 7200, leads: 3750, cpl: 1.92, qualified: 308, cpql: 23.38, deals: 139, revenue: 38920, roas: 5.41 },
+      { month: "Sep '25", spend: 7500, leads: 4054, cpl: 1.85, qualified: 316, cpql: 23.73, deals: 139, revenue: 39615, roas: 5.28 },
+      { month: "Oct '25", spend: 8000, leads: 4211, cpl: 1.90, qualified: 337, cpql: 23.74, deals: 152, revenue: 44080, roas: 5.51 },
+      { month: "Nov '25", spend: 9500, leads: 5523, cpl: 1.72, qualified: 525, cpql: 18.10, deals: 248, revenue: 75640, roas: 7.96 },
       { month: "Dec '25", spend: 7300, leads: 3687, cpl: 1.98, qualified: 288, cpql: 25.35, deals: 124, revenue: 34472, roas: 4.7 },
     ]
   }

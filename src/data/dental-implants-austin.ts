@@ -43,7 +43,7 @@ export const dentalImplantsAustin: CaseStudyData = {
         "Implemented AI-powered call tracking and lead scoring — every inquiry tagged by procedure interest (single implant, All-on-4, implant bridge, bone graft), insurance vs. self-pay status, geographic location, and urgency signals",
         "Built implant-specific landing pages for each procedure category — single tooth replacement, multiple implants, full-arch All-on-4, and implant-supported dentures — each with CBCT imaging examples, procedure timelines, and financing options",
         "Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement — replacing the traditional weekly-review cadence with real-time adjustments",
-        "Launched initial Google Ads campaigns at $17,500/month targeting high-intent implant keywords: 'dental implants Austin', 'All-on-4 Austin TX', 'full mouth dental implants near me', 'tooth replacement options Austin'",
+        "Launched initial Paid advertising campaigns at $17,500/month targeting high-intent implant keywords: 'dental implants Austin', 'All-on-4 Austin TX', 'full mouth dental implants near me', 'tooth replacement options Austin'",
         "Created extensive negative keyword lists excluding cleanings, whitening, braces, Invisalign, pediatric dentistry, and discount/coupon terms",
         "Set up conversion tracking for implant consultation requests, phone calls mentioning implants, and financing pre-qualification submissions",
       ],
@@ -94,7 +94,7 @@ export const dentalImplantsAustin: CaseStudyData = {
   seo: undefined,
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$215.4K" },
+      { label: "Total Ad Spend", value: "$215.3K" },
       { label: "Qualified Leads", value: "430" },
       { label: "Avg Cost Per Qualified Lead", value: "$501", note: "↓54% from $1,094" },
       { label: "Closed Cases", value: "92", note: "avg case value $8,542" },

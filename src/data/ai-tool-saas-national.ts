@@ -8,7 +8,7 @@ export const aiToolSaasNational: CaseStudyData = {
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
     { value: "2,679", unit: "%", label: "Organic Traffic Growth" },
-    { value: "359.5", unit: "K", label: "Revenue Generated" },
+    { value: "$359.5K", unit: "K", label: "Revenue Generated" },
   ],
   tags: ["SEO Strategy", "Paid Advertising", "SaaS Growth"],
   company: {

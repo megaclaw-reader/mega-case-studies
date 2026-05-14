@@ -16,12 +16,12 @@ export const staffingBoston: CaseStudyData = {
     employees: "16",
     revenue: "$2.8M",
     location: "Boston, Massachusetts",
-    description: "A B2B staffing and recruitment agency based in Boston, Massachusetts serving employers across Greater Boston including Cambridge, Somerville, Quincy, and the Route 128 corridor. The agency specializes in placing temporary and direct-hire talent for administrative, light industrial, warehouse, and office support roles — high-demand verticals in Boston's tight labor market where employers struggle to find reliable workers quickly. The agency had been running Google Ads intermittently for about a year with mixed results, generating a steady trickle of employer leads but with no systematic way to distinguish high-intent hiring managers from casual browsers, job seekers submitting the wrong forms, and competitors researching pricing. Their cost per qualified lead was unsustainably high, and they had no feedback mechanism to tell the ad platform which leads actually resulted in placements — meaning the algorithm was optimizing for form fills rather than revenue-generating outcomes.",
+    description: "A B2B staffing and recruitment agency based in Boston, Massachusetts serving employers across Greater Boston including Cambridge, Somerville, Quincy, and the Route 128 corridor. The agency specializes in placing temporary and direct-hire talent for administrative, light industrial, warehouse, and office support roles — high-demand verticals in Boston's tight labor market where employers struggle to find reliable workers quickly. The agency had been running paid search intermittently for about a year with mixed results, generating a steady trickle of employer leads but with no systematic way to distinguish high-intent hiring managers from casual browsers, job seekers submitting the wrong forms, and competitors researching pricing. Their cost per qualified lead was unsustainably high, and they had no feedback mechanism to tell the ad platform which leads actually resulted in placements — meaning the algorithm was optimizing for form fills rather than revenue-generating outcomes.",
   },
   challenges: [
     {
       title: "No Feedback Loop Between CRM and Ad Platform",
-      description: "The agency's Google Ads campaigns were optimizing for raw form submissions and phone calls, but had no mechanism to feed qualified lead or placement data back to the platform. This meant the algorithm treated every conversion equally — a job seeker accidentally filling out the employer inquiry form counted the same as a hiring manager ready to place an order for 12 warehouse workers. Without conversion signals distinguishing lead quality, the algorithm couldn't learn what a high-value lead actually looked like, and continued serving ads to audiences that generated volume but not revenue. The result was a cost per qualified lead of $847 and a placement rate from leads that made the economics barely workable.",
+      description: "The agency's Paid advertising campaigns were optimizing for raw form submissions and phone calls, but had no mechanism to feed qualified lead or placement data back to the platform. This meant the algorithm treated every conversion equally — a job seeker accidentally filling out the employer inquiry form counted the same as a hiring manager ready to place an order for 12 warehouse workers. Without conversion signals distinguishing lead quality, the algorithm couldn't learn what a high-value lead actually looked like, and continued serving ads to audiences that generated volume but not revenue. The result was a cost per qualified lead of $847 and a placement rate from leads that made the economics barely workable.",
     },
     {
       title: "Budget Constrained With No Clear Path to Scale",
@@ -38,8 +38,8 @@ export const staffingBoston: CaseStudyData = {
       months: "0–30 days",
       title: "Foundation & Feedback Loop Architecture",
       items: [
-        "Full audit of existing Google Ads account — mapped every campaign, keyword, and conversion action to actual lead quality outcomes using 6 months of CRM disposition data",
-        "Built conversion signal feedback loop — implemented offline conversion tracking to pass qualified lead and placement outcomes back to Google Ads, giving the algorithm revenue-weighted signals instead of raw form fill counts",
+        "Full audit of existing Paid advertising account — mapped every campaign, keyword, and conversion action to actual lead quality outcomes using 6 months of CRM disposition data",
+        "Built conversion signal feedback loop — implemented offline conversion tracking to pass qualified lead and placement outcomes back to paid search, giving the algorithm revenue-weighted signals instead of raw form fill counts",
         "Created tiered conversion values: placement-confirmed leads weighted 10x higher than initial form submissions, with qualified-but-not-yet-placed leads weighted 3x — training the algorithm to prioritize the audience patterns that actually generate revenue",
         "Restructured campaigns by employer intent level — separated urgent 'need workers now' searches from research-phase queries like 'staffing agency pricing' and 'how temp agencies work'",
         "Built service-specific landing pages for core verticals: administrative staffing, warehouse and logistics staffing, office support, and light industrial — each with Boston-specific employer testimonials and response time guarantees",
@@ -77,7 +77,7 @@ export const staffingBoston: CaseStudyData = {
         "With feedback loop data proving ROI, began scaling monthly ad spend — increased from $5,000 to $5,500 in month 3, then $6,200 in month 4 as placement-to-spend ratio justified each increment",
         "CPQL continued declining as the algorithm accumulated more conversion signals — the flywheel effect of feedback loops meant each placement taught the algorithm more about what a revenue-generating lead looks like",
         "Reached $7,000/month spend by month 5 with CPQL at $431 — the incremental spend was generating qualified leads at a lower marginal cost than the base spend, proving the feedback loop was compounding",
-        "CRM integration deepened — automated weekly uploads of placement confirmations and revenue values back to Google Ads, enriching the algorithm's understanding of which audiences produce the highest-value placements",
+        "CRM integration deepened — automated weekly uploads of placement confirmations and revenue values back to paid search, enriching the algorithm's understanding of which audiences produce the highest-value placements",
         "Advanced audience segmentation built from placement data — created lookalike audiences from employers who completed placements, weighted by placement revenue and repeat-order likelihood",
         "Seasonal messaging adjustments for Boston's hiring cycles — ramped warehouse and logistics messaging for holiday season preparation, shifted to administrative and office support during Q1 budget planning season",
         "Conversion rate optimization on landing pages — tested urgency-based messaging ('candidates available this week'), social proof (placement volume stats), and industry-specific landing pages for healthcare support staffing",
@@ -104,22 +104,22 @@ export const staffingBoston: CaseStudyData = {
   ],
   seo: {
     summary: [
-      { label: "Total Keywords", value: "847", growth: "+656%", from: "from 112" },
+      { label: "Total Keywords", value: "9,325", growth: "+656%", from: "from 112" },
       { label: "Top 10 Rankings", value: "73", growth: "+1,360%", from: "from 5" },
       { label: "Pages Created", value: "94", growth: "", from: "incl. 28 location service pages" },
       { label: "Organic Traffic", value: "2,847/mo", growth: "+1,422%", from: "from 187" },
     ],
     monthly: [
-      { month: "Jun '25", keywords: 112, top10: 5, top3: 1, traffic: 187, pages: 8, avgPos: 51.3, ctr: 0.7 },
-      { month: "Jul '25", keywords: 158, top10: 9, top3: 1, traffic: 264, pages: 16, avgPos: 46.8, ctr: 0.8 },
-      { month: "Aug '25", keywords: 219, top10: 14, top3: 2, traffic: 387, pages: 26, avgPos: 42.4, ctr: 0.9 },
-      { month: "Sep '25", keywords: 298, top10: 21, top3: 3, traffic: 571, pages: 36, avgPos: 38.1, ctr: 1.0 },
-      { month: "Oct '25", keywords: 387, top10: 29, top3: 5, traffic: 814, pages: 47, avgPos: 34.7, ctr: 1.1 },
-      { month: "Nov '25", keywords: 468, top10: 38, top3: 7, traffic: 1093, pages: 56, avgPos: 31.4, ctr: 1.2 },
-      { month: "Dec '25", keywords: 541, top10: 44, top3: 9, traffic: 1347, pages: 64, avgPos: 28.9, ctr: 1.3 },
-      { month: "Jan '26", keywords: 632, top10: 52, top3: 11, traffic: 1718, pages: 73, avgPos: 26.5, ctr: 1.4 },
-      { month: "Feb '26", keywords: 738, top10: 63, top3: 14, traffic: 2241, pages: 83, avgPos: 24.2, ctr: 1.6 },
-      { month: "Mar '26", keywords: 847, top10: 73, top3: 17, traffic: 2847, pages: 94, avgPos: 22.1, ctr: 1.7 },
+      { month: "Jun '25", keywords: 157, top10: 15, top3: 3, traffic: 302, pages: 8, avgPos: 51.9, ctr: 0.7 },
+      { month: "Jul '25", keywords: 675, top10: 64, top3: 20, traffic: 1216, pages: 11, avgPos: 45.8, ctr: 1.1 },
+      { month: "Aug '25", keywords: 1074, top10: 99, top3: 20, traffic: 2655, pages: 23, avgPos: 40.4, ctr: 1.3 },
+      { month: "Sep '25", keywords: 2784, top10: 259, top3: 80, traffic: 7069, pages: 20, avgPos: 38.4, ctr: 2.0 },
+      { month: "Oct '25", keywords: 4320, top10: 573, top3: 116, traffic: 13760, pages: 35, avgPos: 36.8, ctr: 2.3 },
+      { month: "Nov '25", keywords: 5537, top10: 454, top3: 121, traffic: 12137, pages: 32, avgPos: 36.1, ctr: 2.1 },
+      { month: "Dec '25", keywords: 6288, top10: 843, top3: 222, traffic: 21710, pages: 42, avgPos: 34.5, ctr: 2.6 },
+      { month: "Jan '26", keywords: 7643, top10: 909, top3: 248, traffic: 26273, pages: 45, avgPos: 16.6, ctr: 3.5 },
+      { month: "Feb '26", keywords: 8077, top10: 991, top3: 164, traffic: 22599, pages: 33, avgPos: 30.4, ctr: 3.7 },
+      { month: "Mar '26", keywords: 9325, top10: 1068, top3: 368, traffic: 31534, pages: 45, avgPos: 20.1, ctr: 4.9 }
     ],
   },
   paidAds: {

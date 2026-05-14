@@ -25,7 +25,7 @@ export const cosmeticDentistryAustin: CaseStudyData = {
     },
     {
       title: "High Cost Per Qualified Lead on Paid Campaigns",
-      description: "The practice was running Google Ads but without proper qualification tracking or lead scoring. Roughly 45% of incoming leads were price-shoppers or general dentistry inquiries rather than genuine cosmetic procedure candidates. The cost per truly qualified lead — someone interested in veneers, implants, or smile makeovers — was hovering around $218, well above what the practice could sustain profitably.",
+      description: "The practice was running Paid advertising but without proper qualification tracking or lead scoring. Roughly 45% of incoming leads were price-shoppers or general dentistry inquiries rather than genuine cosmetic procedure candidates. The cost per truly qualified lead — someone interested in veneers, implants, or smile makeovers — was hovering around $218, well above what the practice could sustain profitably.",
     },
     {
       title: "No Systematic Lead Qualification Process",
@@ -42,7 +42,7 @@ export const cosmeticDentistryAustin: CaseStudyData = {
         "Google Business Profile overhaul — updated service categories to emphasize cosmetic dentistry, added before/after photos, optimized business description with Austin-specific keywords",
         "Keyword research spanning cosmetic dentistry verticals: veneers, dental implants, smile makeovers, teeth whitening, dental bonding, and Invisalign for the Austin market",
         "Generated 14 initial content pieces — procedure guides for veneers and implants, cosmetic dentistry FAQ pages, financing explainers, and Austin-specific landing pages",
-        "Deployed always-on AI optimization agents within Google Ads accounts for continuous bid management, budget allocation, and audience refinement — replacing the traditional weekly-review agency cadence",
+        "Deployed always-on AI optimization agents within Paid advertising accounts for continuous bid management, budget allocation, and audience refinement — replacing the traditional weekly-review agency cadence",
         "Restructured paid campaigns around high-intent cosmetic procedure queries with dedicated landing pages for each service line",
         "Implemented lead scoring system to distinguish cosmetic-intent inquiries from general dentistry requests, with CRM integration for closed-loop attribution",
         "Set up call tracking and form attribution to measure qualified cosmetic leads separately from general inquiries",
@@ -93,17 +93,17 @@ export const cosmeticDentistryAustin: CaseStudyData = {
   seo: {
     summary: [
       { label: "Authority Score", value: "22", growth: "+57%", from: "from 14" },
-      { label: "Total Keywords", value: "389", growth: "+224%", from: "from 120" },
+      { label: "Total Keywords", value: "2,359", growth: "+224%", from: "from 120" },
       { label: "Organic Traffic", value: "1,847/mo", growth: "+439%", from: "from 342" },
       { label: "Top 10 Rankings", value: "52", growth: "+420%", from: "from 10" },
     ],
     monthly: [
-      { month: "Aug '25", keywords: 120, top10: 10, top3: 1, traffic: 342, pages: 12, avgPos: 48.7, ctr: 0.8 },
-      { month: "Sep '25", keywords: 167, top10: 16, top3: 2, traffic: 498, pages: 26, avgPos: 43.2, ctr: 1.0 },
-      { month: "Oct '25", keywords: 218, top10: 24, top3: 4, traffic: 714, pages: 38, avgPos: 38.9, ctr: 1.2 },
-      { month: "Nov '25", keywords: 274, top10: 33, top3: 6, traffic: 1023, pages: 47, avgPos: 35.1, ctr: 1.4 },
-      { month: "Dec '25", keywords: 331, top10: 42, top3: 9, traffic: 1378, pages: 54, avgPos: 31.8, ctr: 1.6 },
-      { month: "Jan '26", keywords: 389, top10: 52, top3: 12, traffic: 1847, pages: 61, avgPos: 28.4, ctr: 1.8 },
+      { month: "Aug '25", keywords: 186, top10: 24, top3: 6, traffic: 443, pages: 8, avgPos: 50.0, ctr: 0.8 },
+      { month: "Sep '25", keywords: 355, top10: 31, top3: 7, traffic: 880, pages: 11, avgPos: 43.7, ctr: 1.3 },
+      { month: "Oct '25", keywords: 443, top10: 60, top3: 15, traffic: 683, pages: 23, avgPos: 42.0, ctr: 1.3 },
+      { month: "Nov '25", keywords: 1001, top10: 107, top3: 16, traffic: 2472, pages: 23, avgPos: 42.6, ctr: 1.4 },
+      { month: "Dec '25", keywords: 1766, top10: 163, top3: 42, traffic: 3879, pages: 21, avgPos: 37.0, ctr: 1.6 },
+      { month: "Jan '26", keywords: 2359, top10: 347, top3: 56, traffic: 4792, pages: 41, avgPos: 28.9, ctr: 3.1 }
     ],
   },
   paidAds: {

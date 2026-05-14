@@ -122,7 +122,7 @@ export const medSpaMultiLocationFlorida: CaseStudyData = {
       { label: "Total Ad Spend", value: "$327.5K" },
       { label: "Total Leads", value: "6,184" },
       { label: "Qualified Leads", value: "3,045" },
-      { label: "Avg CPQL", value: "$115", note: "↓47% by month 12" },
+      { label: "Avg CPQL", value: "$108", note: "↓47% by month 12" },
     ],
     columnLabels: {
       leads: "Total Leads",

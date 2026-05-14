@@ -42,7 +42,7 @@ export const electricalSupplyDistribution: CaseStudyData = {
         "Built seasonal budget allocation model aligned to construction cycles: 40% of annual spend weighted to peak spring/summer (Apr–Aug), 25% to fall retrofit and holiday lighting season (Sep–Nov), 35% to winter baseline and planning season",
         "Product catalog segmentation into six campaign groups: wire and cable, circuit breakers and panels, lighting and fixtures, conduit and fittings, tools and test equipment, and safety/PPE",
         "Buyer persona segmentation: separate campaigns for commercial contractors (high AOV, bulk orders), residential electricians (medium AOV, frequent orders), facility managers (specific replacement needs), and DIY customers (low AOV, one-time purchases)",
-        "Deployed always-on AI optimization agents directly within Google Ads and Microsoft Ads accounts — monitoring bid landscapes, adjusting CPCs based on real-time conversion signals, and reallocating budget between product categories continuously rather than relying on the previous weekly manual review",
+        "Deployed always-on AI optimization agents directly within paid search and Microsoft Ads accounts — monitoring bid landscapes, adjusting Cost Per Visits based on real-time conversion signals, and reallocating budget between product categories continuously rather than relying on the previous weekly manual review",
         "Comprehensive technical SEO audit: resolved 1,247 duplicate product descriptions, added structured product data and schema markup to all SKU pages, fixed canonical issues across manufacturer variant pages blocking proper indexing",
         "Keyword research targeting 1,400+ commercial electrical supply terms across product categories with contractor-intent modifiers like 'bulk,' 'wholesale,' 'contractor pricing,' and specific part numbers",
         "Implemented enhanced ecommerce tracking with proper B2B attribution — longer click windows for considered bulk purchases and cross-device tracking for contractors researching on mobile and ordering on desktop",
@@ -104,7 +104,7 @@ export const electricalSupplyDistribution: CaseStudyData = {
       { label: "Total Ad Spend", value: "$146.4K" },
       { label: "Total Orders", value: "2,227" },
       { label: "Avg Cost Per Visit", value: "$1.51", note: "↓47% from $2.87" },
-      { label: "Blended ROAS", value: "5.25x", note: "from 2.36x baseline" },
+      { label: "Blended ROAS", value: "5.3x", note: "from 2.36x baseline" },
     ],
     columnLabels: {
       leads: "Sessions",

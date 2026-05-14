@@ -7,7 +7,7 @@ export const hairProductsEcommerce: CaseStudyData = {
   subheadline: "MEGA deployed always-on AI optimization and creative testing to help a small but ambitious national DTC hair care brand scale from a 1.80x starting ROAS to a 4.25x Black Friday peak — generating over $88K in ecommerce revenue across 7 months while simultaneously growing organic traffic from 372 to 5,247 monthly visitors through strategic SEO content.",
   heroStats: [
     { value: "4.25", unit: "x", label: "Peak ROAS Achieved" },
-    { value: "88.7", unit: "K", label: "Revenue Generated" },
+    { value: "$88.7K", unit: "K", label: "Revenue Generated" },
     { value: "1,836", unit: "", label: "Total Orders" },
   ],
   tags: ["Ecommerce", "SEO", "Paid Advertising", "DTC", "Hair Care"],

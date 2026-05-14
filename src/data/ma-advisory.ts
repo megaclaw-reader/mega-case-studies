@@ -43,7 +43,7 @@ export const maAdvisory: CaseStudyData = {
         "Built dedicated landing pages for key service lines: sell-side advisory, business valuation, buyer identification, and exit planning",
         "Developed lead magnets including a confidential business valuation request form and an exit readiness assessment",
         "Comprehensive keyword research across M&A advisory, business sale, and exit planning intent signals — identified 340+ high-intent search terms",
-        "Launched initial Google Search campaigns targeting high-intent queries: 'sell my business,' 'M&A advisor,' 'business valuation services,' and industry-specific exit planning terms",
+        "Launched initial Search engine campaigns targeting high-intent queries: 'sell my business,' 'M&A advisor,' 'business valuation services,' and industry-specific exit planning terms",
         "Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement — replacing the traditional weekly-review agency cadence",
         "LinkedIn campaign architecture targeting business owners by company size, industry, and seniority — with custom audience segments for likely sellers",
       ],
@@ -112,7 +112,7 @@ export const maAdvisory: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$230K", growth: "+267%" },
+    { label: "Total Revenue", value: "$230.0K", growth: "+267%" },
     { label: "New Engagements Signed", value: "32", growth: "from paid advertising" },
     { label: "Avg Engagement Value", value: "$7,188", growth: "initial retainer + fees" },
     { label: "Blended ROAS", value: "3.23x", growth: "" },

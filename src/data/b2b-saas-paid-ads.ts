@@ -8,7 +8,7 @@ export const b2bSaasPaidAds: CaseStudyData = {
   heroStats: [
     { value: "140", unit: "%", label: "Budget Scaled" },
     { value: "3.78", unit: "x", label: "Blended ROAS" },
-    { value: "$763", unit: "K", label: "Revenue Generated" },
+    { value: "$763.8K", unit: "K", label: "Revenue Generated" },
   ],
   tags: ["Paid Advertising", "AI-Powered Optimization", "Budget Scaling"],
   company: {
@@ -45,7 +45,7 @@ export const b2bSaasPaidAds: CaseStudyData = {
         "Built dedicated landing pages per buyer persona with industry-specific compliance use cases and ROI messaging",
         "Set up automated lead routing — new demo requests assigned and notified to sales within 12 minutes of form submission",
         "Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement — replacing the traditional weekly-review cadence that had limited previous scaling attempts",
-        "Established baseline metrics at $10K/month spend: 78 demo requests, 31 qualified, 3 closed deals",
+        "Established baseline metrics at $10K/month spend: 5020 demo requests, 31 qualified, 3 closed deals",
       ],
     },
     {

@@ -95,19 +95,19 @@ export const ophthalmologyFlorida: CaseStudyData = {
   ],
   seo: {
     summary: [
-      { label: "Total Keywords", value: "573", growth: "+327%", from: "from 134" },
+      { label: "Total Keywords", value: "5,332", growth: "+327%", from: "from 134" },
       { label: "Top 10 Rankings", value: "74", growth: "+640%", from: "from 10" },
       { label: "Pages Created", value: "62", growth: "", from: "incl. 28 procedure/condition pages" },
       { label: "Organic Traffic", value: "1,847/mo", growth: "+492%", from: "from 312" },
     ],
     monthly: [
-      { month: "Jul '25", keywords: 134, top10: 10, top3: 1, traffic: 312, pages: 12, avgPos: 48.7, ctr: 0.8 },
-      { month: "Aug '25", keywords: 189, top10: 16, top3: 2, traffic: 441, pages: 26, avgPos: 43.2, ctr: 1.0 },
-      { month: "Sep '25", keywords: 267, top10: 27, top3: 4, traffic: 618, pages: 38, avgPos: 38.6, ctr: 1.2 },
-      { month: "Oct '25", keywords: 348, top10: 38, top3: 6, traffic: 834, pages: 46, avgPos: 34.1, ctr: 1.4 },
-      { month: "Nov '25", keywords: 421, top10: 49, top3: 9, traffic: 1087, pages: 52, avgPos: 30.8, ctr: 1.6 },
-      { month: "Dec '25", keywords: 497, top10: 62, top3: 13, traffic: 1423, pages: 57, avgPos: 28.3, ctr: 1.8 },
-      { month: "Jan '26", keywords: 573, top10: 74, top3: 17, traffic: 1847, pages: 62, avgPos: 26.1, ctr: 2.0 },
+      { month: "Jul '25", keywords: 166, top10: 19, top3: 3, traffic: 343, pages: 8, avgPos: 51.5, ctr: 0.8 },
+      { month: "Aug '25", keywords: 636, top10: 83, top3: 21, traffic: 1102, pages: 15, avgPos: 45.6, ctr: 1.3 },
+      { month: "Sep '25", keywords: 935, top10: 100, top3: 32, traffic: 2013, pages: 15, avgPos: 42.1, ctr: 1.3 },
+      { month: "Oct '25", keywords: 1822, top10: 198, top3: 33, traffic: 4130, pages: 22, avgPos: 36.8, ctr: 1.8 },
+      { month: "Nov '25", keywords: 3173, top10: 394, top3: 90, traffic: 8043, pages: 38, avgPos: 31.1, ctr: 1.7 },
+      { month: "Dec '25", keywords: 4585, top10: 380, top3: 68, traffic: 15869, pages: 45, avgPos: 32.5, ctr: 2.0 },
+      { month: "Jan '26", keywords: 5332, top10: 502, top3: 164, traffic: 14376, pages: 44, avgPos: 24.0, ctr: 2.8 }
     ],
   },
   paidAds: {

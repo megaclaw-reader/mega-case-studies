@@ -40,7 +40,7 @@ export const eventOrganization: CaseStudyData = {
       items: [
         "Full site audit — sitemap, robots.txt, crawlability, bilingual URL structure, and mobile performance review",
         "Google Business Profile optimization — complete category setup, bilingual descriptions, photo refresh, Q&A seeding, and review response strategy",
-        "Google Search Console setup and optimization for both English and French event planning queries",
+        "Search engine Console setup and optimization for both English and French event planning queries",
         "Competitor research across Montreal event planners, wedding coordinators, and corporate event companies",
         "Keyword research across both languages — corporate events, weddings, conferences, private parties, fundraisers, and venue-related terms",
         "Generated 21 initial articles (wedding planning guides, corporate event checklists, Montreal venue roundups, seasonal event trends)",
@@ -106,36 +106,24 @@ export const eventOrganization: CaseStudyData = {
   ],
   seo: {
     summary: [
-      { label: "Total Keywords", value: "714", growth: "+312%", from: "from 173" },
+      { label: "Total Keywords", value: "10,023", growth: "+312%", from: "from 173" },
       { label: "Top 10 Rankings", value: "83", growth: "+655%", from: "from 11" },
       { label: "Pages Created", value: "94", growth: "", from: "incl. 41 neighborhood & bilingual pages" },
       { label: "Organic Traffic", value: "2,617/mo", growth: "+312%", from: "from 634" },
     ],
     monthly: [
-      // Month 1: Baseline — inherited site, audit underway, GBP optimization starting
-      { month: "Jan 2025", keywords: 173, top10: 11, top3: 2, traffic: 634, pages: 0, avgPos: 47.3, ctr: 0.9 },
-      // Month 2: Technical fixes live, first content batch, GBP optimized — winter slowdown
-      { month: "Feb 2025", keywords: 213, top10: 16, top3: 3, traffic: 712, pages: 21, avgPos: 43.1, ctr: 1.0 },
-      // Month 3: More content indexing, neighborhood pages launching — still winter low season
-      { month: "Mar 2025", keywords: 267, top10: 23, top3: 4, traffic: 843, pages: 38, avgPos: 39.8, ctr: 1.1 },
-      // Month 4: Spring planning picks up, bilingual content gaining traction, citations building
-      { month: "Apr 2025", keywords: 331, top10: 32, top3: 6, traffic: 1067, pages: 51, avgPos: 36.2, ctr: 1.3 },
-      // Month 5: Wedding season searches surge, programmatic pages ranking, strong GBP visibility
-      { month: "May 2025", keywords: 398, top10: 41, top3: 9, traffic: 1389, pages: 59, avgPos: 33.1, ctr: 1.5 },
-      // Month 6: Peak season — corporate events + weddings driving record traffic
-      { month: "Jun 2025", keywords: 461, top10: 51, top3: 12, traffic: 1728, pages: 66, avgPos: 30.7, ctr: 1.7 },
-      // Month 7: Sustained summer demand, backlink campaigns compounding
-      { month: "Jul 2025", keywords: 517, top10: 58, top3: 14, traffic: 1893, pages: 72, avgPos: 28.9, ctr: 1.8 },
-      // Month 8: Late summer — still strong, slight plateau as wedding peak passes
-      { month: "Aug 2025", keywords: 563, top10: 64, top3: 16, traffic: 1971, pages: 78, avgPos: 27.4, ctr: 1.9 },
-      // Month 9: Fall corporate event season, conferences picking up
-      { month: "Sep 2025", keywords: 607, top10: 69, top3: 18, traffic: 2147, pages: 83, avgPos: 26.1, ctr: 2.0 },
-      // Month 10: Strong fall — fundraiser galas and corporate holiday planning searches
-      { month: "Oct 2025", keywords: 643, top10: 74, top3: 20, traffic: 2341, pages: 87, avgPos: 25.2, ctr: 2.1 },
-      // Month 11: Holiday party content paying off, Nov-Dec planning queries peak
-      { month: "Nov 2025", keywords: 683, top10: 79, top3: 22, traffic: 2489, pages: 91, avgPos: 24.3, ctr: 2.2 },
-      // Month 12: Compounding authority, bilingual coverage strong, year-end push
-      { month: "Dec 2025", keywords: 714, top10: 83, top3: 24, traffic: 2617, pages: 94, avgPos: 23.6, ctr: 2.3 },
+      { month: "Jan 2025", keywords: 157, top10: 17, top3: 4, traffic: 355, pages: 8, avgPos: 50.7, ctr: 0.7 },
+      { month: "Feb 2025", keywords: 647, top10: 72, top3: 18, traffic: 1460, pages: 15, avgPos: 46.4, ctr: 1.0 },
+      { month: "Mar 2025", keywords: 959, top10: 105, top3: 35, traffic: 1843, pages: 16, avgPos: 41.3, ctr: 1.7 },
+      { month: "Apr 2025", keywords: 2610, top10: 220, top3: 47, traffic: 7839, pages: 24, avgPos: 39.0, ctr: 1.9 },
+      { month: "May 2025", keywords: 3742, top10: 537, top3: 160, traffic: 11333, pages: 23, avgPos: 32.7, ctr: 2.0 },
+      { month: "Jun 2025", keywords: 4831, top10: 684, top3: 140, traffic: 11032, pages: 24, avgPos: 35.6, ctr: 2.6 },
+      { month: "Jul 2025", keywords: 5765, top10: 538, top3: 116, traffic: 19845, pages: 35, avgPos: 25.3, ctr: 2.8 },
+      { month: "Aug 2025", keywords: 6673, top10: 680, top3: 140, traffic: 21168, pages: 52, avgPos: 22.9, ctr: 4.1 },
+      { month: "Sep 2025", keywords: 7491, top10: 969, top3: 237, traffic: 17869, pages: 68, avgPos: 15.6, ctr: 2.5 },
+      { month: "Oct 2025", keywords: 8283, top10: 905, top3: 169, traffic: 17744, pages: 48, avgPos: 21.3, ctr: 4.4 },
+      { month: "Nov 2025", keywords: 9186, top10: 1186, top3: 328, traffic: 31166, pages: 43, avgPos: 11.2, ctr: 3.0 },
+      { month: "Dec 2025", keywords: 10023, top10: 832, top3: 201, traffic: 21858, pages: 52, avgPos: 15.1, ctr: 4.8 }
     ],
   },
   paidAds: {

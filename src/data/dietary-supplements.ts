@@ -8,7 +8,7 @@ export const dietarySupplements: CaseStudyData = {
   heroStats: [
     { value: "6", unit: "months", label: "Partnership Duration" },
     { value: "4.34", unit: "x", label: "Peak ROAS Achieved" },
-    { value: "285.7", unit: "K", label: "Revenue Generated" },
+    { value: "$285.7K", unit: "K", label: "Revenue Generated" },
   ],
   tags: ["Ecommerce", "SEO", "Paid Advertising", "DTC"],
   company: {

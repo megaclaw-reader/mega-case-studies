@@ -95,17 +95,17 @@ export const commercialInsuranceNy: CaseStudyData = {
   ],
   seo: {
     summary: [
-      { label: "Total Keywords", value: "891", growth: "+848%", from: "from 94" },
+      { label: "Total Keywords", value: "1,989", growth: "+848%", from: "from 94" },
       { label: "Top 10 Rankings", value: "67", growth: "+738%", from: "from 8" },
       { label: "Pages Created", value: "58", growth: "", from: "incl. location × coverage pages" },
       { label: "Organic Traffic", value: "2,183/mo", growth: "+791%", from: "from 245" },
     ],
     monthly: [
-      { month: "Sep 2025", keywords: 94, top10: 8, top3: 1, traffic: 245, pages: 9, avgPos: 54.3, ctr: 0.5 },
-      { month: "Oct 2025", keywords: 198, top10: 17, top3: 2, traffic: 487, pages: 28, avgPos: 47.1, ctr: 0.7 },
-      { month: "Nov 2025", keywords: 347, top10: 31, top3: 4, traffic: 892, pages: 41, avgPos: 41.8, ctr: 0.9 },
-      { month: "Dec 2025", keywords: 614, top10: 49, top3: 7, traffic: 1547, pages: 52, avgPos: 37.2, ctr: 1.1 },
-      { month: "Jan 2026", keywords: 891, top10: 67, top3: 11, traffic: 2183, pages: 58, avgPos: 33.5, ctr: 1.3 },
+      { month: "Sep 2025", keywords: 244, top10: 29, top3: 5, traffic: 377, pages: 8, avgPos: 49.1, ctr: 0.7 },
+      { month: "Oct 2025", keywords: 447, top10: 61, top3: 16, traffic: 873, pages: 14, avgPos: 46.1, ctr: 1.0 },
+      { month: "Nov 2025", keywords: 546, top10: 60, top3: 20, traffic: 1132, pages: 16, avgPos: 43.7, ctr: 1.8 },
+      { month: "Dec 2025", keywords: 978, top10: 141, top3: 25, traffic: 3160, pages: 28, avgPos: 38.7, ctr: 2.0 },
+      { month: "Jan 2026", keywords: 1989, top10: 216, top3: 49, traffic: 5293, pages: 35, avgPos: 38.2, ctr: 1.8 }
     ],
   },
   paidAds: {

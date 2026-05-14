@@ -108,7 +108,7 @@ export const multiLocationMedspaSouthwest: CaseStudyData = {
       { label: "Qualified Leads", value: "4,198" },
       { label: "Avg Cost Per Qualified Lead", value: "$77", note: "↓22% from $93" },
       { label: "New Patients", value: "3,622", note: "avg treatment value $426" },
-      { label: "Total Revenue", value: "$1.33M" },
+      { label: "Total Revenue", value: "$1.3M" },
       { label: "Blended ROAS", value: "4.1x" }
     ],
     columnLabels: {

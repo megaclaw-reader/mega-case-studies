@@ -40,7 +40,7 @@ export const dental: CaseStudyData = {
       items: [
         "Full site audit — sitemap, robots.txt, crawlability, site speed, and mobile-first technical review for local search signals",
         "Google Business Profile optimization — updated NAP consistency across 50+ directories, added service categories, optimized photos and business description",
-        "Google Search Console setup and local keyword baseline measurement across dental verticals",
+        "Search engine Console setup and local keyword baseline measurement across dental verticals",
         "Competitor research across Miami dental market — identified gaps in neighborhood coverage and service-specific content",
         "Keyword research spanning general dentistry, cosmetic dentistry, dental implants, emergency dental, and Invisalign queries",
         "Generated 18 initial articles — dental implant guides, cosmetic dentistry FAQs, insurance and financing explainers, oral health content",
@@ -102,20 +102,20 @@ export const dental: CaseStudyData = {
   ],
   seo: {
     summary: [
-      { label: "Total Keywords", value: "847", growth: "+353%", from: "from 187" },
+      { label: "Total Keywords", value: "6,742", growth: "+353%", from: "from 187" },
       { label: "Top 10 Rankings", value: "112", growth: "+700%", from: "from 14" },
       { label: "Pages Created", value: "93", growth: "", from: "incl. 41 neighborhood/service pages" },
       { label: "Organic Traffic", value: "2,341/mo", growth: "+468%", from: "from 412" },
     ],
     monthly: [
-      { month: "Sep 2025", keywords: 187, top10: 14, top3: 2, traffic: 412, pages: 18, avgPos: 47.3, ctr: 0.9 },
-      { month: "Oct 2025", keywords: 264, top10: 23, top3: 3, traffic: 587, pages: 34, avgPos: 42.1, ctr: 1.1 },
-      { month: "Nov 2025", keywords: 371, top10: 38, top3: 6, traffic: 843, pages: 52, avgPos: 37.8, ctr: 1.3 },
-      { month: "Dec 2025", keywords: 463, top10: 51, top3: 8, traffic: 1047, pages: 64, avgPos: 34.2, ctr: 1.4 },
-      { month: "Jan 2025", keywords: 547, top10: 63, top3: 11, traffic: 1218, pages: 73, avgPos: 31.6, ctr: 1.6 },
-      { month: "Feb 2025", keywords: 643, top10: 79, top3: 14, traffic: 1537, pages: 81, avgPos: 29.1, ctr: 1.7 },
-      { month: "Mar 2025", keywords: 748, top10: 94, top3: 18, traffic: 1893, pages: 87, avgPos: 27.4, ctr: 1.9 },
-      { month: "Apr 2025", keywords: 847, top10: 112, top3: 22, traffic: 2341, pages: 93, avgPos: 25.7, ctr: 2.1 },
+      { month: "Sep 2025", keywords: 255, top10: 29, top3: 4, traffic: 467, pages: 8, avgPos: 48.3, ctr: 0.8 },
+      { month: "Oct 2025", keywords: 808, top10: 70, top3: 11, traffic: 1422, pages: 14, avgPos: 47.6, ctr: 1.2 },
+      { month: "Nov 2025", keywords: 1095, top10: 153, top3: 28, traffic: 1780, pages: 15, avgPos: 44.9, ctr: 1.3 },
+      { month: "Dec 2025", keywords: 2398, top10: 259, top3: 49, traffic: 5859, pages: 27, avgPos: 42.8, ctr: 1.5 },
+      { month: "Jan 2025", keywords: 3856, top10: 337, top3: 77, traffic: 9999, pages: 39, avgPos: 32.0, ctr: 2.6 },
+      { month: "Feb 2025", keywords: 5169, top10: 447, top3: 135, traffic: 12807, pages: 24, avgPos: 29.5, ctr: 2.3 },
+      { month: "Mar 2025", keywords: 5996, top10: 701, top3: 186, traffic: 14875, pages: 31, avgPos: 30.4, ctr: 2.6 },
+      { month: "Apr 2025", keywords: 6742, top10: 702, top3: 189, traffic: 14148, pages: 59, avgPos: 24.4, ctr: 3.0 }
     ],
   },
   paidAds: {

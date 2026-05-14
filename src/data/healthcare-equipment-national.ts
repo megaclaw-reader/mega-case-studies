@@ -3,11 +3,11 @@ import { CaseStudyData } from "./types";
 export const healthcareEquipmentNational: CaseStudyData = {
   slug: "healthcare-equipment-national",
   industry: "Healthcare Equipment",
-  headline: "How a Medical Equipment Distributor Generated 1,908 Qualified Leads and $1.00M in Revenue Through Strategic SEO and Paid Advertising",
+  headline: "How a Medical Equipment Distributor Generated 1,908 Qualified Leads and $966K in Revenue Through Strategic SEO and Paid Advertising",
   subheadline: "MEGA helped a national healthcare equipment company scale from 127 keywords to 8,400+ rankings while generating 1,908 qualified leads at an average CPQL of $119 — driving $959K in equipment sales over 12 months with a 4.21x blended ROAS.",
   heroStats: [
     { value: "4566", unit: "", label: "Qualified Leads Generated" },
-    { value: "1.0", unit: "M", label: "Total Revenue Generated" },
+    { value: "$966.3K", unit: "M", label: "Total Revenue Generated" },
     { value: "4.4", unit: "x", label: "Blended ROAS" },
   ],
   tags: ["SEO", "Paid Advertising", "Lead Generation"],
@@ -121,7 +121,7 @@ export const healthcareEquipmentNational: CaseStudyData = {
       { label: "Total Ad Spend", value: "$227.9K" },
       { label: "Total Leads", value: "4,566" },
       { label: "Qualified Leads", value: "1,908" },
-      { label: "Avg CPQL", value: "$118", note: "↓52% from $247" },
+      { label: "Avg CPQL", value: "$119", note: "↓52% from $247" },
     ],
     columnLabels: {
       leads: "Equipment Inquiries",
@@ -136,7 +136,7 @@ export const healthcareEquipmentNational: CaseStudyData = {
       { month: "Apr 2025", spend: 18247, leads: 347, cpl: 53, qualified: 142, cpql: 128, deals: 38, revenue: 73172, roas: 4.01 },
       { month: "May 2025", spend: 19184, leads: 389, cpl: 49, qualified: 167, cpql: 115, deals: 29, revenue: 79952, roas: 4.17 },
       { month: "Jun 2025", spend: 20047, leads: 421, cpl: 48, qualified: 184, cpql: 109, deals: 41, revenue: 93820, roas: 4.68 },
-      { month: "Jul 2025", spend: 18936, leads: 394, cpl: 48, qualified: 173, cpql: 109, deals: 33, revenue: 90997, roas: 4.80 },
+      { month: "Jul 2025", spend: 18936, leads: 394, cpl: 48, qualified: 173, cpql: 109, deals: 33, revenue: 53778, roas: 2.84 },
       { month: "Aug 2025", spend: 19647, leads: 426, cpl: 46, qualified: 189, cpql: 104, deals: 42, revenue: 94305, roas: 4.80 },
       { month: "Sep 2025", spend: 18473, leads: 403, cpl: 46, qualified: 178, cpql: 104, deals: 39, revenue: 88670, roas: 4.80 },
       { month: "Oct 2025", spend: 20184, leads: 447, cpl: 45, qualified: 198, cpql: 102, deals: 36, revenue: 96882, roas: 4.80 },
@@ -146,8 +146,8 @@ export const healthcareEquipmentNational: CaseStudyData = {
   },
   impact: [
     { label: "Total Equipment Sales", value: "416", growth: "+287%" },
-    { label: "Total Revenue", value: "$1.00M", growth: "+340%" },
+    { label: "Total Revenue", value: "$966.3K", growth: "+340%" },
     { label: "Cost Per Qualified Lead", value: "$119", growth: "↓52%" },
-    { label: "Blended ROAS", value: "4.40x", growth: "+168%" },
+    { label: "Blended ROAS", value: "4.24x", growth: "+168%" },
   ],
 };

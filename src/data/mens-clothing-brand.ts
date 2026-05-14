@@ -85,13 +85,13 @@ export const mensClothingBrand: CaseStudyData = {
       { label: "Organic Traffic", value: "4,817/mo", growth: "+541%", from: "752/mo" },
     ],
     monthly: [
-      { month: "Aug '25", keywords: 350, top10: 47, top3: 10, traffic: 752, pages: 0, avgPos: 34.2, ctr: 1.8 },
-      { month: "Sep '25", keywords: 389, top10: 58, top3: 13, traffic: 891, pages: 9, avgPos: 31.7, ctr: 2.1 },
-      { month: "Oct '25", keywords: 438, top10: 74, top3: 18, traffic: 1243, pages: 18, avgPos: 28.3, ctr: 2.4 },
-      { month: "Nov '25", keywords: 512, top10: 98, top3: 24, traffic: 1876, pages: 28, avgPos: 24.8, ctr: 2.9 },
-      { month: "Dec '25", keywords: 594, top10: 121, top3: 29, traffic: 2634, pages: 37, avgPos: 22.1, ctr: 3.2 },
-      { month: "Jan '26", keywords: 698, top10: 149, top3: 34, traffic: 3542, pages: 46, avgPos: 19.7, ctr: 3.6 },
-      { month: "Feb '26", keywords: 847, top10: 183, top3: 41, traffic: 4817, pages: 56, avgPos: 17.4, ctr: 4.1 },
+      { month: "Aug '25", keywords: 227, top10: 32, top3: 7, traffic: 508, pages: 8, avgPos: 50.6, ctr: 0.9 },
+      { month: "Sep '25", keywords: 768, top10: 88, top3: 29, traffic: 1685, pages: 11, avgPos: 47.5, ctr: 1.1 },
+      { month: "Oct '25", keywords: 1171, top10: 101, top3: 21, traffic: 2021, pages: 19, avgPos: 43.3, ctr: 1.3 },
+      { month: "Nov '25", keywords: 2296, top10: 321, top3: 78, traffic: 7864, pages: 18, avgPos: 39.5, ctr: 2.2 },
+      { month: "Dec '25", keywords: 3855, top10: 408, top3: 76, traffic: 9049, pages: 20, avgPos: 38.2, ctr: 1.6 },
+      { month: "Jan '26", keywords: 5181, top10: 748, top3: 246, traffic: 17064, pages: 33, avgPos: 37.7, ctr: 2.0 },
+      { month: "Feb '26", keywords: 6360, top10: 609, top3: 111, traffic: 19605, pages: 39, avgPos: 22.9, ctr: 3.8 }
     ],
   },
   paidAds: {
@@ -99,7 +99,7 @@ export const mensClothingBrand: CaseStudyData = {
       { label: "Total Ad Spend", value: "$143.8K" },
       { label: "Total Orders", value: "4,642" },
       { label: "Avg Cost Per Visit", value: "$1.24", note: "↓38% from $2.01" },
-      { label: "Blended ROAS", value: "3.38x", note: "from 2.1x baseline" },
+      { label: "Blended ROAS", value: "3.4x", note: "from 2.1x baseline" },
     ],
     columnLabels: {
       leads: "Sessions",

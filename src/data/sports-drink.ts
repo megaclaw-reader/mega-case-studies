@@ -7,7 +7,7 @@ export const sportsDrink: CaseStudyData = {
   subheadline: "MEGA partnered with a direct-to-consumer sports drink brand to deploy always-on AI optimization and high-velocity creative testing — growing monthly ROAS from 2.40x to 6.17x, generating 6,306 orders, and producing over $230K in ecommerce revenue across 8 months with a blended 4.86x ROAS.",
   heroStats: [
     { value: "6.17", unit: "x", label: "Peak ROAS Achieved" },
-    { value: "230.2", unit: "K", label: "Revenue Generated" },
+    { value: "$230.2K", unit: "K", label: "Revenue Generated" },
     { value: "6,306", unit: "", label: "Total Orders" },
   ],
   tags: ["Ecommerce", "Paid Advertising", "DTC", "Beverage"],

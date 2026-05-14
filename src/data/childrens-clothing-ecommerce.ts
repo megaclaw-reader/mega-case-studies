@@ -7,7 +7,7 @@ export const childrensClothingEcommerce: CaseStudyData = {
   subheadline: "MEGA deployed always-on AI optimization agents to overhaul a broken ad account structure, fix tracking gaps, and systematically scale a children's clothing ecommerce brand from an unprofitable 1.49x ROAS to a 3.83x peak monthly ROAS — generating 5,481 orders and $276.4K in revenue across 11 months of paid advertising.",
   heroStats: [
     { value: "3.83", unit: "x", label: "Peak Monthly ROAS" },
-    { value: "$276.4", unit: "K", label: "Total Revenue Generated" },
+    { value: "$276.4K", unit: "K", label: "Total Revenue Generated" },
     { value: "5,481", unit: "", label: "Total Orders" },
   ],
   tags: ["Ecommerce", "Paid Advertising", "DTC", "Children's Clothing"],

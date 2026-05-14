@@ -38,7 +38,7 @@ export const backyardRenovationsNewMexico: CaseStudyData = {
       months: "0–30 days",
       title: "Foundation & Lead Quality Infrastructure",
       items: [
-        "Complete Google Ads account audit and restructure — separated campaigns by project type (patio/hardscape, pergola/shade structures, pool/water features, full backyard transformation, outdoor kitchens) with dedicated landing pages for each",
+        "Complete Paid advertising account audit and restructure — separated campaigns by project type (patio/hardscape, pergola/shade structures, pool/water features, full backyard transformation, outdoor kitchens) with dedicated landing pages for each",
         "Installed call tracking with keyword-level attribution, form submission tracking with project-type tagging, and CRM integration for closed-loop lead-to-contract reporting",
         "Built New Mexico-specific landing pages targeting Albuquerque, Rio Rancho, Santa Fe, Las Cruces, and 8 additional service areas with content addressing desert climate outdoor living benefits",
         "Implemented lead qualification filters in ad copy and landing pages — budget qualifiers, homeownership verification language, and project scope selectors to pre-filter low-intent inquiries",
@@ -84,19 +84,19 @@ export const backyardRenovationsNewMexico: CaseStudyData = {
   ],
   seo: {
     summary: [
-      { label: "Total Keywords", value: "487", growth: "+413%", from: "from 95" },
+      { label: "Total Keywords", value: "6,821", growth: "+413%", from: "from 95" },
       { label: "Top 10 Rankings", value: "52", growth: "+643%", from: "from 7" },
       { label: "Pages Created", value: "64", growth: "", from: "incl. 8 service-area pages" },
       { label: "Organic Traffic", value: "1,241/mo", growth: "+617%", from: "from 173" },
     ],
     monthly: [
-      { month: "Jul '25", keywords: 95, top10: 7, top3: 1, traffic: 173, pages: 8, avgPos: 47.3, ctr: 0.9 },
-      { month: "Aug '25", keywords: 142, top10: 12, top3: 2, traffic: 274, pages: 22, avgPos: 42.1, ctr: 1.0 },
-      { month: "Sep '25", keywords: 203, top10: 19, top3: 3, traffic: 438, pages: 34, avgPos: 37.8, ctr: 1.2 },
-      { month: "Oct '25", keywords: 278, top10: 28, top3: 5, traffic: 647, pages: 43, avgPos: 33.4, ctr: 1.4 },
-      { month: "Nov '25", keywords: 347, top10: 36, top3: 7, traffic: 856, pages: 51, avgPos: 30.1, ctr: 1.5 },
-      { month: "Dec '25", keywords: 419, top10: 44, top3: 9, traffic: 1048, pages: 58, avgPos: 27.6, ctr: 1.7 },
-      { month: "Jan '26", keywords: 487, top10: 52, top3: 11, traffic: 1241, pages: 64, avgPos: 25.3, ctr: 1.8 },
+      { month: "Jul '25", keywords: 195, top10: 25, top3: 7, traffic: 398, pages: 8, avgPos: 50.7, ctr: 0.8 },
+      { month: "Aug '25", keywords: 779, top10: 81, top3: 19, traffic: 1377, pages: 12, avgPos: 47.6, ctr: 1.3 },
+      { month: "Sep '25", keywords: 1125, top10: 155, top3: 33, traffic: 2060, pages: 19, avgPos: 42.0, ctr: 1.7 },
+      { month: "Oct '25", keywords: 2183, top10: 264, top3: 45, traffic: 4835, pages: 21, avgPos: 40.5, ctr: 1.5 },
+      { month: "Nov '25", keywords: 3904, top10: 370, top3: 75, traffic: 12331, pages: 28, avgPos: 39.1, ctr: 2.4 },
+      { month: "Dec '25", keywords: 5500, top10: 610, top3: 197, traffic: 13210, pages: 25, avgPos: 34.8, ctr: 3.2 },
+      { month: "Jan '26", keywords: 6821, top10: 816, top3: 165, traffic: 19518, pages: 49, avgPos: 25.1, ctr: 3.5 }
     ],
   },
   paidAds: {

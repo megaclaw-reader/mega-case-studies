@@ -106,36 +106,24 @@ export const lawFirmMontreal: CaseStudyData = {
   ],
   seo: {
     summary: [
-      { label: "Total Keywords", value: "1,487", growth: "+940%", from: "from 143" },
+      { label: "Total Keywords", value: "9,252", growth: "+940%", from: "from 143" },
       { label: "Top 10 Rankings", value: "167", growth: "+1,191%", from: "from 13" },
       { label: "Pages Created", value: "112", growth: "", from: "incl. 56 bilingual neighborhood pages" },
       { label: "Organic Traffic", value: "1,183/mo", growth: "+312%", from: "from 287" },
     ],
     monthly: [
-      // Month 1: Baseline — inherited site, audit underway, mid-winter Montreal
-      { month: "Jan 2025", keywords: 143, top10: 13, top3: 1, traffic: 287, pages: 11, avgPos: 48.3, ctr: 0.8 },
-      // Month 2: Technical fixes live, first bilingual content batch, GBP optimized
-      { month: "Feb 2025", keywords: 198, top10: 18, top3: 2, traffic: 321, pages: 27, avgPos: 44.7, ctr: 0.9 },
-      // Month 3: Content indexing, neighborhood pages launching, spring starting
-      { month: "Mar 2025", keywords: 289, top10: 27, top3: 3, traffic: 398, pages: 43, avgPos: 41.2, ctr: 1.0 },
-      // Month 4: Spring — PI season starting (construction), immigration uptick
-      { month: "Apr 2025", keywords: 394, top10: 39, top3: 5, traffic: 487, pages: 55, avgPos: 38.1, ctr: 1.1 },
-      // Month 5: Strong spring — bilingual pages gaining traction, long-tail breaking through
-      { month: "May 2025", keywords: 512, top10: 53, top3: 7, traffic: 578, pages: 64, avgPos: 35.4, ctr: 1.2 },
-      // Month 6: Summer — slight seasonal softening for family law, PI strong
-      { month: "Jun 2025", keywords: 634, top10: 67, top3: 9, traffic: 651, pages: 72, avgPos: 33.1, ctr: 1.3 },
-      // Month 7: Mid-summer — authority building, French content compounding
-      { month: "Jul 2025", keywords: 748, top10: 79, top3: 11, traffic: 723, pages: 79, avgPos: 31.2, ctr: 1.3 },
-      // Month 8: Late summer — consistent gains, backlink campaigns paying off
-      { month: "Aug 2025", keywords: 867, top10: 93, top3: 14, traffic: 801, pages: 86, avgPos: 29.4, ctr: 1.4 },
-      // Month 9: September — custody/family law surge, strong organic pipeline
-      { month: "Sep 2025", keywords: 987, top10: 109, top3: 17, traffic: 894, pages: 93, avgPos: 27.8, ctr: 1.5 },
-      // Month 10: Fall — compound gains across all practice areas
-      { month: "Oct 2025", keywords: 1098, top10: 124, top3: 20, traffic: 967, pages: 100, avgPos: 26.3, ctr: 1.6 },
-      // Month 11: Late fall — strong authority, PI and immigration terms dominating
-      { month: "Nov 2025", keywords: 1287, top10: 146, top3: 23, traffic: 1078, pages: 106, avgPos: 25.1, ctr: 1.7 },
-      // Month 12: Year-end — peak authority, bilingual dominance established
-      { month: "Dec 2025", keywords: 1487, top10: 167, top3: 27, traffic: 1183, pages: 112, avgPos: 23.7, ctr: 1.8 },
+      { month: "Jan 2025", keywords: 186, top10: 26, top3: 7, traffic: 286, pages: 8, avgPos: 49.7, ctr: 0.7 },
+      { month: "Feb 2025", keywords: 668, top10: 90, top3: 23, traffic: 1063, pages: 14, avgPos: 44.8, ctr: 1.1 },
+      { month: "Mar 2025", keywords: 915, top10: 111, top3: 37, traffic: 1955, pages: 14, avgPos: 43.7, ctr: 1.3 },
+      { month: "Apr 2025", keywords: 2668, top10: 308, top3: 88, traffic: 6500, pages: 21, avgPos: 38.0, ctr: 1.6 },
+      { month: "May 2025", keywords: 3777, top10: 323, top3: 95, traffic: 9626, pages: 34, avgPos: 39.8, ctr: 2.5 },
+      { month: "Jun 2025", keywords: 4721, top10: 407, top3: 120, traffic: 10042, pages: 30, avgPos: 29.2, ctr: 2.3 },
+      { month: "Jul 2025", keywords: 6062, top10: 857, top3: 162, traffic: 20917, pages: 50, avgPos: 23.0, ctr: 2.8 },
+      { month: "Aug 2025", keywords: 7004, top10: 868, top3: 201, traffic: 18435, pages: 51, avgPos: 30.1, ctr: 3.4 },
+      { month: "Sep 2025", keywords: 7738, top10: 680, top3: 194, traffic: 19497, pages: 44, avgPos: 25.2, ctr: 4.0 },
+      { month: "Oct 2025", keywords: 8226, top10: 1180, top3: 240, traffic: 26559, pages: 79, avgPos: 21.2, ctr: 3.0 },
+      { month: "Nov 2025", keywords: 8752, top10: 774, top3: 134, traffic: 20669, pages: 72, avgPos: 8, ctr: 4.0 },
+      { month: "Dec 2025", keywords: 9252, top10: 1105, top3: 361, traffic: 22335, pages: 58, avgPos: 19.6, ctr: 4.6 }
     ],
   },
   paidAds: {

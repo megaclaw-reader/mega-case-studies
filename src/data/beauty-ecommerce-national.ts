@@ -7,7 +7,7 @@ export const beautyEcommerceNational: CaseStudyData = {
   subheadline: "MEGA deployed always-on AI optimization agents and a dual SEO + paid advertising strategy to help a small national beauty brand scale from $5K/month in ad spend with stagnant organic visibility to a 5.49x peak ROAS, 4,194 orders, and over $260K in ecommerce revenue across 9 months — while growing organic traffic from 378 to 5,909 monthly sessions.",
   heroStats: [
     { value: "5.49", unit: "x", label: "Peak ROAS Achieved" },
-    { value: "$260.4", unit: "K", label: "Revenue Generated" },
+    { value: "$260.4K", unit: "K", label: "Revenue Generated" },
     { value: "2,099", unit: "%", label: "Keyword Growth" },
   ],
   tags: ["Ecommerce", "SEO", "Paid Advertising", "DTC", "Beauty"],
@@ -21,7 +21,7 @@ export const beautyEcommerceNational: CaseStudyData = {
   challenges: [
     {
       title: "Stagnant ROAS at 1.9x on a Tight Monthly Budget",
-      description: "The brand was spending $4,000–$5,000 per month on Meta ads but couldn't break past a ~1.9x ROAS. At this budget level, every dollar of waste was felt immediately. The founder was running 3–4 ad creatives that had been live for over three months — the same product-on-marble-background shots recycled with different copy overlays. There was no separation between prospecting and retargeting, no product-level campaign segmentation, and no systematic approach to audience testing. Budget was split evenly across campaigns regardless of performance, and optimizations happened sporadically — whenever the founder had time between product development, fulfillment, and customer service. The result was a paid channel that generated revenue but was increasingly unprofitable when factoring in product costs, shipping, and the founder's time managing it.",
+      description: "The brand was spending $4,000–$5,000 per month on paid social but couldn't break past a ~1.9x ROAS. At this budget level, every dollar of waste was felt immediately. The founder was running 3–4 ad creatives that had been live for over three months — the same product-on-marble-background shots recycled with different copy overlays. There was no separation between prospecting and retargeting, no product-level campaign segmentation, and no systematic approach to audience testing. Budget was split evenly across campaigns regardless of performance, and optimizations happened sporadically — whenever the founder had time between product development, fulfillment, and customer service. The result was a paid channel that generated revenue but was increasingly unprofitable when factoring in product costs, shipping, and the founder's time managing it.",
     },
     {
       title: "Zero Organic Visibility in a Crowded Beauty Category",

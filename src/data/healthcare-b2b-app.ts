@@ -8,7 +8,7 @@ export const healthcareB2bApp: CaseStudyData = {
   heroStats: [
     { value: "7", unit: "months", label: "Partnership Duration" },
     { value: "150", unit: "", label: "Qualified HR Leads" },
-    { value: "$253", unit: "K", label: "Revenue Generated" },
+    { value: "$253.0K", unit: "K", label: "Revenue Generated" },
   ],
   tags: ["Paid Advertising", "B2B Lead Generation", "AI-Powered Optimization"],
   company: {

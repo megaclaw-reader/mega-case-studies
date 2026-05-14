@@ -7,7 +7,7 @@ export const beautyProductsEcommerce: CaseStudyData = {
   subheadline: "MEGA deployed AI-powered creative testing and always-on optimization to help a large DTC beauty brand break through creative fatigue, scale monthly ad spend from $518K to $796K, and nearly double ROAS — generating over $16.4M in ecommerce revenue across 5 months with a 4.72x blended ROAS.",
   heroStats: [
     { value: "5.48", unit: "x", label: "Peak ROAS Achieved" },
-    { value: "16.5", unit: "M", label: "Revenue Generated" },
+    { value: "$16.5M", unit: "M", label: "Revenue Generated" },
     { value: "252,579", unit: "", label: "Total Orders" },
   ],
   tags: ["Ecommerce", "Paid Advertising", "DTC", "Beauty"],

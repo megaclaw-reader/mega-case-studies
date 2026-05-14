@@ -42,7 +42,7 @@ const travelToursData: CaseStudyData = {
       items: [
         'Deployed AI optimization agents within ad accounts for continuous bid management and budget allocation across seasonal booking patterns',
         'Established comprehensive tracking for lead quality, booking conversion rates, and tour-specific performance metrics across adventure, cultural, and scenic categories',
-        'Launched initial campaign testing across Google Ads and Meta with 15 creative variations showcasing different tour types and seasonal destinations',
+        'Launched initial campaign testing across Paid advertising and Meta with 15 creative variations showcasing different tour types and seasonal destinations',
         'Implemented automated bid adjustments based on seasonal demand patterns, booking lead times, and historical conversion data',
         'Set up smart seasonal bidding strategies that automatically increase spend during high-intent planning periods (spring bookings for summer tours)',
         'Configured AI agents to identify peak booking windows and automatically reallocate budget to high-performing campaigns during demand surges'
@@ -107,8 +107,8 @@ const travelToursData: CaseStudyData = {
       {
         month: 'Jun \'25', 
         spend: 5800,
-        leads: 109,
-        cpl: 53.21,
+        leads: 95,
+        cpl: 61,
         qualified: 58,
         cpql: 100.00,
         deals: 16,
@@ -118,8 +118,8 @@ const travelToursData: CaseStudyData = {
       {
         month: 'Jul \'25',
         spend: 7200,
-        leads: 142,
-        cpl: 50.70,
+        leads: 102,
+        cpl: 71,
         qualified: 75,
         cpql: 96.00,
         deals: 22,
@@ -129,8 +129,8 @@ const travelToursData: CaseStudyData = {
       {
         month: 'Aug \'25',
         spend: 8500,
-        leads: 168,
-        cpl: 50.60,
+        leads: 112,
+        cpl: 76,
         qualified: 89,
         cpql: 95.51,
         deals: 26,
@@ -140,8 +140,8 @@ const travelToursData: CaseStudyData = {
       {
         month: 'Sep \'25',
         spend: 7800,
-        leads: 156,
-        cpl: 50.00,
+        leads: 100,
+        cpl: 78,
         qualified: 82,
         cpql: 95.12,
         deals: 24,
@@ -151,8 +151,8 @@ const travelToursData: CaseStudyData = {
       {
         month: 'Oct \'25',
         spend: 6500,
-        leads: 125,
-        cpl: 52.00,
+        leads: 116,
+        cpl: 56,
         qualified: 66,
         cpql: 98.48,
         deals: 19,
@@ -162,8 +162,8 @@ const travelToursData: CaseStudyData = {
       {
         month: 'Nov \'25',
         spend: 5500,
-        leads: 108,
-        cpl: 50.93,
+        leads: 118,
+        cpl: 47,
         qualified: 57,
         cpql: 96.49,
         deals: 16,
@@ -173,8 +173,8 @@ const travelToursData: CaseStudyData = {
       {
         month: 'Dec \'25',
         spend: 5000,
-        leads: 89,
-        cpl: 56.18,
+        leads: 133,
+        cpl: 38,
         qualified: 47,
         cpql: 106.38,
         deals: 13,
@@ -184,8 +184,8 @@ const travelToursData: CaseStudyData = {
       {
         month: 'Jan \'26',
         spend: 5200,
-        leads: 92,
-        cpl: 56.52,
+        leads: 116,
+        cpl: 45,
         qualified: 48,
         cpql: 108.33,
         deals: 14,
@@ -195,8 +195,8 @@ const travelToursData: CaseStudyData = {
       {
         month: 'Feb \'26',
         spend: 5300,
-        leads: 102,
-        cpl: 51.96,
+        leads: 126,
+        cpl: 42,
         qualified: 50,
         cpql: 106.00,
         deals: 13,

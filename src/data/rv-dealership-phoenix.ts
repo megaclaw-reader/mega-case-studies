@@ -29,7 +29,7 @@ export const rvDealershipPhoenix: CaseStudyData = {
     },
     {
       title: "Flat $40K Budget Missing Arizona's RV Seasonal Goldmines",
-      description: "Arizona RV demand follows dramatic seasonal patterns that Desert Trails wasn't capitalizing on. Spring (February-April) brings massive snowbird activity as seasonal residents purchase upgrades before heading north, while fall (October-November) sees surge demand for winter purchases and service appointments preparing for Arizona's peak season. Summer actually drives strong service revenue as residents prep RVs for weekend mountain escapes, and December brings holiday gift purchases of smaller RVs and accessories. Despite these predictable patterns, their $40K monthly ad spend remained flat year-round, missing peak opportunities to capture surge demand when buyers were most active and competitive CPCs were highest due to increased advertiser activity.",
+      description: "Arizona RV demand follows dramatic seasonal patterns that Desert Trails wasn't capitalizing on. Spring (February-April) brings massive snowbird activity as seasonal residents purchase upgrades before heading north, while fall (October-November) sees surge demand for winter purchases and service appointments preparing for Arizona's peak season. Summer actually drives strong service revenue as residents prep RVs for weekend mountain escapes, and December brings holiday gift purchases of smaller RVs and accessories. Despite these predictable patterns, their $40K monthly ad spend remained flat year-round, missing peak opportunities to capture surge demand when buyers were most active and competitive Cost Per Visits were highest due to increased advertiser activity.",
     },
   ],
   strategy: [
@@ -62,7 +62,7 @@ export const rvDealershipPhoenix: CaseStudyData = {
         "High-ticket motorhome campaigns targeting luxury RV buyers ($200K-$500K+) with premium ad creative, exclusive inventory showcases, and VIP consultation scheduling",
         "Service department optimization — 'RV Service Phoenix,' 'Mobile Home Repair Arizona' landing pages with online scheduling, service checklists, and maintenance package promotions",
         "Local SEO expansion targeting surrounding Arizona communities — Chandler, Glendale, Peoria, Casa Grande, Yuma with location-specific content and service area pages",
-        "Google Ads location extensions and call-out extensions highlighting each location's specializations — Phoenix for largest inventory, Tucson for service excellence, Flagstaff for mountain camping expertise",
+        "Paid advertising location extensions and call-out extensions highlighting each location's specializations — Phoenix for largest inventory, Tucson for service excellence, Flagstaff for mountain camping expertise",
         "Retargeting campaigns for showroom visitors, inventory browsers, and service schedulers with personalized messaging based on RV type viewed and location visited",
         "Commercial B2B outreach integration — LinkedIn campaigns targeting construction managers, event planners, and facility managers with fleet RV solutions",
         "Trade-in campaign optimization — 'Sell My RV Phoenix' and 'RV Trade-In Value' pages driving inventory turnover and capturing sellers as potential buyers for upgrades",
@@ -114,9 +114,9 @@ export const rvDealershipPhoenix: CaseStudyData = {
     summary: [
       { label: "Total Ad Spend", value: "$632.8K", note: "12-month campaign investment" },
       { label: "Qualified Leads", value: "1,460", note: "Showroom visits + sales consultations" },
-      { label: "Avg CPQL", value: "$332", note: "29% reduction from pre-MEGA baseline" },
+      { label: "Avg CPQL", value: "$433", note: "29% reduction from pre-MEGA baseline" },
       { label: "Revenue Attributed", value: "$2.74M", note: "Sales + service + parts revenue" },
-      { label: "Blended ROAS", value: "4.33x", note: "High-ticket RV sales drive strong returns" },
+      { label: "Blended ROAS", value: "4.3x", note: "High-ticket RV sales drive strong returns" },
     ],
     columnLabels: {
       leads: "Total Leads",

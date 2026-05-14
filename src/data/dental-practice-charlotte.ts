@@ -40,7 +40,7 @@ export const dentalPracticeCharlotte: CaseStudyData = {
       items: [
         "Full site audit — sitemap, robots.txt, crawlability, site speed, and mobile-first technical review for local dental search signals",
         "Google Business Profile optimization — updated NAP consistency across 40+ directories, added service categories, optimized photos and business description for Charlotte-area searches",
-        "Google Search Console setup and local keyword baseline measurement across dental verticals in the Charlotte market",
+        "Search engine Console setup and local keyword baseline measurement across dental verticals in the Charlotte market",
         "Competitor research across Charlotte dental practices — identified gaps in neighborhood coverage and service-specific content",
         "Keyword research spanning general dentistry, cosmetic dentistry, dental implants, emergency dental, and Invisalign queries for Charlotte NC",
         "Generated 14 initial articles — dental implant guides, cosmetic dentistry FAQs, insurance explainers, and Charlotte-specific oral health content",
