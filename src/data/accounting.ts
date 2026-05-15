@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const accounting: CaseStudyData = {
   slug: "accounting",
   industry: "Accounting",
-  headline: "How a California Accounting Firm Generated $275K in New Revenue With AI-Powered Marketing",
+  headline: "How a California Accounting Firm Generated $324K in New Revenue With AI-Powered Marketing",
   subheadline: "MEGA helped a local accounting firm in California optimize their digital marketing, reducing cost per qualified lead by 26%, growing organic traffic 858%, and acquiring 35 new clients over 12 months.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
     { value: "858", unit: "%", label: "Organic Traffic Growth" },
-    { value: "$275.0K", unit: "K", label: "Revenue Attributed" },
+    { value: "$323.5K", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["SEO Strategy", "Paid Advertising", "Local SEO"],
   company: {
@@ -129,29 +129,29 @@ export const accounting: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$84.0K" },
-      { label: "Qualified Leads", value: "359" },
-      { label: "Avg Cost Per Qualified Lead", value: "$234", note: "↓73% from $856" },
+      { label: "Qualified Leads", value: "170" },
+      { label: "Avg Cost Per Qualified Lead", value: "$494", note: "↓42% from $856" },
       { label: "New Clients Acquired", value: "35" },
     ],
     monthly: [
-      { month: "Aug 2025", spend: 6547, leads: 46, cpl: 142.33, qualified: 23, cpql: 284.65, deals: 1, revenue: 8947.0, roas: 1.37 },
-      { month: "Sep 2025", spend: 6712, leads: 52, cpl: 129.08, qualified: 26, cpql: 258.15, deals: 2, revenue: 14847.0, roas: 2.21 },
-      { month: "Oct 2025", spend: 6614, leads: 49, cpl: 134.98, qualified: 23, cpql: 287.57, deals: 2, revenue: 11847.0, roas: 1.79 },
-      { month: "Nov 2025", spend: 6793, leads: 57, cpl: 119.18, qualified: 25, cpql: 271.72, deals: 2, revenue: 14293.0, roas: 2.1 },
-      { month: "Dec 2025", spend: 6847, leads: 63, cpl: 108.68, qualified: 22, cpql: 311.23, deals: 2, revenue: 17293.0, roas: 2.53 },
-      { month: "Jan 2026", spend: 6891, leads: 60, cpl: 114.85, qualified: 28, cpql: 246.11, deals: 3, revenue: 20847.0, roas: 3.03 },
-      { month: "Feb 2026", spend: 7023, leads: 65, cpl: 108.05, qualified: 31, cpql: 226.55, deals: 3, revenue: 25847.0, roas: 3.68 },
-      { month: "Mar 2026", spend: 7184, leads: 74, cpl: 97.08, qualified: 35, cpql: 205.26, deals: 4, revenue: 31293.0, roas: 4.36 },
-      { month: "Apr 2026", spend: 7134, leads: 79, cpl: 90.3, qualified: 31, cpql: 230.13, deals: 3, revenue: 26847.0, roas: 3.76 },
-      { month: "May 2026", spend: 7347, leads: 85, cpl: 86.44, qualified: 35, cpql: 209.91, deals: 4, revenue: 33847.0, roas: 4.61 },
-      { month: "Jun 2026", spend: 7389, leads: 90, cpl: 82.1, qualified: 39, cpql: 189.46, deals: 4, revenue: 33847.0, roas: 4.58 },
-      { month: "Jul 2026", spend: 7512, leads: 101, cpl: 74.38, qualified: 41, cpql: 183.22, deals: 5, revenue: 35293.0, roas: 4.7 }
+      { month: "Aug 2025", spend: 6547, leads: 46, cpl: 142.33, qualified: 9, cpql: 727.65, deals: 2, revenue: 19829.0, roas: 3.03 },
+      { month: "Sep 2025", spend: 6712, leads: 52, cpl: 129.08, qualified: 12, cpql: 559.15, deals: 3, revenue: 26220.0, roas: 3.91 },
+      { month: "Oct 2025", spend: 6614, leads: 49, cpl: 134.98, qualified: 9, cpql: 735.57, deals: 2, revenue: 14893.0, roas: 2.25 },
+      { month: "Nov 2025", spend: 6793, leads: 57, cpl: 119.18, qualified: 12, cpql: 566.72, deals: 3, revenue: 28260.0, roas: 4.16 },
+      { month: "Dec 2025", spend: 6847, leads: 63, cpl: 108.68, qualified: 12, cpql: 571.23, deals: 3, revenue: 27758.0, roas: 4.05 },
+      { month: "Jan 2026", spend: 6891, leads: 60, cpl: 114.85, qualified: 14, cpql: 492.11, deals: 3, revenue: 25912.0, roas: 3.76 },
+      { month: "Feb 2026", spend: 7023, leads: 65, cpl: 108.05, qualified: 12, cpql: 585.55, deals: 3, revenue: 25971.0, roas: 3.7 },
+      { month: "Mar 2026", spend: 7184, leads: 74, cpl: 97.08, qualified: 14, cpql: 513.26, deals: 4, revenue: 29526.0, roas: 4.11 },
+      { month: "Apr 2026", spend: 7134, leads: 79, cpl: 90.3, qualified: 16, cpql: 446.13, deals: 4, revenue: 30224.0, roas: 4.24 },
+      { month: "May 2026", spend: 7347, leads: 85, cpl: 86.44, qualified: 18, cpql: 408.91, deals: 4, revenue: 31519.0, roas: 4.29 },
+      { month: "Jun 2026", spend: 7389, leads: 90, cpl: 82.1, qualified: 17, cpql: 435.46, deals: 5, revenue: 30960.0, roas: 4.19 },
+      { month: "Jul 2026", spend: 7512, leads: 101, cpl: 74.38, qualified: 25, cpql: 300.22, deals: 7, revenue: 32452.0, roas: 4.32 }
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$275.0K", growth: "+189%" },
+    { label: "Total Revenue", value: "$323.5K", growth: "+189%" },
     { label: "New Clients Acquired", value: "35", growth: "from ads + organic" },
     { label: "Avg Revenue Per Client", value: "$7,857", growth: "first-year value" },
-    { label: "Blended ROAS", value: "3.3x", growth: "" },
+    { label: "Blended ROAS", value: "3.85x", growth: "" },
   ],
 };

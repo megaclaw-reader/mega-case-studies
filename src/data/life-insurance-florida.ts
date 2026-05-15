@@ -142,6 +142,6 @@ export const lifeInsuranceFloridaNew: CaseStudyData = {
     { label: "Total Commission Revenue", value: "$102.8K", growth: "+243%" },
     { label: "Total Active Policies", value: "73", growth: "" },
     { label: "Avg Commission Per Policy", value: "$1,408", growth: "" },
-    { label: "Blended ROAS", value: "3.2x", growth: "" },
+    { label: "Blended ROAS", value: "3.17x", growth: "" },
   ],
 };

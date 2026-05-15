@@ -4,7 +4,7 @@ export const drywallRepair: CaseStudyData = {
   slug: "drywall-repair",
   industry: "Drywall Repair",
   headline: "How a 6-Person Phoenix Drywall Crew Scaled From 47 to 200+ Booked Jobs Per Month With AI-Powered Marketing",
-  subheadline: "MEGA helped a drywall repair specialist in Phoenix build a high-velocity lead engine — scaling from 93 to 379 monthly leads, dropping cost per lead by 51%, and generating $414K in revenue over 12 months while growing from 6 to 9 employees.",
+  subheadline: "MEGA helped a drywall repair specialist in Phoenix build a high-velocity lead engine — scaling from 93 to 379 monthly leads, dropping cost per lead by 51%, and generating $200.1K in revenue over 12 months while growing from 6 to 9 employees.",
   heroStats: [
     { value: "400", unit: "", label: "Peak Booked Jobs" },
     { value: "200.1", unit: "K", label: "12-Month Revenue" },
@@ -209,7 +209,7 @@ export const drywallRepair: CaseStudyData = {
   },
   impact: [
     { label: "Total Revenue", value: "$200.1K", growth: "+124% annualized run rate" },
-    { label: "Peak Booked Jobs", value: "201/mo", growth: "+328% from 47" },
+    { label: "Peak Booked Jobs", value: "400", growth: "+328% from 47" },
     { label: "Cost Per Lead", value: "$36.70", growth: "↓58% from $87" },
     { label: "Team Growth", value: "6 → 9 employees", growth: "3 techs hired to meet demand" },
   ],

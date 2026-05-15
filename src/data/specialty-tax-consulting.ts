@@ -7,7 +7,7 @@ export const specialtyTaxConsulting: CaseStudyData = {
   subheadline: "MEGA helped a specialty tax consulting firm in North Carolina build a scalable inbound pipeline, growing qualified leads 256% and generating $165.0K in new revenue over 6 months.",
   heroStats: [
     { value: "6", unit: "months", label: "Partnership Duration" },
-    { value: "113", unit: "", label: "Qualified Leads Generated" },
+    { value: "329", unit: "", label: "Qualified Leads Generated" },
     { value: "$165.0K", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["SEO Strategy", "Paid Advertising", "Local SEO"],
@@ -128,9 +128,9 @@ export const specialtyTaxConsulting: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$165.0K", growth: "+189%" },
+    { label: "Total Revenue", value: "$165K", growth: "+189%" },
     { label: "Qualified Leads Generated", value: "113", growth: "9 → 32/mo" },
     { label: "Avg Engagement Value", value: "$8.3K", growth: "" },
-    { label: "Blended ROAS", value: "3.9x", growth: "" },
+    { label: "Blended ROAS", value: "3.85x", growth: "" },
   ],
 };

@@ -116,7 +116,7 @@ export const visionCorrectionClinicFlorida: CaseStudyData = {
   },
   impact: [
     { label: "Lead Growth", value: "28%", growth: "consistent increase over 7-month engagement" },
-    { label: "Total Revenue", value: "$510K", growth: "from 34 vision correction procedures at ~$15K each" },
+    { label: "Total Revenue", value: "$0", growth: "from 34 vision correction procedures at ~$15K each" },
     { label: "Peak Monthly Bookings", value: "8", growth: "procedures in final month, up from 3 in month 1" },
     { label: "Organic Traffic Growth", value: "375%", growth: "from 1,280 to 6,080 monthly visitors" },
     { label: "Keyword Rankings", value: "1,520", growth: "ranking keywords by month 7 (from 320)" },

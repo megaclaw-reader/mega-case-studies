@@ -3,7 +3,7 @@ import { CaseStudyData } from "./types";
 export const childrensClothingEcommerce: CaseStudyData = {
   slug: "childrens-clothing-ecommerce",
   industry: "Children's Clothing Ecommerce",
-  headline: "How a National Children's Clothing Brand Grew From 1.49x to 3.22x Blended ROAS in 11 Months — Generating $276K in Revenue",
+  headline: "How a National Children's Clothing Brand Grew From 1.49x to 3.22x Blended ROAS in 11 Months — Generating $276.4K in Revenue",
   subheadline: "MEGA deployed always-on AI optimization agents to overhaul a broken ad account structure, fix tracking gaps, and systematically scale a children's clothing ecommerce brand from an unprofitable 1.49x ROAS to a 3.83x peak monthly ROAS — generating 5,481 orders and $276.4K in revenue across 11 months of paid advertising.",
   heroStats: [
     { value: "3.83", unit: "x", label: "Peak Monthly ROAS" },
@@ -118,6 +118,6 @@ export const childrensClothingEcommerce: CaseStudyData = {
     { label: "Total Revenue", value: "$276.4K", growth: "+116% ROAS improvement" },
     { label: "Total Orders", value: "5,481", growth: "across 11 months" },
     { label: "Average Order Value", value: "$50.44", growth: "children's clothing category" },
-    { label: "Blended ROAS", value: "3.2x", growth: "from 1.49x starting" },
+    { label: "Blended ROAS", value: "3.22x", growth: "from 1.49x starting" },
   ],
 };

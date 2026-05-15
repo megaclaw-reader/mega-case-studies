@@ -3,7 +3,7 @@ import { CaseStudyData } from "./types";
 export const garageDoorRepairs: CaseStudyData = {
   slug: "garage-door-repairs",
   industry: "Garage Door Repairs",
-  headline: "How a Denver Garage Door Company Generated $186K in Revenue With AI-Powered Marketing",
+  headline: "How a Denver Garage Door Company Generated $186.3K in Revenue With AI-Powered Marketing",
   subheadline: "MEGA helped a full-service garage door repair and installation company in Denver optimize their local SEO and paid advertising, reducing cost per qualified lead by 34%, growing organic traffic 389%, and generating $346.4K in attributed revenue over 8 months.",
   heroStats: [
     { value: "8", unit: "months", label: "Partnership Duration" },
@@ -147,6 +147,6 @@ export const garageDoorRepairs: CaseStudyData = {
     { label: "Total Revenue", value: "$186.3K", growth: "+153%" },
     { label: "Total Pipeline", value: "$578K", growth: "+127%" },
     { label: "Avg Job Value", value: "$847", growth: "" },
-    { label: "Blended ROAS", value: "1.0x", growth: "" },
+    { label: "Blended ROAS", value: "1.04x", growth: "" },
   ],
 };

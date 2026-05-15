@@ -3,13 +3,13 @@ import { CaseStudyData } from "./types";
 export const homeImprovementPhoenix: CaseStudyData = {
   slug: "home-improvement-phoenix",
   industry: "Home Improvement",
-  headline: "Phoenix Home Improvement Company Achieves 4.0x ROAS and $543K in Revenue with AI-Powered Marketing",
+  headline: "Phoenix Home Improvement Company Achieves 3.4x ROAS and $455K in Revenue with AI-Powered Marketing",
   subheadline: "How MEGA's always-on optimization and creative strategy generated 562 qualified leads and 126 signed contracts for a growing Phoenix contractor over 12 months",
   heroStats: [
-    { value: "$543.0", unit: "K", label: "Revenue Attributed" },
-    { value: "556", unit: "", label: "Qualified Leads" },
+    { value: "$455.2K", unit: "K", label: "Revenue Attributed" },
+    { value: "413", unit: "", label: "Qualified Leads" },
     { value: "126", unit: "", label: "Signed Contracts" },
-    { value: "4.0", unit: "x", label: "Blended ROAS" }
+    { value: "3.4", unit: "x", label: "Blended ROAS" }
   ],
   tags: ["Paid Advertising", "SEO Strategy", "AI-Powered Optimization", "Lead Generation"],
   company: {
@@ -75,12 +75,12 @@ export const homeImprovementPhoenix: CaseStudyData = {
     summary: [
       { label: "Total Spend", value: "$135.2K" },
       { label: "Total Leads", value: "1,998" },
-      { label: "Qualified Leads", value: "556" },
+      { label: "Qualified Leads", value: "413" },
       { label: "Avg Cost Per Lead", value: "$68" },
-      { label: "Avg CPQL", value: "$243" },
+      { label: "Avg CPQL", value: "$327" },
       { label: "Signed Contracts", value: "126" },
-      { label: "Total Revenue", value: "$543.0K" },
-      { label: "Blended ROAS", value: "4.0x" }
+      { label: "Total Revenue", value: "$455.2K" },
+      { label: "Blended ROAS", value: "3.4x" }
     ],
     columnLabels: {
       leads: "Leads",
@@ -96,132 +96,132 @@ export const homeImprovementPhoenix: CaseStudyData = {
         spend: 10000,
         leads: 142,
         cpl: 70.4,
-        qualified: 38,
-        cpql: 263,
-        deals: 8,
-        revenue: 43200,
-        roas: 4.32
+        qualified: 33,
+        cpql: 303,
+        deals: 9,
+        revenue: 37861,
+        roas: 3.79
       },
       {
         month: "Feb '25", 
         spend: 10200,
         leads: 139,
         cpl: 73.4,
-        qualified: 41,
-        cpql: 248,
-        deals: 9,
-        revenue: 29682,
-        roas: 2.91
+        qualified: 32,
+        cpql: 319,
+        deals: 8,
+        revenue: 28855,
+        roas: 2.83
       },
       {
         month: "Mar '25",
         spend: 11500,
         leads: 167,
         cpl: 68.9,
-        qualified: 48,
-        cpql: 239,
-        deals: 11,
-        revenue: 46575,
-        roas: 4.05
+        qualified: 33,
+        cpql: 348,
+        deals: 8,
+        revenue: 33851,
+        roas: 2.94
       },
       {
         month: "Apr '25",
         spend: 12000,
         leads: 183,
         cpl: 65.6,
-        qualified: 52,
-        cpql: 231,
-        deals: 12,
-        revenue: 45840,
-        roas: 3.82
+        qualified: 32,
+        cpql: 375,
+        deals: 8,
+        revenue: 34610,
+        roas: 2.88
       },
       {
         month: "May '25",
         spend: 11800,
         leads: 178,
         cpl: 66.3,
-        qualified: 49,
-        cpql: 240,
-        deals: 11,
-        revenue: 54280,
-        roas: 4.60
+        qualified: 41,
+        cpql: 288,
+        deals: 13,
+        revenue: 46113,
+        roas: 3.91
       },
       {
         month: "Jun '25",
         spend: 10500,
         leads: 158,
         cpl: 66.5,
-        qualified: 43,
-        cpql: 244,
-        deals: 9,
-        revenue: 48300,
-        roas: 4.60
+        qualified: 29,
+        cpql: 362,
+        deals: 7,
+        revenue: 29009,
+        roas: 2.76
       },
       {
         month: "Jul '25",
         spend: 10200,
         leads: 147,
         cpl: 69.4,
-        qualified: 39,
-        cpql: 261,
+        qualified: 26,
+        cpql: 392,
         deals: 8,
-        revenue: 46920,
-        roas: 4.60
+        revenue: 26799,
+        roas: 2.63
       },
       {
         month: "Aug '25",
         spend: 10300,
         leads: 152,
         cpl: 67.8,
-        qualified: 42,
-        cpql: 245,
-        deals: 9,
-        revenue: 32960,
-        roas: 3.2
+        qualified: 27,
+        cpql: 381,
+        deals: 7,
+        revenue: 25249,
+        roas: 2.45
       },
       {
         month: "Sep '25",
         spend: 11200,
         leads: 171,
         cpl: 65.5,
-        qualified: 47,
-        cpql: 238,
+        qualified: 34,
+        cpql: 329,
         deals: 11,
-        revenue: 52864,
-        roas: 4.72
+        revenue: 45677,
+        roas: 4.08
       },
       {
         month: "Oct '25",
         spend: 12500,
         leads: 189,
         cpl: 66.1,
-        qualified: 53,
-        cpql: 236,
-        deals: 13,
-        revenue: 36750,
-        roas: 2.94
+        qualified: 44,
+        cpql: 284,
+        deals: 11,
+        revenue: 48667,
+        roas: 3.89
       },
       {
         month: "Nov '25",
         spend: 13200,
         leads: 198,
         cpl: 66.7,
-        qualified: 56,
-        cpql: 236,
-        deals: 14,
-        revenue: 50160,
-        roas: 3.8
+        qualified: 46,
+        cpql: 287,
+        deals: 13,
+        revenue: 51918,
+        roas: 3.93
       },
       {
         month: "Dec '25",
         spend: 11800,
         leads: 174,
         cpl: 67.8,
-        qualified: 48,
-        cpql: 246,
+        qualified: 36,
+        cpql: 328,
         deals: 11,
-        revenue: 55460,
-        roas: 4.70
+        revenue: 46617,
+        roas: 3.95
       }
     ]
   },
@@ -248,8 +248,8 @@ export const homeImprovementPhoenix: CaseStudyData = {
     ]
   },
   impact: [
-    { label: "Total Revenue", value: "$543.0K", growth: "Generated from paid advertising campaigns" },
-    { label: "Total Qualified Leads", value: "556", growth: "From 1,998 total leads generated" },
+    { label: "Total Revenue", value: "$455.2K", growth: "Generated from paid advertising campaigns" },
+    { label: "Total Qualified Leads", value: "413", growth: "From 1,998 total leads generated" },
     { label: "Avg Deal Value", value: "$4,309", growth: "Varies by project type" },
     { label: "Organic Traffic Growth", value: "+1159%", growth: "From 340 to 4,280 monthly visitors" },
     { label: "Keyword Expansion", value: "+221%", growth: "From 125 to 402 ranking keywords" },

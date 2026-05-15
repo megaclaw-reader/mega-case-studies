@@ -125,7 +125,7 @@ export const cosmeticDentistryAustin: CaseStudyData = {
   impact: [
     { label: "Total Revenue", value: "$187.4K", growth: "+112%" },
     { label: "Cosmetic Procedures Booked", value: "58", growth: "+94%" },
-    { label: "Blended ROAS", value: "3.2x", growth: "" },
+    { label: "Blended ROAS", value: "3.19x", growth: "" },
     { label: "Authority Score", value: "22", growth: "+57% from 14" },
   ],
 };

@@ -4,7 +4,7 @@ export const flooringMiami: CaseStudyData = {
   slug: "flooring-miami",
   industry: "Flooring",
   headline: "Miami Flooring Company Cuts Cost Per Qualified Lead 43% with AI-Powered Optimization",
-  subheadline: "MEGA helped a Miami-based flooring contractor implement data-driven feedback loops between their CRM and ad platforms, reducing CPQL from $69 to $60, generating $847K in revenue, and building sustainable organic presence across 8,247 keyword rankings over 11 months.",
+  subheadline: "MEGA helped a Miami-based flooring contractor implement data-driven feedback loops between their CRM and ad platforms, reducing CPQL from $69 to $60, generating $213.9K in revenue, and building sustainable organic presence across 8,247 keyword rankings over 11 months.",
   heroStats: [
     { value: "43", unit: "%", label: "CPQL Reduction" },
     { value: "127", unit: "", label: "Avg Monthly Leads" },
@@ -129,7 +129,7 @@ export const flooringMiami: CaseStudyData = {
   impact: [
     { label: "CPQL Reduction", value: "43%", growth: "from $69 to $60" },
     { label: "Total Revenue", value: "$213.9K", growth: "127 deals closed" },
-    { label: "Average ROAS", value: "3.4x", growth: "peak 4.7x" },
+    { label: "Average ROAS", value: "3.41x", growth: "peak 4.7x" },
     { label: "Organic Leads", value: "218/mo", growth: "+2,625%" },
   ],
 };

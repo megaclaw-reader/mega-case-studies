@@ -142,7 +142,7 @@ export const educationTraining: CaseStudyData = {
   },
   impact: [
     { label: "Total Revenue", value: "$347.1K", growth: "+347%" },
-    { label: "Blended ROAS", value: "3.8x", growth: "" },
+    { label: "Blended ROAS", value: "3.79x", growth: "" },
     { label: "Organic Traffic Growth", value: "+3,731%", growth: "" },
     { label: "Cost Per Qualified Lead", value: "↓34%", growth: "from $211 to $140" },
   ],

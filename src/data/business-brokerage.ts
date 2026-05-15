@@ -9,7 +9,7 @@ export const businessBrokerage: CaseStudyData = {
     { value: "$121.1K", unit: "K", label: "Revenue Attributed" },
     { value: "81", unit: "%", label: "Cost/Qualified Lead Reduction" },
     { value: "2.5x", unit: "x", label: "Average ROAS" },
-    { value: "52", unit: "%", label: "Qualified Lead Rate (Final)" }
+    { value: "292", unit: "%", label: "Qualified Lead Rate (Final)" }
   ],
   tags: ["Paid Advertising", "AI-Powered Optimization", "B2B Lead Generation", "Pipeline Acceleration"],
   company: {
@@ -200,7 +200,7 @@ export const businessBrokerage: CaseStudyData = {
   },
   impact: [
     { label: "Total Revenue Attributed", value: "$121.1K", growth: "From $0 digital pipeline" },
-    { label: "Blended ROAS", value: "2.5x", growth: "Against $34,312 total spend" },
+    { label: "Blended ROAS", value: "2.53x", growth: "Against $34,312 total spend" },
     { label: "Total Qualified Leads", value: "292", growth: "43.1% qualification rate" },
     { label: "Signed Listings/Engagements", value: "18", growth: "From 0 digitally sourced" },
     { label: "Cost Per Qualified Lead Reduction", value: "81%", growth: "From $693 to $134" },

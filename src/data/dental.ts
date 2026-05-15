@@ -140,6 +140,6 @@ export const dental: CaseStudyData = {
     { label: "Total Revenue", value: "$293.3K", growth: "+74%" },
     { label: "New Patients Acquired", value: "187", growth: "+72%" },
     { label: "Avg Revenue Per Patient", value: "$293.3K", growth: "" },
-    { label: "Blended ROAS", value: "3.6x", growth: "" },
+    { label: "Blended ROAS", value: "3.65x", growth: "" },
   ],
 };

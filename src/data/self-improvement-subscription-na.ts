@@ -116,6 +116,6 @@ export const selfImprovementSubscriptionNA: CaseStudyData = {
     { label: "Total Subscription Revenue", value: "$140.0K", growth: "+187%" },
     { label: "New Paid Subscribers", value: "333", growth: "+164%" },
     { label: "Trial-to-Paid Conversion", value: "21.9%", growth: "+2.1pts" },
-    { label: "Blended ROAS", value: "0.9x", growth: "+54%" },
+    { label: "Blended ROAS", value: "0.90x", growth: "+54%" },
   ],
 };

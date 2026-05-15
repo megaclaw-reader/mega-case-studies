@@ -182,6 +182,6 @@ export const hvac: CaseStudyData = {
     { label: "Total Revenue", value: "$180.5K", growth: "+198%" },
     { label: "Total Qualified Leads", value: "323", growth: "+38% lower CPL" },
     { label: "Avg Revenue Per Job", value: "$180.5K", growth: "" },
-    { label: "Blended ROAS", value: "3.9x", growth: "" },
+    { label: "Blended ROAS", value: "3.94x", growth: "" },
   ],
 };

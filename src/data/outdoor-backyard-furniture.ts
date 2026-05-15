@@ -145,6 +145,6 @@ export const outdoorBackyardFurniture: CaseStudyData = {
     { label: "Total Revenue", value: "$202.0K", growth: "+217%" },
     { label: "Total Orders", value: "1,015", growth: "ecommerce growth" },
     { label: "Average Order Value", value: "1,015", growth: "" },
-    { label: "Blended ROAS", value: "2.4x", growth: "" },
+    { label: "Blended ROAS", value: "2.38x", growth: "" },
   ],
 };

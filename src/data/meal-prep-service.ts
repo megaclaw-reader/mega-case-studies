@@ -130,6 +130,6 @@ export const mealPrepService: CaseStudyData = {
     { label: "Total Revenue", value: "$291.7K", growth: "+243%" },
     { label: "New Subscribers", value: "188", growth: "+271%" },
     { label: "Cost Per Qualified Lead", value: "$81", growth: "↓47%" },
-    { label: "Blended ROAS", value: "3.6x", growth: "" },
+    { label: "Blended ROAS", value: "3.58x", growth: "" },
   ],
 };

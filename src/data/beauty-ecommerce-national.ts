@@ -3,7 +3,7 @@ import { CaseStudyData } from "./types";
 export const beautyEcommerceNational: CaseStudyData = {
   slug: "beauty-ecommerce-national",
   industry: "Beauty Products",
-  headline: "How a DTC Beauty Brand Achieved 4.01x Blended ROAS While Building a 5,900+ Monthly Organic Traffic Engine — Generating $260K in Revenue",
+  headline: "How a DTC Beauty Brand Achieved 4.01x Blended ROAS While Building a 5,900+ Monthly Organic Traffic Engine — Generating $260.4K in Revenue",
   subheadline: "MEGA deployed always-on AI optimization agents and a dual SEO + paid advertising strategy to help a small national beauty brand scale from $5K/month in ad spend with stagnant organic visibility to a 5.49x peak ROAS, 4,194 orders, and over $260K in ecommerce revenue across 9 months — while growing organic traffic from 378 to 5,909 monthly sessions.",
   heroStats: [
     { value: "5.49", unit: "x", label: "Peak ROAS Achieved" },
@@ -113,29 +113,29 @@ export const beautyEcommerceNational: CaseStudyData = {
     },
     monthly: [
       // Apr 2025: Baseline month — inheriting founder-managed campaigns at ~2.0x ROAS. Restructuring begins. AI agents deployed.
-      { month: "Apr '25", spend: 5040, leads: 4383, cpl: 1.15, qualified: 395, cpql: 12.76, deals: 178, revenue: 9968, roas: 1.98 },
+      { month: "Apr '25", spend: 5040, leads: 4383, cpl: 1.15, qualified: 159, cpql: 32.76, deals: 178, revenue: 9968, roas: 1.98 },
       // May 2025: New campaign architecture live. Attribution cleanup. Early creative testing gains.
-      { month: "May '25", spend: 5280, leads: 4757, cpl: 1.11, qualified: 461, cpql: 11.45, deals: 224, revenue: 12768, roas: 2.42 },
+      { month: "May '25", spend: 5280, leads: 4757, cpl: 1.11, qualified: 193, cpql: 27.45, deals: 224, revenue: 12768, roas: 2.42 },
       // Jun 2025: AI agents fully active. Summer skincare interest rising. Creative testing scaled to 15+ variations.
-      { month: "Jun '25", spend: 5640, leads: 5412, cpl: 1.04, qualified: 557, cpql: 10.13, deals: 289, revenue: 16762, roas: 2.97 },
+      { month: "Jun '25", spend: 5640, leads: 5412, cpl: 1.04, qualified: 186, cpql: 30.13, deals: 289, revenue: 16762, roas: 2.97 },
       // Jul 2025: Summer peak. AI shifted budget to body care and SPF-adjacent categories. Retargeting sequences maturing.
-      { month: "Jul '25", spend: 6130, leads: 6130, cpl: 1.00, qualified: 650, cpql: 9.43, deals: 352, revenue: 21120, roas: 3.45 },
+      { month: "Jul '25", spend: 6130, leads: 6130, cpl: 1.00, qualified: 209, cpql: 29.43, deals: 352, revenue: 21120, roas: 3.45 },
       // Aug 2025: Mid-summer optimization. AI identified high-LTV audience segments and shifted budget automatically.
-      { month: "Aug '25", spend: 6580, leads: 6843, cpl: 0.96, qualified: 746, cpql: 8.82, deals: 414, revenue: 25254, roas: 3.84 },
+      { month: "Aug '25", spend: 6580, leads: 6843, cpl: 0.96, qualified: 277, cpql: 24.82, deals: 414, revenue: 25254, roas: 3.84 },
       // Sep 2025: Fall transition. Google Shopping expansion launched. Organic traffic compounding.
-      { month: "Sep '25", spend: 7020, leads: 7579, cpl: 0.93, qualified: 842, cpql: 8.34, deals: 479, revenue: 29702, roas: 4.23 },
+      { month: "Sep '25", spend: 7020, leads: 7579, cpl: 0.93, qualified: 311, cpql: 23.34, deals: 479, revenue: 29702, roas: 4.23 },
       // Oct 2025: Q4 preparation. Pre-warming holiday audiences. Gift set campaigns tested.
-      { month: "Oct '25", spend: 7640, leads: 8404, cpl: 0.91, qualified: 948, cpql: 8.06, deals: 541, revenue: 34624, roas: 4.53 },
+      { month: "Oct '25", spend: 7640, leads: 8404, cpl: 0.91, qualified: 300, cpql: 25.06, deals: 541, revenue: 34624, roas: 4.53 },
       // Nov 2025: BLACK FRIDAY — budget scaled aggressively. AI managed real-time bid adjustments across all ad sets.
-      { month: "Nov '25", spend: 11840, leads: 13882, cpl: 0.85, qualified: 1666, cpql: 7.11, deals: 999, revenue: 64935, roas: 5.49 },
+      { month: "Nov '25", spend: 11840, leads: 13882, cpl: 0.85, qualified: 435, cpql: 27.11, deals: 999, revenue: 64935, roas: 5.49 },
       // Dec 2025: Holiday gifting tail. Budget stays elevated for gift purchases. Strong organic traffic compound effect.
-      { month: "Dec '25", spend: 9720, leads: 11800, cpl: 0.82, qualified: 1283, cpql: 7.58, deals: 718, revenue: 45234, roas: 4.65 },
+      { month: "Dec '25", spend: 9720, leads: 11800, cpl: 0.82, qualified: 423, cpql: 23.58, deals: 718, revenue: 45234, roas: 4.65 },
     ],
   },
   impact: [
     { label: "Total Revenue", value: "$260.4K", growth: "+177% ROAS improvement" },
     { label: "Total Orders", value: "4,194", growth: "across 9 months" },
     { label: "Average Order Value", value: "$62.08", growth: "beauty product category" },
-    { label: "Blended ROAS", value: "4.0x", growth: "from 1.98x starting" },
+    { label: "Blended ROAS", value: "4.01x", growth: "from 1.98x starting" },
   ],
 };

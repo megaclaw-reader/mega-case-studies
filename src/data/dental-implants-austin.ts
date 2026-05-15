@@ -8,7 +8,7 @@ export const dentalImplantsAustin: CaseStudyData = {
   heroStats: [
     { value: "11", unit: "months", label: "Partnership Duration" },
     { value: "$785.9K", unit: "K", label: "Revenue Attributed" },
-    { value: "1143", unit: "", label: "Qualified Leads" },
+    { value: "1,143", unit: "", label: "Qualified Leads" },
     { value: "3.6", unit: "x", label: "Blended ROAS" },
   ],
   tags: ["Paid Advertising", "Lead Quality Optimization", "Dental Implants"],
@@ -125,6 +125,6 @@ export const dentalImplantsAustin: CaseStudyData = {
     { label: "Total Revenue", value: "$785.9K", growth: "+326%" },
     { label: "Closed Implant Cases", value: "92", growth: "+333%" },
     { label: "Lead Qualification Rate", value: "49.3%", growth: "↑from 30.8%" },
-    { label: "Blended ROAS", value: "3.6x", growth: "" },
+    { label: "Blended ROAS", value: "3.65x", growth: "" },
   ],
 };

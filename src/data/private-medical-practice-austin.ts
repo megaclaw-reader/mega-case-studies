@@ -144,6 +144,6 @@ export const privateMedicalPracticeAustin: CaseStudyData = {
     { label: "Total Revenue", value: "$356.4K", growth: "+189%" },
     { label: "New Patients", value: "107", growth: "+320%" },
     { label: "Lead Qualification Rate", value: "42.3%", growth: "↑from 19%" },
-    { label: "Blended ROAS", value: "3.6x", growth: "" },
+    { label: "Blended ROAS", value: "3.63x", growth: "" },
   ],
 };

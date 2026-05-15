@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const artisanHomeGoodsPortland: CaseStudyData = {
   slug: "artisan-home-goods-portland",
   industry: "Artisan Home Goods Ecommerce",
-  headline: "How a Portland Artisan Home Goods Brand Scaled From 2.3x to 4.6x Blended ROAS — Generating $496K in Revenue Over 12 Months",
+  headline: "How a Portland Artisan Home Goods Brand Scaled From 2.3x to 4.6x Blended ROAS — Generating $497.3K in Revenue Over 12 Months",
   subheadline: "MEGA deployed always-on AI optimization agents, rebuilt campaign architecture from the ground up, and launched a comprehensive SEO content strategy for a direct-to-consumer artisan home décor brand based in Portland, Oregon. Over 12 months, cost per visit dropped 36%, add-to-cart rates improved steadily, organic traffic grew past 9,400 monthly visitors, and the brand generated $496K in attributed ecommerce revenue.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
     { value: "6.73", unit: "x", label: "Peak ROAS Achieved" },
-    { value: "$495.8K", unit: "K", label: "Revenue Generated" },
+    { value: "$497.3K", unit: "K", label: "Revenue Generated" },
   ],
   tags: ["Ecommerce", "SEO", "Paid Advertising", "DTC", "Home Décor"],
   company: {
@@ -118,35 +118,35 @@ export const artisanHomeGoodsPortland: CaseStudyData = {
     },
     monthly: [
       // Feb 2025: Baseline month — inheriting existing campaigns. Restructuring begins.
-      { month: "Feb '25", spend: 7120, leads: 4300, cpl: 1.66, qualified: 344, cpql: 20.70, deals: 162, revenue: 16848.00, roas: 2.37 },
+      { month: "Feb '25", spend: 7120, leads: 4300, cpl: 1.66, qualified: 110, cpql: 65.70, deals: 162, revenue: 16848.00, roas: 2.37 },
       // Mar 2025: New architecture deployed. AI agents active. Early optimization.
-      { month: "Mar '25", spend: 7340, leads: 4600, cpl: 1.60, qualified: 391, cpql: 18.77, deals: 188, revenue: 19740.00, roas: 2.69 },
+      { month: "Mar '25", spend: 7340, leads: 4600, cpl: 1.60, qualified: 154, cpql: 48.77, deals: 188, revenue: 19740.00, roas: 2.69 },
       // Apr 2025: Spring home refresh season. Creative testing ramping up.
-      { month: "Apr '25", spend: 7680, leads: 5200, cpl: 1.48, qualified: 468, cpql: 16.41, deals: 234, revenue: 25038.00, roas: 3.26 },
+      { month: "Apr '25", spend: 7680, leads: 5200, cpl: 1.48, qualified: 158, cpql: 49.41, deals: 234, revenue: 25038.00, roas: 3.26 },
       // May 2025: AI identified high-performing audience segments. Budget scaling begins.
-      { month: "May '25", spend: 8150, leads: 5900, cpl: 1.38, qualified: 531, cpql: 15.35, deals: 276, revenue: 29808.00, roas: 3.66 },
+      { month: "May '25", spend: 8150, leads: 5900, cpl: 1.38, qualified: 187, cpql: 44.35, deals: 276, revenue: 29808.00, roas: 3.66 },
       // Jun 2025: Summer decorating peak. Retargeting sequences matured.
-      { month: "Jun '25", spend: 8470, leads: 6400, cpl: 1.32, qualified: 608, cpql: 13.93, deals: 322, revenue: 34454.00, roas: 4.07 },
+      { month: "Jun '25", spend: 8470, leads: 6400, cpl: 1.32, qualified: 180, cpql: 47.93, deals: 322, revenue: 34454.00, roas: 4.07 },
       // Jul 2025: Continued scaling. Shopping campaigns launched.
-      { month: "Jul '25", spend: 8820, leads: 6900, cpl: 1.28, qualified: 655, cpql: 13.47, deals: 352, revenue: 38016.00, roas: 4.31 },
+      { month: "Jul '25", spend: 8820, leads: 6900, cpl: 1.28, qualified: 185, cpql: 48.47, deals: 352, revenue: 38016.00, roas: 4.31 },
       // Aug 2025: Peak summer. AI driving continuous bid optimization. Strong performance.
-      { month: "Aug '25", spend: 9140, leads: 7300, cpl: 1.25, qualified: 693, cpql: 13.19, deals: 378, revenue: 40446.00, roas: 4.43 },
+      { month: "Aug '25", spend: 9140, leads: 7300, cpl: 1.25, qualified: 232, cpql: 39.19, deals: 378, revenue: 40446.00, roas: 4.43 },
       // Sep 2025: Fall transition. Pre-holiday preparation begins.
-      { month: "Sep '25", spend: 8690, leads: 6900, cpl: 1.26, qualified: 662, cpql: 13.13, deals: 358, revenue: 39022.00, roas: 4.49 },
+      { month: "Sep '25", spend: 8690, leads: 6900, cpl: 1.26, qualified: 163, cpql: 53.13, deals: 358, revenue: 39022.00, roas: 4.49 },
       // Oct 2025: Q4 ramp-up. Holiday audience pre-warming. Gift campaign testing.
-      { month: "Oct '25", spend: 9380, leads: 7700, cpl: 1.22, qualified: 755, cpql: 12.42, deals: 421, revenue: 46310.00, roas: 4.94 },
+      { month: "Oct '25", spend: 9380, leads: 7700, cpl: 1.22, qualified: 218, cpql: 43.42, deals: 421, revenue: 46310.00, roas: 4.94 },
       // Nov 2025: Black Friday / Cyber Monday. Budget scaled aggressively for holiday gifting.
-      { month: "Nov '25", spend: 12840, leads: 11700, cpl: 1.10, qualified: 1287, cpql: 9.98, deals: 772, revenue: 86464.00, roas: 6.73 },
+      { month: "Nov '25", spend: 12840, leads: 11700, cpl: 1.10, qualified: 315, cpql: 41.98, deals: 772, revenue: 86464.00, roas: 6.73 },
       // Dec 2025: Holiday gifting tail. Post-BFCM normalization with sustained holiday demand.
-      { month: "Dec '25", spend: 10180, leads: 10100, cpl: 1.01, qualified: 960, cpql: 10.60, deals: 528, revenue: 59928.00, roas: 5.89 },
+      { month: "Dec '25", spend: 10180, leads: 10100, cpl: 1.01, qualified: 294, cpql: 35.60, deals: 528, revenue: 59928.00, roas: 5.89 },
       // Jan 2026: New year home refresh surge. Strong momentum with mature campaign efficiency.
-      { month: "Jan '26", spend: 10480, leads: 10400, cpl: 1.01, qualified: 1040, cpql: 10.08, deals: 572, revenue: 61204.00, roas: 5.84 },
+      { month: "Jan '26", spend: 10480, leads: 10400, cpl: 1.01, qualified: 259, cpql: 40.08, deals: 572, revenue: 61204.00, roas: 5.84 },
     ],
   },
   impact: [
     { label: "Total Revenue", value: "$497.3K", growth: "+94% ROAS improvement" },
     { label: "Total Orders", value: "4,563", growth: "across 12 months" },
     { label: "Average Order Value", value: "$109.00", growth: "artisan home goods category" },
-    { label: "Blended ROAS", value: "4.6x", growth: "from 2.3x starting" },
+    { label: "Blended ROAS", value: "4.59x", growth: "from 2.3x starting" },
   ],
 };

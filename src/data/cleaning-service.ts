@@ -206,6 +206,6 @@ export const cleaningService: CaseStudyData = {
     { label: "Total Revenue", value: "$180.5K", growth: "+203%" },
     { label: "Closed Clients", value: "151", growth: "+178%" },
     { label: "Cost Per Qualified Lead", value: "$121", growth: "↓38%" },
-    { label: "Blended ROAS", value: "2.6x", growth: "" },
+    { label: "Blended ROAS", value: "2.62x", growth: "" },
   ],
 };

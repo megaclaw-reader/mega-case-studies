@@ -158,6 +158,6 @@ export const packagedFoods: CaseStudyData = {
     { label: "Total Revenue", value: "$289.5K", growth: "+327% ROAS improvement" },
     { label: "Total Orders", value: "5,582", growth: "across 12 months" },
     { label: "Average Order Value", value: "$51.87", growth: "specialty packaged foods" },
-    { label: "Blended ROAS", value: "3.1x", growth: "from 1.28x starting" },
+    { label: "Blended ROAS", value: "3.10x", growth: "from 1.28x starting" },
   ],
 };

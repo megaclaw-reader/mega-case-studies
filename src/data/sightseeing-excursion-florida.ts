@@ -154,6 +154,6 @@ export const sightseeingExcursionFlorida: CaseStudyData = {
     { label: "Total Revenue", value: "$309.0K", growth: "+284%" },
     { label: "Total Bookings", value: "1,639", growth: "+241%" },
     { label: "Avg Booking Value", value: "$189", growth: "" },
-    { label: "Blended ROAS", value: "3.0x", growth: "" },
+    { label: "Blended ROAS", value: "3.04x", growth: "" },
   ],
 };

@@ -142,6 +142,6 @@ export const healthWellness: CaseStudyData = {
     { label: "Total Revenue", value: "$306.7K", growth: "+197%" },
     { label: "Total Orders", value: "3,819", growth: "↓37% cost per cart" },
     { label: "Average Order Value", value: "4,715", growth: "" },
-    { label: "Blended ROAS", value: "2.2x", growth: "+94%" },
+    { label: "Blended ROAS", value: "2.17x", growth: "+94%" },
   ],
 };

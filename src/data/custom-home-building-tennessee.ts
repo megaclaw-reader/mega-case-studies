@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const customHomeBuildingTennessee: CaseStudyData = {
   slug: "custom-home-building-tennessee",
   industry: "Residential Home Building (Custom Homes)",
-  headline: "How a Tennessee Custom Home Builder Generated $600K in New Construction Contracts Through Targeted Marketing to Affluent Homeowners",
+  headline: "How a Tennessee Custom Home Builder Generated $507K in New Construction Contracts Through Targeted Marketing to Affluent Homeowners",
   subheadline: "MEGA helped a custom home building company in Tennessee reduce their cost per qualified consultation by 47% and close 21 high-value contracts worth $600K through AI-powered paid advertising and SEO targeting affluent professionals aged 35-55.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
-    { value: "$599.7K", unit: "K", label: "Revenue Attributed" },
-    { value: "3.8", unit: "x", label: "Blended ROAS" },
+    { value: "$507.4K", unit: "K", label: "Revenue Attributed" },
+    { value: "3.2", unit: "x", label: "Blended ROAS" },
   ],
   tags: ["SEO", "Paid Advertising", "Lead Generation", "Local"],
   company: {
@@ -102,8 +102,8 @@ export const customHomeBuildingTennessee: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$157.8K" },
-      { label: "Qualified Consultations", value: "1,350" },
-      { label: "Avg Cost Per Qualified Consultation", value: "$117" },
+      { label: "Qualified Consultations", value: "276" },
+      { label: "Avg Cost Per Qualified Consultation", value: "$572" },
       { label: "Signed Contracts", value: "21" },
     ],
     columnLabels: {
@@ -115,18 +115,18 @@ export const customHomeBuildingTennessee: CaseStudyData = {
       costPerDeal: "Cost/Contract",
     },
     monthly: [
-      { month: "Jan '25", spend: 10500, leads: 97, cpl: 108, qualified: 48, cpql: 218.75, deals: 1, revenue: 42525, roas: 4.05 },
-      { month: "Feb '25", spend: 11200, leads: 98, cpl: 114, qualified: 59, cpql: 189.83, deals: 1, revenue: 38752, roas: 3.46 },
-      { month: "Mar '25", spend: 12800, leads: 106, cpl: 121, qualified: 63, cpql: 203.17, deals: 1, revenue: 53376, roas: 4.17 },
-      { month: "Apr '25", spend: 13500, leads: 111, cpl: 122, qualified: 95, cpql: 142.11, deals: 2, revenue: 58455, roas: 4.33 },
-      { month: "May '25", spend: 14200, leads: 144, cpl: 99, qualified: 105, cpql: 135.24, deals: 2, revenue: 66882, roas: 4.71 },
-      { month: "Jun '25", spend: 15100, leads: 142, cpl: 106, qualified: 133, cpql: 113.53, deals: 2, revenue: 51491, roas: 3.41 },
-      { month: "Jul '25", spend: 15800, leads: 152, cpl: 104, qualified: 145, cpql: 108.97, deals: 2, revenue: 58934, roas: 3.73 },
-      { month: "Aug '25", spend: 16400, leads: 171, cpl: 96, qualified: 144, cpql: 113.89, deals: 2, revenue: 49364, roas: 3.01 },
-      { month: "Sep '25", spend: 13700, leads: 163, cpl: 84, qualified: 152, cpql: 90.13, deals: 2, revenue: 56307, roas: 4.11 },
-      { month: "Oct '25", spend: 12900, leads: 196, cpl: 66, qualified: 145, cpql: 88.97, deals: 2, revenue: 45408, roas: 3.52 },
-      { month: "Nov '25", spend: 11200, leads: 195, cpl: 57, qualified: 133, cpql: 84.21, deals: 1, revenue: 28224, roas: 2.52 },
-      { month: "Dec '25", spend: 10500, leads: 171, cpl: 61, qualified: 128, cpql: 82.03, deals: 2, revenue: 49980, roas: 4.76 },
+      { month: "Jan '25", spend: 10500, leads: 97, cpl: 108, qualified: 17, cpql: 618.75, deals: 5, revenue: 29317, roas: 2.79 },
+      { month: "Feb '25", spend: 11200, leads: 98, cpl: 114, qualified: 15, cpql: 747.83, deals: 4, revenue: 29593, roas: 2.64 },
+      { month: "Mar '25", spend: 12800, leads: 106, cpl: 121, qualified: 15, cpql: 853.17, deals: 4, revenue: 22418, roas: 1.75 },
+      { month: "Apr '25", spend: 13500, leads: 111, cpl: 122, qualified: 18, cpql: 750.11, deals: 5, revenue: 29601, roas: 2.19 },
+      { month: "May '25", spend: 14200, leads: 144, cpl: 99, qualified: 20, cpql: 710.24, deals: 7, revenue: 50088, roas: 3.53 },
+      { month: "Jun '25", spend: 15100, leads: 142, cpl: 106, qualified: 23, cpql: 657.53, deals: 6, revenue: 34072, roas: 2.26 },
+      { month: "Jul '25", spend: 15800, leads: 152, cpl: 104, qualified: 25, cpql: 632.97, deals: 7, revenue: 51858, roas: 3.28 },
+      { month: "Aug '25", spend: 16400, leads: 171, cpl: 96, qualified: 29, cpql: 566.89, deals: 8, revenue: 53166, roas: 3.24 },
+      { month: "Sep '25", spend: 13700, leads: 163, cpl: 84, qualified: 25, cpql: 548.13, deals: 7, revenue: 49169, roas: 3.59 },
+      { month: "Oct '25", spend: 12900, leads: 196, cpl: 66, qualified: 33, cpql: 391.97, deals: 9, revenue: 51268, roas: 3.97 },
+      { month: "Nov '25", spend: 11200, leads: 195, cpl: 57, qualified: 25, cpql: 448.21, deals: 7, revenue: 51628, roas: 4.61 },
+      { month: "Dec '25", spend: 10500, leads: 171, cpl: 61, qualified: 31, cpql: 339.03, deals: 9, revenue: 55231, roas: 5.26 },
     ],
   },
   organicConversions: {
@@ -186,9 +186,9 @@ export const customHomeBuildingTennessee: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$599.7K", growth: "+467%" },
-    { label: "Total Qualified Consultations", value: "1,350", growth: "↓50% Cost Per Consultation" },
-    { label: "Signed Contracts", value: "21", growth: "+233%" },
-    { label: "Blended ROAS", value: "3.8x", growth: "" },
+    { label: "Total Revenue", value: "$507.4K", growth: "+467%" },
+    { label: "Total Qualified Consultations", value: "276", growth: "↓50% Cost Per Consultation" },
+    { label: "Signed Contracts", value: "78", growth: "+233%" },
+    { label: "Blended ROAS", value: "3.22x", growth: "" },
   ],
 };

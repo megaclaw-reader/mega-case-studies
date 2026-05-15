@@ -137,6 +137,6 @@ export const dentalPracticeCharlotte: CaseStudyData = {
     { label: "Total Revenue", value: "$166.0K", growth: "+267%" },
     { label: "New Patients Acquired", value: "118", growth: "+267%" },
     { label: "Cost Per Qualified Lead", value: "$97", growth: "↓55%" },
-    { label: "Blended ROAS", value: "3.3x", growth: "" },
+    { label: "Blended ROAS", value: "3.33x", growth: "" },
   ],
 };

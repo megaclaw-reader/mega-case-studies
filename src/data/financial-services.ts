@@ -7,7 +7,7 @@ export const financialServices: CaseStudyData = {
   subheadline: "MEGA helped a mid-size financial planning firm in California build a dominant digital presence — cutting cost per qualified lead by 41%, ranking for 4,800+ keywords, and closing 34 new high-value clients through a combined SEO and paid advertising strategy.",
   heroStats: [
     { value: "8", unit: "months", label: "Partnership Duration" },
-    { value: "174", unit: "", label: "Qualified Lead Cost Reduction" },
+    { value: "946", unit: "", label: "Qualified Lead Cost Reduction" },
     { value: "1.1", unit: "M", label: "New Client Revenue" },
   ],
   tags: ["SEO Strategy", "Paid Advertising", "Lead Generation"],
@@ -185,7 +185,7 @@ export const financialServices: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "New Client Revenue Generated", value: "$1,083,700", growth: "" },
+    { label: "New Client Revenue Generated", value: "$1.08M", growth: "" },
     { label: "Total New Clients (Paid + Organic)", value: "42", growth: "+275%" },
     { label: "Blended Cost Per Client", value: "$6,898", growth: "↓41%" },
     { label: "Overall ROAS", value: "3.74x", growth: "" },

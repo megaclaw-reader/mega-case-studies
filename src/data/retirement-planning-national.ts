@@ -6,7 +6,7 @@ export const retirementPlanningNational: CaseStudyData = {
   headline: "How a National Retirement Planning Firm Generated 212 Qualified Leads and $392K in Recurring Revenue in 12 Months",
   subheadline: "MEGA helped a fee-only retirement planning advisory build a compliant digital acquisition engine — reducing cost per qualified lead by 71%, improving qualification rates from 11% to 36%, and growing organic visibility 4,280%.",
   heroStats: [
-    { value: "212", unit: "", label: "Qualified Leads Generated" },
+    { value: "139", unit: "", label: "Qualified Leads Generated" },
     { value: "71", unit: "%", label: "CPQL Reduction" },
     { value: "$392", unit: "K", label: "New Recurring Revenue" },
   ],
@@ -198,11 +198,11 @@ export const retirementPlanningNational: CaseStudyData = {
   },
   impact: [
     { label: "New AUM Acquired", value: "$39.2M", growth: "+12.3% of total AUM" },
-    { label: "New Annual Recurring Revenue", value: "$392K", growth: "1% AUM fee" },
+    { label: "New Annual Recurring Revenue", value: "$391.6K", growth: "1% AUM fee" },
     { label: "Projected 10-Year Client LTV", value: "$3.9M", growth: "recurring" },
     { label: "Total Qualified Leads (Paid + Organic)", value: "139", growth: "" },
     { label: "Qualification Rate Improvement", value: "11% → 36%", growth: "+227%" },
-    { label: "Blended ROAS (Year 1)", value: "4.2x", growth: "" },
+    { label: "Blended ROAS (Year 1)", value: "4.19x", growth: "" },
     { label: "Organic Qualified Leads", value: "139", growth: "$0 ad spend" },
   ],
 };

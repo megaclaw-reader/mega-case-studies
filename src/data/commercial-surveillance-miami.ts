@@ -8,7 +8,7 @@ export const commercialSurveillanceMiami: CaseStudyData = {
   heroStats: [
     { value: "59", unit: "%", label: "CPQL Reduction" },
     { value: "59", unit: "", label: "Commercial Projects Closed" },
-    { value: "$303", unit: "K", label: "Total Revenue Generated" },
+    { value: "$303.4K", unit: "K", label: "Total Revenue Generated" },
     { value: "4.4", unit: "x", label: "Blended ROAS" },
   ],
   tags: ["Lead Generation", "Paid Advertising", "SEO", "Commercial Security"],
@@ -122,7 +122,7 @@ export const commercialSurveillanceMiami: CaseStudyData = {
   impact: [
     { label: "CPQL Reduction", value: "59%", growth: "from $388 to $159" },
     { label: "Total Revenue", value: "$303.4K", growth: "59 projects closed" },
-    { label: "Blended ROAS", value: "4.4x", growth: "peak 4.6x" },
+    { label: "Blended ROAS", value: "4.36x", growth: "peak 4.6x" },
     { label: "Organic Keywords", value: "5,412", growth: "+5,137% from 103" },
   ],
 };

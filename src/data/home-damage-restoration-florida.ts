@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const homeDamageRestorationFlorida: CaseStudyData = {
   slug: "home-damage-restoration-florida",
   industry: "Home Damage Restoration",
-  headline: "How a Florida Home Damage Restoration Company Generated $1.5M in Revenue From Digital Marketing in 12 Months",
+  headline: "How a Florida Home Damage Restoration Company Generated $2.1M in Revenue From Digital Marketing in 12 Months",
   subheadline: "MEGA helped a Central Florida water damage and fire restoration contractor reduce their cost per qualified lead by 65% and close 140 deals worth $1.5M through AI-powered SEO and paid advertising — leveraging hurricane season demand and always-on campaign optimization across Orlando, Tampa, and Jacksonville markets.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
-    { value: "$1.50M", unit: "M", label: "Revenue Attributed" },
-    { value: "3.7", unit: "x", label: "Blended ROAS" },
+    { value: "$2.1M", unit: "M", label: "Revenue Attributed" },
+    { value: "5.3", unit: "x", label: "Blended ROAS" },
   ],
   tags: ["SEO", "Paid Advertising", "Lead Generation", "Local"],
   company: {
@@ -102,9 +102,9 @@ export const homeDamageRestorationFlorida: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$404.3K" },
-      { label: "Qualified Leads", value: "2,401" },
-      { label: "Avg Cost Per Qualified Lead", value: "$168" },
-      { label: "Closed Deals", value: "140" },
+      { label: "Qualified Leads", value: "697" },
+      { label: "Avg Cost Per Qualified Lead", value: "$580" },
+      { label: "Closed Deals", value: "216" },
     ],
     columnLabels: {
       leads: "Total Leads",
@@ -115,18 +115,18 @@ export const homeDamageRestorationFlorida: CaseStudyData = {
       costPerDeal: "Cost/Deal",
     },
     monthly: [
-      { month: "Jan '25", spend: 21800, leads: 134, cpl: 163, qualified: 71, cpql: 307, deals: 4, revenue: 68400, roas: 3.14 },
-      { month: "Feb '25", spend: 23400, leads: 152, cpl: 154, qualified: 84, cpql: 279, deals: 5, revenue: 87500, roas: 3.74 },
-      { month: "Mar '25", spend: 26700, leads: 178, cpl: 150, qualified: 102, cpql: 262, deals: 6, revenue: 106800, roas: 4.00 },
-      { month: "Apr '25", spend: 28900, leads: 204, cpl: 142, qualified: 124, cpql: 233, deals: 7, revenue: 129300, roas: 4.48 },
-      { month: "May '25", spend: 31200, leads: 237, cpl: 132, qualified: 149, cpql: 209, deals: 9, revenue: 97344, roas: 3.12 },
-      { month: "Jun '25", spend: 36800, leads: 289, cpl: 127, qualified: 187, cpql: 197, deals: 11, revenue: 141680, roas: 3.85 },
-      { month: "Jul '25", spend: 42100, leads: 346, cpl: 122, qualified: 231, cpql: 182, deals: 13, revenue: 154928, roas: 3.68 },
-      { month: "Aug '25", spend: 44600, leads: 378, cpl: 118, qualified: 257, cpql: 174, deals: 15, revenue: 140936, roas: 3.16 },
-      { month: "Sep '25", spend: 41300, leads: 398, cpl: 104, qualified: 271, cpql: 152, deals: 16, revenue: 154875, roas: 3.75 },
-      { month: "Oct '25", spend: 38700, leads: 421, cpl: 92, qualified: 289, cpql: 134, deals: 17, revenue: 159057, roas: 4.11 },
-      { month: "Nov '25", spend: 35200, leads: 447, cpl: 79, qualified: 307, cpql: 115, deals: 18, revenue: 168800, roas: 4.80 },
-      { month: "Dec '25", spend: 33600, leads: 476, cpl: 71, qualified: 329, cpql: 102, deals: 19, revenue: 94416, roas: 2.81 },
+      { month: "Jan '25", spend: 21800, leads: 134, cpl: 163, qualified: 28, cpql: 779, deals: 9, revenue: 84179, roas: 3.86 },
+      { month: "Feb '25", spend: 23400, leads: 152, cpl: 154, qualified: 31, cpql: 755, deals: 10, revenue: 103705, roas: 4.43 },
+      { month: "Mar '25", spend: 26700, leads: 178, cpl: 150, qualified: 34, cpql: 785, deals: 11, revenue: 116024, roas: 4.35 },
+      { month: "Apr '25", spend: 28900, leads: 204, cpl: 142, qualified: 38, cpql: 761, deals: 13, revenue: 144701, roas: 5.01 },
+      { month: "May '25", spend: 31200, leads: 237, cpl: 132, qualified: 47, cpql: 664, deals: 15, revenue: 138636, roas: 4.44 },
+      { month: "Jun '25", spend: 36800, leads: 289, cpl: 127, qualified: 52, cpql: 708, deals: 15, revenue: 134800, roas: 3.66 },
+      { month: "Jul '25", spend: 42100, leads: 346, cpl: 122, qualified: 72, cpql: 585, deals: 19, revenue: 202609, roas: 4.81 },
+      { month: "Aug '25", spend: 44600, leads: 378, cpl: 118, qualified: 63, cpql: 708, deals: 21, revenue: 246317, roas: 5.52 },
+      { month: "Sep '25", spend: 41300, leads: 398, cpl: 104, qualified: 72, cpql: 574, deals: 20, revenue: 204216, roas: 4.94 },
+      { month: "Oct '25", spend: 38700, leads: 421, cpl: 92, qualified: 87, cpql: 445, deals: 29, revenue: 285606, roas: 7.38 },
+      { month: "Nov '25", spend: 35200, leads: 447, cpl: 79, qualified: 80, cpql: 440, deals: 23, revenue: 263814, roas: 7.49 },
+      { month: "Dec '25", spend: 33600, leads: 476, cpl: 71, qualified: 93, cpql: 361, deals: 31, revenue: 203616, roas: 6.06 },
     ],
   },
   organicConversions: {
@@ -165,9 +165,9 @@ export const homeDamageRestorationFlorida: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$1.5M", growth: "+387%" },
-    { label: "Total Qualified Leads", value: "2,401", growth: "↓65% Cost Per Lead" },
-    { label: "Closed Deals", value: "140", growth: "+250%" },
-    { label: "Blended ROAS", value: "3.7x", growth: "" },
+    { label: "Total Revenue", value: "$2.13M", growth: "+387%" },
+    { label: "Total Qualified Leads", value: "697", growth: "↓65% Cost Per Lead" },
+    { label: "Closed Deals", value: "216", growth: "+250%" },
+    { label: "Blended ROAS", value: "5.26x", growth: "" },
   ],
 };

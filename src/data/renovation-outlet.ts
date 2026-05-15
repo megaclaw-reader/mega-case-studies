@@ -152,7 +152,7 @@ export const renovationOutlet: CaseStudyData = {
     { label: "Total Revenue", value: "$345.1K", growth: "+187%" },
     { label: "Total Orders", value: "2,283", growth: "ecommerce growth" },
     { label: "Average Order Value", value: "2,283", growth: "" },
-    { label: "Blended ROAS", value: "3.6x", growth: "" },
+    { label: "Blended ROAS", value: "3.64x", growth: "" },
     { label: "Organic Traffic", value: "+3,601%", growth: "347→12,841/mo" },
     { label: "Keywords Top 20", value: "8,247", growth: "from 87" },
   ],

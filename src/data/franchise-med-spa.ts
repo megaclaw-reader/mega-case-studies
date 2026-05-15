@@ -3,13 +3,13 @@ import { CaseStudyData } from "./types";
 export const franchiseMedSpa: CaseStudyData = {
   slug: "franchise-med-spa",
   industry: "Franchise Med Spa",
-  headline: "National Med Spa Franchise Scaled Paid Advertising Across 47 Locations, Generating $2.8M in Revenue Over 9 Months",
+  headline: "National Med Spa Franchise Scaled Paid Advertising Across 47 Locations, Generating $3.4M in Revenue Over 9 Months",
   subheadline: "Phased rollout from 10 pilot locations to full 47-location coverage drove 4.61x peak ROAS and 34,800 monthly organic visitors through coordinated paid and SEO strategy",
   heroStats: [
     { value: "$2.80M", unit: "M", label: "Total Revenue" },
-    { value: "4,746", unit: "", label: "Booked Appointments" },
+    { value: "2,343", unit: "", label: "Booked Appointments" },
     { value: "47", unit: "", label: "Locations Managed" },
-    { value: "3.8", unit: "x", label: "Blended ROAS" }
+    { value: "4.6", unit: "x", label: "Blended ROAS" }
   ],
   tags: ["Multi-Location Franchise", "Paid Advertising", "SEO Strategy", "National Campaign"],
   company: {
@@ -93,11 +93,11 @@ export const franchiseMedSpa: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$744.2K" },
-      { label: "Qualified Leads", value: "10,231" },
-      { label: "Avg Cost Per Qualified Lead", value: "$73", note: "↓46% from $60" },
-      { label: "Booked Appointments", value: "4,746", note: "avg treatment value $591" },
-      { label: "Total Revenue", value: "$2.8M" },
-      { label: "Blended ROAS", value: "3.8x" }
+      { label: "Qualified Leads", value: "4,472" },
+      { label: "Avg Cost Per Qualified Lead", value: "$166", note: "↓46% from $60" },
+      { label: "Booked Appointments", value: "2,343", note: "avg treatment value $591" },
+      { label: "Total Revenue", value: "$3.4M" },
+      { label: "Blended ROAS", value: "4.6x" }
     ],
     columnLabels: {
       leads: "Leads",
@@ -108,22 +108,22 @@ export const franchiseMedSpa: CaseStudyData = {
       costPerDeal: "Cost/Booking"
     },
     monthly: [
-      { month: "Jun '25", spend: 45876, leads: 689, cpl: 66.58, qualified: 399, cpql: 114.98, deals: 167, revenue: 96906, roas: 2.11 },
-      { month: "Jul '25", spend: 48312, leads: 842, cpl: 57.38, qualified: 531, cpql: 90.98, deals: 208, revenue: 121680, roas: 2.52 },
-      { month: "Aug '25", spend: 52645, leads: 961, cpl: 54.78, qualified: 589, cpql: 89.38, deals: 252, revenue: 148176, roas: 2.81 },
-      { month: "Sep '25", spend: 67890, leads: 1294, cpl: 52.47, qualified: 830, cpql: 81.8, deals: 371, revenue: 218468, roas: 3.22 },
-      { month: "Oct '25", spend: 78432, leads: 1545, cpl: 50.77, qualified: 1101, cpql: 71.24, deals: 478, revenue: 283556, roas: 3.61 },
-      { month: "Nov '25", spend: 91218, leads: 1871, cpl: 48.75, qualified: 1320, cpql: 69.1, deals: 612, revenue: 363528, roas: 3.99 },
-      { month: "Dec '25", spend: 105670, leads: 2249, cpl: 46.99, qualified: 1666, cpql: 63.43, deals: 734, revenue: 431324, roas: 4.08 },
-      { month: "Jan '26", spend: 119845, leads: 2672, cpl: 44.85, qualified: 1746, cpql: 68.64, deals: 882, revenue: 520380, roas: 4.34 },
-      { month: "Feb '26", spend: 134290, leads: 3152, cpl: 42.6, qualified: 2049, cpql: 65.54, deals: 1042, revenue: 618788, roas: 4.61 }
+      { month: "Jun '25", spend: 45876, leads: 689, cpl: 66.58, qualified: 194, cpql: 236.98, deals: 111, revenue: 161791, roas: 3.53 },
+      { month: "Jul '25", spend: 48312, leads: 842, cpl: 57.38, qualified: 236, cpql: 205.98, deals: 137, revenue: 184099, roas: 3.81 },
+      { month: "Aug '25", spend: 52645, leads: 961, cpl: 54.78, qualified: 262, cpql: 201.38, deals: 152, revenue: 207863, roas: 3.95 },
+      { month: "Sep '25", spend: 67890, leads: 1294, cpl: 52.47, qualified: 435, cpql: 156.8, deals: 239, revenue: 382727, roas: 5.64 },
+      { month: "Oct '25", spend: 78432, leads: 1545, cpl: 50.77, qualified: 398, cpql: 197.24, deals: 222, revenue: 296103, roas: 3.78 },
+      { month: "Nov '25", spend: 91218, leads: 1871, cpl: 48.75, qualified: 519, cpql: 176.1, deals: 228, revenue: 400485, roas: 4.39 },
+      { month: "Dec '25", spend: 105670, leads: 2249, cpl: 46.99, qualified: 629, cpql: 168.43, deals: 349, revenue: 505786, roas: 4.79 },
+      { month: "Jan '26", spend: 119845, leads: 2672, cpl: 44.85, qualified: 800, cpql: 150.64, deals: 450, revenue: 592696, roas: 4.95 },
+      { month: "Feb '26", spend: 134290, leads: 3152, cpl: 42.6, qualified: 999, cpql: 134.54, deals: 455, revenue: 704132, roas: 5.24 }
     ]
   },
   impact: [
-    { label: "Total Revenue", value: "$2.80M", growth: "+539% monthly growth" },
-    { label: "Booked Appointments", value: "4,746", growth: "+524% from month 1" },
+    { label: "Total Revenue", value: "$3.44M", growth: "+539% monthly growth" },
+    { label: "Booked Appointments", value: "2,343", growth: "+524% from month 1" },
     { label: "Total Ad Spend", value: "$744.2K", growth: "scaled 10→47 locations" },
-    { label: "Blended ROAS", value: "3.77x", growth: "+119% improvement" },
+    { label: "Blended ROAS", value: "4.62x", growth: "+119% improvement" },
     { label: "Organic Keywords", value: "14,280", growth: "+2,000%" },
     { label: "Organic Traffic", value: "34.8K/mo", growth: "+988%" }
   ]

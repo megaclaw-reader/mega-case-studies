@@ -97,7 +97,7 @@ export const healthcareRegenerativeMedicine: CaseStudyData = {
   seo: undefined,
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$94.0K" },
+      { label: "Total Ad Spend", value: "$94K" },
       { label: "Total Leads", value: "576", note: "Phone calls + form submissions" },
       { label: "Qualified Leads", value: "323", note: "Booked consultations" },
       { label: "Avg Cost/Qualified Lead", value: "$291", note: "↓32% from $427 baseline" },
@@ -127,7 +127,7 @@ export const healthcareRegenerativeMedicine: CaseStudyData = {
     { label: "Total Patient Revenue", value: "$353.2K", growth: "" },
     { label: "New Patients Acquired", value: "149", growth: "" },
     { label: "Avg Revenue Per Patient", value: "$353.2K", growth: "" },
-    { label: "Blended ROAS", value: "3.8x", growth: "" },
+    { label: "Blended ROAS", value: "3.76x", growth: "" },
     { label: "Cost/Qualified Lead", value: "323", growth: "↓32%" },
     { label: "Ad Spend Scaled", value: "$5K → $15K/mo", growth: "3x" },
   ],

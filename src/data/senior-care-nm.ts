@@ -3,7 +3,7 @@ import { CaseStudyData } from "./types";
 export const seniorCareNm: CaseStudyData = {
   slug: "senior-care-nm",
   industry: "Senior Care",
-  headline: "How a New Mexico Home Care Agency Generated $303K in Revenue With AI-Powered Paid Advertising",
+  headline: "How a New Mexico Home Care Agency Generated $302.6K in Revenue With AI-Powered Paid Advertising",
   subheadline: "MEGA helped a senior home care and assisted living referral company in Albuquerque, New Mexico scale their paid advertising program, reducing cost per qualified lead by 42% and generating $302.6K in attributed revenue over 8 months with a 4.27x blended ROAS.",
   heroStats: [
     { value: "8", unit: "months", label: "Partnership Duration" },
@@ -123,7 +123,7 @@ export const seniorCareNm: CaseStudyData = {
   },
   impact: [
     { label: "Total Revenue", value: "$302.6K", growth: "+287%" },
-    { label: "Blended ROAS", value: "4.2x", growth: "" },
+    { label: "Blended ROAS", value: "4.18x", growth: "" },
     { label: "Avg Client Value", value: "$3,440", growth: "" },
     { label: "Total Pipeline", value: "$487K", growth: "+194%" },
   ],

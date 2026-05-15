@@ -165,6 +165,6 @@ export const homeImprovementDallas: CaseStudyData = {
     { label: "Total Revenue", value: "$550.6K", growth: "+194%" },
     { label: "Monthly Organic Traffic", value: "12,368", growth: "+1,446%" },
     { label: "CPQL Reduction", value: "$198", growth: "↓49%" },
-    { label: "Blended ROAS", value: "3.9x", growth: "" },
+    { label: "Blended ROAS", value: "3.94x", growth: "" },
   ],
 };

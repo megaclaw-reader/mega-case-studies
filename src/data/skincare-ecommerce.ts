@@ -78,7 +78,7 @@ export const skincareEcommerce: CaseStudyData = {
   ],
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$12.4M" },
+      { label: "Total Ad Spend", value: "$12.42M" },
       { label: "Add to Carts", value: "1,276,858" },
       { label: "Avg Cost Per Cart", value: "$9.73", note: "↓41% reduction" },
       { label: "Orders", value: "682,470" },
@@ -114,9 +114,9 @@ export const skincareEcommerce: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$54.9M", growth: "+141% ROAS improvement" },
+    { label: "Total Revenue", value: "$54.85M", growth: "+141% ROAS improvement" },
     { label: "Total Orders", value: "682,470", growth: "across 10 months" },
     { label: "Average Order Value", value: "$80.38", growth: "national skincare DTC" },
-    { label: "Blended ROAS", value: "4.4x", growth: "from 2.51x starting" },
+    { label: "Blended ROAS", value: "4.42x", growth: "from 2.51x starting" },
   ],
 };

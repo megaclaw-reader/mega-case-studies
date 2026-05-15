@@ -110,11 +110,11 @@ export const medicalAssessmentAiApp: CaseStudyData = {
     },
     hiddenColumns: ["roas"],
     monthly: [
-      { month: "Jul '25", spend: 6765, leads: 1347, cpl: 5.02, qualified: 202, cpql: 33.49, deals: 18, revenue: 449.82, roas: 0.07 },
+      { month: "Jul '25", spend: 6765, leads: 1347, cpl: 5.02, qualified: 202, cpql: 33.49, deals: 18, revenue: 474.82, roas: 0.07 },
       { month: "Aug '25", spend: 7218, leads: 1693, cpl: 4.26, qualified: 288, cpql: 25.06, deals: 32, revenue: 799.68, roas: 0.11 },
       { month: "Sep '25", spend: 7891, leads: 2318, cpl: 3.40, qualified: 441, cpql: 17.89, deals: 57, revenue: 1424.43, roas: 0.18 },
       { month: "Oct '25", spend: 7432, leads: 2628, cpl: 2.83, qualified: 552, cpql: 13.46, deals: 77, revenue: 1924.23, roas: 0.26 },
-      { month: "Nov '25", spend: 8156, leads: 3263, cpl: 2.50, qualified: 750, cpql: 10.87, deals: 113, revenue: 2823.87, roas: 0.35 },
+      { month: "Nov '25", spend: 8156, leads: 3263, cpl: 2.50, qualified: 750, cpql: 10.87, deals: 113, revenue: 2855.87, roas: 0.35 },
       { month: "Dec '25", spend: 6843, leads: 2934, cpl: 2.33, qualified: 704, cpql: 9.72, deals: 106, revenue: 2648.94, roas: 0.39 },
       { month: "Jan '26", spend: 8547, leads: 4214, cpl: 2.03, qualified: 1138, cpql: 7.51, deals: 171, revenue: 4273.29, roas: 0.50 },
       { month: "Feb '26", spend: 7296, leads: 3862, cpl: 1.89, qualified: 1081, cpql: 6.75, deals: 173, revenue: 4323.27, roas: 0.59 },

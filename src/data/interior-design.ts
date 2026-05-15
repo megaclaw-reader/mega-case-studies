@@ -213,6 +213,6 @@ export const interiorDesign: CaseStudyData = {
     { label: "Total Project Revenue", value: "$307.1K", growth: "+73%" },
     { label: "Projects Acquired", value: "142", growth: "+68%" },
     { label: "Avg Project Value", value: "$307.1K", growth: "" },
-    { label: "Blended ROAS", value: "3.6x", growth: "" },
+    { label: "Blended ROAS", value: "3.58x", growth: "" },
   ],
 };

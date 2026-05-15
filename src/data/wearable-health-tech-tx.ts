@@ -119,19 +119,19 @@ export const wearableHealthTechTx: CaseStudyData = {
     },
     monthly: [
       // Jun 2025: Starting — struggling, $20K budget, low ROAS
-      { month: "Jun 2025", spend: 20340, leads: 12145, cpl: 1.84, qualified: 519, cpql: 39, deals: 109, revenue: 25942, roas: 1.28 },
+      { month: "Jun 2025", spend: 20340, leads: 12145, cpl: 1.84, qualified: 482, cpql: 42, deals: 109, revenue: 25942, roas: 1.28 },
       // Jul 2025: Early optimization, subscription attribution live
-      { month: "Jul 2025", spend: 22180, leads: 14514, cpl: 1.69, qualified: 753, cpql: 28.11, deals: 173, revenue: 41347, roas: 1.86 },
+      { month: "Jul 2025", spend: 22180, leads: 14514, cpl: 1.69, qualified: 610, cpql: 36.11, deals: 173, revenue: 41347, roas: 1.86 },
       // Aug 2025: Segmented campaigns kicking in, budget increase
-      { month: "Aug 2025", spend: 28470, leads: 15928, cpl: 1.54, qualified: 992, cpql: 29, deals: 319, revenue: 76879, roas: 2.70 },
+      { month: "Aug 2025", spend: 28470, leads: 15928, cpl: 1.54, qualified: 624, cpql: 46, deals: 319, revenue: 76879, roas: 2.70 },
       // Sep 2025: Scaling hard — subscription LTV bidding deployed
-      { month: "Sep 2025", spend: 35230, leads: 15307, cpl: 1.43, qualified: 1205, cpql: 29, deals: 489, revenue: 118827, roas: 3.37 },
+      { month: "Sep 2025", spend: 35230, leads: 15307, cpl: 1.43, qualified: 516, cpql: 68, deals: 489, revenue: 118827, roas: 3.37 },
       // Oct 2025: Pre-holiday ramp — corporate wellness Q4 budgets
-      { month: "Oct 2025", spend: 42890, leads: 19050, cpl: 1.37, qualified: 1632, cpql: 26, deals: 694, revenue: 167948, roas: 3.92 },
+      { month: "Oct 2025", spend: 42890, leads: 19050, cpl: 1.37, qualified: 689, cpql: 62, deals: 694, revenue: 167948, roas: 3.92 },
       // Nov 2025: Holiday peak — gift buyer audiences, maximum scaling
-      { month: "Nov 2025", spend: 52170, leads: 21031, cpl: 1.31, qualified: 2871, cpql: 18.69, deals: 921, revenue: 222882, roas: 4.27 },
+      { month: "Nov 2025", spend: 52170, leads: 21031, cpl: 1.31, qualified: 668, cpql: 78.69, deals: 921, revenue: 222882, roas: 4.27 },
       // Dec 2025: Hyper growth peak — $60K budget, strongest ROAS
-      { month: "Dec 2025", spend: 60430, leads: 25361, cpl: 1.32, qualified: 3675, cpql: 16, deals: 1142, revenue: 277506, roas: 4.59 },
+      { month: "Dec 2025", spend: 60430, leads: 25361, cpl: 1.32, qualified: 961, cpql: 63, deals: 1142, revenue: 277506, roas: 4.59 },
     ],
   },
   organicConversions: {

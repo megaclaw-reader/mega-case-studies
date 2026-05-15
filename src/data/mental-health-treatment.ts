@@ -152,8 +152,8 @@ export const mentalHealthTreatment: CaseStudyData = {
   impact: [
     { label: "Total Revenue", value: "$503.3K", growth: "" },
     { label: "New Patients", value: "147", growth: "" },
-    { label: "Cost/Qualified Lead", value: "$150", growth: "↓54%" },
-    { label: "Blended ROAS", value: "3.1x", growth: "" },
+    { label: "Cost/Qualified Lead", value: "1,089", growth: "↓54%" },
+    { label: "Blended ROAS", value: "3.07x", growth: "" },
     { label: "Organic Keywords", value: "187 → 8,541", growth: "+4,467%" },
     { label: "Monthly Organic Traffic", value: "823 → 11,247", growth: "+1,267%" },
   ],

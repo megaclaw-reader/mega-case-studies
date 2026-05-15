@@ -3,7 +3,7 @@ import { CaseStudyData } from "./types";
 export const sportsDrink: CaseStudyData = {
   slug: "sports-drink",
   industry: "Sports Drink / DTC Beverage",
-  headline: "How a DTC Sports Drink Brand Generated $230K+ in Revenue With AI-Powered Paid Advertising",
+  headline: "How a DTC Sports Drink Brand Generated $230.2K+ in Revenue With AI-Powered Paid Advertising",
   subheadline: "MEGA partnered with a direct-to-consumer sports drink brand to deploy always-on AI optimization and high-velocity creative testing — growing monthly ROAS from 2.40x to 6.17x, generating 6,306 orders, and producing over $230K in ecommerce revenue across 8 months with a blended 4.86x ROAS.",
   heroStats: [
     { value: "6.17", unit: "x", label: "Peak ROAS Achieved" },
@@ -111,6 +111,6 @@ export const sportsDrink: CaseStudyData = {
     { label: "Total Revenue", value: "$230.2K", growth: "+157% ROAS improvement" },
     { label: "Total Orders", value: "6,306", growth: "across 8 months" },
     { label: "Average Order Value", value: "$36.51", growth: "multi-pack sports drink category" },
-    { label: "Blended ROAS", value: "4.9x", growth: "from 2.40x starting" },
+    { label: "Blended ROAS", value: "4.86x", growth: "from 2.40x starting" },
   ],
 };

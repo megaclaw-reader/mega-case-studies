@@ -181,6 +181,6 @@ export const hvacNewMexico: CaseStudyData = {
     { label: "Total Revenue", value: "$416.6K", growth: "+251%" },
     { label: "Total Qualified Leads", value: "794", growth: "↓47% CPQL" },
     { label: "Avg Revenue Per Job", value: "$416.6K", growth: "" },
-    { label: "Blended ROAS", value: "3.7x", growth: "" },
+    { label: "Blended ROAS", value: "3.66x", growth: "" },
   ],
 };

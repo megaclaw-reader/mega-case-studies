@@ -3,7 +3,7 @@ import { CaseStudyData } from "./types";
 export const disasterRecoveryNewMexico: CaseStudyData = {
   slug: "disaster-recovery-new-mexico",
   industry: "Disaster Recovery",
-  headline: "How a New Mexico Disaster Recovery Company Stabilized Lead Flow and Generated $242K in Revenue",
+  headline: "How a New Mexico Disaster Recovery Company Stabilized Lead Flow and Generated $242.2K in Revenue",
   subheadline: "MEGA helped a water, fire, and storm damage restoration company in Albuquerque optimize their emergency service marketing, reducing cost per qualified lead by 34%, growing organic traffic 521%, and stabilizing consistent job bookings over 9 months.",
   heroStats: [
     { value: "9", unit: "months", label: "Partnership Duration" },
@@ -149,6 +149,6 @@ export const disasterRecoveryNewMexico: CaseStudyData = {
     { label: "Total Revenue", value: "$242.2K", growth: "+89%" },
     { label: "Total Pipeline", value: "$387.5K", growth: "+156%" },
     { label: "Avg Revenue Per Job", value: "$2,721", growth: "+12%" },
-    { label: "Blended ROAS", value: "3.8x", growth: "" },
+    { label: "Blended ROAS", value: "3.85x", growth: "" },
   ],
 };

@@ -145,7 +145,7 @@ export const personalInjuryLawyer: CaseStudyData = {
   impact: [
     { label: "Total Case Fees Attributed", value: "$387K", growth: "+686% ROAS" },
     { label: "Qualified Leads (Paid)", value: "359", growth: "↓34% CPQL" },
-    { label: "Signed Cases", value: "17", growth: "39% close rate" },
+    { label: "Signed Cases", value: "9", growth: "39% close rate" },
     { label: "Avg Case Fee", value: "$22,770", growth: "" },
   ],
 };

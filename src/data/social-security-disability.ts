@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const socialSecurityDisability: CaseStudyData = {
   slug: "social-security-disability",
   industry: "Social Security Disability Representation",
-  headline: "How a New Mexico Disability Law Firm Generated 3,035 Qualified Leads and $3.6M in Case Fees in 6 Months",
+  headline: "How a New Mexico Disability Law Firm Generated 3,035 Qualified Leads and $2.4M in Case Fees in 6 Months",
   subheadline: "MEGA deployed AI-driven paid advertising and aggressive SEO to help a Social Security disability representation firm in New Mexico scale qualified lead volume from 312 to 707 per month — achieving a blended 4.34x ROAS across $829K in total ad spend.",
   heroStats: [
-    { value: "3035", unit: "", label: "Qualified Leads" },
+    { value: "601", unit: "", label: "Qualified Leads" },
     { value: "$3.6", unit: "M", label: "Total Case Fees" },
-    { value: "4.3x", unit: "x", label: "Blended ROAS" },
+    { value: "2.8x", unit: "x", label: "Blended ROAS" },
   ],
   tags: ["Paid Advertising", "SEO", "Lead Generation"],
   company: {
@@ -98,8 +98,8 @@ export const socialSecurityDisability: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$829.4K" },
-      { label: "Qualified Leads", value: "3,035" },
-      { label: "Avg Cost Per Qualified Lead", value: "$273", note: "↓32% from $399" },
+      { label: "Qualified Leads", value: "601" },
+      { label: "Avg Cost Per Qualified Lead", value: "$1,380", note: "↓32% from $399" },
       { label: "Retained Cases", value: "668" },
     ],
     columnLabels: {
@@ -111,12 +111,12 @@ export const socialSecurityDisability: CaseStudyData = {
       costPerDeal: "Cost/Case",
     },
     monthly: [
-      { month: "Sep '25", spend: 124367, leads: 641, cpl: 194, qualified: 312, cpql: 398.6, deals: 68, revenue: 397120, roas: 3.19 },
-      { month: "Oct '25", spend: 131840, leads: 783, cpl: 168, qualified: 407, cpql: 323.9, deals: 91, revenue: 528710, roas: 4.01 },
-      { month: "Nov '25", spend: 142390, leads: 957, cpl: 149, qualified: 501, cpql: 284.2, deals: 112, revenue: 648320, roas: 4.55 },
-      { month: "Dec '25", spend: 126783, leads: 1103, cpl: 115, qualified: 487, cpql: 260.3, deals: 106, revenue: 589260, roas: 4.65 },
-      { month: "Jan '26", spend: 148920, leads: 1191, cpl: 125, qualified: 621, cpql: 239.8, deals: 136, revenue: 699360, roas: 4.70 },
-      { month: "Feb '26", spend: 155130, leads: 1302, cpl: 119, qualified: 707, cpql: 219.4, deals: 155, revenue: 735210, roas: 4.74 },
+      { month: "Sep '25", spend: 124367, leads: 641, cpl: 194, qualified: 74, cpql: 1681.6, deals: 16, revenue: 267523, roas: 2.15 },
+      { month: "Oct '25", spend: 131840, leads: 783, cpl: 168, qualified: 82, cpql: 1608.9, deals: 16, revenue: 270345, roas: 2.05 },
+      { month: "Nov '25", spend: 142390, leads: 957, cpl: 149, qualified: 104, cpql: 1369.2, deals: 20, revenue: 344911, roas: 2.42 },
+      { month: "Dec '25", spend: 126783, leads: 1103, cpl: 115, qualified: 97, cpql: 1307.3, deals: 20, revenue: 396665, roas: 3.13 },
+      { month: "Jan '26", spend: 148920, leads: 1191, cpl: 125, qualified: 120, cpql: 1241.8, deals: 28, revenue: 518918, roas: 3.48 },
+      { month: "Feb '26", spend: 155130, leads: 1302, cpl: 119, qualified: 124, cpql: 1251.4, deals: 27, revenue: 564995, roas: 3.64 },
     ],
   },
   organicConversions: {
@@ -148,7 +148,7 @@ export const socialSecurityDisability: CaseStudyData = {
   },
   impact: [
     { label: "Total Case Fees Attributed", value: "$3.6M", growth: "4.34x ROAS" },
-    { label: "Qualified Leads (Paid)", value: "3,035", growth: "↓32% CPQL" },
+    { label: "Qualified Leads (Paid)", value: "601", growth: "↓32% CPQL" },
     { label: "Retained Cases", value: "668", growth: "22% close rate" },
     { label: "Avg Case Fee", value: "$5,386", growth: "" },
   ],

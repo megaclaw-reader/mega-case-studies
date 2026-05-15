@@ -122,8 +122,8 @@ export const franchiseDevelopment: CaseStudyData = {
     summary: [
       { label: "Total Ad Spend", value: "$82.7K" },
       { label: "Total Inquiries", value: "856" },
-      { label: "Qualified Buyers", value: "277" },
-      { label: "Avg CPQL", value: "$299", note: "↓56% from $532 to $233 by Month 12" },
+      { label: "Qualified Buyers", value: "105" },
+      { label: "Avg CPQL", value: "$788", note: "↓56% from $532 to $233 by Month 12" },
     ],
     columnLabels: {
       leads: "Total Inquiries",
@@ -136,18 +136,18 @@ export const franchiseDevelopment: CaseStudyData = {
     monthly: [
       // Net franchise revenue per deal: ~$12K (franchise fee minus broker commissions, territory dev costs, legal/onboarding)
       // ROAS capped at 4.8x per month
-      { month: "Jan '25", spend: 5847, leads: 42, cpl: 139.21, qualified: 11, cpql: 531.55, deals: 1, revenue: 12400, roas: 2.12 },
-      { month: "Feb '25", spend: 5423, leads: 46, cpl: 117.89, qualified: 14, cpql: 387.36, deals: 1, revenue: 11800, roas: 2.18 },
-      { month: "Mar '25", spend: 6134, leads: 53, cpl: 115.74, qualified: 17, cpql: 360.82, deals: 1, revenue: 12700, roas: 2.07 },
-      { month: "Apr '25", spend: 7218, leads: 64, cpl: 112.78, qualified: 21, cpql: 343.71, deals: 2, revenue: 25300, roas: 3.50 },
-      { month: "May '25", spend: 7634, leads: 72, cpl: 106.03, qualified: 23, cpql: 331.91, deals: 2, revenue: 24100, roas: 3.16 },
-      { month: "Jun '25", spend: 6891, leads: 68, cpl: 101.34, qualified: 22, cpql: 313.23, deals: 2, revenue: 23700, roas: 3.44 },
-      { month: "Jul '25", spend: 6347, leads: 67, cpl: 94.73, qualified: 23, cpql: 275.96, deals: 2, revenue: 25800, roas: 4.06 },
-      { month: "Aug '25", spend: 6578, leads: 73, cpl: 90.11, qualified: 25, cpql: 263.12, deals: 2, revenue: 24600, roas: 3.74 },
-      { month: "Sep '25", spend: 7934, leads: 87, cpl: 91.20, qualified: 28, cpql: 283.36, deals: 3, revenue: 37200, roas: 4.69 },
-      { month: "Oct '25", spend: 7412, leads: 89, cpl: 83.28, qualified: 30, cpql: 247.07, deals: 3, revenue: 35400, roas: 4.78 },
-      { month: "Nov '25", spend: 7823, leads: 94, cpl: 83.22, qualified: 31, cpql: 252.35, deals: 2, revenue: 25700, roas: 3.29 },
-      { month: "Dec '25", spend: 7459, leads: 101, cpl: 73.85, qualified: 32, cpql: 233.09, deals: 2, revenue: 24900, roas: 3.34 },
+      { month: "Jan '25", spend: 5847, leads: 42, cpl: 139.21, qualified: 5, cpql: 1169.55, deals: 1, revenue: 5341, roas: 0.91 },
+      { month: "Feb '25", spend: 5423, leads: 46, cpl: 117.89, qualified: 6, cpql: 904.36, deals: 2, revenue: 8592, roas: 1.58 },
+      { month: "Mar '25", spend: 6134, leads: 53, cpl: 115.74, qualified: 7, cpql: 876.82, deals: 2, revenue: 10651, roas: 1.74 },
+      { month: "Apr '25", spend: 7218, leads: 64, cpl: 112.78, qualified: 9, cpql: 802.71, deals: 2, revenue: 9908, roas: 1.37 },
+      { month: "May '25", spend: 7634, leads: 72, cpl: 106.03, qualified: 10, cpql: 763.91, deals: 2, revenue: 9420, roas: 1.23 },
+      { month: "Jun '25", spend: 6891, leads: 68, cpl: 101.34, qualified: 8, cpql: 861.23, deals: 2, revenue: 11301, roas: 1.64 },
+      { month: "Jul '25", spend: 6347, leads: 67, cpl: 94.73, qualified: 8, cpql: 793.96, deals: 2, revenue: 10203, roas: 1.61 },
+      { month: "Aug '25", spend: 6578, leads: 73, cpl: 90.11, qualified: 9, cpql: 731.12, deals: 2, revenue: 8989, roas: 1.37 },
+      { month: "Sep '25", spend: 7934, leads: 87, cpl: 91.20, qualified: 10, cpql: 793.36, deals: 2, revenue: 11349, roas: 1.43 },
+      { month: "Oct '25", spend: 7412, leads: 89, cpl: 83.28, qualified: 10, cpql: 741.07, deals: 3, revenue: 13140, roas: 1.77 },
+      { month: "Nov '25", spend: 7823, leads: 94, cpl: 83.22, qualified: 12, cpql: 652.35, deals: 3, revenue: 17297, roas: 2.21 },
+      { month: "Dec '25", spend: 7459, leads: 101, cpl: 73.85, qualified: 11, cpql: 678.09, deals: 3, revenue: 13952, roas: 1.87 },
     ],
   },
   localSeo: {

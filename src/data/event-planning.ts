@@ -3,7 +3,7 @@ import { CaseStudyData } from "./types";
 export const eventPlanning: CaseStudyData = {
   slug: "event-planning",
   industry: "Event Planning",
-  headline: "How a Miami Event Planning Company Generated $183K in Revenue and 46 Bookings With AI-Powered Marketing",
+  headline: "How a Miami Event Planning Company Generated $183.0K in Revenue and 46 Bookings With AI-Powered Marketing",
   subheadline: "MEGA helped a full-service event planning firm in Miami build a dominant local search presence and high-converting paid campaigns — reducing cost per qualified inquiry by 25%, growing organic traffic from 418 to 4,870 monthly visitors, and generating $183K in attributed revenue across 8 months.",
   heroStats: [
     { value: "$183.0K", unit: "K", label: "Revenue Generated" },
@@ -143,9 +143,9 @@ export const eventPlanning: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$183.0K", growth: "+289%" },
+    { label: "Total Revenue", value: "$183K", growth: "+289%" },
     { label: "Total Bookings", value: "46", growth: "+245%" },
     { label: "Avg Booking Value", value: "$3,978", growth: "" },
-    { label: "Blended ROAS", value: "3.7x", growth: "" },
+    { label: "Blended ROAS", value: "3.70x", growth: "" },
   ],
 };

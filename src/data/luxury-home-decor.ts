@@ -3,7 +3,7 @@ import { CaseStudyData } from "./types";
 export const luxuryHomeDecor: CaseStudyData = {
   slug: "luxury-home-decor",
   industry: "Luxury Home Decor / Furnishings",
-  headline: "How a National Luxury Home Decor Brand Scaled From 1.8x to 4.0x Blended ROAS — Generating $348K in Revenue Over 12 Months",
+  headline: "How a National Luxury Home Decor Brand Scaled From 1.8x to 4.0x Blended ROAS — Generating $348.0K in Revenue Over 12 Months",
   subheadline: "MEGA deployed always-on AI optimization agents and scaled creative production to transform an underperforming ecommerce operation into a high-efficiency revenue engine — reducing cost per cart by 51%, growing organic traffic past 11,000 monthly visitors, and generating $348K in attributed revenue across paid and organic channels in 12 months.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
@@ -145,6 +145,6 @@ export const luxuryHomeDecor: CaseStudyData = {
     { label: "Total Revenue", value: "$348.0K", growth: "+247% ROAS improvement" },
     { label: "Total Orders", value: "1,771", growth: "across 12 months" },
     { label: "Average Order Value", value: "$196.51", growth: "luxury home decor category" },
-    { label: "Blended ROAS", value: "4.0x", growth: "from 1.85x starting" },
+    { label: "Blended ROAS", value: "3.98x", growth: "from 1.85x starting" },
   ],
 };

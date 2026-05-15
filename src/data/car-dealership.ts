@@ -143,7 +143,7 @@ export const carDealership: CaseStudyData = {
   },
   impact: [
     { label: "Total Revenue", value: "$329.4K", growth: "+187%" },
-    { label: "Blended ROAS", value: "4.4x", growth: "" },
+    { label: "Blended ROAS", value: "4.41x", growth: "" },
     { label: "Total Qualified Leads", value: "547", growth: "+141%" },
     { label: "Avg CPQL", value: "$136", growth: "↓29% from $191" },
   ],

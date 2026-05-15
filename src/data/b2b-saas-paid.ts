@@ -8,7 +8,7 @@ export const b2bSaasPaid: CaseStudyData = {
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
     { value: "38", unit: "%", label: "SQL Cost Reduction" },
-    { value: "$2.05M", unit: "M", label: "Revenue Attributed" },
+    { value: "$2.0M", unit: "M", label: "Revenue Attributed" },
   ],
   tags: ["Paid Advertising", "AI-Powered Optimization", "Lead Generation"],
   company: {
@@ -125,9 +125,9 @@ export const b2bSaasPaid: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$2,046,497", growth: "+247%" },
+    { label: "Total Revenue", value: "$2.05M", growth: "+247%" },
     { label: "Total Pipeline", value: "$4.6M", growth: "+203%" },
     { label: "Avg Contract Value", value: "$27,942", growth: "" },
-    { label: "Blended ROAS", value: "3.7x", growth: "" },
+    { label: "Blended ROAS", value: "3.74x", growth: "" },
   ],
 };

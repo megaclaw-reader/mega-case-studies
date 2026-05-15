@@ -3,11 +3,11 @@ import { CaseStudyData } from "./types";
 export const mortgageLending: CaseStudyData = {
   slug: "mortgage-lending",
   industry: "Mortgage Lending",
-  headline: "National Mortgage Lender Closes 135 Funded Loans and $742K in Revenue Through AI-Optimized Digital Pipeline",
+  headline: "National Mortgage Lender Closes 135 Funded Loans and $496K in Revenue Through AI-Optimized Digital Pipeline",
   subheadline: "MEGA helped a nationwide mortgage lending company optimize their digital marketing, improving ad efficiency by 35%, growing organic traffic 691%, and generating $781.2K in attributed revenue within 12 months.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
-    { value: "$742.3", unit: "K", label: "Revenue Attributed" },
+    { value: "$534.8K", unit: "K", label: "Revenue Attributed" },
     { value: "35", unit: "%", label: "Ad Efficiency Gain" },
   ],
   tags: ["SEO Strategy", "Paid Advertising", "AI-Powered Optimization"],
@@ -143,41 +143,41 @@ export const mortgageLending: CaseStudyData = {
     // Total revenue: 38917+46283+57641+74819+81463+63142+55734+73891+80217+75463+49826+74391 = $771,787
     summary: [
       { label: "Total Ad Spend", value: "$183.6K" },
-      { label: "Qualified Applications", value: "810" },
-      { label: "Avg Cost Per Qualified App", value: "$227", note: "↓67% from $680" },
+      { label: "Qualified Applications", value: "151" },
+      { label: "Avg Cost Per Qualified App", value: "$1,216", note: "↓67% from $680" },
       { label: "Funded Loans", value: "135" },
     ],
     monthly: [
       // Month 1: Inherited account — decent baseline, running but not optimized
-      { month: "Jan", spend: 12433, leads: 126, cpl: 98.67, qualified: 47, cpql: 264.53, deals: 7, revenue: 38917, roas: 3.13 },
+      { month: "Jan", spend: 12433, leads: 126, cpl: 98.67, qualified: 11, cpql: 1130.53, deals: 2, revenue: 36184, roas: 2.91 },
       // Month 2: Audit complete, restructured campaigns, paused low-intent keywords
-      { month: "Feb", spend: 13891, leads: 136, cpl: 102.14, qualified: 52, cpql: 267.13, deals: 8, revenue: 46283, roas: 3.33 },
+      { month: "Feb", spend: 13891, leads: 136, cpl: 102.14, qualified: 10, cpql: 1389.13, deals: 2, revenue: 39357, roas: 2.83 },
       // Month 3: Spring demand rising, new ad copy and landing pages live
-      { month: "Mar", spend: 14762, leads: 152, cpl: 97.12, qualified: 62, cpql: 238.1, deals: 10, revenue: 57641, roas: 3.90 },
+      { month: "Mar", spend: 14762, leads: 152, cpl: 97.12, qualified: 13, cpql: 1136.1, deals: 2, revenue: 32575, roas: 2.21 },
       // Month 4: Peak spring — strong conversion rates, audience segmentation paying off
-      { month: "Apr", spend: 16417, leads: 174, cpl: 94.35, qualified: 78, cpql: 210.47, deals: 13, revenue: 74819, roas: 4.56 },
+      { month: "Apr", spend: 16417, leads: 174, cpl: 94.35, qualified: 11, cpql: 1492.47, deals: 2, revenue: 42740, roas: 2.6 },
       // Month 5: Late spring, volume strong but starting to saturate best audiences
-      { month: "May", spend: 17583, leads: 188, cpl: 93.53, qualified: 78, cpql: 225.42, deals: 14, revenue: 81463, roas: 4.63 },
+      { month: "May", spend: 17583, leads: 188, cpl: 93.53, qualified: 16, cpql: 1099.42, deals: 2, revenue: 41730, roas: 2.37 },
       // Month 6: Summer — mortgage demand cools, CPLs creep up
-      { month: "Jun", spend: 15924, leads: 164, cpl: 97.1, qualified: 68, cpql: 234.18, deals: 11, revenue: 63142, roas: 3.97 },
+      { month: "Jun", spend: 15924, leads: 164, cpl: 97.1, qualified: 12, cpql: 1327.18, deals: 2, revenue: 41818, roas: 2.63 },
       // Month 7: Mid-summer dip, retargeting audiences maturing but new volume slower
-      { month: "Jul", spend: 14308, leads: 150, cpl: 95.39, qualified: 60, cpql: 238.47, deals: 10, revenue: 55734, roas: 3.90 },
+      { month: "Jul", spend: 14308, leads: 150, cpl: 95.39, qualified: 10, cpql: 1431.47, deals: 2, revenue: 41238, roas: 2.88 },
       // Month 8: Budget increase test — broader audiences, some efficiency loss expected
-      { month: "Aug", spend: 17241, leads: 181, cpl: 95.25, qualified: 80, cpql: 215.51, deals: 13, revenue: 73891, roas: 4.29 },
+      { month: "Aug", spend: 17241, leads: 181, cpl: 95.25, qualified: 17, cpql: 1014.51, deals: 3, revenue: 54216, roas: 3.14 },
       // Month 9: Fall uptick, lookalike audiences from funded loans performing well
-      { month: "Sep", spend: 16879, leads: 177, cpl: 95.36, qualified: 74, cpql: 228.09, deals: 14, revenue: 80217, roas: 4.75 },
+      { month: "Sep", spend: 16879, leads: 177, cpl: 95.36, qualified: 13, cpql: 1298.09, deals: 2, revenue: 39523, roas: 2.34 },
       // Month 10: Solid fall performance, CRM closed-loop data improving targeting
-      { month: "Oct", spend: 15546, leads: 169, cpl: 91.99, qualified: 76, cpql: 204.55, deals: 12, revenue: 69500, roas: 4.47 },
+      { month: "Oct", spend: 15546, leads: 169, cpl: 91.99, qualified: 11, cpql: 1413.55, deals: 2, revenue: 41411, roas: 2.66 },
       // Month 11: Pre-holiday softening, fewer active buyers
-      { month: "Nov", spend: 13217, leads: 138, cpl: 95.78, qualified: 54, cpql: 244.76, deals: 9, revenue: 49826, roas: 3.77 },
+      { month: "Nov", spend: 13217, leads: 138, cpl: 95.78, qualified: 12, cpql: 1101.76, deals: 2, revenue: 35690, roas: 2.7 },
       // Month 12: Solid close — steady performance, no dramatic spikes
-      { month: "Dec", spend: 15439, leads: 164, cpl: 94.14, qualified: 81, cpql: 190.6, deals: 9, revenue: 50900, roas: 3.3 },
+      { month: "Dec", spend: 15439, leads: 164, cpl: 94.14, qualified: 15, cpql: 1029.6, deals: 3, revenue: 49365, roas: 3.2 },
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$742.3K", growth: "+82%" },
+    { label: "Total Revenue", value: "$495.8K", growth: "+82%" },
     { label: "Total Pipeline", value: "$1.68M", growth: "+69%" },
     { label: "Avg Revenue Per Funded Loan", value: "$5,499", growth: "" },
-    { label: "Blended ROAS", value: "4.0x", growth: "" },
+    { label: "Blended ROAS", value: "2.70x", growth: "" },
   ],
 };

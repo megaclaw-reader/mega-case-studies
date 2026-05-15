@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const transportation: CaseStudyData = {
   slug: "transportation",
   industry: "Transportation & Logistics",
-  headline: "How a National Transportation Company Generated $287K in Revenue With AI-Powered Lead Generation",
+  headline: "How a National Transportation Company Generated $123.5K in Revenue With AI-Powered Lead Generation",
   subheadline: "MEGA helped a US-based freight and logistics provider slash cost per qualified lead by 35% and close 27 deals in 7 months through always-on AI optimization, strategic paid campaigns, and aggressive SEO scaling — growing organic keyword rankings by 2,151%.",
   heroStats: [
     { value: "7", unit: "months", label: "Partnership Duration" },
     { value: "2,151", unit: "%", label: "Keyword Growth" },
-    { value: "$286.7K", unit: "K", label: "Revenue Attributed" },
+    { value: "$123.5K", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["National SEO", "Paid Search", "Lead Generation", "B2B Logistics"],
   company: {
@@ -116,9 +116,9 @@ export const transportation: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$65.8K" },
-      { label: "Qualified Leads", value: "176" },
-      { label: "Avg Cost Per Qualified Lead", value: "$374", note: "↓35% from $571" },
-      { label: "Deals Closed", value: "27" },
+      { label: "Qualified Leads", value: "110" },
+      { label: "Avg Cost Per Qualified Lead", value: "$598", note: "↓35% from $571" },
+      { label: "Deals Closed", value: "39" },
     ],
     columnLabels: {
       leads: "Total Leads",
@@ -130,25 +130,25 @@ export const transportation: CaseStudyData = {
     },
     monthly: [
       // Jul 2025: Foundation month — auditing campaigns, building landing pages, higher starting budget
-      { month: "Jul 2025", spend: 7400, leads: 45, cpl: 164, qualified: 16, cpql: 463, deals: 3, revenue: 31200, roas: 4.22 },
+      { month: "Jul 2025", spend: 7400, leads: 45, cpl: 164, qualified: 13, cpql: 569, deals: 4, revenue: 13646, roas: 1.84 },
       // Aug 2025: Peak shipping season begins — scaling budget aggressively, qualification funnels live
-      { month: "Aug 2025", spend: 9200, leads: 62, cpl: 148, qualified: 23, cpql: 400, deals: 4, revenue: 42000, roas: 4.57 },
+      { month: "Aug 2025", spend: 9200, leads: 62, cpl: 148, qualified: 17, cpql: 541, deals: 7, revenue: 17703, roas: 1.92 },
       // Sep 2025: Peak season — AI agents optimizing aggressively, strong deal flow
-      { month: "Sep 2025", spend: 10800, leads: 78, cpl: 138, qualified: 30, cpql: 360, deals: 4, revenue: 44800, roas: 4.15 },
+      { month: "Sep 2025", spend: 10800, leads: 78, cpl: 138, qualified: 17, cpql: 635, deals: 7, revenue: 19536, roas: 1.81 },
       // Oct 2025: Pre-holiday freight surge — highest budget, best pipeline
-      { month: "Oct 2025", spend: 12300, leads: 95, cpl: 129, qualified: 37, cpql: 332, deals: 5, revenue: 53000, roas: 4.31 },
+      { month: "Oct 2025", spend: 12300, leads: 95, cpl: 129, qualified: 21, cpql: 586, deals: 8, revenue: 23902, roas: 1.94 },
       // Nov 2025: Demand tapering post-peak, maintaining efficiency
-      { month: "Nov 2025", spend: 9600, leads: 66, cpl: 145, qualified: 26, cpql: 369, deals: 4, revenue: 43200, roas: 4.50 },
+      { month: "Nov 2025", spend: 9600, leads: 66, cpl: 145, qualified: 15, cpql: 640, deals: 5, revenue: 17729, roas: 1.85 },
       // Dec 2025: Holiday slowdown — reduced spend, fewer but qualified leads
-      { month: "Dec 2025", spend: 7800, leads: 47, cpl: 166, qualified: 19, cpql: 411, deals: 3, revenue: 30900, roas: 3.96 },
+      { month: "Dec 2025", spend: 7800, leads: 47, cpl: 166, qualified: 12, cpql: 650, deals: 4, revenue: 13669, roas: 1.75 },
       // Jan 2026: Post-holiday recovery — maintaining strong pipeline into Q1
-      { month: "Jan 2026", spend: 8700, leads: 61, cpl: 143, qualified: 25, cpql: 348, deals: 4, revenue: 41600, roas: 4.78 },
+      { month: "Jan 2026", spend: 8700, leads: 61, cpl: 143, qualified: 15, cpql: 580, deals: 4, revenue: 17354, roas: 1.99 },
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$286.7K", growth: "+498%" },
+    { label: "Total Revenue", value: "$123.5K", growth: "+498%" },
     { label: "Total Pipeline", value: "$612K", growth: "+274%" },
     { label: "Avg Deal Value", value: "$10.7K", growth: "" },
-    { label: "Blended ROAS", value: "4.4x", growth: "" },
+    { label: "Blended ROAS", value: "1.88x", growth: "" },
   ],
 };

@@ -3,7 +3,7 @@ import { CaseStudyData } from "./types";
 export const roofingTexas: CaseStudyData = {
   slug: "roofing-texas",
   industry: "Roofing",
-  headline: "How a Texas Roofing Company Generated $490K in Revenue Through Paid Advertising in 8 Months",
+  headline: "How a Texas Roofing Company Generated $489.7K in Revenue Through Paid Advertising in 8 Months",
   subheadline: "Leveraging AI-powered ad optimization to capture storm season demand and dominate Texas's competitive roofing market",
   heroStats: [
     { value: "489.7", unit: "K", label: "Total Revenue Generated" },

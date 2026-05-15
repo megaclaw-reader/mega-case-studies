@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const hvacNational: CaseStudyData = {
   slug: "hvac-national",
   industry: "HVAC",
-  headline: "How a National HVAC Franchise Generated 847 Qualified Leads and $655K in Revenue in 12 Months",
+  headline: "How a National HVAC Franchise Generated 847 Qualified Leads and $441K in Revenue in 12 Months",
   subheadline: "MEGA helped a multi-location HVAC company reduce their cost per qualified lead by 41%, grow organic traffic 1,180%, and build a predictable lead pipeline across 23 markets through SEO and paid advertising.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
     { value: "1,180", unit: "%", label: "Organic Traffic Growth" },
-    { value: "$655.3K", unit: "K", label: "Revenue Attributed" },
+    { value: "$441.3K", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["National SEO", "Paid Advertising", "Lead Generation", "Multi-Location"],
   company: {
@@ -107,9 +107,9 @@ export const hvacNational: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$156.3K" },
-      { label: "Qualified Leads", value: "847" },
-      { label: "Avg Cost Per Qualified Lead", value: "$185", note: "↓14% from $214" },
-      { label: "Closed Jobs", value: "203" },
+      { label: "Qualified Leads", value: "348" },
+      { label: "Avg Cost Per Qualified Lead", value: "$449", note: "↓14% from $214" },
+      { label: "Closed Jobs", value: "100" },
     ],
     columnLabels: {
       leads: "Total Leads",
@@ -120,18 +120,18 @@ export const hvacNational: CaseStudyData = {
       costPerDeal: "Cost/Job",
     },
     monthly: [
-      { month: "Jan '25", spend: 10124, leads: 67, cpl: 151.10, qualified: 38, cpql: 266.42, deals: 9, revenue: 27346, roas: 2.70 },
-      { month: "Feb '25", spend: 10087, leads: 71, cpl: 142.07, qualified: 42, cpql: 240.17, deals: 10, revenue: 31847, roas: 3.16 },
-      { month: "Mar '25", spend: 10342, leads: 79, cpl: 130.91, qualified: 48, cpql: 215.46, deals: 12, revenue: 41218, roas: 3.99 },
-      { month: "Apr '25", spend: 11478, leads: 94, cpl: 122.11, qualified: 59, cpql: 194.54, deals: 15, revenue: 52937, roas: 4.61 },
-      { month: "May '25", spend: 13216, leads: 118, cpl: 112.00, qualified: 78, cpql: 169.44, deals: 19, revenue: 62148, roas: 4.70 },
-      { month: "Jun '25", spend: 16347, leads: 152, cpl: 107.54, qualified: 103, cpql: 158.71, deals: 26, revenue: 78312, roas: 4.79 },
-      { month: "Jul '25", spend: 16891, leads: 161, cpl: 104.91, qualified: 109, cpql: 154.96, deals: 27, revenue: 76489, roas: 4.53 },
-      { month: "Aug '25", spend: 15743, leads: 143, cpl: 110.09, qualified: 96, cpql: 163.99, deals: 24, revenue: 71834, roas: 4.56 },
-      { month: "Sep '25", spend: 13187, leads: 112, cpl: 117.74, qualified: 72, cpql: 183.15, deals: 17, revenue: 56423, roas: 4.28 },
-      { month: "Oct '25", spend: 11834, leads: 89, cpl: 132.97, qualified: 54, cpql: 219.15, deals: 13, revenue: 47218, roas: 3.99 },
-      { month: "Nov '25", spend: 13412, leads: 104, cpl: 128.96, qualified: 67, cpql: 200.18, deals: 16, revenue: 54187, roas: 4.04 },
-      { month: "Dec '25", spend: 13647, leads: 119, cpl: 114.68, qualified: 81, cpql: 168.48, deals: 15, revenue: 55312, roas: 4.05 },
+      { month: "Jan '25", spend: 10124, leads: 67, cpl: 151.10, qualified: 20, cpql: 506.42, deals: 6, revenue: 28844, roas: 2.85 },
+      { month: "Feb '25", spend: 10087, leads: 71, cpl: 142.07, qualified: 19, cpql: 531.17, deals: 6, revenue: 26372, roas: 2.61 },
+      { month: "Mar '25", spend: 10342, leads: 79, cpl: 130.91, qualified: 20, cpql: 517.46, deals: 6, revenue: 25393, roas: 2.46 },
+      { month: "Apr '25", spend: 11478, leads: 94, cpl: 122.11, qualified: 25, cpql: 459.54, deals: 6, revenue: 22511, roas: 1.96 },
+      { month: "May '25", spend: 13216, leads: 118, cpl: 112.00, qualified: 35, cpql: 378.44, deals: 10, revenue: 37405, roas: 2.83 },
+      { month: "Jun '25", spend: 16347, leads: 152, cpl: 107.54, qualified: 41, cpql: 399.71, deals: 13, revenue: 62651, roas: 3.83 },
+      { month: "Jul '25", spend: 16891, leads: 161, cpl: 104.91, qualified: 41, cpql: 412.96, deals: 13, revenue: 51330, roas: 3.04 },
+      { month: "Aug '25", spend: 15743, leads: 143, cpl: 110.09, qualified: 38, cpql: 414.99, deals: 11, revenue: 52862, roas: 3.36 },
+      { month: "Sep '25", spend: 13187, leads: 112, cpl: 117.74, qualified: 26, cpql: 507.15, deals: 7, revenue: 29606, roas: 2.25 },
+      { month: "Oct '25", spend: 11834, leads: 89, cpl: 132.97, qualified: 23, cpql: 515.15, deals: 6, revenue: 28461, roas: 2.41 },
+      { month: "Nov '25", spend: 13412, leads: 104, cpl: 128.96, qualified: 27, cpql: 497.18, deals: 7, revenue: 31894, roas: 2.38 },
+      { month: "Dec '25", spend: 13647, leads: 119, cpl: 114.68, qualified: 33, cpql: 414.48, deals: 9, revenue: 43992, roas: 3.22 },
     ],
   },
   organicConversions: {
@@ -169,9 +169,9 @@ export const hvacNational: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$655.3K", growth: "+312%" },
-    { label: "Total Qualified Leads", value: "847", growth: "↓41% Cost/Qualified Lead" },
+    { label: "Total Revenue", value: "$441.3K", growth: "+312%" },
+    { label: "Total Qualified Leads", value: "348", growth: "↓41% Cost/Qualified Lead" },
     { label: "Avg Revenue Per Job", value: "$3,228", growth: "" },
-    { label: "Blended ROAS", value: "4.2x", growth: "" },
+    { label: "Blended ROAS", value: "2.82x", growth: "" },
   ],
 };

@@ -3,7 +3,7 @@ import { CaseStudyData } from "./types";
 export const poolInstallation: CaseStudyData = {
   slug: "pool-installation",
   industry: "Pool Construction",
-  headline: "How a North Carolina Pool Construction Company Generated $155K in Revenue and 187 Qualified Leads Over 8 Months",
+  headline: "How a North Carolina Pool Construction Company Generated $154.8K in Revenue and 187 Qualified Leads Over 8 Months",
   subheadline: "MEGA's AI-powered SEO and paid advertising strategy helped a North Carolina pool construction company scale from modest digital presence to a high-volume lead generation engine — growing qualified leads from 12 to 36 per month while closing 46 projects worth $120K each through peak season and into spring planning.",
   heroStats: [
     { value: "$154.8K", unit: "M", label: "Revenue Generated" },

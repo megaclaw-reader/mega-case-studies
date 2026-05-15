@@ -7,7 +7,7 @@ const travelToursData: CaseStudyData = {
   subheadline: 'MEGA helped a national travel tour operator navigate seasonal demand volatility with AI-driven budget optimization, generating $312K in tour bookings while maintaining profitable unit economics across peak and off-season periods.',
   heroStats: [
     { value: '10', unit: 'months', label: 'Campaign Duration' },
-    { value: '285', unit: '%', label: 'Qualified Bookings Growth' },
+    { value: "222", unit: '%', label: 'Qualified Bookings Growth' },
     { value: '312.4', unit: 'K', label: 'Tour Revenue Generated' },
   ],
   tags: ['Paid Advertising', 'AI Optimization', 'Seasonal Marketing'],
@@ -80,9 +80,9 @@ const travelToursData: CaseStudyData = {
     summary: [
       { label: 'Total Ad Spend', value: '$61.8K' },
       { label: 'Total Leads', value: '1,187' },
-      { label: 'Qualified Leads', value: '623' },
+      { label: 'Qualified Leads', value: '222' },
       { label: 'Confirmed Bookings', value: '178' },
-      { label: 'Avg Cost Per Qualified Lead', value: '$99' },
+      { label: 'Avg Cost Per Qualified Lead', value: '$278' },
       { label: 'Blended ROAS', value: '5.05x' }
     ],
     columnLabels: {
@@ -98,116 +98,116 @@ const travelToursData: CaseStudyData = {
         spend: 5000,
         leads: 96,
         cpl: 52.08,
-        qualified: 51,
-        cpql: 98.04,
-        deals: 15,
-        revenue: 26250,
-        roas: 5.25
+        qualified: 20,
+        cpql: 250.04,
+        deals: 4,
+        revenue: 2924,
+        roas: 0.58
       },
       {
         month: 'Jun \'25', 
         spend: 5800,
         leads: 95,
         cpl: 61,
-        qualified: 58,
-        cpql: 100.00,
-        deals: 16,
-        revenue: 28800,
-        roas: 4.97
+        qualified: 17,
+        cpql: 341.00,
+        deals: 3,
+        revenue: 1682,
+        roas: 0.29
       },
       {
         month: 'Jul \'25',
         spend: 7200,
         leads: 102,
         cpl: 71,
-        qualified: 75,
-        cpql: 96.00,
-        deals: 22,
-        revenue: 38500,
-        roas: 5.35
+        qualified: 18,
+        cpql: 400.00,
+        deals: 4,
+        revenue: 2786,
+        roas: 0.39
       },
       {
         month: 'Aug \'25',
         spend: 8500,
         leads: 112,
         cpl: 76,
-        qualified: 89,
-        cpql: 95.51,
-        deals: 26,
-        revenue: 45500,
-        roas: 5.35
+        qualified: 25,
+        cpql: 340.51,
+        deals: 6,
+        revenue: 3620,
+        roas: 0.43
       },
       {
         month: 'Sep \'25',
         spend: 7800,
         leads: 100,
         cpl: 78,
-        qualified: 82,
-        cpql: 95.12,
-        deals: 24,
-        revenue: 42000,
-        roas: 5.38
+        qualified: 19,
+        cpql: 411.12,
+        deals: 4,
+        revenue: 2415,
+        roas: 0.31
       },
       {
         month: 'Oct \'25',
         spend: 6500,
         leads: 116,
         cpl: 56,
-        qualified: 66,
-        cpql: 98.48,
-        deals: 19,
-        revenue: 33250,
-        roas: 5.12
+        qualified: 26,
+        cpql: 250.48,
+        deals: 5,
+        revenue: 3204,
+        roas: 0.49
       },
       {
         month: 'Nov \'25',
         spend: 5500,
         leads: 118,
         cpl: 47,
-        qualified: 57,
-        cpql: 96.49,
-        deals: 16,
-        revenue: 28000,
-        roas: 5.09
+        qualified: 24,
+        cpql: 229.49,
+        deals: 5,
+        revenue: 3232,
+        roas: 0.59
       },
       {
         month: 'Dec \'25',
         spend: 5000,
         leads: 133,
         cpl: 38,
-        qualified: 47,
-        cpql: 106.38,
-        deals: 13,
-        revenue: 22750,
-        roas: 4.55
+        qualified: 24,
+        cpql: 208.38,
+        deals: 5,
+        revenue: 2970,
+        roas: 0.59
       },
       {
         month: 'Jan \'26',
         spend: 5200,
         leads: 116,
         cpl: 45,
-        qualified: 48,
-        cpql: 108.33,
-        deals: 14,
-        revenue: 24500,
-        roas: 4.71
+        qualified: 22,
+        cpql: 236.33,
+        deals: 5,
+        revenue: 3401,
+        roas: 0.65
       },
       {
         month: 'Feb \'26',
         spend: 5300,
         leads: 126,
         cpl: 42,
-        qualified: 50,
-        cpql: 106.00,
-        deals: 13,
-        revenue: 22850,
-        roas: 4.31
+        qualified: 27,
+        cpql: 196.00,
+        deals: 6,
+        revenue: 3867,
+        roas: 0.73
       }
     ]
   },
 
   impact: [
-    { label: 'Total Tour Revenue', value: '$312.4K', growth: '+285%' },
+    { label: 'Total Tour Revenue', value: '$30.1K', growth: '+285%' },
     { label: 'Qualified Bookings', value: '178', growth: '+285%' },
     { label: 'Avg Tour Value', value: '$1,755', growth: '+12%' },
     { label: 'Peak Season ROAS', value: '5.38x', growth: '+89%' },

@@ -3,7 +3,7 @@ import { CaseStudyData } from "./types";
 export const hairProductsEcommerce: CaseStudyData = {
   slug: "hair-products-ecommerce",
   industry: "Hair Products",
-  headline: "How a DTC Hair Care Brand Achieved a 3.22x Blended ROAS While Building an Organic Traffic Engine — Generating $89K in Revenue in 7 Months",
+  headline: "How a DTC Hair Care Brand Achieved a 3.22x Blended ROAS While Building an Organic Traffic Engine — Generating $88.7K in Revenue in 7 Months",
   subheadline: "MEGA deployed always-on AI optimization and creative testing to help a small but ambitious national DTC hair care brand scale from a 1.80x starting ROAS to a 4.25x Black Friday peak — generating over $88K in ecommerce revenue across 7 months while simultaneously growing organic traffic from 372 to 5,247 monthly visitors through strategic SEO content.",
   heroStats: [
     { value: "4.25", unit: "x", label: "Peak ROAS Achieved" },
@@ -110,25 +110,25 @@ export const hairProductsEcommerce: CaseStudyData = {
     },
     monthly: [
       // Jun 2025: Baseline — inheriting founder-managed campaigns at ~1.8x ROAS. Full restructuring begins. AI agents deployed.
-      { month: "Jun '25", spend: 5058, leads: 2748, cpl: 1.12, qualified: 247, cpql: 20, deals: 119, revenue: 5560.87, roas: 1.1 },
+      { month: "Jun '25", spend: 5058, leads: 2748, cpl: 1.12, qualified: 57, cpql: 89, deals: 119, revenue: 5560.87, roas: 1.1 },
       // Jul 2025: New architecture in place. Creative testing at 12+ variations. AI optimization compounding. Summer hair care demand.
-      { month: "Jul '25", spend: 5064, leads: 3118, cpl: 1.04, qualified: 296, cpql: 17, deals: 148, revenue: 6982.64, roas: 1.38 },
+      { month: "Jul '25", spend: 5064, leads: 3118, cpl: 1.04, qualified: 82, cpql: 62, deals: 148, revenue: 6982.64, roas: 1.38 },
       // Aug 2025: Back-to-school season drives styling product demand. AI agents identified weekend conversion peaks.
-      { month: "Aug '25", spend: 5044, leads: 3491, cpl: 0.97, qualified: 352, cpql: 14, deals: 187, revenue: 8774.04, roas: 1.74 },
+      { month: "Aug '25", spend: 5044, leads: 3491, cpl: 0.97, qualified: 87, cpql: 58, deals: 187, revenue: 8774.04, roas: 1.74 },
       // Sep 2025: Fall transition. AI-optimized creative featuring seasonal hair care routines. Retargeting sequences matured.
-      { month: "Sep '25", spend: 5126, leads: 3870, cpl: 0.91, qualified: 410, cpql: 13, deals: 229, revenue: 11024.06, roas: 2.15 },
+      { month: "Sep '25", spend: 5126, leads: 3870, cpl: 0.91, qualified: 90, cpql: 57, deals: 229, revenue: 11024.06, roas: 2.15 },
       // Oct 2025: Q4 ramp-up. Pre-Black Friday audience warming. Gift bundle campaigns launched.
-      { month: "Oct '25", spend: 5329, leads: 4312, cpl: 0.87, qualified: 478, cpql: 11, deals: 277, revenue: 13174.12, roas: 2.47 },
+      { month: "Oct '25", spend: 5329, leads: 4312, cpl: 0.87, qualified: 90, cpql: 59, deals: 277, revenue: 13174.12, roas: 2.47 },
       // Nov 2025: BLACK FRIDAY / CYBER MONDAY — aggressive spend scale-up. AI managed real-time bid adjustments. Peak ROAS month.
-      { month: "Nov '25", spend: 5843, leads: 6764, cpl: 0.86, qualified: 812, cpql: 7.20, deals: 498, revenue: 24835.26, roas: 4.25 },
+      { month: "Nov '25", spend: 5843, leads: 6764, cpl: 0.86, qualified: 139, cpql: 42.20, deals: 498, revenue: 24835.26, roas: 4.25 },
       // Dec 2025: Holiday gifting tail. Gift sets and stocking stuffers. Organic traffic reducing paid dependency.
-      { month: "Dec '25", spend: 5242, leads: 5782, cpl: 0.83, qualified: 653, cpql: 7.32, deals: 378, revenue: 18382.14, roas: 3.51 },
+      { month: "Dec '25", spend: 5242, leads: 5782, cpl: 0.83, qualified: 151, cpql: 35.32, deals: 378, revenue: 18382.14, roas: 3.51 },
     ],
   },
   impact: [
     { label: "Total Revenue", value: "$88.7K", growth: "+79% ROAS improvement" },
     { label: "Total Orders", value: "1,836", growth: "across 7 months" },
     { label: "Average Order Value", value: "$48.33", growth: "hair care category" },
-    { label: "Blended ROAS", value: "2.4x", growth: "from 1.80x starting" },
+    { label: "Blended ROAS", value: "2.42x", growth: "from 1.80x starting" },
   ],
 };

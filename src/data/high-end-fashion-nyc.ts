@@ -124,25 +124,25 @@ export const highEndFashionNyc: CaseStudyData = {
     monthly: [
       // Jun 2025: Launch month — summer collections, foundation building. Budget at floor.
       // 178 orders × ~$407 AOV = $72,534. ROAS 2.98
-      { month: "Jun 2025", spend: 24343, leads: 10147, cpl: 2.40, qualified: 812, cpql: 29.98, deals: 178, revenue: 72534, roas: 2.98 },
+      { month: "Jun 2025", spend: 24343, leads: 10147, cpl: 2.40, qualified: 295, cpql: 83.98, deals: 178, revenue: 72534, roas: 2.98 },
       // Jul 2025: Summer peak — vacation wardrobes, linen/resort collections.
       // 213 orders × ~$409 AOV = $87,123. ROAS 3.46
-      { month: "Jul 2025", spend: 25187, leads: 11234, cpl: 2.24, qualified: 934, cpql: 26.97, deals: 213, revenue: 87123, roas: 3.46 },
+      { month: "Jul 2025", spend: 25187, leads: 11234, cpl: 2.24, qualified: 357, cpql: 71.97, deals: 213, revenue: 87123, roas: 3.46 },
       // Aug 2025: Late summer / early fall transition. Pre-NYFW teasers.
       // 197 orders × ~$405 AOV = $79,847. ROAS 3.22
-      { month: "Aug 2025", spend: 24812, leads: 10891, cpl: 2.28, qualified: 897, cpql: 27.66, deals: 197, revenue: 79847, roas: 3.22 },
+      { month: "Aug 2025", spend: 24812, leads: 10891, cpl: 2.28, qualified: 380, cpql: 65.66, deals: 197, revenue: 79847, roas: 3.22 },
       // Sep 2025: NYFW buzz + fall collection drop. Awareness spike captured.
       // 271 orders × ~$415 AOV = $112,478. ROAS 4.07
-      { month: "Sep 2025", spend: 27634, leads: 13247, cpl: 2.09, qualified: 1178, cpql: 23.46, deals: 271, revenue: 112478, roas: 4.07 },
+      { month: "Sep 2025", spend: 27634, leads: 13247, cpl: 2.09, qualified: 458, cpql: 60.46, deals: 271, revenue: 112478, roas: 4.07 },
       // Oct 2025: Fall peak — coats, boots, layering. Holiday prep ramps.
       // 293 orders × ~$416 AOV = $121,834. ROAS 4.21
-      { month: "Oct 2025", spend: 28947, leads: 14123, cpl: 2.05, qualified: 1267, cpql: 22.85, deals: 293, revenue: 110000, roas: 3.80 },
+      { month: "Oct 2025", spend: 28947, leads: 14123, cpl: 2.05, qualified: 449, cpql: 64.85, deals: 293, revenue: 110000, roas: 3.80 },
       // Nov 2025: BLACK FRIDAY + CYBER MONDAY — peak ecom month. Gifting frenzy.
       // 467 orders × ~$389 AOV (discounts) = $181,647. ROAS 5.38
-      { month: "Nov 2025", spend: 33734, leads: 19847, cpl: 1.70, qualified: 2134, cpql: 15.81, deals: 225, revenue: 135534, roas: 4.02 },
+      { month: "Nov 2025", spend: 33734, leads: 19847, cpl: 1.70, qualified: 605, cpql: 56.81, deals: 225, revenue: 135534, roas: 4.02 },
       // Dec 2025: Holiday gifting + last-chance shipping. Strong through mid-month, tapering post-Christmas.
       // 428 orders × ~$446 AOV (premium gifting) = $190,847. ROAS 5.93
-      { month: "Dec 2025", spend: 31734, leads: 17478, cpl: 1.82, qualified: 1812, cpql: 17.51, deals: 334, revenue: 148800, roas: 4.69 },
+      { month: "Dec 2025", spend: 31734, leads: 17478, cpl: 1.82, qualified: 477, cpql: 67.51, deals: 334, revenue: 148800, roas: 4.69 },
     ],
   },
   impact: [

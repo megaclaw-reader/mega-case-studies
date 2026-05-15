@@ -123,29 +123,29 @@ export const fashionApparel: CaseStudyData = {
     },
     monthly: [
       // Jan 2025: Post-holiday slowdown — lowest demand, clearance campaigns, minimal spend
-      { month: "Jan 2025", spend: 6234, leads: 4156, cpl: 1.50, qualified: 374, cpql: 16.67, deals: 91, revenue: 7189, roas: 1.15 },
+      { month: "Jan 2025", spend: 6234, leads: 4156, cpl: 1.50, qualified: 138, cpql: 45.67, deals: 91, revenue: 7189, roas: 1.15 },
       // Feb 2025: Still slow — Valentine's Day gives small bump, spring preview campaigns launching
-      { month: "Feb 2025", spend: 6478, leads: 4319, cpl: 1.50, qualified: 389, cpql: 16.65, deals: 73, revenue: 5767, roas: 0.89 },
+      { month: "Feb 2025", spend: 6478, leads: 4319, cpl: 1.50, qualified: 172, cpql: 38.65, deals: 73, revenue: 5767, roas: 0.89 },
       // Mar 2025: Spring transition — wardrobe refresh messaging, new collection launch
-      { month: "Mar 2025", spend: 7123, leads: 5088, cpl: 1.40, qualified: 463, cpql: 15.38, deals: 105, revenue: 8505, roas: 1.19 },
+      { month: "Mar 2025", spend: 7123, leads: 5088, cpl: 1.40, qualified: 178, cpql: 40.38, deals: 105, revenue: 8505, roas: 1.19 },
       // Apr 2025: Spring peak — strong seasonal demand, Easter shopping, warm weather prep
-      { month: "Apr 2025", spend: 7847, leads: 5891, cpl: 1.33, qualified: 542, cpql: 14.48, deals: 182, revenue: 14745, roas: 1.88 },
+      { month: "Apr 2025", spend: 7847, leads: 5891, cpl: 1.33, qualified: 209, cpql: 38.48, deals: 182, revenue: 14745, roas: 1.88 },
       // May 2025: Late spring — wedding guest season, outdoor event dressing
-      { month: "May 2025", spend: 7534, leads: 5714, cpl: 1.32, qualified: 523, cpql: 14.41, deals: 182, revenue: 14378, roas: 1.91 },
+      { month: "May 2025", spend: 7534, leads: 5714, cpl: 1.32, qualified: 227, cpql: 33.41, deals: 182, revenue: 14378, roas: 1.91 },
       // Jun 2025: Early summer — vacation wardrobe, summer collections
-      { month: "Jun 2025", spend: 7289, leads: 5607, cpl: 1.30, qualified: 518, cpql: 14.07, deals: 164, revenue: 12777, roas: 1.75 },
+      { month: "Jun 2025", spend: 7289, leads: 5607, cpl: 1.30, qualified: 208, cpql: 35.07, deals: 164, revenue: 12777, roas: 1.75 },
       // Jul 2025: Mid-summer — slight dip as consumers shift to experiences, clearance starting
-      { month: "Jul 2025", spend: 6891, leads: 5147, cpl: 1.34, qualified: 468, cpql: 14.72, deals: 136, revenue: 10608, roas: 1.54 },
+      { month: "Jul 2025", spend: 6891, leads: 5147, cpl: 1.34, qualified: 198, cpql: 35.72, deals: 136, revenue: 10608, roas: 1.54 },
       // Aug 2025: Back-to-school surge — workwear refresh, campus fashion, fall transition
-      { month: "Aug 2025", spend: 9234, leads: 7387, cpl: 1.25, qualified: 694, cpql: 13.31, deals: 214, revenue: 17334, roas: 1.88 },
+      { month: "Aug 2025", spend: 9234, leads: 7387, cpl: 1.25, qualified: 272, cpql: 34.31, deals: 214, revenue: 17334, roas: 1.88 },
       // Sep 2025: Fall collection launch — strong demand, new arrivals driving excitement
-      { month: "Sep 2025", spend: 9478, leads: 7582, cpl: 1.25, qualified: 713, cpql: 13.29, deals: 269, revenue: 21789, roas: 2.3 },
+      { month: "Sep 2025", spend: 9478, leads: 7582, cpl: 1.25, qualified: 258, cpql: 37.29, deals: 269, revenue: 21789, roas: 2.3 },
       // Oct 2025: Pre-holiday ramp — outerwear peak, layering content, BF audience building
-      { month: "Oct 2025", spend: 8734, leads: 6987, cpl: 1.25, qualified: 649, cpql: 13.46, deals: 234, revenue: 18973, roas: 2.17 },
+      { month: "Oct 2025", spend: 8734, leads: 6987, cpl: 1.25, qualified: 250, cpql: 35.46, deals: 234, revenue: 18973, roas: 2.17 },
       // Nov 2025: BLACK FRIDAY / CYBER MONDAY — massive spike, doorbusters, gift bundles, peak ROAS
-      { month: "Nov 2025", spend: 10123, leads: 9211, cpl: 1.10, qualified: 1013, cpql: 9.99, deals: 344, revenue: 43671, roas: 4.31 },
+      { month: "Nov 2025", spend: 10123, leads: 9211, cpl: 1.10, qualified: 304, cpql: 33.99, deals: 344, revenue: 43671, roas: 4.31 },
       // Dec 2025: Holiday gifting — still strong but slightly below BF, gift cards and last-minute deals
-      { month: "Dec 2025", spend: 9423, leads: 8178, cpl: 1.15, qualified: 867, cpql: 10.87, deals: 277, revenue: 23200, roas: 2.46 },
+      { month: "Dec 2025", spend: 9423, leads: 8178, cpl: 1.15, qualified: 341, cpql: 28.87, deals: 277, revenue: 23200, roas: 2.46 },
     ],
   },
   impact: [

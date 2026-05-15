@@ -4,7 +4,7 @@ export const vacationRental: CaseStudyData = {
   slug: "vacation-rental",
   industry: "Vacation Rental",
   headline: "How a New York Vacation Rental Company Grew Bookings 187% With AI-Powered Marketing",
-  subheadline: "MEGA helped a vacation rental property management company in New York's Catskills, Hudson Valley, and Hamptons markets drive booking volume from 4 per month to 11+ while reducing cost per qualified lead 41% — generating $547K in revenue across 12 months.",
+  subheadline: "MEGA helped a vacation rental property management company in New York's Catskills, Hudson Valley, and Hamptons markets drive booking volume from 4 per month to 11+ while reducing cost per qualified lead 41% — generating $286.8K in revenue across 12 months.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
     { value: "187", unit: "%", label: "Booking Growth" },
@@ -238,7 +238,7 @@ export const vacationRental: CaseStudyData = {
   },
   impact: [
     { label: "Total Revenue", value: "$286.8K", growth: "from paid campaigns" },
-    { label: "Blended ROAS", value: "3.1x", growth: "across all 12 months" },
+    { label: "Blended ROAS", value: "3.06x", growth: "across all 12 months" },
     { label: "CPQL Reduction", value: "$286 → $164", growth: "↓43%" },
     { label: "Monthly Bookings", value: "4 → 11", growth: "+175%" },
   ],

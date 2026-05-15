@@ -112,27 +112,27 @@ export const premiumCandleHomeFragrance: CaseStudyData = {
     },
     monthly: [
       // May 2025: Takeover month — inheriting existing campaigns at ~1.75x ROAS. Audit and restructure begins.
-      { month: "May 2025", spend: 12380, leads: 9831, cpl: 1.26, qualified: 1032, cpql: 12.00, deals: 486, revenue: 21627.00, roas: 1.75 },
+      { month: "May 2025", spend: 12380, leads: 9831, cpl: 1.26, qualified: 331, cpql: 37.00, deals: 486, revenue: 21627.00, roas: 1.75 },
       // Jun 2025: New campaign architecture deployed. Google Shopping launched. AI agents active. Early gains visible.
-      { month: "Jun 2025", spend: 13420, leads: 11183, cpl: 1.20, qualified: 1230, cpql: 10.91, deals: 603, revenue: 27376.20, roas: 2.04 },
+      { month: "Jun 2025", spend: 13420, leads: 11183, cpl: 1.20, qualified: 338, cpql: 40.91, deals: 603, revenue: 27376.20, roas: 2.04 },
       // Jul 2025: Creative engine ramping — 14+ variations in rotation. Summer fragrance interest rising.
-      { month: "Jul 2025", spend: 14760, leads: 12966, cpl: 1.14, qualified: 1556, cpql: 9.49, deals: 793, revenue: 36478.00, roas: 2.47 },
+      { month: "Jul 2025", spend: 14760, leads: 12966, cpl: 1.14, qualified: 375, cpql: 39.49, deals: 793, revenue: 36478.00, roas: 2.47 },
       // Aug 2025: AI identified gift-buyer segment with 41% lower CPA. Budget shifted automatically. Retargeting sequences matured.
-      { month: "Aug 2025", spend: 16240, leads: 15320, cpl: 1.06, qualified: 1916, cpql: 8.48, deals: 1014, revenue: 47151.00, roas: 2.90 },
+      { month: "Aug 2025", spend: 16240, leads: 15320, cpl: 1.06, qualified: 436, cpql: 37.48, deals: 1014, revenue: 47151.00, roas: 2.90 },
       // Sep 2025: Fall transition. Candle seasonality beginning. Organic traffic starting to compound.
-      { month: "Sep 2025", spend: 17680, leads: 17843, cpl: 0.99, qualified: 2284, cpql: 7.74, deals: 1233, revenue: 57951.00, roas: 3.28 },
+      { month: "Sep 2025", spend: 17680, leads: 17843, cpl: 0.99, qualified: 642, cpql: 28.74, deals: 1233, revenue: 57951.00, roas: 3.28 },
       // Oct 2025: Q4 competition drives Cost Per Visits up but conversion rates rise faster. Pre-warming holiday audiences.
-      { month: "Oct 2025", spend: 21440, leads: 20038, cpl: 1.07, qualified: 2805, cpql: 7.64, deals: 1570, revenue: 74575.00, roas: 3.48 },
+      { month: "Oct 2025", spend: 21440, leads: 20038, cpl: 1.07, qualified: 644, cpql: 33.64, deals: 1570, revenue: 74575.00, roas: 3.48 },
       // Nov 2025: Black Friday / Cyber Monday blitz. Budget scaled aggressively. AI managed real-time bid adjustments at peak.
-      { month: "Nov 2025", spend: 38460, leads: 42733, cpl: 0.90, qualified: 6397, cpql: 6.01, deals: 3838, revenue: 186526.80, roas: 4.85 },
+      { month: "Nov 2025", spend: 38460, leads: 42733, cpl: 0.90, qualified: 1142, cpql: 34.01, deals: 3838, revenue: 186526.80, roas: 4.85 },
       // Dec 2025: Extended holiday buying. Gift card + New Year messaging. Organic reducing paid dependency.
-      { month: "Dec 2025", spend: 19840, leads: 22711, cpl: 0.87, qualified: 2953, cpql: 6.72, deals: 1711, revenue: 82298.10, roas: 4.15 },
+      { month: "Dec 2025", spend: 19840, leads: 22711, cpl: 0.87, qualified: 748, cpql: 27.72, deals: 1711, revenue: 82298.10, roas: 4.15 },
     ],
   },
   impact: [
     { label: "Total Revenue", value: "$534.0K", growth: "+98% ROAS improvement" },
     { label: "Total Orders", value: "11,248", growth: "across 8 months" },
     { label: "Average Order Value", value: "$47.47", growth: "premium candle category" },
-    { label: "Blended ROAS", value: "3.5x", growth: "from 1.75x starting" },
+    { label: "Blended ROAS", value: "3.46x", growth: "from 1.75x starting" },
   ],
 };

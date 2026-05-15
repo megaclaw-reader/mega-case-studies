@@ -3,7 +3,7 @@ import { CaseStudyData } from "./types";
 export const homeRemodelingAz: CaseStudyData = {
   slug: "home-remodeling-az",
   industry: "Home Remodelling Contractor",
-  headline: "How an Arizona Home Remodeling Contractor Generated $290K in Revenue With AI-Powered Paid Ads",
+  headline: "How an Arizona Home Remodeling Contractor Generated $289.6K in Revenue With AI-Powered Paid Ads",
   subheadline: "MEGA helped a full-service home remodeling company in Arizona optimize their paid advertising campaigns, reducing cost per qualified lead by 43%, closing 73 projects, and generating $289.6K in attributed revenue over 8 months.",
   heroStats: [
     { value: "8", unit: "months", label: "Partnership Duration" },
@@ -127,6 +127,6 @@ export const homeRemodelingAz: CaseStudyData = {
     { label: "Total Revenue", value: "$289.6K", growth: "+187%" },
     { label: "Total Pipeline", value: "$692K", growth: "+143%" },
     { label: "Avg Project Value", value: "$289.6K", growth: "" },
-    { label: "Blended ROAS", value: "3.9x", growth: "" },
+    { label: "Blended ROAS", value: "3.90x", growth: "" },
   ],
 };

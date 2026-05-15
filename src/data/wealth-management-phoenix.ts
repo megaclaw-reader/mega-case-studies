@@ -184,7 +184,7 @@ export const wealthManagementPhoenix: CaseStudyData = {
   },
   impact: [
     { label: "New AUM Acquired", value: "$78.1M", growth: "+32.5% of existing book" },
-    { label: "First-Year Revenue", value: "$565K", growth: "from paid acquisition alone" },
+    { label: "First-Year Revenue", value: "$565.0K", growth: "from paid acquisition alone" },
     { label: "Total New Clients (Paid + Organic)", value: "43", growth: "+187%" },
     { label: "Avg AUM Per New Client", value: "$1.82M", growth: "" },
     { label: "Blended Cost Per Client", value: "$6,319", growth: "↓41%" },

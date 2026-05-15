@@ -85,7 +85,7 @@ export const multiLocationConsumerBrand: CaseStudyData = {
   seo: undefined,
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$2,136,000" },
+      { label: "Total Ad Spend", value: "$2.14M" },
       { label: "Add to Carts", value: "187,440" },
       { label: "Orders", value: "74,964" },
       { label: "Total Revenue", value: "$6.4M", note: "Ad-attributed" },
@@ -114,6 +114,6 @@ export const multiLocationConsumerBrand: CaseStudyData = {
     { label: "Daily Spend Scaled", value: "$5K → $9K+", growth: "+80%" },
     { label: "Total Revenue", value: "$6.37M", growth: "Ad-attributed" },
     { label: "Average Order Value", value: "74,964", growth: "" },
-    { label: "Blended ROAS", value: "3.0x", growth: "Maintained at scale" },
+    { label: "Blended ROAS", value: "2.98x", growth: "Maintained at scale" },
   ],
 };

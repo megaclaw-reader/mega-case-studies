@@ -7,7 +7,7 @@ export const lifeInsuranceChicago: CaseStudyData = {
   subheadline: "Leveraging advanced tracking systems and call transcript analysis to identify high-intent prospects and improve close rates by 35%",
   heroStats: [
     { value: "76.8", unit: "K", label: "New Policy Commissions" },
-    { value: "142", unit: "", label: "Qualified Leads Generated" },
+    { value: "64", unit: "", label: "Qualified Leads Generated" },
     { value: "62", unit: "", label: "Policies Sold" },
     { value: "3.6", unit: "x", label: "Blended ROAS" }
   ],

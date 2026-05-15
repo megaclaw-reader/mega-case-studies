@@ -151,6 +151,6 @@ export const dogGroomingArizona: CaseStudyData = {
     { label: "Total Revenue", value: "$189.4K", growth: "+271%" },
     { label: "Booked Clients", value: "367", growth: "+229%" },
     { label: "Cost Per Qualified Lead", value: "$83", growth: "↓55% from $183" },
-    { label: "Blended ROAS", value: "2.3x", growth: "" },
+    { label: "Blended ROAS", value: "2.26x", growth: "" },
   ],
 };

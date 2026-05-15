@@ -8,7 +8,7 @@ export const healthcareEquipmentNational: CaseStudyData = {
   heroStats: [
     { value: "1,908", unit: "", label: "Qualified Leads" },
     { value: "953", unit: "K", label: "Total Revenue" },
-    { value: "4.24", unit: "x", label: "Blended ROAS" },
+    { value: "4.2", unit: "x", label: "Blended ROAS" },
   ],
   tags: ["SEO", "Paid Advertising", "Lead Generation"],
   company: {
@@ -145,9 +145,9 @@ export const healthcareEquipmentNational: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Equipment Sales", value: "416", growth: "+287%" },
+    { label: "Total Equipment Sales", value: "$952.7K", growth: "+287%" },
     { label: "Total Revenue", value: "$952.7K", growth: "+340%" },
     { label: "Cost Per Qualified Lead", value: "$119", growth: "↓52%" },
-    { label: "Blended ROAS", value: "4.2x", growth: "+168%" },
+    { label: "Blended ROAS", value: "4.18x", growth: "+168%" },
   ],
 };

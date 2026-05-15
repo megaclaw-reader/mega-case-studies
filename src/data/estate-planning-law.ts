@@ -3,7 +3,7 @@ import { CaseStudyData } from "./types";
 export const estatePlanningLaw: CaseStudyData = {
   slug: "estate-planning-law",
   industry: "Estate Planning and Law",
-  headline: "How a Boston Estate Planning Law Firm Generated $367K in Revenue and Grew Organic Traffic 1,847% in 12 Months",
+  headline: "How a Boston Estate Planning Law Firm Generated $367.4K in Revenue and Grew Organic Traffic 1,847% in 12 Months",
   subheadline: "MEGA helped a Boston-based estate planning law firm combine AI-powered paid advertising with aggressive SEO to reduce cost per qualified lead by 40%, grow organic keywords from 118 to 8,740+, and generate $367.4K in attributed revenue over a 12-month engagement.",
   heroStats: [
     { value: "$367.4K", unit: "K", label: "Revenue Generated" },
@@ -208,7 +208,7 @@ export const estatePlanningLaw: CaseStudyData = {
   },
   impact: [
     { label: "Total Revenue", value: "$367.4K", growth: "from $0 digital revenue" },
-    { label: "Blended ROAS", value: "3.3x", growth: "" },
+    { label: "Blended ROAS", value: "3.35x", growth: "" },
     { label: "Organic Traffic Growth", value: "+1,847%", growth: "167 → 3,247/mo" },
     { label: "Keywords Ranking", value: "8,740", growth: "from 118 (+7,305%)" },
   ],

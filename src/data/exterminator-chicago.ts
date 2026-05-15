@@ -3,11 +3,11 @@ import { CaseStudyData } from "./types";
 export const exterminatorChicago: CaseStudyData = {
   slug: "exterminator-chicago",
   industry: "Pest Control",
-  headline: "How a Chicago Pest Control Company Generated 357 Qualified Leads and 3.5x ROAS in 8 Months",
+  headline: "How a Chicago Pest Control Company Generated 357 Qualified Leads and 1.0x ROAS in 8 Months",
   subheadline: "MEGA helped a Chicago-based exterminator build a high-performing lead pipeline through SEO and paid advertising — growing organic traffic 502%, increasing top 10 keyword rankings from 12 to 132, and reducing cost per qualified lead to $126.",
   heroStats: [
-    { value: "357", unit: "", label: "Qualified Leads Generated" },
-    { value: "3.5", unit: "x", label: "Blended ROAS" },
+    { value: "134", unit: "", label: "Qualified Leads Generated" },
+    { value: "1.0", unit: "x", label: "Blended ROAS" },
     { value: "48", unit: "$", label: "Best Month Cost Per Lead" },
   ],
   tags: ["SEO Strategy", "Paid Advertising", "Local SEO", "Lead Generation"],
@@ -100,8 +100,8 @@ export const exterminatorChicago: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$45.1K" },
-      { label: "Qualified Leads", value: "357" },
-      { label: "Avg Cost Per Qualified Lead", value: "$126", note: "↓from ~$210+ baseline" },
+      { label: "Qualified Leads", value: "134" },
+      { label: "Avg Cost Per Qualified Lead", value: "$337", note: "↓from ~$210+ baseline" },
       { label: "Booked Jobs", value: "100" },
     ],
     columnLabels: {
@@ -113,14 +113,14 @@ export const exterminatorChicago: CaseStudyData = {
       costPerDeal: "Cost/Job",
     },
     monthly: [
-      { month: "Sep '25", spend: 5180, leads: 34, cpl: 152, qualified: 30, cpql: 172.67, deals: 8, revenue: 12640, roas: 2.44 },
-      { month: "Oct '25", spend: 5320, leads: 43, cpl: 124, qualified: 35, cpql: 152.00, deals: 10, revenue: 15800, roas: 2.97 },
-      { month: "Nov '25", spend: 5480, leads: 44, cpl: 125, qualified: 40, cpql: 137.00, deals: 11, revenue: 17490, roas: 3.19 },
-      { month: "Dec '25", spend: 5250, leads: 50, cpl: 105, qualified: 36, cpql: 145.83, deals: 10, revenue: 15370, roas: 2.93 },
-      { month: "Jan '26", spend: 5610, leads: 52, cpl: 108, qualified: 46, cpql: 121.96, deals: 13, revenue: 20280, roas: 3.61 },
-      { month: "Feb '26", spend: 5890, leads: 57, cpl: 103, qualified: 54, cpql: 109.07, deals: 15, revenue: 23550, roas: 4.00 },
-      { month: "Mar '26", spend: 6240, leads: 69, cpl: 90, qualified: 60, cpql: 104.00, deals: 17, revenue: 27030, roas: 4.33 },
-      { month: "Apr '26", spend: 6130, leads: 69, cpl: 89, qualified: 56, cpql: 109.46, deals: 16, revenue: 25120, roas: 4.10 },
+      { month: "Sep '25", spend: 5180, leads: 34, cpl: 152, qualified: 12, cpql: 432.67, deals: 5, revenue: 3702, roas: 0.71 },
+      { month: "Oct '25", spend: 5320, leads: 43, cpl: 124, qualified: 16, cpql: 332.00, deals: 8, revenue: 4741, roas: 0.89 },
+      { month: "Nov '25", spend: 5480, leads: 44, cpl: 125, qualified: 15, cpql: 365.00, deals: 6, revenue: 4288, roas: 0.78 },
+      { month: "Dec '25", spend: 5250, leads: 50, cpl: 105, qualified: 16, cpql: 328.83, deals: 7, revenue: 5243, roas: 1.0 },
+      { month: "Jan '26", spend: 5610, leads: 52, cpl: 108, qualified: 16, cpql: 351.96, deals: 8, revenue: 6100, roas: 1.09 },
+      { month: "Feb '26", spend: 5890, leads: 57, cpl: 103, qualified: 16, cpql: 368.07, deals: 7, revenue: 4646, roas: 0.79 },
+      { month: "Mar '26", spend: 6240, leads: 69, cpl: 90, qualified: 21, cpql: 297.00, deals: 10, revenue: 6675, roas: 1.07 },
+      { month: "Apr '26", spend: 6130, leads: 69, cpl: 89, qualified: 22, cpql: 279.46, deals: 11, revenue: 8136, roas: 1.33 },
     ],
   },
   organicConversions: {
@@ -173,8 +173,8 @@ export const exterminatorChicago: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue Generated (Paid)", value: "$157.3K", growth: "From $0 tracked" },
-    { label: "Blended ROAS", value: "3.5x", growth: "Paid channels" },
+    { label: "Total Revenue Generated (Paid)", value: "$43.5K", growth: "From $0 tracked" },
+    { label: "Blended ROAS", value: "0.97x", growth: "Paid channels" },
     { label: "Average Job Value", value: "$1,573", growth: "Including recurring plan sign-ups" },
     { label: "Cost Per Qualified Lead (Paid)", value: "$126", growth: "↓40% from ~$210 baseline" },
   ],

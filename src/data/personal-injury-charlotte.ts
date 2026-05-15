@@ -100,7 +100,7 @@ export const personalInjuryCharlotte: CaseStudyData = {
   },
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$101.0K" },
+      { label: "Total Ad Spend", value: "$101K" },
       { label: "Qualified Leads", value: "652" },
       { label: "Avg Cost Per Qualified Lead", value: "$155", note: "↓91% from $1,700" },
       { label: "Signed Cases", value: "33" },

@@ -114,6 +114,6 @@ export const b2bOfficeServiceTexas: CaseStudyData = {
     { label: "Total Revenue", value: "$298.2K", growth: "+237%" },
     { label: "Total Contracts Signed", value: "66", growth: "+214%" },
     { label: "Avg Contract Value", value: "$4,518", growth: "" },
-    { label: "Blended ROAS", value: "4.2x", growth: "" },
+    { label: "Blended ROAS", value: "4.18x", growth: "" },
   ],
 };

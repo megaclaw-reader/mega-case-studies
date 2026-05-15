@@ -3,7 +3,7 @@ import { CaseStudyData } from "./types";
 export const functionalMedicineClinic: CaseStudyData = {
   slug: "functional-medicine-clinic",
   industry: "Functional Medicine Clinic",
-  headline: "How a North Carolina Functional Medicine Clinic Acquired 39 New Patients and Generated $127K in Revenue in 5 Months",
+  headline: "How a North Carolina Functional Medicine Clinic Acquired 39 New Patients and Generated $127.4K in Revenue in 5 Months",
   subheadline: "MEGA helped a small functional medicine clinic in North Carolina build organic visibility from the ground up while running targeted paid campaigns — growing organic traffic 387%, generating 156 qualified leads, and achieving a 3.2x blended return on ad spend across SEO and paid advertising.",
   heroStats: [
     { value: "5", unit: "months", label: "Partnership Duration" },

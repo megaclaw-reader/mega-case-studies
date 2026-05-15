@@ -7,7 +7,7 @@ export const financialServicesSalesNm: CaseStudyData = {
   subheadline: "MEGA partnered with a full-service financial planning and insurance firm in New Mexico to build a high-quality lead generation engine through paid advertising — scaling monthly ad spend from $15,657 to $46,789, reducing cost per qualified lead by 56%, and closing 40 new high-value clients across wealth advisory, retirement planning, and commercial insurance services.",
   heroStats: [
     { value: "8", unit: "months", label: "Partnership Duration" },
-    { value: "173", unit: "", label: "Qualified Lead Cost Reduction" },
+    { value: "1,373", unit: "", label: "Qualified Lead Cost Reduction" },
     { value: "790.4", unit: "K", label: "New Client Revenue" },
   ],
   tags: ["Paid Advertising", "Lead Generation", "Financial Services"],
@@ -120,7 +120,7 @@ export const financialServicesSalesNm: CaseStudyData = {
   impact: [
     { label: "Total Revenue Generated", value: "$790.4K", growth: "" },
     { label: "Total New Clients", value: "40", growth: "+233%" },
-    { label: "Blended ROAS", value: "3.3x", growth: "" },
+    { label: "Blended ROAS", value: "3.31x", growth: "" },
     { label: "Cost Per Qualified Lead", value: "$1,380", growth: "↓56%" },
     { label: "Lead-to-Client Rate", value: "23.1%", growth: "+89%" },
     { label: "Monthly Ad Spend Scaled", value: "3x Growth", growth: "+199%" },

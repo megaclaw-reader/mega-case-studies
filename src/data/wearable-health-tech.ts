@@ -132,25 +132,25 @@ export const wearableHealthTech: CaseStudyData = {
     },
     monthly: [
       // Mar 2025: Launch — $10K floor, audience segmentation setup, early testing
-      { month: "Mar 2025", spend: 10230, leads: 6901, cpl: 1.40, qualified: 777, cpql: 13, deals: 112, revenue: 24416, roas: 2.39 },
+      { month: "Mar 2025", spend: 10230, leads: 6901, cpl: 1.40, qualified: 170, cpql: 60, deals: 112, revenue: 24416, roas: 2.39 },
       // Apr 2025: Optimization phase — segments tested, early learnings
-      { month: "Apr 2025", spend: 10470, leads: 8275, cpl: 1.36, qualified: 675, cpql: 16.59, deals: 127, revenue: 28067, roas: 2.68 },
+      { month: "Apr 2025", spend: 10470, leads: 8275, cpl: 1.36, qualified: 257, cpql: 41.59, deals: 127, revenue: 28067, roas: 2.68 },
       // May 2025: First budget increase as sleep + fitness segments prove out
-      { month: "May 2025", spend: 12340, leads: 8437, cpl: 1.30, qualified: 692, cpql: 18, deals: 168, revenue: 37296, roas: 3.02 },
+      { month: "May 2025", spend: 12340, leads: 8437, cpl: 1.30, qualified: 241, cpql: 51, deals: 168, revenue: 37296, roas: 3.02 },
       // Jun 2025: Summer fitness demand surge — scaling into warm audiences
-      { month: "Jun 2025", spend: 14180, leads: 9612, cpl: 1.25, qualified: 754, cpql: 19, deals: 214, revenue: 48418, roas: 3.41 },
+      { month: "Jun 2025", spend: 14180, leads: 9612, cpl: 1.25, qualified: 267, cpql: 53, deals: 214, revenue: 48418, roas: 3.41 },
       // Jul 2025: Peak summer — fitness wearable searches highest, confident scaling
-      { month: "Jul 2025", spend: 16720, leads: 10630, cpl: 1.20, qualified: 1554, cpql: 11, deals: 278, revenue: 63094, roas: 3.77 },
+      { month: "Jul 2025", spend: 16720, leads: 10630, cpl: 1.20, qualified: 335, cpql: 50, deals: 278, revenue: 63094, roas: 3.77 },
       // Aug 2025: Late summer strength — back-to-school health awareness
-      { month: "Aug 2025", spend: 18430, leads: 11595, cpl: 1.17, qualified: 1697, cpql: 11, deals: 327, revenue: 74949, roas: 4.07 },
+      { month: "Aug 2025", spend: 18430, leads: 11595, cpl: 1.17, qualified: 321, cpql: 57, deals: 327, revenue: 74949, roas: 4.07 },
       // Sep 2025: Fall wellness push — health monitoring seasonal interest
-      { month: "Sep 2025", spend: 19870, leads: 13740, cpl: 1.15, qualified: 1598, cpql: 12, deals: 364, revenue: 83356, roas: 4.19 },
+      { month: "Sep 2025", spend: 19870, leads: 13740, cpl: 1.15, qualified: 356, cpql: 56, deals: 364, revenue: 83356, roas: 4.19 },
       // Oct 2025: Pre-holiday — gift buyer audiences activated, budget ramps
-      { month: "Oct 2025", spend: 22140, leads: 15032, cpl: 1.14, qualified: 2036, cpql: 11, deals: 421, revenue: 97451, roas: 4.40 },
+      { month: "Oct 2025", spend: 22140, leads: 15032, cpl: 1.14, qualified: 416, cpql: 53, deals: 421, revenue: 97451, roas: 4.40 },
       // Nov 2025: Holiday season — Black Friday / gifting peak, maximum budget
-      { month: "Nov 2025", spend: 27890, leads: 16381, cpl: 1.11, qualified: 1370, cpql: 20, deals: 417, revenue: 97900, roas: 3.51 },
+      { month: "Nov 2025", spend: 27890, leads: 16381, cpl: 1.11, qualified: 514, cpql: 54, deals: 417, revenue: 97900, roas: 3.51 },
       // Dec 2025: Holiday tail + New Year resolution pre-sell — highest ROAS month
-      { month: "Dec 2025", spend: 25980, leads: 14149, cpl: 1.15, qualified: 2162, cpql: 12.73, deals: 514, revenue: 121298, roas: 4.67 },
+      { month: "Dec 2025", spend: 25980, leads: 14149, cpl: 1.15, qualified: 431, cpql: 60.73, deals: 514, revenue: 121298, roas: 4.67 },
     ],
   },
   organicConversions: {

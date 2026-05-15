@@ -3,7 +3,7 @@ import { CaseStudyData } from "./types";
 export const paintingCompanyPhoenix: CaseStudyData = {
   slug: "painting-company-phoenix",
   industry: "Painting Company",
-  headline: "How a Phoenix AZ Painting Company Generated $338K in Revenue With AI-Powered Paid Ads & SEO",
+  headline: "How a Phoenix AZ Painting Company Generated $338.2K in Revenue With AI-Powered Paid Ads & SEO",
   subheadline: "MEGA helped a residential and commercial painting company in Phoenix, AZ scale from zero digital presence to 103 closed projects and 8,247 ranking keywords in 12 months — leveraging always-on AI optimization to dominate the Phoenix metro painting market year-round.",
   heroStats: [
     { value: "$338.2K", unit: "K", label: "Revenue Attributed" },

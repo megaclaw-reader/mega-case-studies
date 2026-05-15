@@ -7,7 +7,7 @@ export const safetyTraining: CaseStudyData = {
   subheadline: "MEGA helped a workplace safety training provider in Houston, TX scale from $5K to $10K/month in ad spend while reducing cost per qualified lead from $287 to $149 — generating $363.2K in attributed revenue over 12 months through targeted campaigns reaching oil & gas, construction, and manufacturing decision-makers.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
-    { value: "$348.0K", unit: "K", label: "Revenue Attributed" },
+    { value: "$290.1K", unit: "K", label: "Revenue Attributed" },
     { value: "48", unit: "%", label: "CPQL Reduction" },
   ],
   tags: ["Paid Advertising", "SEO Strategy", "Local SEO", "ICP Optimization"],
@@ -128,9 +128,9 @@ export const safetyTraining: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$89.4K" },
-      { label: "Qualified Leads", value: "542" },
-      { label: "Avg Cost Per Qualified Lead", value: "$165", note: "↓43% from $287" },
-      { label: "Total Revenue", value: "$348.0K", note: "avg deal value $2,921" },
+      { label: "Qualified Leads", value: "163" },
+      { label: "Avg Cost Per Qualified Lead", value: "$548", note: "↓43% from $287" },
+      { label: "Total Revenue", value: "$290.1K", note: "avg deal value $2,921" },
     ],
     columnLabels: {
       leads: "Total Inquiries",
@@ -141,18 +141,18 @@ export const safetyTraining: CaseStudyData = {
       costPerDeal: "Cost/Contract",
     },
     monthly: [
-      { month: "Jan 2025", spend: 5100, leads: 67, cpl: 76.12, qualified: 18, cpql: 283.33, deals: 4, revenue: 14720.0, roas: 2.89 },
-      { month: "Feb 2025", spend: 5300, leads: 73, cpl: 72.6, qualified: 22, cpql: 240.91, deals: 6, revenue: 19140.0, roas: 3.61 },
-      { month: "Mar 2025", spend: 5800, leads: 89, cpl: 65.17, qualified: 34, cpql: 170.59, deals: 9, revenue: 27630.0, roas: 4.76 },
-      { month: "Apr 2025", spend: 7400, leads: 100, cpl: 74.0, qualified: 40, cpql: 185.0, deals: 10, revenue: 28700.0, roas: 3.88 },
-      { month: "May 2025", spend: 7200, leads: 104, cpl: 69.23, qualified: 42, cpql: 171.43, deals: 11, revenue: 33110.0, roas: 4.6 },
-      { month: "Jun 2025", spend: 7800, leads: 112, cpl: 69.64, qualified: 46, cpql: 169.57, deals: 12, revenue: 36480.0, roas: 4.68 },
-      { month: "Jul 2025", spend: 6700, leads: 111, cpl: 60.36, qualified: 45, cpql: 148.89, deals: 9, revenue: 29700.0, roas: 4.43 },
-      { month: "Aug 2025", spend: 8300, leads: 119, cpl: 69.75, qualified: 50, cpql: 166.0, deals: 13, revenue: 37310.0, roas: 4.5 },
-      { month: "Sep 2025", spend: 8100, leads: 126, cpl: 64.29, qualified: 52, cpql: 155.77, deals: 10, revenue: 29400.0, roas: 3.63 },
-      { month: "Oct 2025", spend: 8900, leads: 137, cpl: 64.96, qualified: 61, cpql: 145.9, deals: 7, revenue: 20700.0, roas: 2.33 },
-      { month: "Nov 2025", spend: 9200, leads: 146, cpl: 63.01, qualified: 63, cpql: 146.03, deals: 14, revenue: 40200.0, roas: 4.37 },
-      { month: "Dec 2025", spend: 9600, leads: 156, cpl: 61.54, qualified: 69, cpql: 139.13, deals: 15, revenue: 30912, roas: 3.22 }
+      { month: "Jan 2025", spend: 5100, leads: 67, cpl: 76.12, qualified: 8, cpql: 638.33, deals: 2, revenue: 14456.0, roas: 2.83 },
+      { month: "Feb 2025", spend: 5300, leads: 73, cpl: 72.6, qualified: 10, cpql: 530.91, deals: 2, revenue: 16304.0, roas: 3.08 },
+      { month: "Mar 2025", spend: 5800, leads: 89, cpl: 65.17, qualified: 12, cpql: 483.59, deals: 3, revenue: 25619.0, roas: 4.42 },
+      { month: "Apr 2025", spend: 7400, leads: 100, cpl: 74.0, qualified: 13, cpql: 569.0, deals: 3, revenue: 21285.0, roas: 2.88 },
+      { month: "May 2025", spend: 7200, leads: 104, cpl: 69.23, qualified: 12, cpql: 600.43, deals: 3, revenue: 25634.0, roas: 3.56 },
+      { month: "Jun 2025", spend: 7800, leads: 112, cpl: 69.64, qualified: 11, cpql: 709.57, deals: 3, revenue: 22542.0, roas: 2.89 },
+      { month: "Jul 2025", spend: 6700, leads: 111, cpl: 60.36, qualified: 14, cpql: 479.89, deals: 3, revenue: 20064.0, roas: 2.99 },
+      { month: "Aug 2025", spend: 8300, leads: 119, cpl: 69.75, qualified: 15, cpql: 553.0, deals: 3, revenue: 25616.0, roas: 3.09 },
+      { month: "Sep 2025", spend: 8100, leads: 126, cpl: 64.29, qualified: 17, cpql: 476.77, deals: 4, revenue: 28487.0, roas: 3.52 },
+      { month: "Oct 2025", spend: 8900, leads: 137, cpl: 64.96, qualified: 14, cpql: 636.9, deals: 3, revenue: 22155.0, roas: 2.49 },
+      { month: "Nov 2025", spend: 9200, leads: 146, cpl: 63.01, qualified: 18, cpql: 511.03, deals: 5, revenue: 36260.0, roas: 3.94 },
+      { month: "Dec 2025", spend: 9600, leads: 156, cpl: 61.54, qualified: 19, cpql: 505.13, deals: 4, revenue: 31722, roas: 3.3 }
     ],
   },
   localSeo: {
@@ -211,9 +211,9 @@ export const safetyTraining: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$348.0K", growth: "+487%" },
-    { label: "Signed Contracts", value: "141", growth: "+312%" },
+    { label: "Total Revenue", value: "$290.1K", growth: "+487%" },
+    { label: "Signed Contracts", value: "38", growth: "+312%" },
     { label: "Cost Per Qualified Lead", value: "$149", growth: "↓48%" },
-    { label: "Blended ROAS", value: "3.9x", growth: "" },
+    { label: "Blended ROAS", value: "3.25x", growth: "" },
   ],
 };

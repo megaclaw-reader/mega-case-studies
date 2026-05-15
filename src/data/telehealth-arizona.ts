@@ -149,7 +149,7 @@ export const telehealthArizona: CaseStudyData = {
     { label: "Total Revenue", value: "$129.0K", growth: "" },
     { label: "New Patients Acquired", value: "324", growth: "" },
     { label: "Avg Revenue Per Patient", value: "$172.3K", growth: "" },
-    { label: "Blended ROAS", value: "1.8x", growth: "" },
+    { label: "Blended ROAS", value: "1.78x", growth: "" },
     { label: "Cost/Qualified Lead", value: "654", growth: "↓41%" },
     { label: "Organic Keywords", value: "103 → 8,412", growth: "+8,068%" },
   ],

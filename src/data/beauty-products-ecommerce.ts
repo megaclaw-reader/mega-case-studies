@@ -77,7 +77,7 @@ export const beautyProductsEcommerce: CaseStudyData = {
   ],
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$3.5M" },
+      { label: "Total Ad Spend", value: "$3.49M" },
       { label: "Add to Carts", value: "416,784" },
       { label: "Avg Cost Per Cart", value: "$8.38", note: "↓22% reduction" },
       { label: "Orders", value: "252,579" },
@@ -103,9 +103,9 @@ export const beautyProductsEcommerce: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$16.5M", growth: "+71% ROAS improvement" },
+    { label: "Total Revenue", value: "$16.48M", growth: "+71% ROAS improvement" },
     { label: "Total Orders", value: "252,579", growth: "across 5 months" },
     { label: "Average Order Value", value: "$65.16", growth: "beauty product category" },
-    { label: "Blended ROAS", value: "4.7x", growth: "from 3.20x starting" },
+    { label: "Blended ROAS", value: "4.72x", growth: "from 3.20x starting" },
   ],
 };

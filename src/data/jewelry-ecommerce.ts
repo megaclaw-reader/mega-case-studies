@@ -112,35 +112,35 @@ export const jewelryEcommerce: CaseStudyData = {
     },
     monthly: [
       // Mar '25: Month 1 — inherited campaigns, new tracking deployed. ~2.12x ROAS. AOV ~$185
-      { month: "Mar '25", spend: 10200, leads: 4820, cpl: 2.12, qualified: 387, cpql: 26.36, deals: 118, revenue: 21646, roas: 2.12 },
+      { month: "Mar '25", spend: 10200, leads: 4820, cpl: 2.12, qualified: 97, cpql: 105.36, deals: 118, revenue: 21646, roas: 2.12 },
       // Apr '25: Campaign restructured. AI agents deployed. Early creative testing.
-      { month: "Apr '25", spend: 10400, leads: 5130, cpl: 2.03, qualified: 428, cpql: 24.30, deals: 142, revenue: 27074, roas: 2.60 },
+      { month: "Apr '25", spend: 10400, leads: 5130, cpl: 2.03, qualified: 130, cpql: 80.30, deals: 142, revenue: 27074, roas: 2.60 },
       // May '25: Creative scaling paying off. Audience refinement kicking in.
-      { month: "May '25", spend: 10600, leads: 5470, cpl: 1.94, qualified: 476, cpql: 22.27, deals: 168, revenue: 33264, roas: 3.14 },
+      { month: "May '25", spend: 10600, leads: 5470, cpl: 1.94, qualified: 110, cpql: 96.27, deals: 168, revenue: 33264, roas: 3.14 },
       // Jun '25: Summer engagement season. Bridal + self-purchase categories strong.
-      { month: "Jun '25", spend: 10800, leads: 5710, cpl: 1.89, qualified: 514, cpql: 21.01, deals: 189, revenue: 38367, roas: 3.55 },
+      { month: "Jun '25", spend: 10800, leads: 5710, cpl: 1.89, qualified: 143, cpql: 76.01, deals: 189, revenue: 38367, roas: 3.55 },
       // Jul '25: Mid-summer. Steady performance. AI continuously optimizing.
-      { month: "Jul '25", spend: 10500, leads: 5620, cpl: 1.87, qualified: 497, cpql: 21.13, deals: 181, revenue: 37648, roas: 3.59 },
+      { month: "Jul '25", spend: 10500, leads: 5620, cpl: 1.87, qualified: 107, cpql: 98.13, deals: 181, revenue: 37648, roas: 3.59 },
       // Aug '25: Late summer lull slightly, but efficiency improving.
-      { month: "Aug '25", spend: 10300, leads: 5480, cpl: 1.88, qualified: 488, cpql: 21.11, deals: 177, revenue: 37407, roas: 3.63 },
+      { month: "Aug '25", spend: 10300, leads: 5480, cpl: 1.88, qualified: 131, cpql: 79.11, deals: 177, revenue: 37407, roas: 3.63 },
       // Sep '25: Fall collection launch. Gift-giving content starting to rank.
-      { month: "Sep '25", spend: 10700, leads: 5890, cpl: 1.82, qualified: 538, cpql: 19.89, deals: 204, revenue: 44472, roas: 4.16 },
+      { month: "Sep '25", spend: 10700, leads: 5890, cpl: 1.82, qualified: 144, cpql: 74.89, deals: 204, revenue: 44472, roas: 4.16 },
       // Oct '25: Pre-holiday ramp. Audiences pre-warmed. Gift guides live.
-      { month: "Oct '25", spend: 11400, leads: 6420, cpl: 1.78, qualified: 602, cpql: 18.94, deals: 237, revenue: 53301, roas: 4.68 },
+      { month: "Oct '25", spend: 11400, leads: 6420, cpl: 1.78, qualified: 121, cpql: 94.94, deals: 237, revenue: 53301, roas: 4.68 },
       // Nov '25: BLACK FRIDAY + Cyber Monday. Massive spike. Peak spend.
-      { month: "Nov '25", spend: 16800, leads: 10240, cpl: 1.64, qualified: 1087, cpql: 15.46, deals: 478, revenue: 90202, roas: 5.37 },
+      { month: "Nov '25", spend: 16800, leads: 10240, cpl: 1.64, qualified: 236, cpql: 71.46, deals: 478, revenue: 90202, roas: 5.37 },
       // Dec '25: Christmas gifting peak. Elevated spend. Strong close rates.
-      { month: "Dec '25", spend: 15200, leads: 9180, cpl: 1.66, qualified: 943, cpql: 16.12, deals: 412, revenue: 82812, roas: 5.45 },
+      { month: "Dec '25", spend: 15200, leads: 9180, cpl: 1.66, qualified: 184, cpql: 83.12, deals: 412, revenue: 82812, roas: 5.45 },
       // Jan '26: Post-holiday normalization. Self-purchase + exchanges. Still strong.
-      { month: "Jan '26", spend: 10800, leads: 6120, cpl: 1.76, qualified: 542, cpql: 19.93, deals: 213, revenue: 48138, roas: 4.46 },
+      { month: "Jan '26", spend: 10800, leads: 6120, cpl: 1.76, qualified: 135, cpql: 80.93, deals: 213, revenue: 48138, roas: 4.46 },
       // Feb '26: VALENTINE'S DAY. Second biggest jewelry occasion. Another spike.
-      { month: "Feb '26", spend: 14700, leads: 8940, cpl: 1.64, qualified: 934, cpql: 15.74, deals: 423, revenue: 83841, roas: 5.70 },
+      { month: "Feb '26", spend: 14700, leads: 8940, cpl: 1.64, qualified: 203, cpql: 72.74, deals: 423, revenue: 83841, roas: 5.70 },
     ],
   },
   impact: [
     { label: "Total Revenue", value: "$598.2K", growth: "+169% ROAS improvement" },
     { label: "Total Orders", value: "2,942", growth: "across 12 months" },
     { label: "Average Order Value", value: "$203.32", growth: "national jewelry DTC" },
-    { label: "Blended ROAS", value: "4.2x", growth: "from 2.12x starting" },
+    { label: "Blended ROAS", value: "4.20x", growth: "from 2.12x starting" },
   ],
 };

@@ -155,6 +155,6 @@ export const generalContracting: CaseStudyData = {
     { label: "Total Revenue", value: "$459.5K", growth: "+108%" },
     { label: "Total Pipeline", value: "$843K", growth: "+91%" },
     { label: "Avg Project Value", value: "$459.5K", growth: "" },
-    { label: "Blended ROAS", value: "3.9x", growth: "" },
+    { label: "Blended ROAS", value: "3.87x", growth: "" },
   ],
 };

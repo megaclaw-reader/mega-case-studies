@@ -8,7 +8,7 @@ export const commercialLandscapingAlabama: CaseStudyData = {
   
   heroStats: [
     { value: '187', unit: '%', label: 'Lead Volume Growth' },
-    { value: '4.17', unit: 'x', label: 'Blended ROAS' },
+    { value: "2.9", unit: 'x', label: 'Blended ROAS' },
     { value: '850', unit: '', label: 'Total Leads Generated' },
     { value: '34.4', unit: '%', label: 'Lead Qualification Rate' }
   ],

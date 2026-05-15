@@ -3,7 +3,7 @@ import { CaseStudyData } from "./types";
 export const b2bLanguageServices: CaseStudyData = {
   slug: "b2b-language-services",
   industry: "B2B Language Services",
-  headline: "How a National Language Services Provider Generated $701K in Revenue and Achieved 4.0x Average ROAS in 12 Months",
+  headline: "How a National Language Services Provider Generated $701.1K in Revenue and Achieved 4.0x Average ROAS in 12 Months",
   subheadline: "MEGA helped a national B2B language services provider combine AI-powered paid advertising with strategic SEO to reduce cost per qualified lead by 32%, grow organic keywords from 151 to 9,240+, and generate $701K in attributed revenue targeting corporate clients across translation, interpretation, and localization services.",
   heroStats: [
     { value: "$701.1K", unit: "K", label: "Revenue Generated" },

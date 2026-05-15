@@ -180,6 +180,6 @@ export const legalProfessionalServices: CaseStudyData = {
     { label: "Total Attributed Revenue", value: "$168.7K", growth: "+187%" },
     { label: "Qualified Leads (Paid)", value: "366", growth: "+37% efficiency" },
     { label: "Avg Case Fee", value: "$5,450", growth: "" },
-    { label: "Blended ROAS", value: "2.7x", growth: "" },
+    { label: "Blended ROAS", value: "2.67x", growth: "" },
   ],
 };

@@ -192,6 +192,6 @@ export const hvacKitchenBathAz: CaseStudyData = {
     { label: "Total Revenue", value: "$221.3K", growth: "+217%" },
     { label: "Total Qualified Leads", value: "335", growth: "+41% lower Cost/Lead" },
     { label: "Avg Revenue Per Deal", value: "$221.3K", growth: "" },
-    { label: "Blended ROAS", value: "3.4x", growth: "" },
+    { label: "Blended ROAS", value: "3.44x", growth: "" },
   ],
 };

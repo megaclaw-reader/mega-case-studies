@@ -150,8 +150,8 @@ export const glp1WeightLoss: CaseStudyData = {
   impact: [
     { label: "Total Revenue", value: "$326.2K", growth: "" },
     { label: "Enrolled Patients", value: "178", growth: "" },
-    { label: "Blended ROAS", value: "4.2x", growth: "" },
-    { label: "Cost/Qualified Lead", value: "$132", growth: "↓44%" },
+    { label: "Blended ROAS", value: "4.17x", growth: "" },
+    { label: "Cost/Qualified Lead", value: "594", growth: "↓44%" },
     { label: "Organic Keywords", value: "95 → 11,247", growth: "+11,734%" },
     { label: "Organic Traffic", value: "437 → 18,371/mo", growth: "+4,103%" },
   ],
