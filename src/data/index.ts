@@ -1,4 +1,5 @@
 import { CaseStudyData } from "./types";
+import { restorationRemediationPhoenix } from "./restoration-remediation-phoenix";
 import { securitySurveillanceDallas } from "./security-surveillance-dallas";
 import { securitySurveillanceMiami } from "./security-surveillance-miami";
 import { commercialSurveillanceMiami } from "./commercial-surveillance-miami";
@@ -552,6 +553,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "artisan-home-goods-portland": artisanHomeGoodsPortland,
   "digital-marketing-agency-phoenix": digitalMarketingAgencyPhoenix,
   "creative-branding-agency-atlanta": creativeBrandingAgencyAtlanta,
+  "restoration-remediation-phoenix": restorationRemediationPhoenix,
 };
 
 export type { CaseStudyData };

@@ -1,0 +1,118 @@
+import { CaseStudyData } from "./types";
+
+export const restorationRemediationPhoenix: CaseStudyData = {
+  slug: "restoration-remediation-phoenix",
+  industry: "Restoration and Remediation",
+  headline: "Phoenix Restoration Company Reduces Cost Per Qualified Lead 58% While Generating $918K in Revenue from Water, Mold, and Fire Damage Jobs",
+  subheadline: "AI-powered paid advertising optimization generated 805 qualified leads and over $917K in restoration revenue across the Phoenix metro area over 13 months, with cost per qualified lead dropping from $408 to $173 through continuous AI optimization and lead quality improvements.",
+  heroStats: [
+    { value: "58", unit: "%", label: "CPQL Reduction" },
+    { value: "805", unit: "", label: "Qualified Leads" },
+    { value: "$918K", unit: "", label: "Revenue Generated" },
+    { value: "4.38", unit: "x", label: "Blended ROAS" },
+  ],
+  tags: ["Always-On AI Optimization", "Paid Advertising", "Lead Generation", "Restoration Services"],
+  company: {
+    industry: "Restoration and Remediation",
+    employees: "18-30",
+    revenue: "$1.8M",
+    location: "Phoenix, AZ",
+    description: "A full-service restoration and remediation company serving residential and commercial clients throughout the Phoenix metropolitan area. The company handles water damage restoration, mold remediation, fire and smoke damage cleanup, and storm damage repair across Phoenix, Scottsdale, Tempe, Mesa, and surrounding communities. Despite a strong reputation built on emergency response quality and insurance claim expertise, the business struggled with inconsistent lead flow, high acquisition costs, and difficulty distinguishing qualified emergency calls from tire-kickers.",
+  },
+  challenges: [
+    {
+      title: "High Cost Per Qualified Lead ($408)",
+      description: "With a starting cost per qualified lead of $408, the company was spending heavily on advertising but seeing poor returns. Many leads were price shoppers or non-emergency inquiries that never converted to paid restoration jobs, making it difficult to justify increasing ad spend.",
+    },
+    {
+      title: "Lead Quality Issues and Wasted Sales Time",
+      description: "The sales team spent hours fielding calls from unqualified prospects — renters without authority to hire, small DIY-type jobs under $500, and leads outside the Phoenix service area. Without qualifying criteria built into the advertising funnel, roughly 60% of leads never progressed past initial contact.",
+    },
+    {
+      title: "Extreme Phoenix Seasonality",
+      description: "Monsoon season (July–September) drove massive spikes in water damage calls, while winter months saw fewer emergencies. This boom-and-bust cycle made staffing and budget planning extremely difficult, with crews overwhelmed in summer and underutilized in cooler months.",
+    },
+    {
+      title: "Competitive Phoenix Market",
+      description: "The Phoenix restoration market is saturated with national franchises and local operators all competing for the same emergency damage leads. Rising advertising costs meant the company needed a smarter, more efficient approach to stand out and capture high-value jobs.",
+    },
+  ],
+  strategy: [
+    {
+      phase: 1,
+      months: "0–90 days",
+      title: "Foundation & AI-Powered Campaign Architecture",
+      items: [
+        "Deployed always-on AI optimization agents directly within ad accounts for continuous bid management, budget allocation, and audience refinement — replacing the traditional weekly-review cadence with real-time adjustments across all restoration service categories",
+        "Built separate campaign structures for water damage, mold remediation, fire damage, and storm repair to allow independent optimization and budget allocation based on seasonal demand patterns across Phoenix",
+        "Implemented lead qualification framework within landing pages — filtering for property owners, insurance claim eligibility, and job scope indicators before leads reached the sales team",
+        "Configured conversion tracking connecting emergency calls, form submissions, and estimate requests to actual job completions and revenue values for each restoration category",
+        "Launched Phoenix-specific geo-targeting covering high-value zip codes in Scottsdale, Paradise Valley, Arcadia, and central Phoenix where average job values run significantly higher",
+        "Created dedicated landing pages for emergency vs. non-emergency restoration services with different calls-to-action and qualifying questions",
+        "Established call tracking with AI-assisted scoring to immediately flag high-intent emergency calls for priority response",
+        "Launched initial creative testing with 15-20 AI-generated ad variations featuring emergency response messaging, before/after imagery, and Phoenix-specific weather damage scenarios",
+      ],
+    },
+    {
+      phase: 2,
+      months: "90–180 days",
+      title: "Lead Quality Optimization & Seasonal Strategy",
+      items: [
+        "AI agents identified that water damage leads from newer Phoenix subdivisions (built 2015+) converted at 31% higher rates due to active insurance policies — automatically increasing bids for these neighborhoods",
+        "Scaled AI-generated creative production to 25-30 new ad variations per month, testing different emergency scenarios, response time guarantees, and insurance claim assistance messaging",
+        "Real-time bid optimization detected pre-monsoon search pattern increases 2-3 weeks before actual storms, allowing proactive budget scaling that captured early-season demand before competitors reacted",
+        "Implemented negative keyword and audience exclusion strategy that reduced unqualified leads by 34% — filtering out DIY searches, renter inquiries, and out-of-area prospects",
+        "Launched retargeting sequences for different visitor behaviors: emergency page visitors received immediate response messaging, while estimate browsers got follow-up content about insurance claim processes",
+        "AI agents automatically shifted budget allocation between restoration categories based on real-time demand — increasing water damage spend during monsoon buildup while maintaining baseline mold and fire campaigns",
+        "Introduced dynamic ad scheduling increasing bids during early morning and late evening hours when emergency water damage searches peaked across Phoenix",
+        "Refined lead scoring model to prioritize commercial properties and insurance-backed residential jobs with higher average revenue potential",
+      ],
+    },
+    {
+      phase: 3,
+      months: "180+ days",
+      title: "Revenue Maximization & Market Expansion",
+      items: [
+        "Advanced lead qualification using AI to identify high-intent signals — urgency language in form submissions, specific damage descriptions, and willingness to discuss insurance claim details upfront",
+        "AI agents detected that commercial restoration leads from property management companies in specific Phoenix corridors generated 2.7x higher average job values, shifting targeting accordingly",
+        "Achieved consistent lead quality improvements with qualification rate climbing from 21% to 27% as AI continuously refined audience targeting and landing page filtering",
+        "Scaled monthly ad spend during peak monsoon months while maintaining cost per qualified lead efficiency through continuous AI optimization of bid strategies",
+        "Implemented dynamic budget allocation automatically increasing spend during storm events and monsoon warnings using weather-triggered campaign adjustments",
+        "Launched sophisticated audience layering targeting homeowners with properties over 2,000 sq ft, commercial property managers, and HOA decision-makers with customized messaging",
+        "Continuous AI optimization compounded small daily improvements into significant monthly gains — bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency reviews",
+        "Established predictable lead generation system capable of handling seasonal demand surges while maintaining consistent lead quality and cost efficiency year-round",
+      ],
+    },
+  ],
+  seo: undefined,
+  paidAds: {
+    summary: [
+      { label: "Total Ad Spend", value: "$209.7K" },
+      { label: "Total Leads", value: "3,461" },
+      { label: "Avg Cost Per Qualified Lead", value: "$260", note: "↓58% from $408" },
+      { label: "Total Revenue", value: "$918.0K" },
+      { label: "Overall ROAS", value: "4.38x" },
+    ],
+    monthly: [
+      { month: "Mar '25", spend: 10200, leads: 117, cpl: 87.18, qualified: 25, cpql: 408.00, deals: 8, revenue: 41440, roas: 4.06 },
+      { month: "Apr '25", spend: 10400, leads: 129, cpl: 80.62, qualified: 29, cpql: 358.62, deals: 9, revenue: 42570, roas: 4.09 },
+      { month: "May '25", spend: 11300, leads: 147, cpl: 76.87, qualified: 35, cpql: 322.86, deals: 11, revenue: 50490, roas: 4.47 },
+      { month: "Jun '25", spend: 14800, leads: 203, cpl: 72.91, qualified: 52, cpql: 284.62, deals: 15, revenue: 64200, roas: 4.34 },
+      { month: "Jul '25", spend: 22400, leads: 323, cpl: 69.35, qualified: 82, cpql: 273.17, deals: 21, revenue: 94710, roas: 4.23 },
+      { month: "Aug '25", spend: 24100, leads: 359, cpl: 67.13, qualified: 86, cpql: 280.23, deals: 24, revenue: 104880, roas: 4.35 },
+      { month: "Sep '25", spend: 20800, leads: 319, cpl: 65.20, qualified: 78, cpql: 266.67, deals: 20, revenue: 92400, roas: 4.44 },
+      { month: "Oct '25", spend: 17200, leads: 272, cpl: 63.24, qualified: 58, cpql: 296.55, deals: 16, revenue: 71680, roas: 4.17 },
+      { month: "Nov '25", spend: 14800, leads: 286, cpl: 51.75, qualified: 57, cpql: 259.65, deals: 14, revenue: 63420, roas: 4.28 },
+      { month: "Dec '25", spend: 13200, leads: 259, cpl: 50.97, qualified: 46, cpql: 286.96, deals: 12, revenue: 56520, roas: 4.28 },
+      { month: "Jan '26", spend: 14200, leads: 284, cpl: 50.00, qualified: 64, cpql: 221.88, deals: 15, revenue: 64650, roas: 4.55 },
+      { month: "Feb '26", spend: 16800, leads: 347, cpl: 48.41, qualified: 80, cpql: 210.00, deals: 18, revenue: 79020, roas: 4.70 },
+      { month: "Mar '26", spend: 19500, leads: 416, cpl: 46.88, qualified: 113, cpql: 172.57, deals: 21, revenue: 91980, roas: 4.72 },
+    ],
+  },
+  impact: [
+    { label: "CPQL Reduction", value: "58%", growth: "from $408 to $173" },
+    { label: "Total Restoration Revenue", value: "$918.0K", growth: "204 completed jobs" },
+    { label: "Blended ROAS", value: "4.38x", growth: "sustained profitability" },
+    { label: "Lead Quality Improvement", value: "29%", growth: "qualification rate 21% to 27%" },
+  ],
+};
