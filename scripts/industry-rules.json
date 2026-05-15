@@ -740,7 +740,8 @@
     "Digital Marketing Agency": "lead_gen_professional",
     "Creative Branding Agency": "lead_gen_professional",
     "Restoration and Remediation": "lead_gen_services",
-    "Veterinary Clinic": "healthcare_medical"
+    "Veterinary Clinic": "healthcare_medical",
+    "Custom Design & Home Renovations": "lead_gen_services"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",
