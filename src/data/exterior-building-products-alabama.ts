@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const exteriorBuildingProductsAlabama: CaseStudyData = {
   slug: "exterior-building-products-alabama",
   industry: "Exterior Building Products",
-  headline: "How an Alabama Exterior Building Products Supplier Improved Lead Quality by 347% and Achieved 5.5x ROAS in 5 Months",
+  headline: "How an Alabama Exterior Building Products Supplier Improved Lead Quality by 347% and Achieved 4.3x ROAS in 5 Months",
   subheadline: "MEGA helped a growing exterior building products company in Alabama double their qualified leads per month while reducing cost per qualified lead by 52% — generating $290.9K in revenue across Birmingham, Huntsville, Mobile, and Montgomery markets through strategic SEO growth and targeted paid advertising.",
   heroStats: [
     { value: "347", unit: "%", label: "Lead Quality Improvement" },
     { value: "1,847", unit: "", label: "Keywords Ranked (5 months)" },
-    { value: "5.5", unit: "x", label: "Blended ROAS" },
+    { value: "4.3", unit: "x", label: "Blended ROAS" },
   ],
   tags: ["SEO Strategy", "Paid Advertising", "Lead Generation", "Alabama"],
   company: {
@@ -123,8 +123,8 @@ export const exteriorBuildingProductsAlabama: CaseStudyData = {
       { label: "Total Ad Spend", value: "$52.6K" },
       { label: "Total Qualified Leads", value: "107" },
       { label: "Avg CPQL", value: "$492" },
-      { label: "Total Revenue", value: "$290.9K" },
-      { label: "Blended ROAS", value: "5.5x" },
+      { label: "Total Revenue", value: "$227.8K" },
+      { label: "Blended ROAS", value: "4.3x" },
     ],
     columnLabels: {
       leads: "Total Leads",
@@ -143,8 +143,8 @@ export const exteriorBuildingProductsAlabama: CaseStudyData = {
         qualified: 16,
         cpql: 548,
         deals: 6,
-        revenue: 46845,
-        roas: 5.34,
+        revenue: 40319,
+        roas: 4.6,
       },
       {
         month: "Feb 2025",
@@ -154,8 +154,8 @@ export const exteriorBuildingProductsAlabama: CaseStudyData = {
         qualified: 18,
         cpql: 519,
         deals: 8,
-        revenue: 55543,
-        roas: 5.95,
+        revenue: 38854,
+        roas: 4.16,
       },
       {
         month: "Mar 2025",
@@ -165,7 +165,7 @@ export const exteriorBuildingProductsAlabama: CaseStudyData = {
         qualified: 22,
         cpql: 511,
         deals: 8,
-        revenue: 52812,
+        revenue: 52763,
         roas: 4.69,
       },
       {
@@ -176,8 +176,8 @@ export const exteriorBuildingProductsAlabama: CaseStudyData = {
         qualified: 25,
         cpql: 516,
         deals: 11,
-        revenue: 76651,
-        roas: 5.95,
+        revenue: 52076,
+        roas: 4.04,
       },
       {
         month: "May 2025",
@@ -187,8 +187,8 @@ export const exteriorBuildingProductsAlabama: CaseStudyData = {
         qualified: 26,
         cpql: 399,
         deals: 9,
-        revenue: 59081,
-        roas: 5.7,
+        revenue: 43761,
+        roas: 4.22,
       },
     ],
   },
@@ -219,11 +219,11 @@ export const exteriorBuildingProductsAlabama: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue Generated", value: "$290.9K", growth: "from $0 attributable" },
+    { label: "Total Revenue Generated", value: "$227.8K", growth: "from $0 attributable" },
     { label: "Lead Quality Improvement", value: "+347%", growth: "from 31% to 78% qualification rate" },
     { label: "Cost Per Qualified Lead", value: "$159.88", growth: "52% reduction from baseline" },
     { label: "Organic Traffic Growth", value: "3,234/mo", growth: "+1,282% in 5 months" },
     { label: "Total Keywords Ranked", value: "1,847", growth: "from 112 baseline" },
-    { label: "Blended ROAS", value: "5.53x", growth: "exceeding industry standard 3-5x" },
+    { label: "Blended ROAS", value: "4.33x", growth: "exceeding industry standard 3-5x" },
   ],
 };

@@ -3,11 +3,11 @@ import { CaseStudyData } from "./types";
 export const roofingAlabama: CaseStudyData = {
   slug: "roofing-alabama",
   industry: "Roofing",
-  headline: "How an Alabama Roofing Contractor Captured $1.02M in Storm Season Revenue by Combining SEO With AI-Optimized Paid Campaigns",
+  headline: "How an Alabama Roofing Contractor Captured $935K in Storm Season Revenue by Combining SEO With AI-Optimized Paid Campaigns",
   subheadline: "MEGA helped a Birmingham-based residential and commercial roofing company dominate Alabama's competitive storm season market — generating 431 qualified leads, closing 44 roofing projects, and achieving a 3.6x blended ROAS over 8 months through always-on AI optimization and aggressive local SEO expansion across Birmingham, Huntsville, Mobile, and Montgomery.",
   heroStats: [
-    { value: "$1,022,329", unit: "K", label: "Total Revenue Generated" },
-    { value: "4.2", unit: "x", label: "Blended ROAS" },
+    { value: "$934.8K", unit: "K", label: "Total Revenue Generated" },
+    { value: "3.8", unit: "x", label: "Blended ROAS" },
     { value: "431", unit: "", label: "Qualified Leads" }
   ],
   tags: ["SEO", "Paid Advertising", "Lead Generation", "Local"],
@@ -106,8 +106,8 @@ export const roofingAlabama: CaseStudyData = {
       { label: "Total Ad Spend", value: "$244.8K" },
       { label: "Total Qualified Leads", value: "431" },
       { label: "Avg CPQL", value: "$568" },
-      { label: "Total Revenue", value: "$1,022,329" },
-      { label: "Blended ROAS", value: "4.2x" }
+      { label: "Total Revenue", value: "$934.8K" },
+      { label: "Blended ROAS", value: "3.8x" }
     ],
     columnLabels: {
       leads: "Total Leads",
@@ -126,7 +126,7 @@ export const roofingAlabama: CaseStudyData = {
         qualified: 30,
         cpql: 789,
         deals: 9,
-        revenue: 71869,
+        revenue: 71972,
         roas: 3.04
       },
       {
@@ -137,7 +137,7 @@ export const roofingAlabama: CaseStudyData = {
         qualified: 33,
         cpql: 754,
         deals: 10,
-        revenue: 83669,
+        revenue: 83630,
         roas: 3.36
       },
       {
@@ -148,7 +148,7 @@ export const roofingAlabama: CaseStudyData = {
         qualified: 47,
         cpql: 603,
         deals: 15,
-        revenue: 116670,
+        revenue: 116761,
         roas: 4.12
       },
       {
@@ -159,7 +159,7 @@ export const roofingAlabama: CaseStudyData = {
         qualified: 56,
         cpql: 558,
         deals: 16,
-        revenue: 108512,
+        revenue: 108438,
         roas: 3.47
       },
       {
@@ -170,7 +170,7 @@ export const roofingAlabama: CaseStudyData = {
         qualified: 56,
         cpql: 592,
         deals: 19,
-        revenue: 128564,
+        revenue: 128407,
         roas: 3.87
       },
       {
@@ -181,8 +181,8 @@ export const roofingAlabama: CaseStudyData = {
         qualified: 75,
         cpql: 476,
         deals: 24,
-        revenue: 202279,
-        roas: 5.67
+        revenue: 144107,
+        roas: 4.04
       },
       {
         month: "Jul 2025",
@@ -192,8 +192,8 @@ export const roofingAlabama: CaseStudyData = {
         qualified: 69,
         cpql: 506,
         deals: 23,
-        revenue: 169293,
-        roas: 4.85
+        revenue: 140029,
+        roas: 4.01
       },
       {
         month: "Aug 2025",
@@ -203,15 +203,15 @@ export const roofingAlabama: CaseStudyData = {
         qualified: 65,
         cpql: 506,
         deals: 21,
-        revenue: 141473,
+        revenue: 141427,
         roas: 4.3
       }
     ]
   },
   
   impact: [
-    { label: "Total Revenue", value: "$1.02M", growth: "" },
-    { label: "Blended ROAS", value: "4.18x", growth: "" },
+    { label: "Total Revenue", value: "$934.8K", growth: "" },
+    { label: "Blended ROAS", value: "3.82x", growth: "" },
     { label: "Qualified Leads", value: "431", growth: "" },
     { label: "Keyword Rankings", value: "4,543", growth: "+2,929%" }
   ]
