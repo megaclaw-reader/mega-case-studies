@@ -45,6 +45,7 @@ import { medSpaSeoNewYork } from "./med-spa-seo-new-york";
 import { jewelryEcommerce } from "./jewelry-ecommerce";
 import { probateLawArizona } from "./probate-law-arizona";
 import { realEstateBuySellArizona } from "./real-estate-buy-sell-arizona";
+import { realEstatePhoenix } from "./real-estate-phoenix";
 import { electricalSupplyDistribution } from "./electrical-supply-distribution";
 import { municipalInfrastructure } from "./municipal-infrastructure";
 import { junkRemovalLosAngeles } from "./junk-removal-los-angeles";
@@ -482,6 +483,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "jewelry-ecommerce": jewelryEcommerce,
   "probate-law-arizona": probateLawArizona,
   "real-estate-buy-sell-arizona": realEstateBuySellArizona,
+  "real-estate-phoenix": realEstatePhoenix,
   "inspection-company-phoenix": inspectionCompanyPhoenix,
   "backyard-renovations-new-mexico": backyardRenovationsNewMexico,
   "estate-planning-law": estatePlanningLaw,
