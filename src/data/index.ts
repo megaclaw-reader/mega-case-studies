@@ -1,4 +1,5 @@
 import { CaseStudyData } from "./types";
+import { homecareServicesArizona } from "./homecare-services-arizona";
 import { customDesignHomeRenovationsNj } from "./custom-design-home-renovations-nj";
 import { veterinaryClinicPhoenix } from "./veterinary-clinic-phoenix";
 import { restorationRemediationPhoenix } from "./restoration-remediation-phoenix";
@@ -560,6 +561,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "restoration-remediation-phoenix": restorationRemediationPhoenix,
   "veterinary-clinic-phoenix": veterinaryClinicPhoenix,
   "custom-design-home-renovations-nj": customDesignHomeRenovationsNj,
+  "homecare-services-arizona": homecareServicesArizona,
 };
 
 export type { CaseStudyData };

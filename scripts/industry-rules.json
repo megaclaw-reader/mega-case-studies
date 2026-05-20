@@ -174,6 +174,10 @@
         "franchise_med_spa": [
           400,
           700
+        ],
+        "homecare_services": [
+          3000,
+          6000
         ]
       }
     },
@@ -741,7 +745,9 @@
     "Creative Branding Agency": "lead_gen_professional",
     "Restoration and Remediation": "lead_gen_services",
     "Veterinary Clinic": "healthcare_medical",
-    "Custom Design & Home Renovations": "lead_gen_services"
+    "Custom Design & Home Renovations": "lead_gen_services",
+    "Homecare Services": "lead_gen_services",
+    "Homecare Services": "lead_gen_services"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",
