@@ -254,6 +254,7 @@ import { personalCareBeauty } from "./personal-care-beauty";
 import { plasticSurgery } from "./plastic-surgery";
 import { customClosetsStorage } from "./custom-closets-storage";
 import { seniorCareCharlotte } from "./senior-care-charlotte";
+import { seniorCareFlorida } from "./senior-care-florida";
 import { lifeInsuranceFloridaNew } from "./life-insurance-florida";
 import { hvacSanJose } from "./hvac-san-jose";
 import { ecommerceSportsStore } from "./ecommerce-sports-store";
@@ -518,6 +519,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "cbd-thc-seo": cbdThcSeo,
   "pool-installation": poolInstallation,
   "senior-care-charlotte": seniorCareCharlotte,
+  "senior-care-florida": seniorCareFlorida,
   "life-insurance-florida": lifeInsuranceFloridaNew,
   "hvac-san-jose": hvacSanJose,
   "ecommerce-sports-store": ecommerceSportsStore,
