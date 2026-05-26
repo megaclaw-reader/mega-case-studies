@@ -283,6 +283,7 @@ import { wealthManagementSeo } from "./wealth-management-seo";
 import { artisanHomeGoodsPortland } from "./artisan-home-goods-portland";
 import { digitalMarketingAgencyPhoenix } from "./digital-marketing-agency-phoenix";
 import { creativeBrandingAgencyAtlanta } from "./creative-branding-agency-atlanta";
+import { realEstateInvestmentArizona } from "./real-estate-investment-arizona";
 
 export const caseStudies: Record<string, CaseStudyData> = {
   "medical-assessment-ai-app": medicalAssessmentAiApp,
@@ -568,6 +569,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "financial-advising-phoenix": financialAdvisingPhoenix,
   "homecare-services-arizona": homecareServicesArizona,
   "home-renovations-new-jersey": homeRenovationsNewJersey,
+  "real-estate-investment-arizona": realEstateInvestmentArizona,
 };
 
 export type { CaseStudyData };
