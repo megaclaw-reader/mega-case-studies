@@ -137,6 +137,7 @@ CPL_RANGES = {
     "health_and_wellness_app": (3, 15),
     # Medical Assessment AI App — cost per INSTALL (CPI)
     "medical_assessment_ai_app": (1.50, 7.00),
+    "consumer_financial_services": (35, 150),
     # Ecom — cost per SESSION (not per lead)
     "ecom":              (0.20, 5.00),
     "sustainable_luxury": (1.50, 4.00),
@@ -228,6 +229,8 @@ def _cpl_category(industry, model_key):
         ("dental medtech", "healthcare_equip"), ("healthcare equip", "healthcare_equip"), ("medical device", "healthcare_equip"),
         ("medical devices & diagnostics", "medical_devices_&_diagnostics"),
         ("wealth", "wealth_mgmt"), ("venture capital", "venture_capital"),
+        ("consumer financial services", "consumer_financial_services"),
+        ("consumer financial", "consumer_financial_services"),
         ("fintech", "financial_services"),
         ("financial advising", "financial_advising"),
         ("financial", "financial_services"),
@@ -292,6 +295,7 @@ DEAL_VALUE_RANGES = {
     "pool": (15000, 100000),
     "pool_renovation": (100000, 300000),
     "homecare_services": (3000, 6000),
+    "consumer_financial_services": (500, 5000),
     "window": (3000, 25000),
     "beauty_spa": (50, 2500),
     "chiropractor": (500, 2000),

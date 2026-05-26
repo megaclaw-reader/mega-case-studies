@@ -763,7 +763,8 @@
     "Real Estate Investment": "lead_gen_professional",
     "Non-Profit Organization / Event": "nonprofit",
     "Non-Profit Event": "nonprofit",
-    "Non-Profit Ticket Sales": "ecommerce"
+    "Non-Profit Ticket Sales": "ecommerce",
+    "Consumer Financial Services": "lead_gen_professional"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",

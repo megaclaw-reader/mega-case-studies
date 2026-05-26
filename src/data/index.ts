@@ -48,6 +48,7 @@ import { disasterRecoveryNewMexico } from "./disaster-recovery-new-mexico";
 import { disasterRecoveryNorthCarolina } from "./disaster-recovery-north-carolina";
 import { medSpaSeoNewYork } from "./med-spa-seo-new-york";
 import { jewelryEcommerce } from "./jewelry-ecommerce";
+import { consumerFinancialServices } from "./consumer-financial-services";
 import { probateLawArizona } from "./probate-law-arizona";
 import { realEstateBuySellArizona } from "./real-estate-buy-sell-arizona";
 import { realEstatePhoenix } from "./real-estate-phoenix";
@@ -574,6 +575,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "real-estate-investment-arizona": realEstateInvestmentArizona,
   "nonprofit-event-california": nonprofitEventCalifornia,
   "nonprofit-ticket-sales-san-diego": nonprofitTicketSalesSanDiego,
+  "consumer-financial-services": consumerFinancialServices,
 };
 
 export type { CaseStudyData };
