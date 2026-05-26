@@ -338,7 +338,7 @@ DEAL_VALUE_RANGES = {
     "tax": (2000, 25000),
     "insurance": (2000, 60000),
     "health_insurance": (3000, 18000),
-    "it_services": (3000, 60000),
+    "it_services": (3000, 80000),
     "cybersecurity": (5000, 120000),
     "recruiting": (3000, 30000),
     "coaching": (1000, 25000),
