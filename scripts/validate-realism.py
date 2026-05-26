@@ -99,7 +99,8 @@ def get_qual_range(industry, content):
     has_sessions = bool(re.search(r'["\']Sessions["\']', content))
     has_orders = bool(re.search(r'["\']Orders["\']', content))
     has_add_to_cart = 'addToCart' in content or bool(re.search(r'["\']Add to Cart["\']', content))
-    is_ecom = (has_sessions and has_orders) or has_add_to_cart
+    has_ticket = bool(re.search(r'["\']Ticket (Purchases|Selections)["\']', content))
+    is_ecom = (has_sessions and has_orders) or has_add_to_cart or (has_sessions and has_ticket)
     if is_ecom:
         return (0.01, 0.15)  # Ecom conversion rates: 1-5% typical, up to 10-15% for niche/targeted
     
@@ -127,7 +128,8 @@ def validate_file(filepath):
     has_sessions = bool(re.search(r'["\']Sessions["\']', content))
     has_orders = bool(re.search(r'["\']Orders["\']', content))
     has_add_to_cart = 'addToCart' in content or bool(re.search(r'["\']Add to Cart["\']', content))
-    is_ecom = (has_sessions and has_orders) or has_add_to_cart
+    has_ticket = bool(re.search(r'["\']Ticket (Purchases|Selections)["\']', content))
+    is_ecom = (has_sessions and has_orders) or has_add_to_cart or (has_sessions and has_ticket)
     roas_cap = ROAS_CAPS['ecom'] if is_ecom else ROAS_CAPS['lead_gen']
     
     # Get paid ads data

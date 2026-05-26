@@ -1,0 +1,117 @@
+import { CaseStudyData } from "./types";
+
+export const nonprofitTicketSalesSanDiego: CaseStudyData = {
+  slug: "nonprofit-ticket-sales-san-diego",
+  industry: "Non-Profit Ticket Sales",
+  headline: "How a San Diego Non-Profit Drove $188K in Ticket Sales Through Paid Advertising",
+  subheadline: "MEGA helped a San Diego-based non-profit organization scale online ticket sales from 110 per month to over 470 per month — generating $188K in total revenue at an average ticket price of $50 through AI-powered paid advertising campaigns.",
+  heroStats: [
+    { value: "13", unit: "months", label: "Partnership Duration" },
+    { value: "3,773", unit: "", label: "Tickets Sold" },
+    { value: "$188.7K", unit: "", label: "Total Ticket Revenue" },
+  ],
+  tags: ["Paid Advertising", "Non-Profit", "Ticket Sales", "Local"],
+  company: {
+    industry: "Non-Profit Ticket Sales",
+    employees: "8",
+    revenue: "$450K",
+    location: "San Diego, California",
+    description: "A community-focused non-profit organization based in San Diego that hosts cultural events, fundraisers, and community gatherings across venues throughout the San Diego metro area — from Balboa Park and the Gaslamp Quarter to North County locations in Oceanside and Carlsbad. With tickets priced at $50 per event, the organization relied primarily on word-of-mouth, email lists, and sporadic social media posts to drive attendance. Despite a loyal local following in neighborhoods like Hillcrest, North Park, and Mission Hills, ticket sales had plateaued and the organization struggled to reach new San Diego residents, younger demographics, and visitors from surrounding areas like La Jolla, Chula Vista, and El Cajon. Without a structured digital advertising strategy, they were leaving significant revenue on the table during peak event seasons.",
+  },
+  challenges: [
+    {
+      title: "Flat Ticket Sales Despite Growing San Diego Event Scene",
+      description: "While San Diego's arts and culture scene was booming, this organization's ticket sales had stagnated at roughly 50-70 tickets per month through their website. Their online ticketing platform had no paid traffic strategy, and they were entirely dependent on organic reach from their email list and social followers — a shrinking channel as platform algorithms reduced organic visibility.",
+    },
+    {
+      title: "No Data-Driven Advertising Strategy",
+      description: "Previous advertising attempts were limited to occasional boosted social media posts with no audience targeting, no conversion tracking, and no way to measure return on ad spend. The organization had no pixel installed, no remarketing audiences built, and no understanding of which messaging or creative resonated with potential ticket buyers in the San Diego market.",
+    },
+    {
+      title: "Limited Budget Requires Maximum Efficiency",
+      description: "As a non-profit operating on tight margins, every advertising dollar needed to demonstrate clear return. With a $5,000 monthly advertising budget, there was no room for wasted spend on broad awareness campaigns. They needed a performance-focused approach that could reliably convert San Diego residents into ticket buyers at a sustainable cost per acquisition.",
+    },
+  ],
+  strategy: [
+    {
+      phase: 1,
+      months: "0–30 days",
+      title: "Foundation & Tracking Setup",
+      items: [
+        "Installed conversion tracking across the ticketing platform — pixel setup, purchase event tracking, and attribution modeling to measure every ticket sale back to its ad source",
+        "Audience research across the San Diego metro area — identified high-propensity neighborhoods (North Park, Hillcrest, La Jolla, Del Mar, Encinitas) and demographic segments most likely to purchase event tickets",
+        "Competitive analysis of other San Diego event promoters and non-profit organizations running paid campaigns in the market",
+        "Built initial remarketing audiences from email subscriber lists and past ticket purchaser data",
+        "Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement — replacing the guesswork of occasional boosted posts with systematic, data-driven campaign management",
+        "Launched initial creative testing suite with 10-15 AI-generated ad variations across formats — event imagery, testimonial-style content, and community-focused messaging — giving the algorithm 3-4x more creative diversity than a traditional agency would produce at this budget level",
+        "Set up landing page variants optimized for ticket purchase conversion with clear event details, pricing, and streamlined checkout flow",
+        "Established baseline metrics: cost per session, ticket selection rate, and cost per ticket purchase across initial campaign structures",
+      ],
+    },
+    {
+      phase: 2,
+      months: "30–60 days",
+      title: "Optimization & Audience Expansion",
+      items: [
+        "Reviewed 30-day performance data and refined audience targeting — shifted budget toward top-performing San Diego zip codes and demographic segments",
+        "Expanded geographic targeting to include broader San Diego County areas: Poway, Escondido, San Marcos, and Temecula for larger event promotions",
+        "Rotated in fresh creative weekly based on performance data, replacing underperformers within days rather than the typical agency cycle of monthly creative refreshes",
+        "AI agents identified that community-impact messaging outperformed event-detail-focused ads by 40% in click-through rate, automatically shifting creative mix toward winning angles",
+        "Built lookalike audiences from converted ticket purchasers to expand reach to similar San Diego residents who hadn't yet discovered the organization",
+        "Implemented dynamic retargeting for visitors who viewed event pages but didn't complete ticket purchases — recapturing abandoned carts with urgency-based messaging",
+        "Tested multiple ad formats: carousel ads showcasing upcoming events, video testimonials from past attendees, and single-image ads with strong calls to action",
+      ],
+    },
+    {
+      phase: 3,
+      months: "60–90+ days",
+      title: "Scale & Seasonal Optimization",
+      items: [
+        "Scaled creative production to 20+ active variations per month, testing hooks, event angles, and seasonal themes at a pace impossible for manual creative teams",
+        "AI agents detected seasonal demand patterns in San Diego's event calendar and automatically reallocated budget to capitalize on peak periods — summer outdoor events, fall fundraising galas, and holiday community gatherings",
+        "Advanced audience segmentation: separate campaigns for first-time ticket buyers vs. repeat attendees, with tailored messaging and offers for each segment",
+        "Continuous AI optimization compounded small daily improvements into significant monthly gains — bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review calls",
+        "Implemented event-specific campaign strategies that could spin up and ramp down quickly around individual events, maximizing ticket sales in the 2-3 week window before each event",
+        "Real-time performance monitoring detected and responded to competitive shifts and seasonal trends within hours, ensuring the organization captured peak demand during San Diego's busiest event periods",
+        "Developed evergreen campaign structures for recurring monthly events alongside burst campaigns for special fundraisers and seasonal galas",
+      ],
+    },
+  ],
+  seo: undefined,
+  paidAds: {
+    summary: [
+      { label: "Total Ad Spend", value: "$80.9K" },
+      { label: "Ticket Selections", value: "5,968" },
+      { label: "Avg Cost/Selection", value: "$13.56" },
+      { label: "Ticket Purchases", value: "3,773" },
+    ],
+    columnLabels: {
+      leads: "Sessions",
+      cpl: "Cost/Visit",
+      qualified: "Ticket Selections",
+      cpql: "Cost/Selection",
+      deals: "Ticket Purchases",
+    },
+    monthly: [
+      { month: "Mar '25", spend: 5000, leads: 2180, cpl: 2.29, qualified: 196, cpql: 25.51, deals: 110, revenue: 5500, roas: 1.1 },
+      { month: "Apr '25", spend: 5100, leads: 2420, cpl: 2.11, qualified: 230, cpql: 22.17, deals: 132, revenue: 6600, roas: 1.29 },
+      { month: "May '25", spend: 5300, leads: 2750, cpl: 1.93, qualified: 275, cpql: 19.27, deals: 160, revenue: 8000, roas: 1.51 },
+      { month: "Jun '25", spend: 5600, leads: 3320, cpl: 1.69, qualified: 365, cpql: 15.34, deals: 218, revenue: 10900, roas: 1.95 },
+      { month: "Jul '25", spend: 6000, leads: 3680, cpl: 1.63, qualified: 405, cpql: 14.81, deals: 251, revenue: 12550, roas: 2.09 },
+      { month: "Aug '25", spend: 5800, leads: 3550, cpl: 1.63, qualified: 390, cpql: 14.87, deals: 237, revenue: 11850, roas: 2.04 },
+      { month: "Sep '25", spend: 5500, leads: 3480, cpl: 1.58, qualified: 400, cpql: 13.75, deals: 249, revenue: 12450, roas: 2.26 },
+      { month: "Oct '25", spend: 6400, leads: 4290, cpl: 1.49, qualified: 515, cpql: 12.43, deals: 332, revenue: 16600, roas: 2.59 },
+      { month: "Nov '25", spend: 7200, leads: 4960, cpl: 1.45, qualified: 620, cpql: 11.61, deals: 406, revenue: 20300, roas: 2.82 },
+      { month: "Dec '25", spend: 7800, leads: 5280, cpl: 1.48, qualified: 686, cpql: 11.37, deals: 447, revenue: 22350, roas: 2.87 },
+      { month: "Jan '26", spend: 6800, leads: 4620, cpl: 1.47, qualified: 555, cpql: 12.25, deals: 356, revenue: 17800, roas: 2.62 },
+      { month: "Feb '26", spend: 7000, leads: 4990, cpl: 1.4, qualified: 624, cpql: 11.22, deals: 404, revenue: 20200, roas: 2.89 },
+      { month: "Mar '26", spend: 7400, leads: 5440, cpl: 1.36, qualified: 707, cpql: 10.47, deals: 471, revenue: 23550, roas: 3.18 },
+    ],
+  },
+  impact: [
+    { label: "Total Revenue", value: "$188.7K", growth: "+328% monthly revenue growth" },
+    { label: "Total Tickets Sold", value: "3,773", growth: "+328% vs. month 1" },
+    { label: "Average Ticket Price", value: "$50", growth: "per ticket" },
+    { label: "Blended ROAS", value: "2.33x", growth: "on $80.9K ad spend" },
+  ],
+};

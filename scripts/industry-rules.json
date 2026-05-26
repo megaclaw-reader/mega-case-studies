@@ -502,6 +502,10 @@
         "hair_products": [
           35,
           60
+        ],
+        "nonprofit_ticket_sales": [
+          45,
+          55
         ]
       }
     },
@@ -758,7 +762,8 @@
     "Financial Advising": "lead_gen_professional",
     "Real Estate Investment": "lead_gen_professional",
     "Non-Profit Organization / Event": "nonprofit",
-    "Non-Profit Event": "nonprofit"
+    "Non-Profit Event": "nonprofit",
+    "Non-Profit Ticket Sales": "ecommerce"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",
@@ -766,6 +771,7 @@
     "Beauty Products": "ecommerce",
     "Nail Salon": "lead_gen_services",
     "GLP-1 Weight Loss": "healthcare_medical",
-    "Restoration and Remediation": "lead_gen_services"
+    "Restoration and Remediation": "lead_gen_services",
+    "Non-Profit Ticket Sales": "ecommerce"
   }
 }
