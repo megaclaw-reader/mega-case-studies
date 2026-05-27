@@ -16,6 +16,7 @@ import { businessBrokerage } from "./business-brokerage";
 import { medicalAssessmentAiApp } from "./medical-assessment-ai-app";
 import { projectManagementSoftwareSeo } from "./project-management-software-seo";
 import { dentalImplantsAustin } from "./dental-implants-austin";
+import { dentalSurgeryClinic } from "./dental-surgery-clinic";
 import { franchiseDevelopment } from "./franchise-development";
 import { franchiseMedSpa } from "./franchise-med-spa";
 import { seoProjectionHhRedStone } from "./seo-projection-hh-red-stone";
@@ -552,6 +553,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "franchise-med-spa": franchiseMedSpa,
   "project-management-software-seo": projectManagementSoftwareSeo,
   "dental-implants-austin": dentalImplantsAustin,
+  "dental-surgery-clinic": dentalSurgeryClinic,
   "glp1-weight-loss": glp1WeightLoss,
   "childrens-clothing-ecommerce": childrensClothingEcommerce,
   "pension-appointment-generation": pensionAppointmentGeneration,

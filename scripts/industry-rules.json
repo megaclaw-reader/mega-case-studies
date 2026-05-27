@@ -764,7 +764,8 @@
     "Non-Profit Organization / Event": "nonprofit",
     "Non-Profit Event": "nonprofit",
     "Non-Profit Ticket Sales": "ecommerce",
-    "Consumer Financial Services": "lead_gen_professional"
+    "Consumer Financial Services": "lead_gen_professional",
+    "Dental Surgery": "healthcare_medical"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",
