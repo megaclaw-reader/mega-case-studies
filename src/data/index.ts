@@ -290,6 +290,7 @@ import { digitalMarketingAgencyPhoenix } from "./digital-marketing-agency-phoeni
 import { creativeBrandingAgencyAtlanta } from "./creative-branding-agency-atlanta";
 import { realEstateInvestmentArizona } from "./real-estate-investment-arizona";
 import { autoPartsAccessories } from "./auto-parts-accessories";
+import { ecommercePremiumPet } from "./ecommerce-premium-pet";
 
 export const caseStudies: Record<string, CaseStudyData> = {
   "medical-assessment-ai-app": medicalAssessmentAiApp,
@@ -582,6 +583,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "nonprofit-ticket-sales-san-diego": nonprofitTicketSalesSanDiego,
   "consumer-financial-services": consumerFinancialServices,
   "auto-parts-accessories": autoPartsAccessories,
+  "ecommerce-premium-pet": ecommercePremiumPet,
 };
 
 export type { CaseStudyData };

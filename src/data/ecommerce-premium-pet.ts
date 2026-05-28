@@ -1,0 +1,117 @@
+import { CaseStudyData } from "./types";
+
+export const ecommercePremiumPet: CaseStudyData = {
+  slug: "ecommerce-premium-pet",
+  industry: "eCommerce — Premium Pet Products",
+  headline: "How a Premium Pet Brand Grew Ad Revenue to $2.0M by Targeting Niche Pet Owner Segments",
+  subheadline: "MEGA helped a direct-to-consumer premium pet products retailer escape the Chewy and Amazon price war by identifying underserved audience segments — health-conscious pet owners, senior pet care buyers, and breed-specific communities — reducing cost per acquisition by 72% and generating 18,145 orders over 12 months.",
+  heroStats: [
+    { value: "12", unit: "months", label: "Campaign Duration" },
+    { value: "18,145", unit: "", label: "Total Orders" },
+    { value: "2.01", unit: "M", label: "Ad Revenue" },
+  ],
+  tags: ["Paid Advertising", "Ecommerce", "Niche Audience Strategy"],
+  company: {
+    industry: "eCommerce — Premium Pet Products",
+    employees: "18",
+    revenue: "$6.2M",
+    location: "National (USA — DTC)",
+    description: "A direct-to-consumer ecommerce brand specializing in premium pet products — organic dog food, grain-free treats, joint supplements for aging pets, orthopedic beds, and curated breed-specific accessories. The company had built a loyal following among pet owners willing to pay more for quality, but their paid advertising strategy was failing. Generic targeting pitted them directly against massive competitors with bottomless budgets — and the brand was losing. Cost per acquisition had climbed to over $100 per order, ROAS had fallen below 1.5x, and the marketing team was considering cutting ad spend entirely. The core problem wasn't the product — customers who found them loved them and resubscribed. The problem was finding those customers profitably in a market dominated by platforms spending 100x more on advertising.",
+  },
+  challenges: [
+    {
+      title: "Competing Head-to-Head Against Chewy and Amazon on Generic Keywords",
+      description: "The brand was bidding on broad terms like 'premium dog food' and 'organic pet treats' where massive competitors dominated both ad placements and organic results. Cost per click had risen 40% year-over-year on these terms, and conversion rates were declining as shoppers defaulted to the familiar platforms. Every dollar spent on generic pet product keywords was essentially a donation to the auction — the brand couldn't outbid or outspend competitors with billion-dollar market caps. There was no strategy to find the audience segments where big players weren't competing as aggressively.",
+    },
+    {
+      title: "No Audience Segmentation Beyond 'Pet Owners'",
+      description: "All campaigns targeted a single broad audience: people interested in pets. But premium pet product buyers aren't a monolith — a first-time puppy owner buying a cute bandana has completely different motivations than someone researching glucosamine supplements for their 12-year-old golden retriever with hip dysplasia. The brand's product catalog spanned health-focused items, comfort products, breed-specific accessories, and subscription-friendly consumables, but every customer saw the same generic ads regardless of their pet's needs, age, breed, or health concerns.",
+    },
+    {
+      title: "Missed Subscription Revenue and Holiday Gift Potential",
+      description: "Premium pet food and supplements are naturally subscription-friendly — pets eat every day and supplements are monthly recurring purchases. Yet the brand had no subscription-focused acquisition campaigns. Similarly, pet gifts are one of the fastest-growing holiday categories, with spending on pet presents increasing 15-20% annually. The brand had no Q4 gift strategy, no holiday bundles, and no campaigns targeting the 'gifts for dog lovers' audience that explodes every November and December.",
+    },
+  ],
+  strategy: [
+    {
+      phase: 1,
+      months: "0–30 days",
+      title: "Audience Research & Niche Segmentation Foundation",
+      items: [
+        "Deep audit of 14 months of historical purchase data — mapped customer profiles by product category, repeat purchase rate, average order value, and acquisition source to identify the most profitable customer segments",
+        "Identified three underserved high-value audience niches: (1) health-conscious pet owners searching for organic/natural/grain-free products, (2) senior pet care buyers researching joint supplements, mobility aids, and orthopedic beds, (3) breed-specific enthusiast communities with strong purchasing patterns for breed-tailored products",
+        "Built separate campaign architectures for each niche segment with tailored creative, landing pages, and product recommendations — eliminating the one-size-fits-all approach that had been burning budget against Chewy and Amazon",
+        "Implemented enhanced ecommerce tracking with proper attribution for subscription conversions vs. one-time purchases, enabling accurate LTV-based bidding",
+        "Negative keyword overhaul — excluded bargain/discount/cheap pet product queries, competitor brand terms with poor conversion history, and DIY pet food recipe searches that attracted non-buyers",
+        "Product feed optimization with health-benefit-focused descriptions, breed-specific product titles, and seasonal product prioritization",
+        "Deployed always-on AI optimization agents within ad accounts for continuous bid management and audience refinement — replacing the previous agency's biweekly review cadence with real-time optimization that captured micro-opportunities hourly",
+        "Launched initial creative testing suite with 25 AI-generated ad variations across formats — lifestyle imagery of healthy senior dogs, ingredient close-ups for health-conscious buyers, and breed-specific product showcases to seed the algorithm with diverse performance signals from day one",
+      ],
+    },
+    {
+      phase: 2,
+      months: "30–60 days",
+      title: "Niche Audience Scaling & Subscription Campaigns",
+      items: [
+        "Scaled health-conscious pet owner campaigns with content-driven ads — ingredient transparency, veterinarian endorsement angles, and 'what's actually in your dog's food' comparison hooks that resonated strongly with this audience",
+        "Launched senior pet care campaigns targeting pet owners researching age-related pet health topics — joint pain, mobility issues, digestive sensitivity — with product solutions positioned as care rather than commerce",
+        "Built breed-specific campaign clusters for the top 8 breeds by purchase volume — tailored creative showing the specific breed, size-appropriate product recommendations, and breed community language that generic competitors couldn't replicate",
+        "Subscription-first acquisition campaigns: free-trial offers for food and supplement subscriptions with LTV-based bid strategies that could afford higher upfront CPA knowing the 6-month retention curve",
+        "Cross-sell automation layers: supplement buyers targeted with food recommendations, bed buyers targeted with grooming products, food subscribers targeted with treat add-ons",
+        "AI agents identified that senior pet care audiences converted at 2.3x the rate of generic pet owner targeting within the first 3 weeks — budget was automatically reallocated to capture this opportunity before the next scheduled review would have caught it",
+        "Scaled AI-generated creative production to 40+ active variations per month, testing emotional hooks (pet health outcomes), rational hooks (ingredient quality), and social proof angles across each audience segment at a pace impossible for traditional creative teams",
+        "Performance-based budget reallocation across segments weekly — senior pet care and health-conscious segments earning higher budget share as efficiency data matured",
+      ],
+    },
+    {
+      phase: 3,
+      months: "60–90 days",
+      title: "Q4 Holiday Strategy & Full-Scale Optimization",
+      items: [
+        "Built comprehensive Q4 holiday strategy targeting the 'gifts for pet lovers' audience — a completely different buyer profile (gifting for someone else's pet) requiring different creative, messaging, and product bundles",
+        "Created holiday gift bundles: 'Senior Dog Care Package,' 'New Puppy Starter Kit,' 'Breed Lover Gift Box' — curated sets with higher AOV than individual products",
+        "Black Friday and Cyber Monday campaigns with tiered offers: subscription sign-up discounts (highest margin), bundle deals (highest AOV), and doorbusters on popular treats (highest volume for new customer acquisition)",
+        "Retargeting intensification for Q4: abandoned cart sequences with holiday urgency, browse-abandonment with gift suggestion angles, and win-back campaigns for lapsed subscribers with holiday re-engagement offers",
+        "Expanded breed-specific campaigns to 15+ breeds with holiday-themed creative — breed-specific stockings, personalized accessories, and breed-themed gift wrapping promotions",
+        "With 60+ creatives in active rotation across three distinct audience segments, the campaign maintained fresh creative through the entire holiday surge while competitors suffered creative fatigue from recycling the same 5-6 holiday ads",
+        "Real-time AI optimization proved critical during Black Friday week — bid adjustments happened hourly as competition intensified, automatically shifting budget to the highest-converting audience-creative combinations as the landscape changed minute by minute",
+        "Post-holiday retention campaigns: converted one-time gift buyers into subscribers with January 'New Year, Healthier Pet' subscription trial offers",
+      ],
+    },
+  ],
+  paidAds: {
+    summary: [
+      { label: "Total Ad Spend", value: "$541.2K" },
+      { label: "Total Orders", value: "18,145" },
+      { label: "Avg Cost Per Acquisition", value: "$29.82", note: "↓72% from $104.80" },
+      { label: "Blended ROAS", value: "3.71x", note: "from 1.05x baseline" },
+    ],
+    columnLabels: {
+      leads: "Sessions",
+      cpl: "Cost/Visit",
+      qualified: "Add to Carts",
+      cpql: "Cost/Cart",
+      deals: "Orders",
+    },
+    monthly: [
+      { month: "Apr '25", spend: 41200, leads: 17200, cpl: 2.40, qualified: 1135, cpql: 36.30, deals: 397, revenue: 43273, roas: 1.05 },
+      { month: "May '25", spend: 42350, leads: 20100, cpl: 2.11, qualified: 1467, cpql: 28.87, deals: 543, revenue: 60816, roas: 1.44 },
+      { month: "Jun '25", spend: 43800, leads: 23600, cpl: 1.86, qualified: 1888, cpql: 23.20, deals: 736, revenue: 79488, roas: 1.81 },
+      { month: "Jul '25", spend: 44600, leads: 27400, cpl: 1.63, qualified: 2384, cpql: 18.71, deals: 954, revenue: 105894, roas: 2.37 },
+      { month: "Aug '25", spend: 45100, leads: 30800, cpl: 1.46, qualified: 2864, cpql: 15.75, deals: 1203, revenue: 128721, roas: 2.85 },
+      { month: "Sep '25", spend: 43200, leads: 28900, cpl: 1.49, qualified: 2572, cpql: 16.80, deals: 1055, revenue: 119215, roas: 2.76 },
+      { month: "Oct '25", spend: 46800, leads: 34800, cpl: 1.34, qualified: 3445, cpql: 13.58, deals: 1516, revenue: 166760, roas: 3.56 },
+      { month: "Nov '25", spend: 52400, leads: 48200, cpl: 1.09, qualified: 6073, cpql: 8.63, deals: 2976, revenue: 315456, roas: 6.02 },
+      { month: "Dec '25", spend: 49800, leads: 43800, cpl: 1.14, qualified: 5125, cpql: 9.72, deals: 2409, revenue: 274626, roas: 5.51 },
+      { month: "Jan '26", spend: 41800, leads: 37800, cpl: 1.11, qualified: 3856, cpql: 10.84, deals: 1697, revenue: 183276, roas: 4.38 },
+      { month: "Feb '26", spend: 44200, leads: 41400, cpl: 1.07, qualified: 4513, cpql: 9.79, deals: 2076, revenue: 232512, roas: 5.26 },
+      { month: "Mar '26", spend: 45900, leads: 46800, cpl: 0.98, qualified: 5382, cpql: 8.53, deals: 2583, revenue: 297045, roas: 6.47 },
+    ],
+  },
+  impact: [
+    { label: "Total Ad Revenue", value: "$2.01M", growth: "+271%" },
+    { label: "Total Orders", value: "18,145", growth: "+6.6x" },
+    { label: "Cost Per Acquisition", value: "$29.82", growth: "↓72%" },
+    { label: "Blended ROAS", value: "3.71x", growth: "+253%" },
+  ],
+};

@@ -506,6 +506,14 @@
         "nonprofit_ticket_sales": [
           45,
           55
+        ],
+        "luxury_watches": [
+          800,
+          2000
+        ],
+        "outdoor_recreation_gear": [
+          150,
+          350
         ]
       }
     },
@@ -765,7 +773,10 @@
     "Non-Profit Event": "nonprofit",
     "Non-Profit Ticket Sales": "ecommerce",
     "Consumer Financial Services": "lead_gen_professional",
-    "Dental Surgery": "healthcare_medical"
+    "Dental Surgery": "healthcare_medical",
+    "eCommerce - Sports Nutrition & Supplements": "ecommerce",
+    "eCommerce - Outdoor Recreation & Gear": "ecommerce",
+    "eCommerce - Luxury Watches & Accessories": "ecommerce"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",
@@ -774,6 +785,9 @@
     "Nail Salon": "lead_gen_services",
     "GLP-1 Weight Loss": "healthcare_medical",
     "Restoration and Remediation": "lead_gen_services",
-    "Non-Profit Ticket Sales": "ecommerce"
+    "Non-Profit Ticket Sales": "ecommerce",
+    "eCommerce - Home Furnishings": "ecommerce",
+    "ecommerce - outdoor recreation & gear": "ecommerce",
+    "ecommerce \u2014 outdoor recreation & gear": "ecommerce"
   }
 }

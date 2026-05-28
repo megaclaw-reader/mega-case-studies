@@ -1,0 +1,118 @@
+import { CaseStudyData } from "./types";
+
+export const ecommerceLuxuryWatches: CaseStudyData = {
+  slug: "ecommerce-luxury-watches",
+  industry: "eCommerce - Luxury Watches & Accessories",
+  headline: "How a Luxury Watch eCommerce Brand Turned Window Shoppers Into $2.94M in Revenue With AI-Optimized Paid Advertising",
+  subheadline: "MEGA helped a national luxury watch and accessories retailer slash customer acquisition costs by 58% and scale from a 2.62x to 7.54x peak ROAS — generating 2,480 orders at an average order value of $1,186 over 12 months, with a record holiday season driving over $892K in combined November-December revenue.",
+  heroStats: [
+    { value: "12", unit: "months", label: "Campaign Duration" },
+    { value: "2,480", unit: "", label: "Orders Attributed" },
+    { value: "2.94", unit: "M", label: "Ad Revenue" },
+  ],
+  tags: ["Paid Advertising", "Ecommerce", "Luxury", "National"],
+  company: {
+    industry: "eCommerce - Luxury Watches & Accessories",
+    employees: "22",
+    revenue: "$8.5M",
+    location: "National (US)",
+    description: "A direct-to-consumer ecommerce retailer specializing in luxury fashion watches, designer timepieces, and premium watch accessories ranging from $500 to $3,000 per item. The business had built a loyal following through organic social media and editorial features in watch enthusiast publications, but their paid advertising efforts were hemorrhaging money on unqualified traffic — attracting tens of thousands of browsers who admired the product photography but had no real purchase intent at the $800-$2,000 price point. With customer acquisition costs exceeding $400 per order and a blended ROAS hovering around 2.6x, the paid channel was barely breaking even after factoring in product costs, shipping, and returns. The brand needed to fundamentally rethink its traffic strategy to attract qualified buyers rather than aspirational window shoppers, while scaling profitably through the critical holiday gifting season.",
+  },
+  challenges: [
+    {
+      title: "Extremely High Customer Acquisition Costs From Unqualified Traffic",
+      description: "The brand was spending over $45,000 per month on paid advertising but attracting predominantly aspirational browsers rather than qualified buyers. Cost per acquisition had ballooned to $404 per order — nearly 34% of the average order value — making the paid channel barely profitable after accounting for COGS, fulfillment, and returns. The core issue was targeting: broad interest-based audiences like 'luxury lifestyle' and 'watch enthusiasts' cast too wide a net, pulling in users who loved looking at timepieces but had no realistic intent to purchase at the $800-$2,000 price point. The brand was essentially funding a luxury window-shopping experience for thousands of visitors each month.",
+    },
+    {
+      title: "Severe Browse-to-Purchase Conversion Gap Due to Price Hesitation",
+      description: "Even among visitors who engaged with product pages, the path from browsing to purchasing was painfully long and full of drop-off points. The add-to-cart rate sat below 3%, and of those who did add items to their cart, fewer than 23% completed the purchase — far below healthy ecommerce benchmarks. At this price point, customers needed multiple touchpoints, social proof, and confidence-building content before committing. The existing campaign structure had no consideration for the extended luxury purchase journey — serving the same generic product ads to first-time visitors and returning browsers alike, with no nurture sequences, no price-anchoring creative, and no urgency mechanics appropriate for high-consideration purchases.",
+    },
+    {
+      title: "No Holiday Strategy for the Highest-Intent Gifting Season",
+      description: "Luxury watches are one of the most popular categories for holiday gifting, with November and December typically driving 25-35% of annual revenue for established watch retailers. Despite this well-documented seasonal pattern, the brand ran identical campaigns year-round with no gift-specific messaging, no curated gift guides, no price-tier segmentation for gift buyers, and no pre-holiday audience building. The previous holiday season had been a missed opportunity — spend increased modestly but ROAS actually declined because the broader holiday audience had even lower purchase intent than the typical browser. Gift buyers have fundamentally different decision criteria than self-purchasers, and the campaigns made no distinction between these audiences.",
+    },
+  ],
+  strategy: [
+    {
+      phase: 1,
+      months: "0–30 days",
+      title: "Audience Architecture & Qualified Traffic Foundation",
+      items: [
+        "Complete audit of 18 months of historical ad data, mapping revenue by product category, price tier, traffic source, and customer type to identify which segments actually converted versus which just browsed",
+        "Rebuilt campaign architecture around purchase intent tiers: prospecting (affluent demographics with purchase behavior signals), consideration (product page viewers and comparison shoppers), and decision (cart abandoners and returning visitors with 3+ sessions)",
+        "Implemented income-tier and purchase-behavior targeting layers — filtering for users with demonstrated luxury purchase history rather than aspirational lifestyle interests, dramatically reducing waste on non-buyer traffic",
+        "Deployed always-on AI optimization agents directly within ad accounts — monitoring performance signals, adjusting bids, reallocating budget between audience tiers, and refining targeting parameters in real time rather than waiting for weekly agency review cycles",
+        "Enhanced ecommerce tracking overhaul: proper add-to-cart events by product tier, checkout initiation tracking, wishlist additions as micro-conversions, and 14-day click attribution windows appropriate for high-consideration luxury purchases",
+        "Launched initial creative testing suite with 15-20 AI-generated ad variations emphasizing craftsmanship, brand heritage, and lifestyle positioning — testing product-focused vs. lifestyle imagery, price-anchoring vs. aspiration-led copy",
+        "Negative keyword and exclusion audit removing non-buyer queries: 'cheap watches,' 'watch repair,' 'replica,' 'used watches,' and informational queries that drove traffic with zero purchase intent",
+        "Implemented value-based bidding strategy optimizing for purchase value rather than purchase volume — telling the algorithm to find $1,200 buyers rather than maximizing the count of $200 accessory purchases",
+      ],
+    },
+    {
+      phase: 2,
+      months: "30–90 days",
+      title: "Conversion Optimization & Luxury Purchase Journey",
+      items: [
+        "Built multi-touch retargeting sequences tailored to luxury buying psychology: day 1-3 post-visit showed brand story and craftsmanship content, day 4-7 introduced social proof and editorial reviews, day 8-14 featured urgency and exclusivity messaging for cart abandoners",
+        "Price-tier segmented campaigns: separate creative and landing experiences for the $500-$800 entry tier (impulse-capable), $800-$1,500 core range (consideration buyers), and $1,500-$3,000 premium tier (high-intent collectors)",
+        "AI agents identified underperforming creatives within hours and automatically shifted budget to top performers — compounding small optimizations daily instead of waiting for manual monthly reviews typical of traditional agencies",
+        "Scaled to 35+ active creative variations per month, with AI identifying winning patterns and generating new iterations — lifestyle shoots outperformed studio product shots by 2.3x for prospecting, while detailed product close-ups won for retargeting",
+        "Launched lookalike audiences modeled on high-AOV purchasers ($1,200+) rather than all purchasers — producing a 40% improvement in qualified session rate within the first 30 days of deployment",
+        "Implemented dynamic product ads with personalized recommendations based on browse history, serving complementary accessories and similar-priced alternatives to increase both conversion rate and average order value",
+        "A/B tested authentication guarantees, free shipping thresholds, and interest-free payment plan messaging to identify which trust signals most reduced price hesitation at each tier",
+        "Cross-sell and upsell campaigns targeting recent purchasers with matching accessories — straps, watch boxes, care kits — driving incremental revenue from the highest-intent audience segment",
+      ],
+    },
+    {
+      phase: 3,
+      months: "90–365 days",
+      title: "Holiday Scaling & Year-Round Optimization",
+      items: [
+        "Built comprehensive Q4 gifting strategy: curated 'Gifts by Price' landing pages ($500-$800, $800-$1,200, $1,200+), 'Gifts for Him/Her' collections, corporate gifting bundles, and limited-edition holiday packaging as a conversion incentive",
+        "Pre-holiday audience warming campaign starting October — building retargeting pools of engaged browsers and past customers to hit with promotional creative during the Black Friday through Christmas window",
+        "Gift buyer audience expansion targeting users searching for luxury gifts, anniversary presents, and milestone celebrations — completely different creative emphasizing gifting occasions rather than product specifications",
+        "Black Friday and Cyber Monday strategy focused on exclusive bundles and complimentary engraving rather than discounting — protecting brand positioning while offering genuine added value that drove a 3.4x increase in daily order volume",
+        "Because optimization happens continuously rather than in periodic review cycles, the campaign captured real-time demand shifts during the holiday season — adjusting bids hourly as competition intensified and conversion windows shortened",
+        "With 50+ creatives in active rotation during peak season, the campaign avoided creative fatigue entirely — new AI-generated variations replaced underperformers daily while maintaining brand consistency across all touchpoints",
+        "Post-holiday strategy pivot to Valentine's Day gifting and 'treat yourself' New Year messaging, maintaining momentum from the Q4 audience pools rather than letting them go cold",
+        "Continuous AI optimization compounded small daily improvements into significant monthly gains — bid adjustments, audience refinements, and budget reallocations happening in real time, producing a 58% reduction in cost per acquisition over the 12-month engagement",
+      ],
+    },
+  ],
+  seo: undefined,
+  paidAds: {
+    summary: [
+      { label: "Total Ad Spend", value: "$594.2K" },
+      { label: "Total Orders", value: "2,480" },
+      { label: "Avg Cost Per Acquisition", value: "$239.61", note: "↓58% from $404.35" },
+      { label: "Blended ROAS", value: "4.95x", note: "from 2.62x baseline" },
+    ],
+    columnLabels: {
+      leads: "Sessions",
+      cpl: "Cost/Visit",
+      qualified: "Add to Carts",
+      cpql: "Cost/Cart",
+      deals: "Orders",
+    },
+    monthly: [
+      { month: "Mar '25", spend: 45287, leads: 17834, cpl: 2.54, qualified: 499, cpql: 90.76, deals: 112, revenue: 118496, roas: 2.62 },
+      { month: "Apr '25", spend: 45823, leads: 16912, cpl: 2.71, qualified: 541, cpql: 84.70, deals: 131, revenue: 141349, roas: 3.08 },
+      { month: "May '25", spend: 46194, leads: 15768, cpl: 2.93, qualified: 552, cpql: 83.68, deals: 149, revenue: 163453, roas: 3.54 },
+      { month: "Jun '25", spend: 46812, leads: 14957, cpl: 3.13, qualified: 554, cpql: 84.50, deals: 155, revenue: 172670, roas: 3.69 },
+      { month: "Jul '25", spend: 47238, leads: 14189, cpl: 3.33, qualified: 567, cpql: 83.31, deals: 169, revenue: 191139, roas: 4.05 },
+      { month: "Aug '25", spend: 47756, leads: 13642, cpl: 3.50, qualified: 573, cpql: 83.34, deals: 179, revenue: 205492, roas: 4.30 },
+      { month: "Sep '25", spend: 48523, leads: 13087, cpl: 3.71, qualified: 589, cpql: 82.38, deals: 195, revenue: 226785, roas: 4.67 },
+      { month: "Oct '25", spend: 50187, leads: 13812, cpl: 3.63, qualified: 663, cpql: 75.70, deals: 226, revenue: 268262, roas: 5.34 },
+      { month: "Nov '25", spend: 62478, leads: 17623, cpl: 3.55, qualified: 1057, cpql: 59.11, deals: 381, revenue: 471297, roas: 7.54 },
+      { month: "Dec '25", spend: 58234, leads: 15789, cpl: 3.69, qualified: 947, cpql: 61.49, deals: 332, revenue: 421308, roas: 7.23 },
+      { month: "Jan '26", spend: 47512, leads: 11823, cpl: 4.02, qualified: 591, cpql: 80.39, deals: 214, revenue: 258512, roas: 5.44 },
+      { month: "Feb '26", spend: 48189, leads: 11487, cpl: 4.20, qualified: 621, cpql: 77.60, deals: 237, revenue: 303123, roas: 6.29 },
+    ],
+  },
+  impact: [
+    { label: "Total Ad Revenue", value: "$2.94M", growth: "+156%" },
+    { label: "Total Orders", value: "2,480", growth: "+112%" },
+    { label: "Blended ROAS", value: "4.95x", growth: "+89%" },
+    { label: "Cost Per Acquisition", value: "$239.61", growth: "↓58%" },
+  ],
+};
