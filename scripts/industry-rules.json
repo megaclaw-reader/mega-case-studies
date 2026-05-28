@@ -514,6 +514,10 @@
         "outdoor_recreation_gear": [
           150,
           350
+        ],
+        "premium_skincare": [
+          85,
+          200
         ]
       }
     },
@@ -776,7 +780,8 @@
     "Dental Surgery": "healthcare_medical",
     "eCommerce - Sports Nutrition & Supplements": "ecommerce",
     "eCommerce - Outdoor Recreation & Gear": "ecommerce",
-    "eCommerce - Luxury Watches & Accessories": "ecommerce"
+    "eCommerce - Luxury Watches & Accessories": "ecommerce",
+    "eCommerce - Premium Skincare": "ecommerce"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",
