@@ -4,10 +4,10 @@ export const ecommerceSportsNutrition: CaseStudyData = {
   slug: "ecommerce-sports-nutrition",
   industry: "eCommerce - Sports Nutrition & Supplements",
   headline: "How a Sports Nutrition Brand Scaled Past a $30K Plateau and Generated $2.6M in Ad Revenue",
-  subheadline: "MEGA helped a national DTC supplements brand break through a scaling wall — growing monthly spend from $30K to $60K while improving blended ROAS from a declining 2.2x to 5.8x, driving over 33,800 orders across 12 months of AI-optimized paid campaigns.",
+  subheadline: "MEGA helped a national DTC supplements brand break through a scaling wall — growing monthly spend from $30K to $60K while improving blended ROAS from a declining 2.2x to 5.8x, driving over 33,800+ orders across 12 months of AI-optimized paid campaigns.",
   heroStats: [
     { value: "12", unit: "months", label: "Campaign Duration" },
-    { value: "33,870", unit: "", label: "Total Orders" },
+    { value: "33,858", unit: "", label: "Total Orders" },
     { value: "2.56", unit: "M", label: "Ad Revenue" },
   ],
   tags: ["Paid Advertising", "Ecommerce", "Sports Nutrition"],
@@ -83,8 +83,8 @@ export const ecommerceSportsNutrition: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$590.8K" },
-      { label: "Total Orders", value: "33,870" },
-      { label: "Avg Cost Per Acquisition", value: "$17.44", note: "↓44% from $31.08" },
+      { label: "Total Orders", value: "33,858" },
+      { label: "Avg Cost Per Acquisition", value: "$17.45", note: "↓44% from $31.08" },
       { label: "Blended ROAS", value: "4.33x", note: "from declining 2.2x baseline" },
     ],
     columnLabels: {
@@ -123,8 +123,8 @@ export const ecommerceSportsNutrition: CaseStudyData = {
   },
   impact: [
     { label: "Total Ad Revenue", value: "$2.56M", growth: "+97%" },
-    { label: "Total Orders", value: "33,870", growth: "+82%" },
+    { label: "Total Orders", value: "33,858", growth: "+82%" },
     { label: "Blended ROAS", value: "4.33x", growth: "+97% from 2.2x" },
-    { label: "Cost Per Acquisition", value: "$17.44", growth: "↓44%" },
+    { label: "Cost Per Acquisition", value: "$17.45", growth: "↓44%" },
   ],
 };
