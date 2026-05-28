@@ -293,6 +293,7 @@ import { autoPartsAccessories } from "./auto-parts-accessories";
 import { ecommercePremiumPet } from "./ecommerce-premium-pet";
 import { ecommerceHomeFurnishings } from "./ecommerce-home-furnishings";
 import { ecommerceOutdoorGear } from "./ecommerce-outdoor-gear";
+import { ecommerceLuxuryWatches } from "./ecommerce-luxury-watches";
 
 export const caseStudies: Record<string, CaseStudyData> = {
   "medical-assessment-ai-app": medicalAssessmentAiApp,
@@ -588,6 +589,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "ecommerce-premium-pet": ecommercePremiumPet,
   "ecommerce-home-furnishings": ecommerceHomeFurnishings,
   "ecommerce-outdoor-gear": ecommerceOutdoorGear,
+  "ecommerce-luxury-watches": ecommerceLuxuryWatches,
 };
 
 export type { CaseStudyData };
