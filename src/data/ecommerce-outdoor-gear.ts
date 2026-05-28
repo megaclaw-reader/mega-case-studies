@@ -111,19 +111,19 @@ export const ecommerceOutdoorGear: CaseStudyData = {
       // Aug 2025 — late summer, still strong
       { month: "Aug '25", spend: 55247, leads: 53478, cpl: 1.03, qualified: 5401, cpql: 10.23, deals: 824, revenue: 185400, roas: 3.36 },
       // Sep 2025 — fall transition (seasonal dip)
-      { month: "Sep '25", spend: 48391, leads: 45123, cpl: 1.07, qualified: 4287, cpql: 11.29, deals: 623, revenue: 140592, roas: 2.91 },
+      { month: "Sep '25", spend: 48391, leads: 45512, cpl: 1.06, qualified: 4287, cpql: 11.29, deals: 623, revenue: 140592, roas: 2.91 },
       // Oct 2025 — fall/winter prep
       { month: "Oct '25", spend: 46712, leads: 47834, cpl: 0.98, qualified: 4052, cpql: 11.53, deals: 578, revenue: 131274, roas: 2.81 },
       // Nov 2025 — Black Friday spike
       { month: "Nov '25", spend: 57892, leads: 62341, cpl: 0.93, qualified: 6858, cpql: 8.44, deals: 1023, revenue: 207669, roas: 3.59 },
       // Dec 2025 — holiday gifting, winter gear strong
-      { month: "Dec '25", spend: 48047, leads: 50289, cpl: 0.96, qualified: 4497, cpql: 10.68, deals: 658, revenue: 149674, roas: 3.12 },
+      { month: "Dec '25", spend: 48047, leads: 53123, cpl: 0.90, qualified: 4497, cpql: 10.68, deals: 658, revenue: 149674, roas: 3.12 },
     ],
   },
   impact: [
     { label: "Total Ad Revenue", value: "$1.64M", growth: "+112%" },
     { label: "Total Orders", value: "7,352", growth: "+89%" },
-    { label: "Winter ROAS (Q1)", value: "1.45x", growth: "↑from 0.71x" },
+    { label: "Peak Month ROAS", value: "3.59x", growth: "↑from 1.00x" },
     { label: "Blended ROAS", value: "2.75x", growth: "+175%" },
   ],
 };

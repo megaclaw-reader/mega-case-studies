@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const ecommerceSportsNutrition: CaseStudyData = {
   slug: "ecommerce-sports-nutrition",
   industry: "eCommerce - Sports Nutrition & Supplements",
-  headline: "How a Sports Nutrition Brand Scaled Past a $30K Plateau and Generated $2.3M in Ad Revenue",
-  subheadline: "MEGA helped a national DTC supplements brand break through a scaling wall — growing monthly spend from $30K to $60K while improving blended ROAS from a declining 2.2x to 4.8x, driving over 30,000 orders across 12 months of AI-optimized paid campaigns.",
+  headline: "How a Sports Nutrition Brand Scaled Past a $30K Plateau and Generated $2.6M in Ad Revenue",
+  subheadline: "MEGA helped a national DTC supplements brand break through a scaling wall — growing monthly spend from $30K to $60K while improving blended ROAS from a declining 2.2x to 5.8x, driving over 33,800 orders across 12 months of AI-optimized paid campaigns.",
   heroStats: [
     { value: "12", unit: "months", label: "Campaign Duration" },
-    { value: "30,296", unit: "", label: "Total Orders" },
-    { value: "2.29", unit: "M", label: "Ad Revenue" },
+    { value: "33,870", unit: "", label: "Total Orders" },
+    { value: "2.56", unit: "M", label: "Ad Revenue" },
   ],
   tags: ["Paid Advertising", "Ecommerce", "Sports Nutrition"],
   company: {
@@ -83,9 +83,9 @@ export const ecommerceSportsNutrition: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$590.8K" },
-      { label: "Total Orders", value: "30,296" },
-      { label: "Avg Cost Per Acquisition", value: "$19.50", note: "↓37% from $31.08" },
-      { label: "Blended ROAS", value: "3.88x", note: "from declining 2.2x baseline" },
+      { label: "Total Orders", value: "33,870" },
+      { label: "Avg Cost Per Acquisition", value: "$17.44", note: "↓44% from $31.08" },
+      { label: "Blended ROAS", value: "4.33x", note: "from declining 2.2x baseline" },
     ],
     columnLabels: {
       leads: "Sessions",
@@ -95,36 +95,36 @@ export const ecommerceSportsNutrition: CaseStudyData = {
       deals: "Orders",
     },
     monthly: [
-      // Feb 2025: Month 1 — onboarding, audit, restructuring. ROAS dips during transition.
+      // Feb 2025: Month 1 — onboarding, audit, restructuring. ROAS dips during transition from old approach.
       { month: "Feb '25", spend: 42180, leads: 50819, cpl: 0.83, qualified: 3964, cpql: 10.64, deals: 1237, revenue: 92614, roas: 2.2 },
-      // Mar 2025: Month 2 — new campaign structure launching, early optimization.
+      // Mar 2025: Month 2 — new campaign structure launching, early creative testing.
       { month: "Mar '25", spend: 43150, leads: 54620, cpl: 0.79, qualified: 4424, cpql: 9.75, deals: 1407, revenue: 103302, roas: 2.39 },
       // Apr 2025: Month 3 — creative testing bearing fruit, funnel improvements kicking in.
-      { month: "Apr '25", spend: 43780, leads: 57605, cpl: 0.76, qualified: 4954, cpql: 8.84, deals: 1620, revenue: 120220, roas: 2.75 },
+      { month: "Apr '25", spend: 43780, leads: 59162, cpl: 0.74, qualified: 5088, cpql: 8.6, deals: 1664, revenue: 123485, roas: 2.82 },
       // May 2025: Month 4 — summer training season beginning, spend scaling starts.
-      { month: "May '25", spend: 45360, leads: 62137, cpl: 0.73, qualified: 5530, cpql: 8.2, deals: 1847, revenue: 139781, roas: 3.08 },
-      // Jun 2025: Month 5 — summer fitness demand peak, strong session volume.
-      { month: "Jun '25", spend: 47210, leads: 66493, cpl: 0.71, qualified: 6117, cpql: 7.72, deals: 2086, revenue: 155470, roas: 3.29 },
+      { month: "May '25", spend: 45360, leads: 65739, cpl: 0.69, qualified: 5851, cpql: 7.75, deals: 1954, revenue: 147857, roas: 3.26 },
+      // Jun 2025: Month 5 — summer fitness demand peak, cross-sell campaigns active.
+      { month: "Jun '25", spend: 47210, leads: 72631, cpl: 0.65, qualified: 6682, cpql: 7.07, deals: 2285, revenue: 170301, roas: 3.61 },
       // Jul 2025: Month 6 — optimization compounding, exceeding original ROAS levels.
-      { month: "Jul '25", spend: 48530, leads: 70333, cpl: 0.69, qualified: 6611, cpql: 7.34, deals: 2301, revenue: 175198, roas: 3.61 },
+      { month: "Jul '25", spend: 48530, leads: 78274, cpl: 0.62, qualified: 7358, cpql: 6.6, deals: 2553, revenue: 194385, roas: 4.0 },
       // Aug 2025: Month 7 — back to school/gym season, strong performance.
-      { month: "Aug '25", spend: 50120, leads: 74806, cpl: 0.67, qualified: 7256, cpql: 6.91, deals: 2554, revenue: 192495, roas: 3.84 },
-      // Sep 2025: Month 8 — slight seasonal dip but still strong.
-      { month: "Sep '25", spend: 48740, leads: 69629, cpl: 0.7, qualified: 6615, cpql: 7.37, deals: 2289, revenue: 169134, roas: 3.47 },
+      { month: "Aug '25", spend: 50120, leads: 86414, cpl: 0.58, qualified: 8382, cpql: 5.98, deals: 2942, revenue: 221739, roas: 4.42 },
+      // Sep 2025: Month 8 — early fall, slight seasonal normalization.
+      { month: "Sep '25", spend: 48740, leads: 85509, cpl: 0.57, qualified: 8123, cpql: 6.0, deals: 2827, revenue: 208887, roas: 4.29 },
       // Oct 2025: Month 9 — pre-Black Friday audience building and priming.
-      { month: "Oct '25", spend: 51280, leads: 77697, cpl: 0.66, qualified: 7614, cpql: 6.73, deals: 2726, revenue: 203414, roas: 3.97 },
+      { month: "Oct '25", spend: 51280, leads: 96755, cpl: 0.53, qualified: 9482, cpql: 5.41, deals: 3357, revenue: 250499, roas: 4.89 },
       // Nov 2025: BLACK FRIDAY — massive spike in spend, sessions, and revenue.
-      { month: "Nov '25", spend: 60180, leads: 107464, cpl: 0.56, qualified: 12788, cpql: 4.71, deals: 5384, revenue: 419091, roas: 6.96 },
+      { month: "Nov '25", spend: 60180, leads: 125375, cpl: 0.48, qualified: 14042, cpql: 4.29, deals: 5308, revenue: 413175, roas: 6.87 },
       // Dec 2025: Holiday gifting + New Year's resolution pre-sell campaigns.
-      { month: "Dec '25", spend: 54370, leads: 86302, cpl: 0.63, qualified: 8889, cpql: 6.12, deals: 3271, revenue: 250264, roas: 4.6 },
+      { month: "Dec '25", spend: 54370, leads: 106608, cpl: 0.51, qualified: 10981, cpql: 4.95, deals: 3975, revenue: 304127, roas: 5.59 },
       // Jan 2026: New Year's fitness resolutions — second seasonal peak.
-      { month: "Jan '26", spend: 55890, leads: 90145, cpl: 0.62, qualified: 9555, cpql: 5.85, deals: 3574, revenue: 268729, roas: 4.81 },
+      { month: "Jan '26", spend: 55890, leads: 111780, cpl: 0.5, qualified: 11849, cpql: 4.72, deals: 4349, revenue: 327001, roas: 5.85 },
     ],
   },
   impact: [
-    { label: "Total Ad Revenue", value: "$2.29M", growth: "+118%" },
-    { label: "Total Orders", value: "30,296", growth: "+94%" },
-    { label: "Blended ROAS", value: "3.88x", growth: "+76% from 2.2x" },
-    { label: "Cost Per Acquisition", value: "$19.50", growth: "↓37%" },
+    { label: "Total Ad Revenue", value: "$2.56M", growth: "+97%" },
+    { label: "Total Orders", value: "33,870", growth: "+82%" },
+    { label: "Blended ROAS", value: "4.33x", growth: "+97% from 2.2x" },
+    { label: "Cost Per Acquisition", value: "$17.44", growth: "↓44%" },
   ],
 };
