@@ -1,4 +1,5 @@
 import { CaseStudyData } from "./types";
+import { autoRepairSeoNewJersey } from "./auto-repair-seo-new-jersey";
 import { nonprofitEventCalifornia } from "./nonprofit-event-california";
 import { nonprofitTicketSalesSanDiego } from "./nonprofit-ticket-sales-san-diego";
 import { financialAdvisingPhoenix } from "./financial-advising-phoenix";
@@ -596,6 +597,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "ecommerce-luxury-watches": ecommerceLuxuryWatches,
   "ecommerce-sports-nutrition": ecommerceSportsNutrition,
   "ecommerce-skincare-premium": ecommerceSkincerePremium,
+  "auto-repair-seo-new-jersey": autoRepairSeoNewJersey,
 };
 
 export type { CaseStudyData };
