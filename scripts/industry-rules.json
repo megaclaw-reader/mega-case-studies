@@ -518,6 +518,10 @@
         "premium_skincare": [
           85,
           200
+        ],
+        "baby_clothing": [
+          35,
+          55
         ]
       }
     },
@@ -781,7 +785,8 @@
     "eCommerce - Sports Nutrition & Supplements": "ecommerce",
     "eCommerce - Outdoor Recreation & Gear": "ecommerce",
     "eCommerce - Luxury Watches & Accessories": "ecommerce",
-    "eCommerce - Premium Skincare": "ecommerce"
+    "eCommerce - Premium Skincare": "ecommerce",
+    "Baby Clothing": "ecommerce"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",
@@ -793,6 +798,7 @@
     "Non-Profit Ticket Sales": "ecommerce",
     "eCommerce - Home Furnishings": "ecommerce",
     "ecommerce - outdoor recreation & gear": "ecommerce",
-    "ecommerce \u2014 outdoor recreation & gear": "ecommerce"
+    "ecommerce \u2014 outdoor recreation & gear": "ecommerce",
+    "Children's Furniture": "ecommerce"
   }
 }

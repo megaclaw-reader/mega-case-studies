@@ -298,6 +298,8 @@ import { ecommerceOutdoorGear } from "./ecommerce-outdoor-gear";
 import { ecommerceLuxuryWatches } from "./ecommerce-luxury-watches";
 import { ecommerceSportsNutrition } from "./ecommerce-sports-nutrition";
 import { ecommerceSkincerePremium } from "./ecommerce-skincare-premium";
+import { babyClothingEcommerce } from "./baby-clothing-ecommerce";
+import { childrensFurnitureEcommerce } from "./childrens-furniture-ecommerce";
 
 export const caseStudies: Record<string, CaseStudyData> = {
   "medical-assessment-ai-app": medicalAssessmentAiApp,
@@ -597,7 +599,9 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "ecommerce-luxury-watches": ecommerceLuxuryWatches,
   "ecommerce-sports-nutrition": ecommerceSportsNutrition,
   "ecommerce-skincare-premium": ecommerceSkincerePremium,
+  "baby-clothing-ecommerce": babyClothingEcommerce,
   "auto-repair-seo-new-jersey": autoRepairSeoNewJersey,
+  "childrens-furniture-ecommerce": childrensFurnitureEcommerce,
 };
 
 export type { CaseStudyData };
