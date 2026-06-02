@@ -301,6 +301,7 @@ import { ecommerceSportsNutrition } from "./ecommerce-sports-nutrition";
 import { ecommerceSkincerePremium } from "./ecommerce-skincare-premium";
 import { babyClothingEcommerce } from "./baby-clothing-ecommerce";
 import { childrensFurnitureEcommerce } from "./childrens-furniture-ecommerce";
+import { hairSalonCalifornia } from "./hair-salon-california";
 
 export const caseStudies: Record<string, CaseStudyData> = {
   "medical-assessment-ai-app": medicalAssessmentAiApp,
@@ -604,6 +605,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "baby-clothing-ecommerce": babyClothingEcommerce,
   "auto-repair-seo-new-jersey": autoRepairSeoNewJersey,
   "childrens-furniture-ecommerce": childrensFurnitureEcommerce,
+  "hair-salon-california": hairSalonCalifornia,
 };
 
 export type { CaseStudyData };

@@ -786,7 +786,8 @@
     "eCommerce - Outdoor Recreation & Gear": "ecommerce",
     "eCommerce - Luxury Watches & Accessories": "ecommerce",
     "eCommerce - Premium Skincare": "ecommerce",
-    "Baby Clothing": "ecommerce"
+    "Baby Clothing": "ecommerce",
+    "Hair Salon": "lead_gen_services"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",
