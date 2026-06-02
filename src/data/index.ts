@@ -1,4 +1,5 @@
 import { CaseStudyData } from "./types";
+import { carDealershipFlorida } from "./car-dealership-florida";
 import { autoRepairSeoNewJersey } from "./auto-repair-seo-new-jersey";
 import { nonprofitEventCalifornia } from "./nonprofit-event-california";
 import { nonprofitTicketSalesSanDiego } from "./nonprofit-ticket-sales-san-diego";
@@ -516,6 +517,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "b2b-language-services": b2bLanguageServices,
   "b2b-saas-enterprise": b2bSaasEnterprise,
   "car-dealership": carDealership,
+  "car-dealership-florida": carDealershipFlorida,
   "medspa": medspaScottsdale,
   "fitness-equipment": fitnessEquipmentPhoenix,
   "fitness-weight-loss-coach-arizona": fitnessWeightLossCoachArizona,
