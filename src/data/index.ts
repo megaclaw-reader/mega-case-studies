@@ -7,6 +7,7 @@ import { nonprofitEventCalifornia } from "./nonprofit-event-california";
 import { nonprofitTicketSalesSanDiego } from "./nonprofit-ticket-sales-san-diego";
 import { financialAdvisingPhoenix } from "./financial-advising-phoenix";
 import { homecareServicesArizona } from "./homecare-services-arizona";
+import { homecareSeoArizona } from "./homecare-seo-arizona";
 import { homeRenovationsNewJersey } from "./home-renovations-new-jersey";
 import { customDesignHomeRenovationsNj } from "./custom-design-home-renovations-nj";
 import { veterinaryClinicPhoenix } from "./veterinary-clinic-phoenix";
@@ -594,6 +595,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "custom-design-home-renovations-nj": customDesignHomeRenovationsNj,
   "financial-advising-phoenix": financialAdvisingPhoenix,
   "homecare-services-arizona": homecareServicesArizona,
+  "homecare-seo-arizona": homecareSeoArizona,
   "home-renovations-new-jersey": homeRenovationsNewJersey,
   "real-estate-investment-arizona": realEstateInvestmentArizona,
   "nonprofit-event-california": nonprofitEventCalifornia,
