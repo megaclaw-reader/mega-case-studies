@@ -787,7 +787,9 @@
     "eCommerce - Luxury Watches & Accessories": "ecommerce",
     "eCommerce - Premium Skincare": "ecommerce",
     "Baby Clothing": "ecommerce",
-    "Hair Salon": "lead_gen_services"
+    "Hair Salon": "lead_gen_services",
+    "Financial Services / Medicare": "lead_gen_professional",
+    "Medicare": "lead_gen_professional"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",

@@ -1,4 +1,5 @@
 import { CaseStudyData } from "./types";
+import { medicareServicesNewJersey } from "./medicare-services-new-jersey";
 import { homeFurnitureEcommerce } from "./home-furniture-ecommerce";
 import { carDealershipFlorida } from "./car-dealership-florida";
 import { autoRepairSeoNewJersey } from "./auto-repair-seo-new-jersey";
@@ -612,6 +613,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "solar-energy-phoenix": solarEnergyPhoenix,
   "home-furniture-ecommerce": homeFurnitureEcommerce,
   "injury-law-new-jersey": injuryLawNewJersey,
+  "medicare-services-new-jersey": medicareServicesNewJersey,
 };
 
 export type { CaseStudyData };
