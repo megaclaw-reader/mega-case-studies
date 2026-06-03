@@ -304,6 +304,7 @@ import { babyClothingEcommerce } from "./baby-clothing-ecommerce";
 import { childrensFurnitureEcommerce } from "./childrens-furniture-ecommerce";
 import { hairSalonCalifornia } from "./hair-salon-california";
 import { solarEnergyPhoenix } from "./solar-energy-phoenix";
+import { injuryLawNewJersey } from "./injury-law-new-jersey";
 
 export const caseStudies: Record<string, CaseStudyData> = {
   "medical-assessment-ai-app": medicalAssessmentAiApp,
@@ -610,6 +611,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "hair-salon-california": hairSalonCalifornia,
   "solar-energy-phoenix": solarEnergyPhoenix,
   "home-furniture-ecommerce": homeFurnitureEcommerce,
+  "injury-law-new-jersey": injuryLawNewJersey,
 };
 
 export type { CaseStudyData };
