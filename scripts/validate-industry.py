@@ -22,6 +22,7 @@ CPL_RANGES = {
     # Lead gen services — local, lower competition
     "junk_removal":     (25, 120),
     "sports_nutrition":  (15, 55),
+    "sports_entertainment": (15, 60),
     "cbd_thc":           (15, 80),
     "painting":         (20, 120),
     "dental":           (15, 120),
@@ -249,6 +250,7 @@ def _cpl_category(industry, model_key):
         ("mental health", "mental_health"),
         ("regenerative", "regen_medicine"), ("functional medicine", "regen_medicine"),
         ("sports nutrition", "sports_nutrition"), ("supplement", "sports_nutrition"),
+        ("sports team", "sports_entertainment"),
         ("cbd", "cbd_thc"), ("thc", "cbd_thc"), ("cannabis", "cbd_thc"), ("hemp", "cbd_thc"),
         ("yoga", "gym_fitness"), ("pilates", "gym_fitness"),
         ("self improvement", "education"), ("subscription", "education"),
@@ -273,6 +275,7 @@ def _cpl_category(industry, model_key):
 DEAL_VALUE_RANGES = {
     "junk_removal": (150, 2000),
     "sports_nutrition": (150, 600),
+    "sports_entertainment": (200, 2000),
     "cbd_thc": (45, 150),
     "painting": (2000, 10000),
     "dental": (300, 5000),

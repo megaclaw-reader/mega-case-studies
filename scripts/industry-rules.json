@@ -789,7 +789,9 @@
     "Baby Clothing": "ecommerce",
     "Hair Salon": "lead_gen_services",
     "Financial Services / Medicare": "lead_gen_professional",
-    "Medicare": "lead_gen_professional"
+    "Medicare": "lead_gen_professional",
+    "Higher Education": "lead_gen_professional",
+    "Sports Team": "lead_gen_services"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",
@@ -803,6 +805,7 @@
     "ecommerce - outdoor recreation & gear": "ecommerce",
     "ecommerce \u2014 outdoor recreation & gear": "ecommerce",
     "Children's Furniture": "ecommerce",
-    "Home Furniture": "ecommerce"
+    "Home Furniture": "ecommerce",
+    "Higher Education": "lead_gen_professional"
   }
 }

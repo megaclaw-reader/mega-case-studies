@@ -1,4 +1,5 @@
 import { CaseStudyData } from "./types";
+import { higherEducationFlorida } from "./higher-education-florida";
 import { medicareServicesNewJersey } from "./medicare-services-new-jersey";
 import { homeFurnitureEcommerce } from "./home-furniture-ecommerce";
 import { carDealershipFlorida } from "./car-dealership-florida";
@@ -616,6 +617,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "home-furniture-ecommerce": homeFurnitureEcommerce,
   "injury-law-new-jersey": injuryLawNewJersey,
   "medicare-services-new-jersey": medicareServicesNewJersey,
+  "higher-education-florida": higherEducationFlorida,
 };
 
 export type { CaseStudyData };
