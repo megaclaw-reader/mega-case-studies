@@ -291,6 +291,7 @@ import { childrensClothingEcommerce } from "./childrens-clothing-ecommerce";
 import { pensionAppointmentGeneration } from "./pension-appointment-generation";
 import { dentalPracticeCharlotte } from "./dental-practice-charlotte";
 import { wealthManagementSeo } from "./wealth-management-seo";
+import { wealthManagementSeoFlorida } from "./wealth-management-seo-florida";
 import { wealthManagementNational } from "./wealth-management-national";
 import { artisanHomeGoodsPortland } from "./artisan-home-goods-portland";
 import { digitalMarketingAgencyPhoenix } from "./digital-marketing-agency-phoenix";
@@ -582,6 +583,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "pension-appointment-generation": pensionAppointmentGeneration,
   "dental-practice-charlotte": dentalPracticeCharlotte,
   "wealth-management-seo": wealthManagementSeo,
+  "wealth-management-seo-florida": wealthManagementSeoFlorida,
   "wealth-management-national": wealthManagementNational,
   "business-brokerage": businessBrokerage,
   "orthodontics-hartford": orthodonticsHartford,
