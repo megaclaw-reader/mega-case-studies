@@ -791,7 +791,8 @@
     "Financial Services / Medicare": "lead_gen_professional",
     "Medicare": "lead_gen_professional",
     "Higher Education": "lead_gen_professional",
-    "Sports Team": "lead_gen_services"
+    "Sports Team": "lead_gen_services",
+    "Retail / E-commerce / Apparel": "ecommerce"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",
@@ -806,6 +807,7 @@
     "ecommerce \u2014 outdoor recreation & gear": "ecommerce",
     "Children's Furniture": "ecommerce",
     "Home Furniture": "ecommerce",
-    "Higher Education": "lead_gen_professional"
+    "Higher Education": "lead_gen_professional",
+    "Retail / E-commerce / Apparel": "ecommerce"
   }
 }
