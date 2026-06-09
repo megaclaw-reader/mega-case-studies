@@ -1,6 +1,7 @@
 import { CaseStudyData } from "./types";
 import { higherEducationFlorida } from "./higher-education-florida";
 import { retailEcommerceApparel } from "./retail-ecommerce-apparel";
+import { cleaningServicesPhoenix } from "./cleaning-services-phoenix";
 import { medicareServicesNewJersey } from "./medicare-services-new-jersey";
 import { homeFurnitureEcommerce } from "./home-furniture-ecommerce";
 import { carDealershipFlorida } from "./car-dealership-florida";
@@ -624,6 +625,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "higher-education-florida": higherEducationFlorida,
   "sports-team-arizona": sportsTeamArizona,
   "retail-ecommerce-apparel": retailEcommerceApparel,
+  "cleaning-services-phoenix": cleaningServicesPhoenix,
 };
 
 export type { CaseStudyData };
