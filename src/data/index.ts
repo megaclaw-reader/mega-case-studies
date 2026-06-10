@@ -3,6 +3,7 @@ import { higherEducationFlorida } from "./higher-education-florida";
 import { retailEcommerceApparel } from "./retail-ecommerce-apparel";
 import { cleaningServicesPhoenix } from "./cleaning-services-phoenix";
 import { medicareServicesNewJersey } from "./medicare-services-new-jersey";
+import { workingCapitalFinancing } from "./working-capital-financing";
 import { homeFurnitureEcommerce } from "./home-furniture-ecommerce";
 import { carDealershipFlorida } from "./car-dealership-florida";
 import { autoRepairSeoNewJersey } from "./auto-repair-seo-new-jersey";
@@ -626,6 +627,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "sports-team-arizona": sportsTeamArizona,
   "retail-ecommerce-apparel": retailEcommerceApparel,
   "cleaning-services-phoenix": cleaningServicesPhoenix,
+  "working-capital-financing": workingCapitalFinancing,
 };
 
 export type { CaseStudyData };

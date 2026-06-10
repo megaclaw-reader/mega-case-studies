@@ -280,6 +280,10 @@
         "real_estate_investment": [
           15000,
           65000
+        ],
+        "working_capital_financing": [
+          3500,
+          5500
         ]
       }
     },
@@ -792,7 +796,8 @@
     "Medicare": "lead_gen_professional",
     "Higher Education": "lead_gen_professional",
     "Sports Team": "lead_gen_services",
-    "Retail / E-commerce / Apparel": "ecommerce"
+    "Retail / E-commerce / Apparel": "ecommerce",
+    "Working Capital Financing": "lead_gen_professional"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",
