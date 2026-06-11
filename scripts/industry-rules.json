@@ -797,7 +797,8 @@
     "Higher Education": "lead_gen_professional",
     "Sports Team": "lead_gen_services",
     "Retail / E-commerce / Apparel": "ecommerce",
-    "Working Capital Financing": "lead_gen_professional"
+    "Working Capital Financing": "lead_gen_professional",
+    "Gym / Fitness": "lead_gen_services"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",

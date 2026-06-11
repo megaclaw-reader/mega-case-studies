@@ -1,0 +1,140 @@
+import { CaseStudyData } from "./types";
+
+export const gymFitnessPhoenix: CaseStudyData = {
+  slug: "gym-fitness-phoenix",
+  industry: "Gym / Fitness",
+  headline: "How a Phoenix Gym Grew Membership Revenue to $113K in 6 Months With AI-Driven SEO and Paid Advertising",
+  subheadline: "MEGA helped a fitness center in Phoenix, AZ generate 184 new memberships and reduce cost per qualified lead by 60% — achieving a 3.40x blended ROAS through always-on AI optimization and strategic SEO growth that drove 11x organic traffic increase.",
+  heroStats: [
+    { value: "6", unit: "months", label: "Partnership Duration" },
+    { value: "$112.9K", unit: "K", label: "Revenue Attributed" },
+    { value: "184", unit: "", label: "New Members" },
+  ],
+  tags: ["Paid Advertising", "SEO", "Lead Generation", "Local Advertising"],
+  company: {
+    industry: "Gym / Fitness — Membership & Personal Training",
+    employees: "18",
+    revenue: "$1.1M",
+    location: "Phoenix, AZ (East Valley)",
+    description: "A locally owned gym and fitness center serving the Phoenix metro area — including Tempe, Scottsdale, Mesa, and Chandler. The facility offered general gym memberships, group fitness classes, personal training, and specialized programs including high-intensity interval training and yoga. With a loyal but plateauing member base of around 620 active members and a 4.5-star rating across 73 Google reviews, the business had strong retention but was struggling to attract new members beyond organic referrals. The Phoenix fitness market is highly competitive — saturated with national chains like LA Fitness and Planet Fitness, boutique studios (Orangetheory, F45, CrossFit affiliates), and budget options. The gym had previously run sporadic Facebook and Google ads with generic messaging, but lacked any SEO strategy and had no system for tracking which marketing channels actually drove sign-ups versus tire-kickers. They needed a comprehensive digital strategy combining search visibility with paid acquisition to stand out in the crowded Phoenix fitness landscape.",
+  },
+  challenges: [
+    {
+      title: "Invisible in Local Search Despite Strong Member Satisfaction",
+      description: "Despite a solid reputation among existing members, the gym barely appeared in local search results for high-intent queries like 'gym near me Phoenix,' 'fitness center Tempe,' or 'personal training Scottsdale.' The website had thin, outdated content — a single homepage with basic class schedules and no location-specific pages, blog content, or structured data. Google Business Profile was partially optimized but lacked regular posts, Q&A responses, and review management. Competitors with stronger SEO were capturing the 2,400+ monthly searches for gym-related terms in the Phoenix East Valley — traffic that was ready to convert but never saw this business.",
+    },
+    {
+      title: "No Lead Qualification System for Paid Campaigns",
+      description: "Previous paid advertising treated every inquiry equally — whether it was a college student looking for a free trial, someone comparing prices across five gyms, or a committed prospect ready to sign a 12-month membership. There was no mechanism to distinguish a $49/month basic membership lead from a $189/month personal training package prospect. Form submissions captured only name and email. Phone calls were untracked. The result was a $32 CPL that looked acceptable on paper, but a true cost per qualified lead closer to $98 when accounting for no-shows, price shoppers, and leads outside the service area.",
+    },
+    {
+      title: "New Year Resolution Spike Without a Strategy to Sustain It",
+      description: "Like every gym, January brought a predictable surge in interest — but without a structured campaign strategy, the business was spending the same budget in slow months as in peak months. January 2025 saw a 40% traffic spike that the gym couldn't capitalize on because campaigns weren't pre-built, landing pages weren't ready, and budget wasn't pre-allocated. By February, interest dropped and so did new sign-ups. The Phoenix market adds complexity: snowbird season (October–April) brings temporary residents who want short-term memberships, while summer heat drives locals to seek air-conditioned fitness options. Without seasonal campaign planning, money was being left on the table during high-demand windows.",
+    },
+  ],
+  strategy: [
+    {
+      phase: 1,
+      months: "0–30 days",
+      title: "Foundation — Tracking, SEO Audit & Campaign Launch",
+      items: [
+        "Comprehensive technical SEO audit — identified 34 crawl errors, missing schema markup, no location pages, thin content across 8 indexed pages, and zero internal linking structure targeting Phoenix-area fitness keywords",
+        "Implemented call tracking with AI-powered call scoring — tagging each inquiry by interest type (general membership, personal training, group classes, day pass), commitment level, and geographic proximity to the gym",
+        "Redesigned lead capture forms with qualifying questions — fitness goals, preferred membership type, how soon they planned to join, and zip code — creating an ICP data layer on every submission",
+        "Built 6 location-optimized landing pages targeting Phoenix, Tempe, Scottsdale, Mesa, Chandler, and Gilbert with unique content, member testimonials, and neighborhood-specific messaging",
+        "Launched initial paid campaigns at $6,200/month (elevated for January peak season) across Google Search and Meta, targeting high-intent keywords like 'gym membership Phoenix,' 'personal trainer near me,' and 'fitness center East Valley'",
+        "Deployed always-on AI optimization agents directly within ad accounts — monitoring bid performance, adjusting audience targeting, and reallocating budget across campaigns in real time rather than waiting for weekly agency review cycles",
+        "Optimized Google Business Profile with complete service categories, 15 new photos, weekly posts, and a review response strategy to improve local pack visibility",
+        "Published 8 foundational SEO articles targeting long-tail fitness keywords specific to the Phoenix market — 'best gyms in East Valley,' 'Phoenix personal training options,' class comparison guides, and seasonal content around New Year fitness goals",
+      ],
+    },
+    {
+      phase: 2,
+      months: "30–60 days",
+      title: "Data-Driven Optimization & Content Scaling",
+      items: [
+        "Analyzed 30 days of call recordings — discovered that 63% of qualified leads mentioned personal training or group classes (higher-value services), and the highest-converting zip codes were in Tempe 85281, 85282, and Scottsdale 85251",
+        "Landing page data revealed: visitors who selected 'ready to join this month' converted at 3.4x the rate of 'just browsing' — restructured Meta campaigns to retarget engaged visitors with urgency-based offers",
+        "AI agents identified underperforming ad creatives within hours and automatically shifted budget to top performers — compounding small daily optimizations rather than waiting for monthly manual reviews",
+        "Launched 12 AI-generated ad variations testing different hooks: transformation stories, class variety, community atmosphere, and convenience/location messaging",
+        "Published 12 additional SEO articles and expanded location pages — gym comparison guides, workout tips for Phoenix heat, class-specific pages for HIIT, yoga, and strength training, each targeting unique long-tail keywords",
+        "Built comprehensive internal linking structure connecting location pages → class pages → blog content → conversion pages, strengthening topical authority around Phoenix fitness",
+        "Budget reduced to $5,400/month as post-January demand normalized, with AI agents redistributing spend to highest-performing campaigns and audiences",
+      ],
+    },
+    {
+      phase: 3,
+      months: "60–90 days",
+      title: "Audience Refinement & Conversion Optimization",
+      items: [
+        "Reviewed 60 days of ICP data — identified that working professionals aged 28-45 within a 7-mile radius represented 74% of members who stayed beyond 3 months, refocused targeting on this demographic",
+        "Commercial office corridor targeting: employees at businesses along the Loop 101 and Loop 202 corridors showed high weekday lunch-hour and post-work conversion rates — created dedicated ad schedules and messaging",
+        "Implemented structured data markup across all pages — FAQ schema, LocalBusiness schema, and review schema — resulting in enhanced search snippets for key queries",
+        "SEO content scaled aggressively — published 15 new pages covering every class type, neighborhood guide, fitness FAQ, and workout-related topic to build topical authority in the Phoenix fitness space",
+        "Budget held at $5,100/month during the slower March period — AI agents maintained cost efficiency by concentrating spend on proven audience segments rather than broad prospecting",
+        "Landing page A/B testing showed a 23% improvement in conversion rate when featuring real member transformation photos versus stock fitness imagery",
+        "When spring break drove a temporary traffic dip, AI agents restructured campaign allocation within hours — shifting budget toward 'summer body' and personal training keywords that maintained consistent lead quality",
+      ],
+    },
+    {
+      phase: 4,
+      months: "90+ days",
+      title: "Compounding Growth & Seasonal Scaling",
+      items: [
+        "SEO results began compounding significantly — location pages ranking in top 10 for 'gym near me' + city variations, blog content ranking for hundreds of long-tail fitness queries, driving organic leads that reduced overall blended acquisition cost",
+        "Paid campaign budget scaled from $5,200 in April to $5,800 in June as Phoenix summer heat drove increased interest in indoor fitness — AI agents allocated incremental budget to proven high-converting segments",
+        "AI agents analyzed thousands of performance signals daily to identify micro-trends — detecting a surge in 'air conditioned gym Phoenix' searches as temperatures exceeded 110°F and automatically creating responsive campaigns",
+        "Cross-channel synergy: organic blog content about Phoenix summer fitness tips drove awareness, while paid retargeting campaigns captured visitors who read the content but didn't convert on first visit",
+        "Phone call analysis revealed that personal training inquiries had 2.1x the lifetime value of general membership leads — created dedicated high-budget campaigns for PT-specific keywords",
+        "By month 6, the combined SEO and paid strategy had driven cost per qualified lead down to $37 while total lead volume more than doubled from month 1 — demonstrating that continuous AI optimization sustained efficiency even as campaigns scaled",
+        "Continuous AI optimization compounded daily improvements across both channels — bid adjustments, audience refinements, content optimization, and budget reallocations happening in real time rather than the typical agency cycle of weekly reviews",
+      ],
+    },
+  ],
+  seo: {
+    summary: [
+      { label: "Organic Keywords Tracked", value: "1,742", growth: "+1,949%", from: "from 85" },
+      { label: "Monthly Organic Traffic", value: "4,348/mo", growth: "+1,050%", from: "from 378" },
+      { label: "Top 10 Rankings", value: "127", growth: "+3,075%", from: "from 4" },
+      { label: "Pages Created", value: "52", growth: "", from: "incl. 6 location pages" },
+    ],
+    monthly: [
+      { month: "Jan '26", keywords: 85, top10: 4, top3: 1, traffic: 378, pages: 8, avgPos: 47.2, ctr: 0.8 },
+      { month: "Feb '26", keywords: 148, top10: 12, top3: 3, traffic: 594, pages: 14, avgPos: 38.6, ctr: 1.2 },
+      { month: "Mar '26", keywords: 287, top10: 29, top3: 7, traffic: 1034, pages: 23, avgPos: 31.4, ctr: 1.6 },
+      { month: "Apr '26", keywords: 524, top10: 52, top3: 14, traffic: 1724, pages: 34, avgPos: 26.8, ctr: 2.1 },
+      { month: "May '26", keywords: 986, top10: 87, top3: 23, traffic: 2763, pages: 43, avgPos: 22.3, ctr: 2.5 },
+      { month: "Jun '26", keywords: 1742, top10: 127, top3: 34, traffic: 4348, pages: 52, avgPos: 19.1, ctr: 2.9 },
+    ],
+  },
+  paidAds: {
+    summary: [
+      { label: "Total Ad Spend", value: "$33.2K" },
+      { label: "Qualified Leads", value: "607" },
+      { label: "Avg Cost Per Qualified Lead", value: "$54.71", note: "↓60% from $98" },
+      { label: "New Members", value: "184", note: "avg membership value $613" },
+    ],
+    columnLabels: {
+      leads: "Total Leads",
+      cpl: "CPL",
+      qualified: "Qualified Leads",
+      cpql: "CPQL",
+      deals: "New Members",
+      costPerDeal: "Cost/Member",
+    },
+    monthly: [
+      { month: "Jan '26", spend: 6200, leads: 248, cpl: 25.00, qualified: 63, cpql: 98.41, deals: 17, revenue: 9860, roas: 1.59 },
+      { month: "Feb '26", spend: 5400, leads: 278, cpl: 19.42, qualified: 74, cpql: 72.97, deals: 22, revenue: 12980, roas: 2.40 },
+      { month: "Mar '26", spend: 5100, leads: 324, cpl: 15.74, qualified: 89, cpql: 57.30, deals: 28, revenue: 17080, roas: 3.35 },
+      { month: "Apr '26", spend: 5200, leads: 386, cpl: 13.47, qualified: 108, cpql: 48.15, deals: 34, revenue: 21080, roas: 4.05 },
+      { month: "May '26", spend: 5500, leads: 441, cpl: 12.47, qualified: 127, cpql: 43.31, deals: 39, revenue: 24570, roas: 4.47 },
+      { month: "Jun '26", spend: 5800, leads: 498, cpl: 11.65, qualified: 146, cpql: 39.73, deals: 44, revenue: 27280, roas: 4.70 },
+    ],
+  },
+  impact: [
+    { label: "Total Revenue", value: "$112.9K", growth: "+186%" },
+    { label: "New Members", value: "184", growth: "+159%" },
+    { label: "Cost Per Qualified Lead", value: "$40", growth: "↓60%" },
+    { label: "Blended ROAS", value: "3.40x", growth: "" },
+  ],
+};
