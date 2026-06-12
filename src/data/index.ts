@@ -1,4 +1,5 @@
 import { CaseStudyData } from "./types";
+import { collegeNewYork } from "./college-new-york";
 import { higherEducationFlorida } from "./higher-education-florida";
 import { retailEcommerceApparel } from "./retail-ecommerce-apparel";
 import { cleaningServicesPhoenix } from "./cleaning-services-phoenix";
@@ -48,6 +49,7 @@ import { entertainmentEvents } from "./entertainment-events";
 import { entertainmentEventsNy } from "./entertainment-events-ny";
 import { entertainmentEventsNyc } from "./entertainment-events-nyc";
 import { diseasePreventionClinic } from "./disease-prevention-clinic";
+import { clinicCalifornia } from "./clinic-california";
 import { rehabCenter } from "./rehab-center";
 import { educationTraining } from "./education-training";
 import { b2bLanguageServices } from "./b2b-language-services";
@@ -624,12 +626,14 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "home-furniture-ecommerce": homeFurnitureEcommerce,
   "injury-law-new-jersey": injuryLawNewJersey,
   "medicare-services-new-jersey": medicareServicesNewJersey,
+  "college-new-york": collegeNewYork,
   "higher-education-florida": higherEducationFlorida,
   "sports-team-arizona": sportsTeamArizona,
   "retail-ecommerce-apparel": retailEcommerceApparel,
   "cleaning-services-phoenix": cleaningServicesPhoenix,
   "gym-fitness-phoenix": gymFitnessPhoenix,
   "working-capital-financing": workingCapitalFinancing,
+  "clinic-california": clinicCalifornia,
 };
 
 export type { CaseStudyData };

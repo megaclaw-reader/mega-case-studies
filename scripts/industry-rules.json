@@ -178,6 +178,10 @@
         "homecare_services": [
           3000,
           6000
+        ],
+        "clinic": [
+          300,
+          1500
         ]
       }
     },
@@ -798,7 +802,10 @@
     "Sports Team": "lead_gen_services",
     "Retail / E-commerce / Apparel": "ecommerce",
     "Working Capital Financing": "lead_gen_professional",
-    "Gym / Fitness": "lead_gen_services"
+    "Gym / Fitness": "lead_gen_services",
+    "Clinic": "lead_gen_services",
+    "College": "lead_gen_professional",
+    "College": "lead_gen_professional"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",
