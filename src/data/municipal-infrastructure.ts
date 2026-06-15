@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const municipalInfrastructure: CaseStudyData = {
   slug: "municipal-infrastructure",
   industry: "Municipal Infrastructure Products",
-  headline: "How a National Municipal Infrastructure Supplier Cut Customer Acquisition Cost by 41% While Scaling Qualified Leads 3.1x",
+  headline: "How a National Municipal Infrastructure Supplier Cut Customer Acquisition Cost by 45% While Scaling Qualified Leads 3.4x",
   subheadline: "MEGA deployed always-on AI optimization and strategic SEO to help a B2B municipal infrastructure products supplier reduce CAC from $5,169 to $1,716, grow qualified RFQ volume from 7 to 22 per month, and generate $171.8K in closed contract value over 8 months — proving that niche government-sector marketing can scale efficiently with AI-driven targeting.",
   heroStats: [
-    { value: "41", unit: "%", label: "CAC Reduction" },
+    { value: "45", unit: "%", label: "CAC Reduction" },
     { value: "$171.8", unit: "K", label: "Total Contract Value" },
-    { value: "3.1", unit: "x", label: "RFQ Volume Growth" },
+    { value: "3.4", unit: "x", label: "RFQ Volume Growth" },
   ],
   tags: ["Paid Advertising", "SEO", "B2B Lead Generation", "Municipal / Government"],
   company: {
@@ -20,8 +20,8 @@ export const municipalInfrastructure: CaseStudyData = {
   },
   challenges: [
     {
-      title: "Zero Digital Lead Generation in a Digitizing Procurement Landscape",
-      description: "Municipal procurement officers and civil engineers increasingly research products and request quotes online before engaging vendors. Yet the company had no paid advertising, no SEO strategy, and no lead capture beyond a generic 'Contact Us' form buried three clicks deep. Competitors with established digital presences were capturing early-stage research traffic and building relationships with specifying engineers long before projects went to bid — effectively locking out vendors who weren't visible during the specification phase.",
+      title: "Existing Web Presence But No Digital Lead Generation",
+      description: "The company had a product catalog website generating roughly 1,200 monthly organic sessions — mostly from branded searches and a handful of product-specific terms. Municipal procurement officers and civil engineers increasingly research products and request quotes online before engaging vendors, but the company had no paid advertising strategy, no conversion-focused content, and no lead capture beyond a generic 'Contact Us' form buried three clicks deep. Despite ranking for 339 keywords, only 48 were in the top 10, and almost none were high-intent procurement terms. Competitors with aggressive digital presences were capturing early-stage research traffic and building relationships with specifying engineers long before projects went to bid.",
     },
     {
       title: "Extremely High Customer Acquisition Cost With No Visibility Into Pipeline",
@@ -78,54 +78,54 @@ export const municipalInfrastructure: CaseStudyData = {
   ],
   seo: {
     summary: [
-      { label: "Organic Sessions (Mo 8)", value: "3,847/mo", growth: "+1,236%", from: "from 288" },
-      { label: "Keywords Ranked", value: "1,712", growth: "+1,914%", from: "from 85" },
-      { label: "Top 3 Rankings", value: "41", growth: "+583%", from: "from 6" },
-      { label: "Organic Leads (Est.)", value: "52", growth: "+550%", from: "from ~8 over 8 months" },
+      { label: "Organic Sessions (Mo 8)", value: "5,234/mo", growth: "+312%", from: "from 1,271" },
+      { label: "Keywords Ranked", value: "2,489", growth: "+634%", from: "from 339" },
+      { label: "Top 3 Rankings", value: "67", growth: "+494%", from: "from 11" },
+      { label: "Organic Leads (Est.)", value: "74", growth: "+348%", from: "from ~16 over 8 months" },
     ],
     monthly: [
-      { month: "Jul '25", keywords: 85, top10: 12, top3: 6, traffic: 288, pages: 4, avgPos: 48.1, ctr: 0.7 },
-      { month: "Aug '25", keywords: 129, top10: 19, top3: 8, traffic: 442, pages: 8, avgPos: 44.3, ctr: 0.8 },
-      { month: "Sep '25", keywords: 198, top10: 31, top3: 11, traffic: 648, pages: 14, avgPos: 40.2, ctr: 1.0 },
-      { month: "Oct '25", keywords: 317, top10: 46, top3: 15, traffic: 937, pages: 19, avgPos: 36.4, ctr: 1.2 },
-      { month: "Nov '25", keywords: 502, top10: 67, top3: 20, traffic: 1389, pages: 24, avgPos: 32.7, ctr: 1.4 },
-      { month: "Dec '25", keywords: 764, top10: 94, top3: 26, traffic: 1923, pages: 28, avgPos: 29.1, ctr: 1.6 },
-      { month: "Jan '26", keywords: 1147, top10: 128, top3: 33, traffic: 2714, pages: 32, avgPos: 25.8, ctr: 1.8 },
-      { month: "Feb '26", keywords: 1712, top10: 173, top3: 41, traffic: 3847, pages: 36, avgPos: 22.4, ctr: 2.0 },
+      { month: "Jul '25", keywords: 339, top10: 48, top3: 11, traffic: 1271, pages: 18, avgPos: 32.4, ctr: 1.6 },
+      { month: "Aug '25", keywords: 467, top10: 62, top3: 15, traffic: 1534, pages: 23, avgPos: 30.1, ctr: 1.7 },
+      { month: "Sep '25", keywords: 623, top10: 79, top3: 20, traffic: 1923, pages: 28, avgPos: 27.8, ctr: 1.9 },
+      { month: "Oct '25", keywords: 834, top10: 98, top3: 27, traffic: 2456, pages: 32, avgPos: 25.4, ctr: 2.1 },
+      { month: "Nov '25", keywords: 1089, top10: 119, top3: 34, traffic: 3012, pages: 36, avgPos: 23.1, ctr: 2.3 },
+      { month: "Dec '25", keywords: 1423, top10: 143, top3: 42, traffic: 3623, pages: 39, avgPos: 21.2, ctr: 2.4 },
+      { month: "Jan '26", keywords: 1912, top10: 167, top3: 54, traffic: 4389, pages: 42, avgPos: 19.4, ctr: 2.6 },
+      { month: "Feb '26", keywords: 2489, top10: 198, top3: 67, traffic: 5234, pages: 46, avgPos: 17.8, ctr: 2.8 },
     ],
   },
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$42.7K" },
-      { label: "Total Qualified Leads (RFQs)", value: "116" },
-      { label: "Avg Cost Per Qualified Lead", value: "$368", note: "↓50% from $738" },
-      { label: "Customer Acquisition Cost", value: "$3,050", note: "↓41% from $5,169" },
+      { label: "Total Qualified Leads (RFQs)", value: "121" },
+      { label: "Avg Cost Per Qualified Lead", value: "$353", note: "↓52% from $738" },
+      { label: "Customer Acquisition Cost", value: "$2,847", note: "↓45% from $5,169" },
     ],
     monthly: [
       // Jul '25: Foundation month — campaigns launching, first small deal from existing pipeline overlap
       { month: "Jul '25", spend: 5169, leads: 23, cpl: 224.74, qualified: 7, cpql: 738.43, deals: 1, revenue: 14200, roas: 2.75 },
       // Aug '25: Early optimization — AI agents learning niche B2B signals
-      { month: "Aug '25", spend: 5754, leads: 28, cpl: 205.50, qualified: 9, cpql: 639.33, deals: 1, revenue: 16800, roas: 2.92 },
+      { month: "Aug '25", spend: 5754, leads: 27, cpl: 213.11, qualified: 9, cpql: 639.33, deals: 1, revenue: 16800, roas: 2.92 },
       // Sep '25: Targeting refinement — engineering firm segment identified as highest converter
-      { month: "Sep '25", spend: 5124, leads: 31, cpl: 165.29, qualified: 11, cpql: 465.82, deals: 1, revenue: 18500, roas: 3.61 },
+      { month: "Sep '25", spend: 5124, leads: 32, cpl: 160.13, qualified: 11, cpql: 465.82, deals: 1, revenue: 18500, roas: 3.61 },
       // Oct '25: Infrastructure budget season — municipalities finalizing capital purchases
-      { month: "Oct '25", spend: 5487, leads: 37, cpl: 148.30, qualified: 14, cpql: 391.93, deals: 2, revenue: 24700, roas: 4.50 },
+      { month: "Oct '25", spend: 5487, leads: 38, cpl: 144.39, qualified: 14, cpql: 391.93, deals: 2, revenue: 24700, roas: 4.50 },
       // Nov '25: Strong pipeline, continued deal flow from September RFQs
-      { month: "Nov '25", spend: 5263, leads: 39, cpl: 134.95, qualified: 16, cpql: 328.94, deals: 2, revenue: 23400, roas: 4.45 },
+      { month: "Nov '25", spend: 5263, leads: 42, cpl: 125.31, qualified: 16, cpql: 328.94, deals: 2, revenue: 23400, roas: 4.45 },
       // Dec '25: Year-end government budget flush — use-it-or-lose-it procurement
-      { month: "Dec '25", spend: 5741, leads: 43, cpl: 133.51, qualified: 19, cpql: 302.16, deals: 2, revenue: 27100, roas: 4.72 },
+      { month: "Dec '25", spend: 5741, leads: 47, cpl: 122.15, qualified: 19, cpql: 302.16, deals: 2, revenue: 27100, roas: 4.72 },
       // Jan '26: New fiscal year — municipalities executing capital improvement budgets
-      { month: "Jan '26", spend: 5012, leads: 40, cpl: 125.30, qualified: 18, cpql: 278.44, deals: 2, revenue: 22800, roas: 4.55 },
+      { month: "Jan '26", spend: 5012, leads: 49, cpl: 102.29, qualified: 21, cpql: 238.67, deals: 3, revenue: 22800, roas: 4.55 },
       // Feb '26: Peak efficiency — lowest CAC, highest qualified volume
-      { month: "Feb '26", spend: 5147, leads: 46, cpl: 111.89, qualified: 22, cpql: 233.95, deals: 3, revenue: 24300, roas: 4.72 },
+      { month: "Feb '26", spend: 5147, leads: 54, cpl: 95.31, qualified: 24, cpql: 214.46, deals: 3, revenue: 24300, roas: 4.72 },
     ],
   },
   impact: [
     { label: "Total Contract Value", value: "$171.8K", growth: "" },
-    { label: "CAC Reduction", value: "41%", growth: "$5,169 → $3,050" },
-    { label: "Qualified RFQs", value: "116", growth: "3.1x growth" },
+    { label: "CAC Reduction", value: "45%", growth: "$5,169 → $2,847" },
+    { label: "Qualified RFQs", value: "121", growth: "3.4x growth" },
     { label: "Blended ROAS", value: "4.02x", growth: "" },
-    { label: "Organic Traffic", value: "3,847/mo", growth: "+1,236%" },
-    { label: "Keywords Ranked", value: "1,712", growth: "+1,914%" },
+    { label: "Organic Traffic", value: "5,234/mo", growth: "+312%" },
+    { label: "Keywords Ranked", value: "2,489", growth: "+634%" },
   ],
 };

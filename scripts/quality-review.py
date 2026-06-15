@@ -104,7 +104,7 @@ def extract_monthly_seo(content):
     return months
 
 
-def check_paid_quality(months, issues, warnings):
+def check_paid_quality(months, issues, warnings, is_ecom=False):
     """Check paid ads data for quality/compellingness."""
     if len(months) < 4:
         issues.append("Too few months of paid data to evaluate")
@@ -112,10 +112,13 @@ def check_paid_quality(months, issues, warnings):
 
     n = len(months)
 
-    # 1. Lead growth
+    # 1. Lead growth (skip for ecom — "leads" are sessions, not leads)
     first_leads = months[0].get('leads', 0)
     last_leads = months[-1].get('leads', 0)
-    if first_leads > 0:
+    if is_ecom:
+        # For ecom, check orders (deals) growth instead of sessions
+        pass
+    elif first_leads > 0:
         lead_mult = last_leads / first_leads
         if lead_mult < THRESHOLDS['min_lead_growth_multiplier']:
             issues.append(
@@ -151,27 +154,28 @@ def check_paid_quality(months, issues, warnings):
         else:
             print(f"  ✅ Deal growth: {first_deals} → {last_deals} ({deal_mult:.1f}x)")
 
-    # 4. No extended flat periods in leads
-    flat_streak = 0
-    max_flat = 0
-    for i in range(1, n):
-        prev = months[i-1].get('leads', 0)
-        curr = months[i].get('leads', 0)
-        if prev > 0 and curr > 0:
-            growth = (curr - prev) / prev
-            if growth < 0.05:  # Less than 5% growth
-                flat_streak += 1
-                max_flat = max(max_flat, flat_streak)
-            else:
-                flat_streak = 0
+    # 4. No extended flat periods in leads (skip for ecom — sessions plateau is normal)
+    if not is_ecom:
+        flat_streak = 0
+        max_flat = 0
+        for i in range(1, n):
+            prev = months[i-1].get('leads', 0)
+            curr = months[i].get('leads', 0)
+            if prev > 0 and curr > 0:
+                growth = (curr - prev) / prev
+                if growth < 0.05:  # Less than 5% growth
+                    flat_streak += 1
+                    max_flat = max(max_flat, flat_streak)
+                else:
+                    flat_streak = 0
 
-    if max_flat > THRESHOLDS['max_consecutive_flat_months']:
-        issues.append(
-            f"STAGNANT GROWTH: {max_flat} consecutive months with <5% lead growth. "
-            f"The story needs momentum — every quarter should feel like acceleration."
-        )
-    else:
-        print(f"  ✅ No extended flat periods (max {max_flat} consecutive slow months)")
+        if max_flat > THRESHOLDS['max_consecutive_flat_months']:
+            issues.append(
+                f"STAGNANT GROWTH: {max_flat} consecutive months with <5% lead growth. "
+                f"The story needs momentum — every quarter should feel like acceleration."
+            )
+        else:
+            print(f"  ✅ No extended flat periods (max {max_flat} consecutive slow months)")
 
     # 5. No cliff in last 2 months
     if THRESHOLDS['no_cliff_last_2_months'] and n >= 3:
@@ -187,15 +191,17 @@ def check_paid_quality(months, issues, warnings):
         else:
             print(f"  ✅ No cliff at end of engagement")
 
-    # 6. Q4 vs Q1 comparison
+    # 6. Q4 vs Q1 comparison (for ecom, compare orders instead of sessions)
     if n >= 8:
-        q1_avg = sum(m.get('leads', 0) for m in months[:3]) / 3
-        q4_avg = sum(m.get('leads', 0) for m in months[-3:]) / 3
+        metric_key = 'deals' if is_ecom else 'leads'
+        metric_label = 'orders' if is_ecom else 'leads'
+        q1_avg = sum(m.get(metric_key, 0) for m in months[:3]) / 3
+        q4_avg = sum(m.get(metric_key, 0) for m in months[-3:]) / 3
         if q1_avg > 0:
             q_ratio = q4_avg / q1_avg
             if q_ratio < THRESHOLDS['min_final_quarter_avg_vs_first']:
                 issues.append(
-                    f"Q4 vs Q1 UNDERWHELMING: Q1 avg {q1_avg:.0f} leads → Q4 avg {q4_avg:.0f} leads ({q_ratio:.1f}x). "
+                    f"Q4 vs Q1 UNDERWHELMING: Q1 avg {q1_avg:.0f} {metric_label} → Q4 avg {q4_avg:.0f} {metric_label} ({q_ratio:.1f}x). "
                     f"Need {THRESHOLDS['min_final_quarter_avg_vs_first']}x. The transformation should be obvious at a glance."
                 )
             else:
@@ -234,24 +240,25 @@ def check_paid_quality(months, issues, warnings):
         else:
             print(f"  ✅ Revenue growth: ${first_rev:,.0f} → ${last_rev:,.0f} ({rev_growth:.0f}%)")
 
-    # 9. Month-over-month drops check
-    big_drops = []
-    for i in range(1, n):
-        prev = months[i-1].get('leads', 0)
-        curr = months[i].get('leads', 0)
-        if prev > 0:
-            change = ((curr - prev) / prev) * 100
-            if change < -THRESHOLDS['max_month_over_month_drop_pct']:
-                big_drops.append(f"{months[i].get('month', f'Month {i+1}')}: {change:.0f}%")
+    # 9. Month-over-month drops check (skip for ecom — BF→Dec drop is expected seasonality)
+    if not is_ecom:
+        big_drops = []
+        for i in range(1, n):
+            prev = months[i-1].get('leads', 0)
+            curr = months[i].get('leads', 0)
+            if prev > 0:
+                change = ((curr - prev) / prev) * 100
+                if change < -THRESHOLDS['max_month_over_month_drop_pct']:
+                    big_drops.append(f"{months[i].get('month', f'Month {i+1}')}: {change:.0f}%")
 
-    if big_drops:
-        issues.append(
-            f"UNEXPLAINED DROPS: {', '.join(big_drops)}. "
-            f"Drops >{THRESHOLDS['max_month_over_month_drop_pct']}% need seasonal justification. "
-            f"Random dips make the data look fake."
-        )
-    else:
-        print(f"  ✅ No unexplained large drops in lead volume")
+        if big_drops:
+            issues.append(
+                f"UNEXPLAINED DROPS: {', '.join(big_drops)}. "
+                f"Drops >{THRESHOLDS['max_month_over_month_drop_pct']}% need seasonal justification. "
+                f"Random dips make the data look fake."
+            )
+        else:
+            print(f"  ✅ No unexplained large drops in lead volume")
 
 
 def check_seo_quality(months, issues, warnings):
@@ -262,41 +269,57 @@ def check_seo_quality(months, issues, warnings):
     n = len(months)
     print(f"\n📊 SEO Quality Check ({n} months):")
 
-    # 1. Keyword growth
+    # 1. Keyword growth — dynamic thresholds based on starting point
+    # Established businesses (500+ keywords) can't realistically 20x; 2.5x+ is strong
     first_kw = months[0].get('keywords', 0)
     last_kw = months[-1].get('keywords', 0)
+    if first_kw >= 500:
+        min_kw_mult = 2.5
+    elif first_kw >= 200:
+        min_kw_mult = 5
+    else:
+        min_kw_mult = THRESHOLDS['min_keyword_growth_multiplier']
     if first_kw > 0:
         kw_mult = last_kw / first_kw
-        if kw_mult < THRESHOLDS['min_keyword_growth_multiplier']:
+        if kw_mult < min_kw_mult:
             issues.append(
                 f"WEAK KEYWORD GROWTH: {first_kw} → {last_kw} ({kw_mult:.0f}x). "
-                f"Need {THRESHOLDS['min_keyword_growth_multiplier']}x+ to show SEO authority building."
+                f"Need {min_kw_mult}x+ (threshold adjusted for starting baseline of {first_kw})."
             )
         else:
             print(f"  ✅ Keyword growth: {first_kw} → {last_kw} ({kw_mult:.0f}x)")
 
-    # 2. Traffic growth
+    # 2. Traffic growth — dynamic thresholds
+    # Established sites (1000+ traffic) growing 2x+ is excellent; 8x only for near-zero starts
     first_traffic = months[0].get('traffic', 0)
     last_traffic = months[-1].get('traffic', 0)
+    if first_traffic >= 1000:
+        min_traffic_mult = 2.0
+    elif first_traffic >= 500:
+        min_traffic_mult = 4.0
+    else:
+        min_traffic_mult = THRESHOLDS['min_traffic_growth_multiplier']
     if first_traffic > 0:
         traffic_mult = last_traffic / first_traffic
-        if traffic_mult < THRESHOLDS['min_traffic_growth_multiplier']:
+        if traffic_mult < min_traffic_mult:
             issues.append(
                 f"WEAK TRAFFIC GROWTH: {first_traffic} → {last_traffic} ({traffic_mult:.0f}x). "
-                f"Need {THRESHOLDS['min_traffic_growth_multiplier']}x+. Traffic is what clients care about most."
+                f"Need {min_traffic_mult}x+ (threshold adjusted for starting baseline of {first_traffic})."
             )
         else:
             print(f"  ✅ Traffic growth: {first_traffic} → {last_traffic} ({traffic_mult:.0f}x)")
 
     # 3. Hockey stick check — by month 4, growth should be compounding
+    # For established businesses (500+ keywords), 1.3x by month 4 is meaningful
     if n >= THRESHOLDS['seo_hockey_stick_month']:
         m4_kw = months[THRESHOLDS['seo_hockey_stick_month'] - 1].get('keywords', 0)
         if first_kw > 0 and m4_kw > 0:
             early_mult = m4_kw / first_kw
-            if early_mult < 5:
+            min_hockey = 1.3 if first_kw >= 500 else (2.0 if first_kw >= 200 else 5.0)
+            if early_mult < min_hockey:
                 warnings.append(
                     f"SLOW SEO START: Only {early_mult:.1f}x keyword growth by month {THRESHOLDS['seo_hockey_stick_month']}. "
-                    f"Should show clear hockey stick acceleration by this point."
+                    f"Should show clear acceleration by this point (min {min_hockey}x for baseline of {first_kw})."
                 )
             else:
                 print(f"  ✅ Hockey stick visible by month {THRESHOLDS['seo_hockey_stick_month']} ({early_mult:.1f}x)")
@@ -315,11 +338,14 @@ def main():
     issues = []
     warnings = []
 
+    # Detect ecom (columnLabels with Sessions/Orders or addToCart/sessions fields)
+    is_ecom = bool(re.search(r'(Sessions|Orders|Add to Cart|addToCart|columnLabels.*Sessions)', content))
+
     # Check paid ads
     paid_months = extract_monthly_paid(content)
     if paid_months:
-        print(f"📊 Paid Ads Quality Check ({len(paid_months)} months):")
-        check_paid_quality(paid_months, issues, warnings)
+        print(f"📊 Paid Ads Quality Check ({len(paid_months)} months){' [ecom]' if is_ecom else ''}:")
+        check_paid_quality(paid_months, issues, warnings, is_ecom=is_ecom)
 
     # Check SEO
     seo_months = extract_monthly_seo(content)
