@@ -3,10 +3,10 @@ import { CaseStudyData } from "./types";
 export const constructionMembraneMaterials: CaseStudyData = {
   slug: "construction-membrane-materials",
   industry: "Construction & Industrial Membrane Materials",
-  headline: "How an Established Membrane Materials Supplier Tripled Organic Traffic and Generated $683K With AI-Powered Marketing",
-  subheadline: "MEGA helped a B2B manufacturer already generating 4,800+ monthly organic sessions scale their digital presence nationally — tripling organic traffic to 14,300/mo, reducing cost per qualified lead by 47%, and generating $683.5K in attributed revenue over 12 months.",
+  headline: "How an Established Membrane Materials Supplier Doubled Organic Traffic to 37K/mo and Generated $683K With AI-Powered Marketing",
+  subheadline: "MEGA helped a B2B manufacturer with 189 indexed pages already generating 18,000+ monthly organic sessions scale their digital presence nationally — doubling organic traffic to 37,800/mo across 378 pages, reducing cost per qualified lead by 47%, and generating $683.5K in attributed revenue over 12 months.",
   heroStats: [
-    { value: "198", unit: "%", label: "Organic Traffic Growth" },
+    { value: "107", unit: "%", label: "Organic Traffic Growth" },
     { value: "223", unit: "%", label: "Qualified Lead Growth" },
     { value: "$683.5", unit: "K", label: "Revenue Attributed" },
   ],
@@ -21,7 +21,7 @@ export const constructionMembraneMaterials: CaseStudyData = {
   challenges: [
     {
       title: "Strong Baseline But Stalled National Visibility",
-      description: "The company ranked for over 2,100 keywords and generated roughly 4,800 monthly organic sessions — a solid foundation built over years of catalog content and trade publication mentions. However, they held top-10 positions for only 169 terms, and almost none were high-intent commercial queries like 'TPO roofing membrane supplier,' 'HDPE geomembrane manufacturer,' or 'below-grade waterproofing systems.' The organic traffic they did get was heavily branded and informational — engineers and GCs searching for specification data and bulk pricing were still finding competitors first. The website lacked structured product pages by application, had no technical resource library, and was missing schema markup across the product catalog.",
+      description: "The company had a substantial web presence — 189 indexed pages across their product catalog, ranking for nearly 4,800 keywords and generating roughly 18,000 monthly organic sessions. However, they held top-10 positions for only 412 terms, and almost none were high-intent commercial queries like 'TPO roofing membrane supplier,' 'HDPE geomembrane manufacturer,' or 'below-grade waterproofing systems.' Despite the scale of their site, the organic traffic was heavily branded and informational — engineers and GCs searching for specification data and bulk pricing were still finding competitors first. Product pages lacked application-specific optimization, there was no technical resource library, and schema markup was missing across the entire catalog.",
     },
     {
       title: "High Cost Per Qualified Lead With No Attribution",
@@ -100,24 +100,24 @@ export const constructionMembraneMaterials: CaseStudyData = {
   ],
   seo: {
     summary: [
-      { label: "Total Keywords", value: "14,218", growth: "+561%", from: "from 2,147" },
-      { label: "Top 10 Rankings", value: "1,160", growth: "+587%", from: "from 169" },
-      { label: "Pages Created", value: "142", growth: "", from: "incl. 23 product pages + 14 application pages" },
-      { label: "Organic Traffic", value: "14,318/mo", growth: "+198%", from: "from 4,812" },
+      { label: "Total Keywords", value: "19,423", growth: "+303%", from: "from 4,823" },
+      { label: "Top 10 Rankings", value: "1,645", growth: "+299%", from: "from 412" },
+      { label: "Total Indexed Pages", value: "378", growth: "+100%", from: "from 189" },
+      { label: "Organic Traffic", value: "37,812/mo", growth: "+107%", from: "from 18,234" },
     ],
     monthly: [
-      { month: "Jan 2025", keywords: 2147, top10: 169, top3: 28, traffic: 4812, pages: 47, avgPos: 26.8, ctr: 2.1 },
-      { month: "Feb 2025", keywords: 2489, top10: 198, top3: 34, traffic: 5123, pages: 56, avgPos: 25.1, ctr: 2.2 },
-      { month: "Mar 2025", keywords: 3012, top10: 247, top3: 43, traffic: 5687, pages: 68, avgPos: 23.4, ctr: 2.3 },
-      { month: "Apr 2025", keywords: 3798, top10: 312, top3: 58, traffic: 6534, pages: 78, avgPos: 21.7, ctr: 2.5 },
-      { month: "May 2025", keywords: 4723, top10: 394, top3: 76, traffic: 7489, pages: 86, avgPos: 20.1, ctr: 2.6 },
-      { month: "Jun 2025", keywords: 5812, top10: 489, top3: 97, traffic: 8612, pages: 93, avgPos: 18.8, ctr: 2.8 },
-      { month: "Jul 2025", keywords: 7034, top10: 598, top3: 121, traffic: 9734, pages: 101, avgPos: 17.6, ctr: 2.9 },
-      { month: "Aug 2025", keywords: 8367, top10: 712, top3: 148, traffic: 10847, pages: 109, avgPos: 16.5, ctr: 3.0 },
-      { month: "Sep 2025", keywords: 9823, top10: 834, top3: 178, traffic: 11923, pages: 118, avgPos: 15.6, ctr: 3.1 },
-      { month: "Oct 2025", keywords: 11234, top10: 956, top3: 209, traffic: 13012, pages: 126, avgPos: 14.8, ctr: 3.2 },
-      { month: "Nov 2025", keywords: 12718, top10: 1067, top3: 237, traffic: 12461, pages: 135, avgPos: 14.1, ctr: 2.9 },
-      { month: "Dec 2025", keywords: 14218, top10: 1160, top3: 268, traffic: 14318, pages: 142, avgPos: 13.5, ctr: 3.1 },
+      { month: "Jan 2025", keywords: 4823, top10: 412, top3: 67, traffic: 18234, pages: 189, avgPos: 22.4, ctr: 2.3 },
+      { month: "Feb 2025", keywords: 5367, top10: 467, top3: 78, traffic: 19478, pages: 204, avgPos: 21.2, ctr: 2.4 },
+      { month: "Mar 2025", keywords: 6123, top10: 534, top3: 92, traffic: 21234, pages: 221, avgPos: 19.8, ctr: 2.5 },
+      { month: "Apr 2025", keywords: 7189, top10: 623, top3: 112, traffic: 23567, pages: 238, avgPos: 18.4, ctr: 2.7 },
+      { month: "May 2025", keywords: 8412, top10: 724, top3: 134, traffic: 25890, pages: 254, avgPos: 17.2, ctr: 2.8 },
+      { month: "Jun 2025", keywords: 9834, top10: 842, top3: 159, traffic: 28123, pages: 271, avgPos: 16.1, ctr: 2.9 },
+      { month: "Jul 2025", keywords: 11423, top10: 967, top3: 187, traffic: 30456, pages: 289, avgPos: 15.2, ctr: 3.0 },
+      { month: "Aug 2025", keywords: 13012, top10: 1098, top3: 218, traffic: 32789, pages: 306, avgPos: 14.3, ctr: 3.1 },
+      { month: "Sep 2025", keywords: 14678, top10: 1234, top3: 251, traffic: 34567, pages: 323, avgPos: 13.6, ctr: 3.2 },
+      { month: "Oct 2025", keywords: 16234, top10: 1378, top3: 287, traffic: 36123, pages: 341, avgPos: 12.9, ctr: 3.3 },
+      { month: "Nov 2025", keywords: 17812, top10: 1512, top3: 318, traffic: 34234, pages: 358, avgPos: 12.3, ctr: 3.1 },
+      { month: "Dec 2025", keywords: 19423, top10: 1645, top3: 348, traffic: 37812, pages: 378, avgPos: 11.8, ctr: 3.3 },
     ],
   },
   paidAds: {

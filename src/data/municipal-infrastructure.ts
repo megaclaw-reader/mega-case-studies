@@ -21,7 +21,7 @@ export const municipalInfrastructure: CaseStudyData = {
   challenges: [
     {
       title: "Existing Web Presence But No Digital Lead Generation",
-      description: "The company had a product catalog website generating roughly 1,200 monthly organic sessions — mostly from branded searches and a handful of product-specific terms. Municipal procurement officers and civil engineers increasingly research products and request quotes online before engaging vendors, but the company had no paid advertising strategy, no conversion-focused content, and no lead capture beyond a generic 'Contact Us' form buried three clicks deep. Despite ranking for 339 keywords, only 48 were in the top 10, and almost none were high-intent procurement terms. Competitors with aggressive digital presences were capturing early-stage research traffic and building relationships with specifying engineers long before projects went to bid.",
+      description: "The company had a substantial product catalog website — 87 indexed pages across 340+ product SKUs generating roughly 6,200 monthly organic sessions, with 1,823 keywords ranked. Municipal procurement officers and civil engineers increasingly research products and request quotes online before engaging vendors, but the company had no paid advertising strategy, no conversion-focused content, and no lead capture beyond a generic 'Contact Us' form buried three clicks deep. Despite the site's scale, only 167 keywords were in the top 10, and almost none were high-intent procurement terms. The traffic they did attract was largely informational — not converting into RFQs. Competitors with aggressive digital presences were capturing early-stage research traffic and building relationships with specifying engineers long before projects went to bid.",
     },
     {
       title: "Extremely High Customer Acquisition Cost With No Visibility Into Pipeline",
@@ -78,20 +78,20 @@ export const municipalInfrastructure: CaseStudyData = {
   ],
   seo: {
     summary: [
-      { label: "Organic Sessions (Mo 8)", value: "5,234/mo", growth: "+312%", from: "from 1,271" },
-      { label: "Keywords Ranked", value: "2,489", growth: "+634%", from: "from 339" },
-      { label: "Top 3 Rankings", value: "67", growth: "+494%", from: "from 11" },
-      { label: "Organic Leads (Est.)", value: "74", growth: "+348%", from: "from ~16 over 8 months" },
+      { label: "Organic Sessions (Mo 8)", value: "15,234/mo", growth: "+144%", from: "from 6,234" },
+      { label: "Keywords Ranked", value: "5,812", growth: "+219%", from: "from 1,823" },
+      { label: "Top 3 Rankings", value: "112", growth: "+300%", from: "from 28" },
+      { label: "Total Indexed Pages", value: "178", growth: "+105%", from: "from 87" },
     ],
     monthly: [
-      { month: "Jul '25", keywords: 339, top10: 48, top3: 11, traffic: 1271, pages: 18, avgPos: 32.4, ctr: 1.6 },
-      { month: "Aug '25", keywords: 467, top10: 62, top3: 15, traffic: 1534, pages: 23, avgPos: 30.1, ctr: 1.7 },
-      { month: "Sep '25", keywords: 623, top10: 79, top3: 20, traffic: 1923, pages: 28, avgPos: 27.8, ctr: 1.9 },
-      { month: "Oct '25", keywords: 834, top10: 98, top3: 27, traffic: 2456, pages: 32, avgPos: 25.4, ctr: 2.1 },
-      { month: "Nov '25", keywords: 1089, top10: 119, top3: 34, traffic: 3012, pages: 36, avgPos: 23.1, ctr: 2.3 },
-      { month: "Dec '25", keywords: 1423, top10: 143, top3: 42, traffic: 3623, pages: 39, avgPos: 21.2, ctr: 2.4 },
-      { month: "Jan '26", keywords: 1912, top10: 167, top3: 54, traffic: 4389, pages: 42, avgPos: 19.4, ctr: 2.6 },
-      { month: "Feb '26", keywords: 2489, top10: 198, top3: 67, traffic: 5234, pages: 46, avgPos: 17.8, ctr: 2.8 },
+      { month: "Jul '25", keywords: 1823, top10: 167, top3: 28, traffic: 6234, pages: 87, avgPos: 26.3, ctr: 1.9 },
+      { month: "Aug '25", keywords: 2134, top10: 198, top3: 34, traffic: 7012, pages: 98, avgPos: 24.7, ctr: 2.0 },
+      { month: "Sep '25", keywords: 2567, top10: 234, top3: 42, traffic: 8123, pages: 109, avgPos: 22.8, ctr: 2.2 },
+      { month: "Oct '25", keywords: 3089, top10: 278, top3: 53, traffic: 9456, pages: 121, avgPos: 21.1, ctr: 2.3 },
+      { month: "Nov '25", keywords: 3678, top10: 328, top3: 65, traffic: 10812, pages: 134, avgPos: 19.4, ctr: 2.5 },
+      { month: "Dec '25", keywords: 4312, top10: 387, top3: 79, traffic: 12234, pages: 148, avgPos: 17.9, ctr: 2.6 },
+      { month: "Jan '26", keywords: 5023, top10: 452, top3: 94, traffic: 13678, pages: 163, avgPos: 16.5, ctr: 2.8 },
+      { month: "Feb '26", keywords: 5812, top10: 523, top3: 112, traffic: 15234, pages: 178, avgPos: 15.2, ctr: 2.9 },
     ],
   },
   paidAds: {
@@ -125,7 +125,7 @@ export const municipalInfrastructure: CaseStudyData = {
     { label: "CAC Reduction", value: "45%", growth: "$5,169 → $2,847" },
     { label: "Qualified RFQs", value: "121", growth: "3.4x growth" },
     { label: "Blended ROAS", value: "4.02x", growth: "" },
-    { label: "Organic Traffic", value: "5,234/mo", growth: "+312%" },
-    { label: "Keywords Ranked", value: "2,489", growth: "+634%" },
+    { label: "Organic Traffic", value: "15,234/mo", growth: "+144%" },
+    { label: "Keywords Ranked", value: "5,812", growth: "+219%" },
   ],
 };
