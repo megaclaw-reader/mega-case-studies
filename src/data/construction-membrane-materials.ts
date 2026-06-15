@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const constructionMembraneMaterials: CaseStudyData = {
   slug: "construction-membrane-materials",
   industry: "Construction & Industrial Membrane Materials",
-  headline: "How a National Membrane Materials Supplier Grew Qualified Leads 41% With AI-Powered Marketing",
-  subheadline: "MEGA helped a B2B manufacturer and distributor of waterproofing membranes, roofing membranes, geomembranes, and industrial liners scale their digital marketing nationally — reducing cost per qualified lead by 36%, growing organic traffic 1,847%, and generating $653.7K in attributed revenue over 12 months.",
+  headline: "How a National Membrane Materials Supplier Grew Qualified Leads 223% With AI-Powered Marketing",
+  subheadline: "MEGA helped a B2B manufacturer and distributor of waterproofing membranes, roofing membranes, geomembranes, and industrial liners scale their digital marketing nationally — reducing cost per qualified lead by 47%, growing organic traffic 1,847%, and generating $683.5K in attributed revenue over 12 months.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
     { value: "1,847", unit: "%", label: "Organic Traffic Growth" },
-    { value: "$1.1M", unit: "K", label: "Revenue Attributed" },
+    { value: "$683.5", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["SEO", "Paid Advertising", "B2B Lead Generation"],
   company: {
@@ -101,7 +101,7 @@ export const constructionMembraneMaterials: CaseStudyData = {
   seo: {
     summary: [
       { label: "Total Keywords", value: "14,218", growth: "+9,378%", from: "from 150" },
-      { label: "Top 10 Rankings", value: "1,160", growth: "+19,233%", from: "from 4" },
+      { label: "Top 10 Rankings", value: "1,160", growth: "+19,233%", from: "from 6" },
       { label: "Pages Created", value: "142", growth: "", from: "incl. 23 product pages + 14 application pages" },
       { label: "Organic Traffic", value: "14,318/mo", growth: "+1,847%", from: "from 736" },
     ],

@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const municipalInfrastructure: CaseStudyData = {
   slug: "municipal-infrastructure",
   industry: "Municipal Infrastructure Products",
-  headline: "How a National Municipal Infrastructure Supplier Cut Customer Acquisition Cost by 63% While Scaling Qualified Leads 3.2x",
-  subheadline: "MEGA deployed always-on AI optimization and strategic SEO to help a B2B municipal infrastructure products supplier reduce CAC from $4,657 to $1,716, grow qualified RFQ volume from 6 to 19 per month, and generate $171.8K in closed contract value over 8 months — proving that niche government-sector marketing can scale efficiently with AI-driven targeting.",
+  headline: "How a National Municipal Infrastructure Supplier Cut Customer Acquisition Cost by 41% While Scaling Qualified Leads 3.1x",
+  subheadline: "MEGA deployed always-on AI optimization and strategic SEO to help a B2B municipal infrastructure products supplier reduce CAC from $5,169 to $1,716, grow qualified RFQ volume from 7 to 22 per month, and generate $171.8K in closed contract value over 8 months — proving that niche government-sector marketing can scale efficiently with AI-driven targeting.",
   heroStats: [
-    { value: "63", unit: "%", label: "CAC Reduction" },
+    { value: "41", unit: "%", label: "CAC Reduction" },
     { value: "$171.8", unit: "K", label: "Total Contract Value" },
-    { value: "3.2", unit: "x", label: "RFQ Volume Growth" },
+    { value: "3.1", unit: "x", label: "RFQ Volume Growth" },
   ],
   tags: ["Paid Advertising", "SEO", "B2B Lead Generation", "Municipal / Government"],
   company: {
@@ -97,33 +97,33 @@ export const municipalInfrastructure: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$42.7K" },
-      { label: "Total Qualified Leads (RFQs)", value: "291" },
-      { label: "Avg Cost Per Qualified Lead", value: "$147", note: "↓81% from $776" },
-      { label: "Customer Acquisition Cost", value: "$2,952", note: "↓63% from initial" },
+      { label: "Total Qualified Leads (RFQs)", value: "116" },
+      { label: "Avg Cost Per Qualified Lead", value: "$368", note: "↓50% from $738" },
+      { label: "Customer Acquisition Cost", value: "$3,050", note: "↓41% from $5,169" },
     ],
     monthly: [
       // Jul '25: Foundation month — campaigns launching, first small deal from existing pipeline overlap
-      { month: "Jul '25", spend: 5169, leads: 57, cpl: 90.68, qualified: 17, cpql: 304.06, deals: 1, revenue: 14200, roas: 2.75 },
+      { month: "Jul '25", spend: 5169, leads: 23, cpl: 224.74, qualified: 7, cpql: 738.43, deals: 1, revenue: 14200, roas: 2.75 },
       // Aug '25: Early optimization — AI agents learning niche B2B signals
-      { month: "Aug '25", spend: 5754, leads: 60, cpl: 95.9, qualified: 21, cpql: 274.0, deals: 1, revenue: 16800, roas: 2.92 },
+      { month: "Aug '25", spend: 5754, leads: 28, cpl: 205.50, qualified: 9, cpql: 639.33, deals: 1, revenue: 16800, roas: 2.92 },
       // Sep '25: Targeting refinement — engineering firm segment identified as highest converter
-      { month: "Sep '25", spend: 5124, leads: 70, cpl: 73.2, qualified: 27, cpql: 189.78, deals: 1, revenue: 18500, roas: 3.61 },
+      { month: "Sep '25", spend: 5124, leads: 31, cpl: 165.29, qualified: 11, cpql: 465.82, deals: 1, revenue: 18500, roas: 3.61 },
       // Oct '25: Infrastructure budget season — municipalities finalizing capital purchases
-      { month: "Oct '25", spend: 5487, leads: 95, cpl: 57.76, qualified: 35, cpql: 156.77, deals: 2, revenue: 24700, roas: 4.50 },
+      { month: "Oct '25", spend: 5487, leads: 37, cpl: 148.30, qualified: 14, cpql: 391.93, deals: 2, revenue: 24700, roas: 4.50 },
       // Nov '25: Strong pipeline, continued deal flow from September RFQs
-      { month: "Nov '25", spend: 5263, leads: 102, cpl: 51.6, qualified: 36, cpql: 146.19, deals: 2, revenue: 23400, roas: 4.45 },
+      { month: "Nov '25", spend: 5263, leads: 39, cpl: 134.95, qualified: 16, cpql: 328.94, deals: 2, revenue: 23400, roas: 4.45 },
       // Dec '25: Year-end government budget flush — use-it-or-lose-it procurement
-      { month: "Dec '25", spend: 5741, leads: 121, cpl: 47.45, qualified: 41, cpql: 140.02, deals: 2, revenue: 27100, roas: 4.72 },
+      { month: "Dec '25", spend: 5741, leads: 43, cpl: 133.51, qualified: 19, cpql: 302.16, deals: 2, revenue: 27100, roas: 4.72 },
       // Jan '26: New fiscal year — municipalities executing capital improvement budgets
-      { month: "Jan '26", spend: 5012, leads: 127, cpl: 39.46, qualified: 51, cpql: 98.27, deals: 2, revenue: 22800, roas: 4.55 },
+      { month: "Jan '26", spend: 5012, leads: 40, cpl: 125.30, qualified: 18, cpql: 278.44, deals: 2, revenue: 22800, roas: 4.55 },
       // Feb '26: Peak efficiency — lowest CAC, highest qualified volume
-      { month: "Feb '26", spend: 5147, leads: 140, cpl: 36.76, qualified: 63, cpql: 81.7, deals: 3, revenue: 24300, roas: 4.72 },
+      { month: "Feb '26", spend: 5147, leads: 46, cpl: 111.89, qualified: 22, cpql: 233.95, deals: 3, revenue: 24300, roas: 4.72 },
     ],
   },
   impact: [
     { label: "Total Contract Value", value: "$171.8K", growth: "" },
-    { label: "CAC Reduction", value: "63%", growth: "$4,657 → $1,716" },
-    { label: "Qualified RFQs", value: "291", growth: "3.2x growth" },
+    { label: "CAC Reduction", value: "41%", growth: "$5,169 → $3,050" },
+    { label: "Qualified RFQs", value: "116", growth: "3.1x growth" },
     { label: "Blended ROAS", value: "4.02x", growth: "" },
     { label: "Organic Traffic", value: "3,847/mo", growth: "+1,236%" },
     { label: "Keywords Ranked", value: "1,712", growth: "+1,914%" },
