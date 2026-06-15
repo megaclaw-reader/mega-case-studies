@@ -1,0 +1,140 @@
+import { CaseStudyData } from "./types";
+
+export const therapyArizona: CaseStudyData = {
+  slug: "therapy-arizona",
+  industry: "Therapy",
+  headline: "How an Arizona Therapy Practice Generated $145K in Revenue Over 6 Months With AI-Powered SEO and Paid Advertising",
+  subheadline: "MEGA helped a mental health counseling practice in Arizona scale new client acquisition while reducing cost per qualified lead from $236 to $139 — closing 78 new therapy clients and achieving a 4.01x blended ROAS through always-on AI optimization and organic growth.",
+  heroStats: [
+    { value: "6", unit: "months", label: "Partnership Duration" },
+    { value: "$145.2K", unit: "", label: "Revenue Attributed" },
+    { value: "39", unit: "%", label: "CPQL Reduction" },
+  ],
+  tags: ["SEO", "Paid Advertising", "Lead Generation", "Local Advertising"],
+  company: {
+    industry: "Mental Health Therapy — Counseling & Psychotherapy",
+    employees: "14",
+    revenue: "$1.2M",
+    location: "Scottsdale, AZ (Serving Greater Phoenix Metro)",
+    description: "A licensed mental health therapy practice serving the greater Phoenix metropolitan area from offices in Scottsdale and Tempe, Arizona. The practice offered individual therapy, couples counseling, family therapy, anxiety and depression treatment, trauma-informed care (EMDR), and adolescent behavioral health services. With a team of 8 licensed therapists (LPCs, LMFTs, and PsyDs), the practice had grown primarily through physician referrals and Psychology Today listings but was hitting a ceiling. Average session fee ranged from $150–$200 depending on service type, with most new clients completing 8–14 sessions over 3–6 months. Despite strong clinical outcomes and a 4.8-star rating across 67 Google reviews, the practice struggled to fill therapist schedules consistently — particularly for higher-value specialties like EMDR and couples counseling. Their digital presence was minimal: a basic website with no SEO strategy, sporadic paid campaigns with broad targeting, and no system for distinguishing high-value prospective clients from general inquiries. They needed a comprehensive digital marketing strategy that could systematically drive qualified new client inquiries across their specialty areas while building organic visibility for therapy-related searches throughout the Arizona market.",
+  },
+  challenges: [
+    {
+      title: "No Differentiation Between High-Value Specialties and General Inquiries",
+      description: "The practice offered 6 distinct service lines — individual therapy, couples counseling, family therapy, trauma/EMDR, adolescent services, and anxiety/depression treatment — but all marketing funneled into a single contact form with no qualifying infrastructure. An inquiry about a $175/session couples counseling engagement (averaging 12 sessions, $2,100 lifetime value) was handled identically to someone price-shopping for a single anxiety consultation. Without segmentation, the practice couldn't prioritize high-value specialties or allocate marketing spend toward the services that generated the most revenue per client. The blended cost per qualified lead sat at $236, making it impossible to scale profitably.",
+    },
+    {
+      title: "Minimal Organic Visibility in a Competitive Arizona Therapy Market",
+      description: "Arizona's therapy market is intensely competitive, with over 4,800 licensed therapists in Maricopa County alone and heavy competition from online therapy platforms like BetterHelp and Talkspace. The practice ranked for only 82 keywords, nearly all branded terms and long-tail variations with negligible search volume. Critical high-intent keywords — 'therapist in Scottsdale,' 'couples counseling Phoenix,' 'anxiety therapy Arizona' — were dominated by directories and large group practices. Monthly organic traffic sat at approximately 310 visitors, contributing fewer than 3 new client inquiries per month. Without a systematic SEO strategy, the practice was entirely dependent on paid advertising and referrals, leaving significant demand untapped.",
+    },
+    {
+      title: "Seasonal Mental Health Demand Patterns Going Uncaptured",
+      description: "Mental health therapy demand in Arizona follows distinct seasonal patterns. January sees a 25–35% surge in new client inquiries as New Year's resolutions and post-holiday stress drive people to seek help. The spring months bring relationship-focused demand as couples reassess before summer. Arizona's extreme summer heat (June–September) paradoxically increases therapy demand as isolation, seasonal depression, and family tension spike while people stay indoors. Back-to-school season drives adolescent referrals. Without a campaign strategy adapted to these Arizona-specific patterns, the practice was spending the same amount every month — missing peak demand windows and overspending during natural lulls.",
+    },
+  ],
+  strategy: [
+    {
+      phase: 1,
+      months: "0–30 days",
+      title: "Audit, Infrastructure & Baseline Data Collection",
+      items: [
+        "Completed comprehensive audit of the practice's digital presence — website structure, existing content, competitor landscape, local citation accuracy, and current paid campaign performance across the Phoenix metro therapy market",
+        "Implemented call tracking with recording and AI-powered call analysis — tagging each inquiry by service type (individual, couples, family, trauma/EMDR, adolescent), insurance status, urgency level, and lead quality score",
+        "Redesigned landing pages with qualifying intake forms capturing service interest, preferred therapy modality, insurance provider, location preference (Scottsdale vs. Tempe office), and scheduling availability — creating an ICP data layer on every form submission",
+        "Deployed always-on AI optimization agents directly within ad accounts — monitoring performance signals, adjusting bids, reallocating budget, and refining audience targeting in real time rather than waiting for weekly agency review cycles",
+        "Launched initial paid campaigns at $5,200/month with segmented targeting across therapy service types and Phoenix metro neighborhoods to establish baseline conversion data",
+        "Published 8 foundational SEO content pieces targeting high-intent Arizona therapy keywords — 'therapist in Scottsdale,' 'couples counseling Phoenix AZ,' 'anxiety therapy near me Arizona,' and condition-specific content addressing depression, PTSD, and relationship issues",
+        "Built conversion tracking infrastructure connecting ad clicks → landing page behavior → phone calls → booked consultations → attending first session for full-funnel attribution",
+        "Created service-specific landing pages for each therapy specialty — individual, couples, family, EMDR/trauma, and adolescent — each with tailored messaging, therapist bios relevant to that specialty, and qualification flows",
+      ],
+    },
+    {
+      phase: 2,
+      months: "30–60 days",
+      title: "ICP Refinement & Content Scaling",
+      items: [
+        "Analyzed 30 days of call recordings — identified that 64% of qualified leads were women aged 28–45, couples counseling inquiries had 2.4x higher conversion-to-booking rate than general individual therapy, and EMDR/trauma inquiries had the highest average session count (14 sessions)",
+        "Landing page data revealed: leads selecting 'couples counseling' or 'trauma/EMDR' converted to first-session bookings at 3.1x the rate of general 'individual therapy' selections — shifted primary ad spend toward these high-LTV specialties",
+        "Published 12 additional SEO articles targeting mid-funnel and condition-specific keywords — 'signs you need couples counseling,' 'EMDR therapy for PTSD Arizona,' 'teen therapy Scottsdale,' and neighborhood-specific service area pages for Tempe, Mesa, Chandler, and Paradise Valley",
+        "AI agents identified underperforming ad creatives within hours and automatically shifted budget to top performers — compounding daily optimizations rather than waiting for monthly manual agency reviews",
+        "Restructured paid campaigns based on ICP findings — increased bids on zip codes with highest qualified lead rates (North Scottsdale, Arcadia, Paradise Valley), reduced spend on areas producing price-shoppers and insurance-only inquiries for out-of-network specialties",
+        "Launched 12 AI-generated ad variations testing different emotional hooks, service-specific angles, and urgency messaging to accelerate creative learning across therapy specialties",
+        "Scaled monthly budget to $5,400 as early ICP data validated which audience segments and specialties justified increased spend",
+      ],
+    },
+    {
+      phase: 3,
+      months: "60–90 days",
+      title: "Specialty Scaling & Seasonal Preparation",
+      items: [
+        "Reviewed 60 days of accumulated data — phone call analysis revealed that inquiries mentioning 'relationship issues' or 'communication problems' had 41% higher booking rate than generic anxiety inquiries, informing ad copy and landing page optimization",
+        "SEO content reaching critical mass with 38 published pages — early rankings appearing for 'couples counseling Scottsdale,' 'anxiety therapist Phoenix,' and 'EMDR therapy Arizona' driving measurable organic inquiry growth",
+        "Identified income-level and demographic correlations: households with income above $85K in Scottsdale, Paradise Valley, and North Phoenix produced 78% of qualified leads for self-pay therapy specialties — concentrated premium service campaign budget accordingly",
+        "With spring couples counseling demand approaching and ICP targeting validated, confidently increased monthly budget to $5,800 to capture seasonal relationship-focused inquiry surge",
+        "When seasonal demand shifted toward couples and relationship therapy in spring, AI agents restructured campaign allocation within hours — reallocating 30% of budget to high-intent relationship keywords",
+        "Implemented retargeting sequences segmented by specialty interest with tailored follow-up messaging — someone who viewed the EMDR page received different retargeting than a couples counseling visitor",
+        "Published 10 more SEO articles including therapist Q&A content, 'what to expect in your first therapy session' guides, and Arizona-specific mental health resource pages that earned backlinks from local wellness directories",
+      ],
+    },
+    {
+      phase: 4,
+      months: "90+ days",
+      title: "Peak Performance & Compound Growth",
+      items: [
+        "Continued budget scaling from $6,200 through $7,100 as compound ICP refinements drove increasing efficiency — each dollar spent more effectively due to accumulated audience and keyword intelligence",
+        "AI agents analyzed thousands of performance signals daily, identifying micro-trends invisible to human reviewers and reallocating budget to top-performing audiences and keywords in real time",
+        "SEO content portfolio expanded to 58+ published pages with organic traffic growing past 2,800 monthly visitors — generating 18+ organic inquiries per month at zero marginal acquisition cost",
+        "Summer heat messaging deployed — 'Don't let isolation become your default' and seasonal wellness content resonated strongly as Arizona temperatures climbed and indoor isolation increased demand for mental health support",
+        "Landing page A/B testing refined for each specialty — different therapist photos, client outcome statistics, and CTAs optimized for self-pay vs. insurance-accepted services",
+        "By month 6, CPQL dropped to $131 even as spend reached $7,100 — proving the continuous AI optimization loop sustained efficiency at scale while the growing organic channel provided compounding returns",
+        "Continuous AI optimization compounded daily improvements — bid adjustments, audience refinements, and budget reallocations happening in real time rather than the typical agency cycle of weekly or biweekly reviews",
+      ],
+    },
+  ],
+  seo: {
+    summary: [
+      { label: "Total Keywords", value: "1,847", growth: "+2,153%", from: "from 82" },
+      { label: "Top 10 Rankings", value: "47", growth: "+840%", from: "from 5" },
+      { label: "Pages Created", value: "58", growth: "", from: "incl. 12 service-area pages" },
+      { label: "Organic Traffic", value: "2,847/mo", growth: "+813%", from: "from 312" },
+    ],
+    monthly: [
+      { month: "Jan '26", keywords: 82, top10: 5, top3: 1, traffic: 312, pages: 8, avgPos: 54.7, ctr: 0.7 },
+      { month: "Feb '26", keywords: 187, top10: 11, top3: 3, traffic: 548, pages: 12, avgPos: 49.3, ctr: 0.9 },
+      { month: "Mar '26", keywords: 418, top10: 19, top3: 6, traffic: 1024, pages: 10, avgPos: 44.1, ctr: 1.1 },
+      { month: "Apr '26", keywords: 747, top10: 28, top3: 10, traffic: 1587, pages: 10, avgPos: 39.8, ctr: 1.4 },
+      { month: "May '26", keywords: 1212, top10: 37, top3: 15, traffic: 2184, pages: 9, avgPos: 36.2, ctr: 1.7 },
+      { month: "Jun '26", keywords: 1847, top10: 47, top3: 20, traffic: 2847, pages: 9, avgPos: 32.4, ctr: 2.1 },
+    ],
+  },
+  paidAds: {
+    summary: [
+      { label: "Total Ad Spend", value: "$36.2K" },
+      { label: "Qualified Leads", value: "239" },
+      { label: "Avg Cost Per Qualified Lead", value: "$152", note: "↓36% from $236" },
+      { label: "New Clients", value: "78", note: "avg client value $1,862" },
+    ],
+    columnLabels: {
+      leads: "Total Leads",
+      cpl: "Cost Per Lead",
+      qualified: "Qualified Leads",
+      cpql: "Cost Per Qualified Lead",
+      deals: "New Clients",
+      costPerDeal: "Cost/Client",
+    },
+    monthly: [
+      { month: "Jan '26", spend: 5200, leads: 94, cpl: 55.32, qualified: 22, cpql: 236.36, deals: 8, revenue: 14776, roas: 2.84 },
+      { month: "Feb '26", spend: 5400, leads: 103, cpl: 52.43, qualified: 30, cpql: 180.00, deals: 10, revenue: 18230, roas: 3.38 },
+      { month: "Mar '26", spend: 5800, leads: 124, cpl: 46.77, qualified: 38, cpql: 152.63, deals: 12, revenue: 22176, roas: 3.82 },
+      { month: "Apr '26", spend: 6200, leads: 148, cpl: 41.89, qualified: 46, cpql: 134.78, deals: 14, revenue: 26222, roas: 4.23 },
+      { month: "May '26", spend: 6500, leads: 167, cpl: 38.92, qualified: 52, cpql: 125.00, deals: 16, revenue: 30256, roas: 4.65 },
+      { month: "Jun '26", spend: 7100, leads: 189, cpl: 37.57, qualified: 51, cpql: 139.22, deals: 18, revenue: 33552, roas: 4.73 },
+    ],
+  },
+  impact: [
+    { label: "Total Revenue", value: "$145.2K", growth: "+189%" },
+    { label: "New Clients", value: "78", growth: "+144%" },
+    { label: "Cost Per Qualified Lead", value: "$139", growth: "↓41%" },
+    { label: "Blended ROAS", value: "4.01x", growth: "" },
+  ],
+};

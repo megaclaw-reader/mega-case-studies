@@ -182,6 +182,10 @@
         "clinic": [
           300,
           1500
+        ],
+        "therapy": [
+          1200,
+          3000
         ]
       }
     },
@@ -805,7 +809,9 @@
     "Gym / Fitness": "lead_gen_services",
     "Clinic": "lead_gen_services",
     "College": "lead_gen_professional",
-    "College": "lead_gen_professional"
+    "Therapy": "lead_gen_services",
+    "Mental Health Therapy": "lead_gen_services",
+    "Counseling Practice": "lead_gen_services"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",
