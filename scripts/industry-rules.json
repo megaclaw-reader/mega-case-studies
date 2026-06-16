@@ -811,7 +811,8 @@
     "College": "lead_gen_professional",
     "Therapy": "lead_gen_services",
     "Mental Health Therapy": "lead_gen_services",
-    "Counseling Practice": "lead_gen_services"
+    "Counseling Practice": "lead_gen_services",
+    "Healthcare Software": "saas"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",

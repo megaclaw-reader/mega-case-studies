@@ -1,0 +1,132 @@
+import { CaseStudyData } from "./types";
+
+export const healthcareSoftwareNational: CaseStudyData = {
+  slug: "healthcare-software-national",
+  industry: "Healthcare Software",
+  headline: "How a B2B Healthcare Software Company Cut Cost Per Qualified Lead by 46% and Closed 10 Enterprise Deals in 6 Months — Generating $251K in New ACV",
+  subheadline: "MEGA partnered with a US-based healthcare SaaS company to overhaul their paid advertising strategy and build an organic acquisition engine from scratch — reducing Cost Per Qualified Lead from $1,281 to $697, growing organic traffic 927% to 8,341 monthly visits, and closing 10 new annual contracts worth $251,500 in combined ACV across a 6-month engagement.",
+  heroStats: [
+    { value: "$251", unit: "K", label: "New ACV Generated" },
+    { value: "46", unit: "%", label: "CPQL Reduction" },
+    { value: "927", unit: "%", label: "Organic Traffic Growth" },
+  ],
+  tags: ["SEO Strategy", "Paid Advertising", "B2B SaaS", "Healthcare Technology"],
+  company: {
+    industry: "Healthcare Software",
+    employees: "34",
+    revenue: "$1.8M ARR",
+    location: "Austin, TX (National Reach)",
+    description: "A growing B2B SaaS company providing cloud-based practice management and patient engagement software to healthcare providers across the United States. Their platform combines appointment scheduling, billing automation, patient portal access, and telehealth capabilities into a single integrated solution targeting small-to-midsize medical practices, dental offices, and specialty clinics. Annual contract values ranged from $18,000 to $42,000 depending on practice size and module selection. Despite strong customer retention and high Net Promoter Scores, the company relied heavily on conference networking and referrals for new business — with minimal digital marketing infrastructure and no cohesive SEO or paid advertising strategy.",
+  },
+  challenges: [
+    {
+      title: "Weak Organic Presence in a Content-Saturated Market",
+      description: "The company ranked for only 156 keywords, predominantly branded terms and a handful of product feature pages. Their blog consisted of 6 outdated posts with no SEO strategy, generating just 812 organic visits per month. Established competitors with dedicated content teams dominated search results for high-intent queries like 'practice management software,' 'EHR for small practices,' and 'patient engagement platform' — making organic discovery virtually nonexistent for prospective buyers.",
+    },
+    {
+      title: "High Cost Per Qualified Lead With Inefficient Targeting",
+      description: "The existing paid advertising campaigns were generating leads at roughly $285 per lead, but qualification rates hovered around 22% — meaning most inquiries came from individual practitioners looking for free tools, students researching the market, or vendors seeking partnerships rather than actual purchase-ready decision-makers. Cost Per Qualified Lead sat above $1,280, well above the company's target of $850 based on their average contract value and customer lifetime assumptions.",
+    },
+    {
+      title: "Long Sales Cycles With Poor Attribution Visibility",
+      description: "Healthcare software purchases involve multiple stakeholders — practice managers, physicians, IT administrators, and sometimes compliance officers — creating sales cycles averaging 4-6 months. The company lacked proper attribution tracking between marketing touchpoints and closed deals, making it impossible to identify which campaigns, keywords, or content assets actually influenced purchasing decisions. Budget allocation was based on intuition rather than data.",
+    },
+  ],
+  strategy: [
+    {
+      phase: 1,
+      months: "0–30 days",
+      title: "Foundation & Infrastructure",
+      items: [
+        "Comprehensive technical SEO audit addressing site speed issues, mobile rendering problems, and broken internal links across the product documentation site",
+        "Full analytics and attribution setup with multi-touch tracking from first click through demo request, trial activation, and contract signature — closing the attribution gap that had made ROI measurement impossible",
+        "Keyword research across practice management, EHR, patient engagement, telehealth, and medical billing verticals — identifying 340+ unaddressed topics with commercial intent",
+        "Published 14 foundational content pieces: software comparison guides, compliance checklists (HIPAA, HITECH), ROI calculators for practice automation, and implementation planning resources",
+        "Technical schema markup for software product pages, pricing tables, and customer review aggregation",
+        "Paid advertising account restructuring — segmenting audiences by practice type (primary care, dental, specialty), practice size, and decision-maker role (practice manager vs. physician owner)",
+        "Landing page overhaul with role-specific messaging: practice managers see workflow efficiency data, physician owners see revenue impact projections",
+        "Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement — replacing the previous set-it-and-forget-it campaign structure with real-time, 24/7 optimization",
+        "CRM integration enabling full-funnel visibility from ad click through demo booking, trial start, and contract close",
+        "Negative keyword buildout removing searches for free EMR systems, healthcare IT jobs, medical coding certification, and EHR implementation consulting",
+      ],
+    },
+    {
+      phase: 2,
+      months: "30–90 days",
+      title: "Strategic Overhaul & Turning Point",
+      items: [
+        "Content production scaled to 12+ articles monthly targeting mid-funnel comparison queries: 'best practice management software for [specialty],' '[competitor] vs alternatives,' and 'how to switch EHR systems'",
+        "Programmatic landing pages for specialty-specific use cases — dermatology practice management, pediatric scheduling software, orthopedic billing automation",
+        "Topic cluster development around core themes: practice efficiency, patient experience, healthcare compliance, and revenue cycle management",
+        "CRITICAL STRATEGIC SHIFT: AI agents identified that campaigns targeting practice managers by job title outperformed physician-targeted ads by 3.2x on qualification rate — budget was reallocated accordingly within 48 hours, a change that would have taken a traditional agency 2-3 review cycles to identify and implement",
+        "Retargeting campaigns for pricing page visitors, demo request abandoners, and comparison guide readers with role-specific messaging sequences",
+        "Lead scoring model deployed using engagement signals: content downloads, pricing page visits, multiple session returns, and feature comparison interactions",
+        "AI agents analyzed conversion patterns daily, identifying that Tuesday-Thursday demo requests converted to contracts at 2.4x the rate of weekend inquiries — bid schedules adjusted automatically",
+        "Internal linking optimization distributing authority across the growing content library and improving topical relevance for competitive head terms",
+      ],
+    },
+    {
+      phase: 3,
+      months: "90–180 days",
+      title: "Scale & Compounding Growth",
+      items: [
+        "Programmatic page expansion into vertical-specific content: 'practice management for multi-location clinics,' 'telehealth compliance by state,' and specialty-specific workflow guides",
+        "Digital PR and link building through healthcare IT publications, SaaS directories, and industry association partnerships",
+        "Content refresh cycles updating earlier comparison guides with current pricing, new feature releases, and expanded integration compatibility information",
+        "Featured snippet optimization for high-volume definition queries around practice management terminology, HIPAA compliance questions, and EHR selection criteria",
+        "Advanced audience segmentation using custom intent signals — targeting prospects who visited competitor pricing pages, downloaded industry reports, or attended virtual healthcare IT conferences",
+        "Attribution modeling fully operational: budget decisions driven by contract value attribution and projected customer lifetime value by practice segment",
+        "Continuous AI optimization compounded daily improvements — bid adjustments, audience refinements, and budget reallocations happening in real time, capturing opportunities that weekly-review agencies would miss entirely",
+        "Quarterly business review with the client showing clear ROI by channel, content asset performance, and pipeline contribution metrics — the client specifically praised the creative direction and the speed at which campaigns were adapted to market shifts",
+      ],
+    },
+  ],
+  seo: {
+    summary: [
+      { label: "Total Keywords", value: "3,187", growth: "+1,943%", from: "from 156" },
+      { label: "Top 10 Rankings", value: "428", growth: "+2,153%", from: "from 19" },
+      { label: "Pages Created", value: "104", growth: "", from: "incl. 52 programmatic pages" },
+      { label: "Organic Traffic", value: "8,341/mo", growth: "+927%", from: "from 812" },
+    ],
+    monthly: [
+      { month: "Jan '26", keywords: 156, top10: 19, top3: 3, traffic: 812, pages: 8, avgPos: 51.2, ctr: 0.8 },
+      { month: "Feb '26", keywords: 218, top10: 29, top3: 5, traffic: 1043, pages: 22, avgPos: 44.3, ctr: 1.0 },
+      { month: "Mar '26", keywords: 412, top10: 58, top3: 9, traffic: 1689, pages: 39, avgPos: 37.8, ctr: 1.3 },
+      { month: "Apr '26", keywords: 847, top10: 118, top3: 18, traffic: 3217, pages: 58, avgPos: 31.4, ctr: 1.6 },
+      { month: "May '26", keywords: 1634, top10: 231, top3: 37, traffic: 5387, pages: 79, avgPos: 26.7, ctr: 1.9 },
+      { month: "Jun '26", keywords: 3187, top10: 428, top3: 69, traffic: 8341, pages: 104, avgPos: 22.3, ctr: 2.4 },
+    ],
+  },
+  paidAds: {
+    summary: [
+      { label: "Total Ad Spend", value: "$69.5K" },
+      { label: "Qualified Demos Booked", value: "77" },
+      { label: "Avg Cost Per Qualified Lead", value: "$902", note: "↓46% from $1,281" },
+      { label: "Contracts Signed", value: "10" },
+    ],
+    columnLabels: {
+      leads: "Leads",
+      cpl: "Cost/Lead",
+      qualified: "Qualified Demos",
+      cpql: "Cost/Demo",
+      deals: "Contracts Signed",
+      costPerDeal: "Cost/Contract",
+    },
+    monthly: [
+      { month: "Jan '26", spend: 10247, leads: 36, cpl: 284.64, qualified: 8, cpql: 1280.88, deals: 1, revenue: 22400, roas: 2.19 },
+      { month: "Feb '26", spend: 10418, leads: 39, cpl: 267.13, qualified: 9, cpql: 1157.56, deals: 1, revenue: 28600, roas: 2.75 },
+      { month: "Mar '26", spend: 11134, leads: 48, cpl: 231.96, qualified: 11, cpql: 1012.18, deals: 2, revenue: 44800, roas: 4.02 },
+      { month: "Apr '26", spend: 11876, leads: 57, cpl: 208.35, qualified: 14, cpql: 848.29, deals: 2, revenue: 52300, roas: 4.40 },
+      { month: "May '26", spend: 12543, leads: 67, cpl: 187.21, qualified: 16, cpql: 783.94, deals: 2, revenue: 47600, roas: 3.80 },
+      { month: "Jun '26", spend: 13247, leads: 78, cpl: 169.83, qualified: 19, cpql: 697.21, deals: 2, revenue: 55800, roas: 4.21 },
+    ],
+  },
+  impact: [
+    { label: "Total New ACV", value: "$251.5K", growth: "+567%" },
+    { label: "Contracts Signed", value: "10", growth: "" },
+    { label: "Avg Contract Value", value: "$25,150", growth: "" },
+    { label: "Blended ROAS", value: "3.62x", growth: "" },
+    { label: "Organic Traffic", value: "8,341/mo", growth: "+927%" },
+    { label: "Domain Authority", value: "+8 points", growth: "" },
+  ],
+};

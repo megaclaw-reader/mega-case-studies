@@ -139,6 +139,7 @@ CPL_RANGES = {
     "regen_medicine":    (30, 250),
     # SaaS
     "saas":              (30, 500),
+    "healthcare_software": (150, 400),
     # Health & Wellness App — cost per INSTALL (CPI)
     "health_and_wellness_app": (3, 15),
     # Medical Assessment AI App — cost per INSTALL (CPI)
@@ -257,6 +258,7 @@ def _cpl_category(industry, model_key):
         ("regenerative", "regen_medicine"), ("functional medicine", "regen_medicine"),
         ("sports nutrition", "sports_nutrition"), ("supplement", "sports_nutrition"),
         ("sports team", "sports_entertainment"),
+        ("healthcare software", "healthcare_software"),
         ("cbd", "cbd_thc"), ("thc", "cbd_thc"), ("cannabis", "cbd_thc"), ("hemp", "cbd_thc"),
         ("yoga", "gym_fitness"), ("pilates", "gym_fitness"),
         ("self improvement", "education"), ("subscription", "education"),
@@ -400,6 +402,7 @@ DEAL_VALUE_RANGES = {
     "financial_advising": (3000, 10000),
     "venture_capital": (5000, 100000),
     "saas": (2000, 150000),
+    "healthcare_software": (18000, 48000),
     "sustainable_luxury": (150, 400),
 }
 
