@@ -186,6 +186,10 @@
         "therapy": [
           1200,
           3000
+        ],
+        "window_repair": [
+          800,
+          3500
         ]
       }
     },
@@ -812,7 +816,8 @@
     "Therapy": "lead_gen_services",
     "Mental Health Therapy": "lead_gen_services",
     "Counseling Practice": "lead_gen_services",
-    "Healthcare Software": "saas"
+    "Healthcare Software": "saas",
+    "Window Repair": "lead_gen_services"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",
