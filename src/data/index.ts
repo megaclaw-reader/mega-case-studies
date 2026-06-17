@@ -179,6 +179,7 @@ import { hvacNewMexico } from "./hvac-new-mexico";
 import { weddingPhotographyAtlanta } from "./wedding-photography-atlanta";
 import { exteriorBuildingMaterialsAz } from "./exterior-building-materials-az";
 import { peptidesSeo } from "./peptides-seo";
+import { peptideTherapyArizonaSeo } from "./peptide-therapy-arizona-seo";
 import { ecommerceBeverageSeo } from "./ecommerce-beverage-seo";
 import { highTicketEcommerceSeo } from "./high-ticket-ecommerce-seo";
 import { solarPhoenix } from "./solar-phoenix";
@@ -406,6 +407,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "wedding-photography-atlanta": weddingPhotographyAtlanta,
   "exterior-building-materials-az": exteriorBuildingMaterialsAz,
   "peptides-seo": peptidesSeo,
+  "peptide-therapy-arizona-seo": peptideTherapyArizonaSeo,
   "ecommerce-beverage-seo": ecommerceBeverageSeo,
   "high-ticket-ecommerce-seo": highTicketEcommerceSeo,
   "solar-phoenix": solarPhoenix,
