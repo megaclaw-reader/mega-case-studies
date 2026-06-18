@@ -1,0 +1,128 @@
+import { CaseStudyData } from "./types";
+
+export const privateLendingNational: CaseStudyData = {
+  slug: "private-lending-national",
+  industry: "Private Lending",
+  headline: "How a National Private Lending Firm Reduced CPQL by 70% and Funded 24 Loans With AI-Powered Paid Advertising",
+  subheadline: "MEGA helped a US-based private lending company specializing in hard money loans and bridge financing for real estate investors build a high-performance paid advertising program, reducing CPQL from $1,682 to $502 and funding 24 loans over 11 months.",
+  heroStats: [
+    { value: "70", unit: "%", label: "CPQL Reduction" },
+    { value: "24", unit: "loans", label: "Funded Deals" },
+    { value: "$187K", unit: "", label: "Origination Revenue" },
+  ],
+  tags: ["Paid Advertising", "AI-Powered Optimization"],
+  company: {
+    industry: "Real Estate Finance / Private Lending",
+    employees: "14",
+    revenue: "$3.8M",
+    location: "United States (National)",
+    description: "A US-based private lending firm providing hard money loans, bridge financing, and fix-and-flip capital to real estate investors nationwide. Founded by a former commercial banker with deep expertise in real estate collateral valuation, the company had built a portfolio of approximately 180 active loans through referral networks, mortgage broker partnerships, and direct relationships with seasoned investors. Their typical loan ranged from $150K to $750K with origination fees of 1.5 to 3 points and terms of 6 to 18 months. Despite a strong reputation among experienced investors in their core markets, the firm had no digital advertising presence — relying entirely on word-of-mouth, broker referrals, and industry conference networking. As institutional capital and fintech lending platforms began competing aggressively for the same borrower pool with slick digital campaigns, the firm recognized the need to build a scalable digital acquisition channel to reach newer real estate investors actively searching for fast, flexible financing online.",
+  },
+  challenges: [
+    {
+      title: "Zero Digital Lead Generation Despite Strong Market Position",
+      description: "The firm had never run paid advertising campaigns of any kind. Every borrower came through broker referrals, repeat business, or conference introductions — channels that were effective but plateauing. With fintech lending platforms spending heavily on digital acquisition targeting real estate investors, the firm was invisible to the growing segment of newer investors who search online first when seeking hard money or bridge financing. There was no landing page infrastructure, no conversion tracking, no ad account history, and no baseline data to inform campaign strategy. Building a paid acquisition channel meant starting from absolute zero in a competitive keyword landscape where institutional lenders and aggregator platforms dominated.",
+    },
+    {
+      title: "Complex Qualification Process Made Lead Quality Critical",
+      description: "Private lending deals require extensive due diligence — property valuation, borrower experience assessment, exit strategy evaluation, and deal structure analysis. A single unqualified lead could consume hours of an underwriter's time before being declined. The cost of pursuing bad leads was not just the ad spend but the operational burden on a lean underwriting team of three. Any advertising program needed to generate leads that were genuinely seeking private capital for real estate investment — not consumers confused about personal loans, homebuyers looking for conventional mortgages, or tire-kickers exploring theoretical scenarios. Lead quality was non-negotiable from day one.",
+    },
+    {
+      title: "No Attribution or Pipeline Tracking From Marketing Sources",
+      description: "Incoming loan inquiries arrived through a general contact form and a single phone number with no source tracking. The firm could not distinguish a broker referral from a website visitor from a conference connection. Pre-qualification requests for $600K bridge loans received the same intake treatment as $100K fix-and-flip inquiries. There was no system to track an inquiry from first touch through application, underwriting, and funding — making it impossible to measure which channels or campaigns produced actual funded loans versus dead-end inquiries.",
+    },
+  ],
+  strategy: [
+    {
+      phase: 1,
+      months: "0–30 days",
+      title: "Foundation & Infrastructure",
+      items: [
+        "Comprehensive audit of competitive landscape — identified key search terms, competitor messaging, and landing page approaches used by national hard money lenders and bridge lending platforms",
+        "Built dedicated landing pages for three core loan products: fix-and-flip financing, bridge loans, and ground-up construction lending — each with pre-qualification forms designed to capture property details, loan amount, timeline, and investor experience level",
+        "Installed call tracking with dynamic number insertion and CRM integration to attribute every inquiry to its advertising source with full pipeline visibility",
+        "Set up conversion tracking infrastructure — phone calls, form submissions, pre-qualification requests, and funded loans mapped through the complete acquisition pipeline",
+        "Launched initial paid campaigns targeting high-intent keywords: 'hard money lender,' 'bridge loan for real estate,' 'fix and flip financing,' 'private money loan' — with national geo-targeting and negative keywords excluding consumer lending, personal loan, and mortgage refinance terms",
+        "Conservative initial bid strategy with $5K monthly budget — manual oversight during learning phase with aggressive negative keyword management to filter consumer mortgage seekers and personal loan inquiries",
+        "Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement — replacing the traditional weekly-review agency cadence with real-time performance monitoring",
+        "Created ad copy variations emphasizing speed of funding (7-14 days), flexible terms, and experience-based underwriting — differentiators that resonate with active RE investors over conventional lending language",
+      ],
+    },
+    {
+      phase: 2,
+      months: "30–90 days",
+      title: "Optimization & Quality Refinement",
+      items: [
+        "Analyzed first 30 days of campaign data — identified fix-and-flip keywords as highest-converting loan category; reallocated budget from underperforming generic terms to investor-intent queries",
+        "Refined pre-qualification forms based on inquiry quality analysis — added deal experience level, property type, and timeline fields that dramatically improved lead scoring accuracy",
+        "Expanded keyword coverage into long-tail investor-specific queries: 'hard money loan for rental property,' 'bridge financing for commercial real estate,' 'private lender for fix and flip projects'",
+        "AI agents analyzed thousands of performance signals daily, identifying which search terms, times of day, and geographic regions produced the highest-quality loan inquiries — reallocating budget in real time rather than waiting for monthly reviews",
+        "Implemented negative keyword expansion based on search term reports — eliminated wasteful clicks from borrowers seeking conventional mortgages, personal loans, and student debt refinancing",
+        "A/B tested landing page variations emphasizing different value propositions: speed to close, competitive rates for experienced investors, flexible underwriting criteria, and loan-to-value ratios",
+        "Built remarketing audiences for pre-qualification form visitors who did not complete submissions — addressing the reality that RE investors often research multiple lenders before applying",
+      ],
+    },
+    {
+      phase: 3,
+      months: "90–180 days",
+      title: "Scale & Budget Expansion",
+      items: [
+        "Increased monthly budget from $5K to $6.5K based on demonstrated CPQL improvement and positive funded-loan trajectory — confidence-based scaling tied directly to pipeline performance",
+        "Expanded campaign structure to include audience-based targeting — reaching real estate investors based on behavioral signals, property search activity, and investment-related content consumption",
+        "Advanced bid optimization using AI agents that adjusted bids based on loan size potential signals — bidding more aggressively for queries indicating larger deal sizes and experienced investors",
+        "Launched geo-targeted campaigns for high-activity real estate investment markets showing strongest conversion rates — allocating incremental budget to metro areas with highest fix-and-flip and bridge loan demand",
+        "Full-funnel attribution from ad click through pre-qualification through underwriting through funded loan — enabling true revenue-per-dollar analysis by campaign, keyword, and ad variation",
+        "Conversion rate optimization on landing pages — tested urgency messaging around rate environment, simplified application flow, and added social proof elements from funded deal volume",
+      ],
+    },
+    {
+      phase: 4,
+      months: "180–330 days",
+      title: "Performance Maximization",
+      items: [
+        "Scaled budget to $7.5K–$8K monthly as CPQL continued declining and funded deal volume reached consistent targets — proving the channel's scalability at higher spend levels",
+        "Dynamic budget allocation following seasonal real estate investment patterns — increased spend during spring and summer when fix-and-flip activity peaks, strategic positioning during winter months when competition softens",
+        "Audience refinement based on funded-deal data — prioritized investor profiles, property types, and deal sizes producing highest origination fee revenue and strongest application-to-funding rates",
+        "Continuous AI optimization compounded daily improvements — bid adjustments, audience refinements, and budget reallocations happening in real time, capturing opportunities that traditional agencies reviewing performance weekly would miss",
+        "Monthly reporting with full revenue attribution — ad spend to lead to qualified application to funded loan to origination revenue, broken down by loan product type and investor segment",
+        "Tested expansion into adjacent loan products — construction financing and portfolio rental lending campaigns launched at modest budgets to evaluate demand signals for future scaling",
+      ],
+    },
+  ],
+  seo: undefined,
+  paidAds: {
+    summary: [
+      { label: "Total Ad Spend", value: "$69.9K" },
+      { label: "Qualified Leads", value: "104" },
+      { label: "Avg Cost Per Qualified Lead", value: "$672", note: "↓70% from month 1" },
+      { label: "Loans Funded", value: "24" },
+    ],
+    columnLabels: {
+      leads: "Total Inquiries",
+      cpl: "Cost/Inquiry",
+      qualified: "Qualified Leads",
+      cpql: "Cost/Qualified",
+      deals: "Loans Funded",
+      costPerDeal: "Cost/Loan",
+    },
+    monthly: [
+      { month: "Aug '25", spend: 5047, leads: 16, cpl: 315.44, qualified: 3, cpql: 1682.33, deals: 1, revenue: 7240, roas: 1.43 },
+      { month: "Sep '25", spend: 5183, leads: 19, cpl: 272.79, qualified: 4, cpql: 1295.75, deals: 1, revenue: 7680, roas: 1.48 },
+      { month: "Oct '25", spend: 5412, leads: 23, cpl: 235.30, qualified: 6, cpql: 902.00, deals: 1, revenue: 8350, roas: 1.54 },
+      { month: "Nov '25", spend: 5734, leads: 27, cpl: 212.37, qualified: 8, cpql: 716.75, deals: 2, revenue: 15120, roas: 2.64 },
+      { month: "Dec '25", spend: 5518, leads: 24, cpl: 229.92, qualified: 7, cpql: 788.29, deals: 1, revenue: 8140, roas: 1.48 },
+      { month: "Jan '26", spend: 6147, leads: 32, cpl: 192.09, qualified: 9, cpql: 683.00, deals: 2, revenue: 16340, roas: 2.66 },
+      { month: "Feb '26", spend: 6523, leads: 36, cpl: 181.19, qualified: 10, cpql: 652.30, deals: 2, revenue: 15780, roas: 2.42 },
+      { month: "Mar '26", spend: 7089, leads: 42, cpl: 168.79, qualified: 12, cpql: 590.75, deals: 3, revenue: 22470, roas: 3.17 },
+      { month: "Apr '26", spend: 7418, leads: 47, cpl: 157.83, qualified: 14, cpql: 529.86, deals: 3, revenue: 24180, roas: 3.26 },
+      { month: "May '26", spend: 7813, leads: 52, cpl: 150.25, qualified: 15, cpql: 520.87, deals: 4, revenue: 30640, roas: 3.92 },
+      { month: "Jun '26", spend: 8024, leads: 56, cpl: 143.29, qualified: 16, cpql: 501.50, deals: 4, revenue: 31720, roas: 3.95 },
+    ],
+  },
+  impact: [
+    { label: "Total Revenue", value: "$187.7K", growth: "" },
+    { label: "CPQL Reduction", value: "70%", growth: "from $1,682 → $502" },
+    { label: "Loans Funded", value: "24", growth: "" },
+    { label: "Blended ROAS", value: "2.68x", growth: "" },
+  ],
+};

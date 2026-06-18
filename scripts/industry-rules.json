@@ -818,7 +818,8 @@
     "Mental Health Therapy": "lead_gen_services",
     "Counseling Practice": "lead_gen_services",
     "Healthcare Software": "saas",
-    "Window Repair": "lead_gen_services"
+    "Window Repair": "lead_gen_services",
+    "Private Lending": "lead_gen_professional"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",

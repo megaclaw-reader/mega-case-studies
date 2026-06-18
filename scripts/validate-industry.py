@@ -147,6 +147,7 @@ CPL_RANGES = {
     "medical_assessment_ai_app": (1.50, 7.00),
     "consumer_financial_services": (35, 150),
     "working_capital_financing": (20, 50),
+    "private_lending": (100, 400),
     # Ecom — cost per SESSION (not per lead)
     "ecom":              (0.20, 5.00),
     "sustainable_luxury": (1.50, 4.00),
@@ -251,6 +252,7 @@ def _cpl_category(industry, model_key):
         ("commercial real", "commercial_re"),
         ("real estate investment", "real_estate_investment"),
         ("real estate", "real_estate"),  # newsletters have unique economics
+        ("private lending", "private_lending"), ("hard money", "private_lending"), ("bridge loan", "private_lending"),
         ("mortgage", "mortgage"), ("lending", "mortgage"),
         ("telemedicine", "telemedicine"), ("telehealth", "telemedicine"),
         ("rehab", "rehab_center"),
@@ -398,6 +400,7 @@ DEAL_VALUE_RANGES = {
     "real_estate_investment": (15000, 65000),
     "real_estate": (3000, 60000),
     "commercial_re": (5000, 100000),
+    "private_lending": (5000, 15000),
     "mortgage": (1500, 20000),
     "wealth_mgmt": (5000, 100000),
     "financial_services": (3000, 50000),

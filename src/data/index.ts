@@ -8,6 +8,7 @@ import { cleaningServicesPhoenix } from "./cleaning-services-phoenix";
 import { gymFitnessPhoenix } from "./gym-fitness-phoenix";
 import { medicareServicesNewJersey } from "./medicare-services-new-jersey";
 import { workingCapitalFinancing } from "./working-capital-financing";
+import { privateLendingNational } from "./private-lending-national";
 import { homeFurnitureEcommerce } from "./home-furniture-ecommerce";
 import { carDealershipFlorida } from "./car-dealership-florida";
 import { autoRepairSeoNewJersey } from "./auto-repair-seo-new-jersey";
@@ -640,6 +641,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "cleaning-services-phoenix": cleaningServicesPhoenix,
   "gym-fitness-phoenix": gymFitnessPhoenix,
   "working-capital-financing": workingCapitalFinancing,
+  "private-lending-national": privateLendingNational,
   "clinic-california": clinicCalifornia,
   "therapy-arizona": therapyArizona,
   "healthcare-software-national": healthcareSoftwareNational,
