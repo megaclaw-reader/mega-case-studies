@@ -308,6 +308,7 @@ import { artisanHomeGoodsPortland } from "./artisan-home-goods-portland";
 import { digitalMarketingAgencyPhoenix } from "./digital-marketing-agency-phoenix";
 import { creativeBrandingAgencyAtlanta } from "./creative-branding-agency-atlanta";
 import { realEstateInvestmentArizona } from "./real-estate-investment-arizona";
+import { realEstateAgentNewYorkSeo } from "./real-estate-agent-new-york-seo";
 import { autoPartsAccessories } from "./auto-parts-accessories";
 import { ecommercePremiumPet } from "./ecommerce-premium-pet";
 import { ecommerceHomeFurnishings } from "./ecommerce-home-furnishings";
@@ -646,6 +647,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "therapy-arizona": therapyArizona,
   "healthcare-software-national": healthcareSoftwareNational,
   "window-repair-arizona": windowRepairArizona,
+  "real-estate-agent-new-york-seo": realEstateAgentNewYorkSeo,
 };
 
 export type { CaseStudyData };

@@ -635,6 +635,7 @@
     "Financial Services": "wealth_management",
     "Financial Services Sales": "wealth_management",
     "Real Estate": "real_estate",
+    "Real Estate Agent": "real_estate",
     "Real Estate Services": "real_estate",
     "Commercial Real Estate": "real_estate",
     "Mortgage & Lending": "mortgage_lending",
@@ -819,7 +820,8 @@
     "Counseling Practice": "lead_gen_services",
     "Healthcare Software": "saas",
     "Window Repair": "lead_gen_services",
-    "Private Lending": "lead_gen_professional"
+    "Private Lending": "lead_gen_professional",
+    "Real Estate Agent": "real_estate"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",

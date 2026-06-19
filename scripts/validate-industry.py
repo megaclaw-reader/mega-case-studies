@@ -128,6 +128,7 @@ CPL_RANGES = {
     "venture_capital":   (100, 2000),
     "real_estate_investment": (60, 250),
     "real_estate":       (20, 300),
+    "real_estate_agent": (20, 300),
     "commercial_re":     (30, 400),
     "mortgage":          (20, 250),
     # Healthcare / medical
@@ -251,6 +252,7 @@ def _cpl_category(industry, model_key):
         ("newsletter", "newsletter"),
         ("commercial real", "commercial_re"),
         ("real estate investment", "real_estate_investment"),
+        ("real estate agent", "real_estate_agent"),
         ("real estate", "real_estate"),  # newsletters have unique economics
         ("private lending", "private_lending"), ("hard money", "private_lending"), ("bridge loan", "private_lending"),
         ("mortgage", "mortgage"), ("lending", "mortgage"),
@@ -399,6 +401,7 @@ DEAL_VALUE_RANGES = {
     "regen_medicine": (1500, 15000),
     "real_estate_investment": (15000, 65000),
     "real_estate": (3000, 60000),
+    "real_estate_agent": (10000, 25000),
     "commercial_re": (5000, 100000),
     "private_lending": (5000, 15000),
     "mortgage": (1500, 20000),
