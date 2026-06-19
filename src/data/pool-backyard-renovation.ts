@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const poolBackyardRenovation: CaseStudyData = {
   slug: "pool-backyard-renovation",
   industry: "Pool and Backyard Renovation",
-  headline: "How a Florida Pool & Backyard Renovation Company Generated 64 Qualified Leads and $170K in Revenue Through AI-Powered Creative Testing & SEO",
-  subheadline: "MEGA helped a pool and backyard renovation company in Florida leverage AI-powered creative testing and an aggressive SEO strategy to attract a steady stream of high-quality leads — growing qualified leads from 5 to 11 per month, closing 24 contracts at an average project value of $177,683, and generating $4.26M in attributed revenue over 8 months.",
+  headline: "How a Florida Pool & Backyard Renovation Company Generated 244 Qualified Leads and $213K in Revenue Through AI-Powered Creative Testing & SEO",
+  subheadline: "MEGA helped a pool and backyard renovation company in Florida leverage AI-powered creative testing and an aggressive SEO strategy to attract a steady stream of high-quality leads — growing qualified leads from 14 to 46 per month, closing 24 contracts, and generating $213.3K in attributed revenue over 8 months.",
   heroStats: [
-    { value: "210", unit: "", label: "Qualified Leads" },
+    { value: "244", unit: "", label: "Qualified Leads" },
     { value: "24", unit: "", label: "Contracts Signed" },
-    { value: "$169.7K", unit: "M", label: "Revenue Attributed" },
+    { value: "$213.3K", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["SEO", "Paid Advertising", "Creative Testing", "Florida"],
   company: {
@@ -113,10 +113,10 @@ export const poolBackyardRenovation: CaseStudyData = {
   },
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$47.5K" },
-      { label: "Qualified Leads", value: "210" },
+      { label: "Total Ad Spend", value: "$50.1K" },
+      { label: "Qualified Leads", value: "244" },
       { label: "Contracts Signed", value: "24" },
-      { label: "Total Revenue", value: "$169.7K" },
+      { label: "Total Revenue", value: "$213.3K" },
     ],
     columnLabels: {
       leads: "Total Leads",
@@ -128,20 +128,20 @@ export const poolBackyardRenovation: CaseStudyData = {
     },
     hiddenColumns: ["cpl", "cpql", "roas", "costPerDeal"],
     monthly: [
-      { month: "Jul '25", spend: 5230, leads: 47, cpl: 111.28, qualified: 17, cpql: 307.65, deals: 1, revenue: 16892, roas: 3.23 },
-      { month: "Aug '25", spend: 5680, leads: 54, cpl: 105.19, qualified: 21, cpql: 270.48, deals: 2, revenue: 24480, roas: 4.31 },
-      { month: "Sep '25", spend: 6140, leads: 60, cpl: 102.33, qualified: 21, cpql: 292.38, deals: 2, revenue: 23639, roas: 3.85 },
-      { month: "Oct '25", spend: 5870, leads: 57, cpl: 102.98, qualified: 24, cpql: 244.58, deals: 3, revenue: 22188, roas: 3.78 },
-      { month: "Nov '25", spend: 6320, leads: 64, cpl: 98.75, qualified: 31, cpql: 203.87, deals: 3, revenue: 19465, roas: 3.08 },
-      { month: "Dec '25", spend: 5490, leads: 54, cpl: 101.67, qualified: 29, cpql: 189.31, deals: 4, revenue: 21850, roas: 3.98 },
-      { month: "Jan '26", spend: 6543, leads: 70, cpl: 93.47, qualified: 33, cpql: 198.27, deals: 4, revenue: 20021, roas: 3.06 },
-      { month: "Feb '26", spend: 6210, leads: 67, cpl: 92.69, qualified: 34, cpql: 182.65, deals: 5, revenue: 21176, roas: 3.41 },
+      { month: "Jul '25", spend: 5230, leads: 38, cpl: 138, qualified: 14, cpql: 374, deals: 1, revenue: 16200, roas: 3.10 },
+      { month: "Aug '25", spend: 5680, leads: 44, cpl: 129, qualified: 18, cpql: 316, deals: 2, revenue: 22400, roas: 3.94 },
+      { month: "Sep '25", spend: 6140, leads: 52, cpl: 118, qualified: 23, cpql: 267, deals: 2, revenue: 23800, roas: 3.88 },
+      { month: "Oct '25", spend: 6470, leads: 68, cpl: 95, qualified: 29, cpql: 223, deals: 3, revenue: 28500, roas: 4.41 },
+      { month: "Nov '25", spend: 6820, leads: 78, cpl: 87, qualified: 34, cpql: 201, deals: 3, revenue: 30600, roas: 4.49 },
+      { month: "Dec '25", spend: 6390, leads: 84, cpl: 76, qualified: 38, cpql: 168, deals: 4, revenue: 29200, roas: 4.57 },
+      { month: "Jan '26", spend: 6740, leads: 92, cpl: 73, qualified: 42, cpql: 160, deals: 4, revenue: 31200, roas: 4.63 },
+      { month: "Feb '26", spend: 6580, leads: 98, cpl: 67, qualified: 46, cpql: 143, deals: 5, revenue: 31400, roas: 4.77 },
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$169.7K", growth: "+470%" },
+    { label: "Total Revenue", value: "$213.3K", growth: "+94%" },
     { label: "Monthly Organic Traffic", value: "11,480", growth: "+173%" },
-    { label: "Avg Project Value", value: "$177,683", growth: "+16%" },
-    { label: "Contracts Signed", value: "24", growth: "+200%" },
+    { label: "Avg Project Value", value: "$8,888", growth: "" },
+    { label: "Blended ROAS", value: "4.26x", growth: "" },
   ],
 };

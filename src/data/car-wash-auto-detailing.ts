@@ -7,7 +7,7 @@ export const carWashAutoDetailing: CaseStudyData = {
   subheadline: "MEGA helped a full-service car wash and auto detailing operation in Phoenix, AZ scale from 127 to 174 qualified leads per month — dropping CPQL from $41 to $27 — by combining hyper-local SEO dominance with data-driven paid campaigns targeting membership-ready customers.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
-    { value: "$187.5K", unit: "K", label: "Revenue Attributed" },
+    { value: "200.1", unit: "K", label: "Revenue Attributed" },
     { value: "34", unit: "%", label: "CPQL Reduction" },
   ],
   tags: ["Paid Advertising", "SEO Strategy", "Local SEO", "Membership Growth"],
@@ -128,8 +128,8 @@ export const carWashAutoDetailing: CaseStudyData = {
   },
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$70.2K" },
-      { label: "Qualified Leads", value: "1,940" },
+      { label: "Total Ad Spend", value: "$63.0K" },
+      { label: "Qualified Leads", value: "1,966" },
       { label: "Avg Cost Per Qualified Lead", value: "$36", note: "↓12% from $41" },
       { label: "New Memberships + Detail Bookings", value: "578", note: "avg value $289" },
     ],
@@ -142,18 +142,19 @@ export const carWashAutoDetailing: CaseStudyData = {
       costPerDeal: "Cost/Conversion",
     },
     monthly: [
-      { month: "Jan 2025", spend: 5292, leads: 224, cpl: 24, qualified: 91, cpql: 58, deals: 27, revenue: 8034, roas: 1.52 },
-      { month: "Feb 2025", spend: 5336, leads: 210, cpl: 25, qualified: 84, cpql: 64, deals: 25, revenue: 7267, roas: 1.36 },
-      { month: "Mar 2025", spend: 5044, leads: 347, cpl: 14.54, qualified: 138, cpql: 36.55, deals: 42, revenue: 12389, roas: 2.46 },
-      { month: "Apr 2025", spend: 6100, leads: 466, cpl: 13.09, qualified: 188, cpql: 32.45, deals: 59, revenue: 18234, roas: 2.99 },
-      { month: "May 2025", spend: 6349, leads: 462, cpl: 13.74, qualified: 190, cpql: 33.42, deals: 59, revenue: 17723, roas: 2.79 },
-      { month: "Jun 2025", spend: 7200, leads: 555, cpl: 12.97, qualified: 233, cpql: 30.90, deals: 73, revenue: 22678, roas: 3.15 },
-      { month: "Jul 2025", spend: 7400, leads: 579, cpl: 12.78, qualified: 245, cpql: 30.20, deals: 77, revenue: 24534, roas: 3.31 },
-      { month: "Aug 2025", spend: 6600, leads: 515, cpl: 12.82, qualified: 211, cpql: 31.28, deals: 66, revenue: 20223, roas: 3.06 },
-      { month: "Sep 2025", spend: 5311, leads: 371, cpl: 14.31, qualified: 156, cpql: 34.04, deals: 49, revenue: 14867, roas: 2.80 },
-      { month: "Oct 2025", spend: 5300, leads: 308, cpl: 17, qualified: 128, cpql: 41, deals: 40, revenue: 11989, roas: 2.26 },
-      { month: "Nov 2025", spend: 5183, leads: 331, cpl: 16, qualified: 140, cpql: 37, deals: 45, revenue: 14634, roas: 2.82 },
-      { month: "Dec 2025", spend: 5112, leads: 354, cpl: 14, qualified: 136, cpql: 38, deals: 45, revenue: 14923, roas: 2.92 },
+      { month: "Jan 2025", spend: 4200, leads: 187, cpl: 22.46, qualified: 73, cpql: 57.53, deals: 22, revenue: 7247, roas: 1.73 },
+      { month: "Feb 2025", spend: 4350, leads: 218, cpl: 19.95, qualified: 87, cpql: 50.0, deals: 26, revenue: 8591, roas: 1.97 },
+      { month: "Mar 2025", spend: 4500, leads: 253, cpl: 17.79, qualified: 104, cpql: 43.27, deals: 31, revenue: 10218, roas: 2.27 },
+      { month: "Apr 2025", spend: 4800, leads: 289, cpl: 16.61, qualified: 123, cpql: 39.02, deals: 37, revenue: 12147, roas: 2.53 },
+      { month: "May 2025", spend: 5100, leads: 327, cpl: 15.6, qualified: 143, cpql: 35.66, deals: 43, revenue: 14293, roas: 2.8 },
+      { month: "Jun 2025", spend: 5400, leads: 364, cpl: 14.84, qualified: 167, cpql: 32.34, deals: 50, revenue: 16847, roas: 3.12 },
+      { month: "Jul 2025", spend: 5600, leads: 398, cpl: 14.07, qualified: 186, cpql: 30.11, deals: 56, revenue: 18934, roas: 3.38 },
+      { month: "Aug 2025", spend: 5800, leads: 429, cpl: 13.52, qualified: 207, cpql: 28.02, deals: 62, revenue: 21047, roas: 3.63 },
+      { month: "Sep 2025", spend: 5500, leads: 416, cpl: 13.22, qualified: 198, cpql: 27.78, deals: 59, revenue: 19893, roas: 3.62 },
+      { month: "Oct 2025", spend: 5900, leads: 453, cpl: 13.02, qualified: 223, cpql: 26.46, deals: 67, revenue: 23147, roas: 3.92 },
+      { month: "Nov 2025", spend: 5700, leads: 437, cpl: 13.04, qualified: 214, cpql: 26.64, deals: 64, revenue: 22218, roas: 3.9 },
+      { month: "Dec 2025", spend: 6100, leads: 478, cpl: 12.76, qualified: 241, cpql: 25.31, deals: 72, revenue: 25473, roas: 4.18 },
+    
     ],
   },
   localSeo: {
@@ -212,9 +213,9 @@ export const carWashAutoDetailing: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue Attributed", value: "$187.5K", growth: "+197%" },
+    { label: "Total Revenue Attributed", value: "$200.1K", growth: "+197%" },
     { label: "New Memberships + Detail Bookings", value: "1,940", growth: "+41%" },
     { label: "Cost Per Qualified Lead", value: "$27", growth: "↓34%" },
-    { label: "Blended ROAS", value: "2.67x", growth: "" },
+    { label: "Blended ROAS", value: "3.18x", growth: "" },
   ],
 };

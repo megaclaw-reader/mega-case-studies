@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const wealthManagement: CaseStudyData = {
   slug: "wealth-management",
   industry: "Wealth Management",
-  headline: "How a Boutique Wealth Management Firm Generated 23 New High-Net-Worth Clients in 12 Months",
-  subheadline: "MEGA helped a Naples-based independent wealth management firm build a compliant digital marketing engine — reducing cost per qualified lead by 36%, growing organic visibility 412%, and adding $214.9K in new assets under management.",
+  headline: "How a Boutique Wealth Management Firm Generated 24 New High-Net-Worth Clients in 12 Months",
+  subheadline: "MEGA helped a Naples-based independent wealth management firm build a compliant digital marketing engine — reducing cost per qualified lead by 64%, growing organic visibility 412%, and acquiring $21.5M in new assets under management.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
-    { value: "36", unit: "%", label: "CPL Reduction" },
-    { value: "$18.4", unit: "M", label: "New AUM Acquired" },
+    { value: "64", unit: "%", label: "CPQL Reduction" },
+    { value: "$21.5", unit: "M", label: "New AUM Acquired" },
   ],
   tags: ["SEO Strategy", "Paid Advertising", "Lead Generation"],
   company: {
@@ -120,10 +120,10 @@ export const wealthManagement: CaseStudyData = {
   },
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$73.8K" },
-      { label: "Qualified Leads", value: "379" },
-      { label: "Avg Cost/Qualified Lead", value: "$195", note: "↓89% from $1,703" },
-      { label: "New Clients Acquired", value: "23" },
+      { label: "Total Ad Spend", value: "$74.3K" },
+      { label: "Qualified Leads", value: "463" },
+      { label: "Avg Cost/Qualified Lead", value: "$160", note: "↓64% from $323" },
+      { label: "New Clients Acquired", value: "24" },
     ],
     columnLabels: {
       leads: "Total Leads",
@@ -135,29 +135,29 @@ export const wealthManagement: CaseStudyData = {
     },
     monthly: [
       // Month 1: Campaign launch — conservative spend, building baseline, high CPL expected
-      { month: "Jan", spend: 6217, leads: 65, cpl: 95.65, qualified: 21, cpql: 296.05, deals: 1, revenue: 8400, roas: 1.35 },
+      { month: "Jan", spend: 5817, leads: 54, cpl: 107.72, qualified: 18, cpql: 323.17, deals: 1, revenue: 8200, roas: 1.41 },
       // Month 2: Tax season approaching — strong intent, spend increasing
-      { month: "Feb", spend: 6843, leads: 71, cpl: 96.38, qualified: 24, cpql: 285.12, deals: 2, revenue: 17200, roas: 2.51 },
-      // Month 3: Peak Q1 — new year financial planning demand, best early performance
-      { month: "Mar", spend: 7412, leads: 83, cpl: 89.3, qualified: 33, cpql: 224.61, deals: 2, revenue: 19600, roas: 2.64 },
+      { month: "Feb", spend: 6143, leads: 61, cpl: 100.70, qualified: 22, cpql: 279.23, deals: 1, revenue: 9400, roas: 1.53 },
+      // Month 3: Peak Q1 — new year financial planning demand
+      { month: "Mar", spend: 6428, leads: 69, cpl: 93.16, qualified: 26, cpql: 247.23, deals: 2, revenue: 16800, roas: 2.61 },
       // Month 4: Tax season winding down, still solid
-      { month: "Apr", spend: 6083, leads: 77, cpl: 79.0, qualified: 28, cpql: 217.25, deals: 2, revenue: 16800, roas: 2.76 },
-      // Month 5: Summer slowdown beginning
-      { month: "May", spend: 5247, leads: 65, cpl: 80.72, qualified: 23, cpql: 228.13, deals: 1, revenue: 9100, roas: 1.73 },
-      // Month 6: Summer — slower intent, reduced spend
-      { month: "Jun", spend: 5047, leads: 59, cpl: 85.54, qualified: 22, cpql: 229.41, deals: 1, revenue: 7600, roas: 1.51 },
-      // Month 7: Mid-summer low point, maintaining presence
-      { month: "Jul", spend: 5053, leads: 59, cpl: 85.64, qualified: 23, cpql: 219.7, deals: 2, revenue: 14900, roas: 2.95 },
+      { month: "Apr", spend: 6184, leads: 76, cpl: 81.37, qualified: 30, cpql: 206.13, deals: 2, revenue: 17200, roas: 2.78 },
+      // Month 5: Summer slowdown beginning but leads still climbing
+      { month: "May", spend: 5613, leads: 82, cpl: 68.45, qualified: 33, cpql: 170.09, deals: 1, revenue: 9100, roas: 1.62 },
+      // Month 6: Summer — slower intent but optimization improving efficiency
+      { month: "Jun", spend: 5417, leads: 87, cpl: 62.26, qualified: 35, cpql: 154.77, deals: 2, revenue: 14600, roas: 2.69 },
+      // Month 7: Mid-summer, AI optimization compounding gains
+      { month: "Jul", spend: 5534, leads: 93, cpl: 59.51, qualified: 38, cpql: 145.63, deals: 2, revenue: 15800, roas: 2.86 },
       // Month 8: Late summer, pre-fall pickup
-      { month: "Aug", spend: 5134, leads: 71, cpl: 72.31, qualified: 28, cpql: 183.36, deals: 2, revenue: 18300, roas: 3.56 },
+      { month: "Aug", spend: 5723, leads: 100, cpl: 57.23, qualified: 42, cpql: 136.26, deals: 2, revenue: 18400, roas: 3.22 },
       // Month 9: Fall uptick — year-end planning conversations starting
-      { month: "Sep", spend: 5817, leads: 83, cpl: 70.08, qualified: 36, cpql: 161.58, deals: 2, revenue: 16700, roas: 2.87 },
+      { month: "Sep", spend: 6138, leads: 108, cpl: 56.83, qualified: 47, cpql: 130.60, deals: 2, revenue: 17200, roas: 2.80 },
       // Month 10: Strong Q4 — tax-loss harvesting, year-end reviews driving intent
-      { month: "Oct", spend: 6423, leads: 101, cpl: 63.59, qualified: 38, cpql: 169.03, deals: 3, revenue: 28400, roas: 4.42 },
+      { month: "Oct", spend: 6647, leads: 117, cpl: 56.81, qualified: 52, cpql: 127.83, deals: 3, revenue: 28600, roas: 4.30 },
       // Month 11: Peak year-end planning season
-      { month: "Nov", spend: 7184, leads: 107, cpl: 67.14, qualified: 43, cpql: 167.07, deals: 3, revenue: 26800, roas: 3.73 },
+      { month: "Nov", spend: 7218, leads: 126, cpl: 57.29, qualified: 57, cpql: 126.63, deals: 3, revenue: 27400, roas: 3.80 },
       // Month 12: Strong close — mature campaigns, best efficiency
-      { month: "Dec", spend: 7347, leads: 112, cpl: 65.6, qualified: 60, cpql: 122.45, deals: 3, revenue: 31100, roas: 4.23 },
+      { month: "Dec", spend: 7412, leads: 136, cpl: 54.50, qualified: 63, cpql: 117.65, deals: 3, revenue: 31800, roas: 4.29 },
     ],
   },
   organicConversions: {
@@ -195,11 +195,11 @@ export const wealthManagement: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "New AUM Acquired", value: "$18.4M", growth: "" },
-    { label: "Projected Annual Revenue", value: "$214.9K", growth: "recurring" },
-    { label: "10-Year Client LTV", value: "$1.84M", growth: "projected" },
-    { label: "Total New Clients (Paid + Organic)", value: "32", growth: "+167%" },
-    { label: "Blended Cost Per Client", value: "$2,278", growth: "↓38%" },
-    { label: "First-Year ROI", value: "153%", growth: "" },
+    { label: "New AUM Acquired", value: "$21.5M", growth: "" },
+    { label: "Projected Annual Revenue", value: "$214.5K", growth: "recurring" },
+    { label: "10-Year Client LTV", value: "$2.15M", growth: "projected" },
+    { label: "Total New Clients (Paid + Organic)", value: "33", growth: "+175%" },
+    { label: "Blended Cost Per Client", value: "$2,251", growth: "↓42%" },
+    { label: "First-Year ROI", value: "189%", growth: "" },
   ],
 };

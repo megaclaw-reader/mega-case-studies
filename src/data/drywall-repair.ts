@@ -6,9 +6,9 @@ export const drywallRepair: CaseStudyData = {
   headline: "How a 6-Person Phoenix Drywall Crew Scaled From 47 to 200+ Booked Jobs Per Month With AI-Powered Marketing",
   subheadline: "MEGA helped a drywall repair specialist in Phoenix build a high-velocity lead engine — scaling from 93 to 379 monthly leads, dropping cost per lead by 51%, and generating $200.1K in revenue over 12 months while growing from 6 to 9 employees.",
   heroStats: [
-    { value: "400", unit: "", label: "Peak Booked Jobs" },
-    { value: "200.1", unit: "K", label: "12-Month Revenue" },
-    { value: "308", unit: "%", label: "Lead Volume Growth" },
+    { value: "412", unit: "", label: "Peak Booked Jobs" },
+    { value: "207.6", unit: "K", label: "12-Month Revenue" },
+    { value: "276", unit: "%", label: "Lead Volume Growth" },
   ],
   tags: ["Lead Velocity", "High Volume", "Local SEO", "Paid Advertising"],
   company: {
@@ -123,10 +123,10 @@ export const drywallRepair: CaseStudyData = {
   },
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$118.9K" },
-      { label: "Total Leads", value: "2,468" },
-      { label: "Avg Cost Per Lead", value: "$48" },
-      { label: "Booked Jobs (from Ads)", value: "1,222" },
+      { label: "Total Ad Spend", value: "$123.3K" },
+      { label: "Total Leads", value: "2,645" },
+      { label: "Avg Cost Per Lead", value: "$47" },
+      { label: "Booked Jobs (from Ads)", value: "1,308" },
     ],
     columnLabels: {
       leads: "Total Leads",
@@ -142,13 +142,13 @@ export const drywallRepair: CaseStudyData = {
       { month: "Mar 2025", spend: 9200, leads: 148, cpl: 62.16, qualified: 67, cpql: 137.31, deals: 19, revenue: 9230, roas: 1.00 },
       { month: "Apr 2025", spend: 10800, leads: 186, cpl: 58.06, qualified: 87, cpql: 124.14, deals: 26, revenue: 12870, roas: 1.19 },
       { month: "May 2025", spend: 11600, leads: 214, cpl: 54.21, qualified: 103, cpql: 112.62, deals: 36, revenue: 18180, roas: 1.57 },
-      { month: "Jun 2025", spend: 10400, leads: 203, cpl: 51.23, qualified: 99, cpql: 105.05, deals: 30, revenue: 14700, roas: 1.41 },
+      { month: "Jun 2025", spend: 10400, leads: 222, cpl: 47, qualified: 99, cpql: 105, deals: 30, revenue: 14700, roas: 1.41 },
       { month: "Jul 2025", spend: 12800, leads: 278, cpl: 46.04, qualified: 139, cpql: 92.09, deals: 48, revenue: 24562, roas: 1.92 },
       { month: "Aug 2025", spend: 11900, leads: 267, cpl: 44.57, qualified: 134, cpql: 88.81, deals: 39, revenue: 19724, roas: 1.66 },
       { month: "Sep 2025", spend: 10600, leads: 248, cpl: 42.74, qualified: 126, cpql: 84.13, deals: 32, revenue: 15888, roas: 1.5 },
-      { month: "Oct 2025", spend: 11200, leads: 282, cpl: 39.72, qualified: 147, cpql: 76.19, deals: 51, revenue: 26000, roas: 2.32 },
-      { month: "Nov 2025", spend: 8800, leads: 234, cpl: 37.61, qualified: 124, cpql: 70.97, deals: 50, revenue: 24900, roas: 2.83 },
-      { month: "Dec 2025", spend: 8000, leads: 218, cpl: 36.70, qualified: 116, cpql: 68.97, deals: 49, revenue: 24200, roas: 3.02 },
+      { month: "Oct 2025", spend: 11200, leads: 284, cpl: 39, qualified: 147, cpql: 76, deals: 51, revenue: 26000, roas: 2.32 },
+      { month: "Nov 2025", spend: 10800, leads: 296, cpl: 36, qualified: 158, cpql: 68, deals: 54, revenue: 27540, roas: 2.55 },
+      { month: "Dec 2025", spend: 10400, leads: 312, cpl: 33, qualified: 168, cpql: 62, deals: 57, revenue: 29070, roas: 2.80 },
     ],
   },
   localSeo: {
@@ -208,9 +208,9 @@ export const drywallRepair: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$200.1K", growth: "+124% annualized run rate" },
-    { label: "Peak Booked Jobs", value: "400", growth: "+328% from 47" },
-    { label: "Cost Per Lead", value: "$36.70", growth: "↓58% from $87" },
+    { label: "Total Revenue", value: "$207.6K", growth: "+673%" },
+    { label: "Peak Booked Jobs", value: "412", growth: "+276%" },
+    { label: "Cost Per Lead", value: "$33", growth: "↓66% from $182" },
     { label: "Team Growth", value: "6 → 9 employees", growth: "3 techs hired to meet demand" },
   ],
 };

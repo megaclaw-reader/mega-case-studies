@@ -121,9 +121,9 @@ export const onlineTelemedicine: CaseStudyData = {
       { label: "New Patients Acquired", value: "412" },
     ],
     monthly: [
-      { month: "Jan 2025", spend: 5076, leads: 64, cpl: 79, qualified: 24, cpql: 212, deals: 8, revenue: 3488, roas: 0.69 },
-      { month: "Feb 2025", spend: 5182, leads: 78, cpl: 66, qualified: 34, cpql: 152, deals: 11, revenue: 5234, roas: 1.01 },
-      { month: "Mar 2025", spend: 5079, leads: 91, cpl: 56, qualified: 43, cpql: 118, deals: 12, revenue: 5928, roas: 1.17 },
+      { month: "Jan 2025", spend: 5076, leads: 50, cpl: 102, qualified: 24, cpql: 212, deals: 8, revenue: 3488, roas: 0.69 },
+      { month: "Feb 2025", spend: 5182, leads: 60, cpl: 86, qualified: 34, cpql: 152, deals: 11, revenue: 5234, roas: 1.01 },
+      { month: "Mar 2025", spend: 5079, leads: 72, cpl: 71, qualified: 43, cpql: 118, deals: 12, revenue: 5928, roas: 1.17 },
       { month: "Apr 2025", spend: 5083, leads: 103, cpl: 49, qualified: 52, cpql: 98, deals: 15, revenue: 7773, roas: 1.53 },
       { month: "May 2025", spend: 5134, leads: 112, cpl: 46, qualified: 58, cpql: 89, deals: 21, revenue: 11053, roas: 2.15 },
       { month: "Jun 2025", spend: 5347, leads: 119, cpl: 45, qualified: 63, cpql: 85, deals: 13, revenue: 7052, roas: 1.32 },

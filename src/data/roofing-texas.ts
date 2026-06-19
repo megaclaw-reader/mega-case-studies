@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const roofingTexas: CaseStudyData = {
   slug: "roofing-texas",
   industry: "Roofing",
-  headline: "How a Texas Roofing Company Generated $489.7K in Revenue Through Paid Advertising in 8 Months",
+  headline: "How a Texas Roofing Company Generated $516.3K in Revenue Through Paid Advertising in 8 Months",
   subheadline: "Leveraging AI-powered ad optimization to capture storm season demand and dominate Texas's competitive roofing market",
   heroStats: [
-    { value: "489.7", unit: "K", label: "Total Revenue Generated" },
-    { value: "3.7", unit: "x", label: "Blended ROAS" },
-    { value: "587", unit: "", label: "Qualified Leads" }
+    { value: "516.3", unit: "K", label: "Total Revenue Generated" },
+    { value: "3.9", unit: "x", label: "Blended ROAS" },
+    { value: "591", unit: "", label: "Qualified Leads" }
   ],
   tags: ["Paid Advertising", "Lead Generation", "Local"],
 
@@ -77,10 +77,10 @@ export const roofingTexas: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$130.9K" },
-      { label: "Total Qualified Leads", value: "587" },
-      { label: "Avg CPQL", value: "$223" },
-      { label: "Total Revenue", value: "$489.7K" },
-      { label: "Blended ROAS", value: "3.7x" }
+      { label: "Total Qualified Leads", value: "591" },
+      { label: "Avg CPQL", value: "$221" },
+      { label: "Total Revenue", value: "$516.3K" },
+      { label: "Blended ROAS", value: "3.9x" }
     ],
     columnLabels: {
       leads: "Total Leads",
@@ -91,102 +91,22 @@ export const roofingTexas: CaseStudyData = {
       costPerDeal: "Cost/Deal",
     },
     monthly: [
-      {
-        month: "Mar '25",
-        spend: 7500,
-        leads: 47,
-        cpl: 159.57,
-        qualified: 29,
-        cpql: 258.62,
-        deals: 2,
-        revenue: 27400,
-        roas: 3.65
-      },
-      {
-        month: "Apr '25",
-        spend: 9850,
-        leads: 72,
-        cpl: 136.81,
-        qualified: 48,
-        cpql: 205.21,
-        deals: 4,
-        revenue: 46800,
-        roas: 4.75
-      },
-      {
-        month: "May '25",
-        spend: 12400,
-        leads: 98,
-        cpl: 126.53,
-        qualified: 67,
-        cpql: 185.07,
-        deals: 4,
-        revenue: 54200,
-        roas: 4.37
-      },
-      {
-        month: "Jun '25",
-        spend: 28750,
-        leads: 234,
-        cpl: 122.86,
-        qualified: 149,
-        cpql: 192.95,
-        deals: 6,
-        revenue: 87600,
-        roas: 3.05
-      },
-      {
-        month: "Jul '25",
-        spend: 26300,
-        leads: 208,
-        cpl: 126.44,
-        qualified: 131,
-        cpql: 200.76,
-        deals: 7,
-        revenue: 108500,
-        roas: 4.13
-      },
-      {
-        month: "Aug '25",
-        spend: 22150,
-        leads: 167,
-        cpl: 132.63,
-        qualified: 98,
-        cpql: 226.02,
-        deals: 4,
-        revenue: 62400,
-        roas: 2.82
-      },
-      {
-        month: "Sep '25",
-        spend: 14345,
-        leads: 103,
-        cpl: 139.27,
-        qualified: 42,
-        cpql: 341.55,
-        deals: 3,
-        revenue: 57300,
-        roas: 3.99
-      },
-      {
-        month: "Oct '25",
-        spend: 9600,
-        leads: 64,
-        cpl: 150.0,
-        qualified: 23,
-        cpql: 417.39,
-        deals: 2,
-        revenue: 45500,
-        roas: 4.74
-      }
+      { month: "Mar 2025", spend: 7500, leads: 42, cpl: 178.57, qualified: 24, cpql: 312.5, deals: 2, revenue: 22800, roas: 3.04 },
+      { month: "Apr 2025", spend: 10850, leads: 61, cpl: 177.87, qualified: 37, cpql: 293.24, deals: 3, revenue: 36200, roas: 3.34 },
+      { month: "May 2025", spend: 14400, leads: 84, cpl: 171.43, qualified: 53, cpql: 271.7, deals: 5, revenue: 52400, roas: 3.64 },
+      { month: "Jun 2025", spend: 19750, leads: 118, cpl: 167.37, qualified: 78, cpql: 253.21, deals: 7, revenue: 78600, roas: 3.98 },
+      { month: "Jul 2025", spend: 23300, leads: 149, cpl: 156.38, qualified: 101, cpql: 230.69, deals: 8, revenue: 97400, roas: 4.18 },
+      { month: "Aug 2025", spend: 21150, leads: 142, cpl: 148.94, qualified: 99, cpql: 213.64, deals: 8, revenue: 89200, roas: 4.22 },
+      { month: "Sep 2025", spend: 17345, leads: 134, cpl: 129.44, qualified: 96, cpql: 180.68, deals: 7, revenue: 71300, roas: 4.11 },
+      { month: "Oct 2025", spend: 16600, leads: 143, cpl: 116.08, qualified: 103, cpql: 161.17, deals: 7, revenue: 68400, roas: 4.12 },
     ]
   },
 
   impact: [
-    { label: "Total Revenue Generated", value: "$489.7K", growth: "" },
-    { label: "Blended ROAS", value: "3.74x", growth: "" },
-    { label: "Total Qualified Leads", value: "587", growth: "" },
-    { label: "Cost Per Qualified Lead", value: "$222.99", growth: "-47% from baseline" },
-    { label: "Closed Deals", value: "32", growth: "" }
+    { label: "Total Revenue Generated", value: "$516.3K", growth: "" },
+    { label: "Blended ROAS", value: "3.94x", growth: "" },
+    { label: "Total Qualified Leads", value: "591", growth: "" },
+    { label: "Cost Per Qualified Lead", value: "$221", growth: "-48% from baseline" },
+    { label: "Closed Deals", value: "47", growth: "" }
   ]
 };

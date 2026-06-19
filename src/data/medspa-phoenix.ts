@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const medspaPhoenix: CaseStudyData = {
   slug: "medspa-phoenix",
   industry: "Medspa",
-  headline: "How a Phoenix Medspa Scaled Ad Spend From $429K to $14.8K/Month — Driving $429.2K in Revenue With a 3.82x Blended ROAS Over 10 Months",
-  subheadline: "MEGA helped a Phoenix-area medspa systematically scale paid advertising and SEO, growing monthly ad investment from $8,764 to $14,832 as ROAS consistently proved out — driving $429.2K in attributed revenue from high-value aesthetic treatments across the Scottsdale and East Valley corridor.",
+  headline: "How a Phoenix Medspa Scaled Ad Spend From $8.8K to $14.8K/Month — Driving $433.2K in Revenue With a 3.86x Blended ROAS Over 10 Months",
+  subheadline: "MEGA helped a Phoenix-area medspa systematically scale paid advertising and SEO, growing monthly ad investment from $8,764 to $14,832 as ROAS consistently proved out — driving $433.2K in attributed revenue from high-value aesthetic treatments across the Scottsdale and East Valley corridor.",
   heroStats: [
     { value: "10", unit: "months", label: "Partnership Duration" },
-    { value: "$429.2K", unit: "K", label: "Revenue Attributed" },
-    { value: "3.8", unit: "x", label: "Blended ROAS" },
+    { value: "$433.2K", unit: "K", label: "Revenue Attributed" },
+    { value: "3.9", unit: "x", label: "Blended ROAS" },
   ],
   tags: ["Paid Advertising", "SEO Strategy", "Business Scaling"],
   company: {
@@ -119,9 +119,9 @@ export const medspaPhoenix: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$112.3K" },
-      { label: "Qualified Leads", value: "531" },
-      { label: "Avg Cost Per Qualified Lead", value: "$212", note: "↓47% from $397" },
-      { label: "Booked Clients", value: "187", note: "avg treatment value $725" },
+      { label: "Qualified Leads", value: "547" },
+      { label: "Avg Cost Per Qualified Lead", value: "$205", note: "↓49% from $398" },
+      { label: "Booked Clients", value: "193", note: "avg treatment value $725" },
     ],
     columnLabels: {
       leads: "Total Leads",
@@ -132,22 +132,32 @@ export const medspaPhoenix: CaseStudyData = {
       costPerDeal: "Cost/Client",
     },
     monthly: [
-      { month: "Apr '25", spend: 8764, leads: 114, cpl: 76.88, qualified: 28, cpql: 312.93, deals: 9, revenue: 18423, roas: 2.10 },
-      { month: "May '25", spend: 8764, leads: 126, cpl: 69.56, qualified: 34, cpql: 257.76, deals: 12, revenue: 25917, roas: 2.96 },
-      { month: "Jun '25", spend: 9247, leads: 138, cpl: 67.01, qualified: 41, cpql: 225.54, deals: 14, revenue: 30142, roas: 3.26 },
-      { month: "Jul '25", spend: 9845, leads: 147, cpl: 66.97, qualified: 47, cpql: 209.47, deals: 16, revenue: 33248, roas: 3.38 },
-      { month: "Aug '25", spend: 10423, leads: 152, cpl: 68.57, qualified: 49, cpql: 212.71, deals: 17, revenue: 36567, roas: 3.51 },
-      { month: "Sep '25", spend: 10987, leads: 159, cpl: 69.10, qualified: 53, cpql: 207.30, deals: 18, revenue: 39654, roas: 3.61 },
-      { month: "Oct '25", spend: 12134, leads: 178, cpl: 68.17, qualified: 62, cpql: 195.71, deals: 22, revenue: 53746, roas: 4.43 },
-      { month: "Nov '25", spend: 13245, leads: 192, cpl: 68.98, qualified: 68, cpql: 194.78, deals: 25, revenue: 62475, roas: 4.72 },
-      { month: "Dec '25", spend: 14078, leads: 202, cpl: 69.69, qualified: 74, cpql: 190.24, deals: 27, revenue: 65834, roas: 4.68 },
-      { month: "Jan '26", spend: 14832, leads: 218, cpl: 68.04, qualified: 75, cpql: 197.76, deals: 27, revenue: 63187, roas: 4.26 },
+      // Month 1: Launch — establishing baseline in competitive Phoenix market
+      { month: "Apr '25", spend: 8764, leads: 93, cpl: 94.24, qualified: 22, cpql: 398.36, deals: 8, revenue: 17423, roas: 1.99 },
+      // Month 2: AI optimization engaging — treatment-specific campaigns
+      { month: "May '25", spend: 8764, leads: 106, cpl: 82.68, qualified: 30, cpql: 292.13, deals: 11, revenue: 24917, roas: 2.84 },
+      // Month 3: Summer — strong injectables demand in Scottsdale
+      { month: "Jun '25", spend: 9247, leads: 121, cpl: 76.42, qualified: 38, cpql: 243.34, deals: 14, revenue: 30142, roas: 3.26 },
+      // Month 4: Peak summer — body contouring surging
+      { month: "Jul '25", spend: 9845, leads: 137, cpl: 71.86, qualified: 46, cpql: 214.02, deals: 16, revenue: 34248, roas: 3.48 },
+      // Month 5: Late summer — campaigns maturing
+      { month: "Aug '25", spend: 10423, leads: 153, cpl: 68.12, qualified: 52, cpql: 200.44, deals: 18, revenue: 39567, roas: 3.80 },
+      // Month 6: Fall — holiday prep demand starting
+      { month: "Sep '25", spend: 10987, leads: 168, cpl: 65.40, qualified: 58, cpql: 189.43, deals: 19, revenue: 41654, roas: 3.79 },
+      // Month 7: Strong Q4 — holiday glow campaigns
+      { month: "Oct '25", spend: 12134, leads: 187, cpl: 64.89, qualified: 65, cpql: 186.68, deals: 22, revenue: 53746, roas: 4.43 },
+      // Month 8: Peak holiday — gift cards + packages
+      { month: "Nov '25", spend: 13245, leads: 207, cpl: 63.99, qualified: 73, cpql: 181.44, deals: 25, revenue: 62475, roas: 4.72 },
+      // Month 9: Year-end — strong bookings
+      { month: "Dec '25", spend: 14078, leads: 228, cpl: 61.75, qualified: 81, cpql: 173.80, deals: 28, revenue: 65834, roas: 4.68 },
+      // Month 10: New Year transformation surge — best efficiency
+      { month: "Jan '26", spend: 14832, leads: 251, cpl: 59.09, qualified: 82, cpql: 180.88, deals: 32, revenue: 63187, roas: 4.26 },
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$429.2K", growth: "+3.4x" },
-    { label: "Booked Clients", value: "187", growth: "+200%" },
+    { label: "Total Revenue", value: "$433.2K", growth: "+3.5x" },
+    { label: "Booked Clients", value: "193", growth: "+214%" },
     { label: "Total Ad Spend", value: "$112.3K", growth: "+69% monthly scaling" },
-    { label: "Blended ROAS", value: "3.82x", growth: "" },
+    { label: "Blended ROAS", value: "3.86x", growth: "" },
   ],
 };

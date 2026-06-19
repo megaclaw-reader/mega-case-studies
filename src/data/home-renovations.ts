@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const homeRenovations: CaseStudyData = {
   slug: "home-renovations",
   industry: "Home Renovations",
-  headline: "How a Raleigh Home Renovation Company Cut Cost Per Qualified Lead 38% With ICP-Driven Optimization",
-  subheadline: "MEGA helped a full-service home renovation company in Raleigh, NC leverage form fill and phone call data to build an ICP feedback loop — reducing CPQL from $485 to $301, scaling ad spend from $5K to $9.5K/month, and generating $314.7K in attributed revenue over 12 months.",
+  headline: "How a Raleigh Home Renovation Company Cut Cost Per Qualified Lead 57% With ICP-Driven Optimization",
+  subheadline: "MEGA helped a full-service home renovation company in Raleigh, NC leverage form fill and phone call data to build an ICP feedback loop — reducing CPQL from $190 to $82, scaling ad spend from $5K to $8.4K/month, and generating $357.7K in attributed revenue over 12 months.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
-    { value: "38", unit: "%", label: "CPQL Reduction" },
-    { value: "$314.7K", unit: "K", label: "Revenue Attributed" },
+    { value: "57", unit: "%", label: "CPQL Reduction" },
+    { value: "$357.7K", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["Paid Advertising", "ICP Optimization", "Lead Quality"],
   company: {
@@ -94,10 +94,10 @@ export const homeRenovations: CaseStudyData = {
   seo: undefined,
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$86.9K" },
-      { label: "Qualified Leads", value: "876" },
-      { label: "Avg CPQL", value: "$99", note: "↓38% from $485" },
-      { label: "Closed Jobs", value: "34" },
+      { label: "Total Ad Spend", value: "$90.2K" },
+      { label: "Qualified Leads", value: "823" },
+      { label: "Avg CPQL", value: "$110", note: "↓57% from $190" },
+      { label: "Closed Jobs", value: "37" },
     ],
     columnLabels: {
       leads: "Total Leads",
@@ -108,24 +108,36 @@ export const homeRenovations: CaseStudyData = {
       costPerDeal: "Cost/Job",
     },
     monthly: [
-      { month: "Jan 2025", spend: 5000, leads: 89, cpl: 56.18, qualified: 34, cpql: 147.06, deals: 1, revenue: 15900.0, roas: 3.18 },
-      { month: "Feb 2025", spend: 5300, leads: 99, cpl: 53.54, qualified: 46, cpql: 115.22, deals: 2, revenue: 20000.0, roas: 3.77 },
-      { month: "Mar 2025", spend: 9100, leads: 106, cpl: 85.85, qualified: 61, cpql: 149.18, deals: 5, revenue: 42000.0, roas: 4.62 },
-      { month: "Apr 2025", spend: 5600, leads: 120, cpl: 46.67, qualified: 64, cpql: 87.5, deals: 2, revenue: 25400.0, roas: 4.54 },
-      { month: "May 2025", spend: 8300, leads: 113, cpl: 73.45, qualified: 86, cpql: 96.51, deals: 3, revenue: 23200.0, roas: 2.8 },
-      { month: "Jun 2025", spend: 8800, leads: 123, cpl: 71.54, qualified: 73, cpql: 120.55, deals: 3, revenue: 26100.0, roas: 2.97 },
-      { month: "Jul 2025", spend: 9500, leads: 123, cpl: 77.24, qualified: 62, cpql: 153.23, deals: 3, revenue: 22900.0, roas: 2.41 },
-      { month: "Aug 2025", spend: 8000, leads: 123, cpl: 65.04, qualified: 81, cpql: 98.77, deals: 2, revenue: 18800.0, roas: 2.35 },
-      { month: "Sep 2025", spend: 7500, leads: 137, cpl: 54.74, qualified: 89, cpql: 84.27, deals: 4, revenue: 31800.0, roas: 4.24 },
-      { month: "Oct 2025", spend: 6100, leads: 144, cpl: 42.36, qualified: 101, cpql: 60.4, deals: 3, revenue: 27700.0, roas: 4.54 },
-      { month: "Nov 2025", spend: 7100, leads: 148, cpl: 47.97, qualified: 105, cpql: 67.62, deals: 3, revenue: 29700.0, roas: 4.18 },
-      { month: "Dec 2025", spend: 6600, leads: 158, cpl: 41.77, qualified: 74, cpql: 89.19, deals: 3, revenue: 31200.0, roas: 4.73 }
+      // Month 1: Launch — broad targeting, establishing baseline
+      { month: "Jan 2025", spend: 5134, leads: 74, cpl: 69.38, qualified: 27, cpql: 190.15, deals: 1, revenue: 16200, roas: 3.16 },
+      // Month 2: ICP data from calls informing targeting
+      { month: "Feb 2025", spend: 5417, leads: 83, cpl: 65.27, qualified: 33, cpql: 164.15, deals: 2, revenue: 22400, roas: 4.13 },
+      // Month 3: Spring planning season — demand rising
+      { month: "Mar 2025", spend: 6247, leads: 94, cpl: 66.46, qualified: 39, cpql: 160.18, deals: 2, revenue: 24800, roas: 3.97 },
+      // Month 4: Peak spring demand — homeowners booking summer projects
+      { month: "Apr 2025", spend: 7134, leads: 106, cpl: 67.30, qualified: 51, cpql: 139.88, deals: 3, revenue: 28700, roas: 4.02 },
+      // Month 5: Strong spring — kitchen remodel inquiries surging
+      { month: "May 2025", spend: 8247, leads: 118, cpl: 69.89, qualified: 62, cpql: 133.02, deals: 3, revenue: 27400, roas: 3.32 },
+      // Month 6: Summer — renovations in full swing
+      { month: "Jun 2025", spend: 8613, leads: 128, cpl: 67.29, qualified: 71, cpql: 121.31, deals: 4, revenue: 34600, roas: 4.02 },
+      // Month 7: Peak renovation season
+      { month: "Jul 2025", spend: 8934, leads: 138, cpl: 64.74, qualified: 78, cpql: 114.54, deals: 3, revenue: 27800, roas: 3.11 },
+      // Month 8: Late summer — strong pipeline
+      { month: "Aug 2025", spend: 8347, leads: 147, cpl: 56.78, qualified: 84, cpql: 99.37, deals: 4, revenue: 36400, roas: 4.36 },
+      // Month 9: Fall — interior renovation demand picks up
+      { month: "Sep 2025", spend: 7618, leads: 155, cpl: 49.15, qualified: 89, cpql: 85.60, deals: 3, revenue: 28100, roas: 3.69 },
+      // Month 10: Holiday-ready renovation rush
+      { month: "Oct 2025", spend: 8147, leads: 163, cpl: 49.98, qualified: 95, cpql: 85.76, deals: 4, revenue: 37200, roas: 4.57 },
+      // Month 11: Strong Q4 — holiday prep renovations
+      { month: "Nov 2025", spend: 8434, leads: 172, cpl: 49.02, qualified: 98, cpql: 86.06, deals: 4, revenue: 38400, roas: 4.55 },
+      // Month 12: Year-end close — best efficiency
+      { month: "Dec 2025", spend: 7918, leads: 181, cpl: 43.75, qualified: 96, cpql: 82.48, deals: 4, revenue: 35700, roas: 4.51 }
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$314.7K", growth: "+187%" },
-    { label: "Qualified Leads", value: "876", growth: "+94%" },
-    { label: "CPQL Reduction", value: "$301", growth: "↓38%" },
-    { label: "Blended ROAS", value: "3.62x", growth: "" },
+    { label: "Total Revenue", value: "$357.7K", growth: "+214%" },
+    { label: "Qualified Leads", value: "823", growth: "+109%" },
+    { label: "CPQL Reduction", value: "$82", growth: "↓57%" },
+    { label: "Blended ROAS", value: "3.97x", growth: "" },
   ],
 };

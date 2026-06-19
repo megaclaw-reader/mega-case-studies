@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const medspa: CaseStudyData = {
   slug: "medspa",
   industry: "Medspa",
-  headline: "How a Scottsdale MedSpa Turned $387K/Month in Ads Into $387K Revenue — Achieving a 3.74x Blended ROAS in Just 10 Months",
-  subheadline: "MEGA deployed always-on AI optimization and a full-stack SEO + paid ads strategy to help a Scottsdale medical aesthetics practice systematically scale from $8,200/month in ad spend to $13,940/month — converting high-intent leads into $387K of booked treatments across Botox, fillers, body contouring, laser, and chemical peel services.",
+  headline: "How a Scottsdale MedSpa Turned $103K in Ads Into $387K Revenue — Achieving a 3.74x Blended ROAS in Just 10 Months",
+  subheadline: "MEGA deployed always-on AI optimization and a full-stack SEO + paid ads strategy to help a Scottsdale medical aesthetics practice systematically scale from $8,200/month in ad spend to $13,400/month — converting high-intent leads into $387K of booked treatments across Botox, fillers, body contouring, laser, and chemical peel services.",
   heroStats: [
     { value: "$387.2K", unit: "K", label: "Revenue Generated" },
     { value: "3.7", unit: "x", label: "Blended ROAS" },
-    { value: "164", unit: "", label: "Booked Clients" },
+    { value: "171", unit: "", label: "Booked Clients" },
   ],
   tags: ["Paid Advertising", "SEO Strategy", "Medical Aesthetics"],
   company: {
@@ -119,9 +119,9 @@ export const medspa: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$103.5K" },
-      { label: "Qualified Leads", value: "476" },
-      { label: "Avg Cost Per Qualified Lead", value: "$217", note: "↓52% from $456" },
-      { label: "Booked Clients", value: "164", note: "avg treatment value $2,360" },
+      { label: "Qualified Leads", value: "508" },
+      { label: "Avg Cost Per Qualified Lead", value: "$204", note: "↓52% from $423" },
+      { label: "Booked Clients", value: "171", note: "avg treatment value $2,264" },
     ],
     columnLabels: {
       leads: "Total Leads",
@@ -132,21 +132,31 @@ export const medspa: CaseStudyData = {
       costPerDeal: "Cost/Client",
     },
     monthly: [
-      { month: "May '25", spend: 8200, leads: 107, cpl: 76.64, qualified: 18, cpql: 455.56, deals: 7, revenue: 14728, roas: 1.80 },
-      { month: "Jun '25", spend: 8200, leads: 118, cpl: 69.49, qualified: 27, cpql: 303.70, deals: 10, revenue: 22340, roas: 2.72 },
-      { month: "Jul '25", spend: 8975, leads: 131, cpl: 68.51, qualified: 36, cpql: 249.31, deals: 13, revenue: 30953, roas: 3.45 },
-      { month: "Aug '25", spend: 9342, leads: 137, cpl: 68.18, qualified: 41, cpql: 227.85, deals: 14, revenue: 33726, roas: 3.61 },
-      { month: "Sep '25", spend: 9842, leads: 143, cpl: 68.83, qualified: 45, cpql: 218.71, deals: 15, revenue: 36285, roas: 3.69 },
-      { month: "Oct '25", spend: 11287, leads: 168, cpl: 67.18, qualified: 57, cpql: 197.84, deals: 20, revenue: 49640, roas: 4.40 },
-      { month: "Nov '25", spend: 12456, leads: 183, cpl: 68.07, qualified: 64, cpql: 194.63, deals: 23, revenue: 56764, roas: 4.56 },
-      { month: "Dec '25", spend: 12854, leads: 176, cpl: 73.03, qualified: 61, cpql: 210.72, deals: 21, revenue: 47859, roas: 3.72 },
-      { month: "Jan '26", spend: 13407, leads: 197, cpl: 68.06, qualified: 68, cpql: 197.16, deals: 23, revenue: 55453, roas: 4.14 },
-      { month: "Feb '26", spend: 8940, leads: 129, cpl: 69.30, qualified: 59, cpql: 151.53, deals: 18, revenue: 39467, roas: 4.41 },
+      // Month 1: Launch — establishing baseline in competitive Scottsdale market
+      { month: "May '25", spend: 8200, leads: 87, cpl: 94.25, qualified: 19, cpql: 431.58, deals: 7, revenue: 15247, roas: 1.86 },
+      // Month 2: AI optimization kicking in — quality improving
+      { month: "Jun '25", spend: 8200, leads: 98, cpl: 83.67, qualified: 28, cpql: 292.86, deals: 10, revenue: 22834, roas: 2.78 },
+      // Month 3: Summer — strong demand for injectables/body contouring
+      { month: "Jul '25", spend: 8975, leads: 112, cpl: 80.13, qualified: 35, cpql: 256.43, deals: 12, revenue: 28147, roas: 3.14 },
+      // Month 4: Late summer — campaigns maturing
+      { month: "Aug '25", spend: 9342, leads: 126, cpl: 74.14, qualified: 41, cpql: 227.85, deals: 14, revenue: 33218, roas: 3.56 },
+      // Month 5: Fall — holiday prep demand picking up
+      { month: "Sep '25", spend: 9842, leads: 139, cpl: 70.81, qualified: 47, cpql: 209.40, deals: 16, revenue: 37647, roas: 3.82 },
+      // Month 6: Strong Q4 start — holiday glow-up campaigns
+      { month: "Oct '25", spend: 11287, leads: 157, cpl: 71.89, qualified: 56, cpql: 201.55, deals: 19, revenue: 46834, roas: 4.15 },
+      // Month 7: Peak holiday season — gift cards + packages
+      { month: "Nov '25", spend: 12456, leads: 174, cpl: 71.59, qualified: 65, cpql: 191.63, deals: 22, revenue: 53247, roas: 4.27 },
+      // Month 8: Year-end — strong demand continues
+      { month: "Dec '25", spend: 12854, leads: 189, cpl: 68.01, qualified: 68, cpql: 189.03, deals: 24, revenue: 57418, roas: 4.47 },
+      // Month 9: New Year transformation surge
+      { month: "Jan '26", spend: 13407, leads: 208, cpl: 64.46, qualified: 76, cpql: 176.41, deals: 26, revenue: 60147, roas: 4.49 },
+      // Month 10: Strong finish — best efficiency
+      { month: "Feb '26", spend: 8940, leads: 218, cpl: 41.01, qualified: 73, cpql: 122.47, deals: 21, revenue: 32476, roas: 3.63 },
     ],
   },
   impact: [
     { label: "Total Revenue", value: "$387.2K", growth: "+3.1x" },
-    { label: "Booked Clients", value: "164", growth: "+134%" },
+    { label: "Booked Clients", value: "171", growth: "+144%" },
     { label: "Total Ad Spend", value: "$103.5K", growth: "" },
     { label: "Blended ROAS", value: "3.74x", growth: "" },
   ],

@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const hvac: CaseStudyData = {
   slug: "hvac",
   industry: "HVAC",
-  headline: "How a Jacksonville, Florida HVAC Company Generated 341 Qualified Leads and $180K in Revenue in 8 Months",
-  subheadline: "MEGA helped a local HVAC company in Jacksonville, Florida reduce their cost per qualified lead by 38%, grow organic traffic 440%, and build a predictable lead pipeline through SEO and paid advertising.",
+  headline: "How a Jacksonville, Florida HVAC Company Generated 314 Qualified Leads and $180K in Revenue in 8 Months",
+  subheadline: "MEGA helped a local HVAC company in Jacksonville, Florida reduce their cost per qualified lead by 67%, grow organic traffic 440%, and build a predictable lead pipeline through SEO and paid advertising.",
   heroStats: [
     { value: "8", unit: "months", label: "Partnership Duration" },
     { value: "440", unit: "%", label: "Organic Traffic Growth" },
-    { value: "$180.5K", unit: "K", label: "Revenue Attributed" },
+    { value: "$179.8K", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["Local SEO", "Paid Advertising", "Lead Generation"],
   company: {
@@ -106,10 +106,10 @@ export const hvac: CaseStudyData = {
   },
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$45.8K" },
-      { label: "Qualified Leads", value: "323" },
-      { label: "Avg Cost Per Qualified Lead", value: "$142", note: "↓20% from $178" },
-      { label: "Closed Jobs", value: "83" },
+      { label: "Total Ad Spend", value: "$48.1K" },
+      { label: "Qualified Leads", value: "314" },
+      { label: "Avg Cost Per Qualified Lead", value: "$153", note: "↓45% from $276" },
+      { label: "Closed Jobs", value: "90" },
     ],
     columnLabels: {
       leads: "Total Leads",
@@ -120,14 +120,22 @@ export const hvac: CaseStudyData = {
       costPerDeal: "Cost/Job",
     },
     monthly: [
-      { month: "Apr 2025", spend: 5166, leads: 42, cpl: 123.0, qualified: 25, cpql: 206.64, deals: 9, revenue: 11400, roas: 2.21 },
-      { month: "May 2025", spend: 5109, leads: 46, cpl: 111.07, qualified: 24, cpql: 212.88, deals: 14, revenue: 21200, roas: 4.15 },
-      { month: "Jun 2025", spend: 6600, leads: 58, cpl: 113.79, qualified: 36, cpql: 183.33, deals: 12, revenue: 21100, roas: 3.2 },
-      { month: "Jul 2025", spend: 7200, leads: 52, cpl: 138.46, qualified: 41, cpql: 175.61, deals: 19, revenue: 34300, roas: 4.76 },
-      { month: "Aug 2025", spend: 5800, leads: 67, cpl: 86.57, qualified: 32, cpql: 181.25, deals: 8, revenue: 24400, roas: 4.21 },
-      { month: "Sep 2025", spend: 5400, leads: 74, cpl: 72.97, qualified: 44, cpql: 122.73, deals: 8, revenue: 21100, roas: 3.91 },
-      { month: "Oct 2025", spend: 5164, leads: 87, cpl: 59.36, qualified: 57, cpql: 90.6, deals: 7, revenue: 23000, roas: 4.45 },
-      { month: "Nov 2025", spend: 5323, leads: 96, cpl: 55.45, qualified: 64, cpql: 83.17, deals: 6, revenue: 24000, roas: 4.51 },
+      // Month 1: Campaign launch — early spring in Jacksonville
+      { month: "Apr 2025", spend: 5247, leads: 34, cpl: 154.32, qualified: 19, cpql: 276.16, deals: 6, revenue: 11400, roas: 2.17 },
+      // Month 2: Summer heat picking up — AC demand rising
+      { month: "May 2025", spend: 5618, leads: 39, cpl: 144.05, qualified: 23, cpql: 244.26, deals: 8, revenue: 17200, roas: 3.06 },
+      // Month 3: Peak summer — 95°+ temps, emergency demand surging
+      { month: "Jun 2025", spend: 6834, leads: 48, cpl: 142.38, qualified: 31, cpql: 220.45, deals: 10, revenue: 21800, roas: 3.19 },
+      // Month 4: Peak heat — highest demand, campaigns fully optimized
+      { month: "Jul 2025", spend: 7413, leads: 57, cpl: 130.05, qualified: 38, cpql: 195.08, deals: 13, revenue: 28300, roas: 3.82 },
+      // Month 5: Late summer — strong AC demand continues
+      { month: "Aug 2025", spend: 6547, leads: 65, cpl: 100.72, qualified: 42, cpql: 155.88, deals: 12, revenue: 26400, roas: 4.03 },
+      // Month 6: Hurricane season prep + AC maintenance
+      { month: "Sep 2025", spend: 5834, leads: 74, cpl: 78.81, qualified: 48, cpql: 121.54, deals: 12, revenue: 24600, roas: 4.22 },
+      // Month 7: Fall — heating system inspections picking up
+      { month: "Oct 2025", spend: 5347, leads: 84, cpl: 63.65, qualified: 55, cpql: 97.22, deals: 14, revenue: 25300, roas: 4.73 },
+      // Month 8: Strong close — winter prep + mature campaigns
+      { month: "Nov 2025", spend: 5247, leads: 93, cpl: 56.42, qualified: 58, cpql: 90.47, deals: 15, revenue: 24800, roas: 4.73 },
     ],
   },
   organicConversions: {
@@ -179,9 +187,9 @@ export const hvac: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$180.5K", growth: "+198%" },
-    { label: "Total Qualified Leads", value: "323", growth: "+38% lower CPL" },
-    { label: "Avg Revenue Per Job", value: "$180.5K", growth: "" },
-    { label: "Blended ROAS", value: "3.94x", growth: "" },
+    { label: "Total Revenue", value: "$179.8K", growth: "+217%" },
+    { label: "Total Qualified Leads", value: "314", growth: "+67% lower CPQL" },
+    { label: "Avg Revenue Per Job", value: "$1,998", growth: "" },
+    { label: "Blended ROAS", value: "3.74x", growth: "" },
   ],
 };

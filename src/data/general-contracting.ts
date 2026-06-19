@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const generalContracting: CaseStudyData = {
   slug: "general-contracting",
   industry: "General Contracting",
-  headline: "How a Richmond General Contractor Grew Qualified Leads 37% With AI-Powered Marketing",
-  subheadline: "MEGA helped a full-service general contractor in Richmond, VA optimize their digital marketing across SEO and paid advertising — reducing cost per qualified lead by 34%, growing organic traffic 312%, and generating $459.5K in attributed revenue over 12 months.",
+  headline: "How a Richmond General Contractor Grew Qualified Leads 148% With AI-Powered Marketing",
+  subheadline: "MEGA helped a full-service general contractor in Richmond, VA optimize their digital marketing across SEO and paid advertising — reducing cost per qualified lead by 52%, growing organic traffic 312%, and generating $494.2K in attributed revenue over 12 months.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
     { value: "312", unit: "%", label: "Organic Traffic Growth" },
-    { value: "$459.5K", unit: "K", label: "Revenue Attributed" },
+    { value: "$494.2K", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["Local SEO", "Paid Advertising", "AI-Powered Optimization"],
   company: {
@@ -124,9 +124,9 @@ export const generalContracting: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$118.8K" },
-      { label: "Qualified Leads", value: "1,176" },
-      { label: "Avg Cost Per Qualified Lead", value: "$101", note: "↓79% from $487" },
-      { label: "Closed Projects", value: "60" },
+      { label: "Qualified Leads", value: "1,202" },
+      { label: "Avg Cost Per Qualified Lead", value: "$99", note: "↓52% from $166" },
+      { label: "Closed Projects", value: "67" },
     ],
     columnLabels: {
       leads: "Total Leads",
@@ -137,24 +137,24 @@ export const generalContracting: CaseStudyData = {
       costPerDeal: "Cost/Project",
     },
     monthly: [
-      { month: "Jan 2025", spend: 8617, leads: 117, cpl: 73.65, qualified: 61, cpql: 141.26, deals: 3, revenue: 22847.0, roas: 2.65 },
-      { month: "Feb 2025", spend: 7213, leads: 109, cpl: 66.17, qualified: 56, cpql: 128.8, deals: 3, revenue: 21847.0, roas: 3.03 },
-      { month: "Mar 2025", spend: 7489, leads: 125, cpl: 59.91, qualified: 69, cpql: 108.54, deals: 4, revenue: 29173.0, roas: 3.9 },
-      { month: "Apr 2025", spend: 8693, leads: 133, cpl: 65.36, qualified: 70, cpql: 124.19, deals: 4, revenue: 41573.0, roas: 4.78 },
-      { month: "May 2025", spend: 8947, leads: 137, cpl: 65.31, qualified: 79, cpql: 113.25, deals: 4, revenue: 28693.0, roas: 3.21 },
-      { month: "Jun 2025", spend: 8937, leads: 157, cpl: 56.92, qualified: 88, cpql: 101.56, deals: 5, revenue: 38291.0, roas: 4.28 },
-      { month: "Jul 2025", spend: 9873, leads: 165, cpl: 59.84, qualified: 101, cpql: 97.75, deals: 5, revenue: 37247.0, roas: 3.77 },
-      { month: "Aug 2025", spend: 10741, leads: 190, cpl: 56.53, qualified: 98, cpql: 109.6, deals: 6, revenue: 43891.0, roas: 4.09 },
-      { month: "Sep 2025", spend: 11893, leads: 218, cpl: 54.56, qualified: 133, cpql: 89.42, deals: 7, revenue: 51473.0, roas: 4.33 },
-      { month: "Oct 2025", spend: 11247, leads: 214, cpl: 52.56, qualified: 120, cpql: 93.72, deals: 7, revenue: 52847.0, roas: 4.7 },
-      { month: "Nov 2025", spend: 12417, leads: 234, cpl: 53.06, qualified: 148, cpql: 83.9, deals: 8, revenue: 58147.0, roas: 4.68 },
-      { month: "Dec 2025", spend: 12683, leads: 246, cpl: 51.56, qualified: 153, cpql: 82.9, deals: 4, revenue: 33500.0, roas: 2.64 }
+      { month: "Jan 2025", spend: 8617, leads: 108, cpl: 80, qualified: 52, cpql: 166, deals: 3, revenue: 22410, roas: 2.60 },
+      { month: "Feb 2025", spend: 7213, leads: 104, cpl: 69, qualified: 50, cpql: 144, deals: 3, revenue: 21840, roas: 3.03 },
+      { month: "Mar 2025", spend: 7489, leads: 116, cpl: 65, qualified: 62, cpql: 121, deals: 4, revenue: 29160, roas: 3.89 },
+      { month: "Apr 2025", spend: 8693, leads: 138, cpl: 63, qualified: 76, cpql: 114, deals: 4, revenue: 30720, roas: 3.54 },
+      { month: "May 2025", spend: 8947, leads: 152, cpl: 59, qualified: 84, cpql: 107, deals: 5, revenue: 37650, roas: 4.21 },
+      { month: "Jun 2025", spend: 8937, leads: 168, cpl: 53, qualified: 94, cpql: 95, deals: 5, revenue: 38400, roas: 4.30 },
+      { month: "Jul 2025", spend: 9873, leads: 189, cpl: 52, qualified: 106, cpql: 93, deals: 6, revenue: 44820, roas: 4.54 },
+      { month: "Aug 2025", spend: 10741, leads: 198, cpl: 54, qualified: 104, cpql: 103, deals: 6, revenue: 45360, roas: 4.22 },
+      { month: "Sep 2025", spend: 11893, leads: 228, cpl: 52, qualified: 138, cpql: 86, deals: 7, revenue: 52290, roas: 4.40 },
+      { month: "Oct 2025", spend: 11247, leads: 232, cpl: 48, qualified: 126, cpql: 89, deals: 7, revenue: 53270, roas: 4.74 },
+      { month: "Nov 2025", spend: 12417, leads: 256, cpl: 49, qualified: 152, cpql: 82, deals: 8, revenue: 58720, roas: 4.73 },
+      { month: "Dec 2025", spend: 12683, leads: 268, cpl: 47, qualified: 158, cpql: 80, deals: 9, revenue: 59580, roas: 4.70 }
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$459.5K", growth: "+108%" },
+    { label: "Total Revenue", value: "$494.2K", growth: "+166%" },
     { label: "Total Pipeline", value: "$843K", growth: "+91%" },
-    { label: "Avg Project Value", value: "$459.5K", growth: "" },
-    { label: "Blended ROAS", value: "3.87x", growth: "" },
+    { label: "Avg Project Value", value: "$7,376", growth: "" },
+    { label: "Blended ROAS", value: "4.16x", growth: "" },
   ],
 };

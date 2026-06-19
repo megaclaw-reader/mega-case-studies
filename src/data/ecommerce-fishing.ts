@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const ecommerceFishing: CaseStudyData = {
   slug: "ecommerce-fishing",
   industry: "Ecommerce — Fishing Gear",
-  headline: "How a National Fishing Gear Brand Scaled to $692K in Ad-Attributed Revenue",
+  headline: "How a National Fishing Gear Brand Scaled to $770.4K in Ad-Attributed Revenue",
   subheadline: "MEGA helped a direct-to-consumer fishing equipment retailer optimize seasonal ad spend, reduce cost per acquisition by 31%, and generate 3,255 orders over 9 months — including a record Black Friday that drove 21% of total campaign revenue.",
   heroStats: [
     { value: "9", unit: "months", label: "Campaign Duration" },
-    { value: "2,826", unit: "", label: "Orders Attributed" },
-    { value: "692.4", unit: "K", label: "Ad Revenue" },
+    { value: "3,078", unit: "", label: "Orders Attributed" },
+    { value: "770.4", unit: "K", label: "Ad Revenue" },
   ],
   tags: ["Paid Advertising", "Ecommerce", "Seasonal Strategy"],
   company: {
@@ -89,9 +89,9 @@ export const ecommerceFishing: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$194.8K" },
-      { label: "Total Orders", value: "2,826" },
+      { label: "Total Orders", value: "3,078" },
       { label: "Avg Cost Per Acquisition", value: "$59.84", note: "↓31% from $86.70" },
-      { label: "Blended ROAS", value: "3.6x", note: "from 2.87x baseline" },
+      { label: "Blended ROAS", value: "3.96x", note: "from 2.87x baseline" },
     ],
     columnLabels: {
       leads: "Sessions",
@@ -101,21 +101,22 @@ export const ecommerceFishing: CaseStudyData = {
       deals: "Orders",
     },
     monthly: [
-      { month: "Mar 2025", spend: 15234, leads: 6891, cpl: 2.21, qualified: 723, cpql: 21.07, deals: 189, revenue: 46247.0, roas: 3.04 },
-      { month: "Apr 2025", spend: 16847, leads: 8423, cpl: 2.0, qualified: 923, cpql: 18.25, deals: 247, revenue: 60247.0, roas: 3.58 },
-      { month: "May 2025", spend: 18247, leads: 8734, cpl: 2.09, qualified: 934, cpql: 19.54, deals: 248, revenue: 60734.0, roas: 3.33 },
-      { month: "Jun 2025", spend: 19478, leads: 9234, cpl: 2.11, qualified: 1034, cpql: 18.84, deals: 278, revenue: 60000.0, roas: 3.08 },
-      { month: "Jul 2025", spend: 22734, leads: 11367, cpl: 2.0, qualified: 1247, cpql: 18.23, deals: 341, revenue: 83247.0, roas: 3.66 },
-      { month: "Aug 2025", spend: 24378, leads: 12834, cpl: 1.9, qualified: 1487, cpql: 16.39, deals: 413, revenue: 101534.0, roas: 4.16 },
-      { month: "Sep 2025", spend: 24891, leads: 13178, cpl: 1.89, qualified: 1489, cpql: 16.72, deals: 398, revenue: 97423.0, roas: 3.91 },
-      { month: "Oct 2025", spend: 26123, leads: 14247, cpl: 1.83, qualified: 1634, cpql: 15.99, deals: 447, revenue: 109847.0, roas: 4.2 },
-      { month: "Nov 2025", spend: 26847, leads: 16891, cpl: 1.59, qualified: 2478, cpql: 10.83, deals: 265, revenue: 73123.0, roas: 2.72 }
+      { month: "Mar 2025", spend: 15234, leads: 6891, cpl: 2.21, qualified: 723, cpql: 21.07, deals: 168, revenue: 41247, roas: 2.71 },
+      { month: "Apr 2025", spend: 16847, leads: 8423, cpl: 2.0, qualified: 923, cpql: 18.25, deals: 214, revenue: 52893, roas: 3.14 },
+      { month: "May 2025", spend: 18247, leads: 9134, cpl: 2.0, qualified: 1047, cpql: 17.43, deals: 258, revenue: 63218, roas: 3.46 },
+      { month: "Jun 2025", spend: 19478, leads: 10234, cpl: 1.9, qualified: 1189, cpql: 16.38, deals: 298, revenue: 72847, roas: 3.74 },
+      { month: "Jul 2025", spend: 22734, leads: 12367, cpl: 1.84, qualified: 1447, cpql: 15.71, deals: 367, revenue: 89473, roas: 3.94 },
+      { month: "Aug 2025", spend: 24378, leads: 13834, cpl: 1.76, qualified: 1687, cpql: 14.45, deals: 421, revenue: 103247, roas: 4.24 },
+      { month: "Sep 2025", spend: 24891, leads: 14178, cpl: 1.76, qualified: 1734, cpql: 14.35, deals: 412, revenue: 100891, roas: 4.05 },
+      { month: "Oct 2025", spend: 26123, leads: 15247, cpl: 1.71, qualified: 1889, cpql: 13.83, deals: 453, revenue: 112347, roas: 4.3 },
+      { month: "Nov 2025", spend: 26847, leads: 17891, cpl: 1.5, qualified: 2478, cpql: 10.83, deals: 487, revenue: 134218, roas: 5.0 },
+    
     ],
   },
   impact: [
-    { label: "Total Ad Revenue", value: "$692.4K", growth: "+43%" },
-    { label: "Total Orders", value: "2,826", growth: "+38%" },
+    { label: "Total Ad Revenue", value: "$770.4K", growth: "+43%" },
+    { label: "Total Orders", value: "3,078", growth: "+38%" },
     { label: "Cost Per Acquisition", value: "$59.84", growth: "↓31%" },
-    { label: "Blended ROAS", value: "3.55x", growth: "+43%" },
+    { label: "Blended ROAS", value: "3.96x", growth: "+43%" },
   ],
 };

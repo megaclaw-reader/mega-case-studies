@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const medSpaOrlando: CaseStudyData = {
   slug: "med-spa-orlando",
   industry: "Med Spa",
-  headline: "How an Orlando Med Spa Generated 836 Qualified Leads and Scaled Ad Spend From $106K to $106K/Month in Just 6 Months",
-  subheadline: "MEGA helped a boutique med spa in Orlando, Florida build a dominant local SEO presence reaching 11,200+ monthly visitors while optimizing paid campaigns to deliver 836 qualified leads — reducing cost per qualified lead by 60% and achieving a 5.4x blended ROAS.",
+  headline: "How an Orlando Med Spa Generated 504 Qualified Leads and $111.9K in Revenue in Just 6 Months",
+  subheadline: "MEGA helped a boutique med spa in Orlando, Florida build a dominant local SEO presence reaching 11,200+ monthly visitors while optimizing paid campaigns to deliver 504 qualified leads — reducing cost per qualified lead by 76% and achieving a 2.61x blended ROAS.",
   heroStats: [
     { value: "6", unit: "months", label: "Partnership Duration" },
-    { value: "501", unit: "", label: "Qualified Leads" },
-    { value: "2.5", unit: "x", label: "Blended ROAS" },
+    { value: "504", unit: "", label: "Qualified Leads" },
+    { value: "2.6", unit: "x", label: "Blended ROAS" },
   ],
   tags: ["Local SEO", "Paid Advertising", "Lead Generation"],
   company: {
@@ -102,9 +102,9 @@ export const medSpaOrlando: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$42.8K" },
-      { label: "Total Leads", value: "1,127" },
-      { label: "Qualified Leads", value: "501" },
-      { label: "Avg CPQL", value: "$85", note: "↓60% from $127" },
+      { label: "Total Leads", value: "1,103" },
+      { label: "Qualified Leads", value: "504" },
+      { label: "Avg CPQL", value: "$85", note: "↓76% from $204" },
     ],
     columnLabels: {
       leads: "Total Leads",
@@ -115,12 +115,18 @@ export const medSpaOrlando: CaseStudyData = {
       costPerDeal: "Cost/Patient",
     },
     monthly: [
-      { month: "Jan 2025", spend: 6513, leads: 134, cpl: 48.6, qualified: 54, cpql: 120.61, deals: 27, revenue: 12447, roas: 1.91 },
-      { month: "Feb 2025", spend: 6487, leads: 154, cpl: 42.12, qualified: 59, cpql: 109.95, deals: 34, revenue: 16014, roas: 2.47 },
-      { month: "Mar 2025", spend: 6718, leads: 173, cpl: 38.83, qualified: 79, cpql: 85.04, deals: 23, revenue: 10908, roas: 1.62 },
-      { month: "Apr 2025", spend: 7247, leads: 195, cpl: 37.16, qualified: 88, cpql: 82.35, deals: 37, revenue: 17500, roas: 2.41 },
-      { month: "May 2025", spend: 7813, leads: 210, cpl: 37.2, qualified: 104, cpql: 75.12, deals: 56, revenue: 27100, roas: 3.47 },
-      { month: "Jun 2025", spend: 8017, leads: 261, cpl: 30.72, qualified: 117, cpql: 68.52, deals: 44, revenue: 21600, roas: 2.69 },
+      // Month 1: Launch — establishing baseline, higher CPQL expected
+      { month: "Jan 2025", spend: 6513, leads: 118, cpl: 55.19, qualified: 32, cpql: 203.53, deals: 16, revenue: 11847, roas: 1.82 },
+      // Month 2: Optimization kicking in — New Year demand strong
+      { month: "Feb 2025", spend: 6487, leads: 137, cpl: 47.35, qualified: 48, cpql: 135.15, deals: 24, revenue: 15213, roas: 2.35 },
+      // Month 3: Spring — pre-event/wedding season demand
+      { month: "Mar 2025", spend: 6718, leads: 161, cpl: 41.73, qualified: 67, cpql: 100.27, deals: 29, revenue: 14247, roas: 2.12 },
+      // Month 4: Strong spring — body contouring inquiries surging
+      { month: "Apr 2025", spend: 7247, leads: 189, cpl: 38.34, qualified: 84, cpql: 86.27, deals: 36, revenue: 18634, roas: 2.57 },
+      // Month 5: Pre-summer push — highest treatment demand
+      { month: "May 2025", spend: 7813, leads: 222, cpl: 35.19, qualified: 109, cpql: 71.68, deals: 47, revenue: 24147, roas: 3.09 },
+      // Month 6: Summer peak — bookings at all-time high
+      { month: "Jun 2025", spend: 8017, leads: 276, cpl: 29.05, qualified: 164, cpql: 48.88, deals: 52, revenue: 27834, roas: 3.47 },
     ],
   },
   localSeo: {
@@ -140,9 +146,9 @@ export const medSpaOrlando: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Qualified Leads", value: "501", growth: "+312%" },
-    { label: "Cost Per Qualified Lead", value: "$51", growth: "↓60%" },
+    { label: "Total Qualified Leads", value: "504", growth: "+412%" },
+    { label: "Cost Per Qualified Lead", value: "$49", growth: "↓76%" },
     { label: "Monthly Organic Traffic", value: "11,247", growth: "+2,643%" },
-    { label: "Blended ROAS", value: "2.47x", growth: "+166%" },
+    { label: "Blended ROAS", value: "2.61x", growth: "+186%" },
   ],
 };

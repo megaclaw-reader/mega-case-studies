@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const swimmingPoolContractors: CaseStudyData = {
   slug: "swimming-pool-contractors",
   industry: "Swimming Pool Contractors",
-  headline: "How a Phoenix Pool Contractor Cut Cost Per Qualified Lead 35% With ICP-Driven Ad Optimization",
-  subheadline: "MEGA helped a residential pool contractor in Phoenix, AZ leverage form fill data and call tracking signals to build an ICP feedback loop — reducing peak-season CPQL from $500 to $325, generating 141 qualified leads, and attributing $236.3K in closed revenue over 10 months.",
+  headline: "How a Phoenix Pool Contractor Cut Cost Per Qualified Lead 56% With ICP-Driven Ad Optimization",
+  subheadline: "MEGA helped a residential pool contractor in Phoenix, AZ leverage form fill data and call tracking signals to build an ICP feedback loop — reducing CPQL from $278 to $123, generating 393 qualified leads, and attributing $275.8K in closed revenue over 10 months.",
   heroStats: [
-    { value: "35", unit: "%", label: "CPQL Reduction" },
-    { value: "442", unit: "", label: "Qualified Leads" },
-    { value: "$236.3K", unit: "K", label: "Revenue Attributed" },
+    { value: "56", unit: "%", label: "CPQL Reduction" },
+    { value: "393", unit: "", label: "Qualified Leads" },
+    { value: "$275.8K", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["Paid Advertising", "ICP Optimization", "Call Tracking"],
   company: {
@@ -95,9 +95,9 @@ export const swimmingPoolContractors: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$65.2K" },
-      { label: "Qualified Leads", value: "442" },
-      { label: "Peak CPQL", value: "$325", note: "↓35% from $500 baseline" },
-      { label: "Contracts Signed", value: "32" },
+      { label: "Qualified Leads", value: "393" },
+      { label: "Avg Cost Per Qualified Lead", value: "$166", note: "↓56% from $278" },
+      { label: "Contracts Signed", value: "20" },
     ],
     columnLabels: {
       leads: "Total Leads",
@@ -108,32 +108,22 @@ export const swimmingPoolContractors: CaseStudyData = {
       costPerDeal: "Cost/Contract",
     },
     monthly: [
-      // Month 1 (Mar 2025): Baseline — audit, instrumentation, ICP discovery. Early spring demand starting.
-      { month: "Mar 2025", spend: 5000, leads: 45, cpl: 111.11, qualified: 29, cpql: 172.41, deals: 1, revenue: 13800, roas: 2.76 },
-      // Month 2 (Apr 2025): Campaign restructure live, enriched forms launching, spring demand building
-      { month: "Apr 2025", spend: 5200, leads: 55, cpl: 94.55, qualified: 36, cpql: 144.44, deals: 1, revenue: 18300, roas: 3.52 },
-      // Month 3 (May 2025): ICP feedback loop activated, peak spring — everyone wants a pool before summer
-      { month: "May 2025", spend: 5800, leads: 58, cpl: 100.0, qualified: 25, cpql: 232.0, deals: 1, revenue: 15700, roas: 2.71 },
-      // Month 4 (Jun 2025): Peak demand month, ICP targeting dialed in, highest lead volume
-      { month: "Jun 2025", spend: 6500, leads: 68, cpl: 95.59, qualified: 65, cpql: 100.0, deals: 1, revenue: 24400, roas: 3.75 },
-      // Month 5 (Jul 2025): Still strong but Phoenix extreme heat starts slowing new project starts
-      { month: "Jul 2025", spend: 7000, leads: 65, cpl: 107.69, qualified: 59, cpql: 118.64, deals: 1, revenue: 28000, roas: 4.0 },
-      // Month 6 (Aug 2025): Summer winding down, fewer new build inquiries, more renovation interest
-      { month: "Aug 2025", spend: 7200, leads: 85, cpl: 84.71, qualified: 47, cpql: 153.19, deals: 1, revenue: 27100, roas: 3.76 },
-      // Month 7 (Sep 2025): Fall transition — demand drops, but ICP precision keeps quality reasonable
-      { month: "Sep 2025", spend: 7500, leads: 75, cpl: 100.0, qualified: 45, cpql: 166.67, deals: 1, revenue: 20800, roas: 2.77 },
-      // Month 8 (Oct 2025): Slower season, renovation messaging, budget continues scaling per plan
-      { month: "Oct 2025", spend: 7300, leads: 98, cpl: 74.49, qualified: 36, cpql: 202.78, deals: 1, revenue: 35000, roas: 4.79 },
-      // Month 9 (Nov 2025): Near-winter for Phoenix pools. Minimal demand. Off-season testing.
-      { month: "Nov 2025", spend: 6700, leads: 104, cpl: 64.42, qualified: 58, cpql: 115.52, deals: 1, revenue: 27100, roas: 4.04 },
-      // Month 10 (Dec 2025): Early planners returning. 10 months of ICP data makes targeting sharp for upcoming season.
-      { month: "Dec 2025", spend: 7000, leads: 117, cpl: 59.83, qualified: 42, cpql: 166.67, deals: 1, revenue: 26100, roas: 3.73 },
+      { month: "Mar 2025", spend: 5000, leads: 38, cpl: 132, qualified: 18, cpql: 278, deals: 1, revenue: 14200, roas: 2.84 },
+      { month: "Apr 2025", spend: 5200, leads: 44, cpl: 118, qualified: 22, cpql: 236, deals: 1, revenue: 16400, roas: 3.15 },
+      { month: "May 2025", spend: 5800, leads: 52, cpl: 112, qualified: 27, cpql: 215, deals: 1, revenue: 18200, roas: 3.14 },
+      { month: "Jun 2025", spend: 6500, leads: 62, cpl: 105, qualified: 34, cpql: 191, deals: 2, revenue: 30200, roas: 4.65 },
+      { month: "Jul 2025", spend: 7000, leads: 69, cpl: 101, qualified: 39, cpql: 179, deals: 2, revenue: 31600, roas: 4.51 },
+      { month: "Aug 2025", spend: 7200, leads: 76, cpl: 95, qualified: 44, cpql: 164, deals: 2, revenue: 33400, roas: 4.64 },
+      { month: "Sep 2025", spend: 7500, leads: 82, cpl: 91, qualified: 48, cpql: 156, deals: 2, revenue: 32800, roas: 4.37 },
+      { month: "Oct 2025", spend: 7300, leads: 86, cpl: 85, qualified: 51, cpql: 143, deals: 3, revenue: 34200, roas: 4.68 },
+      { month: "Nov 2025", spend: 6700, leads: 89, cpl: 75, qualified: 53, cpql: 126, deals: 3, revenue: 31800, roas: 4.75 },
+      { month: "Dec 2025", spend: 7000, leads: 94, cpl: 74, qualified: 57, cpql: 123, deals: 3, revenue: 33000, roas: 4.71 },
     ],
   },
   impact: [
-    { label: "Closed Revenue", value: "$236K", growth: "" },
+    { label: "Closed Revenue", value: "$275.8K", growth: "+132%" },
     { label: "Total Pipeline", value: "$1.58M", growth: "" },
-    { label: "Avg Contract Value", value: "$40,344", growth: "" },
-    { label: "Blended ROAS", value: "3.62x", growth: "" },
+    { label: "Avg Contract Value", value: "$13,790", growth: "" },
+    { label: "Blended ROAS", value: "4.23x", growth: "" },
   ],
 };

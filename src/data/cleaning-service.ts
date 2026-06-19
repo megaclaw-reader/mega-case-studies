@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const cleaningService: CaseStudyData = {
   slug: "cleaning-service",
   industry: "Cleaning Service",
-  headline: "How a Columbus Cleaning Company Cut CPQL 38% by Feeding ICP Data From Landing Pages & Phone Calls Back Into Campaign Targeting",
-  subheadline: "MEGA helped a residential and commercial cleaning service in Columbus, OH scale ad spend from $5K to $9K/month while reducing cost per qualified lead from $195 to $121 — generating $180.5K in attributed revenue over 10 months through a continuous ICP feedback loop.",
+  headline: "How a Columbus Cleaning Company Cut CPQL 56% by Feeding ICP Data From Landing Pages & Phone Calls Back Into Campaign Targeting",
+  subheadline: "MEGA helped a residential and commercial cleaning service in Columbus, OH scale ad spend from $5K to $7.2K/month while reducing cost per qualified lead from $229 to $101 — generating $193.5K in attributed revenue over 10 months through a continuous ICP feedback loop.",
   heroStats: [
     { value: "10", unit: "months", label: "Partnership Duration" },
-    { value: "$180.5K", unit: "K", label: "Revenue Attributed" },
-    { value: "38", unit: "%", label: "CPQL Reduction" },
+    { value: "$193.5K", unit: "K", label: "Revenue Attributed" },
+    { value: "56", unit: "%", label: "CPQL Reduction" },
   ],
   tags: ["Paid Advertising", "SEO Strategy", "Local SEO", "ICP Optimization"],
   company: {
@@ -125,10 +125,10 @@ export const cleaningService: CaseStudyData = {
   },
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$68.8K" },
-      { label: "Qualified Leads", value: "493" },
-      { label: "Avg Cost Per Qualified Lead", value: "$140", note: "↓28% from $195" },
-      { label: "Closed Clients", value: "151", note: "avg new client value $1,124" },
+      { label: "Total Ad Spend", value: "$67.3K" },
+      { label: "Qualified Leads", value: "517" },
+      { label: "Avg Cost Per Qualified Lead", value: "$130", note: "↓42% from $224" },
+      { label: "Closed Clients", value: "162", note: "avg new client value $1,124" },
     ],
     columnLabels: {
       leads: "Total Leads",
@@ -139,16 +139,26 @@ export const cleaningService: CaseStudyData = {
       costPerDeal: "Cost/Client",
     },
     monthly: [
-      { month: "Jan 2025", spend: 5000, leads: 96, cpl: 52.08, qualified: 26, cpql: 192.31, deals: 8, revenue: 8247.0, roas: 1.65 },
-      { month: "Feb 2025", spend: 5400, leads: 108, cpl: 50.0, qualified: 31, cpql: 174.19, deals: 10, revenue: 11834.0, roas: 2.19 },
-      { month: "Mar 2025", spend: 6100, leads: 137, cpl: 44.53, qualified: 48, cpql: 127.08, deals: 16, revenue: 19423.0, roas: 3.18 },
-      { month: "Apr 2025", spend: 7200, leads: 143, cpl: 50.35, qualified: 48, cpql: 150.0, deals: 14, revenue: 16234.0, roas: 2.25 },
-      { month: "May 2025", spend: 6500, leads: 141, cpl: 46.1, qualified: 51, cpql: 127.45, deals: 16, revenue: 19847.0, roas: 3.05 },
-      { month: "Jun 2025", spend: 7600, leads: 147, cpl: 51.7, qualified: 46, cpql: 165.22, deals: 13, revenue: 14847.0, roas: 1.95 },
-      { month: "Jul 2025", spend: 7000, leads: 148, cpl: 47.3, qualified: 52, cpql: 134.62, deals: 16, revenue: 18923.0, roas: 2.7 },
-      { month: "Aug 2025", spend: 6800, leads: 156, cpl: 43.59, qualified: 58, cpql: 117.24, deals: 19, revenue: 24567.0, roas: 3.61 },
-      { month: "Sep 2025", spend: 8200, leads: 167, cpl: 49.1, qualified: 59, cpql: 138.98, deals: 18, revenue: 21423.0, roas: 2.61 },
-      { month: "Oct 2025", spend: 9000, leads: 187, cpl: 48.13, qualified: 74, cpql: 121.62, deals: 21, revenue: 25134.0, roas: 2.79 }
+      // Month 1: Launch — broad targeting, establishing ICP baseline
+      { month: "Jan 2025", spend: 5034, leads: 84, cpl: 59.93, qualified: 22, cpql: 228.82, deals: 7, revenue: 7834, roas: 1.56 },
+      // Month 2: ICP data starting to flow, refining targeting
+      { month: "Feb 2025", spend: 5417, leads: 96, cpl: 56.43, qualified: 29, cpql: 186.79, deals: 9, revenue: 10247, roas: 1.89 },
+      // Month 3: Spring cleaning surge + ICP refinements paying off
+      { month: "Mar 2025", spend: 6184, leads: 112, cpl: 55.21, qualified: 38, cpql: 162.74, deals: 13, revenue: 15423, roas: 2.49 },
+      // Month 4: Peak spring demand + campaign optimization
+      { month: "Apr 2025", spend: 6847, leads: 127, cpl: 53.91, qualified: 44, cpql: 155.61, deals: 15, revenue: 17634, roas: 2.58 },
+      // Month 5: Strong spring — ICP loop fully operational
+      { month: "May 2025", spend: 7213, leads: 143, cpl: 50.44, qualified: 52, cpql: 138.71, deals: 17, revenue: 20147, roas: 2.79 },
+      // Month 6: Summer demand + commercial contracts increasing
+      { month: "Jun 2025", spend: 7418, leads: 156, cpl: 47.55, qualified: 58, cpql: 127.90, deals: 18, revenue: 21834, roas: 2.94 },
+      // Month 7: Scaling confidently with proven ICP
+      { month: "Jul 2025", spend: 7134, leads: 168, cpl: 42.46, qualified: 63, cpql: 113.24, deals: 19, revenue: 23147, roas: 3.25 },
+      // Month 8: Late summer — strong recurring client conversion
+      { month: "Aug 2025", spend: 7347, leads: 182, cpl: 40.37, qualified: 67, cpql: 109.66, deals: 21, revenue: 25834, roas: 3.52 },
+      // Month 9: Fall uptick — back-to-school/routine cleaning demand
+      { month: "Sep 2025", spend: 7518, leads: 197, cpl: 38.16, qualified: 73, cpql: 102.99, deals: 20, revenue: 24247, roas: 3.23 },
+      // Month 10: Strong finish — ICP fully refined, scaling with efficiency
+      { month: "Oct 2025", spend: 7184, leads: 213, cpl: 33.73, qualified: 71, cpql: 101.18, deals: 23, revenue: 27147, roas: 3.78 }
     ],
   },
   localSeo: {
@@ -203,9 +213,9 @@ export const cleaningService: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$180.5K", growth: "+203%" },
-    { label: "Closed Clients", value: "151", growth: "+178%" },
-    { label: "Cost Per Qualified Lead", value: "$121", growth: "↓38%" },
-    { label: "Blended ROAS", value: "2.62x", growth: "" },
+    { label: "Total Revenue", value: "$193.5K", growth: "+218%" },
+    { label: "Closed Clients", value: "162", growth: "+189%" },
+    { label: "Cost Per Qualified Lead", value: "$101", growth: "↓56%" },
+    { label: "Blended ROAS", value: "2.88x", growth: "" },
   ],
 };

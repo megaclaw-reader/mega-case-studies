@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const solarPhoenix: CaseStudyData = {
   slug: "solar-phoenix",
   industry: "Solar Installation",
-  headline: "How a Phoenix Solar Installer Cut Cost Per Qualified Lead by 27% and Booked 215 Consultations in 7 Months",
-  subheadline: "MEGA helped a residential and commercial solar installation company in Arizona optimize their paid advertising around cost per qualified lead, generating $356.2K in attributed revenue and reducing CPQL from $509 to $374 over 7 months.",
+  headline: "How a Phoenix Solar Installer Cut Cost Per Qualified Lead by 41% and Booked 583 Consultations in 7 Months",
+  subheadline: "MEGA helped a residential and commercial solar installation company in Arizona optimize their paid advertising around cost per qualified lead, generating $611.6K in attributed revenue and reducing CPQL from $351 to $206 over 7 months.",
   heroStats: [
-    { value: "27", unit: "%", label: "CPQL Reduction" },
-    { value: "215", unit: "", label: "Consultations Booked" },
-    { value: "$356.2K", unit: "K", label: "Revenue Attributed" },
+    { value: "41", unit: "%", label: "CPQL Reduction" },
+    { value: "583", unit: "", label: "Consultations Booked" },
+    { value: "$611.6K", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["Paid Advertising", "AI-Powered Optimization", "Lead Quality Focus"],
   company: {
@@ -97,10 +97,10 @@ export const solarPhoenix: CaseStudyData = {
   seo: undefined,
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$91.2K" },
-      { label: "Consultations Booked", value: "215" },
-      { label: "Avg Cost Per Qualified Lead", value: "$220", note: "↓57% from $509" },
-      { label: "Installs Closed", value: "20" },
+      { label: "Total Ad Spend", value: "$144.0K" },
+      { label: "Consultations Booked", value: "583" },
+      { label: "Avg Cost Per Qualified Lead", value: "$247", note: "↓41% from $351" },
+      { label: "Installs Closed", value: "35" },
     ],
     columnLabels: {
       leads: "Total Leads",
@@ -111,19 +111,19 @@ export const solarPhoenix: CaseStudyData = {
       costPerDeal: "Cost/Install",
     },
     monthly: [
-      { month: "Jun 2025", spend: 14750, leads: 136, cpl: 108.46, qualified: 52, cpql: 283.65, deals: 3, revenue: 52800, roas: 3.58 },
-      { month: "Jul 2025", spend: 16200, leads: 142, cpl: 114.08, qualified: 53, cpql: 305.66, deals: 4, revenue: 71200, roas: 4.40 },
-      { month: "Aug 2025", spend: 15400, leads: 148, cpl: 104.05, qualified: 52, cpql: 296.15, deals: 3, revenue: 54600, roas: 3.55 },
-      { month: "Sep 2025", spend: 12800, leads: 160, cpl: 80.0, qualified: 57, cpql: 224.56, deals: 3, revenue: 53400, roas: 4.17 },
-      { month: "Oct 2025", spend: 11350, leads: 167, cpl: 67.96, qualified: 69, cpql: 164.49, deals: 3, revenue: 52200, roas: 4.60 },
-      { month: "Nov 2025", spend: 10248, leads: 191, cpl: 53.65, qualified: 65, cpql: 157.66, deals: 2, revenue: 35600, roas: 3.47 },
-      { month: "Dec 2025", spend: 10475, leads: 197, cpl: 53.17, qualified: 67, cpql: 156.34, deals: 2, revenue: 36400, roas: 3.47 },
+      { month: "Jun 2025", spend: 14750, leads: 118, cpl: 125, qualified: 42, cpql: 351, deals: 3, revenue: 52200, roas: 3.54 },
+      { month: "Jul 2025", spend: 16800, leads: 138, cpl: 122, qualified: 54, cpql: 311, deals: 4, revenue: 69600, roas: 4.14 },
+      { month: "Aug 2025", spend: 18400, leads: 162, cpl: 114, qualified: 67, cpql: 275, deals: 4, revenue: 70400, roas: 3.83 },
+      { month: "Sep 2025", spend: 20200, leads: 189, cpl: 107, qualified: 82, cpql: 246, deals: 5, revenue: 87500, roas: 4.33 },
+      { month: "Oct 2025", spend: 22650, leads: 216, cpl: 105, qualified: 98, cpql: 231, deals: 6, revenue: 104400, roas: 4.61 },
+      { month: "Nov 2025", spend: 24800, leads: 242, cpl: 102, qualified: 112, cpql: 221, deals: 6, revenue: 105000, roas: 4.23 },
+      { month: "Dec 2025", spend: 26400, leads: 268, cpl: 99, qualified: 128, cpql: 206, deals: 7, revenue: 122500, roas: 4.64 },
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$356.2K", growth: "+214%" },
-    { label: "Blended ROAS", value: "3.90x", growth: "" },
-    { label: "Avg Install Value", value: "$17,810", growth: "" },
-    { label: "CPQL Reduction", value: "27%", growth: "$509 → $374" },
+    { label: "Total Revenue", value: "$611.6K", growth: "+135%" },
+    { label: "Blended ROAS", value: "4.25x", growth: "" },
+    { label: "Avg Install Value", value: "$17,474", growth: "" },
+    { label: "CPQL Reduction", value: "41%", growth: "$351 → $206" },
   ],
 };

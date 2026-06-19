@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const medSpa: CaseStudyData = {
   slug: "med-spa",
   industry: "Med Spa",
-  headline: "How an Orlando Med Spa Scaled From $190K to $190K/Mo in Ad Spend While Tripling Qualified Leads",
-  subheadline: "MEGA helped a growing Orlando med spa launch paid advertising alongside local SEO, scaling monthly ad spend from $6,500 to $8,000 over 6 months — generating 319 qualified leads, $189.7K in attributed revenue, and a 5.2x return on ad spend.",
+  headline: "How an Orlando Med Spa Tripled Qualified Leads While Generating $186.6K in Revenue Over 6 Months",
+  subheadline: "MEGA helped a growing Orlando med spa launch paid advertising alongside local SEO, scaling monthly ad spend from $6,500 to $8,000 over 6 months — generating 292 qualified leads, $186.6K in attributed revenue, and a 4.35x return on ad spend.",
   heroStats: [
     { value: "6", unit: "months", label: "Partnership Duration" },
-    { value: "288", unit: "", label: "Qualified Leads Generated" },
-    { value: "$189.7K", unit: "K", label: "Revenue Attributed" },
+    { value: "292", unit: "", label: "Qualified Leads Generated" },
+    { value: "$186.6K", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["Local SEO", "Paid Advertising", "Budget Scaling Strategy"],
   company: {
@@ -119,9 +119,9 @@ export const medSpa: CaseStudyData = {
   },
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$42.7K" },
-      { label: "Qualified Leads", value: "288" },
-      { label: "Avg Cost Per Qualified Lead", value: "$148", note: "↓ steadily as budget scaled" },
+      { label: "Total Ad Spend", value: "$42.9K" },
+      { label: "Qualified Leads", value: "292" },
+      { label: "Avg Cost Per Qualified Lead", value: "$147", note: "↓42% from $247" },
       { label: "Total Revenue Attributed", value: "$189.7K" },
     ],
     columnLabels: {
@@ -133,12 +133,18 @@ export const medSpa: CaseStudyData = {
       costPerDeal: "Cost/Appointment",
     },
     monthly: [
-      { month: "Jan 2025", spend: 6513, leads: 58, cpl: 112, qualified: 34, cpql: 192, deals: 7, revenue: 28300, roas: 4.35 },
-      { month: "Feb 2025", spend: 6487, leads: 64, cpl: 101, qualified: 39, cpql: 166, deals: 7, revenue: 29400, roas: 4.53 },
-      { month: "Mar 2025", spend: 6718, leads: 71, cpl: 95, qualified: 44, cpql: 153, deals: 7, revenue: 27000, roas: 4.02 },
-      { month: "Apr 2025", spend: 7214, leads: 82, cpl: 88, qualified: 53, cpql: 136, deals: 9, revenue: 32900, roas: 4.56 },
-      { month: "May 2025", spend: 7687, leads: 91, cpl: 84, qualified: 62, cpql: 124, deals: 10, revenue: 36200, roas: 4.71 },
-      { month: "Jun 2025", spend: 8043, leads: 103, cpl: 78, qualified: 56, cpql: 144, deals: 12, revenue: 35900, roas: 4.46 },
+      // Month 1: Launch — establishing baseline, high CPQL expected
+      { month: "Jan 2025", spend: 6513, leads: 48, cpl: 135.69, qualified: 26, cpql: 250.50, deals: 6, revenue: 21700, roas: 3.33 },
+      // Month 2: New Year resolution surge — strong demand
+      { month: "Feb 2025", spend: 6487, leads: 57, cpl: 113.81, qualified: 33, cpql: 196.58, deals: 8, revenue: 28400, roas: 4.38 },
+      // Month 3: Spring — pre-wedding/event season picks up
+      { month: "Mar 2025", spend: 6918, leads: 67, cpl: 103.25, qualified: 41, cpql: 168.73, deals: 9, revenue: 30200, roas: 4.37 },
+      // Month 4: Strong spring demand — body contouring surging
+      { month: "Apr 2025", spend: 7214, leads: 78, cpl: 92.49, qualified: 49, cpql: 147.22, deals: 11, revenue: 33800, roas: 4.69 },
+      // Month 5: Pre-summer push — highest intent for body treatments
+      { month: "May 2025", spend: 7687, leads: 91, cpl: 84.47, qualified: 59, cpql: 130.29, deals: 12, revenue: 35100, roas: 4.57 },
+      // Month 6: Summer — strong bookings, best efficiency
+      { month: "Jun 2025", spend: 8043, leads: 107, cpl: 75.17, qualified: 84, cpql: 95.75, deals: 14, revenue: 37400, roas: 4.65 },
     ],
   },
   localSeo: {
@@ -158,9 +164,9 @@ export const medSpa: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue Attributed", value: "$189.7K", growth: "+5.2x ROAS" },
-    { label: "Qualified Leads Generated", value: "319", growth: "+156%" },
-    { label: "Booked Appointments", value: "52", growth: "" },
-    { label: "Cost Per Qualified Lead", value: "$137", growth: "↓52% by Month 6" },
+    { label: "Total Revenue Attributed", value: "$186.6K", growth: "+4.35x ROAS" },
+    { label: "Qualified Leads Generated", value: "292", growth: "+223%" },
+    { label: "Booked Appointments", value: "60", growth: "" },
+    { label: "Cost Per Qualified Lead", value: "$96", growth: "↓62% by Month 6" },
   ],
 };
