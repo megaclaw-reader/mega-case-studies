@@ -121,7 +121,7 @@ export const hairSalonCalifornia: CaseStudyData = {
   },
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$75,995" },
+      { label: "Total Ad Spend", value: "$76.0K" },
       { label: "Total Leads", value: "4,213" },
       { label: "Qualified Leads", value: "1,164" },
       { label: "Appointments Booked", value: "532" },
@@ -213,7 +213,7 @@ export const hairSalonCalifornia: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue (First Visit)", value: "$55,501", growth: "From paid advertising campaigns" },
+    { label: "Total Revenue (First Visit)", value: "$55.5K", growth: "From paid advertising campaigns" },
     { label: "New Client Appointments", value: "532", growth: "431% increase (13 → 69/mo)" },
     { label: "Cost Per Qualified Lead", value: "$158 → $44", growth: "72% reduction" },
     { label: "Organic Traffic Growth", value: "214 → 14,837/mo", growth: "6,830% increase" },

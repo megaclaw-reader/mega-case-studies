@@ -111,7 +111,7 @@ export const gymFitnessPhoenix: CaseStudyData = {
     summary: [
       { label: "Total Ad Spend", value: "$33.2K" },
       { label: "Qualified Leads", value: "607" },
-      { label: "Avg Cost Per Qualified Lead", value: "$54.71", note: "↓60% from $98" },
+      { label: "Avg Cost Per Qualified Lead", value: "$55", note: "↓44% from $98" },
       { label: "New Members", value: "184", note: "avg membership value $613" },
     ],
     columnLabels: {
@@ -132,7 +132,7 @@ export const gymFitnessPhoenix: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$112.9K", growth: "+186%" },
+    { label: "Total Revenue", value: "$112.8K", growth: "+186%" },
     { label: "New Members", value: "184", growth: "+159%" },
     { label: "Cost Per Qualified Lead", value: "$40", growth: "↓60%" },
     { label: "Blended ROAS", value: "3.40x", growth: "" },

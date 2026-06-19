@@ -151,7 +151,7 @@ export const sportsTeamArizona: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$404K", growth: "+289%" },
+    { label: "Total Revenue", value: "$404.0K", growth: "+289%" },
     { label: "Total Ticket Packages Sold", value: "345", growth: "+241%" },
     { label: "Avg Package Value", value: "$1,171", growth: "" },
     { label: "Blended ROAS", value: "4.04x", growth: "" },

@@ -90,7 +90,7 @@ export const realEstateInvestmentArizona: CaseStudyData = {
       { label: "Total Ad Spend", value: "$66.8K", note: "12 months" },
       { label: "Total Leads", value: "513", note: "all sources" },
       { label: "Qualified Leads", value: "64", note: "12.5% qualification rate" },
-      { label: "Avg Cost Per Lead", value: "$130.21", note: "all lead sources" },
+      { label: "Avg Cost Per Lead", value: "$130", note: "all lead sources" },
       { label: "Avg CPQL", value: "$1,043.75", note: "qualified leads only" },
     ],
     monthly: [

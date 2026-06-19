@@ -104,7 +104,7 @@ export const workingCapitalFinancing: CaseStudyData = {
     summary: [
       { label: "Total Ad Spend", value: "$67.8K" },
       { label: "Qualified Leads", value: "547" },
-      { label: "Avg Cost Per Qualified Lead", value: "$123.87", note: "↓55% from $275" },
+      { label: "Avg Cost Per Qualified Lead", value: "$124", note: "↓55% from $275" },
       { label: "Funded Deals", value: "44" },
     ],
     columnLabels: {

@@ -149,7 +149,7 @@ export const dentalSurgeryClinic: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$490.7K", growth: "+312%" },
+    { label: "Total Revenue", value: "$490.6K", growth: "+312%" },
     { label: "Surgical Cases Closed", value: "121", growth: "+275%" },
     { label: "Cost Per Qualified Lead", value: "$239", growth: "↓58%" },
     { label: "Blended ROAS", value: "3.56x", growth: "" },

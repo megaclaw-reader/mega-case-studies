@@ -119,7 +119,7 @@ export const seniorCareFlorida: CaseStudyData = {
   },
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$76K" },
+      { label: "Total Ad Spend", value: "$76.0K" },
       { label: "Total Leads", value: "1,262", note: "Form submissions + phone calls" },
       { label: "Qualified Leads", value: "323", note: "Care consultations booked" },
       { label: "Avg Cost/Qualified Lead", value: "$235", note: "↓45% from $429" },

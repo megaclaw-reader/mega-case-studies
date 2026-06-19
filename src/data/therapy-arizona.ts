@@ -111,7 +111,7 @@ export const therapyArizona: CaseStudyData = {
     summary: [
       { label: "Total Ad Spend", value: "$36.2K" },
       { label: "Qualified Leads", value: "239" },
-      { label: "Avg Cost Per Qualified Lead", value: "$152", note: "↓36% from $236" },
+      { label: "Avg Cost Per Qualified Lead", value: "$151", note: "↓36% from $236" },
       { label: "New Clients", value: "78", note: "avg client value $1,862" },
     ],
     columnLabels: {
