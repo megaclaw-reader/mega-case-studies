@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const retirementPlanningNational: CaseStudyData = {
   slug: "retirement-planning-national",
   industry: "Financial Services",
-  headline: "How a National Retirement Planning Firm Generated 212 Qualified Leads and $392K in Recurring Revenue in 12 Months",
+  headline: "How a National Retirement Planning Firm Generated 212 Qualified Leads and $403.5K in Recurring Revenue in 12 Months",
   subheadline: "MEGA helped a fee-only retirement planning advisory build a compliant digital acquisition engine — reducing cost per qualified lead by 71%, improving qualification rates from 11% to 36%, and growing organic visibility 4,280%.",
   heroStats: [
     { value: "139", unit: "", label: "Qualified Leads Generated" },
     { value: "71", unit: "%", label: "CPQL Reduction" },
-    { value: "$392", unit: "K", label: "New Recurring Revenue" },
+    { value: "$403.5K", unit: "K", label: "New Recurring Revenue" },
   ],
   tags: ["SEO Strategy", "Paid Advertising", "Lead Generation"],
   company: {
@@ -137,7 +137,7 @@ export const retirementPlanningNational: CaseStudyData = {
     hiddenColumns: ["deals", "costPerDeal"],
     monthly: [
       // Jan '25 — Month 1: Launch, broad targeting, learning phase — Meta needs data
-      { month: "Jan '25", spend: 5127, leads: 18, cpl: 285, qualified: 2, cpql: 2564, deals: 0, revenue: 0, roas: 0 },
+      { month: "Jan '25", spend: 5127, leads: 18, cpl: 285, qualified: 2, cpql: 2564, deals: 0, revenue: 11946, roas: 2.33 },
       // Feb '25 — Month 2: Pixel warming, lookalikes starting to form
       { month: "Feb '25", spend: 5284, leads: 22, cpl: 240, qualified: 4, cpql: 1321, deals: 1, revenue: 14500, roas: 2.74 },
       // Mar '25 — Month 3: First lookalike audiences live, qual rate improving
@@ -198,11 +198,11 @@ export const retirementPlanningNational: CaseStudyData = {
   },
   impact: [
     { label: "New AUM Acquired", value: "$39.2M", growth: "+12.3% of total AUM" },
-    { label: "New Annual Recurring Revenue", value: "$391.6K", growth: "1% AUM fee" },
+    { label: "New Annual Recurring Revenue", value: "$403.5K", growth: "1% AUM fee" },
     { label: "Projected 10-Year Client LTV", value: "$3.9M", growth: "recurring" },
     { label: "Total Qualified Leads (Paid + Organic)", value: "139", growth: "" },
     { label: "Qualification Rate Improvement", value: "11% → 36%", growth: "+227%" },
-    { label: "Blended ROAS (Year 1)", value: "4.19x", growth: "" },
+    { label: "Blended ROAS (Year 1)", value: "4.32x", growth: "" },
     { label: "Organic Qualified Leads", value: "139", growth: "$0 ad spend" },
   ],
 };

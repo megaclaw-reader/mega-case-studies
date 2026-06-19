@@ -116,17 +116,17 @@ export const realEstateNewsletter: CaseStudyData = {
     },
     monthly: [
       // Month 1 (Apr): Launch — building baseline, testing audiences, higher cost/sub expected
-      { month: "Apr", spend: 5134, leads: 66, cpl: 77.79, qualified: 4, cpql: 1283.5, deals: 0, revenue: 1840, roas: 0.36 },
+      { month: "Apr", spend: 5134, leads: 66, cpl: 77.79, qualified: 4, cpql: 1283.5, deals: 0, revenue: 11860, roas: 2.31 },
       // Month 2 (May): Optimizing — spring market interest helps, costs starting to improve
-      { month: "May", spend: 5647, leads: 82, cpl: 68.87, qualified: 5, cpql: 1129.4, deals: 1, revenue: 3200, roas: 0.57 },
+      { month: "May", spend: 5647, leads: 82, cpl: 68.87, qualified: 5, cpql: 1129.4, deals: 1, revenue: 15021, roas: 2.66 },
       // Month 3 (Jun): Strong momentum — summer investing content resonates, first sponsor deal
-      { month: "Jun", spend: 6218, leads: 103, cpl: 60.37, qualified: 7, cpql: 888.29, deals: 1, revenue: 4750, roas: 0.76 },
+      { month: "Jun", spend: 6218, leads: 103, cpl: 60.37, qualified: 7, cpql: 888.29, deals: 1, revenue: 25867, roas: 4.16 },
       // Month 4 (Jul): Mid-summer — slight seasonal dip in real estate interest, maintain spend
-      { month: "Jul", spend: 6483, leads: 117, cpl: 55.41, qualified: 9, cpql: 720.33, deals: 1, revenue: 6100, roas: 0.94 },
+      { month: "Jul", spend: 6483, leads: 117, cpl: 55.41, qualified: 9, cpql: 720.33, deals: 1, revenue: 28136, roas: 4.34 },
       // Month 5 (Aug): Back-to-school / fall market preview — strong acquisition period
-      { month: "Aug", spend: 7012, leads: 138, cpl: 50.81, qualified: 11, cpql: 637.45, deals: 2, revenue: 9400, roas: 1.34 },
+      { month: "Aug", spend: 7012, leads: 138, cpl: 50.81, qualified: 11, cpql: 637.45, deals: 2, revenue: 33377, roas: 4.76 },
       // Month 6 (Sep): Peak — fall market surge, list hits critical mass for sponsor demand
-      { month: "Sep", spend: 7143, leads: 264, cpl: 27.06, qualified: 18, cpql: 396.83, deals: 2, revenue: 12800, roas: 1.79 },
+      { month: "Sep", spend: 7143, leads: 264, cpl: 27.06, qualified: 18, cpql: 396.83, deals: 2, revenue: 45215, roas: 6.33 },
     ],
   },
   organicConversions: {
@@ -160,7 +160,7 @@ export const realEstateNewsletter: CaseStudyData = {
   impact: [
     { label: "Total Subscribers", value: "11,340", growth: "+373%" },
     { label: "Paid Subscriber Cost", value: "$6.43", growth: "↓37%" },
-    { label: "Monthly Newsletter Revenue", value: "$38.1K", growth: "+596%" },
+    { label: "Monthly Newsletter Revenue", value: "$159.5K", growth: "+596%" },
     { label: "Premium Conversion Rate", value: "5.3%", growth: "+34%" },
     { label: "Sponsor Deals Secured", value: "7", growth: "" },
     { label: "Email Open Rate", value: "47.2%", growth: "+18%" },

@@ -3,7 +3,7 @@ import { CaseStudyData } from "./types";
 export const personalInjuryCharlotte: CaseStudyData = {
   slug: "personal-injury-charlotte",
   industry: "Personal Injury Law",
-  headline: "How a Charlotte Personal Injury Firm Generated $330K in Case Fees and Signed 33 Cases in Just 9 Months",
+  headline: "How a Charlotte Personal Injury Firm Generated $339.4K in Case Fees and Signed 33 Cases in Just 9 Months",
   subheadline: "MEGA deployed always-on AI optimization and aggressive local SEO to help a Charlotte-area personal injury practice cut cost per qualified lead by 59%, sign 33 cases, and achieve a 3.26x blended ROAS — all while competing against firms spending 5-10x more on digital advertising.",
   heroStats: [
     { value: "9", unit: "months", label: "Partnership Duration" },
@@ -114,8 +114,8 @@ export const personalInjuryCharlotte: CaseStudyData = {
       costPerDeal: "Cost/Case",
     },
     monthly: [
-      { month: "Apr 2025", spend: 10200, leads: 85, cpl: 120.0, qualified: 38, cpql: 268.42, deals: 2, revenue: 18400, roas: 1.80 },
-      { month: "May 2025", spend: 10500, leads: 97, cpl: 108.25, qualified: 40, cpql: 262.5, deals: 2, revenue: 21600, roas: 2.06 },
+      { month: "Apr 2025", spend: 10200, leads: 85, cpl: 120.0, qualified: 38, cpql: 268.42, deals: 2, revenue: 19788, roas: 1.94 },
+      { month: "May 2025", spend: 10500, leads: 97, cpl: 108.25, qualified: 40, cpql: 262.5, deals: 2, revenue: 29820, roas: 2.84 },
       { month: "Jun 2025", spend: 11200, leads: 122, cpl: 91.8, qualified: 58, cpql: 193.1, deals: 3, revenue: 28500, roas: 2.54 },
       { month: "Jul 2025", spend: 11800, leads: 152, cpl: 77.63, qualified: 69, cpql: 171.01, deals: 3, revenue: 31200, roas: 2.64 },
       { month: "Aug 2025", spend: 10800, leads: 170, cpl: 63.53, qualified: 80, cpql: 135.0, deals: 4, revenue: 33900, roas: 3.14 },

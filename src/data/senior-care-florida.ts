@@ -3,7 +3,7 @@ import { CaseStudyData } from "./types";
 export const seniorCareFlorida: CaseStudyData = {
   slug: "senior-care-florida",
   industry: "Senior Care",
-  headline: "How a Florida Senior Care Provider Generated 58 New Care Clients and $281K in Revenue While Reducing Cost Per Consultation by 50%",
+  headline: "How a Florida Senior Care Provider Generated 58 New Care Clients and $281.5K in Revenue While Reducing Cost Per Consultation by 50%",
   subheadline: "MEGA helped a Florida-based in-home senior care agency grow from 112 ranking keywords to 8,247 while scaling paid advertising to generate 323 qualified consultations — reducing cost per qualified lead from $429 to $214 and generating over $281.5K in attributed revenue across Florida's rapidly growing senior care market.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },

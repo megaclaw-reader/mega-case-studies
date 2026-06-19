@@ -3,8 +3,8 @@ import { CaseStudyData } from "./types";
 export const medspa: CaseStudyData = {
   slug: "medspa",
   industry: "Medspa",
-  headline: "How a Scottsdale MedSpa Turned $103K in Ads Into $387K Revenue — Achieving a 3.74x Blended ROAS in Just 10 Months",
-  subheadline: "MEGA deployed always-on AI optimization and a full-stack SEO + paid ads strategy to help a Scottsdale medical aesthetics practice systematically scale from $8,200/month in ad spend to $13,400/month — converting high-intent leads into $387K of booked treatments across Botox, fillers, body contouring, laser, and chemical peel services.",
+  headline: "How a Scottsdale MedSpa Turned $389.8K in Ads Into $389.8K Revenue — Achieving a 3.74x Blended ROAS in Just 10 Months",
+  subheadline: "MEGA deployed always-on AI optimization and a full-stack SEO + paid ads strategy to help a Scottsdale medical aesthetics practice systematically scale from $8,200/month in ad spend to $13,400/month — converting high-intent leads into $389.8K of booked treatments across Botox, fillers, body contouring, laser, and chemical peel services.",
   heroStats: [
     { value: "$387.2K", unit: "K", label: "Revenue Generated" },
     { value: "3.7", unit: "x", label: "Blended ROAS" },
@@ -133,7 +133,7 @@ export const medspa: CaseStudyData = {
     },
     monthly: [
       // Month 1: Launch — establishing baseline in competitive Scottsdale market
-      { month: "May '25", spend: 8200, leads: 87, cpl: 94.25, qualified: 19, cpql: 431.58, deals: 7, revenue: 15247, roas: 1.86 },
+      { month: "May '25", spend: 8200, leads: 87, cpl: 94.25, qualified: 19, cpql: 431.58, deals: 7, revenue: 17876, roas: 2.18 },
       // Month 2: AI optimization kicking in — quality improving
       { month: "Jun '25", spend: 8200, leads: 98, cpl: 83.67, qualified: 28, cpql: 292.86, deals: 10, revenue: 22834, roas: 2.78 },
       // Month 3: Summer — strong demand for injectables/body contouring
@@ -155,9 +155,9 @@ export const medspa: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$387.2K", growth: "+3.1x" },
+    { label: "Total Revenue", value: "$389.8K", growth: "+3.1x" },
     { label: "Booked Clients", value: "171", growth: "+144%" },
     { label: "Total Ad Spend", value: "$103.5K", growth: "" },
-    { label: "Blended ROAS", value: "3.74x", growth: "" },
+    { label: "Blended ROAS", value: "3.77x", growth: "" },
   ],
 };

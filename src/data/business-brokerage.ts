@@ -4,7 +4,7 @@ export const businessBrokerage: CaseStudyData = {
   slug: "business-brokerage",
   industry: "Business Brokerage",
   headline: "How a National Business Brokerage Firm Built a Predictable Seller Pipeline and Reduced Cost Per Qualified Lead by 81% in 9 Months",
-  subheadline: "MEGA helped a national business brokerage firm transform paid advertising into a predictable pipeline engine — shifting from unqualified inquiries to high-value seller conversations and credible buyer engagements, achieving 3.5x ROAS while reducing cost per qualified opportunity from $693 to $134 over 9 months of AI-powered campaign optimization.",
+  subheadline: "MEGA helped a national business brokerage firm transform paid advertising into a predictable pipeline engine — shifting from unqualified inquiries to high-value seller conversations and credible buyer engagements, achieving 2.5x ROAS while reducing cost per qualified opportunity from $693 to $134 over 9 months of AI-powered campaign optimization.",
   heroStats: [
     { value: "$121.1K", unit: "K", label: "Revenue Attributed" },
     { value: "81", unit: "%", label: "Cost/Qualified Lead Reduction" },

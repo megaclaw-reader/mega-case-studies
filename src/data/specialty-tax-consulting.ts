@@ -4,7 +4,7 @@ export const specialtyTaxConsulting: CaseStudyData = {
   slug: "specialty-tax-consulting",
   industry: "Specialty Tax Consulting",
   headline: "How a North Carolina Specialty Tax Consulting Firm Grew Qualified Leads From 9 to 32 Per Month With AI-Powered Marketing",
-  subheadline: "MEGA helped a specialty tax consulting firm in North Carolina build a scalable inbound pipeline, growing qualified leads 256% and generating $165.0K in new revenue over 6 months.",
+  subheadline: "MEGA helped a specialty tax consulting firm in North Carolina build a scalable inbound pipeline, growing qualified leads 256% and generating $167.4K in new revenue over 6 months.",
   heroStats: [
     { value: "6", unit: "months", label: "Partnership Duration" },
     { value: "329", unit: "", label: "Qualified Leads Generated" },
@@ -119,7 +119,7 @@ export const specialtyTaxConsulting: CaseStudyData = {
       { label: "New Clients Acquired", value: "20" },
     ],
     monthly: [
-      { month: "Sep '25", spend: 6587, leads: 67, cpl: 98.31, qualified: 24, cpql: 274.46, deals: 1, revenue: 12400, roas: 1.88 },
+      { month: "Sep '25", spend: 6587, leads: 67, cpl: 98.31, qualified: 24, cpql: 274.46, deals: 1, revenue: 14755, roas: 2.24 },
       { month: "Oct '25", spend: 7214, leads: 82, cpl: 87.98, qualified: 41, cpql: 175.95, deals: 3, revenue: 30800, roas: 4.27 },
       { month: "Nov '25", spend: 6843, leads: 79, cpl: 86.62, qualified: 43, cpql: 159.14, deals: 3, revenue: 27900, roas: 4.08 },
       { month: "Dec '25", spend: 6921, leads: 76, cpl: 91.07, qualified: 48, cpql: 144.19, deals: 2, revenue: 23400, roas: 3.38 },
@@ -128,9 +128,9 @@ export const specialtyTaxConsulting: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$165K", growth: "+189%" },
+    { label: "Total Revenue", value: "$167.4K", growth: "+189%" },
     { label: "Qualified Leads Generated", value: "113", growth: "9 → 32/mo" },
     { label: "Avg Engagement Value", value: "$8.3K", growth: "" },
-    { label: "Blended ROAS", value: "3.85x", growth: "" },
+    { label: "Blended ROAS", value: "3.91x", growth: "" },
   ],
 };

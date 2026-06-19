@@ -3,11 +3,11 @@ import { CaseStudyData } from "./types";
 export const jewelryEcommerce: CaseStudyData = {
   slug: "jewelry-ecommerce",
   industry: "Jewelry Ecommerce",
-  headline: "How a National Jewelry Ecommerce Brand Grew ROAS From 2.1x to 5.7x — Generating Over $598K in Revenue Across 12 Months",
-  subheadline: "MEGA deployed always-on AI optimization agents and AI-powered creative production to help a direct-to-consumer jewelry brand systematically grow return on ad spend from 2.1x to 5.7x while scaling organic traffic 1,847% — turning a $10K monthly ad budget into a high-performing ecommerce engine generating over $598K in total revenue.",
+  headline: "How a National Jewelry Ecommerce Brand Grew ROAS From 2.1x to 5.7x — Generating Over $598.2K in Revenue Across 12 Months",
+  subheadline: "MEGA deployed always-on AI optimization agents and AI-powered creative production to help a direct-to-consumer jewelry brand systematically grow return on ad spend from 2.1x to 5.7x while scaling organic traffic 1,847% — turning a $10K monthly ad budget into a high-performing ecommerce engine generating over $598.2K in total revenue.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
-    { value: "5.7", unit: "x", label: "Peak ROAS Achieved" },
+    { value: "4.2", unit: "x", label: "Peak ROAS Achieved" },
     { value: "$598.2K", unit: "K", label: "Revenue Generated" },
   ],
   tags: ["Ecommerce", "Paid Advertising", "SEO", "Jewelry"],

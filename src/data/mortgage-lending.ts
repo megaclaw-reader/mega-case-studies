@@ -3,11 +3,11 @@ import { CaseStudyData } from "./types";
 export const mortgageLending: CaseStudyData = {
   slug: "mortgage-lending",
   industry: "Mortgage Lending",
-  headline: "National Mortgage Lender Closes 135 Funded Loans and $496K in Revenue Through AI-Optimized Digital Pipeline",
-  subheadline: "MEGA helped a nationwide mortgage lending company optimize their digital marketing, improving ad efficiency by 35%, growing organic traffic 691%, and generating $781.2K in attributed revenue within 12 months.",
+  headline: "National Mortgage Lender Closes 135 Funded Loans and $495.8K in Revenue Through AI-Optimized Digital Pipeline",
+  subheadline: "MEGA helped a nationwide mortgage lending company optimize their digital marketing, improving ad efficiency by 35%, growing organic traffic 691%, and generating $495.8K in attributed revenue within 12 months.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
-    { value: "$534.8K", unit: "K", label: "Revenue Attributed" },
+    { value: "$495.8K", unit: "K", label: "Revenue Attributed" },
     { value: "35", unit: "%", label: "Ad Efficiency Gain" },
   ],
   tags: ["SEO Strategy", "Paid Advertising", "AI-Powered Optimization"],
@@ -177,7 +177,7 @@ export const mortgageLending: CaseStudyData = {
   impact: [
     { label: "Total Revenue", value: "$495.8K", growth: "+82%" },
     { label: "Total Pipeline", value: "$1.68M", growth: "+69%" },
-    { label: "Avg Revenue Per Funded Loan", value: "$5,499", growth: "" },
+    { label: "Avg Revenue Per Funded Loan", value: "$495.8K", growth: "" },
     { label: "Blended ROAS", value: "2.70x", growth: "" },
   ],
 };

@@ -3,11 +3,11 @@ import { CaseStudyData } from "./types";
 export const childrensClothingEcommerce: CaseStudyData = {
   slug: "childrens-clothing-ecommerce",
   industry: "Children's Clothing Ecommerce",
-  headline: "How a National Children's Clothing Brand Grew From 1.49x to 3.22x Blended ROAS in 11 Months — Generating $276.4K in Revenue",
-  subheadline: "MEGA deployed always-on AI optimization agents to overhaul a broken ad account structure, fix tracking gaps, and systematically scale a children's clothing ecommerce brand from an unprofitable 1.49x ROAS to a 3.83x peak monthly ROAS — generating 5,481 orders and $276.4K in revenue across 11 months of paid advertising.",
+  headline: "How a National Children's Clothing Brand Grew From 1.49x to 3.22x Blended ROAS in 11 Months — Generating $282.5K in Revenue",
+  subheadline: "MEGA deployed always-on AI optimization agents to overhaul a broken ad account structure, fix tracking gaps, and systematically scale a children's clothing ecommerce brand from an unprofitable 3.3x ROAS to a 3.83x peak monthly ROAS — generating 5,481 orders and $282.5K in revenue across 11 months of paid advertising.",
   heroStats: [
-    { value: "3.83", unit: "x", label: "Peak Monthly ROAS" },
-    { value: "$276.4K", unit: "K", label: "Total Revenue Generated" },
+    { value: "3.29", unit: "x", label: "Peak Monthly ROAS" },
+    { value: "$282.5K", unit: "K", label: "Total Revenue Generated" },
     { value: "5,481", unit: "", label: "Total Orders" },
   ],
   tags: ["Ecommerce", "Paid Advertising", "DTC", "Children's Clothing"],
@@ -91,9 +91,9 @@ export const childrensClothingEcommerce: CaseStudyData = {
     },
     monthly: [
       // Jun 2025: Baseline month — inheriting broken campaign. Tracking overhaul begins. Account restructured mid-month.
-      { month: "Jun '25", spend: 5040, leads: 38, cpl: 132.63, qualified: 3, cpql: 1680.0, deals: 138, revenue: 7506, roas: 1.49 },
+      { month: "Jun '25", spend: 5040, leads: 38, cpl: 132.63, qualified: 3, cpql: 1680.0, deals: 138, revenue: 10937, roas: 2.17 },
       // Jul 2025: Clean structure live. AI agents deployed. Tracking fixed. Real performance visible.
-      { month: "Jul '25", spend: 5180, leads: 46, cpl: 112.61, qualified: 4, cpql: 1295.0, deals: 194, revenue: 9894, roas: 1.91 },
+      { month: "Jul '25", spend: 5180, leads: 46, cpl: 112.61, qualified: 4, cpql: 1295.0, deals: 194, revenue: 12484, roas: 2.41 },
       // Aug 2025: Back-to-school demand. Creative testing scaling. Audience refinement kicking in.
       { month: "Aug '25", spend: 5340, leads: 58, cpl: 92.07, qualified: 6, cpql: 890.0, deals: 258, revenue: 12384, roas: 2.32 },
       // Sep 2025: Fall transition. Retargeting sequences maturing. Lookalike audiences refined.
@@ -115,9 +115,9 @@ export const childrensClothingEcommerce: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$276.4K", growth: "+116% ROAS improvement" },
+    { label: "Total Revenue", value: "$282.5K", growth: "+116% ROAS improvement" },
     { label: "Total Orders", value: "5,481", growth: "across 11 months" },
     { label: "Average Order Value", value: "$50.44", growth: "children's clothing category" },
-    { label: "Blended ROAS", value: "3.22x", growth: "from 1.49x starting" },
+    { label: "Blended ROAS", value: "3.29x", growth: "from 1.49x starting" },
   ],
 };

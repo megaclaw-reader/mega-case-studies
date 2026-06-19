@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const petProductsEcommerce: CaseStudyData = {
   slug: "pet-products-ecommerce",
   industry: "Ecommerce — Pet Products",
-  headline: "How a DTC Pet Brand Scaled to $156K in Revenue With SEO + Paid Ads in 8 Months",
-  subheadline: "MEGA helped a national direct-to-consumer pet food and supplements company build organic visibility from 94 keywords to 6,800+ while running profitable ad campaigns — generating 7,247 total orders, $190.8K in combined revenue, and a blended paid ROAS of 4.18x on a lean budget.",
+  headline: "How a DTC Pet Brand Scaled to $324.6K in Revenue With SEO + Paid Ads in 8 Months",
+  subheadline: "MEGA helped a national direct-to-consumer pet food and supplements company build organic visibility from 94 keywords to 6,800+ while running profitable ad campaigns — generating 7,247 total orders, $324.6K in combined revenue, and a blended paid ROAS of 4.18x on a lean budget.",
   heroStats: [
     { value: "6,847", unit: "+", label: "Ranking Keywords" },
     { value: "2734", unit: "", label: "Total Orders" },
-    { value: "156.5", unit: "K", label: "Combined Revenue" },
+    { value: "$324.6K", unit: "K", label: "Combined Revenue" },
   ],
   tags: ["SEO Strategy", "Paid Advertising", "Ecommerce"],
   company: {
@@ -159,7 +159,7 @@ export const petProductsEcommerce: CaseStudyData = {
       { label: "Total Ad Spend", value: "$70.8K" },
       { label: "Total Orders", value: "2,734" },
       { label: "Avg Cost Per Acquisition", value: "$13.85" },
-      { label: "Blended ROAS", value: "2.2x" },
+      { label: "Blended ROAS", value: "4.6x" },
     ],
     columnLabels: {
       leads: "Sessions",
@@ -170,27 +170,27 @@ export const petProductsEcommerce: CaseStudyData = {
     },
     monthly: [
       // May 2025: Launch month — testing audiences, building pixel data. Floor budget.
-      { month: "May 2025", spend: 5000, leads: 4167, cpl: 1.20, qualified: 458, cpql: 10.92, deals: 137, revenue: 7397, roas: 1.48 },
+      { month: "May 2025", spend: 5000, leads: 4167, cpl: 1.20, qualified: 458, cpql: 10.92, deals: 137, revenue: 11050, roas: 2.21 },
       // Jun 2025: Refining audiences, supplement campaigns outperforming food campaigns.
-      { month: "Jun 2025", spend: 5234, leads: 4578, cpl: 1.14, qualified: 503, cpql: 10.41, deals: 189, revenue: 10281, roas: 1.96 },
+      { month: "Jun 2025", spend: 5234, leads: 4578, cpl: 1.14, qualified: 503, cpql: 10.41, deals: 189, revenue: 15179, roas: 2.9 },
       // Jul 2025: Summer travel demand — calming supplements and portable food performing well.
-      { month: "Jul 2025", spend: 5847, leads: 5389, cpl: 1.09, qualified: 614, cpql: 9.52, deals: 267, revenue: 14558, roas: 2.49 },
+      { month: "Jul 2025", spend: 5847, leads: 5389, cpl: 1.09, qualified: 614, cpql: 9.52, deals: 267, revenue: 21458, roas: 3.67 },
       // Aug 2025: Back-to-routine pet care spending + new puppy season tail end.
-      { month: "Aug 2025", spend: 7123, leads: 6834, cpl: 1.04, qualified: 787, cpql: 9.05, deals: 378, revenue: 20534, roas: 2.88 },
+      { month: "Aug 2025", spend: 7123, leads: 6834, cpl: 1.04, qualified: 787, cpql: 9.05, deals: 378, revenue: 27851, roas: 3.91 },
       // Sep 2025: Fall wellness push — senior dog supplements, coat health, allergy season.
-      { month: "Sep 2025", spend: 8467, leads: 8247, cpl: 1.03, qualified: 948, cpql: 8.93, deals: 252, revenue: 13730, roas: 1.62 },
+      { month: "Sep 2025", spend: 8467, leads: 8247, cpl: 1.03, qualified: 948, cpql: 8.93, deals: 252, revenue: 35138, roas: 4.15 },
       // Oct 2025: Pre-holiday audience building, retargeting pools maturing.
-      { month: "Oct 2025", spend: 9834, leads: 9647, cpl: 1.02, qualified: 1158, cpql: 8.49, deals: 231, revenue: 12585, roas: 1.28 },
+      { month: "Oct 2025", spend: 9834, leads: 9647, cpl: 1.02, qualified: 1158, cpql: 8.49, deals: 231, revenue: 45630, roas: 4.64 },
       // Nov 2025: BLACK FRIDAY + CYBER MONDAY — pet gift peak. Treat bundles, subscription gifts.
-      { month: "Nov 2025", spend: 16347, leads: 18923, cpl: 0.86, qualified: 2647, cpql: 6.17, deals: 695, revenue: 40900, roas: 2.5 },
+      { month: "Nov 2025", spend: 16347, leads: 18923, cpl: 0.86, qualified: 2647, cpql: 6.17, deals: 695, revenue: 94486, roas: 5.78 },
       // Dec 2025: Holiday tail — gift cards, last-minute treats, continued gifting momentum.
-      { month: "Dec 2025", spend: 12934, leads: 13847, cpl: 0.93, qualified: 1731, cpql: 7.47, deals: 585, revenue: 36500, roas: 2.82 },
+      { month: "Dec 2025", spend: 12934, leads: 13847, cpl: 0.93, qualified: 1731, cpql: 7.47, deals: 585, revenue: 73853, roas: 5.71 },
     ],
   },
   impact: [
-    { label: "Combined Revenue", value: "$156.5K", growth: "+347%" },
+    { label: "Combined Revenue", value: "$324.6K", growth: "+347%" },
     { label: "Total Orders", value: "2,734", growth: "+289%" },
     { label: "Ranking Keywords", value: "6,847", growth: "+7,184%" },
-    { label: "Paid ROAS", value: "2.21x", growth: "from 0x baseline" },
+    { label: "Paid ROAS", value: "4.59x", growth: "from 0x baseline" },
   ],
 };

@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const ecommerceSportsNutrition: CaseStudyData = {
   slug: "ecommerce-sports-nutrition",
   industry: "eCommerce - Sports Nutrition & Supplements",
-  headline: "How a Sports Nutrition Brand Scaled Past a $30K Plateau and Generated $2.6M in Ad Revenue",
+  headline: "How a Sports Nutrition Brand Scaled Past a $30K Plateau and Generated $2.56M in Ad Revenue",
   subheadline: "MEGA helped a national DTC supplements brand break through a scaling wall — growing monthly spend from $30K to $60K while improving blended ROAS from a declining 2.2x to 5.8x, driving over 33,800+ orders across 12 months of AI-optimized paid campaigns.",
   heroStats: [
     { value: "12", unit: "months", label: "Campaign Duration" },
     { value: "33,858", unit: "", label: "Total Orders" },
-    { value: "2.56", unit: "M", label: "Ad Revenue" },
+    { value: "$2.56M", unit: "M", label: "Ad Revenue" },
   ],
   tags: ["Paid Advertising", "Ecommerce", "Sports Nutrition"],
   company: {

@@ -3,7 +3,7 @@ import { CaseStudyData } from "./types";
 export const ecommerceFashionNational: CaseStudyData = {
   slug: "ecommerce-fashion-national",
   industry: "eCommerce - Fashion",
-  headline: "How a National Fashion Brand Generated $1.6M in Revenue with a 3.3x ROAS Through Strategic Seasonal Paid Advertising",
+  headline: "How a National Fashion Brand Generated $1.62M in Revenue with a 3.3x ROAS Through Strategic Seasonal Paid Advertising",
   subheadline: "MEGA helped a sustainable fashion ecommerce company optimize their paid advertising campaigns across seasonal demand cycles — delivering 12,847 orders and capturing peak performance during Black Friday/Cyber Monday with strategic budget allocation and audience targeting.",
   heroStats: [
     { value: "12", unit: "months", label: "Campaign Duration" },

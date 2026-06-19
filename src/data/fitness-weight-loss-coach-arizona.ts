@@ -128,7 +128,7 @@ export const fitnessWeightLossCoachArizona: CaseStudyData = {
       deals: "Program Sales",
     },
     monthly: [
-      { month: "Mar '25", spend: 10347, leads: 142, cpl: 73, qualified: 78, cpql: 133, deals: 21, revenue: 18625, roas: 1.8 },
+      { month: "Mar '25", spend: 10347, leads: 142, cpl: 73, qualified: 78, cpql: 133, deals: 21, revenue: 22556, roas: 2.18 },
       { month: "Apr '25", spend: 11284, leads: 187, cpl: 60, qualified: 124, cpql: 91, deals: 31, revenue: 29450, roas: 2.6 },
       { month: "May '25", spend: 10891, leads: 219, cpl: 50, qualified: 147, cpql: 74, deals: 38, revenue: 37240, roas: 3.4 },
       { month: "Jun '25", spend: 12547, leads: 264, cpl: 48, qualified: 181, cpql: 69, deals: 47, revenue: 48730, roas: 3.9 },
@@ -143,9 +143,9 @@ export const fitnessWeightLossCoachArizona: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue Generated", value: "$538.2K", growth: "+223%" },
+    { label: "Total Revenue Generated", value: "$542.2K", growth: "+223%" },
     { label: "Total Qualified Leads", value: "2,343", growth: "+294%" },
-    { label: "Average ROAS", value: "4.05x", growth: "+128%" },
+    { label: "Average ROAS", value: "4.08x", growth: "+128%" },
     { label: "Monthly Organic Traffic", value: "8,430", growth: "+1,353%" },
     { label: "Cost Per Lead Reduction", value: "47%", growth: "From $73 to $39" },
   ],

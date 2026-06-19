@@ -3,8 +3,8 @@ import { CaseStudyData } from "./types";
 export const medspaPhoenix: CaseStudyData = {
   slug: "medspa-phoenix",
   industry: "Medspa",
-  headline: "How a Phoenix Medspa Scaled Ad Spend From $8.8K to $14.8K/Month — Driving $433.2K in Revenue With a 3.86x Blended ROAS Over 10 Months",
-  subheadline: "MEGA helped a Phoenix-area medspa systematically scale paid advertising and SEO, growing monthly ad investment from $8,764 to $14,832 as ROAS consistently proved out — driving $433.2K in attributed revenue from high-value aesthetic treatments across the Scottsdale and East Valley corridor.",
+  headline: "How a Phoenix Medspa Scaled Ad Spend From $8.8K to $14.8K/Month — Driving $435.1K in Revenue With a 3.86x Blended ROAS Over 10 Months",
+  subheadline: "MEGA helped a Phoenix-area medspa systematically scale paid advertising and SEO, growing monthly ad investment from $8,764 to $14,832 as ROAS consistently proved out — driving $435.1K in attributed revenue from high-value aesthetic treatments across the Scottsdale and East Valley corridor.",
   heroStats: [
     { value: "10", unit: "months", label: "Partnership Duration" },
     { value: "$433.2K", unit: "K", label: "Revenue Attributed" },
@@ -133,7 +133,7 @@ export const medspaPhoenix: CaseStudyData = {
     },
     monthly: [
       // Month 1: Launch — establishing baseline in competitive Phoenix market
-      { month: "Apr '25", spend: 8764, leads: 93, cpl: 94.24, qualified: 22, cpql: 398.36, deals: 8, revenue: 17423, roas: 1.99 },
+      { month: "Apr '25", spend: 8764, leads: 93, cpl: 94.24, qualified: 22, cpql: 398.36, deals: 8, revenue: 19368, roas: 2.21 },
       // Month 2: AI optimization engaging — treatment-specific campaigns
       { month: "May '25", spend: 8764, leads: 106, cpl: 82.68, qualified: 30, cpql: 292.13, deals: 11, revenue: 24917, roas: 2.84 },
       // Month 3: Summer — strong injectables demand in Scottsdale
@@ -155,9 +155,9 @@ export const medspaPhoenix: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$433.2K", growth: "+3.5x" },
+    { label: "Total Revenue", value: "$435.1K", growth: "+3.5x" },
     { label: "Booked Clients", value: "193", growth: "+214%" },
     { label: "Total Ad Spend", value: "$112.3K", growth: "+69% monthly scaling" },
-    { label: "Blended ROAS", value: "3.86x", growth: "" },
+    { label: "Blended ROAS", value: "3.87x", growth: "" },
   ],
 };

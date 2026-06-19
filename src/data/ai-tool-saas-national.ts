@@ -3,7 +3,7 @@ import { CaseStudyData } from "./types";
 export const aiToolSaasNational: CaseStudyData = {
   slug: "ai-tool-saas-national",
   industry: "AI Tool SaaS",
-  headline: "How an AI Customer Support Platform Scaled to $423K Revenue With MEGA's Dual-Channel Strategy",
+  headline: "How an AI Customer Support Platform Scaled to $423.4K Revenue With MEGA's Dual-Channel Strategy",
   subheadline: "MEGA partnered with a growing AI-powered customer support automation platform to build a full-funnel acquisition engine — combining paid advertising and SEO to reduce cost per qualified lead by 56%, scale organic traffic to 14,500+/mo, and generate 107 new subscriptions over 12 months.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },

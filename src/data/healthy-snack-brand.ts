@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const healthySnackBrand: CaseStudyData = {
   slug: "healthy-snack-brand",
   industry: "Ecommerce — Healthy Snacks",
-  headline: "How a Healthy Snack Brand Went From Zero Ads to 2.8x ROAS in 5 Months",
-  subheadline: "MEGA took a direct-to-consumer healthy snack brand with no paid advertising history and built a profitable ad engine from scratch — scaling from first-ever campaigns to 2.8x ROAS, generating $107.7K in ad-attributed revenue and 2,392 orders across 5 months.",
+  headline: "How a Healthy Snack Brand Went From Zero Ads to 3.0x ROAS in 5 Months",
+  subheadline: "MEGA took a direct-to-consumer healthy snack brand with no paid advertising history and built a profitable ad engine from scratch — scaling from first-ever campaigns to 3.0x ROAS, generating $116.9K in ad-attributed revenue and 2,392 orders across 5 months.",
   heroStats: [
-    { value: "2.8", unit: "x", label: "ROAS by Month 5" },
+    { value: "3.0", unit: "x", label: "ROAS by Month 5" },
     { value: "2392", unit: "", label: "Orders Generated" },
-    { value: "107.7", unit: "K", label: "Ad Revenue" },
+    { value: "$116.9K", unit: "K", label: "Ad Revenue" },
   ],
   tags: ["Paid Advertising", "Ecommerce", "DTC"],
   company: {
@@ -91,7 +91,7 @@ export const healthySnackBrand: CaseStudyData = {
       { label: "Total Ad Spend", value: "$38.9K" },
       { label: "Total Orders", value: "2,392" },
       { label: "Avg Cost Per Acquisition", value: "$16.27", note: "↓57% from month 1" },
-      { label: "Peak ROAS", value: "2.77x", note: "from 1.2x in month 1" },
+      { label: "Peak ROAS", value: "3.0x", note: "from 1.2x in month 1" },
     ],
     columnLabels: {
       leads: "Sessions",
@@ -102,9 +102,9 @@ export const healthySnackBrand: CaseStudyData = {
     },
     monthly: [
       // Jun 2025: First-ever campaigns. Pure testing, building pixel data. Low ROAS expected.
-      { month: "Jun 2025", spend: 5200, leads: 9267, cpl: 0.56, qualified: 417, cpql: 12.47, deals: 139, revenue: 6240, roas: 1.20 },
+      { month: "Jun 2025", spend: 5200, leads: 9267, cpl: 0.56, qualified: 417, cpql: 12.47, deals: 139, revenue: 10088, roas: 1.94 },
       // Jul 2025: Finding audiences. Lookalikes from email list starting to work. ROAS climbing.
-      { month: "Jul 2025", spend: 6400, leads: 14200, cpl: 0.45, qualified: 909, cpql: 7.04, deals: 284, revenue: 12800, roas: 2.00 },
+      { month: "Jul 2025", spend: 6400, leads: 14200, cpl: 0.45, qualified: 909, cpql: 7.04, deals: 284, revenue: 18176, roas: 2.84 },
       // Aug 2025: Creative optimization paying off. Dynamic product ads and cart abandonment retargeting live.
       { month: "Aug 2025", spend: 7800, leads: 18720, cpl: 0.42, qualified: 1544, cpql: 5.05, deals: 468, revenue: 21060, roas: 2.70 },
       // Sep 2025: Scaling confidently. Bundle campaigns and subscription pushes driving higher AOV.
@@ -114,9 +114,9 @@ export const healthySnackBrand: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Peak ROAS", value: "2.77x", growth: "from 0x (no ads)" },
+    { label: "Peak ROAS", value: "3.0x", growth: "from 0x (no ads)" },
     { label: "Total Orders", value: "2,392", growth: "+495% month-over-month" },
-    { label: "Total Ad Revenue", value: "$107.7K", growth: "from $0" },
+    { label: "Total Ad Revenue", value: "$116.9K", growth: "from $0" },
     { label: "Cost Per Acquisition", value: "$16.27", growth: "↓57% from month 1" },
   ],
 };

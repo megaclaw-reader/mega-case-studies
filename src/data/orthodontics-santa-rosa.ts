@@ -3,13 +3,13 @@ import { CaseStudyData } from "./types";
 export const orthodonticsSantaRosa: CaseStudyData = {
   slug: "orthodontics-santa-rosa",
   industry: "Orthodontics",
-  headline: "How a Santa Rosa Orthodontics Practice Cut Cost Per Qualified Lead 63% and Generated $263K in Case Revenue Over 13 Months",
-  subheadline: "MEGA deployed always-on AI optimization and a full-stack SEO strategy for an orthodontics practice in Santa Rosa, California — scaling qualified leads from 9 to 32 per month while driving cost per qualified lead from $556 down to $203, turning a previously unprofitable paid advertising strategy into a consistent growth engine generating $332.5K in attributed revenue with 8,300+ ranking keywords.",
+  headline: "How a Santa Rosa Orthodontics Practice Cut Cost Per Qualified Lead 63% and Generated $278.1K in Case Revenue Over 13 Months",
+  subheadline: "MEGA deployed always-on AI optimization and a full-stack SEO strategy for an orthodontics practice in Santa Rosa, California — scaling qualified leads from 9 to 32 per month while driving cost per qualified lead from $556 down to $203, turning a previously unprofitable paid advertising strategy into a consistent growth engine generating $278.1K in attributed revenue with 8,300+ ranking keywords.",
   heroStats: [
     { value: "13", unit: "months", label: "Partnership Duration" },
     { value: "$281.3K", unit: "K", label: "Revenue Attributed" },
     { value: "63", unit: "%", label: "CPQL Reduction" },
-    { value: "3.4", unit: "x", label: "Blended ROAS" },
+    { value: "3.63", unit: "x", label: "Blended ROAS" },
   ],
   tags: ["Paid Advertising", "SEO", "Orthodontics", "Lead Quality Optimization"],
   company: {
@@ -131,12 +131,12 @@ export const orthodonticsSantaRosa: CaseStudyData = {
       costPerDeal: "Cost/Case",
     },
     monthly: [
-      { month: "Jan '25", spend: 5000, leads: 21, cpl: 238.10, qualified: 5, cpql: 1000.56, deals: 2, revenue: 8650, roas: 1.73 },
+      { month: "Jan '25", spend: 5000, leads: 21, cpl: 238.10, qualified: 5, cpql: 1000.56, deals: 2, revenue: 10250, roas: 2.05 },
       { month: "Feb '25", spend: 5100, leads: 24, cpl: 212.50, qualified: 6, cpql: 850.00, deals: 2, revenue: 11067, roas: 2.17 },
       { month: "Mar '25", spend: 5300, leads: 28, cpl: 189.29, qualified: 8, cpql: 662.67, deals: 4, revenue: 18444, roas: 3.48 },
       { month: "Apr '25", spend: 5500, leads: 33, cpl: 166.67, qualified: 9, cpql: 611.67, deals: 4, revenue: 22440, roas: 4.08 },
       { month: "May '25", spend: 5800, leads: 38, cpl: 152.63, qualified: 10, cpql: 580.22, deals: 4, revenue: 17168, roas: 2.96 },
-      { month: "Jun '25", spend: 5400, leads: 34, cpl: 158.82, qualified: 7, cpql: 771.50, deals: 2, revenue: 8694, roas: 1.61 },
+      { month: "Jun '25", spend: 5400, leads: 34, cpl: 158.82, qualified: 7, cpql: 771.50, deals: 2, revenue: 22248, roas: 4.12 },
       { month: "Jul '25", spend: 6800, leads: 48, cpl: 141.67, qualified: 12, cpql: 567.33, deals: 5, revenue: 28220, roas: 4.15 },
       { month: "Aug '25", spend: 7400, leads: 56, cpl: 132.14, qualified: 12, cpql: 617.17, deals: 4, revenue: 19906, roas: 2.69 },
       { month: "Sep '25", spend: 6700, leads: 51, cpl: 131.37, qualified: 13, cpql: 515.15, deals: 6, revenue: 26331, roas: 3.93 },
@@ -147,9 +147,9 @@ export const orthodonticsSantaRosa: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$263.0K", growth: "+367%" },
+    { label: "Total Revenue", value: "$278.1K", growth: "+367%" },
     { label: "Orthodontic Cases Started", value: "63", growth: "+244%" },
     { label: "Cost Per Qualified Lead", value: "↓63%", growth: "$556 → $203" },
-    { label: "Blended ROAS", value: "3.43x", growth: "" },
+    { label: "Blended ROAS", value: "3.63x", growth: "" },
   ],
 };

@@ -3,8 +3,8 @@ import { CaseStudyData } from "./types";
 export const socialSecurityDisability: CaseStudyData = {
   slug: "social-security-disability",
   industry: "Social Security Disability Representation",
-  headline: "How a New Mexico Disability Law Firm Generated 3,035 Qualified Leads and $2.4M in Case Fees in 6 Months",
-  subheadline: "MEGA deployed AI-driven paid advertising and aggressive SEO to help a Social Security disability representation firm in New Mexico scale qualified lead volume from 312 to 707 per month — achieving a blended 4.34x ROAS across $829K in total ad spend.",
+  headline: "How a New Mexico Disability Law Firm Generated 3,035 Qualified Leads and $2.36M in Case Fees in 6 Months",
+  subheadline: "MEGA deployed AI-driven paid advertising and aggressive SEO to help a Social Security disability representation firm in New Mexico scale qualified lead volume from 312 to 707 per month — achieving a blended 2.8x ROAS across $2.36M in total ad spend.",
   heroStats: [
     { value: "601", unit: "", label: "Qualified Leads" },
     { value: "$3.6", unit: "M", label: "Total Case Fees" },

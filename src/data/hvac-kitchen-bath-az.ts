@@ -3,7 +3,7 @@ import { CaseStudyData } from "./types";
 export const hvacKitchenBathAz: CaseStudyData = {
   slug: "hvac-kitchen-bath-az",
   industry: "HVAC + Kitchen/Bathroom Renovations",
-  headline: "How an Arizona HVAC & Renovation Company Generated 487 Qualified Leads and $221K in Revenue in 10 Months",
+  headline: "How an Arizona HVAC & Renovation Company Generated 487 Qualified Leads and $221.3K in Revenue in 10 Months",
   subheadline: "MEGA helped a dual-service HVAC and kitchen/bathroom renovation company in Arizona reduce their cost per qualified lead by 41%, grow organic traffic by 3,180%, and build a year-round lead pipeline through SEO and paid advertising.",
   heroStats: [
     { value: "10", unit: "months", label: "Partnership Duration" },

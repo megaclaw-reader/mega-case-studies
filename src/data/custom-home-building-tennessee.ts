@@ -3,8 +3,8 @@ import { CaseStudyData } from "./types";
 export const customHomeBuildingTennessee: CaseStudyData = {
   slug: "custom-home-building-tennessee",
   industry: "Residential Home Building (Custom Homes)",
-  headline: "How a Tennessee Custom Home Builder Generated $507K in New Construction Contracts Through Targeted Marketing to Affluent Homeowners",
-  subheadline: "MEGA helped a custom home building company in Tennessee reduce their cost per qualified consultation by 47% and close 21 high-value contracts worth $600K through AI-powered paid advertising and SEO targeting affluent professionals aged 35-55.",
+  headline: "How a Tennessee Custom Home Builder Generated $509.0K in New Construction Contracts Through Targeted Marketing to Affluent Homeowners",
+  subheadline: "MEGA helped a custom home building company in Tennessee reduce their cost per qualified consultation by 47% and close 21 high-value contracts worth $509.0K through AI-powered paid advertising and SEO targeting affluent professionals aged 35-55.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
     { value: "$507.4K", unit: "K", label: "Revenue Attributed" },
@@ -117,7 +117,7 @@ export const customHomeBuildingTennessee: CaseStudyData = {
     monthly: [
       { month: "Jan '25", spend: 10500, leads: 97, cpl: 108, qualified: 17, cpql: 618.75, deals: 5, revenue: 29295, roas: 2.79 },
       { month: "Feb '25", spend: 11200, leads: 98, cpl: 114, qualified: 15, cpql: 747.83, deals: 4, revenue: 29568, roas: 2.64 },
-      { month: "Mar '25", spend: 12800, leads: 106, cpl: 121, qualified: 15, cpql: 853.17, deals: 4, revenue: 22400, roas: 1.75 },
+      { month: "Mar '25", spend: 12800, leads: 106, cpl: 121, qualified: 15, cpql: 853.17, deals: 4, revenue: 33280, roas: 2.6 },
       { month: "Apr '25", spend: 13500, leads: 111, cpl: 122, qualified: 18, cpql: 750.11, deals: 5, revenue: 29565, roas: 2.19 },
       { month: "May '25", spend: 14200, leads: 144, cpl: 99, qualified: 20, cpql: 710.24, deals: 7, revenue: 50126, roas: 3.53 },
       { month: "Jun '25", spend: 15100, leads: 142, cpl: 106, qualified: 23, cpql: 657.53, deals: 6, revenue: 34126, roas: 2.26 },
@@ -186,9 +186,9 @@ export const customHomeBuildingTennessee: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$498.2K", growth: "+467%" },
+    { label: "Total Revenue", value: "$509.0K", growth: "+467%" },
     { label: "Total Qualified Consultations", value: "276", growth: "↓50% Cost Per Consultation" },
     { label: "Signed Contracts", value: "78", growth: "+233%" },
-    { label: "Blended ROAS", value: "3.16x", growth: "" },
+    { label: "Blended ROAS", value: "3.23x", growth: "" },
   ],
 };

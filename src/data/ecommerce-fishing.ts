@@ -8,7 +8,7 @@ export const ecommerceFishing: CaseStudyData = {
   heroStats: [
     { value: "9", unit: "months", label: "Campaign Duration" },
     { value: "3,078", unit: "", label: "Orders Attributed" },
-    { value: "770.4", unit: "K", label: "Ad Revenue" },
+    { value: "$770.4K", unit: "K", label: "Ad Revenue" },
   ],
   tags: ["Paid Advertising", "Ecommerce", "Seasonal Strategy"],
   company: {

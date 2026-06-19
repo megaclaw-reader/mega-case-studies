@@ -4,7 +4,7 @@ export const subscriptionEducationNational: CaseStudyData = {
   slug: "subscription-education-national",
   industry: "Subscription Education Platform",
   headline: "How a National Learning Platform Grew MRR 347% While Cutting Subscriber Acquisition Cost 28%",
-  subheadline: "MEGA helped a subscription-based education platform optimize their growth engine across SEO and paid advertising, scaling from 2,847 monthly subscribers to 11,289 subscribers with improved unit economics — dropping subscriber acquisition cost to $68 while achieving 3.22x blended ROAS over 12 months.",
+  subheadline: "MEGA helped a subscription-based education platform optimize their growth engine across SEO and paid advertising, scaling from 2,847 monthly subscribers to 11,289 subscribers with improved unit economics — dropping subscriber acquisition cost to $68 while achieving 4.2x blended ROAS over 12 months.",
   heroStats: [
     { value: "347", unit: "%", label: "MRR Growth" },
     { value: "11,289", unit: "", label: "Monthly Subscribers" },

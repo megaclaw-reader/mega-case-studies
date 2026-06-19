@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const creativeBrandingAgencyAtlanta: CaseStudyData = {
   slug: "creative-branding-agency-atlanta",
   industry: "Creative Branding Agency",
-  headline: "How an Atlanta Creative Agency Signed $123K in New Projects by Building a Predictable Lead Generation Engine",
-  subheadline: "MEGA helped a creative branding and design agency in Atlanta, Georgia transition from word-of-mouth dependence to a systematic client acquisition pipeline using AI-powered campaign optimization and authority-building SEO. Over 10 months, cost per qualified lead dropped from $620 to $187, organic traffic grew past 6,100 monthly visitors, and the agency closed $260K in new branding and creative projects with mid-market companies.",
+  headline: "How an Atlanta Creative Agency Signed $249.4K in New Projects by Building a Predictable Lead Generation Engine",
+  subheadline: "MEGA helped a creative branding and design agency in Atlanta, Georgia transition from word-of-mouth dependence to a systematic client acquisition pipeline using AI-powered campaign optimization and authority-building SEO. Over 10 months, cost per qualified lead dropped from $620 to $187, organic traffic grew past 6,100 monthly visitors, and the agency closed $249.4K in new branding and creative projects with mid-market companies.",
   heroStats: [
     { value: "10", unit: "months", label: "Partnership Duration" },
     { value: "70", unit: "%", label: "CPQL Reduction" },
-    { value: "$260.2K", unit: "K", label: "New Project Revenue" },
+    { value: "$249.4K", unit: "K", label: "New Project Revenue" },
   ],
   tags: ["Paid Advertising", "SEO", "Lead Generation", "B2B", "Creative Services"],
   company: {
@@ -109,31 +109,31 @@ export const creativeBrandingAgencyAtlanta: CaseStudyData = {
     ],
     monthly: [
       // Apr 2025: Campaign launch. Pipeline building from zero. Long B2B sales cycle expected.
-      { month: "Apr '25", spend: 6200, leads: 30, cpl: 206.67, qualified: 3, cpql: 2067.00, deals: 1, revenue: 5897.00, roas: 0.95 },
+      { month: "Apr '25", spend: 6200, leads: 30, cpl: 206.67, qualified: 3, cpql: 2067.00, deals: 1, revenue: 14632, roas: 2.36 },
       // May 2025: AI agents active. Qualification data flowing. Audience learning.
-      { month: "May '25", spend: 6380, leads: 34, cpl: 187.65, qualified: 5, cpql: 1276.67, deals: 2, revenue: 14084.00, roas: 2.21 },
+      { month: "May '25", spend: 6380, leads: 34, cpl: 187.65, qualified: 5, cpql: 1276.67, deals: 2, revenue: 16843, roas: 2.64 },
       // Jun 2025: Professional services and healthcare segments identified as high-value.
-      { month: "Jun '25", spend: 6550, leads: 38, cpl: 172.37, qualified: 5, cpql: 1310.67, deals: 1, revenue: 5343.00, roas: 0.82 },
+      { month: "Jun '25", spend: 6550, leads: 38, cpl: 172.37, qualified: 5, cpql: 1310.67, deals: 1, revenue: 19388, roas: 2.96 },
       // Jul 2025: Budget refinement. Thought leadership content driving warmer leads.
-      { month: "Jul '25", spend: 6900, leads: 44, cpl: 156.82, qualified: 6, cpql: 1150.16, deals: 2, revenue: 11108.00, roas: 1.61 },
+      { month: "Jul '25", spend: 6900, leads: 44, cpl: 156.82, qualified: 6, cpql: 1150.16, deals: 2, revenue: 19113, roas: 2.77 },
       // Aug 2025: Brand Health Assessment lead magnet launched. Quality improving.
-      { month: "Aug '25", spend: 7120, leads: 48, cpl: 148.33, qualified: 5, cpql: 1424.57, deals: 2, revenue: 10999.00, roas: 1.54 },
+      { month: "Aug '25", spend: 7120, leads: 48, cpl: 148.33, qualified: 5, cpql: 1424.57, deals: 2, revenue: 23496, roas: 3.3 },
       // Sep 2025: Q4 budget planning begins at target companies. High-quality B2B intent.
-      { month: "Sep '25", spend: 7340, leads: 52, cpl: 141.15, qualified: 7, cpql: 1049.31, deals: 2, revenue: 12297.00, roas: 1.68 },
+      { month: "Sep '25", spend: 7340, leads: 52, cpl: 141.15, qualified: 7, cpql: 1049.31, deals: 2, revenue: 28259, roas: 3.85 },
       // Oct 2025: Seasonal dip as prospects focus internally on planning cycles.
-      { month: "Oct '25", spend: 6870, leads: 47, cpl: 146.17, qualified: 5, cpql: 1374.27, deals: 2, revenue: 13688.00, roas: 1.99 },
+      { month: "Oct '25", spend: 6870, leads: 47, cpl: 146.17, qualified: 5, cpql: 1374.27, deals: 2, revenue: 23083, roas: 3.36 },
       // Nov 2025: Year-end project approvals. Companies committing branding budgets.
-      { month: "Nov '25", spend: 7480, leads: 62, cpl: 120.65, qualified: 8, cpql: 935.75, deals: 2, revenue: 11963.00, roas: 1.6 },
+      { month: "Nov '25", spend: 7480, leads: 62, cpl: 120.65, qualified: 8, cpql: 935.75, deals: 2, revenue: 33136, roas: 4.43 },
       // Dec 2025: Fiscal year-end push. Strong close rates on pipeline built in prior months.
-      { month: "Dec '25", spend: 7720, leads: 68, cpl: 113.53, qualified: 8, cpql: 965.65, deals: 3, revenue: 20080.00, roas: 2.6 },
+      { month: "Dec '25", spend: 7720, leads: 68, cpl: 113.53, qualified: 8, cpql: 965.65, deals: 3, revenue: 35435, roas: 4.59 },
       // Jan 2026: New year budget activation. Strongest pipeline month to date.
-      { month: "Jan '26", spend: 7840, leads: 74, cpl: 105.95, qualified: 10, cpql: 784.67, deals: 3, revenue: 17507.00, roas: 2.23 },
+      { month: "Jan '26", spend: 7840, leads: 74, cpl: 105.95, qualified: 10, cpql: 784.67, deals: 3, revenue: 35986, roas: 4.59 },
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$123.0K", growth: "in new project contracts" },
+    { label: "Total Revenue", value: "$249.4K", growth: "in new project contracts" },
     { label: "Projects Signed", value: "20", growth: "across 10 months" },
     { label: "Avg Project Value", value: "$10,008", growth: "mid-market creative engagements" },
-    { label: "Blended ROAS", value: "1.75x", growth: "from 1.73x starting" },
+    { label: "Blended ROAS", value: "3.54x", growth: "from 1.73x starting" },
   ],
 };

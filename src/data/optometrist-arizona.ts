@@ -4,7 +4,7 @@ export const optometristArizona: CaseStudyData = {
   slug: "optometrist-arizona",
   industry: "Optometrist / Vision Care",
   headline: "How an Arizona Optometry Practice Doubled Patient Appointments While Cutting Cost Per Lead by 47%",
-  subheadline: "MEGA helped a growing Arizona vision care practice combine paid advertising with local SEO over 13 months — scaling from 38 to 84 qualified patient leads per month, generating $271.5K in attributed revenue, and achieving a 3.5x blended return on ad spend.",
+  subheadline: "MEGA helped a growing Arizona vision care practice combine paid advertising with local SEO over 13 months — scaling from 38 to 84 qualified patient leads per month, generating $271.4K in attributed revenue, and achieving a 3.5x blended return on ad spend.",
   heroStats: [
     { value: "13", unit: "months", label: "Partnership Duration" },
     { value: "812", unit: "", label: "Qualified Patient Leads" },

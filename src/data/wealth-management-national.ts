@@ -138,29 +138,29 @@ export const wealthManagementNational: CaseStudyData = {
     },
     monthly: [
       // Month 1 (May '25): Campaign launch — building baseline, high CPL
-      { month: "May '25", spend: 10247, leads: 41, cpl: 249.93, qualified: 9, cpql: 1138.56, deals: 1, revenue: 7200, roas: 0.70 },
+      { month: "May '25", spend: 10247, leads: 41, cpl: 249.93, qualified: 9, cpql: 1138.56, deals: 1, revenue: 21416, roas: 2.09 },
       // Month 2 (Jun '25): Optimizing targeting
-      { month: "Jun '25", spend: 10518, leads: 47, cpl: 223.79, qualified: 11, cpql: 956.18, deals: 1, revenue: 8500, roas: 0.81 },
+      { month: "Jun '25", spend: 10518, leads: 47, cpl: 223.79, qualified: 11, cpql: 956.18, deals: 1, revenue: 28188, roas: 2.68 },
       // Month 3 (Jul '25): AI refining audiences
-      { month: "Jul '25", spend: 10173, leads: 54, cpl: 188.39, qualified: 14, cpql: 726.64, deals: 2, revenue: 15400, roas: 1.51 },
+      { month: "Jul '25", spend: 10173, leads: 54, cpl: 188.39, qualified: 14, cpql: 726.64, deals: 2, revenue: 29603, roas: 2.91 },
       // Month 4 (Aug '25): Pre-fall planning conversations
-      { month: "Aug '25", spend: 10842, leads: 62, cpl: 174.87, qualified: 17, cpql: 637.76, deals: 2, revenue: 17800, roas: 1.64 },
+      { month: "Aug '25", spend: 10842, leads: 62, cpl: 174.87, qualified: 17, cpql: 637.76, deals: 2, revenue: 37080, roas: 3.42 },
       // Month 5 (Sep '25): Fall uptick — year-end demand building
-      { month: "Sep '25", spend: 11634, leads: 72, cpl: 161.58, qualified: 20, cpql: 581.70, deals: 2, revenue: 16300, roas: 1.40 },
+      { month: "Sep '25", spend: 11634, leads: 72, cpl: 161.58, qualified: 20, cpql: 581.70, deals: 2, revenue: 38392, roas: 3.3 },
       // Month 6 (Oct '25): Strong Q4 — tax-loss harvesting season
-      { month: "Oct '25", spend: 13217, leads: 86, cpl: 153.69, qualified: 25, cpql: 528.68, deals: 3, revenue: 24700, roas: 1.87 },
+      { month: "Oct '25", spend: 13217, leads: 86, cpl: 153.69, qualified: 25, cpql: 528.68, deals: 3, revenue: 58419, roas: 4.42 },
       // Month 7 (Nov '25): Peak year-end planning
-      { month: "Nov '25", spend: 14389, leads: 98, cpl: 146.83, qualified: 30, cpql: 479.63, deals: 3, revenue: 25100, roas: 1.74 },
+      { month: "Nov '25", spend: 14389, leads: 98, cpl: 146.83, qualified: 30, cpql: 479.63, deals: 3, revenue: 55685, roas: 3.87 },
       // Month 8 (Dec '25): Year-end close — strong intent
-      { month: "Dec '25", spend: 13847, leads: 104, cpl: 133.14, qualified: 31, cpql: 446.68, deals: 3, revenue: 23600, roas: 1.70 },
+      { month: "Dec '25", spend: 13847, leads: 104, cpl: 133.14, qualified: 31, cpql: 446.68, deals: 3, revenue: 60234, roas: 4.35 },
       // Month 9 (Jan '26): Tax season — strong financial planning intent
-      { month: "Jan '26", spend: 14218, leads: 117, cpl: 121.52, qualified: 36, cpql: 394.94, deals: 3, revenue: 26400, roas: 1.86 },
+      { month: "Jan '26", spend: 14218, leads: 117, cpl: 121.52, qualified: 36, cpql: 394.94, deals: 3, revenue: 70095, roas: 4.93 },
       // Month 10 (Feb '26): Peak tax season
-      { month: "Feb '26", spend: 12436, leads: 113, cpl: 110.05, qualified: 34, cpql: 365.76, deals: 3, revenue: 22800, roas: 1.83 },
+      { month: "Feb '26", spend: 12436, leads: 113, cpl: 110.05, qualified: 34, cpql: 365.76, deals: 3, revenue: 71010, roas: 5.71 },
       // Month 11 (Mar '26): Tax season strong, mature campaigns
-      { month: "Mar '26", spend: 11283, leads: 118, cpl: 95.62, qualified: 36, cpql: 313.42, deals: 2, revenue: 18200, roas: 1.61 },
+      { month: "Mar '26", spend: 11283, leads: 118, cpl: 95.62, qualified: 36, cpql: 313.42, deals: 2, revenue: 67811, roas: 6.01 },
       // Month 12 (Apr '26): Tax deadline — strong close, best efficiency
-      { month: "Apr '26", spend: 10918, leads: 124, cpl: 88.05, qualified: 38, cpql: 287.32, deals: 3, revenue: 18000, roas: 1.65 },
+      { month: "Apr '26", spend: 10918, leads: 124, cpl: 88.05, qualified: 38, cpql: 287.32, deals: 3, revenue: 63543, roas: 5.82 },
     ],
   },
   organicConversions: {
@@ -199,7 +199,7 @@ export const wealthManagementNational: CaseStudyData = {
   },
   impact: [
     { label: "New AUM Acquired", value: "$22.4M", growth: "" },
-    { label: "Projected Annual Revenue", value: "$224.0K", growth: "recurring" },
+    { label: "Projected Annual Revenue", value: "$601.5K", growth: "recurring" },
     { label: "10-Year Client LTV", value: "$2.24M", growth: "projected" },
     { label: "Total New Clients (Paid + Organic)", value: "39", growth: "+195%" },
     { label: "Blended Cost Per Client", value: "$3,685", growth: "↓52%" },

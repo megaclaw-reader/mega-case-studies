@@ -3,8 +3,8 @@ import { CaseStudyData } from "./types";
 export const dentalMedtech: CaseStudyData = {
   slug: "dental-medtech",
   industry: "Dental Medtech",
-  headline: "How a National Dental Medtech Company Generated $2.0M in Revenue at 3.58x Blended ROAS in 7 Months",
-  subheadline: "MEGA helped a B2B dental technology company shift from high-volume, low-quality leads to bottom-of-funnel qualified prospects — growing monthly revenue from $150K to $350K, achieving 3.58x blended ROAS, and closing 38 equipment deals worth $1.76M across 7 months.",
+  headline: "How a National Dental Medtech Company Generated $2.01M in Revenue at 4.1x Blended ROAS in 7 Months",
+  subheadline: "MEGA helped a B2B dental technology company shift from high-volume, low-quality leads to bottom-of-funnel qualified prospects — growing monthly revenue from $2.01M to $2.01M, achieving 4.1x blended ROAS, and closing 38 equipment deals worth $2.01M across 7 months.",
   heroStats: [
     { value: "7", unit: "months", label: "Partnership Duration" },
     { value: "$2.0M", unit: "K", label: "Revenue Attributed" },

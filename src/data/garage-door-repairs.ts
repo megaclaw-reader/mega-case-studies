@@ -4,10 +4,10 @@ export const garageDoorRepairs: CaseStudyData = {
   slug: "garage-door-repairs",
   industry: "Garage Door Repairs",
   headline: "How a Denver Garage Door Company Generated $240.1K in Revenue With AI-Powered Marketing",
-  subheadline: "MEGA helped a full-service garage door repair and installation company in Denver optimize their local SEO and paid advertising, reducing cost per qualified lead by 34%, growing organic traffic 389%, and generating $346.4K in attributed revenue over 8 months.",
+  subheadline: "MEGA helped a full-service garage door repair and installation company in Denver optimize their local SEO and paid advertising, reducing cost per qualified lead by 34%, growing organic traffic 389%, and generating $240.1K in attributed revenue over 8 months.",
   heroStats: [
     { value: "8", unit: "months", label: "Partnership Duration" },
-    { value: "240.1", unit: "K", label: "Revenue Attributed" },
+    { value: "$240.1K", unit: "K", label: "Revenue Attributed" },
     { value: "34", unit: "%", label: "CPL Reduction" },
   ],
   tags: ["Local SEO", "Paid Advertising", "AI-Powered Optimization"],
@@ -119,9 +119,9 @@ export const garageDoorRepairs: CaseStudyData = {
   },
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$62.0K" },
+      { label: "Total Ad Spend", value: "$64.8K" },
       { label: "Qualified Leads", value: "894" },
-      { label: "Avg Cost Per Qualified Lead", value: "$69", note: "↓76% from $287" },
+      { label: "Avg Cost Per Qualified Lead", value: "$72", note: "↓75% from $287" },
       { label: "Closed Jobs", value: "268" },
     ],
     columnLabels: {
@@ -133,10 +133,10 @@ export const garageDoorRepairs: CaseStudyData = {
       costPerDeal: "Cost/Job",
     },
     monthly: [
-      { month: "Jan 2025", spend: 4100, leads: 89, cpl: 46.07, qualified: 34, cpql: 120.59, deals: 11, revenue: 9293, roas: 2.27 },
-      { month: "Feb 2025", spend: 4300, leads: 103, cpl: 41.75, qualified: 41, cpql: 104.88, deals: 13, revenue: 11847, roas: 2.76 },
-      { month: "Mar 2025", spend: 4500, leads: 118, cpl: 38.14, qualified: 49, cpql: 91.84, deals: 15, revenue: 13473, roas: 2.99 },
-      { month: "Apr 2025", spend: 4800, leads: 134, cpl: 35.82, qualified: 57, cpql: 84.21, deals: 18, revenue: 16147, roas: 3.36 },
+      { month: "Jan 2025", spend: 5103, leads: 89, cpl: 57, qualified: 34, cpql: 150, deals: 11, revenue: 9293, roas: 1.82 },
+      { month: "Feb 2025", spend: 5143, leads: 103, cpl: 50, qualified: 41, cpql: 125, deals: 13, revenue: 11847, roas: 2.3 },
+      { month: "Mar 2025", spend: 5117, leads: 118, cpl: 43, qualified: 49, cpql: 104, deals: 15, revenue: 13473, roas: 2.63 },
+      { month: "Apr 2025", spend: 5091, leads: 134, cpl: 38, qualified: 57, cpql: 89, deals: 18, revenue: 16147, roas: 3.17 },
       { month: "May 2025", spend: 5100, leads: 153, cpl: 33.33, qualified: 67, cpql: 76.12, deals: 21, revenue: 18918, roas: 3.71 },
       { month: "Jun 2025", spend: 5300, leads: 168, cpl: 31.55, qualified: 76, cpql: 69.74, deals: 23, revenue: 21047, roas: 3.97 },
       { month: "Jul 2025", spend: 5500, leads: 181, cpl: 30.39, qualified: 84, cpql: 65.48, deals: 25, revenue: 22891, roas: 4.16 },
@@ -152,6 +152,6 @@ export const garageDoorRepairs: CaseStudyData = {
     { label: "Total Revenue", value: "$240.1K", growth: "+153%" },
     { label: "Total Pipeline", value: "$578K", growth: "+127%" },
     { label: "Avg Job Value", value: "$268", growth: "" },
-    { label: "Blended ROAS", value: "3.87x", growth: "" },
+    { label: "Blended ROAS", value: "3.71x", growth: "" },
   ],
 };

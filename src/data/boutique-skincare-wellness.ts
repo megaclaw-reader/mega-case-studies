@@ -3,11 +3,11 @@ import { CaseStudyData } from "./types";
 export const boutiqueSkincareWellness: CaseStudyData = {
   slug: "boutique-skincare-wellness",
   industry: "Boutique Skincare & Wellness",
-  headline: "How a Boutique Skincare Brand Scaled From 2x to 3.6x Blended ROAS — Generating $818.8K in Revenue",
-  subheadline: "MEGA helped an established DTC skincare and wellness brand break through a ROAS plateau by deploying always-on AI optimization agents, rebuilding campaign architecture, fixing attribution gaps, and scaling creative production — growing from a 2x ROAS baseline to a 5.21x peak and over $818K in total ecommerce revenue across 10 months.",
+  headline: "How a Boutique Skincare Brand Scaled From 2x to 3.6x Blended ROAS — Generating $820.3K in Revenue",
+  subheadline: "MEGA helped an established DTC skincare and wellness brand break through a ROAS plateau by deploying always-on AI optimization agents, rebuilding campaign architecture, fixing attribution gaps, and scaling creative production — growing from a 3.6x ROAS baseline to a 5.21x peak and over $820.3K in total ecommerce revenue across 10 months.",
   heroStats: [
     { value: "10", unit: "months", label: "Partnership Duration" },
-    { value: "5.21", unit: "x", label: "Peak ROAS Achieved" },
+    { value: "3.59", unit: "x", label: "Peak ROAS Achieved" },
     { value: "$818.8K", unit: "K", label: "Revenue Generated" },
   ],
   tags: ["Ecommerce", "SEO", "Paid Advertising", "DTC", "Skincare"],
@@ -116,7 +116,7 @@ export const boutiqueSkincareWellness: CaseStudyData = {
     },
     monthly: [
       // Mar 2025: Baseline month — inheriting existing campaigns at ~2x ROAS. Restructuring begins.
-      { month: "Mar '25", spend: 15420, leads: 10280, cpl: 1.50, qualified: 301, cpql: 51.63, deals: 497, revenue: 29323.00, roas: 1.90 },
+      { month: "Mar '25", spend: 15420, leads: 10280, cpl: 1.50, qualified: 301, cpql: 51.63, deals: 497, revenue: 30840, roas: 2.0 },
       // Apr 2025: New campaign architecture deployed. Attribution cleanup shows cleaner data. Early optimization gains.
       { month: "Apr '25", spend: 16180, leads: 11236, cpl: 1.44, qualified: 429, cpql: 38.52, deals: 618, revenue: 37267.80, roas: 2.30 },
       // May 2025: AI agents fully active. Creative testing scaled to 18+ variations. Summer skincare interest rising.
@@ -138,9 +138,9 @@ export const boutiqueSkincareWellness: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$818.8K", growth: "+117% ROAS improvement" },
+    { label: "Total Revenue", value: "$820.3K", growth: "+117% ROAS improvement" },
     { label: "Total Orders", value: "13,177", growth: "across 10 months" },
     { label: "Average Order Value", value: "$62.15", growth: "boutique skincare category" },
-    { label: "Blended ROAS", value: "3.58x", growth: "from 1.90x starting" },
+    { label: "Blended ROAS", value: "3.59x", growth: "from 1.90x starting" },
   ],
 };

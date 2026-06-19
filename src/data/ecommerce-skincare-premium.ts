@@ -3,10 +3,10 @@ import { CaseStudyData } from "./types";
 export const ecommerceSkincerePremium: CaseStudyData = {
   slug: "ecommerce-skincare-premium",
   industry: "eCommerce - Premium Skincare",
-  headline: "How a Premium Skincare Brand Achieved 7.93x Peak ROAS by Replacing Creative Fatigue with AI-Powered Ad Volume and Precision Audience Targeting — Generating $3.33M in Revenue",
-  subheadline: "MEGA deployed always-on AI optimization agents and a 100+ creative volume strategy to help a national premium skincare brand scale from $44K/month in ad spend with a 3.18x ROAS to a 7.93x peak during Black Friday — attracting high-intent buyers willing to pay premium prices while eliminating the return-rate issues caused by bargain-shopper targeting.",
+  headline: "How a Premium Skincare Brand Achieved 5.6x Peak ROAS by Replacing Creative Fatigue with AI-Powered Ad Volume and Precision Audience Targeting — Generating $3.33M in Revenue",
+  subheadline: "MEGA deployed always-on AI optimization agents and a 100+ creative volume strategy to help a national premium skincare brand scale from $44K/month in ad spend with a 5.6x ROAS to a 7.93x peak during Black Friday — attracting high-intent buyers willing to pay premium prices while eliminating the return-rate issues caused by bargain-shopper targeting.",
   heroStats: [
-    { value: "7.93", unit: "x", label: "Peak ROAS (Black Friday)" },
+    { value: "5.57", unit: "x", label: "Peak ROAS (Black Friday)" },
     { value: "$3.33M", unit: "", label: "Total Revenue Generated" },
     { value: "25,248", unit: "", label: "Total Orders" },
   ],
@@ -123,6 +123,6 @@ export const ecommerceSkincerePremium: CaseStudyData = {
     { label: "Average Order Value", value: "$131.95", growth: "premium skincare category" },
     { label: "Blended ROAS", value: "5.57x", growth: "from 2.66x starting" },
     { label: "Return Rate Reduction", value: "9.4%", growth: "down from 18%" },
-    { label: "Peak ROAS (Black Friday)", value: "7.93x", growth: "Nov 2025" },
+    { label: "Peak ROAS (Black Friday)", value: "5.6x", growth: "Nov 2025" },
   ],
 };

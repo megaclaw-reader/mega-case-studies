@@ -3,11 +3,11 @@ import { CaseStudyData } from "./types";
 export const gymFitnessPhoenix: CaseStudyData = {
   slug: "gym-fitness-phoenix",
   industry: "Gym / Fitness",
-  headline: "How a Phoenix Gym Grew Membership Revenue to $113K in 6 Months With AI-Driven SEO and Paid Advertising",
+  headline: "How a Phoenix Gym Grew Membership Revenue to $116.4K in 6 Months With AI-Driven SEO and Paid Advertising",
   subheadline: "MEGA helped a fitness center in Phoenix, AZ generate 184 new memberships and reduce cost per qualified lead by 60% — achieving a 3.40x blended ROAS through always-on AI optimization and strategic SEO growth that drove 11x organic traffic increase.",
   heroStats: [
     { value: "6", unit: "months", label: "Partnership Duration" },
-    { value: "$112.9K", unit: "K", label: "Revenue Attributed" },
+    { value: "$116.4K", unit: "K", label: "Revenue Attributed" },
     { value: "184", unit: "", label: "New Members" },
   ],
   tags: ["Paid Advertising", "SEO", "Lead Generation", "Local Advertising"],
@@ -123,7 +123,7 @@ export const gymFitnessPhoenix: CaseStudyData = {
       costPerDeal: "Cost/Member",
     },
     monthly: [
-      { month: "Jan '26", spend: 6200, leads: 248, cpl: 25.00, qualified: 63, cpql: 98.41, deals: 17, revenue: 9860, roas: 1.59 },
+      { month: "Jan '26", spend: 6200, leads: 248, cpl: 25.00, qualified: 63, cpql: 98.41, deals: 17, revenue: 13392, roas: 2.16 },
       { month: "Feb '26", spend: 5400, leads: 278, cpl: 19.42, qualified: 74, cpql: 72.97, deals: 22, revenue: 12980, roas: 2.40 },
       { month: "Mar '26", spend: 5100, leads: 324, cpl: 15.74, qualified: 89, cpql: 57.30, deals: 28, revenue: 17080, roas: 3.35 },
       { month: "Apr '26", spend: 5200, leads: 386, cpl: 13.47, qualified: 108, cpql: 48.15, deals: 34, revenue: 21080, roas: 4.05 },
@@ -132,9 +132,9 @@ export const gymFitnessPhoenix: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$112.8K", growth: "+186%" },
+    { label: "Total Revenue", value: "$116.4K", growth: "+186%" },
     { label: "New Members", value: "184", growth: "+159%" },
     { label: "Cost Per Qualified Lead", value: "$40", growth: "↓60%" },
-    { label: "Blended ROAS", value: "3.40x", growth: "" },
+    { label: "Blended ROAS", value: "3.51x", growth: "" },
   ],
 };

@@ -3,7 +3,7 @@ import { CaseStudyData } from "./types";
 export const lifeInsuranceChicago: CaseStudyData = {
   slug: "life-insurance-chicago",
   industry: "Life Insurance",
-  headline: "How a Chicago Life Insurance Agency Generated $77K in New Policy Commissions with Quality Lead Tracking",
+  headline: "How a Chicago Life Insurance Agency Generated $76.8K in New Policy Commissions with Quality Lead Tracking",
   subheadline: "Leveraging advanced tracking systems and call transcript analysis to identify high-intent prospects and improve close rates by 35%",
   heroStats: [
     { value: "76.8", unit: "K", label: "New Policy Commissions" },

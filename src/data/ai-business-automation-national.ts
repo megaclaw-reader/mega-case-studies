@@ -4,11 +4,11 @@ export const aiBusinessAutomationNational: CaseStudyData = {
   slug: "ai-business-automation-national",
   industry: "AI Business Automation",
   headline: "How an AI Automation Firm Grew Qualified Meetings 233% in 9 Months Through Paid Advertising",
-  subheadline: "MEGA helped a B2B AI business automation consultancy scale from scattered paid campaigns to a disciplined lead generation engine — growing booked meetings with qualified decision-makers from 9 to 30 per month while maintaining cost efficiency. Over 9 months, the firm closed 25 deals worth $222.7K in revenue at a 3.64x blended ROAS.",
+  subheadline: "MEGA helped a B2B AI business automation consultancy scale from scattered paid campaigns to a disciplined lead generation engine — growing booked meetings with qualified decision-makers from 9 to 30 per month while maintaining cost efficiency. Over 9 months, the firm closed 25 deals worth $227.9K in revenue at a 3.64x blended ROAS.",
   heroStats: [
     { value: "233", unit: "%", label: "Growth in Qualified Meetings" },
     { value: "25", unit: "", label: "Deals Closed" },
-    { value: "$222.7K", unit: "K", label: "Revenue Generated" },
+    { value: "$227.9K", unit: "K", label: "Revenue Generated" },
   ],
   tags: ["Paid Advertising", "AI-Powered Optimization", "B2B Lead Generation"],
   company: {
@@ -93,7 +93,7 @@ export const aiBusinessAutomationNational: CaseStudyData = {
       costPerDeal: "Cost/Deal",
     },
     monthly: [
-      { month: "Jun '25", spend: 5674, leads: 53, cpl: 107.06, qualified: 18,  cpql: 315.22, deals: 1, revenue: 8700,  roas: 1.53 },
+      { month: "Jun '25", spend: 5674, leads: 53, cpl: 107.06, qualified: 18,  cpql: 315.22, deals: 1, revenue: 13901,  roas: 2.45 },
       { month: "Jul '25", spend: 5812, leads: 61, cpl: 95.28, qualified: 23, cpql: 252.7, deals: 2, revenue: 18400, roas: 3.17 },
       { month: "Aug '25", spend: 6147, leads: 71, cpl: 86.58, qualified: 25, cpql: 245.88, deals: 2, revenue: 17200, roas: 2.80 },
       { month: "Sep '25", spend: 6483, leads: 79, cpl: 82.06, qualified: 30, cpql: 216.1, deals: 3, revenue: 27900, roas: 4.30 },
@@ -105,9 +105,9 @@ export const aiBusinessAutomationNational: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$222.7K", growth: "+348%" },
+    { label: "Total Revenue", value: "$227.9K", growth: "+348%" },
     { label: "Qualified Meetings", value: "326", growth: "+233%" },
     { label: "Avg Deal Value", value: "$8,906", growth: "" },
-    { label: "Blended ROAS", value: "3.64x", growth: "" },
+    { label: "Blended ROAS", value: "3.72x", growth: "" },
   ],
 };

@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const constructionMembraneMaterials: CaseStudyData = {
   slug: "construction-membrane-materials",
   industry: "Construction & Industrial Membrane Materials",
-  headline: "How an Established Membrane Materials Supplier Doubled Organic Traffic to 37K/mo and Generated $683K With AI-Powered Marketing",
+  headline: "How an Established Membrane Materials Supplier Doubled Organic Traffic to 37K/mo and Generated $683.5K With AI-Powered Marketing",
   subheadline: "MEGA helped a B2B manufacturer with 189 indexed pages already generating 18,000+ monthly organic sessions scale their digital presence nationally — doubling organic traffic to 37,800/mo across 378 pages, reducing cost per qualified lead by 47%, and generating $683.5K in attributed revenue over 12 months.",
   heroStats: [
     { value: "107", unit: "%", label: "Organic Traffic Growth" },
     { value: "296", unit: "", label: "Qualified Leads Generated" },
-    { value: "$683.5", unit: "K", label: "Revenue Attributed" },
+    { value: "$683.5K", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["SEO", "Paid Advertising", "B2B Lead Generation"],
   company: {

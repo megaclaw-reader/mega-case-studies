@@ -4,11 +4,11 @@ export const consumerFinancialServices: CaseStudyData = {
   slug: "consumer-financial-services",
   industry: "Consumer Financial Services",
   headline: "How a National Consumer Financial Services Company Increased Qualified Leads 145% With AI-Powered Paid Advertising",
-  subheadline: "MEGA helped a consumer financial services company build a scalable lead generation engine nationwide, reducing cost per qualified lead 48% and generating $77.1K in attributed revenue over 5 months.",
+  subheadline: "MEGA helped a consumer financial services company build a scalable lead generation engine nationwide, reducing cost per qualified lead 48% and generating $121.2K in attributed revenue over 5 months.",
   heroStats: [
     { value: "5", unit: "months", label: "Partnership Duration" },
     { value: "83", unit: "", label: "Qualified Leads Generated" },
-    { value: "$77.1K", unit: "", label: "Revenue Attributed" },
+    { value: "$121.2K", unit: "", label: "Revenue Attributed" },
   ],
   tags: ["Paid Advertising"],
   company: {
@@ -94,17 +94,17 @@ export const consumerFinancialServices: CaseStudyData = {
       { label: "New Clients Acquired", value: "25" },
     ],
     monthly: [
-      { month: "Oct '25", spend: 6675, leads: 68, cpl: 98.16, qualified: 11, cpql: 606.82, deals: 3, revenue: 8550, roas: 1.28 },
-      { month: "Nov '25", spend: 7124, leads: 87, cpl: 81.89, qualified: 14, cpql: 508.86, deals: 4, revenue: 11680, roas: 1.64 },
-      { month: "Dec '25", spend: 6843, leads: 82, cpl: 83.45, qualified: 14, cpql: 488.79, deals: 4, revenue: 12320, roas: 1.80 },
-      { month: "Jan '26", spend: 7392, leads: 112, cpl: 66.00, qualified: 19, cpql: 389.05, deals: 6, revenue: 18900, roas: 2.56 },
-      { month: "Feb '26", spend: 7856, leads: 138, cpl: 56.93, qualified: 25, cpql: 314.24, deals: 8, revenue: 25680, roas: 3.27 },
+      { month: "Oct '25", spend: 6675, leads: 68, cpl: 98.16, qualified: 11, cpql: 606.82, deals: 3, revenue: 14752, roas: 2.21 },
+      { month: "Nov '25", spend: 7124, leads: 87, cpl: 81.89, qualified: 14, cpql: 508.86, deals: 4, revenue: 20802, roas: 2.92 },
+      { month: "Dec '25", spend: 6843, leads: 82, cpl: 83.45, qualified: 14, cpql: 488.79, deals: 4, revenue: 22856, roas: 3.34 },
+      { month: "Jan '26", spend: 7392, leads: 112, cpl: 66.00, qualified: 19, cpql: 389.05, deals: 6, revenue: 27794, roas: 3.76 },
+      { month: "Feb '26", spend: 7856, leads: 138, cpl: 56.93, qualified: 25, cpql: 314.24, deals: 8, revenue: 35038, roas: 4.46 },
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$77.1K", growth: "+200%" },
+    { label: "Total Revenue", value: "$121.2K", growth: "+200%" },
     { label: "Qualified Leads Generated", value: "83", growth: "11 → 25/mo" },
     { label: "Avg Deal Value", value: "$3.1K", growth: "" },
-    { label: "Blended ROAS", value: "2.15x", growth: "" },
+    { label: "Blended ROAS", value: "3.38x", growth: "" },
   ],
 };

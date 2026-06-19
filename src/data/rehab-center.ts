@@ -144,6 +144,6 @@ export const rehabCenter: CaseStudyData = {
     { label: "Total Revenue Attributed", value: "$496.6K", growth: "4.34x Blended ROAS" },
     { label: "Private-Pay Admission Rate", value: "65%", growth: "↑ from 32% at start" },
     { label: "Qualified Admissions Leads", value: "1,049", growth: "+26% month-over-month avg" },
-    { label: "Avg Revenue Per Admission", value: "$16,019", growth: "↑ 44% as private-pay mix grew" },
+    { label: "Avg Revenue Per Admission", value: "$496.6K", growth: "↑ 44% as private-pay mix grew" },
   ],
 };

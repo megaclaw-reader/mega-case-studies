@@ -3,11 +3,11 @@ import { CaseStudyData } from "./types";
 export const skincareEcommerce: CaseStudyData = {
   slug: "skincare-ecommerce",
   industry: "Skin Care",
-  headline: "How a National Skincare Brand Maintained $54.9M Monthly Ad Spend While Growing ROAS From 2.53x to 6.08x — Generating Over $54.9M in Revenue",
-  subheadline: "MEGA deployed always-on AI optimization agents and AI-powered creative production to help a massive DTC skincare brand systematically improve return on ad spend from 2.53x to 6.08x at scale — maintaining over $1.2M in monthly ad spend while generating $54.9M in ecommerce revenue across 10 months.",
+  headline: "How a National Skincare Brand Maintained $54.85M Monthly Ad Spend While Growing ROAS From 2.53x to 6.08x — Generating Over $54.85M in Revenue",
+  subheadline: "MEGA deployed always-on AI optimization agents and AI-powered creative production to help a massive DTC skincare brand systematically improve return on ad spend from 2.53x to 6.08x at scale — maintaining over $1.2M in monthly ad spend while generating $54.85M in ecommerce revenue across 10 months.",
   heroStats: [
     { value: "10", unit: "months", label: "Partnership Duration" },
-    { value: "6.08", unit: "x", label: "Peak ROAS Achieved" },
+    { value: "4.42", unit: "x", label: "Peak ROAS Achieved" },
     { value: "$54.9M", unit: "M", label: "Revenue Generated" },
   ],
   tags: ["Ecommerce", "Paid Advertising", "DTC", "Skincare"],

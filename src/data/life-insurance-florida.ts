@@ -3,7 +3,7 @@ import { CaseStudyData } from "./types";
 export const lifeInsuranceFloridaNew: CaseStudyData = {
   slug: "life-insurance-florida",
   industry: "Life Insurance",
-  headline: "How a Florida Life Insurance Agency Generated $103K in New Commissions With AI-Powered Marketing",
+  headline: "How a Florida Life Insurance Agency Generated $104.1K in New Commissions With AI-Powered Marketing",
   subheadline: "MEGA helped a life insurance agency in Florida optimize their digital marketing, reducing cost per qualified lead by 52%, growing organic traffic 1,012%, and closing 73 new policies over 6 months.",
   heroStats: [
     { value: "6", unit: "months", label: "Partnership Duration" },
@@ -125,7 +125,7 @@ export const lifeInsuranceFloridaNew: CaseStudyData = {
     ],
     monthly: [
       // Month 1 (Nov 2025): Starting point, broad campaigns being refined
-      { month: "Nov '25", spend: 5200, leads: 32, cpl: 162.50, qualified: 19, cpql: 273.68, deals: 8, revenue: 10247.0, roas: 1.97 },
+      { month: "Nov '25", spend: 5200, leads: 32, cpl: 162.50, qualified: 19, cpql: 273.68, deals: 8, revenue: 11596, roas: 2.23 },
       // Month 2 (Dec 2025): Holiday season, improved targeting
       { month: "Dec '25", spend: 5150, leads: 37, cpl: 139.19, qualified: 23, cpql: 223.91, deals: 10, revenue: 13647.0, roas: 2.65 },
       // Month 3 (Jan 2026): New Year planning, AI optimization taking effect
@@ -142,6 +142,6 @@ export const lifeInsuranceFloridaNew: CaseStudyData = {
     { label: "Total Commission Revenue", value: "$102.8K", growth: "+243%" },
     { label: "Total Active Policies", value: "73", growth: "" },
     { label: "Avg Commission Per Policy", value: "$1,408", growth: "" },
-    { label: "Blended ROAS", value: "3.17x", growth: "" },
+    { label: "Blended ROAS", value: "3.21x", growth: "" },
   ],
 };

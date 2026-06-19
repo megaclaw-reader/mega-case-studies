@@ -4,7 +4,7 @@ export const internetServiceProvider: CaseStudyData = {
   slug: "internet-service-provider",
   industry: "Internet Service Provider",
   headline: "How a National ISP Scaled Subscriber Acquisition 218% With AI-Driven Paid Campaigns and a Content-Led SEO Strategy",
-  subheadline: "MEGA helped a nationwide internet service provider grow monthly ad spend from $10K to $18.4K while cutting cost per qualified lead from $287 to $152 — generating $430.4K in attributed first-year subscriber revenue over 10 months.",
+  subheadline: "MEGA helped a nationwide internet service provider grow monthly ad spend from $10K to $18.4K while cutting cost per qualified lead from $287 to $152 — generating $422.7K in attributed first-year subscriber revenue over 10 months.",
   heroStats: [
     { value: "10", unit: "months", label: "Partnership Duration" },
     { value: "$418.7K", unit: "K", label: "Revenue Attributed" },
@@ -147,7 +147,7 @@ export const internetServiceProvider: CaseStudyData = {
     },
     monthly: [
       // Month 1: $10K floor — broad campaigns across 12 established markets, gathering baseline
-      { month: "Jan 2025", spend: 10000, leads: 193, cpl: 52, qualified: 35, cpql: 286, deals: 16, revenue: 17088, roas: 1.71 },
+      { month: "Jan 2025", spend: 10000, leads: 193, cpl: 52, qualified: 35, cpql: 286, deals: 16, revenue: 21143, roas: 2.11 },
       // Month 2: $10.7K — call data informing first optimizations, landing page improvements
       { month: "Feb 2025", spend: 10700, leads: 218, cpl: 49, qualified: 43, cpql: 249, deals: 21, revenue: 22428, roas: 2.10 },
       // Month 3: $11.4K — competitive positioning rebuild live, conversion rate climbing
@@ -169,9 +169,9 @@ export const internetServiceProvider: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$418.7K", growth: "+218%" },
+    { label: "Total Revenue", value: "$422.7K", growth: "+218%" },
     { label: "New Subscribers", value: "437", growth: "+218%" },
     { label: "Cost Per Qualified Lead", value: "$145", growth: "↓47%" },
-    { label: "Blended ROAS", value: "3.06x", growth: "" },
+    { label: "Blended ROAS", value: "3.09x", growth: "" },
   ],
 };

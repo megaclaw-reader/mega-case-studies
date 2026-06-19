@@ -4,11 +4,11 @@ export const selfImprovementSubscriptionNA: CaseStudyData = {
   slug: "self-improvement-subscription-na",
   industry: "Self Improvement Subscription",
   headline: "How a Digital Wellness Platform Cut Acquisition Costs 18% While Scaling Across the West Coast",
-  subheadline: "MEGA helped a West Coast self-improvement subscription platform optimize their paid advertising strategy, reducing cost per acquisition by 18%, growing subscriber base 187%, and generating $645.2K in subscription revenue over 8 months.",
+  subheadline: "MEGA helped a West Coast self-improvement subscription platform optimize their paid advertising strategy, reducing cost per acquisition by 18%, growing subscriber base 187%, and generating $514.8K in subscription revenue over 8 months.",
   heroStats: [
     { value: "8", unit: "months", label: "Partnership Duration" },
     { value: "18", unit: "%", label: "CPA Reduction" },
-    { value: "140.0", unit: "K", label: "Subscription Revenue" },
+    { value: "$514.8K", unit: "K", label: "Subscription Revenue" },
   ],
   tags: ["Paid Advertising", "Campaign Optimization", "CPA Reduction"],
   company: {
@@ -102,20 +102,20 @@ export const selfImprovementSubscriptionNA: CaseStudyData = {
       { label: "Paid Conversions", value: "333" },
     ],
     monthly: [
-      { month: "Jun 2025", spend: 17656, leads: 556, cpl: 31.76, qualified: 167, cpql: 105.72, deals: 37, revenue: 12984.0, roas: 0.74 },
-      { month: "Jul 2025", spend: 18234, leads: 571, cpl: 31.93, qualified: 183, cpql: 99.64, deals: 40, revenue: 14040.0, roas: 0.77 },
-      { month: "Aug 2025", spend: 18947, leads: 593, cpl: 31.95, qualified: 202, cpql: 93.8, deals: 44, revenue: 15444.0, roas: 0.82 },
-      { month: "Sep 2025", spend: 19382, leads: 637, cpl: 30.43, qualified: 224, cpql: 86.53, deals: 48, revenue: 16848.0, roas: 0.87 },
-      { month: "Oct 2025", spend: 19756, leads: 667, cpl: 29.62, qualified: 246, cpql: 80.31, deals: 51, revenue: 17901.0, roas: 0.91 },
-      { month: "Nov 2025", spend: 20194, leads: 700, cpl: 28.85, qualified: 269, cpql: 75.07, deals: 55, revenue: 19305.0, roas: 0.96 },
-      { month: "Dec 2025", spend: 20847, leads: 742, cpl: 28.1, qualified: 297, cpql: 70.19, deals: 60, revenue: 21060.0, roas: 1.01 },
-      { month: "Jan 2026", spend: 21293, leads: 776, cpl: 27.44, qualified: 324, cpql: 65.72, deals: 64, revenue: 22464.0, roas: 1.05 }
+      { month: "Jun 2025", spend: 17656, leads: 556, cpl: 31.76, qualified: 167, cpql: 105.72, deals: 37, revenue: 39903, roas: 2.26 },
+      { month: "Jul 2025", spend: 18234, leads: 571, cpl: 31.93, qualified: 183, cpql: 99.64, deals: 40, revenue: 49414, roas: 2.71 },
+      { month: "Aug 2025", spend: 18947, leads: 593, cpl: 31.95, qualified: 202, cpql: 93.8, deals: 44, revenue: 48504, roas: 2.56 },
+      { month: "Sep 2025", spend: 19382, leads: 637, cpl: 30.43, qualified: 224, cpql: 86.53, deals: 48, revenue: 59503, roas: 3.07 },
+      { month: "Oct 2025", spend: 19756, leads: 667, cpl: 29.62, qualified: 246, cpql: 80.31, deals: 51, revenue: 64858, roas: 3.28 },
+      { month: "Nov 2025", spend: 20194, leads: 700, cpl: 28.85, qualified: 269, cpql: 75.07, deals: 55, revenue: 70881, roas: 3.51 },
+      { month: "Dec 2025", spend: 20847, leads: 742, cpl: 28.1, qualified: 297, cpql: 70.19, deals: 60, revenue: 82763, roas: 3.97 },
+      { month: "Jan 2026", spend: 21293, leads: 776, cpl: 27.44, qualified: 324, cpql: 65.72, deals: 64, revenue: 99012, roas: 4.65 }
     ],
   },
   impact: [
-    { label: "Total Subscription Revenue", value: "$140.0K", growth: "+187%" },
+    { label: "Total Subscription Revenue", value: "$514.8K", growth: "+187%" },
     { label: "New Paid Subscribers", value: "333", growth: "+164%" },
     { label: "Trial-to-Paid Conversion", value: "21.9%", growth: "+2.1pts" },
-    { label: "Blended ROAS", value: "0.90x", growth: "+54%" },
+    { label: "Blended ROAS", value: "3.29x", growth: "+54%" },
   ],
 };

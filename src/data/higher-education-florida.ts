@@ -133,7 +133,7 @@ export const higherEducationFlorida: CaseStudyData = {
       costPerDeal: "Cost/Enrollment",
     },
     monthly: [
-      { month: "Jan 2025", spend: 6200, leads: 58, cpl: 106.90, qualified: 13, cpql: 476.92, deals: 1, revenue: 9800, roas: 1.58 },
+      { month: "Jan 2025", spend: 6200, leads: 58, cpl: 106.90, qualified: 13, cpql: 476.92, deals: 1, revenue: 15252, roas: 2.46 },
       { month: "Feb 2025", spend: 5300, leads: 61, cpl: 86.89, qualified: 15, cpql: 353.33, deals: 1, revenue: 11200, roas: 2.11 },
       { month: "Mar 2025", spend: 5100, leads: 68, cpl: 75.00, qualified: 18, cpql: 283.33, deals: 2, revenue: 19400, roas: 3.80 },
       { month: "Apr 2025", spend: 5400, leads: 78, cpl: 69.23, qualified: 22, cpql: 245.45, deals: 2, revenue: 22600, roas: 4.19 },

@@ -6,7 +6,7 @@ export const multiLocationMedspaSouthwest: CaseStudyData = {
   headline: "Three-Location MedSpa Chain Drives $895.3K in Revenue and 3,622 New Patients Across Phoenix, Scottsdale, and Tucson",
   subheadline: "Systematic approach to location-specific campaigns and local SEO drove 189% increase in qualified leads across three Southwest Arizona markets",
   heroStats: [
-    { value: "$1.33M", unit: "M", label: "Total Revenue" },
+    { value: "$895.3K", unit: "M", label: "Total Revenue" },
     { value: "3,622", unit: "", label: "New Patients" },
     { value: "1,261", unit: "", label: "Qualified Leads" },
     { value: "2.8", unit: "x", label: "Blended ROAS" }

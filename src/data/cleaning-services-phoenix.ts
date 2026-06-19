@@ -3,7 +3,7 @@ import { CaseStudyData } from "./types";
 export const cleaningServicesPhoenix: CaseStudyData = {
   slug: "cleaning-services-phoenix",
   industry: "Cleaning Service",
-  headline: "How a Phoenix Cleaning Company Generated $127K in Revenue Over 6 Months With AI-Optimized Paid Advertising",
+  headline: "How a Phoenix Cleaning Company Generated $128.9K in Revenue Over 6 Months With AI-Optimized Paid Advertising",
   subheadline: "MEGA helped a residential and commercial cleaning service in Phoenix, AZ scale qualified leads while reducing cost per qualified lead from $187 to $106 — closing 97 new clients and achieving a 3.47x blended ROAS through always-on AI optimization.",
   heroStats: [
     { value: "6", unit: "months", label: "Partnership Duration" },
@@ -106,7 +106,7 @@ export const cleaningServicesPhoenix: CaseStudyData = {
       costPerDeal: "Cost/Client",
     },
     monthly: [
-      { month: "Jan '26", spend: 5200, leads: 108, cpl: 48.15, qualified: 28, cpql: 185.71, deals: 9, revenue: 10143, roas: 1.95 },
+      { month: "Jan '26", spend: 5200, leads: 108, cpl: 48.15, qualified: 28, cpql: 185.71, deals: 9, revenue: 11728, roas: 2.26 },
       { month: "Feb '26", spend: 5400, leads: 119, cpl: 45.38, qualified: 33, cpql: 163.64, deals: 11, revenue: 13847, roas: 2.56 },
       { month: "Mar '26", spend: 5800, leads: 147, cpl: 39.46, qualified: 42, cpql: 138.10, deals: 14, revenue: 18926, roas: 3.26 },
       { month: "Apr '26", spend: 6100, leads: 173, cpl: 35.26, qualified: 49, cpql: 124.49, deals: 17, revenue: 22814, roas: 3.74 },
@@ -115,9 +115,9 @@ export const cleaningServicesPhoenix: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$127.3K", growth: "+215%" },
+    { label: "Total Revenue", value: "$128.9K", growth: "+215%" },
     { label: "Closed Clients", value: "97", growth: "+167%" },
     { label: "Cost Per Qualified Lead", value: "$106", growth: "↓43%" },
-    { label: "Blended ROAS", value: "3.47x", growth: "" },
+    { label: "Blended ROAS", value: "3.51x", growth: "" },
   ],
 };

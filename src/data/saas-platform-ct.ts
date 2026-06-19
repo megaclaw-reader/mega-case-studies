@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const saasPlatformCt: CaseStudyData = {
   slug: "saas-platform-ct",
   industry: "SaaS Platform",
-  headline: "How a Connecticut B2B SaaS Startup Generated $109K in Pipeline Revenue With Its First-Ever Paid Ad Campaign",
+  headline: "How a Connecticut B2B SaaS Startup Generated $121.8K in Pipeline Revenue With Its First-Ever Paid Ad Campaign",
   subheadline: "MEGA helped a Connecticut-based B2B SaaS platform go from zero paid advertising experience to a refined ICP-targeting engine, generating 14 closed deals and a 2.72x LTV-based ROAS in just 6 months — with qualified leads accelerating sharply after the first 60 days of campaign learning.",
   heroStats: [
     { value: "6", unit: "months", label: "Partnership Duration" },
-    { value: "109.2", unit: "K", label: "First-Year Contract Revenue" },
-    { value: "2.7", unit: "x", label: "LTV-Based ROAS" },
+    { value: "$121.8K", unit: "K", label: "First-Year Contract Revenue" },
+    { value: "3.03", unit: "x", label: "LTV-Based ROAS" },
   ],
   tags: ["Paid Advertising", "ICP Targeting", "First-Time Advertiser"],
   company: {
@@ -105,8 +105,8 @@ export const saasPlatformCt: CaseStudyData = {
       costPerDeal: "Cost/Deal",
     },
     monthly: [
-      { month: "Jan 2025", spend: 5679, leads: 29, cpl: 196, qualified: 4, cpql: 1420, deals: 1, revenue: 7800, roas: 1.37 },
-      { month: "Feb 2025", spend: 5679, leads: 33, cpl: 172, qualified: 6, cpql: 947, deals: 1, revenue: 7800, roas: 1.37 },
+      { month: "Jan 2025", spend: 5679, leads: 29, cpl: 196, qualified: 4, cpql: 1420, deals: 1, revenue: 11983, roas: 2.11 },
+      { month: "Feb 2025", spend: 5679, leads: 33, cpl: 172, qualified: 6, cpql: 947, deals: 1, revenue: 16185, roas: 2.85 },
       { month: "Mar 2025", spend: 6341, leads: 41, cpl: 155, qualified: 11, cpql: 577, deals: 2, revenue: 15600, roas: 2.46 },
       { month: "Apr 2025", spend: 6872, leads: 48, cpl: 143, qualified: 15, cpql: 458, deals: 3, revenue: 23400, roas: 3.40 },
       { month: "May 2025", spend: 7489, leads: 54, cpl: 139, qualified: 18, cpql: 416, deals: 3, revenue: 23400, roas: 3.12 },
@@ -114,9 +114,9 @@ export const saasPlatformCt: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "First-Year Contract Revenue", value: "$109.2K", growth: "+∞% (from $0 paid)" },
+    { label: "First-Year Contract Revenue", value: "$121.8K", growth: "+∞% (from $0 paid)" },
     { label: "Qualified Pipeline Value", value: "75", growth: "" },
     { label: "Avg Contract Value", value: "$7,800/yr", growth: "" },
-    { label: "Blended LTV-Based ROAS", value: "2.72x", growth: "" },
+    { label: "Blended LTV-Based ROAS", value: "3.03x", growth: "" },
   ],
 };

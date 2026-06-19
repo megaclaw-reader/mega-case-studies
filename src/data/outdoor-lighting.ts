@@ -3,8 +3,8 @@ import { CaseStudyData } from "./types";
 export const outdoorLightingData: CaseStudyData = {
   slug: "outdoor-lighting",
   industry: "Outdoor Lighting",
-  headline: "New York Outdoor Lighting Company Grows Revenue to $388K With AI-Optimized Marketing and 3.8x ROAS",
-  subheadline: "MEGA helped a New York-based outdoor lighting installation company combine SEO with AI-powered paid advertising to generate 77 new projects worth $388K in revenue over 13 months — scaling ad spend strategically while improving ROAS from 2.4x to 4.6x and building organic visibility to 12,400+ monthly visitors.",
+  headline: "New York Outdoor Lighting Company Grows Revenue to $388.4K With AI-Optimized Marketing and 3.8x ROAS",
+  subheadline: "MEGA helped a New York-based outdoor lighting installation company combine SEO with AI-powered paid advertising to generate 77 new projects worth $388.4K in revenue over 13 months — scaling ad spend strategically while improving ROAS from 2.4x to 4.6x and building organic visibility to 12,400+ monthly visitors.",
   heroStats: [
     { value: "13", unit: "months", label: "Partnership Duration" },
     { value: "3.8", unit: "x", label: "Blended ROAS" },
@@ -149,7 +149,7 @@ export const outdoorLightingData: CaseStudyData = {
     { label: "Total Revenue Generated", value: "$388.4K", growth: "From 77 lighting projects" },
     { label: "Average Project Value", value: "$5,039", growth: "Mix of landscape and holiday installations" },
     { label: "Blended ROAS", value: "3.83x", growth: "Up from 2.4x in month 1" },
-    { label: "Peak Monthly ROAS", value: "4.6x", growth: "Up from 2.4x in month 1" },
+    { label: "Peak Monthly ROAS", value: "3.8x", growth: "Up from 2.4x in month 1" },
     { label: "Cost Per Qualified Lead", value: "$180", growth: "Down from $222 baseline" },
     { label: "Organic Search Visibility", value: "8,714 keywords", growth: "Ranking across New York" },
   ],

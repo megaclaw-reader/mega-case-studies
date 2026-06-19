@@ -3,8 +3,8 @@ import { CaseStudyData } from "./types";
 export const healthcareSoftwareNational: CaseStudyData = {
   slug: "healthcare-software-national",
   industry: "Healthcare Software",
-  headline: "How a B2B Healthcare Software Company Cut Cost Per Qualified Lead by 46% and Closed 10 Enterprise Deals in 6 Months — Generating $251K in New ACV",
-  subheadline: "MEGA partnered with a US-based healthcare SaaS company to overhaul their paid advertising strategy and build an organic acquisition engine from scratch — reducing Cost Per Qualified Lead from $1,281 to $697, growing organic traffic 927% to 8,341 monthly visits, and closing 10 new annual contracts worth $251,500 in combined ACV across a 6-month engagement.",
+  headline: "How a B2B Healthcare Software Company Cut Cost Per Qualified Lead by 46% and Closed 10 Enterprise Deals in 6 Months — Generating $251.5K in New ACV",
+  subheadline: "MEGA partnered with a US-based healthcare SaaS company to overhaul their paid advertising strategy and build an organic acquisition engine from scratch — reducing Cost Per Qualified Lead from $1,281 to $697, growing organic traffic 927% to 8,341 monthly visits, and closing 10 new annual contracts worth $251.5K in combined ACV across a 6-month engagement.",
   heroStats: [
     { value: "$251", unit: "K", label: "New ACV Generated" },
     { value: "46", unit: "%", label: "CPQL Reduction" },

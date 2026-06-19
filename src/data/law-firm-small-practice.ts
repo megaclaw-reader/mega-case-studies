@@ -4,10 +4,10 @@ export const lawFirmSmallPractice: CaseStudyData = {
   slug: "law-firm-small-practice",
   industry: "Legal Services",
   headline: "How a Small Law Firm in Raleigh Grew From 3 Cases/Month to 19 With Paid Ads + SEO",
-  subheadline: "MEGA helped a 3-attorney general practice firm in Raleigh, North Carolina build a complete digital pipeline — combining paid advertising with aggressive SEO to generate 164 signed cases and $601K in revenue over 12 months, transforming a referral-dependent practice into a digitally-driven growth engine.",
+  subheadline: "MEGA helped a 3-attorney general practice firm in Raleigh, North Carolina build a complete digital pipeline — combining paid advertising with aggressive SEO to generate 164 signed cases and $469.3K in revenue over 12 months, transforming a referral-dependent practice into a digitally-driven growth engine.",
   heroStats: [
     { value: "164", unit: "", label: "Signed Cases" },
-    { value: "$601.0K", unit: "K", label: "Total Revenue" },
+    { value: "$469.3K", unit: "K", label: "Total Revenue" },
     { value: "533", unit: "%", label: "Lead Growth" },
   ],
   tags: ["Paid Advertising", "SEO", "Lead Generation"],

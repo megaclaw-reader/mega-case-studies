@@ -3,7 +3,7 @@ import { CaseStudyData } from "./types";
 export const medSpaOrlando: CaseStudyData = {
   slug: "med-spa-orlando",
   industry: "Med Spa",
-  headline: "How an Orlando Med Spa Generated 504 Qualified Leads and $111.9K in Revenue in Just 6 Months",
+  headline: "How an Orlando Med Spa Generated 504 Qualified Leads and $114.8K in Revenue in Just 6 Months",
   subheadline: "MEGA helped a boutique med spa in Orlando, Florida build a dominant local SEO presence reaching 11,200+ monthly visitors while optimizing paid campaigns to deliver 504 qualified leads — reducing cost per qualified lead by 76% and achieving a 2.61x blended ROAS.",
   heroStats: [
     { value: "6", unit: "months", label: "Partnership Duration" },
@@ -116,7 +116,7 @@ export const medSpaOrlando: CaseStudyData = {
     },
     monthly: [
       // Month 1: Launch — establishing baseline, higher CPQL expected
-      { month: "Jan 2025", spend: 6513, leads: 118, cpl: 55.19, qualified: 32, cpql: 203.53, deals: 16, revenue: 11847, roas: 1.82 },
+      { month: "Jan 2025", spend: 6513, leads: 118, cpl: 55.19, qualified: 32, cpql: 203.53, deals: 16, revenue: 14719, roas: 2.26 },
       // Month 2: Optimization kicking in — New Year demand strong
       { month: "Feb 2025", spend: 6487, leads: 137, cpl: 47.35, qualified: 48, cpql: 135.15, deals: 24, revenue: 15213, roas: 2.35 },
       // Month 3: Spring — pre-event/wedding season demand
@@ -149,6 +149,6 @@ export const medSpaOrlando: CaseStudyData = {
     { label: "Total Qualified Leads", value: "504", growth: "+412%" },
     { label: "Cost Per Qualified Lead", value: "$49", growth: "↓76%" },
     { label: "Monthly Organic Traffic", value: "11,247", growth: "+2,643%" },
-    { label: "Blended ROAS", value: "2.61x", growth: "+186%" },
+    { label: "Blended ROAS", value: "2.68x", growth: "+186%" },
   ],
 };

@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const hvacNational: CaseStudyData = {
   slug: "hvac-national",
   industry: "HVAC",
-  headline: "How a National HVAC Franchise Generated 847 Qualified Leads and $441K in Revenue in 12 Months",
+  headline: "How a National HVAC Franchise Generated 847 Qualified Leads and $457.5K in Revenue in 12 Months",
   subheadline: "MEGA helped a multi-location HVAC company reduce their cost per qualified lead by 41%, grow organic traffic 1,180%, and build a predictable lead pipeline across 23 markets through SEO and paid advertising.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
     { value: "1,180", unit: "%", label: "Organic Traffic Growth" },
-    { value: "$441.3K", unit: "K", label: "Revenue Attributed" },
+    { value: "$457.5K", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["National SEO", "Paid Advertising", "Lead Generation", "Multi-Location"],
   company: {
@@ -123,7 +123,7 @@ export const hvacNational: CaseStudyData = {
       { month: "Jan '25", spend: 10124, leads: 67, cpl: 151.10, qualified: 20, cpql: 506.42, deals: 6, revenue: 28844, roas: 2.85 },
       { month: "Feb '25", spend: 10087, leads: 71, cpl: 142.07, qualified: 19, cpql: 531.17, deals: 6, revenue: 26372, roas: 2.61 },
       { month: "Mar '25", spend: 10342, leads: 79, cpl: 130.91, qualified: 20, cpql: 517.46, deals: 6, revenue: 25393, roas: 2.46 },
-      { month: "Apr '25", spend: 11478, leads: 94, cpl: 122.11, qualified: 25, cpql: 459.54, deals: 6, revenue: 22511, roas: 1.96 },
+      { month: "Apr '25", spend: 11478, leads: 94, cpl: 122.11, qualified: 25, cpql: 459.54, deals: 6, revenue: 38681, roas: 3.37 },
       { month: "May '25", spend: 13216, leads: 118, cpl: 112.00, qualified: 35, cpql: 378.44, deals: 10, revenue: 37405, roas: 2.83 },
       { month: "Jun '25", spend: 16347, leads: 152, cpl: 107.54, qualified: 41, cpql: 399.71, deals: 13, revenue: 62651, roas: 3.83 },
       { month: "Jul '25", spend: 16891, leads: 161, cpl: 104.91, qualified: 41, cpql: 412.96, deals: 13, revenue: 51330, roas: 3.04 },
@@ -169,9 +169,9 @@ export const hvacNational: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$441.3K", growth: "+312%" },
+    { label: "Total Revenue", value: "$457.5K", growth: "+312%" },
     { label: "Total Qualified Leads", value: "348", growth: "↓41% Cost/Qualified Lead" },
-    { label: "Avg Revenue Per Job", value: "$3,228", growth: "" },
-    { label: "Blended ROAS", value: "2.82x", growth: "" },
+    { label: "Avg Revenue Per Job", value: "$457.5K", growth: "" },
+    { label: "Blended ROAS", value: "2.93x", growth: "" },
   ],
 };

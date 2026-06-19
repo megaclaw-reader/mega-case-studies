@@ -3,8 +3,8 @@ import { CaseStudyData } from "./types";
 export const roofingHouston: CaseStudyData = {
   slug: "roofing-houston",
   industry: "Roofing",
-  headline: "How a Houston Roofing Company Cut Cost Per Qualified Lead 45% While Scaling to $315K in Revenue",
-  subheadline: "MEGA helped a Houston-based residential and commercial roofing company optimize their paid advertising funnel and build an organic search engine, reducing CPQL from $507 to $277, ranking for 8,200+ keywords, and generating $260.5K in attributed revenue over 10 months.",
+  headline: "How a Houston Roofing Company Cut Cost Per Qualified Lead 45% While Scaling to $314.7K in Revenue",
+  subheadline: "MEGA helped a Houston-based residential and commercial roofing company optimize their paid advertising funnel and build an organic search engine, reducing CPQL from $507 to $277, ranking for 8,200+ keywords, and generating $314.7K in attributed revenue over 10 months.",
   heroStats: [
     { value: "45", unit: "%", label: "CPQL Reduction" },
     { value: "$314.7K", unit: "K", label: "Revenue Attributed" },

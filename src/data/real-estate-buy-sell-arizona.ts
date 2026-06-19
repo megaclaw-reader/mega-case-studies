@@ -3,8 +3,8 @@ import { CaseStudyData } from "./types";
 export const realEstateBuySellArizona: CaseStudyData = {
   slug: "real-estate-buy-sell-arizona",
   industry: "Real Estate / Residential Real Estate",
-  headline: "How an Arizona Real Estate Team Grew From $293K to $293K in Annual Revenue Through SEO + Paid Lead Generation",
-  subheadline: "MEGA helped an Arizona-based real estate buy/sell team scale from 6 closed deals to 247 transactions in 12 months, building a multi-channel lead engine that generated 8,943 qualified leads and delivered 4.1x blended ROAS across Phoenix, Scottsdale, and surrounding Maricopa County markets.",
+  headline: "How an Arizona Real Estate Team Grew From $293.4K to $293.4K in Annual Revenue Through SEO + Paid Lead Generation",
+  subheadline: "MEGA helped an Arizona-based real estate buy/sell team scale from 6 closed deals to 247 transactions in 12 months, building a multi-channel lead engine that generated 8,943 qualified leads and delivered 3.6x blended ROAS across Phoenix, Scottsdale, and surrounding Maricopa County markets.",
   heroStats: [
     { value: "307", unit: "", label: "Deals Closed" },
     { value: "$293.4K", unit: "M", label: "Commission Revenue" },

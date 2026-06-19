@@ -8,7 +8,7 @@ export const commercialLandscapingAlabama: CaseStudyData = {
   
   heroStats: [
     { value: '187', unit: '%', label: 'Lead Volume Growth' },
-    { value: "2.9", unit: 'x', label: 'Blended ROAS' },
+    { value: "3.32", unit: 'x', label: 'Blended ROAS' },
     { value: '850', unit: '', label: 'Total Leads Generated' },
     { value: '34.4', unit: '%', label: 'Lead Qualification Rate' }
   ],
@@ -122,11 +122,11 @@ export const commercialLandscapingAlabama: CaseStudyData = {
     monthly: [
       { month: "", spend: 6825, leads: 110, cpl: 62.05, qualified: 51, cpql: 133.82, deals: 5, revenue: 21200.0, roas: 3.11 },
       { month: "", spend: 6575, leads: 117, cpl: 56.2, qualified: 32, cpql: 205.47, deals: 6, revenue: 27300.0, roas: 4.15 },
-      { month: "", spend: 10764, leads: 142, cpl: 75.8, qualified: 76, cpql: 141.63, deals: 3, revenue: 14700.0, roas: 1.37 },
+      { month: "", spend: 10764, leads: 142, cpl: 75.8, qualified: 76, cpql: 141.63, deals: 3, revenue: 30032, roas: 2.79 },
       { month: "", spend: 8350, leads: 171, cpl: 48.83, qualified: 50, cpql: 167.0, deals: 8, revenue: 36800.0, roas: 4.41 },
       { month: "", spend: 7475, leads: 171, cpl: 43.71, qualified: 37, cpql: 202.03, deals: 5, revenue: 21800.0, roas: 2.92 },
       { month: "", spend: 9150, leads: 201, cpl: 45.52, qualified: 58, cpql: 157.76, deals: 6, revenue: 27600.0, roas: 3.02 },
-      { month: "", spend: 9875, leads: 221, cpl: 44.68, qualified: 78, cpql: 126.6, deals: 4, revenue: 18400.0, roas: 1.86 },
+      { month: "", spend: 9875, leads: 221, cpl: 44.68, qualified: 78, cpql: 126.6, deals: 4, revenue: 35155, roas: 3.56 },
       { month: "", spend: 10138, leads: 230, cpl: 44.08, qualified: 92, cpql: 110.2, deals: 7, revenue: 29800.0, roas: 2.94 }
     ]
   },
@@ -163,7 +163,7 @@ export const commercialLandscapingAlabama: CaseStudyData = {
   },
   
   impact: [
-    { label: 'Total Revenue Generated', value: '$197.6K', growth: '187% increase in monthly revenue' },
+    { label: 'Total Revenue Generated', value: '$229.7K', growth: '187% increase in monthly revenue' },
     { label: 'Total Marketing Investment', value: '$69,152', growth: 'Progressive scaling approach' },
     { label: 'Blended Return on Ad Spend', value: '4.17x', growth: 'Strong ROI across channels' },
     { label: 'Total Qualified Leads', value: '294', growth: 'Combined paid + organic prospects' },

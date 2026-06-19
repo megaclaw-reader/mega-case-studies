@@ -3,7 +3,7 @@ import { CaseStudyData } from "./types";
 export const realEstatePhoenix: CaseStudyData = {
   slug: "real-estate-phoenix",
   industry: "Real Estate / Residential Buy & Sell",
-  headline: "How a Phoenix, AZ Real Estate Team Generated $240K in Commission Revenue Through SEO + Paid Lead Generation",
+  headline: "How a Phoenix, AZ Real Estate Team Generated $240.6K in Commission Revenue Through SEO + Paid Lead Generation",
   subheadline: "MEGA helped a Phoenix-based residential real estate team scale from sporadic referral-based closings to a systematic lead engine generating 98 qualified buyer and seller leads, closing 24 transactions across the greater Phoenix metro in just 11 months — achieving a 4.13x blended ROAS on paid advertising.",
   heroStats: [
     { value: "24", unit: "", label: "Deals Closed" },

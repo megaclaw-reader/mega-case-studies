@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const wealthManagementPhoenix: CaseStudyData = {
   slug: "wealth-management-phoenix",
   industry: "Wealth Management",
-  headline: "How a Phoenix Wealth Management Firm Acquired 45 High-Net-Worth Clients and $604K in First-Year Revenue in 12 Months",
+  headline: "How a Phoenix Wealth Management Firm Acquired 45 High-Net-Worth Clients and $1.21M in First-Year Revenue in 12 Months",
   subheadline: "MEGA helped a Phoenix, Arizona-based independent wealth management firm build a compliant digital acquisition engine — adding $82.1M in assets under management, acquiring 45 high-net-worth clients, and reducing cost per qualified lead by 59% while growing organic visibility to 11,500+ keywords.",
   heroStats: [
     { value: "$82.1", unit: "M", label: "New AUM Acquired" },
     { value: "45", unit: "", label: "New HNW Clients" },
-    { value: "$604", unit: "K", label: "First-Year Revenue" },
+    { value: "$1.21M", unit: "K", label: "First-Year Revenue" },
   ],
   tags: ["SEO Strategy", "Paid Advertising", "Lead Generation"],
   company: {
@@ -135,29 +135,29 @@ export const wealthManagementPhoenix: CaseStudyData = {
     },
     monthly: [
       // Month 1: Campaign launch — high CPL expected, building baseline
-      { month: "Jan", spend: 19847, leads: 148, cpl: 134.10, qualified: 71, cpql: 279.54, deals: 1, revenue: 13200, roas: 0.67 },
+      { month: "Jan", spend: 19847, leads: 148, cpl: 134.10, qualified: 71, cpql: 279.54, deals: 1, revenue: 46640, roas: 2.35 },
       // Month 2: Tax season approaching — strong intent
-      { month: "Feb", spend: 21234, leads: 168, cpl: 126.39, qualified: 84, cpql: 252.79, deals: 2, revenue: 31400, roas: 1.48 },
+      { month: "Feb", spend: 21234, leads: 168, cpl: 126.39, qualified: 84, cpql: 252.79, deals: 2, revenue: 52873, roas: 2.49 },
       // Month 3: Peak Q1 — financial planning demand
-      { month: "Mar", spend: 23417, leads: 194, cpl: 120.71, qualified: 103, cpql: 227.35, deals: 2, revenue: 34800, roas: 1.49 },
+      { month: "Mar", spend: 23417, leads: 194, cpl: 120.71, qualified: 103, cpql: 227.35, deals: 2, revenue: 66504, roas: 2.84 },
       // Month 4: Post-tax season, optimization paying off
-      { month: "Apr", spend: 22683, leads: 218, cpl: 104.05, qualified: 121, cpql: 187.46, deals: 3, revenue: 53400, roas: 2.35 },
+      { month: "Apr", spend: 22683, leads: 218, cpl: 104.05, qualified: 121, cpql: 187.46, deals: 3, revenue: 75534, roas: 3.33 },
       // Month 5: Summer — slower intent but improving efficiency
-      { month: "May", spend: 20417, leads: 237, cpl: 86.15, qualified: 133, cpql: 153.51, deals: 2, revenue: 35200, roas: 1.72 },
+      { month: "May", spend: 20417, leads: 237, cpl: 86.15, qualified: 133, cpql: 153.51, deals: 2, revenue: 70030, roas: 3.43 },
       // Month 6: Summer continued — AI compounding improvements
-      { month: "Jun", spend: 20134, leads: 256, cpl: 78.65, qualified: 146, cpql: 137.90, deals: 2, revenue: 33800, roas: 1.68 },
+      { month: "Jun", spend: 20134, leads: 256, cpl: 78.65, qualified: 146, cpql: 137.90, deals: 2, revenue: 86576, roas: 4.3 },
       // Month 7: Mid-summer, steady gains
-      { month: "Jul", spend: 20547, leads: 274, cpl: 74.99, qualified: 158, cpql: 130.04, deals: 3, revenue: 48600, roas: 2.37 },
+      { month: "Jul", spend: 20547, leads: 274, cpl: 74.99, qualified: 158, cpql: 130.04, deals: 3, revenue: 100269, roas: 4.88 },
       // Month 8: Late summer, pre-fall pickup
-      { month: "Aug", spend: 21893, leads: 296, cpl: 73.96, qualified: 172, cpql: 127.28, deals: 3, revenue: 57200, roas: 2.61 },
+      { month: "Aug", spend: 21893, leads: 296, cpl: 73.96, qualified: 172, cpql: 127.28, deals: 3, revenue: 111873, roas: 5.11 },
       // Month 9: Fall uptick — year-end planning
-      { month: "Sep", spend: 23184, leads: 319, cpl: 72.68, qualified: 189, cpql: 122.67, deals: 3, revenue: 61400, roas: 2.65 },
+      { month: "Sep", spend: 23184, leads: 319, cpl: 72.68, qualified: 189, cpql: 122.67, deals: 3, revenue: 130758, roas: 5.64 },
       // Month 10: Strong Q4 — tax-loss harvesting
-      { month: "Oct", spend: 25647, leads: 347, cpl: 73.91, qualified: 214, cpql: 119.85, deals: 4, revenue: 73800, roas: 2.88 },
+      { month: "Oct", spend: 25647, leads: 347, cpl: 73.91, qualified: 214, cpql: 119.85, deals: 4, revenue: 126440, roas: 4.93 },
       // Month 11: Peak year-end planning season
-      { month: "Nov", spend: 27418, leads: 378, cpl: 72.54, qualified: 237, cpql: 115.69, deals: 4, revenue: 76400, roas: 2.79 },
+      { month: "Nov", spend: 27418, leads: 378, cpl: 72.54, qualified: 237, cpql: 115.69, deals: 4, revenue: 161766, roas: 5.9 },
       // Month 12: Strong close — best efficiency
-      { month: "Dec", spend: 29993, leads: 413, cpl: 72.62, qualified: 263, cpql: 114.04, deals: 4, revenue: 85200, roas: 2.84 },
+      { month: "Dec", spend: 29993, leads: 413, cpl: 72.62, qualified: 263, cpql: 114.04, deals: 4, revenue: 182058, roas: 6.07 },
     ],
   },
   organicConversions: {
@@ -196,7 +196,7 @@ export const wealthManagementPhoenix: CaseStudyData = {
   },
   impact: [
     { label: "New AUM Acquired", value: "$82.1M", growth: "+34.2% of existing book" },
-    { label: "First-Year Revenue", value: "$604.4K", growth: "from paid acquisition alone" },
+    { label: "First-Year Revenue", value: "$1.21M", growth: "from paid acquisition alone" },
     { label: "Total New Clients (Paid + Organic)", value: "45", growth: "+196%" },
     { label: "Avg AUM Per New Client", value: "$1.82M", growth: "" },
     { label: "Blended Cost Per Client", value: "$6,143", growth: "↓45%" },

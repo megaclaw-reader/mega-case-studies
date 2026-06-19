@@ -4,7 +4,7 @@ export const chiropractorTexas: CaseStudyData = {
   slug: "chiropractor-texas",
   industry: "Chiropractor",
   headline: "How a Texas Chiropractic Practice Grew New Patient Volume 68% With AI-Powered Marketing",
-  subheadline: "MEGA helped a chiropractic practice in Texas optimize their local SEO and paid advertising, reducing cost per qualified lead by 20%, growing organic traffic 417%, and generating $389K in attributed revenue over 12 months.",
+  subheadline: "MEGA helped a chiropractic practice in Texas optimize their local SEO and paid advertising, reducing cost per qualified lead by 20%, growing organic traffic 417%, and generating $389.0K in attributed revenue over 12 months.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
     { value: "68", unit: "%", label: "New Patient Growth" },
@@ -146,7 +146,7 @@ export const chiropractorTexas: CaseStudyData = {
   impact: [
     { label: "Total Revenue", value: "$389.0K", growth: "+68%" },
     { label: "New Patients Acquired", value: "313", growth: "+72%" },
-    { label: "Avg Revenue Per Patient", value: "$1,243", growth: "" },
+    { label: "Avg Revenue Per Patient", value: "$389.0K", growth: "" },
     { label: "Blended ROAS", value: "3.31x", growth: "" },
   ],
 };

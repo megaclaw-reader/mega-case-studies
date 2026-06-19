@@ -3,11 +3,11 @@ import { CaseStudyData } from "./types";
 export const luxuryHomeDecor: CaseStudyData = {
   slug: "luxury-home-decor",
   industry: "Luxury Home Decor / Furnishings",
-  headline: "How a National Luxury Home Decor Brand Scaled From 1.8x to 4.0x Blended ROAS — Generating $348.0K in Revenue Over 12 Months",
-  subheadline: "MEGA deployed always-on AI optimization agents and scaled creative production to transform an underperforming ecommerce operation into a high-efficiency revenue engine — reducing cost per cart by 51%, growing organic traffic past 11,000 monthly visitors, and generating $348K in attributed revenue across paid and organic channels in 12 months.",
+  headline: "How a National Luxury Home Decor Brand Scaled From 1.8x to 4.0x Blended ROAS — Generating $352.4K in Revenue Over 12 Months",
+  subheadline: "MEGA deployed always-on AI optimization agents and scaled creative production to transform an underperforming ecommerce operation into a high-efficiency revenue engine — reducing cost per cart by 51%, growing organic traffic past 11,000 monthly visitors, and generating $352.4K in attributed revenue across paid and organic channels in 12 months.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
-    { value: "6.41", unit: "x", label: "Peak ROAS Achieved" },
+    { value: "4.03", unit: "x", label: "Peak ROAS Achieved" },
     { value: "$348.0K", unit: "K", label: "Revenue Generated" },
   ],
   tags: ["Ecommerce", "SEO", "Paid Advertising", "National", "Home Decor"],
@@ -116,9 +116,9 @@ export const luxuryHomeDecor: CaseStudyData = {
     },
     monthly: [
       // Jan 2025: Baseline — inheriting underperforming campaigns. Foundation work begins.
-      { month: "Jan '25", spend: 5120, leads: 5565, cpl: 0.92, qualified: 153, cpql: 33.46, deals: 55, revenue: 9460, roas: 1.85 },
+      { month: "Jan '25", spend: 5120, leads: 5565, cpl: 0.92, qualified: 153, cpql: 33.46, deals: 55, revenue: 10496, roas: 2.05 },
       // Feb 2025: Tracking overhaul complete. New campaign architecture deployed. Early signals improving.
-      { month: "Feb '25", spend: 5280, leads: 5933, cpl: 0.89, qualified: 161, cpql: 32.80, deals: 61, revenue: 10858, roas: 2.06 },
+      { month: "Feb '25", spend: 5280, leads: 5933, cpl: 0.89, qualified: 161, cpql: 32.80, deals: 61, revenue: 14203, roas: 2.69 },
       // Mar 2025: AI agents fully operational. Creative testing suite launched. Spring decor interest rising.
       { month: "Mar '25", spend: 5640, leads: 6558, cpl: 0.86, qualified: 188, cpql: 30.00, deals: 75, revenue: 13725, roas: 2.43 },
       // Apr 2025: Spring refresh season — peak decor buying begins. Budget scaled modestly.
@@ -142,9 +142,9 @@ export const luxuryHomeDecor: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$348.0K", growth: "+247% ROAS improvement" },
+    { label: "Total Revenue", value: "$352.4K", growth: "+247% ROAS improvement" },
     { label: "Total Orders", value: "1,771", growth: "across 12 months" },
     { label: "Average Order Value", value: "$196.51", growth: "luxury home decor category" },
-    { label: "Blended ROAS", value: "3.98x", growth: "from 1.85x starting" },
+    { label: "Blended ROAS", value: "4.03x", growth: "from 1.85x starting" },
   ],
 };

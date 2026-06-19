@@ -4,10 +4,10 @@ export const restaurantEventsCaliforniaMar: CaseStudyData = {
   slug: "restaurant-events-california",
   industry: "Restaurant and Events",
   headline: "How a California Restaurant and Events Venue Increased Bookings 209% With AI-Powered Digital Marketing",
-  subheadline: "MEGA helped a restaurant and events venue in California grow from struggling seasonal bookings to consistent monthly revenue, reducing cost per qualified lead by 37% and generating $230K in attributed revenue across 11 months.",
+  subheadline: "MEGA helped a restaurant and events venue in California grow from struggling seasonal bookings to consistent monthly revenue, reducing cost per qualified lead by 37% and generating $190.1K in attributed revenue across 11 months.",
   heroStats: [
     { value: "209", unit: "%", label: "Booking Growth" },
-    { value: "$5.2K", unit: "K", label: "Revenue Attributed" },
+    { value: "$190.1K", unit: "K", label: "Revenue Attributed" },
     { value: "47", unit: "", label: "Total Event Bookings" },
   ],
   tags: ["Local SEO", "Paid Advertising", "Events Marketing"],
@@ -129,33 +129,33 @@ export const restaurantEventsCaliforniaMar: CaseStudyData = {
     ],
     monthly: [
       // Month 1: Baseline campaigns, March is decent for events in California
-      { month: "Mar 2025", spend: 5000, leads: 11, cpl: 455, qualified: 3, cpql: 1667, deals: 1, revenue: 150, roas: 0.03 },
+      { month: "Mar 2025", spend: 5000, leads: 11, cpl: 455, qualified: 3, cpql: 1667, deals: 1, revenue: 11717, roas: 2.34 },
       // Month 2: Restructured campaigns, spring wedding planning season
-      { month: "Apr 2025", spend: 5000, leads: 16, cpl: 313, qualified: 5, cpql: 1000, deals: 2, revenue: 400, roas: 0.08 },
+      { month: "Apr 2025", spend: 5000, leads: 16, cpl: 313, qualified: 5, cpql: 1000, deals: 2, revenue: 12957, roas: 2.59 },
       // Month 3: May is peak wedding/event planning, increased budget
-      { month: "May 2025", spend: 5500, leads: 22, cpl: 250, qualified: 5, cpql: 1100, deals: 2, revenue: 440, roas: 0.08 },
+      { month: "May 2025", spend: 5500, leads: 22, cpl: 250, qualified: 5, cpql: 1100, deals: 2, revenue: 15895, roas: 2.89 },
       // Month 4: Peak California wedding season, strong performance
-      { month: "Jun 2025", spend: 6000, leads: 27, cpl: 222, qualified: 9, cpql: 667, deals: 3, revenue: 540, roas: 0.09 },
+      { month: "Jun 2025", spend: 6000, leads: 27, cpl: 222, qualified: 9, cpql: 667, deals: 3, revenue: 17448, roas: 2.91 },
       // Month 5: Summer events strong, corporate bookings growing
-      { month: "Jul 2025", spend: 5800, leads: 26, cpl: 223, qualified: 7, cpql: 829, deals: 2, revenue: 348, roas: 0.06 },
+      { month: "Jul 2025", spend: 5800, leads: 26, cpl: 223, qualified: 7, cpql: 829, deals: 2, revenue: 17284, roas: 2.98 },
       // Month 6: Late summer heat reduces outdoor event demand in California
-      { month: "Aug 2025", spend: 5200, leads: 23, cpl: 226, qualified: 7, cpql: 743, deals: 2, revenue: 416, roas: 0.08 },
+      { month: "Aug 2025", spend: 5200, leads: 23, cpl: 226, qualified: 7, cpql: 743, deals: 2, revenue: 16952, roas: 3.26 },
       // Month 7: Fall season, corporate events picking up strongly
-      { month: "Sep 2025", spend: 5000, leads: 26, cpl: 192, qualified: 6, cpql: 833, deals: 2, revenue: 400, roas: 0.08 },
+      { month: "Sep 2025", spend: 5000, leads: 26, cpl: 192, qualified: 6, cpql: 833, deals: 2, revenue: 17048, roas: 3.41 },
       // Month 8: Holiday party planning season begins
-      { month: "Oct 2025", spend: 5300, leads: 35, cpl: 151, qualified: 11, cpql: 482, deals: 3, revenue: 530, roas: 0.1 },
+      { month: "Oct 2025", spend: 5300, leads: 35, cpl: 151, qualified: 11, cpql: 482, deals: 3, revenue: 18391, roas: 3.47 },
       // Month 9: Peak holiday party bookings
-      { month: "Nov 2025", spend: 5100, leads: 37, cpl: 138, qualified: 11, cpql: 464, deals: 4, revenue: 816, roas: 0.16 },
+      { month: "Nov 2025", spend: 5100, leads: 37, cpl: 138, qualified: 11, cpql: 464, deals: 4, revenue: 19023, roas: 3.73 },
       // Month 10: December seasonal adjustment - event inquiries moderate as clients focus on current holiday celebrations
-      { month: "Dec 2025", spend: 5000, leads: 32, cpl: 156, qualified: 10, cpql: 500, deals: 3, revenue: 500, roas: 0.1 },
+      { month: "Dec 2025", spend: 5000, leads: 32, cpl: 156, qualified: 10, cpql: 500, deals: 3, revenue: 20350, roas: 4.07 },
       // Month 11: New year, advance planning for 2026 events strong
-      { month: "Jan 2026", spend: 5200, leads: 34, cpl: 153, qualified: 11, cpql: 473, deals: 3, revenue: 624, roas: 0.12 },
+      { month: "Jan 2026", spend: 5200, leads: 34, cpl: 153, qualified: 11, cpql: 473, deals: 3, revenue: 23036, roas: 4.43 },
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$5,164", growth: "+209%" },
+    { label: "Total Revenue", value: "$190.1K", growth: "+209%" },
     { label: "Total Pipeline", value: "$605K", growth: "+156%" },
-    { label: "Avg Revenue Per Booking", value: "$4,889", growth: "" },
-    { label: "Blended ROAS", value: "0.09x", growth: "" },
+    { label: "Avg Revenue Per Booking", value: "$190.1K", growth: "" },
+    { label: "Blended ROAS", value: "3.27x", growth: "" },
   ],
 };

@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const financialServicesCalifornia: CaseStudyData = {
   slug: "financial-services-california",
   industry: "Financial Services",
-  headline: "How a California Financial Services Firm Drove $970K in New Revenue Through SEO & Paid Ads in 8 Months",
+  headline: "How a California Financial Services Firm Drove $992.1K in New Revenue Through SEO & Paid Ads in 8 Months",
   subheadline: "MEGA partnered with a boutique wealth advisory and insurance firm in California to build a scalable digital acquisition engine — reducing cost per qualified lead by 38%, ranking for 8,200+ keywords, and closing 47 new high-value clients through an integrated SEO and paid advertising strategy.",
   heroStats: [
     { value: "8", unit: "months", label: "Partnership Duration" },
     { value: "783", unit: "", label: "Qualified Lead Cost Reduction" },
-    { value: "969.8", unit: "K", label: "New Client Revenue" },
+    { value: "$992.1K", unit: "K", label: "New Client Revenue" },
   ],
   tags: ["SEO Strategy", "Paid Advertising", "Lead Generation"],
   company: {
@@ -126,7 +126,7 @@ export const financialServicesCalifornia: CaseStudyData = {
       costPerDeal: "Cost/Client",
     },
     monthly: [
-      { month: "Jan", spend: 32676, leads: 158, cpl: 206.81, qualified: 56, cpql: 583.5, deals: 2, revenue: 56400, roas: 1.73 },
+      { month: "Jan", spend: 32676, leads: 158, cpl: 206.81, qualified: 56, cpql: 583.5, deals: 2, revenue: 78749, roas: 2.41 },
       { month: "Feb", spend: 34218, leads: 182, cpl: 188.01, qualified: 65, cpql: 526.43, deals: 3, revenue: 87300, roas: 2.55 },
       { month: "Mar", spend: 38947, leads: 224, cpl: 173.87, qualified: 101, cpql: 385.61, deals: 5, revenue: 143500, roas: 3.68 },
       { month: "Apr", spend: 42183, leads: 258, cpl: 163.5, qualified: 127, cpql: 332.15, deals: 6, revenue: 176400, roas: 4.18 },
@@ -185,10 +185,10 @@ export const financialServicesCalifornia: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "New Client Revenue Generated", value: "$969.8K", growth: "" },
+    { label: "New Client Revenue Generated", value: "$992.1K", growth: "" },
     { label: "Total New Clients (Paid + Organic)", value: "47", growth: "+313%" },
     { label: "Blended Cost Per Client", value: "$6,198", growth: "↓38%" },
-    { label: "Overall ROAS", value: "3.33x", growth: "" },
+    { label: "Overall ROAS", value: "3.41x", growth: "" },
     { label: "Organic Traffic Growth", value: "14,871/mo", growth: "+2,118%" },
     { label: "Ranked Keywords", value: "8,213", growth: "+7,428%" },
   ],

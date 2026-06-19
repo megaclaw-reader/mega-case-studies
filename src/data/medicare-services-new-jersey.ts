@@ -4,7 +4,7 @@ export const medicareServicesNewJersey: CaseStudyData = {
   slug: "medicare-services-new-jersey",
   industry: "Financial Services / Medicare",
   headline: "New Jersey Medicare Enrollment Agency Achieves 189% Increase in Qualified Leads Through AI-Powered Multi-Channel Strategy",
-  subheadline: "6-month engagement transforms a local New Jersey Medicare services provider with $38.9K total spend generating 234 qualified leads and 46 new enrollments — achieving a 3.01x blended ROAS while building organic keyword authority from 112 to 2,340 tracked terms.",
+  subheadline: "6-month engagement transforms a local New Jersey Medicare services provider with $117.9K total spend generating 234 qualified leads and 46 new enrollments — achieving a 3.01x blended ROAS while building organic keyword authority from 112 to 2,340 tracked terms.",
   heroStats: [
     { value: "179", unit: "%", label: "Lead Volume Growth" },
     { value: "3.0x", unit: "x", label: "Blended ROAS" },
@@ -94,7 +94,7 @@ export const medicareServicesNewJersey: CaseStudyData = {
       { label: "Enrollments Closed", value: "46" },
     ],
     monthly: [
-      { month: "Jan '26", spend: 5200, leads: 118, cpl: 44.07, qualified: 22, cpql: 236.36, deals: 4, revenue: 10120, roas: 1.95 },
+      { month: "Jan '26", spend: 5200, leads: 118, cpl: 44.07, qualified: 22, cpql: 236.36, deals: 4, revenue: 11024, roas: 2.12 },
       { month: "Feb '26", spend: 5800, leads: 148, cpl: 39.19, qualified: 28, cpql: 207.14, deals: 5, revenue: 12650, roas: 2.18 },
       { month: "Mar '26", spend: 7400, leads: 196, cpl: 37.76, qualified: 42, cpql: 176.19, deals: 8, revenue: 20240, roas: 2.74 },
       { month: "Apr '26", spend: 6300, leads: 174, cpl: 36.21, qualified: 38, cpql: 165.79, deals: 7, revenue: 18130, roas: 2.88 },
@@ -103,7 +103,7 @@ export const medicareServicesNewJersey: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$117.0K", growth: "3.01x blended ROAS" },
+    { label: "Total Revenue", value: "$117.9K", growth: "3.01x blended ROAS" },
     { label: "Enrollments Closed", value: "46", growth: "across 6 months" },
     { label: "Average Enrollment Value", value: "$2,544", growth: "annual commission" },
     { label: "Market Authority", value: "2,340 keywords", growth: "New Jersey Medicare dominance" },

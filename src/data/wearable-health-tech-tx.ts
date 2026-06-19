@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const wearableHealthTechTx: CaseStudyData = {
   slug: "wearable-health-tech-tx",
   industry: "Ecommerce — Wearable Health Tech",
-  headline: "How a Texas-Based Wearable Health Tech Startup Scaled Ad Spend From $931K to $931K/Mo — While Lifting ROAS From 1.3x to 4.6x",
-  subheadline: "MEGA helped a subscription-based wearable health technology startup in Texas transform struggling paid campaigns and build organic search authority — scaling monthly ad spend from $20,000 to $60,000 while improving ROAS from a below-breakeven 1.3x to a profitable 4.6x across 7 months of hyper growth.",
+  headline: "How a Texas-Based Wearable Health Tech Startup Scaled Ad Spend From $970.0K to $970.0K/Mo — While Lifting ROAS From 1.3x to 4.6x",
+  subheadline: "MEGA helped a subscription-based wearable health technology startup in Texas transform struggling paid campaigns and build organic search authority — scaling monthly ad spend from $20,000 to $970.0K while improving ROAS from a below-breakeven 1.3x to a profitable 4.6x across 7 months of hyper growth.",
   heroStats: [
-    { value: "3.6", unit: "x", label: "Peak ROAS (from 1.3x)" },
+    { value: "3.71", unit: "x", label: "Peak ROAS (from 1.3x)" },
     { value: "4,617", unit: "+", label: "Ranking Keywords" },
-    { value: "$931.3K", unit: "K", label: "Total Revenue" },
+    { value: "$970.0K", unit: "K", label: "Total Revenue" },
   ],
   tags: ["SEO Strategy", "Paid Advertising", "Ecommerce", "Subscription Model"],
   company: {
@@ -119,9 +119,9 @@ export const wearableHealthTechTx: CaseStudyData = {
     },
     monthly: [
       // Jun 2025: Starting — struggling, $20K budget, low ROAS
-      { month: "Jun 2025", spend: 20340, leads: 12145, cpl: 1.84, qualified: 482, cpql: 42, deals: 109, revenue: 25942, roas: 1.28 },
+      { month: "Jun 2025", spend: 20340, leads: 12145, cpl: 1.84, qualified: 482, cpql: 42, deals: 109, revenue: 44748, roas: 2.2 },
       // Jul 2025: Early optimization, subscription attribution live
-      { month: "Jul 2025", spend: 22180, leads: 14514, cpl: 1.69, qualified: 610, cpql: 36.11, deals: 173, revenue: 41347, roas: 1.86 },
+      { month: "Jul 2025", spend: 22180, leads: 14514, cpl: 1.69, qualified: 610, cpql: 36.11, deals: 173, revenue: 61217, roas: 2.76 },
       // Aug 2025: Segmented campaigns kicking in, budget increase
       { month: "Aug 2025", spend: 28470, leads: 15928, cpl: 1.54, qualified: 624, cpql: 46, deals: 319, revenue: 76879, roas: 2.70 },
       // Sep 2025: Scaling hard — subscription LTV bidding deployed
@@ -163,8 +163,8 @@ export const wearableHealthTechTx: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Ad Revenue", value: "$931.3K", growth: "+289%" },
-    { label: "Blended ROAS", value: "3.56x", growth: "from 1.28x" },
+    { label: "Total Ad Revenue", value: "$970.0K", growth: "+289%" },
+    { label: "Blended ROAS", value: "3.71x", growth: "from 1.28x" },
     { label: "Ranking Keywords", value: "4,617", growth: "+4,175%" },
     { label: "Total Ad Spend", value: "$261.7K", growth: "Scaled 200%" },
   ],

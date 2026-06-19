@@ -4,7 +4,7 @@ export const b2bOfficeServiceTexas: CaseStudyData = {
   slug: "b2b-office-service-texas",
   industry: "B2B Office Service",
   headline: "How a Texas B2B Office Services Company Grew Conversions 214% in 12 Months With Paid Advertising",
-  subheadline: "MEGA partnered with a Dallas-Fort Worth area B2B office services provider to overhaul their paid advertising strategy — growing monthly qualified leads from 7 to 22, reducing cost per qualified lead by 44%, and generating over $298K in closed contract revenue across Texas over 12 months.",
+  subheadline: "MEGA partnered with a Dallas-Fort Worth area B2B office services provider to overhaul their paid advertising strategy — growing monthly qualified leads from 7 to 22, reducing cost per qualified lead by 44%, and generating over $298.2K in closed contract revenue across Texas over 12 months.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
     { value: "214", unit: "%", label: "More Qualified Inquiries" },

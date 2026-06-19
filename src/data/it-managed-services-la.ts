@@ -197,7 +197,7 @@ export const itManagedServicesLa: CaseStudyData = {
   impact: [
     { label: "Total Revenue", value: "$1.26M", growth: "+4,820%" },
     { label: "Total Qualified Leads", value: "73", growth: "↓48% CPQL" },
-    { label: "Avg First-Year Contract Value", value: "$66,316", growth: "" },
+    { label: "Avg First-Year Contract Value", value: "$1.26M", growth: "" },
     { label: "Blended ROAS", value: "3.93x", growth: "" },
   ],
 };

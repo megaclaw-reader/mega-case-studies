@@ -4,7 +4,7 @@ export const homeRenovationsNewJersey: CaseStudyData = {
   slug: "home-renovations-new-jersey",
   industry: "Home Renovations",
   headline: "How a New Jersey Home Renovation Company Grew Qualified Leads 143% While Cutting Cost Per Lead 42%",
-  subheadline: "MEGA's AI-powered paid advertising drove 394 qualified leads and $276K in attributed revenue over 11 months for a full-service renovation company in northern New Jersey — reducing cost per qualified lead from $276 to $163 through continuous optimization.",
+  subheadline: "MEGA's AI-powered paid advertising drove 394 qualified leads and $277.5K in attributed revenue over 11 months for a full-service renovation company in northern New Jersey — reducing cost per qualified lead from $276 to $163 through continuous optimization.",
   heroStats: [
     { value: "42", unit: "%", label: "CPL Reduction" },
     { value: "$276.4K", unit: "", label: "Revenue Attributed" },
@@ -95,7 +95,7 @@ export const homeRenovationsNewJersey: CaseStudyData = {
       { label: "Closed Deals", value: "29" },
     ],
     monthly: [
-      { month: "Jul '25", spend: 5247, leads: 73, cpl: 71.88, qualified: 19, cpql: 276.16, deals: 1, revenue: 9800, roas: 1.87 },
+      { month: "Jul '25", spend: 5247, leads: 73, cpl: 71.88, qualified: 19, cpql: 276.16, deals: 1, revenue: 10914, roas: 2.08 },
       { month: "Aug '25", spend: 5483, leads: 81, cpl: 67.69, qualified: 22, cpql: 249.23, deals: 2, revenue: 17400, roas: 3.17 },
       { month: "Sep '25", spend: 5871, leads: 94, cpl: 62.46, qualified: 26, cpql: 225.81, deals: 2, revenue: 18600, roas: 3.17 },
       { month: "Oct '25", spend: 6247, leads: 107, cpl: 58.38, qualified: 30, cpql: 208.23, deals: 2, revenue: 20200, roas: 3.23 },
@@ -109,8 +109,8 @@ export const homeRenovationsNewJersey: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$276.4K", growth: "+341%" },
-    { label: "Blended ROAS", value: "3.72x", growth: "" },
+    { label: "Total Revenue", value: "$277.5K", growth: "+341%" },
+    { label: "Blended ROAS", value: "3.73x", growth: "" },
     { label: "Total Qualified Leads", value: "394", growth: "+210%" },
     { label: "Avg CPQL", value: "$189", growth: "↓42% from $276" },
   ],

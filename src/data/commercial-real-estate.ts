@@ -4,11 +4,11 @@ export const commercialRealEstate: CaseStudyData = {
   slug: "commercial-real-estate",
   industry: "Commercial Real Estate",
   headline: "How a Charlotte Commercial Real Estate Firm Generated $472.8K in Commissions With AI-Powered Marketing",
-  subheadline: "MEGA helped a commercial real estate brokerage in Charlotte, NC reduce cost per qualified lead by 34%, grow organic traffic 312%, and close 19 deals worth $391.6K in commissions over 12 months.",
+  subheadline: "MEGA helped a commercial real estate brokerage in Charlotte, NC reduce cost per qualified lead by 34%, grow organic traffic 312%, and close 19 deals worth $472.8K in commissions over 12 months.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
     { value: "312", unit: "%", label: "Organic Traffic Growth" },
-    { value: "472.8", unit: "K", label: "Commission Revenue" },
+    { value: "$472.8K", unit: "K", label: "Commission Revenue" },
   ],
   tags: ["Local SEO", "Paid Advertising", "AI-Powered Optimization"],
   company: {
@@ -125,7 +125,7 @@ export const commercialRealEstate: CaseStudyData = {
     summary: [
       { label: "Total Ad Spend", value: "$123.7K" },
       { label: "Qualified Leads", value: "611" },
-      { label: "Avg Cost Per Qualified Lead", value: "$212", note: "↓75% from $847" },
+      { label: "Avg Cost Per Qualified Lead", value: "$203", note: "↓76% from $847" },
       { label: "Closed Deals", value: "26" },
     ],
     columnLabels: {

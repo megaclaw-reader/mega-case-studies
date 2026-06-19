@@ -4,11 +4,11 @@ export const outdoorBackyardFurniture: CaseStudyData = {
   slug: "outdoor-backyard-furniture",
   industry: "Outdoor & Backyard Furniture",
   headline: "How a National Outdoor Furniture Retailer Generated 1,015 Orders With AI-Powered Marketing",
-  subheadline: "MEGA helped a premium outdoor and backyard furniture retailer optimize their ecommerce marketing across SEO and paid advertising — reducing cost per cart by 36%, growing organic traffic to over 14,000 monthly visitors, and generating $203.0K in attributed revenue over 8 months.",
+  subheadline: "MEGA helped a premium outdoor and backyard furniture retailer optimize their ecommerce marketing across SEO and paid advertising — reducing cost per cart by 36%, growing organic traffic to over 14,000 monthly visitors, and generating $394.4K in attributed revenue over 8 months.",
   heroStats: [
     { value: "8", unit: "months", label: "Partnership Duration" },
     { value: "14.3", unit: "K", label: "Monthly Organic Traffic" },
-    { value: "$202.0K", unit: "K", label: "Revenue Attributed" },
+    { value: "$394.4K", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["National SEO", "Paid Advertising", "AI-Powered Optimization"],
   company: {
@@ -131,20 +131,20 @@ export const outdoorBackyardFurniture: CaseStudyData = {
       deals: "Orders",
     },
     monthly: [
-      { month: "Jan 2025", spend: 8127, leads: 5400, cpl: 1.5, qualified: 324, cpql: 25.08, deals: 97, revenue: 19400.0, roas: 2.39 },
-      { month: "Feb 2025", spend: 8341, leads: 5560, cpl: 1.5, qualified: 334, cpql: 24.97, deals: 100, revenue: 19017, roas: 2.28 },
-      { month: "Mar 2025", spend: 8493, leads: 5660, cpl: 1.5, qualified: 340, cpql: 24.98, deals: 102, revenue: 20400.0, roas: 2.4 },
-      { month: "Apr 2025", spend: 9873, leads: 6909, cpl: 1.43, qualified: 406, cpql: 24.32, deals: 118, revenue: 23600.0, roas: 2.39 },
-      { month: "May 2025", spend: 11247, leads: 8100, cpl: 1.39, qualified: 472, cpql: 23.83, deals: 135, revenue: 27000.0, roas: 2.4 },
-      { month: "Jun 2025", spend: 12347, leads: 9135, cpl: 1.35, qualified: 528, cpql: 23.38, deals: 148, revenue: 29600.0, roas: 2.4 },
-      { month: "Jul 2025", spend: 12893, leads: 9804, cpl: 1.32, qualified: 562, cpql: 22.94, deals: 155, revenue: 31000.0, roas: 2.4 },
-      { month: "Aug 2025", spend: 13417, leads: 10413, cpl: 1.29, qualified: 592, cpql: 22.66, deals: 160, revenue: 32000.0, roas: 2.39 }
+      { month: "Jan 2025", spend: 8127, leads: 5400, cpl: 1.5, qualified: 324, cpql: 25.08, deals: 97, revenue: 19342, roas: 2.38 },
+      { month: "Feb 2025", spend: 8341, leads: 5560, cpl: 1.5, qualified: 334, cpql: 24.97, deals: 100, revenue: 25857, roas: 3.1 },
+      { month: "Mar 2025", spend: 8493, leads: 5660, cpl: 1.5, qualified: 340, cpql: 24.98, deals: 102, revenue: 28536, roas: 3.36 },
+      { month: "Apr 2025", spend: 9873, leads: 6909, cpl: 1.43, qualified: 406, cpql: 24.32, deals: 118, revenue: 37814, roas: 3.83 },
+      { month: "May 2025", spend: 11247, leads: 8100, cpl: 1.39, qualified: 472, cpql: 23.83, deals: 135, revenue: 56460, roas: 5.02 },
+      { month: "Jun 2025", spend: 12347, leads: 9135, cpl: 1.35, qualified: 528, cpql: 23.38, deals: 148, revenue: 69884, roas: 5.66 },
+      { month: "Jul 2025", spend: 12893, leads: 9804, cpl: 1.32, qualified: 562, cpql: 22.94, deals: 155, revenue: 74908, roas: 5.81 },
+      { month: "Aug 2025", spend: 13417, leads: 10413, cpl: 1.29, qualified: 592, cpql: 22.66, deals: 160, revenue: 81575, roas: 6.08 }
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$202.0K", growth: "+217%" },
+    { label: "Total Revenue", value: "$394.4K", growth: "+217%" },
     { label: "Total Orders", value: "1,015", growth: "ecommerce growth" },
     { label: "Average Order Value", value: "1,015", growth: "" },
-    { label: "Blended ROAS", value: "2.38x", growth: "" },
+    { label: "Blended ROAS", value: "4.65x", growth: "" },
   ],
 };

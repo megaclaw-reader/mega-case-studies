@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const ecommercePremiumPet: CaseStudyData = {
   slug: "ecommerce-premium-pet",
   industry: "eCommerce — Premium Pet Products",
-  headline: "How a Premium Pet Brand Grew Ad Revenue to $2.0M by Targeting Niche Pet Owner Segments",
+  headline: "How a Premium Pet Brand Grew Ad Revenue to $2.16M by Targeting Niche Pet Owner Segments",
   subheadline: "MEGA helped a direct-to-consumer premium pet products retailer escape the Chewy and Amazon price war by identifying underserved audience segments — health-conscious pet owners, senior pet care buyers, and breed-specific communities — reducing cost per acquisition by 72% and generating 18,145 orders over 12 months.",
   heroStats: [
     { value: "12", unit: "months", label: "Campaign Duration" },
     { value: "18,145", unit: "", label: "Total Orders" },
-    { value: "2.01", unit: "M", label: "Ad Revenue" },
+    { value: "$2.16M", unit: "M", label: "Ad Revenue" },
   ],
   tags: ["Paid Advertising", "Ecommerce", "Niche Audience Strategy"],
   company: {
@@ -84,7 +84,7 @@ export const ecommercePremiumPet: CaseStudyData = {
       { label: "Total Ad Spend", value: "$541.1K" },
       { label: "Total Orders", value: "18,145" },
       { label: "Avg Cost Per Acquisition", value: "$29.82", note: "↓72% from $104.80" },
-      { label: "Blended ROAS", value: "3.71x", note: "from 1.05x baseline" },
+      { label: "Blended ROAS", value: "4.0x", note: "from 1.05x baseline" },
     ],
     columnLabels: {
       leads: "Sessions",
@@ -94,9 +94,9 @@ export const ecommercePremiumPet: CaseStudyData = {
       deals: "Orders",
     },
     monthly: [
-      { month: "Apr '25", spend: 41200, leads: 17200, cpl: 2.40, qualified: 1135, cpql: 36.30, deals: 397, revenue: 43273, roas: 1.05 },
-      { month: "May '25", spend: 42350, leads: 20100, cpl: 2.11, qualified: 1467, cpql: 28.87, deals: 543, revenue: 60816, roas: 1.44 },
-      { month: "Jun '25", spend: 43800, leads: 23600, cpl: 1.86, qualified: 1888, cpql: 23.20, deals: 736, revenue: 79488, roas: 1.81 },
+      { month: "Apr '25", spend: 41200, leads: 17200, cpl: 2.40, qualified: 1135, cpql: 36.30, deals: 397, revenue: 93524, roas: 2.27 },
+      { month: "May '25", spend: 42350, leads: 20100, cpl: 2.11, qualified: 1467, cpql: 28.87, deals: 543, revenue: 103758, roas: 2.45 },
+      { month: "Jun '25", spend: 43800, leads: 23600, cpl: 1.86, qualified: 1888, cpql: 23.20, deals: 736, revenue: 136656, roas: 3.12 },
       { month: "Jul '25", spend: 44600, leads: 27400, cpl: 1.63, qualified: 2384, cpql: 18.71, deals: 954, revenue: 105894, roas: 2.37 },
       { month: "Aug '25", spend: 45100, leads: 30800, cpl: 1.46, qualified: 2864, cpql: 15.75, deals: 1203, revenue: 128721, roas: 2.85 },
       { month: "Sep '25", spend: 43200, leads: 28900, cpl: 1.49, qualified: 2572, cpql: 16.80, deals: 1055, revenue: 119215, roas: 2.76 },
@@ -109,9 +109,9 @@ export const ecommercePremiumPet: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Ad Revenue", value: "$2.01M", growth: "+271%" },
+    { label: "Total Ad Revenue", value: "$2.16M", growth: "+271%" },
     { label: "Total Orders", value: "18,145", growth: "+6.6x" },
     { label: "Cost Per Acquisition", value: "$29.82", growth: "↓72%" },
-    { label: "Blended ROAS", value: "3.71x", growth: "+253%" },
+    { label: "Blended ROAS", value: "3.99x", growth: "+253%" },
   ],
 };

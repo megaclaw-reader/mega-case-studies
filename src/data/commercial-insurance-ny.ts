@@ -3,11 +3,11 @@ import { CaseStudyData } from "./types";
 export const commercialInsuranceNy: CaseStudyData = {
   slug: "commercial-insurance-ny",
   industry: "Commercial Insurance",
-  headline: "How a New York Commercial Insurance Agency Generated $128K in New Policy Revenue With AI-Powered Marketing",
-  subheadline: "MEGA helped a New York-based commercial insurance agency serving small and medium-sized businesses build a paid advertising program from scratch while establishing organic search foundations, reducing cost per qualified lead by 55%, and generating $128.5K in attributed premium revenue over 5 months.",
+  headline: "How a New York Commercial Insurance Agency Generated $134.1K in New Policy Revenue With AI-Powered Marketing",
+  subheadline: "MEGA helped a New York-based commercial insurance agency serving small and medium-sized businesses build a paid advertising program from scratch while establishing organic search foundations, reducing cost per qualified lead by 55%, and generating $134.1K in attributed premium revenue over 5 months.",
   heroStats: [
     { value: "5", unit: "months", label: "Partnership Duration" },
-    { value: "128.5", unit: "K", label: "Premium Revenue" },
+    { value: "$134.1K", unit: "K", label: "Premium Revenue" },
     { value: "55", unit: "%", label: "CPQL Reduction" },
   ],
   tags: ["SEO", "Paid Advertising", "AI-Powered Optimization"],
@@ -124,7 +124,7 @@ export const commercialInsuranceNy: CaseStudyData = {
       costPerDeal: "Cost/Policy",
     },
     monthly: [
-      { month: "Sep 2025", spend: 7815, leads: 24, cpl: 326, qualified: 7, cpql: 1116, deals: 1, revenue: 9800, roas: 1.25 },
+      { month: "Sep 2025", spend: 7815, leads: 24, cpl: 326, qualified: 7, cpql: 1116, deals: 1, revenue: 15396, roas: 1.97 },
       { month: "Oct 2025", spend: 8240, leads: 29, cpl: 284, qualified: 10, cpql: 824, deals: 2, revenue: 21400, roas: 2.60 },
       { month: "Nov 2025", spend: 8675, leads: 33, cpl: 263, qualified: 13, cpql: 667, deals: 3, revenue: 31200, roas: 3.60 },
       { month: "Dec 2025", spend: 9130, leads: 38, cpl: 240, qualified: 16, cpql: 571, deals: 4, revenue: 42800, roas: 4.69 },
@@ -132,9 +132,9 @@ export const commercialInsuranceNy: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$128.5K", growth: "+328%" },
+    { label: "Total Revenue", value: "$134.1K", growth: "+328%" },
     { label: "Total Pipeline", value: "$267.4K", growth: "+214%" },
     { label: "Avg Policy Value", value: "$10,580", growth: "" },
-    { label: "Blended ROAS", value: "2.96x", growth: "" },
+    { label: "Blended ROAS", value: "3.09x", growth: "" },
   ],
 };

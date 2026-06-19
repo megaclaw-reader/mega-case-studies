@@ -3,7 +3,7 @@ import { CaseStudyData } from "./types";
 export const accountingHouston: CaseStudyData = {
   slug: "accounting-houston",
   industry: "Accounting",
-  headline: "How a Houston Accounting Firm Generated $230K in New Client Revenue With AI-Powered Lead Generation",
+  headline: "How a Houston Accounting Firm Generated $229.6K in New Client Revenue With AI-Powered Lead Generation",
   subheadline: "MEGA helped a mid-size CPA firm in Houston, Texas build a predictable digital lead pipeline, reducing cost per qualified lead by 59% and acquiring 31 new clients over 12 months — with a 4.1x blended return on ad spend.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },

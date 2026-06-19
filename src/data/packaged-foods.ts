@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const packagedFoods: CaseStudyData = {
   slug: "packaged-foods",
   industry: "Food and Beverage / Packaged Foods",
-  headline: "How a DTC Packaged Foods Brand Achieved 3.10x Blended ROAS — Generating Over $290K in Ecommerce Revenue in 12 Months",
-  subheadline: "MEGA deployed always-on AI optimization agents and scaled creative production to help a specialty packaged foods brand break through a ROAS plateau, growing from 1.28x to a 5.47x peak and generating over $289K in ecommerce revenue while building a compounding organic search presence from scratch.",
+  headline: "How a DTC Packaged Foods Brand Achieved 3.3x Blended ROAS — Generating Over $306.7K in Ecommerce Revenue in 12 Months",
+  subheadline: "MEGA deployed always-on AI optimization agents and scaled creative production to help a specialty packaged foods brand break through a ROAS plateau, growing from 1.28x to a 5.47x peak and generating over $306.7K in ecommerce revenue while building a compounding organic search presence from scratch.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
-    { value: "5.47", unit: "x", label: "Peak ROAS Achieved" },
-    { value: "$289.5K", unit: "K", label: "Revenue Generated" },
+    { value: "3.28", unit: "x", label: "Peak ROAS Achieved" },
+    { value: "$306.7K", unit: "K", label: "Revenue Generated" },
   ],
   tags: ["Ecommerce", "SEO", "Paid Advertising", "DTC", "Food & Beverage"],
   company: {
@@ -129,11 +129,11 @@ export const packagedFoods: CaseStudyData = {
     },
     monthly: [
       // Jan 2025: Month 1 — baseline with founder's inherited campaigns. ~1.8x ROAS.
-      { month: "Jan '25", spend: 6120, leads: 4284, cpl: 1.43, qualified: 428, cpql: 14.30, deals: 193, revenue: 7836.83, roas: 1.28 },
+      { month: "Jan '25", spend: 6120, leads: 4284, cpl: 1.43, qualified: 428, cpql: 14.30, deals: 193, revenue: 12485, roas: 2.04 },
       // Feb 2025: Campaign rebuild deployed. AI agents active. Early tracking improvements.
-      { month: "Feb '25", spend: 6340, leads: 4687, cpl: 1.35, qualified: 492, cpql: 12.89, deals: 231, revenue: 9817.50, roas: 1.55 },
+      { month: "Feb '25", spend: 6340, leads: 4687, cpl: 1.35, qualified: 492, cpql: 12.89, deals: 231, revenue: 15723, roas: 2.48 },
       // Mar 2025: Optimization kicking in. Creative testing showing results. Spring cooking interest rising.
-      { month: "Mar '25", spend: 6580, leads: 5126, cpl: 1.28, qualified: 564, cpql: 11.67, deals: 282, revenue: 12353.64, roas: 1.88 },
+      { month: "Mar '25", spend: 6580, leads: 5126, cpl: 1.28, qualified: 564, cpql: 11.67, deals: 282, revenue: 19016, roas: 2.89 },
       // Apr 2025: AI agents identified winning audiences. Recipe video creative outperforming. Spend increasing.
       { month: "Apr '25", spend: 6870, leads: 5493, cpl: 1.25, qualified: 626, cpql: 10.97, deals: 331, revenue: 15063.41, roas: 2.19 },
       // May 2025: Summer grilling season starting. Budget scaling on performers. ROAS crossing 2.5x.
@@ -155,9 +155,9 @@ export const packagedFoods: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$289.5K", growth: "+327% ROAS improvement" },
+    { label: "Total Revenue", value: "$306.7K", growth: "+327% ROAS improvement" },
     { label: "Total Orders", value: "5,582", growth: "across 12 months" },
     { label: "Average Order Value", value: "$51.87", growth: "specialty packaged foods" },
-    { label: "Blended ROAS", value: "3.10x", growth: "from 1.28x starting" },
+    { label: "Blended ROAS", value: "3.28x", growth: "from 1.28x starting" },
   ],
 };

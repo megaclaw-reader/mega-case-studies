@@ -148,7 +148,7 @@ export const disasterRecoveryNorthCarolina: CaseStudyData = {
   impact: [
     { label: "Total Revenue", value: "$242.2K", growth: "+89%" },
     { label: "Total Pipeline", value: "$387.5K", growth: "+156%" },
-    { label: "Avg Revenue Per Job", value: "$2,721", growth: "+12%" },
+    { label: "Avg Revenue Per Job", value: "$242.2K", growth: "+12%" },
     { label: "Blended ROAS", value: "3.85x", growth: "" },
   ],
 };

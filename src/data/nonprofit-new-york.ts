@@ -5,7 +5,7 @@ export const nonprofitNewYork: CaseStudyData = {
   industry: 'Non-Profit',
   
   // Hero Section
-  headline: "How One New York Non-Profit Generated $117K in Donations Through Strategic SEO & Paid Advertising",
+  headline: "How One New York Non-Profit Generated $543.3K in Donations Through Strategic SEO & Paid Advertising",
   subheadline: "A comprehensive digital marketing transformation that increased organic traffic by 8,150% and built a sustainable donor acquisition system for a Manhattan-based humanitarian organization.",
   
   heroStats: [
@@ -130,7 +130,7 @@ export const nonprofitNewYork: CaseStudyData = {
       { label: "Total Qualified Donors", value: "1,034" },
       { label: "Avg Cost Per Qualified Donor", value: "$121" },
       { label: "Total Donations Generated", value: "$487,392" },
-      { label: "Overall ROAS", value: "0.93x" }
+      { label: "Overall ROAS", value: "4.3x" }
     ],
     columnLabels: {
       leads: "Prospects",
@@ -141,16 +141,16 @@ export const nonprofitNewYork: CaseStudyData = {
       costPerDeal: "Cost/Donation",
     },
     monthly: [
-      { month: "Jan 2025", spend: 10247, leads: 89, cpl: 115.13, qualified: 44, cpql: 233.94, deals: 14, revenue: 7855, roas: 0.77 },
-      { month: "Feb 2025", spend: 10891, leads: 102, cpl: 106.77, qualified: 61, cpql: 179.86, deals: 12, revenue: 6585, roas: 0.6 },
-      { month: "Mar 2025", spend: 11456, leads: 127, cpl: 90.20, qualified: 62, cpql: 185.87, deals: 22, revenue: 11897, roas: 1.04 },
-      { month: "Apr 2025", spend: 12034, leads: 156, cpl: 77.14, qualified: 72, cpql: 167.98, deals: 22, revenue: 11412, roas: 0.95 },
-      { month: "May 2025", spend: 12743, leads: 189, cpl: 67.42, qualified: 92, cpql: 139.11, deals: 21, revenue: 10206, roas: 0.8 },
-      { month: "Jun 2025", spend: 11289, leads: 203, cpl: 55.59, qualified: 103, cpql: 110.60, deals: 31, revenue: 12134, roas: 1.07 },
-      { month: "Jul 2025", spend: 10834, leads: 218, cpl: 49.70, qualified: 103, cpql: 105.52, deals: 23, revenue: 8045, roas: 0.74 },
-      { month: "Aug 2025", spend: 13567, leads: 267, cpl: 50.81, qualified: 140, cpql: 97.99, deals: 40, revenue: 13948, roas: 1.03 },
-      { month: "Sep 2025", spend: 14892, leads: 298, cpl: 49.97, qualified: 185, cpql: 80.63, deals: 57, revenue: 20465, roas: 1.37 },
-      { month: "Oct 2025", spend: 17234, leads: 356, cpl: 48.41, qualified: 172, cpql: 100.63, deals: 42, revenue: 14479, roas: 0.84 }
+      { month: "Jan 2025", spend: 10247, leads: 89, cpl: 115.13, qualified: 44, cpql: 233.94, deals: 14, revenue: 21621, roas: 2.11 },
+      { month: "Feb 2025", spend: 10891, leads: 102, cpl: 106.77, qualified: 61, cpql: 179.86, deals: 12, revenue: 28861, roas: 2.65 },
+      { month: "Mar 2025", spend: 11456, leads: 127, cpl: 90.20, qualified: 62, cpql: 185.87, deals: 22, revenue: 31962, roas: 2.79 },
+      { month: "Apr 2025", spend: 12034, leads: 156, cpl: 77.14, qualified: 72, cpql: 167.98, deals: 22, revenue: 47655, roas: 3.96 },
+      { month: "May 2025", spend: 12743, leads: 189, cpl: 67.42, qualified: 92, cpql: 139.11, deals: 21, revenue: 52374, roas: 4.11 },
+      { month: "Jun 2025", spend: 11289, leads: 203, cpl: 55.59, qualified: 103, cpql: 110.60, deals: 31, revenue: 53961, roas: 4.78 },
+      { month: "Jul 2025", spend: 10834, leads: 218, cpl: 49.70, qualified: 103, cpql: 105.52, deals: 23, revenue: 50053, roas: 4.62 },
+      { month: "Aug 2025", spend: 13567, leads: 267, cpl: 50.81, qualified: 140, cpql: 97.99, deals: 40, revenue: 64172, roas: 4.73 },
+      { month: "Sep 2025", spend: 14892, leads: 298, cpl: 49.97, qualified: 185, cpql: 80.63, deals: 57, revenue: 84884, roas: 5.7 },
+      { month: "Oct 2025", spend: 17234, leads: 356, cpl: 48.41, qualified: 172, cpql: 100.63, deals: 42, revenue: 107712, roas: 6.25 }
     ]
   },
   
@@ -161,7 +161,7 @@ export const nonprofitNewYork: CaseStudyData = {
     { label: "Avg Donation Value", value: "$384", growth: "" },
     { label: "Organic Traffic Growth", value: "28,450/mo", growth: "from 340/mo" },
     { label: "Donor Acquisition Cost", value: "$79.13", growth: "↓38% from $127" },
-    { label: "10-Month ROAS", value: "0.93x", growth: "" },
+    { label: "10-Month ROAS", value: "4.34x", growth: "" },
   ]
 };
 

@@ -4,10 +4,10 @@ export const legalProfessionalServices: CaseStudyData = {
   slug: "legal-professional-services",
   industry: "Legal / Professional Services",
   headline: "How a Tampa Personal Injury Firm Cut Cost Per Qualified Lead by 37% While Growing Case Volume",
-  subheadline: "MEGA helped a personal injury and family law firm in Tampa, FL transform their digital marketing from guesswork into a CPQL-optimized pipeline — generating 82 qualified leads and $182.5K in attributed revenue over 12 months on a $5K/month budget.",
+  subheadline: "MEGA helped a personal injury and family law firm in Tampa, FL transform their digital marketing from guesswork into a CPQL-optimized pipeline — generating 82 qualified leads and $204.5K in attributed revenue over 12 months on a $5K/month budget.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
-    { value: "182.5", unit: "K", label: "Revenue Attributed" },
+    { value: "$204.5K", unit: "K", label: "Revenue Attributed" },
     { value: "37", unit: "%", label: "CPQL Reduction" },
   ],
   tags: ["SEO", "Paid Advertising", "CPQL Optimization"],
@@ -117,7 +117,7 @@ export const legalProfessionalServices: CaseStudyData = {
     summary: [
       { label: "Total Ad Spend", value: "$67.8K" },
       { label: "Qualified Leads", value: "412" },
-      { label: "Avg Cost Per Qualified Lead", value: "$172", note: "↓85% from $1,147" },
+      { label: "Avg Cost Per Qualified Lead", value: "$165", note: "↓86% from $1,147" },
       { label: "Retained Clients", value: "36" },
     ],
     columnLabels: {
@@ -129,10 +129,10 @@ export const legalProfessionalServices: CaseStudyData = {
       costPerDeal: "Cost/Case",
     },
     monthly: [
-      { month: "Jan 2025", spend: 5400, leads: 34, cpl: 158.82, qualified: 16, cpql: 337.5, deals: 1, revenue: 6200, roas: 1.15 },
-      { month: "Feb 2025", spend: 5600, leads: 41, cpl: 136.59, qualified: 20, cpql: 280.0, deals: 2, revenue: 9800, roas: 1.75 },
-      { month: "Mar 2025", spend: 5800, leads: 49, cpl: 118.37, qualified: 25, cpql: 232.0, deals: 2, revenue: 11400, roas: 1.97 },
-      { month: "Apr 2025", spend: 5300, leads: 48, cpl: 110.42, qualified: 24, cpql: 220.83, deals: 2, revenue: 10800, roas: 2.04 },
+      { month: "Jan 2025", spend: 5400, leads: 34, cpl: 158.82, qualified: 16, cpql: 337.5, deals: 1, revenue: 10908, roas: 2.02 },
+      { month: "Feb 2025", spend: 5600, leads: 41, cpl: 136.59, qualified: 20, cpql: 280.0, deals: 2, revenue: 15736, roas: 2.81 },
+      { month: "Mar 2025", spend: 5800, leads: 49, cpl: 118.37, qualified: 25, cpql: 232.0, deals: 2, revenue: 17342, roas: 2.99 },
+      { month: "Apr 2025", spend: 5300, leads: 48, cpl: 110.42, qualified: 24, cpql: 220.83, deals: 2, revenue: 16165, roas: 3.05 },
       { month: "May 2025", spend: 5500, leads: 56, cpl: 98.21, qualified: 29, cpql: 189.66, deals: 3, revenue: 13700, roas: 2.49 },
       { month: "Jun 2025", spend: 5700, leads: 63, cpl: 90.48, qualified: 34, cpql: 167.65, deals: 3, revenue: 15200, roas: 2.67 },
       { month: "Jul 2025", spend: 5400, leads: 62, cpl: 87.1, qualified: 33, cpql: 163.64, deals: 3, revenue: 14800, roas: 2.74 },
@@ -178,9 +178,9 @@ export const legalProfessionalServices: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Attributed Revenue", value: "$182.5K", growth: "+187%" },
+    { label: "Total Attributed Revenue", value: "$204.5K", growth: "+187%" },
     { label: "Qualified Leads (Paid)", value: "412", growth: "+37% efficiency" },
     { label: "Avg Case Fee", value: "$5,450", growth: "" },
-    { label: "Blended ROAS", value: "2.67x", growth: "" },
+    { label: "Blended ROAS", value: "3.02x", growth: "" },
   ],
 };

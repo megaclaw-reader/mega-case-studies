@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const taxPlanningCoaching: CaseStudyData = {
   slug: "tax-planning-coaching",
   industry: "High-Ticket Coach / Info Business Tax Planning",
-  headline: "How a Philadelphia Tax Planning Coaching Firm Combined SEO + Paid Ads to Generate $1,276,959 in Revenue While Cutting Cost Per Qualified Lead by 61%",
-  subheadline: "MEGA helped a Philadelphia-based high-ticket tax planning coaching business build a dual-channel growth engine — scaling paid ad spend from $20,000 to $50,000/month while simultaneously growing organic traffic from 0 to 12,400+ visits/month through SEO. Over 10 months, CPQL dropped from $1,259 to $487, organic keywords grew to 8,200+, and the firm generated $1.25M in new coaching revenue.",
+  headline: "How a Philadelphia Tax Planning Coaching Firm Combined SEO + Paid Ads to Generate $1.28M in Revenue While Cutting Cost Per Qualified Lead by 61%",
+  subheadline: "MEGA helped a Philadelphia-based high-ticket tax planning coaching business build a dual-channel growth engine — scaling paid ad spend from $20,000 to $50,000/month while simultaneously growing organic traffic from 0 to 12,400+ visits/month through SEO. Over 10 months, CPQL dropped from $1,259 to $487, organic keywords grew to 8,200+, and the firm generated $1.28M in new coaching revenue.",
   heroStats: [
     { value: "10", unit: "months", label: "Partnership Duration" },
     { value: "61", unit: "%", label: "CPQL Reduction" },
-    { value: "1.2", unit: "M", label: "Coaching Revenue Generated" },
+    { value: "$1.28M", unit: "M", label: "Coaching Revenue Generated" },
   ],
   tags: ["Paid Advertising", "SEO", "Lead Generation", "CPQL Optimization"],
   company: {

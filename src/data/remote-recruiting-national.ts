@@ -3,10 +3,10 @@ import { CaseStudyData } from "./types";
 export const remoteRecruitingNational: CaseStudyData = {
   slug: "remote-recruiting-national",
   industry: "Remote Talent Recruiting",
-  headline: "How a National Remote Recruiting Agency Generated $416K in Placement Revenue with 4.2x ROAS",
+  headline: "How a National Remote Recruiting Agency Generated $415.9K in Placement Revenue with 4.2x ROAS",
   subheadline: "MEGA helped TalentBridge Remote scale from 31 to 84 monthly qualified employer leads while building SEO dominance with 6,234+ keywords — driving 158 successful remote placements and establishing market leadership in distributed workforce recruiting.",
   heroStats: [
-    { value: "$661K", unit: "K", label: "Total Placement Revenue" },
+    { value: "$415.9K", unit: "K", label: "Total Placement Revenue" },
     { value: "241", unit: "", label: "Total Qualified Leads" },
     { value: "4.2", unit: "x", label: "Blended ROAS" },
   ],

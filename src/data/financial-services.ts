@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const financialServices: CaseStudyData = {
   slug: "financial-services",
   industry: "Financial Services",
-  headline: "How a California Financial Services Firm Generated $1,083,700 in New Revenue in Just 8 Months",
+  headline: "How a California Financial Services Firm Generated $1.08M in New Revenue in Just 8 Months",
   subheadline: "MEGA helped a mid-size financial planning firm in California build a dominant digital presence — cutting cost per qualified lead by 41%, ranking for 4,800+ keywords, and closing 34 new high-value clients through a combined SEO and paid advertising strategy.",
   heroStats: [
     { value: "8", unit: "months", label: "Partnership Duration" },
     { value: "946", unit: "", label: "Qualified Lead Cost Reduction" },
-    { value: "1.1", unit: "M", label: "New Client Revenue" },
+    { value: "$1.08M", unit: "M", label: "New Client Revenue" },
   ],
   tags: ["SEO Strategy", "Paid Advertising", "Lead Generation"],
   company: {

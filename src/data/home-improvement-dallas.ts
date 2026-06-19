@@ -3,7 +3,7 @@ import { CaseStudyData } from "./types";
 export const homeImprovementDallas: CaseStudyData = {
   slug: "home-improvement-dallas",
   industry: "Home Improvement",
-  headline: "How a Dallas Home Renovation Company Scaled from $551K to $550.6K Monthly Ad Spend While Reducing CPQL by 49%",
+  headline: "How a Dallas Home Renovation Company Scaled from $550.6K to $550.6K Monthly Ad Spend While Reducing CPQL by 49%",
   subheadline: "MEGA helped a full-service home improvement company in Dallas leverage SEO content strategy and advanced paid advertising to grow from 127 keywords to 8,400+ rankings, increase monthly organic traffic to 12,300+ visitors, and generate $550.6K in attributed revenue over 10 months.",
   heroStats: [
     { value: "10", unit: "months", label: "Partnership Duration" },

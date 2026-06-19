@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const financialServicesSalesNm: CaseStudyData = {
   slug: "financial-services-sales-nm",
   industry: "Financial Services Sales",
-  headline: "How a New Mexico Financial Services Firm Generated $790K in New Client Revenue Through Paid Advertising in 8 Months",
-  subheadline: "MEGA partnered with a full-service financial planning and insurance firm in New Mexico to build a high-quality lead generation engine through paid advertising — scaling monthly ad spend from $15,657 to $46,789, reducing cost per qualified lead by 56%, and closing 40 new high-value clients across wealth advisory, retirement planning, and commercial insurance services.",
+  headline: "How a New Mexico Financial Services Firm Generated $797.9K in New Client Revenue Through Paid Advertising in 8 Months",
+  subheadline: "MEGA partnered with a full-service financial planning and insurance firm in New Mexico to build a high-quality lead generation engine through paid advertising — scaling monthly ad spend from $15,657 to $797.9K, reducing cost per qualified lead by 56%, and closing 40 new high-value clients across wealth advisory, retirement planning, and commercial insurance services.",
   heroStats: [
     { value: "8", unit: "months", label: "Partnership Duration" },
     { value: "1,373", unit: "", label: "Qualified Lead Cost Reduction" },
-    { value: "790.4", unit: "K", label: "New Client Revenue" },
+    { value: "$797.9K", unit: "K", label: "New Client Revenue" },
   ],
   tags: ["Paid Advertising", "Lead Generation", "Financial Services"],
   company: {
@@ -107,7 +107,7 @@ export const financialServicesSalesNm: CaseStudyData = {
       costPerDeal: "Cost/Client",
     },
     monthly: [
-      { month: "Jan", spend: 15657, leads: 141, cpl: 111.04, qualified: 43, cpql: 364.12, deals: 1, revenue: 27400, roas: 1.75 },
+      { month: "Jan", spend: 15657, leads: 141, cpl: 111.04, qualified: 43, cpql: 364.12, deals: 1, revenue: 34915, roas: 2.23 },
       { month: "Feb", spend: 18234, leads: 188, cpl: 96.99, qualified: 72, cpql: 253.25, deals: 2, revenue: 53800, roas: 2.95 },
       { month: "Mar", spend: 21876, leads: 251, cpl: 87.16, qualified: 94, cpql: 232.72, deals: 3, revenue: 82100, roas: 3.75 },
       { month: "Apr", spend: 26543, leads: 329, cpl: 80.68, qualified: 147, cpql: 180.56, deals: 4, revenue: 112600, roas: 4.24 },
@@ -118,9 +118,9 @@ export const financialServicesSalesNm: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue Generated", value: "$790.4K", growth: "" },
+    { label: "Total Revenue Generated", value: "$797.9K", growth: "" },
     { label: "Total New Clients", value: "40", growth: "+233%" },
-    { label: "Blended ROAS", value: "3.31x", growth: "" },
+    { label: "Blended ROAS", value: "3.34x", growth: "" },
     { label: "Cost Per Qualified Lead", value: "$1,380", growth: "↓56%" },
     { label: "Lead-to-Client Rate", value: "23.1%", growth: "+89%" },
     { label: "Monthly Ad Spend Scaled", value: "3x Growth", growth: "+199%" },

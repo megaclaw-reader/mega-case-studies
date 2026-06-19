@@ -97,7 +97,7 @@ export const solarPhoenix: CaseStudyData = {
   seo: undefined,
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$144.0K" },
+      { label: "Total Ad Spend", value: "$144K" },
       { label: "Consultations Booked", value: "583" },
       { label: "Avg Cost Per Qualified Lead", value: "$247", note: "↓41% from $351" },
       { label: "Installs Closed", value: "35" },

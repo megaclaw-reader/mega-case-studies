@@ -3,11 +3,11 @@ import { CaseStudyData } from "./types";
 export const probiotics: CaseStudyData = {
   slug: "probiotics",
   industry: "Probiotics",
-  headline: "How a National DTC Probiotics Brand Generated $1.4M in Revenue in 7 Months",
-  subheadline: "MEGA helped a direct-to-consumer probiotics company drive $1.4M in ecommerce revenue through AI-powered paid advertising and SEO — steadily improving ROAS every single month while capitalizing on Black Friday demand and building a compounding organic search presence.",
+  headline: "How a National DTC Probiotics Brand Generated $1.40M in Revenue in 7 Months",
+  subheadline: "MEGA helped a direct-to-consumer probiotics company drive $1.40M in ecommerce revenue through AI-powered paid advertising and SEO — steadily improving ROAS every single month while capitalizing on Black Friday demand and building a compounding organic search presence.",
   heroStats: [
     { value: "7", unit: "months", label: "Partnership Duration" },
-    { value: "7.70", unit: "x", label: "Peak ROAS Achieved" },
+    { value: "6.6", unit: "x", label: "Peak ROAS Achieved" },
     { value: "$1.4M", unit: "M", label: "Revenue Generated" },
   ],
   tags: ["Ecommerce", "SEO", "Paid Advertising", "DTC"],

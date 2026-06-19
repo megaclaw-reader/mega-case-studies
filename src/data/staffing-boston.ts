@@ -4,11 +4,11 @@ export const staffingBoston: CaseStudyData = {
   slug: "staffing-boston",
   industry: "Staffing",
   headline: "How a Boston Staffing Agency Cut Cost Per Qualified Lead 64% Using AI-Powered Feedback Loops",
-  subheadline: "MEGA helped a B2B staffing agency in Boston scale their ad budget from $5K to $8K per month while reducing cost per qualified lead from $835 to $297 — using conversion signal feedback loops to train the ad platform's algorithm on what a real placement-ready lead looks like. Over 10 months, the campaign generated $238.3K in placement revenue with a 4.51x blended ROAS.",
+  subheadline: "MEGA helped a B2B staffing agency in Boston scale their ad budget from $5K to $8K per month while reducing cost per qualified lead from $835 to $297 — using conversion signal feedback loops to train the ad platform's algorithm on what a real placement-ready lead looks like. Over 10 months, the campaign generated $227.6K in placement revenue with a 3.6x blended ROAS.",
   heroStats: [
     { value: "10", unit: "months", label: "Partnership Duration" },
     { value: "64", unit: "%", label: "CPQL Reduction" },
-    { value: "$238K", unit: "K", label: "Placement Revenue" },
+    { value: "$227.6K", unit: "K", label: "Placement Revenue" },
   ],
   tags: ["Paid Advertising", "SEO Strategy", "CPQL Optimization", "Conversion Signal Feedback"],
   company: {

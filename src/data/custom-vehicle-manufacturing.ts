@@ -3,8 +3,8 @@ import { CaseStudyData } from "./types";
 export const customVehicleManufacturing: CaseStudyData = {
   slug: "custom-vehicle-manufacturing",
   industry: "Custom Vehicle Manufacturing",
-  headline: "How a Custom Vehicle Manufacturer Generated 80 New Projects and $354K in Revenue Through AI-Powered Marketing",
-  subheadline: "MEGA helped a national custom vehicle manufacturer optimize paid advertising and scale organic visibility, reducing cost per qualified lead by 28%, growing organic traffic 1,849%, and generating $354K in attributed revenue over 13 months.",
+  headline: "How a Custom Vehicle Manufacturer Generated 80 New Projects and $354.0K in Revenue Through AI-Powered Marketing",
+  subheadline: "MEGA helped a national custom vehicle manufacturer optimize paid advertising and scale organic visibility, reducing cost per qualified lead by 28%, growing organic traffic 1,849%, and generating $354.0K in attributed revenue over 13 months.",
   heroStats: [
     { value: "13", unit: "months", label: "Partnership Duration" },
     { value: "$354.0K", unit: "K", label: "Revenue Attributed" },

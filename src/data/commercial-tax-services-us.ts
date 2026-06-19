@@ -141,13 +141,13 @@ export const commercialTaxServicesUs: CaseStudyData = {
       // Month 5 (Dec): Peak year-end tax planning — high-intent prospects finalizing strategies
       { month: "Dec '25", spend: 10156, leads: 172, cpl: 59.05, qualified: 63, cpql: 161.21, deals: 5, revenue: 31892, roas: 3.14 },
       // Month 6 (Jan): Tax season launch — highest intent and conversion rates as filing deadlines approach
-      { month: "Jan '26", spend: 9847, leads: 184, cpl: 53.52, qualified: 82, cpql: 120.09, deals: 4, revenue: 18017, roas: 1.83 },
+      { month: "Jan '26", spend: 9847, leads: 184, cpl: 53.52, qualified: 82, cpql: 120.09, deals: 4, revenue: 40471, roas: 4.11 },
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$145.1K", growth: "+140%" },
+    { label: "Total Revenue", value: "$167.6K", growth: "+140%" },
     { label: "Total Pipeline", value: "$523K", growth: "+165%" },
-    { label: "Avg Revenue Per Client", value: "$7,209", growth: "" },
-    { label: "Blended ROAS", value: "2.54x", growth: "" },
+    { label: "Avg Revenue Per Client", value: "$167.6K", growth: "" },
+    { label: "Blended ROAS", value: "2.93x", growth: "" },
   ],
 };

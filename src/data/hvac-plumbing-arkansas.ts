@@ -4,7 +4,7 @@ export const hvacPlumbingArkansasCaseStudy: CaseStudyData = {
   slug: "hvac-plumbing-arkansas",
   industry: "HVAC & Plumbing",
   headline: "How an Arkansas HVAC & Plumbing Company Achieved 3.4x ROAS and Doubled Lead Quality in 8 Months",
-  subheadline: "MEGA helped Arkansas Comfort Pro grow from 2.56x ROAS to 4.1x ROAS while improving qualified lead rates from 59.6% to 73.3% through advanced audience targeting and comprehensive Arkansas market SEO.",
+  subheadline: "MEGA helped Arkansas Comfort Pro grow from 3.4x ROAS to 3.4x ROAS while improving qualified lead rates from 59.6% to 73.3% through advanced audience targeting and comprehensive Arkansas market SEO.",
   heroStats: [
     { value: "3.4", unit: "x", label: "Peak ROAS Achieved" },
     { value: "3.4", unit: "x", label: "ROAS Growth" },

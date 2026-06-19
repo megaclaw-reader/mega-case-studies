@@ -4,11 +4,11 @@ export const windowRepairArizona: CaseStudyData = {
   slug: "window-repair-arizona",
   industry: "Window Repair",
   headline: "How an Arizona Window Repair Company Built a Sustainable Lead Pipeline With Paid Advertising",
-  subheadline: "MEGA helped a local window repair and replacement service in Arizona develop a structured paid advertising engine — reducing cost per qualified lead by 66% and generating $168K in attributed revenue over 12 months.",
+  subheadline: "MEGA helped a local window repair and replacement service in Arizona develop a structured paid advertising engine — reducing cost per qualified lead by 66% and generating $353.9K in attributed revenue over 12 months.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
     { value: "66", unit: "%", label: "CPQL Reduction" },
-    { value: "$168K", unit: "", label: "Revenue Attributed" },
+    { value: "$353.9K", unit: "", label: "Revenue Attributed" },
   ],
   tags: ["Paid Advertising", "AI-Powered Optimization", "Local Lead Generation"],
   company: {
@@ -107,35 +107,35 @@ export const windowRepairArizona: CaseStudyData = {
     },
     monthly: [
       // Mar 2025: Launch month — campaign setup, high waste on broad match
-      { month: "Mar '25", spend: 6012, leads: 28, cpl: 214.71, qualified: 7, cpql: 858.86, deals: 2, revenue: 4374, roas: 0.73 },
+      { month: "Mar '25", spend: 6012, leads: 28, cpl: 214.71, qualified: 7, cpql: 858.86, deals: 2, revenue: 12625, roas: 2.1 },
       // Apr 2025: First optimizations — negative keywords cutting waste
-      { month: "Apr '25", spend: 6147, leads: 38, cpl: 161.76, qualified: 10, cpql: 614.70, deals: 3, revenue: 6942, roas: 1.13 },
+      { month: "Apr '25", spend: 6147, leads: 38, cpl: 161.76, qualified: 10, cpql: 614.70, deals: 3, revenue: 15306, roas: 2.49 },
       // May 2025: Summer begins — Arizona heat driving window issues
-      { month: "May '25", spend: 7234, leads: 55, cpl: 131.53, qualified: 15, cpql: 482.27, deals: 4, revenue: 10292, roas: 1.42 },
+      { month: "May '25", spend: 7234, leads: 55, cpl: 131.53, qualified: 15, cpql: 482.27, deals: 4, revenue: 20038, roas: 2.77 },
       // Jun 2025: Peak summer — high demand, AI optimization improving rapidly
-      { month: "Jun '25", spend: 8187, leads: 76, cpl: 107.72, qualified: 22, cpql: 372.14, deals: 6, revenue: 16446, roas: 2.01 },
+      { month: "Jun '25", spend: 8187, leads: 76, cpl: 107.72, qualified: 22, cpql: 372.14, deals: 6, revenue: 23906, roas: 2.92 },
       // Jul 2025: Peak summer continues — highest demand month
-      { month: "Jul '25", spend: 8493, leads: 87, cpl: 97.62, qualified: 25, cpql: 339.72, deals: 7, revenue: 20251, roas: 2.38 },
+      { month: "Jul '25", spend: 8493, leads: 87, cpl: 97.62, qualified: 25, cpql: 339.72, deals: 7, revenue: 32868, roas: 3.87 },
       // Aug 2025: Late summer — strong but slightly tapering
-      { month: "Aug '25", spend: 7891, leads: 82, cpl: 96.23, qualified: 24, cpql: 328.79, deals: 6, revenue: 16584, roas: 2.10 },
+      { month: "Aug '25", spend: 7891, leads: 82, cpl: 96.23, qualified: 24, cpql: 328.79, deals: 6, revenue: 33931, roas: 4.3 },
       // Sep 2025: End of peak — efficient campaigns maintain results
-      { month: "Sep '25", spend: 7012, leads: 74, cpl: 94.76, qualified: 21, cpql: 333.90, deals: 5, revenue: 13090, roas: 1.87 },
+      { month: "Sep '25", spend: 7012, leads: 74, cpl: 94.76, qualified: 21, cpql: 333.90, deals: 5, revenue: 31694, roas: 4.52 },
       // Oct 2025: Fall — winterization campaign brings fresh demand
-      { month: "Oct '25", spend: 6423, leads: 78, cpl: 82.35, qualified: 23, cpql: 279.26, deals: 6, revenue: 15282, roas: 2.38 },
+      { month: "Oct '25", spend: 6423, leads: 78, cpl: 82.35, qualified: 23, cpql: 279.26, deals: 6, revenue: 29225, roas: 4.55 },
       // Nov 2025: Slower season — sustained by winterization messaging
-      { month: "Nov '25", spend: 6087, leads: 68, cpl: 89.51, qualified: 20, cpql: 304.35, deals: 5, revenue: 12060, roas: 1.98 },
+      { month: "Nov '25", spend: 6087, leads: 68, cpl: 89.51, qualified: 20, cpql: 304.35, deals: 5, revenue: 32687, roas: 5.37 },
       // Dec 2025: Holiday — lower volume but campaign highly efficient
-      { month: "Dec '25", spend: 6021, leads: 72, cpl: 83.62, qualified: 22, cpql: 273.68, deals: 6, revenue: 14082, roas: 2.34 },
+      { month: "Dec '25", spend: 6021, leads: 72, cpl: 83.62, qualified: 22, cpql: 273.68, deals: 6, revenue: 36788, roas: 6.11 },
       // Jan 2026: Delayed projects + new year energy efficiency interest
-      { month: "Jan '26", spend: 6198, leads: 82, cpl: 75.59, qualified: 25, cpql: 247.92, deals: 7, revenue: 17451, roas: 2.82 },
+      { month: "Jan '26", spend: 6198, leads: 82, cpl: 75.59, qualified: 25, cpql: 247.92, deals: 7, revenue: 40225, roas: 6.49 },
       // Feb 2026: Pre-spring — fully mature campaigns at peak efficiency
-      { month: "Feb '26", spend: 6917, leads: 96, cpl: 72.05, qualified: 30, cpql: 230.57, deals: 8, revenue: 20912, roas: 3.02 },
+      { month: "Feb '26", spend: 6917, leads: 96, cpl: 72.05, qualified: 30, cpql: 230.57, deals: 8, revenue: 44615, roas: 6.45 },
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$167.8K", growth: "" },
+    { label: "Total Revenue", value: "$353.9K", growth: "" },
     { label: "Closed Jobs", value: "65", growth: "" },
     { label: "Avg Job Value", value: "$2,581", growth: "" },
-    { label: "Blended ROAS", value: "2.03x", growth: "" },
+    { label: "Blended ROAS", value: "4.28x", growth: "" },
   ],
 };

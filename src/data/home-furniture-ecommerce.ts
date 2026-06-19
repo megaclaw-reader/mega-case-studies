@@ -4,11 +4,11 @@ export const homeFurnitureEcommerce: CaseStudyData = {
   slug: "home-furniture-ecommerce",
   industry: "Home Furniture",
   headline: "How a Home Furniture Ecommerce Store Scaled Revenue 328% in 7 Months",
-  subheadline: "MEGA helped a national online home furniture retailer grow from a 1.58x ROAS to 5.41x, increasing monthly orders from 31 to 110 and generating over $182K in total revenue through AI-powered paid advertising — all while maintaining a lean ad budget starting at under $6K per month.",
+  subheadline: "MEGA helped a national online home furniture retailer grow from a 3.7x ROAS to 5.41x, increasing monthly orders from 31 to 110 and generating over $185.9K in total revenue through AI-powered paid advertising — all while maintaining a lean ad budget starting at under $6K per month.",
   heroStats: [
     { value: "7", unit: "months", label: "Partnership Duration" },
     { value: "$182.6K", unit: "", label: "Total Revenue" },
-    { value: "5.41x", unit: "", label: "Peak ROAS" },
+    { value: "3.74", unit: "", label: "Peak ROAS" },
   ],
   tags: ["Paid Advertising", "eCommerce", "National"],
   company: {
@@ -92,7 +92,7 @@ export const homeFurnitureEcommerce: CaseStudyData = {
       deals: "Orders",
     },
     monthly: [
-      { month: "Sep '25", spend: 5765, leads: 1203, cpl: 4.79, qualified: 94, cpql: 61.33, deals: 31, revenue: 9109, roas: 1.58 },
+      { month: "Sep '25", spend: 5765, leads: 1203, cpl: 4.79, qualified: 94, cpql: 61.33, deals: 31, revenue: 12395, roas: 2.15 },
       { month: "Oct '25", spend: 6200, leads: 1547, cpl: 4.01, qualified: 127, cpql: 48.82, deals: 46, revenue: 14084, roas: 2.27 },
       { month: "Nov '25", spend: 8500, leads: 2793, cpl: 3.04, qualified: 218, cpql: 38.99, deals: 86, revenue: 27030, roas: 3.18 },
       { month: "Dec '25", spend: 8200, leads: 3200, cpl: 2.56, qualified: 248, cpql: 33.06, deals: 93, revenue: 30504, roas: 3.72 },
@@ -102,9 +102,9 @@ export const homeFurnitureEcommerce: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$182.6K", growth: "+328%" },
+    { label: "Total Revenue", value: "$185.9K", growth: "+328%" },
     { label: "Total Orders", value: "552", growth: "+255%" },
     { label: "Average Order Value", value: "$330.84", growth: "" },
-    { label: "Blended ROAS", value: "3.67x", growth: "+132% from 1.58x baseline" },
+    { label: "Blended ROAS", value: "3.74x", growth: "+132% from 1.58x baseline" },
   ],
 };

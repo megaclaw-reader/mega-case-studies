@@ -4,7 +4,7 @@ export const plumbingSanDiego: CaseStudyData = {
   slug: "plumbing-san-diego",
   industry: "Residential and Commercial Plumbing",
   headline: "San Diego Plumbing Company Cuts Cost Per Lead 47% and Generates $512.6K in Revenue Across Residential and Commercial Jobs",
-  subheadline: "AI-powered optimization and strategic SEO growth generated 2,233 qualified leads and $507K in plumbing revenue across San Diego County over 12 months, while building sustainable organic presence with 8,934 keyword rankings.",
+  subheadline: "AI-powered optimization and strategic SEO growth generated 2,233 qualified leads and $512.6K in plumbing revenue across San Diego County over 12 months, while building sustainable organic presence with 8,934 keyword rankings.",
   heroStats: [
     { value: "47", unit: "%", label: "Cost Per Lead Reduction" },
     { value: "406", unit: "", label: "Total Qualified Leads" },

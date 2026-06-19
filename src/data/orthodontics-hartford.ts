@@ -4,7 +4,7 @@ export const orthodonticsHartford: CaseStudyData = {
   slug: "orthodontics-hartford",
   industry: "Orthodontics",
   headline: "How a Hartford, Connecticut Orthodontics Practice Generated $211.3K+ in Revenue With AI-Driven SEO and Paid Ads",
-  subheadline: "MEGA helped a single-location orthodontics clinic in Hartford, Connecticut rebuild its digital presence from scratch — growing organic traffic from 504 to nearly 15,000 monthly visitors, reducing cost per qualified lead by 59%, and producing 35 new patient starts worth $191K in 10 months.",
+  subheadline: "MEGA helped a single-location orthodontics clinic in Hartford, Connecticut rebuild its digital presence from scratch — growing organic traffic from 504 to nearly 15,000 monthly visitors, reducing cost per qualified lead by 59%, and producing 35 new patient starts worth $211.3K in 10 months.",
   heroStats: [
     { value: "10", unit: "months", label: "Partnership Duration" },
     { value: "$211.3K", unit: "K+", label: "Revenue Attributed" },

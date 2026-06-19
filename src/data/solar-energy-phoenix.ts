@@ -3,8 +3,8 @@ import { CaseStudyData } from "./types";
 export const solarEnergyPhoenix: CaseStudyData = {
   slug: "solar-energy-phoenix",
   industry: "Solar Installation",
-  headline: "How a Phoenix Solar Energy Company Generated $354K in Revenue and 8,400+ Organic Keywords in 13 Months",
-  subheadline: "MEGA helped a residential solar installation company in Phoenix grow from 112 organic keywords to over 8,400 while running paid advertising campaigns that produced 21 closed deals worth $354K — leveraging Arizona's peak sunshine months and AI-powered always-on optimization.",
+  headline: "How a Phoenix Solar Energy Company Generated $354.6K in Revenue and 8,400+ Organic Keywords in 13 Months",
+  subheadline: "MEGA helped a residential solar installation company in Phoenix grow from 112 organic keywords to over 8,400 while running paid advertising campaigns that produced 21 closed deals worth $354.6K — leveraging Arizona's peak sunshine months and AI-powered always-on optimization.",
   heroStats: [
     { value: "13", unit: "months", label: "Partnership Duration" },
     { value: "$354.6K", unit: "", label: "Revenue Attributed" },

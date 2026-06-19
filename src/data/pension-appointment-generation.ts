@@ -4,12 +4,12 @@ export const pensionAppointmentGeneration: CaseStudyData = {
   slug: "pension-appointment-generation",
   industry: "Financial Services / Pension & Annuity",
   headline: "How a National Pension & Annuity Firm Generated 671 Qualified Appointments in 12 Months",
-  subheadline: "MEGA helped a pension and annuity advisory firm build a digital appointment generation engine — scaling from 7 qualified appointments in month one to over 90 per month, reducing cost per appointment by 59%, and generating $354.6K in commission revenue from 37 closed annuity sales.",
+  subheadline: "MEGA helped a pension and annuity advisory firm build a digital appointment generation engine — scaling from 7 qualified appointments in month one to over 90 per month, reducing cost per appointment by 59%, and generating $361.9K in commission revenue from 37 closed annuity sales.",
   heroStats: [
     { value: "671", unit: "", label: "Qualified Appointments" },
     { value: "$358", unit: "", label: "Avg Cost/Appointment" },
     { value: "37", unit: "", label: "Annuity Sales Closed" },
-    { value: "$354.6K", unit: "K", label: "Commission Revenue" },
+    { value: "$361.9K", unit: "K", label: "Commission Revenue" },
   ],
   tags: ["Paid Advertising", "Appointment Generation", "SEO Strategy"],
   company: {
@@ -124,7 +124,7 @@ export const pensionAppointmentGeneration: CaseStudyData = {
       { label: "Avg Cost/Appointment", value: "$358" },
       { label: "Annuity Sales Closed", value: "37" },
       { label: "Appointment-to-Sale Rate", value: "14.9%" },
-      { label: "Total Commission Revenue", value: "$354.6K" },
+      { label: "Total Commission Revenue", value: "$361.9K" },
       { label: "Blended ROAS", value: "4.0x" },
     ],
     columnLabels: {
@@ -136,8 +136,8 @@ export const pensionAppointmentGeneration: CaseStudyData = {
       costPerDeal: "Cost/Sale",
     },
     monthly: [
-      { month: "Jan '25", spend: 5200, leads: 39, cpl: 133.33, qualified: 18, cpql: 288.89, deals: 1, revenue: 9200, roas: 1.77 },
-      { month: "Feb '25", spend: 5450, leads: 45, cpl: 121.11, qualified: 26, cpql: 209.62, deals: 1, revenue: 9800, roas: 1.80 },
+      { month: "Jan '25", spend: 5200, leads: 39, cpl: 133.33, qualified: 18, cpql: 288.89, deals: 1, revenue: 12376, roas: 2.38 },
+      { month: "Feb '25", spend: 5450, leads: 45, cpl: 121.11, qualified: 26, cpql: 209.62, deals: 1, revenue: 13952, roas: 2.56 },
       { month: "Mar '25", spend: 5700, leads: 53, cpl: 107.55, qualified: 33, cpql: 172.73, deals: 2, revenue: 19400, roas: 3.40 },
       { month: "Apr '25", spend: 6200, leads: 65, cpl: 95.38, qualified: 42, cpql: 147.62, deals: 3, revenue: 27900, roas: 4.50 },
       { month: "May '25", spend: 6600, leads: 76, cpl: 86.84, qualified: 49, cpql: 134.69, deals: 3, revenue: 28500, roas: 4.32 },
@@ -156,7 +156,7 @@ export const pensionAppointmentGeneration: CaseStudyData = {
     { label: "Total Qualified Appointments", value: "671", growth: "+357% from month 1 to 12" },
     { label: "Appointment-to-Sale Rate", value: "14.9%", growth: "From qualified appointments" },
     { label: "Total Annuity Sales", value: "$354.6K", growth: "Avg $9,584 commission per sale" },
-    { label: "Total Commission Revenue", value: "$354,600", growth: "3.99x blended ROAS" },
+    { label: "Total Commission Revenue", value: "$361.9K", growth: "3.99x blended ROAS" },
     { label: "Cost Per Qualified Appointment", value: "$358", growth: "59% reduction from $743 to $306" },
     { label: "Organic Traffic Growth", value: "11,400/mo", growth: "+3,831% from 290/mo baseline" },
   ],

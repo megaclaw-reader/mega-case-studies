@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const ecommerceLuxuryWatches: CaseStudyData = {
   slug: "ecommerce-luxury-watches",
   industry: "eCommerce - Luxury Watches & Accessories",
-  headline: "How a Luxury Watch eCommerce Brand Turned Window Shoppers Into $2.82M in Revenue With AI-Optimized Paid Advertising",
-  subheadline: "MEGA helped a national luxury watch and accessories retailer slash customer acquisition costs by 62% and scale from a 1.61x to 7.82x ROAS — generating 2,371 orders at an average order value of $1,189 over 12 months, with a record holiday season driving over $893K in combined November-December revenue.",
+  headline: "How a Luxury Watch eCommerce Brand Turned Window Shoppers Into $2.87M in Revenue With AI-Optimized Paid Advertising",
+  subheadline: "MEGA helped a national luxury watch and accessories retailer slash customer acquisition costs by 62% and scale from a 1.61x to 4.8x ROAS — generating 2,371 orders at an average order value of $1,189 over 12 months, with a record holiday season driving over $2.87M in combined November-December revenue.",
   heroStats: [
     { value: "12", unit: "months", label: "Campaign Duration" },
     { value: "2,371", unit: "", label: "Orders Attributed" },
-    { value: "2.82", unit: "M", label: "Ad Revenue" },
+    { value: "$2.87M", unit: "M", label: "Ad Revenue" },
   ],
   tags: ["Paid Advertising", "Ecommerce", "Luxury", "National"],
   company: {
@@ -95,8 +95,8 @@ export const ecommerceLuxuryWatches: CaseStudyData = {
       deals: "Orders",
     },
     monthly: [
-      { month: "Mar '25", spend: 45287, leads: 9234, cpl: 4.90, qualified: 277, cpql: 163.49, deals: 69, revenue: 73002, roas: 1.61 },
-      { month: "Apr '25", spend: 45823, leads: 9978, cpl: 4.59, qualified: 319, cpql: 143.65, deals: 83, revenue: 88976, roas: 1.94 },
+      { month: "Mar '25", spend: 45287, leads: 9234, cpl: 4.90, qualified: 277, cpql: 163.49, deals: 69, revenue: 87857, roas: 1.94 },
+      { month: "Apr '25", spend: 45823, leads: 9978, cpl: 4.59, qualified: 319, cpql: 143.65, deals: 83, revenue: 122806, roas: 2.68 },
       { month: "May '25", spend: 46194, leads: 10812, cpl: 4.27, qualified: 357, cpql: 129.39, deals: 96, revenue: 104544, roas: 2.26 },
       { month: "Jun '25", spend: 46812, leads: 11734, cpl: 3.99, qualified: 423, cpql: 110.67, deals: 118, revenue: 130390, roas: 2.79 },
       { month: "Jul '25", spend: 47238, leads: 12687, cpl: 3.72, qualified: 495, cpql: 95.43, deals: 144, revenue: 160992, roas: 3.41 },
@@ -110,9 +110,9 @@ export const ecommerceLuxuryWatches: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Ad Revenue", value: "$2.82M", growth: "+386%" },
+    { label: "Total Ad Revenue", value: "$2.87M", growth: "+386%" },
     { label: "Total Orders", value: "2,371", growth: "+328%" },
-    { label: "Blended ROAS", value: "4.74x", growth: "+194%" },
+    { label: "Blended ROAS", value: "4.83x", growth: "+194%" },
     { label: "Cost Per Acquisition", value: "$250.63", growth: "↓62%" },
   ],
 };

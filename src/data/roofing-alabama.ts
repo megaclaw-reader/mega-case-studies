@@ -3,8 +3,8 @@ import { CaseStudyData } from "./types";
 export const roofingAlabama: CaseStudyData = {
   slug: "roofing-alabama",
   industry: "Roofing",
-  headline: "How an Alabama Roofing Contractor Captured $935K in Storm Season Revenue by Combining SEO With AI-Optimized Paid Campaigns",
-  subheadline: "MEGA helped a Birmingham-based residential and commercial roofing company dominate Alabama's competitive storm season market — generating 431 qualified leads, closing 44 roofing projects, and achieving a 3.6x blended ROAS over 8 months through always-on AI optimization and aggressive local SEO expansion across Birmingham, Huntsville, Mobile, and Montgomery.",
+  headline: "How an Alabama Roofing Contractor Captured $934.8K in Storm Season Revenue by Combining SEO With AI-Optimized Paid Campaigns",
+  subheadline: "MEGA helped a Birmingham-based residential and commercial roofing company dominate Alabama's competitive storm season market — generating 431 qualified leads, closing 44 roofing projects, and achieving a 3.8x blended ROAS over 8 months through always-on AI optimization and aggressive local SEO expansion across Birmingham, Huntsville, Mobile, and Montgomery.",
   heroStats: [
     { value: "$934.8K", unit: "K", label: "Total Revenue Generated" },
     { value: "3.8", unit: "x", label: "Blended ROAS" },

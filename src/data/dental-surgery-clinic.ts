@@ -3,13 +3,13 @@ import { CaseStudyData } from "./types";
 export const dentalSurgeryClinic: CaseStudyData = {
   slug: "dental-surgery-clinic",
   industry: "Dental Surgery",
-  headline: "How an Arizona Dental Surgery Clinic Increased Qualified Patient Leads by 312% and Generated $491K in Procedure Revenue Over 12 Months",
-  subheadline: "MEGA's always-on AI optimization helped a dental surgery clinic in Arizona scale qualified lead volume from 18 to 74 per month while reducing cost per qualified lead by 70%, closing 121 surgical cases worth $490.7K in attributed revenue across a 12-month engagement.",
+  headline: "How an Arizona Dental Surgery Clinic Increased Qualified Patient Leads by 312% and Generated $510.9K in Procedure Revenue Over 12 Months",
+  subheadline: "MEGA's always-on AI optimization helped a dental surgery clinic in Arizona scale qualified lead volume from 18 to 74 per month while reducing cost per qualified lead by 70%, closing 121 surgical cases worth $510.9K in attributed revenue across a 12-month engagement.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
-    { value: "$490.7K", unit: "K", label: "Revenue Attributed" },
+    { value: "$510.9K", unit: "K", label: "Revenue Attributed" },
     { value: "576", unit: "", label: "Qualified Patient Leads" },
-    { value: "3.56", unit: "x", label: "Blended ROAS" },
+    { value: "3.7", unit: "x", label: "Blended ROAS" },
   ],
   tags: ["Paid Advertising", "SEO", "Dental Surgery", "Lead Generation"],
   company: {
@@ -134,8 +134,8 @@ export const dentalSurgeryClinic: CaseStudyData = {
       costPerDeal: "Cost/Case",
     },
     monthly: [
-      { month: "Mar '25", spend: 10200, leads: 64, cpl: 159.38, qualified: 18, cpql: 566.67, deals: 4, revenue: 14200, roas: 1.39 },
-      { month: "Apr '25", spend: 10400, leads: 72, cpl: 144.44, qualified: 24, cpql: 433.33, deals: 5, revenue: 18750, roas: 1.80 },
+      { month: "Mar '25", spend: 10200, leads: 64, cpl: 159.38, qualified: 18, cpql: 566.67, deals: 4, revenue: 23766, roas: 2.33 },
+      { month: "Apr '25", spend: 10400, leads: 72, cpl: 144.44, qualified: 24, cpql: 433.33, deals: 5, revenue: 29432, roas: 2.83 },
       { month: "May '25", spend: 10600, leads: 80, cpl: 132.50, qualified: 30, cpql: 353.33, deals: 7, revenue: 25900, roas: 2.44 },
       { month: "Jun '25", spend: 10300, leads: 91, cpl: 113.19, qualified: 36, cpql: 286.11, deals: 8, revenue: 30400, roas: 2.95 },
       { month: "Jul '25", spend: 10800, leads: 102, cpl: 105.88, qualified: 42, cpql: 257.14, deals: 9, revenue: 35100, roas: 3.25 },
@@ -149,9 +149,9 @@ export const dentalSurgeryClinic: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$490.6K", growth: "+312%" },
+    { label: "Total Revenue", value: "$510.9K", growth: "+312%" },
     { label: "Surgical Cases Closed", value: "121", growth: "+275%" },
     { label: "Cost Per Qualified Lead", value: "$239", growth: "↓58%" },
-    { label: "Blended ROAS", value: "3.56x", growth: "" },
+    { label: "Blended ROAS", value: "3.70x", growth: "" },
   ],
 };

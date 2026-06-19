@@ -3,7 +3,7 @@ import { CaseStudyData } from "./types";
 export const commercialSurveillanceMiami: CaseStudyData = {
   slug: "commercial-surveillance-miami",
   industry: "Alarm and Surveillance",
-  headline: "Miami Commercial Surveillance Firm Closes 59 Projects Worth $303K Through AI-Driven Lead Generation and SEO",
+  headline: "Miami Commercial Surveillance Firm Closes 59 Projects Worth $303.4K Through AI-Driven Lead Generation and SEO",
   subheadline: "MEGA helped a Miami-based commercial surveillance and access control company reduce Cost Per Qualified Lead by 59%, close 59 commercial projects, and grow organic search presence to 5,412 keywords in 10 months — using always-on AI optimization to compete in South Florida's high-stakes commercial security market.",
   heroStats: [
     { value: "59", unit: "%", label: "CPQL Reduction" },

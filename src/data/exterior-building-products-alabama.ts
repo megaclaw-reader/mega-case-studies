@@ -4,7 +4,7 @@ export const exteriorBuildingProductsAlabama: CaseStudyData = {
   slug: "exterior-building-products-alabama",
   industry: "Exterior Building Products",
   headline: "How an Alabama Exterior Building Products Supplier Improved Lead Quality by 347% and Achieved 4.3x ROAS in 5 Months",
-  subheadline: "MEGA helped a growing exterior building products company in Alabama double their qualified leads per month while reducing cost per qualified lead by 52% — generating $290.9K in revenue across Birmingham, Huntsville, Mobile, and Montgomery markets through strategic SEO growth and targeted paid advertising.",
+  subheadline: "MEGA helped a growing exterior building products company in Alabama double their qualified leads per month while reducing cost per qualified lead by 52% — generating $227.8K in revenue across Birmingham, Huntsville, Mobile, and Montgomery markets through strategic SEO growth and targeted paid advertising.",
   heroStats: [
     { value: "347", unit: "%", label: "Lead Quality Improvement" },
     { value: "1,847", unit: "", label: "Keywords Ranked (5 months)" },

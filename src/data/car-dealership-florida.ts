@@ -3,10 +3,10 @@ import { CaseStudyData } from "./types";
 export const carDealershipFlorida: CaseStudyData = {
   slug: "car-dealership-florida",
   industry: "Car Dealership",
-  headline: "How a Florida Car Dealership Generated $248K in Vehicle Sales Revenue and Cut Cost Per Qualified Lead 41% in 12 Months",
-  subheadline: "MEGA partnered with a Southeast Florida new and pre-owned vehicle dealership to overhaul their paid advertising pipeline — reducing Cost Per Qualified Lead from $500 to $293, closing 20 vehicle sales from paid channels, and generating $248K in attributed revenue across 12 months of AI-optimized campaign management.",
+  headline: "How a Florida Car Dealership Generated $247.9K in Vehicle Sales Revenue and Cut Cost Per Qualified Lead 41% in 12 Months",
+  subheadline: "MEGA partnered with a Southeast Florida new and pre-owned vehicle dealership to overhaul their paid advertising pipeline — reducing Cost Per Qualified Lead from $500 to $293, closing 20 vehicle sales from paid channels, and generating $247.9K in attributed revenue across 12 months of AI-optimized campaign management.",
   heroStats: [
-    { value: "$248", unit: "K", label: "Revenue Generated" },
+    { value: "$247.9K", unit: "K", label: "Revenue Generated" },
     { value: "41", unit: "%", label: "CPQL Reduction" },
     { value: "20", unit: "", label: "Vehicles Sold via Paid" },
   ],

@@ -4,7 +4,7 @@ export const residentialMovingNyc: CaseStudyData = {
   slug: "residential-moving-nyc",
   industry: "Residential Moving Services",
   headline: "How a NYC Residential Moving Company Increased ROAS by 30% While Improving Lead Quality",
-  subheadline: "MEGA helped a New York City residential moving company transform their digital marketing from volume-based to quality-focused, reducing cost per qualified lead by 31% while growing ROAS from 2.4x to 3.1x over 8 months — generating 847 qualified leads and $2.1M in revenue.",
+  subheadline: "MEGA helped a New York City residential moving company transform their digital marketing from volume-based to quality-focused, reducing cost per qualified lead by 31% while growing ROAS from 2.4x to 3.1x over 8 months — generating 847 qualified leads and $346.2K in revenue.",
   heroStats: [
     { value: "8", unit: "months", label: "Partnership Duration" },
     { value: "$346.2K", unit: "K", label: "Revenue Generated" },

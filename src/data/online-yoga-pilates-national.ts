@@ -3,8 +3,8 @@ import { CaseStudyData } from "./types";
 export const onlineYogaPilatesNational: CaseStudyData = {
   slug: "online-yoga-pilates-national",
   industry: "Online Yoga & Pilates Platform",
-  headline: "How a National Yoga Platform Scaled to 34,782 Subscribers While Achieving 4.73x Blended ROAS",
-  subheadline: "MEGA helped a subscription-based yoga and pilates platform optimize their paid acquisition strategy, growing from 2,847 monthly subscribers to 34,782 active members while maintaining a cost per qualified subscriber of $23.47 and achieving 4.73x blended ROAS across all channels over 12 months.",
+  headline: "How a National Yoga Platform Scaled to 34,782 Subscribers While Achieving 4.1x Blended ROAS",
+  subheadline: "MEGA helped a subscription-based yoga and pilates platform optimize their paid acquisition strategy, growing from 2,847 monthly subscribers to 34,782 active members while maintaining a cost per qualified subscriber of $23.47 and achieving 4.1x blended ROAS across all channels over 12 months.",
   heroStats: [
     { value: "34,782", unit: "", label: "Active Subscribers" },
     { value: "4.1", unit: "x", label: "Blended ROAS" },
@@ -130,7 +130,7 @@ export const onlineYogaPilatesNational: CaseStudyData = {
   },
   impact: [
     { label: "Total Subscribers", value: "2,847 → 34,782", growth: "+1,122%" },
-    { label: "Avg Monthly Revenue", value: "$39.2K", growth: "+1,126%" },
+    { label: "Avg Monthly Revenue", value: "$523.1K", growth: "+1,126%" },
     { label: "Cost Per Subscriber", value: "$67 → $23.47", growth: "↓65%" },
     { label: "Trial-to-Paid Rate", value: "18.3% → 60.6%", growth: "+42.3pts" },
     { label: "Monthly Churn Rate", value: "8.7% → 6.3%", growth: "↓2.4pts" },

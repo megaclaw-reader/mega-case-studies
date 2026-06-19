@@ -3,8 +3,8 @@ import { CaseStudyData } from "./types";
 export const sightseeingFlorida: CaseStudyData = {
   slug: "sightseeing-florida",
   industry: "City Sightseeing / Excursion Operator",
-  headline: "How a Florida Sightseeing & Excursion Operator Generated 2,187 Bookings and $287K in Revenue With AI-Powered Marketing",
-  subheadline: "MEGA helped a Florida-based tour and excursion company build a dominant local search presence and high-converting paid campaigns — reducing cost per qualified lead by 34%, growing organic traffic from 312 to 11,847 monthly visitors, and generating $287K in attributed revenue across 12 months.",
+  headline: "How a Florida Sightseeing & Excursion Operator Generated 2,187 Bookings and $287.4K in Revenue With AI-Powered Marketing",
+  subheadline: "MEGA helped a Florida-based tour and excursion company build a dominant local search presence and high-converting paid campaigns — reducing cost per qualified lead by 34%, growing organic traffic from 312 to 11,847 monthly visitors, and generating $287.4K in attributed revenue across 12 months.",
   heroStats: [
     { value: "$287.4K", unit: "K", label: "Revenue Generated" },
     { value: "38", unit: "%", label: "Cost Per Lead Reduction" },

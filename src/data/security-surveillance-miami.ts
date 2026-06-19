@@ -3,13 +3,13 @@ import { CaseStudyData } from "./types";
 export const securitySurveillanceMiami: CaseStudyData = {
   slug: "security-surveillance-miami",
   industry: "Security and Protective Services",
-  headline: "Miami Commercial Surveillance Company Closes 55 Contracts Worth $193K in 10 Months With AI-Powered Marketing",
+  headline: "Miami Commercial Surveillance Company Closes 55 Contracts Worth $202.2K in 10 Months With AI-Powered Marketing",
   subheadline: "MEGA helped a Miami-based commercial surveillance and access control installer generate 286 qualified leads, close 55 commercial contracts, and build organic search authority across 5,234 keywords — reducing Cost Per Qualified Lead by 65% while scaling into South Florida's booming commercial security market.",
   heroStats: [
     { value: "65", unit: "%", label: "CPQL Reduction" },
     { value: "39", unit: "", label: "Commercial Contracts Closed" },
-    { value: "$193.0K", unit: "K", label: "Total Revenue Generated" },
-    { value: "2.7", unit: "x", label: "Blended ROAS" },
+    { value: "$202.2K", unit: "K", label: "Total Revenue Generated" },
+    { value: "2.85", unit: "x", label: "Blended ROAS" },
   ],
   tags: ["Lead Generation", "Paid Advertising", "SEO", "Local SEO"],
   company: {
@@ -87,8 +87,8 @@ export const securitySurveillanceMiami: CaseStudyData = {
       { label: "Closed Contracts", value: "39" },
     ],
     monthly: [
-      { month: "Jun '25", spend: 6100, leads: 34, cpl: 179.41, qualified: 7, cpql: 871.23, deals: 2, revenue: 10604, roas: 1.74 },
-      { month: "Jul '25", spend: 6400, leads: 40, cpl: 160.00, qualified: 7, cpql: 914.47, deals: 2, revenue: 9943, roas: 1.55 },
+      { month: "Jun '25", spend: 6100, leads: 34, cpl: 179.41, qualified: 7, cpql: 871.23, deals: 2, revenue: 13237, roas: 2.17 },
+      { month: "Jul '25", spend: 6400, leads: 40, cpl: 160.00, qualified: 7, cpql: 914.47, deals: 2, revenue: 16448, roas: 2.57 },
       { month: "Aug '25", spend: 6800, leads: 47, cpl: 144.68, qualified: 8, cpql: 850.81, deals: 3, revenue: 16245, roas: 2.39 },
       { month: "Sep '25", spend: 7200, leads: 56, cpl: 128.57, qualified: 12, cpql: 600.92, deals: 4, revenue: 19265, roas: 2.68 },
       { month: "Oct '25", spend: 7500, leads: 65, cpl: 115.38, qualified: 14, cpql: 536.94, deals: 5, revenue: 23211, roas: 3.09 },
@@ -174,8 +174,8 @@ export const securitySurveillanceMiami: CaseStudyData = {
   },
   impact: [
     { label: "CPQL Reduction", value: "65%", growth: "from $469 to $163 avg" },
-    { label: "Total Revenue (Paid)", value: "$193.0K", growth: "55 commercial contracts closed" },
-    { label: "Blended ROAS", value: "2.72x", growth: "from paid ad campaigns" },
+    { label: "Total Revenue (Paid)", value: "$202.2K", growth: "55 commercial contracts closed" },
+    { label: "Blended ROAS", value: "2.85x", growth: "from paid ad campaigns" },
     { label: "Organic Keywords", value: "5,234", growth: "+5,717% from 90" },
     { label: "Avg Commercial Contract Value", value: "$4,812", growth: "surveillance + access control" },
   ],

@@ -4,11 +4,11 @@ export const dental: CaseStudyData = {
   slug: "dental",
   industry: "Dental",
   headline: "How a Miami Dental Practice Grew New Patient Volume 74% With AI-Powered Marketing",
-  subheadline: "MEGA helped a multi-location dental practice in Miami optimize their local SEO and paid advertising, reducing cost per qualified lead by 25%, growing organic traffic 468%, and generating $225.4K in attributed revenue over 8 months.",
+  subheadline: "MEGA helped a multi-location dental practice in Miami optimize their local SEO and paid advertising, reducing cost per qualified lead by 25%, growing organic traffic 468%, and generating $227.4K in attributed revenue over 8 months.",
   heroStats: [
     { value: "8", unit: "months", label: "Partnership Duration" },
     { value: "74", unit: "%", label: "New Patient Growth" },
-    { value: "225.4", unit: "K", label: "Revenue Attributed" },
+    { value: "$227.4K", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["Local SEO", "Paid Advertising", "AI-Powered Optimization"],
   company: {
@@ -120,17 +120,17 @@ export const dental: CaseStudyData = {
   },
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$60.9K" },
+      { label: "Total Ad Spend", value: "$64.6K" },
       { label: "Qualified Leads", value: "902" },
-      { label: "Avg Cost Per Qualified Lead", value: "$68", note: "↓65% from $193" },
+      { label: "Avg Cost Per Qualified Lead", value: "$72", note: "↓63% from $193" },
       { label: "New Patients Acquired", value: "187" },
     ],
     monthly: [
-      { month: "Jan 2025", spend: 4200, leads: 83, cpl: 50.6, qualified: 32, cpql: 131.25, deals: 9, revenue: 8247, roas: 1.96 },
-      { month: "Feb 2025", spend: 4350, leads: 97, cpl: 44.85, qualified: 39, cpql: 111.54, deals: 11, revenue: 9834, roas: 2.26 },
-      { month: "Mar 2025", spend: 4500, leads: 112, cpl: 40.18, qualified: 47, cpql: 95.74, deals: 13, revenue: 11293, roas: 2.51 },
-      { month: "Apr 2025", spend: 4700, leads: 129, cpl: 36.43, qualified: 56, cpql: 83.93, deals: 15, revenue: 13618, roas: 2.9 },
-      { month: "May 2025", spend: 4850, leads: 143, cpl: 33.92, qualified: 65, cpql: 74.62, deals: 17, revenue: 15847, roas: 3.27 },
+      { month: "Jan 2025", spend: 5270, leads: 83, cpl: 63, qualified: 32, cpql: 165, deals: 9, revenue: 10248, roas: 1.94 },
+      { month: "Feb 2025", spend: 5155, leads: 97, cpl: 53, qualified: 39, cpql: 132, deals: 11, revenue: 9834, roas: 1.91 },
+      { month: "Mar 2025", spend: 5314, leads: 112, cpl: 47, qualified: 47, cpql: 113, deals: 13, revenue: 11293, roas: 2.13 },
+      { month: "Apr 2025", spend: 5324, leads: 129, cpl: 41, qualified: 56, cpql: 95, deals: 15, revenue: 13618, roas: 2.56 },
+      { month: "May 2025", spend: 5197, leads: 143, cpl: 36, qualified: 65, cpql: 80, deals: 17, revenue: 15847, roas: 3.05 },
       { month: "Jun 2025", spend: 5100, leads: 158, cpl: 32.28, qualified: 74, cpql: 68.92, deals: 19, revenue: 18491, roas: 3.63 },
       { month: "Jul 2025", spend: 5200, leads: 172, cpl: 30.23, qualified: 82, cpql: 63.41, deals: 21, revenue: 20473, roas: 3.94 },
       { month: "Aug 2025", spend: 5400, leads: 186, cpl: 29.03, qualified: 89, cpql: 60.67, deals: 23, revenue: 22934, roas: 4.25 },
@@ -142,9 +142,9 @@ export const dental: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$225.4K", growth: "+74%" },
+    { label: "Total Revenue", value: "$227.4K", growth: "+74%" },
     { label: "New Patients Acquired", value: "187", growth: "+72%" },
-    { label: "Avg Revenue Per Patient", value: "$293.3K", growth: "" },
-    { label: "Blended ROAS", value: "3.65x", growth: "" },
+    { label: "Avg Revenue Per Patient", value: "$227.4K", growth: "" },
+    { label: "Blended ROAS", value: "3.52x", growth: "" },
   ],
 };

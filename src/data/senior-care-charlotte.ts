@@ -3,7 +3,7 @@ import { CaseStudyData } from "./types";
 export const seniorCareCharlotte: CaseStudyData = {
   slug: "senior-care-charlotte",
   industry: "Health Care for Seniors",
-  headline: "How a Charlotte NC Senior Care Provider Generated 197 New Care Clients and $605K in Revenue While Cutting Cost Per Consultation by 57%",
+  headline: "How a Charlotte NC Senior Care Provider Generated 197 New Care Clients and $605.2K in Revenue While Cutting Cost Per Consultation by 57%",
   subheadline: "MEGA helped a Charlotte NC-based senior home care provider grow from 158 ranking keywords to 8,419 while scaling paid advertising to generate 1,991 qualified consultations — reducing cost per qualified lead from $152 to $60 and generating over $605.2K in attributed revenue across Charlotte's growing senior care market.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },

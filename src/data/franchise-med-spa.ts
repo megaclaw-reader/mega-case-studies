@@ -3,10 +3,10 @@ import { CaseStudyData } from "./types";
 export const franchiseMedSpa: CaseStudyData = {
   slug: "franchise-med-spa",
   industry: "Franchise Med Spa",
-  headline: "National Med Spa Franchise Scaled Paid Advertising Across 47 Locations, Generating $3.0M in Revenue Over 9 Months",
+  headline: "National Med Spa Franchise Scaled Paid Advertising Across 47 Locations, Generating $3.03M in Revenue Over 9 Months",
   subheadline: "Phased rollout from 10 pilot locations to full 47-location coverage drove 4.61x peak ROAS and 34,800 monthly organic visitors through coordinated paid and SEO strategy",
   heroStats: [
-    { value: "$2.80M", unit: "M", label: "Total Revenue" },
+    { value: "$3.03M", unit: "M", label: "Total Revenue" },
     { value: "2,343", unit: "", label: "Booked Appointments" },
     { value: "47", unit: "", label: "Locations Managed" },
     { value: "4.1", unit: "x", label: "Blended ROAS" }

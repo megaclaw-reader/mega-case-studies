@@ -3,7 +3,7 @@ import { CaseStudyData } from "./types";
 export const jewelryStoreEcommerce: CaseStudyData = {
   slug: "jewelry-store-ecommerce",
   industry: "Jewelry Store & eCommerce",
-  headline: "How a Chicago Jewelry Store Generated $262K in Ecommerce Revenue in 10 Months",
+  headline: "How a Chicago Jewelry Store Generated $262.1K in Ecommerce Revenue in 10 Months",
   subheadline: "MEGA helped a Chicago-based fine jewelry retailer with an online store reduce their cost per cart by 34%, grow organic traffic 1,598%, and drive revenue across both their physical showroom and ecommerce platform through SEO and paid advertising.",
   heroStats: [
     { value: "10", unit: "months", label: "Partnership Duration" },

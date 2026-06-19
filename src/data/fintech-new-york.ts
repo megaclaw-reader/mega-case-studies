@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const fintechNewYork: CaseStudyData = {
   slug: "fintech-new-york",
   industry: "Fintech",
-  headline: "How a New York Fintech Company Generated 389 Qualified Leads and $288K in Revenue in 12 Months",
+  headline: "How a New York Fintech Company Generated 389 Qualified Leads and $356.1K in Revenue in 12 Months",
   subheadline: "MEGA helped a fintech company in New York reduce their cost per qualified lead by 41%, grow organic traffic 628%, and build a predictable pipeline of demo requests through SEO and paid advertising.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
     { value: "628", unit: "%", label: "Organic Traffic Growth" },
-    { value: "$288.1K", unit: "K", label: "Revenue Attributed" },
+    { value: "$356.1K", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["Local SEO", "Paid Advertising", "Lead Generation"],
   company: {
@@ -124,12 +124,12 @@ export const fintechNewYork: CaseStudyData = {
       costPerDeal: "Cost/Contract",
     },
     monthly: [
-      { month: "Jan 2025", spend: 8200, leads: 36, cpl: 228, qualified: 4, cpql: 2050, deals: 1, revenue: 16653, roas: 2.03 },
-      { month: "Feb 2025", spend: 8400, leads: 36, cpl: 233, qualified: 4, cpql: 2100, deals: 1, revenue: 16503, roas: 1.96 },
-      { month: "Mar 2025", spend: 8800, leads: 37, cpl: 238, qualified: 4, cpql: 2200, deals: 1, revenue: 17724, roas: 2.01 },
-      { month: "Apr 2025", spend: 9200, leads: 48, cpl: 192, qualified: 5, cpql: 1840, deals: 1, revenue: 16212, roas: 1.76 },
-      { month: "May 2025", spend: 9400, leads: 44, cpl: 214, qualified: 4, cpql: 2350, deals: 1, revenue: 18983, roas: 2.02 },
-      { month: "Jun 2025", spend: 8800, leads: 55, cpl: 160, qualified: 5, cpql: 1760, deals: 1, revenue: 16656, roas: 1.89 },
+      { month: "Jan 2025", spend: 8200, leads: 36, cpl: 228, qualified: 4, cpql: 2050, deals: 1, revenue: 17384, roas: 2.12 },
+      { month: "Feb 2025", spend: 8400, leads: 36, cpl: 233, qualified: 4, cpql: 2100, deals: 1, revenue: 22176, roas: 2.64 },
+      { month: "Mar 2025", spend: 8800, leads: 37, cpl: 238, qualified: 4, cpql: 2200, deals: 1, revenue: 27280, roas: 3.1 },
+      { month: "Apr 2025", spend: 9200, leads: 48, cpl: 192, qualified: 5, cpql: 1840, deals: 1, revenue: 33672, roas: 3.66 },
+      { month: "May 2025", spend: 9400, leads: 44, cpl: 214, qualified: 4, cpql: 2350, deals: 1, revenue: 35344, roas: 3.76 },
+      { month: "Jun 2025", spend: 8800, leads: 55, cpl: 160, qualified: 5, cpql: 1760, deals: 1, revenue: 34848, roas: 3.96 },
       { month: "Jul 2025", spend: 8200, leads: 59, cpl: 139, qualified: 6, cpql: 1367, deals: 1, revenue: 20535, roas: 2.5 },
       { month: "Aug 2025", spend: 8600, leads: 59, cpl: 146, qualified: 7, cpql: 1229, deals: 2, revenue: 31982, roas: 3.72 },
       { month: "Sep 2025", spend: 10200, leads: 62, cpl: 165, qualified: 7, cpql: 1457, deals: 2, revenue: 38371, roas: 3.76 },
@@ -195,9 +195,9 @@ export const fintechNewYork: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$288.1K", growth: "+238%" },
+    { label: "Total Revenue", value: "$356.1K", growth: "+238%" },
     { label: "Total Qualified Leads", value: "69", growth: "↓41% CPQL" },
     { label: "Avg Contract Value", value: "$16,839", growth: "" },
-    { label: "Blended ROAS", value: "2.57x", growth: "" },
+    { label: "Blended ROAS", value: "3.17x", growth: "" },
   ],
 };

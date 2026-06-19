@@ -4,7 +4,7 @@ export const healthInsuranceVermontData: CaseStudyData = {
   slug: "health-insurance-vermont",
   industry: "Health Insurance",
   headline: "Vermont Health Insurance Broker Generates 164% Lead Volume Increase Through AI-Powered Multi-Channel Campaign",
-  subheadline: "10-month engagement transforms local market positioning with $58.5K total spend generating 404 qualified leads and $272K in new annual premiums — achieving a 4.64x blended ROAS while building keyword authority from 126 to 2,567 tracked terms.",
+  subheadline: "10-month engagement transforms local market positioning with $271.7K total spend generating 404 qualified leads and $271.7K in new annual premiums — achieving a 4.64x blended ROAS while building keyword authority from 126 to 2,567 tracked terms.",
   heroStats: [
     { value: "164", unit: "%", label: "Lead Volume Growth" },
     { value: "4.6x", unit: "x", label: "Blended ROAS" },

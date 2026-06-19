@@ -3,11 +3,11 @@ import { CaseStudyData } from "./types";
 export const dietarySupplements: CaseStudyData = {
   slug: "dietary-supplements",
   industry: "Dietary Supplements",
-  headline: "How a North American Dietary Supplement Brand Generated $286K in Ecommerce Revenue in 6 Months",
+  headline: "How a North American Dietary Supplement Brand Generated $285.7K in Ecommerce Revenue in 6 Months",
   subheadline: "MEGA helped a North American direct-to-consumer supplement company drive $285.7K in ecommerce revenue through AI-powered paid advertising and SEO, steadily improving ad efficiency every month while capitalizing on seasonal demand spikes including Black Friday.",
   heroStats: [
     { value: "6", unit: "months", label: "Partnership Duration" },
-    { value: "4.34", unit: "x", label: "Peak ROAS Achieved" },
+    { value: "3.13", unit: "x", label: "Peak ROAS Achieved" },
     { value: "$285.7K", unit: "K", label: "Revenue Generated" },
   ],
   tags: ["Ecommerce", "SEO", "Paid Advertising", "DTC"],

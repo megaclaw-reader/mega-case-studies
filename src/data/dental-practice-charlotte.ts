@@ -4,11 +4,11 @@ export const dentalPracticeCharlotte: CaseStudyData = {
   slug: "dental-practice-charlotte",
   industry: "Dental Practice",
   headline: "How a Charlotte NC Dental Practice Grew New Patient Volume 267% With AI-Powered Marketing",
-  subheadline: "MEGA helped a single-location dental practice in Charlotte, NC optimize their local SEO and paid advertising, reducing cost per qualified lead by 55%, growing organic traffic 729%, and generating $166K in attributed revenue over 9 months.",
+  subheadline: "MEGA helped a single-location dental practice in Charlotte, NC optimize their local SEO and paid advertising, reducing cost per qualified lead by 55%, growing organic traffic 729%, and generating $169.7K in attributed revenue over 9 months.",
   heroStats: [
     { value: "9", unit: "months", label: "Partnership Duration" },
     { value: "267", unit: "%", label: "New Patient Growth" },
-    { value: "$166.0K", unit: "K", label: "Revenue Attributed" },
+    { value: "$169.7K", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["Local SEO", "Paid Advertising", "AI-Powered Optimization"],
   company: {
@@ -122,8 +122,8 @@ export const dentalPracticeCharlotte: CaseStudyData = {
       { label: "New Patients Acquired", value: "118" },
     ],
     monthly: [
-      { month: "Apr '25", spend: 5124, leads: 64, cpl: 80.06, qualified: 32, cpql: 160.13, deals: 6, revenue: 8280, roas: 1.62 },
-      { month: "May '25", spend: 5287, leads: 72, cpl: 73.43, qualified: 37, cpql: 142.89, deals: 7, revenue: 9940, roas: 1.88 },
+      { month: "Apr '25", spend: 5124, leads: 64, cpl: 80.06, qualified: 32, cpql: 160.13, deals: 6, revenue: 9941, roas: 1.94 },
+      { month: "May '25", spend: 5287, leads: 72, cpl: 73.43, qualified: 37, cpql: 142.89, deals: 7, revenue: 11949, roas: 2.26 },
       { month: "Jun '25", spend: 5513, leads: 82, cpl: 67.23, qualified: 43, cpql: 128.21, deals: 9, revenue: 12150, roas: 2.20 },
       { month: "Jul '25", spend: 5078, leads: 92, cpl: 55.20, qualified: 48, cpql: 105.79, deals: 11, revenue: 16060, roas: 3.16 },
       { month: "Aug '25", spend: 5641, leads: 108, cpl: 52.23, qualified: 57, cpql: 98.96, deals: 13, revenue: 18070, roas: 3.20 },
@@ -134,9 +134,9 @@ export const dentalPracticeCharlotte: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$166.0K", growth: "+267%" },
+    { label: "Total Revenue", value: "$169.7K", growth: "+267%" },
     { label: "New Patients Acquired", value: "118", growth: "+267%" },
     { label: "Cost Per Qualified Lead", value: "$97", growth: "↓55%" },
-    { label: "Blended ROAS", value: "3.33x", growth: "" },
+    { label: "Blended ROAS", value: "3.40x", growth: "" },
   ],
 };

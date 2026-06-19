@@ -3,8 +3,8 @@ import { CaseStudyData } from "./types";
 export const realEstateServices: CaseStudyData = {
   slug: "real-estate-services",
   industry: "Real Estate Services",
-  headline: "How a Phoenix Real Estate Team Generated 35 Leads and $384K in Closed Commissions With AI-Powered Advertising",
-  subheadline: "MEGA helped a residential real estate team in Phoenix, AZ optimize their paid advertising strategy, reducing cost per qualified lead by 37%, generating 847 total leads, and attributing $383.8K in commission revenue over 12 months.",
+  headline: "How a Phoenix Real Estate Team Generated 35 Leads and $389.3K in Closed Commissions With AI-Powered Advertising",
+  subheadline: "MEGA helped a residential real estate team in Phoenix, AZ optimize their paid advertising strategy, reducing cost per qualified lead by 37%, generating 847 total leads, and attributing $389.3K in commission revenue over 12 months.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
     { value: "37", unit: "%", label: "CPL Reduction" },
@@ -110,7 +110,7 @@ export const realEstateServices: CaseStudyData = {
       costPerDeal: "Cost/Deal",
     },
     monthly: [
-      { month: "Jan 2025", spend: 7843, leads: 47, cpl: 166.87, qualified: 15, cpql: 522.87, deals: 1, revenue: 10800, roas: 1.38 },
+      { month: "Jan 2025", spend: 7843, leads: 47, cpl: 166.87, qualified: 15, cpql: 522.87, deals: 1, revenue: 16313, roas: 2.08 },
       { month: "Feb 2025", spend: 8217, leads: 53, cpl: 155.04, qualified: 18, cpql: 456.5, deals: 2, revenue: 21400, roas: 2.60 },
       { month: "Mar 2025", spend: 12480, leads: 48, cpl: 260.0, qualified: 41, cpql: 304.39, deals: 4, revenue: 43600, roas: 3.49 },
       { month: "Apr 2025", spend: 13150, leads: 67, cpl: 196.27, qualified: 48, cpql: 273.96, deals: 5, revenue: 54200, roas: 4.12 },
@@ -125,9 +125,9 @@ export const realEstateServices: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Commission Revenue", value: "$383.8K", growth: "+148%" },
+    { label: "Total Commission Revenue", value: "$389.3K", growth: "+148%" },
     { label: "Closed Deals", value: "35", growth: "+143%" },
     { label: "Avg Commission Per Deal", value: "$11.3K", growth: "" },
-    { label: "Blended ROAS", value: "3.21x", growth: "" },
+    { label: "Blended ROAS", value: "3.25x", growth: "" },
   ],
 };

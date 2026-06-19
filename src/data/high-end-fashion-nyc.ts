@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const highEndFashionNyc: CaseStudyData = {
   slug: "high-end-fashion-nyc",
   industry: "High-End Fashion eCommerce",
-  headline: "How a NYC High-End Fashion Brand Generated $746K in Online Revenue in 7 Months",
+  headline: "How a NYC High-End Fashion Brand Generated $746.3K in Online Revenue in 7 Months",
   subheadline: "MEGA helped a New York City–based luxury fashion brand for men and women reduce cost per acquisition by 33%, grow organic traffic 1,247%, and achieve a blended ROAS of 4.31x through paid advertising and SEO — including a record holiday season that drove 31% of total campaign revenue.",
   heroStats: [
     { value: "7", unit: "months", label: "Campaign Duration" },
     { value: "1,711", unit: "", label: "Orders Attributed" },
-    { value: "746.3", unit: "K", label: "Ad Revenue" },
+    { value: "$746.3K", unit: "K", label: "Ad Revenue" },
   ],
   tags: ["Paid Advertising", "SEO", "Ecommerce", "Luxury Fashion"],
   company: {

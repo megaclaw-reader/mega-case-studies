@@ -3,8 +3,8 @@ import { CaseStudyData } from "./types";
 export const equipmentFinancingBoston: CaseStudyData = {
   slug: "equipment-financing-boston",
   industry: "Equipment Financing",
-  headline: "How a Boston Equipment Financing Firm Generated $381K in Funded Deals With AI-Powered Marketing",
-  subheadline: "MEGA helped a Boston-based equipment financing company serving small and mid-sized businesses build a comprehensive digital acquisition program from scratch, reducing cost per qualified lead by 61% and generating $1.87M in funded equipment deals over 12 months.",
+  headline: "How a Boston Equipment Financing Firm Generated $389.7K in Funded Deals With AI-Powered Marketing",
+  subheadline: "MEGA helped a Boston-based equipment financing company serving small and mid-sized businesses build a comprehensive digital acquisition program from scratch, reducing cost per qualified lead by 61% and generating $389.7K in funded equipment deals over 12 months.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
     { value: "41", unit: "deals", label: "Funded Deal Volume" },
@@ -131,7 +131,7 @@ export const equipmentFinancingBoston: CaseStudyData = {
       costPerDeal: "Cost/Deal",
     },
     monthly: [
-      { month: "Jan '25", spend: 7135, leads: 38, cpl: 187.76, qualified: 14, cpql: 509.64, deals: 1, revenue: 8740, roas: 1.22 },
+      { month: "Jan '25", spend: 7135, leads: 38, cpl: 187.76, qualified: 14, cpql: 509.64, deals: 1, revenue: 17409, roas: 2.44 },
       { month: "Feb '25", spend: 7248, leads: 43, cpl: 168.56, qualified: 20, cpql: 362.4, deals: 2, revenue: 17830, roas: 2.46 },
       { month: "Mar '25", spend: 7612, leads: 51, cpl: 149.25, qualified: 23, cpql: 330.96, deals: 2, revenue: 21470, roas: 2.82 },
       { month: "Apr '25", spend: 8147, leads: 62, cpl: 131.4, qualified: 29, cpql: 280.93, deals: 3, revenue: 28910, roas: 3.55 },
@@ -146,9 +146,9 @@ export const equipmentFinancingBoston: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$381.0K", growth: "+1,247%" },
+    { label: "Total Revenue", value: "$389.7K", growth: "+1,247%" },
     { label: "Total Funded Volume", value: "$1.87M", growth: "+892%" },
     { label: "Avg Deal Value", value: "$45,608", growth: "" },
-    { label: "Blended ROAS", value: "3.67x", growth: "" },
+    { label: "Blended ROAS", value: "3.76x", growth: "" },
   ],
 };

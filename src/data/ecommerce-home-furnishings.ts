@@ -3,7 +3,7 @@ import { CaseStudyData } from "./types";
 export const ecommerceHomeFurnishings: CaseStudyData = {
   slug: "ecommerce-home-furnishings",
   industry: "eCommerce - Home Furnishings",
-  headline: "How a Premium Home Furnishings Brand Scaled to $3.2M in Revenue with a 5.7x ROAS Through AI-Optimized Paid Advertising",
+  headline: "How a Premium Home Furnishings Brand Scaled to $3.26M in Revenue with a 5.7x ROAS Through AI-Optimized Paid Advertising",
   subheadline: "MEGA helped a national direct-to-consumer home furnishings company eliminate wasted ad spend, fix cart abandonment issues, and build a sophisticated retargeting strategy — delivering 7,335 orders and transforming paid advertising into the company's most profitable growth channel.",
   heroStats: [
     { value: "12", unit: "months", label: "Campaign Duration" },

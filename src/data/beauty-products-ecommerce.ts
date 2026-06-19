@@ -3,10 +3,10 @@ import { CaseStudyData } from "./types";
 export const beautyProductsEcommerce: CaseStudyData = {
   slug: "beauty-products-ecommerce",
   industry: "Beauty Products",
-  headline: "How a National Beauty Brand Scaled Ad Spend 54% While Growing ROAS From 3.2x to 5.5x — Generating $16.5M in Revenue",
-  subheadline: "MEGA deployed AI-powered creative testing and always-on optimization to help a large DTC beauty brand break through creative fatigue, scale monthly ad spend from $518K to $796K, and nearly double ROAS — generating over $16.4M in ecommerce revenue across 5 months with a 4.72x blended ROAS.",
+  headline: "How a National Beauty Brand Scaled Ad Spend 54% While Growing ROAS From 3.2x to 5.5x — Generating $16.48M in Revenue",
+  subheadline: "MEGA deployed AI-powered creative testing and always-on optimization to help a large DTC beauty brand break through creative fatigue, scale monthly ad spend from $518K to $796K, and nearly double ROAS — generating over $16.48M in ecommerce revenue across 5 months with a 4.72x blended ROAS.",
   heroStats: [
-    { value: "5.48", unit: "x", label: "Peak ROAS Achieved" },
+    { value: "4.72", unit: "x", label: "Peak ROAS Achieved" },
     { value: "$16.5M", unit: "M", label: "Revenue Generated" },
     { value: "252,579", unit: "", label: "Total Orders" },
   ],

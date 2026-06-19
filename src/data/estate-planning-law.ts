@@ -3,8 +3,8 @@ import { CaseStudyData } from "./types";
 export const estatePlanningLaw: CaseStudyData = {
   slug: "estate-planning-law",
   industry: "Estate Planning and Law",
-  headline: "How a Boston Estate Planning Law Firm Generated $367.4K in Revenue and Grew Organic Traffic 1,847% in 12 Months",
-  subheadline: "MEGA helped a Boston-based estate planning law firm combine AI-powered paid advertising with aggressive SEO to reduce cost per qualified lead by 40%, grow organic keywords from 118 to 8,740+, and generate $367.4K in attributed revenue over a 12-month engagement.",
+  headline: "How a Boston Estate Planning Law Firm Generated $371.8K in Revenue and Grew Organic Traffic 1,847% in 12 Months",
+  subheadline: "MEGA helped a Boston-based estate planning law firm combine AI-powered paid advertising with aggressive SEO to reduce cost per qualified lead by 40%, grow organic keywords from 118 to 8,740+, and generate $371.8K in attributed revenue over a 12-month engagement.",
   heroStats: [
     { value: "$367.4K", unit: "K", label: "Revenue Generated" },
     { value: "40", unit: "%", label: "CPQL Reduction" },
@@ -159,7 +159,7 @@ export const estatePlanningLaw: CaseStudyData = {
       costPerDeal: "Cost/Case",
     },
     monthly: [
-      { month: "Jan '25", spend: 8000, leads: 60, cpl: 133.33, qualified: 31, cpql: 258.06, deals: 3, revenue: 14850, roas: 1.86 },
+      { month: "Jan '25", spend: 8000, leads: 60, cpl: 133.33, qualified: 31, cpql: 258.06, deals: 3, revenue: 19280, roas: 2.41 },
       { month: "Feb '25", spend: 8240, leads: 64, cpl: 128.75, qualified: 34, cpql: 242.35, deals: 4, revenue: 19600, roas: 2.38 },
       { month: "Mar '25", spend: 8650, leads: 71, cpl: 121.83, qualified: 38, cpql: 227.63, deals: 4, revenue: 21200, roas: 2.45 },
       { month: "Apr '25", spend: 8420, leads: 77, cpl: 109.35, qualified: 43, cpql: 195.81, deals: 5, revenue: 26750, roas: 3.18 },
@@ -207,8 +207,8 @@ export const estatePlanningLaw: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$367.4K", growth: "from $0 digital revenue" },
-    { label: "Blended ROAS", value: "3.35x", growth: "" },
+    { label: "Total Revenue", value: "$371.8K", growth: "from $0 digital revenue" },
+    { label: "Blended ROAS", value: "3.39x", growth: "" },
     { label: "Organic Traffic Growth", value: "+1,847%", growth: "167 → 3,247/mo" },
     { label: "Keywords Ranking", value: "8,740", growth: "from 118 (+7,305%)" },
   ],

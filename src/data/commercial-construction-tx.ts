@@ -4,11 +4,11 @@ export const commercialConstructionTx: CaseStudyData = {
   slug: "commercial-construction-tx",
   industry: "Commercial Construction",
   headline: "How a Texas Commercial Contractor Cut Cost Per Qualified Lead 41% With AI-Driven Landing Page Funnels",
-  subheadline: "MEGA helped a commercial construction firm in Texas eliminate spam leads and scale qualified pipeline through landing page funnels, advanced conversion tracking, and AI-powered CPQL optimization — growing organic rankings 7,900% and generating $292.4K in attributed revenue over 10 months.",
+  subheadline: "MEGA helped a commercial construction firm in Texas eliminate spam leads and scale qualified pipeline through landing page funnels, advanced conversion tracking, and AI-powered CPQL optimization — growing organic rankings 7,900% and generating $348.8K in attributed revenue over 10 months.",
   heroStats: [
     { value: "10", unit: "months", label: "Partnership Duration" },
     { value: "7,900", unit: "%", label: "Keyword Growth" },
-    { value: "$572.7K", unit: "K", label: "Revenue Attributed" },
+    { value: "$348.8K", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["Local SEO", "Paid Search", "CPQL Optimization", "Landing Page Funnels"],
   company: {

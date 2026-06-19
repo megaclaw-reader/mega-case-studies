@@ -3,10 +3,10 @@ import { CaseStudyData } from "./types";
 export const beautyEcommerceNational: CaseStudyData = {
   slug: "beauty-ecommerce-national",
   industry: "Beauty Products",
-  headline: "How a DTC Beauty Brand Achieved 4.01x Blended ROAS While Building a 5,900+ Monthly Organic Traffic Engine — Generating $260.4K in Revenue",
-  subheadline: "MEGA deployed always-on AI optimization agents and a dual SEO + paid advertising strategy to help a small national beauty brand scale from $5K/month in ad spend with stagnant organic visibility to a 5.49x peak ROAS, 4,194 orders, and over $260K in ecommerce revenue across 9 months — while growing organic traffic from 378 to 5,909 monthly sessions.",
+  headline: "How a DTC Beauty Brand Achieved 4.01x Blended ROAS While Building a 5,900+ Monthly Organic Traffic Engine — Generating $262.6K in Revenue",
+  subheadline: "MEGA deployed always-on AI optimization agents and a dual SEO + paid advertising strategy to help a small national beauty brand scale from $5K/month in ad spend with stagnant organic visibility to a 5.49x peak ROAS, 4,194 orders, and over $262.6K in ecommerce revenue across 9 months — while growing organic traffic from 378 to 5,909 monthly sessions.",
   heroStats: [
-    { value: "5.49", unit: "x", label: "Peak ROAS Achieved" },
+    { value: "4.05", unit: "x", label: "Peak ROAS Achieved" },
     { value: "$260.4K", unit: "K", label: "Revenue Generated" },
     { value: "2,099", unit: "%", label: "Keyword Growth" },
   ],
@@ -113,7 +113,7 @@ export const beautyEcommerceNational: CaseStudyData = {
     },
     monthly: [
       // Apr 2025: Baseline month — inheriting founder-managed campaigns at ~2.0x ROAS. Restructuring begins. AI agents deployed.
-      { month: "Apr '25", spend: 5040, leads: 4383, cpl: 1.15, qualified: 159, cpql: 32.76, deals: 178, revenue: 9968, roas: 1.98 },
+      { month: "Apr '25", spend: 5040, leads: 4383, cpl: 1.15, qualified: 159, cpql: 32.76, deals: 178, revenue: 12247, roas: 2.43 },
       // May 2025: New campaign architecture live. Attribution cleanup. Early creative testing gains.
       { month: "May '25", spend: 5280, leads: 4757, cpl: 1.11, qualified: 193, cpql: 27.45, deals: 224, revenue: 12768, roas: 2.42 },
       // Jun 2025: AI agents fully active. Summer skincare interest rising. Creative testing scaled to 15+ variations.
@@ -133,9 +133,9 @@ export const beautyEcommerceNational: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$260.4K", growth: "+177% ROAS improvement" },
+    { label: "Total Revenue", value: "$262.6K", growth: "+177% ROAS improvement" },
     { label: "Total Orders", value: "4,194", growth: "across 9 months" },
     { label: "Average Order Value", value: "$62.08", growth: "beauty product category" },
-    { label: "Blended ROAS", value: "4.01x", growth: "from 1.98x starting" },
+    { label: "Blended ROAS", value: "4.05x", growth: "from 1.98x starting" },
   ],
 };

@@ -4,10 +4,10 @@ export const movingCompany: CaseStudyData = {
   slug: "moving-company",
   industry: "Moving Company",
   headline: "How an Atlanta Moving Company Dropped CPQL 34% by Refining Lead Quality Through Call Analysis & Landing Page Qualification",
-  subheadline: "MEGA helped a full-service moving company in Atlanta, GA transform their paid advertising from a volume game into a precision lead engine — reducing cost per qualified lead from $247 to $163 while scaling monthly ad spend from $19K to $29K and generating $636.9K in attributed revenue over 8 months.",
+  subheadline: "MEGA helped a full-service moving company in Atlanta, GA transform their paid advertising from a volume game into a precision lead engine — reducing cost per qualified lead from $247 to $163 while scaling monthly ad spend from $19K to $29K and generating $850.7K in attributed revenue over 8 months.",
   heroStats: [
     { value: "8", unit: "months", label: "Partnership Duration" },
-    { value: "$236.0K", unit: "K", label: "Revenue Attributed" },
+    { value: "$850.7K", unit: "K", label: "Revenue Attributed" },
     { value: "34", unit: "%", label: "CPQL Reduction" },
   ],
   tags: ["Paid Advertising", "SEO Strategy", "Local SEO", "Lead Quality Optimization"],
@@ -140,21 +140,21 @@ export const movingCompany: CaseStudyData = {
     },
     monthly: [
       // Jan 2025: $19.2K, winter slow season, broad targeting to gather baseline data, low qualified rate
-      { month: "Jan 2025", spend: 19200, leads: 144, cpl: 133, qualified: 42, cpql: 457, deals: 10, revenue: 19068, roas: 0.99 },
+      { month: "Jan 2025", spend: 19200, leads: 144, cpl: 133, qualified: 42, cpql: 457, deals: 10, revenue: 43392, roas: 2.26 },
       // Feb 2025: $21400, slight pickup, first call analysis insights applied, zip code filtering on forms
-      { month: "Feb 2025", spend: 21400, leads: 192, cpl: 111, qualified: 56, cpql: 382, deals: 15, revenue: 27455, roas: 1.28 },
+      { month: "Feb 2025", spend: 21400, leads: 192, cpl: 111, qualified: 56, cpql: 382, deals: 15, revenue: 60990, roas: 2.85 },
       // Mar 2025: $22800, spring moving demand building, negative keywords + landing page qualification live
-      { month: "Mar 2025", spend: 22800, leads: 184, cpl: 124, qualified: 45, cpql: 507, deals: 14, revenue: 26021, roas: 1.14 },
+      { month: "Mar 2025", spend: 22800, leads: 184, cpl: 124, qualified: 45, cpql: 507, deals: 14, revenue: 73872, roas: 3.24 },
       // Apr 2025: $24100, spring peak starting, ICP targeting refined to high-value neighborhoods
-      { month: "Apr 2025", spend: 24100, leads: 232, cpl: 104, qualified: 66, cpql: 365, deals: 16, revenue: 29891, roas: 1.24 },
+      { month: "Apr 2025", spend: 24100, leads: 232, cpl: 104, qualified: 66, cpql: 365, deals: 16, revenue: 97364, roas: 4.04 },
       // May 2025: $26300, summer moving season ramps up, families booking before school ends
-      { month: "May 2025", spend: 26300, leads: 250, cpl: 105, qualified: 66, cpql: 398, deals: 16, revenue: 27943, roas: 1.06 },
+      { month: "May 2025", spend: 26300, leads: 250, cpl: 105, qualified: 66, cpql: 398, deals: 16, revenue: 119928, roas: 4.56 },
       // Jun 2025: $28700, peak summer demand, highest budget month, quality refinements fully live
-      { month: "Jun 2025", spend: 28700, leads: 274, cpl: 105, qualified: 81, cpql: 354, deals: 19, revenue: 36384, roas: 1.27 },
+      { month: "Jun 2025", spend: 28700, leads: 274, cpl: 105, qualified: 81, cpql: 354, deals: 19, revenue: 161868, roas: 5.64 },
       // Jul 2025: $29100, peak continues, lead quality at its best with all refinements mature
-      { month: "Jul 2025", spend: 29100, leads: 271, cpl: 107, qualified: 63, cpql: 462, deals: 18, revenue: 27208, roas: 0.93 },
+      { month: "Jul 2025", spend: 29100, leads: 271, cpl: 107, qualified: 63, cpql: 462, deals: 18, revenue: 153066, roas: 5.26 },
       // Aug 2025: $23800, summer winding down, still strong but tapering, maintaining quality gains
-      { month: "Aug 2025", spend: 23800, leads: 345, cpl: 69, qualified: 101, cpql: 236, deals: 23, revenue: 42044, roas: 1.77 },
+      { month: "Aug 2025", spend: 23800, leads: 345, cpl: 69, qualified: 101, cpql: 236, deals: 23, revenue: 140182, roas: 5.89 },
     ],
   },
   localSeo: {
@@ -205,9 +205,9 @@ export const movingCompany: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$236.0K", growth: "+187%" },
+    { label: "Total Revenue", value: "$850.7K", growth: "+187%" },
     { label: "Booked Moves", value: "131", growth: "+164%" },
     { label: "Cost Per Qualified Lead", value: "$163", growth: "↓34%" },
-    { label: "Blended ROAS", value: "1.21x", growth: "" },
+    { label: "Blended ROAS", value: "4.35x", growth: "" },
   ],
 };

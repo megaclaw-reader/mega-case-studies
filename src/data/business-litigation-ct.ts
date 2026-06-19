@@ -3,7 +3,7 @@ import { CaseStudyData } from "./types";
 export const businessLitigationCt: CaseStudyData = {
   slug: "business-litigation-ct",
   industry: "Business Litigation",
-  headline: "How a Connecticut Business Litigation Firm Generated $332K in Case Revenue With AI-Powered Marketing",
+  headline: "How a Connecticut Business Litigation Firm Generated $332.4K in Case Revenue With AI-Powered Marketing",
   subheadline: "MEGA helped a Connecticut business litigation law firm build a paid advertising program from scratch while scaling organic search visibility, reducing cost per qualified lead by 39%, growing organic keywords to 7,200+, and generating $332.4K in attributed revenue over 8 months.",
   heroStats: [
     { value: "8", unit: "months", label: "Partnership Duration" },

@@ -3,11 +3,11 @@ import { CaseStudyData } from "./types";
 export const homeDamageRestorationFlorida: CaseStudyData = {
   slug: "home-damage-restoration-florida",
   industry: "Home Damage Restoration",
-  headline: "How a Florida Home Damage Restoration Company Generated $1.7M in Revenue From Digital Marketing in 12 Months",
-  subheadline: "MEGA helped a Central Florida water damage and fire restoration contractor reduce their cost per qualified lead by 65% and close 140 deals worth $1.5M through AI-powered SEO and paid advertising — leveraging hurricane season demand and always-on campaign optimization across Orlando, Tampa, and Jacksonville markets.",
+  headline: "How a Florida Home Damage Restoration Company Generated $1.69M in Revenue From Digital Marketing in 12 Months",
+  subheadline: "MEGA helped a Central Florida water damage and fire restoration contractor reduce their cost per qualified lead by 65% and close 140 deals worth $1.69M through AI-powered SEO and paid advertising — leveraging hurricane season demand and always-on campaign optimization across Orlando, Tampa, and Jacksonville markets.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
-    { value: "$2.1M", unit: "M", label: "Revenue Attributed" },
+    { value: "$1.69M", unit: "M", label: "Revenue Attributed" },
     { value: "4.2", unit: "x", label: "Blended ROAS" },
   ],
   tags: ["SEO", "Paid Advertising", "Lead Generation", "Local"],

@@ -133,8 +133,8 @@ export const collegeNewYork: CaseStudyData = {
       costPerDeal: "Cost/Enrollment",
     },
     monthly: [
-      { month: "Jan 2025", spend: 8247, leads: 58, cpl: 142.19, qualified: 18, cpql: 458.17, deals: 2, revenue: 11000, roas: 1.33 },
-      { month: "Feb 2025", spend: 7134, leads: 59, cpl: 120.92, qualified: 19, cpql: 375.47, deals: 2, revenue: 11200, roas: 1.57 },
+      { month: "Jan 2025", spend: 8247, leads: 58, cpl: 142.19, qualified: 18, cpql: 458.17, deals: 2, revenue: 19133, roas: 2.32 },
+      { month: "Feb 2025", spend: 7134, leads: 59, cpl: 120.92, qualified: 19, cpql: 375.47, deals: 2, revenue: 16765, roas: 2.35 },
       { month: "Mar 2025", spend: 6318, leads: 63, cpl: 100.29, qualified: 21, cpql: 300.86, deals: 3, revenue: 16500, roas: 2.61 },
       { month: "Apr 2025", spend: 6147, leads: 70, cpl: 87.81, qualified: 25, cpql: 245.88, deals: 3, revenue: 17100, roas: 2.78 },
       { month: "May 2025", spend: 6012, leads: 78, cpl: 77.08, qualified: 28, cpql: 214.71, deals: 4, revenue: 22000, roas: 3.66 },

@@ -4,10 +4,10 @@ export const artisanHomeGoodsPortland: CaseStudyData = {
   slug: "artisan-home-goods-portland",
   industry: "Artisan Home Goods Ecommerce",
   headline: "How a Portland Artisan Home Goods Brand Scaled From 2.3x to 4.6x Blended ROAS — Generating $497.3K in Revenue Over 12 Months",
-  subheadline: "MEGA deployed always-on AI optimization agents, rebuilt campaign architecture from the ground up, and launched a comprehensive SEO content strategy for a direct-to-consumer artisan home décor brand based in Portland, Oregon. Over 12 months, cost per visit dropped 36%, add-to-cart rates improved steadily, organic traffic grew past 9,400 monthly visitors, and the brand generated $496K in attributed ecommerce revenue.",
+  subheadline: "MEGA deployed always-on AI optimization agents, rebuilt campaign architecture from the ground up, and launched a comprehensive SEO content strategy for a direct-to-consumer artisan home décor brand based in Portland, Oregon. Over 12 months, cost per visit dropped 36%, add-to-cart rates improved steadily, organic traffic grew past 9,400 monthly visitors, and the brand generated $497.3K in attributed ecommerce revenue.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
-    { value: "6.73", unit: "x", label: "Peak ROAS Achieved" },
+    { value: "4.59", unit: "x", label: "Peak ROAS Achieved" },
     { value: "$497.3K", unit: "K", label: "Revenue Generated" },
   ],
   tags: ["Ecommerce", "SEO", "Paid Advertising", "DTC", "Home Décor"],

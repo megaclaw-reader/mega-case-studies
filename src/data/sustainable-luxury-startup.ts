@@ -3,7 +3,7 @@ import { CaseStudyData } from "./types";
 export const sustainableLuxuryStartup: CaseStudyData = {
   slug: "sustainable-luxury-startup",
   industry: "Sustainable Luxury Startup",
-  headline: "How a Sustainable Luxury Startup Generated $428K Revenue and 5.2x ROAS in Their First Year",
+  headline: "How a Sustainable Luxury Startup Generated $428.4K Revenue and 5.2x ROAS in Their First Year",
   subheadline: "MEGA helped this sustainable luxury startup grow from an early-stage brand into a thriving ecommerce business, generating 1,500 orders and building a loyal customer base of conscious luxury consumers across the U.S. through AI-powered marketing.",
   heroStats: [
     { value: "5.2", unit: "x", label: "Blended ROAS" },

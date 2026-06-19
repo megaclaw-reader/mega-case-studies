@@ -4,11 +4,11 @@ const travelToursData: CaseStudyData = {
   slug: 'travel-tours',
   industry: 'Travel Tours',
   headline: 'How a National Tour Operator Boosted Bookings 285% with AI-Powered Seasonal Marketing',
-  subheadline: 'MEGA helped a national travel tour operator navigate seasonal demand volatility with AI-driven budget optimization, generating $312K in tour bookings while maintaining profitable unit economics across peak and off-season periods.',
+  subheadline: 'MEGA helped a national travel tour operator navigate seasonal demand volatility with AI-driven budget optimization, generating $30K in tour bookings while maintaining profitable unit economics across peak and off-season periods.',
   heroStats: [
     { value: '10', unit: 'months', label: 'Campaign Duration' },
     { value: "222", unit: '%', label: 'Qualified Bookings Growth' },
-    { value: '312.4', unit: 'K', label: 'Tour Revenue Generated' },
+    { value: '$30,101', unit: 'K', label: 'Tour Revenue Generated' },
   ],
   tags: ['Paid Advertising', 'AI Optimization', 'Seasonal Marketing'],
   company: {

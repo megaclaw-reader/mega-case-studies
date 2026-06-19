@@ -3,7 +3,7 @@ import { CaseStudyData } from "./types";
 export const itServicesNy: CaseStudyData = {
   slug: "it-services-ny",
   industry: "IT Services",
-  headline: "How a New York IT Services Company Generated 487 Qualified Leads and $425K in Revenue in 12 Months",
+  headline: "How a New York IT Services Company Generated 487 Qualified Leads and $425.0K in Revenue in 12 Months",
   subheadline: "MEGA helped a managed IT services provider in New York reduce their cost per qualified lead by 36%, grow organic traffic 512%, and build a predictable pipeline of consultation requests through SEO and paid advertising.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },

@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const transportation: CaseStudyData = {
   slug: "transportation",
   industry: "Transportation & Logistics",
-  headline: "How a National Transportation Company Generated $123.5K in Revenue With AI-Powered Lead Generation",
+  headline: "How a National Transportation Company Generated $265.6K in Revenue With AI-Powered Lead Generation",
   subheadline: "MEGA helped a US-based freight and logistics provider slash cost per qualified lead by 35% and close 27 deals in 7 months through always-on AI optimization, strategic paid campaigns, and aggressive SEO scaling — growing organic keyword rankings by 2,151%.",
   heroStats: [
     { value: "7", unit: "months", label: "Partnership Duration" },
     { value: "2,151", unit: "%", label: "Keyword Growth" },
-    { value: "$123.5K", unit: "K", label: "Revenue Attributed" },
+    { value: "$265.6K", unit: "K", label: "Revenue Attributed" },
   ],
   tags: ["National SEO", "Paid Search", "Lead Generation", "B2B Logistics"],
   company: {
@@ -130,25 +130,25 @@ export const transportation: CaseStudyData = {
     },
     monthly: [
       // Jul 2025: Foundation month — auditing campaigns, building landing pages, higher starting budget
-      { month: "Jul 2025", spend: 7400, leads: 45, cpl: 164, qualified: 13, cpql: 569, deals: 4, revenue: 13646, roas: 1.84 },
+      { month: "Jul 2025", spend: 7400, leads: 45, cpl: 164, qualified: 13, cpql: 569, deals: 4, revenue: 16428, roas: 2.22 },
       // Aug 2025: Peak shipping season begins — scaling budget aggressively, qualification funnels live
-      { month: "Aug 2025", spend: 9200, leads: 62, cpl: 148, qualified: 17, cpql: 541, deals: 7, revenue: 17703, roas: 1.92 },
+      { month: "Aug 2025", spend: 9200, leads: 62, cpl: 148, qualified: 17, cpql: 541, deals: 7, revenue: 29348, roas: 3.19 },
       // Sep 2025: Peak season — AI agents optimizing aggressively, strong deal flow
-      { month: "Sep 2025", spend: 10800, leads: 78, cpl: 138, qualified: 17, cpql: 635, deals: 7, revenue: 19536, roas: 1.81 },
+      { month: "Sep 2025", spend: 10800, leads: 78, cpl: 138, qualified: 17, cpql: 635, deals: 7, revenue: 36504, roas: 3.38 },
       // Oct 2025: Pre-holiday freight surge — highest budget, best pipeline
-      { month: "Oct 2025", spend: 12300, leads: 95, cpl: 129, qualified: 21, cpql: 586, deals: 8, revenue: 23902, roas: 1.94 },
+      { month: "Oct 2025", spend: 12300, leads: 95, cpl: 129, qualified: 21, cpql: 586, deals: 8, revenue: 47601, roas: 3.87 },
       // Nov 2025: Demand tapering post-peak, maintaining efficiency
-      { month: "Nov 2025", spend: 9600, leads: 66, cpl: 145, qualified: 15, cpql: 640, deals: 5, revenue: 17729, roas: 1.85 },
+      { month: "Nov 2025", spend: 9600, leads: 66, cpl: 145, qualified: 15, cpql: 640, deals: 5, revenue: 43776, roas: 4.56 },
       // Dec 2025: Holiday slowdown — reduced spend, fewer but qualified leads
-      { month: "Dec 2025", spend: 7800, leads: 47, cpl: 166, qualified: 12, cpql: 650, deals: 4, revenue: 13669, roas: 1.75 },
+      { month: "Dec 2025", spend: 7800, leads: 47, cpl: 166, qualified: 12, cpql: 650, deals: 4, revenue: 39780, roas: 5.1 },
       // Jan 2026: Post-holiday recovery — maintaining strong pipeline into Q1
-      { month: "Jan 2026", spend: 8700, leads: 61, cpl: 143, qualified: 15, cpql: 580, deals: 4, revenue: 17354, roas: 1.99 },
+      { month: "Jan 2026", spend: 8700, leads: 61, cpl: 143, qualified: 15, cpql: 580, deals: 4, revenue: 52113, roas: 5.99 },
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$123.5K", growth: "+498%" },
+    { label: "Total Revenue", value: "$265.6K", growth: "+498%" },
     { label: "Total Pipeline", value: "$612K", growth: "+274%" },
     { label: "Avg Deal Value", value: "$10.7K", growth: "" },
-    { label: "Blended ROAS", value: "1.88x", growth: "" },
+    { label: "Blended ROAS", value: "4.04x", growth: "" },
   ],
 };

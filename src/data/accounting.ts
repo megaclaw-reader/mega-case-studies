@@ -3,7 +3,7 @@ import { CaseStudyData } from "./types";
 export const accounting: CaseStudyData = {
   slug: "accounting",
   industry: "Accounting",
-  headline: "How a California Accounting Firm Generated $324K in New Revenue With AI-Powered Marketing",
+  headline: "How a California Accounting Firm Generated $323.5K in New Revenue With AI-Powered Marketing",
   subheadline: "MEGA helped a local accounting firm in California optimize their digital marketing, reducing cost per qualified lead by 26%, growing organic traffic 858%, and acquiring 35 new clients over 12 months.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
@@ -151,7 +151,7 @@ export const accounting: CaseStudyData = {
   impact: [
     { label: "Total Revenue", value: "$323.5K", growth: "+189%" },
     { label: "New Clients Acquired", value: "35", growth: "from ads + organic" },
-    { label: "Avg Revenue Per Client", value: "$7,857", growth: "first-year value" },
+    { label: "Avg Revenue Per Client", value: "$323.5K", growth: "first-year value" },
     { label: "Blended ROAS", value: "3.85x", growth: "" },
   ],
 };

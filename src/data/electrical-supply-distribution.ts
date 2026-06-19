@@ -3,10 +3,10 @@ import { CaseStudyData } from "./types";
 export const electricalSupplyDistribution: CaseStudyData = {
   slug: "electrical-supply-distribution",
   industry: "Electrical Supply",
-  headline: "How a National Electrical Supply Distributor Generated $769K in Ecommerce Revenue With Paid Ads and SEO",
-  subheadline: "MEGA deployed AI-powered always-on optimization and strategic SEO to help a B2B electrical supply distributor — with 156 indexed pages already generating 12,400+ monthly organic sessions — grow paid advertising ROAS from 2.36x to 7.83x, scale organic traffic to 27,200+/mo across 312 pages, and generate over $768K in online orders across 12 months with a 5.25x blended ROAS.",
+  headline: "How a National Electrical Supply Distributor Generated $768.9K in Ecommerce Revenue With Paid Ads and SEO",
+  subheadline: "MEGA deployed AI-powered always-on optimization and strategic SEO to help a B2B electrical supply distributor — with 156 indexed pages already generating 12,400+ monthly organic sessions — grow paid advertising ROAS from 2.36x to 7.83x, scale organic traffic to 27,200+/mo across 312 pages, and generate over $768.9K in online orders across 12 months with a 5.25x blended ROAS.",
   heroStats: [
-    { value: "$768.9", unit: "K", label: "Total Revenue" },
+    { value: "$768.9K", unit: "K", label: "Total Revenue" },
     { value: "5.3", unit: "x", label: "Blended ROAS" },
     { value: "2,227", unit: "", label: "Total Orders" },
   ],

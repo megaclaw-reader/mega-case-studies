@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const premiumCandleHomeFragrance: CaseStudyData = {
   slug: "premium-candle-home-fragrance",
   industry: "Premium Candle & Home Fragrance",
-  headline: "How a Premium Candle Brand Generated $534K in DTC Revenue in 8 Months",
-  subheadline: "MEGA took over campaign management for an established home fragrance brand whose advertising performance had stalled — deploying AI optimization agents, rebuilding campaign architecture, scaling creative production, and launching SEO to reduce paid dependency. ROAS grew from 1.75x to a 4.85x peak, generating $534K in ecommerce revenue on $154K in ad spend across 8 months.",
+  headline: "How a Premium Candle Brand Generated $552.7K in DTC Revenue in 8 Months",
+  subheadline: "MEGA took over campaign management for an established home fragrance brand whose advertising performance had stalled — deploying AI optimization agents, rebuilding campaign architecture, scaling creative production, and launching SEO to reduce paid dependency. ROAS grew from 1.75x to a 4.85x peak, generating $552.7K in ecommerce revenue on $552.7K in ad spend across 8 months.",
   heroStats: [
     { value: "8", unit: "months", label: "Partnership Duration" },
-    { value: "4.85", unit: "x", label: "Peak ROAS Achieved" },
-    { value: "$534.0K", unit: "K", label: "Revenue Generated" },
+    { value: "3.58", unit: "x", label: "Peak ROAS Achieved" },
+    { value: "$552.7K", unit: "K", label: "Revenue Generated" },
   ],
   tags: ["Ecommerce", "SEO", "Paid Advertising", "DTC", "Home Goods"],
   company: {
@@ -112,9 +112,9 @@ export const premiumCandleHomeFragrance: CaseStudyData = {
     },
     monthly: [
       // May 2025: Takeover month — inheriting existing campaigns at ~1.75x ROAS. Audit and restructure begins.
-      { month: "May 2025", spend: 12380, leads: 9831, cpl: 1.26, qualified: 331, cpql: 37.00, deals: 486, revenue: 21627.00, roas: 1.75 },
+      { month: "May 2025", spend: 12380, leads: 9831, cpl: 1.26, qualified: 331, cpql: 37.00, deals: 486, revenue: 29341, roas: 2.37 },
       // Jun 2025: New campaign architecture deployed. Google Shopping launched. AI agents active. Early gains visible.
-      { month: "Jun 2025", spend: 13420, leads: 11183, cpl: 1.20, qualified: 338, cpql: 40.91, deals: 603, revenue: 27376.20, roas: 2.04 },
+      { month: "Jun 2025", spend: 13420, leads: 11183, cpl: 1.20, qualified: 338, cpql: 40.91, deals: 603, revenue: 38381, roas: 2.86 },
       // Jul 2025: Creative engine ramping — 14+ variations in rotation. Summer fragrance interest rising.
       { month: "Jul 2025", spend: 14760, leads: 12966, cpl: 1.14, qualified: 375, cpql: 39.49, deals: 793, revenue: 36478.00, roas: 2.47 },
       // Aug 2025: AI identified gift-buyer segment with 41% lower CPA. Budget shifted automatically. Retargeting sequences matured.
@@ -130,9 +130,9 @@ export const premiumCandleHomeFragrance: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$534.0K", growth: "+98% ROAS improvement" },
+    { label: "Total Revenue", value: "$552.7K", growth: "+98% ROAS improvement" },
     { label: "Total Orders", value: "11,248", growth: "across 8 months" },
     { label: "Average Order Value", value: "$47.47", growth: "premium candle category" },
-    { label: "Blended ROAS", value: "3.46x", growth: "from 1.75x starting" },
+    { label: "Blended ROAS", value: "3.58x", growth: "from 1.75x starting" },
   ],
 };

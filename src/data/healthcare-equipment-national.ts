@@ -3,11 +3,11 @@ import { CaseStudyData } from "./types";
 export const healthcareEquipmentNational: CaseStudyData = {
   slug: "healthcare-equipment-national",
   industry: "Healthcare Equipment",
-  headline: "How a National Medical Equipment Distributor Built a Digital Pipeline of 1,908 Qualified Leads — Driving $952K in Equipment Sales at a 4.18x ROAS",
-  subheadline: "MEGA helped a national healthcare equipment distributor scale from 350 keywords to 9,900+ rankings while generating 1,908 qualified leads at an average CPQL of $119 — driving $952K in equipment sales over 12 months with a 4.18x blended ROAS through AI-powered campaign optimization and strategic B2B content marketing.",
+  headline: "How a National Medical Equipment Distributor Built a Digital Pipeline of 1,908 Qualified Leads — Driving $952.7K in Equipment Sales at a 4.18x ROAS",
+  subheadline: "MEGA helped a national healthcare equipment distributor scale from 350 keywords to 9,900+ rankings while generating 1,908 qualified leads at an average CPQL of $119 — driving $952.7K in equipment sales over 12 months with a 4.18x blended ROAS through AI-powered campaign optimization and strategic B2B content marketing.",
   heroStats: [
     { value: "1,908", unit: "", label: "Qualified Leads" },
-    { value: "953", unit: "K", label: "Total Revenue" },
+    { value: "$952.7K", unit: "K", label: "Total Revenue" },
     { value: "4.2", unit: "x", label: "Blended ROAS" },
   ],
   tags: ["SEO", "Paid Advertising", "Lead Generation"],

@@ -3,7 +3,7 @@ import { CaseStudyData } from "./types";
 export const poolBackyardRenovation: CaseStudyData = {
   slug: "pool-backyard-renovation",
   industry: "Pool and Backyard Renovation",
-  headline: "How a Florida Pool & Backyard Renovation Company Generated 244 Qualified Leads and $213K in Revenue Through AI-Powered Creative Testing & SEO",
+  headline: "How a Florida Pool & Backyard Renovation Company Generated 244 Qualified Leads and $213.3K in Revenue Through AI-Powered Creative Testing & SEO",
   subheadline: "MEGA helped a pool and backyard renovation company in Florida leverage AI-powered creative testing and an aggressive SEO strategy to attract a steady stream of high-quality leads — growing qualified leads from 14 to 46 per month, closing 24 contracts, and generating $213.3K in attributed revenue over 8 months.",
   heroStats: [
     { value: "244", unit: "", label: "Qualified Leads" },
@@ -113,7 +113,7 @@ export const poolBackyardRenovation: CaseStudyData = {
   },
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$50.1K" },
+      { label: "Total Ad Spend", value: "$50.0K" },
       { label: "Qualified Leads", value: "244" },
       { label: "Contracts Signed", value: "24" },
       { label: "Total Revenue", value: "$213.3K" },

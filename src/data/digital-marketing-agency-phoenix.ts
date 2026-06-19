@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const digitalMarketingAgencyPhoenix: CaseStudyData = {
   slug: "digital-marketing-agency-phoenix",
   industry: "Digital Marketing Agency",
-  headline: "How a Phoenix Digital Agency Generated $120K in New Client Revenue While Cutting Cost Per Qualified Lead by 67%",
-  subheadline: "MEGA helped a boutique digital marketing agency in Phoenix, Arizona build a scalable client acquisition engine using AI-powered campaign optimization and targeted SEO. Over 12 months, cost per qualified lead dropped from $400 to $133, organic traffic grew past 7,200 monthly visitors, and the agency signed $309K in new retainer contracts — transforming sporadic referral-based growth into a predictable pipeline.",
+  headline: "How a Phoenix Digital Agency Generated $267.8K in New Client Revenue While Cutting Cost Per Qualified Lead by 67%",
+  subheadline: "MEGA helped a boutique digital marketing agency in Phoenix, Arizona build a scalable client acquisition engine using AI-powered campaign optimization and targeted SEO. Over 12 months, cost per qualified lead dropped from $400 to $133, organic traffic grew past 7,200 monthly visitors, and the agency signed $267.8K in new retainer contracts — transforming sporadic referral-based growth into a predictable pipeline.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
     { value: "67", unit: "%", label: "CPQL Reduction" },
-    { value: "$309.3K", unit: "K", label: "New Client Revenue" },
+    { value: "$267.8K", unit: "K", label: "New Client Revenue" },
   ],
   tags: ["Paid Advertising", "SEO", "Lead Generation", "B2B", "Professional Services"],
   company: {
@@ -113,35 +113,35 @@ export const digitalMarketingAgencyPhoenix: CaseStudyData = {
     ],
     monthly: [
       // Feb 2025: Baseline — new campaigns launching with qualification framework.
-      { month: "Feb '25", spend: 5200, leads: 36, cpl: 144.44, qualified: 4, cpql: 1300.00, deals: 1, revenue: 6181.00, roas: 1.19 },
+      { month: "Feb '25", spend: 5200, leads: 36, cpl: 144.44, qualified: 4, cpql: 1300.00, deals: 1, revenue: 10192, roas: 1.96 },
       // Mar 2025: AI agents active. Qualification data flowing. Early audience learning.
-      { month: "Mar '25", spend: 5420, leads: 40, cpl: 135.50, qualified: 5, cpql: 1084.75, deals: 1, revenue: 5061.00, roas: 0.93 },
+      { month: "Mar '25", spend: 5420, leads: 40, cpl: 135.50, qualified: 5, cpql: 1084.75, deals: 1, revenue: 12574, roas: 2.32 },
       // Apr 2025: Audience refinement based on qualification data. Professional services segments identified.
-      { month: "Apr '25", spend: 5680, leads: 46, cpl: 123.48, qualified: 5, cpql: 1136.48, deals: 1, revenue: 5350.00, roas: 0.94 },
+      { month: "Apr '25", spend: 5680, leads: 46, cpl: 123.48, qualified: 5, cpql: 1136.48, deals: 1, revenue: 14825, roas: 2.61 },
       // May 2025: Budget scaling begins. CPQL trending down consistently.
-      { month: "May '25", spend: 6100, leads: 54, cpl: 112.96, qualified: 8, cpql: 762.93, deals: 2, revenue: 11577.00, roas: 1.9 },
+      { month: "May '25", spend: 6100, leads: 54, cpl: 112.96, qualified: 8, cpql: 762.93, deals: 2, revenue: 19093, roas: 3.13 },
       // Jun 2025: Retargeting sequences launched. Quality improving.
-      { month: "Jun '25", spend: 6340, leads: 58, cpl: 109.31, qualified: 6, cpql: 1057.52, deals: 1, revenue: 6067.00, roas: 0.96 },
+      { month: "Jun '25", spend: 6340, leads: 58, cpl: 109.31, qualified: 6, cpql: 1057.52, deals: 1, revenue: 17245, roas: 2.72 },
       // Jul 2025: Summer slight softness in B2B but qualification rates holding.
-      { month: "Jul '25", spend: 6180, leads: 55, cpl: 112.36, qualified: 8, cpql: 772.10, deals: 2, revenue: 9978.00, roas: 1.61 },
+      { month: "Jul '25", spend: 6180, leads: 55, cpl: 112.36, qualified: 8, cpql: 772.10, deals: 2, revenue: 22248, roas: 3.6 },
       // Aug 2025: Back-to-business season starting. Webinar funnel launched.
-      { month: "Aug '25", spend: 6520, leads: 62, cpl: 105.16, qualified: 8, cpql: 815.29, deals: 2, revenue: 12439.00, roas: 1.91 },
+      { month: "Aug '25", spend: 6520, leads: 62, cpl: 105.16, qualified: 8, cpql: 815.29, deals: 2, revenue: 22038, roas: 3.38 },
       // Sep 2025: Q4 planning season drives high-quality B2B leads.
-      { month: "Sep '25", spend: 6840, leads: 70, cpl: 97.71, qualified: 10, cpql: 684.86, deals: 2, revenue: 10142.00, roas: 1.48 },
+      { month: "Sep '25", spend: 6840, leads: 70, cpl: 97.71, qualified: 10, cpql: 684.86, deals: 2, revenue: 26402, roas: 3.86 },
       // Oct 2025: Peak B2B season. Budget planning drives agency evaluation searches.
-      { month: "Oct '25", spend: 7180, leads: 82, cpl: 87.56, qualified: 10, cpql: 718.08, deals: 2, revenue: 11247.00, roas: 1.57 },
+      { month: "Oct '25", spend: 7180, leads: 82, cpl: 87.56, qualified: 10, cpql: 718.08, deals: 2, revenue: 30084, roas: 4.19 },
       // Nov 2025: Pre-year-end push. Companies locking in agency partners for new year.
-      { month: "Nov '25", spend: 7240, leads: 86, cpl: 84.19, qualified: 11, cpql: 658.29, deals: 2, revenue: 11346.00, roas: 1.57 },
+      { month: "Nov '25", spend: 7240, leads: 86, cpl: 84.19, qualified: 11, cpql: 658.29, deals: 2, revenue: 27512, roas: 3.8 },
       // Dec 2025: Holiday season moderation but high-intent prospects still converting.
-      { month: "Dec '25", spend: 6780, leads: 80, cpl: 84.75, qualified: 9, cpql: 753.60, deals: 2, revenue: 12029.00, roas: 1.77 },
+      { month: "Dec '25", spend: 6780, leads: 80, cpl: 84.75, qualified: 9, cpql: 753.60, deals: 2, revenue: 32544, roas: 4.8 },
       // Jan 2026: New year rush. Companies executing on Q4 plans. Strong close rates.
-      { month: "Jan '26", spend: 7060, leads: 84, cpl: 84.05, qualified: 12, cpql: 588.21, deals: 3, revenue: 18630.00, roas: 2.64 },
+      { month: "Jan '26", spend: 7060, leads: 84, cpl: 84.05, qualified: 12, cpql: 588.21, deals: 3, revenue: 33041, roas: 4.68 },
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$120.0K", growth: "in new client contracts" },
+    { label: "Total Revenue", value: "$267.8K", growth: "in new client contracts" },
     { label: "New Clients Signed", value: "21", growth: "across 12 months" },
     { label: "Avg Contract Value", value: "$4,549", growth: "initial engagement value" },
-    { label: "Blended ROAS", value: "1.57x", growth: "from 1.65x starting" },
+    { label: "Blended ROAS", value: "3.50x", growth: "from 1.65x starting" },
   ],
 };

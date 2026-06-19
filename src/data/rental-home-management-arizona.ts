@@ -9,7 +9,7 @@ export const rentalHomeManagementArizona: CaseStudyData = {
     "MEGA helped an Arizona-based residential property management firm scale from 5 inbound leads per month to 67+ — signing 310 new management contracts and reducing cost per qualified lead by 37% through always-on AI optimization and aggressive organic growth across the Phoenix metro.",
   heroStats: [
     { value: "23", unit: "months", label: "Partnership Duration" },
-    { value: "$820.1K", unit: "K", label: "Revenue Attributed" },
+    { value: "$616.3K", unit: "K", label: "Revenue Attributed" },
     { value: "37", unit: "%", label: "CPQL Reduction" },
   ],
   tags: ["Paid Advertising", "SEO Strategy", "Local SEO", "Lead Generation"],

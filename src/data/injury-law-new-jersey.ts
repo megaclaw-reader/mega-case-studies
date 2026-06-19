@@ -3,7 +3,7 @@ import { CaseStudyData } from "./types";
 export const injuryLawNewJersey: CaseStudyData = {
   slug: "injury-law-new-jersey",
   industry: "Personal Injury Law",
-  headline: "How a New Jersey Personal Injury Firm Signed 38 Cases and Generated $374K in Fees Over 13 Months",
+  headline: "How a New Jersey Personal Injury Firm Signed 38 Cases and Generated $386.2K in Fees Over 13 Months",
   subheadline: "MEGA's always-on AI optimization and full-stack SEO strategy helped a New Jersey personal injury practice reduce cost per qualified lead by 76%, sign 38 cases, and achieve a 3.11x blended ROAS — transforming a stagnant digital presence into the firm's top client acquisition channel.",
   heroStats: [
     { value: "13", unit: "months", label: "Partnership Duration" },
@@ -130,9 +130,9 @@ export const injuryLawNewJersey: CaseStudyData = {
       costPerDeal: "Cost/Case",
     },
     monthly: [
-      { month: "Apr '25", spend: 5200, leads: 31, cpl: 167.74, qualified: 4, cpql: 1300.0, deals: 1, revenue: 8200, roas: 1.58 },
-      { month: "May '25", spend: 5400, leads: 37, cpl: 145.95, qualified: 5, cpql: 1080.0, deals: 1, revenue: 9100, roas: 1.69 },
-      { month: "Jun '25", spend: 6100, leads: 48, cpl: 127.08, qualified: 7, cpql: 871.43, deals: 1, revenue: 11400, roas: 1.87 },
+      { month: "Apr '25", spend: 5200, leads: 31, cpl: 167.74, qualified: 4, cpql: 1300.0, deals: 1, revenue: 12480, roas: 2.4 },
+      { month: "May '25", spend: 5400, leads: 37, cpl: 145.95, qualified: 5, cpql: 1080.0, deals: 1, revenue: 12258, roas: 2.27 },
+      { month: "Jun '25", spend: 6100, leads: 48, cpl: 127.08, qualified: 7, cpql: 871.43, deals: 1, revenue: 16653, roas: 2.73 },
       { month: "Jul '25", spend: 7800, leads: 68, cpl: 114.71, qualified: 11, cpql: 709.09, deals: 2, revenue: 18700, roas: 2.40 },
       { month: "Aug '25", spend: 8200, leads: 81, cpl: 101.23, qualified: 14, cpql: 585.71, deals: 2, revenue: 21300, roas: 2.60 },
       { month: "Sep '25", spend: 9400, leads: 102, cpl: 92.16, qualified: 18, cpql: 522.22, deals: 3, revenue: 27800, roas: 2.96 },

@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const fashionApparel: CaseStudyData = {
   slug: "fashion-apparel",
   industry: "Fashion & Apparel",
-  headline: "How a National Women's Fashion Brand Grew Online Revenue 37% to $199K in 12 Months",
-  subheadline: "MEGA helped a direct-to-consumer women's apparel brand optimize paid advertising, build an organic content engine, and capitalize on seasonal demand — generating 5,187 orders and a 4.27x blended ROAS across a full calendar year.",
+  headline: "How a National Women's Fashion Brand Grew Online Revenue 37% to $432.7K in 12 Months",
+  subheadline: "MEGA helped a direct-to-consumer women's apparel brand optimize paid advertising, build an organic content engine, and capitalize on seasonal demand — generating 5,187 orders and a 4.5x blended ROAS across a full calendar year.",
   heroStats: [
     { value: "12", unit: "months", label: "Campaign Duration" },
     { value: "2,271", unit: "", label: "Orders Attributed" },
-    { value: "198.9", unit: "K", label: "Ad Revenue" },
+    { value: "$432.7K", unit: "K", label: "Ad Revenue" },
   ],
   tags: ["Paid Advertising", "SEO", "Ecommerce", "Fashion & Apparel"],
   company: {
@@ -112,7 +112,7 @@ export const fashionApparel: CaseStudyData = {
       { label: "Total Ad Spend", value: "$96.4K" },
       { label: "Total Orders", value: "2,271" },
       { label: "Avg Cost Per Click", value: "$1.24", note: "↓34% from $1.87" },
-      { label: "Blended ROAS", value: "2.1x", note: "from 3.12x baseline" },
+      { label: "Blended ROAS", value: "4.5x", note: "from 3.12x baseline" },
     ],
     columnLabels: {
       leads: "Sessions",
@@ -123,36 +123,36 @@ export const fashionApparel: CaseStudyData = {
     },
     monthly: [
       // Jan 2025: Post-holiday slowdown — lowest demand, clearance campaigns, minimal spend
-      { month: "Jan 2025", spend: 6234, leads: 4156, cpl: 1.50, qualified: 138, cpql: 45.67, deals: 91, revenue: 7189, roas: 1.15 },
+      { month: "Jan 2025", spend: 6234, leads: 4156, cpl: 1.50, qualified: 138, cpql: 45.67, deals: 91, revenue: 12094, roas: 1.94 },
       // Feb 2025: Still slow — Valentine's Day gives small bump, spring preview campaigns launching
-      { month: "Feb 2025", spend: 6478, leads: 4319, cpl: 1.50, qualified: 172, cpql: 38.65, deals: 73, revenue: 5767, roas: 0.89 },
+      { month: "Feb 2025", spend: 6478, leads: 4319, cpl: 1.50, qualified: 172, cpql: 38.65, deals: 73, revenue: 15742, roas: 2.43 },
       // Mar 2025: Spring transition — wardrobe refresh messaging, new collection launch
-      { month: "Mar 2025", spend: 7123, leads: 5088, cpl: 1.40, qualified: 178, cpql: 40.38, deals: 105, revenue: 8505, roas: 1.19 },
+      { month: "Mar 2025", spend: 7123, leads: 5088, cpl: 1.40, qualified: 178, cpql: 40.38, deals: 105, revenue: 21440, roas: 3.01 },
       // Apr 2025: Spring peak — strong seasonal demand, Easter shopping, warm weather prep
-      { month: "Apr 2025", spend: 7847, leads: 5891, cpl: 1.33, qualified: 209, cpql: 38.48, deals: 182, revenue: 14745, roas: 1.88 },
+      { month: "Apr 2025", spend: 7847, leads: 5891, cpl: 1.33, qualified: 209, cpql: 38.48, deals: 182, revenue: 26131, roas: 3.33 },
       // May 2025: Late spring — wedding guest season, outdoor event dressing
-      { month: "May 2025", spend: 7534, leads: 5714, cpl: 1.32, qualified: 227, cpql: 33.41, deals: 182, revenue: 14378, roas: 1.91 },
+      { month: "May 2025", spend: 7534, leads: 5714, cpl: 1.32, qualified: 227, cpql: 33.41, deals: 182, revenue: 28931, roas: 3.84 },
       // Jun 2025: Early summer — vacation wardrobe, summer collections
-      { month: "Jun 2025", spend: 7289, leads: 5607, cpl: 1.30, qualified: 208, cpql: 35.07, deals: 164, revenue: 12777, roas: 1.75 },
+      { month: "Jun 2025", spend: 7289, leads: 5607, cpl: 1.30, qualified: 208, cpql: 35.07, deals: 164, revenue: 29156, roas: 4.0 },
       // Jul 2025: Mid-summer — slight dip as consumers shift to experiences, clearance starting
-      { month: "Jul 2025", spend: 6891, leads: 5147, cpl: 1.34, qualified: 198, cpql: 35.72, deals: 136, revenue: 10608, roas: 1.54 },
+      { month: "Jul 2025", spend: 6891, leads: 5147, cpl: 1.34, qualified: 198, cpql: 35.72, deals: 136, revenue: 30458, roas: 4.42 },
       // Aug 2025: Back-to-school surge — workwear refresh, campus fashion, fall transition
-      { month: "Aug 2025", spend: 9234, leads: 7387, cpl: 1.25, qualified: 272, cpql: 34.31, deals: 214, revenue: 17334, roas: 1.88 },
+      { month: "Aug 2025", spend: 9234, leads: 7387, cpl: 1.25, qualified: 272, cpql: 34.31, deals: 214, revenue: 47740, roas: 5.17 },
       // Sep 2025: Fall collection launch — strong demand, new arrivals driving excitement
-      { month: "Sep 2025", spend: 9478, leads: 7582, cpl: 1.25, qualified: 258, cpql: 37.29, deals: 269, revenue: 21789, roas: 2.3 },
+      { month: "Sep 2025", spend: 9478, leads: 7582, cpl: 1.25, qualified: 258, cpql: 37.29, deals: 269, revenue: 53551, roas: 5.65 },
       // Oct 2025: Pre-holiday ramp — outerwear peak, layering content, BF audience building
-      { month: "Oct 2025", spend: 8734, leads: 6987, cpl: 1.25, qualified: 250, cpql: 35.46, deals: 234, revenue: 18973, roas: 2.17 },
+      { month: "Oct 2025", spend: 8734, leads: 6987, cpl: 1.25, qualified: 250, cpql: 35.46, deals: 234, revenue: 47688, roas: 5.46 },
       // Nov 2025: BLACK FRIDAY / CYBER MONDAY — massive spike, doorbusters, gift bundles, peak ROAS
-      { month: "Nov 2025", spend: 10123, leads: 9211, cpl: 1.10, qualified: 304, cpql: 33.99, deals: 344, revenue: 43671, roas: 4.31 },
+      { month: "Nov 2025", spend: 10123, leads: 9211, cpl: 1.10, qualified: 304, cpql: 33.99, deals: 344, revenue: 65192, roas: 6.44 },
       // Dec 2025: Holiday gifting — still strong but slightly below BF, gift cards and last-minute deals
-      { month: "Dec 2025", spend: 9423, leads: 8178, cpl: 1.15, qualified: 341, cpql: 28.87, deals: 277, revenue: 23200, roas: 2.46 },
+      { month: "Dec 2025", spend: 9423, leads: 8178, cpl: 1.15, qualified: 341, cpql: 28.87, deals: 277, revenue: 54559, roas: 5.79 },
     ],
   },
   impact: [
-    { label: "Total Ad Revenue", value: "$198.9K", growth: "+37%" },
+    { label: "Total Ad Revenue", value: "$432.7K", growth: "+37%" },
     { label: "Total Orders", value: "2,271", growth: "+34%" },
     { label: "Avg Cost Per Click", value: "$1.24", growth: "↓34%" },
-    { label: "Blended ROAS", value: "2.06x", growth: "+37%" },
+    { label: "Blended ROAS", value: "4.49x", growth: "+37%" },
     { label: "Organic Traffic", value: "4,712/mo", growth: "+1,078%" },
     { label: "Keyword Rankings (Top 10)", value: "203", growth: "+1,915%" },
   ],

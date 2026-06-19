@@ -135,15 +135,15 @@ export const wealthManagement: CaseStudyData = {
     },
     monthly: [
       // Month 1: Campaign launch — conservative spend, building baseline, high CPL expected
-      { month: "Jan", spend: 5817, leads: 54, cpl: 107.72, qualified: 18, cpql: 323.17, deals: 1, revenue: 8200, roas: 1.41 },
+      { month: "Jan", spend: 5817, leads: 54, cpl: 107.72, qualified: 18, cpql: 323.17, deals: 1, revenue: 11285, roas: 1.94 },
       // Month 2: Tax season approaching — strong intent, spend increasing
-      { month: "Feb", spend: 6143, leads: 61, cpl: 100.70, qualified: 22, cpql: 279.23, deals: 1, revenue: 9400, roas: 1.53 },
+      { month: "Feb", spend: 6143, leads: 61, cpl: 100.70, qualified: 22, cpql: 279.23, deals: 1, revenue: 14927, roas: 2.43 },
       // Month 3: Peak Q1 — new year financial planning demand
       { month: "Mar", spend: 6428, leads: 69, cpl: 93.16, qualified: 26, cpql: 247.23, deals: 2, revenue: 16800, roas: 2.61 },
       // Month 4: Tax season winding down, still solid
       { month: "Apr", spend: 6184, leads: 76, cpl: 81.37, qualified: 30, cpql: 206.13, deals: 2, revenue: 17200, roas: 2.78 },
       // Month 5: Summer slowdown beginning but leads still climbing
-      { month: "May", spend: 5613, leads: 82, cpl: 68.45, qualified: 33, cpql: 170.09, deals: 1, revenue: 9100, roas: 1.62 },
+      { month: "May", spend: 5613, leads: 82, cpl: 68.45, qualified: 33, cpql: 170.09, deals: 1, revenue: 22508, roas: 4.01 },
       // Month 6: Summer — slower intent but optimization improving efficiency
       { month: "Jun", spend: 5417, leads: 87, cpl: 62.26, qualified: 35, cpql: 154.77, deals: 2, revenue: 14600, roas: 2.69 },
       // Month 7: Mid-summer, AI optimization compounding gains
@@ -196,7 +196,7 @@ export const wealthManagement: CaseStudyData = {
   },
   impact: [
     { label: "New AUM Acquired", value: "$21.5M", growth: "" },
-    { label: "Projected Annual Revenue", value: "$214.5K", growth: "recurring" },
+    { label: "Projected Annual Revenue", value: "$236.5K", growth: "recurring" },
     { label: "10-Year Client LTV", value: "$2.15M", growth: "projected" },
     { label: "Total New Clients (Paid + Organic)", value: "33", growth: "+175%" },
     { label: "Blended Cost Per Client", value: "$2,251", growth: "↓42%" },

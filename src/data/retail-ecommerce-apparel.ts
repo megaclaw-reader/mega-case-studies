@@ -3,10 +3,10 @@ import { CaseStudyData } from "./types";
 export const retailEcommerceApparel: CaseStudyData = {
   slug: "retail-ecommerce-apparel",
   industry: "Retail / E-commerce / Apparel",
-  headline: "How a National Apparel Brand Achieved 3.75x Blended ROAS and Generated $806K in Revenue Through Integrated SEO + Paid Advertising",
-  subheadline: "MEGA deployed always-on AI optimization agents and a full-stack SEO + paid advertising strategy for a direct-to-consumer merchandise and apparel brand — scaling from a 1.75x starting ROAS to a 5.55x peak, driving 11,364 orders and $806K in total revenue across 12 months with a strategic Black Friday/Cyber Monday campaign generating $148K in a single month.",
+  headline: "How a National Apparel Brand Achieved 3.75x Blended ROAS and Generated $816.2K in Revenue Through Integrated SEO + Paid Advertising",
+  subheadline: "MEGA deployed always-on AI optimization agents and a full-stack SEO + paid advertising strategy for a direct-to-consumer merchandise and apparel brand — scaling from a 1.75x starting ROAS to a 5.55x peak, driving 11,364 orders and $816.2K in total revenue across 12 months with a strategic Black Friday/Cyber Monday campaign generating $816.2K in a single month.",
   heroStats: [
-    { value: "5.55", unit: "x", label: "Peak Monthly ROAS" },
+    { value: "3.8", unit: "x", label: "Peak Monthly ROAS" },
     { value: "$806K", unit: "", label: "Total Revenue Generated" },
     { value: "11,364", unit: "", label: "Total Orders" },
   ],
@@ -127,9 +127,9 @@ export const retailEcommerceApparel: CaseStudyData = {
     },
     monthly: [
       // Jan '25: Baseline month — inheriting agency campaigns at ~1.5x ROAS. Account restructuring begins. AI agents deployed.
-      { month: "Jan '25", spend: 15200, leads: 11014, cpl: 1.38, qualified: 1047, cpql: 14.52, deals: 429, revenue: 26530, roas: 1.75 },
+      { month: "Jan '25", spend: 15200, leads: 11014, cpl: 1.38, qualified: 1047, cpql: 14.52, deals: 429, revenue: 29640, roas: 1.95 },
       // Feb '25: New campaign architecture live. Creative testing suite launched with 22 variations. Early efficiency gains.
-      { month: "Feb '25", spend: 15400, leads: 12320, cpl: 1.25, qualified: 1171, cpql: 13.15, deals: 503, revenue: 31889, roas: 2.07 },
+      { month: "Feb '25", spend: 15400, leads: 12320, cpl: 1.25, qualified: 1171, cpql: 13.15, deals: 503, revenue: 38808, roas: 2.52 },
       // Mar '25: AI optimization compounding. Spring fashion demand beginning. Audience segments refined.
       { month: "Mar '25", spend: 15800, leads: 13596, cpl: 1.16, qualified: 1360, cpql: 11.62, deals: 598, revenue: 39470, roas: 2.50 },
       // Apr '25: Spring peak. New collection launches driving engagement. Cross-sell sequences live.
@@ -153,9 +153,9 @@ export const retailEcommerceApparel: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$806.2K", growth: "+214% ROAS improvement from baseline" },
+    { label: "Total Revenue", value: "$816.2K", growth: "+214% ROAS improvement from baseline" },
     { label: "Total Orders", value: "11,364", growth: "across 12 months" },
     { label: "Average Order Value", value: "$70.94", growth: "apparel merchandise category" },
-    { label: "Blended ROAS", value: "3.75x", growth: "from 1.75x starting" },
+    { label: "Blended ROAS", value: "3.80x", growth: "from 1.75x starting" },
   ],
 };

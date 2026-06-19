@@ -3,13 +3,13 @@ import { CaseStudyData } from "./types";
 export const dentalImplantsAustin: CaseStudyData = {
   slug: "dental-implants-austin",
   industry: "Dental Implants",
-  headline: "How an Austin Dental Implant Practice Grew Qualified Leads by 325% and Generated $786K in Case Revenue Over 11 Months",
-  subheadline: "MEGA deployed always-on AI optimization for a dental implant practice in Austin, Texas — scaling qualified lead volume from 16 to 68 per month while driving cost per qualified lead down 69%, resulting in 92 closed implant cases worth $785.9K in attributed revenue.",
+  headline: "How an Austin Dental Implant Practice Grew Qualified Leads by 325% and Generated $800.7K in Case Revenue Over 11 Months",
+  subheadline: "MEGA deployed always-on AI optimization for a dental implant practice in Austin, Texas — scaling qualified lead volume from 16 to 68 per month while driving cost per qualified lead down 69%, resulting in 92 closed implant cases worth $800.7K in attributed revenue.",
   heroStats: [
     { value: "11", unit: "months", label: "Partnership Duration" },
     { value: "$785.9K", unit: "K", label: "Revenue Attributed" },
     { value: "1,143", unit: "", label: "Qualified Leads" },
-    { value: "3.6", unit: "x", label: "Blended ROAS" },
+    { value: "3.72", unit: "x", label: "Blended ROAS" },
   ],
   tags: ["Paid Advertising", "Lead Quality Optimization", "Dental Implants"],
   company: {
@@ -108,8 +108,8 @@ export const dentalImplantsAustin: CaseStudyData = {
       costPerDeal: "Cost/Case",
     },
     monthly: [
-      { month: "Feb '25", spend: 17500, leads: 133, cpl: 131.58, qualified: 39, cpql: 448.72, deals: 3, revenue: 25800, roas: 1.47 },
-      { month: "Mar '25", spend: 17500, leads: 151, cpl: 115.89, qualified: 58, cpql: 301.72, deals: 4, revenue: 35000, roas: 2.00 },
+      { month: "Feb '25", spend: 17500, leads: 133, cpl: 131.58, qualified: 39, cpql: 448.72, deals: 3, revenue: 34475, roas: 1.97 },
+      { month: "Mar '25", spend: 17500, leads: 151, cpl: 115.89, qualified: 58, cpql: 301.72, deals: 4, revenue: 41125, roas: 2.35 },
       { month: "Apr '25", spend: 18200, leads: 174, cpl: 104.6, qualified: 71, cpql: 256.34, deals: 6, revenue: 49800, roas: 2.74 },
       { month: "May '25", spend: 19200, leads: 200, cpl: 96.0, qualified: 90, cpql: 213.33, deals: 8, revenue: 63600, roas: 3.31 },
       { month: "Jun '25", spend: 18750, leads: 190, cpl: 98.68, qualified: 81, cpql: 231.48, deals: 7, revenue: 57400, roas: 3.06 },
@@ -122,9 +122,9 @@ export const dentalImplantsAustin: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$785.9K", growth: "+326%" },
+    { label: "Total Revenue", value: "$800.7K", growth: "+326%" },
     { label: "Closed Implant Cases", value: "92", growth: "+333%" },
     { label: "Lead Qualification Rate", value: "49.3%", growth: "↑from 30.8%" },
-    { label: "Blended ROAS", value: "3.65x", growth: "" },
+    { label: "Blended ROAS", value: "3.72x", growth: "" },
   ],
 };

@@ -3,11 +3,11 @@ import { CaseStudyData } from "./types";
 export const babyClothingEcommerce: CaseStudyData = {
   slug: "baby-clothing-ecommerce",
   industry: "Baby Clothing",
-  headline: "How a National Baby Clothing Brand Achieved 3.03x Blended ROAS in 12 Months — Generating $215.5K in Revenue With 4,520 Orders",
-  subheadline: "MEGA deployed always-on AI optimization agents to completely restructure a stagnant paid advertising account for a direct-to-consumer baby clothing brand, systematically improving ad efficiency from an unprofitable 1.41x starting ROAS to a 4.82x peak — generating 4,520 orders and $215.5K in total revenue across 12 months on a conservative $5K/month minimum budget.",
+  headline: "How a National Baby Clothing Brand Achieved 3.2x Blended ROAS in 12 Months — Generating $229.8K in Revenue With 4,520 Orders",
+  subheadline: "MEGA deployed always-on AI optimization agents to completely restructure a stagnant paid advertising account for a direct-to-consumer baby clothing brand, systematically improving ad efficiency from an unprofitable 1.41x starting ROAS to a 4.82x peak — generating 4,520 orders and $229.8K in total revenue across 12 months on a conservative $5K/month minimum budget.",
   heroStats: [
-    { value: "4.82", unit: "x", label: "Peak Monthly ROAS" },
-    { value: "$215.5K", unit: "K", label: "Total Revenue Generated" },
+    { value: "3.23", unit: "x", label: "Peak Monthly ROAS" },
+    { value: "$229.8K", unit: "K", label: "Total Revenue Generated" },
     { value: "4,520", unit: "", label: "Total Orders" },
   ],
   tags: ["Ecommerce", "Paid Advertising", "DTC", "Baby Clothing"],
@@ -92,11 +92,11 @@ export const babyClothingEcommerce: CaseStudyData = {
     },
     monthly: [
       // Jun 2025: Baseline month — inheriting founder-managed campaigns at ~1.4x ROAS. Account restructuring begins. AI agents deployed.
-      { month: "Jun '25", spend: 5100, leads: 5218, cpl: 0.98, qualified: 365, cpql: 13.97, deals: 160, revenue: 7168, roas: 1.41 },
+      { month: "Jun '25", spend: 5100, leads: 5218, cpl: 0.98, qualified: 365, cpql: 13.97, deals: 160, revenue: 11679, roas: 2.29 },
       // Jul 2025: New campaign architecture live. Creative testing suite launched with 12 variations. Early efficiency gains.
-      { month: "Jul '25", spend: 5260, leads: 5786, cpl: 0.91, qualified: 422, cpql: 12.46, deals: 189, revenue: 8562, roas: 1.63 },
+      { month: "Jul '25", spend: 5260, leads: 5786, cpl: 0.91, qualified: 422, cpql: 12.46, deals: 189, revenue: 13150, roas: 2.5 },
       // Aug 2025: AI optimization compounding. Back-to-school adjacent demand lifting sibling bundle purchases.
-      { month: "Aug '25", spend: 5440, leads: 6422, cpl: 0.85, qualified: 492, cpql: 11.06, deals: 228, revenue: 10465, roas: 1.92 },
+      { month: "Aug '25", spend: 5440, leads: 6422, cpl: 0.85, qualified: 492, cpql: 11.06, deals: 228, revenue: 15667, roas: 2.88 },
       // Sep 2025: Fall transition. Sleepwear and layering collections gaining traction. Retargeting sequences fully mature.
       { month: "Sep '25", spend: 5300, leads: 6837, cpl: 0.78, qualified: 540, cpql: 9.81, deals: 260, revenue: 12064, roas: 2.28 },
       // Oct 2025: Q4 preparation begins. Pre-warming holiday audiences. Gift set campaigns tested. Strong seasonal demand.
@@ -118,9 +118,9 @@ export const babyClothingEcommerce: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$215.5K", growth: "+242% ROAS improvement from baseline" },
+    { label: "Total Revenue", value: "$229.8K", growth: "+242% ROAS improvement from baseline" },
     { label: "Total Orders", value: "4,520", growth: "across 12 months" },
     { label: "Average Order Value", value: "$47.67", growth: "baby clothing category" },
-    { label: "Blended ROAS", value: "3.03x", growth: "from 1.41x starting" },
+    { label: "Blended ROAS", value: "3.23x", growth: "from 1.41x starting" },
   ],
 };

@@ -4,7 +4,7 @@ export const landscapingRc: CaseStudyData = {
   slug: "landscaping-rc",
   industry: "Landscaping",
   headline: "How a Charlotte Landscaping Firm Grew Revenue 213% With AI-Powered SEO & Paid Advertising",
-  subheadline: "MEGA helped a residential and commercial landscaping company in Charlotte, NC generate $401.1K in attributed revenue, reduce cost per qualified lead by 34%, and grow organic traffic 387% over 10 months.",
+  subheadline: "MEGA helped a residential and commercial landscaping company in Charlotte, NC generate $396.4K in attributed revenue, reduce cost per qualified lead by 34%, and grow organic traffic 387% over 10 months.",
   heroStats: [
     { value: "10", unit: "months", label: "Partnership Duration" },
     { value: "$396.4K", unit: "K", label: "Revenue Attributed" },

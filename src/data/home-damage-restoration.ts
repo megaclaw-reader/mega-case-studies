@@ -3,10 +3,10 @@ import { CaseStudyData } from "./types";
 export const homeDamageRestoration: CaseStudyData = {
   slug: "home-damage-restoration",
   industry: "Home Damage Restoration",
-  headline: "How an Atlanta Restoration Company Generated $1.07M in Revenue With AI-Powered Marketing",
-  subheadline: "MEGA helped a residential and commercial restoration company in Atlanta — with 142 indexed pages already generating 9,800+ monthly organic sessions — reduce cost per qualified lead by 54%, grow organic traffic to 22,400/mo, and generate $1.07M in attributed revenue over 12 months.",
+  headline: "How an Atlanta Restoration Company Generated $1.08M in Revenue With AI-Powered Marketing",
+  subheadline: "MEGA helped a residential and commercial restoration company in Atlanta — with 142 indexed pages already generating 9,800+ monthly organic sessions — reduce cost per qualified lead by 54%, grow organic traffic to 22,400/mo, and generate $1.08M in attributed revenue over 12 months.",
   heroStats: [
-    { value: "$1.07", unit: "M", label: "Revenue Attributed" },
+    { value: "$1.08M", unit: "M", label: "Revenue Attributed" },
     { value: "54", unit: "%", label: "CPQL Reduction" },
     { value: "129", unit: "%", label: "Organic Traffic Growth" },
   ],
@@ -154,7 +154,7 @@ export const homeDamageRestoration: CaseStudyData = {
   impact: [
     { label: "Total Revenue", value: "$1.08M", growth: "+141% (month 1 → month 12)" },
     { label: "Closed Jobs", value: "207", growth: "across 12 months" },
-    { label: "Avg Revenue Per Job", value: "$5,198", growth: "" },
+    { label: "Avg Revenue Per Job", value: "$1.08M", growth: "" },
     { label: "Blended ROAS", value: "5.42x", growth: "$198.4K spend → $1.07M revenue" },
   ],
 };

@@ -3,11 +3,11 @@ import { CaseStudyData } from "./types";
 export const lawFirmNational: CaseStudyData = {
   slug: "law-firm-national",
   industry: "National Law Firm",
-  headline: "How a Multi-Practice National Law Firm Generated $5.6M in Case Revenue at a 3.7x Blended ROAS",
-  subheadline: "MEGA helped a national law firm spanning mass torts, class action, and personal injury transform a stagnant 14,000-keyword footprint into a coast-to-coast digital acquisition engine — strategically growing to 36,700+ keywords with 5,700+ top-10 rankings and an average position of 12.4, reducing cost per qualified lead by 40%, and delivering a 3.7x blended ROAS across all practice areas in 12 months.",
+  headline: "How a Multi-Practice National Law Firm Generated $5.60M in Case Revenue at a 4.2x Blended ROAS",
+  subheadline: "MEGA helped a national law firm spanning mass torts, class action, and personal injury transform a stagnant 14,000-keyword footprint into a coast-to-coast digital acquisition engine — strategically growing to 36,700+ keywords with 5,700+ top-10 rankings and an average position of 12.4, reducing cost per qualified lead by 40%, and delivering a 4.2x blended ROAS across all practice areas in 12 months.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
-    { value: "$7.9M", unit: "M", label: "Attributed Revenue" },
+    { value: "$5.60M", unit: "M", label: "Attributed Revenue" },
     { value: "4.2x", unit: "x", label: "Blended ROAS" },
   ],
   tags: ["Paid Advertising", "SEO Strategy", "Lead Generation"],

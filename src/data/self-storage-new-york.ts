@@ -3,8 +3,8 @@ import { CaseStudyData } from "./types";
 export const selfStorageNewYork: CaseStudyData = {
   slug: "self-storage-new-york",
   industry: "Self-Storage",
-  headline: "How a New York Self-Storage Facility Grew Revenue to $241K While Reducing Cost Per Qualified Lead by 44%",
-  subheadline: "MEGA helped a local self-storage facility in New York transform their digital marketing with AI-powered paid advertising and SEO — growing from 134 indexed keywords to over 3,100, driving 7,800+ monthly organic visitors, and generating $373K in attributed first-year tenant revenue over 12 months while cutting cost per qualified lead from $111 to $62.",
+  headline: "How a New York Self-Storage Facility Grew Revenue to $241.0K While Reducing Cost Per Qualified Lead by 44%",
+  subheadline: "MEGA helped a local self-storage facility in New York transform their digital marketing with AI-powered paid advertising and SEO — growing from 134 indexed keywords to over 3,100, driving 7,800+ monthly organic visitors, and generating $241.0K in attributed first-year tenant revenue over 12 months while cutting cost per qualified lead from $111 to $62.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
     { value: "44", unit: "%", label: "CPQL Reduction" },

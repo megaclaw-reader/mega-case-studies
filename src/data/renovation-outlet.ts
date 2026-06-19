@@ -3,7 +3,7 @@ import { CaseStudyData } from "./types";
 export const renovationOutlet: CaseStudyData = {
   slug: "renovation-outlet",
   industry: "Home Renovation Supplies",
-  headline: "How a Florida Renovation Outlet Generated 2,283 Orders and $345K in Revenue",
+  headline: "How a Florida Renovation Outlet Generated 2,283 Orders and $345.1K in Revenue",
   subheadline: "MEGA helped a Florida-based home renovation supplies retailer dominate local search, optimize ecommerce advertising across seasonal demand cycles, and build a sales pipeline that delivered a 3.64x blended ROAS over 12 months — transforming sporadic foot traffic into a predictable revenue engine.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },

@@ -8,7 +8,7 @@ export const wealthManagementChicago: CaseStudyData = {
   heroStats: [
     { value: "$11.2", unit: "M", label: "New AUM Acquired" },
     { value: "7", unit: "", label: "New HNW Clients" },
-    { value: "$112", unit: "K", label: "First-Year Revenue (1% Fee)" },
+    { value: "$112.0K", unit: "K", label: "First-Year Revenue (1% Fee)" },
   ],
   tags: ["SEO Strategy", "Paid Advertising", "Lead Generation"],
   company: {

@@ -4,7 +4,7 @@ export const safetyTraining: CaseStudyData = {
   slug: "safety-training",
   industry: "Workplace Safety Training",
   headline: "How a Houston Safety Training Company Grew Revenue 487% by Targeting High-Risk Industries With ICP-Driven Campaigns",
-  subheadline: "MEGA helped a workplace safety training provider in Houston, TX scale from $5K to $10K/month in ad spend while reducing cost per qualified lead from $287 to $149 — generating $363.2K in attributed revenue over 12 months through targeted campaigns reaching oil & gas, construction, and manufacturing decision-makers.",
+  subheadline: "MEGA helped a workplace safety training provider in Houston, TX scale from $5K to $10K/month in ad spend while reducing cost per qualified lead from $287 to $149 — generating $290.1K in attributed revenue over 12 months through targeted campaigns reaching oil & gas, construction, and manufacturing decision-makers.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
     { value: "$290.1K", unit: "K", label: "Revenue Attributed" },

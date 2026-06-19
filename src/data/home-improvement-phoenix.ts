@@ -3,7 +3,7 @@ import { CaseStudyData } from "./types";
 export const homeImprovementPhoenix: CaseStudyData = {
   slug: "home-improvement-phoenix",
   industry: "Home Improvement",
-  headline: "Phoenix Home Improvement Company Achieves 3.4x ROAS and $455K in Revenue with AI-Powered Marketing",
+  headline: "Phoenix Home Improvement Company Achieves 3.4x ROAS and $455.2K in Revenue with AI-Powered Marketing",
   subheadline: "How MEGA's always-on optimization and creative strategy generated 562 qualified leads and 126 signed contracts for a growing Phoenix contractor over 12 months",
   heroStats: [
     { value: "$455.2K", unit: "K", label: "Revenue Attributed" },

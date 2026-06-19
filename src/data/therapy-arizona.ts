@@ -3,7 +3,7 @@ import { CaseStudyData } from "./types";
 export const therapyArizona: CaseStudyData = {
   slug: "therapy-arizona",
   industry: "Therapy",
-  headline: "How an Arizona Therapy Practice Generated $145K in Revenue Over 6 Months With AI-Powered SEO and Paid Advertising",
+  headline: "How an Arizona Therapy Practice Generated $145.2K in Revenue Over 6 Months With AI-Powered SEO and Paid Advertising",
   subheadline: "MEGA helped a mental health counseling practice in Arizona scale new client acquisition while reducing cost per qualified lead from $236 to $139 — closing 78 new therapy clients and achieving a 4.01x blended ROAS through always-on AI optimization and organic growth.",
   heroStats: [
     { value: "6", unit: "months", label: "Partnership Duration" },

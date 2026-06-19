@@ -3,8 +3,8 @@ import { CaseStudyData } from "./types";
 export const sportsTeamArizona: CaseStudyData = {
   slug: "sports-team-arizona",
   industry: "Sports Team",
-  headline: "How an Arizona Sports Team Generated $403K in Ticket Revenue and 1,395 Qualified Leads With AI-Powered Marketing",
-  subheadline: "MEGA helped a regional sports franchise in Arizona build a dominant local search presence and high-performing paid campaigns — reducing cost per qualified lead by 40%, growing organic traffic from 214 to 11,870 monthly visitors, and driving $403K in attributed ticket and event revenue across 12 months.",
+  headline: "How an Arizona Sports Team Generated $404.0K in Ticket Revenue and 1,395 Qualified Leads With AI-Powered Marketing",
+  subheadline: "MEGA helped a regional sports franchise in Arizona build a dominant local search presence and high-performing paid campaigns — reducing cost per qualified lead by 40%, growing organic traffic from 214 to 11,870 monthly visitors, and driving $404.0K in attributed ticket and event revenue across 12 months.",
   heroStats: [
     { value: "$404K", unit: "K", label: "Revenue Generated" },
     { value: "40", unit: "%", label: "Cost Per Lead Reduction" },

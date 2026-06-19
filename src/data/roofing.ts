@@ -122,9 +122,9 @@ export const roofing: CaseStudyData = {
   },
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$67.0K" },
+      { label: "Total Ad Spend", value: "$67.8K" },
       { label: "Qualified Leads", value: "159" },
-      { label: "Avg Cost Per Qualified Lead", value: "$421", note: "↓44% from $752" },
+      { label: "Avg Cost Per Qualified Lead", value: "$426", note: "↓43% from $752" },
       { label: "Closed Jobs", value: "38" },
     ],
     monthly: [
@@ -149,13 +149,13 @@ export const roofing: CaseStudyData = {
       // Month 10: Late fall — wrapping up before holidays (seasonal dip in new starts)
       { month: "Nov 2025", spend: 5134, leads: 32, cpl: 160.44, qualified: 18, cpql: 285.22, deals: 3, revenue: 18847, roas: 3.67 },
       // Month 11: Early winter — storm damage + spring planning inquiries returning
-      { month: "Dec 2025", spend: 4518, leads: 35, cpl: 129.09, qualified: 18, cpql: 251.00, deals: 5, revenue: 19834, roas: 4.39 },
+      { month: "Dec 2025", spend: 5309, leads: 35, cpl: 152, qualified: 18, cpql: 295, deals: 5, revenue: 19834, roas: 3.74 },
     ],
   },
   impact: [
     { label: "Total Revenue", value: "$251.4K", growth: "+134%" },
     { label: "Total Pipeline", value: "$387K", growth: "+102%" },
-    { label: "Avg Revenue Per Job", value: "$6,617", growth: "" },
-    { label: "Blended ROAS", value: "3.75x", growth: "" },
+    { label: "Avg Revenue Per Job", value: "$251.4K", growth: "" },
+    { label: "Blended ROAS", value: "3.71x", growth: "" },
   ],
 };

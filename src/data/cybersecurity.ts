@@ -4,7 +4,7 @@ export const cybersecurity: CaseStudyData = {
   slug: "cybersecurity",
   industry: "Cybersecurity",
   headline: "How a National Cybersecurity Firm Scaled Pipeline 145% With AI-Powered Marketing",
-  subheadline: "MEGA helped a nationwide cybersecurity company optimize their digital marketing, reducing cost per qualified lead by 30%, growing organic traffic 1,231%, and generating $655.5K in attributed revenue over 8 months.",
+  subheadline: "MEGA helped a nationwide cybersecurity company optimize their digital marketing, reducing cost per qualified lead by 30%, growing organic traffic 1,231%, and generating $687.6K in attributed revenue over 8 months.",
   heroStats: [
     { value: "8", unit: "months", label: "Partnership Duration" },
     { value: "$687.6K", unit: "K", label: "Revenue Growth Rate" },
@@ -154,7 +154,7 @@ export const cybersecurity: CaseStudyData = {
   impact: [
     { label: "Total Revenue", value: "$687.6K", growth: "+145%" },
     { label: "Total Pipeline", value: "$1.43M", growth: "+106%" },
-    { label: "Avg Revenue Per Contract", value: "$655.5K", growth: "" },
+    { label: "Avg Revenue Per Contract", value: "$687.6K", growth: "" },
     { label: "Blended ROAS", value: "4.15x", growth: "" },
   ],
 };

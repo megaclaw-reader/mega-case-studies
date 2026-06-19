@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const workingCapitalFinancing: CaseStudyData = {
   slug: "working-capital-financing",
   industry: "Working Capital Financing",
-  headline: "How a Phoenix Working Capital Financing Firm Generated $198K in Revenue With AI-Powered Lead Generation",
-  subheadline: "MEGA helped a Phoenix-based working capital financing company build a full digital acquisition engine from scratch, combining SEO authority building with AI-optimized paid campaigns to deliver 44 funded deals and a 2.93x blended ROAS over 9 months.",
+  headline: "How a Phoenix Working Capital Financing Firm Generated $212.4K in Revenue With AI-Powered Lead Generation",
+  subheadline: "MEGA helped a Phoenix-based working capital financing company build a full digital acquisition engine from scratch, combining SEO authority building with AI-optimized paid campaigns to deliver 44 funded deals and a 3.1x blended ROAS over 9 months.",
   heroStats: [
     { value: "9", unit: "months", label: "Partnership Duration" },
     { value: "44", unit: "deals", label: "Funded Deals" },
-    { value: "2.93", unit: "x", label: "Blended ROAS" },
+    { value: "3.13", unit: "x", label: "Blended ROAS" },
   ],
   tags: ["SEO", "Paid Advertising", "AI-Powered Optimization"],
   company: {
@@ -116,8 +116,8 @@ export const workingCapitalFinancing: CaseStudyData = {
       costPerDeal: "Cost/Deal",
     },
     monthly: [
-      { month: "Oct '25", spend: 7142, leads: 119, cpl: 60.02, qualified: 26, cpql: 274.69, deals: 2, revenue: 8714, roas: 1.22 },
-      { month: "Nov '25", spend: 7834, leads: 148, cpl: 52.93, qualified: 34, cpql: 230.41, deals: 3, revenue: 13247, roas: 1.69 },
+      { month: "Oct '25", spend: 7142, leads: 119, cpl: 60.02, qualified: 26, cpql: 274.69, deals: 2, revenue: 13927, roas: 1.95 },
+      { month: "Nov '25", spend: 7834, leads: 148, cpl: 52.93, qualified: 34, cpql: 230.41, deals: 3, revenue: 21935, roas: 2.8 },
       { month: "Dec '25", spend: 8217, leads: 189, cpl: 43.48, qualified: 48, cpql: 171.19, deals: 4, revenue: 18943, roas: 2.31 },
       { month: "Jan '26", spend: 8463, leads: 231, cpl: 36.64, qualified: 62, cpql: 136.50, deals: 5, revenue: 23174, roas: 2.74 },
       { month: "Feb '26", spend: 7318, leads: 228, cpl: 32.10, qualified: 61, cpql: 119.97, deals: 5, revenue: 22386, roas: 3.06 },
@@ -128,9 +128,9 @@ export const workingCapitalFinancing: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$198.5K", growth: "+1,482%" },
+    { label: "Total Revenue", value: "$212.4K", growth: "+1,482%" },
     { label: "Funded Deals", value: "44", growth: "+367%" },
     { label: "Avg Deal Value", value: "$4,511", growth: "" },
-    { label: "Blended ROAS", value: "2.93x", growth: "" },
+    { label: "Blended ROAS", value: "3.13x", growth: "" },
   ],
 };

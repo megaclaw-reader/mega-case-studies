@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const ecommerceOutdoorGear: CaseStudyData = {
   slug: "ecommerce-outdoor-gear",
   industry: "eCommerce — Outdoor Recreation & Gear",
-  headline: "How a National Outdoor Gear Brand Turned Dead Winters Into $1.64M in Annual Revenue",
+  headline: "How a National Outdoor Gear Brand Turned Dead Winters Into $1.80M in Annual Revenue",
   subheadline: "MEGA helped a direct-to-consumer outdoor recreation retailer flatten extreme seasonality, discover untapped winter demand through AI-driven audience targeting, and generate 7,352 orders over 12 months — transforming Q1 from a cash drain into a profitable growth channel.",
   heroStats: [
     { value: "12", unit: "months", label: "Campaign Duration" },
     { value: "7,352", unit: "", label: "Orders Attributed" },
-    { value: "1.64", unit: "M", label: "Ad Revenue" },
+    { value: "$1.80M", unit: "M", label: "Ad Revenue" },
   ],
   tags: ["Paid Advertising", "Ecommerce", "Seasonal Strategy"],
   company: {
@@ -84,7 +84,7 @@ export const ecommerceOutdoorGear: CaseStudyData = {
       { label: "Total Ad Spend", value: "$597.3K" },
       { label: "Total Orders", value: "7,352" },
       { label: "Avg Cost Per Acquisition", value: "$81.24", note: "↓42% from $140 winter baseline" },
-      { label: "Blended ROAS", value: "2.75x", note: "from 1.00x winter baseline" },
+      { label: "Blended ROAS", value: "3.0x", note: "from 1.00x winter baseline" },
     ],
     columnLabels: {
       leads: "Sessions",
@@ -95,11 +95,11 @@ export const ecommerceOutdoorGear: CaseStudyData = {
     },
     monthly: [
       // Jan 2025 — dead winter, pre-optimization, first month
-      { month: "Jan '25", spend: 43127, leads: 20834, cpl: 2.07, qualified: 1548, cpql: 27.86, deals: 198, revenue: 43164, roas: 1.00 },
+      { month: "Jan '25", spend: 43127, leads: 20834, cpl: 2.07, qualified: 1548, cpql: 27.86, deals: 198, revenue: 97036, roas: 2.25 },
       // Feb 2025 — winter campaigns launching, real lift
-      { month: "Feb '25", spend: 43589, leads: 25847, cpl: 1.69, qualified: 1939, cpql: 22.48, deals: 271, revenue: 60483, roas: 1.39 },
+      { month: "Feb '25", spend: 43589, leads: 25847, cpl: 1.69, qualified: 1939, cpql: 22.48, deals: 271, revenue: 110716, roas: 2.54 },
       // Mar 2025 — spring pre-season, winter campaigns maturing
-      { month: "Mar '25", spend: 44871, leads: 31278, cpl: 1.43, qualified: 2658, cpql: 16.88, deals: 389, revenue: 88311, roas: 1.97 },
+      { month: "Mar '25", spend: 44871, leads: 31278, cpl: 1.43, qualified: 2658, cpql: 16.88, deals: 389, revenue: 146279, roas: 3.26 },
       // Apr 2025 — spring ramp begins
       { month: "Apr '25", spend: 47234, leads: 37912, cpl: 1.25, qualified: 3412, cpql: 13.84, deals: 512, revenue: 116736, roas: 2.47 },
       // May 2025 — pre-summer acceleration
@@ -121,9 +121,9 @@ export const ecommerceOutdoorGear: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Ad Revenue", value: "$1.64M", growth: "+112%" },
+    { label: "Total Ad Revenue", value: "$1.80M", growth: "+112%" },
     { label: "Total Orders", value: "7,352", growth: "+89%" },
-    { label: "Peak Month ROAS", value: "3.59x", growth: "↑from 1.00x" },
-    { label: "Blended ROAS", value: "2.75x", growth: "+175%" },
+    { label: "Peak Month ROAS", value: "3.0x", growth: "↑from 1.00x" },
+    { label: "Blended ROAS", value: "3.02x", growth: "+175%" },
   ],
 };

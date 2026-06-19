@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const ecommercePet: CaseStudyData = {
   slug: "ecommerce-pet",
   industry: "Ecommerce — Pet Products",
-  headline: "How an Arizona Pet Store Scaled Online Revenue to $204K with AI-Driven Paid Advertising",
-  subheadline: "MEGA helped a local Arizona ecommerce pet retailer grow from a 1.95x ROAS to over 3.9x — generating 3,659 orders and $204.1K in ad-attributed revenue over 11 months, including a record Black Friday that drove 18% of total campaign revenue.",
+  headline: "How an Arizona Pet Store Scaled Online Revenue to $205.0K with AI-Driven Paid Advertising",
+  subheadline: "MEGA helped a local Arizona ecommerce pet retailer grow from a 3.2x ROAS to over 3.9x — generating 3,659 orders and $205.0K in ad-attributed revenue over 11 months, including a record Black Friday that drove 18% of total campaign revenue.",
   heroStats: [
     { value: "11", unit: "months", label: "Campaign Duration" },
     { value: "3,659", unit: "", label: "Orders Attributed" },
-    { value: "204.1", unit: "K", label: "Ad Revenue" },
+    { value: "$205.0K", unit: "K", label: "Ad Revenue" },
   ],
   tags: ["Paid Advertising", "Ecommerce", "Arizona"],
   company: {
@@ -95,7 +95,7 @@ export const ecommercePet: CaseStudyData = {
       deals: "Orders",
     },
     monthly: [
-      { month: "Mar '25", spend: 5123, leads: 4213, cpl: 1.22, qualified: 337, cpql: 15.20, deals: 172, revenue: 9992, roas: 1.95 },
+      { month: "Mar '25", spend: 5123, leads: 4213, cpl: 1.22, qualified: 337, cpql: 15.20, deals: 172, revenue: 10963, roas: 2.14 },
       { month: "Apr '25", spend: 5247, leads: 4578, cpl: 1.15, qualified: 366, cpql: 14.34, deals: 194, revenue: 11102, roas: 2.12 },
       { month: "May '25", spend: 5389, leads: 5134, cpl: 1.05, qualified: 436, cpql: 12.36, deals: 221, revenue: 12587, roas: 2.34 },
       { month: "Jun '25", spend: 5134, leads: 5387, cpl: 0.95, qualified: 441, cpql: 11.64, deals: 213, revenue: 11874, roas: 2.31 },
@@ -109,9 +109,9 @@ export const ecommercePet: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Ad Revenue", value: "$204.1K", growth: "+68%" },
+    { label: "Total Ad Revenue", value: "$205.0K", growth: "+68%" },
     { label: "Total Orders", value: "3,659", growth: "+72%" },
-    { label: "Blended ROAS", value: "3.20x", growth: "+64%" },
+    { label: "Blended ROAS", value: "3.22x", growth: "+64%" },
     { label: "Cost Per Acquisition", value: "$17.42", growth: "↓42%" },
   ],
 };

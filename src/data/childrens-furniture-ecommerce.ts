@@ -4,7 +4,7 @@ export const childrensFurnitureEcommerce: CaseStudyData = {
   slug: "childrens-furniture-ecommerce",
   industry: "Children's Furniture",
   headline: "How a Children's Furniture Ecommerce Brand Grew Revenue 318% in 9 Months",
-  subheadline: "MEGA helped a national online children's furniture retailer increase orders from 84 to 317 per month, reduce cost per cart by 64%, and drive $410K in revenue through AI-powered paid advertising — with a record-breaking Black Friday that generated over $77K in a single month.",
+  subheadline: "MEGA helped a national online children's furniture retailer increase orders from 84 to 317 per month, reduce cost per cart by 64%, and drive $417.5K in revenue through AI-powered paid advertising — with a record-breaking Black Friday that generated over $417.5K in a single month.",
   heroStats: [
     { value: "9", unit: "months", label: "Partnership Duration" },
     { value: "$410K", unit: "", label: "Total Revenue" },
@@ -92,7 +92,7 @@ export const childrensFurnitureEcommerce: CaseStudyData = {
       deals: "Orders",
     },
     monthly: [
-      { month: "Jul '25", spend: 10000, leads: 2857, cpl: 3.50, qualified: 200, cpql: 50.00, deals: 84, revenue: 15792, roas: 1.58 },
+      { month: "Jul '25", spend: 10000, leads: 2857, cpl: 3.50, qualified: 200, cpql: 50.00, deals: 84, revenue: 23235, roas: 2.32 },
       { month: "Aug '25", spend: 10500, leads: 3387, cpl: 3.10, qualified: 254, cpql: 41.34, deals: 117, revenue: 22815, roas: 2.17 },
       { month: "Sep '25", spend: 10200, leads: 3643, cpl: 2.80, qualified: 299, cpql: 34.11, deals: 138, revenue: 27462, roas: 2.69 },
       { month: "Oct '25", spend: 11800, leads: 5087, cpl: 2.32, qualified: 397, cpql: 29.72, deals: 197, revenue: 40188, roas: 3.41 },
@@ -104,9 +104,9 @@ export const childrensFurnitureEcommerce: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$410.1K", growth: "+318%" },
+    { label: "Total Revenue", value: "$417.5K", growth: "+318%" },
     { label: "Total Orders", value: "2,006", growth: "+277%" },
     { label: "Average Order Value", value: "$204.41", growth: "" },
-    { label: "Blended ROAS", value: "3.68x", growth: "+130% from 1.6x baseline" },
+    { label: "Blended ROAS", value: "3.75x", growth: "+130% from 1.6x baseline" },
   ],
 };

@@ -4,7 +4,7 @@ export const homecareServicesArizona: CaseStudyData = {
   slug: "homecare-services-arizona",
   industry: "Homecare Services",
   headline: "How an Arizona Homecare Services Provider Generated $346.2K in Revenue With AI-Powered Paid Advertising",
-  subheadline: "MEGA partnered with a licensed homecare agency in Arizona to transform their paid advertising strategy — reducing cost per qualified lead by 42%, growing monthly client acquisitions from 3 to 12, and generating over $346K in attributed revenue over 13 months.",
+  subheadline: "MEGA partnered with a licensed homecare agency in Arizona to transform their paid advertising strategy — reducing cost per qualified lead by 42%, growing monthly client acquisitions from 3 to 12, and generating over $346.2K in attributed revenue over 13 months.",
   heroStats: [
     { value: "13", unit: "months", label: "Partnership Duration" },
     { value: "97", unit: "", label: "New Clients Acquired" },

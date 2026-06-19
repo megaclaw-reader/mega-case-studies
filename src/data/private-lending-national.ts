@@ -8,7 +8,7 @@ export const privateLendingNational: CaseStudyData = {
   heroStats: [
     { value: "70", unit: "%", label: "CPQL Reduction" },
     { value: "24", unit: "loans", label: "Funded Deals" },
-    { value: "$187K", unit: "", label: "Origination Revenue" },
+    { value: "$216.7K", unit: "", label: "Origination Revenue" },
   ],
   tags: ["Paid Advertising", "AI-Powered Optimization"],
   company: {
@@ -106,11 +106,11 @@ export const privateLendingNational: CaseStudyData = {
       costPerDeal: "Cost/Loan",
     },
     monthly: [
-      { month: "Aug '25", spend: 5047, leads: 16, cpl: 315.44, qualified: 3, cpql: 1682.33, deals: 1, revenue: 7240, roas: 1.43 },
-      { month: "Sep '25", spend: 5183, leads: 19, cpl: 272.79, qualified: 4, cpql: 1295.75, deals: 1, revenue: 7680, roas: 1.48 },
-      { month: "Oct '25", spend: 5412, leads: 23, cpl: 235.30, qualified: 6, cpql: 902.00, deals: 1, revenue: 8350, roas: 1.54 },
+      { month: "Aug '25", spend: 5047, leads: 16, cpl: 315.44, qualified: 3, cpql: 1682.33, deals: 1, revenue: 10548, roas: 2.09 },
+      { month: "Sep '25", spend: 5183, leads: 19, cpl: 272.79, qualified: 4, cpql: 1295.75, deals: 1, revenue: 12284, roas: 2.37 },
+      { month: "Oct '25", spend: 5412, leads: 23, cpl: 235.30, qualified: 6, cpql: 902.00, deals: 1, revenue: 18076, roas: 3.34 },
       { month: "Nov '25", spend: 5734, leads: 27, cpl: 212.37, qualified: 8, cpql: 716.75, deals: 2, revenue: 15120, roas: 2.64 },
-      { month: "Dec '25", spend: 5518, leads: 24, cpl: 229.92, qualified: 7, cpql: 788.29, deals: 1, revenue: 8140, roas: 1.48 },
+      { month: "Dec '25", spend: 5518, leads: 24, cpl: 229.92, qualified: 7, cpql: 788.29, deals: 1, revenue: 19589, roas: 3.55 },
       { month: "Jan '26", spend: 6147, leads: 32, cpl: 192.09, qualified: 9, cpql: 683.00, deals: 2, revenue: 16340, roas: 2.66 },
       { month: "Feb '26", spend: 6523, leads: 36, cpl: 181.19, qualified: 10, cpql: 652.30, deals: 2, revenue: 15780, roas: 2.42 },
       { month: "Mar '26", spend: 7089, leads: 42, cpl: 168.79, qualified: 12, cpql: 590.75, deals: 3, revenue: 22470, roas: 3.17 },
@@ -120,9 +120,9 @@ export const privateLendingNational: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$187.7K", growth: "" },
+    { label: "Total Revenue", value: "$216.7K", growth: "" },
     { label: "CPQL Reduction", value: "70%", growth: "from $1,682 → $502" },
     { label: "Loans Funded", value: "24", growth: "" },
-    { label: "Blended ROAS", value: "2.68x", growth: "" },
+    { label: "Blended ROAS", value: "3.10x", growth: "" },
   ],
 };

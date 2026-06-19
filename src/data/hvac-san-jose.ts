@@ -3,7 +3,7 @@ import { CaseStudyData } from "./types";
 export const hvacSanJose: CaseStudyData = {
   slug: "hvac-san-jose",
   industry: "HVAC",
-  headline: "How a San Jose HVAC Company Generated 380 Qualified Leads and $286K in Revenue in 13 Months",
+  headline: "How a San Jose HVAC Company Generated 380 Qualified Leads and $286.1K in Revenue in 13 Months",
   subheadline: "MEGA helped a family-owned HVAC business in San Jose, California reduce their cost per qualified lead by 68%, grow organic traffic 835%, and establish dominance in Silicon Valley's competitive home services market through strategic SEO and paid advertising.",
   heroStats: [
     { value: "13", unit: "months", label: "Partnership Duration" },
@@ -198,7 +198,7 @@ export const hvacSanJose: CaseStudyData = {
   impact: [
     { label: "Total Revenue", value: "$286.1K", growth: "+54%" },
     { label: "Total Qualified Leads", value: "380", growth: "↓68% CPQL" },
-    { label: "Avg Revenue Per Job", value: "$1,438", growth: "" },
+    { label: "Avg Revenue Per Job", value: "$286.1K", growth: "" },
     { label: "Blended ROAS", value: "4.12x", growth: "" },
   ],
 };

@@ -3,7 +3,7 @@ import { CaseStudyData } from "./types";
 export const fitnessEquipmentPhoenix: CaseStudyData = {
   slug: "fitness-equipment",
   industry: "Fitness Equipment",
-  headline: "Phoenix Fitness Equipment Retailer Achieves 3.9x ROAS and $569K in Revenue Through AI-Powered Marketing",
+  headline: "Phoenix Fitness Equipment Retailer Achieves 3.9x ROAS and $569.3K in Revenue Through AI-Powered Marketing",
   subheadline: "How MEGA's always-on optimization and full-stack strategy generated 714 qualified leads and 158 closed deals for a growing Phoenix fitness equipment business over 13 months",
   heroStats: [
     { value: "$569.3K", unit: "K", label: "Revenue Attributed" },

@@ -3,8 +3,8 @@ import { CaseStudyData } from "./types";
 export const restorationRemediationPhoenix: CaseStudyData = {
   slug: "restoration-remediation-phoenix",
   industry: "Restoration and Remediation",
-  headline: "Phoenix Restoration Company Reduces Cost Per Qualified Lead 58% While Generating $918K in Revenue from Water, Mold, and Fire Damage Jobs",
-  subheadline: "AI-powered paid advertising optimization generated 805 qualified leads and over $917K in restoration revenue across the Phoenix metro area over 13 months, with cost per qualified lead dropping from $408 to $173 through continuous AI optimization and lead quality improvements.",
+  headline: "Phoenix Restoration Company Reduces Cost Per Qualified Lead 58% While Generating $918.0K in Revenue from Water, Mold, and Fire Damage Jobs",
+  subheadline: "AI-powered paid advertising optimization generated 805 qualified leads and over $918.0K in restoration revenue across the Phoenix metro area over 13 months, with cost per qualified lead dropping from $408 to $173 through continuous AI optimization and lead quality improvements.",
   heroStats: [
     { value: "58", unit: "%", label: "CPQL Reduction" },
     { value: "805", unit: "", label: "Qualified Leads" },

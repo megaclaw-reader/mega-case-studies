@@ -6,7 +6,7 @@ export const roofingTexas: CaseStudyData = {
   headline: "How a Texas Roofing Company Generated $516.3K in Revenue Through Paid Advertising in 8 Months",
   subheadline: "Leveraging AI-powered ad optimization to capture storm season demand and dominate Texas's competitive roofing market",
   heroStats: [
-    { value: "516.3", unit: "K", label: "Total Revenue Generated" },
+    { value: "$516.3K", unit: "K", label: "Total Revenue Generated" },
     { value: "3.9", unit: "x", label: "Blended ROAS" },
     { value: "591", unit: "", label: "Qualified Leads" }
   ],
