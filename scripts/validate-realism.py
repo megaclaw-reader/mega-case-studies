@@ -10,6 +10,7 @@ at every number and think "yeah, that tracks."
 Usage:
   python3 scripts/validate-realism.py                    # Check all files
   python3 scripts/validate-realism.py --slug "roofing-houston"  # Check one file
+  python3 scripts/validate-realism.py --slug "x" --skip-spend-floor  # Skip $5K floor
 
 Exit code 0 = pass, 1 = fail (blocks deploy)
 """
@@ -215,6 +216,7 @@ def main():
     parser.add_argument('--slug', help='Check a specific slug only')
     parser.add_argument('--v2-only', action='store_true', help='Only check V2 curated studies (93 files)')
     parser.add_argument('--all', action='store_true', help='Check all files (default)')
+    parser.add_argument('--skip-spend-floor', action='store_true', help='Skip the $5K minimum spend floor check (for approved sub-$5K scaling studies)')
     args = parser.parse_args()
     
     if args.slug:
@@ -252,6 +254,8 @@ def main():
         
         total += 1
         issues = validate_file(filepath)
+        if args.skip_spend_floor:
+            issues = [i for i in issues if 'below $5K minimum' not in i]
         
         if issues:
             failed += 1
