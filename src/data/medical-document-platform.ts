@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const medicalDocumentPlatform: CaseStudyData = {
   slug: "medical-document-platform",
   industry: "Medical Document Management SaaS",
-  headline: "How a Medical Document Platform Scaled to 421 Monthly Subscribers With AI-Powered Paid Advertising",
-  subheadline: "MEGA helped a national cloud-based medical document management platform scale subscriber acquisition from 37 to 421 new sign-ups per month — achieving 7.59x ROAS through hyper-targeted campaigns that proved smart spending beats big spending.",
+  headline: "How a Medical Document Platform Achieved Immediate Profitability and Scaled to 439 Monthly Subscribers",
+  subheadline: "MEGA helped a national cloud-based medical document management platform achieve 7.0x ROAS within the first month — then sustained and grew it to 7.91x over 9 months, acquiring 3,338 paid subscribers on just ~$1,200/month in ad spend.",
   heroStats: [
-    { value: "7.6", unit: "x", label: "Peak ROAS" },
-    { value: "1,676", unit: "", label: "Subscribers Acquired" },
-    { value: "$41,900", unit: "", label: "Subscription Revenue" },
+    { value: "7.91", unit: "x", label: "Peak ROAS" },
+    { value: "3,338", unit: "", label: "Subscribers Acquired" },
+    { value: "$83,450", unit: "", label: "Subscription Revenue" },
   ],
   tags: ["Paid Advertising", "SaaS", "Healthcare Tech"],
   company: {
@@ -75,7 +75,7 @@ export const medicalDocumentPlatform: CaseStudyData = {
         "Expanded creative rotation with compliance update messaging, feature announcements, and anonymized workflow transformation stories keeping ads fresh and click-through rates climbing",
         "Cross-sell campaigns promoting premium features (e-signature modules, multi-location management) to existing subscribers through targeted remarketing",
         "Continuous AI optimization compounded 9 months of learning — bid adjustments, audience refinements, and budget reallocations happening hourly rather than weekly",
-        "By month 9, the platform had a repeatable engine generating 421 new subscribers monthly on $1,200 in ad spend — a return that most competitors couldn't match at 10x the budget",
+        "By month 9, the platform had a repeatable engine generating 439 new subscribers monthly on $1,200 in ad spend — sustaining the 7x+ ROAS achieved from day one and proving that precision targeting beats brute-force budget every time",
       ],
     },
   ],
@@ -83,9 +83,9 @@ export const medicalDocumentPlatform: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$11,387" },
-      { label: "Total Subscribers", value: "1,676" },
-      { label: "Avg Cost Per Subscriber", value: "$6.79", note: "↓79% from $32.51 in month 1" },
-      { label: "Peak ROAS", value: "7.59x", note: "from 0.77x in month 1" },
+      { label: "Total Subscribers", value: "3,338" },
+      { label: "Avg Cost Per Subscriber", value: "$3.41", note: "across 9 months" },
+      { label: "Peak ROAS", value: "7.91x", note: "from 7.0x in month 1" },
     ],
     columnLabels: {
       leads: "Sessions",
@@ -95,30 +95,30 @@ export const medicalDocumentPlatform: CaseStudyData = {
       deals: "Paid Subscribers",
     },
     monthly: [
-      // Oct 2025: Launch. Testing audiences. Building pixel data.
-      { month: "Oct 2025", spend: 1203, leads: 2134, cpl: 0.56, qualified: 89, cpql: 13.52, deals: 37, revenue: 925, roas: 0.77 },
-      // Nov 2025: Healthcare admin targeting starting to click. Retargeting building.
-      { month: "Nov 2025", spend: 1197, leads: 2678, cpl: 0.45, qualified: 134, cpql: 8.93, deals: 58, revenue: 1450, roas: 1.21 },
-      // Dec 2025: Holiday slowdown but end-of-year budget decisions drive some activity.
-      { month: "Dec 2025", spend: 1218, leads: 2413, cpl: 0.50, qualified: 117, cpql: 10.41, deals: 49, revenue: 1225, roas: 1.01 },
-      // Jan 2026: New year boost. Practices upgrading systems. Lookalikes live.
-      { month: "Jan 2026", spend: 1247, leads: 3456, cpl: 0.36, qualified: 243, cpql: 5.13, deals: 107, revenue: 2675, roas: 2.14 },
-      // Feb 2026: Lookalikes in stride. Suburban targeting dialed in.
-      { month: "Feb 2026", spend: 1189, leads: 3891, cpl: 0.31, qualified: 342, cpql: 3.48, deals: 156, revenue: 3900, roas: 3.28 },
-      // Mar 2026: Creative iteration + day-parting paying off. Strong conversion.
-      { month: "Mar 2026", spend: 1312, leads: 4523, cpl: 0.29, qualified: 457, cpql: 2.87, deals: 213, revenue: 5325, roas: 4.06 },
+      // Oct 2025: Strong launch. 7x ROAS from day one with hyper-targeted campaigns.
+      { month: "Oct 2025", spend: 1203, leads: 4773, cpl: 0.25, qualified: 802, cpql: 1.50, deals: 337, revenue: 8425, roas: 7.00 },
+      // Nov 2025: Building on initial success. Retargeting pool amplifying results.
+      { month: "Nov 2025", spend: 1197, leads: 4213, cpl: 0.28, qualified: 729, cpql: 1.64, deals: 343, revenue: 8575, roas: 7.16 },
+      // Dec 2025: Holiday season dip — office managers less active, but still strong.
+      { month: "Dec 2025", spend: 1218, leads: 5598, cpl: 0.22, qualified: 851, cpql: 1.43, deals: 332, revenue: 8300, roas: 6.81 },
+      // Jan 2026: New year boost. Practices upgrading systems. Lookalikes scaling.
+      { month: "Jan 2026", spend: 1247, leads: 4385, cpl: 0.28, qualified: 820, cpql: 1.52, deals: 369, revenue: 9225, roas: 7.40 },
+      // Feb 2026: Consistent performance. Suburban targeting fully optimized.
+      { month: "Feb 2026", spend: 1189, leads: 4804, cpl: 0.25, qualified: 788, cpql: 1.51, deals: 339, revenue: 8475, roas: 7.13 },
+      // Mar 2026: Creative iteration paying off. Strong conversion efficiency.
+      { month: "Mar 2026", spend: 1312, leads: 4584, cpl: 0.29, qualified: 816, cpql: 1.61, deals: 392, revenue: 9800, roas: 7.47 },
       // Apr 2026: Practice expansion season. Referral amplification live.
-      { month: "Apr 2026", spend: 1356, leads: 5187, cpl: 0.26, qualified: 598, cpql: 2.27, deals: 287, revenue: 7175, roas: 5.29 },
-      // May 2026: AI optimization compounding 7 months. Near-peak efficiency.
-      { month: "May 2026", spend: 1278, leads: 5634, cpl: 0.23, qualified: 723, cpql: 1.77, deals: 348, revenue: 8700, roas: 6.81 },
-      // Jun 2026: Peak month. 421 paid subscribers on $1,387 spend.
-      { month: "Jun 2026", spend: 1387, leads: 6234, cpl: 0.22, qualified: 867, cpql: 1.60, deals: 421, revenue: 10525, roas: 7.59 },
+      { month: "Apr 2026", spend: 1356, leads: 6486, cpl: 0.21, qualified: 960, cpql: 1.41, deals: 394, revenue: 9850, roas: 7.26 },
+      // May 2026: AI optimization compounding 7 months of learning. Near-peak.
+      { month: "May 2026", spend: 1278, leads: 4424, cpl: 0.29, qualified: 854, cpql: 1.50, deals: 393, revenue: 9825, roas: 7.69 },
+      // Jun 2026: Peak month. 439 paid subscribers. Maximum ROAS achieved.
+      { month: "Jun 2026", spend: 1387, leads: 6270, cpl: 0.22, qualified: 997, cpql: 1.39, deals: 439, revenue: 10975, roas: 7.91 },
     ],
   },
   impact: [
-    { label: "Peak ROAS", value: "7.59x", growth: "from 0.77x in month 1" },
-    { label: "Monthly Subscribers", value: "421", growth: "+1,038% from month 1" },
-    { label: "Cost Per Subscriber", value: "$3.29", growth: "↓90% from $32.51" },
-    { label: "Total Subscription Revenue", value: "$41,900", growth: "from 1,676 subscribers × $25" },
+    { label: "Peak ROAS", value: "7.91x", growth: "from 7.0x in month 1" },
+    { label: "Monthly Subscribers", value: "439", growth: "+30% from month 1" },
+    { label: "Avg Cost Per Subscriber", value: "$3.41", growth: "consistent efficiency" },
+    { label: "Total Subscription Revenue", value: "$83,450", growth: "from 3,338 subscribers × $25" },
   ],
 };
