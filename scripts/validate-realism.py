@@ -97,11 +97,12 @@ ROAS_CAPS = {
 def get_qual_range(industry, content):
     """Find the best matching qualification rate range for this industry."""
     # Check ecommerce first — must have ecom-specific metrics, not just columnLabels
-    has_sessions = bool(re.search(r'["\']Sessions["\']', content))
+    has_sessions = bool(re.search(r'["\']Sessions["\']', content)) or bool(re.search(r'["\']Site Visits["\']', content))
     has_orders = bool(re.search(r'["\']Orders["\']', content))
+    has_subscribers = bool(re.search(r'["\']Subscribers["\']', content))
     has_add_to_cart = 'addToCart' in content or bool(re.search(r'["\']Add to Cart["\']', content))
     has_ticket = bool(re.search(r'["\']Ticket (Purchases|Selections)["\']', content))
-    is_ecom = (has_sessions and has_orders) or has_add_to_cart or (has_sessions and has_ticket)
+    is_ecom = (has_sessions and has_orders) or has_add_to_cart or (has_sessions and has_ticket) or (has_sessions and has_subscribers)
     if is_ecom:
         return (0.01, 0.15)  # Ecom conversion rates: 1-5% typical, up to 10-15% for niche/targeted
     
@@ -126,11 +127,12 @@ def validate_file(filepath):
     industry = industry_m.group(1) if industry_m else fname.replace('.ts', '')
     
     # Detect ecom — must have ecom-specific metrics
-    has_sessions = bool(re.search(r'["\']Sessions["\']', content))
+    has_sessions = bool(re.search(r'["\']Sessions["\']', content)) or bool(re.search(r'["\']Site Visits["\']', content))
     has_orders = bool(re.search(r'["\']Orders["\']', content))
+    has_subscribers = bool(re.search(r'["\']Subscribers["\']', content))
     has_add_to_cart = 'addToCart' in content or bool(re.search(r'["\']Add to Cart["\']', content))
     has_ticket = bool(re.search(r'["\']Ticket (Purchases|Selections)["\']', content))
-    is_ecom = (has_sessions and has_orders) or has_add_to_cart or (has_sessions and has_ticket)
+    is_ecom = (has_sessions and has_orders) or has_add_to_cart or (has_sessions and has_ticket) or (has_sessions and has_subscribers)
     roas_cap = ROAS_CAPS['ecom'] if is_ecom else ROAS_CAPS['lead_gen']
     
     # Get paid ads data

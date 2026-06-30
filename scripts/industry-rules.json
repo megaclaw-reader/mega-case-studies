@@ -821,7 +821,8 @@
     "Healthcare Software": "saas",
     "Window Repair": "lead_gen_services",
     "Private Lending": "lead_gen_professional",
-    "Real Estate Agent": "real_estate"
+    "Medical Document Platform": "saas",
+    "Medical Document Management SaaS": "subscription"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",
@@ -837,6 +838,7 @@
     "Children's Furniture": "ecommerce",
     "Home Furniture": "ecommerce",
     "Higher Education": "lead_gen_professional",
-    "Retail / E-commerce / Apparel": "ecommerce"
+    "Retail / E-commerce / Apparel": "ecommerce",
+    "Medical Document Management SaaS": "subscription"
   }
 }

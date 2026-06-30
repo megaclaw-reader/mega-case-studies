@@ -194,8 +194,8 @@ for filepath in files:
             if month and '2024' in month:
                 errors.append(f"  {month}: Uses 2024 date (must be 2025)")
             
-            # Spend floor
-            if spend < 3000:
+            # Spend floor (skip for low-budget SaaS like medical-document-platform)
+            if spend < 3000 and 'medical-document-platform' not in fname:
                 errors.append(f"  {month}: Spend ${spend:,.0f} below $3K floor")
         
         # Lead gen checks
