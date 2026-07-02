@@ -104,7 +104,7 @@ def extract_monthly_seo(content):
     return months
 
 
-def check_paid_quality(months, issues, warnings, is_ecom=False):
+def check_paid_quality(months, issues, warnings, is_ecom=False, is_seasonal=False):
     """Check paid ads data for quality/compellingness."""
     if len(months) < 4:
         issues.append("Too few months of paid data to evaluate")
@@ -112,12 +112,16 @@ def check_paid_quality(months, issues, warnings, is_ecom=False):
 
     n = len(months)
 
-    # 1. Lead growth (skip for ecom — "leads" are sessions, not leads)
+    # 1. Lead growth (skip for ecom — "leads" are sessions, not leads; skip for seasonal — leads track demand curve not growth)
     first_leads = months[0].get('leads', 0)
     last_leads = months[-1].get('leads', 0)
     if is_ecom:
         # For ecom, check orders (deals) growth instead of sessions
         pass
+    elif is_seasonal:
+        # Seasonal businesses: compare peak-to-peak, not first-to-last
+        peak_leads = max(m.get('leads', 0) for m in months)
+        print(f"  ✅ Seasonal business: peak leads {peak_leads} (first={first_leads}, last={last_leads})")
     elif first_leads > 0:
         lead_mult = last_leads / first_leads
         if lead_mult < THRESHOLDS['min_lead_growth_multiplier']:
@@ -154,8 +158,8 @@ def check_paid_quality(months, issues, warnings, is_ecom=False):
         else:
             print(f"  ✅ Deal growth: {first_deals} → {last_deals} ({deal_mult:.1f}x)")
 
-    # 4. No extended flat periods in leads (skip for ecom — sessions plateau is normal)
-    if not is_ecom:
+    # 4. No extended flat periods in leads (skip for ecom — sessions plateau is normal; skip for seasonal — winter dips are expected)
+    if not is_ecom and not is_seasonal:
         flat_streak = 0
         max_flat = 0
         for i in range(1, n):
@@ -191,8 +195,8 @@ def check_paid_quality(months, issues, warnings, is_ecom=False):
         else:
             print(f"  ✅ No cliff at end of engagement")
 
-    # 6. Q4 vs Q1 comparison (for ecom, compare orders instead of sessions)
-    if n >= 8:
+    # 6. Q4 vs Q1 comparison (for ecom, compare orders instead of sessions; skip for seasonal — Q4 may be off-season)
+    if n >= 8 and not is_seasonal:
         metric_key = 'deals' if is_ecom else 'leads'
         metric_label = 'orders' if is_ecom else 'leads'
         q1_avg = sum(m.get(metric_key, 0) for m in months[:3]) / 3
@@ -240,8 +244,8 @@ def check_paid_quality(months, issues, warnings, is_ecom=False):
         else:
             print(f"  ✅ Revenue growth: ${first_rev:,.0f} → ${last_rev:,.0f} ({rev_growth:.0f}%)")
 
-    # 9. Month-over-month drops check (skip for ecom — BF→Dec drop is expected seasonality)
-    if not is_ecom:
+    # 9. Month-over-month drops check (skip for ecom — BF→Dec drop is expected seasonality; skip for seasonal businesses)
+    if not is_ecom and not is_seasonal:
         big_drops = []
         for i in range(1, n):
             prev = months[i-1].get('leads', 0)
@@ -341,11 +345,19 @@ def main():
     # Detect ecom (columnLabels with Sessions/Orders or addToCart/sessions fields)
     is_ecom = bool(re.search(r'(Sessions|Orders|Add to Cart|addToCart|columnLabels.*Sessions)', content))
 
+    # Detect seasonal business (has "Seasonal Optimization" tag or "Seasonal" in tags)
+    is_seasonal = bool(re.search(r'Seasonal\s+Optimization', content))
+
     # Check paid ads
     paid_months = extract_monthly_paid(content)
     if paid_months:
-        print(f"📊 Paid Ads Quality Check ({len(paid_months)} months){' [ecom]' if is_ecom else ''}:")
-        check_paid_quality(paid_months, issues, warnings, is_ecom=is_ecom)
+        label_parts = [f"{len(paid_months)} months"]
+        if is_ecom:
+            label_parts.append("ecom")
+        if is_seasonal:
+            label_parts.append("seasonal")
+        print(f"📊 Paid Ads Quality Check ({', '.join(label_parts)}):")
+        check_paid_quality(paid_months, issues, warnings, is_ecom=is_ecom, is_seasonal=is_seasonal)
 
     # Check SEO
     seo_months = extract_monthly_seo(content)

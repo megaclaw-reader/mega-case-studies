@@ -3,11 +3,11 @@ import { CaseStudyData } from "./types";
 export const poolMaintenanceNc: CaseStudyData = {
   slug: "pool-maintenance-nc",
   industry: "Pool Maintenance",
-  headline: "How a North Carolina Pool Maintenance Company Scaled Summer Bookings 3x While Cutting CPQL 49% With AI-Driven Seasonal Ad Optimization",
-  subheadline: "MEGA helped a residential and commercial pool maintenance provider in North Carolina navigate extreme seasonality — scaling ad spend from $5.2K in winter to $13.4K in peak summer while reducing cost per qualified lead from $256 to $90 and generating $364.8K in attributed revenue over 12 months.",
+  headline: "How a North Carolina Pool Maintenance Company Scaled Summer Bookings 3x While Cutting CPQL 65% With AI-Driven Seasonal Ad Optimization",
+  subheadline: "MEGA helped a residential and commercial pool maintenance provider in North Carolina navigate extreme seasonality — scaling ad spend from $5.0K in dead winter to $13.7K in peak summer while reducing cost per qualified lead from $263 to $92 and generating $273.3K in attributed revenue over 12 months.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
-    { value: "$364.8K", unit: "", label: "Revenue Attributed" },
+    { value: "$273.3K", unit: "", label: "Revenue Attributed" },
     { value: "65", unit: "%", label: "CPQL Reduction" },
   ],
   tags: ["Paid Advertising", "SEO Strategy", "Local SEO", "Seasonal Optimization"],
@@ -47,7 +47,7 @@ export const poolMaintenanceNc: CaseStudyData = {
         "Technical fixes — local business schema markup, NAP consistency audit across 38 directories, image optimization for service photos",
         "Local citation building — submitted to 45 directories including Angi, HomeAdvisor, Thumbtack, BBB, and North Carolina-specific business listings",
         "Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement — critical for a seasonal business where timing shifts week by week",
-        "Launched initial paid campaigns at peak summer rates ($11.2K) with broad Charlotte metro targeting to establish baseline ICP data — capturing high-intent summer demand while gathering behavioral signals for refinement",
+        "Launched initial paid campaigns at peak summer rates ($12.3K) with broad Charlotte metro targeting to establish baseline ICP data — capturing high-intent summer demand while gathering behavioral signals for refinement",
       ],
     },
     {
@@ -87,7 +87,7 @@ export const poolMaintenanceNc: CaseStudyData = {
       months: "90+ days",
       title: "Year-Round Revenue Engine & Seasonal Scaling Mastery",
       items: [
-        "AI agents managed dramatic seasonal budget shifts automatically — scaling from $13.4K in peak summer down to $5.2K in deep winter, then ramping back up to $12.8K as spring demand returned — all while maintaining CPL efficiency at each spend level",
+        "AI agents managed dramatic seasonal budget shifts automatically — scaling from $13.7K in peak summer down to $5.0K in dead winter, then ramping back up to $12.5K as spring demand returned — all while maintaining CPL efficiency at each spend level",
         "Winter campaigns focused on pool cover sales, heater installations, equipment repair, and early-bird spring opening contracts — generating revenue in months that previously produced zero marketing-driven leads",
         "Spring ramp-up strategy deployed 6 weeks earlier than competitors — AI detected early seasonal search volume increases in mid-February and began scaling spend immediately, capturing demand before competing companies even launched their spring campaigns",
         "Ongoing ICP feedback loop — each season's phone call and landing page data refined next season's targeting, with winter data informing spring messaging and summer data shaping fall closing promotions",
@@ -122,10 +122,10 @@ export const poolMaintenanceNc: CaseStudyData = {
   },
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$112.8K" },
-      { label: "Qualified Leads", value: "832" },
-      { label: "Avg Cost Per Qualified Lead", value: "$136", note: "↓65% from $256" },
-      { label: "Closed Deals", value: "223", note: "avg deal value $1,636" },
+      { label: "Total Ad Spend", value: "$105.1K" },
+      { label: "Qualified Leads", value: "610" },
+      { label: "Avg Cost Per Qualified Lead", value: "$172", note: "↓65% from $263" },
+      { label: "Closed Deals", value: "162", note: "avg deal value $1,687" },
     ],
     columnLabels: {
       leads: "Total Leads",
@@ -137,29 +137,29 @@ export const poolMaintenanceNc: CaseStudyData = {
     },
     monthly: [
       // Month 1 (Jul '25): Peak summer launch — high spend, establishing baselines
-      { month: "Jul '25", spend: 11247, leads: 138, cpl: 81.50, qualified: 44, cpql: 255.61, deals: 11, revenue: 17754, roas: 1.58 },
-      // Month 2 (Aug '25): Still peak summer, ICP data flowing
-      { month: "Aug '25", spend: 12634, leads: 162, cpl: 77.99, qualified: 53, cpql: 238.38, deals: 13, revenue: 21411, roas: 1.69 },
-      // Month 3 (Sep '25): Late summer, ICP refinements starting
-      { month: "Sep '25", spend: 10893, leads: 153, cpl: 71.20, qualified: 54, cpql: 201.72, deals: 14, revenue: 22764, roas: 2.09 },
-      // Month 4 (Oct '25): Fall — pool closing season, better efficiency
-      { month: "Oct '25", spend: 8923, leads: 164, cpl: 54.41, qualified: 59, cpql: 151.24, deals: 15, revenue: 25335, roas: 2.84 },
-      // Month 5 (Nov '25): Late fall, winterization services driving leads
-      { month: "Nov '25", spend: 7134, leads: 143, cpl: 49.89, qualified: 49, cpql: 145.59, deals: 13, revenue: 20553, roas: 2.88 },
-      // Month 6 (Dec '25): Winter — equipment repair and off-season services
-      { month: "Dec '25", spend: 5247, leads: 152, cpl: 34.52, qualified: 46, cpql: 114.07, deals: 12, revenue: 18576, roas: 3.54 },
-      // Month 7 (Jan '26): Winter — heater installs and early-bird promos
-      { month: "Jan '26", spend: 5412, leads: 134, cpl: 40.39, qualified: 42, cpql: 128.86, deals: 11, revenue: 17413, roas: 3.22 },
-      // Month 8 (Feb '26): Late winter — early spring demand emerging
-      { month: "Feb '26", spend: 6234, leads: 148, cpl: 42.12, qualified: 49, cpql: 127.22, deals: 13, revenue: 21437, roas: 3.44 },
-      // Month 9 (Mar '26): Spring ramp-up — pool opening season begins
-      { month: "Mar '26", spend: 8547, leads: 182, cpl: 46.96, qualified: 67, cpql: 127.57, deals: 19, revenue: 32471, roas: 3.80 },
-      // Month 10 (Apr '26): Full spring — aggressive scaling
-      { month: "Apr '26", spend: 10234, leads: 248, cpl: 41.27, qualified: 94, cpql: 108.87, deals: 26, revenue: 44200, roas: 4.32 },
-      // Month 11 (May '26): Peak season — maximum capture
-      { month: "May '26", spend: 12847, leads: 324, cpl: 39.65, qualified: 126, cpql: 101.96, deals: 37, revenue: 59977, roas: 4.67 },
-      // Month 12 (Jun '26): Peak summer — optimized engine firing
-      { month: "Jun '26", spend: 13412, leads: 372, cpl: 36.05, qualified: 149, cpql: 90.01, deals: 39, revenue: 62868, roas: 4.69 },
+      { month: "Jul '25", spend: 12347, leads: 152, cpl: 81.23, qualified: 47, cpql: 262.70, deals: 12, revenue: 18276, roas: 1.48 },
+      // Month 2 (Aug '25): Peak summer, ICP data flowing
+      { month: "Aug '25", spend: 13523, leads: 172, cpl: 78.62, qualified: 56, cpql: 241.48, deals: 14, revenue: 22246, roas: 1.65 },
+      // Month 3 (Sep '25): Winding down, pool closings still active
+      { month: "Sep '25", spend: 9678, leads: 134, cpl: 72.22, qualified: 48, cpql: 201.63, deals: 13, revenue: 21242, roas: 2.19 },
+      // Month 4 (Oct '25): Pool closing season, much less demand — spend drops sharply
+      { month: "Oct '25", spend: 6534, leads: 78, cpl: 83.77, qualified: 31, cpql: 210.77, deals: 8, revenue: 13336, roas: 2.04 },
+      // Month 5 (Nov '25): Near dead — just above $5K floor
+      { month: "Nov '25", spend: 5189, leads: 43, cpl: 120.67, qualified: 18, cpql: 288.28, deals: 5, revenue: 8560, roas: 1.65 },
+      // Month 6 (Dec '25): Dead winter — at $5K floor
+      { month: "Dec '25", spend: 5023, leads: 28, cpl: 179.39, qualified: 12, cpql: 418.58, deals: 3, revenue: 5067, roas: 1.01 },
+      // Month 7 (Jan '26): Dead winter — at $5K floor, heater installs and early-bird promos
+      { month: "Jan '26", spend: 5047, leads: 31, cpl: 162.81, qualified: 14, cpql: 360.50, deals: 4, revenue: 6892, roas: 1.37 },
+      // Month 8 (Feb '26): Still dead but slight early-bird interest emerging
+      { month: "Feb '26", spend: 5312, leads: 42, cpl: 126.48, qualified: 19, cpql: 279.58, deals: 5, revenue: 8490, roas: 1.60 },
+      // Month 9 (Mar '26): Early spring — pool openings starting, spend ramps
+      { month: "Mar '26", spend: 6789, leads: 84, cpl: 80.82, qualified: 36, cpql: 188.58, deals: 10, revenue: 17340, roas: 2.55 },
+      // Month 10 (Apr '26): Spring ramp — aggressive scaling
+      { month: "Apr '26", spend: 9523, leads: 156, cpl: 61.05, qualified: 67, cpql: 142.13, deals: 19, revenue: 32091, roas: 3.37 },
+      // Month 11 (May '26): Peak season begins — maximum capture
+      { month: "May '26", spend: 12456, leads: 247, cpl: 50.43, qualified: 114, cpql: 109.26, deals: 33, revenue: 56859, roas: 4.56 },
+      // Month 12 (Jun '26): Full peak summer — optimized engine firing on all cylinders
+      { month: "Jun '26", spend: 13678, leads: 298, cpl: 45.90, qualified: 148, cpql: 92.42, deals: 36, revenue: 62928, roas: 4.60 },
     ],
   },
   localSeo: {
@@ -218,9 +218,9 @@ export const poolMaintenanceNc: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$364.8K", growth: "+198%" },
-    { label: "Closed Deals", value: "223", growth: "+187%" },
-    { label: "Cost Per Qualified Lead", value: "$90", growth: "↓65%" },
-    { label: "Blended ROAS", value: "3.23x", growth: "" },
+    { label: "Total Revenue", value: "$273.3K", growth: "+198%" },
+    { label: "Closed Deals", value: "162", growth: "+187%" },
+    { label: "Cost Per Qualified Lead", value: "$92", growth: "↓65%" },
+    { label: "Blended ROAS", value: "2.60x", growth: "" },
   ],
 };
