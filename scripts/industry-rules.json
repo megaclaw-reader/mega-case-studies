@@ -822,7 +822,8 @@
     "Window Repair": "lead_gen_services",
     "Private Lending": "lead_gen_professional",
     "Medical Document Platform": "saas",
-    "Medical Document Management SaaS": "subscription"
+    "Medical Document Management SaaS": "subscription",
+    "Pool Maintenance": "lead_gen_services"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",
