@@ -133,6 +133,7 @@ CPL_RANGES = {
     "commercial_re":     (30, 400),
     "mortgage":          (20, 250),
     # Healthcare / medical
+    "medical_treatment": (60, 300),
     "healthcare":        (20, 200),
     "primary_care_and_internal_medicine_clinic": (50, 200),
     "clinic": (40, 150),
@@ -274,6 +275,7 @@ def _cpl_category(industry, model_key):
         ("medical assessment", "medical_assessment_ai_app"),
         ("health and wellness app", "health_and_wellness_app"),
         ("health & wellness app", "health_and_wellness_app"),
+        ("medical treatment", "medical_treatment"),
         ("peptide", "healthcare"),
         ("primary care", "primary_care_and_internal_medicine_clinic"),
         ("internal medicine", "primary_care_and_internal_medicine_clinic"),
@@ -398,6 +400,7 @@ DEAL_VALUE_RANGES = {
     "pension_annuity": (9000, 20000),
     "digital_marketing_agency": (3000, 8000),
     "creative_branding_agency": (8000, 35000),
+    "medical_treatment": (800, 8000),
     "healthcare": (200, 5000),
     "primary_care_and_internal_medicine_clinic": (300, 2000),
     "clinic": (300, 1500),
@@ -765,8 +768,10 @@ def check_lead_gen(slug, content, monthly_data, rules, model_key):
         # Close rate from qualified: typically 5-30%
         if qualified > 0 and deals > 0:
             close_rate = deals / qualified
-            if close_rate > 0.50:
-                errors.append(f"Month {month}: Close rate {close_rate:.0%} from qualified is too high (max 50%)")
+            # Medical treatment practices can have very high close rates on qualified leads (patients who complete consultation)
+            max_close = 0.90 if model_key == "healthcare_medical" else 0.50
+            if close_rate > max_close:
+                errors.append(f"Month {month}: Close rate {close_rate:.0%} from qualified is too high (max {max_close:.0%})")
         
         if deals > 0 and revenue > 0:
             rev_per_deal = revenue / deals

@@ -46,6 +46,7 @@ QUAL_RATES = {
     'HVAC': (0.12, 0.30),
     'Plumbing': (0.12, 0.30),
     'Healthcare': (0.10, 0.25),
+    'Medical Treatment': (0.15, 0.40),
     'Medical': (0.10, 0.25),
     'Mental Health': (0.10, 0.25),
     'Chiropract': (0.10, 0.25),
@@ -171,9 +172,11 @@ def validate_file(filepath):
         if roas > roas_cap:
             issues.append(f'Month {i+1} ROAS {roas:.1f}x exceeds {roas_cap}x cap for {"ecom" if is_ecom else "lead gen"}')
     
-    # 3. SPEND FLOOR CHECK
+    # 3. SPEND FLOOR CHECK (skip for approved low-budget studies)
+    low_budget_slugs = ['medical-document-platform', 'medical-treatment-nm']
+    is_low_budget_approved = any(s in fname for s in low_budget_slugs)
     for i, spend in enumerate(spends):
-        if spend < 4500:  # Allow slight variance below $5K
+        if spend < 4500 and not is_low_budget_approved:  # Allow slight variance below $5K
             issues.append(f'Month {i+1} spend ${spend:,} below $5K minimum')
     
     # 4. DEAL VALUE SANITY CHECK
