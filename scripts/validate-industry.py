@@ -128,6 +128,7 @@ CPL_RANGES = {
     "financial_advising": (80, 400),
     "venture_capital":   (100, 2000),
     "real_estate_investment": (60, 250),
+    "luxury_real_estate": (200, 600),
     "real_estate":       (20, 300),
     "real_estate_agent": (20, 300),
     "commercial_re":     (30, 400),
@@ -254,6 +255,7 @@ def _cpl_category(industry, model_key):
         ("financial", "financial_services"),
         ("newsletter", "newsletter"),
         ("commercial real", "commercial_re"),
+        ("luxury real estate", "luxury_real_estate"),
         ("real estate investment", "real_estate_investment"),
         ("real estate agent", "real_estate_agent"),
         ("real estate", "real_estate"),  # newsletters have unique economics
@@ -409,6 +411,7 @@ DEAL_VALUE_RANGES = {
     "rehab_center": (8000, 35000),
     "regen_medicine": (1500, 15000),
     "real_estate_investment": (15000, 65000),
+    "luxury_real_estate": (50000, 180000),
     "real_estate": (3000, 60000),
     "real_estate_agent": (10000, 25000),
     "commercial_re": (5000, 100000),
