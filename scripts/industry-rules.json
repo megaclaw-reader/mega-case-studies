@@ -830,7 +830,8 @@
     "Pool Maintenance": "lead_gen_services",
     "Landscaping Subscription": "lead_gen_services",
     "Medical Treatment": "healthcare_medical",
-    "Medical Treatment Practice": "healthcare_medical"
+    "Medical Treatment Practice": "healthcare_medical",
+    "Cybersecurity SaaS Platform": "saas"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",

@@ -328,6 +328,7 @@ import { injuryLawNewJersey } from "./injury-law-new-jersey";
 import { sportsTeamArizona } from "./sports-team-arizona";
 import { therapyArizona } from "./therapy-arizona";
 import { landscapingFl } from "./landscaping-fl";
+import { cybersecuritySaasSeo } from "./cybersecurity-saas-seo";
 
 export const caseStudies: Record<string, CaseStudyData> = {
   "medical-assessment-ai-app": medicalAssessmentAiApp,
@@ -658,6 +659,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "real-estate-agent-new-york-seo": realEstateAgentNewYorkSeo,
   "pool-maintenance-nc": poolMaintenanceNc,
   "landscaping-fl": landscapingFl,
+  "cybersecurity-saas-seo": cybersecuritySaasSeo,
 };
 
 export type { CaseStudyData };
