@@ -187,6 +187,10 @@
           300,
           1500
         ],
+        "medical_clinic": [
+          300,
+          1500
+        ],
         "therapy": [
           1200,
           3000
@@ -829,6 +833,7 @@
     "Medical Document Management SaaS": "subscription",
     "Pool Maintenance": "lead_gen_services",
     "Landscaping Subscription": "lead_gen_services",
+    "Medical Clinic": "lead_gen_services",
     "Medical Treatment": "healthcare_medical",
     "Medical Treatment Practice": "healthcare_medical",
     "Cybersecurity SaaS Platform": "saas",

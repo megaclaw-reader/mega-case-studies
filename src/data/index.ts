@@ -1,5 +1,6 @@
 import { CaseStudyData } from "./types";
 import { medicalDocumentPlatform } from "./medical-document-platform";
+import { medicalClinicPhoenix } from "./medical-clinic-phoenix";
 import { medicalTreatmentNm } from "./medical-treatment-nm";
 import { luxuryRealEstateMiami } from "./luxury-real-estate-miami";
 import { windowRepairArizona } from "./window-repair-arizona";
@@ -655,6 +656,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "therapy-arizona": therapyArizona,
   "healthcare-software-national": healthcareSoftwareNational,
   "medical-document-platform": medicalDocumentPlatform,
+  "medical-clinic-phoenix": medicalClinicPhoenix,
   "medical-treatment-nm": medicalTreatmentNm,
   "luxury-real-estate-miami": luxuryRealEstateMiami,
   "window-repair-arizona": windowRepairArizona,

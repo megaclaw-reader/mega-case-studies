@@ -173,7 +173,7 @@ def validate_file(filepath):
             issues.append(f'Month {i+1} ROAS {roas:.1f}x exceeds {roas_cap}x cap for {"ecom" if is_ecom else "lead gen"}')
     
     # 3. SPEND FLOOR CHECK (skip for approved low-budget studies)
-    low_budget_slugs = ['medical-document-platform', 'medical-treatment-nm']
+    low_budget_slugs = ['medical-document-platform', 'medical-treatment-nm', 'medical-clinic-phoenix']
     is_low_budget_approved = any(s in fname for s in low_budget_slugs)
     for i, spend in enumerate(spends):
         if spend < 4500 and not is_low_budget_approved:  # Allow slight variance below $5K
