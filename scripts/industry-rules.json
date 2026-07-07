@@ -843,7 +843,8 @@
     "Cybersecurity SaaS Platform": "saas",
     "Luxury Real Estate": "real_estate",
     "Personal Injury Law Firm": "lead_gen_professional",
-    "Home Decor": "ecommerce"
+    "Home Decor": "ecommerce",
+    "Specialty Medical Practice": "healthcare_medical"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",

@@ -1,4 +1,5 @@
 import { CaseStudyData } from "./types";
+import { specialtyMedicalHouston } from "./specialty-medical-houston";
 import { medicalDocumentPlatform } from "./medical-document-platform";
 import { medicalClinicPhoenix } from "./medical-clinic-phoenix";
 import { medicalTreatmentNm } from "./medical-treatment-nm";
@@ -335,6 +336,7 @@ import { personalInjuryLawSc } from "./personal-injury-law-sc";
 import { homeDecor } from "./home-decor";
 
 export const caseStudies: Record<string, CaseStudyData> = {
+  "specialty-medical-houston": specialtyMedicalHouston,
   "medical-assessment-ai-app": medicalAssessmentAiApp,
   "ma-advisory": maAdvisory,
   "ai-business-automation-national": aiBusinessAutomationNational,
