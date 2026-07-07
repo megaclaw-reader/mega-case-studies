@@ -546,6 +546,10 @@
         "baby_clothing": [
           35,
           55
+        ],
+        "home_decor": [
+          120,
+          180
         ]
       }
     },
@@ -838,7 +842,8 @@
     "Medical Treatment Practice": "healthcare_medical",
     "Cybersecurity SaaS Platform": "saas",
     "Luxury Real Estate": "real_estate",
-    "Personal Injury Law Firm": "lead_gen_professional"
+    "Personal Injury Law Firm": "lead_gen_professional",
+    "Home Decor": "ecommerce"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",
