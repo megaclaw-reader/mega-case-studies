@@ -3,13 +3,13 @@ import { CaseStudyData } from "./types";
 export const multiLocationMedspaSouthwest: CaseStudyData = {
   slug: "multi-location-medspa-southwest",
   industry: "MedSpa",
-  headline: "Three-Location MedSpa Chain Drives $895.3K in Revenue and 3,622 New Patients Across Phoenix, Scottsdale, and Tucson",
-  subheadline: "Systematic approach to location-specific campaigns and local SEO drove 189% increase in qualified leads across three Southwest Arizona markets",
+  headline: "Three-Location MedSpa Chain Drives $895.3K in Revenue and 1,653 New Patients Across Phoenix, Scottsdale, and Tucson",
+  subheadline: "Systematic approach to location-specific campaigns and local SEO drove 147% increase in monthly leads and 50% reduction in cost per qualified lead across three Southwest Arizona markets",
   heroStats: [
     { value: "$895.3K", unit: "M", label: "Total Revenue" },
-    { value: "3,622", unit: "", label: "New Patients" },
-    { value: "1,261", unit: "", label: "Qualified Leads" },
-    { value: "2.8", unit: "x", label: "Blended ROAS" }
+    { value: "1,653", unit: "", label: "New Patients" },
+    { value: "2,674", unit: "", label: "Qualified Leads" },
+    { value: "2.78", unit: "x", label: "Blended ROAS" }
   ],
   tags: ["Multi-Location", "Paid Advertising", "SEO Strategy", "Local Marketing"],
   company: {
@@ -105,11 +105,11 @@ export const multiLocationMedspaSouthwest: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$321.6K" },
-      { label: "Qualified Leads", value: "1,261" },
-      { label: "Avg Cost Per Qualified Lead", value: "$255", note: "↓22% from $93" },
-      { label: "New Patients", value: "3,622", note: "avg treatment value $426" },
+      { label: "Qualified Leads", value: "2,674" },
+      { label: "Avg Cost Per Qualified Lead", value: "$120", note: "↓50% from $185" },
+      { label: "New Patients", value: "1,653", note: "avg treatment value $542" },
       { label: "Total Revenue", value: "$895.3K" },
-      { label: "Blended ROAS", value: "2.8x" }
+      { label: "Blended ROAS", value: "2.78x" }
     ],
     columnLabels: {
       leads: "Leads",
@@ -120,20 +120,20 @@ export const multiLocationMedspaSouthwest: CaseStudyData = {
       costPerDeal: "Cost/Patient"
     },
     monthly: [
-      { month: "Apr '25", spend: 27800, leads: 418, cpl: 66.5, qualified: 82, cpql: 339.3, deals: 31, revenue: 62894, roas: 2.26 },
-      { month: "May '25", spend: 31200, leads: 512, cpl: 60.9, qualified: 99, cpql: 315.6, deals: 43, revenue: 81026, roas: 2.6 },
-      { month: "Jun '25", spend: 33500, leads: 578, cpl: 57.9, qualified: 124, cpql: 270.2, deals: 49, revenue: 89255, roas: 2.66 },
-      { month: "Jul '25", spend: 35600, leads: 634, cpl: 56.2, qualified: 157, cpql: 227.2, deals: 66, revenue: 117086, roas: 3.29 },
-      { month: "Aug '25", spend: 29400, leads: 523, cpl: 56.2, qualified: 122, cpql: 241.0, deals: 41, revenue: 71136, roas: 2.42 },
-      { month: "Sep '25", spend: 38200, leads: 689, cpl: 55.4, qualified: 156, cpql: 245.6, deals: 59, revenue: 110768, roas: 2.9 },
-      { month: "Oct '25", spend: 41800, leads: 756, cpl: 55.3, qualified: 162, cpql: 258.7, deals: 60, revenue: 91772, roas: 2.2 },
-      { month: "Nov '25", spend: 45200, leads: 834, cpl: 54.2, qualified: 176, cpql: 257.6, deals: 68, revenue: 130500, roas: 2.89 },
-      { month: "Dec '25", spend: 38900, leads: 712, cpl: 54.6, qualified: 183, cpql: 213.8, deals: 77, revenue: 140846, roas: 3.62 }
+      { month: "Apr '25", spend: 27800, leads: 336, cpl: 82.7, qualified: 150, cpql: 185.3, deals: 116, revenue: 62894, roas: 2.26 },
+      { month: "May '25", spend: 31200, leads: 425, cpl: 73.4, qualified: 189, cpql: 165.1, deals: 151, revenue: 81026, roas: 2.6 },
+      { month: "Jun '25", spend: 33500, leads: 514, cpl: 65.2, qualified: 226, cpql: 148.2, deals: 163, revenue: 89255, roas: 2.66 },
+      { month: "Jul '25", spend: 35600, leads: 590, cpl: 60.3, qualified: 302, cpql: 117.9, deals: 219, revenue: 117086, roas: 3.29 },
+      { month: "Aug '25", spend: 29400, leads: 507, cpl: 58.0, qualified: 213, cpql: 138.0, deals: 135, revenue: 71136, roas: 2.42 },
+      { month: "Sep '25", spend: 38200, leads: 726, cpl: 52.6, qualified: 341, cpql: 112.0, deals: 203, revenue: 110768, roas: 2.9 },
+      { month: "Oct '25", spend: 41800, leads: 806, cpl: 51.9, qualified: 387, cpql: 108.0, deals: 194, revenue: 105000, roas: 2.51 },
+      { month: "Nov '25", spend: 45200, leads: 904, cpl: 50.0, qualified: 443, cpql: 102.0, deals: 217, revenue: 117272, roas: 2.59 },
+      { month: "Dec '25", spend: 38900, leads: 846, cpl: 46.0, qualified: 423, cpql: 92.0, deals: 255, revenue: 140846, roas: 3.62 }
     ]
   },
   impact: [
-    { label: "Total Revenue", value: "$895.3K", growth: "+47%" },
-    { label: "New Patients", value: "3,622", growth: "+189%" },
+    { label: "Total Revenue", value: "$895.3K", growth: "+124%" },
+    { label: "New Patients", value: "1,653", growth: "+120%" },
     { label: "Total Ad Spend", value: "$321.6K", growth: "+40% monthly scaling" },
     { label: "Blended ROAS", value: "2.78x", growth: "+31%" },
     { label: "Organic Keywords", value: "8,234", growth: "+2,252%" },
