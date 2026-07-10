@@ -1,4 +1,5 @@
 import { CaseStudyData } from "./types";
+import { businessLawFlorida } from "./business-law-florida";
 import { specialtyMedicalHouston } from "./specialty-medical-houston";
 import { medicalDocumentPlatform } from "./medical-document-platform";
 import { medicalClinicPhoenix } from "./medical-clinic-phoenix";
@@ -669,6 +670,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "pool-maintenance-nc": poolMaintenanceNc,
   "landscaping-fl": landscapingFl,
   "cybersecurity-saas-seo": cybersecuritySaasSeo,
+  "business-law-florida": businessLawFlorida,
   "personal-injury-law-sc": personalInjuryLawSc,
   "home-decor": homeDecor,
   "wellness-classes-seo-arizona": wellnessClassesSeoArizona,

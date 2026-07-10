@@ -845,7 +845,8 @@
     "Personal Injury Law Firm": "lead_gen_professional",
     "Home Decor": "ecommerce",
     "Specialty Medical Practice": "healthcare_medical",
-    "Wellness Classes": "lead_gen_services"
+    "Wellness Classes": "lead_gen_services",
+    "Business Law": "lead_gen_professional"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",
