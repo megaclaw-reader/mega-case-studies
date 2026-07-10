@@ -31,6 +31,7 @@ QUAL_RATES = {
     'Automotive': (0.12, 0.28),
     'B2B': (0.08, 0.20),
     'SaaS': (0.08, 0.20),
+    'Business Law': (0.20, 0.45),  # B2B legal services have higher qual rates with proper targeting
     'Business': (0.10, 0.25),
     'Construction': (0.08, 0.20),
     'Dental': (0.18, 0.38),
