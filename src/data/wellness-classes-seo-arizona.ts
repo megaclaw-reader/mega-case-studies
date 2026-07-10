@@ -1,0 +1,163 @@
+import { CaseStudyData } from "./types";
+
+export const wellnessClassesSeoArizona: CaseStudyData = {
+  slug: "wellness-classes-seo-arizona",
+  industry: "Wellness Classes",
+  headline: "How an Arizona Wellness Studio Grew Organic Traffic from 112 to 12,300+ Sessions/Month in 7 Months with SEO",
+  subheadline: "MEGA helped a local wellness studio in Arizona build a dominant organic presence — growing from 97 keywords to over 8,400 and generating 634 organic leads across the Phoenix metro and Scottsdale area, all through SEO with zero paid advertising.",
+  heroStats: [
+    { value: "8,417", unit: "", label: "Total Keywords Ranking" },
+    { value: "12,318", unit: "", label: "Peak Monthly Organic Traffic" },
+    { value: "634", unit: "", label: "Organic Leads Generated" },
+  ],
+  tags: ["SEO Strategy", "Local SEO", "Content Marketing"],
+  company: {
+    industry: "Wellness Classes — Yoga, Pilates & Meditation",
+    employees: "14",
+    revenue: "$940K",
+    location: "Scottsdale, AZ (Serving Phoenix, Tempe, Mesa, Chandler, Paradise Valley, Cave Creek)",
+    description: "An Arizona-based wellness studio offering yoga, pilates, meditation, breathwork, and sound healing classes across multiple locations in the Scottsdale and greater Phoenix metro area. With 5 years of operation and a loyal community of 380+ active members, the studio had built its clientele almost entirely through word-of-mouth referrals and Instagram engagement. Their website was a basic 6-page site with a class schedule, instructor bios, and a contact form — but zero blog content, no location-specific pages, and no strategy for capturing the thousands of monthly searches for wellness classes across the Arizona market. Despite offering specialized programming like prenatal yoga, restorative sound baths, and desert retreat experiences unique to the Arizona landscape, none of this was represented in their digital footprint. They ranked for just 97 keywords, almost all branded, and were invisible for high-intent searches like 'yoga classes Scottsdale,' 'pilates near me Phoenix,' and 'meditation classes Arizona.'",
+  },
+  challenges: [
+    {
+      title: "Invisible in Organic Search Across the Arizona Wellness Market",
+      description: "The studio ranked for only 97 keywords — nearly all branded or navigational. Organic traffic averaged just 112 sessions per month, with over 85% from people who already knew the studio by name. High-intent searches like 'yoga classes Scottsdale,' 'pilates classes Phoenix,' 'meditation studio near me,' and 'sound healing Arizona' were dominated by national platforms like ClassPass, Mindbody, and Yelp, along with 5-6 local competitors who had invested in content and local SEO. The studio was missing an estimated 8,500+ monthly local searches across their service area.",
+    },
+    {
+      title: "No Content Strategy Despite Deep Wellness Expertise",
+      description: "The website had just 6 static pages — homepage, about, class schedule, instructors, pricing, and contact. There was zero educational content, no wellness guides, no neighborhood-specific pages, and nothing addressing Arizona-specific wellness topics like heat-adapted yoga practices, desert meditation retreats, monsoon season stress management, or outdoor wellness experiences unique to the Sonoran Desert landscape. The studio's instructors held over 40 combined certifications and specializations, but none of this expertise was captured in searchable content that could attract new students.",
+    },
+    {
+      title: "Weak Local SEO Foundation Despite Multi-Location Presence",
+      description: "The studio operated from two locations in Scottsdale and Tempe but had no location-specific landing pages for either studio. Their Google Business Profile had 67 reviews with a 4.8-star rating — strong but far behind a competitor with 290+ reviews dominating the local 3-pack. Citation consistency was poor with mismatched addresses on 9 directories, and they were completely absent from 23 wellness-specific directories and Arizona local business platforms.",
+    },
+  ],
+  strategy: [
+    {
+      phase: 1,
+      months: "January–February 2025",
+      title: "SEO Foundation & Arizona Wellness Market Setup",
+      items: [
+        "Comprehensive technical audit — improved mobile page speed from 4.8s to 1.9s, fixed 11 broken links, implemented structured data markup for local business, course offerings, and event schema",
+        "Deep keyword research targeting Arizona wellness searches — identified 1,834 untapped keywords across yoga, pilates, meditation, breathwork, sound healing, and wellness retreat categories",
+        "Google Business Profile overhaul for both Scottsdale and Tempe locations — optimized categories, added professional studio photos, class images, and instructor headshots, launched weekly posting schedule",
+        "NAP consistency audit and correction across 47 directories — fixed mismatched information on 9 listings and submitted to 23 new wellness-specific and Arizona local directories",
+        "Created 6 location-specific landing pages targeting Phoenix, Scottsdale, Tempe, Mesa, Chandler, and Paradise Valley",
+        "Published 12 foundational blog posts addressing Arizona-specific wellness topics: 'Best Yoga Styles for Arizona's Desert Climate,' 'How Heat-Adapted Yoga Differs from Traditional Practice,' 'Beginner's Guide to Sound Healing in Scottsdale'",
+        "Deployed AI-powered SEO optimization agents for continuous keyword tracking, content performance monitoring, and competitive gap analysis — replacing monthly manual reviews with real-time insights that identified ranking shifts within hours of algorithm updates",
+        "Competitor analysis of top 8 Arizona wellness studios — mapped their keyword positions, content depth, review volumes, class offerings, and backlink profiles to identify exploitable gaps",
+      ],
+    },
+    {
+      phase: 2,
+      months: "March–April 2025",
+      title: "Content Scaling & Authority Building Through Arizona's Peak Wellness Season",
+      items: [
+        "Aggressive content production capitalizing on spring wellness surge — published 34 detailed guides covering every class type, wellness modality, and Arizona community the studio served",
+        "Arizona-specific content series: 'Outdoor Yoga Spots in Scottsdale,' 'Monsoon Season Meditation: Managing Stress Through Arizona's Wild Weather,' 'Why Desert Retreats Are the Future of Wellness,' 'Pilates for Golfers: A Scottsdale Essential'",
+        "Expanded location pages to 12 total — added Cave Creek, Fountain Hills, Gilbert, Ahwatukee, Arcadia, and Carefree",
+        "Backlink outreach targeting Arizona lifestyle and wellness publications — secured 14 backlinks from local blogs, wellness directories, tourism sites, and community newsletters over 2 months",
+        "Review generation campaign systematized through post-class follow-up texts — grew Google reviews from 67 to 112 across both locations with maintained 4.8-star average",
+        "Internal linking architecture built connecting class-type pages, location pages, and educational content into wellness topic clusters",
+        "AI content optimization agents analyzed search intent patterns across Arizona wellness queries, automatically recommending content updates and identifying emerging seasonal trends — catching spring wellness resolution search spikes and desert retreat interest surges ahead of peak season",
+        "Created comparison and buyer-guide content: 'How Much Do Yoga Classes Cost in Scottsdale,' 'Yoga vs. Pilates: Which Is Right for You,' 'What to Expect at Your First Sound Healing Session in Arizona'",
+      ],
+    },
+    {
+      phase: 3,
+      months: "May–June 2025",
+      title: "Ranking Acceleration & Conversion Optimization",
+      items: [
+        "Content refresh on top 18 performing pages — updated with current Arizona wellness market data, expanded FAQ sections, and improved internal linking structure",
+        "Long-tail keyword expansion with 38 FAQ-style pages targeting voice search and specific wellness queries — 'best prenatal yoga in Phoenix,' 'meditation classes for beginners Scottsdale,' 'corporate wellness programs Arizona'",
+        "Conversion rate optimization on high-traffic pages — added class booking widgets, free trial class CTAs, instructor video introductions, and neighborhood-specific testimonials",
+        "Corporate wellness content expansion targeting Arizona's business corridors — 'Corporate Yoga Programs in Scottsdale,' 'Team Meditation Sessions for Phoenix Businesses,' 'Employee Wellness Classes: An Arizona Employer's Guide'",
+        "Summer wellness content addressing Arizona's unique climate: 'Best Indoor Wellness Activities During Arizona Summer,' 'Staying Active in 115°F: Why Studio Classes Beat Outdoor Exercise,' 'Summer Hydration and Recovery Yoga'",
+        "Guest articles placed in 4 Arizona lifestyle publications and 2 Scottsdale community newsletters, driving referral traffic and building domain authority",
+        "AI-driven competitive monitoring identified when three competitors reduced their content output during summer slowdown, enabling rapid content deployment to capture their stagnating positions within days rather than the weeks a traditional agency would need",
+      ],
+    },
+    {
+      phase: 4,
+      months: "July 2025",
+      title: "Compound Growth & Organic Lead Generation at Scale",
+      items: [
+        "Continued content production with 14 new pages including retreat experience guides, corporate wellness packages, and specialized class deep-dives for prenatal, senior, and athlete-focused programs",
+        "Advanced local SEO targeting affluent Arizona communities — Paradise Valley private sessions, DC Ranch community classes, Gainey Ranch wellness programming",
+        "Content refresh cycle on top 25 performing pages to maintain and improve rankings against increasingly competitive summer landscape",
+        "Review volume reached 148 across both locations — closing the gap with the market leader and significantly improving local pack visibility for wellness-related queries",
+        "Continuous AI-driven content optimization compounded daily improvements — identifying ranking fluctuations, content decay, and competitive movements in real time, enabling the campaign to maintain momentum through Arizona's summer season when many studios scale back marketing",
+        "Full-funnel organic reporting established — tracking visitor → class booking inquiry → trial class → membership sign-up, with organic channel now generating more leads than any other acquisition source including Instagram and word-of-mouth",
+      ],
+    },
+  ],
+  seo: {
+    summary: [
+      { label: "Total Keywords", value: "8,417", growth: "+8,577%", from: "from 97" },
+      { label: "Top 10 Rankings", value: "1,023", growth: "+9,209%", from: "from 11" },
+      { label: "Peak Monthly Traffic", value: "12,318", growth: "+10,898%", from: "from 112" },
+      { label: "Pages Created", value: "118", growth: "", from: "from 6-page brochure site" },
+    ],
+    monthly: [
+      { month: "Jan '25", keywords: 97, top10: 11, top3: 2, traffic: 112, pages: 6, avgPos: 61.3, ctr: 1.1 },
+      { month: "Feb '25", keywords: 189, top10: 23, top3: 6, traffic: 423, pages: 24, avgPos: 53.7, ctr: 1.4 },
+      { month: "Mar '25", keywords: 478, top10: 57, top3: 14, traffic: 1134, pages: 41, avgPos: 44.2, ctr: 1.8 },
+      { month: "Apr '25", keywords: 1047, top10: 128, top3: 34, traffic: 2891, pages: 58, avgPos: 37.6, ctr: 2.3 },
+      { month: "May '25", keywords: 2834, top10: 341, top3: 89, traffic: 5723, pages: 78, avgPos: 31.4, ctr: 2.9 },
+      { month: "Jun '25", keywords: 5291, top10: 647, top3: 178, traffic: 8947, pages: 98, avgPos: 25.8, ctr: 3.4 },
+      { month: "Jul '25", keywords: 8417, top10: 1023, top3: 284, traffic: 12318, pages: 118, avgPos: 21.3, ctr: 3.8 },
+    ],
+  },
+  organicConversions: {
+    summary: [
+      { label: "Total Organic Leads", value: "634", growth: "+12,580%", note: "Class bookings & phone inquiries" },
+      { label: "Avg. Conversion Rate", value: "2.4%", growth: "+52%", note: "Traffic to lead" },
+      { label: "Peak Monthly Leads", value: "216", growth: "", note: "July 2025" },
+      { label: "Lead Quality Score", value: "68%", growth: "+31%", note: "Qualified local prospects in service area" },
+    ],
+    columnLabels: {
+      formFills: "Class Bookings",
+      calls: "Phone Inquiries",
+      totalLeads: "Total Leads",
+      conversionRate: "Conv. Rate",
+    },
+    monthly: [
+      { month: "Jan '25", formFills: 1, calls: 2, totalLeads: 3, conversionRate: 2.7 },
+      { month: "Feb '25", formFills: 5, calls: 7, totalLeads: 12, conversionRate: 2.8 },
+      { month: "Mar '25", formFills: 14, calls: 19, totalLeads: 33, conversionRate: 2.9 },
+      { month: "Apr '25", formFills: 28, calls: 39, totalLeads: 67, conversionRate: 2.3 },
+      { month: "May '25", formFills: 54, calls: 72, totalLeads: 126, conversionRate: 2.2 },
+      { month: "Jun '25", formFills: 79, calls: 98, totalLeads: 177, conversionRate: 2.0 },
+      { month: "Jul '25", formFills: 103, calls: 113, totalLeads: 216, conversionRate: 1.8 },
+    ],
+    sources: [
+      { source: "Organic search (Arizona metro)", percentage: 51, leads: 323 },
+      { source: "Google Maps / GBP", percentage: 29, leads: 184 },
+      { source: "Direct traffic (brand awareness)", percentage: 14, leads: 89 },
+      { source: "Referral traffic", percentage: 6, leads: 38 },
+    ],
+  },
+  localSeo: {
+    summary: [
+      { label: "GBP Views", value: "5,891/mo", growth: "+523%", from: "from 946" },
+      { label: "Maps Impressions", value: "4,267/mo", growth: "+467%", from: "from 753" },
+      { label: "GBP Calls (Total)", value: "251", growth: "+1,200%", from: "6/mo → 78/mo" },
+      { label: "Direction Requests", value: "72/mo", growth: "+380%", from: "from 15" },
+    ],
+    monthly: [
+      { month: "Jan '25", gbpViews: 946, mapsImpressions: 753, gbpCalls: 6, directionRequests: 15 },
+      { month: "Feb '25", gbpViews: 1187, mapsImpressions: 934, gbpCalls: 11, directionRequests: 19 },
+      { month: "Mar '25", gbpViews: 1689, mapsImpressions: 1287, gbpCalls: 18, directionRequests: 27 },
+      { month: "Apr '25", gbpViews: 2413, mapsImpressions: 1834, gbpCalls: 29, directionRequests: 38 },
+      { month: "May '25", gbpViews: 3467, mapsImpressions: 2589, gbpCalls: 47, directionRequests: 51 },
+      { month: "Jun '25", gbpViews: 4623, mapsImpressions: 3412, gbpCalls: 62, directionRequests: 63 },
+      { month: "Jul '25", gbpViews: 5891, mapsImpressions: 4267, gbpCalls: 78, directionRequests: 72 },
+    ],
+  },
+  impact: [
+    { label: "Total Organic Leads", value: "634", growth: "+12,580%" },
+    { label: "Peak Monthly Traffic", value: "12,318/mo", growth: "+10,898%" },
+    { label: "Total Keywords Ranking", value: "8,417", growth: "+8,577%" },
+    { label: "Estimated Organic Revenue", value: "$198,600", growth: "New revenue channel" },
+  ],
+};

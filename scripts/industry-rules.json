@@ -844,7 +844,8 @@
     "Luxury Real Estate": "real_estate",
     "Personal Injury Law Firm": "lead_gen_professional",
     "Home Decor": "ecommerce",
-    "Specialty Medical Practice": "healthcare_medical"
+    "Specialty Medical Practice": "healthcare_medical",
+    "Wellness Classes": "lead_gen_services"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",
