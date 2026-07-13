@@ -44,6 +44,7 @@ QUAL_RATES = {
     'Yoga': (0.12, 0.30),
     'Food': (0.12, 0.32),
     'Restaurant': (0.12, 0.32),
+    'HVAC Parts': (0.35, 0.65),  # B2B parts distribution — targeted commercial buyers, high qual rate
     'HVAC': (0.12, 0.30),
     'Plumbing': (0.12, 0.30),
     'Healthcare': (0.10, 0.25),
