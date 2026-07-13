@@ -155,6 +155,7 @@ CPL_RANGES = {
     "consumer_financial_services": (35, 150),
     "working_capital_financing": (20, 50),
     "private_lending": (100, 400),
+    "commercial_hvac_parts": (45, 150),
     # Ecom — cost per SESSION (not per lead)
     "ecom":              (0.20, 5.00),
     "sustainable_luxury": (1.50, 4.00),
@@ -173,7 +174,7 @@ def _cpl_category(industry, model_key):
     mappings = [
         ("m&a advisory", "ma_advisory"), ("m&a", "ma_advisory"), ("mergers", "ma_advisory"),
         ("ophthalmolog", "ophthalmology"), ("optometri", "optometrist"), ("vision care", "optometrist"), ("eye care", "optometrist"),
-        ("orthodontic", "orthodontics"), ("dental surgery", "dental_surgery"), ("dental implant", "dental_implants"), ("cosmetic dentist", "cosmetic_dentistry"), ("chiropract", "chiropractor"), ("painting", "painting"), ("dental medtech", "healthcare_equip"), ("dental", "dental"), ("hvac", "hvac"), ("roof", "roofing"),
+        ("orthodontic", "orthodontics"), ("dental surgery", "dental_surgery"), ("dental implant", "dental_implants"), ("cosmetic dentist", "cosmetic_dentistry"), ("chiropract", "chiropractor"), ("painting", "painting"), ("dental medtech", "healthcare_equip"), ("dental", "dental"), ("commercial hvac parts", "commercial_hvac_parts"), ("hvac parts", "commercial_hvac_parts"), ("hvac", "hvac"), ("roof", "roofing"),
         ("plumb", "plumbing"), ("commercial landscap", "construction"),
         ("landscap", "landscaping"), ("clean", "cleaning"),
         ("moving", "moving"), ("garage", "garage_door"),
@@ -422,6 +423,7 @@ DEAL_VALUE_RANGES = {
     "real_estate_agent": (10000, 25000),
     "commercial_re": (5000, 100000),
     "private_lending": (5000, 15000),
+    "commercial_hvac_parts": (1500, 8000),
     "mortgage": (1500, 20000),
     "wealth_mgmt": (5000, 100000),
     "financial_services": (3000, 50000),
