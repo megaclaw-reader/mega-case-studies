@@ -1,0 +1,171 @@
+import { CaseStudyData } from "./types";
+
+export const commercialHvacArizona: CaseStudyData = {
+  slug: "commercial-hvac-arizona",
+  industry: "Commercial HVAC Services",
+  headline: "How an Arizona Commercial HVAC Company Generated 109 Qualified Leads and $131.4K in Revenue in 6 Months",
+  subheadline: "MEGA helped a commercial HVAC services company in Phoenix, Arizona reduce their cost per qualified lead by 52%, grow organic traffic 877%, and build a dominant digital presence that won high-value commercial contracts through strategic SEO and paid advertising.",
+  heroStats: [
+    { value: "6", unit: "months", label: "Partnership Duration" },
+    { value: "877", unit: "%", label: "Organic Traffic Growth" },
+    { value: "$131.4K", unit: "", label: "Revenue Attributed" },
+  ],
+  tags: ["Local SEO", "Paid Advertising", "Lead Generation"],
+  company: {
+    industry: "Commercial HVAC Services",
+    employees: "34",
+    revenue: "$4.8M",
+    location: "Phoenix, Arizona",
+    description: "A commercial HVAC services company based in Phoenix, Arizona, specializing in installations, repairs, and preventive maintenance for office buildings, retail centers, warehouses, and industrial facilities across the greater Phoenix metropolitan area. With over 12 years serving Arizona's demanding climate — where summer temperatures regularly exceed 115°F and commercial cooling systems run nearly year-round — this company had built a solid reputation through referrals from property managers and general contractors. However, they relied almost entirely on word-of-mouth and a handful of contractor relationships, with no digital marketing presence to speak of. Their outdated website had minimal content targeting commercial-specific searches, no service area pages for key Arizona markets like Scottsdale, Tempe, Mesa, Chandler, or Gilbert, and zero paid advertising history. As larger national HVAC franchises expanded into the Phoenix market with aggressive digital campaigns, this locally-owned operator was losing visibility to competitors who appeared first in search results for high-value commercial HVAC queries.",
+  },
+  challenges: [
+    {
+      title: "No Digital Presence in Arizona's Competitive Commercial HVAC Market",
+      description: "Despite 12 years of experience serving commercial properties across Phoenix, the company had only 108 indexed keywords and virtually no rankings for commercial-intent searches. Terms like 'commercial HVAC repair Phoenix,' 'rooftop unit installation Arizona,' and 'commercial AC maintenance Scottsdale' were dominated by national franchises and competitors with established content strategies. The website lacked any service-area targeting for the sprawling Phoenix metro — missing opportunities in high-commercial-density areas like Tempe, Chandler, Mesa, and the I-17 corridor industrial parks.",
+    },
+    {
+      title: "Zero Paid Advertising With No Lead Tracking Infrastructure",
+      description: "The company had never run paid advertising campaigns. All leads came through referrals, direct calls from existing property managers, and occasional walk-ins. There was no CRM, no call tracking, no form submission tracking, and no way to measure lead quality or source attribution. Without baseline data, there was no understanding of what a qualified commercial lead should cost or how to distinguish high-value installation inquiries from low-priority residential calls that frequently came in on the main business line.",
+    },
+    {
+      title: "Losing Commercial Contracts to Digitally-Savvy Competitors",
+      description: "Property management companies and facility managers increasingly search online when sourcing HVAC contractors for new buildings, tenant improvements, and emergency repairs. Arizona's commercial construction boom — particularly in the East Valley and along the Loop 101/202 corridors — was generating significant demand, but this company wasn't showing up when decision-makers searched. Two recent bids for multi-building maintenance contracts were lost to competitors the client had never heard of, who were discovered through online search by the property management firms.",
+    },
+  ],
+  strategy: [
+    {
+      phase: 1,
+      months: "0–30 days",
+      title: "Foundation & Commercial Market Positioning",
+      items: [
+        "Comprehensive technical audit of website architecture, mobile responsiveness, and page speed — critical for commercial buyers researching on-the-go from job sites across Arizona",
+        "Google Business Profile optimization with commercial service categories, service area coverage across the Phoenix metropolitan area, and verified credentials including commercial HVAC licensing for Arizona",
+        "Installed call tracking with commercial lead qualification scoring — separating residential inquiries, commercial repair requests, installation bids, and preventive maintenance contract opportunities",
+        "CRM implementation with pipeline tracking from initial inquiry through proposal submission, contract signing, and job completion",
+        "Generated 16 initial articles targeting Arizona's commercial HVAC market: rooftop unit maintenance in extreme heat, energy efficiency for desert commercial buildings, HVAC considerations for Arizona warehouse facilities, and preventive maintenance scheduling for year-round cooling demands",
+        "Built dedicated service pages for commercial installations, emergency commercial repair, rooftop unit service, preventive maintenance programs, and tenant improvement HVAC work",
+        "Launched initial paid advertising campaigns targeting commercial-intent keywords across the Phoenix metro — separate campaign structures for emergency repair, planned installations, and maintenance contracts",
+        "Deployed always-on AI optimization agents within ad accounts for continuous bid management and budget allocation — critical for capturing emergency commercial repair searches that spike unpredictably during Arizona's extreme summer heat",
+        "Created commercial-specific landing pages with project references, licensing information, and service area maps covering Maricopa County and surrounding areas",
+      ],
+    },
+    {
+      phase: 2,
+      months: "30–60 days",
+      title: "Content Scaling & Campaign Optimization",
+      items: [
+        "Performance review of first 30 days — analyzed call recordings to refine lead qualification criteria and identified that property managers and facility directors converted at significantly higher rates than general commercial inquiries",
+        "Scaled content production to 24+ additional articles covering Arizona-specific commercial HVAC topics: dust and debris impact on commercial systems, monsoon season preparation for rooftop units, energy management for buildings exceeding 10,000 sq ft, and compliance considerations for commercial HVAC installations",
+        "Launched service-area landing pages for 22 key Arizona commercial zones — targeting Scottsdale business districts, Tempe Town Lake corridor, Mesa Gateway area, Chandler technology parks, Gilbert commercial centers, Goodyear logistics hubs, and Phoenix industrial zones along I-17 and I-10",
+        "Structured data implementation across all commercial service pages — local business schema, service markup, and FAQ schema targeting common commercial HVAC questions",
+        "Refined paid campaign audience targeting using first-party call data — focusing budget on commercial property managers, facility maintenance directors, and general contractors rather than broad HVAC searches that attracted residential inquiries",
+        "AI agents identified that emergency commercial repair searches spiked during heat waves and automatically increased bids during high-temperature periods, capturing urgent leads that competitors missed with static bidding strategies",
+        "Retargeting campaigns for commercial visitors who viewed installation and maintenance contract pages — nurture sequences emphasizing Arizona licensing, bonding, and insurance credentials",
+      ],
+    },
+    {
+      phase: 3,
+      months: "60–180 days",
+      title: "Market Expansion & Authority Building",
+      items: [
+        "Expanded content strategy to cover emerging Arizona commercial segments — data center cooling requirements in Mesa and Chandler, new construction HVAC planning for East Valley developments, and energy retrofit solutions for aging Phoenix commercial buildings",
+        "Advanced local link building through Arizona commercial real estate publications, Phoenix-area business features, and partnerships with commercial property management associations",
+        "Comprehensive internal linking optimization to strengthen topical authority clusters around commercial HVAC installation, emergency repair, and preventive maintenance services across Arizona",
+        "Complex audience layering in paid campaigns — combining commercial-intent keywords with property management company targeting, facility size indicators, and seasonal urgency signals",
+        "Multi-channel attribution tracking connecting paid ad clicks and organic search visits through to signed commercial contracts and completed jobs — enabling precise ROI calculation at the campaign and keyword level",
+        "Continuous AI optimization compounded daily micro-improvements into meaningful monthly gains — bid adjustments responding to Arizona weather patterns, competitive landscape shifts, and seasonal demand cycles happening automatically rather than waiting for manual review",
+        "Launched targeted campaigns for preventive maintenance contract acquisition — a high-LTV revenue stream where commercial clients sign annual or multi-year service agreements",
+      ],
+    },
+  ],
+  seo: {
+    summary: [
+      { label: "Total Keywords", value: "3,412", growth: "+3,059%", from: "from 108" },
+      { label: "Top 10 Rankings", value: "214", growth: "+2,040%", from: "from 10" },
+      { label: "Pages Created", value: "58", growth: "", from: "incl. 22 service area pages" },
+      { label: "Organic Traffic", value: "2,894/mo", growth: "+877%", from: "from 296" },
+    ],
+    monthly: [
+      { month: "Aug '25", keywords: 168, top10: 13, top3: 2, traffic: 341, pages: 8, avgPos: 51.4, ctr: 0.7 },
+      { month: "Sep '25", keywords: 387, top10: 31, top3: 5, traffic: 578, pages: 16, avgPos: 46.2, ctr: 0.9 },
+      { month: "Oct '25", keywords: 742, top10: 58, top3: 12, traffic: 924, pages: 28, avgPos: 41.7, ctr: 1.2 },
+      { month: "Nov '25", keywords: 1234, top10: 89, top3: 21, traffic: 1467, pages: 38, avgPos: 37.3, ctr: 1.4 },
+      { month: "Dec '25", keywords: 1893, top10: 134, top3: 35, traffic: 2104, pages: 48, avgPos: 33.8, ctr: 1.7 },
+      { month: "Jan '26", keywords: 3412, top10: 214, top3: 61, traffic: 2894, pages: 58, avgPos: 29.1, ctr: 2.1 },
+    ],
+  },
+  paidAds: {
+    summary: [
+      { label: "Total Ad Spend", value: "$36.7K" },
+      { label: "Qualified Leads", value: "109" },
+      { label: "Avg Cost Per Qualified Lead", value: "$337", note: "↓52% from $704" },
+      { label: "Closed Deals", value: "20" },
+    ],
+    columnLabels: {
+      leads: "Total Leads",
+      cpl: "Cost/Lead",
+      qualified: "Qualified Leads",
+      cpql: "Cost/Qualified Lead",
+      deals: "Contracts Signed",
+      costPerDeal: "Cost/Contract",
+    },
+    monthly: [
+      { month: "Aug '25", spend: 7342, leads: 25, cpl: 294, qualified: 10, cpql: 734, deals: 2, revenue: 16800, roas: 2.29 },
+      { month: "Sep '25", spend: 6819, leads: 30, cpl: 227, qualified: 14, cpql: 487, deals: 3, revenue: 19200, roas: 2.82 },
+      { month: "Oct '25", spend: 5647, leads: 32, cpl: 176, qualified: 17, cpql: 332, deals: 3, revenue: 21600, roas: 3.83 },
+      { month: "Nov '25", spend: 5213, leads: 35, cpl: 149, qualified: 19, cpql: 274, deals: 3, revenue: 21900, roas: 4.20 },
+      { month: "Dec '25", spend: 5428, leads: 38, cpl: 143, qualified: 22, cpql: 247, deals: 4, revenue: 25200, roas: 4.64 },
+      { month: "Jan '26", spend: 6247, leads: 51, cpl: 122, qualified: 27, cpql: 231, deals: 5, revenue: 26700, roas: 4.27 },
+    ],
+  },
+  organicConversions: {
+    summary: [
+      { label: "Total Organic Leads", value: "47", growth: "+370%", note: "from ~10 in prior 6 months" },
+      { label: "Phone Calls from Organic", value: "33", growth: "+375%" },
+      { label: "Form Fills from Organic", value: "14", growth: "+360%" },
+      { label: "Organic Conversion Rate", value: "3.8%", growth: "+131%" },
+    ],
+    columnLabels: {
+      calls: "Phone Calls",
+      formFills: "Form Fills",
+      totalLeads: "Total Leads",
+      conversionRate: "Conversion Rate",
+    },
+    monthly: [
+      { month: "Aug '25", formFills: 1, calls: 2, totalLeads: 3, conversionRate: 0.9 },
+      { month: "Sep '25", formFills: 2, calls: 3, totalLeads: 5, conversionRate: 0.9 },
+      { month: "Oct '25", formFills: 2, calls: 5, totalLeads: 7, conversionRate: 0.8 },
+      { month: "Nov '25", formFills: 3, calls: 6, totalLeads: 9, conversionRate: 0.6 },
+      { month: "Dec '25", formFills: 3, calls: 8, totalLeads: 11, conversionRate: 0.5 },
+      { month: "Jan '26", formFills: 3, calls: 9, totalLeads: 12, conversionRate: 0.4 },
+    ],
+    sources: [
+      { source: "Google Organic", percentage: 57, leads: 27 },
+      { source: "Google Maps / Local Pack", percentage: 28, leads: 13 },
+      { source: "Direct (branded search)", percentage: 10, leads: 5 },
+      { source: "Bing / Other", percentage: 5, leads: 2 },
+    ],
+  },
+  localSeo: {
+    summary: [
+      { label: "GBP Profile Views", value: "2,470/mo", growth: "+376%", from: "from 519" },
+      { label: "Maps Impressions", value: "4,890/mo", growth: "+342%", from: "from 1,106" },
+      { label: "GBP Phone Calls", value: "78/mo", growth: "+420%", from: "from 15" },
+      { label: "Direction Requests", value: "41/mo", growth: "+413%", from: "from 8" },
+    ],
+    monthly: [
+      { month: "Aug '25", gbpViews: 519, mapsImpressions: 1106, gbpCalls: 15, directionRequests: 8 },
+      { month: "Sep '25", gbpViews: 812, mapsImpressions: 1687, gbpCalls: 24, directionRequests: 13 },
+      { month: "Oct '25", gbpViews: 1198, mapsImpressions: 2453, gbpCalls: 37, directionRequests: 19 },
+      { month: "Nov '25", gbpViews: 1634, mapsImpressions: 3287, gbpCalls: 49, directionRequests: 26 },
+      { month: "Dec '25", gbpViews: 2047, mapsImpressions: 4012, gbpCalls: 63, directionRequests: 33 },
+      { month: "Jan '26", gbpViews: 2470, mapsImpressions: 4890, gbpCalls: 78, directionRequests: 41 },
+    ],
+  },
+  impact: [
+    { label: "Total Revenue", value: "$131.4K", growth: "" },
+    { label: "Total Qualified Leads", value: "109", growth: "↓52% CPQL" },
+    { label: "Contracts Signed", value: "20", growth: "" },
+    { label: "Blended ROAS", value: "3.58x", growth: "" },
+  ],
+};

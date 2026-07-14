@@ -198,6 +198,10 @@
         "window_repair": [
           800,
           3500
+        ],
+        "commercial_hvac_services": [
+          5000,
+          35000
         ]
       }
     },
@@ -848,7 +852,8 @@
     "Wellness Classes": "lead_gen_services",
     "Business Law": "lead_gen_professional",
     "Commercial HVAC Parts Supplier": "lead_gen_professional",
-    "B2B Healthcare Services": "lead_gen_professional"
+    "B2B Healthcare Services": "lead_gen_professional",
+    "Commercial HVAC Services": "lead_gen_services"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",

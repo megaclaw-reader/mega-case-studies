@@ -46,6 +46,7 @@ QUAL_RATES = {
     'Food': (0.12, 0.32),
     'Restaurant': (0.12, 0.32),
     'HVAC Parts': (0.35, 0.65),  # B2B parts distribution — targeted commercial buyers, high qual rate
+    'Commercial HVAC': (0.35, 0.55),  # B2B commercial services — targeted facility managers/property managers, higher qual rate than residential
     'HVAC': (0.12, 0.30),
     'Plumbing': (0.12, 0.30),
     'Healthcare': (0.10, 0.25),
