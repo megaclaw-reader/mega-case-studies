@@ -847,7 +847,8 @@
     "Specialty Medical Practice": "healthcare_medical",
     "Wellness Classes": "lead_gen_services",
     "Business Law": "lead_gen_professional",
-    "Commercial HVAC Parts Supplier": "lead_gen_professional"
+    "Commercial HVAC Parts Supplier": "lead_gen_professional",
+    "B2B Healthcare Services": "lead_gen_professional"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",
