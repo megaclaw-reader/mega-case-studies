@@ -853,7 +853,8 @@
     "Business Law": "lead_gen_professional",
     "Commercial HVAC Parts Supplier": "lead_gen_professional",
     "B2B Healthcare Services": "lead_gen_professional",
-    "Commercial HVAC Services": "lead_gen_services"
+    "Commercial HVAC Services": "lead_gen_services",
+    "Integrative Wellness & Medical Aesthetics": "healthcare_medical"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",

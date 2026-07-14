@@ -2,6 +2,7 @@ import { CaseStudyData } from "./types";
 import { b2bHealthcareServicesNational } from "./b2b-healthcare-services-national";
 import { commercialHvacPartsNational } from "./commercial-hvac-parts-national";
 import { commercialHvacArizona } from "./commercial-hvac-arizona";
+import { integrativeWellnessAestheticsNashville } from "./integrative-wellness-aesthetics-nashville";
 import { businessLawFlorida } from "./business-law-florida";
 import { specialtyMedicalHouston } from "./specialty-medical-houston";
 import { medicalDocumentPlatform } from "./medical-document-platform";
@@ -680,6 +681,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "commercial-hvac-parts-national": commercialHvacPartsNational,
   "b2b-healthcare-services-national": b2bHealthcareServicesNational,
   "commercial-hvac-arizona": commercialHvacArizona,
+  "integrative-wellness-aesthetics-nashville": integrativeWellnessAestheticsNashville,
 };
 
 export type { CaseStudyData };
