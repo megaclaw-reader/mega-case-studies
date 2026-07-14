@@ -854,7 +854,8 @@
     "Commercial HVAC Parts Supplier": "lead_gen_professional",
     "B2B Healthcare Services": "lead_gen_professional",
     "Commercial HVAC Services": "lead_gen_services",
-    "Integrative Wellness & Medical Aesthetics": "healthcare_medical"
+    "Integrative Wellness & Medical Aesthetics": "healthcare_medical",
+    "Renewable Energy Procurement SaaS": "saas"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",

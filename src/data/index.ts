@@ -340,6 +340,7 @@ import { cybersecuritySaasSeo } from "./cybersecurity-saas-seo";
 import { personalInjuryLawSc } from "./personal-injury-law-sc";
 import { homeDecor } from "./home-decor";
 import { wellnessClassesSeoArizona } from "./wellness-classes-seo-arizona";
+import { renewableEnergySaasNational } from "./renewable-energy-saas-national";
 
 export const caseStudies: Record<string, CaseStudyData> = {
   "specialty-medical-houston": specialtyMedicalHouston,
@@ -682,6 +683,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "b2b-healthcare-services-national": b2bHealthcareServicesNational,
   "commercial-hvac-arizona": commercialHvacArizona,
   "integrative-wellness-aesthetics-nashville": integrativeWellnessAestheticsNashville,
+  "renewable-energy-saas-national": renewableEnergySaasNational,
 };
 
 export type { CaseStudyData };
