@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const addictionRehabNy: CaseStudyData = {
   slug: "addiction-rehab-ny",
   industry: "Addiction Treatment",
-  headline: "How a New York Residential Rehab Facility Generated $362.3K in Admissions Revenue With AI-Powered Marketing",
-  subheadline: "MEGA helped a residential addiction rehabilitation and detox center in New York reduce cost per qualified lead by 37%, grow organic traffic 1,247%, and drive 30 new admissions over 12 months.",
+  headline: "How a New York Residential Rehab Facility Generated $405.3K in Admissions Revenue With AI-Powered Marketing",
+  subheadline: "MEGA helped a residential addiction rehabilitation and detox center in New York reduce cost per qualified lead by 44%, grow organic traffic 1,247%, and drive 38 new admissions over 12 months.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
     { value: "1,247", unit: "%", label: "Organic Traffic Growth" },
-    { value: "$362.3K", unit: "", label: "Admissions Revenue" },
+    { value: "$405.3K", unit: "", label: "Admissions Revenue" },
   ],
   tags: ["Paid Advertising", "SEO Strategy", "Local SEO"],
   company: {
@@ -85,7 +85,7 @@ export const addictionRehabNy: CaseStudyData = {
       months: "90+ days",
       title: "Ongoing Optimization & Seasonal Maximization",
       items: [
-        "Seasonal budget reallocation — increased spend during January post-holiday surge and September back-to-reality period, maintained efficient baseline during summer with adjusted messaging around family intervention planning",
+        "Seasonal budget reallocation — increased spend during the fall intervention planning season and pre-holiday urgency period, scaling from baseline to capture rising demand",
         "Audience pruning based on admission outcome data — removed segments with high call volume but low admission rates, expanded lookalike audiences built from completed admissions",
         "Expansion of programmatic content pages targeting emerging long-tail queries around specific substances, co-occurring disorders, and New York treatment regulations",
         "Continuous AI optimization compounded daily improvements — bid adjustments responding to competitor activity, audience refinements based on admission patterns, and budget reallocations happening in real time rather than waiting for weekly agency review cycles",
@@ -120,42 +120,42 @@ export const addictionRehabNy: CaseStudyData = {
   },
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$82.7K" },
-      { label: "Qualified Leads", value: "221" },
-      { label: "Avg Cost Per Qualified Lead", value: "$374", note: "↓37% from $534" },
-      { label: "New Admissions", value: "30" },
+      { label: "Total Ad Spend", value: "$103.6K" },
+      { label: "Qualified Leads", value: "163" },
+      { label: "Avg Cost Per Qualified Lead", value: "$636", note: "↓44% from $950" },
+      { label: "New Admissions", value: "38" },
     ],
     monthly: [
-      // Month 1 (Jan): Post-holiday surge — highest intent period, inheriting unoptimized campaigns
-      { month: "Jan '25", spend: 8547, leads: 46, cpl: 185.80, qualified: 16, cpql: 534.19, deals: 2, revenue: 37000, roas: 4.33 },
-      // Month 2 (Feb): Campaign restructure live, January urgency fading
-      { month: "Feb '25", spend: 6218, leads: 34, cpl: 182.88, qualified: 14, cpql: 444.14, deals: 2, revenue: 27500, roas: 4.42 },
-      // Month 3 (Mar): Optimization taking hold, spring search moderate
-      { month: "Mar '25", spend: 6074, leads: 35, cpl: 173.54, qualified: 15, cpql: 404.93, deals: 2, revenue: 24760, roas: 4.08 },
-      // Month 4 (Apr): Stable performance, spring referral season supplementing
-      { month: "Apr '25", spend: 6312, leads: 37, cpl: 170.59, qualified: 16, cpql: 394.50, deals: 2, revenue: 28500, roas: 4.52 },
-      // Month 5 (May): Summer approaching, slightly lower urgency in searches
-      { month: "May '25", spend: 6089, leads: 36, cpl: 169.14, qualified: 16, cpql: 380.56, deals: 2, revenue: 23780, roas: 3.91 },
-      // Month 6 (Jun): Summer lull — shifted to family intervention planning messaging
-      { month: "Jun '25", spend: 6143, leads: 38, cpl: 161.66, qualified: 17, cpql: 361.35, deals: 2, revenue: 25300, roas: 4.12 },
-      // Month 7 (Jul): Optimizations compounding, converting at higher rate despite summer
-      { month: "Jul '25", spend: 6271, leads: 40, cpl: 156.78, qualified: 18, cpql: 348.39, deals: 3, revenue: 28290, roas: 4.51 },
-      // Month 8 (Aug): Late summer, families making fall treatment decisions
-      { month: "Aug '25", spend: 6508, leads: 42, cpl: 154.95, qualified: 19, cpql: 342.53, deals: 3, revenue: 29610, roas: 4.55 },
-      // Month 9 (Sep): Fall pickup — back-to-reality searches increasing
-      { month: "Sep '25", spend: 7184, leads: 46, cpl: 156.17, qualified: 21, cpql: 342.10, deals: 3, revenue: 31620, roas: 4.40 },
+      // Month 1 (Jan): Post-holiday surge — high crisis-intent period, inheriting unoptimized campaigns
+      { month: "Jan '25", spend: 8547, leads: 44, cpl: 194.25, qualified: 9, cpql: 949.67, deals: 2, revenue: 24600, roas: 2.88 },
+      // Month 2 (Feb): Campaign restructure live, January urgency still lingering, building attribution
+      { month: "Feb '25", spend: 6218, leads: 38, cpl: 163.63, qualified: 8, cpql: 777.25, deals: 2, revenue: 21400, roas: 3.44 },
+      // Month 3 (Mar): New landing pages and negative keywords taking effect
+      { month: "Mar '25", spend: 6274, leads: 33, cpl: 190.12, qualified: 7, cpql: 896.29, deals: 2, revenue: 23400, roas: 3.73 },
+      // Month 4 (Apr): Spring — campaigns maturing, family research queries converting
+      { month: "Apr '25", spend: 6512, leads: 40, cpl: 162.80, qualified: 9, cpql: 723.56, deals: 2, revenue: 27800, roas: 4.27 },
+      // Month 5 (May): Momentum building — first 3-deal month, improved qualification rates
+      { month: "May '25", spend: 6689, leads: 42, cpl: 159.26, qualified: 10, cpql: 668.90, deals: 3, revenue: 26580, roas: 3.97 },
+      // Month 6 (Jun): Summer — shifted messaging to family intervention planning
+      { month: "Jun '25", spend: 7143, leads: 44, cpl: 162.34, qualified: 11, cpql: 649.36, deals: 3, revenue: 29100, roas: 4.07 },
+      // Month 7 (Jul): Optimizations compounding — strong despite typical summer lull
+      { month: "Jul '25", spend: 7571, leads: 47, cpl: 161.09, qualified: 12, cpql: 630.92, deals: 3, revenue: 30870, roas: 4.08 },
+      // Month 8 (Aug): Late summer — families making fall treatment decisions
+      { month: "Aug '25", spend: 8208, leads: 51, cpl: 160.94, qualified: 14, cpql: 586.29, deals: 3, revenue: 33240, roas: 4.05 },
+      // Month 9 (Sep): Fall pickup — back-to-reality searches increasing, first 4-deal month
+      { month: "Sep '25", spend: 9384, leads: 58, cpl: 161.79, qualified: 16, cpql: 586.50, deals: 4, revenue: 38760, roas: 4.13 },
       // Month 10 (Oct): Strong fall — families planning intervention before holidays
-      { month: "Oct '25", spend: 7423, leads: 48, cpl: 154.65, qualified: 22, cpql: 337.41, deals: 3, revenue: 33810, roas: 4.55 },
-      // Month 11 (Nov): Pre-holiday urgency — intervention planning peaks
-      { month: "Nov '25", spend: 7891, leads: 51, cpl: 154.73, qualified: 23, cpql: 343.09, deals: 3, revenue: 35040, roas: 4.44 },
-      // Month 12 (Dec): Holiday crisis searches — ramped spend for January prep
-      { month: "Dec '25", spend: 8073, leads: 52, cpl: 155.25, qualified: 24, cpql: 336.38, deals: 3, revenue: 37080, roas: 4.59 },
+      { month: "Oct '25", spend: 10823, leads: 66, cpl: 163.98, qualified: 19, cpql: 569.63, deals: 4, revenue: 42480, roas: 3.92 },
+      // Month 11 (Nov): Pre-holiday urgency — intervention planning peaks, first 5-deal month
+      { month: "Nov '25", spend: 12491, leads: 76, cpl: 164.36, qualified: 22, cpql: 567.77, deals: 5, revenue: 51250, roas: 4.10 },
+      // Month 12 (Dec): Holiday crisis + January surge prep — highest volume and efficiency
+      { month: "Dec '25", spend: 13773, leads: 88, cpl: 156.51, qualified: 26, cpql: 529.73, deals: 5, revenue: 55800, roas: 4.05 },
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$362.3K", growth: "+214%" },
-    { label: "New Admissions", value: "30", growth: "from paid + organic" },
-    { label: "Avg Cost Per Admission", value: "$2,758", growth: "↓41% from $4,672" },
-    { label: "Blended ROAS", value: "4.38x", growth: "" },
+    { label: "Total Revenue", value: "$405.3K", growth: "+127%" },
+    { label: "New Admissions", value: "38", growth: "from paid + organic" },
+    { label: "Avg Cost Per Admission", value: "$2,727", growth: "↓36% from $4,274" },
+    { label: "Blended ROAS", value: "3.91x", growth: "" },
   ],
 };
