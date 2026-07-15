@@ -1,0 +1,131 @@
+import { CaseStudyData } from "./types";
+
+export const recruitmentPlacement: CaseStudyData = {
+  slug: "recruitment-placement",
+  industry: "Recruitment Placement",
+  headline: "How a National Recruitment Firm Grew Qualified Leads 163% in 7 Months with AI-Powered Marketing",
+  subheadline: "MEGA helped a mid-size recruitment placement agency scale from 8 to 24 monthly qualified employer leads while building organic authority with 2,834+ ranking keywords — driving 21 successful placements and $179.5K in placement revenue.",
+  heroStats: [
+    { value: "$179.5K", unit: "K", label: "Total Placement Revenue" },
+    { value: "108", unit: "", label: "Qualified Employer Leads" },
+    { value: "4.04", unit: "x", label: "Blended ROAS" },
+  ],
+  tags: ["SEO", "Paid Advertising", "B2B Lead Generation", "Recruitment"],
+  company: {
+    industry: "Recruitment Placement",
+    employees: "14",
+    revenue: "$1.8M ARR",
+    location: "National (U.S.)",
+    description: "A mid-size recruitment placement firm specializing in permanent and contract placements across accounting, operations, and administrative roles. Founded five years ago, the company had built a strong reputation through referrals and repeat clients but lacked a systematic digital marketing approach to generate new employer leads. Their placement fees averaged 18% of first-year salary for permanent roles, with typical placements ranging from $45K to $95K base salaries. The firm served companies of all sizes but particularly excelled with growing businesses (25-250 employees) needing to fill critical mid-level positions quickly. Despite strong close rates once engaged with a prospect, their pipeline of new qualified employer leads remained inconsistent and overly dependent on word-of-mouth.",
+  },
+  challenges: [
+    {
+      title: "Unpredictable Pipeline of Qualified Employer Leads",
+      description: "The firm's lead generation was almost entirely referral-based, producing only 8-10 qualified employer leads per month with significant volatility. Some months yielded 12+ strong prospects; others barely 5. Without a predictable inbound pipeline, revenue forecasting was unreliable, recruiter utilization fluctuated wildly, and the team often found themselves scrambling during slow periods while turning away business during peaks. The lack of marketing-driven leads meant growth was capped by the speed of referral networks.",
+    },
+    {
+      title: "Invisible Online Presence in a Competitive Market",
+      description: "Despite years of successful placements, the firm had virtually no organic search visibility. Searches for terms like 'recruitment agency near me,' 'staffing firm for accounting roles,' or 'contract placement services' returned competitors with far less placement experience but stronger digital presence. The website received only 280 monthly organic visitors, and those visitors rarely converted because the site lacked compelling content, case studies, or clear service differentiation that would convince an HR director to reach out.",
+    },
+    {
+      title: "High Cost Per Qualified Lead on Paid Channels",
+      description: "Previous attempts at Google Ads had produced leads, but the cost per qualified employer lead — one that actually had budget, timeline, and a real hiring need — averaged over $640. Many clicks came from job seekers rather than employers, and broad targeting wasted spend on companies too small to afford placement fees or industries outside the firm's specialization. Without proper conversion tracking or audience segmentation, every campaign felt like an expensive experiment with unclear ROI.",
+    },
+  ],
+  strategy: [
+    {
+      phase: 1,
+      months: "Months 1–2 (Oct–Nov 2025)",
+      title: "Foundation & Qualified Lead Infrastructure",
+      items: [
+        "Comprehensive audit of existing paid campaigns — identified that 43% of ad spend was attracting job seekers rather than employers, immediately restructured campaigns with negative keyword lists and employer-intent targeting",
+        "Deployed always-on AI optimization agents within ad accounts for continuous bid management and audience refinement — replacing the traditional weekly-review cadence that had allowed wasteful spend to persist for months",
+        "SEO foundation audit revealing 120 existing keyword rankings (mostly branded) with only 34 on page 1 — mapped 1,800+ keyword opportunities across recruitment services, staffing solutions, and industry-specific placement queries",
+        "Landing page overhaul for employer lead capture — redesigned intake forms to pre-qualify prospects by company size, hiring timeline, and role type, filtering out unqualified inquiries before they consumed recruiter time",
+        "Implemented end-to-end conversion tracking from ad click through qualified lead status to successful placement, enabling true ROI measurement for the first time",
+        "Content strategy development targeting HR decision-makers — planned comprehensive guides on hiring best practices, salary benchmarking, and recruitment process optimization to build organic authority",
+        "Launched initial creative testing with 12 ad variations targeting employer-intent keywords across Google Search and LinkedIn, establishing performance baselines for different messaging angles and audience segments",
+      ],
+    },
+    {
+      phase: 2,
+      months: "Months 3–5 (Dec 2025–Feb 2026)",
+      title: "Qualified Lead Growth & SEO Acceleration",
+      items: [
+        "First wave of SEO content published — 28 in-depth resources covering hiring guides, salary surveys, and recruitment process comparisons, each targeting 10-20 related search queries that HR professionals actively research",
+        "AI agents identified that LinkedIn campaigns targeting HR Directors at companies with 50-200 employees produced 3.2x higher qualification rates than broader targeting — automatically shifted budget allocation to maximize qualified lead volume",
+        "Paid campaign optimization driven by qualification data — shifted from optimizing for lead volume to optimizing for qualified lead cost, reducing CPQL from $648 to $380 by month 5 while increasing qualified lead count from 8 to 19 per month",
+        "Retargeting campaigns launched for website visitors who viewed service pages but didn't convert — personalized messaging based on the specific recruitment service pages they visited",
+        "Seasonal strategy for Q1 hiring surge — increased budget and expanded keyword coverage to capture companies planning new-year hiring pushes, particularly in accounting and operations roles",
+        "AI agents detected emerging search trends around contract-to-hire placements and automatically adjusted ad copy and landing page content to capture this growing demand segment",
+        "Built employer case study content from successful placements — documented time-to-fill metrics, quality-of-hire outcomes, and cost savings vs. internal recruiting, creating powerful conversion content",
+        "Cross-channel insights: paid ad data revealed that 'contract placement' and 'temp-to-perm staffing' keywords had 2.4x higher qualified lead rates than generic 'staffing agency' terms — informed SEO content prioritization",
+      ],
+    },
+    {
+      phase: 3,
+      months: "Months 6–7 (Mar–Apr 2026)",
+      title: "Pipeline Optimization & Sustained Growth",
+      items: [
+        "SEO momentum compounding — organic traffic grew from 280 to 8,920 monthly visitors, with employer-intent pages driving an increasing share of inbound qualified leads independent of ad spend",
+        "Advanced audience segmentation for paid campaigns — created distinct campaign groups for different company sizes, industries, and hiring urgency levels, with tailored messaging and landing experiences for each",
+        "Qualified lead nurture automation — implemented email sequences for prospects not ready to engage immediately, keeping the firm top-of-mind and converting 18% of nurtured leads within 60 days",
+        "AI optimization agents continuously refined bidding strategies based on day-of-week and time-of-day conversion patterns — discovering that Tuesday-Thursday mornings produced 67% higher qualified lead rates",
+        "Competitive content gap analysis revealed opportunities in industry-specific recruitment guides — launched targeted content for healthcare staffing, financial services recruiting, and technology placement niches",
+        "Real-time performance monitoring detected shifts in hiring demand patterns and automatically adjusted campaign emphasis — capturing increased contract staffing demand as companies adopted more flexible workforce models",
+        "Pipeline velocity optimization — reduced average time from first touch to qualified status from 14 days to 6 days through improved landing page qualification and faster follow-up triggers",
+        "Monthly qualified lead count reached 21-24 per month, representing a 163% increase from baseline, with cost per qualified lead reduced 52% — creating a predictable, scalable pipeline for the first time in the firm's history",
+      ],
+    },
+  ],
+  seo: {
+    summary: [
+      { label: "Total Keywords Ranking", value: "2,834", growth: "+2,714", from: "from 120" },
+      { label: "Page 1 Rankings", value: "847", growth: "+813", from: "from 34" },
+      { label: "Top 3 Positions", value: "218", growth: "+210", from: "from 8" },
+      { label: "Monthly Organic Traffic", value: "8,920", growth: "+8,640", from: "from 280" },
+    ],
+    monthly: [
+      { month: "Oct '25", keywords: 120, top10: 34, top3: 8, traffic: 280, pages: 22, avgPos: 52.3, ctr: 1.8 },
+      { month: "Nov '25", keywords: 198, top10: 58, top3: 14, traffic: 470, pages: 38, avgPos: 47.8, ctr: 2.3 },
+      { month: "Dec '25", keywords: 312, top10: 96, top3: 24, traffic: 810, pages: 62, avgPos: 43.1, ctr: 2.8 },
+      { month: "Jan '26", keywords: 534, top10: 172, top3: 46, traffic: 1680, pages: 94, avgPos: 38.4, ctr: 3.4 },
+      { month: "Feb '26", keywords: 892, top10: 298, top3: 82, traffic: 3120, pages: 132, avgPos: 33.7, ctr: 4.0 },
+      { month: "Mar '26", keywords: 1567, top10: 534, top3: 142, traffic: 5480, pages: 178, avgPos: 29.3, ctr: 4.7 },
+      { month: "Apr '26", keywords: 2834, top10: 847, top3: 218, traffic: 8920, pages: 234, avgPos: 25.1, ctr: 5.3 },
+    ],
+  },
+  paidAds: {
+    summary: [
+      { label: "Total Ad Spend", value: "$44.4K" },
+      { label: "Total Leads Generated", value: "547", note: "Employer inquiries and form submissions" },
+      { label: "Qualified Leads", value: "108", note: "Employers with budget, timeline, and active hiring need" },
+      { label: "Avg Cost per Qualified Lead", value: "$411", note: "↓37% from $648 baseline" },
+    ],
+    columnLabels: {
+      leads: "Employer Inquiries",
+      cpl: "Cost/Lead",
+      qualified: "Qualified Employers",
+      cpql: "Cost/Qualified",
+      deals: "Placements Made",
+      costPerDeal: "Cost/Placement",
+    },
+    monthly: [
+      { month: "Oct '25", spend: 5187, leads: 52, cpl: 99.75, qualified: 8, cpql: 648.38, deals: 1, revenue: 11200, roas: 2.16 },
+      { month: "Nov '25", spend: 5423, leads: 58, cpl: 93.50, qualified: 11, cpql: 493.00, deals: 2, revenue: 21400, roas: 3.95 },
+      { month: "Dec '25", spend: 5289, leads: 54, cpl: 97.94, qualified: 10, cpql: 528.90, deals: 2, revenue: 18600, roas: 3.52 },
+      { month: "Jan '26", spend: 6841, leads: 78, cpl: 87.71, qualified: 15, cpql: 456.07, deals: 3, revenue: 28900, roas: 4.22 },
+      { month: "Feb '26", spend: 7218, leads: 89, cpl: 81.10, qualified: 19, cpql: 379.89, deals: 4, revenue: 32400, roas: 4.49 },
+      { month: "Mar '26", spend: 7534, leads: 104, cpl: 72.44, qualified: 24, cpql: 313.92, deals: 5, revenue: 35200, roas: 4.67 },
+      { month: "Apr '26", spend: 6892, leads: 112, cpl: 61.54, qualified: 21, cpql: 328.19, deals: 4, revenue: 31800, roas: 4.61 },
+    ],
+  },
+  impact: [
+    { label: "Total Placement Revenue", value: "$179,500", growth: "+347%" },
+    { label: "Qualified Employer Leads", value: "108 total", growth: "8→24/mo (+200%)" },
+    { label: "Blended ROAS", value: "4.04x", growth: "" },
+    { label: "Successful Placements", value: "21", growth: "+250%" },
+    { label: "Cost per Qualified Lead", value: "$411", growth: "↓37% from $648" },
+    { label: "Organic Traffic", value: "8,920/mo", growth: "+3,086% from 280" },
+  ],
+};
