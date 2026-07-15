@@ -3,6 +3,7 @@ import { b2bHealthcareServicesNational } from "./b2b-healthcare-services-nationa
 import { commercialHvacPartsNational } from "./commercial-hvac-parts-national";
 import { commercialHvacArizona } from "./commercial-hvac-arizona";
 import { integrativeWellnessAestheticsNashville } from "./integrative-wellness-aesthetics-nashville";
+import { spiritualRetreatCa } from "./spiritual-retreat-ca";
 import { businessLawFlorida } from "./business-law-florida";
 import { specialtyMedicalHouston } from "./specialty-medical-houston";
 import { medicalDocumentPlatform } from "./medical-document-platform";
@@ -688,6 +689,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "integrative-wellness-aesthetics-nashville": integrativeWellnessAestheticsNashville,
   "renewable-energy-saas-national": renewableEnergySaasNational,
   "health-retreat": healthRetreat,
+  "spiritual-retreat-ca": spiritualRetreatCa,
 };
 
 export type { CaseStudyData };

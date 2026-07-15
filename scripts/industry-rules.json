@@ -857,7 +857,9 @@
     "Integrative Wellness & Medical Aesthetics": "healthcare_medical",
     "Renewable Energy Procurement SaaS": "saas",
     "Recruitment Placement": "lead_gen_professional",
-    "Health Retreat": "lead_gen_services"
+    "Health Retreat": "lead_gen_services",
+    "Spiritual Retreat": "lead_gen_services",
+    "Spiritual Retreat \u2014 Meditation, Yoga & Healing": "lead_gen_services"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",
@@ -874,6 +876,7 @@
     "Home Furniture": "ecommerce",
     "Higher Education": "lead_gen_professional",
     "Retail / E-commerce / Apparel": "ecommerce",
-    "Medical Document Management SaaS": "subscription"
+    "Medical Document Management SaaS": "subscription",
+    "Spiritual Retreat": "lead_gen_services"
   }
 }

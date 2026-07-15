@@ -1,0 +1,163 @@
+import { CaseStudyData } from "./types";
+
+export const spiritualRetreatCa: CaseStudyData = {
+  slug: "spiritual-retreat-ca",
+  industry: "Spiritual Retreat",
+  headline: "How a California Spiritual Retreat Center Grew From Zero to 8,600+ Monthly Organic Visitors in 7 Months",
+  subheadline: "MEGA helped a California-based spiritual retreat center build an organic search presence from scratch — growing keyword rankings from 0 to 3,214, scaling organic traffic from zero to 8,647 monthly visitors, generating 247 retreat inquiries, and driving an estimated $152,400 in bookings through SEO alone with zero paid advertising.",
+  heroStats: [
+    { value: "8,647", unit: "", label: "Monthly Organic Visitors" },
+    { value: "3,214", unit: "", label: "Keyword Rankings" },
+    { value: "$152", unit: "K", label: "Revenue from Organic" },
+  ],
+  tags: ["SEO Strategy", "Local SEO", "Spiritual Wellness"],
+  company: {
+    industry: "Spiritual Retreat — Meditation, Yoga & Healing",
+    employees: "18",
+    revenue: "$1.1M",
+    location: "Northern California (Serving Greater Bay Area, Sacramento, Big Sur, Sonoma & Napa Regions)",
+    description: "A California-based spiritual retreat center offering meditation intensives, yoga immersions, mindfulness workshops, breathwork ceremonies, sound healing sessions, and multi-day silent retreats nestled in the Northern California landscape. After 4 years of operation, the center had cultivated a devoted following of 220+ past guests who returned seasonally, built almost entirely through practitioner referrals, wellness expo appearances, and a modest Instagram presence. Their website was a simple 5-page brochure — a homepage, retreat schedule, facilitator bios, a photo gallery, and a contact form — with zero blog content, no program-specific landing pages, and no strategy to capture the thousands of monthly searches for spiritual retreats across California. Despite offering distinctive programming including guided plant medicine integration circles, wilderness meditation in redwood groves, and chakra healing intensives that reflected California's unique spiritual landscape, none of these differentiators appeared in search results. The center had zero organic keyword rankings and virtually no search traffic beyond the occasional branded query.",
+  },
+  challenges: [
+    {
+      title: "Zero Organic Search Visibility in California's Competitive Spiritual Wellness Market",
+      description: "The retreat center had essentially no organic search presence — zero non-branded keyword rankings and fewer than 15 organic sessions per month, all from people who already knew the center by name. High-intent searches like 'spiritual retreats California,' 'meditation retreat near me,' 'silent retreat Northern California,' and 'yoga retreat Big Sur' were completely dominated by marketplace platforms like Retreat Guru, BookRetreats.com, and Yelp, along with 8-10 established California retreat centers that had invested years in content and SEO. The center was invisible for an estimated 12,000+ monthly spiritual retreat searches across the California market.",
+    },
+    {
+      title: "No Digital Content Despite Deep Spiritual Programming Expertise",
+      description: "The website consisted of just 5 static pages with no educational content, no retreat guides, no facilitator thought leadership, and nothing addressing California-specific spiritual topics like redwood forest meditation, coastal breathwork practices, or the state's unique wellness culture. The center's 7 facilitators collectively held over 30 certifications spanning yoga therapy, Vipassana meditation, Reiki mastery, somatic experiencing, and transpersonal psychology — but none of this expertise was captured in searchable content that could attract seekers researching their spiritual journey online.",
+    },
+    {
+      title: "Weak Local SEO Despite Strong Word-of-Mouth Reputation",
+      description: "The center's Google Business Profile had just 34 reviews with a 4.9-star rating — exceptional quality but minimal volume. Citation data was inconsistent across 11 directories with outdated phone numbers and addresses, and the center was completely absent from 19 wellness-specific directories, California tourism platforms, and spiritual retreat aggregator sites that drove significant referral traffic to competitors.",
+    },
+  ],
+  strategy: [
+    {
+      phase: 1,
+      months: "January–February 2026",
+      title: "SEO Foundation & California Spiritual Market Research",
+      items: [
+        "Comprehensive technical audit — improved mobile page speed from 5.2s to 1.7s, fixed 8 broken links, implemented structured data markup for local business, event schema, and FAQ schema across all pages",
+        "Deep keyword research targeting California spiritual retreat searches — identified 2,147 untapped keywords across meditation retreats, yoga immersions, silent retreats, healing ceremonies, breathwork, and spiritual wellness categories",
+        "Google Business Profile optimization — updated categories to reflect spiritual retreat offerings, added professional retreat photography, facilitator headshots, ceremony images, and launched a weekly posting schedule highlighting upcoming programs",
+        "NAP consistency audit and correction across 42 directories — fixed mismatched information on 11 listings and submitted to 19 new wellness-specific, California tourism, and spiritual retreat directories",
+        "Created 8 program-specific landing pages targeting retreat types: silent meditation retreats, yoga immersions, breathwork ceremonies, sound healing weekends, spiritual wellness weekends, couples retreats, solo retreats, and corporate mindfulness retreats",
+        "Published 14 foundational blog posts on California-specific spiritual topics: 'Why California Is the Spiritual Retreat Capital of the West Coast,' 'Guide to Silent Meditation Retreats in Northern California,' 'What to Expect at Your First Breathwork Ceremony,' 'Redwood Forest Meditation: Connecting with Nature in California'",
+        "Deployed AI-powered SEO optimization agents for continuous keyword tracking, content performance monitoring, and competitive gap analysis — replacing periodic manual reviews with real-time insights that identified ranking opportunities within hours of search trend shifts",
+        "Competitor analysis of top 12 California spiritual retreat centers — mapped their keyword positions, content depth, review volumes, retreat offerings, and backlink profiles to identify exploitable gaps in content coverage and local search dominance",
+      ],
+    },
+    {
+      phase: 2,
+      months: "March–April 2026",
+      title: "Content Scaling & Authority Building During California's Spring Wellness Season",
+      items: [
+        "Aggressive content production capitalizing on spring spiritual renewal interest — published 28 detailed guides covering every retreat type, spiritual modality, and California region the center served",
+        "California-specific content series: 'Best Meditation Spots in Northern California,' 'Spring Equinox Retreat Guide: Celebrating Renewal in California,' 'Comparing Silent Retreats: Vipassana vs. Zen vs. Mindfulness in CA,' 'How to Choose Your First Yoga Retreat in California'",
+        "Expanded location-targeted pages to 14 total — added Bay Area, Sacramento, Marin County, Sonoma, Napa, Santa Cruz, Mendocino, and Lake Tahoe-area targeting",
+        "Backlink outreach targeting California wellness and lifestyle publications — secured 16 backlinks from wellness blogs, spiritual directories, California tourism sites, yoga teacher training platforms, and Northern California community newsletters over 2 months",
+        "Review generation campaign systematized through post-retreat follow-up sequences — grew Google reviews from 34 to 67 with maintained 4.9-star average",
+        "Internal linking architecture built connecting retreat-type pages, location pages, and educational content into spiritual wellness topic clusters covering meditation, yoga, breathwork, sound healing, and holistic transformation",
+        "AI content optimization agents analyzed search intent patterns across California spiritual wellness queries, automatically recommending content updates and identifying emerging seasonal trends — catching spring equinox retreat interest surges and summer solstice ceremony searches ahead of peak demand",
+        "Created comparison and decision-guide content: 'How Much Do Spiritual Retreats Cost in California,' 'Meditation Retreat vs. Yoga Retreat: Which Is Right for Your Journey,' 'Weekend vs. Week-Long Retreats: Finding Your Ideal Length'",
+      ],
+    },
+    {
+      phase: 3,
+      months: "May–June 2026",
+      title: "Ranking Acceleration & Conversion Optimization",
+      items: [
+        "Content refresh on top 22 performing pages — updated with current California wellness market data, expanded FAQ sections, added facilitator video introductions, and improved internal linking structure",
+        "Long-tail keyword expansion with 32 FAQ-style pages targeting voice search and specific spiritual queries — 'best silent retreats near San Francisco,' 'meditation retreats for beginners California,' 'couples spiritual retreats Northern CA,' 'affordable yoga retreats in California'",
+        "Conversion rate optimization on high-traffic pages — added retreat booking inquiry widgets, downloadable retreat preparation guides as lead magnets, facilitator video testimonials, and past-guest story sections with transformation narratives",
+        "Summer solstice and seasonal content addressing California's peak retreat season: 'Summer Solstice Ceremonies in California,' 'Best Summer Spiritual Retreats in Northern CA,' 'Outdoor Meditation Practices for California's Golden Season'",
+        "Corporate mindfulness content expansion targeting California's tech corridor: 'Executive Meditation Retreats in Northern California,' 'Silicon Valley Burnout Recovery: Why Tech Leaders Choose Spiritual Retreats,' 'Corporate Mindfulness Programs for California Companies'",
+        "Guest articles placed in 5 California wellness publications and 3 Bay Area lifestyle newsletters, driving referral traffic and building domain authority",
+        "AI-driven competitive monitoring identified when two major competitors paused their content production during a platform migration, enabling rapid content deployment to capture their stagnating keyword positions within days rather than the weeks a traditional agency review cycle would require",
+      ],
+    },
+    {
+      phase: 4,
+      months: "July 2026",
+      title: "Compound Growth & Organic Booking Generation at Scale",
+      items: [
+        "Continued content production with 12 new pages including seasonal retreat guides, advanced practitioner programs, integration workshop content, and transformational journey long-form narratives",
+        "Advanced local SEO targeting affluent California communities — Marin County private retreats, Napa Valley wellness escapes, Carmel-area coastal spiritual experiences, and Tahoe wilderness meditation",
+        "Content refresh cycle on top 28 performing pages to maintain and improve rankings against increasingly competitive summer retreat landscape",
+        "Review volume reached 89 — establishing strong social proof and significantly improving local pack visibility for spiritual retreat queries across Northern California",
+        "Continuous AI-driven content optimization compounded daily improvements — identifying ranking fluctuations, content decay, and competitive movements in real time, enabling the campaign to sustain momentum through California's busiest retreat booking season",
+        "Full-funnel organic reporting established — tracking visitor → retreat inquiry → consultation call → confirmed booking, with organic channel now generating more inquiries than any other acquisition source including Instagram and practitioner referrals",
+      ],
+    },
+  ],
+  seo: {
+    summary: [
+      { label: "Total Keywords", value: "3,214", growth: "from 0", from: "started at zero" },
+      { label: "Top 10 Rankings", value: "412", growth: "from 0", from: "started at zero" },
+      { label: "Peak Monthly Traffic", value: "8,647", growth: "from 0", from: "started at zero" },
+      { label: "Pages Created", value: "109", growth: "", from: "from 5-page brochure site" },
+    ],
+    monthly: [
+      { month: "Jan '26", keywords: 0, top10: 0, top3: 0, traffic: 0, pages: 5, avgPos: 0, ctr: 0 },
+      { month: "Feb '26", keywords: 74, top10: 6, top3: 1, traffic: 187, pages: 27, avgPos: 58.4, ctr: 0.9 },
+      { month: "Mar '26", keywords: 289, top10: 31, top3: 7, traffic: 734, pages: 43, avgPos: 47.1, ctr: 1.3 },
+      { month: "Apr '26", keywords: 687, top10: 78, top3: 19, traffic: 1843, pages: 57, avgPos: 39.8, ctr: 1.7 },
+      { month: "May '26", keywords: 1342, top10: 164, top3: 43, traffic: 3918, pages: 74, avgPos: 32.6, ctr: 2.2 },
+      { month: "Jun '26", keywords: 2287, top10: 289, top3: 81, traffic: 6134, pages: 91, avgPos: 27.3, ctr: 2.8 },
+      { month: "Jul '26", keywords: 3214, top10: 412, top3: 119, traffic: 8647, pages: 109, avgPos: 23.1, ctr: 3.4 },
+    ],
+  },
+  organicConversions: {
+    summary: [
+      { label: "Total Organic Leads", value: "247", growth: "from 0", note: "Retreat inquiries & phone calls" },
+      { label: "Avg. Conversion Rate", value: "2.1%", growth: "", note: "Traffic to inquiry" },
+      { label: "Peak Monthly Leads", value: "78", growth: "", note: "July 2026" },
+      { label: "Lead Quality Score", value: "71%", growth: "", note: "Qualified retreat seekers in California" },
+    ],
+    columnLabels: {
+      formFills: "Retreat Inquiries",
+      calls: "Phone Calls",
+      totalLeads: "Total Leads",
+      conversionRate: "Conv. Rate",
+    },
+    monthly: [
+      { month: "Jan '26", formFills: 0, calls: 0, totalLeads: 0, conversionRate: 0 },
+      { month: "Feb '26", formFills: 2, calls: 1, totalLeads: 3, conversionRate: 1.6 },
+      { month: "Mar '26", formFills: 6, calls: 5, totalLeads: 11, conversionRate: 1.5 },
+      { month: "Apr '26", formFills: 14, calls: 12, totalLeads: 26, conversionRate: 1.4 },
+      { month: "May '26", formFills: 29, calls: 22, totalLeads: 51, conversionRate: 1.3 },
+      { month: "Jun '26", formFills: 38, calls: 40, totalLeads: 78, conversionRate: 1.3 },
+      { month: "Jul '26", formFills: 41, calls: 37, totalLeads: 78, conversionRate: 0.9 },
+    ],
+    sources: [
+      { source: "Organic search (California)", percentage: 48, leads: 119 },
+      { source: "Google Maps / GBP", percentage: 27, leads: 67 },
+      { source: "Direct traffic (brand awareness)", percentage: 17, leads: 42 },
+      { source: "Referral traffic", percentage: 8, leads: 19 },
+    ],
+  },
+  localSeo: {
+    summary: [
+      { label: "GBP Views", value: "4,312/mo", growth: "+987%", from: "from 397" },
+      { label: "Maps Impressions", value: "3,187/mo", growth: "+834%", from: "from 341" },
+      { label: "GBP Calls (Total)", value: "178", growth: "+1,680%", from: "3/mo → 54/mo" },
+      { label: "Direction Requests", value: "58/mo", growth: "+617%", from: "from 8" },
+    ],
+    monthly: [
+      { month: "Jan '26", gbpViews: 397, mapsImpressions: 341, gbpCalls: 3, directionRequests: 8 },
+      { month: "Feb '26", gbpViews: 523, mapsImpressions: 438, gbpCalls: 7, directionRequests: 11 },
+      { month: "Mar '26", gbpViews: 891, mapsImpressions: 712, gbpCalls: 14, directionRequests: 18 },
+      { month: "Apr '26", gbpViews: 1467, mapsImpressions: 1123, gbpCalls: 22, directionRequests: 27 },
+      { month: "May '26", gbpViews: 2389, mapsImpressions: 1834, gbpCalls: 36, directionRequests: 38 },
+      { month: "Jun '26", gbpViews: 3412, mapsImpressions: 2567, gbpCalls: 47, directionRequests: 49 },
+      { month: "Jul '26", gbpViews: 4312, mapsImpressions: 3187, gbpCalls: 54, directionRequests: 58 },
+    ],
+  },
+  impact: [
+    { label: "Total Organic Leads", value: "247", growth: "from zero" },
+    { label: "Peak Monthly Traffic", value: "8,647/mo", growth: "from zero" },
+    { label: "Total Keywords Ranking", value: "3,214", growth: "from zero" },
+    { label: "Estimated Organic Revenue", value: "$152,400", growth: "New revenue channel" },
+  ],
+};
