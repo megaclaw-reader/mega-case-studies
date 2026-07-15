@@ -146,6 +146,7 @@ CPL_RANGES = {
     "clinic": (40, 150),
     "telemedicine":      (15, 150),
     "mental_health":     (20, 350),
+    "behavioral_health": (25, 300),
     "rehab_center":      (150, 450),
     "regen_medicine":    (30, 250),
     # SaaS
@@ -272,6 +273,7 @@ def _cpl_category(industry, model_key):
         ("mortgage", "mortgage"), ("lending", "mortgage"),
         ("telemedicine", "telemedicine"), ("telehealth", "telemedicine"),
         ("rehab", "rehab_center"),
+        ("behavioral health", "behavioral_health"),
         ("therapy", "therapy"), ("counseling", "therapy"), ("psychotherapy", "therapy"),
         ("mental health", "therapy"),
         ("regenerative", "regen_medicine"), ("functional medicine", "regen_medicine"),
@@ -426,6 +428,7 @@ DEAL_VALUE_RANGES = {
     "clinic": (300, 1500),
     "telemedicine": (80, 400),
     "mental_health": (100, 15000),
+    "behavioral_health": (3000, 15000),
     "rehab_center": (8000, 35000),
     "regen_medicine": (1500, 15000),
     "real_estate_investment": (15000, 65000),

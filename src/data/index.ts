@@ -1,8 +1,10 @@
 import { CaseStudyData } from "./types";
+import { addictionRehabNy } from "./addiction-rehab-ny";
 import { b2bHealthcareServicesNational } from "./b2b-healthcare-services-national";
 import { commercialHvacPartsNational } from "./commercial-hvac-parts-national";
 import { commercialHvacArizona } from "./commercial-hvac-arizona";
 import { integrativeWellnessAestheticsNashville } from "./integrative-wellness-aesthetics-nashville";
+import { behavioralHealthServices } from "./behavioral-health-services";
 import { spiritualRetreatCa } from "./spiritual-retreat-ca";
 import { businessLawFlorida } from "./business-law-florida";
 import { specialtyMedicalHouston } from "./specialty-medical-houston";
@@ -690,6 +692,8 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "renewable-energy-saas-national": renewableEnergySaasNational,
   "health-retreat": healthRetreat,
   "spiritual-retreat-ca": spiritualRetreatCa,
+  "behavioral-health-services": behavioralHealthServices,
+  "addiction-rehab-ny": addictionRehabNy,
 };
 
 export type { CaseStudyData };
