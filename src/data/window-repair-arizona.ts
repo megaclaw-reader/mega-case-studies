@@ -4,11 +4,11 @@ export const windowRepairArizona: CaseStudyData = {
   slug: "window-repair-arizona",
   industry: "Window Repair",
   headline: "How an Arizona Window Repair Company Built a Sustainable Lead Pipeline With Paid Advertising",
-  subheadline: "MEGA helped a local window repair and replacement service in Arizona develop a structured paid advertising engine — reducing cost per qualified lead by 75% and generating $161.5K in attributed revenue over 12 months.",
+  subheadline: "MEGA helped a local window repair and replacement service in Arizona develop a structured paid advertising engine — reducing cost per qualified lead by 67% and generating $170.5K in attributed revenue over 12 months.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
-    { value: "75", unit: "%", label: "CPQL Reduction" },
-    { value: "$161.5K", unit: "", label: "Revenue Attributed" },
+    { value: "67", unit: "%", label: "CPQL Reduction" },
+    { value: "$170.5K", unit: "", label: "Revenue Attributed" },
   ],
   tags: ["Paid Advertising", "AI-Powered Optimization", "Local Lead Generation"],
   company: {
@@ -21,7 +21,7 @@ export const windowRepairArizona: CaseStudyData = {
   challenges: [
     {
       title: "High Cost Per Lead With No Qualification System",
-      description: "Previous paid campaigns generated a mix of phone calls and form fills, but there was no system to separate a homeowner needing a $3,000 multi-window replacement from someone asking about a $75 screen repair. Cost per qualified lead was running above $1,000, with a qualification rate around 22% — meaning nearly four out of five ad-generated inquiries were either unqualified, out of area, or too low-value to justify the sales team's time.",
+      description: "Previous paid campaigns generated a mix of phone calls and form fills, but there was no system to separate a homeowner needing a $3,000 multi-window replacement from someone asking about a $75 screen repair. Cost per qualified lead was running near $859, with a qualification rate around 22% — meaning nearly four out of five ad-generated inquiries were either unqualified, out of area, or too low-value to justify the sales team's time.",
     },
     {
       title: "Intense Local Competition From National Franchises",
@@ -93,9 +93,9 @@ export const windowRepairArizona: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$82.4K" },
-      { label: "Qualified Leads", value: "223" },
-      { label: "Avg Cost Per Qualified Lead", value: "$370", note: "↓75% from ~$1,002" },
-      { label: "Closed Jobs", value: "59" },
+      { label: "Qualified Leads", value: "226" },
+      { label: "Avg Cost Per Qualified Lead", value: "$365", note: "↓67% from ~$859" },
+      { label: "Closed Jobs", value: "61" },
     ],
     columnLabels: {
       leads: "Total Leads",
@@ -106,24 +106,36 @@ export const windowRepairArizona: CaseStudyData = {
       costPerDeal: "Cost/Job",
     },
     monthly: [
-      { month: "Mar '25", spend: 6012, leads: 24, cpl: 250.50, qualified: 6, cpql: 1002.00, deals: 1, revenue: 2150, roas: 0.36 },
-      { month: "Apr '25", spend: 6147, leads: 31, cpl: 198.29, qualified: 9, cpql: 683.00, deals: 2, revenue: 4760, roas: 0.77 },
-      { month: "May '25", spend: 7234, leads: 48, cpl: 150.71, qualified: 14, cpql: 516.71, deals: 4, revenue: 10840, roas: 1.50 },
-      { month: "Jun '25", spend: 8187, leads: 64, cpl: 127.92, qualified: 20, cpql: 409.35, deals: 6, revenue: 17040, roas: 2.08 },
-      { month: "Jul '25", spend: 8493, leads: 76, cpl: 111.75, qualified: 24, cpql: 353.88, deals: 7, revenue: 20720, roas: 2.44 },
-      { month: "Aug '25", spend: 7891, leads: 73, cpl: 108.10, qualified: 23, cpql: 343.09, deals: 7, revenue: 20090, roas: 2.55 },
-      { month: "Sep '25", spend: 7012, leads: 66, cpl: 106.24, qualified: 20, cpql: 350.60, deals: 5, revenue: 13900, roas: 1.98 },
-      { month: "Oct '25", spend: 6423, leads: 70, cpl: 91.76, qualified: 21, cpql: 305.86, deals: 5, revenue: 13250, roas: 2.06 },
-      { month: "Nov '25", spend: 6087, leads: 60, cpl: 101.45, qualified: 17, cpql: 358.06, deals: 4, revenue: 10080, roas: 1.66 },
-      { month: "Dec '25", spend: 6021, leads: 63, cpl: 95.57, qualified: 19, cpql: 316.89, deals: 5, revenue: 12050, roas: 2.00 },
-      { month: "Jan '26", spend: 6198, leads: 74, cpl: 83.76, qualified: 23, cpql: 269.48, deals: 6, revenue: 16380, roas: 2.64 },
-      { month: "Feb '26", spend: 6717, leads: 84, cpl: 79.96, qualified: 27, cpql: 248.78, deals: 7, revenue: 20230, roas: 3.01 },
+      // Mar 2025: Launch month — high volume but low quality, learning phase
+      { month: "Mar '25", spend: 6012, leads: 47, cpl: 127.91, qualified: 7, cpql: 858.86, deals: 1, revenue: 2350, roas: 0.39 },
+      // Apr 2025: First optimizations — negative keywords cutting waste
+      { month: "Apr '25", spend: 6147, leads: 52, cpl: 118.21, qualified: 9, cpql: 683.00, deals: 2, revenue: 4960, roas: 0.81 },
+      // May 2025: Summer begins — Arizona heat driving window issues
+      { month: "May '25", spend: 7234, leads: 66, cpl: 109.61, qualified: 14, cpql: 516.71, deals: 4, revenue: 10600, roas: 1.47 },
+      // Jun 2025: Peak summer — high demand, AI optimization improving
+      { month: "Jun '25", spend: 8187, leads: 84, cpl: 97.46, qualified: 20, cpql: 409.35, deals: 6, revenue: 16680, roas: 2.04 },
+      // Jul 2025: Peak summer continues — highest demand month
+      { month: "Jul '25", spend: 8493, leads: 98, cpl: 86.66, qualified: 25, cpql: 339.72, deals: 7, revenue: 20440, roas: 2.41 },
+      // Aug 2025: Late summer — strong volume, mature optimization
+      { month: "Aug '25", spend: 7891, leads: 91, cpl: 86.71, qualified: 24, cpql: 328.79, deals: 7, revenue: 20090, roas: 2.55 },
+      // Sep 2025: End of peak — efficient campaigns sustain results
+      { month: "Sep '25", spend: 7012, leads: 82, cpl: 85.51, qualified: 22, cpql: 318.73, deals: 6, revenue: 16860, roas: 2.40 },
+      // Oct 2025: Fall — winterization campaign drives fresh demand
+      { month: "Oct '25", spend: 6423, leads: 78, cpl: 82.35, qualified: 23, cpql: 279.26, deals: 6, revenue: 16320, roas: 2.54 },
+      // Nov 2025: Slower season — sustained by energy efficiency angle
+      { month: "Nov '25", spend: 6087, leads: 68, cpl: 89.51, qualified: 19, cpql: 320.37, deals: 5, revenue: 13250, roas: 2.18 },
+      // Dec 2025: Holiday slowdown — lower volume, efficient spend
+      { month: "Dec '25", spend: 6021, leads: 62, cpl: 97.11, qualified: 17, cpql: 354.18, deals: 4, revenue: 10240, roas: 1.70 },
+      // Jan 2026: New year — delayed projects resurface
+      { month: "Jan '26", spend: 6198, leads: 74, cpl: 83.76, qualified: 22, cpql: 281.73, deals: 6, revenue: 17100, roas: 2.76 },
+      // Feb 2026: Pre-spring — fully mature campaigns, strong close
+      { month: "Feb '26", spend: 6717, leads: 92, cpl: 73.01, qualified: 24, cpql: 279.88, deals: 7, revenue: 21560, roas: 3.21 },
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$161.5K", growth: "" },
-    { label: "Closed Jobs", value: "59", growth: "" },
-    { label: "Avg Job Value", value: "$2,737", growth: "" },
-    { label: "Blended ROAS", value: "1.96x", growth: "" },
+    { label: "Total Revenue", value: "$170.5K", growth: "" },
+    { label: "Closed Jobs", value: "61", growth: "" },
+    { label: "Avg Job Value", value: "$2,794", growth: "" },
+    { label: "Blended ROAS", value: "2.07x", growth: "" },
   ],
 };

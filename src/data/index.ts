@@ -1,5 +1,6 @@
 import { CaseStudyData } from "./types";
 import { addictionRehabNy } from "./addiction-rehab-ny";
+import { peptidesSeoArizona } from "./peptides-seo-arizona";
 import { b2bHealthcareServicesNational } from "./b2b-healthcare-services-national";
 import { commercialHvacPartsNational } from "./commercial-hvac-parts-national";
 import { commercialHvacArizona } from "./commercial-hvac-arizona";
@@ -704,6 +705,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "spiritual-retreat-ca": spiritualRetreatCa,
   "behavioral-health-services": behavioralHealthServices,
   "addiction-rehab-ny": addictionRehabNy,
+  "peptides-seo-arizona": peptidesSeoArizona,
 };
 
 export type { CaseStudyData };

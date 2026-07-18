@@ -860,7 +860,8 @@
     "Health Retreat": "lead_gen_services",
     "Spiritual Retreat": "lead_gen_services",
     "Spiritual Retreat \u2014 Meditation, Yoga & Healing": "lead_gen_services",
-    "college": "lead_gen_professional"
+    "college": "lead_gen_professional",
+    "Peptides": "ecommerce"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",
