@@ -1,4 +1,5 @@
 import { CaseStudyData } from "./types";
+import { wellnessClassesSeoArizona } from "./wellness-classes-seo-arizona";
 import { addictionRehabNy } from "./addiction-rehab-ny";
 import { peptidesSeoArizona } from "./peptides-seo-arizona";
 import { b2bHealthcareServicesNational } from "./b2b-healthcare-services-national";
