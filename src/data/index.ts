@@ -349,6 +349,7 @@ import { therapyTucson } from "./therapy-tucson";
 import { landscapingFl } from "./landscaping-fl";
 import { landscapingFloridaSubscription } from "./landscaping-florida-subscription";
 import { cybersecuritySaasSeo } from "./cybersecurity-saas-seo";
+import { cybersecurityPlatformSeo } from "./cybersecurity-platform-seo";
 import { personalInjuryLawSc } from "./personal-injury-law-sc";
 import { homeDecor } from "./home-decor";
 import { wellnessClassesSeoArizona } from "./wellness-classes-seo-arizona";
@@ -695,6 +696,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "pool-maintenance-nc": poolMaintenanceNc,
   "landscaping-fl": landscapingFl,
   "cybersecurity-saas-seo": cybersecuritySaasSeo,
+  "cybersecurity-platform-seo": cybersecurityPlatformSeo,
   "business-law-florida": businessLawFlorida,
   "personal-injury-law-sc": personalInjuryLawSc,
   "home-decor": homeDecor,
