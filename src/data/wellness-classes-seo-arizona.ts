@@ -4,11 +4,11 @@ export const wellnessClassesSeoArizona: CaseStudyData = {
   slug: "wellness-classes-seo-arizona",
   industry: "Wellness Classes",
   headline: "How an Arizona Wellness Studio Grew Organic Traffic from 112 to 8,700+ Sessions/Month in 7 Months with SEO",
-  subheadline: "MEGA helped a wellness class provider in Arizona build a dominant organic presence — growing from 97 keywords to over 4,200 and generating 614 organic leads across the Phoenix metro and Scottsdale area, all through SEO with zero paid advertising.",
+  subheadline: "MEGA helped a wellness class provider in Arizona build a dominant organic presence — growing from 97 keywords to over 4,200 and generating 495 organic leads across the Phoenix metro and Scottsdale area, all through SEO with zero paid advertising.",
   heroStats: [
     { value: "4,218", unit: "", label: "Total Keywords Ranking" },
     { value: "8,734", unit: "", label: "Peak Monthly Organic Traffic" },
-    { value: "614", unit: "", label: "Organic Leads Generated" },
+    { value: "495", unit: "", label: "Organic Leads Generated" },
   ],
   tags: ["SEO Strategy", "Local SEO", "Content Marketing"],
   company: {
@@ -35,7 +35,7 @@ export const wellnessClassesSeoArizona: CaseStudyData = {
   strategy: [
     {
       phase: 1,
-      months: "January–February 2026",
+      months: "January–February 2025",
       title: "SEO Foundation & Arizona Wellness Market Research",
       items: [
         "Comprehensive technical audit — improved mobile page speed from 4.8s to 1.9s, fixed 11 broken links, implemented structured data markup for local business, course offerings, and event schema",
@@ -50,7 +50,7 @@ export const wellnessClassesSeoArizona: CaseStudyData = {
     },
     {
       phase: 2,
-      months: "March–April 2026",
+      months: "March–April 2025",
       title: "Content Scaling & Authority Building",
       items: [
         "Aggressive content production — published 24 detailed guides covering every wellness modality offered, with Arizona-specific angles and seasonal relevance",
@@ -65,7 +65,7 @@ export const wellnessClassesSeoArizona: CaseStudyData = {
     },
     {
       phase: 3,
-      months: "May–June 2026",
+      months: "May–June 2025",
       title: "Ranking Acceleration & Conversion Optimization",
       items: [
         "Content refresh on top 18 performing pages — updated with current Arizona wellness market data, expanded FAQ sections, and improved calls-to-action",
@@ -79,7 +79,7 @@ export const wellnessClassesSeoArizona: CaseStudyData = {
     },
     {
       phase: 4,
-      months: "July 2026",
+      months: "July 2025",
       title: "Compound Growth & Organic Lead Generation at Scale",
       items: [
         "Continued content production with 8 new pages including guides for retreat-style weekend workshops, prenatal wellness programs, and senior mobility classes",
@@ -99,20 +99,20 @@ export const wellnessClassesSeoArizona: CaseStudyData = {
       { label: "Pages Created", value: "98", growth: "", from: "from 5-page brochure site" },
     ],
     monthly: [
-      { month: "Jan '26", keywords: 97, top10: 10, top3: 2, traffic: 112, pages: 5, avgPos: 61.2, ctr: 1.1 },
-      { month: "Feb '26", keywords: 189, top10: 22, top3: 5, traffic: 437, pages: 23, avgPos: 53.8, ctr: 1.4 },
-      { month: "Mar '26", keywords: 478, top10: 58, top3: 14, traffic: 1123, pages: 39, avgPos: 44.6, ctr: 1.9 },
-      { month: "Apr '26", keywords: 1047, top10: 134, top3: 37, traffic: 2847, pages: 56, avgPos: 37.3, ctr: 2.4 },
-      { month: "May '26", keywords: 1923, top10: 256, top3: 74, traffic: 4612, pages: 71, avgPos: 31.7, ctr: 2.9 },
-      { month: "Jun '26", keywords: 3124, top10: 412, top3: 128, traffic: 6891, pages: 87, avgPos: 27.1, ctr: 3.4 },
-      { month: "Jul '26", keywords: 4218, top10: 578, top3: 183, traffic: 8734, pages: 98, avgPos: 23.8, ctr: 3.8 },
+      { month: "Jan '25", keywords: 97, top10: 10, top3: 2, traffic: 112, pages: 5, avgPos: 61.2, ctr: 1.1 },
+      { month: "Feb '25", keywords: 189, top10: 22, top3: 5, traffic: 437, pages: 23, avgPos: 53.8, ctr: 1.4 },
+      { month: "Mar '25", keywords: 478, top10: 58, top3: 14, traffic: 1123, pages: 39, avgPos: 44.6, ctr: 1.9 },
+      { month: "Apr '25", keywords: 1047, top10: 134, top3: 37, traffic: 2847, pages: 56, avgPos: 37.3, ctr: 2.4 },
+      { month: "May '25", keywords: 1923, top10: 256, top3: 74, traffic: 4612, pages: 71, avgPos: 31.7, ctr: 2.9 },
+      { month: "Jun '25", keywords: 3124, top10: 412, top3: 128, traffic: 6891, pages: 87, avgPos: 27.1, ctr: 3.4 },
+      { month: "Jul '25", keywords: 4218, top10: 578, top3: 183, traffic: 8734, pages: 98, avgPos: 23.8, ctr: 3.8 },
     ],
   },
   organicConversions: {
     summary: [
-      { label: "Total Organic Leads", value: "614", growth: "+6,040%", note: "Class inquiries & phone calls" },
-      { label: "Avg. Conversion Rate", value: "2.7%", growth: "+59%", note: "Traffic to lead" },
-      { label: "Peak Monthly Leads", value: "179", growth: "", note: "July 2026" },
+      { label: "Total Organic Leads", value: "495", growth: "+", note: "Class inquiries & phone calls" },
+      { label: "Avg. Conversion Rate", value: "2.0%", growth: "", note: "Traffic to lead" },
+      { label: "Peak Monthly Leads", value: "179", growth: "", note: "July 2025" },
       { label: "Lead Quality Score", value: "68%", growth: "+31%", note: "Qualified prospects in service area" },
     ],
     columnLabels: {
@@ -122,19 +122,19 @@ export const wellnessClassesSeoArizona: CaseStudyData = {
       conversionRate: "Conv. Rate",
     },
     monthly: [
-      { month: "Jan '26", formFills: 1, calls: 1, totalLeads: 2, conversionRate: 1.8 },
-      { month: "Feb '26", formFills: 3, calls: 4, totalLeads: 7, conversionRate: 1.6 },
-      { month: "Mar '26", formFills: 8, calls: 12, totalLeads: 20, conversionRate: 1.8 },
-      { month: "Apr '26", formFills: 21, calls: 28, totalLeads: 49, conversionRate: 1.7 },
-      { month: "May '26", formFills: 38, calls: 51, totalLeads: 89, conversionRate: 1.9 },
-      { month: "Jun '26", formFills: 67, calls: 82, totalLeads: 149, conversionRate: 2.2 },
-      { month: "Jul '26", formFills: 84, calls: 95, totalLeads: 179, conversionRate: 2.1 },
+      { month: "Jan '25", formFills: 1, calls: 1, totalLeads: 2, conversionRate: 1.8 },
+      { month: "Feb '25", formFills: 3, calls: 4, totalLeads: 7, conversionRate: 1.6 },
+      { month: "Mar '25", formFills: 8, calls: 12, totalLeads: 20, conversionRate: 1.8 },
+      { month: "Apr '25", formFills: 21, calls: 28, totalLeads: 49, conversionRate: 1.7 },
+      { month: "May '25", formFills: 38, calls: 51, totalLeads: 89, conversionRate: 1.9 },
+      { month: "Jun '25", formFills: 67, calls: 82, totalLeads: 149, conversionRate: 2.2 },
+      { month: "Jul '25", formFills: 84, calls: 95, totalLeads: 179, conversionRate: 2.1 },
     ],
     sources: [
-      { source: "Organic search (Arizona metro)", percentage: 52, leads: 319 },
-      { source: "Google Maps / GBP", percentage: 26, leads: 160 },
-      { source: "Direct traffic (brand awareness)", percentage: 15, leads: 92 },
-      { source: "Referral traffic", percentage: 7, leads: 43 },
+      { source: "Organic search (Arizona metro)", percentage: 52, leads: 257 },
+      { source: "Google Maps / GBP", percentage: 26, leads: 129 },
+      { source: "Direct traffic (brand awareness)", percentage: 15, leads: 74 },
+      { source: "Referral traffic", percentage: 7, leads: 35 },
     ],
   },
   localSeo: {
@@ -145,19 +145,19 @@ export const wellnessClassesSeoArizona: CaseStudyData = {
       { label: "Direction Requests", value: "67/mo", growth: "+335%", from: "from 15" },
     ],
     monthly: [
-      { month: "Jan '26", gbpViews: 862, mapsImpressions: 745, gbpCalls: 6, directionRequests: 15 },
-      { month: "Feb '26", gbpViews: 1134, mapsImpressions: 923, gbpCalls: 12, directionRequests: 19 },
-      { month: "Mar '26", gbpViews: 1678, mapsImpressions: 1289, gbpCalls: 21, directionRequests: 27 },
-      { month: "Apr '26", gbpViews: 2345, mapsImpressions: 1812, gbpCalls: 34, directionRequests: 37 },
-      { month: "May '26", gbpViews: 3178, mapsImpressions: 2467, gbpCalls: 48, directionRequests: 48 },
-      { month: "Jun '26", gbpViews: 4023, mapsImpressions: 3089, gbpCalls: 61, directionRequests: 58 },
-      { month: "Jul '26", gbpViews: 4891, mapsImpressions: 3712, gbpCalls: 73, directionRequests: 67 },
+      { month: "Jan '25", gbpViews: 862, mapsImpressions: 745, gbpCalls: 6, directionRequests: 15 },
+      { month: "Feb '25", gbpViews: 1134, mapsImpressions: 923, gbpCalls: 12, directionRequests: 19 },
+      { month: "Mar '25", gbpViews: 1678, mapsImpressions: 1289, gbpCalls: 21, directionRequests: 27 },
+      { month: "Apr '25", gbpViews: 2345, mapsImpressions: 1812, gbpCalls: 34, directionRequests: 37 },
+      { month: "May '25", gbpViews: 3178, mapsImpressions: 2467, gbpCalls: 48, directionRequests: 48 },
+      { month: "Jun '25", gbpViews: 4023, mapsImpressions: 3089, gbpCalls: 61, directionRequests: 58 },
+      { month: "Jul '25", gbpViews: 4891, mapsImpressions: 3712, gbpCalls: 73, directionRequests: 67 },
     ],
   },
   impact: [
-    { label: "Total Organic Leads", value: "614", growth: "+6,040%" },
+    { label: "Total Organic Leads", value: "495", growth: "+" },
     { label: "Peak Monthly Traffic", value: "8,734/mo", growth: "+7,698%" },
     { label: "Total Keywords Ranking", value: "4,218", growth: "+4,247%" },
-    { label: "Estimated Organic Revenue", value: "$184,200", growth: "New revenue channel" },
+    { label: "Estimated Organic Revenue", value: "$148,500", growth: "New revenue channel" },
   ],
 };
