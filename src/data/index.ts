@@ -341,6 +341,7 @@ import { solarEnergyPhoenix } from "./solar-energy-phoenix";
 import { injuryLawNewJersey } from "./injury-law-new-jersey";
 import { sportsTeamArizona } from "./sports-team-arizona";
 import { therapyArizona } from "./therapy-arizona";
+import { therapyTucson } from "./therapy-tucson";
 import { landscapingFl } from "./landscaping-fl";
 import { cybersecuritySaasSeo } from "./cybersecurity-saas-seo";
 import { personalInjuryLawSc } from "./personal-injury-law-sc";
@@ -675,6 +676,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "clinic-california": clinicCalifornia,
   "clinic-san-diego": clinicSanDiego,
   "therapy-arizona": therapyArizona,
+  "therapy-tucson": therapyTucson,
   "healthcare-software-national": healthcareSoftwareNational,
   "medical-document-platform": medicalDocumentPlatform,
   "medical-clinic-phoenix": medicalClinicPhoenix,
