@@ -179,7 +179,7 @@ def _cpl_category(industry, model_key):
     mappings = [
         ("m&a advisory", "ma_advisory"), ("m&a", "ma_advisory"), ("mergers", "ma_advisory"),
         ("ophthalmolog", "ophthalmology"), ("optometri", "optometrist"), ("vision care", "optometrist"), ("eye care", "optometrist"),
-        ("orthodontic", "orthodontics"), ("dental surgery", "dental_surgery"), ("dental implant", "dental_implants"), ("cosmetic dentist", "cosmetic_dentistry"), ("chiropract", "chiropractor"), ("painting", "painting"), ("dental medtech", "healthcare_equip"), ("dental", "dental"), ("commercial hvac parts", "commercial_hvac_parts"), ("hvac parts", "commercial_hvac_parts"), ("hvac", "hvac"), ("roof", "roofing"),
+        ("orthodontic", "orthodontics"), ("dental surgery", "dental_surgery"), ("dental implant", "dental_implants"), ("cosmetic dentist", "cosmetic_dentistry"), ("chiropract", "chiropractor"), ("painting", "painting"), ("dental medtech", "healthcare_equip"), ("dental", "dental"), ("commercial hvac service", "commercial_hvac_services"), ("commercial hvac parts", "commercial_hvac_parts"), ("hvac parts", "commercial_hvac_parts"), ("hvac", "hvac"), ("roof", "roofing"),
         ("plumb", "plumbing"), ("commercial landscap", "construction"),
         ("landscap", "landscaping"), ("clean", "cleaning"),
         ("moving", "moving"), ("garage", "garage_door"),
