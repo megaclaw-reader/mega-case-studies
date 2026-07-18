@@ -329,6 +329,7 @@ import { digitalMarketingAgencyPhoenix } from "./digital-marketing-agency-phoeni
 import { creativeBrandingAgencyAtlanta } from "./creative-branding-agency-atlanta";
 import { realEstateInvestmentArizona } from "./real-estate-investment-arizona";
 import { realEstateAgentNewYorkSeo } from "./real-estate-agent-new-york-seo";
+import { realEstateAgentSeoNy } from "./real-estate-agent-seo-ny";
 import { poolMaintenanceNc } from "./pool-maintenance-nc";
 import { autoPartsAccessories } from "./auto-parts-accessories";
 import { ecommercePremiumPet } from "./ecommerce-premium-pet";
@@ -689,6 +690,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "luxury-real-estate-miami": luxuryRealEstateMiami,
   "window-repair-arizona": windowRepairArizona,
   "real-estate-agent-new-york-seo": realEstateAgentNewYorkSeo,
+  "real-estate-agent-seo-ny": realEstateAgentSeoNy,
   "pool-maintenance-nc": poolMaintenanceNc,
   "landscaping-fl": landscapingFl,
   "cybersecurity-saas-seo": cybersecuritySaasSeo,
