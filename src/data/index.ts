@@ -14,6 +14,7 @@ import { medicalTreatmentNm } from "./medical-treatment-nm";
 import { luxuryRealEstateMiami } from "./luxury-real-estate-miami";
 import { windowRepairArizona } from "./window-repair-arizona";
 import { healthcareSoftwareNational } from "./healthcare-software-national";
+import { healthcareSaasNational } from "./healthcare-saas-national";
 import { collegeNewYork } from "./college-new-york";
 import { postSecondaryNewYork } from "./post-secondary-new-york";
 import { higherEducationFlorida } from "./higher-education-florida";
@@ -680,6 +681,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "therapy-arizona": therapyArizona,
   "therapy-tucson": therapyTucson,
   "healthcare-software-national": healthcareSoftwareNational,
+  "healthcare-saas-national": healthcareSaasNational,
   "medical-document-platform": medicalDocumentPlatform,
   "medical-clinic-phoenix": medicalClinicPhoenix,
   "medical-treatment-nm": medicalTreatmentNm,

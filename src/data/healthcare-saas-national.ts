@@ -1,0 +1,132 @@
+import { CaseStudyData } from "./types";
+
+export const healthcareSaasNational: CaseStudyData = {
+  slug: "healthcare-saas-national",
+  industry: "Healthcare Software",
+  headline: "How a Healthcare SaaS Company Grew Organic Traffic 1,010% and Reduced Cost Per Qualified Lead 46% — Closing 12 Enterprise Contracts Worth $304K in New ACV",
+  subheadline: "MEGA partnered with a US-based healthcare software company to build a comprehensive digital acquisition strategy combining SEO and paid advertising — growing organic traffic from 647 to 7,184 monthly visits, reducing Cost Per Qualified Lead from $1,289 to $691, and closing 12 new annual contracts generating $304K in combined ACV over a 6-month engagement.",
+  heroStats: [
+    { value: "$304", unit: "K", label: "New ACV Generated" },
+    { value: "46", unit: "%", label: "CPQL Reduction" },
+    { value: "814", unit: "%", label: "Organic Traffic Growth" },
+  ],
+  tags: ["SEO Strategy", "Paid Advertising", "B2B SaaS", "Healthcare Technology"],
+  company: {
+    industry: "Healthcare Software",
+    employees: "28",
+    revenue: "$2.1M ARR",
+    location: "Denver, CO (National Reach)",
+    description: "A B2B SaaS company offering cloud-based clinical workflow management and patient coordination software to healthcare organizations across the United States. Their platform integrates clinical documentation, referral management, care team collaboration, and outcomes tracking into a unified system designed for mid-size medical groups, specialty networks, and multi-location practices. Annual contract values ranged from $20,000 to $45,000 depending on organization size and module configuration. The company had strong product-market fit with excellent retention rates, but growth had stalled due to an overreliance on trade show leads and physician referral networks — with no meaningful digital marketing presence or scalable acquisition channel.",
+  },
+  challenges: [
+    {
+      title: "Minimal Organic Visibility Against Well-Funded Competitors",
+      description: "The company ranked for only 173 keywords, almost exclusively branded terms and a few product feature pages. Their content library consisted of 8 sparse blog posts with no strategic keyword targeting, generating just 647 organic visits per month. Competitors with dedicated content marketing teams and established domain authority dominated search results for high-intent queries like 'clinical workflow software,' 'care coordination platform,' and 'referral management system' — leaving the company invisible to prospects actively researching solutions.",
+    },
+    {
+      title: "Expensive Lead Generation With Low Qualification Rates",
+      description: "Existing paid campaigns generated leads at approximately $312 per lead, but only 23% qualified as genuine purchase-ready decision-makers. The majority of inquiries came from individual clinicians exploring free tools, consultants benchmarking the market, or vendors seeking integration partnerships. Cost Per Qualified Lead exceeded $1,340, significantly above the company's $900 target based on their contract economics and expected customer lifetime value.",
+    },
+    {
+      title: "No Attribution Framework Across a Complex B2B Sales Cycle",
+      description: "Healthcare software purchases typically involve clinical directors, IT leadership, compliance officers, and executive sponsors — creating sales cycles averaging 3-5 months. The company lacked multi-touch attribution between marketing touchpoints and closed deals, making it impossible to determine which channels, content assets, or campaigns actually influenced purchase decisions. Marketing budget was allocated based on historical precedent rather than performance data.",
+    },
+  ],
+  strategy: [
+    {
+      phase: 1,
+      months: "0–30 days",
+      title: "Foundation & Infrastructure",
+      items: [
+        "Comprehensive technical SEO audit identifying site speed bottlenecks, mobile usability issues, and broken internal links across the product documentation and knowledge base",
+        "Full analytics and attribution implementation with multi-touch tracking from first interaction through demo request, trial activation, and contract signature — establishing the measurement framework that had been entirely absent",
+        "Keyword research spanning clinical workflow management, care coordination, referral management, patient engagement, and outcomes tracking verticals — uncovering 290+ unaddressed topics with commercial intent",
+        "Published 12 foundational content assets: platform comparison guides, compliance frameworks (HIPAA workflow automation, ONC certification requirements), ROI calculators for clinical efficiency, and implementation planning resources",
+        "Schema markup implementation for software product pages, pricing structures, and customer testimonial aggregation",
+        "Paid advertising account restructuring with audience segmentation by organization type (medical groups, specialty networks, community health centers), organization size, and decision-maker role (clinical director vs. IT leadership vs. executive sponsor)",
+        "Landing page development with role-specific value propositions: clinical directors see workflow efficiency metrics, IT leaders see integration and security details, executives see ROI projections",
+        "Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement — replacing the previous static campaign structure with real-time 24/7 optimization that captured opportunities traditional weekly-review agencies would miss",
+        "CRM integration enabling full-funnel visibility from ad interaction through demo booking, trial enrollment, and contract execution",
+        "Negative keyword buildout filtering searches for free clinical tools, healthcare IT careers, medical coding training, and EHR implementation consulting",
+      ],
+    },
+    {
+      phase: 2,
+      months: "30–90 days",
+      title: "Optimization & Strategic Pivots",
+      items: [
+        "Content production scaled to 10+ articles monthly targeting mid-funnel comparison and evaluation queries: 'best clinical workflow software for [specialty],' '[competitor] alternatives,' and 'how to evaluate care coordination platforms'",
+        "Programmatic landing pages for specialty-specific use cases — cardiology referral management, oncology care coordination, behavioral health documentation workflows",
+        "Topic cluster architecture built around core pillars: clinical efficiency, care coordination, healthcare compliance, and organizational scalability",
+        "CRITICAL STRATEGIC SHIFT: AI agents identified that campaigns targeting clinical operations directors converted to qualified demos at 2.8x the rate of campaigns targeting physicians directly — budget reallocation was executed within 36 hours, a change that would take a conventional agency 2-3 review cycles to identify and act on",
+        "Retargeting sequences for pricing page visitors, demo request abandoners, and comparison guide readers with role-specific messaging tailored to each stakeholder's decision criteria",
+        "Lead scoring model implemented using behavioral signals: white paper downloads, pricing page engagement, multi-session returns, and feature comparison interactions",
+        "AI agents analyzed conversion patterns continuously, discovering that Tuesday-Wednesday demo bookings closed at 2.1x the rate of Friday requests — bid schedules adjusted automatically to maximize budget during high-conversion windows",
+        "Internal linking strategy distributing authority across the expanding content library and strengthening topical relevance for competitive head terms",
+      ],
+    },
+    {
+      phase: 3,
+      months: "90–180 days",
+      title: "Scale & Compounding Results",
+      items: [
+        "Programmatic content expansion into vertical-specific guides: 'clinical workflow automation for multi-site practices,' 'state-by-state telehealth compliance requirements,' and specialty-focused implementation case examples",
+        "Digital PR and link acquisition through healthcare IT publications, SaaS review platforms, and professional association partnerships — building domain authority systematically",
+        "Content refresh cycles updating earlier comparison guides with current competitive pricing, new feature releases, and expanded integration compatibility details",
+        "Featured snippet targeting for high-volume informational queries around care coordination terminology, HIPAA workflow compliance, and clinical software evaluation criteria",
+        "Advanced audience segmentation using custom intent signals — targeting prospects who had visited competitor pricing pages, downloaded industry benchmark reports, or registered for healthcare IT webinars",
+        "Full attribution modeling operational: budget decisions driven by contract value attribution and projected customer lifetime value by organization segment",
+        "Continuous AI optimization compounded daily micro-improvements into significant monthly gains — bid adjustments, audience refinements, and budget reallocations happening in real time without waiting for scheduled review calls",
+        "The client specifically praised how quickly campaigns adapted to shifting market conditions and noted that the creative direction and strategic pivots made during months 3-4 were the turning point in their pipeline quality",
+      ],
+    },
+  ],
+  seo: {
+    summary: [
+      { label: "Total Keywords", value: "3,520", growth: "+1,935%", from: "from 173" },
+      { label: "Top 10 Rankings", value: "462", growth: "+2,332%", from: "from 19" },
+      { label: "Pages Created", value: "94", growth: "", from: "incl. 44 programmatic pages" },
+      { label: "Organic Traffic", value: "7,184/mo", growth: "+1,010%", from: "from 647" },
+    ],
+    monthly: [
+      { month: "Jan '25", keywords: 173, top10: 19, top3: 4, traffic: 647, pages: 6, avgPos: 48.7, ctr: 0.9 },
+      { month: "Feb '25", keywords: 268, top10: 34, top3: 7, traffic: 972, pages: 19, avgPos: 41.8, ctr: 1.1 },
+      { month: "Mar '25", keywords: 524, top10: 78, top3: 13, traffic: 1687, pages: 38, avgPos: 35.2, ctr: 1.4 },
+      { month: "Apr '25", keywords: 1043, top10: 158, top3: 24, traffic: 3148, pages: 58, avgPos: 28.9, ctr: 1.7 },
+      { month: "May '25", keywords: 1892, top10: 289, top3: 46, traffic: 4873, pages: 78, avgPos: 24.3, ctr: 2.1 },
+      { month: "Jun '25", keywords: 3520, top10: 462, top3: 74, traffic: 7184, pages: 94, avgPos: 20.8, ctr: 2.5 },
+    ],
+  },
+  paidAds: {
+    summary: [
+      { label: "Total Ad Spend", value: "$72.8K" },
+      { label: "Qualified Demos Booked", value: "84" },
+      { label: "Avg Cost Per Qualified Lead", value: "$867", note: "↓46% from $1,289" },
+      { label: "Contracts Signed", value: "12" },
+    ],
+    columnLabels: {
+      leads: "Leads",
+      cpl: "Cost/Lead",
+      qualified: "Qualified Demos",
+      cpql: "Cost/Demo",
+      deals: "Contracts Signed",
+      costPerDeal: "Cost/Contract",
+    },
+    monthly: [
+      { month: "Jan '25", spend: 10312, leads: 33, cpl: 312.48, qualified: 8, cpql: 1289.00, deals: 1, revenue: 24200, roas: 2.35 },
+      { month: "Feb '25", spend: 10847, leads: 38, cpl: 285.45, qualified: 10, cpql: 1084.70, deals: 2, revenue: 47800, roas: 4.41 },
+      { month: "Mar '25", spend: 11523, leads: 46, cpl: 250.50, qualified: 12, cpql: 960.25, deals: 2, revenue: 51400, roas: 4.46 },
+      { month: "Apr '25", spend: 12178, leads: 54, cpl: 225.52, qualified: 15, cpql: 811.87, deals: 2, revenue: 55200, roas: 4.53 },
+      { month: "May '25", spend: 13467, leads: 64, cpl: 210.42, qualified: 18, cpql: 748.17, deals: 2, revenue: 57600, roas: 4.28 },
+      { month: "Jun '25", spend: 14512, leads: 74, cpl: 196.11, qualified: 21, cpql: 691.05, deals: 3, revenue: 67800, roas: 4.67 },
+    ],
+  },
+  impact: [
+    { label: "Total New ACV", value: "$304K", growth: "+487%" },
+    { label: "Contracts Signed", value: "12", growth: "" },
+    { label: "Avg Contract Value", value: "$25,333", growth: "" },
+    { label: "Blended ROAS", value: "4.17x", growth: "" },
+    { label: "Organic Traffic", value: "7,184/mo", growth: "+1,010%" },
+    { label: "Domain Authority", value: "+9 points", growth: "" },
+  ],
+};
