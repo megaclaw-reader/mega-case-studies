@@ -15,6 +15,7 @@ import { luxuryRealEstateMiami } from "./luxury-real-estate-miami";
 import { windowRepairArizona } from "./window-repair-arizona";
 import { healthcareSoftwareNational } from "./healthcare-software-national";
 import { collegeNewYork } from "./college-new-york";
+import { postSecondaryNewYork } from "./post-secondary-new-york";
 import { higherEducationFlorida } from "./higher-education-florida";
 import { retailEcommerceApparel } from "./retail-ecommerce-apparel";
 import { cleaningServicesPhoenix } from "./cleaning-services-phoenix";
@@ -663,6 +664,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "injury-law-new-jersey": injuryLawNewJersey,
   "medicare-services-new-jersey": medicareServicesNewJersey,
   "college-new-york": collegeNewYork,
+  "post-secondary-new-york": postSecondaryNewYork,
   "higher-education-florida": higherEducationFlorida,
   "sports-team-arizona": sportsTeamArizona,
   "retail-ecommerce-apparel": retailEcommerceApparel,

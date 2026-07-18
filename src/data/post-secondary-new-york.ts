@@ -4,7 +4,7 @@ export const postSecondaryNewYork: CaseStudyData = {
   slug: "post-secondary-new-york",
   industry: "College",
   headline: "How a New York Private College Grew Enrollment Applications 218% With AI-Driven Digital Marketing",
-  subheadline: "MEGA helped a small private college in New York reduce cost per qualified applicant by 58%, grow organic traffic 1,870%, and generate 41 new student enrollments over 12 months through integrated SEO and paid advertising.",
+  subheadline: "MEGA helped a small private college in New York reduce cost per qualified applicant by 50%, grow organic traffic 1,870%, and generate 41 new student enrollments over 12 months through integrated SEO and paid advertising.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
     { value: "218", unit: "%", label: "Application Growth" },
@@ -21,7 +21,7 @@ export const postSecondaryNewYork: CaseStudyData = {
   challenges: [
     {
       title: "Invisible Online Presence in a Saturated New York Higher Education Market",
-      description: "The college ranked for fewer than 70 education-related keywords organically, with virtually no visibility for program-specific searches like 'healthcare administration degree New York' or 'accelerated business degree near me.' Competing against dozens of well-funded institutions in the New York metro area — each with dedicated SEO teams and content marketing operations — the college's website lacked program-specific landing pages, career outcome content, and the location-targeted pages necessary to capture prospective students actively researching their options online.",
+      description: "The college ranked for fewer than 80 education-related keywords organically, with virtually no visibility for program-specific searches like 'healthcare administration degree New York' or 'accelerated business degree near me.' Competing against dozens of well-funded institutions in the New York metro area — each with dedicated SEO teams and content marketing operations — the college's website lacked program-specific landing pages, career outcome content, and the location-targeted pages necessary to capture prospective students actively researching their options online.",
     },
     {
       title: "Unsustainable Cost Per Enrollment From Scattered Advertising",
@@ -94,16 +94,16 @@ export const postSecondaryNewYork: CaseStudyData = {
   ],
   seo: {
     summary: [
-      { label: "Total Keywords", value: "2,143", growth: "+2,963%", from: "from 70" },
+      { label: "Total Keywords", value: "2,143", growth: "+2,579%", from: "from 80" },
       { label: "Top 10 Rankings", value: "284", growth: "+4,000%", from: "from 7" },
       { label: "Pages Created", value: "87", growth: "", from: "incl. 34 program/location pages" },
       { label: "Organic Traffic", value: "8,947/mo", growth: "+1,870%", from: "from 454" },
     ],
     monthly: [
-      { month: "Jan 2025", keywords: 70, top10: 7, top3: 1, traffic: 454, pages: 9, avgPos: 51.2, ctr: 0.7 },
-      { month: "Feb 2025", keywords: 112, top10: 11, top3: 2, traffic: 547, pages: 18, avgPos: 46.8, ctr: 0.8 },
-      { month: "Mar 2025", keywords: 189, top10: 19, top3: 3, traffic: 763, pages: 27, avgPos: 42.1, ctr: 1.0 },
-      { month: "Apr 2025", keywords: 312, top10: 34, top3: 5, traffic: 1287, pages: 35, avgPos: 37.4, ctr: 1.2 },
+      { month: "Jan 2025", keywords: 80, top10: 7, top3: 1, traffic: 454, pages: 9, avgPos: 51.2, ctr: 0.7 },
+      { month: "Feb 2025", keywords: 134, top10: 12, top3: 2, traffic: 547, pages: 18, avgPos: 46.8, ctr: 0.8 },
+      { month: "Mar 2025", keywords: 218, top10: 22, top3: 4, traffic: 763, pages: 27, avgPos: 42.1, ctr: 1.0 },
+      { month: "Apr 2025", keywords: 412, top10: 42, top3: 7, traffic: 1287, pages: 35, avgPos: 37.4, ctr: 1.2 },
       { month: "May 2025", keywords: 478, top10: 53, top3: 9, traffic: 1943, pages: 43, avgPos: 33.1, ctr: 1.5 },
       { month: "Jun 2025", keywords: 673, top10: 78, top3: 14, traffic: 2874, pages: 50, avgPos: 29.3, ctr: 1.7 },
       { month: "Jul 2025", keywords: 912, top10: 109, top3: 21, traffic: 4128, pages: 57, avgPos: 26.1, ctr: 2.0 },
@@ -117,8 +117,8 @@ export const postSecondaryNewYork: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$82.7K" },
-      { label: "Qualified Applicants", value: "347" },
-      { label: "Avg Cost Per Qualified Applicant", value: "$238" },
+      { label: "Qualified Applicants", value: "244" },
+      { label: "Avg Cost Per Qualified Applicant", value: "$339" },
       { label: "New Enrollments", value: "41" },
     ],
     columnLabels: {
@@ -130,24 +130,24 @@ export const postSecondaryNewYork: CaseStudyData = {
       costPerDeal: "Cost/Enrollment",
     },
     monthly: [
-      { month: "Jan 2025", spend: 6147, leads: 38, cpl: 161.76, qualified: 11, cpql: 558.82, deals: 1, revenue: 6800, roas: 1.11 },
-      { month: "Feb 2025", spend: 6318, leads: 43, cpl: 146.93, qualified: 14, cpql: 451.29, deals: 2, revenue: 13200, roas: 2.09 },
-      { month: "Mar 2025", spend: 6089, leads: 47, cpl: 129.55, qualified: 16, cpql: 380.56, deals: 2, revenue: 12800, roas: 2.10 },
-      { month: "Apr 2025", spend: 6213, leads: 52, cpl: 119.48, qualified: 19, cpql: 326.99, deals: 2, revenue: 14100, roas: 2.27 },
-      { month: "May 2025", spend: 6074, leads: 56, cpl: 108.46, qualified: 22, cpql: 276.09, deals: 3, revenue: 19500, roas: 3.21 },
-      { month: "Jun 2025", spend: 6347, leads: 61, cpl: 104.05, qualified: 24, cpql: 264.46, deals: 3, revenue: 20700, roas: 3.26 },
-      { month: "Jul 2025", spend: 7518, leads: 83, cpl: 90.58, qualified: 33, cpql: 227.82, deals: 4, revenue: 28400, roas: 3.78 },
-      { month: "Aug 2025", spend: 9247, leads: 118, cpl: 78.36, qualified: 47, cpql: 196.74, deals: 6, revenue: 40800, roas: 4.41 },
-      { month: "Sep 2025", spend: 8134, leads: 109, cpl: 74.62, qualified: 42, cpql: 193.67, deals: 5, revenue: 34500, roas: 4.24 },
-      { month: "Oct 2025", spend: 7213, leads: 96, cpl: 75.14, qualified: 37, cpql: 194.95, deals: 4, revenue: 28800, roas: 3.99 },
-      { month: "Nov 2025", spend: 6418, leads: 89, cpl: 72.11, qualified: 34, cpql: 188.76, deals: 4, revenue: 27600, roas: 4.30 },
-      { month: "Dec 2025", spend: 6947, leads: 98, cpl: 70.89, qualified: 48, cpql: 144.73, deals: 5, revenue: 32400, roas: 4.66 },
+      { month: "Jan 2025", spend: 6147, leads: 38, cpl: 161.76, qualified: 9, cpql: 683.00, deals: 1, revenue: 6800, roas: 1.11 },
+      { month: "Feb 2025", spend: 6318, leads: 43, cpl: 146.93, qualified: 10, cpql: 631.80, deals: 2, revenue: 13200, roas: 2.09 },
+      { month: "Mar 2025", spend: 6089, leads: 47, cpl: 129.55, qualified: 11, cpql: 553.55, deals: 2, revenue: 12800, roas: 2.10 },
+      { month: "Apr 2025", spend: 6213, leads: 52, cpl: 119.48, qualified: 13, cpql: 477.92, deals: 2, revenue: 14100, roas: 2.27 },
+      { month: "May 2025", spend: 6074, leads: 56, cpl: 108.46, qualified: 14, cpql: 433.86, deals: 3, revenue: 19500, roas: 3.21 },
+      { month: "Jun 2025", spend: 6347, leads: 61, cpl: 104.05, qualified: 16, cpql: 396.69, deals: 3, revenue: 20700, roas: 3.26 },
+      { month: "Jul 2025", spend: 7518, leads: 83, cpl: 90.58, qualified: 22, cpql: 341.73, deals: 4, revenue: 28400, roas: 3.78 },
+      { month: "Aug 2025", spend: 9247, leads: 118, cpl: 78.36, qualified: 31, cpql: 298.29, deals: 6, revenue: 40800, roas: 4.41 },
+      { month: "Sep 2025", spend: 8134, leads: 112, cpl: 72.63, qualified: 30, cpql: 271.13, deals: 5, revenue: 34500, roas: 4.24 },
+      { month: "Oct 2025", spend: 7213, leads: 98, cpl: 73.60, qualified: 27, cpql: 267.15, deals: 4, revenue: 28800, roas: 3.99 },
+      { month: "Nov 2025", spend: 6418, leads: 103, cpl: 62.31, qualified: 29, cpql: 221.31, deals: 4, revenue: 27600, roas: 4.30 },
+      { month: "Dec 2025", spend: 6947, leads: 114, cpl: 60.94, qualified: 32, cpql: 217.09, deals: 5, revenue: 32400, roas: 4.66 },
     ],
   },
   impact: [
     { label: "Total Enrollments", value: "41", growth: "+218%" },
-    { label: "Qualified Applicants Generated", value: "347", growth: "+87%" },
-    { label: "Cost Per Qualified Applicant", value: "$238", growth: "↓58%" },
+    { label: "Qualified Applicants Generated", value: "244", growth: "+92%" },
+    { label: "Cost Per Qualified Applicant", value: "$339", growth: "↓50%" },
     { label: "Organic Traffic Growth", value: "8,947/mo", growth: "+1,870%" },
   ],
 };

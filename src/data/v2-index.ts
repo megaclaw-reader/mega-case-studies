@@ -169,6 +169,7 @@ export const v2Verticals: VerticalGroup[] = [
       caseStudies["safety-training"],
 
       caseStudies["college-new-york"],
+      caseStudies["post-secondary-new-york"],
       caseStudies["higher-education-florida"],
     ],
   },
@@ -438,6 +439,7 @@ export const v2Slugs: string[] = [
   "cleaning-services-phoenix",
   "clinic-california",
   "college-new-york",
+  "post-secondary-new-york",
   "commercial-construction-tx",
   "commercial-surveillance-miami",
   "construction-membrane-materials",
