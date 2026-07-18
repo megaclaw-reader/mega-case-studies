@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const luxuryRealEstateMiami: CaseStudyData = {
   slug: "luxury-real-estate-miami",
   industry: "Luxury Real Estate",
-  headline: "How a Miami Luxury Real Estate Brokerage Generated $536.3K in Commission Revenue Through AI-Powered SEO + Paid Lead Generation",
-  subheadline: "MEGA helped a Miami-based luxury real estate team scale from inconsistent referral-based closings to a systematic digital lead engine — generating 92 qualified buyer and seller leads, closing 16 high-value transactions, and achieving a 4.11x blended ROAS across 11 months of paid advertising in one of the nation's most competitive luxury markets.",
+  headline: "How a Miami Luxury Real Estate Brokerage Generated $505.9K in Commission Revenue Through AI-Powered SEO + Paid Lead Generation",
+  subheadline: "MEGA helped a Miami-based luxury real estate team scale from inconsistent referral-based closings to a systematic digital lead engine — generating 107 qualified buyer and seller leads, closing 17 high-value transactions, and achieving a 3.83x blended ROAS across 11 months of paid advertising in one of the nation's most competitive luxury markets.",
   heroStats: [
-    { value: "16", unit: "", label: "Luxury Deals Closed" },
-    { value: "$536.3K", unit: "", label: "Commission Revenue" },
-    { value: "4.11", unit: "x", label: "Blended ROAS" },
+    { value: "17", unit: "", label: "Luxury Deals Closed" },
+    { value: "$505.9K", unit: "", label: "Commission Revenue" },
+    { value: "3.83", unit: "x", label: "Blended ROAS" },
   ],
   tags: ["Local Lead Generation", "SEO Strategy", "Paid Advertising"],
   company: {
@@ -90,24 +90,24 @@ export const luxuryRealEstateMiami: CaseStudyData = {
   ],
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$130.4K", note: "11 months" },
-      { label: "Total Leads", value: "424", note: "all sources" },
-      { label: "Qualified Leads", value: "92", note: "22% qualification rate" },
-      { label: "Avg CPL", value: "$307.55", note: "all lead sources" },
-      { label: "Avg CPQL", value: "$1,417.39", note: "qualified leads only" },
+      { label: "Total Ad Spend", value: "$132.2K", note: "11 months" },
+      { label: "Total Leads", value: "468", note: "all sources" },
+      { label: "Qualified Leads", value: "107", note: "23% qualification rate" },
+      { label: "Avg CPL", value: "$282.48", note: "all lead sources" },
+      { label: "Avg CPQL", value: "$1,235.51", note: "qualified leads only" },
     ],
     monthly: [
-      { month: "Jun '25", spend: 10500, leads: 22, cpl: 477.27, qualified: 3, cpql: 3500.00, deals: 1, revenue: 33180, roas: 3.16 },
-      { month: "Jul '25", spend: 10800, leads: 26, cpl: 415.38, qualified: 4, cpql: 2700.00, deals: 1, revenue: 37800, roas: 3.50 },
-      { month: "Aug '25", spend: 10500, leads: 29, cpl: 362.07, qualified: 5, cpql: 2100.00, deals: 1, revenue: 40950, roas: 3.90 },
-      { month: "Sep '25", spend: 11200, leads: 32, cpl: 350.00, qualified: 6, cpql: 1866.67, deals: 1, revenue: 43680, roas: 3.90 },
-      { month: "Oct '25", spend: 11500, leads: 35, cpl: 328.57, qualified: 7, cpql: 1642.86, deals: 1, revenue: 41400, roas: 3.60 },
-      { month: "Nov '25", spend: 11800, leads: 38, cpl: 310.53, qualified: 8, cpql: 1475.00, deals: 2, revenue: 50150, roas: 4.25 },
-      { month: "Dec '25", spend: 12400, leads: 41, cpl: 302.44, qualified: 9, cpql: 1377.78, deals: 1, revenue: 54560, roas: 4.40 },
-      { month: "Jan '26", spend: 13200, leads: 45, cpl: 293.33, qualified: 11, cpql: 1200.00, deals: 2, revenue: 59400, roas: 4.50 },
-      { month: "Feb '26", spend: 13500, leads: 49, cpl: 275.51, qualified: 12, cpql: 1125.00, deals: 2, revenue: 62640, roas: 4.64 },
-      { month: "Mar '26", spend: 12800, leads: 52, cpl: 246.15, qualified: 13, cpql: 984.62, deals: 2, revenue: 57600, roas: 4.50 },
-      { month: "Apr '26", spend: 12200, leads: 55, cpl: 221.82, qualified: 14, cpql: 871.43, deals: 2, revenue: 54900, roas: 4.50 },
+      { month: "Jun '25", spend: 10500, leads: 24, cpl: 437.50, qualified: 5, cpql: 2100.00, deals: 1, revenue: 33180, roas: 3.16 },
+      { month: "Jul '25", spend: 10800, leads: 27, cpl: 400.00, qualified: 6, cpql: 1800.00, deals: 1, revenue: 37800, roas: 3.50 },
+      { month: "Aug '25", spend: 11200, leads: 31, cpl: 361.29, qualified: 7, cpql: 1600.00, deals: 1, revenue: 40950, roas: 3.66 },
+      { month: "Sep '25", spend: 11500, leads: 35, cpl: 328.57, qualified: 8, cpql: 1437.50, deals: 1, revenue: 43680, roas: 3.80 },
+      { month: "Oct '25", spend: 11800, leads: 39, cpl: 302.56, qualified: 9, cpql: 1311.11, deals: 2, revenue: 41400, roas: 3.51 },
+      { month: "Nov '25", spend: 12100, leads: 43, cpl: 281.40, qualified: 10, cpql: 1210.00, deals: 1, revenue: 36720, roas: 3.03 },
+      { month: "Dec '25", spend: 12600, leads: 47, cpl: 268.09, qualified: 10, cpql: 1260.00, deals: 2, revenue: 50150, roas: 3.98 },
+      { month: "Jan '26", spend: 13200, leads: 52, cpl: 253.85, qualified: 12, cpql: 1100.00, deals: 2, revenue: 59400, roas: 4.50 },
+      { month: "Feb '26", spend: 13500, leads: 56, cpl: 241.07, qualified: 13, cpql: 1038.46, deals: 2, revenue: 56280, roas: 4.17 },
+      { month: "Mar '26", spend: 12800, leads: 58, cpl: 220.69, qualified: 14, cpql: 914.29, deals: 2, revenue: 54890, roas: 4.29 },
+      { month: "Apr '26", spend: 12200, leads: 56, cpl: 217.86, qualified: 13, cpql: 938.46, deals: 2, revenue: 51480, roas: 4.22 },
     ],
   },
   seo: {
@@ -134,8 +134,8 @@ export const luxuryRealEstateMiami: CaseStudyData = {
   organicConversions: {
     summary: [
       { label: "Total Organic Leads", value: "1,247", growth: "+1,147%", note: "from ~100/year run rate" },
-      { label: "Total Qualified Leads", value: "92", growth: "+84%", note: "from ~50/year run rate" },
-      { label: "Total Closed Deals", value: "16", growth: "+220%", note: "from ~5/year run rate" },
+      { label: "Total Qualified Leads", value: "107", growth: "+114%", note: "from ~50/year run rate" },
+      { label: "Total Closed Deals", value: "17", growth: "+240%", note: "from ~5/year run rate" },
       { label: "Conversion Rate", value: "17.8%", note: "lead to qualified lead" },
     ],
     columnLabels: {
@@ -165,9 +165,9 @@ export const luxuryRealEstateMiami: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$536.3K", growth: "from ~$180K previous year" },
-    { label: "Blended ROAS", value: "4.11x", growth: "across all paid channels" },
-    { label: "Closed Deals", value: "16", growth: "+220% vs. prior year" },
+    { label: "Total Revenue", value: "$505.9K", growth: "from ~$180K previous year" },
+    { label: "Blended ROAS", value: "3.83x", growth: "across all paid channels" },
+    { label: "Closed Deals", value: "17", growth: "+240% vs. prior year" },
     { label: "Organic Traffic", value: "14,267/mo", growth: "from 580/mo (+2,360%)" },
   ],
 };
