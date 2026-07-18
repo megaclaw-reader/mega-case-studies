@@ -216,6 +216,7 @@ import { b2bSaasPaidAds } from "./b2b-saas-paid-ads";
 import { luxuryMenswearCalifornia } from "./luxury-menswear-california";
 import { wealthManagementPhoenix } from "./wealth-management-phoenix";
 import { wealthManagementChicago } from "./wealth-management-chicago";
+import { wealthManagementChicagoLocal } from "./wealth-management-chicago-local";
 import { lawFirmNational } from "./law-firm-national";
 import { seniorCareNm } from "./senior-care-nm";
 import { wearableHealthTech } from "./wearable-health-tech";
@@ -457,6 +458,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "luxury-menswear-california": luxuryMenswearCalifornia,
   "wealth-management-phoenix": wealthManagementPhoenix,
   "wealth-management-chicago": wealthManagementChicago,
+  "wealth-management-chicago-local": wealthManagementChicagoLocal,
   "law-firm-national": lawFirmNational,
   "senior-care-nm": seniorCareNm,
   "wearable-health-tech": wearableHealthTech,
