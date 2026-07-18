@@ -66,6 +66,7 @@ import { entertainmentEventsNy } from "./entertainment-events-ny";
 import { entertainmentEventsNyc } from "./entertainment-events-nyc";
 import { diseasePreventionClinic } from "./disease-prevention-clinic";
 import { clinicCalifornia } from "./clinic-california";
+import { clinicSanDiego } from "./clinic-san-diego";
 import { rehabCenter } from "./rehab-center";
 import { educationTraining } from "./education-training";
 import { b2bLanguageServices } from "./b2b-language-services";
@@ -670,6 +671,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "working-capital-financing": workingCapitalFinancing,
   "private-lending-national": privateLendingNational,
   "clinic-california": clinicCalifornia,
+  "clinic-san-diego": clinicSanDiego,
   "therapy-arizona": therapyArizona,
   "healthcare-software-national": healthcareSoftwareNational,
   "medical-document-platform": medicalDocumentPlatform,
