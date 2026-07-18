@@ -4,6 +4,7 @@ import { peptidesSeoArizona } from "./peptides-seo-arizona";
 import { b2bHealthcareServicesNational } from "./b2b-healthcare-services-national";
 import { commercialHvacPartsNational } from "./commercial-hvac-parts-national";
 import { commercialHvacArizona } from "./commercial-hvac-arizona";
+import { commercialHvacTucson } from "./commercial-hvac-tucson";
 import { integrativeWellnessAestheticsNashville } from "./integrative-wellness-aesthetics-nashville";
 import { behavioralHealthServices } from "./behavioral-health-services";
 import { spiritualRetreatCa } from "./spiritual-retreat-ca";
@@ -704,6 +705,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "commercial-hvac-parts-national": commercialHvacPartsNational,
   "b2b-healthcare-services-national": b2bHealthcareServicesNational,
   "commercial-hvac-arizona": commercialHvacArizona,
+  "commercial-hvac-tucson": commercialHvacTucson,
   "integrative-wellness-aesthetics-nashville": integrativeWellnessAestheticsNashville,
   "renewable-energy-saas-national": renewableEnergySaasNational,
   "health-retreat": healthRetreat,
