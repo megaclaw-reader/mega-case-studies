@@ -21,7 +21,7 @@ export const windowRepairArizona: CaseStudyData = {
   challenges: [
     {
       title: "High Cost Per Lead With No Qualification System",
-      description: "Previous paid campaigns generated a mix of phone calls and form fills, but there was no system to separate a homeowner needing a $3,000 multi-window replacement from someone asking about a $75 screen repair. Cost per qualified lead was running near $859, with a qualification rate around 22% — meaning nearly four out of five ad-generated inquiries were either unqualified, out of area, or too low-value to justify the sales team's time.",
+      description: "Previous paid campaigns generated a mix of phone calls and form fills, but there was no system to separate a homeowner needing a $3,000 multi-window replacement from someone asking about a $75 screen repair. Cost per qualified lead was running near $859, with a qualification rate around 16% — meaning roughly five out of six ad-generated inquiries were either unqualified, out of area, or too low-value to justify the sales team's time.",
     },
     {
       title: "Intense Local Competition From National Franchises",
@@ -93,8 +93,8 @@ export const windowRepairArizona: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$82.4K" },
-      { label: "Qualified Leads", value: "226" },
-      { label: "Avg Cost Per Qualified Lead", value: "$365", note: "↓67% from ~$859" },
+      { label: "Qualified Leads", value: "221" },
+      { label: "Avg Cost Per Qualified Lead", value: "$373", note: "↓67% from ~$859" },
       { label: "Closed Jobs", value: "61" },
     ],
     columnLabels: {
@@ -106,36 +106,36 @@ export const windowRepairArizona: CaseStudyData = {
       costPerDeal: "Cost/Job",
     },
     monthly: [
-      // Mar 2025: Launch month — high volume but low quality, learning phase
-      { month: "Mar '25", spend: 6012, leads: 47, cpl: 127.91, qualified: 7, cpql: 858.86, deals: 1, revenue: 2350, roas: 0.39 },
+      // Mar 2025: Launch month — lots of unqualified clicks, learning phase
+      { month: "Mar '25", spend: 6012, leads: 43, cpl: 139.81, qualified: 7, cpql: 858.86, deals: 1, revenue: 2350, roas: 0.39 },
       // Apr 2025: First optimizations — negative keywords cutting waste
-      { month: "Apr '25", spend: 6147, leads: 52, cpl: 118.21, qualified: 9, cpql: 683.00, deals: 2, revenue: 4960, roas: 0.81 },
+      { month: "Apr '25", spend: 6147, leads: 49, cpl: 125.45, qualified: 9, cpql: 683.00, deals: 2, revenue: 4960, roas: 0.81 },
       // May 2025: Summer begins — Arizona heat driving window issues
-      { month: "May '25", spend: 7234, leads: 66, cpl: 109.61, qualified: 14, cpql: 516.71, deals: 4, revenue: 10600, roas: 1.47 },
+      { month: "May '25", spend: 7234, leads: 58, cpl: 124.72, qualified: 13, cpql: 556.46, deals: 4, revenue: 10600, roas: 1.47 },
       // Jun 2025: Peak summer — high demand, AI optimization improving
-      { month: "Jun '25", spend: 8187, leads: 84, cpl: 97.46, qualified: 20, cpql: 409.35, deals: 6, revenue: 16680, roas: 2.04 },
+      { month: "Jun '25", spend: 8187, leads: 78, cpl: 104.96, qualified: 20, cpql: 409.35, deals: 6, revenue: 16680, roas: 2.04 },
       // Jul 2025: Peak summer continues — highest demand month
-      { month: "Jul '25", spend: 8493, leads: 98, cpl: 86.66, qualified: 25, cpql: 339.72, deals: 7, revenue: 20440, roas: 2.41 },
+      { month: "Jul '25", spend: 8493, leads: 96, cpl: 88.47, qualified: 25, cpql: 339.72, deals: 7, revenue: 20440, roas: 2.41 },
       // Aug 2025: Late summer — strong volume, mature optimization
-      { month: "Aug '25", spend: 7891, leads: 91, cpl: 86.71, qualified: 24, cpql: 328.79, deals: 7, revenue: 20090, roas: 2.55 },
+      { month: "Aug '25", spend: 7891, leads: 90, cpl: 87.68, qualified: 23, cpql: 343.09, deals: 7, revenue: 20090, roas: 2.55 },
       // Sep 2025: End of peak — efficient campaigns sustain results
-      { month: "Sep '25", spend: 7012, leads: 82, cpl: 85.51, qualified: 22, cpql: 318.73, deals: 6, revenue: 16860, roas: 2.40 },
+      { month: "Sep '25", spend: 7012, leads: 83, cpl: 84.48, qualified: 21, cpql: 333.90, deals: 6, revenue: 16860, roas: 2.40 },
       // Oct 2025: Fall — winterization campaign drives fresh demand
-      { month: "Oct '25", spend: 6423, leads: 78, cpl: 82.35, qualified: 23, cpql: 279.26, deals: 6, revenue: 16320, roas: 2.54 },
+      { month: "Oct '25", spend: 6423, leads: 88, cpl: 72.99, qualified: 23, cpql: 279.26, deals: 6, revenue: 16320, roas: 2.54 },
       // Nov 2025: Slower season — sustained by energy efficiency angle
-      { month: "Nov '25", spend: 6087, leads: 68, cpl: 89.51, qualified: 19, cpql: 320.37, deals: 5, revenue: 13250, roas: 2.18 },
+      { month: "Nov '25", spend: 6087, leads: 76, cpl: 80.09, qualified: 18, cpql: 338.17, deals: 5, revenue: 13250, roas: 2.18 },
       // Dec 2025: Holiday slowdown — lower volume, efficient spend
-      { month: "Dec '25", spend: 6021, leads: 62, cpl: 97.11, qualified: 17, cpql: 354.18, deals: 4, revenue: 10240, roas: 1.70 },
+      { month: "Dec '25", spend: 6021, leads: 80, cpl: 75.26, qualified: 16, cpql: 376.31, deals: 4, revenue: 10240, roas: 1.70 },
       // Jan 2026: New year — delayed projects resurface
-      { month: "Jan '26", spend: 6198, leads: 74, cpl: 83.76, qualified: 22, cpql: 281.73, deals: 6, revenue: 17100, roas: 2.76 },
+      { month: "Jan '26", spend: 6198, leads: 100, cpl: 61.98, qualified: 22, cpql: 281.73, deals: 6, revenue: 17100, roas: 2.76 },
       // Feb 2026: Pre-spring — fully mature campaigns, strong close
-      { month: "Feb '26", spend: 6717, leads: 92, cpl: 73.01, qualified: 24, cpql: 279.88, deals: 7, revenue: 21560, roas: 3.21 },
+      { month: "Feb '26", spend: 6717, leads: 120, cpl: 55.98, qualified: 24, cpql: 279.88, deals: 7, revenue: 21560, roas: 3.21 },
     ],
   },
   impact: [
     { label: "Total Revenue", value: "$170.5K", growth: "" },
     { label: "Closed Jobs", value: "61", growth: "" },
-    { label: "Avg Job Value", value: "$2,794", growth: "" },
+    { label: "Avg Job Value", value: "$2,795", growth: "" },
     { label: "Blended ROAS", value: "2.07x", growth: "" },
   ],
 };
