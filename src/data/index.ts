@@ -347,6 +347,7 @@ import { sportsTeamArizona } from "./sports-team-arizona";
 import { therapyArizona } from "./therapy-arizona";
 import { therapyTucson } from "./therapy-tucson";
 import { landscapingFl } from "./landscaping-fl";
+import { landscapingFloridaSubscription } from "./landscaping-florida-subscription";
 import { cybersecuritySaasSeo } from "./cybersecurity-saas-seo";
 import { personalInjuryLawSc } from "./personal-injury-law-sc";
 import { homeDecor } from "./home-decor";
@@ -708,6 +709,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "behavioral-health-services": behavioralHealthServices,
   "addiction-rehab-ny": addictionRehabNy,
   "peptides-seo-arizona": peptidesSeoArizona,
+  "landscaping-florida-subscription": landscapingFloridaSubscription,
 };
 
 export type { CaseStudyData };
