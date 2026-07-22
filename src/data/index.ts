@@ -1,4 +1,5 @@
 import { CaseStudyData } from "./types";
+import { posSoftwareNational } from "./pos-software";
 import { addictionRehabNy } from "./addiction-rehab-ny";
 import { peptidesSeoArizona } from "./peptides-seo-arizona";
 import { b2bHealthcareServicesNational } from "./b2b-healthcare-services-national";
@@ -714,6 +715,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "addiction-rehab-ny": addictionRehabNy,
   "peptides-seo-arizona": peptidesSeoArizona,
   "landscaping-florida-subscription": landscapingFloridaSubscription,
+  "pos-software": posSoftwareNational,
 };
 
 export type { CaseStudyData };

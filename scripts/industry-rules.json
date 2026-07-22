@@ -862,7 +862,9 @@
     "Spiritual Retreat \u2014 Meditation, Yoga & Healing": "lead_gen_services",
     "college": "lead_gen_professional",
     "Peptides": "ecommerce",
-    "plumbing": "lead_gen_services"
+    "plumbing": "lead_gen_services",
+    "Point of Sale Software": "saas",
+    "POS Software": "saas"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",
