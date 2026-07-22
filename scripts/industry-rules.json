@@ -864,7 +864,8 @@
     "Peptides": "ecommerce",
     "plumbing": "lead_gen_services",
     "Point of Sale Software": "saas",
-    "POS Software": "saas"
+    "POS Software": "saas",
+    "Employment Law": "lead_gen_professional"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",
@@ -882,6 +883,7 @@
     "Higher Education": "lead_gen_professional",
     "Retail / E-commerce / Apparel": "ecommerce",
     "Medical Document Management SaaS": "subscription",
-    "Spiritual Retreat": "lead_gen_services"
+    "Spiritual Retreat": "lead_gen_services",
+    "Employment Law": "lead_gen_professional"
   }
 }
