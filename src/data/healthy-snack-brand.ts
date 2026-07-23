@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const healthySnackBrand: CaseStudyData = {
   slug: "healthy-snack-brand",
   industry: "Ecommerce — Healthy Snacks",
-  headline: "How a Healthy Snack Brand Went From Zero Ads to 3.0x ROAS in 5 Months",
-  subheadline: "MEGA took a direct-to-consumer healthy snack brand with no paid advertising history and built a profitable ad engine from scratch — scaling from first-ever campaigns to 3.0x ROAS, generating $116.9K in ad-attributed revenue and 2,392 orders across 5 months.",
+  headline: "How a Healthy Snack Brand Went From Zero Ads to 2,392 Orders and $107.6K in Revenue in 5 Months",
+  subheadline: "MEGA took a direct-to-consumer healthy snack brand with no paid advertising history and built a profitable ad engine from scratch — scaling from first-ever campaigns to a peak 3.6x ROAS, generating $107.6K in ad-attributed revenue and 2,392 orders across 5 months.",
   heroStats: [
-    { value: "3.0", unit: "x", label: "ROAS by Month 5" },
+    { value: "3.6", unit: "x", label: "Peak ROAS" },
     { value: "2392", unit: "", label: "Orders Generated" },
-    { value: "$116.9K", unit: "K", label: "Ad Revenue" },
+    { value: "$107.6K", unit: "K", label: "Ad Revenue" },
   ],
   tags: ["Paid Advertising", "Ecommerce", "DTC"],
   company: {
@@ -90,8 +90,8 @@ export const healthySnackBrand: CaseStudyData = {
     summary: [
       { label: "Total Ad Spend", value: "$38.9K" },
       { label: "Total Orders", value: "2,392" },
-      { label: "Avg Cost Per Acquisition", value: "$16.27", note: "↓57% from month 1" },
-      { label: "Peak ROAS", value: "3.0x", note: "from 1.2x in month 1" },
+      { label: "Avg Cost Per Acquisition", value: "$16.28", note: "↓57% from month 1" },
+      { label: "Peak ROAS", value: "3.6x", note: "from 1.18x in month 1" },
     ],
     columnLabels: {
       leads: "Sessions",
@@ -102,21 +102,21 @@ export const healthySnackBrand: CaseStudyData = {
     },
     monthly: [
       // Jun 2025: First-ever campaigns. Pure testing, building pixel data. Low ROAS expected.
-      { month: "Jun 2025", spend: 5200, leads: 9267, cpl: 0.56, qualified: 417, cpql: 12.47, deals: 139, revenue: 10088, roas: 1.94 },
+      { month: "Jun 2025", spend: 5200, leads: 9267, cpl: 0.56, qualified: 417, cpql: 12.47, deals: 139, revenue: 6116, roas: 1.18 },
       // Jul 2025: Finding audiences. Lookalikes from email list starting to work. ROAS climbing.
-      { month: "Jul 2025", spend: 6400, leads: 14200, cpl: 0.45, qualified: 909, cpql: 7.04, deals: 284, revenue: 18176, roas: 2.84 },
+      { month: "Jul 2025", spend: 6400, leads: 14200, cpl: 0.45, qualified: 909, cpql: 7.04, deals: 284, revenue: 12923, roas: 2.02 },
       // Aug 2025: Creative optimization paying off. Dynamic product ads and cart abandonment retargeting live.
       { month: "Aug 2025", spend: 7800, leads: 18720, cpl: 0.42, qualified: 1544, cpql: 5.05, deals: 468, revenue: 21060, roas: 2.70 },
       // Sep 2025: Scaling confidently. Bundle campaigns and subscription pushes driving higher AOV.
-      { month: "Sep 2025", spend: 9200, leads: 22467, cpl: 0.41, qualified: 2292, cpql: 4.01, deals: 674, revenue: 30360, roas: 3.30 },
+      { month: "Sep 2025", spend: 9200, leads: 22467, cpl: 0.41, qualified: 2292, cpql: 4.01, deals: 674, revenue: 30330, roas: 3.30 },
       // Oct 2025: Full stride. 3.6x ROAS. Profitable, scalable, repeatable.
-      { month: "Oct 2025", spend: 10335, leads: 25061, cpl: 0.41, qualified: 2895, cpql: 3.57, deals: 827, revenue: 37206, roas: 3.60 },
+      { month: "Oct 2025", spend: 10335, leads: 25061, cpl: 0.41, qualified: 2895, cpql: 3.57, deals: 827, revenue: 37215, roas: 3.60 },
     ],
   },
   impact: [
-    { label: "Peak ROAS", value: "3.0x", growth: "from 0x (no ads)" },
+    { label: "Peak ROAS", value: "3.6x", growth: "from 0x (no ads)" },
     { label: "Total Orders", value: "2,392", growth: "+495% month-over-month" },
-    { label: "Total Ad Revenue", value: "$116.9K", growth: "from $0" },
-    { label: "Cost Per Acquisition", value: "$16.27", growth: "↓57% from month 1" },
+    { label: "Total Ad Revenue", value: "$107.6K", growth: "from $0" },
+    { label: "Cost Per Acquisition", value: "$16.28", growth: "↓57% from month 1" },
   ],
 };
