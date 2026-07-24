@@ -197,7 +197,7 @@ def _cpl_category(industry, model_key):
         ("pool renovation", "pool_renovation"), ("pool maintenance", "pool_maintenance"), ("swimming pool", "pool"), ("pool", "pool"),
         ("hair salon", "hair_salon"),
         ("window repair", "window_repair"), ("window", "window"), ("beauty spa", "beauty_spa"), ("wax", "beauty_spa"),
-        ("med spa", "med_spa"), ("medspa", "med_spa"),
+        ("aesthetic medicine", "med_spa"), ("aesthetic", "med_spa"), ("med spa", "med_spa"), ("medspa", "med_spa"),
         ("fitness equipment", "fitness_equipment"),
         ("gym", "gym_fitness"), ("private training", "gym_fitness"),
         ("homecare", "homecare_services"), ("home care", "homecare_services"), ("home health", "homecare_services"),

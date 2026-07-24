@@ -866,7 +866,8 @@
     "Point of Sale Software": "saas",
     "POS Software": "saas",
     "Employment Law": "lead_gen_professional",
-    "Water System Service": "lead_gen_services"
+    "Water System Service": "lead_gen_services",
+    "Aesthetic Medicine": "healthcare_medical"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",
