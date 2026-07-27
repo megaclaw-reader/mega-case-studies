@@ -1,4 +1,5 @@
 import { CaseStudyData } from "./types";
+import { automotiveDealershipVacaville } from "./automotive-dealership-vacaville";
 import { aestheticMedicineClinicFlorida } from "./aesthetic-medicine-clinic-florida";
 import { waterSystemServiceSeoAustin } from "./water-system-service-seo-austin";
 import { employmentLawLasVegas } from "./employment-law-las-vegas";
@@ -723,6 +724,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "employment-law-las-vegas": employmentLawLasVegas,
   "employment-law-san-antonio": employmentLawSanAntonio,
   "water-system-service-seo-austin": waterSystemServiceSeoAustin,
+  "automotive-dealership-vacaville": automotiveDealershipVacaville,
   "aesthetic-medicine-clinic-florida": aestheticMedicineClinicFlorida,
 };
 
