@@ -867,7 +867,8 @@
     "POS Software": "saas",
     "Employment Law": "lead_gen_professional",
     "Water System Service": "lead_gen_services",
-    "Aesthetic Medicine": "healthcare_medical"
+    "Aesthetic Medicine": "healthcare_medical",
+    "Men's Health Clinic": "healthcare_medical"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",
