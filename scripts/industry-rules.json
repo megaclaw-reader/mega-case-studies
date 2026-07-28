@@ -868,7 +868,8 @@
     "Employment Law": "lead_gen_professional",
     "Water System Service": "lead_gen_services",
     "Aesthetic Medicine": "healthcare_medical",
-    "Men's Health Clinic": "healthcare_medical"
+    "Men's Health Clinic": "healthcare_medical",
+    "Beauty and Wellness Spa": "lead_gen_services"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",
