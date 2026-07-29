@@ -1,4 +1,5 @@
 import { CaseStudyData } from "./types";
+import { b2bSaasNational } from "./b2b-saas-national";
 import { automotiveDealershipVacaville } from "./automotive-dealership-vacaville";
 import { aestheticMedicineClinicFlorida } from "./aesthetic-medicine-clinic-florida";
 import { mensHealthClinicNm } from "./mens-health-clinic-nm";
@@ -199,7 +200,6 @@ import { taxPlanningCoaching } from "./tax-planning-coaching";
 import { motorcycleBoatRepair } from "./motorcycle-boat-repair";
 import { renovationOutlet } from "./renovation-outlet";
 import { financialServicesCalifornia } from "./financial-services-california";
-import { b2bSaasNational } from "./b2b-saas-national";
 import { outdoorBackyardFurniture } from "./outdoor-backyard-furniture";
 import { homeRemodelingAz } from "./home-remodeling-az";
 import { hvacNewMexico } from "./hvac-new-mexico";
@@ -359,6 +359,7 @@ import { landscapingFl } from "./landscaping-fl";
 import { landscapingFloridaSubscription } from "./landscaping-florida-subscription";
 import { cybersecuritySaasSeo } from "./cybersecurity-saas-seo";
 import { cybersecurityPlatformSeo } from "./cybersecurity-platform-seo";
+import { cybersecurityNational } from "./cybersecurity-national";
 import { personalInjuryLawSc } from "./personal-injury-law-sc";
 import { homeDecor } from "./home-decor";
 import { wellnessClassesSeoArizona } from "./wellness-classes-seo-arizona";
@@ -707,6 +708,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "landscaping-fl": landscapingFl,
   "cybersecurity-saas-seo": cybersecuritySaasSeo,
   "cybersecurity-platform-seo": cybersecurityPlatformSeo,
+  "cybersecurity-national": cybersecurityNational,
   "business-law-florida": businessLawFlorida,
   "personal-injury-law-sc": personalInjuryLawSc,
   "home-decor": homeDecor,
