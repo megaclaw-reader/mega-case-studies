@@ -869,7 +869,8 @@
     "Water System Service": "lead_gen_services",
     "Aesthetic Medicine": "healthcare_medical",
     "Men's Health Clinic": "healthcare_medical",
-    "Beauty and Wellness Spa": "lead_gen_services"
+    "Beauty and Wellness Spa": "lead_gen_services",
+    "Financial Advisory": "wealth_management"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",
