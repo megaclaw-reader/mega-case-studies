@@ -554,6 +554,10 @@
         "home_decor": [
           120,
           180
+        ],
+        "fragrance": [
+          65,
+          115
         ]
       }
     },
@@ -870,7 +874,8 @@
     "Aesthetic Medicine": "healthcare_medical",
     "Men's Health Clinic": "healthcare_medical",
     "Beauty and Wellness Spa": "lead_gen_services",
-    "Financial Advisory": "wealth_management"
+    "Financial Advisory": "wealth_management",
+    "Fragrance Brand": "ecommerce"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",

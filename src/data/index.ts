@@ -315,6 +315,7 @@ import { ecommercePet } from "./ecommerce-pet";
 import { homeDamageRestorationFlorida } from "./home-damage-restoration-florida";
 import { multiLocationMedspaSouthwest } from "./multi-location-medspa-southwest";
 import { beautyEcommerceNational } from "./beauty-ecommerce-national";
+import { fragranceEcommerceNational } from "./fragrance-ecommerce-national";
 import { primaryCareInternalMedicineFlorida } from "./primary-care-internal-medicine-florida";
 import { primaryCareInternalMedicineTexas } from "./primary-care-internal-medicine-texas";
 import { medicalDevicesDiagnostics } from "./medical-devices-diagnostics";
@@ -623,6 +624,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "home-damage-restoration-florida": homeDamageRestorationFlorida,
   "multi-location-medspa-southwest": multiLocationMedspaSouthwest,
   "beauty-ecommerce-national": beautyEcommerceNational,
+  "fragrance-ecommerce-national": fragranceEcommerceNational,
   "hair-products-ecommerce": hairProductsEcommerce,
   "retirement-planning-national": retirementPlanningNational,
   "primary-care-internal-medicine-florida": primaryCareInternalMedicineFlorida,
