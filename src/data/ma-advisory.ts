@@ -92,7 +92,7 @@ export const maAdvisory: CaseStudyData = {
   ],
   seo: undefined,
   paidAds: {
-    hiddenColumns: ["costPerDeal", "cpql"],
+    hiddenColumns: ["costPerDeal", "cpql", "revenue", "roas"],
     summary: [
       { label: "Total Ad Spend", value: "$71.2K" },
       { label: "Qualified Leads", value: "100" },
