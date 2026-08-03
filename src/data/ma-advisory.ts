@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const maAdvisory: CaseStudyData = {
   slug: "ma-advisory",
   industry: "M&A Advisory",
-  headline: "How a National M&A Advisory Firm Generated $257.2K in Engagement Revenue With AI-Powered Paid Advertising",
+  headline: "How a National M&A Advisory Firm Signed 23 New Engagements With AI-Powered Paid Advertising",
   subheadline: "MEGA helped a boutique mergers and acquisitions advisory firm build a scalable digital lead pipeline, improving close rates from 8% to 17% over 9 months with always-on AI optimization.",
   heroStats: [
     { value: "9", unit: "months", label: "Partnership Duration" },
     { value: "32", unit: "", label: "Engagements Signed" },
-    { value: "$257.2K", unit: "K", label: "Revenue Attributed" },
+    { value: "23", unit: "", label: "Engagements Signed" },
   ],
   tags: ["Paid Advertising"],
   company: {
@@ -112,9 +112,9 @@ export const maAdvisory: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$257.2K", growth: "+267%" },
     { label: "New Engagements Signed", value: "23", growth: "from paid advertising" },
-    { label: "Avg Engagement Value", value: "$7,188", growth: "initial retainer + fees" },
-    { label: "Blended ROAS", value: "3.61x", growth: "" },
+    { label: "Qualified Leads Generated", value: "100", growth: "+320%" },
+    { label: "Cost Per Qualified Lead", value: "$712", growth: "-47%" },
+    { label: "Close Rate", value: "16.7%", growth: "↑ from 8.3%" },
   ],
 };
