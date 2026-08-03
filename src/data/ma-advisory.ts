@@ -7,8 +7,8 @@ export const maAdvisory: CaseStudyData = {
   subheadline: "MEGA helped a boutique mergers and acquisitions advisory firm build a scalable digital lead pipeline, improving close rates from 8% to 17% over 9 months with always-on AI optimization.",
   heroStats: [
     { value: "9", unit: "months", label: "Partnership Duration" },
-    { value: "32", unit: "", label: "Engagements Signed" },
     { value: "23", unit: "", label: "Engagements Signed" },
+    { value: "16.7%", unit: "", label: "Close Rate" },
   ],
   tags: ["Paid Advertising"],
   company: {
@@ -96,7 +96,7 @@ export const maAdvisory: CaseStudyData = {
     summary: [
       { label: "Total Ad Spend", value: "$71.2K" },
       { label: "Qualified Leads", value: "100" },
-      { label: "New Engagements Signed", value: "32" },
+      { label: "New Engagements Signed", value: "23" },
       { label: "Close Rate", value: "16.7%", note: "↑ from 8.3%" },
     ],
     monthly: [
