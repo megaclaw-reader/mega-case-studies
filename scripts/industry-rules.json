@@ -202,6 +202,10 @@
         "commercial_hvac_services": [
           5000,
           35000
+        ],
+        "hospitality_lodging": [
+          600,
+          900
         ]
       }
     },
@@ -875,7 +879,8 @@
     "Men's Health Clinic": "healthcare_medical",
     "Beauty and Wellness Spa": "lead_gen_services",
     "Financial Advisory": "wealth_management",
-    "Fragrance Brand": "ecommerce"
+    "Fragrance Brand": "ecommerce",
+    "Hospitality Lodging": "lead_gen_services"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",
