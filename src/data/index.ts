@@ -165,6 +165,7 @@ import { legalServicesSeo } from "./legal-services-seo";
 import { homeRenovations } from "./home-renovations";
 import { carWashAutoDetailing } from "./car-wash-auto-detailing";
 import { mortgageBoutiqueSeo } from "./mortgage-boutique-seo";
+import { mortgageLenderSeo } from "./mortgage-lender-seo";
 import { automotiveRepair } from "./automotive-repair";
 import { multiLocationConsumerBrand } from "./multi-location-consumer-brand";
 import { healthySnackBrand } from "./healthy-snack-brand";
@@ -409,6 +410,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "home-renovations": homeRenovations,
   "car-wash-auto-detailing": carWashAutoDetailing,
   "mortgage-boutique-seo": mortgageBoutiqueSeo,
+  "mortgage-lender-seo": mortgageLenderSeo,
   "automotive-repair": automotiveRepair,
   "multi-location-consumer-brand": multiLocationConsumerBrand,
   "healthy-snack-brand": healthySnackBrand,
