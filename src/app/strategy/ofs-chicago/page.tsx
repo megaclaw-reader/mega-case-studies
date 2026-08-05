@@ -101,9 +101,9 @@ export default function OFSChicagoStrategy() {
             <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-10">
               {[
                 { value: "120", unit: "", label: "Target Patients/Month" },
-                { value: "$20,000", unit: "/mo", label: "Recommended Ad Spend" },
+                { value: "$20K", unit: "/mo", label: "Recommended Ad Spend" },
                 { value: "$1,000", unit: "", label: "Target Blended CPA" },
-                { value: "23–37", unit: "", label: "Patients from Paid Ads" },
+                { value: "$30K", unit: "", label: "Avg Case Value" },
               ].map((stat, i) => (
                 <motion.div key={stat.label} initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.2 + i * 0.1 }} className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100">
                   <div className="text-4xl md:text-5xl font-bold text-[#2965FF]">
@@ -549,8 +549,8 @@ export default function OFSChicagoStrategy() {
                   {
                     num: "1",
                     title: "Speed-to-Lead",
-                    desc: "Calling within 1 minute increases contact rate dramatically. After 5 minutes, contact rates drop by over 400%. Leads that sit overnight — half book somewhere else.",
-                    detail: "MEGA's AI handles this: automated SMS within 60 seconds of form submission, plus real-time lead alerts to dedicated staff during business hours.",
+                    desc: "MEGA AI calls back form leads within 1 minute. After 5 minutes, contact rates drop by over 400%. Leads that sit overnight — half book somewhere else.",
+                    detail: "MEGA's AI agent automatically contacts new leads within 60 seconds of form submission via SMS and triggers real-time alerts to your staff — no manual monitoring required.",
                   },
                   {
                     num: "2",
@@ -597,7 +597,7 @@ export default function OFSChicagoStrategy() {
               <div className="absolute left-6 md:left-8 top-0 bottom-0 w-0.5 bg-[#2965FF]/20" />
               <div className="space-y-8">
                 {[
-                  { phase: "Setup", timeline: "Days 1–14", items: ["Deploy MEGA AI optimization agents directly within ad accounts for continuous bid management and audience refinement", "Launch Google Search campaigns (core Chicago + affluent suburbs)", "Build dedicated authority-focused landing pages — financing options below the fold, no nav menu, one CTA", "Install call tracking and MEGA's automated speed-to-lead system (SMS within 60 seconds)", "Deploy expanded negative keyword list across all campaigns", "Launch initial creative testing with 20+ AI-generated ad variations across formats"] },
+                  { phase: "Setup", timeline: "Days 1–14", items: ["Deploy MEGA AI optimization agents directly within ad accounts for continuous bid management and audience refinement", "Launch Google Search campaigns (core Chicago + affluent suburbs)", "Build dedicated authority-focused landing pages — financing options below the fold, no nav menu, one CTA", "Install call tracking and MEGA AI speed-to-lead — automatically calls back form leads within 1 minute", "Deploy expanded negative keyword list across all campaigns", "Launch initial creative testing with 20+ AI-generated ad variations across formats"] },
                   { phase: "Optimize", timeline: "Days 15–45", items: ["AI agents identify underperforming ad groups within days and automatically shift budget to top performers — compounding daily optimizations", "Weekly search term review — aggressively negate price/cost queries", "A/B test landing page variants continuously with AI selecting winners automatically", "Launch YouTube prospecting with surgeon/facility creative", "Analyze lead quality by zip code and income tier", "Rotate in fresh creative weekly based on performance data — replacing underperformers within days rather than the typical monthly agency refresh cycle"] },
                   { phase: "Scale", timeline: "Days 46–90", items: ["Switch to Target CPA bidding (after 30+ conversions)", "Launch Meta retargeting campaigns (income-filtered)", "Launch Meta All-on-4 prospecting (top 25% HHI)", "Scale AI-generated creative to 30+ active variations for Meta — faster learning and zero creative fatigue", "Real-time performance monitoring detects and responds to competitive shifts within hours, not days"] },
                   { phase: "Expand", timeline: "Month 4+", items: ["Continuous AI optimization compounds small daily improvements into significant monthly CPA reductions", "Scale budget to top-performing channels based on real-time data", "Test additional affluent suburb geos", "Layer in Performance Max with clean conversion data", "Expand YouTube creative library with new patient stories"] },
