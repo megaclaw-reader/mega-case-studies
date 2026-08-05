@@ -103,7 +103,7 @@ export default function OFSChicagoStrategy() {
                 { value: "120", unit: "", label: "Target Patients/Month" },
                 { value: "$20K", unit: "/mo", label: "Recommended Ad Spend" },
                 { value: "$1,000", unit: "", label: "Target Blended CPA" },
-                { value: "$12K", unit: "", label: "Avg Case Value" },
+                { value: "$20K", unit: "", label: "Avg Case Value" },
               ].map((stat, i) => (
                 <motion.div key={stat.label} initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.2 + i * 0.1 }} className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100">
                   <div className="text-4xl md:text-5xl font-bold text-[#2965FF]">
@@ -162,7 +162,7 @@ export default function OFSChicagoStrategy() {
           <div className="max-w-6xl mx-auto">
             <h2 className="text-3xl font-bold mb-4">Why This Problem Needs MEGA</h2>
             <p className="text-[#6B7280] max-w-3xl mb-8 leading-relaxed">
-              OFS&apos;s core challenge isn&apos;t lead volume — it&apos;s lead quality. When the average case is $12K, every unqualified lead that reaches the front desk wastes staff time, erodes trust in the marketing investment, and costs real money in wasted ad spend. Traditional agencies don&apos;t solve this because they optimize for clicks and form fills, not for patients who can actually afford treatment.
+              OFS&apos;s core challenge isn&apos;t lead volume — it&apos;s lead quality. When the average case is $20K, every unqualified lead that reaches the front desk wastes staff time, erodes trust in the marketing investment, and costs real money in wasted ad spend. Traditional agencies don&apos;t solve this because they optimize for clicks and form fills, not for patients who can actually afford treatment.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -191,7 +191,7 @@ export default function OFSChicagoStrategy() {
                     "Optimization happens continuously, not at weekly meetings. A keyword that starts attracting the wrong audience gets paused within hours, not after a $3K lesson",
                     "AI-generated creative at zero marginal cost means 20–30 ad variations tested simultaneously. 100% of the $20K goes to media — no production fees eating your budget",
                     "Full-funnel tracking from ad click → form fill → consultation booked → case accepted. You see real CPA per patient, not vanity metrics",
-                    "MEGA AI calls back form leads within 1 minute — not 5, not 30. At $12K per case, the practice that responds first wins. This alone can be the difference between a 20% and a 40% consultation booking rate",
+                    "MEGA AI calls back form leads within 1 minute — not 5, not 30. At $20K per case, the practice that responds first wins. This alone can be the difference between a 20% and a 40% consultation booking rate",
                   ].map((item, j) => (
                     <li key={j} className="flex items-start gap-2 text-sm text-[#6B7280]">
                       <span className="text-[#2965FF] mt-1 font-bold">✓</span>{item}
@@ -203,7 +203,7 @@ export default function OFSChicagoStrategy() {
 
             <div className="mt-6 bg-[#2965FF]/5 rounded-xl p-6 border border-[#2965FF]/10">
               <p className="text-sm font-medium text-[#2965FF]">
-                The bottom line: MEGA doesn&apos;t just run ads — it solves the specific problem OFS is facing. When your services cost $12K and lead quality is the bottleneck, you need a system that filters before the click, optimizes in real time, and follows up faster than any human team can. That&apos;s what MEGA was built to do.
+                The bottom line: MEGA doesn&apos;t just run ads — it solves the specific problem OFS is facing. When your services cost $20K and lead quality is the bottleneck, you need a system that filters before the click, optimizes in real time, and follows up faster than any human team can. That&apos;s what MEGA was built to do.
               </p>
             </div>
           </div>
@@ -214,7 +214,7 @@ export default function OFSChicagoStrategy() {
           <div className="max-w-6xl mx-auto">
             <h2 className="text-3xl font-bold mb-4">Lead Quality Is the Entire Game</h2>
             <p className="text-[#6B7280] max-w-3xl mb-8 leading-relaxed">
-              At $12K per case, the ICP is someone who values expertise and outcomes — not price. Every dollar of ad spend is filtered to exclude price-shoppers and attract patients who can afford and are ready to commit to treatment.
+              At $20K per case, the ICP is someone who values expertise and outcomes — not price. Every dollar of ad spend is filtered to exclude price-shoppers and attract patients who can afford and are ready to commit to treatment.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
@@ -262,7 +262,7 @@ export default function OFSChicagoStrategy() {
             <div className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100">
               <h3 className="font-bold text-lg mb-3">Meta Income Targeting</h3>
               <p className="text-[#6B7280] leading-relaxed">
-                Meta allows household income tier targeting. All prospecting and retargeting campaigns target the <strong>top 25–50% household income</strong> in the Chicago metro. This alone is one of the most effective lead quality filters available on the platform — it ensures ad spend reaches people who can actually afford a $12K procedure, not price-shoppers who will never convert.
+                Meta allows household income tier targeting. All prospecting and retargeting campaigns target the <strong>top 25–50% household income</strong> in the Chicago metro. This alone is one of the most effective lead quality filters available on the platform — it ensures ad spend reaches people who can actually afford a $20K procedure, not price-shoppers who will never convert.
               </p>
             </div>
           </div>
@@ -273,7 +273,7 @@ export default function OFSChicagoStrategy() {
           <div className="max-w-6xl mx-auto">
             <h2 className="text-3xl font-bold mb-4">Paid Ads Strategy: $20,000/Month</h2>
             <p className="text-[#6B7280] max-w-3xl mb-8 leading-relaxed">
-              $20K/month is the budget level where paid ads become a real growth engine — not just a supplement. At $12K per case, you only need one extra patient per month to pay for the full investment. Campaigns could start at a lower budget to prove the model, but $20K is where you own the market.
+              $20K/month is the budget level where paid ads become a real growth engine — not just a supplement. At $20K per case, you only need one extra patient per month to pay for the full investment. Campaigns could start at a lower budget to prove the model, but $20K is where you own the market.
             </p>
 
             <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-8">
@@ -308,12 +308,12 @@ export default function OFSChicagoStrategy() {
                 <div>
                   <div className="w-8 h-8 rounded-full bg-[#2965FF]/10 text-[#2965FF] flex items-center justify-center font-bold text-sm mb-3">1</div>
                   <h4 className="font-semibold mb-2">Affluent Suburb Expansion</h4>
-                  <p className="text-sm text-[#6B7280]">Oak Lawn is the home base but the $12K implant patient is more likely living in Hinsdale or Winnetka. Less advertiser competition in those zip codes means lower CPCs and better lead quality.</p>
+                  <p className="text-sm text-[#6B7280]">Oak Lawn is the home base but the $20K implant patient is more likely living in Hinsdale or Winnetka. Less advertiser competition in those zip codes means lower CPCs and better lead quality.</p>
                 </div>
                 <div>
                   <div className="w-8 h-8 rounded-full bg-[#2965FF]/10 text-[#2965FF] flex items-center justify-center font-bold text-sm mb-3">2</div>
                   <h4 className="font-semibold mb-2">YouTube as a Trust Builder</h4>
-                  <p className="text-sm text-[#6B7280]">At $12K, people research before they call. A 30-second pre-roll of the surgeon speaking, showing the facility, citing case volume builds the credibility that converts a skeptical high-income prospect. It primes all other audiences.</p>
+                  <p className="text-sm text-[#6B7280]">At $20K, people research before they call. A 30-second pre-roll of the surgeon speaking, showing the facility, citing case volume builds the credibility that converts a skeptical high-income prospect. It primes all other audiences.</p>
                 </div>
                 <div>
                   <div className="w-8 h-8 rounded-full bg-[#2965FF]/10 text-[#2965FF] flex items-center justify-center font-bold text-sm mb-3">3</div>
@@ -390,7 +390,7 @@ export default function OFSChicagoStrategy() {
                         "Pre-roll targeting high-income 45–70 yr olds in the Chicago metro",
                         "Authority/brand play — \"Meet the surgeons,\" patient stories, facility tours",
                         "Warms the Meta and retargeting audiences before they see an ad",
-                        "At $12K per case, people research before they call — video builds the credibility that converts a skeptical high-income prospect",
+                        "At $20K per case, people research before they call — video builds the credibility that converts a skeptical high-income prospect",
                       ].map((item, j) => (
                         <li key={j} className="flex items-start gap-2 text-sm text-[#6B7280]">
                           <span className="text-[#2965FF] mt-1">•</span>{item}
@@ -493,7 +493,7 @@ export default function OFSChicagoStrategy() {
                     "Pain-point hook video (\"Tired of dentures slipping?\")",
                     "Authority creative only — no financing or price mentions in ads",
                     "Dedicated landing page with surgeon bios, case volume, and financing options below the fold",
-                    "CPA: $1,200–$1,800 — still a 7–10x return at $12K average procedure value",
+                    "CPA: $1,200–$1,800 — still an 11–17x return at $20K average procedure value",
                   ].map((item, j) => (
                     <li key={j} className="flex items-start gap-2 text-sm text-[#6B7280]">
                       <span className="text-[#2965FF] mt-1">•</span>{item}
@@ -643,7 +643,7 @@ export default function OFSChicagoStrategy() {
                 The road to 120 is a multi-channel plan. Referrals, organic, and GBP carry the majority of volume. Paid ads contribute 23–37 high-value patients per month — specifically the full-arch implant cases that are hardest to generate through referrals alone.
               </p>
               <p className="text-[#6B7280] leading-relaxed mb-4">
-                At $20,000/month with income-filtered targeting, aggressive negative keywords, and authority-first creative, $1,000 CPA is realistic. At $12K average procedure value, that&apos;s a 12:1 return on ad spend — and MEGA&apos;s always-on AI optimization means it improves every day, not just at monthly review meetings.
+                At $20,000/month with income-filtered targeting, aggressive negative keywords, and authority-first creative, $1,000 CPA is realistic. At $20K average procedure value, that&apos;s a 20:1 return on ad spend — and MEGA&apos;s always-on AI optimization means it improves every day, not just at monthly review meetings.
               </p>
               <p className="text-[#6B7280] leading-relaxed mb-6">
                 Every dollar is filtered for income and intent. AI-generated creative at zero production cost means 100% of the budget goes to media spend. Speed-to-lead automation ensures no qualified lead sits unanswered. And continuous optimization compounds small daily gains into significant monthly CPA reductions — something a traditional agency simply can&apos;t replicate.
