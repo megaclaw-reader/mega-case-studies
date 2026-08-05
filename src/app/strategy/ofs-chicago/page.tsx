@@ -94,7 +94,7 @@ export default function OFSChicagoStrategy() {
                 Road to 120 New Patients/Month
               </h1>
               <p className="text-lg text-[#6B7280] max-w-3xl mb-10 leading-relaxed">
-                A multi-channel growth plan for OFS Chicago — combining income-filtered paid ads, referral development, and organic search to hit 120 new patients per month with high lead quality and a $1,000 blended CPA on paid.
+                A multi-channel growth plan for OFS Chicago — powered by MEGA&apos;s always-on AI optimization, income-filtered paid ads, and authority-first creative to hit 120 new patients per month with high lead quality and a $1,000 blended CPA on paid.
               </p>
             </motion.div>
 
@@ -157,6 +157,50 @@ export default function OFSChicagoStrategy() {
           </div>
         </AnimatedSection>
 
+        {/* Why MEGA */}
+        <AnimatedSection className="py-20 px-6">
+          <div className="max-w-6xl mx-auto">
+            <h2 className="text-3xl font-bold mb-4">Why MEGA Is Built for This</h2>
+            <p className="text-[#6B7280] max-w-3xl mb-8 leading-relaxed">
+              Traditional agencies review campaigns weekly or monthly. MEGA&apos;s AI agents live inside the ad accounts and optimize continuously — 24/7, in real time. Here&apos;s what that means for OFS.
+            </p>
+
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
+              <div className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100">
+                <div className="w-10 h-10 rounded-full bg-[#2965FF] text-white flex items-center justify-center mb-4 shadow-lg shadow-[#2965FF]/25">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><polyline points="12,6 12,12 16,14"/></svg>
+                </div>
+                <h3 className="font-bold mb-2">Always-On Optimization</h3>
+                <p className="text-sm text-[#6B7280]">AI agents monitor and adjust bids, budgets, and audiences in real time — not in weekly review meetings. Small daily improvements compound into significant monthly gains.</p>
+              </div>
+
+              <div className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100">
+                <div className="w-10 h-10 rounded-full bg-[#2965FF] text-white flex items-center justify-center mb-4 shadow-lg shadow-[#2965FF]/25">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+                </div>
+                <h3 className="font-bold mb-2">AI-Powered Creative</h3>
+                <p className="text-sm text-[#6B7280]">20–30 ad variations generated and tested at zero production cost. Traditional agencies charge $500–$2K per creative — with MEGA, 100% of the budget goes to media spend.</p>
+              </div>
+
+              <div className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100">
+                <div className="w-10 h-10 rounded-full bg-[#2965FF] text-white flex items-center justify-center mb-4 shadow-lg shadow-[#2965FF]/25">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+                </div>
+                <h3 className="font-bold mb-2">Speed of Iteration</h3>
+                <p className="text-sm text-[#6B7280]">New landing page variants deployed and tested within 48 hours — not the 2–3 week agency cycle. When market conditions shift, campaigns are restructured within hours.</p>
+              </div>
+
+              <div className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100">
+                <div className="w-10 h-10 rounded-full bg-[#2965FF] text-white flex items-center justify-center mb-4 shadow-lg shadow-[#2965FF]/25">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="17,8 12,3 7,8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+                </div>
+                <h3 className="font-bold mb-2">Data-Driven Decisions</h3>
+                <p className="text-sm text-[#6B7280]">Every budget allocation decision is driven by real-time performance data — not account manager intuition. AI analyzes thousands of data points per day to identify micro-trends invisible to human reviewers.</p>
+              </div>
+            </div>
+          </div>
+        </AnimatedSection>
+
         {/* Lead Quality Strategy */}
         <AnimatedSection id="lead-quality" className="py-20 px-6">
           <div className="max-w-6xl mx-auto">
@@ -196,8 +240,8 @@ export default function OFSChicagoStrategy() {
                   {[
                     "\"Chicago's Board-Certified Oral Surgery Specialists\"",
                     "\"Trusted by 10,000+ Patients Across Chicagoland\"",
-                    "No financing angles in ads or landing pages",
-                    "Surgeon credibility, facility quality, outcomes-first messaging",
+                    "No financing or price mentions in ads — authority-first messaging only",
+                    "Landing pages lead with surgeon credibility and outcomes, with financing options available further down the page for qualified visitors",
                   ].map((item, j) => (
                     <li key={j} className="flex items-start gap-2 text-xs text-[#6B7280]">
                       <span className="text-[#2965FF] mt-0.5">•</span>{item}
@@ -221,7 +265,7 @@ export default function OFSChicagoStrategy() {
           <div className="max-w-6xl mx-auto">
             <h2 className="text-3xl font-bold mb-4">Paid Ads Strategy: $20,000/Month</h2>
             <p className="text-[#6B7280] max-w-3xl mb-8 leading-relaxed">
-              At $8,500 you get your foot in the door. At $20K you own the market — and at $30K per case, you only need one extra patient per month to pay for the difference.
+              $20K/month is the budget level where paid ads become a real growth engine — not just a supplement. At $30K per case, you only need one extra patient per month to pay for the full investment. Campaigns could start at a lower budget to prove the model, but $20K is where you own the market.
             </p>
 
             <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-8">
@@ -251,7 +295,7 @@ export default function OFSChicagoStrategy() {
             />
 
             <div className="mt-8 bg-white rounded-2xl p-8 shadow-sm border border-gray-100">
-              <h3 className="font-bold text-lg mb-4">What&apos;s New at $20K That Wasn&apos;t in the $8,500 Plan</h3>
+              <h3 className="font-bold text-lg mb-4">Why $20K Is the Right Investment Level</h3>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <div>
                   <div className="w-8 h-8 rounded-full bg-[#2965FF]/10 text-[#2965FF] flex items-center justify-center font-bold text-sm mb-3">1</div>
@@ -378,7 +422,8 @@ export default function OFSChicagoStrategy() {
                     <h3 className="text-lg font-bold mb-4">Bidding Strategy</h3>
                     <ul className="space-y-2">
                       {[
-                        "Days 1–30: Manual CPC, then switch to Target CPA at $900–$1,100 after 30 conversions",
+                        "Days 1–30: Manual CPC with MEGA's AI agents making continuous micro-adjustments, then switch to Target CPA at $900–$1,100 after 30 conversions",
+                        "AI detects and responds to competitive bid changes within hours rather than the typical agency cycle of days or weeks",
                         "Don't touch Performance Max until 90 days of clean data",
                       ].map((item, j) => (
                         <li key={j} className="flex items-start gap-2 text-sm text-[#6B7280]">
@@ -417,7 +462,7 @@ export default function OFSChicagoStrategy() {
                   {[
                     "Site visitors, last 30–90 days",
                     "Authority-focused creative — surgeon credentials, facility, patient outcomes",
-                    "No financing or affordability angles",
+                    "No financing or affordability angles in ad creative",
                     "Income-filtered: top 25–50% HHI",
                     "CPA target: $300–600",
                   ].map((item, j) => (
@@ -438,8 +483,8 @@ export default function OFSChicagoStrategy() {
                     "Top 25% HHI, Chicago metro + affluent suburbs",
                     "Ages 50–72, denture/dental interests",
                     "Pain-point hook video (\"Tired of dentures slipping?\")",
-                    "Authority creative only — no financing, no price mentions",
-                    "Dedicated landing page with surgeon bios and case volume",
+                    "Authority creative only — no financing or price mentions in ads",
+                    "Dedicated landing page with surgeon bios, case volume, and financing options below the fold",
                     "CPA: $1,200–$1,800 — still a 20:1 return at $30K procedure value",
                   ].map((item, j) => (
                     <li key={j} className="flex items-start gap-2 text-sm text-[#6B7280]">
@@ -504,15 +549,15 @@ export default function OFSChicagoStrategy() {
                   {
                     num: "1",
                     title: "Speed-to-Lead",
-                    desc: "Calling within 5 minutes increases contact rate 400% vs. 30 minutes. Leads that sit overnight — half book somewhere else.",
-                    detail: "Need: automated SMS within 60 seconds of form submission, dedicated staff on leads during business hours.",
+                    desc: "Calling within 1 minute increases contact rate dramatically. After 5 minutes, contact rates drop by over 400%. Leads that sit overnight — half book somewhere else.",
+                    detail: "MEGA's AI handles this: automated SMS within 60 seconds of form submission, plus real-time lead alerts to dedicated staff during business hours.",
                   },
                   {
                     num: "2",
                     title: "Dedicated Landing Pages",
-                    desc: "Two pages needed — authority-focused, no financing, no nav menu, one CTA:",
+                    desc: "Two pages needed — authority-first, no nav menu, one CTA. Financing options mentioned on-page (not in ads) to convert qualified visitors who need a payment path:",
                     items: [
-                      "/dental-implants-chicago/ — All-on-4 focused, surgeon credentials, case volume, consultation CTA",
+                      "/dental-implants-chicago/ — All-on-4 focused, surgeon credentials, case volume, financing section below the fold, consultation CTA",
                       "/oral-surgeon-chicago/ — general oral surgery, board-certified team, consultation CTA",
                     ],
                   },
@@ -552,10 +597,10 @@ export default function OFSChicagoStrategy() {
               <div className="absolute left-6 md:left-8 top-0 bottom-0 w-0.5 bg-[#2965FF]/20" />
               <div className="space-y-8">
                 {[
-                  { phase: "Setup", timeline: "Days 1–14", items: ["Launch Google Search campaigns (core Chicago + affluent suburbs)", "Build dedicated authority-focused landing pages — no financing, no nav menu", "Install call tracking", "Set up SMS lead response automation", "Deploy expanded negative keyword list across all campaigns"] },
-                  { phase: "Optimize", timeline: "Days 15–45", items: ["Weekly search term review — aggressively negate price/cost queries", "A/B test landing page headlines and CTAs (authority angles)", "Refine geographic and demographic targeting", "Launch YouTube prospecting with surgeon/facility creative", "Analyze lead quality by zip code and income tier"] },
-                  { phase: "Scale", timeline: "Days 46–90", items: ["Switch to Target CPA bidding (after 30+ conversions)", "Launch Meta retargeting campaigns (income-filtered)", "Launch Meta All-on-4 prospecting (top 25% HHI)", "Begin measuring lead-to-patient conversion by channel"] },
-                  { phase: "Expand", timeline: "Month 4+", items: ["Scale budget to top-performing channels based on CPA data", "Test additional affluent suburb geos", "Layer in Performance Max with clean conversion data", "Expand YouTube creative library with new patient stories"] },
+                  { phase: "Setup", timeline: "Days 1–14", items: ["Deploy MEGA AI optimization agents directly within ad accounts for continuous bid management and audience refinement", "Launch Google Search campaigns (core Chicago + affluent suburbs)", "Build dedicated authority-focused landing pages — financing options below the fold, no nav menu, one CTA", "Install call tracking and MEGA's automated speed-to-lead system (SMS within 60 seconds)", "Deploy expanded negative keyword list across all campaigns", "Launch initial creative testing with 20+ AI-generated ad variations across formats"] },
+                  { phase: "Optimize", timeline: "Days 15–45", items: ["AI agents identify underperforming ad groups within days and automatically shift budget to top performers — compounding daily optimizations", "Weekly search term review — aggressively negate price/cost queries", "A/B test landing page variants continuously with AI selecting winners automatically", "Launch YouTube prospecting with surgeon/facility creative", "Analyze lead quality by zip code and income tier", "Rotate in fresh creative weekly based on performance data — replacing underperformers within days rather than the typical monthly agency refresh cycle"] },
+                  { phase: "Scale", timeline: "Days 46–90", items: ["Switch to Target CPA bidding (after 30+ conversions)", "Launch Meta retargeting campaigns (income-filtered)", "Launch Meta All-on-4 prospecting (top 25% HHI)", "Scale AI-generated creative to 30+ active variations for Meta — faster learning and zero creative fatigue", "Real-time performance monitoring detects and responds to competitive shifts within hours, not days"] },
+                  { phase: "Expand", timeline: "Month 4+", items: ["Continuous AI optimization compounds small daily improvements into significant monthly CPA reductions", "Scale budget to top-performing channels based on real-time data", "Test additional affluent suburb geos", "Layer in Performance Max with clean conversion data", "Expand YouTube creative library with new patient stories"] },
                 ].map((phase, i) => (
                   <div key={phase.phase} className="relative pl-16 md:pl-20">
                     <div className="absolute left-0 md:left-2 w-12 h-12 rounded-full bg-[#2965FF] text-white flex items-center justify-center font-bold text-sm shadow-lg shadow-[#2965FF]/25">
@@ -590,10 +635,10 @@ export default function OFSChicagoStrategy() {
                 The road to 120 is a multi-channel plan. Referrals, organic, and GBP carry the majority of volume. Paid ads contribute 23–37 high-value patients per month — specifically the full-arch implant cases that are hardest to generate through referrals alone.
               </p>
               <p className="text-[#6B7280] leading-relaxed mb-4">
-                At $20,000/month with income-filtered targeting, aggressive negative keywords, and authority-first creative, $1,000 CPA is realistic. At $30K average procedure value, that&apos;s a 30:1 return on ad spend — and it improves every month as campaigns optimize.
+                At $20,000/month with income-filtered targeting, aggressive negative keywords, and authority-first creative, $1,000 CPA is realistic. At $30K average procedure value, that&apos;s a 30:1 return on ad spend — and MEGA&apos;s always-on AI optimization means it improves every day, not just at monthly review meetings.
               </p>
               <p className="text-[#6B7280] leading-relaxed mb-6">
-                Every dollar is filtered for income and intent. No price-shoppers. No financing tire-kickers. Just patients who can afford and are ready to commit to treatment from Chicago&apos;s board-certified oral surgery specialists.
+                Every dollar is filtered for income and intent. AI-generated creative at zero production cost means 100% of the budget goes to media spend. Speed-to-lead automation ensures no qualified lead sits unanswered. And continuous optimization compounds small daily gains into significant monthly CPA reductions — something a traditional agency simply can&apos;t replicate.
               </p>
               <div className="bg-[#2965FF]/5 rounded-xl p-6 border border-[#2965FF]/10">
                 <p className="text-sm font-medium text-[#2965FF]">
