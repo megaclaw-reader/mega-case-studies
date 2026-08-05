@@ -9,6 +9,7 @@ import Footer from "@/components/CaseStudy/Footer";
 function Header() {
   const navLinks = [
     { label: "The Honest Picture", href: "#honest-picture" },
+    { label: "Lead Quality", href: "#lead-quality" },
     { label: "Paid Ads Strategy", href: "#paid-ads-strategy" },
     { label: "Google Ads", href: "#google-ads" },
     { label: "Meta Ads", href: "#meta-ads" },
@@ -39,9 +40,10 @@ function Header() {
 }
 
 /* ─── Reusable Table ─── */
-function DataTable({ headers, rows, footer }: { headers: string[]; rows: (string | number)[][]; footer?: (string | number)[] }) {
+function DataTable({ headers, rows, footer, title }: { headers: string[]; rows: (string | number)[][]; footer?: (string | number)[]; title?: string }) {
   return (
     <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
+      {title && <h3 className="font-bold p-6 pb-4">{title}</h3>}
       <div className="overflow-x-auto">
         <table className="w-full text-sm">
           <thead>
@@ -92,16 +94,16 @@ export default function OFSChicagoStrategy() {
                 Road to 120 New Patients/Month
               </h1>
               <p className="text-lg text-[#6B7280] max-w-3xl mb-10 leading-relaxed">
-                A multi-channel growth plan for OFS Chicago — combining paid ads, referral development, and organic search to hit 120 new patients per month at a $1,000 blended CPA on paid.
+                A multi-channel growth plan for OFS Chicago — combining income-filtered paid ads, referral development, and organic search to hit 120 new patients per month with high lead quality and a $1,000 blended CPA on paid.
               </p>
             </motion.div>
 
             <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-10">
               {[
                 { value: "120", unit: "", label: "Target Patients/Month" },
-                { value: "$8,500", unit: "/mo", label: "Recommended Ad Spend" },
+                { value: "$20,000", unit: "/mo", label: "Recommended Ad Spend" },
                 { value: "$1,000", unit: "", label: "Target Blended CPA" },
-                { value: "15–24", unit: "", label: "Patients from Paid Ads" },
+                { value: "23–37", unit: "", label: "Patients from Paid Ads" },
               ].map((stat, i) => (
                 <motion.div key={stat.label} initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.2 + i * 0.1 }} className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100">
                   <div className="text-4xl md:text-5xl font-bold text-[#2965FF]">
@@ -113,7 +115,7 @@ export default function OFSChicagoStrategy() {
             </div>
 
             <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.6 }} className="flex flex-wrap gap-3">
-              {["Paid Advertising", "Oral Surgery", "Dental Implants", "Multi-Channel Growth"].map((tag) => (
+              {["Paid Advertising", "Oral Surgery", "Dental Implants", "Lead Quality Optimization", "Income-Filtered Targeting"].map((tag) => (
                 <span key={tag} className="px-4 py-2 rounded-full bg-gray-100 text-sm font-medium text-gray-700">{tag}</span>
               ))}
             </motion.div>
@@ -135,10 +137,10 @@ export default function OFSChicagoStrategy() {
                 ["Dentist & specialist referrals", "40–55", "The engine for most OMS practices — needs active relationship management"],
                 ["Organic search", "20–30", "OFS already has 5,000 organic visits/month and solid rankings — real asset"],
                 ["Google Business Profile / local", "15–20", "\"Near me\" searches and map pack clicks — driven by reviews and GBP optimization"],
-                ["Paid ads (Google + Meta)", "15–24", "Controllable, scalable, targets high-value implant cases specifically"],
+                ["Paid ads (Google + Meta)", "23–37", "Controllable, scalable, income-filtered to target high-value implant cases specifically"],
                 ["Existing patient reactivation", "10–15", "Past patients, follow-up consults, family referrals"],
               ]}
-              footer={["Total", "~100–144", ""]}
+              footer={["Total", "~108–157", ""]}
             />
 
             <div className="mt-8 bg-white rounded-2xl p-8 shadow-sm border border-gray-100">
@@ -155,18 +157,77 @@ export default function OFSChicagoStrategy() {
           </div>
         </AnimatedSection>
 
-        {/* Paid Ads Strategy */}
-        <AnimatedSection id="paid-ads-strategy" className="py-20 px-6">
+        {/* Lead Quality Strategy */}
+        <AnimatedSection id="lead-quality" className="py-20 px-6">
           <div className="max-w-6xl mx-auto">
-            <h2 className="text-3xl font-bold mb-4">Paid Ads Strategy: $8,500/Month</h2>
+            <h2 className="text-3xl font-bold mb-4">Lead Quality Is the Entire Game</h2>
             <p className="text-[#6B7280] max-w-3xl mb-8 leading-relaxed">
-              Budget allocation across Google and Meta, designed to balance high-value implant cases with volume-driving oral surgery campaigns.
+              At $30K per case, the ICP is someone who values expertise and outcomes — not price. Every dollar of ad spend is filtered to exclude price-shoppers and attract patients who can afford and are ready to commit to treatment.
+            </p>
+
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+              <div className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100">
+                <div className="w-10 h-10 rounded-full bg-red-500 text-white flex items-center justify-center font-bold text-sm mb-4 shadow-lg shadow-red-500/25">✕</div>
+                <h3 className="font-bold text-lg mb-2">Keywords Cut</h3>
+                <p className="text-sm text-[#6B7280] mb-3">Price-shopper intent terms removed from all campaigns:</p>
+                <div className="flex flex-wrap gap-2">
+                  {["affordable all on 4 dental implants", "all on four implant cost", "full dental implants cost", "how much", "price"].map((kw) => (
+                    <span key={kw} className="px-3 py-1 rounded-full bg-red-50 text-red-600 text-xs font-medium line-through">{kw}</span>
+                  ))}
+                </div>
+              </div>
+
+              <div className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100">
+                <div className="w-10 h-10 rounded-full bg-red-500 text-white flex items-center justify-center font-bold text-sm mb-4 shadow-lg shadow-red-500/25">—</div>
+                <h3 className="font-bold text-lg mb-2">Expanded Negatives</h3>
+                <p className="text-sm text-[#6B7280] mb-3">Aggressive negative keyword list blocks price-sensitive clicks before they cost money:</p>
+                <div className="flex flex-wrap gap-2">
+                  {["Affordable", "Cost", "Price", "How much", "Cheap", "Discount", "Financing", "Payment plan", "Free", "Insurance covered", "Medicaid"].map((neg) => (
+                    <span key={neg} className="px-3 py-1 rounded-full bg-red-50 text-red-600 text-xs font-medium">{neg}</span>
+                  ))}
+                </div>
+              </div>
+
+              <div className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100">
+                <div className="w-10 h-10 rounded-full bg-[#2965FF] text-white flex items-center justify-center font-bold text-sm mb-4 shadow-lg shadow-[#2965FF]/25">✓</div>
+                <h3 className="font-bold text-lg mb-2">Authority Positioning</h3>
+                <p className="text-sm text-[#6B7280] mb-3">Copy and creative shifted from affordability to expertise:</p>
+                <ul className="space-y-2">
+                  {[
+                    "\"Chicago's Board-Certified Oral Surgery Specialists\"",
+                    "\"Trusted by 10,000+ Patients Across Chicagoland\"",
+                    "No financing angles in ads or landing pages",
+                    "Surgeon credibility, facility quality, outcomes-first messaging",
+                  ].map((item, j) => (
+                    <li key={j} className="flex items-start gap-2 text-xs text-[#6B7280]">
+                      <span className="text-[#2965FF] mt-0.5">•</span>{item}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+
+            <div className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100">
+              <h3 className="font-bold text-lg mb-3">Meta Income Targeting</h3>
+              <p className="text-[#6B7280] leading-relaxed">
+                Meta allows household income tier targeting. All prospecting and retargeting campaigns target the <strong>top 25–50% household income</strong> in the Chicago metro. This alone is one of the most effective lead quality filters available on the platform — it ensures ad spend reaches people who can actually afford a $30K procedure, not price-shoppers who will never convert.
+              </p>
+            </div>
+          </div>
+        </AnimatedSection>
+
+        {/* Paid Ads Strategy — $20K */}
+        <AnimatedSection id="paid-ads-strategy" className="py-20 px-6 bg-gray-50/50">
+          <div className="max-w-6xl mx-auto">
+            <h2 className="text-3xl font-bold mb-4">Paid Ads Strategy: $20,000/Month</h2>
+            <p className="text-[#6B7280] max-w-3xl mb-8 leading-relaxed">
+              At $8,500 you get your foot in the door. At $20K you own the market — and at $30K per case, you only need one extra patient per month to pay for the difference.
             </p>
 
             <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-8">
               {[
-                { label: "Monthly Budget", value: "$8,500" },
-                { label: "Est. New Patients", value: "15–24" },
+                { label: "Monthly Budget", value: "$20,000" },
+                { label: "Est. New Patients", value: "23–37" },
                 { label: "Target CPA", value: "$1,000" },
               ].map((s) => (
                 <div key={s.label} className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
@@ -177,36 +238,58 @@ export default function OFSChicagoStrategy() {
             </div>
 
             <DataTable
-              headers={["Channel", "Budget", "Est. New Patients"]}
+              headers={["Channel", "Budget", "Rationale"]}
               rows={[
-                ["Google Search — Implants", "$3,500", "5–8"],
-                ["Google Search — Oral Surgery / Volume", "$2,000", "5–8"],
-                ["Google Display + YouTube Retargeting", "$500", "1–2"],
-                ["Meta Retargeting (site visitors)", "$1,000", "2–3"],
-                ["Meta Prospecting (All-on-4 audience)", "$1,500", "2–3"],
+                ["Google Search — Implants (Chicago core)", "$6,000", "Dominate all high-intent implant terms, aggressive position 1–2 bidding"],
+                ["Google Search — Implants (Affluent suburbs)", "$3,000", "Expand geo to Hinsdale, Winnetka, Naperville, Oak Park — higher HHI zip codes, less competition, lower CPCs"],
+                ["YouTube Prospecting", "$3,000", "Pre-roll targeting high-income 45–70 yr olds. Authority/brand play — \"Meet the surgeons,\" patient stories. Warms audiences before they see an ad"],
+                ["Google Display + YouTube Retargeting", "$1,500", "Larger budget = bigger retargeting audience as traffic scales"],
+                ["Meta Retargeting", "$2,500", "More budget behind the highest-converting placement"],
+                ["Meta Prospecting — All-on-4 (income-filtered)", "$4,000", "Top 25% HHI, Chicago metro + affluent suburbs. No financing angle. Authority creative only"],
               ]}
-              footer={["Total", "$8,500", "15–24 patients"]}
+              footer={["Total", "$20,000", ""]}
             />
+
+            <div className="mt-8 bg-white rounded-2xl p-8 shadow-sm border border-gray-100">
+              <h3 className="font-bold text-lg mb-4">What&apos;s New at $20K That Wasn&apos;t in the $8,500 Plan</h3>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div>
+                  <div className="w-8 h-8 rounded-full bg-[#2965FF]/10 text-[#2965FF] flex items-center justify-center font-bold text-sm mb-3">1</div>
+                  <h4 className="font-semibold mb-2">Affluent Suburb Expansion</h4>
+                  <p className="text-sm text-[#6B7280]">Oak Lawn is the home base but the $30K implant patient is more likely living in Hinsdale or Winnetka. Less advertiser competition in those zip codes means lower CPCs and better lead quality.</p>
+                </div>
+                <div>
+                  <div className="w-8 h-8 rounded-full bg-[#2965FF]/10 text-[#2965FF] flex items-center justify-center font-bold text-sm mb-3">2</div>
+                  <h4 className="font-semibold mb-2">YouTube as a Trust Builder</h4>
+                  <p className="text-sm text-[#6B7280]">At $30K, people research before they call. A 30-second pre-roll of the surgeon speaking, showing the facility, citing case volume builds the credibility that converts a skeptical high-income prospect. It primes all other audiences.</p>
+                </div>
+                <div>
+                  <div className="w-8 h-8 rounded-full bg-[#2965FF]/10 text-[#2965FF] flex items-center justify-center font-bold text-sm mb-3">3</div>
+                  <h4 className="font-semibold mb-2">Scaled Meta Prospecting</h4>
+                  <p className="text-sm text-[#6B7280]">More budget means broader testing of creative angles and faster learning. Income-filtered audiences are smaller, so you need more budget to get proper delivery and avoid fatigue.</p>
+                </div>
+              </div>
+            </div>
           </div>
         </AnimatedSection>
 
         {/* Google Ads */}
-        <AnimatedSection id="google-ads" className="py-20 px-6 bg-gray-50/50">
+        <AnimatedSection id="google-ads" className="py-20 px-6">
           <div className="max-w-6xl mx-auto">
             <h2 className="text-3xl font-bold mb-12">Google Ads</h2>
 
             <div className="relative">
               <div className="absolute left-6 md:left-8 top-0 bottom-0 w-0.5 bg-[#2965FF]/20" />
               <div className="space-y-12">
-                {/* Campaign 1 */}
+                {/* Campaign 1 — Core Implants */}
                 <div className="relative pl-16 md:pl-20">
                   <div className="absolute left-0 md:left-2 w-12 h-12 rounded-full bg-[#2965FF] text-white flex items-center justify-center font-bold text-lg shadow-lg shadow-[#2965FF]/25">1</div>
                   <div className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100">
                     <div className="flex items-center gap-3 mb-4">
-                      <h3 className="text-lg font-bold">Dental Implants — High-Intent, High-Value</h3>
-                      <span className="text-sm text-[#6B7280] bg-gray-100 px-3 py-1 rounded-full">$3,500/mo</span>
+                      <h3 className="text-lg font-bold">Dental Implants — Chicago Core</h3>
+                      <span className="text-sm text-[#6B7280] bg-gray-100 px-3 py-1 rounded-full">$6,000/mo</span>
                     </div>
-                    <p className="text-sm text-[#6B7280] mb-4">Phrase and exact match only. No broad match.</p>
+                    <p className="text-sm text-[#6B7280] mb-4">Phrase and exact match only. No broad match. All price/cost keywords excluded.</p>
                     <DataTable
                       headers={["Keyword", "Monthly Searches", "CPC"]}
                       rows={[
@@ -214,48 +297,70 @@ export default function OFSChicagoStrategy() {
                         ["chicago dental implants", "1,000", "$10.87"],
                         ["chicago tooth implant", "880", "$13.62"],
                         ["all on 4 dental implants chicago", "140", "$11.26"],
-                        ["affordable all on 4 dental implants", "320", "$10.14"],
-                        ["all on four implant cost", "1,900", "$7.72"],
-                        ["full dental implants cost", "2,400", "$6.86"],
+                        ["best dental implants chicago", "320", "$12.40"],
+                        ["dental implant specialist chicago", "210", "$11.85"],
                       ]}
                     />
                   </div>
                 </div>
 
-                {/* Campaign 2 */}
+                {/* Campaign 2 — Affluent Suburbs */}
                 <div className="relative pl-16 md:pl-20">
                   <div className="absolute left-0 md:left-2 w-12 h-12 rounded-full bg-[#2965FF] text-white flex items-center justify-center font-bold text-lg shadow-lg shadow-[#2965FF]/25">2</div>
                   <div className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100">
                     <div className="flex items-center gap-3 mb-4">
-                      <h3 className="text-lg font-bold">Oral Surgery Volume — Lower CPC, High Volume</h3>
-                      <span className="text-sm text-[#6B7280] bg-gray-100 px-3 py-1 rounded-full">$2,000/mo</span>
+                      <h3 className="text-lg font-bold">Dental Implants — Affluent Suburbs</h3>
+                      <span className="text-sm text-[#6B7280] bg-gray-100 px-3 py-1 rounded-full">$3,000/mo</span>
                     </div>
-                    <p className="text-sm text-[#6B7280] mb-4">This is what drives patient count toward 120. CPAs here are $200–400. These patients also feed the Meta retargeting pool.</p>
+                    <p className="text-sm text-[#6B7280] mb-4">Geo-targeting high household income zip codes: Hinsdale, Winnetka, Naperville, Oak Park. Lower competition, lower CPCs, higher lead quality.</p>
                     <DataTable
                       headers={["Keyword", "Monthly Searches", "CPC"]}
                       rows={[
-                        ["wisdom teeth removal near me", "22,200", "$5.16"],
-                        ["oral surgeon near me", "33,100", "~$6–8"],
-                        ["oral surgeons near me", "4,400", "~$5–7"],
-                        ["maxillofacial surgeons chicago", "880", "$6.43"],
-                        ["oral and maxillofacial surgeon", "4,400", "~$3–4"],
+                        ["dental implants near me (suburb geo)", "1,800", "$9.50"],
+                        ["oral surgeon hinsdale", "260", "$8.20"],
+                        ["dental implants naperville", "480", "$10.15"],
+                        ["all on 4 implants near me (suburb geo)", "320", "$9.80"],
                       ]}
                     />
+                  </div>
+                </div>
+
+                {/* YouTube Prospecting */}
+                <div className="relative pl-16 md:pl-20">
+                  <div className="absolute left-0 md:left-2 w-12 h-12 rounded-full bg-[#2965FF] text-white flex items-center justify-center font-bold text-lg shadow-lg shadow-[#2965FF]/25">3</div>
+                  <div className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100">
+                    <div className="flex items-center gap-3 mb-4">
+                      <h3 className="text-lg font-bold">YouTube Prospecting — Trust Builder</h3>
+                      <span className="text-sm text-[#6B7280] bg-gray-100 px-3 py-1 rounded-full">$3,000/mo</span>
+                    </div>
+                    <ul className="space-y-2">
+                      {[
+                        "Pre-roll targeting high-income 45–70 yr olds in the Chicago metro",
+                        "Authority/brand play — \"Meet the surgeons,\" patient stories, facility tours",
+                        "Warms the Meta and retargeting audiences before they see an ad",
+                        "At $30K per case, people research before they call — video builds the credibility that converts a skeptical high-income prospect",
+                      ].map((item, j) => (
+                        <li key={j} className="flex items-start gap-2 text-sm text-[#6B7280]">
+                          <span className="text-[#2965FF] mt-1">•</span>{item}
+                        </li>
+                      ))}
+                    </ul>
                   </div>
                 </div>
 
                 {/* Retargeting */}
                 <div className="relative pl-16 md:pl-20">
-                  <div className="absolute left-0 md:left-2 w-12 h-12 rounded-full bg-[#2965FF] text-white flex items-center justify-center font-bold text-lg shadow-lg shadow-[#2965FF]/25">3</div>
+                  <div className="absolute left-0 md:left-2 w-12 h-12 rounded-full bg-[#2965FF] text-white flex items-center justify-center font-bold text-lg shadow-lg shadow-[#2965FF]/25">4</div>
                   <div className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100">
                     <div className="flex items-center gap-3 mb-4">
-                      <h3 className="text-lg font-bold">Google Retargeting</h3>
-                      <span className="text-sm text-[#6B7280] bg-gray-100 px-3 py-1 rounded-full">$500/mo</span>
+                      <h3 className="text-lg font-bold">Google Display + YouTube Retargeting</h3>
+                      <span className="text-sm text-[#6B7280] bg-gray-100 px-3 py-1 rounded-full">$1,500/mo</span>
                     </div>
                     <ul className="space-y-2">
                       {[
                         "Display + YouTube pre-roll for site visitors who didn't book",
                         "15-, 30-, 60-day audience windows",
+                        "Larger budget = bigger retargeting pool as traffic scales from $20K spend",
                         "Cheapest placement, consistently strong ROI",
                       ].map((item, j) => (
                         <li key={j} className="flex items-start gap-2 text-sm text-[#6B7280]">
@@ -268,7 +373,7 @@ export default function OFSChicagoStrategy() {
 
                 {/* Bidding Strategy */}
                 <div className="relative pl-16 md:pl-20">
-                  <div className="absolute left-0 md:left-2 w-12 h-12 rounded-full bg-[#2965FF] text-white flex items-center justify-center font-bold text-lg shadow-lg shadow-[#2965FF]/25">4</div>
+                  <div className="absolute left-0 md:left-2 w-12 h-12 rounded-full bg-[#2965FF] text-white flex items-center justify-center font-bold text-lg shadow-lg shadow-[#2965FF]/25">5</div>
                   <div className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100">
                     <h3 className="text-lg font-bold mb-4">Bidding Strategy</h3>
                     <ul className="space-y-2">
@@ -284,7 +389,7 @@ export default function OFSChicagoStrategy() {
                     <div className="mt-6">
                       <h4 className="font-semibold text-sm mb-2">Day-One Negative Keywords</h4>
                       <div className="flex flex-wrap gap-2">
-                        {["Free", "Cheap", "DIY", "How to", "At home", "Medicaid", "Insurance", "Pictures", "Pain", "Infection", "Symptoms"].map((neg) => (
+                        {["Free", "Cheap", "DIY", "How to", "At home", "Medicaid", "Insurance", "Pictures", "Pain", "Infection", "Symptoms", "Affordable", "Cost", "Price", "How much", "Discount", "Financing", "Payment plan", "Insurance covered"].map((neg) => (
                           <span key={neg} className="px-3 py-1 rounded-full bg-red-50 text-red-600 text-xs font-medium">{neg}</span>
                         ))}
                       </div>
@@ -298,7 +403,7 @@ export default function OFSChicagoStrategy() {
         </AnimatedSection>
 
         {/* Meta Ads */}
-        <AnimatedSection id="meta-ads" className="py-20 px-6">
+        <AnimatedSection id="meta-ads" className="py-20 px-6 bg-gray-50/50">
           <div className="max-w-6xl mx-auto">
             <h2 className="text-3xl font-bold mb-12">Meta Ads</h2>
 
@@ -306,12 +411,14 @@ export default function OFSChicagoStrategy() {
               <div className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100">
                 <div className="flex items-center gap-3 mb-4">
                   <h3 className="text-lg font-bold">Retargeting</h3>
-                  <span className="text-sm text-[#6B7280] bg-gray-100 px-3 py-1 rounded-full">$1,000/mo</span>
+                  <span className="text-sm text-[#6B7280] bg-gray-100 px-3 py-1 rounded-full">$2,500/mo</span>
                 </div>
                 <ul className="space-y-2">
                   {[
                     "Site visitors, last 30–90 days",
-                    "Before/after creative, financing angle",
+                    "Authority-focused creative — surgeon credentials, facility, patient outcomes",
+                    "No financing or affordability angles",
+                    "Income-filtered: top 25–50% HHI",
                     "CPA target: $300–600",
                   ].map((item, j) => (
                     <li key={j} className="flex items-start gap-2 text-sm text-[#6B7280]">
@@ -323,14 +430,16 @@ export default function OFSChicagoStrategy() {
 
               <div className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100">
                 <div className="flex items-center gap-3 mb-4">
-                  <h3 className="text-lg font-bold">All-on-4 Prospecting</h3>
-                  <span className="text-sm text-[#6B7280] bg-gray-100 px-3 py-1 rounded-full">$1,500/mo</span>
+                  <h3 className="text-lg font-bold">All-on-4 Prospecting (Income-Filtered)</h3>
+                  <span className="text-sm text-[#6B7280] bg-gray-100 px-3 py-1 rounded-full">$4,000/mo</span>
                 </div>
                 <ul className="space-y-2">
                   {[
-                    "Ages 50–72, Chicago metro, denture/dental interests",
+                    "Top 25% HHI, Chicago metro + affluent suburbs",
+                    "Ages 50–72, denture/dental interests",
                     "Pain-point hook video (\"Tired of dentures slipping?\")",
-                    "Dedicated landing page only",
+                    "Authority creative only — no financing, no price mentions",
+                    "Dedicated landing page with surgeon bios and case volume",
                     "CPA: $1,200–$1,800 — still a 20:1 return at $30K procedure value",
                   ].map((item, j) => (
                     <li key={j} className="flex items-start gap-2 text-sm text-[#6B7280]">
@@ -339,10 +448,30 @@ export default function OFSChicagoStrategy() {
                   ))}
                 </ul>
                 <div className="mt-4 bg-[#2965FF]/5 rounded-xl p-4 border border-[#2965FF]/10">
-                  <p className="text-xs font-medium text-[#2965FF]">This builds the high-value implant pipeline that referrals alone can&apos;t generate at scale.</p>
+                  <p className="text-xs font-medium text-[#2965FF]">This builds the high-value implant pipeline that referrals alone can&apos;t generate at scale. Income filtering ensures every dollar reaches people who can afford the procedure.</p>
                 </div>
               </div>
             </div>
+          </div>
+        </AnimatedSection>
+
+        {/* Updated Patient Math */}
+        <AnimatedSection className="py-20 px-6">
+          <div className="max-w-6xl mx-auto">
+            <h2 className="text-3xl font-bold mb-4">Updated Patient Math at $20K</h2>
+            <p className="text-[#6B7280] max-w-3xl mb-8 leading-relaxed">
+              Combined with referrals, organic, and GBP, this gets OFS to 120 comfortably. Because every dollar is filtered for income and intent, lead quality stays high throughout.
+            </p>
+
+            <DataTable
+              headers={["Channel", "Est. Patients/Month"]}
+              rows={[
+                ["Google Search (core + suburbs)", "12–18"],
+                ["YouTube + Retargeting", "3–5"],
+                ["Meta (retargeting + prospecting)", "8–14"],
+              ]}
+              footer={["Paid Total", "23–37"]}
+            />
           </div>
         </AnimatedSection>
 
@@ -381,17 +510,16 @@ export default function OFSChicagoStrategy() {
                   {
                     num: "2",
                     title: "Dedicated Landing Pages",
-                    desc: "Three pages needed:",
+                    desc: "Two pages needed — authority-focused, no financing, no nav menu, one CTA:",
                     items: [
-                      "/dental-implants-chicago/ — All-on-4 focused, financing mention, no nav menu, one CTA",
-                      "/oral-surgeon-chicago/ — general oral surgery, consultation CTA",
-                      "/wisdom-teeth-removal-chicago/ — volume driver, fast-loading, mobile-first",
+                      "/dental-implants-chicago/ — All-on-4 focused, surgeon credentials, case volume, consultation CTA",
+                      "/oral-surgeon-chicago/ — general oral surgery, board-certified team, consultation CTA",
                     ],
                   },
                   {
                     num: "3",
                     title: "Bidding Discipline",
-                    desc: "Build data on manual CPC before switching to Smart Bidding. Don't let Google push broad match early. CPA stays in control when campaigns are fed clean, specific traffic.",
+                    desc: "Build data on manual CPC before switching to Smart Bidding. Don't let Google push broad match early. CPA stays in control when campaigns are fed clean, specific traffic — and aggressive negatives keep price-shoppers out.",
                   },
                 ].map((item) => (
                   <div key={item.num} className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100">
@@ -424,10 +552,10 @@ export default function OFSChicagoStrategy() {
               <div className="absolute left-6 md:left-8 top-0 bottom-0 w-0.5 bg-[#2965FF]/20" />
               <div className="space-y-8">
                 {[
-                  { phase: "Setup", timeline: "Days 1–14", items: ["Launch both Search campaigns", "Build dedicated landing pages", "Install call tracking", "Set up SMS lead response automation"] },
-                  { phase: "Optimize", timeline: "Days 15–45", items: ["Weekly search term review", "Add negative keywords aggressively", "A/B test landing page headlines and CTAs", "Refine geographic and demographic targeting"] },
-                  { phase: "Scale", timeline: "Days 46–90", items: ["Switch to Target CPA bidding (after 30+ conversions)", "Launch Meta retargeting campaigns", "Begin YouTube pre-roll for site visitors"] },
-                  { phase: "Expand", timeline: "Month 4+", items: ["Add Meta All-on-4 prospecting once Google CPA is confirmed on target", "Evaluate budget increase based on capacity", "Layer in Performance Max with clean conversion data"] },
+                  { phase: "Setup", timeline: "Days 1–14", items: ["Launch Google Search campaigns (core Chicago + affluent suburbs)", "Build dedicated authority-focused landing pages — no financing, no nav menu", "Install call tracking", "Set up SMS lead response automation", "Deploy expanded negative keyword list across all campaigns"] },
+                  { phase: "Optimize", timeline: "Days 15–45", items: ["Weekly search term review — aggressively negate price/cost queries", "A/B test landing page headlines and CTAs (authority angles)", "Refine geographic and demographic targeting", "Launch YouTube prospecting with surgeon/facility creative", "Analyze lead quality by zip code and income tier"] },
+                  { phase: "Scale", timeline: "Days 46–90", items: ["Switch to Target CPA bidding (after 30+ conversions)", "Launch Meta retargeting campaigns (income-filtered)", "Launch Meta All-on-4 prospecting (top 25% HHI)", "Begin measuring lead-to-patient conversion by channel"] },
+                  { phase: "Expand", timeline: "Month 4+", items: ["Scale budget to top-performing channels based on CPA data", "Test additional affluent suburb geos", "Layer in Performance Max with clean conversion data", "Expand YouTube creative library with new patient stories"] },
                 ].map((phase, i) => (
                   <div key={phase.phase} className="relative pl-16 md:pl-20">
                     <div className="absolute left-0 md:left-2 w-12 h-12 rounded-full bg-[#2965FF] text-white flex items-center justify-center font-bold text-sm shadow-lg shadow-[#2965FF]/25">
@@ -459,10 +587,13 @@ export default function OFSChicagoStrategy() {
             <h2 className="text-3xl font-bold mb-6">Summary</h2>
             <div className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100">
               <p className="text-[#6B7280] leading-relaxed mb-4">
-                The road to 120 is a multi-channel plan. Referrals, organic, and GBP carry the majority of volume. Paid ads contribute 15–24 high-value patients per month — specifically the full-arch implant cases that are hardest to generate through referrals alone.
+                The road to 120 is a multi-channel plan. Referrals, organic, and GBP carry the majority of volume. Paid ads contribute 23–37 high-value patients per month — specifically the full-arch implant cases that are hardest to generate through referrals alone.
               </p>
               <p className="text-[#6B7280] leading-relaxed mb-4">
-                At $8,500/month with the right landing pages and lead follow-up in place, $1,000 CPA is realistic. At $30K average procedure value, that&apos;s a 30:1 return on ad spend — and it improves every month as campaigns optimize.
+                At $20,000/month with income-filtered targeting, aggressive negative keywords, and authority-first creative, $1,000 CPA is realistic. At $30K average procedure value, that&apos;s a 30:1 return on ad spend — and it improves every month as campaigns optimize.
+              </p>
+              <p className="text-[#6B7280] leading-relaxed mb-6">
+                Every dollar is filtered for income and intent. No price-shoppers. No financing tire-kickers. Just patients who can afford and are ready to commit to treatment from Chicago&apos;s board-certified oral surgery specialists.
               </p>
               <div className="bg-[#2965FF]/5 rounded-xl p-6 border border-[#2965FF]/10">
                 <p className="text-sm font-medium text-[#2965FF]">
