@@ -160,43 +160,51 @@ export default function OFSChicagoStrategy() {
         {/* Why MEGA */}
         <AnimatedSection className="py-20 px-6">
           <div className="max-w-6xl mx-auto">
-            <h2 className="text-3xl font-bold mb-4">Why MEGA Is Built for This</h2>
+            <h2 className="text-3xl font-bold mb-4">Why This Problem Needs MEGA</h2>
             <p className="text-[#6B7280] max-w-3xl mb-8 leading-relaxed">
-              Traditional agencies review campaigns weekly or monthly. MEGA&apos;s AI agents live inside the ad accounts and optimize continuously — 24/7, in real time. Here&apos;s what that means for OFS.
+              OFS&apos;s core challenge isn&apos;t lead volume — it&apos;s lead quality. When the average case is $30K, every unqualified lead that reaches the front desk wastes staff time, erodes trust in the marketing investment, and costs real money in wasted ad spend. Traditional agencies don&apos;t solve this because they optimize for clicks and form fills, not for patients who can actually afford treatment.
             </p>
 
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100">
-                <div className="w-10 h-10 rounded-full bg-[#2965FF] text-white flex items-center justify-center mb-4 shadow-lg shadow-[#2965FF]/25">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><polyline points="12,6 12,12 16,14"/></svg>
-                </div>
-                <h3 className="font-bold mb-2">Always-On Optimization</h3>
-                <p className="text-sm text-[#6B7280]">AI agents monitor and adjust bids, budgets, and audiences in real time — not in weekly review meetings. Small daily improvements compound into significant monthly gains.</p>
+                <h3 className="font-bold text-lg mb-3">The Problem With How Agencies Run Dental Implant Ads</h3>
+                <ul className="space-y-3">
+                  {[
+                    "They bid on \"dental implants\" broadly and call the leads \"qualified\" because someone filled out a form — even if that person is price-shopping with no ability to pay",
+                    "They review campaign performance weekly or monthly, so a bad keyword can drain thousands before anyone notices",
+                    "They charge $500–$2K per creative asset, so a $20K client gets 5–6 ads that go stale within weeks",
+                    "They report on impressions, clicks, and CPL — but can't tell you which leads actually became patients or what the real CPA was",
+                    "When lead quality drops, the typical response is 'let's adjust next month' — by then you've burned $20K on the wrong audience",
+                  ].map((item, j) => (
+                    <li key={j} className="flex items-start gap-2 text-sm text-[#6B7280]">
+                      <span className="text-red-500 mt-1 font-bold">✕</span>{item}
+                    </li>
+                  ))}
+                </ul>
               </div>
 
               <div className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100">
-                <div className="w-10 h-10 rounded-full bg-[#2965FF] text-white flex items-center justify-center mb-4 shadow-lg shadow-[#2965FF]/25">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
-                </div>
-                <h3 className="font-bold mb-2">AI-Powered Creative</h3>
-                <p className="text-sm text-[#6B7280]">20–30 ad variations generated and tested at zero production cost. Traditional agencies charge $500–$2K per creative — with MEGA, 100% of the budget goes to media spend.</p>
+                <h3 className="font-bold text-lg mb-3">How MEGA Solves Each of These for OFS</h3>
+                <ul className="space-y-3">
+                  {[
+                    "AI agents live inside the ad accounts and filter for income, intent, and geography in real time — price-shoppers are excluded before they ever click, not after they waste your staff's time",
+                    "Optimization happens continuously, not at weekly meetings. A keyword that starts attracting the wrong audience gets paused within hours, not after a $3K lesson",
+                    "AI-generated creative at zero marginal cost means 20–30 ad variations tested simultaneously. 100% of the $20K goes to media — no production fees eating your budget",
+                    "Full-funnel tracking from ad click → form fill → consultation booked → case accepted. You see real CPA per patient, not vanity metrics",
+                    "MEGA AI calls back form leads within 1 minute — not 5, not 30. At $30K per case, the practice that responds first wins. This alone can be the difference between a 20% and a 40% consultation booking rate",
+                  ].map((item, j) => (
+                    <li key={j} className="flex items-start gap-2 text-sm text-[#6B7280]">
+                      <span className="text-[#2965FF] mt-1 font-bold">✓</span>{item}
+                    </li>
+                  ))}
+                </ul>
               </div>
+            </div>
 
-              <div className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100">
-                <div className="w-10 h-10 rounded-full bg-[#2965FF] text-white flex items-center justify-center mb-4 shadow-lg shadow-[#2965FF]/25">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
-                </div>
-                <h3 className="font-bold mb-2">Speed of Iteration</h3>
-                <p className="text-sm text-[#6B7280]">New landing page variants deployed and tested within 48 hours — not the 2–3 week agency cycle. When market conditions shift, campaigns are restructured within hours.</p>
-              </div>
-
-              <div className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100">
-                <div className="w-10 h-10 rounded-full bg-[#2965FF] text-white flex items-center justify-center mb-4 shadow-lg shadow-[#2965FF]/25">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="17,8 12,3 7,8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
-                </div>
-                <h3 className="font-bold mb-2">Data-Driven Decisions</h3>
-                <p className="text-sm text-[#6B7280]">Every budget allocation decision is driven by real-time performance data — not account manager intuition. AI analyzes thousands of data points per day to identify micro-trends invisible to human reviewers.</p>
-              </div>
+            <div className="mt-6 bg-[#2965FF]/5 rounded-xl p-6 border border-[#2965FF]/10">
+              <p className="text-sm font-medium text-[#2965FF]">
+                The bottom line: MEGA doesn&apos;t just run ads — it solves the specific problem OFS is facing. When your services cost $30K and lead quality is the bottleneck, you need a system that filters before the click, optimizes in real time, and follows up faster than any human team can. That&apos;s what MEGA was built to do.
+              </p>
             </div>
           </div>
         </AnimatedSection>
