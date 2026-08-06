@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const socialSecurityDisability: CaseStudyData = {
   slug: "social-security-disability",
   industry: "Social Security Disability Representation",
-  headline: "How a New Mexico Disability Firm Built an AI-Powered Intake Machine That Cut Unqualified Consultations by 58% and Retained 268 Cases in 6 Months",
+  headline: "How a New Mexico Disability Firm Built an AI-Powered Intake Machine That Cut Unqualified Consultations by 58% and Retained 275 Cases in 6 Months",
   subheadline: "MEGA deployed intelligent lead qualification, claim-stage targeting, and always-on AI optimization to transform a disability firm drowning in unqualified inquiries into a precision intake operation — dropping Cost Per Qualified Lead 61% while nearly quadrupling monthly case volume.",
   heroStats: [
-    { value: "1,393", unit: "", label: "Qualified Leads" },
-    { value: "61%", unit: "", label: "CPQL Reduction" },
-    { value: "268", unit: "", label: "Cases Retained" },
+    { value: "1,425", unit: "", label: "Qualified Leads" },
+    { value: "63%", unit: "", label: "CPQL Reduction" },
+    { value: "275", unit: "", label: "Cases Retained" },
   ],
   tags: ["Paid Advertising", "SEO", "Lead Qualification"],
   company: {
@@ -84,7 +84,7 @@ export const socialSecurityDisability: CaseStudyData = {
       { label: "Total Keywords", value: "2,814", growth: "+181%", from: "from 1,002" },
       { label: "Top 10 Rankings", value: "89", growth: "+642%", from: "from 12" },
       { label: "Pages Created", value: "47", growth: "", from: "incl. 11 location pages" },
-      { label: "Organic Traffic", value: "12,340/mo", growth: "+89%", from: "from 6,530" },
+      { label: "Organic Traffic", value: "13,280/mo", growth: "+103%", from: "from 6,530" },
     ],
     monthly: [
       { month: "Sep '25", keywords: 1002, top10: 12, top3: 1, traffic: 6530, pages: 6, avgPos: 42.3, ctr: 1.1 },
@@ -98,9 +98,9 @@ export const socialSecurityDisability: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$707.5K" },
-      { label: "Qualified Leads", value: "1,393" },
-      { label: "Avg Cost Per Qualified Lead", value: "$508", note: "↓61% from $946 (Month 1)" },
-      { label: "Retained Cases", value: "268" },
+      { label: "Qualified Leads", value: "1,425" },
+      { label: "Avg Cost Per Qualified Lead", value: "$496", note: "↓63% from $946 (Month 1)" },
+      { label: "Retained Cases", value: "275" },
     ],
     columnLabels: {
       leads: "Total Inquiries",
@@ -111,12 +111,12 @@ export const socialSecurityDisability: CaseStudyData = {
       costPerDeal: "Cost/Case",
     },
     monthly: [
-      { month: "Sep '25", spend: 98420, leads: 612, cpl: 161, qualified: 104, cpql: 946, deals: 17, revenue: 92140, roas: 0.94 },
-      { month: "Oct '25", spend: 107350, leads: 718, cpl: 150, qualified: 151, cpql: 711, deals: 26, revenue: 147680, roas: 1.38 },
-      { month: "Nov '25", spend: 118760, leads: 842, cpl: 141, qualified: 202, cpql: 588, deals: 36, revenue: 213840, roas: 1.80 },
-      { month: "Dec '25", spend: 112480, leads: 916, cpl: 123, qualified: 247, cpql: 455, deals: 47, revenue: 290460, roas: 2.58 },
-      { month: "Jan '26", spend: 131920, leads: 1098, cpl: 120, qualified: 323, cpql: 408, deals: 65, revenue: 414700, roas: 3.14 },
-      { month: "Feb '26", spend: 138540, leads: 1243, cpl: 111, qualified: 398, cpql: 348, deals: 84, revenue: 557760, roas: 4.03 },
+      { month: "Sep '25", spend: 98420, leads: 612, cpl: 161, qualified: 104, cpql: 946, deals: 17 },
+      { month: "Oct '25", spend: 107350, leads: 718, cpl: 150, qualified: 151, cpql: 711, deals: 26 },
+      { month: "Nov '25", spend: 118760, leads: 842, cpl: 141, qualified: 202, cpql: 588, deals: 36 },
+      { month: "Dec '25", spend: 112480, leads: 916, cpl: 123, qualified: 247, cpql: 455, deals: 47 },
+      { month: "Jan '26", spend: 131920, leads: 1098, cpl: 120, qualified: 323, cpql: 408, deals: 65 },
+      { month: "Feb '26", spend: 138540, leads: 1243, cpl: 111, qualified: 398, cpql: 348, deals: 84 },
     ],
   },
   organicConversions: {
@@ -147,9 +147,9 @@ export const socialSecurityDisability: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Qualified Leads Generated", value: "1,393", growth: "qualification rate 17% → 33%" },
-    { label: "CPQL Reduction", value: "61%", growth: "$946 → $369" },
-    { label: "Cases Retained", value: "268", growth: "19.3% avg close rate" },
-    { label: "Avg Case Fee", value: "$6,234", growth: "hearing-level mix increased to 62%" },
+    { label: "Qualified Leads Generated", value: "1,425", growth: "qualification rate 17% → 32%" },
+    { label: "CPQL Reduction", value: "63%", growth: "$946 → $348" },
+    { label: "Cases Retained", value: "275", growth: "19.3% avg close rate" },
+    { label: "Avg Case Fee", value: "$6,242", growth: "hearing-level mix increased to 62%" },
   ],
 };
