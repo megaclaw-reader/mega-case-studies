@@ -1,4 +1,5 @@
 import { CaseStudyData } from "./types";
+import { familyMedicineNy } from "./family-medicine-ny";
 import { b2bSaasNational } from "./b2b-saas-national";
 import { automotiveDealershipVacaville } from "./automotive-dealership-vacaville";
 import { aestheticMedicineClinicFlorida } from "./aesthetic-medicine-clinic-florida";
@@ -740,6 +741,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "aesthetic-medicine-clinic-florida": aestheticMedicineClinicFlorida,
   "mens-health-clinic-nm": mensHealthClinicNm,
   "hospitality-lodging-joshua-tree": hospitalityLodgingJoshuaTree,
+  "family-medicine-ny": familyMedicineNy,
 };
 
 export type { CaseStudyData };
