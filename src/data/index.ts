@@ -370,6 +370,7 @@ import { homeDecor } from "./home-decor";
 import { wellnessClassesSeoArizona } from "./wellness-classes-seo-arizona";
 import { renewableEnergySaasNational } from "./renewable-energy-saas-national";
 import { healthRetreat } from "./health-retreat";
+import { hairBeautyWellnessNational } from "./hair-beauty-wellness-national";
 
 export const caseStudies: Record<string, CaseStudyData> = {
   "specialty-medical-houston": specialtyMedicalHouston,
@@ -742,6 +743,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "mens-health-clinic-nm": mensHealthClinicNm,
   "hospitality-lodging-joshua-tree": hospitalityLodgingJoshuaTree,
   "family-medicine-ny": familyMedicineNy,
+  "hair-beauty-wellness-national": hairBeautyWellnessNational,
 };
 
 export type { CaseStudyData };

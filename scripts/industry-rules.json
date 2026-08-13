@@ -562,6 +562,10 @@
         "fragrance": [
           65,
           115
+        ],
+        "hair_beauty_wellness": [
+          45,
+          80
         ]
       }
     },
@@ -881,7 +885,8 @@
     "Financial Advisory": "wealth_management",
     "Fragrance Brand": "ecommerce",
     "Hospitality Lodging": "lead_gen_services",
-    "Family Medicine": "lead_gen_services"
+    "Family Medicine": "lead_gen_services",
+    "Hair, Beauty & Wellness": "ecommerce"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",
