@@ -66,28 +66,28 @@ export const franchiseMedSpa: CaseStudyData = {
         "Activated all 47 locations with fully optimized campaign infrastructure — each location running AI-managed campaigns tailored to its specific market, competition, and patient demographics",
         "Scaled creative testing to 100+ active variations across the franchise, with AI generating location-specific iterations and automatically retiring underperformers — eliminating creative fatigue across all markets simultaneously",
         "AI-powered seasonal and trend optimization detected shifting demand patterns (e.g., New Year resolution bookings, summer body prep) and automatically adjusted campaigns across all 47 locations within hours",
-        "Achieved local search dominance with 8,700+ ranking keywords across the franchise — covering every major treatment, geographic modifier, and 'near me' variation for all 47 markets",
+        "Achieved local search dominance with 14,000+ ranking keywords across the franchise — covering every major treatment, geographic modifier, and 'near me' variation for all 47 markets",
         "Established scalable framework that enables new franchise locations to launch with pre-optimized campaigns within 48 hours of opening, using cross-market intelligence from existing locations"
       ]
     }
   ],
   seo: {
     summary: [
-      { label: "Total Keywords", value: "14,280", growth: "+2,000%", from: "from 680" },
-      { label: "Top 10 Rankings", value: "824", growth: "+1,862%", from: "from 42" },
+      { label: "Total Keywords", value: "14,280", growth: "+495%", from: "from 2,400" },
+      { label: "Top 10 Rankings", value: "824", growth: "+480%", from: "from 142" },
       { label: "Pages Created", value: "274", growth: "", from: "across 47 locations" },
-      { label: "Organic Traffic", value: "34.8K/mo", growth: "+988%", from: "from 3,200" }
+      { label: "Organic Traffic", value: "34.8K/mo", growth: "+412%", from: "from 6,800" }
     ],
     monthly: [
-      { month: "Jun '25", keywords: 680, top10: 42, top3: 6, traffic: 3200, pages: 47, avgPos: 46.2, ctr: 0.7 },
-      { month: "Jul '25", keywords: 940, top10: 61, top3: 9, traffic: 4300, pages: 68, avgPos: 42.4, ctr: 0.8 },
-      { month: "Aug '25", keywords: 1420, top10: 94, top3: 15, traffic: 5900, pages: 89, avgPos: 37.8, ctr: 0.9 },
-      { month: "Sep '25", keywords: 2380, top10: 156, top3: 26, traffic: 8600, pages: 112, avgPos: 33.4, ctr: 1.0 },
-      { month: "Oct '25", keywords: 3840, top10: 248, top3: 42, traffic: 12400, pages: 138, avgPos: 29.6, ctr: 1.1 },
-      { month: "Nov '25", keywords: 5720, top10: 378, top3: 58, traffic: 17200, pages: 164, avgPos: 25.8, ctr: 1.2 },
-      { month: "Dec '25", keywords: 8260, top10: 512, top3: 76, traffic: 22800, pages: 198, avgPos: 22.4, ctr: 1.3 },
-      { month: "Jan '26", keywords: 11340, top10: 672, top3: 94, traffic: 28600, pages: 238, avgPos: 19.8, ctr: 1.4 },
-      { month: "Feb '26", keywords: 14280, top10: 824, top3: 112, traffic: 34800, pages: 274, avgPos: 17.6, ctr: 1.5 }
+      { month: "Jun '25", keywords: 2400, top10: 142, top3: 18, traffic: 6800, pages: 47, avgPos: 34.6, ctr: 1.2 },
+      { month: "Jul '25", keywords: 3100, top10: 194, top3: 26, traffic: 8400, pages: 68, avgPos: 32.1, ctr: 1.4 },
+      { month: "Aug '25", keywords: 4200, top10: 264, top3: 38, traffic: 10600, pages: 89, avgPos: 29.8, ctr: 1.6 },
+      { month: "Sep '25", keywords: 5680, top10: 348, top3: 52, traffic: 13400, pages: 112, avgPos: 27.4, ctr: 1.8 },
+      { month: "Oct '25", keywords: 7240, top10: 438, top3: 66, traffic: 17200, pages: 138, avgPos: 25.1, ctr: 2.0 },
+      { month: "Nov '25", keywords: 9100, top10: 538, top3: 78, traffic: 21400, pages: 164, avgPos: 23.2, ctr: 2.2 },
+      { month: "Dec '25", keywords: 10840, top10: 638, top3: 88, traffic: 25600, pages: 198, avgPos: 21.4, ctr: 2.4 },
+      { month: "Jan '26", keywords: 12560, top10: 734, top3: 102, traffic: 30200, pages: 238, avgPos: 19.8, ctr: 2.6 },
+      { month: "Feb '26", keywords: 14280, top10: 824, top3: 118, traffic: 34800, pages: 274, avgPos: 17.6, ctr: 2.8 }
     ]
   },
   paidAds: {
@@ -122,7 +122,7 @@ export const franchiseMedSpa: CaseStudyData = {
     { label: "Qualified Leads", value: "4,472", growth: "+415% from month 1" },
     { label: "Avg Cost Per Qualified Lead", value: "$166", growth: "↓43% from $237" },
     { label: "Total Ad Spend", value: "$744.2K", growth: "scaled 10→47 locations" },
-    { label: "Organic Keywords", value: "14,280", growth: "+2,000%" },
-    { label: "Organic Traffic", value: "34.8K/mo", growth: "+988%" }
+    { label: "Organic Keywords", value: "14,280", growth: "+495%" },
+    { label: "Organic Traffic", value: "34.8K/mo", growth: "+412%" }
   ]
 };
