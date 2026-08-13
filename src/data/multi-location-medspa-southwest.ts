@@ -3,13 +3,13 @@ import { CaseStudyData } from "./types";
 export const multiLocationMedspaSouthwest: CaseStudyData = {
   slug: "multi-location-medspa-southwest",
   industry: "MedSpa",
-  headline: "Three-Location MedSpa Chain Drives $895.3K in Revenue and 1,653 New Patients Across Phoenix, Scottsdale, and Tucson",
+  headline: "Three-Location MedSpa Chain Acquires 1,653 New Patients and Cuts Cost Per Qualified Lead by 50% Across Phoenix, Scottsdale, and Tucson",
   subheadline: "Systematic approach to location-specific campaigns and local SEO drove 147% increase in monthly leads and 50% reduction in cost per qualified lead across three Southwest Arizona markets",
   heroStats: [
-    { value: "$895.3K", unit: "M", label: "Total Revenue" },
     { value: "1,653", unit: "", label: "New Patients" },
     { value: "2,674", unit: "", label: "Qualified Leads" },
-    { value: "2.78", unit: "x", label: "Blended ROAS" }
+    { value: "50", unit: "%", label: "CPQL Reduction" },
+    { value: "8,234", unit: "", label: "Organic Keywords" }
   ],
   tags: ["Multi-Location", "Paid Advertising", "SEO Strategy", "Local Marketing"],
   company: {
@@ -21,16 +21,16 @@ export const multiLocationMedspaSouthwest: CaseStudyData = {
   },
   challenges: [
     {
-      title: "Inconsistent Performance Across Multiple Southwest Arizona Markets",
-      description: "The multi-location med spa chain was struggling with inconsistent performance across their three Southwest Arizona markets, with each location operating essentially as independent entities without centralized strategy or cross-location optimization. Each location was running separate ad campaigns with inconsistent messaging and targeting, creating internal competition and inefficient budget allocation."
+      title: "Nearby Locations Cannibalizing Each Other's Ad Spend",
+      description: "With only 45 miles separating Phoenix and Scottsdale — and overlapping service areas — the three locations were bidding against each other on the same keywords. Internal auction competition was inflating costs by an estimated 30-40%, and patients searching from overlapping zip codes were being served ads for the wrong location, leading to wasted clicks and confused booking experiences."
     },
     {
-      title: "Fragmented Local SEO and No Unified Digital Strategy",
-      description: "Local SEO was fragmented with no unified approach to dominating 'med spa near me' searches across Phoenix, Scottsdale, and Tucson markets. Location-specific landing pages were outdated and didn't reflect the unique demographics and service preferences of each market, resulting in poor conversion rates and missed opportunities."
+      title: "Premium vs. Value Positioning Across Distinct Demographics",
+      description: "Scottsdale's affluent clientele expected a luxury experience and responded to anti-aging and wellness messaging, while Tucson's market was more price-conscious and driven by promotional offers. A one-size-fits-all campaign strategy was underperforming in both markets — too generic for Scottsdale's premium buyers, too expensive-looking for Tucson's deal-seekers. The brand needed location-specific positioning without fragmenting the overall brand identity."
     },
     {
-      title: "Rising Costs and Manual Campaign Management Complexity",
-      description: "Rising lead costs and declining booking rates due to increased competition from new med spa openings throughout the Southwest. Manual campaign management couldn't keep pace with the complexity of optimizing across multiple locations, demographics, and seasonal patterns, leading to inefficient budget allocation and missed growth opportunities."
+      title: "Arizona's Extreme Seasonality Crushing Summer Lead Flow",
+      description: "Summer temperatures exceeding 110°F in Phoenix caused foot traffic and appointment bookings to crater from June through August — the exact opposite of what most med spas experience nationally. The previous agency ran the same campaigns year-round, wasting budget during dead months and failing to capitalize on the October-through-April peak season when snowbirds doubled the population."
     }
   ],
   strategy: [
@@ -107,9 +107,7 @@ export const multiLocationMedspaSouthwest: CaseStudyData = {
       { label: "Total Ad Spend", value: "$321.6K" },
       { label: "Qualified Leads", value: "2,674" },
       { label: "Avg Cost Per Qualified Lead", value: "$120", note: "↓50% from $185" },
-      { label: "New Patients", value: "1,653", note: "avg treatment value $542" },
-      { label: "Total Revenue", value: "$895.3K" },
-      { label: "Blended ROAS", value: "2.78x" }
+      { label: "New Patients", value: "1,653" }
     ],
     columnLabels: {
       leads: "Leads",
@@ -120,22 +118,22 @@ export const multiLocationMedspaSouthwest: CaseStudyData = {
       costPerDeal: "Cost/Patient"
     },
     monthly: [
-      { month: "Apr '25", spend: 27800, leads: 336, cpl: 82.7, qualified: 150, cpql: 185.3, deals: 116, revenue: 62894, roas: 2.26 },
-      { month: "May '25", spend: 31200, leads: 425, cpl: 73.4, qualified: 189, cpql: 165.1, deals: 151, revenue: 81026, roas: 2.6 },
-      { month: "Jun '25", spend: 33500, leads: 514, cpl: 65.2, qualified: 226, cpql: 148.2, deals: 163, revenue: 89255, roas: 2.66 },
-      { month: "Jul '25", spend: 35600, leads: 590, cpl: 60.3, qualified: 302, cpql: 117.9, deals: 219, revenue: 117086, roas: 3.29 },
-      { month: "Aug '25", spend: 29400, leads: 507, cpl: 58.0, qualified: 213, cpql: 138.0, deals: 135, revenue: 71136, roas: 2.42 },
-      { month: "Sep '25", spend: 38200, leads: 726, cpl: 52.6, qualified: 341, cpql: 112.0, deals: 203, revenue: 110768, roas: 2.9 },
-      { month: "Oct '25", spend: 41800, leads: 806, cpl: 51.9, qualified: 387, cpql: 108.0, deals: 194, revenue: 105000, roas: 2.51 },
-      { month: "Nov '25", spend: 45200, leads: 904, cpl: 50.0, qualified: 443, cpql: 102.0, deals: 217, revenue: 117272, roas: 2.59 },
-      { month: "Dec '25", spend: 38900, leads: 846, cpl: 46.0, qualified: 423, cpql: 92.0, deals: 255, revenue: 140846, roas: 3.62 }
+      { month: "Apr '25", spend: 27800, leads: 336, cpl: 82.7, qualified: 150, cpql: 185.3, deals: 116 },
+      { month: "May '25", spend: 31200, leads: 425, cpl: 73.4, qualified: 189, cpql: 165.1, deals: 151 },
+      { month: "Jun '25", spend: 33500, leads: 514, cpl: 65.2, qualified: 226, cpql: 148.2, deals: 163 },
+      { month: "Jul '25", spend: 35600, leads: 590, cpl: 60.3, qualified: 302, cpql: 117.9, deals: 219 },
+      { month: "Aug '25", spend: 29400, leads: 507, cpl: 58.0, qualified: 213, cpql: 138.0, deals: 135 },
+      { month: "Sep '25", spend: 38200, leads: 726, cpl: 52.6, qualified: 341, cpql: 112.0, deals: 203 },
+      { month: "Oct '25", spend: 41800, leads: 806, cpl: 51.9, qualified: 387, cpql: 108.0, deals: 194 },
+      { month: "Nov '25", spend: 45200, leads: 904, cpl: 50.0, qualified: 443, cpql: 102.0, deals: 217 },
+      { month: "Dec '25", spend: 38900, leads: 846, cpl: 46.0, qualified: 423, cpql: 92.0, deals: 255 }
     ]
   },
   impact: [
-    { label: "Total Revenue", value: "$895.3K", growth: "+124%" },
     { label: "New Patients", value: "1,653", growth: "+120%" },
+    { label: "Qualified Leads", value: "2,674", growth: "+147%" },
+    { label: "Avg Cost Per Qualified Lead", value: "$120", growth: "↓50% from $185" },
     { label: "Total Ad Spend", value: "$321.6K", growth: "+40% monthly scaling" },
-    { label: "Blended ROAS", value: "2.78x", growth: "+31%" },
     { label: "Organic Keywords", value: "8,234", growth: "+2,252%" },
     { label: "Organic Traffic", value: "14.8K/mo", growth: "+341%" }
   ]

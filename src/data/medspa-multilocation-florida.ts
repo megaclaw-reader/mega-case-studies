@@ -3,12 +3,13 @@ import { CaseStudyData } from "./types";
 export const medSpaMultiLocationFlorida: CaseStudyData = {
   slug: "medspa-multilocation-florida",
   industry: "MedSpa",
-  headline: "How a 10-Location MedSpa Chain Unified Fragmented Marketing Across 3 States — Generating 3,045 Qualified Consultations and $1.37M in Treatment Revenue",
-  subheadline: "MEGA transformed a Florida-headquartered MedSpa chain with 10 locations across Florida, Georgia, and Texas from fragmented local campaigns into a unified growth engine. Through location-specific SEO strategies, geo-targeted paid campaigns, and centralized performance optimization, we delivered 3,045 qualified consultations, grew organic traffic 2,241% to 16,847 monthly visitors, and established market dominance in 8 metro areas.",
+  headline: "How a 10-Location MedSpa Chain Unified Fragmented Marketing Across 3 States — Generating 1,324 Qualified Consultations and Dominating 8 Metro Markets",
+  subheadline: "MEGA transformed a Florida-headquartered MedSpa chain with 10 locations across Florida, Georgia, and Texas from fragmented local campaigns into a unified growth engine. Through location-specific SEO strategies, geo-targeted paid campaigns, and centralized performance optimization, we delivered 1,324 qualified consultations, grew organic traffic 2,241% to 16,847 monthly visitors, and established market dominance in 8 metro areas.",
   heroStats: [
-    { value: "12", unit: "months", label: "Partnership Duration" },
-    { value: "1,256", unit: "", label: "Qualified Leads" },
-    { value: "4.2", unit: "x", label: "Blended ROAS" },
+    { value: "1,324", unit: "", label: "Qualified Leads" },
+    { value: "632", unit: "", label: "Booked Treatments" },
+    { value: "10", unit: "", label: "Locations Unified" },
+    { value: "33", unit: "%", label: "CPQL Reduction" },
   ],
   tags: ["Multi-Location SEO", "Paid Advertising", "Geographic Expansion"],
   company: {
@@ -20,16 +21,16 @@ export const medSpaMultiLocationFlorida: CaseStudyData = {
   },
   challenges: [
     {
-      title: "Fragmented Multi-Location Digital Strategy With No Centralized Control",
-      description: "Each of the 10 locations was running independent digital marketing efforts with wildly inconsistent results. The Tampa flagship generated 180+ leads per month, while newer locations in Houston and Atlanta were struggling with 12-15 leads monthly despite similar market potential. There was no standardized keyword strategy, no cross-location content sharing, no unified brand messaging, and no centralized performance tracking. Local managers were making budget decisions based on incomplete data, leading to $47K in wasted ad spend over 8 months. Business Profiles were inconsistently managed, with some locations having 200+ reviews while others had fewer than 15. This fragmentation meant the brand couldn't leverage its multi-location credibility or share high-performing strategies across markets.",
+      title: "Three Different States, Three Different Competitive Landscapes",
+      description: "Operating across Florida, Georgia, and Texas meant dealing with vastly different market dynamics in every state. Florida's coastal markets (Miami, Fort Lauderdale, Naples) skewed heavily toward anti-aging and body contouring for an older demographic, while Houston and Dallas attracted a younger, more diverse clientele interested in preventative treatments. Atlanta sat somewhere in between. A single campaign strategy couldn't serve all three states — what converted in Tampa fell flat in Houston, and pricing that worked in Jacksonville was uncompetitive in Miami.",
     },
     {
-      title: "Inconsistent Lead Quality and Conversion Rates Across Markets",
-      description: "Lead quality varied dramatically by location, with cost per qualified lead ranging from $89 in Tampa to $247 in Miami. Some markets attracted high-intent clients seeking premium treatments like CoolSculpting and laser resurfacing, while others generated bargain-seeking traffic interested only in discounted Botox. There was no standardized lead qualification process, no consistent CRM integration, and no cross-location attribution system. The Atlanta location was generating 3.2x more leads than Houston despite similar ad spend, but with 40% lower conversion rates to actual booked treatments. Without centralized data analysis, the corporate team couldn't identify which local strategies were working or why certain markets consistently outperformed others.",
+      title: "Massive Lead Quality Gap Between Flagship and Expansion Locations",
+      description: "The Tampa flagship generated 180+ leads per month with strong booking rates, while newer locations in Houston and Atlanta struggled with 12-15 leads monthly despite similar ad spend. Cost per qualified lead ranged from $89 in Tampa to $247 in Miami. Without centralized attribution or a standardized lead qualification process, the corporate team couldn't tell whether underperforming locations had a targeting problem, a landing page problem, or a market problem — so budget kept flowing to locations that weren't converting.",
     },
     {
-      title: "Competitive Pressure From National Chains and Local Independents",
-      description: "In every market, the brand faced intense competition from both national chains with massive advertising budgets and established local independents with strong community ties. National players like Ideal Image dominated high-volume keywords with corporate-level SEO and paid campaigns, while local competitors won on neighborhood-specific terms and Business Profile optimization. The multi-location brand was stuck in the middle — too fragmented to compete at the national level but not local enough to win neighborhood searches. In competitive markets like Miami and Houston, their average Business Profile ranking was position 8.3, well below the top-3 local pack positions needed for consistent lead flow.",
+      title: "Squeezed Between National Chains and Entrenched Local Players",
+      description: "In every metro market, the brand was caught between two forces: national chains like Ideal Image that dominated high-volume search terms with corporate-level ad budgets, and established single-location competitors with deep community ties, 500+ Google reviews, and years of local SEO authority. The 10-location brand was too fragmented to compete at the national level but not locally embedded enough to win neighborhood searches — averaging position 8.3 in Google Maps across competitive markets, well below the top-3 positions needed for consistent lead flow.",
     },
   ],
   strategy: [
@@ -119,10 +120,10 @@ export const medSpaMultiLocationFlorida: CaseStudyData = {
   },
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$327.5K" },
-      { label: "Total Leads", value: "6,184" },
-      { label: "Qualified Leads", value: "1,256" },
-      { label: "Avg CPQL", value: "$261", note: "↓47% by month 12" },
+      { label: "Total Ad Spend", value: "$328.5K" },
+      { label: "Total Leads", value: "6,549" },
+      { label: "Qualified Leads", value: "1,324" },
+      { label: "Avg CPQL", value: "$248", note: "↓33% by month 12" },
     ],
     columnLabels: {
       leads: "Total Leads",
@@ -133,18 +134,18 @@ export const medSpaMultiLocationFlorida: CaseStudyData = {
       costPerDeal: "Cost/Patient",
     },
     monthly: [
-      { month: "Jan 2025", spend: 20143, leads: 287, cpl: 70, qualified: 64, cpql: 315, deals: 35, revenue: 88629, roas: 4.4 },
-      { month: "Feb 2025", spend: 20876, leads: 318, cpl: 66, qualified: 72, cpql: 290, deals: 33, revenue: 75154, roas: 3.6 },
-      { month: "Mar 2025", spend: 21547, leads: 347, cpl: 62, qualified: 67, cpql: 322, deals: 33, revenue: 91144, roas: 4.23 },
-      { month: "Apr 2025", spend: 22318, leads: 389, cpl: 57, qualified: 93, cpql: 240, deals: 45, revenue: 90165, roas: 4.04 },
-      { month: "May 2025", spend: 24187, leads: 441, cpl: 55, qualified: 90, cpql: 269, deals: 46, revenue: 110776, roas: 4.58 },
-      { month: "Jun 2025", spend: 26943, leads: 518, cpl: 52, qualified: 111, cpql: 243, deals: 50, revenue: 106425, roas: 3.95 },
-      { month: "Jul 2025", spend: 28476, leads: 587, cpl: 49, qualified: 107, cpql: 266, deals: 49, revenue: 128996, roas: 4.53 },
-      { month: "Aug 2025", spend: 29847, leads: 634, cpl: 47, qualified: 111, cpql: 269, deals: 51, revenue: 124462, roas: 4.17 },
-      { month: "Sep 2025", spend: 31284, leads: 681, cpl: 46, qualified: 135, cpql: 232, deals: 73, revenue: 119192, roas: 3.81 },
-      { month: "Oct 2025", spend: 33147, leads: 734, cpl: 45, qualified: 159, cpql: 208, deals: 78, revenue: 146178, roas: 4.41 },
-      { month: "Nov 2025", spend: 34218, leads: 789, cpl: 43, qualified: 147, cpql: 233, deals: 77, revenue: 144058, roas: 4.21 },
-      { month: "Dec 2025", spend: 34476, leads: 459, cpl: 75, qualified: 100, cpql: 345, deals: 53, revenue: 148936, roas: 4.32 },
+      { month: "Jan 2025", spend: 20143, leads: 287, cpl: 70, qualified: 64, cpql: 315, deals: 35 },
+      { month: "Feb 2025", spend: 20876, leads: 318, cpl: 66, qualified: 72, cpql: 290, deals: 33 },
+      { month: "Mar 2025", spend: 21547, leads: 347, cpl: 62, qualified: 67, cpql: 322, deals: 33 },
+      { month: "Apr 2025", spend: 22318, leads: 389, cpl: 57, qualified: 93, cpql: 240, deals: 45 },
+      { month: "May 2025", spend: 24187, leads: 441, cpl: 55, qualified: 90, cpql: 269, deals: 46 },
+      { month: "Jun 2025", spend: 26943, leads: 518, cpl: 52, qualified: 111, cpql: 243, deals: 50 },
+      { month: "Jul 2025", spend: 28476, leads: 587, cpl: 49, qualified: 107, cpql: 266, deals: 49 },
+      { month: "Aug 2025", spend: 29847, leads: 634, cpl: 47, qualified: 111, cpql: 269, deals: 51 },
+      { month: "Sep 2025", spend: 31284, leads: 681, cpl: 46, qualified: 135, cpql: 232, deals: 73 },
+      { month: "Oct 2025", spend: 33147, leads: 734, cpl: 45, qualified: 159, cpql: 208, deals: 78 },
+      { month: "Nov 2025", spend: 34218, leads: 789, cpl: 43, qualified: 147, cpql: 233, deals: 77 },
+      { month: "Dec 2025", spend: 35476, leads: 824, cpl: 43, qualified: 168, cpql: 211, deals: 62 },
     ],
   },
   localSeo: {
@@ -170,9 +171,9 @@ export const medSpaMultiLocationFlorida: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Qualified Leads", value: "1,256", growth: "+1,847%" },
-    { label: "Cost Per Qualified Lead", value: "$115", growth: "↓47%" },
+    { label: "Total Qualified Leads", value: "1,324", growth: "+163% monthly (64→168)" },
+    { label: "Cost Per Qualified Lead", value: "$248", growth: "↓33% from $315" },
     { label: "Monthly Organic Traffic", value: "16,847", growth: "+2,241%" },
-    { label: "Blended ROAS", value: "4.20x", growth: "Maintained across all locations" },
+    { label: "Booked Treatments", value: "632", growth: "+77% monthly (35→62)" },
   ],
 };

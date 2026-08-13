@@ -186,6 +186,7 @@ import { itServicesNy } from "./it-services-ny";
 import { realEstateNewsletter } from "./real-estate-newsletter";
 import { carPartsNj } from "./car-parts-nj";
 import { healthWellness } from "./health-wellness";
+import { healthWellnessNational } from "./health-wellness-national";
 import { mortgageRealEstateColumbus } from "./mortgage-real-estate-columbus";
 import { educationChicago } from "./education-chicago";
 import { vrEntertainmentTechnology } from "./vr-entertainment-technology";
@@ -432,6 +433,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "real-estate-newsletter": realEstateNewsletter,
   "car-parts-nj": carPartsNj,
   "health-wellness": healthWellness,
+  "health-wellness-national": healthWellnessNational,
   "health-insurance-vermont": healthInsuranceVermontData,
   "health-wellness-app": healthWellnessApp,
   "mortgage-real-estate-columbus": mortgageRealEstateColumbus,
