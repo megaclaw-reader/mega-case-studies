@@ -4,7 +4,7 @@ export const medSpaMultiLocationFlorida: CaseStudyData = {
   slug: "medspa-multilocation-florida",
   industry: "MedSpa",
   headline: "How a 10-Location MedSpa Chain Unified Fragmented Marketing Across 3 States — Generating 1,324 Qualified Consultations and Dominating 8 Metro Markets",
-  subheadline: "MEGA transformed a Florida-headquartered MedSpa chain with 10 locations across Florida, Georgia, and Texas from fragmented local campaigns into a unified growth engine. Through location-specific SEO strategies, geo-targeted paid campaigns, and centralized performance optimization, we delivered 1,324 qualified consultations, grew organic traffic 2,241% to 16,847 monthly visitors, and established market dominance in 8 metro areas.",
+  subheadline: "Centralized strategy across Florida, Georgia, and Texas replaced fragmented local campaigns — delivering 1,324 qualified consultations, 33% lower lead costs, and 2,241% organic traffic growth across 8 metro markets",
   heroStats: [
     { value: "1,324", unit: "", label: "Qualified Leads" },
     { value: "632", unit: "", label: "Booked Treatments" },
