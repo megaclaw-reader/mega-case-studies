@@ -1,0 +1,158 @@
+import { CaseStudyData } from "./types";
+
+export const piLawFirmPhoenix: CaseStudyData = {
+  slug: "pi-law-firm-phoenix",
+  industry: "Personal Injury Law Firm",
+  headline: "How a Phoenix PI Firm Turned $552K in Ad Spend Into $2.1M in Case Revenue With Bilingual Campaigns and AI-Driven Lead Qualification",
+  subheadline: "MEGA deployed always-on AI optimization and bilingual advertising campaigns in English and Spanish to help a Phoenix personal injury firm reach the Valley's diverse population — improving qualified lead rates from 16% to 19.5%, cutting cost per qualified lead by 61%, and signing 43 cases in 8 months with a blended 3.82x ROAS.",
+  heroStats: [
+    { value: "8", unit: "months", label: "Partnership Duration" },
+    { value: "61", unit: "%", label: "CPQL Reduction" },
+    { value: "2.11", unit: "M", label: "Case Revenue Generated" },
+  ],
+  tags: ["Paid Advertising", "SEO", "Lead Generation"],
+  company: {
+    industry: "Personal Injury Law Firm",
+    employees: "28",
+    revenue: "$4.8M",
+    location: "Phoenix, AZ",
+    description: "A well-established personal injury law firm serving the greater Phoenix metropolitan area, including Scottsdale, Tempe, Mesa, Chandler, Glendale, and Peoria. The practice handles motor vehicle accidents, trucking collisions, motorcycle crashes, pedestrian injuries, premises liability, and wrongful death claims across Maricopa County. Operating on a standard 33.3% contingency fee model with average case settlements ranging from $85K to $400K, the firm had built its reputation through referrals and traditional advertising over 14 years. With Phoenix's large bilingual and Hispanic population — over 40% of Maricopa County — the firm recognized an underserved market but lacked the creative infrastructure to run advertising campaigns in both English and Spanish. Their previous agency managed a sizable paid budget but delivered generic campaigns with no language targeting, no lead quality tracking, and no differentiation between a high-value trucking case inquiry and a low-value fender-bender call. Cost per qualified lead sat at an estimated $1,150, and the firm had no visibility into which campaigns were generating cases worth pursuing versus cases that consumed attorney time but never settled.",
+  },
+  challenges: [
+    {
+      title: "High Budget, Low Accountability: $60K+/Month With No Lead Quality Tracking",
+      description: "The firm was investing over $60,000 per month in paid advertising through a traditional agency that reported vanity metrics — impressions, clicks, and total call volume — but never distinguished between a qualified personal injury lead and someone asking about a parking ticket. Over 60% of inbound inquiries were unqualified: workers' compensation questions (a separate practice area the firm doesn't handle), minor property damage claims with no injury, and people seeking free legal advice with no viable case. The intake team was overwhelmed with volume but starved for quality. Attorneys were spending hours on consultations that never converted to signed retainers, and the true cost of acquiring a case worth pursuing was invisible. The previous agency's reporting showed a $210 'cost per lead' that looked reasonable on paper, but when the firm manually tracked outcomes, fewer than 40% of those leads were genuinely qualified PI cases — meaning the real cost per qualified lead was closer to $1,150.",
+    },
+    {
+      title: "Missing Phoenix's Bilingual Market Entirely",
+      description: "Phoenix sits at the heart of one of America's largest bilingual metropolitan areas, with over 40% of Maricopa County residents identifying as Hispanic or Latino and a significant portion preferring to communicate in Spanish. Personal injury cases in this community — construction site accidents, commercial vehicle collisions, pedestrian injuries in high-traffic corridors — represent a substantial and underserved segment. The firm's previous advertising ran exclusively in English, with English-only landing pages, intake forms, and call scripts. Spanish-speaking accident victims searching for legal representation were finding competitors with bilingual outreach or, more often, going unrepresented entirely. The firm had bilingual attorneys and paralegals on staff but had never leveraged that capability in their marketing. This was a massive competitive blind spot in a market where cultural trust and language accessibility directly influence which firm a potential client calls.",
+    },
+    {
+      title: "No Differentiation Between Case Values in Campaign Strategy",
+      description: "Not all personal injury cases are equal. A multi-vehicle trucking collision on I-10 with catastrophic injuries can settle for $300K-$500K+, while a minor rear-end collision with soft tissue injuries might settle for $8K-$15K. The firm's previous campaigns treated every lead identically — the same budget, the same landing pages, the same follow-up process regardless of case type or potential value. High-value case types like trucking accidents, motorcycle crashes, and wrongful death claims require targeted keyword strategies, specialized landing pages, and dedicated ad creative that speaks to the severity and urgency of those situations. The firm was spending the same per click to attract a $10K fender-bender case as a $400K trucking collision case, with no strategic allocation toward higher-value case types that would dramatically improve return on ad spend.",
+    },
+  ],
+  strategy: [
+    {
+      phase: 1,
+      months: "0–30 days",
+      title: "Foundation: Attribution, Bilingual Infrastructure, and AI Deployment",
+      items: [
+        "Implemented comprehensive call tracking and lead scoring across all campaigns — every inbound call tagged by source, keyword, language, duration, and intake outcome, replacing the previous agency's click-count reporting with true cost-per-qualified-lead and cost-per-signed-case measurement",
+        "Deployed always-on AI optimization agents directly within ad accounts — continuously monitoring bids, reallocating budget across campaigns, and refining audience targeting in real time rather than waiting for the previous agency's biweekly review cycle",
+        "Launched bilingual advertising campaigns in both English and Spanish with dedicated Spanish-language landing pages, ad creative, and call routing to the firm's bilingual intake team — opening an entirely new acquisition channel for Phoenix's large Hispanic and bilingual population",
+        "Restructured all paid campaigns by case value tier: dedicated high-budget campaigns for trucking accidents, motorcycle crashes, and wrongful death (settlement range $150K-$500K+), separate campaigns for standard motor vehicle accidents ($50K-$150K), and lower-priority campaigns for minor injury cases — ensuring ad spend was weighted toward the highest-value case types",
+        "Full technical SEO audit revealing 51 issues: 4.9-second mobile load times, missing structured data across all practice area pages, no Spanish-language content, zero location-specific pages for Phoenix suburbs, and thin content on 18 of 22 existing pages",
+        "Competitive keyword analysis across 420+ personal injury terms in the Phoenix DMA — mapped by intent level, estimated case value, language, and competition density to build a precision targeting strategy rather than the broad-match approach the previous agency used",
+        "Established baseline metrics from the first 30 days with the new tracking infrastructure: 16.1% qualified lead rate, $1,149 cost per qualified lead, and 2.57x ROAS — the honest benchmarks the firm had never had before",
+      ],
+    },
+    {
+      phase: 2,
+      months: "30–90 days",
+      title: "Optimization: Lead Quality Focus and Bilingual Scaling",
+      items: [
+        "Analyzed 30-day call tracking and lead scoring data — identified that Spanish-language campaigns were generating qualified leads at a 12% higher rate than English campaigns, with lower competition and cost per click; increased Spanish-language budget allocation by 35%",
+        "AI agents identified that high-value case type campaigns (trucking, motorcycle, wrongful death) were converting to signed retainers at 2.4x the rate of general MVA campaigns — automatically shifted budget toward these high-ROAS segments within hours of detecting the pattern",
+        "Published 22 SEO articles in 60 days using AI-powered content generation: Phoenix-specific accident guides in English and Spanish, I-10 and I-17 corridor resources, practice area deep-dives for trucking and motorcycle cases, and 'what to do after a car accident in Arizona' evergreen content",
+        "Built 14 location landing pages targeting Phoenix metro suburbs — Scottsdale, Tempe, Mesa, Chandler, Glendale, Peoria, Gilbert, Surprise, Goodyear, Avondale, Buckeye, Cave Creek, Fountain Hills, and Sun City — each with bilingual options and optimized for '[injury type] abogado/lawyer [location]' patterns",
+        "Aggressive negative keyword expansion informed by call recordings and intake data — filtered out workers' compensation, property damage only, legal aid seekers, and 63 other non-qualifying terms, reclaiming an estimated 22% of monthly spend previously wasted on unqualified traffic",
+        "Implemented lead quality scoring in CRM with automatic feedback loops to ad campaigns — leads scoring below qualification threshold triggered negative signals that AI agents used to refine targeting, creating a self-improving system that got smarter about lead quality every week",
+        "Conversion rate optimization on all landing pages: A/B tested bilingual CTAs, added trust signals including Arizona State Bar membership, past verdict amounts, and bilingual intake availability badges, improving landing page conversion rates by 18%",
+      ],
+    },
+    {
+      phase: 3,
+      months: "90–240 days",
+      title: "Scale: Compounding Quality and Revenue Growth",
+      items: [
+        "90-day review confirmed qualified lead rate had climbed from 16.1% to 19.1% — the lead quality improvement combined with growing volume was generating more signed cases from the same budget, with CPQL dropping 46% from baseline as the AI continuously filtered out low-quality traffic patterns",
+        "Scaled bilingual campaigns across all case value tiers after Spanish-language ads proved their ROI — by month 6, bilingual campaigns represented 30% of total ad spend and were generating some of the firm's highest-value signed cases from Phoenix's underserved Hispanic community",
+        "Advanced case-value attribution integrated into reporting — the firm could now see not just cost per signed case, but projected settlement value per case by campaign, enabling strategic budget decisions based on expected revenue rather than just lead volume",
+        "Local backlink campaign targeting Phoenix-area legal publications, Maricopa County Bar Association, community organizations in predominantly Hispanic neighborhoods, Arizona accident safety resources, and Spanish-language community directories",
+        "AI agents compounded daily micro-improvements across all campaigns — bid adjustments, dayparting refinements, geographic budget shifts, and creative rotation happening continuously, detecting competitive bid changes and seasonal shifts within hours rather than the weeks a traditional agency would take",
+        "Content refresh and expansion on top-performing pages with enhanced E-E-A-T signals — attorney credentials, bilingual staff highlights, specific case type expertise, Arizona statute references, and community involvement, building trust signals that resonated across both English and Spanish-speaking audiences",
+        "Seasonal campaign adjustments: increased budget during Arizona's peak driving months and monsoon season when accident volume spikes, with AI agents detecting the seasonal patterns and reallocating budget to high-intent keywords proactively",
+      ],
+    },
+  ],
+  seo: {
+    summary: [
+      { label: "Total Keywords", value: "2,847", growth: "+374%", from: "from 601" },
+      { label: "Top 10 Rankings", value: "189", growth: "+845%", from: "from 20" },
+      { label: "Pages Created", value: "48", growth: "", from: "incl. 14 location pages" },
+      { label: "Organic Traffic", value: "11,214/mo", growth: "+180%", from: "from 4,008" },
+    ],
+    monthly: [
+      { month: "Nov 2025", keywords: 601, top10: 20, top3: 3, traffic: 4008, pages: 6, avgPos: 48.3, ctr: 0.7 },
+      { month: "Dec 2025", keywords: 742, top10: 31, top3: 5, traffic: 4512, pages: 14, avgPos: 44.7, ctr: 0.8 },
+      { month: "Jan 2026", keywords: 934, top10: 48, top3: 8, traffic: 5187, pages: 22, avgPos: 40.2, ctr: 0.9 },
+      { month: "Feb 2026", keywords: 1198, top10: 72, top3: 14, traffic: 6341, pages: 30, avgPos: 36.8, ctr: 1.1 },
+      { month: "Mar 2026", keywords: 1567, top10: 98, top3: 21, traffic: 7689, pages: 36, avgPos: 33.1, ctr: 1.2 },
+      { month: "Apr 2026", keywords: 1923, top10: 127, top3: 29, traffic: 8934, pages: 41, avgPos: 30.4, ctr: 1.4 },
+      { month: "May 2026", keywords: 2384, top10: 158, top3: 38, traffic: 10127, pages: 45, avgPos: 27.9, ctr: 1.5 },
+      { month: "Jun 2026", keywords: 2847, top10: 189, top3: 47, traffic: 11214, pages: 48, avgPos: 25.6, ctr: 1.7 },
+    ],
+  },
+  paidAds: {
+    summary: [
+      { label: "Total Ad Spend", value: "$552.5K" },
+      { label: "Qualified Leads", value: "869" },
+      { label: "Avg Cost Per Qualified Lead", value: "$636", note: "↓45% from $1,149" },
+      { label: "Signed Cases", value: "43" },
+    ],
+    columnLabels: {
+      leads: "Total Leads",
+      cpl: "Cost/Lead",
+      qualified: "Qualified Leads",
+      cpql: "Cost/Qualified",
+      deals: "Signed Cases",
+      costPerDeal: "Cost/Case",
+    },
+    monthly: [
+      { month: "Nov 2025", spend: 64321, leads: 348, cpl: 184.83, qualified: 56, cpql: 1148.59, deals: 2, revenue: 165000, roas: 2.57 },
+      { month: "Dec 2025", spend: 67450, leads: 389, cpl: 173.39, qualified: 67, cpql: 1006.72, deals: 3, revenue: 192000, roas: 2.85 },
+      { month: "Jan 2026", spend: 64890, leads: 421, cpl: 154.13, qualified: 78, cpql: 831.92, deals: 4, revenue: 225000, roas: 3.47 },
+      { month: "Feb 2026", spend: 68200, leads: 508, cpl: 134.25, qualified: 96, cpql: 710.42, deals: 5, revenue: 268000, roas: 3.93 },
+      { month: "Mar 2026", spend: 72150, leads: 612, cpl: 117.89, qualified: 117, cpql: 616.67, deals: 6, revenue: 308000, roas: 4.27 },
+      { month: "Apr 2026", spend: 69800, leads: 698, cpl: 100.0, qualified: 134, cpql: 520.9, deals: 7, revenue: 289000, roas: 4.14 },
+      { month: "May 2026", spend: 74500, leads: 847, cpl: 87.96, qualified: 163, cpql: 457.06, deals: 8, revenue: 342000, roas: 4.59 },
+      { month: "Jun 2026", spend: 71200, leads: 812, cpl: 87.68, qualified: 158, cpql: 450.63, deals: 8, revenue: 321000, roas: 4.51 },
+    ],
+  },
+  organicConversions: {
+    summary: [
+      { label: "Total Organic Leads", value: "68", growth: "+340%", note: "from ~3/mo to ~13/mo" },
+      { label: "Organic Phone Calls", value: "51", growth: "+325%", note: "primary conversion path" },
+      { label: "Form Submissions", value: "17", growth: "+283%" },
+      { label: "Avg Organic Conversion Rate", value: "3.9%", growth: "+1.7pp", note: "from 2.2%" },
+    ],
+    columnLabels: {
+      formFills: "Form Fills",
+      calls: "Phone Calls",
+      totalLeads: "Total Leads",
+      conversionRate: "Conv. Rate",
+    },
+    monthly: [
+      { month: "Nov 2025", formFills: 1, calls: 2, totalLeads: 3, conversionRate: 2.2 },
+      { month: "Dec 2025", formFills: 1, calls: 3, totalLeads: 4, conversionRate: 2.4 },
+      { month: "Jan 2026", formFills: 1, calls: 4, totalLeads: 5, conversionRate: 2.7 },
+      { month: "Feb 2026", formFills: 2, calls: 5, totalLeads: 7, conversionRate: 3.0 },
+      { month: "Mar 2026", formFills: 2, calls: 7, totalLeads: 9, conversionRate: 3.3 },
+      { month: "Apr 2026", formFills: 3, calls: 7, totalLeads: 10, conversionRate: 3.5 },
+      { month: "May 2026", formFills: 3, calls: 9, totalLeads: 12, conversionRate: 3.7 },
+      { month: "Jun 2026", formFills: 4, calls: 9, totalLeads: 13, conversionRate: 3.9 },
+    ],
+    sources: [
+      { source: "Organic Search", percentage: 56, leads: 38 },
+      { source: "Local Pack / Maps", percentage: 29, leads: 20 },
+      { source: "Direct (branded)", percentage: 15, leads: 10 },
+    ],
+  },
+  impact: [
+    { label: "Total Case Revenue", value: "$2.11M", growth: "3.82x blended ROAS" },
+    { label: "Qualified Lead Rate", value: "19.5%", growth: "↑from 16.1% month 1" },
+    { label: "Cost Per Qualified Lead", value: "$636", growth: "↓45% from $1,149" },
+    { label: "Signed Cases", value: "43", growth: "avg $49K revenue/case" },
+  ],
+};
