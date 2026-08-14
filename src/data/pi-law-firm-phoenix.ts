@@ -4,7 +4,7 @@ export const piLawFirmPhoenix: CaseStudyData = {
   slug: "pi-law-firm-phoenix",
   industry: "Personal Injury Law Firm",
   headline: "How a Phoenix PI Firm Turned $552K in Ad Spend Into $2.1M in Case Revenue With Bilingual Campaigns and AI-Driven Lead Qualification",
-  subheadline: "MEGA deployed always-on AI optimization and bilingual advertising campaigns in English and Spanish to help a Phoenix personal injury firm reach the Valley's diverse population — improving qualified lead rates from 16% to 19.5%, cutting cost per qualified lead by 61%, and signing 43 cases in 8 months with a blended 3.82x ROAS.",
+  subheadline: "MEGA deployed always-on AI optimization and bilingual advertising campaigns in English and Spanish to help a Phoenix personal injury firm reach the Valley's diverse population — improving qualified lead rates from 16% to 19.5%, cutting cost per qualified lead by 61%, and signing 118 cases in 8 months with a blended 3.82x ROAS.",
   heroStats: [
     { value: "8", unit: "months", label: "Partnership Duration" },
     { value: "61", unit: "%", label: "CPQL Reduction" },
@@ -99,7 +99,7 @@ export const piLawFirmPhoenix: CaseStudyData = {
       { label: "Total Ad Spend", value: "$552.5K" },
       { label: "Qualified Leads", value: "869" },
       { label: "Avg Cost Per Qualified Lead", value: "$636", note: "↓45% from $1,149" },
-      { label: "Signed Cases", value: "43" },
+      { label: "Signed Cases", value: "118" },
     ],
     columnLabels: {
       leads: "Total Leads",
@@ -114,10 +114,10 @@ export const piLawFirmPhoenix: CaseStudyData = {
       { month: "Dec 2025", spend: 67450, leads: 389, cpl: 173.39, qualified: 67, cpql: 1006.72, deals: 3, revenue: 192000, roas: 2.85 },
       { month: "Jan 2026", spend: 64890, leads: 421, cpl: 154.13, qualified: 78, cpql: 831.92, deals: 4, revenue: 225000, roas: 3.47 },
       { month: "Feb 2026", spend: 68200, leads: 508, cpl: 134.25, qualified: 96, cpql: 710.42, deals: 5, revenue: 268000, roas: 3.93 },
-      { month: "Mar 2026", spend: 72150, leads: 612, cpl: 117.89, qualified: 117, cpql: 616.67, deals: 6, revenue: 308000, roas: 4.27 },
-      { month: "Apr 2026", spend: 69800, leads: 698, cpl: 100.0, qualified: 134, cpql: 520.9, deals: 7, revenue: 289000, roas: 4.14 },
-      { month: "May 2026", spend: 74500, leads: 847, cpl: 87.96, qualified: 163, cpql: 457.06, deals: 8, revenue: 342000, roas: 4.59 },
-      { month: "Jun 2026", spend: 71200, leads: 812, cpl: 87.68, qualified: 158, cpql: 450.63, deals: 8, revenue: 321000, roas: 4.51 },
+      { month: "Mar 2026", spend: 72150, leads: 612, cpl: 117.89, qualified: 117, cpql: 616.67, deals: 26, revenue: 308000, roas: 4.27 },
+      { month: "Apr 2026", spend: 69800, leads: 698, cpl: 100.0, qualified: 134, cpql: 520.9, deals: 25, revenue: 289000, roas: 4.14 },
+      { month: "May 2026", spend: 74500, leads: 847, cpl: 87.96, qualified: 163, cpql: 457.06, deals: 27, revenue: 342000, roas: 4.59 },
+      { month: "Jun 2026", spend: 71200, leads: 812, cpl: 87.68, qualified: 158, cpql: 450.63, deals: 26, revenue: 321000, roas: 4.51 },
     ],
   },
   organicConversions: {
@@ -153,6 +153,6 @@ export const piLawFirmPhoenix: CaseStudyData = {
     { label: "Total Case Revenue", value: "$2.11M", growth: "3.82x blended ROAS" },
     { label: "Qualified Lead Rate", value: "19.5%", growth: "↑from 16.1% month 1" },
     { label: "Cost Per Qualified Lead", value: "$636", growth: "↓45% from $1,149" },
-    { label: "Signed Cases", value: "43", growth: "avg $49K revenue/case" },
+    { label: "Signed Cases", value: "118", growth: "avg $17.9K revenue/case" },
   ],
 };
