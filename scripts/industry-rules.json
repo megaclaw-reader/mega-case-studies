@@ -886,7 +886,8 @@
     "Fragrance Brand": "ecommerce",
     "Hospitality Lodging": "lead_gen_services",
     "Family Medicine": "lead_gen_services",
-    "Hair, Beauty & Wellness": "ecommerce"
+    "Hair, Beauty & Wellness": "ecommerce",
+    "Consulting Services B2B": "lead_gen_professional"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",
