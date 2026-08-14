@@ -1,0 +1,125 @@
+import { CaseStudyData } from "./types";
+
+export const generalContractorNational: CaseStudyData = {
+  slug: "general-contractor-national",
+  industry: "General Contracting",
+  headline: "How a Denver General Contractor Cut Cost Per Lead 45% and Built a 17-Deal Pipeline in 8 Months",
+  subheadline: "MEGA's AI-powered always-on optimization and strategic SEO growth generated $190.6K in project revenue from $50.7K in ad spend — while organic traffic grew 2,795% to over 11,000 monthly visitors.",
+  heroStats: [
+    { value: "45", unit: "%", label: "Cost Per Lead Reduction" },
+    { value: "129", unit: "", label: "Qualified Leads (Paid)" },
+    { value: "$190.6", unit: "K", label: "Ad Revenue Generated" },
+    { value: "2,795", unit: "%", label: "Organic Traffic Growth" },
+  ],
+  tags: ["SEO", "Paid Advertising", "AI-Powered Optimization", "Lead Generation"],
+  company: {
+    industry: "General Contracting",
+    employees: "20-35",
+    revenue: "$2.8M",
+    location: "Denver, CO",
+    description: "A full-service general contracting firm based in Denver, CO handling commercial buildouts, tenant improvements, residential renovations, and ground-up construction projects ranging from $8K bathroom remodels to $120K+ commercial fit-outs. With a team of 20-35 employees and multiple active job sites, the firm had grown primarily through referrals and word-of-mouth over nearly eight years — leaving significant digital growth opportunities untapped in a competitive Denver market and nationally.",
+  },
+  challenges: [
+    {
+      title: "Expensive, Untracked Digital Campaigns",
+      description: "When the company ran sporadic paid advertising, cost per lead averaged $167 with no systematic optimization or conversion tracking. There was zero visibility into which leads became signed contracts versus tire-kickers asking for free estimates they never followed up on. Over half the ad budget was effectively wasted on unqualified traffic.",
+    },
+    {
+      title: "Feast-or-Famine Revenue Cycles",
+      description: "Seasonal demand swings between commercial and residential projects created unpredictable revenue patterns. Denver's construction season peaks April through September, and without a year-round digital marketing strategy, the estimating team scrambled each spring to rebuild their pipeline from scratch — losing 4-6 weeks of prime selling season to ramp-up every year.",
+    },
+    {
+      title: "Near-Zero Organic Search Presence",
+      description: "The website ranked for fewer than 120 keywords and generated minimal inbound traffic from potential clients searching for contractors. Competitors with established content strategies and local SEO programs were capturing high-intent commercial and residential prospects that this contractor never even saw — costing the business an estimated $15-25K per month in missed opportunities.",
+    },
+  ],
+  strategy: [
+    {
+      phase: 1,
+      months: "0–60 days",
+      title: "Foundation & AI Deployment",
+      items: [
+        "Deployed always-on AI optimization agents directly within ad accounts — monitoring performance signals, adjusting bids, and reallocating budget in real time rather than waiting for weekly agency review cycles",
+        "Implemented comprehensive conversion tracking connecting form submissions, phone calls, and estimate requests to actual signed contracts and project values through CRM integration",
+        "Built separate campaign architecture for commercial buildouts vs. residential renovations, with distinct messaging, landing pages, and budget allocation for each segment",
+        "Established baseline SEO foundation targeting 112 keywords across general contracting, commercial renovation, and tenant improvement searches in Denver and surrounding markets",
+        "Created service-specific landing pages optimized for different project types — commercial fit-outs, kitchen and bath remodels, additions, and ground-up construction — to improve lead quality from day one",
+        "Generated 14 initial articles covering renovation planning guides, Denver-area permit requirements, commercial buildout timelines, and cost breakdowns for common project types",
+        "Full competitive audit identifying gaps in local and national contractor search coverage that represented immediate content and advertising opportunities",
+      ],
+    },
+    {
+      phase: 2,
+      months: "60–150 days",
+      title: "Data-Driven Optimization & Content Scaling",
+      items: [
+        "AI agents identified that commercial tenant improvement leads closed at 27% higher rates than residential, automatically shifting budget allocation to capture more B2B opportunities",
+        "Scaled SEO content production with AI-generated articles covering project guides, cost estimators, and before-and-after project showcases — publishing at a pace that would require a dedicated content team",
+        "Real-time bid optimization detected that weekday morning searches from commercial property managers converted 34% better than evening residential browsing, adjusting bid schedules automatically",
+        "Expanded keyword strategy from 112 to 1,800+ terms covering specific project types, commercial construction terminology, and geographic variations across the Denver metro and national searches",
+        "Implemented lead scoring system that routed high-value commercial prospects directly to senior estimators while automating follow-up for smaller residential inquiries",
+        "A/B tested landing page variants for each major service line — commercial buildouts saw 23% higher form completion rates with project portfolio imagery vs. stock photography",
+      ],
+    },
+    {
+      phase: 3,
+      months: "150–240 days",
+      title: "Scale & Market Expansion",
+      items: [
+        "Scaled monthly ad spend from $5K floor to peak months exceeding $7.5K, with AI agents ensuring every incremental dollar maintained or improved cost efficiency",
+        "Achieved dominant SEO presence with 4,500+ ranking keywords generating over 11,000 monthly organic visitors — a self-sustaining lead channel reducing dependence on paid advertising",
+        "AI-powered seasonal optimization automatically shifted budget between commercial and residential campaigns based on real-time demand signals and historical conversion patterns",
+        "Advanced audience refinement identified that prospects researching specific project types like tenant improvements and commercial buildouts had 3.1x higher average project values than general contractor searches",
+        "Continuous AI optimization compounded daily improvements into significant monthly gains — bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for monthly agency reviews",
+        "Expanded geographic targeting beyond Denver metro to capture national commercial contracting opportunities, driving qualified leads from property managers across multiple markets",
+      ],
+    },
+  ],
+  seo: {
+    summary: [
+      { label: "Final Keywords", value: "4,523", growth: "+4,411", from: "112" },
+      { label: "Monthly Traffic", value: "11,234", growth: "+10,846", from: "388" },
+      { label: "Organic Leads", value: "312", growth: "+302", from: "10" },
+      { label: "Organic Revenue", value: "$84,700", growth: "+$78,200", from: "$6,500" },
+    ],
+    monthly: [
+      { month: "Jan '26", keywords: 112, top10: 18, top3: 5, traffic: 388, pages: 34, avgPos: 19.3, ctr: 2.9 },
+      { month: "Feb '26", keywords: 189, top10: 29, top3: 9, traffic: 612, pages: 41, avgPos: 17.1, ctr: 3.4 },
+      { month: "Mar '26", keywords: 347, top10: 52, top3: 16, traffic: 1043, pages: 49, avgPos: 15.2, ctr: 3.9 },
+      { month: "Apr '26", keywords: 623, top10: 98, top3: 29, traffic: 1847, pages: 58, avgPos: 13.1, ctr: 4.5 },
+      { month: "May '26", keywords: 1134, top10: 178, top3: 54, traffic: 3256, pages: 67, avgPos: 11.4, ctr: 5.1 },
+      { month: "Jun '26", keywords: 1892, top10: 298, top3: 89, traffic: 5423, pages: 76, avgPos: 9.8, ctr: 5.7 },
+      { month: "Jul '26", keywords: 3187, top10: 487, top3: 142, traffic: 8134, pages: 85, avgPos: 8.3, ctr: 6.3 },
+      { month: "Aug '26", keywords: 4523, top10: 689, top3: 198, traffic: 11234, pages: 94, avgPos: 7.1, ctr: 6.9 },
+    ],
+  },
+  paidAds: {
+    summary: [
+      { label: "Total Ad Spend", value: "$50,700" },
+      { label: "Total Leads", value: "461", note: "129 qualified" },
+      { label: "Avg Cost Per Qualified Lead", value: "$393", note: "37% reduction from $625 starting CPQL" },
+      { label: "Total Revenue", value: "$190,600" },
+      { label: "Overall ROAS", value: "3.8x", note: "Range: 2.7x – 4.5x" },
+    ],
+    monthly: [
+      { month: "Jan '26", spend: 5000, leads: 30, cpl: 167, qualified: 8, cpql: 625, deals: 1, revenue: 13500, roas: 2.7 },
+      { month: "Feb '26", spend: 5200, leads: 36, cpl: 144, qualified: 10, cpql: 520, deals: 1, revenue: 16100, roas: 3.1 },
+      { month: "Mar '26", spend: 5500, leads: 44, cpl: 125, qualified: 13, cpql: 423, deals: 2, revenue: 18200, roas: 3.3 },
+      { month: "Apr '26", spend: 6200, leads: 56, cpl: 111, qualified: 16, cpql: 388, deals: 2, revenue: 22300, roas: 3.6 },
+      { month: "May '26", spend: 7000, leads: 68, cpl: 103, qualified: 19, cpql: 368, deals: 3, revenue: 28700, roas: 4.1 },
+      { month: "Jun '26", spend: 7500, leads: 78, cpl: 96, qualified: 22, cpql: 341, deals: 3, revenue: 33800, roas: 4.5 },
+      { month: "Jul '26", spend: 7300, leads: 73, cpl: 100, qualified: 20, cpql: 365, deals: 2, revenue: 30700, roas: 4.2 },
+      { month: "Aug '26", spend: 7000, leads: 76, cpl: 92, qualified: 21, cpql: 333, deals: 3, revenue: 27300, roas: 3.9 },
+    ],
+  },
+  impact: [
+    { label: "Cost Per Lead", value: "$92", growth: "-45% from $167" },
+    { label: "Qualified Leads (Paid)", value: "129", growth: "13.2% close rate to contracts" },
+    { label: "Signed Contracts (Paid)", value: "17", growth: "Avg $11,212 per project" },
+    { label: "Paid Ad Revenue", value: "$190,600", growth: "3.8x blended ROAS" },
+    { label: "Organic Traffic", value: "11,234/mo", growth: "+2,795% from 388/mo" },
+    { label: "Ranking Keywords", value: "4,523", growth: "+4,411 from 112" },
+    { label: "Organic Leads", value: "312", growth: "$84,700 in project revenue" },
+    { label: "Total Revenue", value: "$190,600", growth: "3.8x blended ROAS on paid" },
+  ],
+};

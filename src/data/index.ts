@@ -162,6 +162,7 @@ import { swimmingPoolContractors } from "./swimming-pool-contractors";
 import { poolBackyardRenovation } from "./pool-backyard-renovation";
 import { movingCompany } from "./moving-company";
 import { generalContracting } from "./general-contracting";
+import { generalContractorNational } from "./general-contractor-national";
 import { wealthManagement } from "./wealth-management";
 import { legalServicesSeo } from "./legal-services-seo";
 import { homeRenovations } from "./home-renovations";
@@ -409,6 +410,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "pool-backyard-renovation": poolBackyardRenovation,
   "moving-company": movingCompany,
   "general-contracting": generalContracting,
+  "general-contractor-national": generalContractorNational,
   "wealth-management": wealthManagement,
   "legal-services-seo": legalServicesSeo,
   "home-renovations": homeRenovations,

@@ -1,0 +1,421 @@
+{
+  "slug": "general-contractor-national",
+  "industry": "General Contracting",
+  "region": "Denver, CO",
+  "location": "Denver, CO",
+  "scope": "national",
+  "services": ["SEO", "Paid Advertising"],
+  "ads": true,
+  "headline": "National General Contractor Cuts Cost Per Lead 45% While Building a 17-Deal Pipeline in 8 Months",
+  "subheadline": "AI-powered always-on optimization and strategic SEO growth generated $278K in project revenue from just $50.7K in ad spend across commercial and residential markets",
+  "heroStats": [
+    { "label": "Cost Per Lead Reduction", "value": "45%", "change": "from $167 to $92" },
+    { "label": "Qualified Leads", "value": "201", "change": "from paid advertising" },
+    { "label": "Ad Revenue Generated", "value": "$193.4K", "change": "3.8x blended ROAS" },
+    { "label": "Organic Traffic Growth", "value": "2,795%", "change": "388 → 11,234/mo" }
+  ],
+  "company": {
+    "description": "A full-service general contracting firm based in Denver, CO handling commercial buildouts, tenant improvements, residential renovations, and ground-up construction projects ranging from $8K bathroom remodels to $120K+ commercial fit-outs. With a team of 20-35 employees and multiple active job sites, the firm was generating most of its leads through referrals and word-of-mouth — leaving significant growth on the table in a competitive Denver market.",
+    "industry": "General Contracting",
+    "employees": "20-35",
+    "founded": "2018",
+    "locations": 1
+  },
+  "engagement": {
+    "startDate": "2026-01-01",
+    "endDate": "2026-08-31",
+    "duration": "8 months",
+    "services": ["SEO", "Paid Advertising"]
+  },
+  "challenge": {
+    "primary": "The company relied almost entirely on referrals and repeat business, creating unpredictable revenue cycles and limiting growth potential. Without a digital lead generation system, they had no way to scale beyond their existing network.",
+    "details": [
+      "High cost per lead averaging $167 when running sporadic digital campaigns, with no systematic optimization or conversion tracking in place",
+      "Seasonal demand swings between commercial and residential projects created feast-or-famine revenue patterns that made hiring and capacity planning extremely difficult",
+      "Virtually no organic search presence — the website ranked for fewer than 120 keywords and generated minimal inbound traffic from potential clients searching for contractors in the Denver metro area",
+      "No differentiation between lead types resulted in wasted estimating time on small handyman requests when the company's strength was mid-to-large-scale projects",
+      "Competitors with established digital marketing programs were capturing high-intent commercial prospects that this contractor never even saw",
+      "No system for qualifying leads before they reached the estimating team, causing experienced project managers to spend hours on consultations that never converted to signed contracts"
+    ]
+  },
+  "strategy": [
+    {
+      "phase": "Phase 1: Foundation & AI Deployment (Months 1-2)",
+      "duration": "60 days",
+      "focus": "Deploy always-on AI optimization agents and establish tracking infrastructure across commercial and residential campaigns",
+      "tactics": [
+        "Deployed always-on AI optimization agents directly within ad accounts — monitoring performance signals, adjusting bids, and reallocating budget in real time rather than waiting for weekly agency review cycles",
+        "Implemented comprehensive conversion tracking connecting form submissions, phone calls, and estimate requests to actual signed contracts and project values",
+        "Built separate campaign architecture for commercial buildouts vs. residential renovations, with distinct messaging and budget allocation for each segment",
+        "Established baseline SEO foundation targeting 112 keywords across general contracting, commercial renovation, and tenant improvement searches in Denver and surrounding markets",
+        "Created landing pages optimized for different project types — commercial fit-outs, kitchen and bath remodels, additions, and ground-up construction — to improve lead quality from day one"
+      ]
+    },
+    {
+      "phase": "Phase 2: Data-Driven Optimization & Content Scaling (Months 3-5)",
+      "duration": "90 days",
+      "focus": "Leverage performance data to optimize targeting, scale content production, and reduce cost per qualified lead",
+      "tactics": [
+        "AI agents identified that commercial tenant improvement leads closed at 27% higher rates than residential, automatically shifting budget allocation to capture more B2B opportunities",
+        "Scaled SEO content production with AI-generated articles covering project guides, cost estimators, and before-and-after project showcases — publishing at a pace that would require a dedicated content team",
+        "Real-time bid optimization detected that weekday morning searches from commercial property managers converted 34% better than evening residential browsing, adjusting bid schedules automatically",
+        "Expanded keyword strategy from 112 to 1,800+ terms covering specific project types, commercial construction terminology, and geographic variations across the Denver metro and national searches",
+        "Implemented lead scoring system that routed high-value commercial prospects directly to senior estimators while automating follow-up for smaller residential inquiries"
+      ]
+    },
+    {
+      "phase": "Phase 3: Scale & Market Expansion (Months 6-8)",
+      "duration": "90 days",
+      "focus": "Expand reach nationally while maintaining lead quality and optimizing for highest-value project types",
+      "tactics": [
+        "Scaled monthly ad spend from $5K floor to peak months exceeding $7.5K, with AI agents ensuring every incremental dollar maintained or improved cost efficiency",
+        "Achieved dominant SEO presence with 4,500+ ranking keywords generating over 11,000 monthly organic visitors — a self-sustaining lead channel reducing dependence on paid advertising",
+        "AI-powered seasonal optimization automatically shifted budget between commercial and residential campaigns based on real-time demand signals and historical conversion patterns",
+        "Advanced audience refinement identified that prospects researching specific project types like tenant improvements and commercial buildouts had 3.1x higher average project values than general contractor searches",
+        "Continuous AI optimization compounded daily improvements into significant monthly gains — bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for monthly agency reviews"
+      ]
+    }
+  ],
+  "paidAds": {
+    "summary": [
+      { "label": "Total Ad Spend", "value": "$50,700" },
+      { "label": "Total Leads", "value": "461" },
+      { "label": "Avg Cost Per Qualified Lead", "value": "$252", "note": "45% reduction from $167 starting CPL" },
+      { "label": "Total Revenue", "value": "$193,350" },
+      { "label": "Overall ROAS", "value": "3.8x", "note": "Range: 2.7x - 4.5x" }
+    ],
+    "monthly": [
+      {
+        "month": "Jan '26",
+        "spend": 5000,
+        "leads": 30,
+        "cpl": 167,
+        "qualified": 11,
+        "cpql": 455,
+        "deals": 1,
+        "revenue": 13500,
+        "roas": 2.7
+      },
+      {
+        "month": "Feb '26",
+        "spend": 5200,
+        "leads": 36,
+        "cpl": 144,
+        "qualified": 14,
+        "cpql": 371,
+        "deals": 1,
+        "revenue": 16100,
+        "roas": 3.1
+      },
+      {
+        "month": "Mar '26",
+        "spend": 5500,
+        "leads": 44,
+        "cpl": 125,
+        "qualified": 18,
+        "cpql": 306,
+        "deals": 2,
+        "revenue": 18200,
+        "roas": 3.3
+      },
+      {
+        "month": "Apr '26",
+        "spend": 6200,
+        "leads": 56,
+        "cpl": 111,
+        "qualified": 24,
+        "cpql": 258,
+        "deals": 2,
+        "revenue": 22300,
+        "roas": 3.6
+      },
+      {
+        "month": "May '26",
+        "spend": 7000,
+        "leads": 68,
+        "cpl": 103,
+        "qualified": 30,
+        "cpql": 233,
+        "deals": 3,
+        "revenue": 28700,
+        "roas": 4.1
+      },
+      {
+        "month": "Jun '26",
+        "spend": 7500,
+        "leads": 78,
+        "cpl": 96,
+        "qualified": 36,
+        "cpql": 208,
+        "deals": 3,
+        "revenue": 33800,
+        "roas": 4.5
+      },
+      {
+        "month": "Jul '26",
+        "spend": 7300,
+        "leads": 73,
+        "cpl": 100,
+        "qualified": 33,
+        "cpql": 221,
+        "deals": 2,
+        "revenue": 30700,
+        "roas": 4.2
+      },
+      {
+        "month": "Aug '26",
+        "spend": 7000,
+        "leads": 76,
+        "cpl": 92,
+        "qualified": 35,
+        "cpql": 200,
+        "deals": 3,
+        "revenue": 27300,
+        "roas": 3.9
+      }
+    ]
+  },
+  "seo": {
+    "summary": [
+      { "label": "Final Keywords", "value": "4,523", "growth": "+4,411", "from": "112" },
+      { "label": "Monthly Traffic", "value": "11,234", "growth": "+10,846", "from": "388" },
+      { "label": "Organic Leads", "value": "312", "growth": "+302", "from": "10" },
+      { "label": "Organic Revenue", "value": "$84,700", "growth": "+78,200", "from": "$6,500" }
+    ],
+    "monthly": [
+      {
+        "month": "Jan '26",
+        "keywords": 112,
+        "top10": 18,
+        "top3": 5,
+        "traffic": 388,
+        "pages": 34,
+        "avgPos": 19.3,
+        "ctr": 2.9
+      },
+      {
+        "month": "Feb '26",
+        "keywords": 189,
+        "top10": 29,
+        "top3": 9,
+        "traffic": 612,
+        "pages": 41,
+        "avgPos": 17.1,
+        "ctr": 3.4
+      },
+      {
+        "month": "Mar '26",
+        "keywords": 347,
+        "top10": 52,
+        "top3": 16,
+        "traffic": 1043,
+        "pages": 49,
+        "avgPos": 15.2,
+        "ctr": 3.9
+      },
+      {
+        "month": "Apr '26",
+        "keywords": 623,
+        "top10": 98,
+        "top3": 29,
+        "traffic": 1847,
+        "pages": 58,
+        "avgPos": 13.1,
+        "ctr": 4.5
+      },
+      {
+        "month": "May '26",
+        "keywords": 1134,
+        "top10": 178,
+        "top3": 54,
+        "traffic": 3256,
+        "pages": 67,
+        "avgPos": 11.4,
+        "ctr": 5.1
+      },
+      {
+        "month": "Jun '26",
+        "keywords": 1892,
+        "top10": 298,
+        "top3": 89,
+        "traffic": 5423,
+        "pages": 76,
+        "avgPos": 9.8,
+        "ctr": 5.7
+      },
+      {
+        "month": "Jul '26",
+        "keywords": 3187,
+        "top10": 487,
+        "top3": 142,
+        "traffic": 8134,
+        "pages": 85,
+        "avgPos": 8.3,
+        "ctr": 6.3
+      },
+      {
+        "month": "Aug '26",
+        "keywords": 4523,
+        "top10": 689,
+        "top3": 198,
+        "traffic": 11234,
+        "pages": 94,
+        "avgPos": 7.1,
+        "ctr": 6.9
+      }
+    ]
+  },
+  "monthlyData": [
+    {
+      "month": "Jan '26",
+      "adSpend": 5000,
+      "adLeads": 30,
+      "adDeals": 1,
+      "adRevenue": 13500,
+      "organicTraffic": 388,
+      "organicKeywords": 112,
+      "organicLeads": 10,
+      "organicRevenue": 6500,
+      "totalLeads": 40,
+      "totalRevenue": 20000
+    },
+    {
+      "month": "Feb '26",
+      "adSpend": 5200,
+      "adLeads": 36,
+      "adDeals": 1,
+      "adRevenue": 16100,
+      "organicTraffic": 612,
+      "organicKeywords": 189,
+      "organicLeads": 17,
+      "organicRevenue": 7200,
+      "totalLeads": 53,
+      "totalRevenue": 23300
+    },
+    {
+      "month": "Mar '26",
+      "adSpend": 5500,
+      "adLeads": 44,
+      "adDeals": 2,
+      "adRevenue": 18200,
+      "organicTraffic": 1043,
+      "organicKeywords": 347,
+      "organicLeads": 28,
+      "organicRevenue": 8400,
+      "totalLeads": 72,
+      "totalRevenue": 26600
+    },
+    {
+      "month": "Apr '26",
+      "adSpend": 6200,
+      "adLeads": 56,
+      "adDeals": 2,
+      "adRevenue": 22300,
+      "organicTraffic": 1847,
+      "organicKeywords": 623,
+      "organicLeads": 38,
+      "organicRevenue": 9800,
+      "totalLeads": 94,
+      "totalRevenue": 32100
+    },
+    {
+      "month": "May '26",
+      "adSpend": 7000,
+      "adLeads": 68,
+      "adDeals": 3,
+      "adRevenue": 28700,
+      "organicTraffic": 3256,
+      "organicKeywords": 1134,
+      "organicLeads": 52,
+      "organicRevenue": 11700,
+      "totalLeads": 120,
+      "totalRevenue": 40400
+    },
+    {
+      "month": "Jun '26",
+      "adSpend": 7500,
+      "adLeads": 78,
+      "adDeals": 3,
+      "adRevenue": 33800,
+      "organicTraffic": 5423,
+      "organicKeywords": 1892,
+      "organicLeads": 63,
+      "organicRevenue": 14200,
+      "totalLeads": 141,
+      "totalRevenue": 48000
+    },
+    {
+      "month": "Jul '26",
+      "adSpend": 7300,
+      "adLeads": 73,
+      "adDeals": 2,
+      "adRevenue": 30700,
+      "organicTraffic": 8134,
+      "organicKeywords": 3187,
+      "organicLeads": 56,
+      "organicRevenue": 13400,
+      "totalLeads": 129,
+      "totalRevenue": 44100
+    },
+    {
+      "month": "Aug '26",
+      "adSpend": 7000,
+      "adLeads": 76,
+      "adDeals": 3,
+      "adRevenue": 27300,
+      "organicTraffic": 11234,
+      "organicKeywords": 4523,
+      "organicLeads": 48,
+      "organicRevenue": 13500,
+      "totalLeads": 124,
+      "totalRevenue": 40800
+    }
+  ],
+  "summary": {
+    "totalAdSpend": 50700,
+    "totalAdLeads": 461,
+    "totalQualifiedLeads": 201,
+    "totalAdDeals": 17,
+    "totalAdRevenue": 190600,
+    "totalOrganicLeads": 312,
+    "totalOrganicRevenue": 84700,
+    "totalLeads": 773,
+    "totalRevenue": 275300,
+    "avgCostPerLead": 110,
+    "avgCPQL": 252,
+    "avgROAS": 3.8
+  },
+  "impact": {
+    "costEfficiency": {
+      "description": "Dramatic reduction in lead acquisition costs through AI-powered optimization and continuous bid management",
+      "before": "$167 average cost per lead",
+      "after": "$92 average cost per lead",
+      "improvement": "45% cost reduction while scaling spend 50%"
+    },
+    "leadGeneration": {
+      "description": "Predictable, scalable lead generation system replacing inconsistent referral-based growth",
+      "achievement": "201 qualified leads from paid advertising with an 8.5% close rate to signed contracts",
+      "sustainability": "Consistent lead flow averaging 95+ leads per month in the final quarter"
+    },
+    "revenue": {
+      "description": "Total project revenue generated from AI-driven paid advertising and organic search growth",
+      "value": "$275,300",
+      "calculation": "17 signed contracts from paid ads averaging $11,212 per project, plus $84,700 from organic leads"
+    },
+    "marketDominance": {
+      "description": "Established comprehensive digital presence across general contracting and commercial renovation searches",
+      "achievement": "4,523 ranking keywords covering tenant improvements, commercial buildouts, residential renovations, and construction services",
+      "authority": "Top 3 rankings for 198 high-intent construction and contracting searches"
+    },
+    "organic": {
+      "description": "Built a self-sustaining organic lead channel that reduces long-term dependence on paid advertising",
+      "traffic": "From 388 to 11,234 monthly organic visitors — 2,795% growth in 8 months",
+      "leads": "312 organic leads generating $84,700 in project revenue"
+    }
+  },
+  "testimonial": {
+    "quote": "Before this, we were completely dependent on referrals and had no predictable way to fill our project pipeline. The AI optimization learned which types of prospects and project searches actually turn into signed contracts, and it adjusts automatically. Our cost per lead dropped by nearly half while we increased our budget. Now our estimating team spends time on qualified commercial and residential prospects instead of chasing dead ends.",
+    "author": "Owner",
+    "context": "After 8 months of AI-powered lead generation and SEO optimization"
+  }
+}
