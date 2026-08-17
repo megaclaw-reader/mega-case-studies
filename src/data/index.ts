@@ -305,6 +305,7 @@ import { accountingHouston } from "./accounting-houston";
 import { beautyProductsEcommerce } from "./beauty-products-ecommerce";
 import { roofRestorationCalifornia } from "./roof-restoration-california";
 import { roofingTexas } from "./roofing-texas";
+import { roofingFlorida } from "./roofing-florida";
 import { lifeInsuranceChicago } from "./life-insurance-chicago";
 import { carDealership } from "./car-dealership";
 import { medspa as medspaScottsdale } from "./medspa";
@@ -754,6 +755,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "hair-beauty-wellness-national": hairBeautyWellnessNational,
   "consulting-services-b2b": consultingServicesB2b,
   "pi-law-firm-phoenix": piLawFirmPhoenix,
+  "roofing-florida": roofingFlorida,
 };
 
 export type { CaseStudyData };
