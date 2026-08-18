@@ -98,8 +98,8 @@ export default function ConversionAgentPage() {
         <section className="relative overflow-hidden bg-gradient-to-br from-[#f8faff] via-white to-[#f0f4ff]">
           <div className="max-w-6xl mx-auto px-6 py-20 md:py-28">
             <div className="text-center max-w-4xl mx-auto">
-              <div className="inline-flex items-center gap-2 bg-primary/10 text-primary px-4 py-1.5 rounded-full text-sm font-medium mb-6">
-                <span className="text-lg">🤖</span> Conversion Agent
+              <div className="inline-flex items-center gap-2 bg-primary/10 text-primary px-5 py-2 rounded-full text-base font-semibold mb-6">
+                Conversion Agent
               </div>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
                 Turn Every Lead Into a{" "}
@@ -109,11 +109,8 @@ export default function ConversionAgentPage() {
                 Your AI-powered lead conversion engine that answers every call 24/7, qualifies prospects instantly, books appointments into your calendar, and nurtures your pipeline automatically — so your team closes deals instead of chasing cold leads.
               </p>
               <div className="flex flex-wrap justify-center gap-4">
-                <a href="https://www.gomega.ai/pricing" target="_blank" rel="noopener noreferrer" className="inline-flex items-center px-8 py-3.5 bg-primary text-white font-semibold rounded-lg hover:bg-primary/90 transition-colors shadow-lg shadow-primary/25">
-                  See Pricing →
-                </a>
-                <a href="https://www.gomega.ai/demo" target="_blank" rel="noopener noreferrer" className="inline-flex items-center px-8 py-3.5 bg-white text-gray-700 font-semibold rounded-lg border border-gray-200 hover:border-gray-300 hover:bg-gray-50 transition-colors">
-                  Book a Demo
+                <a href="https://www.gomega.ai/demo" target="_blank" rel="noopener noreferrer" className="inline-flex items-center px-8 py-3.5 bg-primary text-white font-semibold rounded-lg hover:bg-primary/90 transition-colors shadow-lg shadow-primary/25">
+                  Book a Demo →
                 </a>
               </div>
             </div>
@@ -222,11 +219,8 @@ export default function ConversionAgentPage() {
               Every missed call, slow response, and forgotten follow-up is revenue walking out the door. The Conversion Agent makes sure it doesn&apos;t happen.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
-              <a href="https://www.gomega.ai/pricing" target="_blank" rel="noopener noreferrer" className="inline-flex items-center px-8 py-3.5 bg-primary text-white font-semibold rounded-lg hover:bg-primary/90 transition-colors shadow-lg shadow-primary/25">
-                See Pricing →
-              </a>
-              <a href="https://www.gomega.ai/demo" target="_blank" rel="noopener noreferrer" className="inline-flex items-center px-8 py-3.5 bg-white/10 text-white font-semibold rounded-lg border border-white/20 hover:bg-white/20 transition-colors">
-                Book a Demo
+              <a href="https://www.gomega.ai/demo" target="_blank" rel="noopener noreferrer" className="inline-flex items-center px-8 py-3.5 bg-primary text-white font-semibold rounded-lg hover:bg-primary/90 transition-colors shadow-lg shadow-primary/25">
+                Book a Demo →
               </a>
             </div>
           </div>
