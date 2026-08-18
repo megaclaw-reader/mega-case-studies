@@ -377,8 +377,10 @@ import { wellnessClassesSeoArizona } from "./wellness-classes-seo-arizona";
 import { renewableEnergySaasNational } from "./renewable-energy-saas-national";
 import { healthRetreat } from "./health-retreat";
 import { hairBeautyWellnessNational } from "./hair-beauty-wellness-national";
+import { conversionAgent } from "./conversion-agent";
 
 export const caseStudies: Record<string, CaseStudyData> = {
+  "conversion-agent": conversionAgent,
   "specialty-medical-houston": specialtyMedicalHouston,
   "medical-assessment-ai-app": medicalAssessmentAiApp,
   "ma-advisory": maAdvisory,
