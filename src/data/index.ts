@@ -377,6 +377,7 @@ import { wellnessClassesSeoArizona } from "./wellness-classes-seo-arizona";
 import { renewableEnergySaasNational } from "./renewable-energy-saas-national";
 import { healthRetreat } from "./health-retreat";
 import { hairBeautyWellnessNational } from "./hair-beauty-wellness-national";
+import { hvacSouthFlorida } from "./hvac-south-florida";
 export const caseStudies: Record<string, CaseStudyData> = {
   "specialty-medical-houston": specialtyMedicalHouston,
   "medical-assessment-ai-app": medicalAssessmentAiApp,
@@ -755,6 +756,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "consulting-services-b2b": consultingServicesB2b,
   "pi-law-firm-phoenix": piLawFirmPhoenix,
   "roofing-florida": roofingFlorida,
+  "hvac-south-florida": hvacSouthFlorida,
 };
 
 export type { CaseStudyData };
