@@ -887,7 +887,8 @@
     "Hospitality Lodging": "lead_gen_services",
     "Family Medicine": "lead_gen_services",
     "Hair, Beauty & Wellness": "ecommerce",
-    "Consulting Services B2B": "lead_gen_professional"
+    "Consulting Services B2B": "lead_gen_professional",
+    "Flooring Company": "lead_gen_services"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",
@@ -906,6 +907,7 @@
     "Retail / E-commerce / Apparel": "ecommerce",
     "Medical Document Management SaaS": "subscription",
     "Spiritual Retreat": "lead_gen_services",
-    "Employment Law": "lead_gen_professional"
+    "Employment Law": "lead_gen_professional",
+    "Flooring Company": "lead_gen_services"
   }
 }

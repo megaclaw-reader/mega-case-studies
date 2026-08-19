@@ -66,6 +66,7 @@ import { franchiseMedSpa } from "./franchise-med-spa";
 import { seoProjectionHhRedStone } from "./seo-projection-hh-red-stone";
 import { restaurantEventsCaliforniaMar } from "./restaurant-events-california";
 import { flooringMiami } from "./flooring-miami";
+import { flooringCompanyMiami } from "./flooring-company-miami";
 import { nailSalon } from "./nail-salon";
 import { tequilaBrandDtc } from "./tequila-brand-dtc";
 import { sportsDrink } from "./sports-drink";
@@ -632,6 +633,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "ecommerce-sports-store": ecommerceSportsStore,
   "ecommerce-pet": ecommercePet,
   "flooring-miami": flooringMiami,
+  "flooring-company-miami": flooringCompanyMiami,
   "nail-salon": nailSalon,
   "tequila-brand-dtc": tequilaBrandDtc,
   "sports-drink": sportsDrink,

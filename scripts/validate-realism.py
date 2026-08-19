@@ -64,6 +64,7 @@ QUAL_RATES = {
     'Insurance': (0.06, 0.20),
     'Financial': (0.06, 0.20),
     'Fintech': (0.06, 0.20),
+    'Floor': (0.25, 0.55),  # Flooring inquiries are high-intent — homeowners/managers with active projects, high qual rate
     'Landscap': (0.12, 0.30),
     'Legal': (0.06, 0.20),
     'Law': (0.06, 0.20),
