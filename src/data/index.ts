@@ -1,5 +1,6 @@
 import { CaseStudyData } from "./types";
 import { piLawFirmPhoenix } from "./pi-law-firm-phoenix";
+import { piLawFirmNorthCarolina } from "./pi-law-firm-north-carolina";
 import { consultingServicesB2b } from "./consulting-services-b2b";
 import { familyMedicineNy } from "./family-medicine-ny";
 import { b2bSaasNational } from "./b2b-saas-national";
@@ -757,6 +758,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "hair-beauty-wellness-national": hairBeautyWellnessNational,
   "consulting-services-b2b": consultingServicesB2b,
   "pi-law-firm-phoenix": piLawFirmPhoenix,
+  "pi-law-firm-north-carolina": piLawFirmNorthCarolina,
   "roofing-florida": roofingFlorida,
   "hvac-south-florida": hvacSouthFlorida,
 };
