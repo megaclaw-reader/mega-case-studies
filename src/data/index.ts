@@ -151,6 +151,7 @@ import { interiorDesign } from "./interior-design";
 import { lawFirmMontreal } from "./law-firm-montreal";
 import { lawFirmMtl } from "./law-firm-mtl";
 import { fashionApparel } from "./fashion-apparel";
+import { nationalFootwearRetailer } from "./national-footwear-retailer";
 import { homeDamageRestoration } from "./home-damage-restoration";
 import { realEstateServices } from "./real-estate-services";
 import { garageDoorRepairs } from "./garage-door-repairs";
@@ -401,6 +402,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "law-firm-montreal": lawFirmMontreal,
   "law-firm-mtl": lawFirmMtl,
   "fashion-apparel": fashionApparel,
+  "national-footwear-retailer": nationalFootwearRetailer,
   "home-damage-restoration": homeDamageRestoration,
   "real-estate-services": realEstateServices,
   "garage-door-repairs": garageDoorRepairs,
