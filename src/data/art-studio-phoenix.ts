@@ -1,0 +1,142 @@
+import { CaseStudyData } from "./types";
+
+export const artStudioPhoenix: CaseStudyData = {
+  slug: "art-studio-phoenix",
+  industry: "Art Studio",
+  headline: "How a Phoenix Art Studio Generated $62.5K in Revenue Over 8 Months With AI-Optimized Paid Advertising & SEO",
+  subheadline: "MEGA helped a creative arts studio in Phoenix, AZ scale class bookings, private event reservations, and workshop enrollments — reducing cost per qualified lead from $97 to $39 and closing 182 new bookings at a 2.26x blended ROAS through always-on AI optimization.",
+  heroStats: [
+    { value: "8", unit: "months", label: "Partnership Duration" },
+    { value: "$62.5K", unit: "K", label: "Revenue Attributed" },
+    { value: "59%", unit: "", label: "CPQL Reduction" },
+  ],
+  tags: ["Paid Advertising", "SEO", "Lead Generation", "Local Advertising"],
+  company: {
+    industry: "Art Studio — Classes, Workshops & Private Events",
+    employees: "9",
+    revenue: "$420K",
+    location: "Phoenix, AZ (Scottsdale & Tempe corridors)",
+    description: "A creative arts studio in Phoenix offering paint-and-sip classes, pottery workshops, canvas painting sessions, and private event experiences for individuals, groups, and corporate clients. The studio operated from a 2,800 sq ft space near Old Town Scottsdale and served the broader Phoenix metropolitan area — including Tempe, Mesa, Chandler, and Paradise Valley. Revenue came from walk-in public classes ($35–$55/person), multi-week art courses ($180–$320), private party bookings for birthdays and bachelorette events ($400–$900), and corporate team-building workshops ($800–$2,200). With strong word-of-mouth and a 4.8-star rating across 134 reviews, the studio had loyal repeat customers but was struggling to fill weeknight classes, attract new demographics beyond the existing 25–40 female core audience, and scale private event bookings — the highest-margin revenue line. Their previous advertising had been limited to occasional social media boosts and a small directory listing, with no structured lead capture, no qualifying infrastructure, and no way to track which ad dollars were actually driving booked sessions.",
+  },
+  challenges: [
+    {
+      title: "No Lead Qualification System to Distinguish High-Value Event Bookings From Single-Class Inquiries",
+      description: "The studio received a mix of inquiries — from someone browsing $40 paint nights to corporate event planners seeking $1,500+ team-building packages — and treated them all identically. Phone calls went to a shared voicemail, website form submissions asked only for name and email, and there was no system to identify or prioritize high-value event leads. A corporate team-building inquiry worth $1,800 received the same follow-up as a casual question about open class schedules. Without lead scoring or qualifying flows, the owner couldn't determine which advertising was driving profitable bookings versus casual browsers who never converted.",
+    },
+    {
+      title: "Underperforming Weeknight and Off-Peak Capacity in a Seasonal Phoenix Market",
+      description: "Weekend paint-and-sip classes regularly sold out through organic demand, but Tuesday through Thursday evenings averaged just 35% capacity — representing thousands in unrealized monthly revenue. The studio had no targeted strategy for driving bookings during off-peak time slots. Meanwhile, Phoenix's extreme summer heat (June–August temperatures exceeding 110°F) actually represented an untapped opportunity: residents actively seeking indoor, air-conditioned activities. But without advertising infrastructure to capitalize on seasonal indoor-activity demand, the studio wasn't capturing the summer surge that competitors in other entertainment categories were leveraging.",
+    },
+    {
+      title: "Zero Organic Search Presence for High-Intent Local Queries",
+      description: "Searching 'paint and sip Phoenix,' 'pottery classes near me,' 'private paint party Scottsdale,' or 'corporate team building Phoenix' returned zero results for the studio on the first two pages. The website had minimal content, no location-specific landing pages, no blog, and poor technical SEO — missing meta descriptions, no schema markup, and a mobile experience that loaded in 6.2 seconds. For a business where 70%+ of new customers start with a local search, this invisible organic footprint meant complete dependence on word-of-mouth and paid channels for every new customer.",
+    },
+  ],
+  strategy: [
+    {
+      phase: 1,
+      months: "0–30 days",
+      title: "Tracking Infrastructure, ICP Baselining & SEO Foundation",
+      items: [
+        "Implemented call tracking with AI-powered call analysis — tagging inquiries by type (public class, multi-week course, private party, corporate event), party size, preferred dates, and lead quality score to distinguish a $40 walk-in from a $1,500 corporate booking",
+        "Redesigned website forms with qualifying questions: event type, group size, preferred date range, and budget tier — creating an instant lead scoring layer that prioritized high-value private event and corporate inquiries",
+        "Deployed always-on AI optimization agents directly within ad accounts — monitoring performance signals, adjusting bids, reallocating budget, and refining audience targeting in real time rather than waiting for weekly agency review cycles",
+        "Launched initial paid campaigns at $3,000/month with broad targeting across the Phoenix metro to establish baseline conversion data across class types, demographics, and geographic zones",
+        "Comprehensive technical SEO audit and fixes: compressed images (load time reduced from 6.2s to 2.1s), added schema markup for local business and events, fixed mobile responsiveness, submitted XML sitemap",
+        "Created foundational location pages targeting 'art classes Phoenix,' 'paint and sip Scottsdale,' 'pottery classes Tempe,' and 'team building activities Phoenix' with unique, locally-relevant content on each",
+        "Published initial content cluster: 6 SEO-optimized articles covering topics like 'Best Date Night Activities in Phoenix,' 'Corporate Team Building Ideas in the Valley,' and 'What to Expect at a Paint and Sip Class' — content a human agency would take months to produce, delivered in the first 30 days through AI-powered content generation",
+      ],
+    },
+    {
+      phase: 2,
+      months: "30–60 days",
+      title: "ICP Refinement & Campaign Segmentation",
+      items: [
+        "Analyzed 30 days of call recordings and form data — discovered that private event inquiries (birthdays, bachelorettes, showers) converted at 3.2x the rate of general class inquiries, and corporate leads had an average booking value of $1,340 vs. $185 for public classes",
+        "Segmented campaigns by intent tier: separate ad groups for public classes, private events, and corporate team-building — each with tailored messaging, landing pages, and bid strategies based on revenue potential",
+        "AI agents identified underperforming ad creatives within hours and automatically shifted budget to top performers — compounding small daily optimizations rather than waiting for monthly manual reviews",
+        "Geographic analysis revealed Paradise Valley, North Scottsdale, and Arcadia neighborhoods produced 74% of private event bookings — increased bid modifiers for these affluent zip codes while reducing spend in lower-converting areas",
+        "Launched 12 AI-generated ad variations testing different hooks: 'Book Your Private Paint Party,' 'Date Night in Phoenix,' 'Team Building That's Actually Fun' — accelerating creative learning at zero production cost",
+        "Published 8 additional SEO articles targeting long-tail queries: 'bachelorette party ideas Phoenix,' 'kids birthday party art studio,' and seasonal content for summer indoor activities",
+        "Built internal linking structure connecting blog content to class booking and private event pages, strengthening topical authority signals",
+      ],
+    },
+    {
+      phase: 3,
+      months: "60–90 days",
+      title: "Seasonal Strategy & High-Value Booking Focus",
+      items: [
+        "With Phoenix temperatures climbing past 100°F, deployed summer-specific campaign messaging positioning the studio as a premium indoor escape — 'Beat the Heat with Art' and 'Air-Conditioned Creativity' resonated strongly with the local audience",
+        "Corporate outreach campaign launched targeting HR managers and office administrators in the Phoenix business corridor — landing page with corporate-specific social proof, flexible scheduling, and custom package builder",
+        "When seasonal demand shifted toward indoor summer activities, AI agents restructured campaign allocation within hours — reallocating 30% of budget to high-intent summer keywords that traditional agencies would have missed until their next monthly review",
+        "Retargeting sequences deployed for users who visited private event pages but didn't book — segmented by event type with tailored follow-up messaging and limited-time incentives",
+        "Increased monthly budget to $3,150 as validated ICP data confirmed summer would be the highest-converting period for Phoenix art studios",
+        "SEO content production scaled to 10 articles/month with AI — covering seasonal themes, event planning guides, and activity comparison content that positioned the studio as the authoritative voice for creative experiences in Phoenix",
+      ],
+    },
+    {
+      phase: 4,
+      months: "90+ days",
+      title: "Compound Optimization & Revenue Mix Expansion",
+      items: [
+        "Continuous AI optimization compounded daily improvements — bid adjustments, audience refinements, and budget reallocations happening in real time, capturing opportunities that traditional agencies reviewing accounts weekly would miss entirely",
+        "Private event booking pipeline now generating 40% of total revenue (up from 18% at campaign start) through dedicated landing pages, qualifying flows, and targeted advertising to event planners and group organizers",
+        "Corporate team-building bookings increased as summer drove companies to seek indoor off-site activities — AI agents detected this trend shift and automatically prioritized corporate-intent keywords",
+        "Multi-week course enrollments marketed as 'beat the summer boredom' packages — a new revenue line discovered through campaign data showing parents searching for structured kids' activities during school breaks",
+        "Landing page A/B testing based on ICP segments — different hero images, pricing displays, and CTAs for solo creatives vs. group event planners vs. corporate HR teams",
+        "By month 8, CPQL dropped to $40 even as the studio expanded into new booking categories — proving the continuous AI optimization loop sustained efficiency at scale while diversifying revenue streams",
+        "SEO traffic growing at 25%+ month-over-month, reducing dependency on paid channels and building a sustainable organic acquisition engine for high-intent local searches",
+      ],
+    },
+  ],
+  seo: {
+    summary: [
+      { label: "Organic Traffic", value: "3,810/mo", growth: "+1,632%", from: "from 220" },
+      { label: "Keywords Ranked", value: "980", growth: "+2,078%", from: "from 45" },
+      { label: "Top 10 Rankings", value: "52", growth: "+2,500%", from: "from 2" },
+      { label: "Content Published", value: "58 pages", growth: "", from: "AI-generated at scale" },
+    ],
+    monthly: [
+      { month: "Jan '26", keywords: 45, top10: 2, top3: 0, traffic: 220, pages: 12, avgPos: 52.1, ctr: 0.9 },
+      { month: "Feb '26", keywords: 68, top10: 5, top3: 1, traffic: 310, pages: 18, avgPos: 44.3, ctr: 1.2 },
+      { month: "Mar '26", keywords: 105, top10: 9, top3: 2, traffic: 460, pages: 26, avgPos: 38.7, ctr: 1.6 },
+      { month: "Apr '26", keywords: 165, top10: 16, top3: 4, traffic: 720, pages: 32, avgPos: 33.2, ctr: 2.1 },
+      { month: "May '26", keywords: 280, top10: 24, top3: 7, traffic: 1180, pages: 39, avgPos: 28.4, ctr: 2.5 },
+      { month: "Jun '26", keywords: 450, top10: 34, top3: 11, traffic: 1860, pages: 46, avgPos: 24.1, ctr: 2.9 },
+      { month: "Jul '26", keywords: 710, top10: 43, top3: 15, traffic: 2780, pages: 52, avgPos: 20.6, ctr: 3.2 },
+      { month: "Aug '26", keywords: 980, top10: 52, top3: 19, traffic: 3810, pages: 58, avgPos: 18.3, ctr: 3.5 },
+    ],
+  },
+  paidAds: {
+    summary: [
+      { label: "Total Ad Spend", value: "$27.6K" },
+      { label: "Qualified Leads", value: "522" },
+      { label: "Avg Cost Per Qualified Lead", value: "$53", note: "↓45% from $97" },
+      { label: "Closed Bookings", value: "182", note: "avg booking value $344" },
+    ],
+    columnLabels: {
+      leads: "Total Leads",
+      cpl: "CPL",
+      qualified: "Qualified Leads",
+      cpql: "CPQL",
+      deals: "Closed Bookings",
+      costPerDeal: "Cost/Booking",
+    },
+    monthly: [
+      { month: "Jan '26", spend: 3000, leads: 86, cpl: 34.88, qualified: 31, cpql: 96.77, deals: 8, revenue: 2216, roas: 0.74 },
+      { month: "Feb '26", spend: 3400, leads: 108, cpl: 31.48, qualified: 41, cpql: 82.93, deals: 12, revenue: 3516, roas: 1.03 },
+      { month: "Mar '26", spend: 3050, leads: 112, cpl: 27.23, qualified: 45, cpql: 67.78, deals: 15, revenue: 4680, roas: 1.53 },
+      { month: "Apr '26", spend: 3150, leads: 131, cpl: 24.05, qualified: 55, cpql: 57.27, deals: 19, revenue: 6194, roas: 1.97 },
+      { month: "May '26", spend: 3600, leads: 163, cpl: 22.09, qualified: 71, cpql: 50.70, deals: 25, revenue: 8575, roas: 2.38 },
+      { month: "Jun '26", spend: 3800, leads: 194, cpl: 19.59, qualified: 86, cpql: 44.19, deals: 31, revenue: 10943, roas: 2.88 },
+      { month: "Jul '26", spend: 3900, leads: 218, cpl: 17.89, qualified: 99, cpql: 39.39, deals: 37, revenue: 13357, roas: 3.42 },
+      { month: "Aug '26", spend: 3700, leads: 209, cpl: 17.70, qualified: 94, cpql: 39.36, deals: 35, revenue: 13020, roas: 3.52 },
+    ],
+  },
+  impact: [
+    { label: "Total Revenue", value: "$62.5K", growth: "+488%" },
+    { label: "Closed Bookings", value: "182", growth: "+338%" },
+    { label: "Cost Per Qualified Lead", value: "$39", growth: "↓59%" },
+    { label: "Blended ROAS", value: "2.26x", growth: "" },
+  ],
+};
