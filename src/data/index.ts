@@ -1,4 +1,5 @@
 import { CaseStudyData } from "./types";
+import { peptidesNational } from "./peptides-national";
 import { artStudioPhoenix } from "./art-studio-phoenix";
 import { fashionApparelSeattle } from "./fashion-apparel-seattle";
 import { piLawFirmPhoenix } from "./pi-law-firm-phoenix";
@@ -767,6 +768,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "hvac-south-florida": hvacSouthFlorida,
   "fashion-apparel-seattle": fashionApparelSeattle,
   "art-studio-phoenix": artStudioPhoenix,
+  "peptides-national": peptidesNational,
 };
 
 export type { CaseStudyData };
