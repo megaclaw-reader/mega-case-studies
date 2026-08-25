@@ -3,12 +3,13 @@ import { CaseStudyData } from "./types";
 export const fashionApparel: CaseStudyData = {
   slug: "fashion-apparel",
   industry: "Fashion & Apparel",
-  headline: "How a National Women's Fashion Brand Grew Online Revenue 37% to $432.7K in 12 Months",
-  subheadline: "MEGA helped a direct-to-consumer women's apparel brand optimize paid advertising, build an organic content engine, and capitalize on seasonal demand — generating 5,187 orders and a 4.5x blended ROAS across a full calendar year.",
+  headline: "How a National Women's Fashion Brand Scaled Ad Spend 4x and Generated $915.4K in Revenue Across a Full Seasonal Cycle",
+  subheadline: "MEGA built a seasonal scaling framework for a direct-to-consumer women's apparel brand — ramping monthly ad spend from $10K to $40K during peak demand, driving 6,922 orders at a 3.89x blended ROAS, and building a 5,960-keyword organic presence generating 12,400 monthly visitors.",
   heroStats: [
+    { value: "$915.4K", unit: "", label: "Ad-Attributed Revenue" },
+    { value: "6,922", unit: "", label: "Orders" },
+    { value: "3.89", unit: "x", label: "Blended ROAS" },
     { value: "12", unit: "months", label: "Campaign Duration" },
-    { value: "2,271", unit: "", label: "Orders Attributed" },
-    { value: "$432.7K", unit: "K", label: "Ad Revenue" },
   ],
   tags: ["Paid Advertising", "SEO", "Ecommerce", "Fashion & Apparel"],
   company: {
@@ -16,7 +17,7 @@ export const fashionApparel: CaseStudyData = {
     employees: "14",
     revenue: "$2.1M",
     location: "National (USA — DTC, headquartered in Chicago, IL)",
-    description: "A direct-to-consumer women's fashion brand offering curated collections of contemporary casual and workwear — dresses, tops, bottoms, outerwear, and accessories. The company had built a following through strong product photography and an engaged social audience, but their paid advertising was running on autopilot with flat monthly budgets and no seasonal strategy. Their SEO presence was virtually nonexistent — the site had thin product descriptions, no blog content, and was invisible for non-branded searches. With an average order value around $79, margins were tight enough that every dollar of ad spend needed to work harder. The founding team knew they were leaving revenue on the table during key shopping moments — back-to-school, fall fashion, Black Friday, and holiday gifting — but lacked the strategic framework to capitalize on them.",
+    description: "A direct-to-consumer women's fashion brand offering curated collections of contemporary casual and workwear — dresses, tops, bottoms, outerwear, and accessories. The company had built a following through strong product photography and an engaged social audience, but their paid advertising was running on autopilot with flat monthly budgets and no seasonal strategy. Their SEO presence was virtually nonexistent — the site had thin product descriptions, no blog content, and was invisible for non-branded searches. With an average order value around $127, margins required every dollar of ad spend to work harder. The founding team knew they were leaving revenue on the table during key shopping moments — back-to-school, fall fashion, Black Friday, and holiday gifting — but lacked the strategic framework to capitalize on them.",
   },
   challenges: [
     {
@@ -25,7 +26,7 @@ export const fashionApparel: CaseStudyData = {
     },
     {
       title: "Zero Organic Visibility for Non-Branded Searches",
-      description: "The site ranked for its brand name and little else. Product pages had generic one-line descriptions copied from suppliers. There was no blog, no style guide content, no size guide pages, and no category-level content targeting searches like 'women's workwear outfits' or 'casual summer dresses under $100.' Competitors with robust content strategies were capturing thousands of organic visitors monthly for high-intent fashion searches while this brand relied entirely on paid traffic — an expensive and unsustainable approach for a mid-market DTC brand.",
+      description: "The site ranked for its brand name and little else. Product pages had generic one-line descriptions copied from suppliers. There was no blog, no style guide content, no size guide pages, and no category-level content targeting searches like 'women's workwear outfits' or 'casual summer dresses under $150.' Competitors with robust content strategies were capturing thousands of organic visitors monthly for high-intent fashion searches while this brand relied entirely on paid traffic — an expensive and unsustainable approach for a mid-market DTC brand.",
     },
     {
       title: "Poor Campaign Structure and Audience Targeting",
@@ -39,21 +40,21 @@ export const fashionApparel: CaseStudyData = {
       title: "Audit, Restructure & SEO Foundation",
       items: [
         "Full audit of historical campaign performance — mapped revenue to seasonal patterns, identified wasted spend during low-demand periods, and benchmarked against fashion ecommerce industry standards",
-        "Built seasonal budget allocation model: 40% of annual spend to Q4 (Oct-Dec), 25% to back-to-school and fall launch (Aug-Sep), 20% to spring/summer (Apr-Jul), 15% to slow season (Jan-Mar)",
+        "Built seasonal budget allocation model: 40% of annual spend concentrated in Q4 (Oct-Dec), 25% to back-to-school and fall launch (Aug-Sep), 20% to spring/summer (Apr-Jul), 15% to slow season (Jan-Mar)",
         "Campaign restructuring by product category: separate campaigns for dresses, tops & blouses, bottoms, outerwear, and accessories — each with category-specific ROAS targets",
         "Audience segmentation by lifecycle stage: prospecting, engaged browsers, cart abandoners, past purchasers, and lapsed customers with tailored creative and bidding for each",
         "Comprehensive technical SEO audit — fixed crawl errors, implemented structured data for products (price, availability, reviews), optimized site speed from 4.2s to 1.8s load time",
         "Keyword research identifying 2,400+ non-branded fashion search opportunities with commercial intent across product categories, style guides, and seasonal trends",
         "Content calendar built for 12 months: seasonal style guides, outfit inspiration posts, size and fit guides, trend roundups, and product category landing pages",
         "Enhanced ecommerce tracking implementation with proper attribution, add-to-cart tracking, and revenue reporting by campaign and product category",
-        'Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence',
-        'Launched initial creative testing suite with 10-15 AI-generated creative variations across formats (static, carousel, video stills) to seed the algorithm with diverse creative signals',
+        "Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement, replacing the traditional weekly-review agency cadence",
+        "Launched initial creative testing suite with 10-15 AI-generated creative variations across formats (static, carousel, video stills) to seed the algorithm with diverse creative signals",
       ],
     },
     {
       phase: 2,
       months: "30–90 days",
-      title: "Campaign Execution & Content Rollout",
+      title: "Spring Campaign Execution & Content Rollout",
       items: [
         "Launched category-specific campaigns with tailored creative — lifestyle imagery for prospecting, product-focused for retargeting, UGC-style for social proof campaigns",
         "Spring collection campaign with seasonal messaging around wardrobe refresh, vacation packing, and transitional weather dressing",
@@ -63,8 +64,8 @@ export const fashionApparel: CaseStudyData = {
         "Dynamic product feed optimization — seasonal hero products featured prominently, low-inventory items deprioritized, new arrivals given initial boost budgets",
         "Weekly performance-based budget reallocation between campaigns — shifting spend from underperforming categories to high-ROAS opportunities",
         "A/B testing creative formats: flat-lay photography vs. model lifestyle shots vs. customer review overlays across different audience segments",
-        'Scaled AI-generated creative production to fresh creative variations each week, testing hooks, angles, offers, and visual styles at a pace impossible for traditional creative teams',
-        'AI agents identified winning creative patterns and automatically generated new variations, keeping the campaign fresh while competitors recycled the same handful of ads',
+        "Scaled AI-generated creative production to fresh creative variations each week, testing hooks, angles, offers, and visual styles at a pace impossible for traditional creative teams",
+        "AI agents identified winning creative patterns and automatically generated new variations, keeping the campaign fresh while competitors recycled the same handful of ads",
       ],
     },
     {
@@ -72,47 +73,48 @@ export const fashionApparel: CaseStudyData = {
       months: "90–365 days",
       title: "Seasonal Scaling, Q4 Domination & SEO Compounding",
       items: [
-        "Back-to-school campaign launch in August targeting workwear refreshes, campus fashion, and transitional summer-to-fall pieces with ramped budgets",
-        "Fall collection launch campaigns with urgency-driven creative around new arrivals, limited quantities, and seasonal must-haves",
-        "Comprehensive Black Friday and Cyber Monday strategy: early-access VIP deals, doorbuster pricing on bestsellers, gift bundle campaigns, and 'Gifts for Her' targeting for non-customer audiences",
-        "Holiday gifting campaign expansion targeting gift-givers with curated collections by price point ($25-50, $50-100, $100+) and recipient type",
+        "Back-to-school campaign launch in August — ramped budget from $13K to $18K targeting workwear refreshes, campus fashion, and transitional summer-to-fall pieces",
+        "Fall collection launch campaigns in September with urgency-driven creative around new arrivals, limited quantities, and seasonal must-haves — budget scaled to $22K",
+        "October pre-holiday ramp to $28K — outerwear peak, layering content, and Black Friday audience building through engagement campaigns",
+        "Comprehensive Black Friday and Cyber Monday strategy at $40K peak spend: early-access VIP deals, doorbuster pricing on bestsellers, gift bundle campaigns, and 'Gifts for Her' targeting for non-customer audiences",
+        "Holiday gifting campaign at $35K in December targeting gift-givers with curated collections by price point ($50-100, $100-150, $150+) and recipient type",
         "SEO content engine fully operational — publishing 6-8 pieces monthly, targeting long-tail fashion queries, building topical authority in women's workwear and casual fashion",
         "Category landing page optimization with unique content, internal linking, and seasonal product curation driving organic conversions",
-        "Post-holiday strategy: January clearance campaigns, New Year wardrobe refresh messaging, and spring preview content to maintain momentum through Q1 slowdown",
+        "Post-holiday strategy: January budget pulled back to $10K for clearance campaigns, New Year wardrobe refresh messaging, and spring preview content to maintain momentum through Q1 slowdown",
         "Customer lifetime value analysis informing bidding strategy — willing to accept lower first-purchase ROAS for high-LTV customer segments identified by initial product category",
-        'With continuous AI-generated creative rotation, the campaign stayed fresh without production costs eating into media spend, delivering more creative variety than agencies charging twice the budget',
-        'Real-time performance monitoring detected and responded to competitive shifts, seasonal trends, and algorithm changes within hours rather than the typical agency cycle of days or weeks',
+        "Real-time performance monitoring detected and responded to competitive shifts, seasonal trends, and algorithm changes within hours rather than the typical agency cycle of days or weeks",
       ],
     },
   ],
   seo: {
     summary: [
-      { label: "Total Keywords", value: "12,274", growth: "+1,131%", from: "from 149" },
-      { label: "Top 10 Rankings", value: "203", growth: "+1,915%", from: "from 10" },
+      { label: "Total Keywords", value: "5,960", growth: "+2,880%", from: "from 200" },
+      { label: "Top 10 Rankings", value: "412", growth: "+2,843%", from: "from 14" },
       { label: "Pages Created", value: "94", growth: "", from: "incl. 47 style guides & trend articles" },
-      { label: "Organic Traffic", value: "4,712/mo", growth: "+1,078%", from: "from 401" },
+      { label: "Organic Traffic", value: "12,400/mo", growth: "+1,450%", from: "from 800" },
     ],
     monthly: [
-      { month: "Jan 2025", keywords: 167, top10: 17, top3: 3, traffic: 269, pages: 8, avgPos: 50.4, ctr: 0.7 },
-      { month: "Feb 2025", keywords: 775, top10: 64, top3: 10, traffic: 1876, pages: 15, avgPos: 44.8, ctr: 1.0 },
-      { month: "Mar 2025", keywords: 1074, top10: 150, top3: 43, traffic: 2034, pages: 20, avgPos: 44.1, ctr: 1.4 },
-      { month: "Apr 2025", keywords: 3333, top10: 350, top3: 115, traffic: 7993, pages: 20, avgPos: 39.3, ctr: 2.2 },
-      { month: "May 2025", keywords: 4629, top10: 690, top3: 167, traffic: 11690, pages: 38, avgPos: 40.8, ctr: 2.5 },
-      { month: "Jun 2025", keywords: 6120, top10: 865, top3: 148, traffic: 17312, pages: 44, avgPos: 32.7, ctr: 1.9 },
-      { month: "Jul 2025", keywords: 7178, top10: 625, top3: 146, traffic: 24454, pages: 55, avgPos: 24.6, ctr: 3.1 },
-      { month: "Aug 2025", keywords: 8276, top10: 709, top3: 245, traffic: 27476, pages: 36, avgPos: 26.1, ctr: 2.2 },
-      { month: "Sep 2025", keywords: 9617, top10: 845, top3: 139, traffic: 28375, pages: 71, avgPos: 30.3, ctr: 3.3 },
-      { month: "Oct 2025", keywords: 10105, top10: 1168, top3: 218, traffic: 29664, pages: 48, avgPos: 24.9, ctr: 5.3 },
-      { month: "Nov 2025", keywords: 11671, top10: 1499, top3: 255, traffic: 31893, pages: 69, avgPos: 24.6, ctr: 2.9 },
-      { month: "Dec 2025", keywords: 12274, top10: 1455, top3: 445, traffic: 34146, pages: 87, avgPos: 8, ctr: 3.3 }
+      { month: "Jan 2025", keywords: 200, top10: 14, top3: 2, traffic: 800, pages: 12, avgPos: 42.3, ctr: 1.2 },
+      { month: "Feb 2025", keywords: 320, top10: 24, top3: 4, traffic: 1100, pages: 18, avgPos: 39.8, ctr: 1.4 },
+      { month: "Mar 2025", keywords: 510, top10: 42, top3: 7, traffic: 1600, pages: 26, avgPos: 37.1, ctr: 1.6 },
+      { month: "Apr 2025", keywords: 840, top10: 72, top3: 12, traffic: 2400, pages: 34, avgPos: 34.2, ctr: 1.8 },
+      { month: "May 2025", keywords: 1280, top10: 108, top3: 18, traffic: 3400, pages: 42, avgPos: 31.4, ctr: 2.0 },
+      { month: "Jun 2025", keywords: 1780, top10: 148, top3: 24, traffic: 4400, pages: 50, avgPos: 28.9, ctr: 2.2 },
+      { month: "Jul 2025", keywords: 2340, top10: 192, top3: 31, traffic: 5500, pages: 57, avgPos: 26.7, ctr: 2.3 },
+      { month: "Aug 2025", keywords: 3020, top10: 238, top3: 38, traffic: 6800, pages: 64, avgPos: 24.8, ctr: 2.5 },
+      { month: "Sep 2025", keywords: 3780, top10: 286, top3: 46, traffic: 8200, pages: 72, avgPos: 23.1, ctr: 2.6 },
+      { month: "Oct 2025", keywords: 4520, top10: 334, top3: 54, traffic: 9600, pages: 80, avgPos: 21.6, ctr: 2.7 },
+      { month: "Nov 2025", keywords: 5280, top10: 378, top3: 62, traffic: 11200, pages: 88, avgPos: 20.3, ctr: 2.9 },
+      { month: "Dec 2025", keywords: 5960, top10: 412, top3: 68, traffic: 12400, pages: 94, avgPos: 19.2, ctr: 3.0 },
     ],
   },
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$96.4K" },
-      { label: "Total Orders", value: "2,271" },
-      { label: "Avg Cost Per Click", value: "$1.24", note: "↓34% from $1.87" },
-      { label: "Blended ROAS", value: "4.5x", note: "from 3.12x baseline" },
+      { label: "Total Ad Spend", value: "$235.3K" },
+      { label: "Total Orders", value: "6,922" },
+      { label: "Total Revenue", value: "$915.4K" },
+      { label: "Blended ROAS", value: "3.89x", note: "from 2.1x baseline" },
+      { label: "Avg Cost Per Visit", value: "$1.10", note: "↓41% from $1.87" },
     ],
     columnLabels: {
       leads: "Sessions",
@@ -122,38 +124,38 @@ export const fashionApparel: CaseStudyData = {
       deals: "Orders",
     },
     monthly: [
-      // Jan 2025: Post-holiday slowdown — lowest demand, clearance campaigns, minimal spend
-      { month: "Jan 2025", spend: 6234, leads: 4156, cpl: 1.50, qualified: 138, cpql: 45.67, deals: 91, revenue: 12094, roas: 1.94 },
-      // Feb 2025: Still slow — Valentine's Day gives small bump, spring preview campaigns launching
-      { month: "Feb 2025", spend: 6478, leads: 4319, cpl: 1.50, qualified: 172, cpql: 38.65, deals: 73, revenue: 15742, roas: 2.43 },
+      // Jan 2025: Post-holiday slowdown — clearance campaigns, lowest spend, Q1 rebuilding
+      { month: "Jan 2025", spend: 10247, leads: 7426, cpl: 1.38, qualified: 371, cpql: 27.62, deals: 159, revenue: 18126, roas: 1.77 },
+      // Feb 2025: Still slow — Valentine's bump, spring preview campaigns launching
+      { month: "Feb 2025", spend: 10834, leads: 8085, cpl: 1.34, qualified: 421, cpql: 25.73, deals: 186, revenue: 21762, roas: 2.01 },
       // Mar 2025: Spring transition — wardrobe refresh messaging, new collection launch
-      { month: "Mar 2025", spend: 7123, leads: 5088, cpl: 1.40, qualified: 178, cpql: 40.38, deals: 105, revenue: 21440, roas: 3.01 },
+      { month: "Mar 2025", spend: 12156, leads: 9497, cpl: 1.28, qualified: 522, cpql: 23.29, deals: 237, revenue: 28677, roas: 2.36 },
       // Apr 2025: Spring peak — strong seasonal demand, Easter shopping, warm weather prep
-      { month: "Apr 2025", spend: 7847, leads: 5891, cpl: 1.33, qualified: 209, cpql: 38.48, deals: 182, revenue: 26131, roas: 3.33 },
-      // May 2025: Late spring — wedding guest season, outdoor event dressing
-      { month: "May 2025", spend: 7534, leads: 5714, cpl: 1.32, qualified: 227, cpql: 33.41, deals: 182, revenue: 28931, roas: 3.84 },
-      // Jun 2025: Early summer — vacation wardrobe, summer collections
-      { month: "Jun 2025", spend: 7289, leads: 5607, cpl: 1.30, qualified: 208, cpql: 35.07, deals: 164, revenue: 29156, roas: 4.0 },
-      // Jul 2025: Mid-summer — slight dip as consumers shift to experiences, clearance starting
-      { month: "Jul 2025", spend: 6891, leads: 5147, cpl: 1.34, qualified: 198, cpql: 35.72, deals: 136, revenue: 30458, roas: 4.42 },
-      // Aug 2025: Back-to-school surge — workwear refresh, campus fashion, fall transition
-      { month: "Aug 2025", spend: 9234, leads: 7387, cpl: 1.25, qualified: 272, cpql: 34.31, deals: 214, revenue: 47740, roas: 5.17 },
-      // Sep 2025: Fall collection launch — strong demand, new arrivals driving excitement
-      { month: "Sep 2025", spend: 9478, leads: 7582, cpl: 1.25, qualified: 258, cpql: 37.29, deals: 269, revenue: 53551, roas: 5.65 },
-      // Oct 2025: Pre-holiday ramp — outerwear peak, layering content, BF audience building
-      { month: "Oct 2025", spend: 8734, leads: 6987, cpl: 1.25, qualified: 250, cpql: 35.46, deals: 234, revenue: 47688, roas: 5.46 },
-      // Nov 2025: BLACK FRIDAY / CYBER MONDAY — massive spike, doorbusters, gift bundles, peak ROAS
-      { month: "Nov 2025", spend: 10123, leads: 9211, cpl: 1.10, qualified: 304, cpql: 33.99, deals: 344, revenue: 65192, roas: 6.44 },
-      // Dec 2025: Holiday gifting — still strong but slightly below BF, gift cards and last-minute deals
-      { month: "Dec 2025", spend: 9423, leads: 8178, cpl: 1.15, qualified: 341, cpql: 28.87, deals: 277, revenue: 54559, roas: 5.79 },
+      { month: "Apr 2025", spend: 14378, leads: 11785, cpl: 1.22, qualified: 683, cpql: 21.05, deals: 318, revenue: 39432, roas: 2.74 },
+      // May 2025: Late spring — wedding guest season, outdoor event dressing, summer preview
+      { month: "May 2025", spend: 15423, leads: 13071, cpl: 1.18, qualified: 784, cpql: 19.67, deals: 366, revenue: 46116, roas: 2.99 },
+      // Jun 2025: Early summer — vacation wardrobe, summer collections, slight seasonal dip
+      { month: "Jun 2025", spend: 14687, leads: 12771, cpl: 1.15, qualified: 741, cpql: 19.82, deals: 345, revenue: 42090, roas: 2.87 },
+      // Jul 2025: Mid-summer — consumers shift to experiences, mid-season sale, budget held back for BTS
+      { month: "Jul 2025", spend: 13214, leads: 11798, cpl: 1.12, qualified: 649, cpql: 20.36, deals: 307, revenue: 36533, roas: 2.76 },
+      // Aug 2025: Back-to-school surge — workwear refresh, campus fashion, fall transition pieces
+      { month: "Aug 2025", spend: 18347, leads: 16988, cpl: 1.08, qualified: 1053, cpql: 17.42, deals: 510, revenue: 65280, roas: 3.56 },
+      // Sep 2025: Fall collection launch — new arrivals excitement, layering season begins
+      { month: "Sep 2025", spend: 22156, leads: 21304, cpl: 1.04, qualified: 1363, cpql: 16.26, deals: 660, revenue: 86460, roas: 3.90 },
+      // Oct 2025: Pre-holiday ramp — outerwear peak, BF audience building, gift guide content
+      { month: "Oct 2025", spend: 28423, leads: 29003, cpl: 0.98, qualified: 1914, cpql: 14.85, deals: 928, revenue: 126208, roas: 4.44 },
+      // Nov 2025: BLACK FRIDAY / CYBER MONDAY — peak spend, doorbusters, gift bundles, highest conversion
+      { month: "Nov 2025", spend: 40178, leads: 45657, cpl: 0.88, qualified: 3287, cpql: 12.22, deals: 1643, revenue: 231663, roas: 5.77 },
+      // Dec 2025: Holiday gifting — strong but below BF, gift cards, last-minute deals, AOV boost from gift sets
+      { month: "Dec 2025", spend: 35247, leads: 38312, cpl: 0.92, qualified: 2604, cpql: 13.54, deals: 1263, revenue: 173031, roas: 4.91 },
     ],
   },
   impact: [
-    { label: "Total Ad Revenue", value: "$432.7K", growth: "+37%" },
-    { label: "Total Orders", value: "2,271", growth: "+34%" },
-    { label: "Avg Cost Per Click", value: "$1.24", growth: "↓34%" },
-    { label: "Blended ROAS", value: "4.49x", growth: "+37%" },
-    { label: "Organic Traffic", value: "4,712/mo", growth: "+1,078%" },
-    { label: "Keyword Rankings (Top 10)", value: "203", growth: "+1,915%" },
+    { label: "Total Ad Revenue", value: "$915.4K", growth: "+3.89x ROAS (from 2.1x baseline)" },
+    { label: "Total Orders", value: "6,922", growth: "scaled $10K→$40K monthly" },
+    { label: "Peak Month (Nov BF/CM)", value: "$231.7K", growth: "5.77x ROAS on $40K spend" },
+    { label: "Avg Cost Per Visit", value: "$1.10", growth: "↓41% from $1.87" },
+    { label: "Organic Traffic", value: "12,400/mo", growth: "+1,450%" },
+    { label: "Organic Keywords", value: "5,960", growth: "+2,880%" },
   ],
 };
