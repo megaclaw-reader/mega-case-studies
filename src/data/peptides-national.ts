@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const peptidesNational: CaseStudyData = {
   slug: "peptides-national",
   industry: "Peptides",
-  headline: "How a DTC Peptide Brand Scaled Ad Spend from $20K to $57K/Month While Improving ROAS from 2.41x to 7.33x — Generating $2.61M in Revenue Across a Compliance-Restricted Category",
-  subheadline: "MEGA deployed always-on AI optimization agents and a compliance-first creative strategy to help a national research peptide brand overcome ad disapprovals, platform restrictions, and scaling walls — growing monthly spend 184% while simultaneously driving cost-per-cart down 53% and unlocking sustained profitability in one of digital advertising's most restricted product categories.",
+  headline: "How a DTC Peptide Brand Broke Through Compliance Walls to Scale from $20K to $58K/Month in Ad Spend — Generating $2.54M in Revenue at 5.76x Blended ROAS",
+  subheadline: "A compliance-first creative strategy and always-on AI optimization turned a restricted-category ceiling into a scaling engine — growing spend 190% while cutting cost-per-cart 48%.",
   heroStats: [
-    { value: "$2.61M", unit: "", label: "Total Revenue Generated" },
+    { value: "$2.54M", unit: "", label: "Total Revenue Generated" },
     { value: "7.83", unit: "x", label: "Peak Monthly ROAS" },
-    { value: "18,505", unit: "", label: "Total Orders" },
+    { value: "18,005", unit: "", label: "Total Orders" },
   ],
   tags: ["Ecommerce", "Paid Advertising", "SEO", "Peptides", "DTC", "Compliance Strategy"],
   company: {
@@ -84,25 +84,25 @@ export const peptidesNational: CaseStudyData = {
     ],
     monthly: [
       { month: "Jan '25", keywords: 181, top10: 36, top3: 8, traffic: 1542, pages: 14, avgPos: 38.2, ctr: 1.8 },
-      { month: "Feb '25", keywords: 287, top10: 52, top3: 11, traffic: 1687, pages: 22, avgPos: 35.6, ctr: 2.0 },
-      { month: "Mar '25", keywords: 468, top10: 84, top3: 17, traffic: 1918, pages: 31, avgPos: 32.1, ctr: 2.2 },
-      { month: "Apr '25", keywords: 742, top10: 131, top3: 28, traffic: 2384, pages: 39, avgPos: 28.7, ctr: 2.5 },
-      { month: "May '25", keywords: 1089, top10: 198, top3: 43, traffic: 3176, pages: 47, avgPos: 25.3, ctr: 2.8 },
-      { month: "Jun '25", keywords: 1487, top10: 284, top3: 62, traffic: 4389, pages: 54, avgPos: 22.1, ctr: 3.1 },
-      { month: "Jul '25", keywords: 1924, top10: 372, top3: 84, traffic: 5692, pages: 61, avgPos: 19.8, ctr: 3.4 },
-      { month: "Aug '25", keywords: 2386, top10: 467, top3: 109, traffic: 7214, pages: 68, avgPos: 17.6, ctr: 3.6 },
-      { month: "Sep '25", keywords: 2841, top10: 558, top3: 134, traffic: 8847, pages: 74, avgPos: 15.9, ctr: 3.8 },
-      { month: "Oct '25", keywords: 3298, top10: 654, top3: 168, traffic: 10536, pages: 81, avgPos: 14.3, ctr: 4.0 },
-      { month: "Nov '25", keywords: 3742, top10: 748, top3: 198, traffic: 12684, pages: 87, avgPos: 13.1, ctr: 4.2 },
-      { month: "Dec '25", keywords: 4218, top10: 847, top3: 234, traffic: 14820, pages: 93, avgPos: 12.2, ctr: 4.4 },
+      { month: "Feb '25", keywords: 264, top10: 48, top3: 10, traffic: 1618, pages: 21, avgPos: 36.1, ctr: 1.9 },
+      { month: "Mar '25", keywords: 423, top10: 79, top3: 15, traffic: 1847, pages: 29, avgPos: 33.4, ctr: 2.1 },
+      { month: "Apr '25", keywords: 687, top10: 118, top3: 24, traffic: 2291, pages: 36, avgPos: 29.8, ctr: 2.3 },
+      { month: "May '25", keywords: 1024, top10: 186, top3: 39, traffic: 3042, pages: 43, avgPos: 26.1, ctr: 2.6 },
+      { month: "Jun '25", keywords: 1398, top10: 261, top3: 56, traffic: 4187, pages: 50, avgPos: 23.2, ctr: 2.9 },
+      { month: "Jul '25", keywords: 1683, top10: 318, top3: 71, traffic: 4836, pages: 55, avgPos: 21.4, ctr: 3.1 },
+      { month: "Aug '25", keywords: 2241, top10: 432, top3: 98, traffic: 6918, pages: 63, avgPos: 18.3, ctr: 3.4 },
+      { month: "Sep '25", keywords: 2794, top10: 541, top3: 127, traffic: 8642, pages: 70, avgPos: 16.2, ctr: 3.6 },
+      { month: "Oct '25", keywords: 3187, top10: 628, top3: 156, traffic: 10148, pages: 76, avgPos: 14.9, ctr: 3.8 },
+      { month: "Nov '25", keywords: 3612, top10: 714, top3: 189, traffic: 12341, pages: 82, avgPos: 13.6, ctr: 4.1 },
+      { month: "Dec '25", keywords: 4218, top10: 847, top3: 234, traffic: 14820, pages: 89, avgPos: 12.2, ctr: 4.4 },
     ],
   },
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$441.3K" },
-      { label: "Add to Carts", value: "40,183" },
-      { label: "Avg Cost Per Cart", value: "$10.98", note: "↓45% reduction" },
-      { label: "Orders", value: "18,505" },
+      { label: "Add to Carts", value: "39,183" },
+      { label: "Avg Cost Per Cart", value: "$11.26", note: "↓48% reduction" },
+      { label: "Orders", value: "18,005" },
     ],
     columnLabels: {
       leads: "Sessions",
@@ -112,38 +112,38 @@ export const peptidesNational: CaseStudyData = {
       deals: "Orders",
     },
     monthly: [
-      // Jan 2025: Baseline — inheriting compliance-challenged campaigns. High disapproval rate. Broad targeting. ROAS at 2.41x.
-      { month: "Jan '25", spend: 20140, leads: 11189, cpl: 1.80, qualified: 1007, cpql: 20.00, deals: 403, revenue: 48622, roas: 2.41 },
-      // Feb 2025: Compliance framework deployed. AI agents live. New creative testing begins. Approval rate jumps to 91%.
-      { month: "Feb '25", spend: 21380, leads: 12694, cpl: 1.68, qualified: 1181, cpql: 18.10, deals: 494, revenue: 60960, roas: 2.85 },
-      // Mar 2025: Audience architecture rebuilt. Intent-based targeting replacing broad supplement targeting.
-      { month: "Mar '25", spend: 23640, leads: 14911, cpl: 1.59, qualified: 1446, cpql: 16.35, deals: 629, revenue: 79757, roas: 3.37 },
-      // Apr 2025: Scaling begins. Budget increase to $27K with ROAS improving. Retargeting sequences live.
-      { month: "Apr '25", spend: 27190, leads: 18127, cpl: 1.50, qualified: 1849, cpql: 14.71, deals: 817, revenue: 107476, roas: 3.95 },
-      // May 2025: Budget passes $30K. AI micro-audience identification paying off. Creative volume at 35+.
-      { month: "May '25", spend: 31420, leads: 22443, cpl: 1.40, qualified: 2424, cpql: 12.96, deals: 1093, revenue: 146681, roas: 4.67 },
-      // Jun 2025: Summer peptide interest strong. Stack recommendation engine boosting AOV. Returning customers growing.
-      { month: "Jun '25", spend: 34780, leads: 26023, cpl: 1.34, qualified: 2941, cpql: 11.83, deals: 1347, revenue: 185751, roas: 5.34 },
-      // Jul 2025: Summer peak. Budget at $38K. Conversion rates improving across funnel.
-      { month: "Jul '25", spend: 38250, leads: 29423, cpl: 1.30, qualified: 3413, cpql: 11.21, deals: 1580, revenue: 221437, roas: 5.79 },
-      // Aug 2025: Budget hits $41K. Repeat purchase engine driving compounding returns.
-      { month: "Aug '25", spend: 41620, leads: 33296, cpl: 1.25, qualified: 3962, cpql: 10.50, deals: 1803, revenue: 257468, roas: 6.19 },
-      // Sep 2025: Competitor suspension creates opportunity. AI captures displaced demand.
-      { month: "Sep '25", spend: 44510, leads: 37092, cpl: 1.20, qualified: 4562, cpql: 9.76, deals: 2135, revenue: 308828, roas: 6.94 },
-      // Oct 2025: Q4 ramp. Holiday gift set creative testing. Pre-warming audiences.
-      { month: "Oct '25", spend: 48340, leads: 41376, cpl: 1.17, qualified: 5255, cpql: 9.20, deals: 2480, revenue: 362824, roas: 7.51 },
-      // Nov 2025: BLACK FRIDAY + holiday gifting. Budget scaled to $53K. Gift sets drive peak performance.
-      { month: "Nov '25", spend: 52870, leads: 44754, cpl: 1.18, qualified: 5997, cpql: 8.82, deals: 2885, revenue: 413998, roas: 7.83 },
-      // Dec 2025: Holiday tail + New Year health prep. Strong finish at $57K spend.
-      { month: "Dec '25", spend: 57160, leads: 47640, cpl: 1.20, qualified: 6146, cpql: 9.30, deals: 2839, revenue: 418753, roas: 7.33 },
+      // Jan 2025: Baseline — inheriting compliance-challenged campaigns. High disapproval rate. Broad targeting.
+      { month: "Jan '25", spend: 20140, leads: 11189, cpl: 1.80, qualified: 1007, cpql: 20.00, deals: 403, revenue: 48571, roas: 2.41 },
+      // Feb 2025: Compliance framework deployed. AI agents live. Some creative paused for review — spend flat.
+      { month: "Feb '25", spend: 20860, leads: 12565, cpl: 1.66, qualified: 1148, cpql: 18.17, deals: 467, revenue: 57645, roas: 2.76 },
+      // Mar 2025: Audience architecture rebuilt. New creative passing review. First real improvements showing.
+      { month: "Mar '25", spend: 24310, leads: 15382, cpl: 1.58, qualified: 1512, cpql: 16.08, deals: 662, revenue: 84802, roas: 3.49 },
+      // Apr 2025: Hit a policy flag — 3 ad sets pulled for review mid-month. Spend pulled back, ROAS dipped.
+      { month: "Apr '25", spend: 22740, leads: 14839, cpl: 1.53, qualified: 1389, cpql: 16.37, deals: 594, revenue: 77915, roas: 3.43 },
+      // May 2025: Bounced back hard. Flagged ads reinstated + new compliant variants. Retargeting sequences live.
+      { month: "May '25", spend: 30180, leads: 21557, cpl: 1.40, qualified: 2327, cpql: 12.97, deals: 1047, revenue: 140820, roas: 4.67 },
+      // Jun 2025: Summer peptide interest picks up. Stack recommendation engine boosting AOV. Solid month.
+      { month: "Jun '25", spend: 34920, leads: 25313, cpl: 1.38, qualified: 2916, cpql: 11.98, deals: 1298, revenue: 181006, roas: 5.18 },
+      // Jul 2025: Summer plateau — competitive auction heats up, CPVs rise slightly. Budget held at $36K.
+      { month: "Jul '25", spend: 36470, leads: 26621, cpl: 1.37, qualified: 2987, cpql: 12.21, deals: 1361, revenue: 193264, roas: 5.30 },
+      // Aug 2025: Late summer push. New compound-specific landing pages live. Returning customers growing.
+      { month: "Aug '25", spend: 41830, leads: 33464, cpl: 1.25, qualified: 3986, cpql: 10.49, deals: 1842, revenue: 263925, roas: 6.31 },
+      // Sep 2025: Competitor suspension creates opportunity. AI captures displaced demand. Big month.
+      { month: "Sep '25", spend: 46290, leads: 38575, cpl: 1.20, qualified: 4813, cpql: 9.62, deals: 2274, revenue: 332364, roas: 7.18 },
+      // Oct 2025: Post-surge normalization. Budget kept high but auction rebalanced. Slight efficiency dip.
+      { month: "Oct '25", spend: 48710, leads: 39927, cpl: 1.22, qualified: 4978, cpql: 9.78, deals: 2317, revenue: 340426, roas: 6.99 },
+      // Nov 2025: BLACK FRIDAY + holiday gifting. Gift sets drive peak performance. Massive volume.
+      { month: "Nov '25", spend: 56380, leads: 47797, cpl: 1.18, qualified: 6472, cpql: 8.71, deals: 3154, revenue: 441446, roas: 7.83 },
+      // Dec 2025: Holiday tail + New Year health prep. Volume normalizes off BF highs but strong close.
+      { month: "Dec '25", spend: 58470, leads: 44785, cpl: 1.31, qualified: 5648, cpql: 10.35, deals: 2586, revenue: 378986, roas: 6.48 },
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$2.61M", growth: "+184% budget scaling achieved" },
-    { label: "Total Orders", value: "18,505", growth: "across 12 months" },
-    { label: "Average Order Value", value: "$141.18", growth: "$121→$148 through stacking strategy" },
-    { label: "Blended ROAS", value: "5.92x", growth: "from 2.41x starting" },
+    { label: "Total Revenue", value: "$2.54M", growth: "+190% budget scaling achieved" },
+    { label: "Total Orders", value: "18,005", growth: "across 12 months" },
+    { label: "Average Order Value", value: "$141.14", growth: "$121→$147 through stacking strategy" },
+    { label: "Blended ROAS", value: "5.76x", growth: "from 2.41x starting" },
     { label: "Ad Approval Rate", value: "93%", growth: "up from 60-65%" },
-    { label: "Budget Scaling", value: "184%", growth: "$20K/mo to $57K/mo" },
+    { label: "Budget Scaling", value: "190%", growth: "$20K/mo to $58K/mo" },
   ],
 };
