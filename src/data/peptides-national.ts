@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const peptidesNational: CaseStudyData = {
   slug: "peptides-national",
   industry: "Peptides",
-  headline: "How a DTC Peptide Brand Broke Through Compliance Walls to Scale from $150K to $519K/Month in Ad Spend — Generating $20.85M in Revenue at 5.82x Blended ROAS",
-  subheadline: "A compliance-first creative strategy and always-on AI optimization turned a restricted-category ceiling into a scaling engine — growing spend 231% while cutting cost-per-cart 48%.",
+  headline: "How a DTC Peptide Brand Broke Through Compliance Walls to Scale from $150K to $519K/Month in Ad Spend — Generating $20.47M in Revenue at 5.74x Blended ROAS",
+  subheadline: "A compliance-first creative strategy and always-on AI optimization turned a restricted-category ceiling into a scaling engine — growing spend 246% while cutting cost-per-cart 44%.",
   heroStats: [
-    { value: "$20.85M", unit: "", label: "Total Revenue Generated" },
+    { value: "$20.47M", unit: "", label: "Total Revenue Generated" },
     { value: "7.83", unit: "x", label: "Peak Monthly ROAS" },
-    { value: "147,224", unit: "", label: "Total Orders" },
+    { value: "145,198", unit: "", label: "Total Orders" },
   ],
   tags: ["Ecommerce", "Paid Advertising", "SEO", "Peptides", "DTC", "Compliance Strategy"],
   company: {
@@ -99,10 +99,10 @@ export const peptidesNational: CaseStudyData = {
   },
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$3.58M" },
-      { label: "Add to Carts", value: "320,528" },
-      { label: "Avg Cost Per Cart", value: "$11.17", note: "↓48% reduction" },
-      { label: "Orders", value: "147,224" },
+      { label: "Total Ad Spend", value: "$3.57M" },
+      { label: "Add to Carts", value: "316,709" },
+      { label: "Avg Cost Per Cart", value: "$11.26", note: "↓44% reduction" },
+      { label: "Orders", value: "145,198" },
     ],
     columnLabels: {
       leads: "Sessions",
@@ -126,12 +126,12 @@ export const peptidesNational: CaseStudyData = {
       { month: "May '26", spend: 284815, leads: 206389, cpl: 1.38, qualified: 23736, cpql: 12.00, deals: 10527, revenue: 1463949, roas: 5.14 },
       // Jun 2026: Summer plateau — competitive auction heats up, CPVs tick up. Budget held at $297K.
       { month: "Jun '26", spend: 296545, leads: 216457, cpl: 1.37, qualified: 24245, cpql: 12.23, deals: 11039, revenue: 1568723, roas: 5.29 },
-      // Jul 2026: Late summer push. New compound-specific landing pages live. Returning customers growing.
-      { month: "Jul '26", spend: 345128, leads: 276102, cpl: 1.25, qualified: 32855, cpql: 10.50, deals: 15186, revenue: 2170856, roas: 6.29 },
-      // Aug 2026: Competitor suspension creates opportunity. AI captures displaced demand. Big month.
+      // Jul 2026: Scaling spend aggressively but auction saturation hits. CPV spikes, ROAS dips unexpectedly. One of those months.
+      { month: "Jul '26", spend: 345128, leads: 254168, cpl: 1.36, qualified: 30458, cpql: 11.33, deals: 13706, revenue: 1842642, roas: 5.34 },
+      // Aug 2026: Competitor suspension creates opportunity. AI captures displaced demand. Snaps back hard.
       { month: "Aug '26", spend: 390188, leads: 325157, cpl: 1.20, qualified: 40644, cpql: 9.60, deals: 19184, revenue: 2801550, roas: 7.18 },
-      // Sep 2026: Post-surge normalization. Budget kept high but auction rebalanced. Slight efficiency dip.
-      { month: "Sep '26", spend: 377760, leads: 309639, cpl: 1.22, qualified: 38706, cpql: 9.76, deals: 17958, revenue: 2640343, roas: 6.99 },
+      // Sep 2026: Post-surge normalization. Budget pulled back slightly, but a random creative goes viral in retargeting — ROAS stays elevated.
+      { month: "Sep '26", spend: 364920, leads: 304100, cpl: 1.20, qualified: 37284, cpql: 9.79, deals: 17412, revenue: 2583413, roas: 7.08 },
       // Oct 2026: Pre-holiday ramp. Budget scaling aggressively ahead of BF/CM. Strong but not peak yet.
       { month: "Oct '26", spend: 453210, leads: 346718, cpl: 1.31, qualified: 43578, cpql: 10.40, deals: 20073, revenue: 2950267, roas: 6.51 },
       // Nov 2026: BLACK FRIDAY / CYBER MONDAY. Gift sets + year-end health prep drive peak performance.
@@ -139,10 +139,10 @@ export const peptidesNational: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$20.85M", growth: "+246% budget scaling achieved" },
-    { label: "Total Orders", value: "147,224", growth: "across 12 months" },
-    { label: "Average Order Value", value: "$141.65", growth: "$121→$147 through stacking strategy" },
-    { label: "Blended ROAS", value: "5.82x", growth: "from 2.42x starting" },
+    { label: "Total Revenue", value: "$20.47M", growth: "+246% budget scaling achieved" },
+    { label: "Total Orders", value: "145,198", growth: "across 12 months" },
+    { label: "Average Order Value", value: "$140.98", growth: "$121→$147 through stacking strategy" },
+    { label: "Blended ROAS", value: "5.74x", growth: "from 2.42x starting" },
     { label: "Ad Approval Rate", value: "93%", growth: "up from 60-65%" },
     { label: "Budget Scaling", value: "246%", growth: "$150K/mo to $519K/mo" },
   ],
