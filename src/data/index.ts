@@ -1,4 +1,5 @@
 import { CaseStudyData } from "./types";
+import { medicalWeightLossNational } from "./medical-weight-loss-national";
 import { peptidesNational } from "./peptides-national";
 import { artStudioPhoenix } from "./art-studio-phoenix";
 import { fashionApparelSeattle } from "./fashion-apparel-seattle";
@@ -768,6 +769,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "hvac-south-florida": hvacSouthFlorida,
   "fashion-apparel-seattle": fashionApparelSeattle,
   "art-studio-phoenix": artStudioPhoenix,
+  "medical-weight-loss-national": medicalWeightLossNational,
   "peptides-national": peptidesNational,
 };
 

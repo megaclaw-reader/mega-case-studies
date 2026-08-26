@@ -206,6 +206,10 @@
         "hospitality_lodging": [
           600,
           900
+        ],
+        "medical_weight_loss": [
+          600,
+          1500
         ]
       }
     },
@@ -889,7 +893,8 @@
     "Hair, Beauty & Wellness": "ecommerce",
     "Consulting Services B2B": "lead_gen_professional",
     "Flooring Company": "lead_gen_services",
-    "Art Studio": "lead_gen_services"
+    "Art Studio": "lead_gen_services",
+    "Medical Weight Loss & Longevity": "healthcare_medical"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",

@@ -53,6 +53,7 @@ QUAL_RATES = {
     'Plumbing': (0.12, 0.30),
     'Healthcare': (0.10, 0.25),
     'Medical Treatment': (0.15, 0.40),
+    'Weight Loss': (0.25, 0.50),  # Weight loss leads are high-intent — patients actively seeking treatment programs, higher qual rate
     'Medical': (0.10, 0.25),
     'Mental Health': (0.10, 0.25),
     'Chiropract': (0.10, 0.25),

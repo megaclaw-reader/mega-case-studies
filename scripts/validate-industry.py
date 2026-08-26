@@ -68,6 +68,7 @@ CPL_RANGES = {
     "med_spa":           (20, 150),
     "gym_fitness":       (10, 80),
     "health_fitness_weight_loss_coach": (25, 100),
+    "medical_weight_loss": (20, 80),
     "glp1_weight_loss":  (80, 250),
     "fitness_equipment": (30, 120),
     "senior_care":       (25, 200),
@@ -208,7 +209,7 @@ def _cpl_category(industry, model_key):
         ("gym", "gym_fitness"), ("private training", "gym_fitness"),
         ("homecare", "homecare_services"), ("home care", "homecare_services"), ("home health", "homecare_services"),
         ("senior care", "senior_care"), ("disaster recovery", "restoration"), ("disaster", "restoration"), ("restor", "restoration"),
-        ("interior design", "interior_design"), ("disease prevention", "healthcare"), ("glp-1", "glp1_weight_loss"), ("glp1", "glp1_weight_loss"), ("semaglutide", "glp1_weight_loss"), ("weight loss clinic", "glp1_weight_loss"), ("event", "event"),
+        ("interior design", "interior_design"), ("disease prevention", "healthcare"), ("medical weight loss", "medical_weight_loss"), ("weight loss & longevity", "medical_weight_loss"), ("longevity medicine", "medical_weight_loss"), ("glp-1", "glp1_weight_loss"), ("glp1", "glp1_weight_loss"), ("semaglutide", "glp1_weight_loss"), ("weight loss clinic", "glp1_weight_loss"), ("event", "event"),
         ("custom vehicle", "custom_vehicle_manufacturing"),
         ("motorcycle", "motorcycle_boat"), ("boat", "motorcycle_boat"),
         ("art studio", "art_studio"), ("paint and sip", "art_studio"), ("pottery class", "art_studio"), ("art class", "art_studio"),
@@ -371,6 +372,7 @@ DEAL_VALUE_RANGES = {
     "med_spa": (200, 5000),
     "gym_fitness": (100, 2000),
     "health_fitness_weight_loss_coach": (300, 2000),
+    "medical_weight_loss": (600, 1500),
     "glp1_weight_loss":  (1500, 4000),
     "medical_document_platform": (20, 30),  # $25/mo subscription
     "medical_assessment_ai_app": (15, 30),  # monthly subscription value
