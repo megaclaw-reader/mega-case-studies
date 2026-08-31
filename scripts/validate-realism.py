@@ -33,6 +33,8 @@ QUAL_RATES = {
     'B2B': (0.08, 0.20),
     'Renewable Energy Procurement SaaS': (0.25, 0.55),  # Highly targeted B2B enterprise campaigns — narrow audience = higher qual rate
     'SaaS': (0.08, 0.20),
+    'Criminal Law': (0.15, 0.35),  # Criminal defense has higher qual rates — urgent, high-intent callers arrested or charged
+    'Criminal Defense': (0.15, 0.35),
     'Business Law': (0.20, 0.45),  # B2B legal services have higher qual rates with proper targeting
     'Business': (0.10, 0.25),
     'Construction': (0.08, 0.20),

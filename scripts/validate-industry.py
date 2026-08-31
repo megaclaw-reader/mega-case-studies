@@ -96,6 +96,7 @@ CPL_RANGES = {
     "hospitality_lodging": (15, 80),
     # Lead gen professional — higher competition, expensive keywords
     "legal":             (50, 500),
+    "criminal_law":      (80, 350),
     "personal_injury":   (75, 600),
     "immigration_law":   (30, 300),
     "business_litigation": (75, 500),
@@ -239,6 +240,7 @@ def _cpl_category(industry, model_key):
         ("franchise restaurant", "franchise_restaurant"), ("franchise", "franchise_restaurant"),
         ("rental car", "rental_car"), ("car rental", "rental_car"),
         ("social security disability", "social_security_disability"),
+        ("criminal law", "criminal_law"), ("criminal defense", "criminal_law"),
         ("personal injury", "personal_injury"), ("immigration", "immigration_law"),
         ("business law", "business_law"),
         ("litigation", "business_litigation"),
@@ -410,6 +412,7 @@ DEAL_VALUE_RANGES = {
     "logistics": (8000, 60000),
     "business_law": (5000, 25000),
     "legal": (2000, 30000),
+    "criminal_law": (2000, 8000),
     "personal_injury": (5000, 150000),
     "immigration_law": (2000, 20000),
     "business_litigation": (5000, 120000),

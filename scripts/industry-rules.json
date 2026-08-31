@@ -281,6 +281,10 @@
           2000,
           20000
         ],
+        "criminal_law": [
+          2000,
+          8000
+        ],
         "default": [
           3000,
           25000
@@ -650,6 +654,8 @@
     "Legal Services": "lead_gen_professional",
     "Legal / Professional Services": "lead_gen_professional",
     "National Law Firm": "lead_gen_professional",
+    "Criminal Law": "lead_gen_professional",
+    "Criminal Defense": "lead_gen_professional",
     "Personal Injury Law": "lead_gen_professional",
     "Business Litigation": "lead_gen_professional",
     "Accounting": "lead_gen_professional",
@@ -894,7 +900,8 @@
     "Consulting Services B2B": "lead_gen_professional",
     "Flooring Company": "lead_gen_services",
     "Art Studio": "lead_gen_services",
-    "Medical Weight Loss & Longevity": "healthcare_medical"
+    "Medical Weight Loss & Longevity": "healthcare_medical",
+    "Criminal Law": "lead_gen_professional"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",

@@ -18,6 +18,7 @@ import { employmentLawLasVegas } from "./employment-law-las-vegas";
 import { employmentLawSanAntonio } from "./employment-law-san-antonio";
 import { posSoftwareNational } from "./pos-software";
 import { addictionRehabNy } from "./addiction-rehab-ny";
+import { criminalLawPhoenix } from "./criminal-law-phoenix";
 import { peptidesSeoArizona } from "./peptides-seo-arizona";
 import { b2bHealthcareServicesNational } from "./b2b-healthcare-services-national";
 import { commercialHvacPartsNational } from "./commercial-hvac-parts-national";
@@ -387,6 +388,7 @@ import { healthRetreat } from "./health-retreat";
 import { hairBeautyWellnessNational } from "./hair-beauty-wellness-national";
 import { hvacSouthFlorida } from "./hvac-south-florida";
 export const caseStudies: Record<string, CaseStudyData> = {
+  "criminal-law-phoenix": criminalLawPhoenix,
   "specialty-medical-houston": specialtyMedicalHouston,
   "medical-assessment-ai-app": medicalAssessmentAiApp,
   "ma-advisory": maAdvisory,
