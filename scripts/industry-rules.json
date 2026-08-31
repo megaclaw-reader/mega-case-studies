@@ -285,6 +285,10 @@
           2000,
           8000
         ],
+        "dui_defense": [
+          3000,
+          7500
+        ],
         "default": [
           3000,
           25000
@@ -901,7 +905,10 @@
     "Flooring Company": "lead_gen_services",
     "Art Studio": "lead_gen_services",
     "Medical Weight Loss & Longevity": "healthcare_medical",
-    "Criminal Law": "lead_gen_professional"
+    "Criminal Law": "lead_gen_professional",
+    "DUI/OVI Defence": "lead_gen_professional",
+    "DUI/DWI Defense": "lead_gen_professional",
+    "DUI Defense": "lead_gen_professional"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",
