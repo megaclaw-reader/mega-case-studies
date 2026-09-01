@@ -908,7 +908,8 @@
     "DUI/OVI Defence": "lead_gen_professional",
     "DUI/DWI Defense": "lead_gen_professional",
     "DUI Defense": "lead_gen_professional",
-    "Painting Services": "lead_gen_services"
+    "Painting Services": "lead_gen_services",
+    "Life and Car Insurance": "lead_gen_services"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",

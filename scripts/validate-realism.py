@@ -65,6 +65,7 @@ QUAL_RATES = {
     'Home Service': (0.10, 0.25),
     'Home Improv': (0.10, 0.25),
     'Custom Home': (0.10, 0.25),
+    'Life and Car Insurance': (0.25, 0.50),  # Auto insurance quotes are high-intent — most requesters own a car and need coverage. Blended auto+life skews higher than commercial insurance.
     'Insurance': (0.06, 0.20),
     'Financial': (0.06, 0.20),
     'Fintech': (0.06, 0.20),

@@ -329,6 +329,7 @@ import { customClosetsStorage } from "./custom-closets-storage";
 import { seniorCareCharlotte } from "./senior-care-charlotte";
 import { seniorCareFlorida } from "./senior-care-florida";
 import { lifeInsuranceFloridaNew } from "./life-insurance-florida";
+import { insuranceFortLauderdale } from "./insurance-fort-lauderdale";
 import { hvacSanJose } from "./hvac-san-jose";
 import { ecommerceSportsStore } from "./ecommerce-sports-store";
 import { ecommercePet } from "./ecommerce-pet";
@@ -642,6 +643,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "senior-care-charlotte": seniorCareCharlotte,
   "senior-care-florida": seniorCareFlorida,
   "life-insurance-florida": lifeInsuranceFloridaNew,
+  "insurance-fort-lauderdale": insuranceFortLauderdale,
   "hvac-san-jose": hvacSanJose,
   "ecommerce-sports-store": ecommerceSportsStore,
   "ecommerce-pet": ecommercePet,

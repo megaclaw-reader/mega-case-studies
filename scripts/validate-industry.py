@@ -126,6 +126,7 @@ CPL_RANGES = {
     "medical_devices_&_diagnostics": (200, 800),
     "private_membership_club": (80, 300),
     "life_insurance":    (40, 350),
+    "life_car_insurance": (10, 150),
     "b2b_language_services": (150, 400),
     "ai_business_automation": (100, 400),
     "municipal_infrastructure": (100, 350),
@@ -249,6 +250,7 @@ def _cpl_category(industry, model_key):
         ("commercial tax", "tax"), ("tax planning", "tax"), ("tax", "tax"),
         ("medicare", "medicare"),
         ("health insurance", "health_insurance"),
+        ("life and car insurance", "life_car_insurance"),
         ("commercial insurance", "insurance"), ("insurance", "insurance"),
         ("pension", "pension_annuity"), ("annuity", "pension_annuity"),
         ("life insurance", "life_insurance"),
@@ -435,6 +437,7 @@ DEAL_VALUE_RANGES = {
     "medical_devices_&_diagnostics": (25000, 100000),
     "health_and_wellness_app": (5, 20),  # Monthly subscription value for consumer health apps
     "life_insurance": (500, 2000),
+    "life_car_insurance": (350, 600),
     "b2b_language_services": (5000, 50000),
     "ai_business_automation": (8000, 50000),
     "municipal_infrastructure": (8000, 100000),
