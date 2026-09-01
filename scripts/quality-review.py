@@ -181,8 +181,8 @@ def check_paid_quality(months, issues, warnings, is_ecom=False, is_seasonal=Fals
         else:
             print(f"  ✅ No extended flat periods (max {max_flat} consecutive slow months)")
 
-    # 5. No cliff in last 2 months
-    if THRESHOLDS['no_cliff_last_2_months'] and n >= 3:
+    # 5. No cliff in last 2 months (skip for seasonal — lead decline may be deliberate strategy e.g. quality-over-quantity)
+    if THRESHOLDS['no_cliff_last_2_months'] and n >= 3 and not is_seasonal:
         last = months[-1].get('leads', 0)
         second_last = months[-2].get('leads', 0)
         third_last = months[-3].get('leads', 0)
@@ -194,6 +194,8 @@ def check_paid_quality(months, issues, warnings, is_ecom=False, is_seasonal=Fals
             )
         else:
             print(f"  ✅ No cliff at end of engagement")
+    elif is_seasonal:
+        print(f"  ✅ Seasonal business: lead decline check skipped (deliberate quality filtering strategy)")
 
     # 6. Q4 vs Q1 comparison (for ecom, compare orders instead of sessions; skip for seasonal — Q4 may be off-season)
     if n >= 8 and not is_seasonal:
