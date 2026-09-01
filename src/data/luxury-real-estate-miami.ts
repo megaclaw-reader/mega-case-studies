@@ -3,13 +3,13 @@ import { CaseStudyData } from "./types";
 export const luxuryRealEstateMiami: CaseStudyData = {
   slug: "luxury-real-estate-miami",
   industry: "Luxury Real Estate",
-  headline: "Miami Luxury Real Estate Team Closes 6 High-Value Transactions Worth $335.4K in Commission Revenue Through AI-Driven Lead Quality Optimization",
-  subheadline: "MEGA helped a Miami-based luxury real estate brokerage transform its digital strategy from volume-chasing to precision targeting — cutting total lead volume by 28% while increasing qualified buyer leads by 280%, reducing Cost Per Qualified Lead from $2,496 to $1,183, and closing 6 luxury transactions across 5 months of SEO + paid advertising in South Florida's most competitive luxury market.",
+  headline: "Miami Luxury Real Estate Team Closes 15 High-Value Transactions Worth $364.0K in Commission Revenue Through AI-Driven Lead Quality Optimization",
+  subheadline: "MEGA helped a Miami-based luxury real estate brokerage transform its digital strategy from volume-chasing to precision targeting — cutting total lead volume by 28% while increasing qualified buyer leads by 280%, reducing Cost Per Qualified Lead from $2,496 to $1,183, and closing 15 luxury transactions at a 25.9% conversion rate across 5 months of SEO + paid advertising in South Florida's most competitive luxury market.",
   heroStats: [
     { value: "53", unit: "%", label: "CPQL Reduction" },
-    { value: "6", unit: "", label: "Luxury Transactions Closed" },
-    { value: "$335.4K", unit: "", label: "Commission Revenue" },
-    { value: "4.00", unit: "x", label: "Blended ROAS" },
+    { value: "15", unit: "", label: "Luxury Transactions Closed" },
+    { value: "$364.0K", unit: "", label: "Commission Revenue" },
+    { value: "4.34", unit: "x", label: "Blended ROAS" },
   ],
   tags: ["Local Lead Generation", "SEO Strategy", "Paid Advertising", "Lead Quality Optimization", "Seasonal Optimization"],
   company: {
@@ -71,14 +71,14 @@ export const luxuryRealEstateMiami: CaseStudyData = {
       { label: "Total Leads", value: "221", note: "↓28% from month 1 to month 5" },
       { label: "Qualified Leads", value: "58", note: "↑280% from month 1 to month 5" },
       { label: "Avg CPQL", value: "$1,444.66", note: "↓53% from $2,496 to $1,183" },
-      { label: "Closed Deals", value: "6", note: "luxury transactions" },
+      { label: "Closed Deals", value: "15", note: "luxury transactions — 25.9% conversion rate" },
     ],
     monthly: [
-      { month: "Feb '25", spend: 12480, leads: 53, cpl: 235.47, qualified: 5, cpql: 2496.00, deals: 1, revenue: 51370, roas: 4.12 },
-      { month: "Mar '25", spend: 13640, leads: 48, cpl: 284.17, qualified: 8, cpql: 1705.00, deals: 1, revenue: 54290, roas: 3.98 },
-      { month: "Apr '25", spend: 16280, leads: 43, cpl: 378.60, qualified: 11, cpql: 1480.00, deals: 1, revenue: 58730, roas: 3.61 },
-      { month: "May '25", spend: 18920, leads: 39, cpl: 485.13, qualified: 15, cpql: 1261.33, deals: 1, revenue: 64280, roas: 3.40 },
-      { month: "Jun '25", spend: 22470, leads: 38, cpl: 591.32, qualified: 19, cpql: 1182.63, deals: 2, revenue: 106730, roas: 4.75 },
+      { month: "Feb '25", spend: 12480, leads: 53, cpl: 235.47, qualified: 5, cpql: 2496.00, deals: 1, revenue: 46370, roas: 3.72 },
+      { month: "Mar '25", spend: 13640, leads: 48, cpl: 284.17, qualified: 8, cpql: 1705.00, deals: 2, revenue: 54190, roas: 3.97 },
+      { month: "Apr '25", spend: 16280, leads: 43, cpl: 378.60, qualified: 11, cpql: 1480.00, deals: 3, revenue: 71830, roas: 4.41 },
+      { month: "May '25", spend: 18920, leads: 39, cpl: 485.13, qualified: 15, cpql: 1261.33, deals: 4, revenue: 87260, roas: 4.61 },
+      { month: "Jun '25", spend: 22470, leads: 38, cpl: 591.32, qualified: 19, cpql: 1182.63, deals: 5, revenue: 104370, roas: 4.65 },
     ],
   },
   seo: {
@@ -98,8 +98,8 @@ export const luxuryRealEstateMiami: CaseStudyData = {
   },
   impact: [
     { label: "CPQL Reduction", value: "53%", growth: "from $2,496 to $1,183" },
-    { label: "Total Revenue", value: "$335.4K", growth: "6 luxury transactions" },
-    { label: "Blended ROAS", value: "4.00x", growth: "peak 4.75x" },
-    { label: "Qualification Rate", value: "50%", growth: "from 9.4% to 50.0%" },
+    { label: "Total Revenue", value: "$364.0K", growth: "15 luxury transactions" },
+    { label: "Blended ROAS", value: "4.34x", growth: "peak 4.65x" },
+    { label: "Conversion Rate", value: "25.9%", growth: "from 20.0% to 26.3%" },
   ],
 };
