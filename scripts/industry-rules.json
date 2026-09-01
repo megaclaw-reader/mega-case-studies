@@ -905,10 +905,10 @@
     "Flooring Company": "lead_gen_services",
     "Art Studio": "lead_gen_services",
     "Medical Weight Loss & Longevity": "healthcare_medical",
-    "Criminal Law": "lead_gen_professional",
     "DUI/OVI Defence": "lead_gen_professional",
     "DUI/DWI Defense": "lead_gen_professional",
-    "DUI Defense": "lead_gen_professional"
+    "DUI Defense": "lead_gen_professional",
+    "Painting Services": "lead_gen_services"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",

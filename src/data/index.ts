@@ -20,6 +20,7 @@ import { posSoftwareNational } from "./pos-software";
 import { addictionRehabNy } from "./addiction-rehab-ny";
 import { criminalLawPhoenix } from "./criminal-law-phoenix";
 import { duiDefenceNewYork } from "./dui-defence-new-york";
+import { paintingServicesArizona } from "./painting-services-arizona";
 import { peptidesSeoArizona } from "./peptides-seo-arizona";
 import { b2bHealthcareServicesNational } from "./b2b-healthcare-services-national";
 import { commercialHvacPartsNational } from "./commercial-hvac-parts-national";
@@ -777,6 +778,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "peptides-national": peptidesNational,
   "peptides-ecommerce": peptidesEcommerce,
   "dui-defence-new-york": duiDefenceNewYork,
+  "painting-services-arizona": paintingServicesArizona,
 };
 
 export type { CaseStudyData };
