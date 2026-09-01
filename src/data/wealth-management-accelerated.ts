@@ -4,11 +4,11 @@ export const wealthManagementAccelerated: CaseStudyData = {
   slug: "wealth-management-accelerated",
   industry: "Wealth Management",
   headline: "How a National Wealth Management Firm Cut Client Acquisition Costs 73% in Just 5 Months",
-  subheadline: "MEGA helped a national fee-only RIA rapidly build a digital acquisition engine — adding $9.6M in new AUM, reducing cost per qualified lead from $1,716 to $459, and establishing an organic search foundation with 738 ranked keywords in under half a year.",
+  subheadline: "MEGA helped a national fee-only RIA rapidly build a digital acquisition engine — adding $11M in new AUM, reducing cost per qualified lead from $1,716 to $459, and establishing an organic search foundation with 738 ranked keywords in under half a year.",
   heroStats: [
-    { value: "$9.6", unit: "M", label: "New AUM Acquired" },
+    { value: "$11", unit: "M", label: "New AUM Acquired" },
     { value: "73", unit: "%", label: "CPQL Reduction" },
-    { value: "9", unit: "", label: "New Clients (Paid)" },
+    { value: "12", unit: "", label: "New Clients (Paid)" },
   ],
   tags: ["SEO Strategy", "Paid Advertising", "Lead Generation"],
   company: {
@@ -104,7 +104,7 @@ export const wealthManagementAccelerated: CaseStudyData = {
       { label: "Total Ad Spend", value: "$27.5K" },
       { label: "Qualified Leads", value: "38" },
       { label: "Avg Cost/Qualified Lead", value: "$725", note: "↓73% from $1,716" },
-      { label: "New Clients Acquired", value: "9" },
+      { label: "New Clients Acquired", value: "12" },
     ],
     columnLabels: {
       leads: "Total Leads",
@@ -117,12 +117,12 @@ export const wealthManagementAccelerated: CaseStudyData = {
     monthly: [
       // Month 1 (Feb '26): Campaign launch — high CAC, building baseline
       { month: "Feb '26", spend: 5147, leads: 14, cpl: 367.64, qualified: 3, cpql: 1715.67, deals: 1, revenue: 13487, roas: 2.62 },
-      // Month 2 (Mar '26): AI optimization kicking in, CPL dropping fast
-      { month: "Mar '26", spend: 5389, leads: 19, cpl: 283.63, qualified: 5, cpql: 1077.80, deals: 1, revenue: 14231, roas: 2.64 },
-      // Month 3 (Apr '26): Significant improvement — audience refined
-      { month: "Apr '26", spend: 5678, leads: 26, cpl: 218.38, qualified: 8, cpql: 709.75, deals: 2, revenue: 19847, roas: 3.49 },
+      // Month 2 (Mar '26): AI optimization kicking in, first multi-close month
+      { month: "Mar '26", spend: 5389, leads: 19, cpl: 283.63, qualified: 5, cpql: 1077.80, deals: 2, revenue: 19847, roas: 3.68 },
+      // Month 3 (Apr '26): Significant improvement — audience refined, strong close rate
+      { month: "Apr '26", spend: 5678, leads: 26, cpl: 218.38, qualified: 8, cpql: 709.75, deals: 3, revenue: 24613, roas: 4.33 },
       // Month 4 (May '26): Strong momentum — compound optimization
-      { month: "May '26", spend: 5823, leads: 31, cpl: 187.84, qualified: 10, cpql: 582.30, deals: 2, revenue: 22176, roas: 3.81 },
+      { month: "May '26", spend: 5823, leads: 31, cpl: 187.84, qualified: 10, cpql: 582.30, deals: 3, revenue: 26389, roas: 4.53 },
       // Month 5 (Jun '26): Best month — CAC dramatically reduced
       { month: "Jun '26", spend: 5512, leads: 34, cpl: 162.12, qualified: 12, cpql: 459.33, deals: 3, revenue: 26143, roas: 4.74 },
     ],
@@ -155,11 +155,11 @@ export const wealthManagementAccelerated: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "New AUM Acquired", value: "$9.59M", growth: "" },
-    { label: "Projected Annual Revenue", value: "$95.9K", growth: "recurring" },
-    { label: "10-Year Client LTV", value: "$959K", growth: "projected" },
-    { label: "Total New Clients (Paid + Organic)", value: "10", growth: "" },
-    { label: "Blended Cost Per Client", value: "$2,755", growth: "↓73%" },
-    { label: "Blended ROAS", value: "3.48x", growth: "" },
+    { label: "New AUM Acquired", value: "$11.05M", growth: "" },
+    { label: "Projected Annual Revenue", value: "$110.5K", growth: "recurring" },
+    { label: "10-Year Client LTV", value: "$1.1M", growth: "projected" },
+    { label: "Total New Clients (Paid + Organic)", value: "13", growth: "" },
+    { label: "Blended Cost Per Client", value: "$2,119", growth: "↓73%" },
+    { label: "Blended ROAS", value: "4.01x", growth: "" },
   ],
 };
