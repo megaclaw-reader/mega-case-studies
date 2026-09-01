@@ -355,6 +355,7 @@ import { dentalPracticeCharlotte } from "./dental-practice-charlotte";
 import { wealthManagementSeo } from "./wealth-management-seo";
 import { wealthManagementSeoFlorida } from "./wealth-management-seo-florida";
 import { wealthManagementNational } from "./wealth-management-national";
+import { wealthManagementAccelerated } from "./wealth-management-accelerated";
 import { artisanHomeGoodsPortland } from "./artisan-home-goods-portland";
 import { digitalMarketingAgencyPhoenix } from "./digital-marketing-agency-phoenix";
 import { creativeBrandingAgencyAtlanta } from "./creative-branding-agency-atlanta";
@@ -677,6 +678,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "wealth-management-seo": wealthManagementSeo,
   "wealth-management-seo-florida": wealthManagementSeoFlorida,
   "wealth-management-national": wealthManagementNational,
+  "wealth-management-accelerated": wealthManagementAccelerated,
   "business-brokerage": businessBrokerage,
   "orthodontics-hartford": orthodonticsHartford,
   "orthodontics-santa-rosa": orthodonticsSantaRosa,

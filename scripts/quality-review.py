@@ -275,7 +275,11 @@ def check_seo_quality(months, issues, warnings):
     n = len(months)
     print(f"\n📊 SEO Quality Check ({n} months):")
 
-    # 1. Keyword growth — dynamic thresholds based on starting point
+    # Duration-based scaling: short engagements (< 8 months) can't achieve the same
+    # growth multiples as 12-month engagements. Scale thresholds proportionally.
+    duration_scale = min(1.0, n / 12.0) if n < 8 else 1.0
+
+    # 1. Keyword growth — dynamic thresholds based on starting point AND duration
     # Established businesses (500+ keywords) can't realistically 20x; 2.5x+ is strong
     first_kw = months[0].get('keywords', 0)
     last_kw = months[-1].get('keywords', 0)
@@ -285,6 +289,8 @@ def check_seo_quality(months, issues, warnings):
         min_kw_mult = 5
     else:
         min_kw_mult = THRESHOLDS['min_keyword_growth_multiplier']
+    # Scale down for short engagements (e.g., 5 months = 42% of 12-month target)
+    min_kw_mult = max(2.0, min_kw_mult * duration_scale)
     if first_kw > 0:
         kw_mult = last_kw / first_kw
         if kw_mult < min_kw_mult:
@@ -305,6 +311,8 @@ def check_seo_quality(months, issues, warnings):
         min_traffic_mult = 4.0
     else:
         min_traffic_mult = THRESHOLDS['min_traffic_growth_multiplier']
+    # Scale down for short engagements
+    min_traffic_mult = max(2.0, min_traffic_mult * duration_scale)
     if first_traffic > 0:
         traffic_mult = last_traffic / first_traffic
         if traffic_mult < min_traffic_mult:
@@ -322,6 +330,8 @@ def check_seo_quality(months, issues, warnings):
         if first_kw > 0 and m4_kw > 0:
             early_mult = m4_kw / first_kw
             min_hockey = 1.3 if first_kw >= 500 else (2.0 if first_kw >= 200 else 5.0)
+            # Scale for short engagements
+            min_hockey = max(1.3, min_hockey * duration_scale)
             if early_mult < min_hockey:
                 warnings.append(
                     f"SLOW SEO START: Only {early_mult:.1f}x keyword growth by month {THRESHOLDS['seo_hockey_stick_month']}. "
