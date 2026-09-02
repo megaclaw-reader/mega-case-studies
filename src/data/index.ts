@@ -3,6 +3,7 @@ import { medicalWeightLossNational } from "./medical-weight-loss-national";
 import { peptidesNational } from "./peptides-national";
 import { peptidesEcommerce } from "./peptides-ecommerce";
 import { artStudioPhoenix } from "./art-studio-phoenix";
+import { propertyManagementFlorida } from "./property-management-florida";
 import { fashionApparelSeattle } from "./fashion-apparel-seattle";
 import { piLawFirmPhoenix } from "./pi-law-firm-phoenix";
 import { piLawFirmNorthCarolina } from "./pi-law-firm-north-carolina";
@@ -783,6 +784,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "peptides-ecommerce": peptidesEcommerce,
   "dui-defence-new-york": duiDefenceNewYork,
   "painting-services-arizona": paintingServicesArizona,
+  "property-management-florida": propertyManagementFlorida,
 };
 
 export type { CaseStudyData };
