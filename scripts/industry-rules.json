@@ -910,7 +910,9 @@
     "DUI Defense": "lead_gen_professional",
     "Painting Services": "lead_gen_services",
     "Life and Car Insurance": "lead_gen_services",
-    "Property Management": "lead_gen_services"
+    "Property Management": "lead_gen_services",
+    "Commercial Property and Casualty Insurance": "lead_gen_professional",
+    "Workers' Compensation & Professional Liability Insurance": "lead_gen_professional"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",

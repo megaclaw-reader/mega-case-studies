@@ -251,7 +251,7 @@ def _cpl_category(industry, model_key):
         ("medicare", "medicare"),
         ("health insurance", "health_insurance"),
         ("life and car insurance", "life_car_insurance"),
-        ("commercial insurance", "insurance"), ("insurance", "insurance"),
+        ("commercial property and casualty insurance", "insurance"), ("commercial insurance", "insurance"), ("insurance", "insurance"),
         ("pension", "pension_annuity"), ("annuity", "pension_annuity"),
         ("life insurance", "life_insurance"),
         ("it service", "it_services"), ("managed service", "it_services"),
