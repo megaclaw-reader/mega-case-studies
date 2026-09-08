@@ -1,0 +1,132 @@
+import { CaseStudyData } from "./types";
+
+export const limoServicesPhiladelphia: CaseStudyData = {
+  slug: "limo-services-philadelphia",
+  industry: "Limo Services",
+  headline: "Philadelphia Limo Service Cuts Cost Per Lead 52% While Tripling Monthly Bookings Through AI-Powered Marketing",
+  subheadline: "Strategic SEO growth and always-on ad optimization generated 541 qualified leads and $140K in paid booking revenue across the greater Philadelphia area in just 9 months, with organic search adding another $86K in bookings.",
+  heroStats: [
+    { value: "52", unit: "%", label: "Cost Per Lead Reduction" },
+    { value: "541", unit: "", label: "Total Qualified Leads" },
+    { value: "$140K", unit: "", label: "Revenue Generated" },
+    { value: "3.7", unit: "x", label: "Average ROAS" },
+  ],
+  tags: ["Always-On AI Optimization", "Paid Advertising", "SEO", "Lead Generation", "Local Service"],
+  company: {
+    industry: "Limo Services",
+    employees: "8-15",
+    revenue: "$680K",
+    location: "Philadelphia, PA",
+    description: "A full-service limousine and livery company serving the greater Philadelphia metropolitan area, including Bucks, Chester, Delaware, and Montgomery counties. The company provides airport transfers to Philadelphia International Airport, hourly charters, wedding and prom transportation, corporate event shuttles, and executive car service for Philadelphia-area business professionals. Despite a well-maintained fleet and strong local reputation, their digital marketing consisted of outdated directory listings and inconsistent ad campaigns that generated unpredictable bookings.",
+  },
+  challenges: [
+    {
+      title: "Unsustainable $53 Cost Per Lead",
+      description: "The average cost per lead of $53 across campaigns made it difficult to profitably acquire bookings for lower-value services like airport transfers and hourly charters in the competitive Philadelphia market, severely limiting the ability to scale advertising spend.",
+    },
+    {
+      title: "Extreme Seasonal Revenue Swings",
+      description: "The fleet sat underutilized during January through March while demand overwhelmed capacity during peak prom and wedding months across Philadelphia's suburbs. This unpredictability made it impossible to plan crew schedules, vehicle maintenance, or expansion investments.",
+    },
+    {
+      title: "Minimal Organic Search Visibility",
+      description: "High-intent Philadelphia queries like 'limo service Philadelphia,' 'wedding limo near me,' and 'airport car service PHL' were dominated by competitors with established SEO presence, causing the company to lose bookings it should have captured organically.",
+    },
+    {
+      title: "No Service-Line Differentiation",
+      description: "Airport transfer inquiries and $1,500 wedding packages received identical follow-up processes, leading to poor conversion on high-value opportunities and wasted sales time on low-margin bookings that could have been handled through automated booking flows.",
+    },
+  ],
+  strategy: [
+    {
+      phase: 1,
+      months: "0–90 days",
+      title: "Foundation & AI Deployment",
+      items: [
+        "Deployed always-on AI optimization agents directly within ad accounts — monitoring bid performance, adjusting budgets across service-line campaigns, and refining audience targeting in real time rather than waiting for weekly agency review cycles",
+        "Built segmented campaign architecture separating airport transfers, wedding and prom packages, corporate accounts, and hourly charters — each with tailored messaging, landing pages, and bid strategies optimized for Philadelphia-area search behavior",
+        "Implemented comprehensive conversion tracking connecting phone calls, form submissions, and online booking requests to actual completed rides and revenue values per service category",
+        "Established baseline SEO foundation with 94 locally-focused keywords targeting Philadelphia limo service queries, airport transportation, wedding limo rentals, and corporate car service throughout the metro area",
+        "Created dedicated landing pages for each service vertical with Philadelphia-specific social proof, fleet imagery, and service area maps covering Center City, Main Line, and surrounding counties",
+        "Configured call tracking integration to distinguish between airport transfer calls (routed to automated booking) and event inquiries (routed to dedicated sales follow-up)",
+        "Launched local citation building campaign across Philadelphia business directories, wedding vendor platforms, and corporate event planning sites",
+        "Implemented heat mapping on landing pages to identify friction points in the booking request flow, particularly for mobile users searching during commutes",
+      ],
+    },
+    {
+      phase: 2,
+      months: "90–180 days",
+      title: "Seasonal Optimization & Creative Scaling",
+      items: [
+        "AI agents detected the spring seasonal surge in prom and wedding searches across Philadelphia suburbs and automatically shifted 35% of budget toward high-value event packages within hours of the trend emerging",
+        "Scaled AI-generated ad creative to 15-20 variations across formats, testing seasonal hooks for prom packages, June wedding promotions, and corporate event shuttles — rotating winners weekly based on real-time performance data",
+        "Real-time bid optimization increased spend on wedding and prom keywords during peak booking windows while maintaining efficient airport transfer campaigns during business hours",
+        "Expanded keyword portfolio to 1,134 terms covering Philadelphia neighborhood searches, venue-specific queries, and long-tail wedding planning terms across the Delaware Valley",
+        "Implemented lead scoring to prioritize high-value wedding and corporate inquiries for immediate callback while routing airport transfer leads to an automated booking flow",
+        "AI agents analyzed conversion data and identified that evening and weekend searches converted 34% higher for event bookings, automatically adjusting bid schedules to capture peak intent windows",
+        "Generated location-specific SEO content featuring Philadelphia venue partnerships, seasonal event guides, and neighborhood-specific service pages for Main Line, Bucks County, and Center City",
+        "Launched remarketing sequences targeting users who viewed wedding or prom pages but didn't submit a booking request, with urgency-based messaging around date availability",
+      ],
+    },
+    {
+      phase: 3,
+      months: "180+ days",
+      title: "Scale & Revenue Maximization",
+      items: [
+        "Scaled monthly ad investment during peak summer wedding season while AI agents maintained cost efficiency through continuous bid adjustments and audience refinement across all Philadelphia-area campaigns",
+        "AI-powered seasonal optimization automatically allocated more budget to corporate event shuttles and concert transportation as summer event season peaked across Philadelphia venues",
+        "Achieved 4,847 ranking keywords establishing dominant organic presence for Philadelphia limousine searches, airport transportation, and event-specific queries throughout the Delaware Valley",
+        "Launched retargeting sequences for wedding and event planners who researched but didn't book, with personalized messaging based on event type and date — capturing bookings that would have been lost to competitors",
+        "Data-driven geographic targeting revealed that Bucks County and the Main Line suburbs generated 2.1x higher average booking values than Center City, shifting budget allocation to maximize revenue per lead",
+        "Implemented dynamic creative optimization showing luxury fleet imagery for wedding and corporate searches while emphasizing reliability and on-time performance for airport transfer audiences",
+        "Established predictable booking pipeline averaging 120+ qualified leads per month during peak season, enabling the company to plan fleet expansion and crew hiring with confidence",
+        "Real-time competitive monitoring adjusted bidding strategies when other Philadelphia limo companies launched seasonal promotions or changed their digital approach",
+      ],
+    },
+  ],
+  seo: {
+    summary: [
+      { label: "Total Keywords", value: "4,847", growth: "+5,057%", from: "from 94" },
+      { label: "Top 10 Rankings", value: "756", growth: "+4,347%", from: "from 17" },
+      { label: "Organic Traffic", value: "7,234/mo", growth: "+2,015%", from: "from 342" },
+      { label: "Organic Leads", value: "109/mo", growth: "+1,263%", from: "from 8" },
+    ],
+    monthly: [
+      { month: "Jan 2025", keywords: 94, top10: 17, top3: 5, traffic: 342, pages: 31, avgPos: 19.3, ctr: 2.9 },
+      { month: "Feb 2025", keywords: 156, top10: 26, top3: 9, traffic: 478, pages: 36, avgPos: 17.1, ctr: 3.3 },
+      { month: "Mar 2025", keywords: 287, top10: 47, top3: 16, traffic: 734, pages: 42, avgPos: 15.4, ctr: 3.8 },
+      { month: "Apr 2025", keywords: 534, top10: 89, top3: 28, traffic: 1287, pages: 49, avgPos: 13.6, ctr: 4.3 },
+      { month: "May 2025", keywords: 923, top10: 156, top3: 47, traffic: 2134, pages: 57, avgPos: 11.8, ctr: 4.9 },
+      { month: "Jun 2025", keywords: 1456, top10: 247, top3: 73, traffic: 3287, pages: 64, avgPos: 10.2, ctr: 5.4 },
+      { month: "Jul 2025", keywords: 2178, top10: 367, top3: 112, traffic: 4623, pages: 72, avgPos: 8.9, ctr: 5.9 },
+      { month: "Aug 2025", keywords: 3412, top10: 534, top3: 167, traffic: 5934, pages: 79, avgPos: 7.8, ctr: 6.4 },
+      { month: "Sep 2025", keywords: 4847, top10: 756, top3: 234, traffic: 7234, pages: 87, avgPos: 6.9, ctr: 6.8 },
+    ],
+  },
+  paidAds: {
+    summary: [
+      { label: "Total Ad Spend", value: "$37.8K" },
+      { label: "Total Leads", value: "1,142" },
+      { label: "Avg Cost Per Qualified Lead", value: "$70", note: "↓47% from $130" },
+      { label: "Total Revenue", value: "$140K" },
+      { label: "Overall ROAS", value: "3.7x" },
+    ],
+    monthly: [
+      { month: "Jan 2025", spend: 3000, leads: 57, cpl: 53, qualified: 23, cpql: 130, deals: 10, revenue: 7600, roas: 2.53 },
+      { month: "Feb 2025", spend: 3100, leads: 64, cpl: 48, qualified: 28, cpql: 111, deals: 11, revenue: 8228, roas: 2.65 },
+      { month: "Mar 2025", spend: 3200, leads: 76, cpl: 42, qualified: 34, cpql: 94, deals: 13, revenue: 9503, roas: 2.97 },
+      { month: "Apr 2025", spend: 3800, leads: 109, cpl: 35, qualified: 52, cpql: 73, deals: 16, revenue: 13520, roas: 3.56 },
+      { month: "May 2025", spend: 4700, leads: 148, cpl: 32, qualified: 74, cpql: 64, deals: 23, revenue: 19090, roas: 4.06 },
+      { month: "Jun 2025", spend: 5200, leads: 171, cpl: 30, qualified: 87, cpql: 60, deals: 27, revenue: 22761, roas: 4.38 },
+      { month: "Jul 2025", spend: 5400, leads: 186, cpl: 29, qualified: 93, cpql: 58, deals: 29, revenue: 24099, roas: 4.46 },
+      { month: "Aug 2025", spend: 5100, leads: 179, cpl: 28, qualified: 84, cpql: 61, deals: 25, revenue: 20300, roas: 3.98 },
+      { month: "Sep 2025", spend: 4347, leads: 152, cpl: 29, qualified: 65, cpql: 67, deals: 19, revenue: 14991, roas: 3.45 },
+    ],
+  },
+  impact: [
+    { label: "Cost Per Lead Reduction", value: "52%", growth: "from $53 to $26" },
+    { label: "Total Booking Revenue", value: "$140K", growth: "173 completed bookings from paid campaigns" },
+    { label: "Average ROAS", value: "3.7x", growth: "sustained profitability" },
+    { label: "Organic Traffic Growth", value: "2,015%", growth: "342 to 7,234 monthly visitors" },
+  ],
+};

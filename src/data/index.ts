@@ -1,5 +1,6 @@
 import { CaseStudyData } from "./types";
 import { workersCompInsuranceArizona } from "./workers-comp-insurance-arizona";
+import { limoServicesPhiladelphia } from "./limo-services-philadelphia";
 import { commercialPcInsuranceFlorida } from "./commercial-pc-insurance-florida";
 import { medicalWeightLossNational } from "./medical-weight-loss-national";
 import { peptidesNational } from "./peptides-national";
@@ -789,6 +790,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "painting-services-arizona": paintingServicesArizona,
   "property-management-florida": propertyManagementFlorida,
   "workers-comp-insurance-arizona": workersCompInsuranceArizona,
+  "limo-services-philadelphia": limoServicesPhiladelphia,
 };
 
 export type { CaseStudyData };

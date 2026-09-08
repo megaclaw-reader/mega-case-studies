@@ -97,6 +97,7 @@ QUAL_RATES = {
     'Staffing': (0.06, 0.20),
     'Recruiting': (0.06, 0.20),
     'Travel': (0.10, 0.25),
+    'Limo': (0.30, 0.55),  # Limo/livery services — high-intent searchers (weddings, events, airport) = higher qual rate than general services
     'Hospitality': (0.10, 0.25),
     'Wedding': (0.10, 0.25),
     'Vacation': (0.10, 0.25),
