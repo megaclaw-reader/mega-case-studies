@@ -913,7 +913,8 @@
     "Property Management": "lead_gen_services",
     "Commercial Property and Casualty Insurance": "lead_gen_professional",
     "Workers' Compensation & Professional Liability Insurance": "lead_gen_professional",
-    "Limo Services": "lead_gen_services"
+    "Limo Services": "lead_gen_services",
+    "Dance Courses": "lead_gen_services"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",
@@ -933,6 +934,7 @@
     "Medical Document Management SaaS": "subscription",
     "Spiritual Retreat": "lead_gen_services",
     "Employment Law": "lead_gen_professional",
-    "Flooring Company": "lead_gen_services"
+    "Flooring Company": "lead_gen_services",
+    "Entertainment Events": "lead_gen_services"
   }
 }
