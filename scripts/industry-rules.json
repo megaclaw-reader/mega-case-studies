@@ -210,6 +210,10 @@
         "medical_weight_loss": [
           600,
           1500
+        ],
+        "plastic_surgery": [
+          2000,
+          8000
         ]
       }
     },

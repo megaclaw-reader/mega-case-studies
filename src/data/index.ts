@@ -1,4 +1,5 @@
 import { CaseStudyData } from "./types";
+import { plasticSurgeryArizona } from "./plastic-surgery-arizona";
 import { danceCoursesSanDiego } from "./dance-courses-san-diego";
 import { entertainmentEventsPhoenix } from "./entertainment-events-phoenix";
 import { workersCompInsuranceArizona } from "./workers-comp-insurance-arizona";
@@ -794,6 +795,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "workers-comp-insurance-arizona": workersCompInsuranceArizona,
   "limo-services-philadelphia": limoServicesPhiladelphia,
   "entertainment-events-phoenix": entertainmentEventsPhoenix,
+  "plastic-surgery-arizona": plasticSurgeryArizona,
   "dance-courses-san-diego": danceCoursesSanDiego,
 };
 
