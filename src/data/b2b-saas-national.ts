@@ -140,6 +140,7 @@ export const b2bSaasNational: CaseStudyData = {
     ],
   },
   paidAds: {
+    hiddenColumns: ["revenue", "roas"],
     summary: [
       { label: "Total Ad Spend", value: "$139.2K" },
       { label: "Qualified Leads", value: "126" },
