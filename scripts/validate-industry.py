@@ -96,6 +96,7 @@ CPL_RANGES = {
     "rental_car":        (30, 80),
     "rental_home_mgmt":  (30, 120),
     "hospitality_lodging": (15, 80),
+    "resort":            (15, 80),
     # Lead gen professional — higher competition, expensive keywords
     "legal":             (50, 500),
     "criminal_law":      (80, 350),
@@ -240,6 +241,7 @@ def _cpl_category(industry, model_key):
         ("alarm", "alarm_surveillance"), ("surveillance", "alarm_surveillance"), ("security system", "alarm_surveillance"),
         ("multifamily", "multifamily_housing"), ("multi-family", "multifamily_housing"),
         ("hospitality lodging", "hospitality_lodging"), ("lodging", "hospitality_lodging"), ("boutique lodge", "hospitality_lodging"), ("boutique hotel", "hospitality_lodging"),
+        ("resort", "resort"),
         ("rental home", "rental_home_mgmt"), ("property management", "rental_home_mgmt"), ("rental management", "rental_home_mgmt"),
         ("franchise restaurant", "franchise_restaurant"), ("franchise", "franchise_restaurant"),
         ("rental car", "rental_car"), ("car rental", "rental_car"),

@@ -125,6 +125,6 @@ export const dentalImplantsAustin: CaseStudyData = {
     { label: "Closed Implant Cases", value: "74", growth: "+293% qualified lead volume" },
     { label: "Cost Per Qualified Lead", value: "$487 avg", growth: "↓68% from $1,107" },
     { label: "Lead Qualification Rate", value: "38.7%", growth: "↑from 26.4%" },
-    { label: "Monthly Qualified Leads", value: "55", growth: "↑from 14" },
+    { label: "Monthly Qualified Leads", value: "55/mo", growth: "↑from 14/mo" },
   ],
 };

@@ -207,6 +207,10 @@
           600,
           900
         ],
+        "resort": [
+          700,
+          1200
+        ],
         "medical_weight_loss": [
           600,
           1500
@@ -918,7 +922,8 @@
     "Commercial Property and Casualty Insurance": "lead_gen_professional",
     "Workers' Compensation & Professional Liability Insurance": "lead_gen_professional",
     "Limo Services": "lead_gen_services",
-    "Dance Courses": "lead_gen_services"
+    "Dance Courses": "lead_gen_services",
+    "Resort": "lead_gen_services"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",

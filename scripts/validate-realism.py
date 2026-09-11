@@ -99,6 +99,7 @@ QUAL_RATES = {
     'Travel': (0.10, 0.25),
     'Limo': (0.30, 0.55),  # Limo/livery services — high-intent searchers (weddings, events, airport) = higher qual rate than general services
     'Hospitality': (0.10, 0.25),
+    'Resort': (0.18, 0.30),
     'Wedding': (0.10, 0.25),
     'Vacation': (0.10, 0.25),
 }
