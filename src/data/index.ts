@@ -155,6 +155,7 @@ import { alarmSurveillanceSeo } from "./alarm-surveillance-seo";
 import { retirementPlanningNational } from "./retirement-planning-national";
 import { taxConsultancySeo } from "./tax-consultancy-seo";
 import { mortgageLending } from "./mortgage-lending";
+import { mortgageLendingTexas } from "./mortgage-lending-texas";
 import { cybersecurity } from "./cybersecurity";
 import { dental } from "./dental";
 import { eventOrganization } from "./event-organization";
@@ -410,6 +411,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "peach-state-cpa-proposal": peachStateCpaProposal,
   "alarm-surveillance-seo": alarmSurveillanceSeo,
   "mortgage-lending": mortgageLending,
+  "mortgage-lending-texas": mortgageLendingTexas,
   "cybersecurity": cybersecurity,
   "dental": dental,
   "event-organization": eventOrganization,
