@@ -9,6 +9,7 @@ import { commercialPcInsuranceFlorida } from "./commercial-pc-insurance-florida"
 import { medicalWeightLossNational } from "./medical-weight-loss-national";
 import { peptidesNational } from "./peptides-national";
 import { peptidesEcommerce } from "./peptides-ecommerce";
+import { peptidesSupplementBrand } from "./peptides-supplement-brand";
 import { artStudioPhoenix } from "./art-studio-phoenix";
 import { propertyManagementFlorida } from "./property-management-florida";
 import { fashionApparelSeattle } from "./fashion-apparel-seattle";
@@ -790,6 +791,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "medical-weight-loss-national": medicalWeightLossNational,
   "peptides-national": peptidesNational,
   "peptides-ecommerce": peptidesEcommerce,
+  "peptides-supplement-brand": peptidesSupplementBrand,
   "commercial-pc-insurance-florida": commercialPcInsuranceFlorida,
   "dui-defence-new-york": duiDefenceNewYork,
   "painting-services-arizona": paintingServicesArizona,
