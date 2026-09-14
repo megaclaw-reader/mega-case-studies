@@ -399,6 +399,7 @@ import { renewableEnergySaasNational } from "./renewable-energy-saas-national";
 import { healthRetreat } from "./health-retreat";
 import { hairBeautyWellnessNational } from "./hair-beauty-wellness-national";
 import { hvacSouthFlorida } from "./hvac-south-florida";
+import { videoProductionCalifornia } from "./video-production-california";
 export const caseStudies: Record<string, CaseStudyData> = {
   "criminal-law-phoenix": criminalLawPhoenix,
   "specialty-medical-houston": specialtyMedicalHouston,
@@ -799,6 +800,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "plastic-surgery-arizona": plasticSurgeryArizona,
   "dance-courses-san-diego": danceCoursesSanDiego,
   "resort-california": resortCalifornia,
+  "video-production-california": videoProductionCalifornia,
 };
 
 export type { CaseStudyData };

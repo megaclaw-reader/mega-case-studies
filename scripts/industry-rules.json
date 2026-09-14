@@ -923,7 +923,8 @@
     "Workers' Compensation & Professional Liability Insurance": "lead_gen_professional",
     "Limo Services": "lead_gen_services",
     "Dance Courses": "lead_gen_services",
-    "Resort": "lead_gen_services"
+    "Resort": "lead_gen_services",
+    "Video Production": "lead_gen_services"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",
