@@ -327,6 +327,7 @@ import { beautyProductsEcommerce } from "./beauty-products-ecommerce";
 import { roofRestorationCalifornia } from "./roof-restoration-california";
 import { roofingTexas } from "./roofing-texas";
 import { roofingFlorida } from "./roofing-florida";
+import { roofingLosAngeles } from "./roofing-los-angeles";
 import { lifeInsuranceChicago } from "./life-insurance-chicago";
 import { carDealership } from "./car-dealership";
 import { medspa as medspaScottsdale } from "./medspa";
@@ -787,6 +788,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "pi-law-firm-phoenix": piLawFirmPhoenix,
   "pi-law-firm-north-carolina": piLawFirmNorthCarolina,
   "roofing-florida": roofingFlorida,
+  "roofing-los-angeles": roofingLosAngeles,
   "hvac-south-florida": hvacSouthFlorida,
   "fashion-apparel-seattle": fashionApparelSeattle,
   "art-studio-phoenix": artStudioPhoenix,
