@@ -221,6 +221,7 @@ import { safetyTraining } from "./safety-training";
 import { healthyFoodProteinBars } from "./healthy-food-protein-bars";
 import { hvacKitchenBathAz } from "./hvac-kitchen-bath-az";
 import { fireworksCincinnati } from "./fireworks-cincinnati";
+import { medSpaDenver } from "./med-spa-denver";
 import { medSpaOrlando } from "./med-spa-orlando";
 import { financialServices } from "./financial-services";
 import { medSpa } from "./med-spa";
@@ -480,6 +481,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "healthy-food-protein-bars": healthyFoodProteinBars,
   "fireworks-cincinnati": fireworksCincinnati,
   "hvac-kitchen-bath-az": hvacKitchenBathAz,
+  "med-spa-denver": medSpaDenver,
   "med-spa-orlando": medSpaOrlando,
   "med-spa": medSpa,
   "motorcycle-boat-repair-az": motorcycleBoatRepairAz,
