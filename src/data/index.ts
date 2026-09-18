@@ -65,6 +65,7 @@ import { financialAdvisingPhoenix } from "./financial-advising-phoenix";
 import { financialAdvisoryTexas } from "./financial-advisory-texas";
 import { homecareServicesArizona } from "./homecare-services-arizona";
 import { homecareSeoArizona } from "./homecare-seo-arizona";
+import { homeCareServicesNewMexico } from "./home-care-services-new-mexico";
 import { homeRenovationsNewJersey } from "./home-renovations-new-jersey";
 import { customDesignHomeRenovationsNj } from "./custom-design-home-renovations-nj";
 import { veterinaryClinicPhoenix } from "./veterinary-clinic-phoenix";
@@ -712,6 +713,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "financial-advisory-texas": financialAdvisoryTexas,
   "homecare-services-arizona": homecareServicesArizona,
   "homecare-seo-arizona": homecareSeoArizona,
+  "home-care-services-new-mexico": homeCareServicesNewMexico,
   "home-renovations-new-jersey": homeRenovationsNewJersey,
   "real-estate-investment-arizona": realEstateInvestmentArizona,
   "nonprofit-event-california": nonprofitEventCalifornia,
