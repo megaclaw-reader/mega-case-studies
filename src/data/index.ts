@@ -28,6 +28,7 @@ import { employmentLawSanAntonio } from "./employment-law-san-antonio";
 import { posSoftwareNational } from "./pos-software";
 import { addictionRehabNy } from "./addiction-rehab-ny";
 import { criminalLawPhoenix } from "./criminal-law-phoenix";
+import { divorceLawChicago } from "./divorce-law-chicago";
 import { duiDefenceNewYork } from "./dui-defence-new-york";
 import { paintingServicesArizona } from "./painting-services-arizona";
 import { peptidesSeoArizona } from "./peptides-seo-arizona";
@@ -407,6 +408,7 @@ import { hvacSouthFlorida } from "./hvac-south-florida";
 import { videoProductionCalifornia } from "./video-production-california";
 export const caseStudies: Record<string, CaseStudyData> = {
   "criminal-law-phoenix": criminalLawPhoenix,
+  "divorce-law-chicago": divorceLawChicago,
   "specialty-medical-houston": specialtyMedicalHouston,
   "medical-assessment-ai-app": medicalAssessmentAiApp,
   "ma-advisory": maAdvisory,

@@ -924,7 +924,8 @@
     "Limo Services": "lead_gen_services",
     "Dance Courses": "lead_gen_services",
     "Resort": "lead_gen_services",
-    "Video Production": "lead_gen_services"
+    "Video Production": "lead_gen_services",
+    "Family Law": "lead_gen_professional"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",

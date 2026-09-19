@@ -101,6 +101,7 @@ CPL_RANGES = {
     # Lead gen professional — higher competition, expensive keywords
     "legal":             (50, 500),
     "criminal_law":      (80, 350),
+    "family_law":        (100, 400),
     "personal_injury":   (75, 600),
     "immigration_law":   (30, 300),
     "business_litigation": (75, 500),
@@ -426,6 +427,7 @@ DEAL_VALUE_RANGES = {
     "business_law": (5000, 25000),
     "legal": (2000, 30000),
     "criminal_law": (2000, 8000),
+    "family_law": (5000, 15000),
     "personal_injury": (5000, 150000),
     "immigration_law": (2000, 20000),
     "business_litigation": (5000, 120000),
