@@ -146,6 +146,7 @@ import { healthInsuranceVermontData } from "./health-insurance-vermont";
 import { insuranceArizona } from "./insurance-arizona";
 import { hairProductsEcommerce } from "./hair-products-ecommerce";
 import { probiotics } from "./probiotics";
+import { premiumMotorsportsDealership } from "./premium-motorsports-dealership";
 import { indoorAdventureFlorida } from "./indoor-adventure-florida";
 import { sightseeingExcursionFlorida } from "./sightseeing-excursion-florida";
 import { foodCateringLosAngeles } from "./food-catering-los-angeles";
@@ -406,6 +407,7 @@ import { healthRetreat } from "./health-retreat";
 import { hairBeautyWellnessNational } from "./hair-beauty-wellness-national";
 import { hvacSouthFlorida } from "./hvac-south-florida";
 import { videoProductionCalifornia } from "./video-production-california";
+import { premiumMarineDealership } from "./premium-marine-dealership";
 import { investmentAdvisorNational } from "./investment-advisor-national";
 export const caseStudies: Record<string, CaseStudyData> = {
   "criminal-law-phoenix": criminalLawPhoenix,
@@ -809,12 +811,14 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "property-management-florida": propertyManagementFlorida,
   "workers-comp-insurance-arizona": workersCompInsuranceArizona,
   "limo-services-philadelphia": limoServicesPhiladelphia,
+  "premium-motorsports-dealership": premiumMotorsportsDealership,
   "entertainment-events-phoenix": entertainmentEventsPhoenix,
   "plastic-surgery-arizona": plasticSurgeryArizona,
   "dance-courses-san-diego": danceCoursesSanDiego,
   "resort-california": resortCalifornia,
   "video-production-california": videoProductionCalifornia,
   "investment-advisor-national": investmentAdvisorNational,
+  "premium-marine-dealership": premiumMarineDealership,
 };
 
 export type { CaseStudyData };

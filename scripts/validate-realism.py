@@ -95,6 +95,8 @@ QUAL_RATES = {
     'Roofing': (0.10, 0.25),
     'Security': (0.10, 0.25),
     'Surveillance': (0.10, 0.25),
+    'Marine': (0.28, 0.50),  # Multi-step qualification forms with budget/timeline/trade-in capture — high self-selection for luxury marine buyers
+    'Yacht': (0.28, 0.50),
     'Cybersecurity': (0.10, 0.25),
     'Staffing': (0.06, 0.20),
     'Recruiting': (0.06, 0.20),
@@ -209,7 +211,11 @@ def validate_file(filepath):
             if avg_deal < 50 and 'Food' not in industry and 'Restaurant' not in industry:
                 issues.append(f'AVG DEAL VALUE ${avg_deal:,.0f} is suspiciously low for {industry}')
             elif avg_deal > 200000:
-                issues.append(f'AVG DEAL VALUE ${avg_deal:,.0f} is suspiciously high for {industry}')
+                # Allow high deal values for explicitly high-ticket industries
+                high_ticket_keywords = ['Marine', 'Yacht', 'Luxury Real Estate', 'Residential Home Build', 'Pool Renovation', 'M&A', 'Venture Capital']
+                is_high_ticket = any(kw.lower() in industry.lower() for kw in high_ticket_keywords)
+                if not is_high_ticket:
+                    issues.append(f'AVG DEAL VALUE ${avg_deal:,.0f} is suspiciously high for {industry}')
     
     # 5. CPL SANITY CHECK (non-ecom only)
     if not is_ecom and total_leads > 0:
