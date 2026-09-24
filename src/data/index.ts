@@ -92,6 +92,7 @@ import { nailSalon } from "./nail-salon";
 import { tequilaBrandDtc } from "./tequila-brand-dtc";
 import { sportsDrink } from "./sports-drink";
 import { cbdThcSeo } from "./cbd-thc-seo";
+import { cbdNational } from "./cbd-national";
 import { healthWellnessApp } from "./health-wellness-app";
 import { poolInstallation } from "./pool-installation";
 import { eventPlanning } from "./event-planning";
@@ -662,6 +663,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "event-planning": eventPlanning,
   "mens-health-wellness-media": mensHealthWellnessMedia,
   "cbd-thc-seo": cbdThcSeo,
+  "cbd-national": cbdNational,
   "pool-installation": poolInstallation,
   "senior-care-charlotte": seniorCareCharlotte,
   "senior-care-florida": seniorCareFlorida,
