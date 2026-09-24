@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const lawFirmNewHampshire: CaseStudyData = {
   slug: "law-firm-new-hampshire",
   industry: "Law",
-  headline: "How a General Practice Law Firm in New Hampshire Grew From 1 Case/Month to 6 With SEO + Paid Ads on a $3K Budget",
-  subheadline: "MEGA helped a 2-attorney general practice firm in New Hampshire build a digital client acquisition pipeline from scratch — combining targeted paid advertising with local SEO to generate 44 signed cases and $153.6K in revenue over 12 months, proving that even the smallest ad budgets can transform a referral-dependent practice.",
+  headline: "How a General Practice Law Firm in New Hampshire Grew From 1 Case/Month to 6 With SEO + Paid Ads on a Tight Budget",
+  subheadline: "MEGA helped a 2-attorney general practice firm in New Hampshire build a digital client acquisition pipeline from scratch — combining targeted paid advertising with local SEO to generate 44 signed cases and $154.6K in revenue over 12 months, proving that even the smallest ad budgets can transform a referral-dependent practice.",
   heroStats: [
     { value: "44", unit: "", label: "Signed Cases" },
-    { value: "$153.6K", unit: "K", label: "Total Revenue" },
-    { value: "3.50x", unit: "", label: "Blended ROAS" },
+    { value: "$154.6K", unit: "K", label: "Total Revenue" },
+    { value: "3.52x", unit: "", label: "Blended ROAS" },
   ],
   tags: ["SEO", "Paid Advertising", "Lead Generation"],
   company: {
@@ -114,8 +114,8 @@ export const lawFirmNewHampshire: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$43.9K" },
-      { label: "Qualified Leads", value: "121" },
-      { label: "Avg Cost Per Qualified Lead", value: "$363" },
+      { label: "Qualified Leads", value: "126" },
+      { label: "Avg Cost Per Qualified Lead", value: "$348" },
       { label: "Signed Cases", value: "44" },
     ],
     columnLabels: {
@@ -127,30 +127,19 @@ export const lawFirmNewHampshire: CaseStudyData = {
       costPerDeal: "Cost/Case",
     },
     monthly: [
-      // Jan: 3000/24=125, 3000/6=500, 3200/3000=1.07. Deals=1, rev=1*3200=3200
-      { month: "Jan '25", spend: 3000, leads: 24, cpl: 125.00, qualified: 6, cpql: 500.00, deals: 1, revenue: 3200, roas: 1.07 },
-      // Feb: 3100/27=114.81, 3100/7=442.86. Deals=2, rev=2*3450=6900
-      { month: "Feb '25", spend: 3100, leads: 27, cpl: 114.81, qualified: 7, cpql: 442.86, deals: 2, revenue: 6900, roas: 2.23 },
-      // Mar: 3200/30=106.67, 3200/8=400. Deals=3, rev=3*3100=9300
-      { month: "Mar '25", spend: 3200, leads: 30, cpl: 106.67, qualified: 8, cpql: 400.00, deals: 3, revenue: 9300, roas: 2.91 },
-      // Apr: 3400/34=100, 3400/9=377.78. Deals=3, rev=3*3600=10800
-      { month: "Apr '25", spend: 3400, leads: 34, cpl: 100.00, qualified: 9, cpql: 377.78, deals: 3, revenue: 10800, roas: 3.18 },
-      // May: 3500/37=94.59, 3500/10=350. Deals=3, rev=3*3500=10500
-      { month: "May '25", spend: 3500, leads: 37, cpl: 94.59, qualified: 10, cpql: 350.00, deals: 3, revenue: 10500, roas: 3.00 },
-      // Jun: 3800/42=90.48, 3800/11=345.45. Deals=4, rev=4*3700=14800
-      { month: "Jun '25", spend: 3800, leads: 42, cpl: 90.48, qualified: 11, cpql: 345.45, deals: 4, revenue: 14800, roas: 3.89 },
-      // Jul: 4100/48=85.42, 4100/13=315.38. Deals=5, rev=5*3400=17000
-      { month: "Jul '25", spend: 4100, leads: 48, cpl: 85.42, qualified: 13, cpql: 315.38, deals: 5, revenue: 17000, roas: 4.15 },
-      // Aug: 4200/46=91.30, 4200/12=350. Deals=5, rev=5*3560=17800
-      { month: "Aug '25", spend: 4200, leads: 46, cpl: 91.30, qualified: 12, cpql: 350.00, deals: 5, revenue: 17800, roas: 4.24 },
-      // Sep: 3900/41=95.12, 3900/11=354.55. Deals=4, rev=4*3550=14200
-      { month: "Sep '25", spend: 3900, leads: 41, cpl: 95.12, qualified: 11, cpql: 354.55, deals: 4, revenue: 14200, roas: 3.64 },
-      // Oct: 4000/44=90.91, 4000/12=333.33. Deals=5, rev=5*3650=18250
-      { month: "Oct '25", spend: 4000, leads: 44, cpl: 90.91, qualified: 12, cpql: 333.33, deals: 5, revenue: 18250, roas: 4.56 },
-      // Nov: 3700/39=94.87, 3700/11=336.36. Deals=5, rev=5*3400=17000
-      { month: "Nov '25", spend: 3700, leads: 39, cpl: 94.87, qualified: 11, cpql: 336.36, deals: 5, revenue: 17000, roas: 4.59 },
-      // Dec: 4000/36=111.11, 4000/11=363.64. Deals=4, rev=4*3450=13800
-      { month: "Dec '25", spend: 4000, leads: 36, cpl: 111.11, qualified: 11, cpql: 363.64, deals: 4, revenue: 13800, roas: 3.45 },
+
+      { month: "Jan '25", spend: 3000, leads: 29, cpl: 103.45, qualified: 5, cpql: 600.00, deals: 1, revenue: 3200, roas: 1.07 },
+      { month: "Feb '25", spend: 3100, leads: 34, cpl: 91.18, qualified: 6, cpql: 516.67, deals: 2, revenue: 6900, roas: 2.23 },
+      { month: "Mar '25", spend: 3200, leads: 39, cpl: 82.05, qualified: 7, cpql: 457.14, deals: 2, revenue: 7400, roas: 2.31 },
+      { month: "Apr '25", spend: 3400, leads: 42, cpl: 80.95, qualified: 8, cpql: 425.00, deals: 3, revenue: 10800, roas: 3.18 },
+      { month: "May '25", spend: 3500, leads: 46, cpl: 76.09, qualified: 9, cpql: 388.89, deals: 3, revenue: 10500, roas: 3.00 },
+      { month: "Jun '25", spend: 3800, leads: 53, cpl: 71.70, qualified: 11, cpql: 345.45, deals: 4, revenue: 14800, roas: 3.89 },
+      { month: "Jul '25", spend: 4100, leads: 62, cpl: 66.13, qualified: 13, cpql: 315.38, deals: 5, revenue: 17000, roas: 4.15 },
+      { month: "Aug '25", spend: 4200, leads: 68, cpl: 61.76, qualified: 14, cpql: 300.00, deals: 5, revenue: 17800, roas: 4.24 },
+      { month: "Sep '25", spend: 3900, leads: 61, cpl: 63.93, qualified: 12, cpql: 325.00, deals: 4, revenue: 14200, roas: 3.64 },
+      { month: "Oct '25", spend: 4000, leads: 67, cpl: 59.70, qualified: 14, cpql: 285.71, deals: 5, revenue: 18250, roas: 4.56 },
+      { month: "Nov '25", spend: 3700, leads: 65, cpl: 56.92, qualified: 13, cpql: 284.62, deals: 5, revenue: 17000, roas: 4.59 },
+      { month: "Dec '25", spend: 4000, leads: 73, cpl: 54.79, qualified: 14, cpql: 285.71, deals: 5, revenue: 16700, roas: 4.18 },
     ],
   },
   organicConversions: {
@@ -187,9 +176,9 @@ export const lawFirmNewHampshire: CaseStudyData = {
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$153.6K", growth: "3.50x blended ROAS" },
-    { label: "Qualified Leads (Paid)", value: "121", growth: "↓27% CPQL" },
-    { label: "Signed Cases", value: "44", growth: "36.4% close rate" },
-    { label: "Avg Case Value", value: "$3,490", growth: "" },
+    { label: "Total Revenue", value: "$154.6K", growth: "3.52x blended ROAS" },
+    { label: "Qualified Leads (Paid)", value: "126", growth: "↓52% CPQL" },
+    { label: "Signed Cases", value: "44", growth: "34.9% close rate" },
+    { label: "Avg Case Value", value: "$3,513", growth: "" },
   ],
 };

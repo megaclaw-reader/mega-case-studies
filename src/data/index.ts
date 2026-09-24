@@ -411,6 +411,7 @@ import { hvacSouthFlorida } from "./hvac-south-florida";
 import { videoProductionCalifornia } from "./video-production-california";
 import { premiumMarineDealership } from "./premium-marine-dealership";
 import { premiumWineNational } from "./premium-wine-national";
+import { lawFirmNewHampshire } from "./law-firm-new-hampshire";
 import { lawFirmWestVirginia } from "./law-firm-west-virginia";
 import { investmentAdvisorNational } from "./investment-advisor-national";
 export const caseStudies: Record<string, CaseStudyData> = {
@@ -827,6 +828,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "premium-marine-dealership": premiumMarineDealership,
   "premium-wine-national": premiumWineNational,
   "law-firm-west-virginia": lawFirmWestVirginia,
+  "law-firm-new-hampshire": lawFirmNewHampshire,
 };
 
 export type { CaseStudyData };
