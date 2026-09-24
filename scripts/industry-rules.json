@@ -930,7 +930,10 @@
     "Luxury Custom Vehicles": "lead_gen_services",
     "Premium Motorsports & Powersports Dealership": "lead_gen_services",
     "Premium Marine & Yacht Dealership": "lead_gen_professional",
-    "Premium Wine": "ecommerce"
+    "Premium Wine": "ecommerce",
+    "Law": "lead_gen_professional",
+    "Law Firm": "lead_gen_professional",
+    "General Practice Law": "lead_gen_professional"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",
