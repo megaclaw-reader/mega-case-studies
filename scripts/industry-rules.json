@@ -929,7 +929,8 @@
     "Investment Advisor": "wealth_management",
     "Luxury Custom Vehicles": "lead_gen_services",
     "Premium Motorsports & Powersports Dealership": "lead_gen_services",
-    "Premium Marine & Yacht Dealership": "lead_gen_professional"
+    "Premium Marine & Yacht Dealership": "lead_gen_professional",
+    "Premium Wine": "ecommerce"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",
