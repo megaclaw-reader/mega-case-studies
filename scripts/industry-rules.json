@@ -586,6 +586,10 @@
         "hair_beauty_wellness": [
           45,
           80
+        ],
+        "b2b_wholesale_distributor": [
+          300,
+          800
         ]
       }
     },
@@ -933,7 +937,8 @@
     "Premium Wine": "ecommerce",
     "Law": "lead_gen_professional",
     "Law Firm": "lead_gen_professional",
-    "General Practice Law": "lead_gen_professional"
+    "General Practice Law": "lead_gen_professional",
+    "B2B Wholesale Distributor": "ecommerce"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",

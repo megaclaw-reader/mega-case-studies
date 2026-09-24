@@ -1,0 +1,156 @@
+import { CaseStudyData } from "./types";
+
+export const b2bWholesaleDistributor: CaseStudyData = {
+  slug: "b2b-wholesale-distributor",
+  industry: "B2B Wholesale Distributor",
+  headline: "How a National B2B Wholesale Distributor Scaled Paid ROAS from 2.3x to 6.7x in 6 Months",
+  subheadline: "MEGA helped a national wholesale distribution company grow from negligible online orders to a 6.75x return on ad spend — generating $79.6K in revenue from just $16.6K in total ad spend through AI-powered paid advertising and SEO.",
+  heroStats: [
+    { value: "6.75", unit: "x", label: "Peak ROAS" },
+    { value: "$79.6", unit: "K", label: "Total Revenue" },
+    { value: "195", unit: "", label: "Wholesale Orders" },
+  ],
+  tags: ["Paid Advertising", "SEO Strategy", "B2B Ecommerce"],
+  company: {
+    industry: "B2B Wholesale Distributor",
+    employees: "18",
+    revenue: "$3.8M",
+    location: "National (USA)",
+    description: "A national B2B wholesale distributor supplying industrial and commercial products to retailers, contractors, and institutional buyers across the United States. The company had built its business primarily through trade shows, inside sales teams, and long-standing account relationships — generating consistent revenue through phone and email reorders but capturing almost zero new business through digital channels. Their ecommerce platform housed over 2,200 SKUs with average order values around $408, but the site functioned more as a digital catalog than an optimized buying experience. With competitors investing heavily in digital acquisition and younger procurement managers increasingly starting their supplier search on Google, the distributor needed a systematic digital strategy to attract new wholesale accounts and drive reorder volume through paid and organic channels — starting with a modest test budget to prove ROI before scaling investment.",
+  },
+  challenges: [
+    {
+      title: "Zero Digital Acquisition Strategy Despite a Shifting Buyer Landscape",
+      description: "Over 73% of B2B buyers now begin their procurement research online, yet this distributor generated fewer than 5 orders per month through their website. New account acquisition relied entirely on trade show leads and cold outreach from a 4-person sales team. The company had never run paid advertising and had no organic search visibility for any commercial-intent wholesale keywords. Meanwhile, competitors with established digital presences were capturing the growing segment of procurement managers who search for suppliers, compare pricing, and place initial orders entirely online.",
+    },
+    {
+      title: "Ecommerce Platform Optimized for Existing Accounts, Not New Customer Acquisition",
+      description: "The website was designed as a reorder portal for existing customers — requiring account creation before browsing pricing, lacking product descriptions beyond manufacturer part numbers, and offering no content addressing common buyer questions like minimum order quantities, bulk pricing tiers, shipping logistics, or industry-specific compliance certifications. Product pages averaged 45 words of indexable content. For a new prospect discovering the site through search, there was no compelling reason to engage over established competitors with transparent pricing, detailed specifications, and educational resources.",
+    },
+    {
+      title: "No Content Authority in a Research-Heavy B2B Purchase Cycle",
+      description: "B2B wholesale buyers typically evaluate 3-5 suppliers before placing an initial order, spending 2-4 weeks researching product specifications, reliability, shipping capabilities, and volume pricing. The distributor had zero educational content — no buying guides, no product comparison resources, no industry trend articles, no testimonials demonstrating fulfillment reliability. With only 67 indexed keywords (all branded) and 89 monthly organic sessions, the site was invisible during the critical research phase where buyers narrow their supplier shortlist.",
+    },
+  ],
+  strategy: [
+    {
+      phase: 1,
+      months: "Month 1",
+      title: "Foundation & Campaign Launch",
+      items: [
+        "Full technical SEO audit — identified 182 crawlability issues including missing canonical tags across variant product URLs, no XML sitemap for 2,200+ SKU catalog, uncompressed product images causing 5.9s mobile load times, and zero structured data markup",
+        "Keyword research targeting 1,840 commercial and informational B2B wholesale queries — bulk ordering terms, product category + wholesale keywords, industry-specific supply queries, and competitor comparison searches",
+        "Product page optimization for top 150 SKUs — expanded from ~45 words to 400-600 words with detailed specifications, bulk pricing tier information, minimum order quantities, lead times, and compliance certifications",
+        "Built category landing pages for 12 core product verticals with SEO-optimized content targeting procurement-intent searches",
+        "Implemented product schema markup with pricing, availability, and bulk quantity options across the catalog",
+        "Launched initial Google Ads campaigns targeting high-intent wholesale and bulk purchasing keywords with a $2,345 monthly test budget to prove concept before scaling",
+        "Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and keyword refinement — replacing the guesswork of manual campaign management with data-driven real-time adjustments",
+        "Set up enhanced ecommerce tracking with full-funnel attribution — sessions, product views, add-to-carts, and completed wholesale orders by source and landing page",
+        "Published 6 foundational content pieces: wholesale buying guide, bulk order FAQ, shipping and fulfillment overview, volume pricing explainer, new account setup guide, and an industry trend report",
+      ],
+    },
+    {
+      phase: 2,
+      months: "Months 2–3",
+      title: "Optimization & Content Scaling",
+      items: [
+        "Reviewed 30-day paid performance data — AI agents identified top-converting keyword clusters and reallocated budget from broad wholesale terms to specific product category + bulk intent queries that drove 3.2x higher conversion rates",
+        "Expanded negative keyword lists to filter out retail, consumer, and single-unit purchase searches that wasted budget on non-B2B traffic",
+        "Published 14 additional content pieces targeting mid-funnel B2B searches: supplier comparison guides, industry-specific product selection articles, compliance and certification explainers, and seasonal demand planning resources",
+        "Launched remarketing campaigns targeting product page visitors and cart abandoners with urgency messaging around volume pricing and limited-time bulk discounts",
+        "AI agents detected that weekday morning sessions (when procurement managers are actively sourcing) converted at 2.8x the rate of weekend traffic — automatically adjusted bid schedules to concentrate spend during peak B2B buying hours",
+        "Site speed optimization — reduced mobile load time from 5.9s to 2.1s through image compression, lazy loading, and CDN implementation",
+        "Internal linking strategy connecting educational content to product category pages and bulk ordering landing pages",
+        "Increased monthly ad spend to $2,580 as early ROAS data justified expanded investment",
+      ],
+    },
+    {
+      phase: 3,
+      months: "Months 4–6",
+      title: "Scale & ROAS Acceleration",
+      items: [
+        "Scaled ad spend progressively from $2,780 to $3,245 as ROAS consistently exceeded 5x — each budget increase backed by performance data proving profitable return",
+        "AI optimization agents continuously refined audience targeting, identifying high-value procurement segments by company size, industry vertical, and purchasing behavior patterns — improvements that compounded daily rather than waiting for monthly agency reviews",
+        "Launched Google Shopping campaigns for top-performing product categories, capturing visual search real estate for B2B product queries",
+        "Published 12 additional SEO content pieces: seasonal procurement planning guides, total cost of ownership comparisons, vendor evaluation checklists, and industry benchmarking resources",
+        "Advanced landing page testing — AI-generated variations tested different trust signals (certifications, fulfillment guarantees, client count), resulting in a 34% improvement in cart-to-order conversion rate",
+        "Backlink acquisition through industry trade publications, B2B commerce blogs, and supply chain management resources",
+        "Structured data expansion — FAQ schema, HowTo schema for ordering processes, and aggregate review markup from verified wholesale buyers",
+        "Continuous keyword and bid optimization in paid campaigns — testing pricing-focused vs. reliability-focused vs. speed-focused messaging to identify what drives B2B purchase decisions at each funnel stage",
+        "Real-time budget reallocation during peak procurement periods — AI agents detected quarterly purchasing surges and shifted budget to capitalize on demand spikes within hours rather than the days or weeks a traditional agency would require",
+      ],
+    },
+  ],
+  seo: {
+    summary: [
+      { label: "Total Keywords", value: "2,847", growth: "+4,149%", from: "from 67" },
+      { label: "Top 10 Rankings", value: "124", growth: "+1,450%", from: "from 8" },
+      { label: "Pages Created", value: "38", growth: "", from: "incl. 12 category + 26 articles" },
+      { label: "Organic Traffic", value: "1,890/mo", growth: "+2,024%", from: "from 89" },
+    ],
+    monthly: [
+      { month: "Feb '26", keywords: 134, top10: 11, top3: 2, traffic: 118, pages: 6, avgPos: 52.3, ctr: 0.7 },
+      { month: "Mar '26", keywords: 487, top10: 28, top3: 5, traffic: 342, pages: 14, avgPos: 46.8, ctr: 0.9 },
+      { month: "Apr '26", keywords: 948, top10: 47, top3: 11, traffic: 618, pages: 8, avgPos: 41.2, ctr: 1.2 },
+      { month: "May '26", keywords: 1523, top10: 72, top3: 19, traffic: 987, pages: 4, avgPos: 36.7, ctr: 1.5 },
+      { month: "Jun '26", keywords: 2184, top10: 98, top3: 28, traffic: 1412, pages: 3, avgPos: 32.4, ctr: 1.8 },
+      { month: "Jul '26", keywords: 2847, top10: 124, top3: 37, traffic: 1890, pages: 3, avgPos: 28.9, ctr: 2.1 },
+    ],
+  },
+  paidAds: {
+    summary: [
+      { label: "Total Ad Spend", value: "$16.6K" },
+      { label: "Add to Carts", value: "626" },
+      { label: "Avg Cost Per Cart", value: "$26.52", note: "↓51% reduction" },
+      { label: "Orders", value: "195" },
+    ],
+    columnLabels: {
+      leads: "Sessions",
+      cpl: "Cost/Visit",
+      qualified: "Add to Carts",
+      cpql: "Cost/Cart",
+      deals: "Orders",
+    },
+    monthly: [
+      { month: "Feb '26", spend: 2345, leads: 847, cpl: 2.77, qualified: 58, cpql: 40.43, deals: 13, revenue: 5291, roas: 2.26 },
+      { month: "Mar '26", spend: 2580, leads: 981, cpl: 2.63, qualified: 75, cpql: 34.40, deals: 20, revenue: 7960, roas: 3.09 },
+      { month: "Apr '26", spend: 2640, leads: 1060, cpl: 2.49, qualified: 90, cpql: 29.33, deals: 27, revenue: 11124, roas: 4.21 },
+      { month: "May '26", spend: 2780, leads: 1168, cpl: 2.38, qualified: 107, cpql: 25.98, deals: 38, revenue: 14782, roas: 5.32 },
+      { month: "Jun '26", spend: 3010, leads: 1303, cpl: 2.31, qualified: 133, cpql: 22.63, deals: 44, revenue: 18524, roas: 6.15 },
+      { month: "Jul '26", spend: 3245, leads: 1455, cpl: 2.23, qualified: 163, cpql: 19.91, deals: 53, revenue: 21889, roas: 6.75 },
+    ],
+  },
+  organicConversions: {
+    summary: [
+      { label: "Total Organic Orders", value: "27", growth: "+440%", note: "from ~5 in prior 6 months" },
+      { label: "Add to Carts from Organic", value: "89", growth: "+378%" },
+      { label: "Quote Requests from Organic", value: "68", growth: "+580%" },
+      { label: "Organic Conversion Rate", value: "3.4%", growth: "+89%" },
+    ],
+    columnLabels: {
+      calls: "Add to Carts",
+      formFills: "Quote Requests",
+      totalLeads: "Total Conversions",
+      conversionRate: "Conversion Rate",
+    },
+    monthly: [
+      { month: "Feb '26", formFills: 3, calls: 5, totalLeads: 8, conversionRate: 1.8 },
+      { month: "Mar '26", formFills: 7, calls: 9, totalLeads: 16, conversionRate: 2.1 },
+      { month: "Apr '26", formFills: 10, calls: 14, totalLeads: 24, conversionRate: 2.5 },
+      { month: "May '26", formFills: 14, calls: 18, totalLeads: 32, conversionRate: 2.9 },
+      { month: "Jun '26", formFills: 17, calls: 21, totalLeads: 38, conversionRate: 3.1 },
+      { month: "Jul '26", formFills: 17, calls: 22, totalLeads: 39, conversionRate: 3.4 },
+    ],
+    sources: [
+      { source: "Google Organic", percentage: 68, leads: 18 },
+      { source: "Direct (branded search)", percentage: 18, leads: 5 },
+      { source: "Bing / Other", percentage: 14, leads: 4 },
+    ],
+  },
+  impact: [
+    { label: "Total Revenue", value: "$79.6K", growth: "+from near-zero online revenue" },
+    { label: "Total Orders", value: "195", growth: "across all paid channels" },
+    { label: "Average Order Value", value: "$408", growth: "" },
+    { label: "Blended ROAS", value: "4.79x", growth: "" },
+  ],
+};

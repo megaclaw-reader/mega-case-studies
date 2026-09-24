@@ -1,4 +1,5 @@
 import { CaseStudyData } from "./types";
+import { b2bWholesaleDistributor } from "./b2b-wholesale-distributor";
 import { roofingArizona } from "./roofing-arizona";
 import { plasticSurgeryArizona } from "./plastic-surgery-arizona";
 import { danceCoursesSanDiego } from "./dance-courses-san-diego";
@@ -829,6 +830,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "premium-wine-national": premiumWineNational,
   "law-firm-west-virginia": lawFirmWestVirginia,
   "law-firm-new-hampshire": lawFirmNewHampshire,
+  "b2b-wholesale-distributor": b2bWholesaleDistributor,
 };
 
 export type { CaseStudyData };
