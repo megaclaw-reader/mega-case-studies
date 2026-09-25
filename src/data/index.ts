@@ -1,4 +1,6 @@
 import { CaseStudyData } from "./types";
+import { securityAndInvestigations } from "./security-and-investigations";
+import { facilitiesServices } from "./facilities-services";
 import { b2bWholesaleDistributor } from "./b2b-wholesale-distributor";
 import { roofingArizona } from "./roofing-arizona";
 import { plasticSurgeryArizona } from "./plastic-surgery-arizona";
@@ -831,6 +833,8 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "law-firm-west-virginia": lawFirmWestVirginia,
   "law-firm-new-hampshire": lawFirmNewHampshire,
   "b2b-wholesale-distributor": b2bWholesaleDistributor,
+  "security-and-investigations": securityAndInvestigations,
+  "facilities-services": facilitiesServices,
 };
 
 export type { CaseStudyData };

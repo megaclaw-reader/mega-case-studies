@@ -46,6 +46,8 @@ QUAL_RATES = {
     'Education': (0.10, 0.25),
     'Entertainment': (0.12, 0.32),
     'Event': (0.12, 0.32),
+    'Security and Investigations': (0.20, 0.40),
+    'Security': (0.15, 0.35),
     'Fitness': (0.12, 0.30),
     'Art Studio': (0.25, 0.48),  # High-intent local searchers for classes/events — people actively looking to book
     'Yoga': (0.12, 0.30),
