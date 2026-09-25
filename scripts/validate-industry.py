@@ -249,6 +249,7 @@ def _cpl_category(industry, model_key):
         ("b2b office", "b2b_office_service"), ("office service", "b2b_office_service"), ("managed print", "b2b_office_service"), ("copier", "b2b_office_service"),
         ("private membership", "private_membership_club"), ("membership club", "private_membership_club"),
         ("plastic surgery", "plastic_surgery"), ("plastic surgeon", "plastic_surgery"),
+        ("facilities service", "facilities_services"), ("facility service", "facilities_services"), ("facility management", "facilities_services"), ("building maintenance", "facilities_services"),
         ("pest", "pest_control"), ("exterminator", "pest_control"), ("termite", "pest_control"),
         ("security and investigations", "security_investigations"), ("security and investigat", "security_investigations"),
         ("alarm", "alarm_surveillance"), ("surveillance", "alarm_surveillance"), ("security system", "alarm_surveillance"),
