@@ -950,7 +950,8 @@
     "Security and Investigations": "lead_gen_professional",
     "Facilities Services": "lead_gen_services",
     "Wholesale": "lead_gen_professional",
-    "Wholesale Distribution": "lead_gen_professional"
+    "Wholesale Distribution": "lead_gen_professional",
+    "Beauty Wholesale": "lead_gen_professional"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",

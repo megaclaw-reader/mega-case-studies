@@ -333,6 +333,7 @@ import { optometristArizona } from "./optometrist-arizona";
 import { staffingBoston } from "./staffing-boston";
 import { staffingChicago } from "./staffing-chicago";
 import { accountingHouston } from "./accounting-houston";
+import { beautyWholesaleNewMexico } from "./beauty-wholesale-new-mexico";
 import { beautyProductsEcommerce } from "./beauty-products-ecommerce";
 import { roofRestorationCalifornia } from "./roof-restoration-california";
 import { roofingTexas } from "./roofing-texas";
@@ -620,6 +621,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "staffing-boston": staffingBoston,
   "staffing-chicago": staffingChicago,
   "accounting-houston": accountingHouston,
+  "beauty-wholesale-new-mexico": beautyWholesaleNewMexico,
   "ophthalmology-florida": ophthalmologyFlorida,
   "self-storage-new-york": selfStorageNewYork,
   "live-event-technology-seo": liveEventTechnologySeo,

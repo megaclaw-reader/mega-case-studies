@@ -31,6 +31,7 @@ QUAL_RATES = {
     'Automotive': (0.12, 0.28),
     'B2B Healthcare Service': (0.20, 0.50),
     'B2B': (0.08, 0.20),
+    'Beauty Wholesale': (0.18, 0.38),  # B2B wholesale — targeted salon/spa owners, moderate qual rates
     'Renewable Energy Procurement SaaS': (0.25, 0.55),  # Highly targeted B2B enterprise campaigns — narrow audience = higher qual rate
     'SaaS': (0.08, 0.20),
     'Family Law': (0.25, 0.50),  # Family law/divorce has high qual rates — emotionally motivated, high-intent callers actively seeking representation
