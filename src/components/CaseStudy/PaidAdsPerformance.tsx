@@ -83,7 +83,9 @@ export default function PaidAdsPerformance({ data }: { data: CaseStudyData }) {
               headers.push(cl?.costPerDeal || (isEcom ? "Cost/Order" : "Cost/Acquisition"));
             }
           }
-          if (hasRevenue && showRevenue) { headers.push("Revenue"); }
+          const hasMonthlyRevenue = paidAds.monthly.some(r => (r as any).monthlyRevenue != null && (r as any).monthlyRevenue > 0);
+          if (hasMonthlyRevenue) { headers.push(cl?.monthlyRevenue || "Monthly Revenue"); }
+          if (hasRevenue && showRevenue) { headers.push(hasMonthlyRevenue ? (cl?.revenue || "Projected Annual Revenue") : "Revenue"); }
           if (hasRevenue && showRoas) { headers.push("ROAS"); }
           const m = paidAds.monthly;
           const totalSpend = m.reduce((s, r) => s + r.spend, 0);
@@ -119,6 +121,7 @@ export default function PaidAdsPerformance({ data }: { data: CaseStudyData }) {
                     {showCpql && <td className="px-5 py-3">${row.cpql.toLocaleString()}</td>}
                     {hasDeals && <td className="px-5 py-3">{row.deals}</td>}
                     {hasDeals && showCostPerDeal && <td className="px-5 py-3">${row.deals ? Math.round(row.spend / row.deals).toLocaleString() : "—"}</td>}
+                    {hasMonthlyRevenue && <td className="px-5 py-3">${((row as any).monthlyRevenue ?? 0).toLocaleString()}</td>}
                     {hasRevenue && showRevenue && <td className="px-5 py-3">${(row.revenue ?? 0).toLocaleString()}</td>}
                     {hasRevenue && showRoas && <td className="px-5 py-3">{row.roas}x</td>}
                   </tr>
@@ -134,6 +137,7 @@ export default function PaidAdsPerformance({ data }: { data: CaseStudyData }) {
                   {showCpql && <td className="px-5 py-3">${avgCpql.toLocaleString()}</td>}
                   {hasDeals && <td className="px-5 py-3">{totalDeals}</td>}
                   {hasDeals && showCostPerDeal && <td className="px-5 py-3">${totalDeals ? Math.round(totalSpend / totalDeals).toLocaleString() : "—"}</td>}
+                  {hasMonthlyRevenue && <td className="px-5 py-3">${m.reduce((s, r) => s + ((r as any).monthlyRevenue ?? 0), 0).toLocaleString()}</td>}
                   {hasRevenue && showRevenue && <td className="px-5 py-3">${totalRevenue.toLocaleString()}</td>}
                   {hasRevenue && showRoas && <td className="px-5 py-3">{avgRoas}x</td>}
                 </tr>
