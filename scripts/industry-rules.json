@@ -598,6 +598,10 @@
         "b2b_wholesale_distributor": [
           300,
           800
+        ],
+        "luxury_watch_jewelry": [
+          800,
+          2000
         ]
       }
     },
@@ -951,7 +955,8 @@
     "Facilities Services": "lead_gen_services",
     "Wholesale": "lead_gen_professional",
     "Wholesale Distribution": "lead_gen_professional",
-    "Beauty Wholesale": "lead_gen_professional"
+    "Beauty Wholesale": "lead_gen_professional",
+    "Luxury Watch & Jewelry": "ecommerce"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",

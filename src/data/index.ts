@@ -393,6 +393,7 @@ import { ecommercePremiumPet } from "./ecommerce-premium-pet";
 import { ecommerceHomeFurnishings } from "./ecommerce-home-furnishings";
 import { ecommerceOutdoorGear } from "./ecommerce-outdoor-gear";
 import { ecommerceLuxuryWatches } from "./ecommerce-luxury-watches";
+import { luxuryWatchJewelry } from "./luxury-watch-jewelry";
 import { ecommerceSportsNutrition } from "./ecommerce-sports-nutrition";
 import { ecommerceSkincerePremium } from "./ecommerce-skincare-premium";
 import { babyClothingEcommerce } from "./baby-clothing-ecommerce";
@@ -843,6 +844,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "wholesale-arizona": wholesaleArizona,
   "medspa-chicago": medspaChicago,
   "roofing-austin-tx": roofingAustinTx,
+  "luxury-watch-jewelry": luxuryWatchJewelry,
 };
 
 export type { CaseStudyData };
