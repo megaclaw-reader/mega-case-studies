@@ -41,6 +41,8 @@ QUAL_RATES = {
     'Business Law': (0.20, 0.45),  # B2B legal services have higher qual rates with proper targeting
     'Business': (0.10, 0.25),
     'Construction': (0.08, 0.20),
+    'Dry Cleaning': (0.35, 0.55),  # Dry cleaning/laundry — high-intent local service, recurring customers, many inquiries are price shoppers but targeted campaigns filter well
+    'Laundry': (0.35, 0.55),
     'Dental': (0.18, 0.38),
     'Orthodont': (0.18, 0.38),
     'Ecommerce': (0.01, 0.05),  # This is conversion rate (sessions -> orders)
