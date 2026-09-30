@@ -106,11 +106,14 @@ def extract_monthly_seo(content):
 
 def check_paid_quality(months, issues, warnings, is_ecom=False, is_seasonal=False):
     """Check paid ads data for quality/compellingness."""
-    if len(months) < 4:
+    if len(months) < 2:
         issues.append("Too few months of paid data to evaluate")
         return
 
     n = len(months)
+
+    # Short engagements (2-3 months) get softer thresholds — you can't show 2x growth in 2 months
+    is_short = n <= 3
 
     # 1. Lead growth (skip for ecom — "leads" are sessions, not leads; skip for seasonal — leads track demand curve not growth)
     first_leads = months[0].get('leads', 0)
@@ -124,10 +127,11 @@ def check_paid_quality(months, issues, warnings, is_ecom=False, is_seasonal=Fals
         print(f"  ✅ Seasonal business: peak leads {peak_leads} (first={first_leads}, last={last_leads})")
     elif first_leads > 0:
         lead_mult = last_leads / first_leads
-        if lead_mult < THRESHOLDS['min_lead_growth_multiplier']:
+        min_lead_mult = 1.1 if is_short else THRESHOLDS['min_lead_growth_multiplier']
+        if lead_mult < min_lead_mult:
             issues.append(
                 f"WEAK LEAD GROWTH: {first_leads} → {last_leads} ({lead_mult:.1f}x). "
-                f"Need at least {THRESHOLDS['min_lead_growth_multiplier']}x growth to tell a compelling story."
+                f"Need at least {min_lead_mult}x growth to tell a compelling story."
             )
         else:
             print(f"  ✅ Lead growth: {first_leads} → {last_leads} ({lead_mult:.1f}x)")
@@ -137,10 +141,11 @@ def check_paid_quality(months, issues, warnings, is_ecom=False, is_seasonal=Fals
     last_cpql = months[-1].get('cpql', 0)
     if first_cpql > 0:
         cpql_reduction = ((first_cpql - last_cpql) / first_cpql) * 100
-        if cpql_reduction < THRESHOLDS['min_cpql_reduction_pct']:
+        min_cpql_red = 15 if is_short else THRESHOLDS['min_cpql_reduction_pct']
+        if cpql_reduction < min_cpql_red:
             issues.append(
                 f"WEAK CPQL REDUCTION: ${first_cpql} → ${last_cpql} ({cpql_reduction:.0f}% drop). "
-                f"Need at least {THRESHOLDS['min_cpql_reduction_pct']}% reduction. This won't impress anyone."
+                f"Need at least {min_cpql_red}% reduction. This won't impress anyone."
             )
         else:
             print(f"  ✅ CPQL reduction: ${first_cpql} → ${last_cpql} ({cpql_reduction:.0f}% drop)")
@@ -150,10 +155,11 @@ def check_paid_quality(months, issues, warnings, is_ecom=False, is_seasonal=Fals
     last_deals = months[-1].get('deals', 0)
     if first_deals > 0:
         deal_mult = last_deals / first_deals
-        if deal_mult < THRESHOLDS['min_deal_growth_multiplier']:
+        min_deal_mult = 1.2 if is_short else THRESHOLDS['min_deal_growth_multiplier']
+        if deal_mult < min_deal_mult:
             issues.append(
                 f"WEAK DEAL GROWTH: {first_deals} → {last_deals} ({deal_mult:.1f}x). "
-                f"Need at least {THRESHOLDS['min_deal_growth_multiplier']}x. A prospect won't switch agencies for marginal gains."
+                f"Need at least {min_deal_mult}x. A prospect won't switch agencies for marginal gains."
             )
         else:
             print(f"  ✅ Deal growth: {first_deals} → {last_deals} ({deal_mult:.1f}x)")
@@ -238,10 +244,11 @@ def check_paid_quality(months, issues, warnings, is_ecom=False, is_seasonal=Fals
     last_rev = months[-1].get('revenue', 0)
     if first_rev > 0:
         rev_growth = ((last_rev - first_rev) / first_rev) * 100
-        if rev_growth < THRESHOLDS['min_revenue_growth_pct']:
+        min_rev_growth = 25 if is_short else THRESHOLDS['min_revenue_growth_pct']
+        if rev_growth < min_rev_growth:
             issues.append(
                 f"WEAK REVENUE GROWTH: ${first_rev:,.0f} → ${last_rev:,.0f} ({rev_growth:.0f}% growth). "
-                f"Need at least {THRESHOLDS['min_revenue_growth_pct']}% growth to show real business impact."
+                f"Need at least {min_rev_growth}% growth to show real business impact."
             )
         else:
             print(f"  ✅ Revenue growth: ${first_rev:,.0f} → ${last_rev:,.0f} ({rev_growth:.0f}%)")

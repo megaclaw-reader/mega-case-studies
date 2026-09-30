@@ -222,6 +222,10 @@
         "facilities_services": [
           5000,
           25000
+        ],
+        "dry_cleaning": [
+          150,
+          500
         ]
       }
     },
@@ -956,7 +960,8 @@
     "Wholesale": "lead_gen_professional",
     "Wholesale Distribution": "lead_gen_professional",
     "Beauty Wholesale": "lead_gen_professional",
-    "Luxury Watch & Jewelry": "ecommerce"
+    "Luxury Watch & Jewelry": "ecommerce",
+    "Dry Cleaning & Laundry": "lead_gen_services"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",

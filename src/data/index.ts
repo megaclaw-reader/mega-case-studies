@@ -422,6 +422,7 @@ import { premiumWineNational } from "./premium-wine-national";
 import { lawFirmNewHampshire } from "./law-firm-new-hampshire";
 import { lawFirmWestVirginia } from "./law-firm-west-virginia";
 import { investmentAdvisorNational } from "./investment-advisor-national";
+import { dryCleaningPhoenix } from "./dry-cleaning-phoenix";
 export const caseStudies: Record<string, CaseStudyData> = {
   "criminal-law-phoenix": criminalLawPhoenix,
   "divorce-law-chicago": divorceLawChicago,
@@ -843,6 +844,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "facilities-services": facilitiesServices,
   "wholesale-arizona": wholesaleArizona,
   "medspa-chicago": medspaChicago,
+  "dry-cleaning-phoenix": dryCleaningPhoenix,
   "roofing-austin-tx": roofingAustinTx,
   "luxury-watch-jewelry": luxuryWatchJewelry,
 };
