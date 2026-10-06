@@ -963,7 +963,8 @@
     "Luxury Watch & Jewelry": "ecommerce",
     "Dry Cleaning & Laundry": "lead_gen_services",
     "Water Filtration": "lead_gen_services",
-    "Behavioral Health Telehealth": "healthcare_medical"
+    "Behavioral Health Telehealth": "healthcare_medical",
+    "Hardscaping": "lead_gen_services"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",

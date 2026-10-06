@@ -97,6 +97,7 @@ QUAL_RATES = {
     'Mortgage': (0.04, 0.15),
     'Storage': (0.04, 0.15),
     'Rental': (0.04, 0.15),
+    'Hardscap': (0.15, 0.35),  # Hardscaping — high-ticket projects attract more qualified homeowners with proper budget-qualifying ads
     'Roofing': (0.10, 0.25),
     'Security': (0.10, 0.25),
     'Surveillance': (0.10, 0.25),

@@ -20,6 +20,7 @@ DATA_DIR = os.path.join(SCRIPT_DIR, "..", "src", "data")
 # For ecom, this is cost-per-session (much lower). For services, cost-per-lead.
 CPL_RANGES = {
     # Lead gen services — local, lower competition
+    "hardscaping":      (40, 130),
     "junk_removal":     (25, 120),
     "water_filtration":  (35, 150),
     "sports_nutrition":  (15, 55),
@@ -206,7 +207,7 @@ def _cpl_category(industry, model_key):
         ("orthodontic", "orthodontics"), ("dental surgery", "dental_surgery"), ("dental implant", "dental_implants"), ("cosmetic dentist", "cosmetic_dentistry"), ("chiropract", "chiropractor"), ("painting", "painting"), ("dental medtech", "healthcare_equip"), ("dental", "dental"), ("commercial hvac service", "commercial_hvac_services"), ("commercial hvac parts", "commercial_hvac_parts"), ("hvac parts", "commercial_hvac_parts"), ("hvac", "hvac"), ("roof", "roofing"),
         ("water system", "water_system_service"), ("water treatment", "water_system_service"), ("water filtration", "water_system_service"), ("water softener", "water_system_service"), ("well pump", "water_system_service"),
         ("plumb", "plumbing"), ("commercial landscap", "construction"),
-        ("landscap", "landscaping"), ("dry clean", "dry_cleaning"), ("dry-clean", "dry_cleaning"), ("laundry", "dry_cleaning"), ("clean", "cleaning"),
+        ("hardscap", "hardscaping"), ("landscap", "landscaping"), ("dry clean", "dry_cleaning"), ("dry-clean", "dry_cleaning"), ("laundry", "dry_cleaning"), ("clean", "cleaning"),
         ("moving", "moving"), ("garage", "garage_door"),
         ("home improve", "home_improvement"), ("home renov", "home_renovation"),
         ("custom home", "residential_home_building"), ("home building", "residential_home_building"), ("residential home building", "residential_home_building"),
@@ -354,6 +355,7 @@ def _cpl_category(industry, model_key):
 
 # ─── Deal value ranges by industry ───
 DEAL_VALUE_RANGES = {
+    "hardscaping": (5000, 25000),
     "junk_removal": (150, 2000),
     "water_filtration": (1500, 6000),
     "sports_nutrition": (150, 600),

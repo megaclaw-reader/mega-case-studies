@@ -406,6 +406,7 @@ import { injuryLawNewJersey } from "./injury-law-new-jersey";
 import { sportsTeamArizona } from "./sports-team-arizona";
 import { therapyArizona } from "./therapy-arizona";
 import { therapyTucson } from "./therapy-tucson";
+import { hardscapingHouston } from "./hardscaping-houston";
 import { landscapingFl } from "./landscaping-fl";
 import { landscapingFloridaSubscription } from "./landscaping-florida-subscription";
 import { cybersecuritySaasSeo } from "./cybersecurity-saas-seo";
@@ -781,6 +782,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "real-estate-agent-new-york-seo": realEstateAgentNewYorkSeo,
   "real-estate-agent-seo-ny": realEstateAgentSeoNy,
   "pool-maintenance-nc": poolMaintenanceNc,
+  "hardscaping-houston": hardscapingHouston,
   "landscaping-fl": landscapingFl,
   "cybersecurity-saas-seo": cybersecuritySaasSeo,
   "cybersecurity-platform-seo": cybersecurityPlatformSeo,
