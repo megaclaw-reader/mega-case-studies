@@ -21,6 +21,7 @@ DATA_DIR = os.path.join(SCRIPT_DIR, "..", "src", "data")
 CPL_RANGES = {
     # Lead gen services — local, lower competition
     "junk_removal":     (25, 120),
+    "water_filtration":  (35, 150),
     "sports_nutrition":  (15, 55),
     "sports_entertainment": (15, 60),
     "entertainment_events": (18, 70),
@@ -353,6 +354,7 @@ def _cpl_category(industry, model_key):
 # ─── Deal value ranges by industry ───
 DEAL_VALUE_RANGES = {
     "junk_removal": (150, 2000),
+    "water_filtration": (1500, 6000),
     "sports_nutrition": (150, 600),
     "sports_entertainment": (200, 2000),
     "entertainment_events": (2000, 15000),

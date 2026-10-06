@@ -1,4 +1,5 @@
 import { CaseStudyData } from "./types";
+import { waterFiltrationUtah } from "./water-filtration-utah";
 import { roofingAustinTx } from "./roofing-austin-tx";
 import { medspaChicago } from "./medspa-chicago";
 import { securityAndInvestigations } from "./security-and-investigations";
@@ -847,6 +848,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "dry-cleaning-phoenix": dryCleaningPhoenix,
   "roofing-austin-tx": roofingAustinTx,
   "luxury-watch-jewelry": luxuryWatchJewelry,
+  "water-filtration-utah": waterFiltrationUtah,
 };
 
 export type { CaseStudyData };
