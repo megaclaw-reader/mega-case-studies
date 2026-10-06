@@ -313,6 +313,7 @@ def _cpl_category(industry, model_key):
         ("real estate", "real_estate"),  # newsletters have unique economics
         ("private lending", "private_lending"), ("hard money", "private_lending"), ("bridge loan", "private_lending"),
         ("mortgage", "mortgage"), ("lending", "mortgage"),
+        ("behavioral health telehealth", "behavioral_health"),
         ("telemedicine", "telemedicine"), ("telehealth", "telemedicine"),
         ("rehab", "rehab_center"),
         ("behavioral health", "behavioral_health"),

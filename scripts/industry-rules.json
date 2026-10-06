@@ -962,7 +962,8 @@
     "Beauty Wholesale": "lead_gen_professional",
     "Luxury Watch & Jewelry": "ecommerce",
     "Dry Cleaning & Laundry": "lead_gen_services",
-    "Water Filtration": "lead_gen_services"
+    "Water Filtration": "lead_gen_services",
+    "Behavioral Health Telehealth": "healthcare_medical"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",
