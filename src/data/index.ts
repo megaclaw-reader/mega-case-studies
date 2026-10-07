@@ -1,5 +1,6 @@
 import { CaseStudyData } from "./types";
 import { telehealthNational } from "./telehealth-national";
+import { telehealthHormoneTherapy } from "./telehealth-hormone-therapy";
 import { waterFiltrationUtah } from "./water-filtration-utah";
 import { roofingAustinTx } from "./roofing-austin-tx";
 import { medspaChicago } from "./medspa-chicago";
@@ -852,6 +853,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "roofing-austin-tx": roofingAustinTx,
   "luxury-watch-jewelry": luxuryWatchJewelry,
   "water-filtration-utah": waterFiltrationUtah,
+  "telehealth-hormone-therapy": telehealthHormoneTherapy,
   "telehealth-national": telehealthNational,
 };
 
