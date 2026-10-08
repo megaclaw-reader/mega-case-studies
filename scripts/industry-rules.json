@@ -966,7 +966,8 @@
     "Water Filtration": "lead_gen_services",
     "Behavioral Health Telehealth": "healthcare_medical",
     "Hardscaping": "lead_gen_services",
-    "Telehealth Hormone Therapy": "lead_gen_services"
+    "Telehealth Hormone Therapy": "lead_gen_services",
+    "Telehealth Peptides": "healthcare_medical"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",

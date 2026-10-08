@@ -1,6 +1,7 @@
 import { CaseStudyData } from "./types";
 import { enterpriseConsultationSaas } from "./enterprise-consultation-saas";
 import { telehealthNational } from "./telehealth-national";
+import { telehealthPeptides } from "./telehealth-peptides";
 import { telehealthHormoneTherapy } from "./telehealth-hormone-therapy";
 import { waterFiltrationUtah } from "./water-filtration-utah";
 import { roofingAustinTx } from "./roofing-austin-tx";
@@ -856,6 +857,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "water-filtration-utah": waterFiltrationUtah,
   "telehealth-hormone-therapy": telehealthHormoneTherapy,
   "telehealth-national": telehealthNational,
+  "telehealth-peptides": telehealthPeptides,
   "enterprise-consultation-saas": enterpriseConsultationSaas,
 };
 
