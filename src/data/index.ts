@@ -1,4 +1,5 @@
 import { CaseStudyData } from "./types";
+import { luxuryHomeBuilder } from "./luxury-home-builder";
 import { enterpriseConsultationSaas } from "./enterprise-consultation-saas";
 import { telehealthNational } from "./telehealth-national";
 import { telehealthPeptides } from "./telehealth-peptides";
@@ -859,6 +860,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "telehealth-national": telehealthNational,
   "telehealth-peptides": telehealthPeptides,
   "enterprise-consultation-saas": enterpriseConsultationSaas,
+  "luxury-home-builder": luxuryHomeBuilder,
 };
 
 export type { CaseStudyData };

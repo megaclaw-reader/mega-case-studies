@@ -226,6 +226,10 @@
         "dry_cleaning": [
           800,
           1500
+        ],
+        "luxury_home_builder": [
+          1000000,
+          5000000
         ]
       }
     },
@@ -967,7 +971,8 @@
     "Behavioral Health Telehealth": "healthcare_medical",
     "Hardscaping": "lead_gen_services",
     "Telehealth Hormone Therapy": "lead_gen_services",
-    "Telehealth Peptides": "healthcare_medical"
+    "Telehealth Peptides": "healthcare_medical",
+    "Luxury Home Builder": "lead_gen_services"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",
