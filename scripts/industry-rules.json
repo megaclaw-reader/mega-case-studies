@@ -610,6 +610,10 @@
         "luxury_watch_jewelry": [
           800,
           2000
+        ],
+        "handcrafted_jewelry": [
+          100,
+          200
         ]
       }
     },
@@ -972,7 +976,8 @@
     "Hardscaping": "lead_gen_services",
     "Telehealth Hormone Therapy": "lead_gen_services",
     "Telehealth Peptides": "healthcare_medical",
-    "Luxury Home Builder": "lead_gen_services"
+    "Luxury Home Builder": "lead_gen_services",
+    "Handcrafted Jewelry": "ecommerce"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",
