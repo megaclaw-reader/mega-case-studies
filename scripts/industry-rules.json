@@ -978,7 +978,8 @@
     "Telehealth Peptides": "healthcare_medical",
     "Luxury Home Builder": "lead_gen_services",
     "Handcrafted Jewelry": "ecommerce",
-    "Bakery": "lead_gen_services"
+    "Bakery": "lead_gen_services",
+    "Intellectual Property Law": "lead_gen_professional"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",

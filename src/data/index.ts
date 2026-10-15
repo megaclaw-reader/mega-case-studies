@@ -1,4 +1,5 @@
 import { CaseStudyData } from "./types";
+import { intellectualPropertyLaw } from "./intellectual-property-law";
 import { bakery } from "./bakery";
 import { handcraftedJewelry } from "./handcrafted-jewelry";
 import { luxuryHomeBuilder } from "./luxury-home-builder";
@@ -863,6 +864,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "telehealth-peptides": telehealthPeptides,
   "enterprise-consultation-saas": enterpriseConsultationSaas,
   "luxury-home-builder": luxuryHomeBuilder,
+  "intellectual-property-law": intellectualPropertyLaw,
   "bakery": bakery,
   "handcrafted-jewelry": handcraftedJewelry,
 };
