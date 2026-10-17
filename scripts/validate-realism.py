@@ -43,6 +43,7 @@ QUAL_RATES = {
     'Construction': (0.08, 0.20),
     'Dry Cleaning': (0.35, 0.55),  # Dry cleaning/laundry — high-intent local service, recurring customers, many inquiries are price shoppers but targeted campaigns filter well
     'Laundry': (0.35, 0.55),
+    'Dentistry': (0.25, 0.55),  # Cosmetic/implant-focused practices with targeted campaigns — high-intent, high-value procedure seekers
     'Dental': (0.18, 0.38),
     'Orthodont': (0.18, 0.38),
     'Ecommerce': (0.01, 0.05),  # This is conversion rate (sessions -> orders)
@@ -158,7 +159,14 @@ def validate_file(filepath):
     has_add_to_cart = 'addToCart' in content or bool(re.search(r'["\']Add to Cart["\']', content))
     has_ticket = bool(re.search(r'["\']Ticket (Purchases|Selections)["\']', content))
     is_ecom = (has_sessions and has_orders) or has_add_to_cart or (has_sessions and has_ticket) or (has_sessions and has_subscribers)
-    roas_cap = ROAS_CAPS['ecom'] if is_ecom else ROAS_CAPS['lead_gen']
+    high_ticket_slugs = ['pool-installation', 'pool-construction', 'general-contracting', 'home-renovation', 'luxury-home-builder', 'custom-home-building', 'dentistry-florida', 'dental-implants', 'cosmetic-dentistry']
+    is_high_ticket_slug = any(s in fname for s in high_ticket_slugs)
+    if is_high_ticket_slug:
+        roas_cap = 35.0
+    elif is_ecom:
+        roas_cap = ROAS_CAPS['ecom']
+    else:
+        roas_cap = ROAS_CAPS['lead_gen']
     
     # Get paid ads data
     paid_idx = content.find('paidAds')
@@ -218,7 +226,7 @@ def validate_file(filepath):
                 issues.append(f'AVG DEAL VALUE ${avg_deal:,.0f} is suspiciously low for {industry}')
             elif avg_deal > 200000:
                 # Allow high deal values for explicitly high-ticket industries
-                high_ticket_keywords = ['Marine', 'Yacht', 'Luxury Real Estate', 'Residential Home Build', 'Pool Renovation', 'M&A', 'Venture Capital']
+                high_ticket_keywords = ['Marine', 'Yacht', 'Luxury Real Estate', 'Residential Home Build', 'Pool Renovation', 'M&A', 'Venture Capital', 'Dentistry', 'Dental Implant', 'Cosmetic Dentistry']
                 is_high_ticket = any(kw.lower() in industry.lower() for kw in high_ticket_keywords)
                 if not is_high_ticket:
                     issues.append(f'AVG DEAL VALUE ${avg_deal:,.0f} is suspiciously high for {industry}')
