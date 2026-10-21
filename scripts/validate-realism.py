@@ -63,6 +63,7 @@ QUAL_RATES = {
     'Plumbing': (0.12, 0.30),
     'Healthcare': (0.10, 0.25),
     'Medical Treatment': (0.15, 0.40),
+    'Peptide Therapy': (0.15, 0.45),  # Telehealth peptide therapy inquiries are high-intent — patients actively seeking physician-supervised treatment, not casual browsing
     'Weight Loss': (0.25, 0.50),  # Weight loss leads are high-intent — patients actively seeking treatment programs, higher qual rate
     'Medical': (0.10, 0.25),
     'Mental Health': (0.10, 0.25),
@@ -160,7 +161,7 @@ def validate_file(filepath):
     has_add_to_cart = 'addToCart' in content or bool(re.search(r'["\']Add to Cart["\']', content))
     has_ticket = bool(re.search(r'["\']Ticket (Purchases|Selections)["\']', content))
     is_ecom = (has_sessions and has_orders) or has_add_to_cart or (has_sessions and has_ticket) or (has_sessions and has_subscribers)
-    high_ticket_slugs = ['pool-installation', 'pool-construction', 'general-contracting', 'home-renovation', 'luxury-home-builder', 'custom-home-building', 'dentistry-florida', 'dental-implants', 'cosmetic-dentistry']
+    high_ticket_slugs = ['pool-installation', 'pool-construction', 'general-contracting', 'home-renovation', 'luxury-home-builder', 'custom-home-building', 'dentistry-florida', 'dental-implants', 'cosmetic-dentistry', 'peptides-national']
     is_high_ticket_slug = any(s in fname for s in high_ticket_slugs)
     if is_high_ticket_slug:
         roas_cap = 35.0

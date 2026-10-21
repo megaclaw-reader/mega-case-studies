@@ -1,0 +1,446 @@
+{
+  "residential-roofing": {
+    "name": "Residential Roofing",
+    "location": "Charlotte, NC",
+    "months_data": [
+      {
+        "month": "Jan '25",
+        "spend": 8147,
+        "leads": 64,
+        "cpl": 127.3,
+        "qualified": 19,
+        "cpql": 428.79,
+        "deals": 2,
+        "revenue": 18400,
+        "roas": 2.26
+      },
+      {
+        "month": "Feb '25",
+        "spend": 8293,
+        "leads": 72,
+        "cpl": 115.18,
+        "qualified": 23,
+        "cpql": 360.57,
+        "deals": 2,
+        "revenue": 19100,
+        "roas": 2.3
+      },
+      {
+        "month": "Mar '25",
+        "spend": 8516,
+        "leads": 84,
+        "cpl": 101.38,
+        "qualified": 28,
+        "cpql": 304.14,
+        "deals": 3,
+        "revenue": 27300,
+        "roas": 3.21
+      },
+      {
+        "month": "Apr '25",
+        "spend": 9340,
+        "leads": 102,
+        "cpl": 91.57,
+        "qualified": 36,
+        "cpql": 259.44,
+        "deals": 3,
+        "revenue": 28350,
+        "roas": 3.04
+      },
+      {
+        "month": "May '25",
+        "spend": 10217,
+        "leads": 121,
+        "cpl": 84.44,
+        "qualified": 44,
+        "cpql": 232.2,
+        "deals": 4,
+        "revenue": 38400,
+        "roas": 3.76
+      },
+      {
+        "month": "Jun '25",
+        "spend": 10843,
+        "leads": 134,
+        "cpl": 80.92,
+        "qualified": 51,
+        "cpql": 212.61,
+        "deals": 4,
+        "revenue": 37000,
+        "roas": 3.41
+      },
+      {
+        "month": "Jul '25",
+        "spend": 11105,
+        "leads": 148,
+        "cpl": 75.03,
+        "qualified": 58,
+        "cpql": 191.47,
+        "deals": 5,
+        "revenue": 47500,
+        "roas": 4.28
+      },
+      {
+        "month": "Aug '25",
+        "spend": 11472,
+        "leads": 157,
+        "cpl": 73.07,
+        "qualified": 64,
+        "cpql": 179.25,
+        "deals": 5,
+        "revenue": 46500,
+        "roas": 4.05
+      },
+      {
+        "month": "Sep '25",
+        "spend": 11738,
+        "leads": 168,
+        "cpl": 69.87,
+        "qualified": 71,
+        "cpql": 165.32,
+        "deals": 4,
+        "revenue": 38800,
+        "roas": 3.31
+      },
+      {
+        "month": "Oct '25",
+        "spend": 12103,
+        "leads": 179,
+        "cpl": 67.61,
+        "qualified": 78,
+        "cpql": 155.17,
+        "deals": 6,
+        "revenue": 54900,
+        "roas": 4.54
+      },
+      {
+        "month": "Nov '25",
+        "spend": 11654,
+        "leads": 172,
+        "cpl": 67.76,
+        "qualified": 76,
+        "cpql": 153.34,
+        "deals": 5,
+        "revenue": 47000,
+        "roas": 4.03
+      },
+      {
+        "month": "Dec '25",
+        "spend": 12389,
+        "leads": 191,
+        "cpl": 64.86,
+        "qualified": 87,
+        "cpql": 142.4,
+        "deals": 6,
+        "revenue": 56100,
+        "roas": 4.53
+      }
+    ],
+    "summary": {
+      "total_spend": 125817,
+      "total_leads": 1592,
+      "total_qualified": 635,
+      "total_deals": 49,
+      "total_revenue": 459350,
+      "avg_cpl": 79.03,
+      "avg_cpql": 198.14,
+      "blended_roas": 3.65
+    }
+  },
+  "commercial-residential-roofing": {
+    "name": "Commercial & Residential Roofing",
+    "location": "Dallas-Fort Worth, TX",
+    "months_data": [
+      {
+        "month": "Jan '25",
+        "spend": 15247,
+        "leads": 129,
+        "cpl": 118.19,
+        "qualified": 38,
+        "cpql": 401.24,
+        "deals": 2,
+        "revenue": 33600,
+        "roas": 2.2
+      },
+      {
+        "month": "Feb '25",
+        "spend": 15893,
+        "leads": 148,
+        "cpl": 107.39,
+        "qualified": 44,
+        "cpql": 361.2,
+        "deals": 2,
+        "revenue": 34800,
+        "roas": 2.19
+      },
+      {
+        "month": "Mar '25",
+        "spend": 17214,
+        "leads": 174,
+        "cpl": 98.93,
+        "qualified": 56,
+        "cpql": 307.39,
+        "deals": 3,
+        "revenue": 50700,
+        "roas": 2.95
+      },
+      {
+        "month": "Apr '25",
+        "spend": 19387,
+        "leads": 208,
+        "cpl": 93.21,
+        "qualified": 71,
+        "cpql": 273.06,
+        "deals": 4,
+        "revenue": 70400,
+        "roas": 3.63
+      },
+      {
+        "month": "May '25",
+        "spend": 21543,
+        "leads": 251,
+        "cpl": 85.83,
+        "qualified": 88,
+        "cpql": 244.81,
+        "deals": 5,
+        "revenue": 82500,
+        "roas": 3.83
+      },
+      {
+        "month": "Jun '25",
+        "spend": 22186,
+        "leads": 278,
+        "cpl": 79.81,
+        "qualified": 101,
+        "cpql": 219.66,
+        "deals": 5,
+        "revenue": 85500,
+        "roas": 3.85
+      },
+      {
+        "month": "Jul '25",
+        "spend": 22874,
+        "leads": 302,
+        "cpl": 75.74,
+        "qualified": 113,
+        "cpql": 202.42,
+        "deals": 6,
+        "revenue": 106800,
+        "roas": 4.67
+      },
+      {
+        "month": "Aug '25",
+        "spend": 23157,
+        "leads": 318,
+        "cpl": 72.82,
+        "qualified": 124,
+        "cpql": 186.75,
+        "deals": 5,
+        "revenue": 83500,
+        "roas": 3.61
+      },
+      {
+        "month": "Sep '25",
+        "spend": 23891,
+        "leads": 341,
+        "cpl": 70.06,
+        "qualified": 136,
+        "cpql": 175.67,
+        "deals": 6,
+        "revenue": 103800,
+        "roas": 4.34
+      },
+      {
+        "month": "Oct '25",
+        "spend": 24513,
+        "leads": 362,
+        "cpl": 67.72,
+        "qualified": 149,
+        "cpql": 164.52,
+        "deals": 7,
+        "revenue": 116200,
+        "roas": 4.74
+      },
+      {
+        "month": "Nov '25",
+        "spend": 24027,
+        "leads": 378,
+        "cpl": 63.56,
+        "qualified": 158,
+        "cpql": 152.07,
+        "deals": 6,
+        "revenue": 105000,
+        "roas": 4.37
+      },
+      {
+        "month": "Dec '25",
+        "spend": 24836,
+        "leads": 397,
+        "cpl": 62.56,
+        "qualified": 168,
+        "cpql": 147.83,
+        "deals": 7,
+        "revenue": 119000,
+        "roas": 4.79
+      }
+    ],
+    "summary": {
+      "total_spend": 254768,
+      "total_leads": 3286,
+      "total_qualified": 1246,
+      "total_deals": 58,
+      "total_revenue": 991800,
+      "avg_cpl": 77.53,
+      "avg_cpql": 204.47,
+      "blended_roas": 3.89
+    }
+  },
+  "storm-damage-roofing": {
+    "name": "Storm Damage Roofing",
+    "location": "Nashville, TN",
+    "months_data": [
+      {
+        "month": "Jan '25",
+        "spend": 9147,
+        "leads": 87,
+        "cpl": 105.14,
+        "qualified": 28,
+        "cpql": 326.68,
+        "deals": 3,
+        "revenue": 21600,
+        "roas": 2.36
+      },
+      {
+        "month": "Feb '25",
+        "spend": 9483,
+        "leads": 96,
+        "cpl": 98.78,
+        "qualified": 33,
+        "cpql": 287.36,
+        "deals": 3,
+        "revenue": 22050,
+        "roas": 2.33
+      },
+      {
+        "month": "Mar '25",
+        "spend": 10741,
+        "leads": 124,
+        "cpl": 86.62,
+        "qualified": 45,
+        "cpql": 238.69,
+        "deals": 5,
+        "revenue": 35500,
+        "roas": 3.31
+      },
+      {
+        "month": "Apr '25",
+        "spend": 13287,
+        "leads": 178,
+        "cpl": 74.65,
+        "qualified": 68,
+        "cpql": 195.4,
+        "deals": 7,
+        "revenue": 52150,
+        "roas": 3.92
+      },
+      {
+        "month": "May '25",
+        "spend": 15104,
+        "leads": 218,
+        "cpl": 69.28,
+        "qualified": 89,
+        "cpql": 169.71,
+        "deals": 9,
+        "revenue": 65250,
+        "roas": 4.32
+      },
+      {
+        "month": "Jun '25",
+        "spend": 14873,
+        "leads": 224,
+        "cpl": 66.4,
+        "qualified": 93,
+        "cpql": 159.92,
+        "deals": 8,
+        "revenue": 60000,
+        "roas": 4.03
+      },
+      {
+        "month": "Jul '25",
+        "spend": 14256,
+        "leads": 231,
+        "cpl": 61.71,
+        "qualified": 98,
+        "cpql": 145.47,
+        "deals": 8,
+        "revenue": 57200,
+        "roas": 4.01
+      },
+      {
+        "month": "Aug '25",
+        "spend": 14572,
+        "leads": 237,
+        "cpl": 61.49,
+        "qualified": 104,
+        "cpql": 140.12,
+        "deals": 7,
+        "revenue": 53200,
+        "roas": 3.65
+      },
+      {
+        "month": "Sep '25",
+        "spend": 13891,
+        "leads": 242,
+        "cpl": 57.4,
+        "qualified": 108,
+        "cpql": 128.62,
+        "deals": 8,
+        "revenue": 58400,
+        "roas": 4.2
+      },
+      {
+        "month": "Oct '25",
+        "spend": 14317,
+        "leads": 256,
+        "cpl": 55.93,
+        "qualified": 118,
+        "cpql": 121.33,
+        "deals": 9,
+        "revenue": 67050,
+        "roas": 4.68
+      },
+      {
+        "month": "Nov '25",
+        "spend": 13194,
+        "leads": 247,
+        "cpl": 53.42,
+        "qualified": 113,
+        "cpql": 116.76,
+        "deals": 7,
+        "revenue": 50400,
+        "roas": 3.82
+      },
+      {
+        "month": "Dec '25",
+        "spend": 14643,
+        "leads": 271,
+        "cpl": 54.03,
+        "qualified": 127,
+        "cpql": 115.3,
+        "deals": 9,
+        "revenue": 67950,
+        "roas": 4.64
+      }
+    ],
+    "summary": {
+      "total_spend": 157508,
+      "total_leads": 2411,
+      "total_qualified": 1024,
+      "total_deals": 83,
+      "total_revenue": 610750,
+      "avg_cpl": 65.33,
+      "avg_cpql": 153.82,
+      "blended_roas": 3.88
+    }
+  }
+}
