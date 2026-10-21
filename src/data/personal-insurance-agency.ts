@@ -1,0 +1,141 @@
+import { CaseStudyData } from "./types";
+
+export const personalInsuranceAgency: CaseStudyData = {
+  slug: "personal-insurance-agency",
+  industry: "Personal Insurance Agency",
+  headline: "How a Phoenix Insurance Agency Wrote 64 New Policies and Cut Cost Per Policy by 78% in 6 Months",
+  subheadline: "MEGA helped a personal lines insurance agency in Phoenix, Arizona reduce cost per qualified lead by 69%, grow organic traffic 516%, and acquire 64 new policies from paid advertising alone — all on a $36K total ad investment over 6 months.",
+  heroStats: [
+    { value: "64", unit: "", label: "New Policies Written" },
+    { value: "69", unit: "%", label: "Lower Cost Per Qualified Lead" },
+    { value: "516", unit: "%", label: "Organic Traffic Growth" },
+  ],
+  tags: ["SEO Strategy", "Paid Advertising", "Local SEO"],
+  company: {
+    industry: "Personal Insurance Agency",
+    employees: "8",
+    revenue: "$1.2M",
+    location: "Phoenix, Arizona",
+    description: "A locally owned independent insurance agency in Phoenix, Arizona specializing in personal lines coverage — auto, homeowners, renters, umbrella, and bundled policies. The agency served the greater Phoenix metro area including Scottsdale, Tempe, Mesa, and Chandler. Built primarily on referrals and community relationships over 12 years, the agency had a loyal book of business but was losing ground to online comparison platforms and national carriers with aggressive digital ad presence. Their website was outdated, organic search visibility was minimal, and their previous paid advertising efforts produced expensive, low-quality inquiries with no clear attribution from click to bound policy.",
+  },
+  challenges: [
+    {
+      title: "Expensive, Low-Quality Paid Inquiries",
+      description: "The agency's previous paid advertising campaigns generated inquiries at roughly $300 per qualified lead, with many inquiries coming from shoppers outside the service area or looking for commercial coverage the agency didn't write. The cost per bound policy hovered around $1,500, making it difficult to justify continued ad spend. Without proper tracking from inquiry to quote to bound policy, the team had no visibility into which campaigns were actually producing revenue.",
+    },
+    {
+      title: "Minimal Organic Search Presence",
+      description: "With only 487 monthly organic visitors and a handful of ranking keywords, the agency was virtually invisible in local search results for high-intent terms like 'auto insurance Phoenix' or 'homeowners insurance Scottsdale.' Competitors with optimized local pages and robust content strategies dominated the first page, capturing the majority of organic insurance shopping traffic in the Phoenix metro.",
+    },
+    {
+      title: "Slow Lead Response and Follow-Up Gaps",
+      description: "Inquiries submitted after hours or during busy periods often went unanswered for hours — sometimes until the next business day. In an industry where consumers request multiple quotes simultaneously, a delayed response meant the prospect had already bound a policy with a faster competitor. The agency's lead contact rate sat around 75%, and only 40% of contacted leads progressed to a completed quote, leaving significant revenue on the table.",
+    },
+  ],
+  strategy: [
+    {
+      phase: 1,
+      months: "0–30 days",
+      title: "Foundation & Quick Wins",
+      items: [
+        "Comprehensive audit of the existing website — site speed, mobile responsiveness, local schema markup, and crawlability issues identified and fixed",
+        "Search Console setup and Google Business Profile optimization for all Phoenix metro service areas",
+        "Keyword research across personal lines verticals: auto insurance, homeowners insurance, renters insurance, umbrella coverage, and bundled policy terms for Phoenix, Scottsdale, Tempe, Mesa, and Chandler",
+        "Generated 14 initial articles covering Arizona insurance requirements, coverage comparison guides, and seasonal preparedness content (monsoon season, heat damage)",
+        "Full audit of previous paid campaign performance — identified wasted spend on broad match terms and out-of-area traffic",
+        "Re-instrumented website with proper conversion tracking: form submissions, click-to-call, and quote request attribution",
+        "CRM integration for closed-loop tracking from ad click to quote request to bound policy",
+        "Deployed always-on AI optimization agents within ad accounts for continuous bid management, budget allocation, and audience refinement — replacing the traditional weekly-review agency cadence",
+        "Deployed MEGA's Conversion Agent for instant inquiry response — automated follow-up within 60 seconds of every form submission and missed call, ensuring no lead sat unanswered regardless of time of day",
+        "Launched restructured paid campaigns targeting high-intent personal lines keywords with geographic fencing around the Phoenix metro service area",
+      ],
+    },
+    {
+      phase: 2,
+      months: "30–60 days",
+      title: "Content Scaling & Optimization",
+      items: [
+        "Reviewed 30-day performance data and refined audience targeting based on which zip codes and demographics produced the highest quote-to-bind rates",
+        "Generated 16 additional articles targeting long-tail insurance queries: 'best auto insurance rates Phoenix,' 'how much is homeowners insurance in Arizona,' and coverage-specific educational content",
+        "Launched programmatic city-level service pages for each coverage type across 8 Phoenix metro communities",
+        "Weekly Google Business Profile posts highlighting seasonal coverage tips, policy reviews, and bundling advantages",
+        "Rapid A/B testing of ad creative — messaging pivots around savings vs. coverage quality vs. local agent trust vs. bundle discounts",
+        "Negative keyword refinement based on CRM qualification data — excluded commercial insurance, life insurance, and out-of-state queries",
+        "Landing page optimization with quote request forms, click-to-call buttons, and trust signals (carrier logos, years in business, review ratings)",
+        "AI agents analyzed daily performance signals to reallocate budget toward highest-converting coverage types and zip codes in real time — compounding small optimizations that traditional agencies would batch into monthly reviews",
+        "Conversion Agent metrics reviewed — lead contact rate improved from 75% to 82% with automated instant response, and lead-to-completed-quote rate increased from 40% to 46%",
+      ],
+    },
+    {
+      phase: 3,
+      months: "60–90 days",
+      title: "Scale & Compound",
+      items: [
+        "Reviewed 60-day data and expanded programmatic pages to additional neighborhoods and emerging suburbs in the Phoenix metro",
+        "Content refresh cycle — updated articles with current Arizona insurance rate data and regulatory changes",
+        "Backlink campaigns via local business publications, real estate partner blogs, and Phoenix community directories",
+        "Local citation expansion to 65+ directories with NAP consistency audit across all listings",
+        "Advanced audience segmentation by coverage type interest, homeownership status, and vehicle ownership signals",
+        "Multi-approach bidding strategies calibrated to policy acquisition cost targets rather than raw lead volume",
+        "AI search optimization for emerging LLM-powered insurance comparison queries",
+        "Conversion Agent fully optimized — automated response under 60 seconds, lead contact rate at 85%, lead-to-completed-quote rate at 50%, and paid inquiry-to-policy rate improved from 11.3% to 14.4%",
+      ],
+    },
+    {
+      phase: 4,
+      months: "90+ days",
+      title: "Ongoing Optimization",
+      items: [
+        "Budget reallocation based on policy binding rates — shifted spend toward coverage types with highest premium values and retention rates",
+        "Seasonal campaign adjustments for Arizona-specific patterns: monsoon season home coverage, snowbird auto policies in winter, and renewal period targeting",
+        "Expansion of programmatic pages into additional coverage combinations and cross-sell opportunities (auto + home bundles, umbrella add-ons)",
+        "Audience pruning — removed low-intent segments, tested lookalike audiences built from bound policyholders",
+        "Bid strategy tuning based on seasonal demand curves and policy lifetime value by coverage type",
+        "Continuous AI optimization compounded daily improvements — bid adjustments, audience refinements, and budget reallocations happening in real time rather than waiting for weekly agency review cycles",
+        "Content calendar aligned with Arizona insurance regulatory updates, seasonal risk periods, and renewal cycles",
+      ],
+    },
+  ],
+  seo: {
+    summary: [
+      { label: "Total Keywords", value: "1,478", growth: "+1,003%", from: "from 134" },
+      { label: "Top 10 Rankings", value: "73", growth: "+943%", from: "from 7" },
+      { label: "Pages Created", value: "68", growth: "", from: "incl. 42 city-level service pages" },
+      { label: "Organic Traffic", value: "2,987/mo", growth: "+516%", from: "from 487" },
+    ],
+    monthly: [
+      { month: "Apr '26", keywords: 134, top10: 7, top3: 2, traffic: 697, pages: 8, avgPos: 48.3, ctr: 0.9 },
+      { month: "May '26", keywords: 289, top10: 16, top3: 5, traffic: 1018, pages: 14, avgPos: 43.7, ctr: 1.1 },
+      { month: "Jun '26", keywords: 487, top10: 28, top3: 9, traffic: 1387, pages: 12, avgPos: 39.2, ctr: 1.4 },
+      { month: "Jul '26", keywords: 743, top10: 41, top3: 14, traffic: 1893, pages: 11, avgPos: 34.8, ctr: 1.7 },
+      { month: "Aug '26", keywords: 1089, top10: 57, top3: 21, traffic: 2412, pages: 13, avgPos: 30.1, ctr: 2.0 },
+      { month: "Sep '26", keywords: 1478, top10: 73, top3: 29, traffic: 2987, pages: 10, avgPos: 26.4, ctr: 2.3 },
+    ],
+  },
+  paidAds: {
+    summary: [
+      { label: "Total Ad Spend", value: "$36.0K" },
+      { label: "Qualified Leads", value: "249" },
+      { label: "Avg Cost Per Qualified Lead", value: "$145", note: "↓69% from $300" },
+      { label: "Policies Bound", value: "64" },
+    ],
+    columnLabels: {
+      deals: "Policies",
+      costPerDeal: "Cost/Policy",
+    },
+    monthly: [
+      { month: "Apr '26", spend: 5487, leads: 51, cpl: 107.59, qualified: 21, cpql: 261.29, deals: 4, revenue: 5876, roas: 1.07 },
+      { month: "May '26", spend: 5813, leads: 64, cpl: 90.83, qualified: 27, cpql: 215.30, deals: 6, revenue: 9234, roas: 1.59 },
+      { month: "Jun '26", spend: 5942, leads: 82, cpl: 72.46, qualified: 37, cpql: 160.59, deals: 9, revenue: 14157, roas: 2.38 },
+      { month: "Jul '26", spend: 6278, leads: 94, cpl: 66.79, qualified: 44, cpql: 142.68, deals: 12, revenue: 18924, roas: 3.01 },
+      { month: "Aug '26", spend: 6456, leads: 112, cpl: 57.64, qualified: 56, cpql: 115.29, deals: 15, revenue: 23475, roas: 3.64 },
+      { month: "Sep '26", spend: 6024, leads: 124, cpl: 48.58, qualified: 64, cpql: 94.13, deals: 18, revenue: 27918, roas: 4.63 },
+    ],
+  },
+  impact: [
+    { label: "Total Revenue", value: "$99.6K", growth: "from 64 bound policies" },
+    { label: "Policies Bound", value: "64", growth: "from paid advertising" },
+    { label: "Avg Policy Premium", value: "$1,556", growth: "annual premium value" },
+    { label: "Blended ROAS", value: "2.77x", growth: "" },
+  ],
+};

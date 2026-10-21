@@ -984,7 +984,8 @@
     "Handcrafted Jewelry": "ecommerce",
     "Bakery": "lead_gen_services",
     "Intellectual Property Law": "lead_gen_professional",
-    "Dentistry": "lead_gen_services"
+    "Dentistry": "lead_gen_services",
+    "Personal Insurance Agency": "lead_gen_services"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",
