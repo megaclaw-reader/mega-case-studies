@@ -1,4 +1,7 @@
 import { CaseStudyData } from "./types";
+import { roofingCharlotteNc } from "./roofing-charlotte-nc";
+import { roofingDallasFortWorth } from "./roofing-dallas-fort-worth";
+import { roofingNashvilleTn } from "./roofing-nashville-tn";
 import { intellectualPropertyLaw } from "./intellectual-property-law";
 import { bakery } from "./bakery";
 import { handcraftedJewelry } from "./handcrafted-jewelry";
@@ -871,6 +874,9 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "bakery": bakery,
   "handcrafted-jewelry": handcraftedJewelry,
   "personal-insurance-agency": personalInsuranceAgency,
+  "roofing-charlotte-nc": roofingCharlotteNc,
+  "roofing-dallas-fort-worth": roofingDallasFortWorth,
+  "roofing-nashville-tn": roofingNashvilleTn,
 };
 
 export type { CaseStudyData };
