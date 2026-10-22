@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "test:scenarios": "node --experimental-strip-types --test src/lib/scenarios/model.test.ts",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
