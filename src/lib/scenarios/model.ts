@@ -27,7 +27,9 @@ export interface ScenarioInput {
   agentEngagementRate: number;
   agentCaptureRate: number;
   qualificationRate: number;
+  qualificationRateEnd?: number;
   closeRate: number;
+  closeRateEnd?: number;
   averageSale: number;
   grossMargin: number | null;
   monthlyServiceFee: number;
@@ -81,6 +83,8 @@ export interface Month {
   combined: Funnel;
   adSpend: number;
   investment: number;
+  qualificationRate: number;
+  closeRate: number;
   websiteRate: number;
   visitCost: number;
   paidCpl: number | null;
@@ -169,6 +173,18 @@ export function validateInput(value: unknown): string[] {
       );
     }
   }
+  for (const name of ["qualificationRateEnd", "closeRateEnd"]) {
+    const field = input[name];
+    if (
+      field !== undefined &&
+      (typeof field !== "number" ||
+        !Number.isFinite(field) ||
+        field < 0 ||
+        field > 100)
+    ) {
+      issues.push(`${name}: enter a number from 0 to 100.`);
+    }
+  }
   if (
     input.grossMargin !== null &&
     (typeof input.grossMargin !== "number" ||
@@ -225,7 +241,12 @@ export function parseInput(value: unknown): ScenarioInput {
   // Whitelist known fields. Imported summaries and statuses are never trusted.
   const input = value as Record<string, unknown>;
   return Object.fromEntries(
-    Object.keys(DEFAULT_INPUT).map((key) => [key, input[key]]),
+    [
+      ...Object.keys(DEFAULT_INPUT),
+      ...["qualificationRateEnd", "closeRateEnd"].filter(
+        (key) => input[key] !== undefined,
+      ),
+    ].map((key) => [key, input[key]]),
   ) as unknown as ScenarioInput;
 }
 
@@ -317,17 +338,29 @@ function month(input: ScenarioInput, index: number, baseline = false): Month {
   );
   const adSpend = input.paid ? moneyRound(input.monthlyAdSpend) : 0;
   const paidVisitors = countFloor(adSpend / visitCost);
+  const qualificationRate =
+    !baseline && (input.seo || input.paid || input.website)
+      ? interpolate(
+          input.qualificationRate,
+          input.qualificationRateEnd ?? input.qualificationRate,
+        )
+      : input.qualificationRate;
+  const closeRate =
+    !baseline && input.agent
+      ? interpolate(input.closeRate, input.closeRateEnd ?? input.closeRate)
+      : input.closeRate;
+  const monthlyInput = { ...input, qualificationRate, closeRate };
   const organic = funnel(
     organicVisitors,
     websiteRate,
     input.agent && !baseline,
-    input,
+    monthlyInput,
   );
   const paid = funnel(
     paidVisitors,
     websiteRate,
     input.agent && !baseline,
-    input,
+    monthlyInput,
   );
   const combined = combine([organic, paid]);
   const originalWebsiteContacts =
@@ -340,6 +373,8 @@ function month(input: ScenarioInput, index: number, baseline = false): Month {
     combined,
     adSpend,
     websiteRate,
+    qualificationRate,
+    closeRate,
     visitCost,
     investment: moneyRound(
       adSpend +
@@ -382,7 +417,7 @@ export function buildScenario(value: unknown): Scenario {
   const notes = [
     "This is an illustrative model, not a customer case study, forecast, guarantee, or evidence of actual performance.",
     "All starting values, end values, conversion rates, prices and costs are editable assumptions. No industry-average performance is asserted.",
-    "Month 1 uses the starting traffic and website rate. Traffic, visit cost and website rate change linearly to the selected month-end target; this is a modeling choice, not an observed growth curve. The agent is active from month 1 when enabled.",
+    "Month 1 uses the starting traffic and website rate. Traffic, visit cost, website rate and any enabled qualification/closing rate targets change linearly to the selected month-end target; this is a modeling choice, not an observed growth curve. The agent is active from month 1 when enabled.",
     "Organic and paid visitors represent distinct, eligible new prospects, with no repeats across channels or months. One conversion and one initial purchase are allowed per prospect. This simplifying assumption needs real identity-based deduplication for measured results.",
     "Website conversions happen first. Agent conversions come only from the remaining visitors, preventing overlap within the model. Website and agent contributions are parts of channel totals, not additional channels to add again.",
     "Counts are rounded down at each funnel step, separately for organic and paid traffic. Monetary amounts are rounded to cents. Ratios use summed numerators and denominators, never averages of monthly ratios.",

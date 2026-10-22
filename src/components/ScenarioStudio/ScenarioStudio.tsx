@@ -13,6 +13,7 @@ import {
   type ScenarioInput,
 } from "@/lib/scenarios/model";
 import "./studio.css";
+import MegaLogo from "../TrainingStudio/MegaLogo";
 
 const STORAGE_KEY = "mega-illustrative-scenario-v1";
 const number = (value: number) => new Intl.NumberFormat("en-US").format(value);
@@ -33,7 +34,7 @@ function Brand() {
       href="https://www.gomega.ai/"
       aria-label="MEGA home"
     >
-      mega<span>®</span>
+      <MegaLogo />
     </a>
   );
 }
