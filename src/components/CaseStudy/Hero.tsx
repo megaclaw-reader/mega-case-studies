@@ -13,8 +13,12 @@ export default function Hero({ data }: { data: CaseStudyData }) {
           transition={{ duration: 0.5 }}
         >
           <span className="inline-block px-4 py-1.5 rounded-full bg-[#2965FF]/10 text-[#2965FF] text-sm font-medium mb-6">
-            {data.industry} Case Study
+            {data.industry} · Illustrative Scenario
           </span>
+          <p className="text-sm text-[#6B7280] mb-4">
+            Hypothetical business and results. Not an account of measured
+            customer performance.
+          </p>
           <h1 className="text-3xl md:text-5xl font-bold leading-tight max-w-4xl mb-6">
             {data.headline}
           </h1>
@@ -36,7 +40,9 @@ export default function Hero({ data }: { data: CaseStudyData }) {
                 {stat.value}
                 <span className="text-2xl md:text-3xl ml-1">{stat.unit}</span>
               </div>
-              <div className="text-[#6B7280] mt-2 text-sm font-medium">{stat.label}</div>
+              <div className="text-[#6B7280] mt-2 text-sm font-medium">
+                {stat.label}
+              </div>
             </motion.div>
           ))}
         </div>

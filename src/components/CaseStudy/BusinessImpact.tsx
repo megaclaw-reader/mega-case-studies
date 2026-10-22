@@ -3,19 +3,43 @@
 import AnimatedSection from "./AnimatedSection";
 import { CaseStudyData } from "@/data/types";
 import {
-  AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer,
+  AreaChart,
+  Area,
+  XAxis,
+  YAxis,
+  CartesianGrid,
+  Tooltip,
+  ResponsiveContainer,
 } from "recharts";
 
 export default function BusinessImpact({ data }: { data: CaseStudyData }) {
   // Use paid ads revenue if available, otherwise use organic traffic growth
-  const chartData = data.paidAds
+  const chartData: {
+    month: string;
+    revenue?: number;
+    leads?: number;
+    traffic?: number;
+  }[] = data.paidAds
     ? data.paidAds.monthly.map((m) => ({ month: m.month, revenue: m.revenue }))
     : data.organicConversions
-    ? data.organicConversions.monthly.map((m) => ({ month: m.month, leads: m.totalLeads }))
-    : data.seo ? data.seo.monthly.map((m) => ({ month: m.month, traffic: m.traffic })) : [];
+      ? data.organicConversions.monthly.map((m) => ({
+          month: m.month,
+          leads: m.totalLeads,
+        }))
+      : data.seo
+        ? data.seo.monthly.map((m) => ({ month: m.month, traffic: m.traffic }))
+        : [];
 
-  const chartKey = data.paidAds ? "revenue" : data.organicConversions ? "leads" : "traffic";
-  const chartTitle = data.paidAds ? "Revenue Growth" : data.organicConversions ? "Organic Lead Growth" : "Organic Traffic Growth";
+  const chartKey = data.paidAds
+    ? "revenue"
+    : data.organicConversions
+      ? "leads"
+      : "traffic";
+  const chartTitle = data.paidAds
+    ? "Revenue Growth"
+    : data.organicConversions
+      ? "Organic Lead Growth"
+      : "Organic Traffic Growth";
 
   return (
     <AnimatedSection id="impact" className="py-20 px-6">
@@ -24,10 +48,17 @@ export default function BusinessImpact({ data }: { data: CaseStudyData }) {
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
           {data.impact.map((item) => (
-            <div key={item.label} className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
+            <div
+              key={item.label}
+              className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100"
+            >
               <div className="text-sm text-[#6B7280] mb-1">{item.label}</div>
               <div className="text-2xl font-bold">{item.value}</div>
-              {item.growth && <div className="text-sm text-green-600 font-medium mt-1">{item.growth}</div>}
+              {item.growth && (
+                <div className="text-sm text-green-600 font-medium mt-1">
+                  {item.growth}
+                </div>
+              )}
             </div>
           ))}
         </div>
@@ -46,7 +77,13 @@ export default function BusinessImpact({ data }: { data: CaseStudyData }) {
               <XAxis dataKey="month" tick={{ fontSize: 12 }} />
               <YAxis tick={{ fontSize: 12 }} />
               <Tooltip />
-              <Area type="monotone" dataKey={chartKey} stroke="#2965FF" strokeWidth={2.5} fill="url(#revenueGrad)" />
+              <Area
+                type="monotone"
+                dataKey={chartKey}
+                stroke="#2965FF"
+                strokeWidth={2.5}
+                fill="url(#revenueGrad)"
+              />
             </AreaChart>
           </ResponsiveContainer>
         </div>

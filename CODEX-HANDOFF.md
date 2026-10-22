@@ -1,4 +1,6 @@
-# Case Study Generator — Codex Migration Handoff
+# Case Study Generator — Legacy Migration Handoff
+
+> Historical context only. The new `/studio` uses explicit illustrative assumptions and derived calculations. Do not use legacy random-data fixers or minimum-growth gates to produce evidence of customer performance. See `README.md` for the new workflow. Deployment and Slack instructions below describe the old system; do not execute them as part of previewing the studio.
 
 ## What This Is
 
@@ -75,7 +77,7 @@ npm run build
 ```bash
 git add -A && git commit -m "Add [industry] case study" && git push
 curl -X POST "https://api.render.com/v1/services/srv-d6brtmjnv86c73bqlvng/deploys" \
-  -H "Authorization: Bearer rnd_YftdZxXrtsRQnWDOBY3mT31UOzjS" \
+  -H "Authorization: Bearer ${RENDER_API_KEY}" \
   -H "Content-Type: application/json" -d '{}'
 bash scripts/wait-for-deploy.sh "garage-door-repairs"
 ```
