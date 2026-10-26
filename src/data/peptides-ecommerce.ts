@@ -3,10 +3,10 @@ import { CaseStudyData } from "./types";
 export const peptidesEcommerce: CaseStudyData = {
   slug: "peptides-ecommerce",
   industry: "Peptides",
-  headline: "How a Subscription Peptide Brand Scaled to $1.24M in Revenue at 6.50x Blended ROAS — Growing from 144 to 286 Monthly Subscription Orders in 6 Months",
-  subheadline: "MEGA deployed always-on AI optimization agents and a dual SEO + paid advertising strategy to transform a subscription-based peptide delivery company into a high-performing ecommerce engine — scaling orders 1.99x, building organic traffic to 4,872 monthly visitors across 1,147 ranking keywords, and generating $1.24M in subscription revenue on $190.8K in ad spend at the same efficient ROAS.",
+  headline: "How a Subscription Peptide Brand Scaled to $2.48M in Revenue at 6.50x Blended ROAS — Growing from 288 to 572 Monthly Subscription Orders in 6 Months",
+  subheadline: "MEGA deployed always-on AI optimization agents and a dual SEO + paid advertising strategy to transform a subscription-based peptide delivery company into a high-performing ecommerce engine — scaling orders 1.99x, building organic traffic to 4,872 monthly visitors across 1,147 ranking keywords, and generating $2.48M in subscription revenue on $381.6K in ad spend at the same efficient ROAS.",
   heroStats: [
-    { value: "$1.24M", unit: "", label: "Subscription Revenue Generated" },
+    { value: "$2.48M", unit: "", label: "Subscription Revenue Generated" },
     { value: "6.50", unit: "x", label: "Blended ROAS" },
     { value: "1,147", unit: "", label: "Ranking Keywords" },
   ],
@@ -14,7 +14,7 @@ export const peptidesEcommerce: CaseStudyData = {
   company: {
     industry: "Peptides",
     employees: "8",
-    revenue: "$1.2M",
+    revenue: "$2.4M",
     location: "Austin, TX (National)",
     description: "A direct-to-consumer subscription peptide delivery company headquartered in Austin, Texas, offering monthly peptide protocol subscriptions ranging from $179 to $389 per month. The business had built a loyal subscriber base through word-of-mouth referrals and organic search, generating approximately $1.2M in annual revenue with a 34% subscriber retention rate beyond six months. Subscription tiers included foundational protocols (BPC-157, TB-500), performance stacks (peptide combinations for recovery and longevity), and premium comprehensive protocols with quarterly blood work integration. The company had attempted paid advertising independently, spending roughly $8K–$10K per month with inconsistent results — high ad disapproval rates in the peptide category, broad targeting that attracted supplement browsers rather than peptide-specific subscribers, and no structured creative testing framework. With strong product quality, third-party lab testing on every batch, and an average subscriber lifetime value exceeding $2,400, the company had clear product-market fit but lacked the acquisition infrastructure to scale beyond organic growth. The founder needed a partner who could navigate health-adjacent advertising compliance, build an efficient subscription acquisition funnel, and demonstrate enough return to justify scaling from $10K to $30K+ monthly ad investment.",
   },
@@ -93,10 +93,10 @@ export const peptidesEcommerce: CaseStudyData = {
   },
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$190.8K" },
-      { label: "Add to Carts", value: "3,914" },
+      { label: "Total Ad Spend", value: "$381.6K" },
+      { label: "Add to Carts", value: "7,828" },
       { label: "Avg Cost Per Acquisition", value: "$143.46", note: "↓32% from baseline" },
-      { label: "Orders", value: "1,330" },
+      { label: "Orders", value: "2,660" },
     ],
     columnLabels: {
       leads: "Sessions",
@@ -107,22 +107,22 @@ export const peptidesEcommerce: CaseStudyData = {
     },
     monthly: [
       // Apr 2026: Campaign launch. Compliance framework deployed. AI agents live. Broad targeting being refined. High CPA expected.
-      { month: "Apr '26", spend: 30460, leads: 5694, cpl: 5.35, qualified: 396, cpql: 76.92, deals: 144, revenue: 126576, roas: 4.16 },
+      { month: "Apr '26", spend: 60920, leads: 11388, cpl: 5.35, qualified: 792, cpql: 76.92, deals: 288, revenue: 253152, roas: 4.16 },
       // May 2026: Audience refinement showing results. Approval rate at 89%. Educational content ads outperforming product-only.
-      { month: "May '26", spend: 30940, leads: 6684, cpl: 4.63, qualified: 482, cpql: 64.19, deals: 174, revenue: 157818, roas: 5.10 },
+      { month: "May '26", spend: 61880, leads: 13368, cpl: 4.63, qualified: 964, cpql: 64.19, deals: 348, revenue: 315636, roas: 5.10 },
       // Jun 2026: Summer wellness demand rising. Protocol bundle campaigns driving AOV growth. Retargeting sequences maturing.
-      { month: "Jun '26", spend: 31680, leads: 7836, cpl: 4.04, qualified: 612, cpql: 51.76, deals: 212, revenue: 198644, roas: 6.27 },
+      { month: "Jun '26", spend: 63360, leads: 15672, cpl: 4.04, qualified: 1224, cpql: 51.76, deals: 424, revenue: 397288, roas: 6.27 },
       // Jul 2026: Peak biohacking season. AI pre-positioned seasonal creative. Cross-sell and upgrade campaigns live.
-      { month: "Jul '26", spend: 32760, leads: 9246, cpl: 3.54, qualified: 756, cpql: 43.33, deals: 252, revenue: 241416, roas: 7.37 },
+      { month: "Jul '26", spend: 65520, leads: 18492, cpl: 3.54, qualified: 1512, cpql: 43.33, deals: 504, revenue: 482832, roas: 7.37 },
       // Aug 2026: Best month — all systems compounding. Organic traffic augmenting paid. Subscriber reactivation campaigns live.
-      { month: "Aug '26", spend: 33440, leads: 10294, cpl: 3.25, qualified: 872, cpql: 38.35, deals: 286, revenue: 267124, roas: 7.99 },
+      { month: "Aug '26", spend: 66880, leads: 20588, cpl: 3.25, qualified: 1744, cpql: 38.35, deals: 572, revenue: 534248, roas: 7.99 },
       // Sep 2026: Slight seasonal pullback but strong performance maintained. Protocol upgrade campaigns lifting AOV.
-      { month: "Sep '26", spend: 31520, leads: 9424, cpl: 3.34, qualified: 796, cpql: 39.60, deals: 262, revenue: 247852, roas: 7.86 },
+      { month: "Sep '26", spend: 63040, leads: 18848, cpl: 3.34, qualified: 1592, cpql: 39.60, deals: 524, revenue: 495704, roas: 7.86 },
     ],
   },
   impact: [
-    { label: "Total Revenue", value: "$1,239,430", growth: "+96% monthly revenue growth" },
-    { label: "Total Orders", value: "1,330", growth: "subscription signups across 6 months" },
+    { label: "Total Revenue", value: "$2,478,860", growth: "+96% monthly revenue growth" },
+    { label: "Total Orders", value: "2,660", growth: "subscription signups across 6 months" },
     { label: "Average Order Value", value: "$931.90", growth: "multi-month protocol bundles" },
     { label: "Blended ROAS", value: "6.50x", growth: "from 4.16x starting" },
     { label: "Avg Cost Per Acquisition", value: "$143.46", growth: "within $125–$150 target range" },
