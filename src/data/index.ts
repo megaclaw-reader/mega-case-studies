@@ -1,4 +1,5 @@
 import { CaseStudyData } from "./types";
+import { hvacPhoenix } from "./hvac-phoenix";
 import { roofingCharlotteNc } from "./roofing-charlotte-nc";
 import { roofingDallasFortWorth } from "./roofing-dallas-fort-worth";
 import { roofingNashvilleTn } from "./roofing-nashville-tn";
@@ -877,6 +878,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "roofing-charlotte-nc": roofingCharlotteNc,
   "roofing-dallas-fort-worth": roofingDallasFortWorth,
   "roofing-nashville-tn": roofingNashvilleTn,
+  "hvac-phoenix": hvacPhoenix,
 };
 
 export type { CaseStudyData };
