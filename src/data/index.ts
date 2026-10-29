@@ -440,6 +440,7 @@ import { investmentAdvisorNational } from "./investment-advisor-national";
 import { dryCleaningPhoenix } from "./dry-cleaning-phoenix";
 import { dentistryFlorida } from "./dentistry-florida";
 import { personalInsuranceAgency } from "./personal-insurance-agency";
+import { homeRenovationsInteriorNc } from "./home-renovations-interior-nc";
 export const caseStudies: Record<string, CaseStudyData> = {
   "criminal-law-phoenix": criminalLawPhoenix,
   "divorce-law-chicago": divorceLawChicago,
@@ -881,6 +882,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "roofing-nashville-tn": roofingNashvilleTn,
   "hvac-phoenix": hvacPhoenix,
   "multi-chain-restaurant-nyc": multiChainRestaurantNyc,
+  "home-renovations-interior-nc": homeRenovationsInteriorNc,
 };
 
 export type { CaseStudyData };

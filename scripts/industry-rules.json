@@ -986,7 +986,8 @@
     "Intellectual Property Law": "lead_gen_professional",
     "Dentistry": "lead_gen_services",
     "Personal Insurance Agency": "lead_gen_services",
-    "Multi-Chain Restaurant Fast Food": "lead_gen_services"
+    "Multi-Chain Restaurant Fast Food": "lead_gen_services",
+    "Home Renovations Interior": "lead_gen_services"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",
