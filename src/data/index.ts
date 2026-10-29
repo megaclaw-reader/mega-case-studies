@@ -58,6 +58,7 @@ import { commercialHvacArizona } from "./commercial-hvac-arizona";
 import { commercialHvacTucson } from "./commercial-hvac-tucson";
 import { integrativeWellnessAestheticsNashville } from "./integrative-wellness-aesthetics-nashville";
 import { behavioralHealthServices } from "./behavioral-health-services";
+import { multiChainRestaurantNyc } from "./multi-chain-restaurant-nyc";
 import { spiritualRetreatCa } from "./spiritual-retreat-ca";
 import { businessLawFlorida } from "./business-law-florida";
 import { specialtyMedicalHouston } from "./specialty-medical-houston";
@@ -879,6 +880,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "roofing-dallas-fort-worth": roofingDallasFortWorth,
   "roofing-nashville-tn": roofingNashvilleTn,
   "hvac-phoenix": hvacPhoenix,
+  "multi-chain-restaurant-nyc": multiChainRestaurantNyc,
 };
 
 export type { CaseStudyData };
