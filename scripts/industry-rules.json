@@ -618,6 +618,10 @@
         "handcrafted_jewelry": [
           100,
           200
+        ],
+        "luxury_outerwear": [
+          600,
+          1000
         ]
       }
     },
@@ -731,6 +735,8 @@
     "Fashion & Apparel": "ecommerce",
     "eCommerce - Fashion": "ecommerce",
     "High-End Fashion eCommerce": "ecommerce",
+    "High End Women's Outerwear": "ecommerce",
+    "Luxury Women's Outerwear": "ecommerce",
     "Multi-Location Consumer Brand": "ecommerce",
     "Outdoor & Backyard Furniture": "ecommerce",
     "Jewelry Store & eCommerce": "ecommerce",

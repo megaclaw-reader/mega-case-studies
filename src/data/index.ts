@@ -442,6 +442,7 @@ import { dentistryFlorida } from "./dentistry-florida";
 import { personalInsuranceAgency } from "./personal-insurance-agency";
 import { homeRenovationsInteriorNc } from "./home-renovations-interior-nc";
 import { mensApparelBrand } from "./mens-apparel-brand";
+import { highEndWomensOuterwear } from "./high-end-womens-outerwear";
 export const caseStudies: Record<string, CaseStudyData> = {
   "criminal-law-phoenix": criminalLawPhoenix,
   "divorce-law-chicago": divorceLawChicago,
@@ -885,6 +886,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "multi-chain-restaurant-nyc": multiChainRestaurantNyc,
   "home-renovations-interior-nc": homeRenovationsInteriorNc,
   "mens-apparel-brand": mensApparelBrand,
+  "high-end-womens-outerwear": highEndWomensOuterwear,
 };
 
 export type { CaseStudyData };
