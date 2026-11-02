@@ -14,6 +14,7 @@ import { telehealthHormoneTherapy } from "./telehealth-hormone-therapy";
 import { waterFiltrationUtah } from "./water-filtration-utah";
 import { roofingAustinTx } from "./roofing-austin-tx";
 import { medspaChicago } from "./medspa-chicago";
+import { medspaNc } from "./medspa-nc";
 import { securityAndInvestigations } from "./security-and-investigations";
 import { facilitiesServices } from "./facilities-services";
 import { wholesaleArizona } from "./wholesale-arizona";
@@ -865,6 +866,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "facilities-services": facilitiesServices,
   "wholesale-arizona": wholesaleArizona,
   "medspa-chicago": medspaChicago,
+  "medspa-nc": medspaNc,
   "dry-cleaning-phoenix": dryCleaningPhoenix,
   "dentistry-florida": dentistryFlorida,
   "roofing-austin-tx": roofingAustinTx,
