@@ -3,14 +3,16 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "MEGA AI Case Studies",
-  description: "Real results from MEGA's AI-powered marketing strategies",
+  description:
+    "Illustrative business growth scenarios exploring MEGA's marketing approach",
   icons: {
     icon: [{ url: "/favicon.png", type: "image/png" }],
     apple: "/apple-touch-icon.png",
   },
   openGraph: {
     title: "MEGA AI Case Studies",
-    description: "Real results from MEGA's AI-powered marketing strategies",
+    description:
+      "Illustrative business growth scenarios exploring MEGA's marketing approach",
     images: [{ url: "/og-image.png", width: 256, height: 256 }],
     type: "website",
   },
@@ -33,9 +35,7 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body className="antialiased">
-        {children}
-      </body>
+      <body className="antialiased">{children}</body>
     </html>
   );
 }
