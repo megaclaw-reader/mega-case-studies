@@ -8,7 +8,7 @@ export const businessCoachingTexas: CaseStudyData = {
   heroStats: [
     { value: "10", unit: "months", label: "Partnership Duration" },
     { value: "49", unit: "%", label: "CPQL Reduction" },
-    { value: "$484.4K", unit: "K", label: "Coaching Revenue Generated" },
+    { value: "$484.4K", unit: "", label: "Coaching Revenue Generated" },
   ],
   tags: ["Paid Advertising", "SEO", "Lead Generation", "CPQL Optimization"],
   company: {
@@ -21,11 +21,11 @@ export const businessCoachingTexas: CaseStudyData = {
   challenges: [
     {
       title: "Poor Lead Quality Wasting Sales Team Resources",
-      description: "The firm's previous marketing efforts generated high lead volumes but terrible qualification rates — only 23% of inbound leads were actual business owners or executives who could benefit from premium coaching services. The sales team was spending 20+ hours weekly on discovery calls with unqualified prospects: solopreneurs looking for free advice, employees seeking career guidance, or small business owners who couldn't afford $6,000+ coaching packages. With deal values averaging $7,800, every wasted discovery call represented massive opportunity cost. Cost per lead appeared reasonable at $147, but cost per qualified lead was $423 — making profitable scaling impossible without fundamentally changing the qualification process.",
+      description: "The firm's previous marketing efforts generated high lead volumes but terrible qualification rates — only 23% of inbound leads were actual business owners or executives who could benefit from premium coaching services. The sales team was spending 20+ hours weekly on discovery calls with unqualified prospects: solopreneurs looking for free advice, employees seeking career guidance, or small business owners who couldn't afford $6,000+ coaching packages. With deal values averaging $7,800, every wasted discovery call represented massive opportunity cost. Cost per lead appeared reasonable at $147, but cost per qualified lead was $641 — making profitable scaling impossible without fundamentally changing the qualification process.",
     },
     {
       title: "Inability to Scale Without Quality Degradation",
-      description: "Every attempt to increase ad spend beyond $8,000/month resulted in dramatic quality deterioration and CPQL spikes above $500. The firm's previous agency optimized purely for lead volume, celebrating low cost-per-lead metrics while ignoring that 77% of those leads would never convert. Without systems to track and optimize for qualified leads rather than raw form fills, scaling felt like throwing money at a fundamentally broken funnel. The disconnect between lead generation metrics and actual sales outcomes made every budget decision a gamble.",
+      description: "Every attempt to increase ad spend beyond $8,000/month resulted in dramatic quality deterioration and CPQL spikes above $700. The firm's previous agency optimized purely for lead volume, celebrating low cost-per-lead metrics while ignoring that 77% of those leads would never convert. Without systems to track and optimize for qualified leads rather than raw form fills, scaling felt like throwing money at a fundamentally broken funnel. The disconnect between lead generation metrics and actual sales outcomes made every budget decision a gamble.",
     },
     {
       title: "No Feedback Loop Between Sales Outcomes and Marketing",
@@ -80,7 +80,7 @@ export const businessCoachingTexas: CaseStudyData = {
         "Built webinar funnel as secondary conversion path — attendees qualified at 2.8x the rate of direct application page visitors",
         "Implemented automated nurture sequences for qualified leads with longer sales cycles — 15-touch email series addressing common coaching objections",
         "Regular creative refresh cycles: new ad variations every 10 days to prevent audience fatigue at higher spend levels",
-        "CPQL now consistently below $275 even at 2.4x the original spend — proving qualification framework scaled efficiently",
+        "CPQL now consistently below $400 even at 2.4x the original spend — proving qualification framework scaled efficiently",
         "SEO momentum building: 89 indexed pages driving 2,800+ organic visits/month — city-level pages ranking in top 10 for 'business coaching [Texas city]' across 12 markets",
         "Earned 31 backlinks from Texas business publications, chambers of commerce, and entrepreneur networks — domain authority growing from 18 to 34",
         "Organic traffic generating first qualified leads at $0 marginal cost — 11 organic-sourced qualified prospects in months 4-6, reducing blended acquisition costs",
@@ -90,15 +90,15 @@ export const businessCoachingTexas: CaseStudyData = {
     {
       phase: 4,
       months: "90+ days",
-      title: "Full-Scale Operation at $18K/mo with 58% Lower CPQL & 11K+ Organic Traffic",
+      title: "Full-Scale Operation at $18K/mo with 49% Lower CPQL & 11K+ Organic Traffic",
       items: [
         "Scaled to $18,000/month with CPQL 49% lower than launch — generating more qualified leads per dollar at $18K than at $5K monthly spend",
         "Deal-tier analysis optimization: focused campaigns on prospects closing at premium coaching packages ($8K–$12K) rather than entry-level $4,500 programs",
-        "Advanced attribution modeling connecting marketing spend to actual coaching revenue — month 10 ROAS reached 4.74x across all channels",
+        "Advanced attribution modeling connecting marketing spend to actual coaching revenue — month 10 ROAS reached 4.74x",
         "Seasonal campaign optimization around Texas business cycles: Q1 strategic planning, Q2 growth initiatives, Q4 leadership development",
         "Continuous creative testing with industry-specific angles: manufacturing efficiency, energy sector leadership, Texas startup scaling — each attracting distinct qualified audiences",
-        "Monthly performance reviews tracking CPQL, qualification rate, and revenue per qualified lead against targets — qualification rate improved from 23% to 52%",
-        "Sales team efficiency transformation: from 20+ hours weekly on unqualified calls to focused discovery sessions where 52% of prospects became paying clients",
+        "Monthly performance reviews tracking CPQL, qualification rate, and revenue per qualified lead against targets — qualification rate improved from 23% to 51%",
+        "Sales team efficiency transformation: from 20+ hours weekly on unqualified calls to focused discovery sessions where 51% of prospects became paying clients",
         "SEO delivering 11,247+ organic visits/month by month 10 — 8,340 tracked keywords, 392 in top 10, and 118 in top 3 positions across Texas markets",
         "Organic channel generating 41 qualified leads/month at zero marginal cost — effectively reducing blended cost per qualified lead to $134 when organic included",
         "Content authority established: 187 total indexed pages, featured snippets for 7 high-value Texas business coaching queries, sustained month-over-month organic growth",
@@ -139,7 +139,7 @@ export const businessCoachingTexas: CaseStudyData = {
     summary: [
       { label: "Total Ad Spend", value: "$116,734" },
       { label: "Qualified Leads", value: "293" },
-      { label: "Avg Cost/Qualified Lead", value: "$398", note: "↓38% from $641 starting" },
+      { label: "Avg Cost/Qualified Lead", value: "$398", note: "from $641 → $329 over 10 months" },
       { label: "Coaching Revenue Generated", value: "$484,408" },
     ],
     columnLabels: {

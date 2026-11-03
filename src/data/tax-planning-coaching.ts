@@ -4,11 +4,11 @@ export const taxPlanningCoaching: CaseStudyData = {
   slug: "tax-planning-coaching",
   industry: "High-Ticket Coach / Info Business Tax Planning",
   headline: "How a Philadelphia Tax Planning Coaching Firm Combined SEO + Paid Ads to Generate $1.20M in Revenue While Cutting Cost Per Qualified Lead by 61%",
-  subheadline: "MEGA helped a Philadelphia-based high-ticket tax planning coaching business build a dual-channel growth engine — scaling paid ad spend from $20,000 to $50,000/month while simultaneously growing organic traffic from 0 to 12,400+ visits/month through SEO. Over 10 months, CPQL dropped from $1,259 to $487, organic keywords grew to 8,200+, and the firm generated $1.20M in new coaching revenue.",
+  subheadline: "MEGA helped a Philadelphia-based high-ticket tax planning coaching business build a dual-channel growth engine — scaling paid ad spend from $20,000 to $50,000/month while simultaneously growing organic traffic from 0 to 12,400+ visits/month through SEO. Over 10 months, CPQL dropped from $1,259 to $487, organic keywords grew to 11,670+, and the firm generated $1.20M in new coaching revenue.",
   heroStats: [
     { value: "10", unit: "months", label: "Partnership Duration" },
     { value: "61", unit: "%", label: "CPQL Reduction" },
-    { value: "$1.20M", unit: "M", label: "Coaching Revenue Generated" },
+    { value: "$1.20M", unit: "", label: "Coaching Revenue Generated" },
   ],
   tags: ["Paid Advertising", "SEO", "Lead Generation", "CPQL Optimization"],
   company: {
@@ -21,7 +21,7 @@ export const taxPlanningCoaching: CaseStudyData = {
   challenges: [
     {
       title: "High Volume of Unqualified Leads Draining Sales Capacity",
-      description: "Previous advertising efforts generated plenty of form fills, but fewer than 18% were actually qualified for the firm's high-ticket coaching programs. The team was spending 15+ hours per week on discovery calls with prospects who couldn't afford or didn't need the service — burning out advisors and tanking close rates. With average deal values between $7,500 and $15,000, every wasted discovery call represented significant opportunity cost. The cost per lead looked reasonable at $230, but the cost per qualified lead was $1,247 — making profitable scaling impossible without fundamentally changing how leads were evaluated and optimized.",
+      description: "Previous advertising efforts generated plenty of form fills, but fewer than 18% were actually qualified for the firm's high-ticket coaching programs. The team was spending 15+ hours per week on discovery calls with prospects who couldn't afford or didn't need the service — burning out advisors and tanking close rates. With average deal values between $7,500 and $15,000, every wasted discovery call represented significant opportunity cost. The cost per lead looked reasonable at $230, but the cost per qualified lead was $1,259 — making profitable scaling impossible without fundamentally changing how leads were evaluated and optimized.",
     },
     {
       title: "Inability to Scale Ad Spend Without Quality Deterioration",
@@ -99,7 +99,7 @@ export const taxPlanningCoaching: CaseStudyData = {
         "Ongoing creative testing with new educational content angles: entity structuring, retirement account strategies, real estate depreciation — each angle attracting different qualified audience segments",
         "Monthly strategy reviews benchmarking CPQL, qualification rate, and revenue per lead against targets — qualification rate improved from 18% to 42% over the engagement",
         "The firm's sales team went from spending 15+ hours/week on unqualified calls to conducting discovery calls where 42% of prospects were genuine buyers",
-        "SEO delivering 12,400+ organic visits/month by month 10 — 8,247 tracked keywords, 437 in top 10, and 127 in top 3 positions",
+        "SEO delivering 12,400+ organic visits/month by month 10 — 11,670 tracked keywords, 618 in top 10, and 179 in top 3 positions",
         "Organic channel now generating 34 qualified leads/month at zero marginal cost — effectively reducing the firm's blended cost per qualified lead to $387 when organic leads are included",
         "Content flywheel fully operational: 213 total indexed pages, featured snippets captured for 9 high-value tax planning queries, and organic traffic compounding month-over-month with no signs of plateau",
       ],
@@ -131,7 +131,7 @@ export const taxPlanningCoaching: CaseStudyData = {
       { month: "Aug 2025", keywords: 8336, top10: 449, top3: 123, traffic: 8412, pages: 169, avgPos: 19.6, ctr: 2.5 },
       // Month 9 (Sep 2025): Year-end planning searches ramping, organic leads becoming significant channel
       { month: "Sep 2025", keywords: 10095, top10: 540, top3: 154, traffic: 10347, pages: 192, avgPos: 17.8, ctr: 2.7 },
-      // Month 10 (Oct 2025): Full organic authority — 8,200+ keywords, 12,400+ traffic, 437 top-10 rankings
+      // Month 10 (Oct 2025): Full organic authority — 11,670 keywords, 12,400+ traffic, 618 top-10 rankings
       { month: "Oct 2025", keywords: 11670, top10: 618, top3: 179, traffic: 12418, pages: 213, avgPos: 16.3, ctr: 2.9 },
     ],
   },
@@ -139,7 +139,7 @@ export const taxPlanningCoaching: CaseStudyData = {
     summary: [
       { label: "Total Ad Spend", value: "$344,322" },
       { label: "Qualified Leads", value: "513" },
-      { label: "Avg Cost/Qualified Lead", value: "$671", note: "↓47% from $1,259 starting" },
+      { label: "Avg Cost/Qualified Lead", value: "$671", note: "from $1,259 → $487 over 10 months" },
       { label: "Coaching Revenue Generated", value: "$1,197,271" },
     ],
     columnLabels: {
