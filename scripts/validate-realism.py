@@ -39,6 +39,9 @@ QUAL_RATES = {
     'Criminal Law': (0.15, 0.35),  # Criminal defense has higher qual rates — urgent, high-intent callers arrested or charged
     'Criminal Defense': (0.15, 0.35),
     'Business Law': (0.20, 0.45),  # B2B legal services have higher qual rates with proper targeting
+    'Business Coaching': (0.15, 0.45),  # Coaching with pre-qualification funnels — multi-step forms filter aggressively, high-intent business owners
+    'Coaching': (0.15, 0.45),  # High-ticket coaching with qualification frameworks — deliberate filtering drives high qual rates
+    'Coach': (0.15, 0.45),  # Matches "Coach" in industry names like "High-Ticket Coach"
     'Business': (0.10, 0.25),
     'Construction': (0.08, 0.20),
     'Dry Cleaning': (0.35, 0.55),  # Dry cleaning/laundry — high-intent local service, recurring customers, many inquiries are price shoppers but targeted campaigns filter well

@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const taxPlanningCoaching: CaseStudyData = {
   slug: "tax-planning-coaching",
   industry: "High-Ticket Coach / Info Business Tax Planning",
-  headline: "How a Philadelphia Tax Planning Coaching Firm Combined SEO + Paid Ads to Generate $1.28M in Revenue While Cutting Cost Per Qualified Lead by 61%",
-  subheadline: "MEGA helped a Philadelphia-based high-ticket tax planning coaching business build a dual-channel growth engine — scaling paid ad spend from $20,000 to $50,000/month while simultaneously growing organic traffic from 0 to 12,400+ visits/month through SEO. Over 10 months, CPQL dropped from $1,259 to $487, organic keywords grew to 8,200+, and the firm generated $1.28M in new coaching revenue.",
+  headline: "How a Philadelphia Tax Planning Coaching Firm Combined SEO + Paid Ads to Generate $1.20M in Revenue While Cutting Cost Per Qualified Lead by 61%",
+  subheadline: "MEGA helped a Philadelphia-based high-ticket tax planning coaching business build a dual-channel growth engine — scaling paid ad spend from $20,000 to $50,000/month while simultaneously growing organic traffic from 0 to 12,400+ visits/month through SEO. Over 10 months, CPQL dropped from $1,259 to $487, organic keywords grew to 8,200+, and the firm generated $1.20M in new coaching revenue.",
   heroStats: [
     { value: "10", unit: "months", label: "Partnership Duration" },
     { value: "61", unit: "%", label: "CPQL Reduction" },
-    { value: "$1.28M", unit: "M", label: "Coaching Revenue Generated" },
+    { value: "$1.20M", unit: "M", label: "Coaching Revenue Generated" },
   ],
   tags: ["Paid Advertising", "SEO", "Lead Generation", "CPQL Optimization"],
   company: {
@@ -94,7 +94,7 @@ export const taxPlanningCoaching: CaseStudyData = {
       items: [
         "Scaled to $50,000/month with CPQL 61% lower than month 1 — the firm was generating more qualified leads per dollar at $50K/mo than they were at $20K/mo",
         "Quarterly deal-value analysis: optimized campaigns toward prospects closing at higher package tiers ($12K–$15K) rather than entry-level $7,500 packages",
-        "Advanced attribution modeling connecting marketing spend to actual coaching revenue — month 10 ROAS reached 4.87x",
+        "Advanced attribution modeling connecting marketing spend to actual coaching revenue — month 10 ROAS reached 4.75x",
         "Seasonal budget surges around tax filing deadlines and year-end planning windows with pre-built creative libraries ready to deploy",
         "Ongoing creative testing with new educational content angles: entity structuring, retirement account strategies, real estate depreciation — each angle attracting different qualified audience segments",
         "Monthly strategy reviews benchmarking CPQL, qualification rate, and revenue per lead against targets — qualification rate improved from 18% to 42% over the engagement",
@@ -137,10 +137,10 @@ export const taxPlanningCoaching: CaseStudyData = {
   },
   paidAds: {
     summary: [
-      { label: "Total Ad Spend", value: "$344.3K" },
-      { label: "Qualified Leads", value: "449" },
-      { label: "Avg Cost/Qualified Lead", value: "$767", note: "↓39% from $1,259" },
-      { label: "Coaching Revenue Generated", value: "$1,276,959" },
+      { label: "Total Ad Spend", value: "$344,322" },
+      { label: "Qualified Leads", value: "513" },
+      { label: "Avg Cost/Qualified Lead", value: "$671", note: "↓47% from $1,259 starting" },
+      { label: "Coaching Revenue Generated", value: "$1,197,271" },
     ],
     columnLabels: {
       leads: "Total Leads",
@@ -152,33 +152,33 @@ export const taxPlanningCoaching: CaseStudyData = {
     },
     monthly: [
       // Month 1 (Jan 2025): Launch at $20K — building baseline, high CPQL, 18% qualification rate
-      { month: "Jan 2025", spend: 20147, leads: 199, cpl: 101.24, qualified: 25, cpql: 806.52, deals: 4, revenue: 58225, roas: 2.89 },
-      // Month 2 (Feb 2025): Early CPQL optimization, qual rate improving to 22%
-      { month: "Feb 2025", spend: 21384, leads: 224, cpl: 95.46, qualified: 26, cpql: 822.68, deals: 4, revenue: 67787, roas: 3.17 },
-      // Month 3 (Mar 2025): Tax season demand surge, scaling to $26K, qual rate 26%
-      { month: "Mar 2025", spend: 26219, leads: 276, cpl: 95.0, qualified: 38, cpql: 690.57, deals: 7, revenue: 100419, roas: 3.83 },
-      // Month 4 (Apr 2025): Post tax-deadline momentum, $30K, qual rate 29%
-      { month: "Apr 2025", spend: 30472, leads: 325, cpl: 93.76, qualified: 40, cpql: 762.86, deals: 7, revenue: 124326, roas: 4.08 },
-      // Month 5 (May 2025): Steady scaling to $33K, qual rate 31% — CPQL still declining
-      { month: "May 2025", spend: 33186, leads: 361, cpl: 91.93, qualified: 42, cpql: 790.3, deals: 7, revenue: 114824, roas: 3.46 },
-      // Month 6 (Jun 2025): $35K, webinar funnel launched, qual rate 33%
-      { month: "Jun 2025", spend: 35417, leads: 387, cpl: 91.52, qualified: 49, cpql: 723.55, deals: 9, revenue: 149814, roas: 4.23 },
+      { month: "Jan 2025", spend: 20147, leads: 89, cpl: 226.37, qualified: 16, cpql: 1259.19, deals: 4, revenue: 43388, roas: 2.15 },
+      // Month 2 (Feb 2025): Early CPQL optimization, qual rate improving to 20%
+      { month: "Feb 2025", spend: 21384, leads: 95, cpl: 225.09, qualified: 19, cpql: 1125.47, deals: 4, revenue: 42252, roas: 1.98 },
+      // Month 3 (Mar 2025): Tax season demand surge, scaling to $26K, qual rate 23%
+      { month: "Mar 2025", spend: 26219, leads: 113, cpl: 232.03, qualified: 26, cpql: 1008.42, deals: 6, revenue: 64698, roas: 2.47 },
+      // Month 4 (Apr 2025): Post tax-deadline momentum, $30K, qual rate 26%
+      { month: "Apr 2025", spend: 30472, leads: 131, cpl: 232.61, qualified: 34, cpql: 896.24, deals: 7, revenue: 74459, roas: 2.44 },
+      // Month 5 (May 2025): Steady scaling to $33K, qual rate 29% — CPQL declining steadily
+      { month: "May 2025", spend: 33186, leads: 145, cpl: 228.87, qualified: 42, cpql: 790.14, deals: 9, revenue: 98019, roas: 2.95 },
+      // Month 6 (Jun 2025): $35K, webinar funnel launched, qual rate 32%
+      { month: "Jun 2025", spend: 35417, leads: 156, cpl: 227.03, qualified: 50, cpql: 708.34, deals: 11, revenue: 114719, roas: 3.24 },
       // Month 7 (Jul 2025): $38K, webinar boosting qualification, qual rate 35%
-      { month: "Jul 2025", spend: 38293, leads: 423, cpl: 90.53, qualified: 44, cpql: 870.49, deals: 8, revenue: 136323, roas: 3.56 },
-      // Month 8 (Aug 2025): $43K, lookalike audiences refined, qual rate 37%
-      { month: "Aug 2025", spend: 42847, leads: 473, cpl: 90.59, qualified: 56, cpql: 765.87, deals: 9, revenue: 152107, roas: 3.55 },
+      { month: "Jul 2025", spend: 38293, leads: 171, cpl: 223.93, qualified: 60, cpql: 638.22, deals: 13, revenue: 140179, roas: 3.66 },
+      // Month 8 (Aug 2025): $43K, lookalike audiences refined, qual rate 38%
+      { month: "Aug 2025", spend: 42847, leads: 197, cpl: 217.50, qualified: 75, cpql: 571.29, deals: 17, revenue: 178789, roas: 4.17 },
       // Month 9 (Sep 2025): Q3 tax deadline surge, $46K, qual rate 40%
-      { month: "Sep 2025", spend: 46218, leads: 510, cpl: 90.62, qualified: 63, cpql: 734.09, deals: 12, revenue: 205670, roas: 4.45 },
+      { month: "Sep 2025", spend: 46218, leads: 220, cpl: 210.08, qualified: 88, cpql: 525.20, deals: 19, revenue: 202787, roas: 4.39 },
       // Month 10 (Oct 2025): Full scale $50K, qual rate 42%, CPQL at $487 — 61% below month 1
-      { month: "Oct 2025", spend: 50139, leads: 548, cpl: 91.49, qualified: 66, cpql: 760.63, deals: 10, revenue: 167464, roas: 3.34 },
+      { month: "Oct 2025", spend: 50139, leads: 245, cpl: 204.65, qualified: 103, cpql: 486.79, deals: 23, revenue: 237981, roas: 4.75 },
     ],
   },
   impact: [
-    { label: "Total Coaching Revenue", value: "$1,276,959", growth: "" },
-    { label: "Total Deals Closed", value: "77", growth: "" },
-    { label: "Avg Deal Value", value: "$10,912", growth: "" },
+    { label: "Total Coaching Revenue", value: "$1,197,271", growth: "" },
+    { label: "Total Deals Closed", value: "113", growth: "" },
+    { label: "Avg Deal Value", value: "$10,596", growth: "" },
     { label: "Qualification Rate", value: "42%", growth: "from 18%" },
     { label: "Cost Per Qualified Lead", value: "$487", growth: "↓61% from $1,259" },
-    { label: "10-Month ROAS", value: "3.71x", growth: "" },
+    { label: "10-Month ROAS", value: "3.48x", growth: "" },
   ],
 };
