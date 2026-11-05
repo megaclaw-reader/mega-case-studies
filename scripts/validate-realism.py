@@ -80,6 +80,7 @@ QUAL_RATES = {
     'Personal Insurance Agency': (0.35, 0.55),  # Personal lines (auto/home/umbrella) — high-intent quote requesters who own vehicles/homes and need coverage. Similar to Life and Car Insurance.
     'Life and Car Insurance': (0.25, 0.50),  # Auto insurance quotes are high-intent — most requesters own a car and need coverage. Blended auto+life skews higher than commercial insurance.
     'Commercial Property and Casualty Insurance': (0.20, 0.45),  # Commercial P&C inquiries are high-intent B2B — business owners actively seeking coverage quotes, not casual browsing. Similar to B2B healthcare/commercial HVAC targeting.
+    'Life Insurance': (0.25, 0.50),  # Life insurance leads are high-intent — searchers comparing quotes and coverage options are actively considering purchasing a policy. Higher qual than general insurance.
     'Insurance': (0.06, 0.20),
     'Financial': (0.06, 0.20),
     'Fintech': (0.06, 0.20),
