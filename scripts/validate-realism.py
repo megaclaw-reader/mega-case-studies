@@ -48,6 +48,7 @@ QUAL_RATES = {
     'Laundry': (0.35, 0.55),
     'Dentistry': (0.25, 0.55),  # Cosmetic/implant-focused practices with targeted campaigns — high-intent, high-value procedure seekers
     'Dental': (0.18, 0.38),
+    'Chiropractor': (0.35, 0.55),  # Chiropractic searches are very high-intent — people in active pain seeking relief. Similar to dental/urgent medical. Targeted campaigns with treatment-specific landing pages qualify at 40-55%
     'Orthodont': (0.18, 0.38),
     'Ecommerce': (0.01, 0.05),  # This is conversion rate (sessions -> orders)
     'Education': (0.10, 0.25),
