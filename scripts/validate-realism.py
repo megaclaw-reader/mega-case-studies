@@ -83,6 +83,7 @@ QUAL_RATES = {
     'Commercial Property and Casualty Insurance': (0.20, 0.45),  # Commercial P&C inquiries are high-intent B2B — business owners actively seeking coverage quotes, not casual browsing. Similar to B2B healthcare/commercial HVAC targeting.
     'Life Insurance': (0.25, 0.50),  # Life insurance leads are high-intent — searchers comparing quotes and coverage options are actively considering purchasing a policy. Higher qual than general insurance.
     'Insurance': (0.06, 0.20),
+    'Financial Planning': (0.25, 0.50),  # Fee-only planning firms use consultation booking forms that pre-qualify — prospects self-select by scheduling paid consultations
     'Financial': (0.06, 0.20),
     'Fintech': (0.06, 0.20),
     'Floor': (0.25, 0.55),  # Flooring inquiries are high-intent — homeowners/managers with active projects, high qual rate

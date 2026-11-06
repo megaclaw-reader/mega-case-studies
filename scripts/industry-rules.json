@@ -1000,7 +1000,8 @@
     "Home Renovations Interior": "lead_gen_services",
     "Fruit Snack": "ecommerce",
     "Fruit Snacks": "ecommerce",
-    "SaaS Consumer Business": "saas"
+    "SaaS Consumer Business": "saas",
+    "Financial Planning": "lead_gen_professional"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",

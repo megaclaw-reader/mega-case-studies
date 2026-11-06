@@ -1,0 +1,122 @@
+{
+  "slug": "financial-planning",
+  "industry": "Financial Planning",
+  "region": "National",
+  "location": "United States",
+  "scope": "national",
+  "services": ["SEO", "Paid Advertising"],
+  "ads": true,
+  "headline": "Independent Financial Planning Firm Scales Lead Volume 341% While Cutting CPQL 65%",
+  "subheadline": "AI-powered paid advertising and strategic SEO growth generated 256 qualified leads and $309.2K in ad-driven planning revenue across 11 months",
+  "heroStats": [
+    { "label": "CPQL Reduction", "value": "65%", "change": "from $625 to $217" },
+    { "label": "Qualified Leads", "value": "256", "change": "from paid campaigns" },
+    { "label": "Ad Revenue Generated", "value": "$309.2K", "change": "89 closed deals" },
+    { "label": "Average ROAS", "value": "3.9x", "change": "peak 4.7x" }
+  ],
+  "company": {
+    "description": "An independent, fee-only financial planning firm serving clients nationwide through virtual consultations and in-person meetings. The firm specializes in comprehensive financial plans for professionals in their 30s-50s, including retirement planning, tax optimization, estate planning, and education funding strategies.",
+    "industry": "Financial Planning",
+    "employees": "8-12",
+    "founded": "2020",
+    "locations": 1
+  },
+  "engagement": {
+    "startDate": "2026-01-01",
+    "endDate": "2026-11-30",
+    "duration": "11 months",
+    "services": ["SEO", "Paid Advertising"]
+  },
+  "paidAds": {
+    "summary": [
+      { "label": "Total Ad Spend", "value": "$78,700" },
+      { "label": "Qualified Leads", "value": "256" },
+      { "label": "Avg CPQL", "value": "$307", "note": "65% reduction from $625" },
+      { "label": "Total Revenue", "value": "$309,200" },
+      { "label": "Overall ROAS", "value": "3.9x" }
+    ],
+    "monthly": [
+      { "month": "Jan '26", "spend": 5000, "leads": 27, "cpl": 185, "qualified": 8, "cpql": 625, "deals": 3, "revenue": 10500, "roas": 2.1 },
+      { "month": "Feb '26", "spend": 5200, "leads": 31, "cpl": 168, "qualified": 10, "cpql": 520, "deals": 4, "revenue": 13600, "roas": 2.6 },
+      { "month": "Mar '26", "spend": 5500, "leads": 36, "cpl": 153, "qualified": 12, "cpql": 458, "deals": 5, "revenue": 16500, "roas": 3.0 },
+      { "month": "Apr '26", "spend": 6200, "leads": 44, "cpl": 141, "qualified": 15, "cpql": 413, "deals": 6, "revenue": 21600, "roas": 3.5 },
+      { "month": "May '26", "spend": 6800, "leads": 52, "cpl": 131, "qualified": 18, "cpql": 378, "deals": 7, "revenue": 25900, "roas": 3.8 },
+      { "month": "Jun '26", "spend": 7100, "leads": 59, "cpl": 120, "qualified": 21, "cpql": 338, "deals": 8, "revenue": 28000, "roas": 3.9 },
+      { "month": "Jul '26", "spend": 7400, "leads": 67, "cpl": 110, "qualified": 24, "cpql": 308, "deals": 9, "revenue": 30600, "roas": 4.1 },
+      { "month": "Aug '26", "spend": 7800, "leads": 76, "cpl": 103, "qualified": 28, "cpql": 279, "deals": 10, "revenue": 33500, "roas": 4.3 },
+      { "month": "Sep '26", "spend": 8200, "leads": 87, "cpl": 94, "qualified": 33, "cpql": 248, "deals": 11, "revenue": 37400, "roas": 4.6 },
+      { "month": "Oct '26", "spend": 9100, "leads": 101, "cpl": 90, "qualified": 39, "cpql": 233, "deals": 12, "revenue": 42600, "roas": 4.7 },
+      { "month": "Nov '26", "spend": 10400, "leads": 119, "cpl": 87, "qualified": 48, "cpql": 217, "deals": 14, "revenue": 49000, "roas": 4.7 }
+    ]
+  },
+  "seo": {
+    "summary": [
+      { "label": "Final Keywords", "value": "3,124", "growth": "+2,981", "from": "143" },
+      { "label": "Monthly Traffic", "value": "6,842", "growth": "+6,607", "from": "235" },
+      { "label": "Organic Leads", "value": "829", "growth": "+825", "from": "4" },
+      { "label": "Organic Revenue", "value": "$640,500" }
+    ],
+    "monthly": [
+      { "month": "Jan '26", "keywords": 143, "top10": 19, "top3": 5, "traffic": 235, "pages": 34, "avgPos": 21.4, "ctr": 2.8 },
+      { "month": "Feb '26", "keywords": 198, "top10": 31, "top3": 9, "traffic": 387, "pages": 46, "avgPos": 19.1, "ctr": 3.1 },
+      { "month": "Mar '26", "keywords": 287, "top10": 48, "top3": 14, "traffic": 612, "pages": 58, "avgPos": 17.3, "ctr": 3.4 },
+      { "month": "Apr '26", "keywords": 512, "top10": 89, "top3": 26, "traffic": 978, "pages": 72, "avgPos": 15.8, "ctr": 3.7 },
+      { "month": "May '26", "keywords": 723, "top10": 134, "top3": 41, "traffic": 1456, "pages": 89, "avgPos": 14.2, "ctr": 4.0 },
+      { "month": "Jun '26", "keywords": 934, "top10": 178, "top3": 56, "traffic": 2134, "pages": 107, "avgPos": 12.9, "ctr": 4.3 },
+      { "month": "Jul '26", "keywords": 1134, "top10": 215, "top3": 68, "traffic": 2873, "pages": 124, "avgPos": 11.7, "ctr": 4.5 },
+      { "month": "Aug '26", "keywords": 1478, "top10": 289, "top3": 94, "traffic": 3647, "pages": 141, "avgPos": 10.8, "ctr": 4.7 },
+      { "month": "Sep '26", "keywords": 1923, "top10": 387, "top3": 126, "traffic": 4523, "pages": 156, "avgPos": 9.9, "ctr": 4.9 },
+      { "month": "Oct '26", "keywords": 2487, "top10": 512, "top3": 167, "traffic": 5634, "pages": 172, "avgPos": 9.2, "ctr": 5.1 },
+      { "month": "Nov '26", "keywords": 3124, "top10": 648, "top3": 213, "traffic": 6842, "pages": 189, "avgPos": 8.6, "ctr": 5.3 }
+    ]
+  },
+  "monthlyData": [
+    { "month": "Jan '26", "adSpend": 5000, "adLeads": 8, "adDeals": 3, "adRevenue": 10500, "organicTraffic": 235, "organicKeywords": 143, "organicLeads": 4, "organicRevenue": 3500, "totalLeads": 12, "totalRevenue": 14000 },
+    { "month": "Feb '26", "adSpend": 5200, "adLeads": 10, "adDeals": 4, "adRevenue": 13600, "organicTraffic": 387, "organicKeywords": 198, "organicLeads": 7, "organicRevenue": 7000, "totalLeads": 17, "totalRevenue": 20600 },
+    { "month": "Mar '26", "adSpend": 5500, "adLeads": 12, "adDeals": 5, "adRevenue": 16500, "organicTraffic": 612, "organicKeywords": 287, "organicLeads": 13, "organicRevenue": 10500, "totalLeads": 25, "totalRevenue": 27000 },
+    { "month": "Apr '26", "adSpend": 6200, "adLeads": 15, "adDeals": 6, "adRevenue": 21600, "organicTraffic": 978, "organicKeywords": 512, "organicLeads": 22, "organicRevenue": 17500, "totalLeads": 37, "totalRevenue": 39100 },
+    { "month": "May '26", "adSpend": 6800, "adLeads": 18, "adDeals": 7, "adRevenue": 25900, "organicTraffic": 1456, "organicKeywords": 723, "organicLeads": 36, "organicRevenue": 28000, "totalLeads": 54, "totalRevenue": 53900 },
+    { "month": "Jun '26", "adSpend": 7100, "adLeads": 21, "adDeals": 8, "adRevenue": 28000, "organicTraffic": 2134, "organicKeywords": 934, "organicLeads": 55, "organicRevenue": 42000, "totalLeads": 76, "totalRevenue": 70000 },
+    { "month": "Jul '26", "adSpend": 7400, "adLeads": 24, "adDeals": 9, "adRevenue": 30600, "organicTraffic": 2873, "organicKeywords": 1134, "organicLeads": 78, "organicRevenue": 59500, "totalLeads": 102, "totalRevenue": 90100 },
+    { "month": "Aug '26", "adSpend": 7800, "adLeads": 28, "adDeals": 10, "adRevenue": 33500, "organicTraffic": 3647, "organicKeywords": 1478, "organicLeads": 102, "organicRevenue": 77000, "totalLeads": 130, "totalRevenue": 110500 },
+    { "month": "Sep '26", "adSpend": 8200, "adLeads": 33, "adDeals": 11, "adRevenue": 37400, "organicTraffic": 4523, "organicKeywords": 1923, "organicLeads": 131, "organicRevenue": 101500, "totalLeads": 164, "totalRevenue": 138900 },
+    { "month": "Oct '26", "adSpend": 9100, "adLeads": 39, "adDeals": 12, "adRevenue": 42600, "organicTraffic": 5634, "organicKeywords": 2487, "organicLeads": 169, "organicRevenue": 129500, "totalLeads": 208, "totalRevenue": 172100 },
+    { "month": "Nov '26", "adSpend": 10400, "adLeads": 48, "adDeals": 14, "adRevenue": 49000, "organicTraffic": 6842, "organicKeywords": 3124, "organicLeads": 212, "organicRevenue": 164500, "totalLeads": 260, "totalRevenue": 213500 }
+  ],
+  "summary": {
+    "totalAdSpend": 78700,
+    "totalAdLeads": 256,
+    "totalAdDeals": 89,
+    "totalAdRevenue": 309200,
+    "totalOrganicLeads": 829,
+    "totalOrganicRevenue": 640500,
+    "totalLeads": 1085,
+    "totalRevenue": 949700,
+    "avgCostPerLead": 307,
+    "avgROAS": 3.9
+  },
+  "impact": {
+    "costEfficiency": {
+      "description": "Dramatic reduction in cost per qualified lead through AI-powered optimization",
+      "before": "$625 average CPQL",
+      "after": "$217 average CPQL",
+      "improvement": "65% reduction while scaling lead volume 341%"
+    },
+    "leadGeneration": {
+      "description": "Transformed from referral-dependent to predictable digital lead generation",
+      "achievement": "256 qualified paid leads plus 829 organic leads across 11 months",
+      "sustainability": "Organic channel generating 212 leads per month by month 11"
+    },
+    "revenueImpact": {
+      "description": "Substantial revenue from both paid and organic channels",
+      "totalRevenue": "$949,700",
+      "blendedROAS": "3.9x",
+      "projectedAnnualRevenue": "$1,100,000 based on current trajectory"
+    }
+  },
+  "testimonial": {
+    "quote": "Before working with MEGA, we were completely dependent on referrals and struggling with over $600 cost per qualified lead from our initial advertising experiments. The AI-powered approach transformed everything — our CPQL dropped to $217 while our lead volume grew over 340%. The organic search growth has been particularly impressive, now generating more leads than our paid campaigns. We have a predictable pipeline that lets us plan hiring and capacity with confidence for the first time.",
+    "author": "Managing Partner",
+    "context": "After 11 months of AI-powered paid advertising and SEO optimization"
+  }
+}
