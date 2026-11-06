@@ -1,4 +1,5 @@
 import { CaseStudyData } from "./types";
+import { matrimonialLawyerCalifornia } from "./matrimonial-lawyer-california";
 import { lifeInsurance } from "./life-insurance";
 import { saasConsumer } from "./saas-consumer";
 import { hvacPhoenix } from "./hvac-phoenix";
@@ -895,6 +896,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "home-renovations-interior-nc": homeRenovationsInteriorNc,
   "mens-apparel-brand": mensApparelBrand,
   "high-end-womens-outerwear": highEndWomensOuterwear,
+  "matrimonial-lawyer-california": matrimonialLawyerCalifornia,
   "life-insurance": lifeInsurance,
   "saas-consumer": saasConsumer,
 };
