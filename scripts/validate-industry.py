@@ -180,6 +180,7 @@ CPL_RANGES = {
     "regen_medicine":    (30, 250),
     # SaaS
     "saas":              (30, 500),
+    "saas_consumer":     (15, 80),
     "healthcare_software": (150, 400),
     # Health & Wellness App — cost per INSTALL (CPI)
     "health_and_wellness_app": (3, 15),
@@ -352,6 +353,7 @@ def _cpl_category(industry, model_key):
         ("healthcare", "healthcare"), ("medical", "healthcare"),
         ("wellness", "healthcare"),
         ("sustainable luxury", "sustainable_luxury"),
+        ("saas consumer", "saas_consumer"), ("b2c saas", "saas_consumer"), ("consumer saas", "saas_consumer"),
         ("saas", "saas"), ("platform", "saas"),
         ("fitness", "gym_fitness"),
     ]
@@ -525,6 +527,7 @@ DEAL_VALUE_RANGES = {
     "investment_advisor": (2500, 10000),
     "venture_capital": (5000, 100000),
     "saas": (2000, 150000),
+    "saas_consumer": (120, 360),
     "healthcare_software": (18000, 48000),
     "sustainable_luxury": (150, 400),
 }
