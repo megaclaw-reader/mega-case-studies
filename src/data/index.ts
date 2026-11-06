@@ -105,6 +105,7 @@ import { projectManagementSoftwareSeo } from "./project-management-software-seo"
 import { dentalImplantsAustin } from "./dental-implants-austin";
 import { dentalSurgeryClinic } from "./dental-surgery-clinic";
 import { franchiseDevelopment } from "./franchise-development";
+import { fruitSnack } from "./fruit-snack";
 import { franchiseMedSpa } from "./franchise-med-spa";
 import { seoProjectionHhRedStone } from "./seo-projection-hh-red-stone";
 import { restaurantEventsCaliforniaMar } from "./restaurant-events-california";
@@ -730,6 +731,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "seo-projection-hh-red-stone": seoProjectionHhRedStone,
   "seo-plan-thegrint": seoPlanThegrint,
   "franchise-development": franchiseDevelopment,
+  "fruit-snack": fruitSnack,
   "franchise-med-spa": franchiseMedSpa,
   "project-management-software-seo": projectManagementSoftwareSeo,
   "dental-implants-austin": dentalImplantsAustin,
