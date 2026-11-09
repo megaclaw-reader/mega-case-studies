@@ -1001,7 +1001,8 @@
     "Fruit Snack": "ecommerce",
     "Fruit Snacks": "ecommerce",
     "SaaS Consumer Business": "saas",
-    "Financial Planning": "lead_gen_professional"
+    "Financial Planning": "lead_gen_professional",
+    "B2B Software": "saas"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",
