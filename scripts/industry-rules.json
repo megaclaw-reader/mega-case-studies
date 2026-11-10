@@ -1002,7 +1002,8 @@
     "Fruit Snacks": "ecommerce",
     "SaaS Consumer Business": "saas",
     "Financial Planning": "lead_gen_professional",
-    "B2B Software": "saas"
+    "B2B Software": "saas",
+    "GLP-1 Peptide Therapy": "ecommerce"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",

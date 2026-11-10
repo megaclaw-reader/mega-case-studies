@@ -396,6 +396,9 @@ import { maAdvisory } from "./ma-advisory";
 import { peachStateCpaProposal } from "./peach-state-cpa-proposal";
 import { seoPlanThegrint } from "./seo-plan-thegrint";
 import { glp1WeightLoss } from "./glp1-weight-loss";
+import { glp1PeptideClinicScottsdale } from "./glp1-peptide-clinic-scottsdale";
+import { glp1PeptideEcommerce } from "./glp1-peptide-ecommerce";
+import { glp1MultiLocationTexas } from "./glp1-multi-location-texas";
 import { childrensClothingEcommerce } from "./childrens-clothing-ecommerce";
 import { pensionAppointmentGeneration } from "./pension-appointment-generation";
 import { dentalPracticeCharlotte } from "./dental-practice-charlotte";
@@ -741,6 +744,9 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "dental-implants-austin": dentalImplantsAustin,
   "dental-surgery-clinic": dentalSurgeryClinic,
   "glp1-weight-loss": glp1WeightLoss,
+  "glp1-peptide-clinic-scottsdale": glp1PeptideClinicScottsdale,
+  "glp1-peptide-ecommerce": glp1PeptideEcommerce,
+  "glp1-multi-location-texas": glp1MultiLocationTexas,
   "childrens-clothing-ecommerce": childrensClothingEcommerce,
   "pension-appointment-generation": pensionAppointmentGeneration,
   "dental-practice-charlotte": dentalPracticeCharlotte,

@@ -4,11 +4,11 @@ export const glp1WeightLoss: CaseStudyData = {
   slug: "glp1-weight-loss",
   industry: "Healthcare / GLP-1 Weight Loss",
   headline: "How a National GLP-1 Weight Loss Provider Scaled Patient Acquisition 5x With SEO and Paid Advertising",
-  subheadline: "MEGA helped a GLP-1 weight loss clinic build organic visibility from 95 to 11,247 keywords while optimizing paid campaigns from $5.2K to $7.8K/month — generating $326.2K in patient revenue and reducing cost per qualified lead by 43% over 12 months.",
+  subheadline: "MEGA helped a GLP-1 weight loss clinic build organic visibility from 95 to 11,247 keywords while optimizing paid campaigns from $5.2K to $7.8K/month — generating $326.2K in patient revenue and reducing cost per qualified lead by 44% over 12 months.",
   heroStats: [
     { value: "12", unit: "months", label: "Partnership Duration" },
     { value: "$326.2K", unit: "K", label: "Revenue Attributed" },
-    { value: "43", unit: "%", label: "CPQL Reduction" },
+    { value: "44", unit: "%", label: "CPQL Reduction" },
   ],
   tags: ["SEO Strategy", "Paid Advertising", "Healthcare Marketing", "GLP-1 Weight Loss"],
   company: {
@@ -151,7 +151,7 @@ export const glp1WeightLoss: CaseStudyData = {
     { label: "Total Revenue", value: "$326.2K", growth: "" },
     { label: "Enrolled Patients", value: "178", growth: "" },
     { label: "Blended ROAS", value: "4.17x", growth: "" },
-    { label: "Cost/Qualified Lead", value: "594", growth: "↓44%" },
+    { label: "Cost/Qualified Lead", value: "$132", growth: "↓44%" },
     { label: "Organic Keywords", value: "95 → 11,247", growth: "+11,734%" },
     { label: "Organic Traffic", value: "437 → 18,371/mo", growth: "+4,103%" },
   ],
