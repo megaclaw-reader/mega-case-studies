@@ -173,6 +173,7 @@ import { functionalMedicineClinic } from "./functional-medicine-clinic";
 import { logisticsSupplyChain } from "./logistics-supply-chain";
 import { healthInsuranceVermontData } from "./health-insurance-vermont";
 import { insuranceArizona } from "./insurance-arizona";
+import { insurance } from "./insurance";
 import { hairProductsEcommerce } from "./hair-products-ecommerce";
 import { probiotics } from "./probiotics";
 import { premiumMotorsportsDealership } from "./premium-motorsports-dealership";
@@ -636,6 +637,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "meal-prep-service": mealPrepService,
   "functional-medicine-clinic": functionalMedicineClinic,
   "insurance-arizona": insuranceArizona,
+  "insurance": insurance,
   "private-membership-clubs": privateMembershipClubs,
   "vacation-rental": vacationRental,
   "boutique-skincare-wellness": boutiqueSkincareWellness,
