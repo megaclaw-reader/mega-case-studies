@@ -1,6 +1,7 @@
 import { CaseStudyData } from "./types";
 import { financialPlanning } from "./financial-planning";
 import { b2bSoftware } from "./b2b-software";
+import { realEstateInvestment } from "./real-estate-investment";
 import { matrimonialLawyerCalifornia } from "./matrimonial-lawyer-california";
 import { lifeInsurance } from "./life-insurance";
 import { saasConsumer } from "./saas-consumer";
@@ -911,6 +912,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "saas-consumer": saasConsumer,
   "financial-planning": financialPlanning,
   "b2b-software": b2bSoftware,
+  "real-estate-investment": realEstateInvestment,
 };
 
 export type { CaseStudyData };
