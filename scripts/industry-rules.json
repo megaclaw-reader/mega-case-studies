@@ -1003,7 +1003,8 @@
     "SaaS Consumer Business": "saas",
     "Financial Planning": "lead_gen_professional",
     "B2B Software": "saas",
-    "GLP-1 Peptide Therapy": "healthcare_medical"
+    "GLP-1 Peptide Therapy": "healthcare_medical",
+    "Event Design and Decor": "lead_gen_services"
   },
   "industry_mapping": {
     "Self-Storage": "lead_gen_services",

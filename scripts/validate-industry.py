@@ -20,6 +20,7 @@ DATA_DIR = os.path.join(SCRIPT_DIR, "..", "src", "data")
 # For ecom, this is cost-per-session (much lower). For services, cost-per-lead.
 CPL_RANGES = {
     # Lead gen services — local, lower competition
+    "event_design_and_decor": (35, 120),
     "hardscaping":      (40, 130),
     "junk_removal":     (25, 120),
     "water_filtration":  (35, 150),
@@ -366,6 +367,7 @@ def _cpl_category(industry, model_key):
 
 # ─── Deal value ranges by industry ───
 DEAL_VALUE_RANGES = {
+    "event_design_and_decor": (3000, 15000),
     "hardscaping": (5000, 25000),
     "junk_removal": (150, 2000),
     "water_filtration": (1500, 6000),

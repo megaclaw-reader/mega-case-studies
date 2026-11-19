@@ -123,6 +123,7 @@ import { cbdThcSeo } from "./cbd-thc-seo";
 import { cbdNational } from "./cbd-national";
 import { healthWellnessApp } from "./health-wellness-app";
 import { poolInstallation } from "./pool-installation";
+import { eventDesignDecor } from "./event-design-decor";
 import { eventPlanning } from "./event-planning";
 import { exterminator } from "./exterminator";
 import { exterminatorCa } from "./exterminator-ca";
@@ -707,6 +708,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "plastic-surgery": plasticSurgery,
   "custom-closets-storage": customClosetsStorage,
   "social-security-disability": socialSecurityDisability,
+  "event-design-decor": eventDesignDecor,
   "event-planning": eventPlanning,
   "mens-health-wellness-media": mensHealthWellnessMedia,
   "cbd-thc-seo": cbdThcSeo,
