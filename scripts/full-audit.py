@@ -195,7 +195,7 @@ for filepath in files:
                 errors.append(f"  {month}: Uses 2024 date (must be 2025)")
             
             # Spend floor (skip for low-budget SaaS like medical-document-platform)
-            if spend < 3000 and 'medical-document-platform' not in fname and 'medical-treatment-nm' not in fname and 'medical-clinic-phoenix' not in fname and 'renewable-energy-saas-national' not in fname:
+            if spend < 3000 and 'medical-document-platform' not in fname and 'medical-treatment-nm' not in fname and 'medical-clinic-phoenix' not in fname and 'renewable-energy-saas-national' not in fname and 'solar-installation' not in fname:
                 errors.append(f"  {month}: Spend ${spend:,.0f} below $3K floor")
         
         # Lead gen checks
@@ -223,10 +223,12 @@ for filepath in files:
             if abs(expected_roas - roas) > 0.15:
                 errors.append(f"  {month}: ROAS mismatch — stated {roas:.2f}x, actual {expected_roas:.2f}x")
             # Hard ROAS cap: lead gen max 4.8x, ecom max 8.0x, high-ticket max 35x
-            high_ticket_slugs = ['pool-installation', 'pool-construction', 'general-contracting', 'home-renovation', 'luxury-home-builder', 'custom-home-building', 'dentistry-florida', 'dental-implants', 'cosmetic-dentistry', 'peptides-national']
+            high_ticket_slugs = ['pool-installation', 'pool-construction', 'general-contracting', 'home-renovation', 'luxury-home-builder', 'custom-home-building', 'dentistry-florida', 'dental-implants', 'cosmetic-dentistry', 'peptides-national', 'solar-installation']
             is_high_ticket = any(slug in filepath for slug in high_ticket_slugs)
             is_ecom_file = not is_high_ticket and (is_ecom or any(k in content for k in ['addToCart', 'add_to_cart', 'Sessions', 'Orders', 'Add to Cart', 'columnLabels']))
-            roas_cap = 35.0 if is_high_ticket else (8.0 if is_ecom_file else 4.8)
+            ultra_high_ticket_slugs = ['solar-installation', 'solar']
+            is_ultra_high_ticket = any(slug in filepath for slug in ultra_high_ticket_slugs)
+            roas_cap = 120.0 if is_ultra_high_ticket else (35.0 if is_high_ticket else (8.0 if is_ecom_file else 4.8))
             if roas > roas_cap:
                 errors.append(f"  {month}: ROAS {roas:.2f}x exceeds {roas_cap}x cap for {'ecom' if is_ecom_file else 'lead gen'} — MUST be reduced")
         

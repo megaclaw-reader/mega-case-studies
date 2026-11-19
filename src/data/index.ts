@@ -1,4 +1,5 @@
 import { CaseStudyData } from "./types";
+import { solarInstallation } from "./solar-installation";
 import { financialPlanning } from "./financial-planning";
 import { b2bSoftware } from "./b2b-software";
 import { realEstateInvestment } from "./real-estate-investment";
@@ -915,6 +916,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "financial-planning": financialPlanning,
   "b2b-software": b2bSoftware,
   "real-estate-investment": realEstateInvestment,
+  "solar-installation": solarInstallation,
 };
 
 export type { CaseStudyData };

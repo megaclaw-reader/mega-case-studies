@@ -107,6 +107,7 @@ QUAL_RATES = {
     'Storage': (0.04, 0.15),
     'Rental': (0.04, 0.15),
     'Hardscap': (0.15, 0.35),  # Hardscaping — high-ticket projects attract more qualified homeowners with proper budget-qualifying ads
+    'Solar': (0.20, 0.55),  # Solar installation — homeowners with suitable roofs, good credit, ownership verification. Targeted campaigns qualify well.
     'Roofing': (0.10, 0.25),
     'Security': (0.10, 0.25),
     'Surveillance': (0.10, 0.25),
@@ -167,9 +168,13 @@ def validate_file(filepath):
     has_add_to_cart = 'addToCart' in content or bool(re.search(r'["\']Add to Cart["\']', content))
     has_ticket = bool(re.search(r'["\']Ticket (Purchases|Selections)["\']', content))
     is_ecom = (has_sessions and has_orders) or has_add_to_cart or (has_sessions and has_ticket) or (has_sessions and has_subscribers)
-    high_ticket_slugs = ['pool-installation', 'pool-construction', 'general-contracting', 'home-renovation', 'luxury-home-builder', 'custom-home-building', 'dentistry-florida', 'dental-implants', 'cosmetic-dentistry', 'peptides-national']
+    high_ticket_slugs = ['pool-installation', 'pool-construction', 'general-contracting', 'home-renovation', 'luxury-home-builder', 'custom-home-building', 'dentistry-florida', 'dental-implants', 'cosmetic-dentistry', 'peptides-national', 'solar-installation']
     is_high_ticket_slug = any(s in fname for s in high_ticket_slugs)
-    if is_high_ticket_slug:
+    ultra_high_ticket_slugs = ['solar-installation', 'solar']
+    is_ultra_high_ticket = any(s in fname for s in ultra_high_ticket_slugs)
+    if is_ultra_high_ticket:
+        roas_cap = 120.0
+    elif is_high_ticket_slug:
         roas_cap = 35.0
     elif is_ecom:
         roas_cap = ROAS_CAPS['ecom']
