@@ -27,6 +27,7 @@ import { facilitiesServices } from "./facilities-services";
 import { wholesaleArizona } from "./wholesale-arizona";
 import { b2bWholesaleDistributor } from "./b2b-wholesale-distributor";
 import { roofingArizona } from "./roofing-arizona";
+import { roofingCalifornia } from "./roofing-california";
 import { plasticSurgeryArizona } from "./plastic-surgery-arizona";
 import { danceCoursesSanDiego } from "./dance-courses-san-diego";
 import { resortCalifornia } from "./resort-california";
@@ -458,6 +459,7 @@ import { personalInsuranceAgency } from "./personal-insurance-agency";
 import { homeRenovationsInteriorNc } from "./home-renovations-interior-nc";
 import { mensApparelBrand } from "./mens-apparel-brand";
 import { highEndWomensOuterwear } from "./high-end-womens-outerwear";
+import { roofingSouthCarolina } from "./roofing-south-carolina";
 export const caseStudies: Record<string, CaseStudyData> = {
   "criminal-law-phoenix": criminalLawPhoenix,
   "divorce-law-chicago": divorceLawChicago,
@@ -875,6 +877,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "plastic-surgery-arizona": plasticSurgeryArizona,
   "dance-courses-san-diego": danceCoursesSanDiego,
   "roofing-arizona": roofingArizona,
+  "roofing-california": roofingCalifornia,
   "resort-california": resortCalifornia,
   "video-production-california": videoProductionCalifornia,
   "investment-advisor-national": investmentAdvisorNational,
@@ -917,6 +920,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "b2b-software": b2bSoftware,
   "real-estate-investment": realEstateInvestment,
   "solar-installation": solarInstallation,
+  "roofing-south-carolina": roofingSouthCarolina,
 };
 
 export type { CaseStudyData };
