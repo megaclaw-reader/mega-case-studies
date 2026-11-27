@@ -3,12 +3,12 @@ import { CaseStudyData } from "./types";
 export const homeRemodelingDenver: CaseStudyData = {
   slug: "home-remodeling-denver",
   industry: "Home Remodelling Contractor",
-  headline: "How a Denver Home Remodeling Contractor Generated $3.4M in Contracted Revenue With AI-Powered Paid Ads",
-  subheadline: "MEGA helped a full-service home remodeling company in Denver, Colorado scale their paid advertising with always-on AI optimization, signing 56 contracts worth $3.41M in contracted revenue over 12 months — a 4.6x increase in qualified lead volume and 38% reduction in cost per qualified lead.",
+  headline: "How a Denver Home Remodeling Contractor Generated $3.35M in Contracted Revenue With AI-Powered Paid Ads",
+  subheadline: "MEGA helped a full-service home remodeling company in Denver, Colorado scale their paid advertising with always-on AI optimization, signing 55 contracts worth $3.35M in contracted revenue over 12 months — a 3.4x increase in lead volume and 62% reduction in cost per qualified lead.",
   heroStats: [
-    { value: "$3.41M", unit: "M", label: "Contracted Revenue" },
-    { value: "56", unit: "", label: "Signed Contracts" },
-    { value: "38", unit: "%", label: "CPQL Reduction" },
+    { value: "$3.35M", unit: "M", label: "Contracted Revenue" },
+    { value: "55", unit: "", label: "Signed Contracts" },
+    { value: "62", unit: "%", label: "CPQL Reduction" },
   ],
   tags: ["Paid Advertising", "AI-Powered Optimization", "Lead Generation", "Home Remodeling"],
   company: {
@@ -21,7 +21,7 @@ export const homeRemodelingDenver: CaseStudyData = {
   challenges: [
     {
       title: "Expensive Leads With No Qualification Infrastructure",
-      description: "The company was spending approximately $12,000 per month on Google Ads but had no lead scoring, no call tracking, and no CRM integration to distinguish high-intent homeowners from tire-kickers. Their estimated cost per qualified lead exceeded $710, and the sales team was spending 60% of their time on inquiries that never materialized into consultations — people looking for handyman tasks under $2,000, renters asking about landlord-approved modifications, and DIY enthusiasts seeking material recommendations. With Denver's competitive remodeling market pushing CPCs higher each quarter, the lack of qualification infrastructure meant they were essentially subsidizing their competitors by bidding on the same broad terms without converting at scale.",
+      description: "The company was spending approximately $12,000 per month on Google Ads but had no lead scoring, no call tracking, and no CRM integration to distinguish high-intent homeowners from tire-kickers. Their estimated cost per qualified lead exceeded $1,000, and the sales team was spending 60% of their time on inquiries that never materialized into consultations — people looking for handyman tasks under $2,000, renters asking about landlord-approved modifications, and DIY enthusiasts seeking material recommendations. With Denver's competitive remodeling market pushing CPCs higher each quarter, the lack of qualification infrastructure meant they were essentially subsidizing their competitors by bidding on the same broad terms without converting at scale.",
     },
     {
       title: "Generic Campaign Structure Missing Denver's High-Value Segments",
@@ -99,9 +99,9 @@ export const homeRemodelingDenver: CaseStudyData = {
   paidAds: {
     summary: [
       { label: "Total Ad Spend", value: "$240.3K" },
-      { label: "Qualified Leads", value: "547" },
-      { label: "Avg Cost Per Qualified Lead", value: "$439", note: "↓38% from $710" },
-      { label: "Signed Contracts", value: "56" },
+      { label: "Qualified Leads", value: "625" },
+      { label: "Avg Cost Per Qualified Lead", value: "$384", note: "↓62% from $1,013" },
+      { label: "Signed Contracts", value: "55" },
     ],
     columnLabels: {
       leads: "Total Leads",
@@ -112,24 +112,24 @@ export const homeRemodelingDenver: CaseStudyData = {
       costPerDeal: "Cost/Contract",
     },
     monthly: [
-      { month: "Feb '25", spend: 15200, leads: 81, cpl: 187.65, qualified: 28, cpql: 542.86, deals: 2, revenue: 115000, roas: 7.57 },
-      { month: "Mar '25", spend: 16400, leads: 91, cpl: 180.22, qualified: 33, cpql: 496.97, deals: 3, revenue: 174600, roas: 10.65 },
-      { month: "Apr '25", spend: 19800, leads: 114, cpl: 173.68, qualified: 42, cpql: 471.43, deals: 4, revenue: 245600, roas: 12.40 },
-      { month: "May '25", spend: 22600, leads: 134, cpl: 168.66, qualified: 52, cpql: 434.62, deals: 5, revenue: 319000, roas: 14.12 },
-      { month: "Jun '25", spend: 24800, leads: 149, cpl: 166.44, qualified: 58, cpql: 427.59, deals: 6, revenue: 358200, roas: 14.44 },
-      { month: "Jul '25", spend: 25400, leads: 155, cpl: 163.87, qualified: 62, cpql: 409.68, deals: 6, revenue: 385200, roas: 15.17 },
-      { month: "Aug '25", spend: 23700, leads: 143, cpl: 165.73, qualified: 56, cpql: 423.21, deals: 5, revenue: 312000, roas: 13.16 },
-      { month: "Sep '25", spend: 21200, leads: 130, cpl: 163.08, qualified: 52, cpql: 407.69, deals: 6, revenue: 343800, roas: 16.22 },
-      { month: "Oct '25", spend: 19600, leads: 120, cpl: 163.33, qualified: 47, cpql: 417.02, deals: 5, revenue: 307500, roas: 15.69 },
-      { month: "Nov '25", spend: 17800, leads: 106, cpl: 167.92, qualified: 40, cpql: 445.00, deals: 5, revenue: 294500, roas: 16.54 },
-      { month: "Dec '25", spend: 15600, leads: 91, cpl: 171.43, qualified: 33, cpql: 472.73, deals: 3, revenue: 171600, roas: 11.00 },
-      { month: "Jan '26", spend: 18200, leads: 112, cpl: 162.50, qualified: 44, cpql: 413.64, deals: 6, revenue: 380400, roas: 20.90 },
+      { month: "Feb '25", spend: 15200, leads: 48, cpl: 316.67, qualified: 15, cpql: 1013.33, deals: 2, revenue: 115000, roas: 7.57 },
+      { month: "Mar '25", spend: 16400, leads: 58, cpl: 282.76, qualified: 19, cpql: 863.16, deals: 2, revenue: 116400, roas: 7.10 },
+      { month: "Apr '25", spend: 19800, leads: 82, cpl: 241.46, qualified: 30, cpql: 660.00, deals: 4, revenue: 245600, roas: 12.40 },
+      { month: "May '25", spend: 22600, leads: 108, cpl: 209.26, qualified: 43, cpql: 525.58, deals: 5, revenue: 319000, roas: 14.12 },
+      { month: "Jun '25", spend: 24800, leads: 132, cpl: 187.88, qualified: 56, cpql: 442.86, deals: 6, revenue: 358200, roas: 14.44 },
+      { month: "Jul '25", spend: 25400, leads: 148, cpl: 171.62, qualified: 65, cpql: 390.77, deals: 6, revenue: 385200, roas: 15.17 },
+      { month: "Aug '25", spend: 23700, leads: 142, cpl: 166.90, qualified: 63, cpql: 376.19, deals: 5, revenue: 312000, roas: 13.16 },
+      { month: "Sep '25", spend: 21200, leads: 138, cpl: 153.62, qualified: 61, cpql: 347.54, deals: 6, revenue: 343800, roas: 16.22 },
+      { month: "Oct '25", spend: 19600, leads: 146, cpl: 134.25, qualified: 65, cpql: 301.54, deals: 5, revenue: 307500, roas: 15.69 },
+      { month: "Nov '25", spend: 17800, leads: 154, cpl: 115.58, qualified: 69, cpql: 257.97, deals: 5, revenue: 294500, roas: 16.54 },
+      { month: "Dec '25", spend: 15600, leads: 148, cpl: 105.41, qualified: 66, cpql: 236.36, deals: 3, revenue: 171600, roas: 11.00 },
+      { month: "Jan '26", spend: 18200, leads: 162, cpl: 112.35, qualified: 73, cpql: 249.32, deals: 6, revenue: 380400, roas: 20.90 },
     ],
   },
   impact: [
-    { label: "Total Contracted Revenue", value: "$3.41M", growth: "+412%" },
-    { label: "Signed Contracts", value: "56", growth: "+367%" },
-    { label: "Avg Contract Value", value: "$60.8K", growth: "" },
-    { label: "Blended ROAS", value: "14.18x", growth: "" },
+    { label: "Total Contracted Revenue", value: "$3.35M", growth: "+398%" },
+    { label: "Signed Contracts", value: "55", growth: "+358%" },
+    { label: "Avg Contract Value", value: "$60.9K", growth: "" },
+    { label: "Blended ROAS", value: "13.94x", growth: "" },
   ],
 };
