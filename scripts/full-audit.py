@@ -223,7 +223,7 @@ for filepath in files:
             if abs(expected_roas - roas) > 0.15:
                 errors.append(f"  {month}: ROAS mismatch — stated {roas:.2f}x, actual {expected_roas:.2f}x")
             # Hard ROAS cap: lead gen max 4.8x, ecom max 8.0x, high-ticket max 35x
-            high_ticket_slugs = ['pool-installation', 'pool-construction', 'general-contracting', 'home-renovation', 'luxury-home-builder', 'custom-home-building', 'dentistry-florida', 'dental-implants', 'cosmetic-dentistry', 'peptides-national', 'solar-installation']
+            high_ticket_slugs = ['pool-installation', 'pool-construction', 'general-contracting', 'home-renovation', 'home-remodeling', 'luxury-home-builder', 'custom-home-building', 'dentistry-florida', 'dental-implants', 'cosmetic-dentistry', 'peptides-national', 'solar-installation']
             is_high_ticket = any(slug in filepath for slug in high_ticket_slugs)
             is_ecom_file = not is_high_ticket and (is_ecom or any(k in content for k in ['addToCart', 'add_to_cart', 'Sessions', 'Orders', 'Add to Cart', 'columnLabels']))
             ultra_high_ticket_slugs = ['solar-installation', 'solar']

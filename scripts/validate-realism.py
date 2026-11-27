@@ -168,7 +168,7 @@ def validate_file(filepath):
     has_add_to_cart = 'addToCart' in content or bool(re.search(r'["\']Add to Cart["\']', content))
     has_ticket = bool(re.search(r'["\']Ticket (Purchases|Selections)["\']', content))
     is_ecom = (has_sessions and has_orders) or has_add_to_cart or (has_sessions and has_ticket) or (has_sessions and has_subscribers)
-    high_ticket_slugs = ['pool-installation', 'pool-construction', 'general-contracting', 'home-renovation', 'luxury-home-builder', 'custom-home-building', 'dentistry-florida', 'dental-implants', 'cosmetic-dentistry', 'peptides-national', 'solar-installation']
+    high_ticket_slugs = ['pool-installation', 'pool-construction', 'general-contracting', 'home-renovation', 'home-remodeling', 'luxury-home-builder', 'custom-home-building', 'dentistry-florida', 'dental-implants', 'cosmetic-dentistry', 'peptides-national', 'solar-installation']
     is_high_ticket_slug = any(s in fname for s in high_ticket_slugs)
     ultra_high_ticket_slugs = ['solar-installation', 'solar']
     is_ultra_high_ticket = any(s in fname for s in ultra_high_ticket_slugs)

@@ -270,6 +270,8 @@ import { renovationOutlet } from "./renovation-outlet";
 import { financialServicesCalifornia } from "./financial-services-california";
 import { outdoorBackyardFurniture } from "./outdoor-backyard-furniture";
 import { homeRemodelingAz } from "./home-remodeling-az";
+import { homeRemodelingDallas } from "./home-remodeling-dallas";
+import { homeRemodelingDenver } from "./home-remodeling-denver";
 import { hvacNewMexico } from "./hvac-new-mexico";
 import { weddingPhotographyAtlanta } from "./wedding-photography-atlanta";
 import { exteriorBuildingMaterialsAz } from "./exterior-building-materials-az";
@@ -460,6 +462,7 @@ import { homeRenovationsInteriorNc } from "./home-renovations-interior-nc";
 import { mensApparelBrand } from "./mens-apparel-brand";
 import { highEndWomensOuterwear } from "./high-end-womens-outerwear";
 import { roofingSouthCarolina } from "./roofing-south-carolina";
+import { homeRemodelingCharlotte } from "./home-remodeling-charlotte";
 export const caseStudies: Record<string, CaseStudyData> = {
   "criminal-law-phoenix": criminalLawPhoenix,
   "divorce-law-chicago": divorceLawChicago,
@@ -551,6 +554,8 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "b2b-saas-national": b2bSaasNational,
   "outdoor-backyard-furniture": outdoorBackyardFurniture,
   "home-remodeling-az": homeRemodelingAz,
+  "home-remodeling-dallas": homeRemodelingDallas,
+  "home-remodeling-denver": homeRemodelingDenver,
   "hvac-new-mexico": hvacNewMexico,
   "wedding-photography-atlanta": weddingPhotographyAtlanta,
   "exterior-building-materials-az": exteriorBuildingMaterialsAz,
@@ -921,6 +926,7 @@ export const caseStudies: Record<string, CaseStudyData> = {
   "real-estate-investment": realEstateInvestment,
   "solar-installation": solarInstallation,
   "roofing-south-carolina": roofingSouthCarolina,
+  "home-remodeling-charlotte": homeRemodelingCharlotte,
 };
 
 export type { CaseStudyData };
